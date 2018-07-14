@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./xsd/Fishing.xsd">
+	<baitDistance min="90" max="250" />
+	<experienceRate min="650" max="700" />
+	<skillPointsRate min="40" max="45" />
+	<baits>
+		<bait itemId="45495" level="1" minPlayerLevel="85" chance="64" timeMin="45000" timeMax="45000" waitMin="15000" waitMax="15000"> <!-- Normal Bait -->
+			<catch itemId="45473" /> <!-- Fresh Blue Mackerel -->
+			<catch itemId="45474" /> <!-- Fresh Minnow -->
+			<catch itemId="45475" /> <!-- Fresh Flatcatch -->
+			<catch itemId="45476" /> <!-- Fresh Mandarin catch -->
+			<catch itemId="45477" /> <!-- Fresh Rockcatch -->
+			<catch itemId="45478" /> <!-- Fresh Goldcatch -->
+			<catch itemId="45479" /> <!-- Fresh Salmon -->
+			<catch itemId="45480" /> <!-- Fresh Eel -->
+			<catch itemId="45486" /> <!-- Wooden Treasure Chest -->
+		</bait>
+		<bait itemId="45496" level="2" minPlayerLevel="85" chance="64" timeMin="45000" timeMax="45000" waitMin="15000" waitMax="15000"> <!-- Special Bait -->
+			<catch itemId="45481" /> <!-- Fresh Marlin -->
+			<catch itemId="45482" /> <!-- Fresh Catcatch -->
+			<catch itemId="45483" /> <!-- Fresh Tuna -->
+			<catch itemId="45484" /> <!-- Fresh Carp -->
+			<catch itemId="45485" /> <!-- Fresh Whale -->
+			<catch itemId="45487" /> <!-- Silver Treasure Chest -->
+			<catch itemId="45488" /> <!-- Golden Treasure Chest -->
+		</bait>
+		<bait itemId="46084" level="3" minPlayerLevel="85" chance="30" timeMin="45000" timeMax="45000" waitMin="15000" waitMax="15000"> <!-- Player Commendation Special Bait -->
+			<catch itemId="46085" /> <!-- Treasure Map Piece - 1 -->
+			<catch itemId="46086" /> <!-- Treasure Map Piece - 2 -->
+			<catch itemId="46087" /> <!-- Treasure Map Piece - 3 -->
+			<catch itemId="46088" /> <!-- Treasure Map Piece - 4 -->
+			<catch itemId="46089" /> <!-- Treasure Map Piece - 5 -->
+		</bait>
+		<bait itemId="46737" level="1" minPlayerLevel="85" chance="30" timeMin="10000" timeMax="10000" waitMin="15000" waitMax="15000"> <!-- Practice Bait -->
+			<catch itemId="46736" /> <!-- Practice Fish -->
+		</bait>
+		<bait itemId="47547" level="1" minPlayerLevel="85" chance="10" timeMin="105000" timeMax="105000" waitMin="15000" waitMax="15000"> <!-- Bait -->
+			<catch itemId="47553" /> <!-- Blueish Box -->
+		</bait>
+		<bait itemId="47548" level="2" minPlayerLevel="99" chance="10" timeMin="105000" timeMax="105000" waitMin="15000" waitMax="15000"> <!-- Bait -->
+			<catch itemId="47554" /> <!-- Redish Box -->
+		</bait>
+	</baits>
+</list>

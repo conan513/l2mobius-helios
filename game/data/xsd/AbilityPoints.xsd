@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="list">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="points" maxOccurs="unbounded" minOccurs="1">
+					<xs:complexType>
+						<xs:attribute type="xs:positiveInteger" name="from" use="required" />
+						<xs:attribute type="xs:positiveInteger" name="to" use="required" />
+						<xs:attribute type="xs:long" name="costs" use="required" />
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

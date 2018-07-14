@@ -1,0 +1,3173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/npcs.xsd">
+	<npc id="23700" level="100" type="L2Npc" name="Altar Guardian">
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="436754" hpRegen="7.5" mp="24308" mpRegen="2.7" />
+			<speed>
+				<walk ground="60" />
+				<run ground="240" />
+			</speed>
+			<attack physical="23610.1029394933" magical="5767.28134561036" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3839.95121517957" magical="2066.69244923556" />
+			<attribute>
+			<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+		</stats>
+		<collision>
+			<radius normal="9" />
+			<height normal="23" />
+		</collision>
+	</npc>
+	<npc id="23701" level="100" type="L2Npc" name="Knight Guard" title="Dragonclaw Clan">
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="53771" hpRegen="7.5" mp="23928" mpRegen="2.7" />
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+			<attack physical="23610.1029394933" magical="5767.28134561036" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3839.95121517957" magical="2066.69244923556" />
+			<attribute>
+			<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+		</stats>
+		<collision>
+			<radius normal="9" />
+			<height normal="18" />
+		</collision>
+	</npc>
+	<npc id="23702" level="101" type="L2Npc" name="Duran" title="Dragonclaw Royal Guard">
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="436754" hpRegen="7.5" mp="24308" mpRegen="2.7" />
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+			<attack physical="23610.1029394933" magical="5767.28134561036" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3839.95121517957" magical="2066.69244923556" />
+			<attribute>
+			<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+		</stats>
+		<collision>
+			<radius normal="9" />
+			<height normal="23" />
+		</collision>
+	</npc>
+	<npc id="23703" level="101" type="L2Npc" name="Ice Knight" title="Winter Omen">
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="403282" hpRegen="7.5" mp="23928" mpRegen="2.7" />
+			<speed>
+				<walk ground="20" />
+				<run ground="180" />
+			</speed>
+			<attack physical="23610.1029394933" magical="5767.28134561036" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3839.95121517957" magical="2066.69244923556" />
+			<attribute>
+			<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+		</stats>
+		<skill_list>
+			<skill id="5463" level="1" /> <!-- Water Attack -->
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+		</skill_list>
+		<collision>
+			<radius normal="15" />
+			<height normal="31" />
+		</collision>
+	</npc>
+	<npc id="23704" level="101" type="L2Npc" name="Ifrit" title="Master of Flames">
+		<race>ELEMENTAL</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="418660" hpRegen="7.5" mp="47856" mpRegen="2.7" />
+			<speed>
+				<walk ground="38" />
+				<run ground="180" />
+			</speed>
+			<attack physical="23610.1029394933" magical="5767.28134561036" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3839.95121517957" magical="2066.69244923556" />
+			<attribute>
+			<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+		</stats>
+		<skill_list>
+			<skill id="5462" level="1" /> <!-- Fire Attack -->
+			<skill id="4416" level="7" /> <!-- Spirits -->
+		</skill_list>
+		<collision>
+			<radius normal="13" />
+			<height normal="55" />
+		</collision>
+	</npc>
+	<npc id="23705" level="101" type="L2Npc" name="Arimanes" title="Master of Flames">
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="418660" hpRegen="7.5" mp="47856" mpRegen="2.7" />
+			<speed>
+				<walk ground="35" />
+				<run ground="180" />
+			</speed>
+			<attack physical="23610.1029394933" magical="5767.28134561036" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3839.95121517957" magical="2066.69244923556" />
+			<attribute>
+			<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+		</stats>
+		<skill_list>
+			<skill id="5462" level="1" /> <!-- Fire Attack -->
+			<skill id="4416" level="9" /> <!-- Demons -->
+		</skill_list>
+		<collision>
+			<radius normal="14" grown="17" />
+			<height normal="57.75" grown="69" />
+		</collision>
+	</npc>
+	<npc id="23706" level="100" type="L2Npc" name="Kelbim's Follower">
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="15841" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+			<attack physical="23610.1029394933" magical="5767.28134561036" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3839.95121517957" magical="2066.69244923556" />
+			<attribute>
+			<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+		</stats>
+		<collision>
+			<radius normal="7.5" />
+			<height normal="24" />
+		</collision>
+	</npc>
+	<npc id="23707" level="100" type="L2Npc" name="Kelbim's Follower">
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="15841" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+			<attack physical="23610.1029394933" magical="5767.28134561036" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3839.95121517957" magical="2066.69244923556" />
+			<attribute>
+			<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+		</stats>
+		<collision>
+			<radius normal="7" />
+			<height normal="27" />
+		</collision>
+	</npc>
+	<npc id="23708" level="100" type="L2Npc" name="Kelbim's Follower">
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="436754" hpRegen="7.5" mp="24308" mpRegen="2.7" />
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+			<attack physical="23610.1029394933" magical="5767.28134561036" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3839.95121517957" magical="2066.69244923556" />
+			<attribute>
+			<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+		</stats>
+		<collision>
+			<radius normal="9" />
+			<height normal="18" />
+		</collision>
+	</npc>
+	<npc id="23709" level="100" type="L2Npc" name="Flame Scarab">
+		<race>BUG</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="215084" hpRegen="7.5" mp="23928" mpRegen="2.7" />
+			<speed>
+				<walk ground="45" />
+				<run ground="180" />
+			</speed>
+			<attack physical="23610.1029394933" magical="5767.28134561036" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3839.95121517957" magical="2066.69244923556" />
+			<attribute>
+			<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+		</stats>
+		<skill_list>
+			<skill id="5462" level="1" /> <!-- Fire Attack -->
+			<skill id="4416" level="12" /> <!-- Bugs -->
+		</skill_list>
+		<collision>
+			<radius normal="14" />
+			<height normal="22" />
+		</collision>
+	</npc>
+	<npc id="23710" level="100" type="L2Npc" name="Knight Guardian">
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="436754" hpRegen="7.5" mp="24308" mpRegen="2.7" />
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+			<attack physical="23610.1029394933" magical="5767.28134561036" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3839.95121517957" magical="2066.69244923556" />
+			<attribute>
+			<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+		</stats>
+		<collision>
+			<radius normal="7.5" />
+			<height normal="24" />
+		</collision>
+	</npc>
+	<npc id="23711" level="100" type="L2Npc" name="Altar Guardian Soldier">
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="436754" hpRegen="7.5" mp="24308" mpRegen="2.7" />
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+			<attack physical="23610.1029394933" magical="5767.28134561036" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3839.95121517957" magical="2066.69244923556" />
+			<attribute>
+			<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+		</stats>
+		<collision>
+			<radius normal="7" />
+			<height normal="27" />
+		</collision>
+	</npc>
+	<npc id="23712" level="100" type="L2Npc" name="Altar Guardian Archer">
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="15302" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="53771" hpRegen="7.5" mp="23928" mpRegen="2.7" />
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+			<attack physical="23610.1029394933" magical="5767.28134561036" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3839.95121517957" magical="2066.69244923556" />
+			<attribute>
+			<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+		</stats>
+		<collision>
+			<radius normal="7.5" />
+			<height normal="24" />
+		</collision>
+	</npc>
+	<npc id="23713" level="100" type="L2Npc" name="Altar Guardian Wizard">
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="436754" hpRegen="7.5" mp="24308" mpRegen="2.7" />
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+			<attack physical="23610.1029394933" magical="5767.28134561036" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3839.95121517957" magical="2066.69244923556" />
+			<attribute>
+			<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+		</stats>
+		<collision>
+			<radius normal="6.5" />
+			<height normal="22.5" />
+		</collision>
+	</npc>
+	<npc id="23714" level="85" type="L2Npc" name="Cyclone" title="Typhoon's Guardian">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="436754" hpRegen="7.5" mp="24308" mpRegen="2.7" />
+			<speed>
+				<walk ground="30" />
+				<run ground="200" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="18" />
+			<height normal="25" />
+		</collision>
+	</npc>
+	<npc id="23715" level="85" type="L2Npc" name="Hurricane" title="Typhoon's Guardian">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="436754" hpRegen="7.5" mp="24308" mpRegen="2.7" />
+			<speed>
+				<walk ground="30" />
+				<run ground="200" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="18" />
+			<height normal="25" />
+		</collision>
+	</npc>
+	<npc id="23716" level="100" type="L2Npc" name="Wild Hog Cannon">
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="436754" hpRegen="7.5" mp="24308" mpRegen="2.7" />
+			<speed>
+				<walk ground="10" />
+				<run ground="200" />
+			</speed>
+			<attack physical="23610.1029394933" magical="5767.28134561036" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3839.95121517957" magical="2066.69244923556" />
+			<attribute>
+			<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+		</stats>
+		<collision>
+			<radius normal="46.5" />
+			<height normal="43.5" />
+		</collision>
+	</npc>
+	<npc id="23717" level="100" type="L2Npc" name="Siege Golem">
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="436754" hpRegen="7.5" mp="24308" mpRegen="2.7" />
+			<speed>
+				<walk ground="70" />
+				<run ground="180" />
+			</speed>
+			<attack physical="23610.1029394933" magical="5767.28134561036" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3839.95121517957" magical="2066.69244923556" />
+			<attribute>
+			<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+		</stats>
+		<collision>
+			<radius normal="50" />
+			<height normal="68" />
+		</collision>
+	</npc>
+	<npc id="23718" level="100" type="L2Monster" name="Glacier Golem">
+		<!-- Source: www.l2wiki.com -->
+		<race>ELEMENTAL</race>
+		<acquire exp="191032200" sp="382100" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="268854" hpRegen="10.5" mp="23928" mpRegen="3.6" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<attack physical="47619.04761904762" magical="8403.361344537815" critical="4" attackSpeed="253" range="40" />
+			<defence physical="3703.703703703704" magical="2150.537634408602" />
+		</stats>
+		<skill_list>
+			<skill id="4416" level="7" /> <!-- Spirits -->
+			<skill id="5463" level="1" /> <!-- Water Attack -->
+		</skill_list>
+		<collision>
+			<radius normal="40" />
+			<height normal="37.4" />
+		</collision>
+	</npc>
+	<npc id="23719" level="100" type="L2Npc" name="Frozen Knight">
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="53771" hpRegen="7.5" mp="23928" mpRegen="2.7" />
+			<speed>
+				<walk ground="36" />
+				<run ground="180" />
+			</speed>
+			<attack physical="23610.1029394933" magical="5767.28134561036" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3839.95121517957" magical="2066.69244923556" />
+			<attribute>
+			<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+		</stats>
+		<skill_list>
+			<skill id="5463" level="1" /> <!-- Water Attack -->
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+		</skill_list>
+		<collision>
+			<radius normal="12" />
+			<height normal="25" />
+		</collision>
+	</npc>
+	<npc id="23720" level="56" type="L2Monster" name="Panthera">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>BEAST</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="15841" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5463" level="1" /> <!-- Water Attack -->
+			<skill id="4416" level="3" /> <!-- Beast -->
+		</skill_list>
+		<collision>
+			<radius normal="34" />
+			<height normal="28" />
+		</collision>
+		<drop_lists>
+			<drop>
+				<item id="57" min="85" max="199" chance="70" /> <!-- Adena -->
+				<item id="36522" min="1" max="1" chance="2.179" /> <!-- Silver -->
+			</drop>
+			<spoil>
+				<item id="36531" min="1" max="1" chance="32.68" /> <!-- Thread -->
+				<item id="36532" min="1" max="1" chance="0.75" /> <!-- Thin Braid -->
+				<item id="36880" min="1" max="1" chance="0.003" /> <!-- Recipe: Thread - Downgrade -->
+			</spoil>
+			<lucky_drop>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</lucky_drop>
+		</drop_lists>
+	</npc>
+	<npc id="23721" level="100" type="L2Npc" name="Maze Buffalo">
+		<race>BEAST</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="15841" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="20" />
+				<run ground="180" />
+			</speed>
+			<attack physical="23610.1029394933" magical="5767.28134561036" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3839.95121517957" magical="2066.69244923556" />
+			<attribute>
+			<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+		</stats>
+		<skill_list>
+			<skill id="5463" level="1" /> <!-- Water Attack -->
+			<skill id="4416" level="3" /> <!-- Beast -->
+		</skill_list>
+		<collision>
+			<radius normal="22" grown="27" />
+			<height normal="31" grown="38" />
+		</collision>
+	</npc>
+	<npc id="23722" level="61" type="L2Monster" name="Frost Buffalo">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>BEAST</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="15841" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="20" />
+				<run ground="180" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5463" level="1" /> <!-- Water Attack -->
+			<skill id="4416" level="3" /> <!-- Beast -->
+		</skill_list>
+		<collision>
+			<radius normal="24" />
+			<height normal="34.7" />
+		</collision>
+		<drop_lists>
+			<drop>
+				<item id="57" min="96" max="225" chance="70" /> <!-- Adena -->
+				<item id="36527" min="1" max="1" chance="7.262" /> <!-- Synthetic Fiber -->
+				<!-- FIXME: Also drops herbs. -->
+				<item id="8600" min="1" max="1" chance="10" /> <!-- Herb of Life -->
+				<item id="8601" min="1" max="1" chance="8" /> <!-- Major Herb of Life -->
+				<item id="8602" min="1" max="1" chance="2" /> <!-- Superior Herb of Life -->
+				<item id="8603" min="1" max="1" chance="19.8" /> <!-- Herb of Mana -->
+				<item id="8604" min="1" max="1" chance="9.9" /> <!-- Major Herb of Mana -->
+				<item id="8605" min="1" max="1" chance="3.3" /> <!-- Superior Herb of Mana -->
+				<item id="34849" min="1" max="1" chance="0.7" /> <!-- Mysterious Herb of Power -->
+				<item id="34850" min="1" max="1" chance="0.7" /> <!-- Mysterious Herb of Magic -->
+				<item id="13028" min="1" max="1" chance="0.1" /> <!-- Vitality Replenishing Herb -->
+			</drop>
+			<spoil>
+				<item id="36531" min="1" max="1" chance="21.07" /> <!-- Thread -->
+				<item id="36532" min="1" max="1" chance="0.3" /> <!-- Thin Braid -->
+				<item id="36880" min="1" max="1" chance="0.003" /> <!-- Recipe: Thread - Downgrade -->
+				<item id="36882" min="1" max="1" chance="0.003" /> <!-- Recipe: Thin Braid - Upgrade -->
+				<item id="36881" min="1" max="1" chance="9" /> <!-- Recipe: Thin Braid - Downgrade -->
+			</spoil>
+			<lucky_drop>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</lucky_drop>
+		</drop_lists>
+	</npc>
+	<npc id="23723" level="100" type="L2Npc" name="Frost Ursus">
+		<race>ANIMAL</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="15841" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="40" />
+				<run ground="180" />
+			</speed>
+			<attack physical="23610.1029394933" magical="5767.28134561036" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3839.95121517957" magical="2066.69244923556" />
+			<attribute>
+			<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+		</stats>
+		<skill_list>
+			<skill id="5463" level="1" /> <!-- Water Attack -->
+			<skill id="4416" level="4" /> <!-- Animals -->
+		</skill_list>
+		<collision>
+			<radius normal="21" />
+			<height normal="40" />
+		</collision>
+	</npc>
+	<npc id="23724" level="70" type="L2Monster" name="Buffalo">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>BEAST</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="15841" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="80" />
+				<run ground="180" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5463" level="1" /> <!-- Water Attack -->
+			<skill id="4416" level="3" /> <!-- Beast -->
+		</skill_list>
+		<collision>
+			<radius normal="22" grown="27" />
+			<height normal="31" grown="38" />
+		</collision>
+		<drop_lists>
+			<drop>
+				<item id="57" min="57" max="131" chance="70" /> <!-- Adena -->
+				<item id="36518" min="1" max="1" chance="0.3" /> <!-- Durable Leather -->
+				<item id="36862" min="1" max="1" chance="0.0009" /> <!-- Recipe: Quality Leather - Upgrade -->
+				<!-- FIXME: Also drops herbs. -->
+				<item id="8600" min="1" max="1" chance="10" /> <!-- Herb of Life -->
+				<item id="8601" min="1" max="1" chance="8" /> <!-- Major Herb of Life -->
+				<item id="8602" min="1" max="1" chance="2" /> <!-- Superior Herb of Life -->
+				<item id="8603" min="1" max="1" chance="19.8" /> <!-- Herb of Mana -->
+				<item id="8604" min="1" max="1" chance="9.9" /> <!-- Major Herb of Mana -->
+				<item id="8605" min="1" max="1" chance="3.3" /> <!-- Superior Herb of Mana -->
+				<item id="34849" min="1" max="1" chance="0.7" /> <!-- Mysterious Herb of Power -->
+				<item id="34850" min="1" max="1" chance="0.7" /> <!-- Mysterious Herb of Magic -->
+				<item id="13028" min="1" max="1" chance="0.1" /> <!-- Vitality Replenishing Herb -->
+			</drop>
+			<spoil>
+				<item id="36518" min="1" max="1" chance="0.75" /> <!-- Durable Leather -->
+			</spoil>
+			<lucky_drop>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</lucky_drop>
+		</drop_lists>
+	</npc>
+	<npc id="23725" level="62" type="L2Monster" name="Ursus">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>ANIMAL</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="15841" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="40" />
+				<run ground="180" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="5463" level="1" /> <!-- Water Attack -->
+			<skill id="4416" level="4" /> <!-- Animals -->
+		</skill_list>
+		<collision>
+			<radius normal="21" />
+			<height normal="40" />
+		</collision>
+		<drop_lists>
+			<drop>
+				<item id="57" min="105" max="245" chance="70" /> <!-- Adena -->
+				<item id="36518" min="1" max="1" chance="1.413" /> <!-- Durable Leather -->
+			</drop>
+			<spoil>
+				<item id="36532" min="1" max="1" chance="0.75" /> <!-- Thin Braid -->
+				<item id="36882" min="1" max="1" chance="0.003" /> <!-- Recipe: Thin Braid - Upgrade -->
+				<item id="36881" min="1" max="1" chance="9" /> <!-- Recipe: Thin Braid - Downgrade -->
+			</spoil>
+			<lucky_drop>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</lucky_drop>
+		</drop_lists>
+	</npc>
+	<npc id="23726" level="100" type="L2Npc" name="Frost Glacier Golem">
+		<race>ELEMENTAL</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="524266" hpRegen="7.5" mp="23928" mpRegen="2.7" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<attack physical="23610.1029394933" magical="5767.28134561036" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3839.95121517957" magical="2066.69244923556" />
+			<attribute>
+			<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+		</stats>
+		<skill_list>
+			<skill id="5463" level="1" /> <!-- Water Attack -->
+			<skill id="4416" level="7" /> <!-- Spirits -->
+		</skill_list>
+		<collision>
+			<radius normal="50" />
+			<height normal="47.5" />
+		</collision>
+	</npc>
+	<npc id="23727" level="100" type="L2Monster" name="Shaqrima Bathus">
+		<race>GIANT</race>
+		<acquire exp="666656799" sp="666700" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78"> 
+			<vitals hp="1088861" hpRegen="10.5" mp="23928" mpRegen="3.6" />
+			<speed>
+				<walk ground="55" />
+				<run ground="180" />
+			</speed>
+			<attack physical="23610.1029394933" magical="5767.28134561036" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3839.95121517957" magical="2066.69244923556" />
+			<attribute>
+			<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+		</stats>
+		<skill_list>
+			<skill id="4416" level="11" /> <!-- Giants -->
+			<skill id="5465" level="1" /> <!-- Earth Attack -->
+			<skill id="14823" level="1" /> <!-- Lethal Strike Resistance -->
+			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
+			<skill id="4379" level="5" /> <!-- Spear Resistance -->
+			<skill id="4435" level="5" /> <!-- Greater Stun Resistance -->
+			<skill id="4461" level="1" /> <!-- Dagger/Rapier Vulnerability -->
+			<skill id="16608" level="1" /> <!-- Servitor Attack Weakness -->
+			<skill id="4071" level="1" /> <!-- Bow/Crossbow Resistance -->
+		</skill_list>
+		<collision>
+			<radius normal="24" />
+			<height normal="46" />
+		</collision>
+		<drop_lists>
+			<drop>
+				<item id="17444" min="1" max="1" chance="0.0075" /> <!-- Eternal Gloves -->
+				<item id="17443" min="1" max="1" chance="0.003" /> <!-- Eternal Stockings -->
+				<item id="17417" min="1" max="1" chance="0.0009" /> <!-- Helios Cutter -->
+				<item id="57" min="23574" max="54960" chance="70" /> <!-- Adena -->
+				<item id="47249" min="1" max="1" chance="3.829" /> <!-- Giant Stone -->
+				<item id="36529" min="1" max="1" chance="2.727" /> <!-- Quality Fiber -->
+				<item id="35351" min="1" max="1" chance="0.3" /> <!-- Eternal Stocking Ingredient -->
+				<item id="35352" min="1" max="1" chance="0.3" /> <!-- Eternal Glove Ingredient -->
+				<item id="36530" min="1" max="1" chance="0.3" /> <!-- Exquisite Fiber -->
+				<item id="35476" min="1" max="1" chance="0.03" /> <!-- Recipe: Eternal Gloves (60%) -->
+				<item id="35475" min="1" max="1" chance="0.003" /> <!-- Recipe: Eternal Stockings (60%) -->
+			</drop>
+			<spoil>
+				<item id="36524" min="1" max="1" chance="5.029" /> <!-- Orichalcum -->
+				<item id="36525" min="1" max="1" chance="0.3" /> <!-- Durandil -->
+				<item id="46080" min="1" max="1" chance="0.3" /> <!-- Recipe: Mysterious Soulshot (R-grade) -->
+			</spoil>
+			<lucky_drop>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</lucky_drop>
+		</drop_lists>
+	</npc>
+	<npc id="23728" level="100" type="L2Monster" name="Shaqrima Carcass">
+		<race>GIANT</race>
+		<acquire exp="666656799" sp="666700" />
+		<equipment rhand="15304" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1088861" hpRegen="10.5" mp="23928" mpRegen="3.6" />
+			<speed>
+				<walk ground="55" />
+				<run ground="190" />
+			</speed>
+			<attack physical="23610.1029394933" magical="5767.28134561036" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3839.95121517957" magical="2066.69244923556" />
+			<attribute>
+			<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+		</stats>
+		<skill_list>
+			<skill id="4416" level="11" /> <!-- Giants -->
+			<skill id="5465" level="1" /> <!-- Earth Attack -->
+			<skill id="14823" level="1" /> <!-- Lethal Strike Resistance -->
+			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
+			<skill id="4379" level="5" /> <!-- Spear Resistance -->
+			<skill id="4461" level="1" /> <!-- Dagger/Rapier Vulnerability -->
+			<skill id="16608" level="1" /> <!-- Servitor Attack Weakness -->
+			<skill id="4071" level="1" /> <!-- Bow/Crossbow Resistance -->
+		</skill_list>
+		<collision>
+			<radius normal="24" />
+			<height normal="42.5" />
+		</collision>
+		<drop_lists>
+			<drop>
+				<item id="17445" min="1" max="1" chance="0.03" /> <!-- Eternal Shoes -->
+				<item id="57" min="23574" max="54960" chance="70" /> <!-- Adena -->
+				<item id="47249" min="1" max="1" chance="3.87" /> <!-- Giant Stone -->
+				<item id="36529" min="1" max="1" chance="3.626" /> <!-- Quality Fiber -->
+				<item id="35353" min="1" max="1" chance="0.75" /> <!-- Eternal Shoe Ingredient -->
+				<item id="36530" min="1" max="1" chance="0.3" /> <!-- Exquisite Fiber -->
+				<item id="35477" min="1" max="1" chance="0.03" /> <!-- Recipe: Eternal Shoes (60%) -->
+			</drop>
+			<spoil>
+				<item id="36524" min="1" max="1" chance="7.508" /> <!-- Orichalcum -->
+				<item id="36525" min="1" max="1" chance="0.3" /> <!-- Durandil -->
+			</spoil>
+			<lucky_drop>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</lucky_drop>
+		</drop_lists>
+	</npc>
+	<npc id="23729" level="100" type="L2Monster" name="Shaqrima Kshana">
+		<race>GIANT</race>
+		<acquire exp="666656799" sp="666700" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1088861" hpRegen="10.5" mp="23928" mpRegen="3.6" />
+			<speed>
+				<walk ground="55" />
+				<run ground="180" />
+			</speed>
+			<attack physical="23610.1029394933" magical="5767.28134561036" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3839.95121517957" magical="2066.69244923556" />
+			<attribute>
+			<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+		</stats>
+		<skill_list>
+			<skill id="4416" level="11" /> <!-- Giants -->
+			<skill id="5465" level="1" /> <!-- Earth Attack -->
+			<skill id="14823" level="1" /> <!-- Lethal Strike Resistance -->
+			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
+			<skill id="4379" level="5" /> <!-- Spear Resistance -->
+			<skill id="4438" level="5" /> <!-- Greater Sleep Resistance -->
+			<skill id="4461" level="1" /> <!-- Dagger/Rapier Vulnerability -->
+			<skill id="16608" level="1" /> <!-- Servitor Attack Weakness -->
+			<skill id="4071" level="1" /> <!-- Bow/Crossbow Resistance -->
+		</skill_list>
+		<collision>
+			<radius normal="24" />
+			<height normal="47.5" />
+		</collision>
+		<drop_lists>
+			<drop>
+				<item id="17441" min="1" max="1" chance="0.03" /> <!-- Eternal Circlet -->
+				<item id="57" min="23574" max="54960" chance="70" /> <!-- Adena -->
+				<item id="47249" min="1" max="1" chance="3.828" /> <!-- Giant Stone -->
+				<item id="36529" min="1" max="1" chance="3.66" /> <!-- Quality Fiber -->
+				<item id="35349" min="1" max="1" chance="0.75" /> <!-- Eternal Circlet Ingredient -->
+				<item id="36530" min="1" max="1" chance="0.3" /> <!-- Exquisite Fiber -->
+				<item id="35473" min="1" max="1" chance="0.0075" /> <!-- Recipe: Eternal Circlet (60%) -->
+			</drop>
+			<spoil>
+				<item id="36524" min="1" max="1" chance="7.566" /> <!-- Orichalcum -->
+				<item id="36525" min="1" max="1" chance="0.3" /> <!-- Durandil -->
+			</spoil>
+			<lucky_drop>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</lucky_drop>
+		</drop_lists>
+	</npc>
+	<npc id="23730" level="101" type="L2Monster" name="Om Bathus">
+		<race>GIANT</race>
+		<acquire exp="593525905" sp="593596" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="786157" hpRegen="11.5" mp="24308" mpRegen="3.9" />
+			<speed>
+				<walk ground="55" />
+				<run ground="180" />
+			</speed>
+			<attack physical="23610.1029394933" magical="5767.28134561036" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3839.95121517957" magical="2066.69244923556" />
+			<attribute>
+			<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+		</stats>
+		<skill_list>
+			<skill id="4416" level="11" /> <!-- Giants -->
+			<skill id="5465" level="1" /> <!-- Earth Attack -->
+			<skill id="14823" level="1" /> <!-- Lethal Strike Resistance -->
+			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
+			<skill id="4379" level="5" /> <!-- Spear Resistance -->
+			<skill id="4435" level="5" /> <!-- Greater Stun Resistance -->
+			<skill id="4461" level="1" /> <!-- Dagger/Rapier Vulnerability -->
+			<skill id="16608" level="1" /> <!-- Servitor Attack Weakness -->
+			<skill id="4071" level="1" /> <!-- Bow/Crossbow Resistance -->
+		</skill_list>
+		<collision>
+			<radius normal="24" />
+			<height normal="46" />
+		</collision>
+		<drop_lists>
+			<drop>
+				<item id="17423" min="1" max="1" chance="0.003" /> <!-- Helios Shooter -->
+				<item id="57" min="16787" max="39233" chance="70" /> <!-- Adena -->
+				<item id="35328" min="1" max="1" chance="0.3" /> <!-- Helios Cutter Fragment -->
+				<item id="36559" min="1" max="1" chance="0.3" /> <!-- Accessory Gem (High-grade) -->
+				<item id="36549" min="1" max="1" chance="0.075" /> <!-- Weapon Fragment (High-grade) -->
+				<item id="36560" min="1" max="1" chance="0.03" /> <!-- Accessory Gem (Top-grade) -->
+				<item id="36875" min="1" max="1" chance="0.0075" /> <!-- Recipe: Metallic Fiber - Downgrade -->
+			</drop>
+			<spoil>
+				<item id="36524" min="1" max="1" chance="3.533" /> <!-- Orichalcum -->
+				<item id="36525" min="1" max="1" chance="0.3" /> <!-- Durandil -->
+				<item id="46080" min="1" max="1" chance="0.3" /> <!-- Recipe: Mysterious Soulshot (R-grade) -->
+			</spoil>
+			<lucky_drop>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</lucky_drop>
+		</drop_lists>
+	</npc>
+	<npc id="23731" level="101" type="L2Monster" name="Om Carcass">
+		<race>GIANT</race>
+		<acquire exp="593525905" sp="593596" />
+		<equipment rhand="15304" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="786157" hpRegen="11.5" mp="24308" mpRegen="3.9" />
+			<speed>
+				<walk ground="55" />
+				<run ground="190" />
+			</speed>
+			<attack physical="23610.1029394933" magical="5767.28134561036" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3839.95121517957" magical="2066.69244923556" />
+			<attribute>
+			<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+		</stats>
+		<skill_list>
+			<skill id="4416" level="11" /> <!-- Giants -->
+			<skill id="5465" level="1" /> <!-- Earth Attack -->
+			<skill id="14823" level="1" /> <!-- Lethal Strike Resistance -->
+			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
+			<skill id="4379" level="5" /> <!-- Spear Resistance -->
+			<skill id="4461" level="1" /> <!-- Dagger/Rapier Vulnerability -->
+			<skill id="16608" level="1" /> <!-- Servitor Attack Weakness -->
+			<skill id="4071" level="1" /> <!-- Bow/Crossbow Resistance -->
+		</skill_list>
+		<collision>
+			<radius normal="24" />
+			<height normal="42.5" />
+		</collision>
+		<drop_lists>
+			<drop>
+				<item id="57" min="16787" max="39233" chance="70" /> <!-- Adena -->
+				<item id="35328" min="1" max="1" chance="0.3" /> <!-- Helios Cutter Fragment -->
+				<item id="36559" min="1" max="1" chance="0.3" /> <!-- Accessory Gem (High-grade) -->
+				<item id="36549" min="1" max="1" chance="0.075" /> <!-- Weapon Fragment (High-grade) -->
+				<item id="36560" min="1" max="1" chance="0.03" /> <!-- Accessory Gem (Top-grade) -->
+				<item id="36942" min="1" max="1" chance="0.03" /> <!-- Recipe: Synthetic Cokes - Upgrade -->
+			</drop>
+			<spoil>
+				<item id="36524" min="1" max="1" chance="5.402" /> <!-- Orichalcum -->
+				<item id="36525" min="1" max="1" chance="0.3" /> <!-- Durandil -->
+			</spoil>
+			<lucky_drop>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</lucky_drop>
+		</drop_lists>
+	</npc>
+	<npc id="23732" level="101" type="L2Monster" name="Om Kshana">
+		<race>GIANT</race>
+		<acquire exp="593525905" sp="593596" />
+		<stats>
+			<vitals hp="786157" hpRegen="11.5" mp="24308" mpRegen="3.9" />
+			<speed>
+				<walk ground="55" />
+				<run ground="180" />
+			</speed>
+			<attack physical="23610.1029394933" magical="5767.28134561036" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3839.95121517957" magical="2066.69244923556" />
+			<attribute>
+			<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+		</stats>
+		<skill_list>
+			<skill id="4416" level="11" /> <!-- Giants -->
+			<skill id="5465" level="1" /> <!-- Earth Attack -->
+			<skill id="14823" level="1" /> <!-- Lethal Strike Resistance -->
+			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
+			<skill id="4379" level="5" /> <!-- Spear Resistance -->
+			<skill id="4438" level="5" /> <!-- Greater Sleep Resistance -->
+			<skill id="4461" level="1" /> <!-- Dagger/Rapier Vulnerability -->
+			<skill id="16608" level="1" /> <!-- Servitor Attack Weakness -->
+			<skill id="4071" level="1" /> <!-- Bow/Crossbow Resistance -->
+		</skill_list>
+		<collision>
+			<radius normal="24" />
+			<height normal="47.5" />
+		</collision>
+		<drop_lists>
+			<drop>
+				<item id="57" min="16787" max="39233" chance="70" /> <!-- Adena -->
+				<item id="35334" min="1" max="1" chance="0.3" /> <!-- Helios Shooter Fragment -->
+				<item id="36559" min="1" max="1" chance="0.3" /> <!-- Accessory Gem (High-grade) -->
+				<item id="36549" min="1" max="1" chance="0.075" /> <!-- Weapon Fragment (High-grade) -->
+				<item id="36560" min="1" max="1" chance="0.03" /> <!-- Accessory Gem (Top-grade) -->
+				<item id="36942" min="1" max="1" chance="0.03" /> <!-- Recipe: Synthetic Cokes - Upgrade -->
+			</drop>
+			<spoil>
+				<item id="36524" min="1" max="1" chance="5.379" /> <!-- Orichalcum -->
+				<item id="36525" min="1" max="1" chance="0.3" /> <!-- Durandil -->
+			</spoil>
+			<lucky_drop>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</lucky_drop>
+		</drop_lists>
+	</npc>
+	<npc id="23733" level="100" type="L2Monster" name="Lesser Giant Warrior">
+		<race>GIANT</race>
+		<acquire exp="136287800" sp="136300" />
+		<equipment rhand="46741" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="193575" hpRegen="10.5" mp="23928" mpRegen="3.6" />
+			<speed>
+				<walk ground="15" />
+				<run ground="180" />
+			</speed>
+			<attack physical="23610.1029394933" magical="5767.28134561036" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3839.95121517957" magical="2066.69244923556" />
+			<attribute>
+			<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+		</stats>
+		<skill_list>
+			<skill id="4416" level="11" /> <!-- Giants -->
+			<skill id="5465" level="1" /> <!-- Earth Attack -->
+			<skill id="14823" level="1" /> <!-- Lethal Strike Resistance -->
+			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
+		</skill_list>
+		<collision>
+			<radius normal="31.5" />
+			<height normal="69" />
+		</collision>
+		<drop_lists>
+			<drop>
+				<item id="17439" min="1" max="1" chance="0.003" /> <!-- Eternal Leather Gloves -->
+				<item id="57" min="2441" max="5700" chance="20" /> <!-- Adena -->
+				<item id="47249" min="1" max="1" chance="0.3" /> <!-- Giant Stone -->
+				<item id="35347" min="1" max="1" chance="0.075" /> <!-- Eternal Leather Glove Ingredient -->
+				<item id="36559" min="1" max="1" chance="0.075" /> <!-- Accessory Gem (High-grade) -->
+				<item id="36560" min="1" max="1" chance="0.003" /> <!-- Accessory Gem (Top-grade) -->
+			</drop>
+			<spoil>
+				<item id="36564" min="1" max="1" chance="0.075" /> <!-- Greater Synthetic Cokes -->
+				<item id="36565" min="1" max="1" chance="0.003" /> <!-- Exquisite Synthetic Cokes -->
+			</spoil>
+			<lucky_drop>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</lucky_drop>
+		</drop_lists>
+	</npc>
+	<npc id="23734" level="100" type="L2Monster" name="Lesser Giant Wizard">
+		<race>GIANT</race>
+		<acquire exp="136287800" sp="136300" />
+		<equipment rhand="46742" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="193575" hpRegen="10.5" mp="23928" mpRegen="3.6" />
+			<speed>
+				<walk ground="15" />
+				<run ground="180" />
+			</speed>
+			<attack physical="23610.1029394933" magical="5767.28134561036" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3839.95121517957" magical="2066.69244923556" />
+			<attribute>
+			<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+		</stats>
+		<skill_list>
+			<skill id="4416" level="11" /> <!-- Giants -->
+			<skill id="5465" level="1" /> <!-- Earth Attack -->
+			<skill id="14823" level="1" /> <!-- Lethal Strike Resistance -->
+			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
+		</skill_list>
+		<collision>
+			<radius normal="50" />
+			<height normal="66" />
+		</collision>
+		<drop_lists>
+			<drop>
+				<item id="17436" min="1" max="1" chance="0.003" /> <!-- Eternal Leather Helmet -->
+				<item id="57" min="2441" max="5700" chance="20" /> <!-- Adena -->
+				<item id="47249" min="1" max="1" chance="0.3" /> <!-- Giant Stone -->
+				<item id="35344" min="1" max="1" chance="0.075" /> <!-- Eternal Leather Helmet Ingredient -->
+				<item id="36559" min="1" max="1" chance="0.075" /> <!-- Accessory Gem (High-grade) -->
+				<item id="36560" min="1" max="1" chance="0.003" /> <!-- Accessory Gem (Top-grade) -->
+			</drop>
+			<spoil>
+				<item id="36564" min="1" max="1" chance="0.03" /> <!-- Greater Synthetic Cokes -->
+				<item id="36389" min="1" max="1" chance="0.0075" /> <!-- Giant's Scroll: Enchant Armor (R-grade) -->
+				<item id="36565" min="1" max="1" chance="0.003" /> <!-- Exquisite Synthetic Cokes -->
+			</spoil>
+			<lucky_drop>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</lucky_drop>
+		</drop_lists>
+	</npc>
+	<npc id="23735" level="100" type="L2Monster" name="Captive Familiar Spirit">
+		<race>DEMONIC</race>
+		<acquire exp="53330000" sp="53400" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="96787" hpRegen="10.5" mp="23928" mpRegen="3.6" />
+			<speed>
+				<walk ground="37" />
+				<run ground="140" />
+			</speed>
+			<attack physical="23610.1029394933" magical="5767.28134561036" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3839.95121517957" magical="2066.69244923556" />
+			<attribute>
+			<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+		</stats>
+		<skill_list>
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="5467" level="1" /> <!-- Dark Attack -->
+			<skill id="14823" level="1" /> <!-- Lethal Strike Resistance -->
+			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
+		</skill_list>
+		<collision>
+			<radius normal="19" />
+			<height normal="32" />
+		</collision>
+		<drop_lists>
+			<drop>
+				<item id="57" min="3264" max="7621" chance="20" /> <!-- Adena -->
+				<item id="36539" min="1" max="1" chance="0.3" /> <!-- Quality Leather Braid -->
+				<item id="36554" min="1" max="1" chance="0.075" /> <!-- Armor Fragment (High-grade) -->
+				<item id="36540" min="1" max="1" chance="0.03" /> <!-- Exquisite Leather Braid -->
+				<item id="35471" min="1" max="1" chance="0.0075" /> <!-- Recipe: Eternal Leather Gloves (60%) -->
+				<item id="35468" min="1" max="1" chance="0.003" /> <!-- Recipe: Eternal Leather Helmet (60%) -->
+			</drop>
+			<spoil>
+				<item id="36564" min="1" max="1" chance="0.075" /> <!-- Greater Synthetic Cokes -->
+				<item id="36389" min="1" max="1" chance="0.03" /> <!-- Giant's Scroll: Enchant Armor (R-grade) -->
+				<item id="36565" min="1" max="1" chance="0.003" /> <!-- Exquisite Synthetic Cokes -->
+			</spoil>
+			<lucky_drop>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</lucky_drop>
+		</drop_lists>
+	</npc>
+	<npc id="23736" level="100" type="L2Monster" name="Captive Hell Demon">
+		<race>DEMONIC</race>
+		<acquire exp="53330000" sp="53400" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="96787" hpRegen="10.5" mp="23928" mpRegen="3.6" />
+			<speed>
+				<walk ground="50" />
+				<run ground="140" />
+			</speed>
+			<attack physical="23610.1029394933" magical="5767.28134561036" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3839.95121517957" magical="2066.69244923556" />
+			<attribute>
+			<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+		</stats>
+		<skill_list>
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="5467" level="1" /> <!-- Dark Attack -->
+			<skill id="14823" level="1" /> <!-- Lethal Strike Resistance -->
+			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
+		</skill_list>
+		<collision>
+			<radius normal="21" />
+			<height normal="40" />
+		</collision>
+		<drop_lists>
+			<drop>
+				<item id="57" min="3264" max="7621" chance="20" /> <!-- Adena -->
+				<item id="36539" min="1" max="1" chance="0.3" /> <!-- Quality Leather Braid -->
+				<item id="36554" min="1" max="1" chance="0.075" /> <!-- Armor Fragment (High-grade) -->
+				<item id="36540" min="1" max="1" chance="0.03" /> <!-- Exquisite Leather Braid -->
+				<item id="35471" min="1" max="1" chance="0.0075" /> <!-- Recipe: Eternal Leather Gloves (60%) -->
+				<item id="35468" min="1" max="1" chance="0.003" /> <!-- Recipe: Eternal Leather Helmet (60%) -->
+			</drop>
+			<spoil>
+				<item id="36564" min="1" max="1" chance="0.075" /> <!-- Greater Synthetic Cokes -->
+				<item id="36565" min="1" max="1" chance="0.0075" /> <!-- Exquisite Synthetic Cokes -->
+			</spoil>
+			<lucky_drop>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</lucky_drop>
+		</drop_lists>
+	</npc>
+	<npc id="23737" level="100" type="L2Monster" name="Captive Succubus">
+		<race>DEMONIC</race>
+		<acquire exp="53330000" sp="53400" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="96787" hpRegen="10.5" mp="23928" mpRegen="3.6" />
+			<speed>
+				<walk ground="80" />
+				<run ground="140" />
+			</speed>
+			<attack physical="23610.1029394933" magical="5767.28134561036" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3839.95121517957" magical="2066.69244923556" />
+			<attribute>
+			<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+		</stats>
+		<skill_list>
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="5467" level="1" /> <!-- Dark Attack -->
+			<skill id="14823" level="1" /> <!-- Lethal Strike Resistance -->
+			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
+		</skill_list>
+		<collision>
+			<radius normal="20" />
+			<height normal="39.5" />
+		</collision>
+		<drop_lists>
+			<drop>
+				<item id="57" min="3264" max="7621" chance="20" /> <!-- Adena -->
+				<item id="36539" min="1" max="1" chance="0.3" /> <!-- Quality Leather Braid -->
+				<item id="36554" min="1" max="1" chance="0.075" /> <!-- Armor Fragment (High-grade) -->
+				<item id="36540" min="1" max="1" chance="0.03" /> <!-- Exquisite Leather Braid -->
+				<item id="35478" min="1" max="1" chance="0.0075" /> <!-- Recipe: Eternal Sigil (60%) -->
+				<item id="35469" min="1" max="1" chance="0.003" /> <!-- Recipe: Eternal Leather Armor (60%) -->
+			</drop>
+			<spoil>
+				<item id="36564" min="1" max="1" chance="0.075" /> <!-- Greater Synthetic Cokes -->
+				<item id="36565" min="1" max="1" chance="0.0075" /> <!-- Exquisite Synthetic Cokes -->
+			</spoil>
+			<lucky_drop>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</lucky_drop>
+		</drop_lists>
+	</npc>
+	<npc id="23738" level="100" type="L2Monster" name="Captive Phantom">
+		<race>DEMONIC</race>
+		<acquire exp="53330000" sp="53400" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="96787" hpRegen="10.5" mp="23928" mpRegen="3.6" />
+			<speed>
+				<walk ground="70" />
+				<run ground="140" />
+			</speed>
+			<attack physical="23610.1029394933" magical="5767.28134561036" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3839.95121517957" magical="2066.69244923556" />
+			<attribute>
+			<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+		</stats>
+		<skill_list>
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="5467" level="1" /> <!-- Dark Attack -->
+			<skill id="14823" level="1" /> <!-- Lethal Strike Resistance -->
+			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
+		</skill_list>
+		<collision>
+			<radius normal="17" />
+			<height normal="37" />
+		</collision>
+		<drop_lists>
+			<drop>
+				<item id="57" min="3264" max="7621" chance="20" /> <!-- Adena -->
+				<item id="36539" min="1" max="1" chance="0.3" /> <!-- Quality Leather Braid -->
+				<item id="36554" min="1" max="1" chance="0.075" /> <!-- Armor Fragment (High-grade) -->
+				<item id="36540" min="1" max="1" chance="0.03" /> <!-- Exquisite Leather Braid -->
+				<item id="35478" min="1" max="1" chance="0.0075" /> <!-- Recipe: Eternal Sigil (60%) -->
+				<item id="35469" min="1" max="1" chance="0.003" /> <!-- Recipe: Eternal Leather Armor (60%) -->
+			</drop>
+			<spoil>
+				<item id="36564" min="1" max="1" chance="0.075" /> <!-- Greater Synthetic Cokes -->
+				<item id="36565" min="1" max="1" chance="0.0075" /> <!-- Exquisite Synthetic Cokes -->
+			</spoil>
+			<lucky_drop>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</lucky_drop>
+		</drop_lists>
+	</npc>
+	<npc id="23739" level="101" type="L2Monster" name="Marka" title="Halisha's Henchman">
+		<race>DEMONIC</race>
+		<acquire exp="395685670" sp="395696" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3144582" hpRegen="11.5" mp="24308" mpRegen="3.9" />
+			<speed>
+				<walk ground="60" />
+				<run ground="140" />
+			</speed>
+			<attack physical="23610.1029394933" magical="5767.28134561036" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3839.95121517957" magical="2066.69244923556" />
+			<attribute>
+			<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+		</stats>
+		<skill_list>
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="5467" level="1" /> <!-- Dark Attack -->
+			<skill id="14823" level="1" /> <!-- Lethal Strike Resistance -->
+			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
+		</skill_list>
+		<collision>
+			<radius normal="36.3" />
+			<height normal="55.3" />
+		</collision>
+		<drop_lists>
+			<drop>
+				<item id="17439" min="1" max="1" chance="0.03" /> <!-- Eternal Leather Gloves -->
+				<item id="17420" min="1" max="1" chance="0.003" /> <!-- Helios Fighter -->
+				<item id="57" min="19991" max="46630" chance="20" /> <!-- Adena -->
+				<item id="35347" min="1" max="1" chance="0.3" /> <!-- Eternal Leather Glove Ingredient -->
+				<item id="47249" min="1" max="1" chance="0.3" /> <!-- Giant Stone -->
+				<item id="36554" min="1" max="1" chance="0.075" /> <!-- Armor Fragment (High-grade) -->
+				<item id="36389" min="1" max="1" chance="0.03" /> <!-- Giant's Scroll: Enchant Armor (R-grade) -->
+				<item id="36386" min="1" max="1" chance="0.003" /> <!-- Giant's Scroll: Enchant Weapon (R-grade) -->
+				<item id="37802" min="1" max="1" chance="0.0009" /> <!-- Dark Eternal Enhancement Stone Fragment -->
+			</drop>
+			<spoil>
+				<item id="36564" min="1" max="1" chance="0.75" /> <!-- Greater Synthetic Cokes -->
+				<item id="36565" min="1" max="1" chance="0.03" /> <!-- Exquisite Synthetic Cokes -->
+			</spoil>
+			<lucky_drop>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</lucky_drop>
+		</drop_lists>
+	</npc>
+	<npc id="23740" level="101" type="L2Monster" name="Schlien" title="Halisha's Henchman">
+		<race>DEMONIC</race>
+		<acquire exp="395685670" sp="395696" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3144582" hpRegen="11.5" mp="24308" mpRegen="3.9" />
+			<speed>
+				<walk ground="79" />
+				<run ground="140" />
+			</speed>
+			<attack physical="23610.1029394933" magical="5767.28134561036" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3839.95121517957" magical="2066.69244923556" />
+			<attribute>
+			<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+		</stats>
+		<skill_list>
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="5467" level="1" /> <!-- Dark Attack -->
+			<skill id="14823" level="1" /> <!-- Lethal Strike Resistance -->
+			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
+		</skill_list>
+		<collision>
+			<radius normal="23.4" />
+			<height normal="60.7" />
+		</collision>
+		<drop_lists>
+			<drop>
+				<item id="17436" min="1" max="1" chance="0.0075" /> <!-- Eternal Leather Helmet -->
+				<item id="17420" min="1" max="1" chance="0.003" /> <!-- Helios Fighter -->
+				<item id="57" min="19991" max="46630" chance="20" /> <!-- Adena -->
+				<item id="35344" min="1" max="1" chance="0.3" /> <!-- Eternal Leather Helmet Ingredient -->
+				<item id="47249" min="1" max="1" chance="0.3" /> <!-- Giant Stone -->
+				<item id="36554" min="1" max="1" chance="0.075" /> <!-- Armor Fragment (High-grade) -->
+				<item id="36389" min="1" max="1" chance="0.03" /> <!-- Giant's Scroll: Enchant Armor (R-grade) -->
+				<item id="36386" min="1" max="1" chance="0.003" /> <!-- Giant's Scroll: Enchant Weapon (R-grade) -->
+				<item id="37802" min="1" max="1" chance="0.0009" /> <!-- Dark Eternal Enhancement Stone Fragment -->
+			</drop>
+			<spoil>
+				<item id="36564" min="1" max="1" chance="0.75" /> <!-- Greater Synthetic Cokes -->
+				<item id="36565" min="1" max="1" chance="0.03" /> <!-- Exquisite Synthetic Cokes -->
+			</spoil>
+			<lucky_drop>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</lucky_drop>
+		</drop_lists>
+	</npc>
+	<npc id="23741" level="101" type="L2Monster" name="Berimah" title="Halisha's Henchman">
+		<race>DEMONIC</race>
+		<acquire exp="395685670" sp="395696" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3144582" hpRegen="11.5" mp="24308" mpRegen="3.9" />
+			<speed>
+				<walk ground="60" />
+				<run ground="140" />
+			</speed>
+			<attack physical="23610.1029394933" magical="5767.28134561036" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3839.95121517957" magical="2066.69244923556" />
+			<attribute>
+			<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+		</stats>
+		<skill_list>
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="5467" level="1" /> <!-- Dark Attack -->
+			<skill id="14823" level="1" /> <!-- Lethal Strike Resistance -->
+			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
+		</skill_list>
+		<collision>
+			<radius normal="26" />
+			<height normal="52.9" />
+		</collision>
+		<drop_lists>
+			<drop>
+				<item id="17420" min="1" max="1" chance="0.003" /> <!-- Helios Fighter -->
+				<item id="17437" min="1" max="1" chance="0.003" /> <!-- Eternal Leather Armor -->
+				<item id="57" min="19991" max="46630" chance="20" /> <!-- Adena -->
+				<item id="35345" min="1" max="1" chance="0.3" /> <!-- Eternal Leather Armor Ingredient -->
+				<item id="47249" min="1" max="1" chance="0.3" /> <!-- Giant Stone -->
+				<item id="36554" min="1" max="1" chance="0.075" /> <!-- Armor Fragment (High-grade) -->
+				<item id="36389" min="1" max="1" chance="0.03" /> <!-- Giant's Scroll: Enchant Armor (R-grade) -->
+				<item id="36386" min="1" max="1" chance="0.003" /> <!-- Giant's Scroll: Enchant Weapon (R-grade) -->
+				<item id="37802" min="1" max="1" chance="0.0009" /> <!-- Dark Eternal Enhancement Stone Fragment -->
+			</drop>
+			<spoil>
+				<item id="36564" min="1" max="1" chance="0.75" /> <!-- Greater Synthetic Cokes -->
+				<item id="36565" min="1" max="1" chance="0.03" /> <!-- Exquisite Synthetic Cokes -->
+			</spoil>
+			<lucky_drop>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</lucky_drop>
+		</drop_lists>
+	</npc>
+	<npc id="23742" level="101" type="L2Monster" name="Naia Bathus" title="Demons Foreman">
+		<race>GIANT</race>
+		<acquire exp="247303557" sp="247374" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="283012" hpRegen="11.5" mp="24308" mpRegen="3.9" />
+			<speed>
+				<walk ground="55" />
+				<run ground="140" />
+			</speed>
+			<attack physical="23610.1029394933" magical="5767.28134561036" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3839.95121517957" magical="2066.69244923556" />
+			<attribute>
+			<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+		</stats>
+		<skill_list>
+			<skill id="4416" level="11" /> <!-- Giants -->
+			<skill id="5465" level="1" /> <!-- Earth Attack -->
+			<skill id="14823" level="1" /> <!-- Lethal Strike Resistance -->
+			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
+		</skill_list>
+		<collision>
+			<radius normal="24" />
+			<height normal="46" />
+		</collision>
+		<drop_lists>
+			<drop>
+				<item id="57" min="4998" max="11658" chance="20" /> <!-- Adena -->
+				<item id="35347" min="1" max="1" chance="0.3" /> <!-- Eternal Leather Glove Ingredient -->
+				<item id="36539" min="1" max="1" chance="0.3" /> <!-- Quality Leather Braid -->
+				<item id="47249" min="1" max="1" chance="0.3" /> <!-- Giant Stone -->
+				<item id="36559" min="1" max="1" chance="0.075" /> <!-- Accessory Gem (High-grade) -->
+				<item id="36554" min="1" max="1" chance="0.03" /> <!-- Armor Fragment (High-grade) -->
+				<item id="36540" min="1" max="1" chance="0.0075" /> <!-- Exquisite Leather Braid -->
+			</drop>
+			<spoil>
+				<item id="36564" min="1" max="1" chance="0.3" /> <!-- Greater Synthetic Cokes -->
+				<item id="36565" min="1" max="1" chance="0.0075" /> <!-- Exquisite Synthetic Cokes -->
+			</spoil>
+			<lucky_drop>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</lucky_drop>
+		</drop_lists>
+	</npc>
+	<npc id="23743" level="101" type="L2Monster" name="Naia Karkus" title="Demons Foreman">
+		<!-- Source: www.l2wiki.com -->
+		<race>GIANT</race>
+		<acquire exp="247303557" sp="247374" />
+		<equipment rhand="15304" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="283012" hpRegen="11.5" mp="24308" mpRegen="3.9" />
+			<speed>
+				<walk ground="55" />
+				<run ground="140" />
+			</speed>
+			<attack physical="23610.1029394933" magical="5767.28134561036" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3839.95121517957" magical="2066.69244923556" />
+			<attribute>
+			<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+		</stats>
+		<skill_list>
+			<skill id="4416" level="11" /> <!-- Giants -->
+			<skill id="5465" level="1" /> <!-- Earth Attack -->
+			<skill id="14823" level="1" /> <!-- Instant Kill Attack Resistance -->
+			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
+		</skill_list>
+		<collision>
+			<radius normal="24" />
+			<height normal="42.5" />
+		</collision>
+		<drop_lists>
+			<drop>
+				<item id="57" min="4998" max="11658" chance="20" /> <!-- Adena -->
+				<item id="35344" min="1" max="1" chance="0.3" /> <!-- Eternal Leather Helmet Ingredient -->
+				<item id="36539" min="1" max="1" chance="0.3" /> <!-- Quality Leather Braid -->
+				<item id="47249" min="1" max="1" chance="0.3" /> <!-- Giant Stone -->
+				<item id="36559" min="1" max="1" chance="0.075" /> <!-- Accessory Gem (High-grade) -->
+				<item id="36554" min="1" max="1" chance="0.03" /> <!-- Armor Fragment (High-grade) -->
+				<item id="36540" min="1" max="1" chance="0.0075" /> <!-- Exquisite Leather Braid -->
+			</drop>
+			<spoil>
+				<item id="36564" min="1" max="1" chance="0.3" /> <!-- Greater Synthetic Cokes -->
+				<item id="36565" min="1" max="1" chance="0.0075" /> <!-- Exquisite Synthetic Cokes -->
+			</spoil>
+			<lucky_drop>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</lucky_drop>
+		</drop_lists>
+	</npc>
+	<npc id="23744" level="101" type="L2Monster" name="Naia Kshana" title="Demons Foreman">
+		<race>GIANT</race>
+		<acquire exp="247303557" sp="247374" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="283012" hpRegen="11.5" mp="24308" mpRegen="3.9" />
+			<speed>
+				<walk ground="55" />
+				<run ground="140" />
+			</speed>
+			<attack physical="23610.1029394933" magical="5767.28134561036" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3839.95121517957" magical="2066.69244923556" />
+			<attribute>
+			<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+		</stats>
+		<skill_list>
+			<skill id="4416" level="11" /> <!-- Giants -->
+			<skill id="5465" level="1" /> <!-- Earth Attack -->
+			<skill id="14823" level="1" /> <!-- Lethal Strike Resistance -->
+			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
+		</skill_list>
+		<collision>
+			<radius normal="24" />
+			<height normal="47.5" />
+		</collision>
+		<drop_lists>
+			<drop>
+				<item id="57" min="4998" max="11658" chance="20" /> <!-- Adena -->
+				<item id="36539" min="1" max="1" chance="0.3" /> <!-- Quality Leather Braid -->
+				<item id="47249" min="1" max="1" chance="0.3" /> <!-- Giant Stone -->
+				<item id="35345" min="1" max="1" chance="0.075" /> <!-- Eternal Leather Armor Ingredient -->
+				<item id="36559" min="1" max="1" chance="0.075" /> <!-- Accessory Gem (High-grade) -->
+				<item id="36554" min="1" max="1" chance="0.03" /> <!-- Armor Fragment (High-grade) -->
+				<item id="36540" min="1" max="1" chance="0.0075" /> <!-- Exquisite Leather Braid -->
+			</drop>
+			<spoil>
+				<item id="36564" min="1" max="1" chance="0.3" /> <!-- Greater Synthetic Cokes -->
+				<item id="36565" min="1" max="1" chance="0.0075" /> <!-- Exquisite Synthetic Cokes -->
+			</spoil>
+			<lucky_drop>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</lucky_drop>
+		</drop_lists>
+	</npc>
+	<npc id="23745" level="101" type="L2Monster" name="Naia Lucas" title="Demons Foreman">
+		<race>GIANT</race>
+		<acquire exp="247303557" sp="247374" />
+		<equipment rhand="15304" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="283012" hpRegen="11.5" mp="24308" mpRegen="3.9" />
+			<speed>
+				<walk ground="55" />
+				<run ground="140" />
+			</speed>
+			<attack physical="23610.1029394933" magical="5767.28134561036" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3839.95121517957" magical="2066.69244923556" />
+			<attribute>
+			<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+		</stats>
+		<skill_list>
+			<skill id="4416" level="11" /> <!-- Giants -->
+			<skill id="5465" level="1" /> <!-- Earth Attack -->
+			<skill id="14823" level="1" /> <!-- Lethal Strike Resistance -->
+			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
+		</skill_list>
+		<collision>
+			<radius normal="24" />
+			<height normal="42.5" />
+		</collision>
+		<drop_lists>
+			<drop>
+				<item id="57" min="4998" max="11658" chance="20" /> <!-- Adena -->
+				<item id="36539" min="1" max="1" chance="0.3" /> <!-- Quality Leather Braid -->
+				<item id="47249" min="1" max="1" chance="0.3" /> <!-- Giant Stone -->
+				<item id="35345" min="1" max="1" chance="0.075" /> <!-- Eternal Leather Armor Ingredient -->
+				<item id="36559" min="1" max="1" chance="0.075" /> <!-- Accessory Gem (High-grade) -->
+				<item id="36554" min="1" max="1" chance="0.03" /> <!-- Armor Fragment (High-grade) -->
+				<item id="36540" min="1" max="1" chance="0.0075" /> <!-- Exquisite Leather Braid -->
+			</drop>
+			<spoil>
+				<item id="36564" min="1" max="1" chance="0.3" /> <!-- Greater Synthetic Cokes -->
+				<item id="36565" min="1" max="1" chance="0.0075" /> <!-- Exquisite Synthetic Cokes -->
+			</spoil>
+			<lucky_drop>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</lucky_drop>
+		</drop_lists>
+	</npc>
+	<npc id="23746" level="101" type="L2Monster" name="Recovering Lesser Giant Warrior">
+		<race>GIANT</race>
+		<acquire exp="247303557" sp="247374" />
+		<equipment rhand="46741" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="283012" hpRegen="11.5" mp="24308" mpRegen="3.9" />
+			<speed>
+				<walk ground="15" />
+				<run ground="140" />
+			</speed>
+			<attack physical="23610.1029394933" magical="5767.28134561036" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3839.95121517957" magical="2066.69244923556" />
+			<attribute>
+			<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+		</stats>
+		<skill_list>
+			<skill id="4416" level="11" /> <!-- Giants -->
+			<skill id="5465" level="1" /> <!-- Earth Attack -->
+			<skill id="14823" level="1" /> <!-- Lethal Strike Resistance -->
+			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
+		</skill_list>
+		<collision>
+			<radius normal="31.5" />
+			<height normal="69" />
+		</collision>
+		<drop_lists>
+			<drop>
+				<item id="17420" min="1" max="1" chance="0.0009" /> <!-- Helios Fighter -->
+				<item id="57" min="4592" max="10710" chance="20" /> <!-- Adena -->
+				<item id="47249" min="1" max="1" chance="0.3" /> <!-- Giant Stone -->
+				<item id="35331" min="1" max="1" chance="0.075" /> <!-- Helios Fighter Fragment -->
+				<item id="36554" min="1" max="1" chance="0.03" /> <!-- Armor Fragment (High-grade) -->
+				<item id="36878" min="1" max="1" chance="0.003" /> <!-- Recipe: Quality Fiber - Upgrade -->
+				<item id="36877" min="1" max="1" chance="0.0009" /> <!-- Recipe: Quality Fiber - Downgrade -->
+			</drop>
+			<spoil>
+				<item id="36564" min="1" max="1" chance="0.3" /> <!-- Greater Synthetic Cokes -->
+				<item id="36565" min="1" max="1" chance="0.0075" /> <!-- Exquisite Synthetic Cokes -->
+			</spoil>
+			<lucky_drop>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</lucky_drop>
+		</drop_lists>
+	</npc>
+	<npc id="23747" level="101" type="L2Monster" name="Recovering Lesser Giant Wizard">
+		<race>GIANT</race>
+		<acquire exp="247303557" sp="247374" />
+		<equipment rhand="46742" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="283012" hpRegen="11.5" mp="24308" mpRegen="3.9" />
+			<speed>
+				<walk ground="15" />
+				<run ground="140" />
+			</speed>
+			<attack physical="23610.1029394933" magical="5767.28134561036" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3839.95121517957" magical="2066.69244923556" />
+			<attribute>
+			<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+		</stats>
+		<skill_list>
+			<skill id="4416" level="11" /> <!-- Giants -->
+			<skill id="5465" level="1" /> <!-- Earth Attack -->
+			<skill id="14823" level="1" /> <!-- Lethal Strike Resistance -->
+			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
+		</skill_list>
+		<collision>
+			<radius normal="50" />
+			<height normal="66" />
+		</collision>
+		<drop_lists>
+			<drop>
+				<item id="17420" min="1" max="1" chance="0.0009" /> <!-- Helios Fighter -->
+				<item id="57" min="4592" max="10710" chance="20" /> <!-- Adena -->
+				<item id="47249" min="1" max="1" chance="0.3" /> <!-- Giant Stone -->
+				<item id="35331" min="1" max="1" chance="0.075" /> <!-- Helios Fighter Fragment -->
+				<item id="36554" min="1" max="1" chance="0.03" /> <!-- Armor Fragment (High-grade) -->
+				<item id="36878" min="1" max="1" chance="0.003" /> <!-- Recipe: Quality Fiber - Upgrade -->
+				<item id="36877" min="1" max="1" chance="0.0009" /> <!-- Recipe: Quality Fiber - Downgrade -->
+			</drop>
+			<spoil>
+				<item id="36389" min="1" max="1" chance="0.03" /> <!-- Giant's Scroll: Enchant Armor (R-grade) -->
+			</spoil>
+			<lucky_drop>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</lucky_drop>
+		</drop_lists>
+	</npc>
+	<npc id="23748" level="100" type="L2Monster" name="Lesser Giant Soldier">
+		<race>GIANT</race>
+		<acquire exp="136287800" sp="136300" />
+		<equipment rhand="4028" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="193575" hpRegen="10.5" mp="23928" mpRegen="3.6" />
+			<speed>
+				<walk ground="15" />
+				<run ground="140" />
+			</speed>
+			<attack physical="23610.1029394933" magical="5767.28134561036" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3839.95121517957" magical="2066.69244923556" />
+			<attribute>
+			<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+		</stats>
+		<skill_list>
+			<skill id="4416" level="11" /> <!-- Giants -->
+			<skill id="5465" level="1" /> <!-- Earth Attack -->
+			<skill id="14823" level="1" /> <!-- Lethal Strike Resistance -->
+			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
+		</skill_list>
+		<collision>
+			<radius normal="50" />
+			<height normal="66" />
+		</collision>
+		<drop_lists>
+			<drop>
+				<item id="17437" min="1" max="1" chance="0.0009" /> <!-- Eternal Leather Armor -->
+				<item id="57" min="2441" max="5700" chance="20" /> <!-- Adena -->
+				<item id="47249" min="1" max="1" chance="0.3" /> <!-- Giant Stone -->
+				<item id="36559" min="1" max="1" chance="0.075" /> <!-- Accessory Gem (High-grade) -->
+				<item id="35345" min="1" max="1" chance="0.03" /> <!-- Eternal Leather Armor Ingredient -->
+				<item id="36560" min="1" max="1" chance="0.003" /> <!-- Accessory Gem (Top-grade) -->
+			</drop>
+			<spoil>
+				<item id="36389" min="1" max="1" chance="0.03" /> <!-- Giant's Scroll: Enchant Armor (R-grade) -->
+				<item id="36386" min="1" max="1" chance="0.003" /> <!-- Giant's Scroll: Enchant Weapon (R-grade) -->
+			</spoil>
+			<lucky_drop>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</lucky_drop>
+		</drop_lists>
+	</npc>
+	<npc id="23749" level="100" type="L2Monster" name="Root of the Lesser Giant">
+		<race>CONSTRUCT</race>
+		<acquire exp="65181100" sp="65199" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="96787" hpRegen="10.5" mp="23928" mpRegen="3.6" />
+			<speed>
+				<walk ground="27" />
+				<run ground="140" />
+			</speed>
+			<attack physical="23610.1029394933" magical="5767.28134561036" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3839.95121517957" magical="2066.69244923556" />
+			<attribute>
+			<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+		</stats>
+		<skill_list>
+			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+			<skill id="5465" level="1" /> <!-- Earth Attack -->
+			<skill id="14823" level="1" /> <!-- Lethal Strike Resistance -->
+			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
+		</skill_list>
+		<collision>
+			<radius normal="20" />
+			<height normal="35" />
+		</collision>
+		<drop_lists>
+			<drop>
+				<item id="57" min="2853" max="6661" chance="20" /> <!-- Adena -->
+				<item id="47249" min="1" max="1" chance="0.3" /> <!-- Giant Stone -->
+				<item id="35331" min="1" max="1" chance="0.075" /> <!-- Helios Fighter Fragment -->
+				<item id="36539" min="1" max="1" chance="0.075" /> <!-- Quality Leather Braid -->
+				<item id="36554" min="1" max="1" chance="0.03" /> <!-- Armor Fragment (High-grade) -->
+				<item id="36540" min="1" max="1" chance="0.0075" /> <!-- Exquisite Leather Braid -->
+			</drop>
+			<spoil>
+				<item id="36564" min="1" max="1" chance="0.075" /> <!-- Greater Synthetic Cokes -->
+				<item id="36389" min="1" max="1" chance="0.03" /> <!-- Giant's Scroll: Enchant Armor (R-grade) -->
+				<item id="36565" min="1" max="1" chance="0.003" /> <!-- Exquisite Synthetic Cokes -->
+			</spoil>
+			<lucky_drop>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</lucky_drop>
+		</drop_lists>
+	</npc>
+	<npc id="23750" level="100" type="L2Monster" name="Shaqrima Lucas">
+		<race>GIANT</race>
+		<acquire exp="666656799" sp="666700" />
+		<equipment rhand="15304" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1088861" hpRegen="10.5" mp="23928" mpRegen="3.6" />
+			<speed>
+				<walk ground="55" />
+				<run ground="190" />
+			</speed>
+			<attack physical="23610.1029394933" magical="5767.28134561036" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3839.95121517957" magical="2066.69244923556" />
+			<attribute>
+			<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+		</stats>
+		<skill_list>
+			<skill id="4416" level="11" /> <!-- Giants -->
+			<skill id="5465" level="1" /> <!-- Earth Attack -->
+			<skill id="14823" level="1" /> <!-- Lethal Strike Resistance -->
+			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
+			<skill id="4379" level="5" /> <!-- Spear Resistance -->
+			<skill id="4461" level="1" /> <!-- Dagger/Rapier Vulnerability -->
+			<skill id="16608" level="1" /> <!-- Servitor Attack Weakness -->
+			<skill id="4071" level="1" /> <!-- Bow/Crossbow Resistance -->
+		</skill_list>
+		<collision>
+			<radius normal="24" />
+			<height normal="42.5" />
+		</collision>
+		<drop_lists>
+			<drop>
+				<item id="17446" min="1" max="1" chance="0.03" /> <!-- Eternal Sigil -->
+				<item id="17442" min="1" max="1" chance="0.003" /> <!-- Eternal Tunic -->
+				<item id="57" min="23574" max="54960" chance="70" /> <!-- Adena -->
+				<item id="47249" min="1" max="1" chance="3.932" /> <!-- Giant Stone -->
+				<item id="36529" min="1" max="1" chance="3.695" /> <!-- Quality Fiber -->
+				<item id="35350" min="1" max="1" chance="0.3" /> <!-- Eternal Tunic Ingredient -->
+				<item id="35354" min="1" max="1" chance="0.3" /> <!-- Eternal Sigil Ingredient -->
+				<item id="36530" min="1" max="1" chance="0.3" /> <!-- Exquisite Fiber -->
+				<item id="35474" min="1" max="1" chance="0.003" /> <!-- Recipe: Eternal Tunic (60%) -->
+			</drop>
+			<spoil>
+				<item id="36524" min="1" max="1" chance="7.482" /> <!-- Orichalcum -->
+				<item id="36525" min="1" max="1" chance="0.3" /> <!-- Durandil -->
+			</spoil>
+			<lucky_drop>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</lucky_drop>
+		</drop_lists>
+	</npc>
+	<npc id="23751" level="101" type="L2Monster" name="Om Lucas">
+		<race>GIANT</race>
+		<acquire exp="593525905" sp="593596" />
+		<equipment rhand="15304" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="786157" hpRegen="11.5" mp="24308" mpRegen="3.9" />
+			<speed>
+				<walk ground="55" />
+				<run ground="190" />
+			</speed>
+			<attack physical="23610.1029394933" magical="5767.28134561036" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3839.95121517957" magical="2066.69244923556" />
+			<attribute>
+			<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+		</stats>
+		<skill_list>
+			<skill id="4416" level="11" /> <!-- Giants -->
+			<skill id="5465" level="1" /> <!-- Earth Attack -->
+			<skill id="14823" level="1" /> <!-- Lethal Strike Resistance -->
+			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
+			<skill id="4379" level="5" /> <!-- Spear Resistance -->
+			<skill id="4461" level="1" /> <!-- Dagger/Rapier Vulnerability -->
+			<skill id="16608" level="1" /> <!-- Servitor Attack Weakness -->
+			<skill id="4071" level="1" /> <!-- Bow/Crossbow Resistance -->
+		</skill_list>
+		<collision>
+			<radius normal="24" />
+			<height normal="42.5" />
+		</collision>
+		<drop_lists>
+			<drop>
+				<item id="57" min="16787" max="39233" chance="70" /> <!-- Adena -->
+				<item id="35334" min="1" max="1" chance="0.3" /> <!-- Helios Shooter Fragment -->
+				<item id="36559" min="1" max="1" chance="0.3" /> <!-- Accessory Gem (High-grade) -->
+				<item id="36549" min="1" max="1" chance="0.075" /> <!-- Weapon Fragment (High-grade) -->
+				<item id="36560" min="1" max="1" chance="0.03" /> <!-- Accessory Gem (Top-grade) -->
+				<item id="36875" min="1" max="1" chance="0.0075" /> <!-- Recipe: Metallic Fiber - Downgrade -->
+			</drop>
+			<spoil>
+				<item id="36524" min="1" max="1" chance="5.394" /> <!-- Orichalcum -->
+				<item id="36525" min="1" max="1" chance="0.3" /> <!-- Durandil -->
+			</spoil>
+			<lucky_drop>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</lucky_drop>
+		</drop_lists>
+	</npc>
+	<npc id="23752" level="100" type="L2Monster" name="Lesser Giant Archer">
+		<race>GIANT</race>
+		<acquire exp="136287800" sp="136300" />
+		<equipment rhand="4028" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="193575" hpRegen="10.5" mp="23928" mpRegen="3.6" />
+			<speed>
+				<walk ground="15" />
+				<run ground="140" />
+			</speed>
+			<attack physical="23610.1029394933" magical="5767.28134561036" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3839.95121517957" magical="2066.69244923556" />
+			<attribute>
+			<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+		</stats>
+		<skill_list>
+			<skill id="4416" level="11" /> <!-- Giants -->
+			<skill id="5465" level="1" /> <!-- Earth Attack -->
+			<skill id="14823" level="1" /> <!-- Lethal Strike Resistance -->
+			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
+		</skill_list>
+		<collision>
+			<radius normal="50" />
+			<height normal="66" />
+		</collision>
+		<drop_lists>
+			<drop>
+				<item id="17437" min="1" max="1" chance="0.0009" /> <!-- Eternal Leather Armor -->
+				<item id="57" min="2441" max="5700" chance="20" /> <!-- Adena -->
+				<item id="47249" min="1" max="1" chance="0.3" /> <!-- Giant Stone -->
+				<item id="36559" min="1" max="1" chance="0.075" /> <!-- Accessory Gem (High-grade) -->
+				<item id="35345" min="1" max="1" chance="0.03" /> <!-- Eternal Leather Armor Ingredient -->
+				<item id="36560" min="1" max="1" chance="0.003" /> <!-- Accessory Gem (Top-grade) -->
+			</drop>
+			<spoil>
+				<item id="36389" min="1" max="1" chance="0.03" /> <!-- Giant's Scroll: Enchant Armor (R-grade) -->
+				<item id="36386" min="1" max="1" chance="0.003" /> <!-- Giant's Scroll: Enchant Weapon (R-grade) -->
+			</spoil>
+			<lucky_drop>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</lucky_drop>
+		</drop_lists>
+	</npc>
+	<npc id="23753" level="100" type="L2Monster" name="Lesser Giant Support Troop">
+		<race>GIANT</race>
+		<acquire exp="136287800" sp="136300" />
+		<equipment rhand="4028" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="193575" hpRegen="10.5" mp="23928" mpRegen="3.6" />
+			<speed>
+				<walk ground="15" />
+				<run ground="140" />
+			</speed>
+			<attack physical="23610.1029394933" magical="5767.28134561036" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3839.95121517957" magical="2066.69244923556" />
+			<attribute>
+			<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+		</stats>
+		<skill_list>
+			<skill id="4416" level="11" /> <!-- Giants -->
+			<skill id="5465" level="1" /> <!-- Earth Attack -->
+			<skill id="14823" level="1" /> <!-- Lethal Strike Resistance -->
+			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
+		</skill_list>
+		<collision>
+			<radius normal="50" />
+			<height normal="66" />
+		</collision>
+		<drop_lists>
+			<drop>
+				<item id="17437" min="1" max="1" chance="0.0009" /> <!-- Eternal Leather Armor -->
+				<item id="57" min="2441" max="5700" chance="20" /> <!-- Adena -->
+				<item id="47249" min="1" max="1" chance="0.3" /> <!-- Giant Stone -->
+				<item id="36559" min="1" max="1" chance="0.075" /> <!-- Accessory Gem (High-grade) -->
+				<item id="35345" min="1" max="1" chance="0.03" /> <!-- Eternal Leather Armor Ingredient -->
+				<item id="36560" min="1" max="1" chance="0.003" /> <!-- Accessory Gem (Top-grade) -->
+			</drop>
+			<spoil>
+				<item id="36389" min="1" max="1" chance="0.03" /> <!-- Giant's Scroll: Enchant Armor (R-grade) -->
+				<item id="36386" min="1" max="1" chance="0.003" /> <!-- Giant's Scroll: Enchant Weapon (R-grade) -->
+			</spoil>
+			<lucky_drop>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</lucky_drop>
+		</drop_lists>
+	</npc>
+	<npc id="23754" level="100" type="L2Monster" name="Essence of the Lesser Giant">
+		<race>CONSTRUCT</race>
+		<acquire exp="65181100" sp="65199" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="96787" hpRegen="10.5" mp="23928" mpRegen="3.6" />
+			<attack physical="23610.1029394933" magical="5767.28134561036" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3839.95121517957" magical="2066.69244923556" />
+			<speed>
+				<walk ground="27" />
+				<run ground="140" />
+			</speed>
+			<attribute>
+			<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+		</stats>
+		<skill_list>
+			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+			<skill id="5465" level="1" /> <!-- Earth Attack -->
+			<skill id="14823" level="1" /> <!-- Lethal Strike Resistance -->
+			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
+		</skill_list>
+		<collision>
+			<radius normal="20" />
+			<height normal="35" />
+		</collision>
+		<drop_lists>
+			<drop>
+				<item id="57" min="2853" max="6661" chance="20" /> <!-- Adena -->
+				<item id="47249" min="1" max="1" chance="0.3" /> <!-- Giant Stone -->
+				<item id="35331" min="1" max="1" chance="0.075" /> <!-- Helios Fighter Fragment -->
+				<item id="36539" min="1" max="1" chance="0.075" /> <!-- Quality Leather Braid -->
+				<item id="36554" min="1" max="1" chance="0.03" /> <!-- Armor Fragment (High-grade) -->
+				<item id="36540" min="1" max="1" chance="0.0075" /> <!-- Exquisite Leather Braid -->
+			</drop>
+			<spoil>
+				<item id="36564" min="1" max="1" chance="0.075" /> <!-- Greater Synthetic Cokes -->
+				<item id="36389" min="1" max="1" chance="0.03" /> <!-- Giant's Scroll: Enchant Armor (R-grade) -->
+				<item id="36565" min="1" max="1" chance="0.003" /> <!-- Exquisite Synthetic Cokes -->
+			</spoil>
+			<lucky_drop>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</lucky_drop>
+		</drop_lists>
+	</npc>
+	<npc id="23755" level="101" type="L2Monster" name="Wandering Dead of the Dimension">
+		<race>UNDEAD</race>
+		<acquire exp="27926665" sp="27950" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="156854" hpRegen="10.5" mp="2280" mpRegen="3.6" />
+			<attack physical="42937.022246666" magical="7578.7049610443" critical="4" attackSpeed="253" range="40" />
+			<defence physical="2830.1075268817" magical="2030.5901557898" />
+			<speed>
+				<walk ground="39" />
+				<run ground="170" />
+			</speed>
+		</stats>
+		<skill_list>
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="5467" level="1" /> <!-- Dark Attack -->
+			<skill id="14823" level="1" /> <!-- Lethal Strike Resistance -->
+			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
+		</skill_list>
+		<collision>
+			<radius normal="12" />
+			<height normal="28.5" />
+		</collision>
+		<drop_lists>
+			<lucky_drop>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</lucky_drop>
+		</drop_lists>
+	</npc>
+	<npc id="23757" level="101" type="L2Monster" name="Lost Soul of the Dimension">
+		<race>UNDEAD</race>
+		<acquire exp="27926665" sp="27950" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="156854" hpRegen="10.5" mp="2280" mpRegen="3.6" />
+			<attack physical="42937.022246666" magical="7578.7049610443" critical="4" attackSpeed="253" range="40" />
+			<defence physical="2830.1075268817" magical="2030.5901557898" />
+			<speed>
+				<walk ground="39" />
+				<run ground="170" />
+			</speed>
+		</stats>
+		<skill_list>
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="5467" level="1" /> <!-- Dark Attack -->
+			<skill id="14823" level="1" /> <!-- Lethal Strike Resistance -->
+			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
+		</skill_list>
+		<collision>
+			<radius normal="12" />
+			<height normal="26" />
+		</collision>
+		<drop_lists>
+			<lucky_drop>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</lucky_drop>
+		</drop_lists>
+	</npc>
+	<npc id="23759" level="101" type="L2Monster" name="Roaming Vengeance of the Dimension">
+		<race>HUMANOID</race>
+		<acquire exp="27926665" sp="27950" />
+		<equipment rhand="10128" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="156854" hpRegen="10.5" mp="2280" mpRegen="3.6" />
+			<attack physical="42937.022246666" magical="7578.7049610443" critical="4" attackSpeed="253" range="40" />
+			<defence physical="2830.1075268817" magical="2030.5901557898" />
+			<speed>
+				<walk ground="36" />
+				<run ground="170" />
+			</speed>
+		</stats>
+		<skill_list>
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="5465" level="1" /> <!-- Earth Attack -->
+			<skill id="14823" level="1" /> <!-- Lethal Strike Resistance -->
+			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
+		</skill_list>
+		<collision>
+			<radius normal="15" />
+			<height normal="24.5" />
+		</collision>
+		<drop_lists>
+			<lucky_drop>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</lucky_drop>
+		</drop_lists>
+	</npc>
+	<npc id="23760" level="98" type="L2Monster" name="Dimensional Vagabond" title="Lost">
+		<race>UNDEAD</race>
+		<acquire exp="213022290" sp="213112" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="475251" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<attack physical="45027.610073614" magical="7933.4451512287" critical="4" attackSpeed="253" range="1100" />
+			<defence physical="2886.6310160428" magical="2081.5022678738" />
+			<speed>
+				<walk ground="80" />
+				<run ground="170" />
+			</speed>
+		</stats>
+		<skill_list>
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="5467" level="1" /> <!-- Dark Attack -->
+			<skill id="14823" level="1" /> <!-- Lethal Strike Resistance -->
+			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
+		</skill_list>
+		<collision>
+			<radius normal="23" />
+			<height normal="64" />
+		</collision>
+		<drop_lists>
+			<lucky_drop>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</lucky_drop>
+		</drop_lists>
+	</npc>
+	<npc id="23761" level="98" type="L2Monster" name="Dimension Dissolver" title="Master of the Rift">
+		<race>HUMANOID</race>
+		<acquire exp="2130291283" sp="2130359" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3168345" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<attack physical="45027.610073614" magical="7933.4451512287" critical="4" attackSpeed="253" range="1100" />
+			<defence physical="2886.6310160428" magical="2081.5022678738" />
+			<speed>
+				<walk ground="80" />
+				<run ground="170" />
+			</speed>
+		</stats>
+		<skill_list>
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="5467" level="1" /> <!-- Dark Attack -->
+			<skill id="14823" level="1" /> <!-- Lethal Strike Resistance -->
+			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
+		</skill_list>
+		<collision>
+			<radius normal="18" />
+			<height normal="42" />
+		</collision>
+		<drop_lists>
+			<lucky_drop>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Bag - Stage 1 --> <!-- Lucky Drop -->
+			</lucky_drop>
+		</drop_lists>
+	</npc>
+	<npc id="23774" level="102" type="L2Monster" name="Delta Bathus">
+		<parameters>
+			<param name="IsAggressive" value="1" />
+			<skill name="Skill01_ID" id="16653" level="1" />
+		</parameters>
+		<race>GIANT</race>
+		<sex>MALE</sex>
+		<acquire exp="908048947" sp="908061" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1277110" hpRegen="7.5" mp="23928" mpRegen="2.7" />
+			<speed>
+				<walk ground="55" />
+				<run ground="180" />
+			</speed>
+			<attack physical="49047.619047619" magical="8655.46218487395" critical="4" attackSpeed="398" range="40" />
+			<defence physical="3814.81481481481" magical="2215.05376344086" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<skill_list>
+			<skill id="4416" level="11" /> <!-- Giants -->
+			<skill id="5465" level="1" /> <!-- Earth Attack -->
+			<skill id="14823" level="1" /> <!-- Lethal Strike Resistance -->
+			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
+			<skill id="4379" level="5" /> <!-- Spear Resistance -->
+			<skill id="4435" level="5" /> <!-- Greater Stun Resistance -->
+			<skill id="4461" level="1" /> <!-- Dagger/Rapier Vulnerability -->
+			<skill id="16608" level="1" /> <!-- Servitor Attack Weakness -->
+			<skill id="4071" level="1" /> <!-- Bow/Crossbow Resistance -->
+		</skill_list>
+		<ai clanHelpRange="300" aggroRange="300">
+			<clan_list>
+				<clan>SUPERION_1</clan>
+			</clan_list>
+		</ai>
+		<collision>
+			<radius normal="24" />
+			<height normal="46" />
+		</collision>
+		<drop_lists>
+			<drop>
+				<item id="17430" min="1" max="1" chance="0.0075" /> <!-- Eternal Helmet -->
+				<item id="17431" min="1" max="1" chance="0.003" /> <!-- Eternal Breastplate -->
+				<item id="57" min="29430" max="68561" chance="70" /> <!-- Adena -->
+				<item id="36543" min="1" max="1" chance="11.64" /> <!-- Adamantite Wire -->
+				<item id="47250" min="1" max="1" chance="0.75" /> <!-- Giant Power Crystal -->
+				<item id="35332" min="1" max="1" chance="0.3" /> <!-- Helios Stormer Fragment -->
+				<item id="35338" min="1" max="1" chance="0.3" /> <!-- Eternal Helmet Ingredient -->
+				<item id="35339" min="1" max="1" chance="0.3" /> <!-- Eternal Breastplate Ingredient -->
+				<item id="36545" min="1" max="1" chance="0.075" /> <!-- Durandil Wire -->
+			</drop>
+			<spoil>
+				<item id="36564" min="1" max="1" chance="0.75" /> <!-- Greater Synthetic Cokes -->
+				<item id="36565" min="1" max="1" chance="0.075" /> <!-- Exquisite Synthetic Cokes -->
+			</spoil>
+			<lucky_drop>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</lucky_drop>
+		</drop_lists>
+	</npc>
+	<npc id="23775" level="102" type="L2Monster" name="Delta Carcass">
+		<parameters>
+			<param name="IsAggressive" value="1" />
+			<skill name="Skill01_ID" id="16653" level="1" />
+		</parameters>
+		<race>GIANT</race>
+		<sex>MALE</sex>
+		<acquire exp="908048947" sp="908061" />
+		<equipment rhand="15304" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1277110" hpRegen="7.5" mp="23928" mpRegen="2.7" />
+			<speed>
+				<walk ground="55" />
+				<run ground="190" />
+			</speed>
+			<attack physical="49047.619047619" magical="8655.46218487395" critical="4" attackSpeed="398" range="900" />
+			<defence physical="3814.81481481481" magical="2215.05376344086" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<skill_list>
+			<skill id="4416" level="11" /> <!-- Giants -->
+			<skill id="5465" level="1" /> <!-- Earth Attack -->
+			<skill id="14823" level="1" /> <!-- Lethal Strike Resistance -->
+			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
+			<skill id="4379" level="5" /> <!-- Spear Resistance -->
+			<skill id="4461" level="1" /> <!-- Dagger/Rapier Vulnerability -->
+			<skill id="16608" level="1" /> <!-- Servitor Attack Weakness -->
+			<skill id="4071" level="1" /> <!-- Bow/Crossbow Resistance -->
+		</skill_list>
+		<ai clanHelpRange="300" aggroRange="300">
+			<clan_list>
+				<clan>SUPERION_1</clan>
+			</clan_list>
+		</ai>
+		<collision>
+			<radius normal="24" />
+			<height normal="42.5" />
+		</collision>
+		<drop_lists>
+			<drop>
+				<item id="17433" min="1" max="1" chance="0.03" /> <!-- Eternal Gauntlets -->
+				<item id="17432" min="1" max="1" chance="0.003" /> <!-- Eternal Gaiters -->
+				<item id="57" min="29430" max="68561" chance="70" /> <!-- Adena -->
+				<item id="36543" min="1" max="1" chance="12.65" /> <!-- Adamantite Wire -->
+				<item id="36544" min="1" max="1" chance="1.093" /> <!-- Orichalcum Wire -->
+				<item id="47250" min="1" max="1" chance="0.75" /> <!-- Giant Power Crystal -->
+				<item id="35329" min="1" max="1" chance="0.3" /> <!-- Helios Slasher Fragment -->
+				<item id="35340" min="1" max="1" chance="0.3" /> <!-- Eternal Gaiter Ingredient -->
+				<item id="35341" min="1" max="1" chance="0.3" /> <!-- Eternal Gauntlet Ingredient -->
+			</drop>
+			<spoil>
+				<item id="36564" min="1" max="1" chance="0.75" /> <!-- Greater Synthetic Cokes -->
+				<item id="36565" min="1" max="1" chance="0.075" /> <!-- Exquisite Synthetic Cokes -->
+			</spoil>
+			<lucky_drop>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</lucky_drop>
+		</drop_lists>
+	</npc>
+	<npc id="23776" level="102" type="L2Monster" name="Delta Kshana">
+		<parameters>
+			<param name="IsAggressive" value="1" />
+			<skill name="Skill01_ID" id="16655" level="1" />
+			<skill name="Skill02_ID" id="16656" level="1" />
+		</parameters>
+		<race>GIANT</race>
+		<sex>MALE</sex>
+		<acquire exp="908048947" sp="908061" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1277110" hpRegen="7.5" mp="23928" mpRegen="2.7" />
+			<speed>
+				<walk ground="55" />
+				<run ground="180" />
+			</speed>
+			<attack physical="49047.619047619" magical="8655.46218487395" critical="4" attackSpeed="398" range="40" />
+			<defence physical="3814.81481481481" magical="2215.05376344086" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>		
+		<skill_list>
+			<skill id="4416" level="11" /> <!-- Giants -->
+			<skill id="5465" level="1" /> <!-- Earth Attack -->
+			<skill id="14823" level="1" /> <!-- Lethal Strike Resistance -->
+			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
+			<skill id="4379" level="5" /> <!-- Spear Resistance -->
+			<skill id="4438" level="5" /> <!-- Greater Sleep Resistance -->
+			<skill id="4461" level="1" /> <!-- Dagger/Rapier Vulnerability -->
+			<skill id="16608" level="1" /> <!-- Servitor Attack Weakness -->
+			<skill id="4071" level="1" /> <!-- Bow/Crossbow Resistance -->
+		</skill_list>
+		<ai clanHelpRange="300" aggroRange="300">
+			<clan_list>
+				<clan>SUPERION_1</clan>
+			</clan_list>
+		</ai>
+		<collision>
+			<radius normal="24" />
+			<height normal="47.5" />
+		</collision>
+		<drop_lists>
+			<drop>
+				<item id="17434" min="1" max="1" chance="0.03" /> <!-- Eternal Boots -->
+				<item id="17435" min="1" max="1" chance="0.03" /> <!-- Eternal Shield -->
+				<item id="57" min="29430" max="68561" chance="70" /> <!-- Adena -->
+				<item id="36543" min="1" max="1" chance="12.26" /> <!-- Adamantite Wire -->
+				<item id="47250" min="1" max="1" chance="0.75" /> <!-- Giant Power Crystal -->
+				<item id="35332" min="1" max="1" chance="0.3" /> <!-- Helios Stormer Fragment -->
+				<item id="35342" min="1" max="1" chance="0.3" /> <!-- Eternal Boot Ingredient -->
+				<item id="35343" min="1" max="1" chance="0.3" /> <!-- Eternal Shield Ingredient -->
+				<item id="36545" min="1" max="1" chance="0.075" /> <!-- Durandil Wire -->
+			</drop>
+			<spoil>
+				<item id="36564" min="1" max="1" chance="0.75" /> <!-- Greater Synthetic Cokes -->
+				<item id="36565" min="1" max="1" chance="0.075" /> <!-- Exquisite Synthetic Cokes -->
+			</spoil>
+			<lucky_drop>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</lucky_drop>
+		</drop_lists>
+	</npc>
+	<npc id="23777" level="103" type="L2Monster" name="Royal Templar">
+		<parameters>
+			<param name="IsAggressive" value="1" />
+			<skill name="Skill01_ID" id="16657" level="1" />
+			<skill name="Skill02_ID" id="16658" level="1" />
+		</parameters>
+		<race>GIANT</race>
+		<sex>MALE</sex>
+		<acquire exp="1111149422" sp="1111186" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1383110" hpRegen="7.5" mp="23928" mpRegen="2.7" />
+			<speed>
+				<walk ground="55" />
+				<run ground="180" />
+			</speed>
+			<attack physical="49047.619047619" magical="8655.46218487395" critical="4" attackSpeed="398" range="40" />
+			<defence physical="3814.81481481481" magical="2215.05376344086" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>	
+		<skill_list>
+			<skill id="4416" level="11" /> <!-- Giants -->
+			<skill id="5465" level="1" /> <!-- Earth Attack -->
+			<skill id="14823" level="1" /> <!-- Lethal Strike Resistance -->
+			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
+			<skill id="4379" level="5" /> <!-- Spear Resistance -->
+			<skill id="4435" level="5" /> <!-- Greater Stun Resistance -->
+			<skill id="4461" level="1" /> <!-- Dagger/Rapier Vulnerability -->
+			<skill id="16608" level="1" /> <!-- Servitor Attack Weakness -->
+			<skill id="4071" level="1" /> <!-- Bow/Crossbow Resistance -->
+		</skill_list>
+		<ai clanHelpRange="300" aggroRange="300">
+			<clan_list>
+				<clan>SUPERION_1</clan>
+			</clan_list>
+		</ai>
+		<collision>
+			<radius normal="24" />
+			<height normal="45.5" />
+		</collision>
+		<drop_lists>
+			<drop>
+				<item id="17430" min="1" max="1" chance="0.03" /> <!-- Eternal Helmet -->
+				<item id="17418" min="1" max="1" chance="0.003" /> <!-- Helios Slasher -->
+				<item id="57" min="31251" max="72861" chance="70" /> <!-- Adena -->
+				<item id="36543" min="1" max="1" chance="6.494" /> <!-- Adamantite Wire -->
+				<item id="47250" min="1" max="1" chance="0.75" /> <!-- Giant Power Crystal -->
+				<item id="36545" min="1" max="1" chance="0.03" /> <!-- Durandil Wire -->
+				<item id="35456" min="1" max="1" chance="0.0075" /> <!-- Recipe: Helios Stormer (60%) -->
+				<item id="35462" min="1" max="1" chance="0.0075" /> <!-- Recipe: Eternal Helmet (60%) -->
+			</drop>
+			<spoil>
+				<item id="36564" min="1" max="1" chance="0.75" /> <!-- Greater Synthetic Cokes -->
+				<item id="36565" min="1" max="1" chance="0.075" /> <!-- Exquisite Synthetic Cokes -->
+			</spoil>
+			<lucky_drop>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</lucky_drop>
+		</drop_lists>
+	</npc>
+	<npc id="23778" level="103" type="L2Monster" name="Royal Shooter">
+		<parameters>
+			<param name="IsAggressive" value="1" />
+			<skill name="Skill01_ID" id="16659" level="1" />
+			<skill name="Skill02_ID" id="16660" level="1" />
+			<skill name="Skill03_ID" id="16661" level="1" />
+		</parameters>
+		<race>GIANT</race>
+		<sex>MALE</sex>
+		<acquire exp="1111149422" sp="1111186" />
+		<equipment rhand="47163" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1383110" hpRegen="7.5" mp="23928" mpRegen="2.7" />
+			<speed>
+				<walk ground="55" />
+				<run ground="190" />
+			</speed>
+			<attack physical="49047.619047619" magical="8655.46218487395" critical="4" attackSpeed="398" range="900" />
+			<defence physical="3814.81481481481" magical="2215.05376344086" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<skill_list>
+			<skill id="4416" level="11" /> <!-- Giants -->
+			<skill id="5465" level="1" /> <!-- Earth Attack -->
+			<skill id="14823" level="1" /> <!-- Lethal Strike Resistance -->
+			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
+			<skill id="4379" level="5" /> <!-- Spear Resistance -->
+			<skill id="4461" level="1" /> <!-- Dagger/Rapier Vulnerability -->
+			<skill id="16608" level="1" /> <!-- Servitor Attack Weakness -->
+			<skill id="4071" level="1" /> <!-- Bow/Crossbow Resistance -->
+		</skill_list>
+		<ai clanHelpRange="300" aggroRange="300">
+			<clan_list>
+				<clan>SUPERION_1</clan>
+			</clan_list>
+		</ai>
+		<collision>
+			<radius normal="24" />
+			<height normal="45.5" />
+		</collision>
+		<drop_lists>
+			<drop>
+				<item id="17431" min="1" max="1" chance="0.03" /> <!-- Eternal Breastplate -->
+				<item id="57" min="31251" max="72861" chance="70" /> <!-- Adena -->
+				<item id="36543" min="1" max="1" chance="6.422" /> <!-- Adamantite Wire -->
+				<item id="36544" min="1" max="1" chance="0.75" /> <!-- Orichalcum Wire -->
+				<item id="47250" min="1" max="1" chance="0.75" /> <!-- Giant Power Crystal -->
+				<item id="35456" min="1" max="1" chance="0.0075" /> <!-- Recipe: Helios Stormer (60%) -->
+				<item id="35463" min="1" max="1" chance="0.003" /> <!-- Recipe: Eternal Breastplate (60%) -->
+			</drop>
+			<spoil>
+				<item id="36564" min="1" max="1" chance="0.75" /> <!-- Greater Synthetic Cokes -->
+				<item id="36565" min="1" max="1" chance="0.075" /> <!-- Exquisite Synthetic Cokes -->
+			</spoil>
+			<lucky_drop>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</lucky_drop>
+		</drop_lists>
+	</npc>
+	<npc id="23779" level="103" type="L2Monster" name="Royal Wizard">
+		<parameters>
+			<param name="IsAggressive" value="1" />
+			<skill name="Skill01_ID" id="16662" level="1" />
+			<skill name="Skill02_ID" id="16663" level="1" />
+			<skill name="Skill03_ID" id="16664" level="1" />
+		</parameters>
+		<race>GIANT</race>
+		<sex>MALE</sex>
+		<acquire exp="1111149422" sp="1111186" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1383110" hpRegen="7.5" mp="23928" mpRegen="2.7" />
+			<speed>
+				<walk ground="55" />
+				<run ground="180" />
+			</speed>
+			<attack physical="49047.619047619" magical="8655.46218487395" critical="4" attackSpeed="398" range="40" />
+			<defence physical="3814.81481481481" magical="2215.05376344086" />
+			<abnormalResist physical="10" magical="10" />
+			</stats>
+		<skill_list>
+			<skill id="4416" level="11" /> <!-- Giants -->
+			<skill id="5465" level="1" /> <!-- Earth Attack -->
+			<skill id="14823" level="1" /> <!-- Lethal Strike Resistance -->
+			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
+			<skill id="4379" level="5" /> <!-- Spear Resistance -->
+			<skill id="4438" level="5" /> <!-- Greater Sleep Resistance -->
+			<skill id="4461" level="1" /> <!-- Dagger/Rapier Vulnerability -->
+			<skill id="16608" level="1" /> <!-- Servitor Attack Weakness -->
+			<skill id="4071" level="1" /> <!-- Bow/Crossbow Resistance -->
+		</skill_list>
+		<ai clanHelpRange="300" aggroRange="300">
+			<clan_list>
+				<clan>SUPERION_1</clan>
+			</clan_list>
+		</ai>
+		<collision>
+			<radius normal="24" />
+			<height normal="45.5" />
+		</collision>
+		<drop_lists>
+			<drop>
+				<item id="17432" min="1" max="1" chance="0.03" /> <!-- Eternal Gaiters -->
+				<item id="57" min="31251" max="72861" chance="70" /> <!-- Adena -->
+				<item id="36543" min="1" max="1" chance="6.43" /> <!-- Adamantite Wire -->
+				<item id="47250" min="1" max="1" chance="0.75" /> <!-- Giant Power Crystal -->
+				<item id="36545" min="1" max="1" chance="0.03" /> <!-- Durandil Wire -->
+				<item id="35456" min="1" max="1" chance="0.0075" /> <!-- Recipe: Helios Stormer (60%) -->
+				<item id="35464" min="1" max="1" chance="0.0075" /> <!-- Recipe: Eternal Gaiters (60%) -->
+			</drop>
+			<spoil>
+				<item id="36564" min="1" max="1" chance="0.75" /> <!-- Greater Synthetic Cokes -->
+				<item id="36565" min="1" max="1" chance="0.075" /> <!-- Exquisite Synthetic Cokes -->
+			</spoil>
+			<lucky_drop>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</lucky_drop>
+		</drop_lists>
+	</npc>
+	<npc id="23780" level="103" type="L2Monster" name="Royal Templar Colonel">
+		<parameters>
+			<param name="IsAggressive" value="1" />
+			<skill name="Skill01_ID" id="16665" level="1" />
+			<skill name="Skill02_ID" id="16666" level="1" />
+		</parameters>
+		<race>GIANT</race>
+		<sex>MALE</sex>
+		<acquire exp="1111149422" sp="1111186" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1383110" hpRegen="7.5" mp="23928" mpRegen="2.7" />
+			<speed>
+				<walk ground="40" />
+				<run ground="180" />
+			</speed>
+			<attack physical="49047.619047619" magical="8655.46218487395" critical="4" attackSpeed="398" range="40" />
+			<defence physical="3814.81481481481" magical="2215.05376344086" />
+			<abnormalResist physical="10" magical="10" />
+			</stats>
+		<skill_list>
+			<skill id="4416" level="11" /> <!-- Giants -->
+			<skill id="5465" level="1" /> <!-- Earth Attack -->
+			<skill id="14823" level="1" /> <!-- Lethal Strike Resistance -->
+			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
+			<skill id="4379" level="5" /> <!-- Spear Resistance -->
+			<skill id="4435" level="5" /> <!-- Greater Stun Resistance -->
+			<skill id="4461" level="1" /> <!-- Dagger/Rapier Vulnerability -->
+			<skill id="16608" level="1" /> <!-- Servitor Attack Weakness -->
+			<skill id="4071" level="1" /> <!-- Bow/Crossbow Resistance -->
+		</skill_list>
+		<ai clanHelpRange="300" aggroRange="300">
+			<clan_list>
+				<clan>SUPERION_1</clan>
+			</clan_list>
+		</ai>
+		<collision>
+			<radius normal="32" />
+			<height normal="51" />
+		</collision>
+		<drop_lists>
+			<drop>
+				<item id="17433" min="1" max="1" chance="0.03" /> <!-- Eternal Gauntlets -->
+				<item id="17421" min="1" max="1" chance="0.003" /> <!-- Helios Stormer -->
+				<item id="57" min="31251" max="72861" chance="70" /> <!-- Adena -->
+				<item id="36543" min="1" max="1" chance="5.104" /> <!-- Adamantite Wire -->
+				<item id="47250" min="1" max="1" chance="0.75" /> <!-- Giant Power Crystal -->
+				<item id="36544" min="1" max="1" chance="0.3" /> <!-- Orichalcum Wire -->
+				<item id="35465" min="1" max="1" chance="0.03" /> <!-- Recipe: Eternal Gauntlets (60%) -->
+				<item id="35453" min="1" max="1" chance="0.003" /> <!-- Recipe: Helios Slasher (60%) -->
+				<item id="37801" min="1" max="1" chance="0.003" /> <!-- Bloody Eternal Enhancement Stone Fragment -->
+			</drop>
+			<spoil>
+				<item id="36564" min="1" max="1" chance="0.75" /> <!-- Greater Synthetic Cokes -->
+				<item id="46081" min="1" max="1" chance="0.3" /> <!-- Recipe: Mysterious Blessed Spiritshot (R-grade) -->
+				<item id="36565" min="1" max="1" chance="0.03" /> <!-- Exquisite Synthetic Cokes -->
+			</spoil>
+			<lucky_drop>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</lucky_drop>
+		</drop_lists>
+	</npc>
+	<npc id="23781" level="103" type="L2Monster" name="Royal Sharpshooter">
+		<parameters>
+			<param name="IsAggressive" value="1" />
+			<skill name="Skill01_ID" id="16667" level="1" />
+			<skill name="Skill02_ID" id="16668" level="1" />
+			<skill name="Skill03_ID" id="16669" level="1" />
+		</parameters>
+		<race>GIANT</race>
+		<sex>MALE</sex>
+		<acquire exp="1111149422" sp="1111186" />
+		<equipment rhand="47163" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1383110" hpRegen="7.5" mp="23928" mpRegen="2.7" />
+			<speed>
+				<walk ground="55" />
+				<run ground="190" />
+			</speed>
+			<attack physical="49047.619047619" magical="8655.46218487395" critical="4" attackSpeed="398" range="900" />
+			<defence physical="3814.81481481481" magical="2215.05376344086" />
+			<abnormalResist physical="10" magical="10" />
+			</stats>
+		<skill_list>
+			<skill id="4416" level="11" /> <!-- Giants -->
+			<skill id="5465" level="1" /> <!-- Earth Attack -->
+			<skill id="14823" level="1" /> <!-- Lethal Strike Resistance -->
+			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
+			<skill id="4379" level="5" /> <!-- Spear Resistance -->
+			<skill id="4461" level="1" /> <!-- Dagger/Rapier Vulnerability -->
+			<skill id="16608" level="1" /> <!-- Servitor Attack Weakness -->
+			<skill id="4071" level="1" /> <!-- Bow/Crossbow Resistance -->
+		</skill_list>
+		<ai clanHelpRange="300" aggroRange="300">
+			<clan_list>
+				<clan>SUPERION_1</clan>
+			</clan_list>
+		</ai>
+		<collision>
+			<radius normal="24" />
+			<height normal="45.5" />
+		</collision>
+		<drop_lists>
+			<drop>
+				<item id="17434" min="1" max="1" chance="0.075" /> <!-- Eternal Boots -->
+				<item id="57" min="31251" max="72861" chance="70" /> <!-- Adena -->
+				<item id="36543" min="1" max="1" chance="6.393" /> <!-- Adamantite Wire -->
+				<item id="47250" min="1" max="1" chance="0.75" /> <!-- Giant Power Crystal -->
+				<item id="35466" min="1" max="1" chance="0.03" /> <!-- Recipe: Eternal Boots (60%) -->
+				<item id="36545" min="1" max="1" chance="0.03" /> <!-- Durandil Wire -->
+				<item id="35453" min="1" max="1" chance="0.0075" /> <!-- Recipe: Helios Slasher (60%) -->
+			</drop>
+			<spoil>
+				<item id="36564" min="1" max="1" chance="0.75" /> <!-- Greater Synthetic Cokes -->
+				<item id="46081" min="1" max="1" chance="0.3" /> <!-- Recipe: Mysterious Blessed Spiritshot (R-grade) -->
+				<item id="36565" min="1" max="1" chance="0.03" /> <!-- Exquisite Synthetic Cokes -->
+			</spoil>
+			<lucky_drop>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</lucky_drop>
+		</drop_lists>
+	</npc>
+	<npc id="23782" level="103" type="L2Monster" name="Royal Archmage">
+		<parameters>
+			<param name="IsAggressive" value="1" />
+			<skill name="Skill01_ID" id="16670" level="1" />
+			<skill name="Skill02_ID" id="16671" level="1" />
+			<skill name="Skill03_ID" id="16672" level="1" />
+			<skill name="Skill03_ID" id="16673" level="1" />
+		</parameters>
+		<race>GIANT</race>
+		<sex>MALE</sex>
+		<acquire exp="1111149422" sp="1111186" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1383110" hpRegen="7.5" mp="23928" mpRegen="2.7" />
+			<speed>
+				<walk ground="55" />
+				<run ground="180" />
+			</speed>
+			<attack physical="49047.619047619" magical="8655.46218487395" critical="4" attackSpeed="398" range="40" />
+			<defence physical="3814.81481481481" magical="2215.05376344086" />
+			<abnormalResist physical="10" magical="10" />
+			</stats>
+		<skill_list>
+			<skill id="4416" level="11" /> <!-- Giants -->
+			<skill id="5465" level="1" /> <!-- Earth Attack -->
+			<skill id="14823" level="1" /> <!-- Lethal Strike Resistance -->
+			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
+			<skill id="4379" level="5" /> <!-- Spear Resistance -->
+			<skill id="4438" level="5" /> <!-- Greater Sleep Resistance -->
+			<skill id="4461" level="1" /> <!-- Dagger/Rapier Vulnerability -->
+			<skill id="16608" level="1" /> <!-- Servitor Attack Weakness -->
+			<skill id="4071" level="1" /> <!-- Bow/Crossbow Resistance -->
+		</skill_list>
+		<ai clanHelpRange="300" aggroRange="300">
+			<clan_list>
+				<clan>SUPERION_1</clan>
+			</clan_list>
+		</ai>
+		<collision>
+			<radius normal="24" />
+			<height normal="45.5" />
+		</collision>
+		<drop_lists>
+			<drop>
+				<item id="17435" min="1" max="1" chance="0.03" /> <!-- Eternal Shield -->
+				<item id="17418" min="1" max="1" chance="0.003" /> <!-- Helios Slasher -->
+				<item id="57" min="31251" max="72861" chance="70" /> <!-- Adena -->
+				<item id="36543" min="1" max="1" chance="6.441" /> <!-- Adamantite Wire -->
+				<item id="36544" min="1" max="1" chance="0.75" /> <!-- Orichalcum Wire -->
+				<item id="47250" min="1" max="1" chance="0.75" /> <!-- Giant Power Crystal -->
+				<item id="35467" min="1" max="1" chance="0.03" /> <!-- Recipe: Eternal Shield (60%) -->
+				<item id="35453" min="1" max="1" chance="0.0075" /> <!-- Recipe: Helios Slasher (60%) -->
+			</drop>
+			<spoil>
+				<item id="36564" min="1" max="1" chance="0.75" /> <!-- Greater Synthetic Cokes -->
+				<item id="46081" min="1" max="1" chance="0.3" /> <!-- Recipe: Mysterious Blessed Spiritshot (R-grade) -->
+				<item id="36565" min="1" max="1" chance="0.03" /> <!-- Exquisite Synthetic Cokes -->
+			</spoil>
+			<lucky_drop>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</lucky_drop>
+		</drop_lists>
+	</npc>
+	<npc id="23783" level="103" type="L2Monster" name="Royal Gatekeeper">
+		<parameters>
+			<param name="IsAggressive" value="1" />
+			<skill name="Skill01_ID" id="16674" level="1" />
+			<skill name="Skill02_ID" id="16675" level="1" />
+		</parameters>
+		<race>GIANT</race>
+		<sex>MALE</sex>
+		<acquire exp="3703831584" sp="3703920" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="23051835" hpRegen="7.5" mp="23928" mpRegen="2.7" />
+			<speed>
+				<walk ground="40" />
+				<run ground="180" />
+			</speed>
+			<attack physical="49047.619047619" magical="8655.46218487395" critical="4" attackSpeed="398" range="40" />
+			<defence physical="3814.81481481481" magical="2215.05376344086" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<skill_list>
+			<skill id="4416" level="11" /> <!-- Giants -->
+			<skill id="5465" level="1" /> <!-- Earth Attack -->
+			<skill id="14823" level="1" /> <!-- Lethal Strike Resistance -->
+			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
+			<skill id="4379" level="5" /> <!-- Spear Resistance -->
+			<skill id="4435" level="5" /> <!-- Greater Stun Resistance -->
+			<skill id="4461" level="1" /> <!-- Dagger/Rapier Vulnerability -->
+			<skill id="16608" level="1" /> <!-- Servitor Attack Weakness -->
+			<skill id="4071" level="1" /> <!-- Bow/Crossbow Resistance -->
+		</skill_list>
+		<ai clanHelpRange="300" aggroRange="300">
+			<clan_list>
+				<clan>SUPERION_1</clan>
+			</clan_list>
+		</ai>
+		<collision>
+			<radius normal="48" />
+			<height normal="78" />
+		</collision>
+		<drop_lists>
+			<drop>
+				<item id="47126" min="1" max="1" chance="51.01" /> <!-- Key Card to the Controller Room -->
+			</drop>
+		</drop_lists>
+	</npc>
+	<npc id="23784" level="100" type="L2Monster" name="Dark Wizard of the Magic Circle">
+		<race>DEMONIC</race>
+		<acquire exp="48805500" sp="48900" />
+		<equipment rhand="17332" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="75279" hpRegen="10.5" mp="23550" mpRegen="3.6" />
+			<attack physical="23610.1029394933" magical="5767.28134561036" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3839.95121517957" magical="2066.69244923556" />
+			<speed>
+				<walk ground="70" />
+				<run ground="180" />
+			</speed>
+		</stats>
+		<skill_list>
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="5465" level="1" /> <!-- Earth Attack -->
+		</skill_list>
+		<collision>
+			<radius normal="12" />
+			<height normal="40" />
+		</collision>
+		<drop_lists>
+			<drop>
+				<item id="57" min="2913" max="6802" chance="20" /> <!-- Adena -->
+				<item id="37791" min="1" max="1" chance="0.3" /> <!-- Sealed Demonic Tome -->
+			</drop>
+			<lucky_drop>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</lucky_drop>
+		</drop_lists>
+	</npc>
+	<npc id="23785" level="100" type="L2Monster" name="Scorpion King">
+		<race>DEMONIC</race>
+		<acquire exp="411732500" sp="411800" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="633668" hpRegen="10.5" mp="23550" mpRegen="3.6" />
+			<attack physical="23610.1029394933" magical="5767.28134561036" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3839.95121517957" magical="2066.69244923556" />
+			<speed>
+				<walk ground="50" />
+				<run ground="200" />
+			</speed>
+		</stats>
+		<skill_list>
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="5465" level="1" /> <!-- Earth Attack -->
+			<skill id="14823" level="1" /> <!-- Lethal Strike Resistance -->
+			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
+			<skill id="4379" level="5" /> <!-- Spear Resistance -->
+			<skill id="4461" level="1" /> <!-- Dagger/Rapier Vulnerability -->
+			<skill id="16608" level="1" /> <!-- Servitor Attack Weakness -->
+			<skill id="4071" level="1" /> <!-- Bow/Crossbow Resistance -->
+		</skill_list>
+		<collision>
+			<radius normal="86" />
+			<height normal="98" />
+		</collision>
+		<drop_lists>
+			<drop>
+				<item id="57" min="7051" max="16439" chance="70" /> <!-- Adena -->
+				<item id="37791" min="1" max="1" chance="0.3" /> <!-- Sealed Demonic Tome -->
+			</drop>
+			<lucky_drop>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</lucky_drop>
+		</drop_lists>
+	</npc>
+	<npc id="23786" level="102" type="L2Monster" name="Nymph Rose" title="Contaminated">
+		<race>PLANT</race>
+		<acquire exp="92292843" sp="92387" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="245880" hpRegen="11.5" mp="24690" mpRegen="3.9" />
+			<attack physical="49047.619047619" magical="8655.46218487395" random="50" critical="4" accuracy="91" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3814.81481481481" magical="2215.05376344086" />
+			<attribute>
+				<defence fire="150" water="200" wind="200" earth="200" holy="200" dark="200" />
+				<attack type="EARTH" value="280" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="140" />
+			</speed>
+		</stats>
+		<skill_list>
+			<skill id="4416" level="5" /> <!-- Plants -->
+			<skill id="5465" level="1" /> <!-- Earth Attack -->
+			<skill id="14823" level="1" /> <!-- Lethal Strike Resistance -->
+			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->			
+		</skill_list>
+		<collision>
+			<radius normal="14" />
+			<height normal="39" />
+		</collision>
+		<drop_lists>
+			<drop>
+				<item id="57" min="12174" max="28361" chance="20" /> <!-- Adena -->
+				<item id="36529" min="1" max="1" chance="0.75" /> <!-- Quality Fiber -->
+				<item id="35352" min="1" max="1" chance="0.075" /> <!-- Eternal Glove Ingredient -->
+				<item id="35335" min="1" max="1" chance="0.03" /> <!-- Helios Buster Fragment -->
+				<item id="36549" min="1" max="1" chance="0.03" /> <!-- Weapon Fragment (High-grade) -->
+			</drop>
+			<spoil>
+				<item id="36564" min="1" max="1" chance="0.3" /> <!-- Greater Synthetic Cokes -->
+			</spoil>
+			<lucky_drop>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</lucky_drop>
+		</drop_lists>
+	</npc>
+	<npc id="23787" level="102" type="L2Monster" name="Nymph Lily" title="Contaminated">
+		<race>PLANT</race>
+		<acquire exp="92292843" sp="92387" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="245880" hpRegen="11.5" mp="24690" mpRegen="3.9" />
+			<attack physical="49047.619047619" magical="8655.46218487395" random="50" critical="4" accuracy="91" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3814.81481481481" magical="2215.05376344086" />
+			<attribute>
+				<defence fire="150" water="200" wind="200" earth="200" holy="200" dark="200" />
+				<attack type="EARTH" value="280" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="140" />
+			</speed>
+		</stats>
+		<skill_list>
+			<skill id="4416" level="5" /> <!-- Plants -->
+			<skill id="5465" level="1" /> <!-- Earth Attack -->
+			<skill id="14823" level="1" /> <!-- Lethal Strike Resistance -->
+			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
+		</skill_list>
+		<collision>
+			<radius normal="14" />
+			<height normal="39" />
+		</collision>
+		<drop_lists>
+			<drop>
+				<item id="57" min="12174" max="28361" chance="20" /> <!-- Adena -->
+				<item id="36529" min="1" max="1" chance="0.75" /> <!-- Quality Fiber -->
+				<item id="35353" min="1" max="1" chance="0.075" /> <!-- Eternal Shoe Ingredient -->
+				<item id="35336" min="1" max="1" chance="0.03" /> <!-- Helios Caster Fragment -->
+				<item id="36554" min="1" max="1" chance="0.03" /> <!-- Armor Fragment (High-grade) -->
+			</drop>
+			<spoil>
+				<item id="36564" min="1" max="1" chance="0.3" /> <!-- Greater Synthetic Cokes -->
+			</spoil>
+			<lucky_drop>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</lucky_drop>
+		</drop_lists>
+	</npc>
+	<npc id="23788" level="102" type="L2Monster" name="Nymph Tulip" title="Contaminated">
+		<race>PLANT</race>
+		<acquire exp="92292843" sp="92387" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="245880" hpRegen="11.5" mp="24690" mpRegen="3.9" />
+			<attack physical="49047.619047619" magical="8655.46218487395" random="50" critical="4" accuracy="91" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3814.81481481481" magical="2215.05376344086" />
+			<attribute>
+				<defence fire="150" water="200" wind="200" earth="200" holy="200" dark="200" />
+				<attack type="EARTH" value="280" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="140" />
+			</speed>
+		</stats>
+		<skill_list>
+			<skill id="4416" level="5" /> <!-- Plants -->
+			<skill id="5465" level="1" /> <!-- Earth Attack -->
+			<skill id="14823" level="1" /> <!-- Lethal Strike Resistance -->
+			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
+		</skill_list>
+		<collision>
+			<radius normal="14" />
+			<height normal="39" />
+		</collision>
+		<drop_lists>
+			<drop>
+				<item id="57" min="12174" max="28361" chance="20" /> <!-- Adena -->
+				<item id="36534" min="1" max="1" chance="0.3" /> <!-- Durable Braid -->
+				<item id="35351" min="1" max="1" chance="0.075" /> <!-- Eternal Stocking Ingredient -->
+			</drop>
+			<spoil>
+				<item id="36559" min="1" max="1" chance="0.75" /> <!-- Accessory Gem (High-grade) -->
+			</spoil>
+			<lucky_drop>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</lucky_drop>
+		</drop_lists>
+	</npc>
+	<npc id="23789" level="102" type="L2Monster" name="Nymph Cosmos" title="Contaminated">
+		<race>PLANT</race>
+		<acquire exp="92292843" sp="92387" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="245880" hpRegen="11.5" mp="24690" mpRegen="3.9" />
+			<attack physical="49047.619047619" magical="8655.46218487395" random="50" critical="4" accuracy="91" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3814.81481481481" magical="2215.05376344086" />
+			<attribute>
+				<defence fire="150" water="200" wind="200" earth="200" holy="200" dark="200" />
+				<attack type="EARTH" value="280" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="140" />
+			</speed>
+		</stats>
+		<skill_list>
+			<skill id="4416" level="5" /> <!-- Plants -->
+			<skill id="5465" level="1" /> <!-- Earth Attack -->
+			<skill id="14823" level="1" /> <!-- Lethal Strike Resistance -->
+			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
+		</skill_list>
+		<collision>
+			<radius normal="14" />
+			<height normal="39" />
+		</collision>
+		<drop_lists>
+			<drop>
+				<item id="57" min="12174" max="28361" chance="20" /> <!-- Adena -->
+				<item id="36529" min="1" max="1" chance="1.186" /> <!-- Quality Fiber -->
+				<item id="35350" min="1" max="1" chance="0.03" /> <!-- Eternal Tunic Ingredient -->
+			</drop>
+			<spoil>
+				<item id="36559" min="1" max="1" chance="0.75" /> <!-- Accessory Gem (High-grade) -->
+			</spoil>
+			<lucky_drop>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</lucky_drop>
+		</drop_lists>
+	</npc>
+	<npc id="23790" level="102" type="L2Monster" name="Kimerian's Shadows" title="Fairy Leader">
+		<race>FAIRY</race>
+		<acquire exp="82709042" sp="198501" />
+		<stats>
+			<vitals hp="368820" hpRegen="11.5" mp="24690" mpRegen="3.9" />
+			<attack physical="48571.42857142857" magical="8571.428571428571" critical="4" attackSpeed="253" range="40" />
+			<defence physical="3777.777777777778" magical="2193.548387096774" />
+			<speed>
+				<walk ground="45" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<skill_list>
+			<skill id="4416" level="13" /> <!-- Fairies -->
+			<skill id="5465" level="1" /> <!-- Earth Attack -->
+			<skill id="14823" level="1" /> <!-- Lethal Strike Resistance -->
+			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
+		</skill_list>
+		<collision>
+			<radius normal="22" />
+			<height normal="52" />
+		</collision>
+		<drop_lists>
+			<drop>
+				<item id="17424" min="1" max="1" chance="0.003" /> <!-- Helios Buster -->
+				<item id="57" min="11447" max="26672" chance="100" /> <!-- Adena -->
+				<item id="35335" min="1" max="1" chance="0.3" /> <!-- Helios Buster Fragment -->
+				<item id="35336" min="1" max="1" chance="0.3" /> <!-- Helios Caster Fragment -->
+				<item id="36554" min="1" max="1" chance="0.3" /> <!-- Armor Fragment (High-grade) -->
+			</drop>
+			<spoil>
+				<item id="19448" min="1" max="1" chance="0.3" /> <!-- Blessed Scroll: Enchant Armor (R-grade) -->
+				<item id="36513" min="1" max="1" chance="0.3" /> <!-- Elcyum Powder -->
+				<item id="19447" min="1" max="1" chance="0.075" /> <!-- Blessed Scroll: Enchant Weapon (R-grade) -->
+			</spoil>
+			<lucky_drop>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Bag - Stage 1 --> <!-- Lucky Corpse -->
+			</lucky_drop>
+		</drop_lists>
+	</npc>
+	<npc id="23790" level="85" type="L2Npc" name="Kimerian's Shadows" title="Fairy Leader">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="70" int="28" dex="40" wit="65" con="74" men="20">
+			<vitals hp="368820" hpRegen="7.5" mp="24690" mpRegen="2.7" />
+			<speed>
+				<walk ground="45" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="22" />
+			<height normal="52" />
+		</collision>
+	</npc>	
+	<npc id="23791" level="85" type="L2Npc" name="Bathus" title="Marred">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="70" int="28" dex="40" wit="65" con="74" men="20">
+			<vitals hp="283012" hpRegen="7.5" mp="24308" mpRegen="2.7" />
+			<speed>
+				<walk ground="55" />
+				<run ground="140" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="24" />
+			<height normal="46" />
+		</collision>
+	</npc>	
+	<npc id="23792" level="85" type="L2Npc" name="Carcass" title="Marred">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="15304" />
+		<stats str="70" int="28" dex="40" wit="65" con="74" men="20">
+			<vitals hp="283012" hpRegen="7.5" mp="24308" mpRegen="2.7" />
+			<speed>
+				<walk ground="55" />
+				<run ground="140" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="24" />
+			<height normal="42.5" />
+		</collision>
+	</npc>
+	<npc id="23793" level="85" type="L2Npc" name="Kshana" title="Marred">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="70" int="28" dex="40" wit="65" con="74" men="20">
+			<vitals hp="283012" hpRegen="7.5" mp="24308" mpRegen="2.7" />
+			<speed>
+				<walk ground="55" />
+				<run ground="140" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="24" />
+			<height normal="47.5" />
+		</collision>
+	</npc>	
+	<npc id="23794" level="85" type="L2Npc" name="Lucas" title="Marred">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="15304" />
+		<stats str="70" int="28" dex="40" wit="65" con="74" men="20">
+			<vitals hp="283012" hpRegen="7.5" mp="24308" mpRegen="2.7" />
+			<speed>
+				<walk ground="55" />
+				<run ground="140" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="24" />
+			<height normal="42.5" />
+		</collision>
+	</npc>		
+	<npc id="23795" level="85" type="L2Npc" name="Viper Cherkia" title="Oasis Mirage">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="70" int="28" dex="40" wit="65" con="74" men="20">
+			<vitals hp="633668" hpRegen="7.5" mp="23550" mpRegen="2.7" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="45" />
+			<height normal="97" />
+		</collision>
+	</npc>	
+	<npc id="23796" level="85" type="L2Npc" name="Viper Cherkia" title="Oasis Mirage">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="70" int="28" dex="40" wit="65" con="74" men="20">
+			<vitals hp="697034" hpRegen="7.5" mp="23550" mpRegen="2.7" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="45" />
+			<height normal="97" />
+		</collision>
+	</npc>
+	<npc id="23797" level="85" type="L2Npc" name="El Fera">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="70" int="28" dex="40" wit="65" con="74" men="20">
+			<vitals hp="403282" hpRegen="7.5" mp="23928" mpRegen="2.7" />
+			<speed>
+				<walk ground="39" />
+				<run ground="180" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="10" />
+			<height normal="14" />
+		</collision>
+	</npc>
+	<npc id="23798" level="102" type="L2Monster" name="Delta Bathus" title="Superion Scout">
+		<race>GIANT</race>
+		<acquire exp="908048947" sp="908061" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="283012" hpRegen="11.5" mp="24308" mpRegen="3.9" />
+			<attack physical="49047.619047619" magical="8655.46218487395" critical="4" attackSpeed="398" range="40" />
+			<defence physical="3814.81481481481" magical="2215.05376344086" />
+			<attribute>
+			<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="55" />
+				<run ground="140" />
+			</speed>
+		</stats>
+		<skill_list>
+			<skill id="4416" level="11" /> <!-- Giants -->
+			<skill id="5465" level="1" /> <!-- Earth Attack -->
+			<skill id="14823" level="1" /> <!-- Lethal Strike Resistance -->
+			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
+			<skill id="4379" level="5" /> <!-- Spear Resistance -->
+			<skill id="4435" level="5" /> <!-- Greater Stun Resistance -->
+			<skill id="4461" level="1" /> <!-- Dagger/Rapier Vulnerability -->
+			<skill id="16608" level="1" /> <!-- Servitor Attack Weakness -->
+			<skill id="4071" level="1" /> <!-- Bow/Crossbow Resistance -->
+		</skill_list>
+		<collision>
+			<radius normal="24" />
+			<height normal="46" />
+		</collision>
+		<drop_lists>
+			<drop>
+				<item id="17430" min="1" max="1" chance="0.0075" /> <!-- Eternal Helmet -->
+				<item id="17431" min="1" max="1" chance="0.003" /> <!-- Eternal Breastplate -->
+				<item id="57" min="29430" max="68561" chance="70" /> <!-- Adena -->
+				<item id="36543" min="1" max="1" chance="11.64" /> <!-- Adamantite Wire -->
+				<item id="47250" min="1" max="1" chance="0.75" /> <!-- Giant Power Crystal -->
+				<item id="35332" min="1" max="1" chance="0.3" /> <!-- Helios Stormer Fragment -->
+				<item id="35338" min="1" max="1" chance="0.3" /> <!-- Eternal Helmet Ingredient -->
+				<item id="35339" min="1" max="1" chance="0.3" /> <!-- Eternal Breastplate Ingredient -->
+				<item id="36545" min="1" max="1" chance="0.075" /> <!-- Durandil Wire -->
+			</drop>
+			<spoil>
+				<item id="36564" min="1" max="1" chance="0.75" /> <!-- Greater Synthetic Cokes -->
+				<item id="36565" min="1" max="1" chance="0.075" /> <!-- Exquisite Synthetic Cokes -->
+			</spoil>
+			<lucky_drop>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</lucky_drop>
+		</drop_lists>
+	</npc>
+	<npc id="23799" level="102" type="L2Monster" name="Delta Carcass" title="Superion Scout">
+		<race>GIANT</race>
+		<acquire exp="908048947" sp="908061" />
+		<equipment rhand="15304" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="283012" hpRegen="11.5" mp="24308" mpRegen="3.9" />
+			<attack physical="49047.619047619" magical="8655.46218487395" critical="4" attackSpeed="398" range="900" />
+			<defence physical="3814.81481481481" magical="2215.05376344086" />
+			<attribute>
+			<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="55" />
+				<run ground="140" />
+			</speed>
+		</stats>
+		<skill_list>
+			<skill id="4416" level="11" /> <!-- Giants -->
+			<skill id="5465" level="1" /> <!-- Earth Attack -->
+			<skill id="14823" level="1" /> <!-- Lethal Strike Resistance -->
+			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
+			<skill id="4379" level="5" /> <!-- Spear Resistance -->
+			<skill id="4461" level="1" /> <!-- Dagger/Rapier Vulnerability -->
+			<skill id="16608" level="1" /> <!-- Servitor Attack Weakness -->
+			<skill id="4071" level="1" /> <!-- Bow/Crossbow Resistance -->
+		</skill_list>
+		<collision>
+			<radius normal="24" />
+			<height normal="42.5" />
+		</collision>
+		<drop_lists>
+			<drop>
+				<item id="17433" min="1" max="1" chance="0.03" /> <!-- Eternal Gauntlets -->
+				<item id="17432" min="1" max="1" chance="0.003" /> <!-- Eternal Gaiters -->
+				<item id="57" min="29430" max="68561" chance="70" /> <!-- Adena -->
+				<item id="36543" min="1" max="1" chance="12.65" /> <!-- Adamantite Wire -->
+				<item id="36544" min="1" max="1" chance="1.093" /> <!-- Orichalcum Wire -->
+				<item id="47250" min="1" max="1" chance="0.75" /> <!-- Giant Power Crystal -->
+				<item id="35329" min="1" max="1" chance="0.3" /> <!-- Helios Slasher Fragment -->
+				<item id="35340" min="1" max="1" chance="0.3" /> <!-- Eternal Gaiter Ingredient -->
+				<item id="35341" min="1" max="1" chance="0.3" /> <!-- Eternal Gauntlet Ingredient -->
+			</drop>
+			<spoil>
+				<item id="36564" min="1" max="1" chance="0.75" /> <!-- Greater Synthetic Cokes -->
+				<item id="36565" min="1" max="1" chance="0.075" /> <!-- Exquisite Synthetic Cokes -->
+			</spoil>
+			<lucky_drop>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</lucky_drop>
+		</drop_lists>
+	</npc>
+</list>

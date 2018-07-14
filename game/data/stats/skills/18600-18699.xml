@@ -1,0 +1,1481 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
+	<skill id="18600" toLevel="3" name="Supply Box (Kingdom's Royal Guard)">
+		<icon>icon.skill18600</icon>
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>
+			<value level="1">47175</value> <!-- Basic Supply Box -->
+			<value level="2">47176</value> <!-- Intermediate Supply Box -->
+			<value level="3">47177</value> <!-- Advanced Supply Box -->
+		</itemConsumeId>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitTime>400</hitTime>
+		<hitCancelTime>0</hitCancelTime>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<conditions>
+			<condition name="OpEncumbered">
+				<weightPercent>20</weightPercent>
+				<slotsPercent>10</slotsPercent>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="Restoration">
+				<itemId>47258</itemId> <!-- Blood Crystal -->
+				<itemCount>
+					<value level="1">3</value>
+					<value level="2">6</value>
+					<value level="3">9</value>
+				</itemCount>
+			</effect>
+			<effect name="Restoration">
+				<itemId>47362</itemId> <!-- Supply Box (Kingdom's Royal Guard) -->
+				<itemCount>1</itemCount>
+			</effect>
+			<effect name="RestorationRandom" level="1">
+				<items>
+					<item chance="40">
+						<item id="19440" count="1" /> <!-- Gemstone (R-grade) -->
+					</item>
+					<item chance="40">
+						<item id="36563" count="1" /> <!-- Synthetic Cokes -->
+					</item>
+					<item chance="20">
+						<item id="36564" count="1" /> <!-- Greater Synthetic Cokes -->
+					</item>
+				</items>
+			</effect>
+			<effect name="RestorationRandom" level="2">
+				<items>
+					<item chance="35">
+						<item id="19440" count="1" /> <!-- Gemstone (R-grade) -->
+					</item>
+					<item chance="35">
+						<item id="36563" count="1" /> <!-- Synthetic Cokes -->
+					</item>
+					<item chance="20">
+						<item id="36564" count="1" /> <!-- Greater Synthetic Cokes -->
+					</item>
+					<item chance="10">
+						<item id="36565" count="1" /> <!-- Exquisite Synthetic Cokes -->
+					</item>
+				</items>
+			</effect>
+			<effect name="RestorationRandom" level="3">
+				<items>
+					<item chance="40">
+						<item id="19440" count="1" /> <!-- Gemstone (R-grade) -->
+					</item>
+					<item chance="40">
+						<item id="36564" count="1" /> <!-- Greater Synthetic Cokes -->
+					</item>
+					<item chance="20">
+						<item id="36565" count="1" /> <!-- Exquisite Synthetic Cokes -->
+					</item>
+				</items>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18601" toLevel="3" name="Supply Box (Mother Tree Guardians)">
+		<icon>icon.skill18601</icon>
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>
+			<value level="1">47178</value> <!-- Basic Supply Box -->
+			<value level="2">47179</value> <!-- Intermediate Supply Box -->
+			<value level="3">47180</value> <!-- Advanced Supply Box -->
+		</itemConsumeId>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitTime>400</hitTime>
+		<hitCancelTime>0</hitCancelTime>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<conditions>
+			<condition name="OpEncumbered">
+				<weightPercent>20</weightPercent>
+				<slotsPercent>10</slotsPercent>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="Restoration">
+				<itemId>47257</itemId> <!-- Life Crystal -->
+				<itemCount>
+					<value level="1">3</value>
+					<value level="2">6</value>
+					<value level="3">9</value>
+				</itemCount>
+			</effect>
+			<effect name="Restoration">
+				<itemId>36513</itemId> <!-- Elcyum Powder -->
+				<itemCount>1</itemCount>
+			</effect>
+			<effect name="RestorationRandom" level="1">
+				<items>
+					<item chance="18.5">
+						<item id="36523" count="1" /> <!-- Adamantite -->
+					</item>
+					<item chance="19.5">
+						<item id="36543" count="1" /> <!-- Adamantite Wire -->
+					</item>
+					<item chance="1.5">
+						<item id="35330" count="1" /> <!-- Helios Avenger Fragment -->
+					</item>
+					<item chance="1.5">
+						<item id="35335" count="1" /> <!-- Helios Buster Fragment -->
+					</item>
+					<item chance="1.5">
+						<item id="35336" count="1" /> <!-- Helios Caster Fragment -->
+					</item>
+					<item chance="1.5">
+						<item id="35328" count="1" /> <!-- Helios Cutter Fragment -->
+					</item>
+					<item chance="1.5">
+						<item id="35331" count="1" /> <!-- Helios Fighter Fragment -->
+					</item>
+					<item chance="1.5">
+						<item id="35336" count="1" /> <!-- Helios Retributer Fragment -->
+					</item>
+					<item chance="1.5">
+						<item id="35327" count="1" /> <!-- Helios Shaper Fragment -->
+					</item>
+					<item chance="1.5">
+						<item id="35329" count="1" /> <!-- Helios Slasher Fragment -->
+					</item>
+					<item chance="1.5">
+						<item id="35332" count="1" /> <!-- Helios Stormer Fragment -->
+					</item>
+					<item chance="1.5">
+						<item id="35334" count="1" /> <!-- Helios Shooter Fragment -->
+					</item>
+					<item chance="1.5">
+						<item id="35333" count="1" /> <!-- Helios Thrower Fragment -->
+					</item>
+					<item chance="27.0">
+						<item id="36524" count="1" /> <!-- Orichalcum -->
+					</item>
+					<item chance="18.5">
+						<item id="36544" count="1" /> <!-- Orichalcum Wire -->
+					</item>
+				</items>
+			</effect>
+			<effect name="RestorationRandom" level="2">
+				<items>
+					<item chance="18.5">
+						<item id="36523" count="1" /> <!-- Adamantite -->
+					</item>
+					<item chance="19.5">
+						<item id="36543" count="1" /> <!-- Adamantite Wire -->
+					</item>
+					<item chance="1.5">
+						<item id="35330" count="1" /> <!-- Helios Avenger Fragment -->
+					</item>
+					<item chance="1.5">
+						<item id="35335" count="1" /> <!-- Helios Buster Fragment -->
+					</item>
+					<item chance="1.5">
+						<item id="35336" count="1" /> <!-- Helios Caster Fragment -->
+					</item>
+					<item chance="1.5">
+						<item id="35328" count="1" /> <!-- Helios Cutter Fragment -->
+					</item>
+					<item chance="1.5">
+						<item id="35331" count="1" /> <!-- Helios Fighter Fragment -->
+					</item>
+					<item chance="1.5">
+						<item id="35336" count="1" /> <!-- Helios Retributer Fragment -->
+					</item>
+					<item chance="1.5">
+						<item id="35327" count="1" /> <!-- Helios Shaper Fragment -->
+					</item>
+					<item chance="1.5">
+						<item id="35329" count="1" /> <!-- Helios Slasher Fragment -->
+					</item>
+					<item chance="1.5">
+						<item id="35332" count="1" /> <!-- Helios Stormer Fragment -->
+					</item>
+					<item chance="1.5">
+						<item id="35334" count="1" /> <!-- Helios Shooter Fragment -->
+					</item>
+					<item chance="1.5">
+						<item id="35333" count="1" /> <!-- Helios Thrower Fragment -->
+					</item>
+					<item chance="27.0">
+						<item id="36524" count="1" /> <!-- Orichalcum -->
+					</item>
+					<item chance="18.5">
+						<item id="36544" count="1" /> <!-- Orichalcum Wire -->
+					</item>
+				</items>
+			</effect>
+			<effect name="RestorationRandom" level="3">
+				<items>
+					<item chance="18.5">
+						<item id="36523" count="1" /> <!-- Adamantite -->
+					</item>
+					<item chance="19.5">
+						<item id="36543" count="1" /> <!-- Adamantite Wire -->
+					</item>
+					<item chance="1.5">
+						<item id="35330" count="1" /> <!-- Helios Avenger Fragment -->
+					</item>
+					<item chance="1.5">
+						<item id="35335" count="1" /> <!-- Helios Buster Fragment -->
+					</item>
+					<item chance="1.5">
+						<item id="35336" count="1" /> <!-- Helios Caster Fragment -->
+					</item>
+					<item chance="1.5">
+						<item id="35328" count="1" /> <!-- Helios Cutter Fragment -->
+					</item>
+					<item chance="1.5">
+						<item id="35331" count="1" /> <!-- Helios Fighter Fragment -->
+					</item>
+					<item chance="1.5">
+						<item id="35336" count="1" /> <!-- Helios Retributer Fragment -->
+					</item>
+					<item chance="1.5">
+						<item id="35327" count="1" /> <!-- Helios Shaper Fragment -->
+					</item>
+					<item chance="1.5">
+						<item id="35329" count="1" /> <!-- Helios Slasher Fragment -->
+					</item>
+					<item chance="1.5">
+						<item id="35332" count="1" /> <!-- Helios Stormer Fragment -->
+					</item>
+					<item chance="1.5">
+						<item id="35334" count="1" /> <!-- Helios Shooter Fragment -->
+					</item>
+					<item chance="1.5">
+						<item id="35333" count="1" /> <!-- Helios Thrower Fragment -->
+					</item>
+					<item chance="27.0">
+						<item id="36524" count="1" /> <!-- Orichalcum -->
+					</item>
+					<item chance="18.5">
+						<item id="36544" count="1" /> <!-- Orichalcum Wire -->
+					</item>
+				</items>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18602" toLevel="3" name="Supply Box (Unworldly Visitors)">
+		<icon>icon.skill18602</icon>
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>
+			<value level="1">47181</value> <!-- Basic Supply Box -->
+			<value level="2">47182</value> <!-- Intermediate Supply Box -->
+			<value level="3">47183</value> <!-- Advanced Supply Box -->
+		</itemConsumeId>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitTime>400</hitTime>
+		<hitCancelTime>0</hitCancelTime>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<conditions>
+			<condition name="OpEncumbered">
+				<weightPercent>20</weightPercent>
+				<slotsPercent>10</slotsPercent>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="Restoration">
+				<itemId>47259</itemId> <!-- Wind Crystal -->
+				<itemCount>
+					<value level="1">3</value>
+					<value level="2">6</value>
+					<value level="3">9</value>
+				</itemCount>
+			</effect>
+			<effect name="RestorationRandom" level="1">
+				<items>
+					<item chance="8.0">
+						<item id="17526" count="1" /> <!-- Scroll: Enchant Weapon (R-grade) -->
+					</item>
+					<item chance="40.0">
+						<item id="17527" count="1" /> <!-- Scroll: Enchant Armor (R-grade) -->
+					</item>
+					<item chance="40.0">
+						<item id="36548" count="1" /> <!-- Weapon Fragment (Mid-grade) -->
+					</item>
+					<item chance="12.0">
+						<item id="36549" count="1" /> <!-- Weapon Fragment (High-grade) -->
+					</item>
+				</items>
+			</effect>
+			<effect name="RestorationRandom" level="2">
+				<items>
+					<item chance="8.0">
+						<item id="17526" count="1" /> <!-- Scroll: Enchant Weapon (R-grade) -->
+					</item>
+					<item chance="39.0">
+						<item id="17527" count="1" /> <!-- Scroll: Enchant Armor (R-grade) -->
+					</item>
+					<item chance="2.0">
+						<item id="19448" count="1" /> <!-- Blessed Scroll: Enchant Armor (R-grade) -->
+					</item>
+					<item chance="39.0">
+						<item id="36548" count="1" /> <!-- Weapon Fragment (Mid-grade) -->
+					</item>
+					<item chance="12.0">
+						<item id="36549" count="1" /> <!-- Weapon Fragment (High-grade) -->
+					</item>
+				</items>
+			</effect>
+			<effect name="RestorationRandom" level="3">
+				<items>
+					<item chance="18.5">
+						<item id="17526" count="1" /> <!-- Scroll: Enchant Weapon (R-grade) -->
+					</item>
+					<item chance="30.0">
+						<item id="17527" count="1" /> <!-- Scroll: Enchant Armor (R-grade) -->
+					</item>
+					<item chance="0.5">
+						<item id="19447" count="1" /> <!-- Blessed Scroll: Enchant Weapon (R-grade) -->
+					</item>
+					<item chance="1.0">
+						<item id="19448" count="1" /> <!-- Blessed Scroll: Enchant Armor (R-grade) -->
+					</item>
+					<item chance="50.0">
+						<item id="36549" count="1" /> <!-- Weapon Fragment (High-grade) -->
+					</item>
+				</items>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18603" toLevel="3" name="Basic Supply Box (Giant Trackers)">
+		<!-- Lower Level -->
+		<icon>icon.skill18603</icon>
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>
+			<value level="1">47184</value> <!-- Basic Supply Box -->
+			<value level="2">47185</value> <!-- Intermediate Supply Box -->
+			<value level="3">47186</value> <!-- Advanced Supply Box -->
+		</itemConsumeId>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitTime>400</hitTime>
+		<hitCancelTime>0</hitCancelTime>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<conditions>
+			<condition name="OpEncumbered">
+				<weightPercent>20</weightPercent>
+				<slotsPercent>10</slotsPercent>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="Restoration">
+				<itemId>47260</itemId> <!-- Giant Crystal -->
+				<itemCount>
+					<value level="1">3</value>
+					<value level="2">6</value>
+					<value level="3">9</value>
+				</itemCount>
+			</effect>
+			<effect name="RestorationRandom" level="1">
+				<items>
+					<item chance="1.8">
+						<item id="35330" count="1" /> <!-- Helios Avenger Fragment -->
+					</item>
+					<item chance="1.8">
+						<item id="35335" count="1" /> <!-- Helios Buster Fragment -->
+					</item>
+					<item chance="1.8">
+						<item id="35336" count="1" /> <!-- Helios Caster Fragment -->
+					</item>
+					<item chance="1.8">
+						<item id="35328" count="1" /> <!-- Helios Cutter Fragment -->
+					</item>
+					<item chance="1.8">
+						<item id="35331" count="1" /> <!-- Helios Fighter Fragment -->
+					</item>
+					<item chance="1.8">
+						<item id="35337" count="1" /> <!-- Helios Retributer Fragment -->
+					</item>
+					<item chance="1.8">
+						<item id="35327" count="1" /> <!-- Helios Shaper Fragment -->
+					</item>
+					<item chance="1.8">
+						<item id="35334" count="1" /> <!-- Helios Shooter Fragment -->
+					</item>
+					<item chance="1.8">
+						<item id="35329" count="1" /> <!-- Helios Slasher Fragment -->
+					</item>
+					<item chance="1.8">
+						<item id="35332" count="1" /> <!-- Helios Stormer Fragment -->
+					</item>
+					<item chance="1.8">
+						<item id="35333" count="1" /> <!-- Helios Thrower Fragment -->
+					</item>
+					<item chance="30.2">
+						<item id="30297" count="1" /> <!-- Superior Giant's Codex -->
+					</item>
+					<item chance="21.5">
+						<item id="30299" count="1" /> <!-- Superior Giant's Codex - Discipline -->
+					</item>
+					<item chance="15.5">
+						<item id="30298" count="1" /> <!-- Superior Giant's Codex - Mastery -->
+					</item>
+					<item chance="5.0">
+						<item id="36549" count="1" /> <!-- Weapon Fragment (High-grade) -->
+					</item>
+					<item chance="8.0">
+						<item id="36548" count="1" /> <!-- Weapon Fragment (Mid-grade) -->
+					</item>
+				</items>
+			</effect>
+			<effect name="RestorationRandom" level="2">
+				<items>
+					<item chance="5">
+						<item id="36554" count="1" /> <!-- Armor Fragment (High-grade) -->
+					</item>
+					<item chance="8">
+						<item id="36553" count="1" /> <!-- Armor Fragment (Mid-grade) -->
+					</item>
+					<item chance="1.15">
+						<item id="35342" count="1" /> <!-- Eternal Boot Ingredient -->
+					</item>
+					<item chance="1.15">
+						<item id="35339" count="1" /> <!-- Eternal Breastplate Ingredient -->
+					</item>
+					<item chance="1.15">
+						<item id="35349" count="1" /> <!-- Eternal Circlet Ingredient -->
+					</item>
+					<item chance="1.15">
+						<item id="35340" count="1" /> <!-- Eternal Gaiter Ingredient -->
+					</item>
+					<item chance="1.15">
+						<item id="35341" count="1" /> <!-- Eternal Gauntlet Ingredient -->
+					</item>
+					<item chance="1.15">
+						<item id="35352" count="1" /> <!-- Eternal Glove Ingredient -->
+					</item>
+					<item chance="1.15">
+						<item id="35338" count="1" /> <!-- Eternal Helmet Ingredient -->
+					</item>
+					<item chance="1.15">
+						<item id="35345" count="1" /> <!-- Eternal Leather Armor Ingredient -->
+					</item>
+					<item chance="1.15">
+						<item id="35348" count="1" /> <!-- Eternal Leather Boot Ingredient -->
+					</item>
+					<item chance="1.15">
+						<item id="35347" count="1" /> <!-- Eternal Leather Glove Ingredient -->
+					</item>
+					<item chance="1.15">
+						<item id="35344" count="1" /> <!-- Eternal Leather Helmet Ingredient -->
+					</item>
+					<item chance="1.15">
+						<item id="35346" count="1" /> <!-- Eternal Leather Legging Ingredient -->
+					</item>
+					<item chance="1.15">
+						<item id="35343" count="1" /> <!-- Eternal Shield Ingredient -->
+					</item>
+					<item chance="1.15">
+						<item id="35353" count="1" /> <!-- Eternal Shoe Ingredient -->
+					</item>
+					<item chance="1.15">
+						<item id="35354" count="1" /> <!-- Eternal Sigil Ingredient -->
+					</item>
+					<item chance="1.15">
+						<item id="35351" count="1" /> <!-- Eternal Stocking Ingredient -->
+					</item>
+					<item chance="1.15">
+						<item id="35350" count="1" /> <!-- Eternal Tunic Ingredient -->
+					</item>	
+					<item chance="30.45">
+						<item id="30297" count="1" /> <!-- Superior Giant's Codex -->
+					</item>	
+					<item chance="21.5">
+						<item id="30299" count="1" /> <!-- Superior Giant's Codex - Discipline -->
+					</item>	
+					<item chance="15.5">
+						<item id="30298" count="1" /> <!-- Superior Giant's Codex - Mastery -->
+					</item>	
+				</items>
+			</effect>
+			<effect name="RestorationRandom" level="3">
+				<items>
+					<item chance="5">
+						<item id="36554" count="1" /> <!-- Armor Fragment (High-grade) -->
+					</item>
+					<item chance="8">
+						<item id="36553" count="1" /> <!-- Armor Fragment (Mid-grade) -->
+					</item>
+					<item chance="1.15">
+						<item id="35342" count="1" /> <!-- Eternal Boot Ingredient -->
+					</item>
+					<item chance="1.15">
+						<item id="35339" count="1" /> <!-- Eternal Breastplate Ingredient -->
+					</item>
+					<item chance="1.15">
+						<item id="35349" count="1" /> <!-- Eternal Circlet Ingredient -->
+					</item>
+					<item chance="1.15">
+						<item id="35340" count="1" /> <!-- Eternal Gaiter Ingredient -->
+					</item>
+					<item chance="1.15">
+						<item id="35341" count="1" /> <!-- Eternal Gauntlet Ingredient -->
+					</item>
+					<item chance="1.15">
+						<item id="35352" count="1" /> <!-- Eternal Glove Ingredient -->
+					</item>
+					<item chance="1.15">
+						<item id="35338" count="1" /> <!-- Eternal Helmet Ingredient -->
+					</item>
+					<item chance="1.15">
+						<item id="35345" count="1" /> <!-- Eternal Leather Armor Ingredient -->
+					</item>
+					<item chance="1.15">
+						<item id="35348" count="1" /> <!-- Eternal Leather Boot Ingredient -->
+					</item>
+					<item chance="1.15">
+						<item id="35347" count="1" /> <!-- Eternal Leather Glove Ingredient -->
+					</item>
+					<item chance="1.15">
+						<item id="35344" count="1" /> <!-- Eternal Leather Helmet Ingredient -->
+					</item>
+					<item chance="1.15">
+						<item id="35346" count="1" /> <!-- Eternal Leather Legging Ingredient -->
+					</item>
+					<item chance="1.15">
+						<item id="35343" count="1" /> <!-- Eternal Shield Ingredient -->
+					</item>
+					<item chance="1.15">
+						<item id="35353" count="1" /> <!-- Eternal Shoe Ingredient -->
+					</item>
+					<item chance="1.15">
+						<item id="35354" count="1" /> <!-- Eternal Sigil Ingredient -->
+					</item>
+					<item chance="1.15">
+						<item id="35351" count="1" /> <!-- Eternal Stocking Ingredient -->
+					</item>
+					<item chance="1.15">
+						<item id="35350" count="1" /> <!-- Eternal Tunic Ingredient -->
+					</item>	
+					<item chance="30.45">
+						<item id="30297" count="1" /> <!-- Superior Giant's Codex -->
+					</item>	
+					<item chance="21.5">
+						<item id="30299" count="1" /> <!-- Superior Giant's Codex - Discipline -->
+					</item>	
+					<item chance="15.5">
+						<item id="30298" count="1" /> <!-- Superior Giant's Codex - Mastery -->
+					</item>	
+				</items>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18604" toLevel="1" name="Key Card to the Controller Room">
+		<!-- A key card that is necessary in order to enter the room containing the controller -->
+		<effectPoint>-1</effectPoint>
+		<hitTime>500</hitTime>
+		<isMagic>2</isMagic> <!-- Static Skill -->
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>47126</itemConsumeId> <!-- Key Card to the Controller Room" -->
+		<magicLvl>1</magicLvl>
+		<operateType>A1</operateType>
+		<reuseDelay>1000</reuseDelay>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effectRange>400</effectRange>
+		<castRange>400</castRange>
+		<targetType>DOOR_TREASURE</targetType>
+		<affectScope>SINGLE</affectScope>
+		<conditions>
+			<condition name="OpUnlock" />
+			<condition name="OpTargetDoor">
+				<doorIds>
+					<item>22230711</item>
+				</doorIds>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="OpenDoor">
+				<chance>100</chance>
+				<isItem>true</isItem>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18605" toLevel="1" name="Fish Chilli Stew - WIT">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18606" toLevel="1" name="Fish Chilli Stew - INT">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18607" toLevel="1" name="Fish Chilli Stew - MEN">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18608" toLevel="1" name="Fish Chilli Stew - DEX">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18609" toLevel="1" name="Fish Chilli Stew - STR">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18610" toLevel="1" name="Fish Chilli Stew - CON">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18611" toLevel="1" name="Fish Cream Stew - WIT">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18612" toLevel="1" name="Fish Cream Stew - INT">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18613" toLevel="1" name="Fish Cream Stew - MEN">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18614" toLevel="1" name="Fish Cream Stew - DEX">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18615" toLevel="1" name="Fish Cream Stew - STR">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18616" toLevel="1" name="Fish Cream Stew - CON">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18617" toLevel="1" name="Histie's Reward Box">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18618" toLevel="10" name="Scroll of Escape: Pagan Temple">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18619" toLevel="3" name="Supply Box (Blackbird Clan)">
+		<!--  Phantasmal Ridge --> -->
+		<icon>icon.skill18619</icon>
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>
+			<value level="1">47356</value> <!-- Basic Supply Box -->
+			<value level="2">47357</value> <!-- Intermediate Supply Box -->
+			<value level="3">47358</value> <!-- Advanced Supply Box -->
+		</itemConsumeId>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitTime>400</hitTime>
+		<hitCancelTime>0</hitCancelTime>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<conditions>
+			<condition name="OpEncumbered">
+				<weightPercent>20</weightPercent>
+				<slotsPercent>10</slotsPercent>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="Restoration">
+				<itemId>47256</itemId> <!-- Demon Crystal -->
+				<itemCount>
+					<value level="1">3</value>
+					<value level="2">6</value>
+					<value level="3">9</value>
+				</itemCount>
+			</effect>
+			<effect name="Restoration" level="3">
+				<itemId>37791</itemId> <!-- Sealed Demonic Tome -->
+				<itemCount>1</itemCount>
+			</effect>
+			<effect name="Restoration">
+				<itemId>37893</itemId> <!-- Bloodied Demonic Tome -->
+				<itemCount>1</itemCount>
+			</effect>
+			<effect name="RestorationRandom" fromLevel="1" toLevel="2">
+				<items>
+					<item chance="50">
+						<item id="37791" count="1" /> <!-- Sealed Demonic Tome -->
+					</item>
+					<item chance="50">
+						<item id="37893" count="1" /> <!-- Bloodied Demonic Tome -->
+					</item>
+				</items>
+			</effect>
+			<effect name="RestorationRandom" level="3">
+				<items>
+					<item chance="35">
+						<item id="37791" count="1" /> <!-- Sealed Demonic Tome -->
+					</item>
+					<item chance="30">
+						<item id="37791" count="2" /> <!-- Sealed Demonic Tome -->
+					</item>
+					<item chance="35">
+						<item id="37893" count="1" /> <!-- Bloodied Demonic Tome -->
+					</item>
+				</items>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18620" toLevel="3" name="Basic Supply Box (Giant Trackers)">
+		<!--  Giant's Cave Upper Level -->
+		<icon>icon.skill18620</icon>
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>
+			<value level="1">47359</value> <!-- Basic Supply Box -->
+			<value level="2">47360</value> <!-- Intermediate Supply Box -->
+			<value level="3">47361</value> <!-- Advanced Supply Box -->
+		</itemConsumeId>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitTime>400</hitTime>
+		<hitCancelTime>0</hitCancelTime>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<conditions>
+			<condition name="OpEncumbered">
+				<weightPercent>20</weightPercent>
+				<slotsPercent>10</slotsPercent>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="Restoration">
+				<itemId>47260</itemId> <!-- Giant Crystal -->
+				<itemCount>
+					<value level="1">3</value>
+					<value level="2">6</value>
+					<value level="3">9</value>
+				</itemCount>
+			</effect>
+			<effect name="RestorationRandom">
+				<items>
+					<item chance="1.15">
+						<item id="35342" count="1" /> <!-- Eternal Boots Ingredient -->
+					</item>
+					<item chance="1.15">
+						<item id="35339" count="1" /> <!-- Eternal Breastplate Ingredient -->
+					</item>
+					<item chance="1.15">
+						<item id="35349" count="1" /> <!-- Eternal Circlet Ingredient -->
+					</item>
+					<item chance="1.15">
+						<item id="35340" count="1" /> <!-- Eternal Gaiters Ingredient -->
+					</item>
+					<item chance="1.15">
+						<item id="35341" count="1" /> <!-- Eternal Gauntlets Ingredient -->
+					</item>
+					<item chance="1.15">
+						<item id="35352" count="1" /> <!-- Eternal Gloves Ingredient -->
+					</item>
+					<item chance="1.15">
+						<item id="35338" count="1" /> <!-- Eternal Helmet Ingredient -->
+					</item>
+					<item chance="1.15">
+						<item id="35345" count="1" /> <!-- Eternal Leather Armor Ingredient -->
+					</item>
+					<item chance="1.15">
+						<item id="35348" count="1" /> <!-- Eternal Leather Boots Ingredient -->
+					</item>
+					<item chance="1.15">
+						<item id="35347" count="1" /> <!-- Eternal Leather Gloves Ingredient -->
+					</item>
+					<item chance="1.15">
+						<item id="35344" count="1" /> <!-- Eternal Leather Helmet Ingredient -->
+					</item>
+					<item chance="1.15">
+						<item id="35346" count="1" /> <!-- Eternal Leather Leggings Ingredient -->
+					</item>
+					<item chance="1.15">
+						<item id="35343" count="1" /> <!-- Eternal Shield Ingredient -->
+					</item>
+					<item chance="1.15">
+						<item id="35353" count="1" /> <!-- Eternal Shoes Ingredient -->
+					</item>
+					<item chance="1.15">
+						<item id="35354" count="1" /> <!-- Eternal Sigil Ingredient -->
+					</item>
+					<item chance="1.15">
+						<item id="35351" count="1" /> <!-- Eternal Stockings Ingredient -->
+					</item>
+					<item chance="1.15">
+						<item id="35350" count="1" /> <!-- Eternal Tunic Ingredient -->
+					</item>
+					<item chance="30.45">
+						<item id="30297" count="1" /> <!-- Superior Giant's Codex -->
+					</item>
+					<item chance="21.5">
+						<item id="30299" count="1" /> <!-- Superior Giant's Codex - Discipline -->
+					</item>
+					<item chance="15.5">
+						<item id="30298" count="1" /> <!-- Superior Giant's Codex - Mastery -->
+					</item>
+					<item chance="5">
+						<item id="36554" count="1" /> <!-- Armor Fragment (High-grade) -->
+					</item>
+					<item chance="8">
+						<item id="36553" count="1" /> <!-- Armor Fragment (Mid-grade) -->
+					</item>
+				</items>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18621" toLevel="1" name="Supply Box">
+		<icon>icon.skill18621</icon>
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>47362</itemConsumeId> <!-- Supply Box -->
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitTime>400</hitTime>
+		<hitCancelTime>0</hitCancelTime>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<conditions>
+			<condition name="OpEncumbered">
+				<weightPercent>20</weightPercent>
+				<slotsPercent>10</slotsPercent>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="RestorationRandom">
+				<items>
+					<item chance="34.0">
+						<item id="36554" count="1" /> <!-- Armor Fragment (High-grade) -->
+					</item>
+					<item chance="40.5">
+						<item id="36553" count="1" /> <!-- Armor Fragment (Mid-grade) -->
+					</item>
+					<item chance="1.5">
+						<item id="35338" count="1" /> <!-- Eternal Helmet Ingredient -->
+					</item>
+					<item chance="1.5">
+						<item id="35339" count="1" /> <!-- Eternal Breastplate Ingredient -->
+					</item>
+					<item chance="1.5">
+						<item id="35340" count="1" /> <!-- Eternal Gaiters Ingredient -->
+					</item>
+					<item chance="1.5">
+						<item id="35341" count="1" /> <!-- Eternal Gauntlets Ingredient -->
+					</item>
+					<item chance="1.5">
+						<item id="35342" count="1" /> <!-- Eternal Boots Ingredient -->
+					</item>
+					<item chance="1.5">
+						<item id="35343" count="1" /> <!-- Eternal Shield Ingredient -->
+					</item>
+					<item chance="1.5">
+						<item id="35344" count="1" /> <!-- Eternal Leather Helmet Ingredient -->
+					</item>
+					<item chance="1.5">
+						<item id="35345" count="1" /> <!-- Eternal Leather Armor Ingredient -->
+					</item>
+					<item chance="1.5">
+						<item id="35346" count="1" /> <!-- Eternal Leather Leggings Ingredient -->
+					</item>
+					<item chance="1.5">
+						<item id="35347" count="1" /> <!-- Eternal Leather Gloves Ingredient -->
+					</item>
+					<item chance="1.5">
+						<item id="35348" count="1" /> <!-- Eternal Leather Boots Ingredient -->
+					</item>
+					<item chance="1.5">
+						<item id="35349" count="1" /> <!-- Eternal Circlet Ingredient -->
+					</item>
+					<item chance="1.5">
+						<item id="35350" count="1" /> <!-- Eternal Tunic Ingredient -->
+					</item>
+					<item chance="1.5">
+						<item id="35351" count="1" /> <!-- Eternal Stockings Ingredient -->
+					</item>
+					<item chance="1.5">
+						<item id="35352" count="1" /> <!-- Eternal Gloves Ingredient -->
+					</item>
+					<item chance="1.5">
+						<item id="35353" count="1" /> <!-- Eternal Shoes Ingredient -->
+					</item>
+					<item chance="1.5">
+						<item id="35354" count="1" /> <!-- Eternal Sigil Ingredient -->
+					</item>
+				</items>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18622" toLevel="6" name="+8 Bloody Eternal Pack">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18623" toLevel="8" name="White Assassin Suit Appearance Stone">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18624" toLevel="2" name="Agathion Box">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18625" toLevel="2" name="Elcyum Box">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18626" toLevel="1" name="Superior Giant's Codex Box">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18627" toLevel="2" name="Blessed Lucky Armor Enchant Stone Chest - R">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18628" toLevel="1" name="Express Bus Pass Card">
+		<icon>icon.skill0000</icon>
+		<isMagic>2</isMagic> <!-- Static Skill -->
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>47384</itemConsumeId> <!-- Express Bus Pass Card -->
+		<magicLvl>1</magicLvl>
+		<operateType>A1</operateType>
+		<reuseDelay>1000</reuseDelay>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<hitCancelTime>0</hitCancelTime>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<effects>
+			<effect name="GiveXp">
+				<xp>100000000000</xp>
+			</effect>
+			<effect name="GiveSp">
+				<xp>240000000</xp>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18629" toLevel="1" name="Balthus Knight Disguise">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18630" toLevel="1" name="Balthus Knight Disguise">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18631" toLevel="1" name="Balthus Knight Disguise">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18632" toLevel="1" name="Balthus Knight Disguise">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18633" toLevel="1" name="Balthus Knight Disguise">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18634" toLevel="1" name="Duo - Freya Wind">
+		<!-- Vitality +100% and XP/SP acquisition +100% while hunting. Remains after death. Duration is 10 min. Cooldown is 30 min. Only usable when 1 or more Vitality slot is full. Cannot be used in the Olympiad. Will be deleted when the event ends. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>600</abnormalTime>
+		<itemConsumeId>36331</itemConsumeId>
+		<itemConsumeCount>1</itemConsumeCount>
+		<reuseDelay>1800000</reuseDelay>
+		<effectPoint>100</effectPoint>
+		<isMagic>4</isMagic>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<effects>
+			<effect name="VitalityExpRate">
+				<amount>100</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="ExpModify">
+				<amount>100</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="SpModify">
+				<amount>100</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18635" toLevel="1" name="Duo - Prophecy">
+		<!-- For 5 min, all party members' P. Atk. and M. Atk. +$s2. Can be used by characters with Lv. 85 and above. -->
+		<icon>icon.skill0837</icon>
+		<operateType>A2</operateType>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>300</abnormalTime>
+		<castRange>400</castRange>
+		<hitTime>1000</hitTime>
+		<coolTime>300</coolTime>
+		<reuseDelay>270000</reuseDelay>
+		<effectPoint>712</effectPoint>
+		<affectRange>600</affectRange>
+		<effectRange>600</effectRange>
+		<targetType>SELF</targetType>
+		<affectScope>PARTY</affectScope>
+		<affectObject>FRIEND_PC</affectObject>
+		<conditions>
+			<condition name="CheckLevel">
+				<minLevel>1</minLevel>
+				<maxLevel>85</maxLevel>
+				<affectType>CASTER</affectType>
+			</condition>
+			<condition name="TargetMyParty">
+				<includeMe>true</includeMe>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="PAtk">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MAtk">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>			
+		</effects>
+	</skill>
+	<skill id="18636" toLevel="2" name="Duo - Energy of Blessing">
+		<!-- For 3 hours, XP gained when hunting monsters increases by 30%. When the buff ends, the β€�Duo's Gift' item can be gained. Gift cannot be received when dead. Can be used by characters with Lv. 85 and above. -->
+		<icon>icon.skill10101</icon>
+		<operateType>A2</operateType>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>10800</abnormalTime>
+		<hitTime>
+			<value level="1">100</value>
+			<value level="2">0</value>
+		</hitTime>
+		<reuseDelay>
+			<value level="1">36000000</value>
+			<value level="2">0</value>
+		</reuseDelay>
+		<effectPoint>
+			<value level="1">100</value>
+			<value level="2">1</value>
+		</effectPoint>
+		<isMagic>4</isMagic>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<conditions>
+			<condition name="CheckLevel">
+				<minLevel>1</minLevel>
+				<maxLevel>85</maxLevel>
+				<affectType>CASTER</affectType>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="ExpModify">
+				<amount>30</amount>
+				<mode>PER</mode>
+			</effect>		
+		</effects>
+	</skill>
+	<skill id="18637" toLevel="1" name="Duo Vital Compression Stone">
+		<!-- When used, bonus XP gained in Vitality Status is boosted by 20%. Cannot be used together with Dandy's Home Run Ball/Fall of the Dragon Buff/Nevit's Hourglass. -->
+		<icon>icon.etc_capture_stone_i00</icon>
+		<operateType>A2</operateType>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>3600</abnormalTime>
+		<reuseDelay>300000</reuseDelay>
+		<isMagic>4</isMagic>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<effects>
+			<effect name="VitalityExpRate">
+				<amount>20</amount>
+				<mode>PER</mode>
+			</effect>		
+		</effects>
+	</skill>
+	<skill id="18638" toLevel="1" name="PC Cafe Points Coupon (200 points)">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18639" toLevel="3" name="Scroll of Experience (Dual Class)">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18640" toLevel="1" name="Duo Growth Rune 30%">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18641" toLevel="1" name="Balthus Knights Supply Items">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18642" toLevel="9" name="Duo's Gift">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18643" toLevel="1" name="Duo's Gift">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18644" toLevel="1" name="Freya's Luxury Shopping Bag">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18645" toLevel="1" name="Black Freya's Kindness">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18646" toLevel="1" name="Freya's Scroll of Storm">
+		<icon>icon.freya_scroll</icon>
+		<operateType>A2</operateType>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>600</abnormalTime>
+		<itemConsumeId>27673</itemConsumeId>
+		<itemConsumeCount>1</itemConsumeCount>
+		<reuseDelay>600000</reuseDelay>
+		<isMagic>4</isMagic>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<effects>
+			<effect name="VitalityPointsRate">
+				<amount>150</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="ExpModify">
+				<amount>150</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="SpModify">
+				<amount>150</amount>
+				<mode>PER</mode>
+			</effect>			
+		</effects>
+	</skill>
+	<skill id="18647" toLevel="1" name="Freya's Bloody Rune">
+		<!-- Damage dealt to NPCs is increased by 15% when having it in your inventory. -->
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PveMagicalSkillDamageBonus">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalAttackDamageBonus">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalSkillDamageBonus">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>			
+		</effects>
+	</skill>
+	<skill id="18648" toLevel="1" name="Freya's Rune">
+		<!-- Boosts STR/DEX/CON/INT/WIT/MEN by 1 and increases MEN/Paralysis Resistance by 10% when having it in your inventory. -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="StatUp">
+				<amount>1</amount>
+				<stat>STR</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>1</amount>
+				<stat>DEX</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>1</amount>
+				<stat>CON</stat>
+			</effect>		
+			<effect name="StatUp">
+				<amount>1</amount>
+				<stat>INT</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>1</amount>
+				<stat>WIT</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>1</amount>
+				<stat>MEN</stat>
+			</effect>	
+			<effect name="DefenceTrait">
+				<PARALYZE>10</PARALYZE>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18649" toLevel="1" name="Freya's Vital Rune">
+		<!-- Bonus XP gained in Vitality state is boosted by 50% when having it in your inventory (Does not apply to Boss Monsters) -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="VitalityExpRate">
+				<amount>50</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>			
+	</skill>
+	<skill id="18650" toLevel="1" name="Mysterious Talisman - Attribute Defense">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18651" toLevel="10" name="Kelbim Weapon Pack">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18652" toLevel="1" name="Shining Scroll: Enchant Elemental Shirt">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18653" toLevel="1" name="Lias Supply Items">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18654" toLevel="1" name="Craft Effect - Body">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18655" toLevel="1" name="Craft Effect - Mind">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18656" toLevel="1" name="Craft Effect - Barrier">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18657" toLevel="1" name="Craft Effect - Shield">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18658" toLevel="1" name="Craft Effect - Earth">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18659" toLevel="1" name="Craft Effect - Pure">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18660" toLevel="1" name="Craft Effect - STR">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18661" toLevel="1" name="Craft Effect - INT">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18662" toLevel="1" name="Craft Effect - CON">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18663" toLevel="4" name="Zodiac Agathion Box">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18664" toLevel="7" name="Reward for Defeating the Giant Monsters">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18665" toLevel="2" name="Santiago's High-grade Reward Treasure Chest">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18666" toLevel="1" name="PC Cafe Map Treasure Chest">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18667" toLevel="1" name="Royal Blue Save Card (R-grade) - Armor">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18668" toLevel="1" name="Royal Blue Save Card (R95-grade) - Armor">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18669" toLevel="1" name="Royal Blue Save Card (R99-grade) - Armor">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18670" toLevel="1" name="Gran Kain's Miraculous Medicine">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18671" toLevel="1" name="Prophecy of Might - PC Cafe exclusive">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18672" toLevel="1" name="Christmas Party Herb">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18673" toLevel="1" name="Transformation Scroll: Tow">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18674" toLevel="1" name="Transformation Scroll: Lady Tow">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18675" toLevel="1" name="Transformation Scroll: Angry Tow">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18676" toLevel="1" name="Transformation Scroll: Sleepy Tow">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18677" toLevel="1" name="Transformation Scroll: Pig">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18678" toLevel="1" name="Transformation Scroll: Rabbit">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18679" toLevel="1" name="Transformation Scroll: Queen Ant">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18680" toLevel="1" name="Transformation Scroll: Orfen">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18681" toLevel="1" name="Transformation Scroll: Anakim">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18682" toLevel="1" name="Transformation Scroll: Lilith">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18683" toLevel="1" name="Cat Fighter Appearance Stone">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<hitCancelTime>0</hitCancelTime>
+		<magicLvl>1</magicLvl>
+		<isMagic>2</isMagic>
+		<targetType>ITEM</targetType>
+		<affectScope>SINGLE</affectScope>
+	</skill>
+	<skill id="18684" toLevel="1" name="Warm Bear Paws Appearance Stone">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<hitCancelTime>0</hitCancelTime>
+		<magicLvl>1</magicLvl>
+		<isMagic>2</isMagic>
+		<targetType>ITEM</targetType>
+		<affectScope>SINGLE</affectScope>
+	</skill>
+	<skill id="18685" toLevel="1" name="Boxing Glove Appearance Stone">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<hitCancelTime>0</hitCancelTime>
+		<magicLvl>1</magicLvl>
+		<isMagic>2</isMagic>
+		<targetType>ITEM</targetType>
+		<affectScope>SINGLE</affectScope>
+	</skill>
+	<skill id="18686" toLevel="1" name="Cupid's Arrow Appearance Stone">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<hitCancelTime>0</hitCancelTime>
+		<magicLvl>1</magicLvl>
+		<isMagic>2</isMagic>
+		<targetType>ITEM</targetType>
+		<affectScope>SINGLE</affectScope>
+	</skill>
+	<skill id="18687" toLevel="1" name="Wedding Bouquet Appearance Stone -One-handed Blunt Weapon">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<hitCancelTime>0</hitCancelTime>
+		<magicLvl>1</magicLvl>
+		<isMagic>2</isMagic>
+		<targetType>ITEM</targetType>
+		<affectScope>SINGLE</affectScope>
+	</skill>
+	<skill id="18688" toLevel="1" name="Pig Lollipop">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<hitCancelTime>0</hitCancelTime>
+		<magicLvl>1</magicLvl>
+		<isMagic>2</isMagic>
+		<targetType>ITEM</targetType>
+		<affectScope>SINGLE</affectScope>
+	</skill>
+	<skill id="18689" toLevel="1" name="Chef Monkeys' Banana Herb">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18690" toLevel="1" name="Chef Monkey's Treasure Chest">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+</list>

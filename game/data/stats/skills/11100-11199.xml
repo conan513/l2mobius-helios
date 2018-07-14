@@ -1,0 +1,3715 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
+	<skill id="11100" toLevel="1" name="Elemental Destruction: Double Casting">
+		<!-- Updated to IO -->
+		<!-- 4 Elements -->
+		<icon>icon.skill11017</icon>
+		<operateType>P</operateType>
+		<magicLvl>85</magicLvl>
+		<effects>
+			<effect name="TriggerSkillBySkillAttack">
+				<!-- Elemental Destruction (4 Elements) -->
+				<!-- Elemental Destruction: 4 Attributes -->
+				<attackSkillId>11028</attackSkillId>
+				<skillId>11105</skillId>
+				<skillLevel>1</skillLevel>
+				<chance>50</chance>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11101" toLevel="1" name="Elemental Destruction: Fire">
+		<!-- Updated to IO -->
+		<!-- Body is destroyed. -->
+		<icon>icon.skill11866</icon>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>10</abnormalTime>
+		<abnormalType>BODY_DESTRUCTION</abnormalType>
+		<operateType>A2</operateType>
+		<magicLvl>85</magicLvl>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<isMagic>4</isMagic>
+		<isDebuff>true</isDebuff>
+	</skill>
+	<skill id="11102" toLevel="1" name="Elemental Destruction: Water">
+		<!-- Updated to IO -->
+		<!-- Body is destroyed. -->
+		<icon>icon.skill11866</icon>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>10</abnormalTime>
+		<abnormalType>BODY_DESTRUCTION</abnormalType>
+		<activateRate>-1</activateRate>
+		<operateType>A2</operateType>
+		<magicLvl>85</magicLvl>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<isMagic>4</isMagic>
+		<isDebuff>true</isDebuff>
+	</skill>
+	<skill id="11103" toLevel="1" name="Elemental Destruction: Wind">
+		<!-- Updated to IO -->
+		<!-- Body is destroyed. -->
+		<icon>icon.skill11866</icon>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>10</abnormalTime>
+		<abnormalType>BODY_DESTRUCTION</abnormalType>
+		<activateRate>-1</activateRate>
+		<operateType>A2</operateType>
+		<magicLvl>85</magicLvl>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<isMagic>4</isMagic>
+		<isDebuff>true</isDebuff>
+	</skill>
+	<skill id="11104" toLevel="1" name="Elemental Destruction: Earth">
+		<!-- Updated to IO -->
+		<!-- Body is destroyed. -->
+		<icon>icon.skill11866</icon>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>10</abnormalTime>
+		<abnormalType>BODY_DESTRUCTION</abnormalType>
+		<activateRate>-1</activateRate>
+		<operateType>A2</operateType>
+		<magicLvl>85</magicLvl>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<isMagic>4</isMagic>
+		<isDebuff>true</isDebuff>
+	</skill>
+	<skill id="11105" toLevel="1" name="Elemental Destruction: 4 Attributes">
+		<!-- Updated to IO -->
+		<!-- Body is destroyed. -->
+		<icon>icon.skill11866</icon>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>10</abnormalTime>
+		<abnormalType>BODY_DESTRUCTION</abnormalType>
+		<activateRate>-1</activateRate>
+		<operateType>A2</operateType>
+		<magicLvl>85</magicLvl>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<isMagic>4</isMagic>
+		<isDebuff>true</isDebuff>
+	</skill>
+	<skill id="11106" toLevel="7" name="Elemental Mass Burst">
+		<!-- Updated to HELIOS -->
+		<!-- Detonates an Elemental Destruction to inflict damage on nearby enemies with 569 Power. For 15 seconds, M. Def. - 20%. -->
+		<icon>icon.skill11865</icon>
+		<abnormalTime>
+			<value level="1">15</value>
+			<value level="2">20</value>
+			<value level="3">25</value>
+			<value level="4">30</value>
+			<value level="5">30</value>
+			<value level="6">30</value>
+			<value level="7">30</value>
+		</abnormalTime>
+		<activateRate>80</activateRate> <!-- Guessed -->
+		<affectRange>200</affectRange> <!-- Guessed -->
+		<reuseDelayGroup>11106</reuseDelayGroup>
+		<fireStanceSkillId>11107</fireStanceSkillId>
+		<waterStanceSkillId>11108</waterStanceSkillId>
+		<windStanceSkillId>11109</windStanceSkillId>
+		<earthStanceSkillId>11110</earthStanceSkillId>
+		<allStanceSkillId>11111</allStanceSkillId>
+		<operateType>A2</operateType>
+		<targetType>ENEMY_ONLY</targetType>
+		<affectScope>RANGE</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<magicLvl>
+			<value level="1">85</value>
+			<value level="2">90</value>
+			<value level="3">95</value>
+			<value level="4">99</value>
+			<value level="5">101</value>
+			<value level="6">103</value>
+			<value level="7">105</value>
+		</magicLvl>
+		<mpConsume>
+			<value level="1">137</value>
+			<value level="2">154</value>
+			<value level="3">166</value>
+			<value level="4">179</value>
+			<value level="5">192</value>
+			<value level="6">205</value>
+			<value level="7">218</value>
+		</mpConsume>
+		<castRange>1100</castRange>
+		<effectRange>1400</effectRange>
+		<hitTime>2280</hitTime>
+		<coolTime>300</coolTime>
+		<reuseDelay>6700</reuseDelay>
+		<isMagic>1</isMagic>
+		<effectPoint>-1009</effectPoint>
+		<isDebuff>true</isDebuff>
+		<magicCriticalRate>
+			<value fromLevel="1" toLevel="7">6</value>
+			<value fromLevel="3" toLevel="7" fromSubLevel="2001" toSubLevel="2030">{base + base / 100 * subIndex}</value>
+		</magicCriticalRate>
+		<conditions>
+			<condition name="OpCheckAbnormal">
+				<type>BODY_DESTRUCTION</type>
+				<level>1</level>
+				<hasAbnormal>true</hasAbnormal>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="MagicalAttack">
+				<power>
+					<value level="1">569</value>
+					<value level="2">618</value>
+					<value level="3">649</value>
+					<value level="4">683</value>
+					<value level="5">705</value>
+					<value level="6">723</value>
+					<value level="7">741</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1001" toSubLevel="1005">{base + base / 100 * (1 + 0.4 * (subIndex - 1))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1006" toSubLevel="1006">{base + base / 100 * (2 + 0.8 * (subIndex - 5))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1007" toSubLevel="1007">{base + base / 100 * (3 + 0.3 * (subIndex - 6))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1008" toSubLevel="1008">{base + base / 100 * (3 + 0.3 * (subIndex - 7))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1009" toSubLevel="1011">{base + base / 100 * (4 + 0.4 * (subIndex - 8))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1012" toSubLevel="1012">{base + base / 100 * (5 + 0.1 * (subIndex - 11))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1013" toSubLevel="1013">{base + base / 100 * (5 + 0.5 * (subIndex - 12))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1014" toSubLevel="1014">{base + base / 100 * (5 + 0.9 * (subIndex - 13))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1015" toSubLevel="1015">{base + base / 100 * (6 + 0.2 * (subIndex - 14))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1016" toSubLevel="1016">{base + base / 100 * (6 + 0.6 * (subIndex - 15))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1017" toSubLevel="1017">{base + base / 100 * (7 * (subIndex - 16))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1018" toSubLevel="1018">{base + base / 100 * (7 + 0.4 * (subIndex - 17))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1019" toSubLevel="1019">{base + base / 100 * (7 + 0.7 * (subIndex - 18))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1020" toSubLevel="1020">{base + base / 100 * (8 + 0.1 * (subIndex - 19))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1021" toSubLevel="1021">{base + base / 100 * (8 + 0.5 * (subIndex - 20))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1022" toSubLevel="1022">{base + base / 100 * (8 + 0.8 * (subIndex - 21))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1023" toSubLevel="1023">{base + base / 100 * (9 + 0.2 * (subIndex - 22))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1024" toSubLevel="1024">{base + base / 100 * (9 + 0.6 * (subIndex - 23))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1025" toSubLevel="1025">{base + base / 100 * (10 * (subIndex - 24))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1026" toSubLevel="1026">{base + base / 100 * (10 + 0.3 * (subIndex - 25))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1027" toSubLevel="1027">{base + base / 100 * (10 + 0.7 * (subIndex - 26))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1028" toSubLevel="1028">{base + base / 100 * (11 + 0.1 * (subIndex - 27))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1029" toSubLevel="1029">{base + base / 100 * (11 + 0.4 * (subIndex - 28))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1030" toSubLevel="1030">{base + base / 100 * (11 + 0.8 * (subIndex - 29))}</value>
+				</power>
+			</effect>
+			<effect name="DispelBySlotProbability">
+				<!-- Detonates Elemental Destruction -->
+				<dispel>BODY_DESTRUCTION</dispel>
+				<rate>100</rate>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>-20</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11107" toLevel="7" name="Elemental Mass Burst: Fire">
+		<!-- Updated to IO -->
+		<!-- Detonates an Elemental Destruction to inflict damage on nearby enemies with 569 Power. For 15 seconds, M. Def. - 20%. -->
+		<icon>icon.skill11865</icon>
+		<abnormalTime>
+			<value level="1">15</value>
+			<value level="2">20</value>
+			<value level="3">25</value>
+			<value level="4">30</value>
+			<value level="5">30</value>
+			<value level="6">30</value>
+			<value level="7">30</value>
+		</abnormalTime>
+		<activateRate>80</activateRate> <!-- Guessed -->
+		<affectRange>200</affectRange> <!-- Guessed -->
+		<reuseDelayGroup>11106</reuseDelayGroup>
+		<attributeType>FIRE</attributeType>
+		<attributeValue>20</attributeValue>
+		<operateType>A2</operateType>
+		<targetType>ENEMY_ONLY</targetType>
+		<affectScope>RANGE</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<magicLvl>
+			<value level="1">85</value>
+			<value level="2">90</value>
+			<value level="3">95</value>
+			<value level="4">99</value>
+			<value level="5">101</value>
+			<value level="6">103</value>
+			<value level="7">105</value>
+		</magicLvl>
+		<mpConsume>
+			<value level="1">137</value>
+			<value level="2">154</value>
+			<value level="3">166</value>
+			<value level="4">179</value>
+			<value level="5">192</value>
+			<value level="6">205</value>
+			<value level="7">218</value>
+		</mpConsume>
+		<castRange>1100</castRange>
+		<effectRange>1400</effectRange>
+		<hitTime>6080</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>6700</reuseDelay>
+		<isMagic>1</isMagic>
+		<effectPoint>-1009</effectPoint>
+		<isDebuff>true</isDebuff>
+		<magicCriticalRate>
+			<value fromLevel="1" toLevel="7">6</value>
+			<value fromLevel="3" toLevel="7" fromSubLevel="2001" toSubLevel="2030">{base + base / 100 * subIndex}</value>
+		</magicCriticalRate>
+		<conditions>
+			<condition name="OpCheckAbnormal">
+				<type>BODY_DESTRUCTION</type>
+				<level>1</level>
+				<hasAbnormal>true</hasAbnormal>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="MagicalAttack">
+				<power>
+					<value level="1">569</value>
+					<value level="2">618</value>
+					<value level="3">649</value>
+					<value level="4">683</value>
+					<value level="5">705</value>
+					<value level="6">723</value>
+					<value level="7">741</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1001" toSubLevel="1005">{base + base / 100 * (1 + 0.4 * (subIndex - 1))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1006" toSubLevel="1006">{base + base / 100 * (2 + 0.8 * (subIndex - 5))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1007" toSubLevel="1007">{base + base / 100 * (3 + 0.3 * (subIndex - 6))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1008" toSubLevel="1008">{base + base / 100 * (3 + 0.3 * (subIndex - 7))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1009" toSubLevel="1011">{base + base / 100 * (4 + 0.4 * (subIndex - 8))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1012" toSubLevel="1012">{base + base / 100 * (5 + 0.1 * (subIndex - 11))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1013" toSubLevel="1013">{base + base / 100 * (5 + 0.5 * (subIndex - 12))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1014" toSubLevel="1014">{base + base / 100 * (5 + 0.9 * (subIndex - 13))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1015" toSubLevel="1015">{base + base / 100 * (6 + 0.2 * (subIndex - 14))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1016" toSubLevel="1016">{base + base / 100 * (6 + 0.6 * (subIndex - 15))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1017" toSubLevel="1017">{base + base / 100 * (7 + 0.2 * (subIndex - 16))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1018" toSubLevel="1018">{base + base / 100 * (7 + 0.4 * (subIndex - 17))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1019" toSubLevel="1019">{base + base / 100 * (7 + 0.7 * (subIndex - 18))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1020" toSubLevel="1020">{base + base / 100 * (8 + 0.1 * (subIndex - 19))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1021" toSubLevel="1021">{base + base / 100 * (8 + 0.5 * (subIndex - 20))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1022" toSubLevel="1022">{base + base / 100 * (8 + 0.8 * (subIndex - 21))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1023" toSubLevel="1023">{base + base / 100 * (9 + 0.2 * (subIndex - 22))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1024" toSubLevel="1024">{base + base / 100 * (9 + 0.6 * (subIndex - 23))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1025" toSubLevel="1025">{base + base / 100 * (10 * (subIndex - 24))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1026" toSubLevel="1026">{base + base / 100 * (10 + 0.3 * (subIndex - 25))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1027" toSubLevel="1027">{base + base / 100 * (10 + 0.7 * (subIndex - 26))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1028" toSubLevel="1028">{base + base / 100 * (11 + 0.1 * (subIndex - 27))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1029" toSubLevel="1029">{base + base / 100 * (11 + 0.4 * (subIndex - 28))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1030" toSubLevel="1030">{base + base / 100 * (11 + 0.8 * (subIndex - 29))}</value>
+				</power>
+			</effect>
+			<effect name="DispelBySlotProbability">
+				<!-- Detonates Elemental Destruction -->
+				<dispel>BODY_DESTRUCTION</dispel>
+				<rate>100</rate>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>-20</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11108" toLevel="7" name="Elemental Mass Burst: Water">
+		<!-- Updated to IO -->
+		<!-- Detonates an Elemental Destruction to inflict damage on nearby enemies with 569 Power. For 15 seconds, M. Def. - 20%. -->
+		<icon>icon.skill11865</icon>
+		<abnormalTime>
+			<value level="1">15</value>
+			<value level="2">20</value>
+			<value level="3">25</value>
+			<value level="4">30</value>
+			<value level="5">30</value>
+			<value level="6">30</value>
+			<value level="7">30</value>
+		</abnormalTime>
+		<activateRate>80</activateRate> <!-- Guessed -->
+		<affectRange>200</affectRange> <!-- Guessed -->
+		<reuseDelayGroup>11106</reuseDelayGroup>
+		<attributeType>WATER</attributeType>
+		<attributeValue>20</attributeValue>
+		<operateType>A2</operateType>
+		<targetType>ENEMY_ONLY</targetType>
+		<affectScope>RANGE</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<magicLvl>
+			<value level="1">85</value>
+			<value level="2">90</value>
+			<value level="3">95</value>
+			<value level="4">99</value>
+			<value level="5">101</value>
+			<value level="6">103</value>
+			<value level="7">105</value>
+		</magicLvl>
+		<mpConsume>
+			<value level="1">137</value>
+			<value level="2">154</value>
+			<value level="3">166</value>
+			<value level="4">179</value>
+			<value level="5">192</value>
+			<value level="6">205</value>
+			<value level="7">218</value>
+		</mpConsume>
+		<castRange>1100</castRange>
+		<effectRange>1400</effectRange>
+		<hitTime>6080</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>6700</reuseDelay>
+		<isMagic>1</isMagic>
+		<effectPoint>-1009</effectPoint>
+		<isDebuff>true</isDebuff>
+		<magicCriticalRate>
+			<value fromLevel="1" toLevel="7">6</value>
+			<value fromLevel="3" toLevel="7" fromSubLevel="2001" toSubLevel="2030">{base + base / 100 * subIndex}</value>
+		</magicCriticalRate>
+		<conditions>
+			<condition name="OpCheckAbnormal">
+				<type>BODY_DESTRUCTION</type>
+				<level>1</level>
+				<hasAbnormal>true</hasAbnormal>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="MagicalAttack">
+				<power>
+					<value level="1">569</value>
+					<value level="2">618</value>
+					<value level="3">649</value>
+					<value level="4">683</value>
+					<value level="5">705</value>
+					<value level="6">723</value>
+					<value level="7">741</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1001" toSubLevel="1005">{base + base / 100 * (1 + 0.4 * (subIndex - 1))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1006" toSubLevel="1006">{base + base / 100 * (2 + 0.8 * (subIndex - 5))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1007" toSubLevel="1007">{base + base / 100 * (3 + 0.3 * (subIndex - 6))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1008" toSubLevel="1008">{base + base / 100 * (3 + 0.3 * (subIndex - 7))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1009" toSubLevel="1011">{base + base / 100 * (4 + 0.4 * (subIndex - 8))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1012" toSubLevel="1012">{base + base / 100 * (5 + 0.1 * (subIndex - 11))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1013" toSubLevel="1013">{base + base / 100 * (5 + 0.5 * (subIndex - 12))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1014" toSubLevel="1014">{base + base / 100 * (5 + 0.9 * (subIndex - 13))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1015" toSubLevel="1015">{base + base / 100 * (6 + 0.2 * (subIndex - 14))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1016" toSubLevel="1016">{base + base / 100 * (6 + 0.6 * (subIndex - 15))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1017" toSubLevel="1017">{base + base / 100 * (7 + 0.2 * (subIndex - 16))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1018" toSubLevel="1018">{base + base / 100 * (7 + 0.4 * (subIndex - 17))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1019" toSubLevel="1019">{base + base / 100 * (7 + 0.7 * (subIndex - 18))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1020" toSubLevel="1020">{base + base / 100 * (8 + 0.1 * (subIndex - 19))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1021" toSubLevel="1021">{base + base / 100 * (8 + 0.5 * (subIndex - 20))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1022" toSubLevel="1022">{base + base / 100 * (8 + 0.8 * (subIndex - 21))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1023" toSubLevel="1023">{base + base / 100 * (9 + 0.2 * (subIndex - 22))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1024" toSubLevel="1024">{base + base / 100 * (9 + 0.6 * (subIndex - 23))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1025" toSubLevel="1025">{base + base / 100 * (10 * (subIndex - 24))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1026" toSubLevel="1026">{base + base / 100 * (10 + 0.3 * (subIndex - 25))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1027" toSubLevel="1027">{base + base / 100 * (10 + 0.7 * (subIndex - 26))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1028" toSubLevel="1028">{base + base / 100 * (11 + 0.1 * (subIndex - 27))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1029" toSubLevel="1029">{base + base / 100 * (11 + 0.4 * (subIndex - 28))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1030" toSubLevel="1030">{base + base / 100 * (11 + 0.8 * (subIndex - 29))}</value>
+				</power>
+			</effect>
+			<effect name="DispelBySlotProbability">
+				<!-- Detonates Elemental Destruction -->
+				<dispel>BODY_DESTRUCTION</dispel>
+				<rate>100</rate>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>-20</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11109" toLevel="7" name="Elemental Mass Burst: Wind">
+		<!-- Updated to IO -->
+		<!-- Detonates an Elemental Destruction to inflict damage on nearby enemies with 569 Power. For 15 seconds, M. Def. - 20%. -->
+		<icon>icon.skill11865</icon>
+		<abnormalTime>
+			<value level="1">15</value>
+			<value level="2">20</value>
+			<value level="3">25</value>
+			<value level="4">30</value>
+			<value level="5">30</value>
+			<value level="6">30</value>
+			<value level="7">30</value>
+		</abnormalTime>
+		<activateRate>80</activateRate> <!-- Guessed -->
+		<affectRange>200</affectRange> <!-- Guessed -->
+		<reuseDelayGroup>11106</reuseDelayGroup>
+		<attributeType>WIND</attributeType>
+		<attributeValue>20</attributeValue>
+		<operateType>A2</operateType>
+		<targetType>ENEMY_ONLY</targetType>
+		<affectScope>RANGE</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<magicLvl>
+			<value level="1">85</value>
+			<value level="2">90</value>
+			<value level="3">95</value>
+			<value level="4">99</value>
+			<value level="5">101</value>
+			<value level="6">103</value>
+			<value level="7">105</value>
+		</magicLvl>
+		<mpConsume>
+			<value level="1">137</value>
+			<value level="2">154</value>
+			<value level="3">166</value>
+			<value level="4">179</value>
+			<value level="5">192</value>
+			<value level="6">205</value>
+			<value level="7">218</value>
+		</mpConsume>
+		<castRange>1100</castRange>
+		<effectRange>1400</effectRange>
+		<hitTime>6080</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>6700</reuseDelay>
+		<isMagic>1</isMagic>
+		<effectPoint>-1009</effectPoint>
+		<isDebuff>true</isDebuff>
+		<magicCriticalRate>
+			<value fromLevel="1" toLevel="7">6</value>
+			<value fromLevel="3" toLevel="7" fromSubLevel="2001" toSubLevel="2030">{base + base / 100 * subIndex}</value>
+		</magicCriticalRate>
+		<conditions>
+			<condition name="OpCheckAbnormal">
+				<type>BODY_DESTRUCTION</type>
+				<level>1</level>
+				<hasAbnormal>true</hasAbnormal>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="MagicalAttack">
+				<power>
+					<value level="1">569</value>
+					<value level="2">618</value>
+					<value level="3">649</value>
+					<value level="4">683</value>
+					<value level="5">705</value>
+					<value level="6">723</value>
+					<value level="7">741</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1001" toSubLevel="1005">{base + base / 100 * (1 + 0.4 * (subIndex - 1))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1006" toSubLevel="1006">{base + base / 100 * (2 + 0.8 * (subIndex - 5))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1007" toSubLevel="1007">{base + base / 100 * (3 + 0.3 * (subIndex - 6))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1008" toSubLevel="1008">{base + base / 100 * (3 + 0.3 * (subIndex - 7))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1009" toSubLevel="1011">{base + base / 100 * (4 + 0.4 * (subIndex - 8))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1012" toSubLevel="1012">{base + base / 100 * (5 + 0.1 * (subIndex - 11))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1013" toSubLevel="1013">{base + base / 100 * (5 + 0.5 * (subIndex - 12))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1014" toSubLevel="1014">{base + base / 100 * (5 + 0.9 * (subIndex - 13))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1015" toSubLevel="1015">{base + base / 100 * (6 + 0.2 * (subIndex - 14))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1016" toSubLevel="1016">{base + base / 100 * (6 + 0.6 * (subIndex - 15))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1017" toSubLevel="1017">{base + base / 100 * (7 + 0.2 * (subIndex - 16))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1018" toSubLevel="1018">{base + base / 100 * (7 + 0.4 * (subIndex - 17))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1019" toSubLevel="1019">{base + base / 100 * (7 + 0.7 * (subIndex - 18))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1020" toSubLevel="1020">{base + base / 100 * (8 + 0.1 * (subIndex - 19))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1021" toSubLevel="1021">{base + base / 100 * (8 + 0.5 * (subIndex - 20))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1022" toSubLevel="1022">{base + base / 100 * (8 + 0.8 * (subIndex - 21))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1023" toSubLevel="1023">{base + base / 100 * (9 + 0.2 * (subIndex - 22))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1024" toSubLevel="1024">{base + base / 100 * (9 + 0.6 * (subIndex - 23))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1025" toSubLevel="1025">{base + base / 100 * (10 * (subIndex - 24))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1026" toSubLevel="1026">{base + base / 100 * (10 + 0.3 * (subIndex - 25))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1027" toSubLevel="1027">{base + base / 100 * (10 + 0.7 * (subIndex - 26))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1028" toSubLevel="1028">{base + base / 100 * (11 + 0.1 * (subIndex - 27))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1029" toSubLevel="1029">{base + base / 100 * (11 + 0.4 * (subIndex - 28))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1030" toSubLevel="1030">{base + base / 100 * (11 + 0.8 * (subIndex - 29))}</value>
+				</power>
+			</effect>
+			<effect name="DispelBySlotProbability">
+				<!-- Detonates Elemental Destruction -->
+				<dispel>BODY_DESTRUCTION</dispel>
+				<rate>100</rate>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>-20</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11110" toLevel="7" name="Elemental Mass Burst: Earth">
+		<!-- Updated to IO -->
+		<!-- Detonates an Elemental Destruction to inflict damage on nearby enemies with 569 Power. For 15 seconds, M. Def. - 20%. -->
+		<icon>icon.skill11865</icon>
+		<abnormalTime>
+			<value level="1">15</value>
+			<value level="2">20</value>
+			<value level="3">25</value>
+			<value level="4">30</value>
+			<value level="5">30</value>
+			<value level="6">30</value>
+			<value level="7">30</value>
+		</abnormalTime>
+		<activateRate>80</activateRate> <!-- Guessed -->
+		<affectRange>200</affectRange> <!-- Guessed -->
+		<reuseDelayGroup>11106</reuseDelayGroup>
+		<attributeType>EARTH</attributeType>
+		<attributeValue>20</attributeValue>
+		<operateType>A2</operateType>
+		<targetType>ENEMY_ONLY</targetType>
+		<affectScope>RANGE</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<magicLvl>
+			<value level="1">85</value>
+			<value level="2">90</value>
+			<value level="3">95</value>
+			<value level="4">99</value>
+			<value level="5">101</value>
+			<value level="6">103</value>
+			<value level="7">105</value>
+		</magicLvl>
+		<mpConsume>
+			<value level="1">137</value>
+			<value level="2">154</value>
+			<value level="3">166</value>
+			<value level="4">179</value>
+			<value level="5">192</value>
+			<value level="6">205</value>
+			<value level="7">218</value>
+		</mpConsume>
+		<castRange>1100</castRange>
+		<effectRange>1400</effectRange>
+		<hitTime>6080</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>6700</reuseDelay>
+		<isMagic>1</isMagic>
+		<effectPoint>-1009</effectPoint>
+		<isDebuff>true</isDebuff>
+		<magicCriticalRate>
+			<value fromLevel="1" toLevel="7">6</value>
+			<value fromLevel="3" toLevel="7" fromSubLevel="2001" toSubLevel="2030">{base + base / 100 * subIndex}</value>
+		</magicCriticalRate>
+		<conditions>
+			<condition name="OpCheckAbnormal">
+				<type>BODY_DESTRUCTION</type>
+				<level>1</level>
+				<hasAbnormal>true</hasAbnormal>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="MagicalAttack">
+				<power>
+					<value level="1">569</value>
+					<value level="2">618</value>
+					<value level="3">649</value>
+					<value level="4">683</value>
+					<value level="5">705</value>
+					<value level="6">723</value>
+					<value level="7">741</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1001" toSubLevel="1005">{base + base / 100 * (1 + 0.4 * (subIndex - 1))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1006" toSubLevel="1006">{base + base / 100 * (2 + 0.8 * (subIndex - 5))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1007" toSubLevel="1007">{base + base / 100 * (3 + 0.3 * (subIndex - 6))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1008" toSubLevel="1008">{base + base / 100 * (3 + 0.3 * (subIndex - 7))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1009" toSubLevel="1011">{base + base / 100 * (4 + 0.4 * (subIndex - 8))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1012" toSubLevel="1012">{base + base / 100 * (5 + 0.1 * (subIndex - 11))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1013" toSubLevel="1013">{base + base / 100 * (5 + 0.5 * (subIndex - 12))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1014" toSubLevel="1014">{base + base / 100 * (5 + 0.9 * (subIndex - 13))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1015" toSubLevel="1015">{base + base / 100 * (6 + 0.2 * (subIndex - 14))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1016" toSubLevel="1016">{base + base / 100 * (6 + 0.6 * (subIndex - 15))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1017" toSubLevel="1017">{base + base / 100 * (7 + 0.2 * (subIndex - 16))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1018" toSubLevel="1018">{base + base / 100 * (7 + 0.4 * (subIndex - 17))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1019" toSubLevel="1019">{base + base / 100 * (7 + 0.7 * (subIndex - 18))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1020" toSubLevel="1020">{base + base / 100 * (8 + 0.1 * (subIndex - 19))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1021" toSubLevel="1021">{base + base / 100 * (8 + 0.5 * (subIndex - 20))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1022" toSubLevel="1022">{base + base / 100 * (8 + 0.8 * (subIndex - 21))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1023" toSubLevel="1023">{base + base / 100 * (9 + 0.2 * (subIndex - 22))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1024" toSubLevel="1024">{base + base / 100 * (9 + 0.6 * (subIndex - 23))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1025" toSubLevel="1025">{base + base / 100 * (10 * (subIndex - 24))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1026" toSubLevel="1026">{base + base / 100 * (10 + 0.3 * (subIndex - 25))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1027" toSubLevel="1027">{base + base / 100 * (10 + 0.7 * (subIndex - 26))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1028" toSubLevel="1028">{base + base / 100 * (11 + 0.1 * (subIndex - 27))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1029" toSubLevel="1029">{base + base / 100 * (11 + 0.4 * (subIndex - 28))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1030" toSubLevel="1030">{base + base / 100 * (11 + 0.8 * (subIndex - 29))}</value>
+				</power>
+			</effect>
+			<effect name="DispelBySlotProbability">
+				<!-- Detonates Elemental Destruction -->
+				<dispel>BODY_DESTRUCTION</dispel>
+				<rate>100</rate>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>-20</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11111" toLevel="7" name="Elemental Mass Burst: 4 Attributes">
+		<!-- Updated to IO -->
+		<!-- Detonates an Elemental Destruction to inflict damage on nearby enemies with 569 Power. For 15 seconds, M. Def. - 20%. -->
+		<icon>icon.skill11865</icon>
+		<abnormalTime>
+			<value level="1">15</value>
+			<value level="2">20</value>
+			<value level="3">25</value>
+			<value level="4">30</value>
+			<value level="5">30</value>
+			<value level="6">30</value>
+			<value level="7">30</value>
+		</abnormalTime>
+		<activateRate>80</activateRate> <!-- Guessed -->
+		<affectRange>200</affectRange> <!-- Guessed -->
+		<reuseDelayGroup>11106</reuseDelayGroup>
+		<operateType>A2</operateType>
+		<targetType>ENEMY_ONLY</targetType>
+		<affectScope>RANGE</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<magicLvl>
+			<value level="1">85</value>
+			<value level="2">90</value>
+			<value level="3">95</value>
+			<value level="4">99</value>
+			<value level="5">101</value>
+			<value level="6">103</value>
+			<value level="7">105</value>
+		</magicLvl>
+		<mpConsume>
+			<value level="1">137</value>
+			<value level="2">154</value>
+			<value level="3">166</value>
+			<value level="4">179</value>
+			<value level="5">192</value>
+			<value level="6">205</value>
+			<value level="7">218</value>
+		</mpConsume>
+		<castRange>1100</castRange>
+		<effectRange>1400</effectRange>
+		<hitTime>6080</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>6700</reuseDelay>
+		<isMagic>1</isMagic>
+		<effectPoint>-1009</effectPoint>
+		<isDebuff>true</isDebuff>
+		<magicCriticalRate>
+			<value fromLevel="1" toLevel="7">6</value>
+			<value fromLevel="3" toLevel="7" fromSubLevel="2001" toSubLevel="2030">{base + base / 100 * subIndex}</value>
+		</magicCriticalRate>
+		<conditions>
+			<condition name="OpCheckAbnormal">
+				<type>BODY_DESTRUCTION</type>
+				<level>1</level>
+				<hasAbnormal>true</hasAbnormal>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="MagicalAttack">
+				<power>
+					<value level="1">569</value>
+					<value level="2">618</value>
+					<value level="3">649</value>
+					<value level="4">683</value>
+					<value level="5">705</value>
+					<value level="6">723</value>
+					<value level="7">741</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1001" toSubLevel="1005">{base + base / 100 * (1 + 0.4 * (subIndex - 1))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1006" toSubLevel="1006">{base + base / 100 * (2 + 0.8 * (subIndex - 5))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1007" toSubLevel="1007">{base + base / 100 * (3 + 0.3 * (subIndex - 6))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1008" toSubLevel="1008">{base + base / 100 * (3 + 0.3 * (subIndex - 7))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1009" toSubLevel="1011">{base + base / 100 * (4 + 0.4 * (subIndex - 8))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1012" toSubLevel="1012">{base + base / 100 * (5 + 0.1 * (subIndex - 11))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1013" toSubLevel="1013">{base + base / 100 * (5 + 0.5 * (subIndex - 12))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1014" toSubLevel="1014">{base + base / 100 * (5 + 0.9 * (subIndex - 13))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1015" toSubLevel="1015">{base + base / 100 * (6 + 0.2 * (subIndex - 14))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1016" toSubLevel="1016">{base + base / 100 * (6 + 0.6 * (subIndex - 15))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1017" toSubLevel="1017">{base + base / 100 * (7 + 0.2 * (subIndex - 16))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1018" toSubLevel="1018">{base + base / 100 * (7 + 0.4 * (subIndex - 17))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1019" toSubLevel="1019">{base + base / 100 * (7 + 0.7 * (subIndex - 18))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1020" toSubLevel="1020">{base + base / 100 * (8 + 0.1 * (subIndex - 19))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1021" toSubLevel="1021">{base + base / 100 * (8 + 0.5 * (subIndex - 20))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1022" toSubLevel="1022">{base + base / 100 * (8 + 0.8 * (subIndex - 21))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1023" toSubLevel="1023">{base + base / 100 * (9 + 0.2 * (subIndex - 22))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1024" toSubLevel="1024">{base + base / 100 * (9 + 0.6 * (subIndex - 23))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1025" toSubLevel="1025">{base + base / 100 * (10 * (subIndex - 24))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1026" toSubLevel="1026">{base + base / 100 * (10 + 0.3 * (subIndex - 25))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1027" toSubLevel="1027">{base + base / 100 * (10 + 0.7 * (subIndex - 26))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1028" toSubLevel="1028">{base + base / 100 * (11 + 0.1 * (subIndex - 27))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1029" toSubLevel="1029">{base + base / 100 * (11 + 0.4 * (subIndex - 28))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1030" toSubLevel="1030">{base + base / 100 * (11 + 0.8 * (subIndex - 29))}</value>
+				</power>
+			</effect>
+			<effect name="DispelBySlotProbability">
+				<!-- Detonates Elemental Destruction -->
+				<dispel>BODY_DESTRUCTION</dispel>
+				<rate>100</rate>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>-20</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11112" toLevel="7" name="Elemental Speed Burst">
+		<!-- Updated to IO -->
+		<!-- Detonates an Elemental Destruction to inflict damage with 517 Power on a single target. -->
+		<icon>icon.skill11865</icon>
+		<reuseDelayGroup>11112</reuseDelayGroup>
+		<fireStanceSkillId>11113</fireStanceSkillId>
+		<waterStanceSkillId>11114</waterStanceSkillId>
+		<windStanceSkillId>11115</windStanceSkillId>
+		<earthStanceSkillId>11116</earthStanceSkillId>
+		<allStanceSkillId>11117</allStanceSkillId>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<magicLvl>
+			<value level="1">85</value>
+			<value level="2">90</value>
+			<value level="3">95</value>
+			<value level="4">99</value>
+			<value level="5">101</value>
+			<value level="6">103</value>
+			<value level="7">105</value>
+		</magicLvl>
+		<mpConsume>
+			<value level="1">137</value>
+			<value level="2">154</value>
+			<value level="3">166</value>
+			<value level="4">179</value>
+			<value level="5">192</value>
+			<value level="6">205</value>
+			<value level="7">218</value>
+		</mpConsume>
+		<castRange>1100</castRange>
+		<effectRange>1400</effectRange>
+		<hitTime>2280</hitTime>
+		<coolTime>300</coolTime>
+		<reuseDelay>6700</reuseDelay>
+		<effectPoint>-1009</effectPoint>
+		<isMagic>1</isMagic>
+		<magicCriticalRate>
+			<value fromLevel="1" toLevel="7">6</value>
+			<value fromLevel="3" toLevel="7" fromSubLevel="2001" toSubLevel="2030">{base + base / 100 * subIndex}</value>
+		</magicCriticalRate>
+		<conditions>
+			<condition name="OpCheckAbnormal">
+				<type>BODY_DESTRUCTION</type>
+				<level>1</level>
+				<hasAbnormal>true</hasAbnormal>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="MagicalAttack">
+				<power>
+					<value level="1">517</value>
+					<value level="2">562</value>
+					<value level="3">591</value>
+					<value level="4">622</value>
+					<value level="5">637</value>
+					<value level="6">655</value>
+					<value level="7">673</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1001" toSubLevel="1005">{base + base / 100 * (1 + 0.4 * (subIndex - 1))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1006" toSubLevel="1006">{base + base / 100 * (2 + 0.8 * (subIndex - 5))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1007" toSubLevel="1007">{base + base / 100 * (3 + 0.3 * (subIndex - 6))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1008" toSubLevel="1008">{base + base / 100 * (3 + 0.3 * (subIndex - 7))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1009" toSubLevel="1011">{base + base / 100 * (4 + 0.4 * (subIndex - 8))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1012" toSubLevel="1012">{base + base / 100 * (5 + 0.1 * (subIndex - 11))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1013" toSubLevel="1013">{base + base / 100 * (5 + 0.5 * (subIndex - 12))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1014" toSubLevel="1014">{base + base / 100 * (5 + 0.9 * (subIndex - 13))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1015" toSubLevel="1015">{base + base / 100 * (6 + 0.2 * (subIndex - 14))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1016" toSubLevel="1016">{base + base / 100 * (6 + 0.6 * (subIndex - 15))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1017" toSubLevel="1017">{base + base / 100 * (7 + 0.2 * (subIndex - 16))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1018" toSubLevel="1018">{base + base / 100 * (7 + 0.4 * (subIndex - 17))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1019" toSubLevel="1019">{base + base / 100 * (7 + 0.7 * (subIndex - 18))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1020" toSubLevel="1020">{base + base / 100 * (8 + 0.1 * (subIndex - 19))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1021" toSubLevel="1021">{base + base / 100 * (8 + 0.5 * (subIndex - 20))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1022" toSubLevel="1022">{base + base / 100 * (8 + 0.8 * (subIndex - 21))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1023" toSubLevel="1023">{base + base / 100 * (9 + 0.2 * (subIndex - 22))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1024" toSubLevel="1024">{base + base / 100 * (9 + 0.6 * (subIndex - 23))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1025" toSubLevel="1025">{base + base / 100 * (10 * (subIndex - 24))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1026" toSubLevel="1026">{base + base / 100 * (10 + 0.3 * (subIndex - 25))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1027" toSubLevel="1027">{base + base / 100 * (10 + 0.7 * (subIndex - 26))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1028" toSubLevel="1028">{base + base / 100 * (11 + 0.1 * (subIndex - 27))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1029" toSubLevel="1029">{base + base / 100 * (11 + 0.4 * (subIndex - 28))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1030" toSubLevel="1030">{base + base / 100 * (11 + 0.8 * (subIndex - 29))}</value>
+				</power>
+			</effect>
+			<effect name="DispelBySlotProbability">
+				<!-- Detonates Elemental Destruction -->
+				<dispel>BODY_DESTRUCTION</dispel>
+				<rate>100</rate>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11113" toLevel="7" name="Elemental Speed Burst: Fire">
+		<!-- Updated to IO -->
+		<!-- Detonates an Elemental Destruction to inflict damage with 517 Power on a single target. -->
+		<icon>icon.skill11865</icon>
+		<reuseDelayGroup>11112</reuseDelayGroup>
+		<attributeType>FIRE</attributeType>
+		<attributeValue>20</attributeValue> <!-- Fire -->
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<magicLvl>
+			<value level="1">85</value>
+			<value level="2">90</value>
+			<value level="3">95</value>
+			<value level="4">99</value>
+			<value level="5">101</value>
+			<value level="6">103</value>
+			<value level="7">105</value>
+		</magicLvl>
+		<mpConsume>
+			<value level="1">137</value>
+			<value level="2">154</value>
+			<value level="3">166</value>
+			<value level="4">179</value>
+			<value level="5">192</value>
+			<value level="6">205</value>
+			<value level="7">218</value>
+		</mpConsume>
+		<castRange>1100</castRange>
+		<effectRange>1400</effectRange>
+		<hitTime>6080</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>6700</reuseDelay>
+		<effectPoint>-1009</effectPoint>
+		<isMagic>1</isMagic>
+		<magicCriticalRate>
+			<value fromLevel="1" toLevel="7">6</value>
+			<value fromLevel="3" toLevel="7" fromSubLevel="2001" toSubLevel="2030">{base + base / 100 * subIndex}</value>
+		</magicCriticalRate>
+		<conditions>
+			<condition name="OpCheckAbnormal">
+				<type>BODY_DESTRUCTION</type>
+				<level>1</level>
+				<hasAbnormal>true</hasAbnormal>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="MagicalAttack">
+				<power>
+					<value level="1">517</value>
+					<value level="2">562</value>
+					<value level="3">591</value>
+					<value level="4">622</value>
+					<value level="5">637</value>
+					<value level="6">655</value>
+					<value level="7">673</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1001" toSubLevel="1005">{base + base / 100 * (1 + 0.4 * (subIndex - 1))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1006" toSubLevel="1006">{base + base / 100 * (2 + 0.8 * (subIndex - 5))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1007" toSubLevel="1007">{base + base / 100 * (3 + 0.3 * (subIndex - 6))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1008" toSubLevel="1008">{base + base / 100 * (3 + 0.3 * (subIndex - 7))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1009" toSubLevel="1011">{base + base / 100 * (4 + 0.4 * (subIndex - 8))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1012" toSubLevel="1012">{base + base / 100 * (5 + 0.1 * (subIndex - 11))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1013" toSubLevel="1013">{base + base / 100 * (5 + 0.5 * (subIndex - 12))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1014" toSubLevel="1014">{base + base / 100 * (5 + 0.9 * (subIndex - 13))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1015" toSubLevel="1015">{base + base / 100 * (6 + 0.2 * (subIndex - 14))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1016" toSubLevel="1016">{base + base / 100 * (6 + 0.6 * (subIndex - 15))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1017" toSubLevel="1017">{base + base / 100 * (7 + 0.2 * (subIndex - 16))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1018" toSubLevel="1018">{base + base / 100 * (7 + 0.4 * (subIndex - 17))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1019" toSubLevel="1019">{base + base / 100 * (7 + 0.7 * (subIndex - 18))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1020" toSubLevel="1020">{base + base / 100 * (8 + 0.1 * (subIndex - 19))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1021" toSubLevel="1021">{base + base / 100 * (8 + 0.5 * (subIndex - 20))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1022" toSubLevel="1022">{base + base / 100 * (8 + 0.8 * (subIndex - 21))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1023" toSubLevel="1023">{base + base / 100 * (9 + 0.2 * (subIndex - 22))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1024" toSubLevel="1024">{base + base / 100 * (9 + 0.6 * (subIndex - 23))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1025" toSubLevel="1025">{base + base / 100 * (10 * (subIndex - 24))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1026" toSubLevel="1026">{base + base / 100 * (10 + 0.3 * (subIndex - 25))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1027" toSubLevel="1027">{base + base / 100 * (10 + 0.7 * (subIndex - 26))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1028" toSubLevel="1028">{base + base / 100 * (11 + 0.1 * (subIndex - 27))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1029" toSubLevel="1029">{base + base / 100 * (11 + 0.4 * (subIndex - 28))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1030" toSubLevel="1030">{base + base / 100 * (11 + 0.8 * (subIndex - 29))}</value>
+				</power>
+			</effect>
+			<effect name="DispelBySlotProbability">
+				<!-- Detonates Elemental Destruction -->
+				<dispel>BODY_DESTRUCTION</dispel>
+				<rate>100</rate>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11114" toLevel="7" name="Elemental Speed Burst: Water">
+		<!-- Updated to IO -->
+		<!-- Detonates an Elemental Destruction to inflict damage with 517 Power on a single target. -->
+		<icon>icon.skill11865</icon>
+		<reuseDelayGroup>11112</reuseDelayGroup>
+		<attributeType>WATER</attributeType>
+		<attributeValue>20</attributeValue> <!-- Water -->
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<magicLvl>
+			<value level="1">85</value>
+			<value level="2">90</value>
+			<value level="3">95</value>
+			<value level="4">99</value>
+			<value level="5">101</value>
+			<value level="6">103</value>
+			<value level="7">105</value>
+		</magicLvl>
+		<mpConsume>
+			<value level="1">137</value>
+			<value level="2">154</value>
+			<value level="3">166</value>
+			<value level="4">179</value>
+			<value level="5">192</value>
+			<value level="6">205</value>
+			<value level="7">218</value>
+		</mpConsume>
+		<castRange>1100</castRange>
+		<effectRange>1400</effectRange>
+		<hitTime>6080</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>6700</reuseDelay>
+		<effectPoint>-1009</effectPoint>
+		<isMagic>1</isMagic>
+		<magicCriticalRate>
+			<value fromLevel="1" toLevel="7">6</value>
+			<value fromLevel="3" toLevel="7" fromSubLevel="2001" toSubLevel="2030">{base + base / 100 * subIndex}</value>
+		</magicCriticalRate>
+		<conditions>
+			<condition name="OpCheckAbnormal">
+				<type>BODY_DESTRUCTION</type>
+				<level>1</level>
+				<hasAbnormal>true</hasAbnormal>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="MagicalAttack">
+				<power>
+					<value level="1">517</value>
+					<value level="2">562</value>
+					<value level="3">591</value>
+					<value level="4">622</value>
+					<value level="5">637</value>
+					<value level="6">655</value>
+					<value level="7">673</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1001" toSubLevel="1005">{base + base / 100 * (1 + 0.4 * (subIndex - 1))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1006" toSubLevel="1006">{base + base / 100 * (2 + 0.8 * (subIndex - 5))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1007" toSubLevel="1007">{base + base / 100 * (3 + 0.3 * (subIndex - 6))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1008" toSubLevel="1008">{base + base / 100 * (3 + 0.3 * (subIndex - 7))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1009" toSubLevel="1011">{base + base / 100 * (4 + 0.4 * (subIndex - 8))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1012" toSubLevel="1012">{base + base / 100 * (5 + 0.1 * (subIndex - 11))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1013" toSubLevel="1013">{base + base / 100 * (5 + 0.5 * (subIndex - 12))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1014" toSubLevel="1014">{base + base / 100 * (5 + 0.9 * (subIndex - 13))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1015" toSubLevel="1015">{base + base / 100 * (6 + 0.2 * (subIndex - 14))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1016" toSubLevel="1016">{base + base / 100 * (6 + 0.6 * (subIndex - 15))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1017" toSubLevel="1017">{base + base / 100 * (7 + 0.2 * (subIndex - 16))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1018" toSubLevel="1018">{base + base / 100 * (7 + 0.4 * (subIndex - 17))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1019" toSubLevel="1019">{base + base / 100 * (7 + 0.7 * (subIndex - 18))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1020" toSubLevel="1020">{base + base / 100 * (8 + 0.1 * (subIndex - 19))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1021" toSubLevel="1021">{base + base / 100 * (8 + 0.5 * (subIndex - 20))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1022" toSubLevel="1022">{base + base / 100 * (8 + 0.8 * (subIndex - 21))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1023" toSubLevel="1023">{base + base / 100 * (9 + 0.2 * (subIndex - 22))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1024" toSubLevel="1024">{base + base / 100 * (9 + 0.6 * (subIndex - 23))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1025" toSubLevel="1025">{base + base / 100 * (10 * (subIndex - 24))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1026" toSubLevel="1026">{base + base / 100 * (10 + 0.3 * (subIndex - 25))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1027" toSubLevel="1027">{base + base / 100 * (10 + 0.7 * (subIndex - 26))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1028" toSubLevel="1028">{base + base / 100 * (11 + 0.1 * (subIndex - 27))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1029" toSubLevel="1029">{base + base / 100 * (11 + 0.4 * (subIndex - 28))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1030" toSubLevel="1030">{base + base / 100 * (11 + 0.8 * (subIndex - 29))}</value>
+				</power>
+			</effect>
+			<effect name="DispelBySlotProbability">
+				<!-- Detonates Elemental Destruction -->
+				<dispel>BODY_DESTRUCTION</dispel>
+				<rate>100</rate>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11115" toLevel="7" name="Elemental Speed Burst: Wind">
+		<!-- Updated to IO -->
+		<!-- Detonates an Elemental Destruction to inflict damage with 517 Power on a single target. -->
+		<icon>icon.skill11865</icon>
+		<reuseDelayGroup>11112</reuseDelayGroup>
+		<attributeType>WIND</attributeType>
+		<attributeValue>20</attributeValue> <!-- Wind -->
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<magicLvl>
+			<value level="1">85</value>
+			<value level="2">90</value>
+			<value level="3">95</value>
+			<value level="4">99</value>
+			<value level="5">101</value>
+			<value level="6">103</value>
+			<value level="7">105</value>
+		</magicLvl>
+		<mpConsume>
+			<value level="1">137</value>
+			<value level="2">154</value>
+			<value level="3">166</value>
+			<value level="4">179</value>
+			<value level="5">192</value>
+			<value level="6">205</value>
+			<value level="7">218</value>
+		</mpConsume>
+		<castRange>1100</castRange>
+		<effectRange>1400</effectRange>
+		<hitTime>6080</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>6700</reuseDelay>
+		<effectPoint>-1009</effectPoint>
+		<isMagic>1</isMagic>
+		<magicCriticalRate>
+			<value fromLevel="1" toLevel="7">6</value>
+			<value fromLevel="3" toLevel="7" fromSubLevel="2001" toSubLevel="2030">{base + base / 100 * subIndex}</value>
+		</magicCriticalRate>
+		<conditions>
+			<condition name="OpCheckAbnormal">
+				<type>BODY_DESTRUCTION</type>
+				<level>1</level>
+				<hasAbnormal>true</hasAbnormal>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="MagicalAttack">
+				<power>
+					<value level="1">517</value>
+					<value level="2">562</value>
+					<value level="3">591</value>
+					<value level="4">622</value>
+					<value level="5">637</value>
+					<value level="6">655</value>
+					<value level="7">673</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1001" toSubLevel="1005">{base + base / 100 * (1 + 0.4 * (subIndex - 1))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1006" toSubLevel="1006">{base + base / 100 * (2 + 0.8 * (subIndex - 5))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1007" toSubLevel="1007">{base + base / 100 * (3 + 0.3 * (subIndex - 6))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1008" toSubLevel="1008">{base + base / 100 * (3 + 0.3 * (subIndex - 7))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1009" toSubLevel="1011">{base + base / 100 * (4 + 0.4 * (subIndex - 8))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1012" toSubLevel="1012">{base + base / 100 * (5 + 0.1 * (subIndex - 11))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1013" toSubLevel="1013">{base + base / 100 * (5 + 0.5 * (subIndex - 12))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1014" toSubLevel="1014">{base + base / 100 * (5 + 0.9 * (subIndex - 13))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1015" toSubLevel="1015">{base + base / 100 * (6 + 0.2 * (subIndex - 14))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1016" toSubLevel="1016">{base + base / 100 * (6 + 0.6 * (subIndex - 15))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1017" toSubLevel="1017">{base + base / 100 * (7 + 0.2 * (subIndex - 16))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1018" toSubLevel="1018">{base + base / 100 * (7 + 0.4 * (subIndex - 17))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1019" toSubLevel="1019">{base + base / 100 * (7 + 0.7 * (subIndex - 18))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1020" toSubLevel="1020">{base + base / 100 * (8 + 0.1 * (subIndex - 19))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1021" toSubLevel="1021">{base + base / 100 * (8 + 0.5 * (subIndex - 20))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1022" toSubLevel="1022">{base + base / 100 * (8 + 0.8 * (subIndex - 21))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1023" toSubLevel="1023">{base + base / 100 * (9 + 0.2 * (subIndex - 22))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1024" toSubLevel="1024">{base + base / 100 * (9 + 0.6 * (subIndex - 23))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1025" toSubLevel="1025">{base + base / 100 * (10 * (subIndex - 24))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1026" toSubLevel="1026">{base + base / 100 * (10 + 0.3 * (subIndex - 25))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1027" toSubLevel="1027">{base + base / 100 * (10 + 0.7 * (subIndex - 26))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1028" toSubLevel="1028">{base + base / 100 * (11 + 0.1 * (subIndex - 27))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1029" toSubLevel="1029">{base + base / 100 * (11 + 0.4 * (subIndex - 28))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1030" toSubLevel="1030">{base + base / 100 * (11 + 0.8 * (subIndex - 29))}</value>
+				</power>
+			</effect>
+			<effect name="DispelBySlotProbability">
+				<!-- Detonates Elemental Destruction -->
+				<dispel>BODY_DESTRUCTION</dispel>
+				<rate>100</rate>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11116" toLevel="7" name="Elemental Speed Burst: Earth">
+		<!-- Updated to IO -->
+		<!-- Detonates an Elemental Destruction to inflict damage with 517 Power on a single target. -->
+		<icon>icon.skill11865</icon>
+		<reuseDelayGroup>11112</reuseDelayGroup>
+		<attributeType>EARTH</attributeType>
+		<attributeValue>20</attributeValue> <!-- Earth -->
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<magicLvl>
+			<value level="1">85</value>
+			<value level="2">90</value>
+			<value level="3">95</value>
+			<value level="4">99</value>
+			<value level="5">101</value>
+			<value level="6">103</value>
+			<value level="7">105</value>
+		</magicLvl>
+		<mpConsume>
+			<value level="1">137</value>
+			<value level="2">154</value>
+			<value level="3">166</value>
+			<value level="4">179</value>
+			<value level="5">192</value>
+			<value level="6">205</value>
+			<value level="7">218</value>
+		</mpConsume>
+		<castRange>1100</castRange>
+		<effectRange>1400</effectRange>
+		<hitTime>6080</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>6700</reuseDelay>
+		<effectPoint>-1009</effectPoint>
+		<isMagic>1</isMagic>
+		<magicCriticalRate>
+			<value fromLevel="1" toLevel="7">6</value>
+			<value fromLevel="3" toLevel="7" fromSubLevel="2001" toSubLevel="2030">{base + base / 100 * subIndex}</value>
+		</magicCriticalRate>
+		<conditions>
+			<condition name="OpCheckAbnormal">
+				<type>BODY_DESTRUCTION</type>
+				<level>1</level>
+				<hasAbnormal>true</hasAbnormal>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="MagicalAttack">
+				<power>
+					<value level="1">517</value>
+					<value level="2">562</value>
+					<value level="3">591</value>
+					<value level="4">622</value>
+					<value level="5">637</value>
+					<value level="6">655</value>
+					<value level="7">673</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1001" toSubLevel="1005">{base + base / 100 * (1 + 0.4 * (subIndex - 1))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1006" toSubLevel="1006">{base + base / 100 * (2 + 0.8 * (subIndex - 5))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1007" toSubLevel="1007">{base + base / 100 * (3 + 0.3 * (subIndex - 6))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1008" toSubLevel="1008">{base + base / 100 * (3 + 0.3 * (subIndex - 7))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1009" toSubLevel="1011">{base + base / 100 * (4 + 0.4 * (subIndex - 8))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1012" toSubLevel="1012">{base + base / 100 * (5 + 0.1 * (subIndex - 11))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1013" toSubLevel="1013">{base + base / 100 * (5 + 0.5 * (subIndex - 12))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1014" toSubLevel="1014">{base + base / 100 * (5 + 0.9 * (subIndex - 13))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1015" toSubLevel="1015">{base + base / 100 * (6 + 0.2 * (subIndex - 14))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1016" toSubLevel="1016">{base + base / 100 * (6 + 0.6 * (subIndex - 15))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1017" toSubLevel="1017">{base + base / 100 * (7 + 0.2 * (subIndex - 16))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1018" toSubLevel="1018">{base + base / 100 * (7 + 0.4 * (subIndex - 17))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1019" toSubLevel="1019">{base + base / 100 * (7 + 0.7 * (subIndex - 18))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1020" toSubLevel="1020">{base + base / 100 * (8 + 0.1 * (subIndex - 19))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1021" toSubLevel="1021">{base + base / 100 * (8 + 0.5 * (subIndex - 20))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1022" toSubLevel="1022">{base + base / 100 * (8 + 0.8 * (subIndex - 21))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1023" toSubLevel="1023">{base + base / 100 * (9 + 0.2 * (subIndex - 22))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1024" toSubLevel="1024">{base + base / 100 * (9 + 0.6 * (subIndex - 23))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1025" toSubLevel="1025">{base + base / 100 * (10 * (subIndex - 24))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1026" toSubLevel="1026">{base + base / 100 * (10 + 0.3 * (subIndex - 25))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1027" toSubLevel="1027">{base + base / 100 * (10 + 0.7 * (subIndex - 26))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1028" toSubLevel="1028">{base + base / 100 * (11 + 0.1 * (subIndex - 27))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1029" toSubLevel="1029">{base + base / 100 * (11 + 0.4 * (subIndex - 28))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1030" toSubLevel="1030">{base + base / 100 * (11 + 0.8 * (subIndex - 29))}</value>
+				</power>
+			</effect>
+			<effect name="DispelBySlotProbability">
+				<!-- Detonates Elemental Destruction -->
+				<dispel>BODY_DESTRUCTION</dispel>
+				<rate>100</rate>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11117" toLevel="7" name="Elemental Speed Burst: 4 Attributes">
+		<!-- Updated to IO -->
+		<!-- Detonates an Elemental Destruction to inflict damage with 517 Power on a single target. -->
+		<icon>icon.skill11865</icon>
+		<reuseDelayGroup>11112</reuseDelayGroup>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<magicLvl>
+			<value level="1">85</value>
+			<value level="2">90</value>
+			<value level="3">95</value>
+			<value level="4">99</value>
+			<value level="5">101</value>
+			<value level="6">103</value>
+			<value level="7">105</value>
+		</magicLvl>
+		<mpConsume>
+			<value level="1">137</value>
+			<value level="2">154</value>
+			<value level="3">166</value>
+			<value level="4">179</value>
+			<value level="5">192</value>
+			<value level="6">205</value>
+			<value level="7">218</value>
+		</mpConsume>
+		<castRange>1100</castRange>
+		<effectRange>1400</effectRange>
+		<hitTime>6080</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>6700</reuseDelay>
+		<effectPoint>-1009</effectPoint>
+		<isMagic>1</isMagic>
+		<magicCriticalRate>
+			<value fromLevel="1" toLevel="7">6</value>
+			<value fromLevel="3" toLevel="7" fromSubLevel="2001" toSubLevel="2030">{base + base / 100 * subIndex}</value>
+		</magicCriticalRate>
+		<conditions>
+			<condition name="OpCheckAbnormal">
+				<type>BODY_DESTRUCTION</type>
+				<level>1</level>
+				<hasAbnormal>true</hasAbnormal>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="MagicalAttack">
+				<power>
+					<value level="1">517</value>
+					<value level="2">562</value>
+					<value level="3">591</value>
+					<value level="4">622</value>
+					<value level="5">637</value>
+					<value level="6">655</value>
+					<value level="7">673</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1001" toSubLevel="1005">{base + base / 100 * (1 + 0.4 * (subIndex - 1))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1006" toSubLevel="1006">{base + base / 100 * (2 + 0.8 * (subIndex - 5))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1007" toSubLevel="1007">{base + base / 100 * (3 + 0.3 * (subIndex - 6))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1008" toSubLevel="1008">{base + base / 100 * (3 + 0.3 * (subIndex - 7))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1009" toSubLevel="1011">{base + base / 100 * (4 + 0.4 * (subIndex - 8))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1012" toSubLevel="1012">{base + base / 100 * (5 + 0.1 * (subIndex - 11))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1013" toSubLevel="1013">{base + base / 100 * (5 + 0.5 * (subIndex - 12))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1014" toSubLevel="1014">{base + base / 100 * (5 + 0.9 * (subIndex - 13))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1015" toSubLevel="1015">{base + base / 100 * (6 + 0.2 * (subIndex - 14))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1016" toSubLevel="1016">{base + base / 100 * (6 + 0.6 * (subIndex - 15))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1017" toSubLevel="1017">{base + base / 100 * (7 + 0.2 * (subIndex - 16))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1018" toSubLevel="1018">{base + base / 100 * (7 + 0.4 * (subIndex - 17))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1019" toSubLevel="1019">{base + base / 100 * (7 + 0.7 * (subIndex - 18))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1020" toSubLevel="1020">{base + base / 100 * (8 + 0.1 * (subIndex - 19))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1021" toSubLevel="1021">{base + base / 100 * (8 + 0.5 * (subIndex - 20))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1022" toSubLevel="1022">{base + base / 100 * (8 + 0.8 * (subIndex - 21))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1023" toSubLevel="1023">{base + base / 100 * (9 + 0.2 * (subIndex - 22))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1024" toSubLevel="1024">{base + base / 100 * (9 + 0.6 * (subIndex - 23))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1025" toSubLevel="1025">{base + base / 100 * (10 * (subIndex - 24))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1026" toSubLevel="1026">{base + base / 100 * (10 + 0.3 * (subIndex - 25))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1027" toSubLevel="1027">{base + base / 100 * (10 + 0.7 * (subIndex - 26))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1028" toSubLevel="1028">{base + base / 100 * (11 + 0.1 * (subIndex - 27))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1029" toSubLevel="1029">{base + base / 100 * (11 + 0.4 * (subIndex - 28))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1030" toSubLevel="1030">{base + base / 100 * (11 + 0.8 * (subIndex - 29))}</value>
+				</power>
+			</effect>
+			<effect name="DispelBySlotProbability">
+				<!-- Detonates Elemental Destruction -->
+				<dispel>BODY_DESTRUCTION</dispel>
+				<rate>100</rate>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11118" toLevel="7" name="Elemental Power Burst">
+		<!-- Updated to IO -->
+		<!-- Detonates an Elemental Destruction to inflict severe damage with 569 Power on a single target. -->
+		<icon>icon.skill11865</icon>
+		<reuseDelayGroup>11118</reuseDelayGroup>
+		<fireStanceSkillId>11119</fireStanceSkillId>
+		<waterStanceSkillId>11120</waterStanceSkillId>
+		<windStanceSkillId>11121</windStanceSkillId>
+		<earthStanceSkillId>11122</earthStanceSkillId>
+		<allStanceSkillId>11123</allStanceSkillId>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<magicLvl>
+			<value level="1">85</value>
+			<value level="2">90</value>
+			<value level="3">95</value>
+			<value level="4">99</value>
+			<value level="5">101</value>
+			<value level="6">103</value>
+			<value level="7">105</value>
+		</magicLvl>
+		<mpConsume>
+			<value level="1">137</value>
+			<value level="2">154</value>
+			<value level="3">166</value>
+			<value level="4">179</value>
+			<value level="5">192</value>
+			<value level="6">205</value>
+			<value level="7">218</value>
+		</mpConsume>
+		<castRange>1100</castRange>
+		<effectRange>1400</effectRange>
+		<hitTime>2280</hitTime>
+		<coolTime>300</coolTime>
+		<reuseDelay>6700</reuseDelay>
+		<effectPoint>-1009</effectPoint>
+		<isMagic>1</isMagic>
+		<magicCriticalRate>
+			<value fromLevel="1" toLevel="7">6</value>
+			<value fromLevel="3" toLevel="7" fromSubLevel="2001" toSubLevel="2030">{base + base / 100 * subIndex}</value>
+		</magicCriticalRate>
+		<conditions>
+			<condition name="OpCheckAbnormal">
+				<type>BODY_DESTRUCTION</type>
+				<level>1</level>
+				<hasAbnormal>true</hasAbnormal>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="MagicalAttack">
+				<power>
+					<value level="1">569</value>
+					<value level="2">618</value>
+					<value level="3">649</value>
+					<value level="4">683</value>
+					<value level="5">697</value>
+					<value level="6">715</value>
+					<value level="7">733</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1001" toSubLevel="1005">{base + base / 100 * (1 + 0.4 * (subIndex - 1))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1006" toSubLevel="1006">{base + base / 100 * (2 + 0.8 * (subIndex - 5))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1007" toSubLevel="1007">{base + base / 100 * (3 + 0.3 * (subIndex - 6))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1008" toSubLevel="1008">{base + base / 100 * (3 + 0.3 * (subIndex - 7))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1009" toSubLevel="1011">{base + base / 100 * (4 + 0.4 * (subIndex - 8))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1012" toSubLevel="1012">{base + base / 100 * (5 + 0.1 * (subIndex - 11))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1013" toSubLevel="1013">{base + base / 100 * (5 + 0.5 * (subIndex - 12))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1014" toSubLevel="1014">{base + base / 100 * (5 + 0.9 * (subIndex - 13))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1015" toSubLevel="1015">{base + base / 100 * (6 + 0.2 * (subIndex - 14))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1016" toSubLevel="1016">{base + base / 100 * (6 + 0.6 * (subIndex - 15))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1017" toSubLevel="1017">{base + base / 100 * (7 * (subIndex - 16))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1018" toSubLevel="1018">{base + base / 100 * (7 + 0.4 * (subIndex - 17))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1019" toSubLevel="1019">{base + base / 100 * (7 + 0.7 * (subIndex - 18))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1020" toSubLevel="1020">{base + base / 100 * (8 + 0.1 * (subIndex - 19))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1021" toSubLevel="1021">{base + base / 100 * (8 + 0.5 * (subIndex - 20))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1022" toSubLevel="1022">{base + base / 100 * (8 + 0.8 * (subIndex - 21))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1023" toSubLevel="1023">{base + base / 100 * (9 + 0.2 * (subIndex - 22))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1024" toSubLevel="1024">{base + base / 100 * (9 + 0.6 * (subIndex - 23))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1025" toSubLevel="1025">{base + base / 100 * (10 * (subIndex - 24))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1026" toSubLevel="1026">{base + base / 100 * (10 + 0.3 * (subIndex - 25))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1027" toSubLevel="1027">{base + base / 100 * (10 + 0.7 * (subIndex - 26))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1028" toSubLevel="1028">{base + base / 100 * (11 + 0.1 * (subIndex - 27))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1029" toSubLevel="1029">{base + base / 100 * (11 + 0.4 * (subIndex - 28))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1030" toSubLevel="1030">{base + base / 100 * (11 + 0.8 * (subIndex - 29))}</value>
+				</power>
+			</effect>
+			<effect name="DispelBySlotProbability">
+				<!-- Detonates Elemental Destruction -->
+				<dispel>BODY_DESTRUCTION</dispel>
+				<rate>100</rate>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11119" toLevel="7" name="Elemental Power Burst: Fire">
+		<!-- Updated to IO -->
+		<!-- Detonates an Elemental Destruction to inflict severe damage with 569 Power on a single target. -->
+		<icon>icon.skill11865</icon>
+		<reuseDelayGroup>11118</reuseDelayGroup>
+		<attributeType>FIRE</attributeType>
+		<attributeValue>20</attributeValue> <!-- Fire -->
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<magicLvl>
+			<value level="1">85</value>
+			<value level="2">90</value>
+			<value level="3">95</value>
+			<value level="4">99</value>
+			<value level="5">101</value>
+			<value level="6">103</value>
+			<value level="7">105</value>
+		</magicLvl>
+		<mpConsume>
+			<value level="1">137</value>
+			<value level="2">154</value>
+			<value level="3">166</value>
+			<value level="4">179</value>
+			<value level="5">192</value>
+			<value level="6">205</value>
+			<value level="7">218</value>
+		</mpConsume>
+		<castRange>1100</castRange>
+		<effectRange>1400</effectRange>
+		<hitTime>6080</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>6700</reuseDelay>
+		<effectPoint>-1009</effectPoint>
+		<isMagic>1</isMagic>
+		<magicCriticalRate>
+			<value fromLevel="1" toLevel="7">6</value>
+			<value fromLevel="3" toLevel="7" fromSubLevel="2001" toSubLevel="2030">{base + base / 100 * subIndex}</value>
+		</magicCriticalRate>
+		<conditions>
+			<condition name="OpCheckAbnormal">
+				<type>BODY_DESTRUCTION</type>
+				<level>1</level>
+				<hasAbnormal>true</hasAbnormal>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="MagicalAttack">
+				<power>
+					<value level="1">569</value>
+					<value level="2">618</value>
+					<value level="3">649</value>
+					<value level="4">683</value>
+					<value level="5">697</value>
+					<value level="6">715</value>
+					<value level="7">733</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1001" toSubLevel="1005">{base + base / 100 * (1 + 0.4 * (subIndex - 1))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1006" toSubLevel="1006">{base + base / 100 * (2 + 0.8 * (subIndex - 5))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1007" toSubLevel="1007">{base + base / 100 * (3 + 0.3 * (subIndex - 6))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1008" toSubLevel="1008">{base + base / 100 * (3 + 0.3 * (subIndex - 7))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1009" toSubLevel="1011">{base + base / 100 * (4 + 0.4 * (subIndex - 8))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1012" toSubLevel="1012">{base + base / 100 * (5 + 0.1 * (subIndex - 11))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1013" toSubLevel="1013">{base + base / 100 * (5 + 0.5 * (subIndex - 12))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1014" toSubLevel="1014">{base + base / 100 * (5 + 0.9 * (subIndex - 13))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1015" toSubLevel="1015">{base + base / 100 * (6 + 0.2 * (subIndex - 14))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1016" toSubLevel="1016">{base + base / 100 * (6 + 0.6 * (subIndex - 15))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1017" toSubLevel="1017">{base + base / 100 * (7 + 0.2 * (subIndex - 16))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1018" toSubLevel="1018">{base + base / 100 * (7 + 0.4 * (subIndex - 17))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1019" toSubLevel="1019">{base + base / 100 * (7 + 0.7 * (subIndex - 18))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1020" toSubLevel="1020">{base + base / 100 * (8 + 0.1 * (subIndex - 19))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1021" toSubLevel="1021">{base + base / 100 * (8 + 0.5 * (subIndex - 20))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1022" toSubLevel="1022">{base + base / 100 * (8 + 0.8 * (subIndex - 21))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1023" toSubLevel="1023">{base + base / 100 * (9 + 0.2 * (subIndex - 22))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1024" toSubLevel="1024">{base + base / 100 * (9 + 0.6 * (subIndex - 23))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1025" toSubLevel="1025">{base + base / 100 * (10 * (subIndex - 24))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1026" toSubLevel="1026">{base + base / 100 * (10 + 0.3 * (subIndex - 25))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1027" toSubLevel="1027">{base + base / 100 * (10 + 0.7 * (subIndex - 26))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1028" toSubLevel="1028">{base + base / 100 * (11 + 0.1 * (subIndex - 27))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1029" toSubLevel="1029">{base + base / 100 * (11 + 0.4 * (subIndex - 28))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1030" toSubLevel="1030">{base + base / 100 * (11 + 0.8 * (subIndex - 29))}</value>
+				</power>
+			</effect>
+			<effect name="DispelBySlotProbability">
+				<!-- Detonates Elemental Destruction -->
+				<dispel>BODY_DESTRUCTION</dispel>
+				<rate>100</rate>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11120" toLevel="7" name="Elemental Power Burst: Water">
+		<!-- Updated to IO -->
+		<!-- Detonates an Elemental Destruction to inflict severe damage with 569 Power on a single target. -->
+		<icon>icon.skill11865</icon>
+		<reuseDelayGroup>11118</reuseDelayGroup>
+		<attributeType>WATER</attributeType>
+		<attributeValue>20</attributeValue>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<magicLvl>
+			<value level="1">85</value>
+			<value level="2">90</value>
+			<value level="3">95</value>
+			<value level="4">99</value>
+			<value level="5">101</value>
+			<value level="6">103</value>
+			<value level="7">105</value>
+		</magicLvl>
+		<mpConsume>
+			<value level="1">137</value>
+			<value level="2">154</value>
+			<value level="3">166</value>
+			<value level="4">179</value>
+			<value level="5">192</value>
+			<value level="6">205</value>
+			<value level="7">218</value>
+		</mpConsume>
+		<castRange>1100</castRange>
+		<effectRange>1400</effectRange>
+		<hitTime>6080</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>6700</reuseDelay>
+		<effectPoint>-1009</effectPoint>
+		<isMagic>1</isMagic>
+		<magicCriticalRate>
+			<value fromLevel="1" toLevel="7">6</value>
+			<value fromLevel="3" toLevel="7" fromSubLevel="2001" toSubLevel="2030">{base + base / 100 * subIndex}</value>
+		</magicCriticalRate>
+		<conditions>
+			<condition name="OpCheckAbnormal">
+				<type>BODY_DESTRUCTION</type>
+				<level>1</level>
+				<hasAbnormal>true</hasAbnormal>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="MagicalAttack">
+				<power>
+					<value level="1">569</value>
+					<value level="2">618</value>
+					<value level="3">649</value>
+					<value level="4">683</value>
+					<value level="5">697</value>
+					<value level="6">715</value>
+					<value level="7">733</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1001" toSubLevel="1005">{base + base / 100 * (1 + 0.4 * (subIndex - 1))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1006" toSubLevel="1006">{base + base / 100 * (2 + 0.8 * (subIndex - 5))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1007" toSubLevel="1007">{base + base / 100 * (3 + 0.3 * (subIndex - 6))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1008" toSubLevel="1008">{base + base / 100 * (3 + 0.3 * (subIndex - 7))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1009" toSubLevel="1011">{base + base / 100 * (4 + 0.4 * (subIndex - 8))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1012" toSubLevel="1012">{base + base / 100 * (5 + 0.1 * (subIndex - 11))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1013" toSubLevel="1013">{base + base / 100 * (5 + 0.5 * (subIndex - 12))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1014" toSubLevel="1014">{base + base / 100 * (5 + 0.9 * (subIndex - 13))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1015" toSubLevel="1015">{base + base / 100 * (6 + 0.2 * (subIndex - 14))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1016" toSubLevel="1016">{base + base / 100 * (6 + 0.6 * (subIndex - 15))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1017" toSubLevel="1017">{base + base / 100 * (7 + 0.2 * (subIndex - 16))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1018" toSubLevel="1018">{base + base / 100 * (7 + 0.4 * (subIndex - 17))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1019" toSubLevel="1019">{base + base / 100 * (7 + 0.7 * (subIndex - 18))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1020" toSubLevel="1020">{base + base / 100 * (8 + 0.1 * (subIndex - 19))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1021" toSubLevel="1021">{base + base / 100 * (8 + 0.5 * (subIndex - 20))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1022" toSubLevel="1022">{base + base / 100 * (8 + 0.8 * (subIndex - 21))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1023" toSubLevel="1023">{base + base / 100 * (9 + 0.2 * (subIndex - 22))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1024" toSubLevel="1024">{base + base / 100 * (9 + 0.6 * (subIndex - 23))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1025" toSubLevel="1025">{base + base / 100 * (10 * (subIndex - 24))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1026" toSubLevel="1026">{base + base / 100 * (10 + 0.3 * (subIndex - 25))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1027" toSubLevel="1027">{base + base / 100 * (10 + 0.7 * (subIndex - 26))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1028" toSubLevel="1028">{base + base / 100 * (11 + 0.1 * (subIndex - 27))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1029" toSubLevel="1029">{base + base / 100 * (11 + 0.4 * (subIndex - 28))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1030" toSubLevel="1030">{base + base / 100 * (11 + 0.8 * (subIndex - 29))}</value>
+				</power>
+			</effect>
+			<effect name="DispelBySlotProbability">
+				<!-- Detonates Elemental Destruction -->
+				<dispel>BODY_DESTRUCTION</dispel>
+				<rate>100</rate>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11121" toLevel="7" name="Elemental Power Burst: Wind">
+		<!-- Updated to IO -->
+		<!-- Detonates an Elemental Destruction to inflict severe damage with 569 Power on a single target. -->
+		<icon>icon.skill11865</icon>
+		<reuseDelayGroup>11118</reuseDelayGroup>
+		<attributeType>WIND</attributeType>
+		<attributeValue>20</attributeValue>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<magicLvl>
+			<value level="1">85</value>
+			<value level="2">90</value>
+			<value level="3">95</value>
+			<value level="4">99</value>
+			<value level="5">101</value>
+			<value level="6">103</value>
+			<value level="7">105</value>
+		</magicLvl>
+		<mpConsume>
+			<value level="1">137</value>
+			<value level="2">154</value>
+			<value level="3">166</value>
+			<value level="4">179</value>
+			<value level="5">192</value>
+			<value level="6">205</value>
+			<value level="7">218</value>
+		</mpConsume>
+		<castRange>1100</castRange>
+		<effectRange>1400</effectRange>
+		<hitTime>6080</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>6700</reuseDelay>
+		<effectPoint>-1009</effectPoint>
+		<isMagic>1</isMagic>
+		<magicCriticalRate>
+			<value fromLevel="1" toLevel="7">6</value>
+			<value fromLevel="3" toLevel="7" fromSubLevel="2001" toSubLevel="2030">{base + base / 100 * subIndex}</value>
+		</magicCriticalRate>
+		<conditions>
+			<condition name="OpCheckAbnormal">
+				<type>BODY_DESTRUCTION</type>
+				<level>1</level>
+				<hasAbnormal>true</hasAbnormal>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="MagicalAttack">
+				<power>
+					<value level="1">569</value>
+					<value level="2">618</value>
+					<value level="3">649</value>
+					<value level="4">683</value>
+					<value level="5">697</value>
+					<value level="6">715</value>
+					<value level="7">733</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1001" toSubLevel="1005">{base + base / 100 * (1 + 0.4 * (subIndex - 1))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1006" toSubLevel="1006">{base + base / 100 * (2 + 0.8 * (subIndex - 5))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1007" toSubLevel="1007">{base + base / 100 * (3 + 0.3 * (subIndex - 6))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1008" toSubLevel="1008">{base + base / 100 * (3 + 0.3 * (subIndex - 7))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1009" toSubLevel="1011">{base + base / 100 * (4 + 0.4 * (subIndex - 8))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1012" toSubLevel="1012">{base + base / 100 * (5 + 0.1 * (subIndex - 11))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1013" toSubLevel="1013">{base + base / 100 * (5 + 0.5 * (subIndex - 12))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1014" toSubLevel="1014">{base + base / 100 * (5 + 0.9 * (subIndex - 13))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1015" toSubLevel="1015">{base + base / 100 * (6 + 0.2 * (subIndex - 14))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1016" toSubLevel="1016">{base + base / 100 * (6 + 0.6 * (subIndex - 15))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1017" toSubLevel="1017">{base + base / 100 * (7 + 0.2 * (subIndex - 16))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1018" toSubLevel="1018">{base + base / 100 * (7 + 0.4 * (subIndex - 17))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1019" toSubLevel="1019">{base + base / 100 * (7 + 0.7 * (subIndex - 18))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1020" toSubLevel="1020">{base + base / 100 * (8 + 0.1 * (subIndex - 19))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1021" toSubLevel="1021">{base + base / 100 * (8 + 0.5 * (subIndex - 20))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1022" toSubLevel="1022">{base + base / 100 * (8 + 0.8 * (subIndex - 21))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1023" toSubLevel="1023">{base + base / 100 * (9 + 0.2 * (subIndex - 22))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1024" toSubLevel="1024">{base + base / 100 * (9 + 0.6 * (subIndex - 23))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1025" toSubLevel="1025">{base + base / 100 * (10 * (subIndex - 24))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1026" toSubLevel="1026">{base + base / 100 * (10 + 0.3 * (subIndex - 25))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1027" toSubLevel="1027">{base + base / 100 * (10 + 0.7 * (subIndex - 26))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1028" toSubLevel="1028">{base + base / 100 * (11 + 0.1 * (subIndex - 27))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1029" toSubLevel="1029">{base + base / 100 * (11 + 0.4 * (subIndex - 28))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1030" toSubLevel="1030">{base + base / 100 * (11 + 0.8 * (subIndex - 29))}</value>
+				</power>
+			</effect>
+			<effect name="DispelBySlotProbability">
+				<!-- Detonates Elemental Destruction -->
+				<dispel>BODY_DESTRUCTION</dispel>
+				<rate>100</rate>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11122" toLevel="7" name="Elemental Power Burst: Earth">
+		<!-- Updated to IO -->
+		<!-- Detonates an Elemental Destruction to inflict severe damage with 569 Power on a single target. -->
+		<icon>icon.skill11865</icon>
+		<reuseDelayGroup>11118</reuseDelayGroup>
+		<attributeType>EARTH</attributeType>
+		<attributeValue>20</attributeValue>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<magicLvl>
+			<value level="1">85</value>
+			<value level="2">90</value>
+			<value level="3">95</value>
+			<value level="4">99</value>
+			<value level="5">101</value>
+			<value level="6">103</value>
+			<value level="7">105</value>
+		</magicLvl>
+		<mpConsume>
+			<value level="1">137</value>
+			<value level="2">154</value>
+			<value level="3">166</value>
+			<value level="4">179</value>
+			<value level="5">192</value>
+			<value level="6">205</value>
+			<value level="7">218</value>
+		</mpConsume>
+		<castRange>1100</castRange>
+		<effectRange>1400</effectRange>
+		<hitTime>6080</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>6700</reuseDelay>
+		<effectPoint>-1009</effectPoint>
+		<isMagic>1</isMagic>
+		<magicCriticalRate>
+			<value fromLevel="1" toLevel="7">6</value>
+			<value fromLevel="3" toLevel="7" fromSubLevel="2001" toSubLevel="2030">{base + base / 100 * subIndex}</value>
+		</magicCriticalRate>
+		<conditions>
+			<condition name="OpCheckAbnormal">
+				<type>BODY_DESTRUCTION</type>
+				<level>1</level>
+				<hasAbnormal>true</hasAbnormal>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="MagicalAttack">
+				<power>
+					<value level="1">569</value>
+					<value level="2">618</value>
+					<value level="3">649</value>
+					<value level="4">683</value>
+					<value level="5">697</value>
+					<value level="6">715</value>
+					<value level="7">733</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1001" toSubLevel="1005">{base + base / 100 * (1 + 0.4 * (subIndex - 1))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1006" toSubLevel="1006">{base + base / 100 * (2 + 0.8 * (subIndex - 5))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1007" toSubLevel="1007">{base + base / 100 * (3 + 0.3 * (subIndex - 6))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1008" toSubLevel="1008">{base + base / 100 * (3 + 0.3 * (subIndex - 7))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1009" toSubLevel="1011">{base + base / 100 * (4 + 0.4 * (subIndex - 8))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1012" toSubLevel="1012">{base + base / 100 * (5 + 0.1 * (subIndex - 11))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1013" toSubLevel="1013">{base + base / 100 * (5 + 0.5 * (subIndex - 12))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1014" toSubLevel="1014">{base + base / 100 * (5 + 0.9 * (subIndex - 13))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1015" toSubLevel="1015">{base + base / 100 * (6 + 0.2 * (subIndex - 14))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1016" toSubLevel="1016">{base + base / 100 * (6 + 0.6 * (subIndex - 15))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1017" toSubLevel="1017">{base + base / 100 * (7 + 0.2 * (subIndex - 16))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1018" toSubLevel="1018">{base + base / 100 * (7 + 0.4 * (subIndex - 17))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1019" toSubLevel="1019">{base + base / 100 * (7 + 0.7 * (subIndex - 18))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1020" toSubLevel="1020">{base + base / 100 * (8 + 0.1 * (subIndex - 19))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1021" toSubLevel="1021">{base + base / 100 * (8 + 0.5 * (subIndex - 20))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1022" toSubLevel="1022">{base + base / 100 * (8 + 0.8 * (subIndex - 21))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1023" toSubLevel="1023">{base + base / 100 * (9 + 0.2 * (subIndex - 22))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1024" toSubLevel="1024">{base + base / 100 * (9 + 0.6 * (subIndex - 23))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1025" toSubLevel="1025">{base + base / 100 * (10 * (subIndex - 24))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1026" toSubLevel="1026">{base + base / 100 * (10 + 0.3 * (subIndex - 25))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1027" toSubLevel="1027">{base + base / 100 * (10 + 0.7 * (subIndex - 26))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1028" toSubLevel="1028">{base + base / 100 * (11 + 0.1 * (subIndex - 27))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1029" toSubLevel="1029">{base + base / 100 * (11 + 0.4 * (subIndex - 28))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1030" toSubLevel="1030">{base + base / 100 * (11 + 0.8 * (subIndex - 29))}</value>
+				</power>
+			</effect>
+			<effect name="DispelBySlotProbability">
+				<!-- Detonates Elemental Destruction -->
+				<dispel>BODY_DESTRUCTION</dispel>
+				<rate>100</rate>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11123" toLevel="7" name="Elemental Power Burst: 4 Attributes">
+		<!-- Updated to IO -->
+		<!-- Detonates an Elemental Destruction to inflict severe damage with 569 Power on a single target. -->
+		<icon>icon.skill11865</icon>
+		<reuseDelayGroup>11118</reuseDelayGroup>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<magicLvl>
+			<value level="1">85</value>
+			<value level="2">90</value>
+			<value level="3">95</value>
+			<value level="4">99</value>
+			<value level="5">101</value>
+			<value level="6">103</value>
+			<value level="7">105</value>
+		</magicLvl>
+		<mpConsume>
+			<value level="1">137</value>
+			<value level="2">154</value>
+			<value level="3">166</value>
+			<value level="4">179</value>
+			<value level="5">192</value>
+			<value level="6">205</value>
+			<value level="7">218</value>
+		</mpConsume>
+		<castRange>1100</castRange>
+		<effectRange>1400</effectRange>
+		<hitTime>6080</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>6700</reuseDelay>
+		<effectPoint>-1009</effectPoint>
+		<isMagic>1</isMagic>
+		<magicCriticalRate>
+			<value fromLevel="1" toLevel="7">6</value>
+			<value fromLevel="3" toLevel="7" fromSubLevel="2001" toSubLevel="2030">{base + base / 100 * subIndex}</value>
+		</magicCriticalRate>
+		<conditions>
+			<condition name="OpCheckAbnormal">
+				<type>BODY_DESTRUCTION</type>
+				<level>1</level>
+				<hasAbnormal>true</hasAbnormal>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="MagicalAttack">
+				<power>
+					<value level="1">569</value>
+					<value level="2">618</value>
+					<value level="3">649</value>
+					<value level="4">683</value>
+					<value level="5">697</value>
+					<value level="6">715</value>
+					<value level="7">733</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1001" toSubLevel="1005">{base + base / 100 * (1 + 0.4 * (subIndex - 1))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1006" toSubLevel="1006">{base + base / 100 * (2 + 0.8 * (subIndex - 5))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1007" toSubLevel="1007">{base + base / 100 * (3 + 0.3 * (subIndex - 6))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1008" toSubLevel="1008">{base + base / 100 * (3 + 0.3 * (subIndex - 7))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1009" toSubLevel="1011">{base + base / 100 * (4 + 0.4 * (subIndex - 8))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1012" toSubLevel="1012">{base + base / 100 * (5 + 0.1 * (subIndex - 11))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1013" toSubLevel="1013">{base + base / 100 * (5 + 0.5 * (subIndex - 12))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1014" toSubLevel="1014">{base + base / 100 * (5 + 0.9 * (subIndex - 13))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1015" toSubLevel="1015">{base + base / 100 * (6 + 0.2 * (subIndex - 14))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1016" toSubLevel="1016">{base + base / 100 * (6 + 0.6 * (subIndex - 15))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1017" toSubLevel="1017">{base + base / 100 * (7 + 0.2 * (subIndex - 16))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1018" toSubLevel="1018">{base + base / 100 * (7 + 0.4 * (subIndex - 17))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1019" toSubLevel="1019">{base + base / 100 * (7 + 0.7 * (subIndex - 18))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1020" toSubLevel="1020">{base + base / 100 * (8 + 0.1 * (subIndex - 19))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1021" toSubLevel="1021">{base + base / 100 * (8 + 0.5 * (subIndex - 20))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1022" toSubLevel="1022">{base + base / 100 * (8 + 0.8 * (subIndex - 21))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1023" toSubLevel="1023">{base + base / 100 * (9 + 0.2 * (subIndex - 22))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1024" toSubLevel="1024">{base + base / 100 * (9 + 0.6 * (subIndex - 23))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1025" toSubLevel="1025">{base + base / 100 * (10 * (subIndex - 24))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1026" toSubLevel="1026">{base + base / 100 * (10 + 0.3 * (subIndex - 25))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1027" toSubLevel="1027">{base + base / 100 * (10 + 0.7 * (subIndex - 26))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1028" toSubLevel="1028">{base + base / 100 * (11 + 0.1 * (subIndex - 27))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1029" toSubLevel="1029">{base + base / 100 * (11 + 0.4 * (subIndex - 28))}</value>
+					<value fromLevel="3" toLevel="7" fromSubLevel="1030" toSubLevel="1030">{base + base / 100 * (11 + 0.8 * (subIndex - 29))}</value>
+				</power>
+			</effect>
+			<effect name="DispelBySlotProbability">
+				<!-- Detonates Elemental Destruction -->
+				<dispel>BODY_DESTRUCTION</dispel>
+				<rate>100</rate>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11124" toLevel="4" name="Superior Wizardry">
+		<!-- M. Atk. + 5%, Max MP, MP Recovery + 5%, and debuff resistance + 10%. -->
+		<icon>icon.skill0945</icon>
+		<magicLvl>
+			<value level="1">85</value>
+			<value level="2">90</value>
+			<value level="3">95</value>
+			<value level="4">99</value>
+		</magicLvl>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="MAtk">
+				<amount>
+					<value level="1">5</value>
+					<value level="2">6</value>
+					<value level="3">7</value>
+					<value level="4">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MaxMp">
+				<amount>
+					<value level="1">5</value>
+					<value level="2">6</value>
+					<value level="3">7</value>
+					<value level="4">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MpRegen">
+				<amount>
+					<value level="1">5</value>
+					<value level="2">7</value>
+					<value level="3">10</value>
+					<value level="4">15</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="ResistAbnormalByCategory">
+				<amount>-10</amount>
+				<slot>DEBUFF</slot>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11125" toLevel="4" name="Superior Wizardry">
+		<!-- M. Atk. + 10%. -->
+		<icon>icon.skill0945</icon>
+		<magicLvl>
+			<value level="1">85</value>
+			<value level="2">90</value>
+			<value level="3">95</value>
+			<value level="4">99</value>
+		</magicLvl>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="MAtk">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">12</value>
+					<value level="3">15</value>
+					<value level="4">20</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11126" toLevel="3" name="Fire Destruction">
+		<!-- Updated to IO -->
+		<!-- Inflicts 620 magical damage on target, and inflicts Fear. Over-hit. -->
+		<icon>icon.skill0000</icon>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>3</abnormalTime> <!-- Guessed -->
+		<abnormalType>TURN_FLEE</abnormalType>
+		<abnormalVisualEffect>TURN_FLEE</abnormalVisualEffect>
+		<activateRate>80</activateRate> <!-- Guessed -->
+		<basicProperty>MAGIC</basicProperty> <!-- Guessed -->
+		<attributeType>FIRE</attributeType>
+		<attributeValue>20</attributeValue>
+		<operateType>A2</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<trait>DERANGEMENT</trait>
+		<mpConsume>
+			<value level="1">768</value>
+			<value level="2">873</value>
+			<value level="3">993</value>
+		</mpConsume>
+		<castRange>1100</castRange>
+		<effectRange>1400</effectRange>
+		<hitTime>6750</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>30000</reuseDelay>
+		<isMagic>1</isMagic>
+		<effectPoint>-704</effectPoint>
+		<isDebuff>true</isDebuff>
+		<effects>
+			<effect name="MagicalAttack">
+				<power>
+					<value level="1">620</value>
+					<value level="2">657</value>
+					<value level="3">695</value>
+				</power>
+			</effect>
+			<effect name="BlockControl" />
+			<effect name="Fear" />
+		</effects>
+	</skill>
+	<skill id="11127" toLevel="3" name="Dark Destruction">
+		<!-- Updated to IO -->
+		<!-- Inflicts 713 magical damage on target. Over-hit. -->
+		<icon>icon.skill0000</icon>
+		<attributeType>DARK</attributeType>
+		<attributeValue>20</attributeValue>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<mpConsume>
+			<value level="1">768</value>
+			<value level="2">873</value>
+			<value level="3">993</value>
+		</mpConsume>
+		<castRange>1100</castRange>
+		<effectRange>1400</effectRange>
+		<hitTime>6750</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>30000</reuseDelay>
+		<effectPoint>-704</effectPoint>
+		<isMagic>1</isMagic>
+		<effects>
+			<effect name="MagicalAttack">
+				<power>
+					<value level="1">713</value>
+					<value level="2">755</value>
+					<value level="3">799</value>
+				</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11128" toLevel="3" name="Water Destruction">
+		<!-- Updated to IO -->
+		<!-- Inflicts 620 magical damage on target, and decreases their Speed by 130. Over-hit. -->
+		<icon>icon.skill0000</icon>
+		<abnormalLvl>
+			<value level="1">1</value>
+			<value level="2">2</value>
+			<value level="3">3</value>
+		</abnormalLvl>
+		<abnormalTime>5</abnormalTime> <!-- Guessed -->
+		<abnormalType>SPEED_DOWN</abnormalType>
+		<activateRate>80</activateRate> <!-- Guessed -->
+		<basicProperty>MAGIC</basicProperty> <!-- Guessed -->
+		<attributeType>WATER</attributeType>
+		<attributeValue>20</attributeValue>
+		<operateType>A2</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<mpConsume>
+			<value level="1">768</value>
+			<value level="2">873</value>
+			<value level="3">993</value>
+		</mpConsume>
+		<castRange>1100</castRange>
+		<effectRange>1400</effectRange>
+		<hitTime>6750</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>30000</reuseDelay>
+		<isMagic>1</isMagic>
+		<effectPoint>-704</effectPoint>
+		<isDebuff>true</isDebuff>
+		<effects>
+			<effect name="MagicalAttack">
+				<power>
+					<value level="1">620</value>
+					<value level="2">657</value>
+					<value level="3">695</value>
+				</power>
+			</effect>
+			<effect name="Speed">
+				<amount>-130</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11129" toLevel="3" name="Wind Destruction">
+		<!-- Updated to IO -->
+		<!-- Inflicts 620 magical damage on target, and inflicts Knock Back. Over-hit. -->
+		<icon>icon.skill0000</icon>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalType>STUN</abnormalType>
+		<abnormalTime>1</abnormalTime>
+		<abnormalVisualEffect>KNOCKBACK</abnormalVisualEffect>
+		<activateRate>80</activateRate> <!-- Guessed -->
+		<basicProperty>MAGIC</basicProperty> <!-- Guessed -->
+		<attributeType>WIND</attributeType>
+		<attributeValue>20</attributeValue>
+		<operateType>A2</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<trait>KNOCKBACK</trait>
+		<mpConsume>
+			<value level="1">768</value>
+			<value level="2">873</value>
+			<value level="3">993</value>
+		</mpConsume>
+		<castRange>1100</castRange>
+		<effectRange>1400</effectRange>
+		<hitTime>6750</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>30000</reuseDelay>
+		<isMagic>1</isMagic>
+		<effectPoint>-704</effectPoint>
+		<isDebuff>true</isDebuff>
+		<effects>
+			<effect name="MagicalAttack">
+				<power>
+					<value level="1">620</value>
+					<value level="2">657</value>
+					<value level="3">695</value>
+				</power>
+			</effect>
+			<effect name="KnockBack">
+				<!-- Guessed -->
+				<speed>400</speed>
+				<distance>100</distance>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11130" toLevel="3" name="Soul Destruction">
+		<!-- Updated to IO -->
+		<!-- Inflicts 620 magical damage on target, and inflicts Hold. Over-hit. -->
+		<icon>icon.skill0000</icon>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>3</abnormalTime> <!-- Guessed -->
+		<abnormalType>ROOT_MAGICALLY</abnormalType>
+		<abnormalVisualEffect>ROOT</abnormalVisualEffect>
+		<activateRate>80</activateRate> <!-- Guessed -->
+		<basicProperty>MAGIC</basicProperty> <!-- Guessed -->
+		<operateType>A2</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<trait>HOLD</trait>
+		<mpConsume>
+			<value level="1">768</value>
+			<value level="2">873</value>
+			<value level="3">993</value>
+		</mpConsume>
+		<castRange>1100</castRange>
+		<effectRange>1400</effectRange>
+		<hitTime>6750</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>30000</reuseDelay>
+		<isMagic>1</isMagic>
+		<effectPoint>-704</effectPoint>
+		<isDebuff>true</isDebuff>
+		<effects>
+			<effect name="MagicalAttack">
+				<power>
+					<value level="1">620</value>
+					<value level="2">657</value>
+					<value level="3">695</value>
+				</power>
+			</effect>
+			<effect name="Root" />
+		</effects>
+	</skill>
+	<skill id="11131" toLevel="3" name="Life Straw">
+		<!-- Updated to IO -->
+		<!-- For 10 sec., attacks target with 115 Power per second and recovers HP equivalent to 100% of damage inflicted. -->
+		<icon>icon.skill0000</icon>
+		<channelingSkillId>11131</channelingSkillId>
+		<channelingTickInterval>1000</channelingTickInterval>
+		<channelingTickInitialDelay>2000</channelingTickInitialDelay>
+		<operateType>CA1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<mpConsume>
+			<value level="1">68</value>
+			<value level="2">72</value>
+			<value level="3">84</value>
+		</mpConsume>
+		<castRange>1100</castRange>
+		<effectRange>1400</effectRange>
+		<hitTime>10000</hitTime>
+		<reuseDelay>20000</reuseDelay>
+		<isMagic>1</isMagic>
+		<effectPoint>
+			<value level="1">-696</value>
+			<value level="2">-704</value>
+			<value level="3">-709</value>
+		</effectPoint>
+		<isDebuff>true</isDebuff>
+		<channelingEffects>
+			<effect name="HpDrain">
+				<power>
+					<value level="1">115</value>
+					<value level="2">225</value>
+					<value level="3">300</value>
+				</power>
+				<percentage>100</percentage>
+			</effect>
+		</channelingEffects>
+	</skill>
+	<skill id="11132" toLevel="3" name="Lightning Shield">
+		<!-- Updated to IO -->
+		<!-- For 30 sec., creates a shield of lightning and Paralyzes those that attack you. -->
+		<icon>icon.skill1515</icon>
+		<abnormalLvl>
+			<value level="1">1</value>
+			<value level="2">2</value>
+			<value level="3">3</value>
+		</abnormalLvl>
+		<abnormalTime>30</abnormalTime>
+		<abnormalType>ELEMENTAL_ARMOR</abnormalType> <!-- Guessed -->
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<mpConsume>70</mpConsume>
+		<hitTime>1500</hitTime>
+		<reuseDelay>120000</reuseDelay>
+		<effectPoint>138</effectPoint>
+		<isMagic>1</isMagic>
+		<effects>
+			<effect name="TriggerSkillByDamage">
+				<!-- Guessed -->
+				<!-- Guessed -->
+				<!-- Lightning Shield: Paralyze -->
+				<attackerType>L2Character</attackerType>
+				<minAttackerLevel>1</minAttackerLevel>
+				<maxAttackerLevel>127</maxAttackerLevel>
+				<chance>50</chance>
+				<targetType>ENEMY</targetType>
+				<affectScope>SINGLE</affectScope>
+				<minDamage>100</minDamage>
+				<skillId>11133</skillId>
+				<skillLevel>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+				</skillLevel>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11133" toLevel="3" name="Lightning Shield: Paralyze">
+		<!-- Updated to IO -->
+		<!-- Momentarily stiffened. -->
+		<icon>icon.skill1515</icon>
+		<abnormalLvl>
+			<value level="1">1</value>
+			<value level="2">2</value>
+			<value level="3">3</value>
+		</abnormalLvl>
+		<abnormalTime>3</abnormalTime> <!-- Guessed -->
+		<abnormalType>PARALYZE</abnormalType>
+		<abnormalVisualEffect>PARALYZE</abnormalVisualEffect>
+		<activateRate>90</activateRate> <!-- Guessed -->
+		<basicProperty>MAGIC</basicProperty> <!-- Guessed -->
+		<operateType>A2</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<trait>PARALYZE</trait>
+		<castRange>600</castRange>
+		<effectRange>1100</effectRange>
+		<reuseDelay>2000</reuseDelay>
+		<effectPoint>138</effectPoint>
+		<isDebuff>true</isDebuff>
+		<isTriggeredSkill>true</isTriggeredSkill>
+		<effects>
+			<effect name="BlockActions" />
+		</effects>
+	</skill>
+	<skill id="11134" toLevel="1" name="Meteor">
+		<!-- Updated to IO -->
+		<!-- Drops meteors to attack surrounding enemies and deals great damage. Inflicts abnormal state and deals continuous damage. The higher the level of the abnormal state, the greater the damage. Consumes 5 Spirit Ores. -->
+		<icon>icon.skill11134</icon>
+		<affectRange>250</affectRange>
+		<channelingSkillId>11134</channelingSkillId>
+		<channelingTickInterval>2000</channelingTickInterval>
+		<attributeType>FIRE</attributeType>
+		<attributeValue>20</attributeValue>
+		<itemConsumeCount>5</itemConsumeCount>
+		<itemConsumeId>3031</itemConsumeId> <!-- Spirit Ore -->
+		<operateType>CA1</operateType>
+		<targetType>GROUND</targetType>
+		<affectScope>POINT_BLANK</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<mpConsume>52</mpConsume>
+		<castRange>900</castRange>
+		<hitTime>12000</hitTime>
+		<reuseDelay>120000</reuseDelay>
+		<effectPoint>-676</effectPoint>
+		<isMagic>2</isMagic>
+		<channelingEffects>
+			<effect name="MagicalAttack">
+				<power>
+					<value fromLevel="1" toLevel="1">860</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1005">{base + base / 100 * (1 + 0.4 * (subIndex - 1))}</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1006" toSubLevel="1006">{base + base / 100 * (2 + 0.8 * (subIndex - 5))}</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1007" toSubLevel="1007">{base + base / 100 * (3 + 0.3 * (subIndex - 6))}</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1008" toSubLevel="1008">{base + base / 100 * (3 + 0.3 * (subIndex - 7))}</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1009" toSubLevel="1011">{base + base / 100 * (4 + 0.4 * (subIndex - 8))}</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1012" toSubLevel="1012">{base + base / 100 * (5 + 0.1 * (subIndex - 11))}</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1013" toSubLevel="1013">{base + base / 100 * (5 + 0.5 * (subIndex - 12))}</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1014" toSubLevel="1014">{base + base / 100 * (5 + 0.9 * (subIndex - 13))}</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1015" toSubLevel="1015">{base + base / 100 * (6 + 0.2 * (subIndex - 14))}</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1016" toSubLevel="1016">{base + base / 100 * (6 + 0.6 * (subIndex - 15))}</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1017" toSubLevel="1017">{base + base / 100 * (7 + 0.2 * (subIndex - 16))}</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1018" toSubLevel="1018">{base + base / 100 * (7 + 0.4 * (subIndex - 17))}</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1019" toSubLevel="1019">{base + base / 100 * (7 + 0.7 * (subIndex - 18))}</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1020" toSubLevel="1020">{base + base / 100 * (8 + 0.1 * (subIndex - 19))}</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1021" toSubLevel="1021">{base + base / 100 * (8 + 0.5 * (subIndex - 20))}</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1022" toSubLevel="1022">{base + base / 100 * (8 + 0.8 * (subIndex - 21))}</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1023" toSubLevel="1023">{base + base / 100 * (9 + 0.2 * (subIndex - 22))}</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1024" toSubLevel="1024">{base + base / 100 * (9 + 0.6 * (subIndex - 23))}</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1025" toSubLevel="1025">{base + base / 100 * (10 * (subIndex - 24))}</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1026" toSubLevel="1026">{base + base / 100 * (10 + 0.3 * (subIndex - 25))}</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1027" toSubLevel="1027">{base + base / 100 * (10 + 0.7 * (subIndex - 26))}</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1028" toSubLevel="1028">{base + base / 100 * (11 + 0.1 * (subIndex - 27))}</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1029" toSubLevel="1029">{base + base / 100 * (11 + 0.4 * (subIndex - 28))}</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1030" toSubLevel="1030">{base + base / 100 * (11 + 0.8 * (subIndex - 29))}</value>
+				</power>
+			</effect>
+			<effect name="CallSkill">
+				<!-- Ignite -->
+				<skillId>11139</skillId>
+				<skillLevel>1</skillLevel>
+				<skillLevelScaleTo>3</skillLevelScaleTo>
+			</effect>
+		</channelingEffects>
+	</skill>
+	<skill id="11135" toLevel="1" name="Black Pool">
+		<!-- Updated to IO -->
+		<!-- Creates a black swamp in the selected location, dealing great damage, and receiving 50% of the target's damage as HP. Inflicts abnormal state and decreases Speed. The higher the level of the abnormal state, the greater the damage, and at the last stage, Shocks the target. Consumes 5 Spirit Ores. -->
+		<icon>icon.skill11135</icon>
+		<affectRange>250</affectRange>
+		<channelingSkillId>11135</channelingSkillId>
+		<channelingTickInterval>1000</channelingTickInterval>
+		<channelingTickInitialDelay>2000</channelingTickInitialDelay>
+		<attributeType>DARK</attributeType>
+		<attributeValue>20</attributeValue>
+		<itemConsumeCount>5</itemConsumeCount>
+		<itemConsumeId>3031</itemConsumeId> <!-- Spirit Ore -->
+		<operateType>CA1</operateType>
+		<targetType>GROUND</targetType>
+		<affectScope>POINT_BLANK</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<mpConsume>52</mpConsume>
+		<castRange>900</castRange>
+		<hitTime>12000</hitTime>
+		<reuseDelay>120000</reuseDelay>
+		<effectPoint>-676</effectPoint>
+		<isMagic>2</isMagic>
+		<channelingEffects>
+			<effect name="HpDrain">
+				<power>
+					<value fromLevel="1" toLevel="1">550</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1030">{base + base / 100 * subIndex}</value>
+				</power>
+				<percentage>
+					<value fromLevel="1" toLevel="1">50</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1030">{base + base / 100 * subIndex}</value>
+				</percentage>
+			</effect>
+			<effect name="CallSkill">
+				<!-- Black Shackle -->
+				<skillId>11140</skillId>
+				<skillLevel>1</skillLevel>
+				<skillLevelScaleTo>5</skillLevelScaleTo>
+			</effect>
+		</channelingEffects>
+	</skill>
+	<skill id="11136" toLevel="1" name="Snow Storm">
+		<!-- Updated to IO -->
+		<!-- Hits 8 times -->
+		<!-- Creates an ice storm in the selected location, dealing continuous damage. Inflicts abnormal state and decreases Speed. The higher the level of the abnormal state, the greater the damage, and at the last stage, Freezes the target. Consumes 5 Spirit Ores. -->
+		<icon>icon.skill11136</icon>
+		<affectRange>250</affectRange>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>5</abnormalTime>
+		<channelingSkillId>11136</channelingSkillId>
+		<channelingTickInterval>1000</channelingTickInterval>
+		<channelingTickInitialDelay>2000</channelingTickInitialDelay>
+		<attributeType>WATER</attributeType>
+		<attributeValue>20</attributeValue>
+		<itemConsumeCount>5</itemConsumeCount>
+		<itemConsumeId>3031</itemConsumeId> <!-- Spirit Ore -->
+		<operateType>CA1</operateType>
+		<targetType>GROUND</targetType>
+		<affectScope>POINT_BLANK</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<mpConsume>52</mpConsume>
+		<castRange>900</castRange>
+		<hitTime>12000</hitTime>
+		<reuseDelay>120000</reuseDelay>
+		<effectPoint>-676</effectPoint>
+		<isMagic>2</isMagic>
+		<channelingEffects>
+			<effect name="MagicalAttack">
+				<power>
+					<value fromLevel="1" toLevel="1">440</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1005">{base + base / 100 * (1 + 0.4 * (subIndex - 1))}</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1006" toSubLevel="1006">{base + base / 100 * (2 + 0.8 * (subIndex - 5))}</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1007" toSubLevel="1007">{base + base / 100 * (3 + 0.3 * (subIndex - 6))}</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1008" toSubLevel="1008">{base + base / 100 * (3 + 0.3 * (subIndex - 7))}</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1009" toSubLevel="1011">{base + base / 100 * (4 + 0.4 * (subIndex - 8))}</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1012" toSubLevel="1012">{base + base / 100 * (5 + 0.1 * (subIndex - 11))}</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1013" toSubLevel="1013">{base + base / 100 * (5 + 0.5 * (subIndex - 12))}</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1014" toSubLevel="1014">{base + base / 100 * (5 + 0.9 * (subIndex - 13))}</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1015" toSubLevel="1015">{base + base / 100 * (6 + 0.2 * (subIndex - 14))}</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1016" toSubLevel="1016">{base + base / 100 * (6 + 0.6 * (subIndex - 15))}</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1017" toSubLevel="1017">{base + base / 100 * (7 + 0.2 * (subIndex - 16))}</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1018" toSubLevel="1018">{base + base / 100 * (7 + 0.4 * (subIndex - 17))}</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1019" toSubLevel="1019">{base + base / 100 * (7 + 0.7 * (subIndex - 18))}</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1020" toSubLevel="1020">{base + base / 100 * (8 + 0.1 * (subIndex - 19))}</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1021" toSubLevel="1021">{base + base / 100 * (8 + 0.5 * (subIndex - 20))}</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1022" toSubLevel="1022">{base + base / 100 * (8 + 0.8 * (subIndex - 21))}</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1023" toSubLevel="1023">{base + base / 100 * (9 + 0.2 * (subIndex - 22))}</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1024" toSubLevel="1024">{base + base / 100 * (9 + 0.6 * (subIndex - 23))}</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1025" toSubLevel="1025">{base + base / 100 * (10 * (subIndex - 24))}</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1026" toSubLevel="1026">{base + base / 100 * (10 + 0.3 * (subIndex - 25))}</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1027" toSubLevel="1027">{base + base / 100 * (10 + 0.7 * (subIndex - 26))}</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1028" toSubLevel="1028">{base + base / 100 * (11 + 0.1 * (subIndex - 27))}</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1029" toSubLevel="1029">{base + base / 100 * (11 + 0.4 * (subIndex - 28))}</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1030" toSubLevel="1030">{base + base / 100 * (11 + 0.8 * (subIndex - 29))}</value>
+				</power>
+			</effect>
+			<effect name="CallSkill">
+				<!-- Freezing Slow -->
+				<skillId>11141</skillId>
+				<skillLevel>1</skillLevel>
+				<skillLevelScaleTo>5</skillLevelScaleTo>
+			</effect>
+		</channelingEffects>
+	</skill>
+	<skill id="11137" toLevel="1" name="Tornado">
+		<!-- Updated to IO -->
+		<!-- Creates a tornado in the selected location, dealing great damage. Inflicts abnormal state and decreases Speed. The higher the level of the abnormal state, the greater the damage, and at the last stage, locks the target in an Aerial Yoke. Consumes 5 Spirit Ores. -->
+		<icon>icon.skill11137</icon>
+		<affectRange>250</affectRange>
+		<channelingSkillId>11137</channelingSkillId>
+		<channelingTickInterval>1000</channelingTickInterval>
+		<channelingTickInitialDelay>2000</channelingTickInitialDelay>
+		<attributeType>WIND</attributeType>
+		<attributeValue>20</attributeValue>
+		<itemConsumeCount>5</itemConsumeCount>
+		<itemConsumeId>3031</itemConsumeId> <!-- Spirit Ore -->
+		<operateType>CA1</operateType>
+		<targetType>GROUND</targetType>
+		<affectScope>POINT_BLANK</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<mpConsume>52</mpConsume>
+		<castRange>900</castRange>
+		<hitTime>12000</hitTime>
+		<reuseDelay>120000</reuseDelay>
+		<effectPoint>-676</effectPoint>
+		<isMagic>2</isMagic>
+		<channelingEffects>
+			<effect name="MagicalAttack">
+				<power>
+					<value fromLevel="1" toLevel="1">550</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1005">{base + base / 100 * (1 + 0.4 * (subIndex - 1))}</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1006" toSubLevel="1006">{base + base / 100 * (2 + 0.8 * (subIndex - 5))}</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1007" toSubLevel="1007">{base + base / 100 * (3 + 0.3 * (subIndex - 6))}</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1008" toSubLevel="1008">{base + base / 100 * (3 + 0.3 * (subIndex - 7))}</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1009" toSubLevel="1011">{base + base / 100 * (4 + 0.4 * (subIndex - 8))}</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1012" toSubLevel="1012">{base + base / 100 * (5 + 0.1 * (subIndex - 11))}</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1013" toSubLevel="1013">{base + base / 100 * (5 + 0.5 * (subIndex - 12))}</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1014" toSubLevel="1014">{base + base / 100 * (5 + 0.9 * (subIndex - 13))}</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1015" toSubLevel="1015">{base + base / 100 * (6 + 0.2 * (subIndex - 14))}</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1016" toSubLevel="1016">{base + base / 100 * (6 + 0.6 * (subIndex - 15))}</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1017" toSubLevel="1017">{base + base / 100 * (7 + 0.2 * (subIndex - 16))}</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1018" toSubLevel="1018">{base + base / 100 * (7 + 0.4 * (subIndex - 17))}</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1019" toSubLevel="1019">{base + base / 100 * (7 + 0.7 * (subIndex - 18))}</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1020" toSubLevel="1020">{base + base / 100 * (8 + 0.1 * (subIndex - 19))}</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1021" toSubLevel="1021">{base + base / 100 * (8 + 0.5 * (subIndex - 20))}</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1022" toSubLevel="1022">{base + base / 100 * (8 + 0.8 * (subIndex - 21))}</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1023" toSubLevel="1023">{base + base / 100 * (9 + 0.2 * (subIndex - 22))}</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1024" toSubLevel="1024">{base + base / 100 * (9 + 0.6 * (subIndex - 23))}</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1025" toSubLevel="1025">{base + base / 100 * (10 * (subIndex - 24))}</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1026" toSubLevel="1026">{base + base / 100 * (10 + 0.3 * (subIndex - 25))}</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1027" toSubLevel="1027">{base + base / 100 * (10 + 0.7 * (subIndex - 26))}</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1028" toSubLevel="1028">{base + base / 100 * (11 + 0.1 * (subIndex - 27))}</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1029" toSubLevel="1029">{base + base / 100 * (11 + 0.4 * (subIndex - 28))}</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1030" toSubLevel="1030">{base + base / 100 * (11 + 0.8 * (subIndex - 29))}</value>
+				</power>
+			</effect>
+			<effect name="CallSkill">
+				<!-- Wind Binding -->
+				<skillId>11144</skillId>
+				<skillLevel>1</skillLevel>
+				<skillLevelScaleTo>5</skillLevelScaleTo>
+			</effect>
+		</channelingEffects>
+	</skill>
+	<skill id="11138" toLevel="1" name="Soul Barrage">
+		<!-- Updated to IO -->
+		<!-- Detonates the soul in the selected location to attack surrounding enemies. Inflicts abnormal state and increases PvP Damage. The effect increases as the level of the abnormal state increases. Consumes 5 Spirit Ores. -->
+		<icon>icon.skill11138</icon>
+		<affectRange>250</affectRange> <!-- Guessed -->
+		<channelingSkillId>11138</channelingSkillId>
+		<channelingTickInterval>1000</channelingTickInterval>
+		<channelingTickInitialDelay>2000</channelingTickInitialDelay>
+		<itemConsumeCount>5</itemConsumeCount>
+		<itemConsumeId>3031</itemConsumeId> <!-- Spirit Ore -->
+		<operateType>CA1</operateType>
+		<targetType>GROUND</targetType>
+		<affectScope>POINT_BLANK</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<mpConsume>52</mpConsume>
+		<castRange>900</castRange>
+		<hitTime>12000</hitTime>
+		<reuseDelay>120000</reuseDelay>
+		<effectPoint>-676</effectPoint>
+		<isMagic>1</isMagic>
+		<channelingEffects>
+			<effect name="MagicalAttack">
+				<power>600</power>
+			</effect>
+			<effect name="CallSkill">
+				<!-- Soul Weakness -->
+				<skillId>11145</skillId>
+				<skillLevel>1</skillLevel>
+				<skillLevelScaleTo>5</skillLevelScaleTo>
+			</effect>
+		</channelingEffects>
+	</skill>
+	<skill id="11139" toLevel="3" name="Ignite">
+		<!-- Updated to IO -->
+		<!-- Engulfed in flames. -->
+		<icon>icon.skill11134</icon>
+		<abnormalLvl>
+			<value level="1">1</value>
+			<value level="2">2</value>
+			<value level="3">3</value>
+		</abnormalLvl>
+		<abnormalTime>10</abnormalTime>
+		<abnormalType>DOT_ATTR</abnormalType>
+		<abnormalVisualEffect>DOT_BLEEDING</abnormalVisualEffect>
+		<activateRate>80</activateRate>
+		<basicProperty>MAGIC</basicProperty> <!-- Guessed -->
+		<attributeType>FIRE</attributeType>
+		<attributeValue>20</attributeValue>
+		<operateType>A2</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<isMagic>4</isMagic>
+		<isDebuff>true</isDebuff>
+		<effects>
+			<effect name="DamOverTime">
+				<power>
+					<value level="1">431</value>
+					<value level="2">503</value>
+					<value level="3">720</value>
+				</power>
+				<ticks>1</ticks>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11140" toLevel="5" name="Black Shackle">
+		<!-- Updated to IO -->
+		<!-- Bound to dark power. -->
+		<icon>icon.skill11135</icon>
+		<abnormalLvl>
+			<value level="1">1</value>
+			<value level="2">2</value>
+			<value level="3">3</value>
+			<value level="4">4</value>
+			<value level="5">5</value>
+		</abnormalLvl>
+		<abnormalTime>5</abnormalTime>
+		<abnormalType>SPEED_DOWN</abnormalType>
+		<activateRate>80</activateRate> <!-- Guessed -->
+		<basicProperty>MAGIC</basicProperty> <!-- Guessed -->
+		<attributeType>DARK</attributeType>
+		<attributeValue>20</attributeValue>
+		<operateType>A2</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<isMagic>4</isMagic>
+		<isDebuff>true</isDebuff>
+		<effects>
+			<effect name="Speed">
+				<amount>
+					<value level="1">-10</value>
+					<value level="2">-20</value>
+					<value level="3">-30</value>
+					<value level="4">-40</value>
+					<value level="5">-100</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11141" toLevel="5" name="Freezing Slow">
+		<!-- Updated to IO -->
+		<!-- The cold is creeping up from your feet. -->
+		<icon>icon.skill11136</icon>
+		<abnormalLvl>
+			<value level="1">1</value>
+			<value level="2">2</value>
+			<value level="3">3</value>
+			<value level="4">4</value>
+			<value level="5">5</value>
+		</abnormalLvl>
+		<abnormalTime>5</abnormalTime>
+		<abnormalType>SPEED_DOWN</abnormalType>
+		<abnormalVisualEffect>
+			<value level="1">SNOW_SLOW</value>
+			<value level="2">SNOW_SLOW</value>
+			<value level="3">SNOW_SLOW</value>
+			<value level="4">SNOW_SLOW</value>
+			<value level="5">SNOW_HOLD</value>
+		</abnormalVisualEffect>
+		<activateRate>80</activateRate>
+		<basicProperty>MAGIC</basicProperty> <!-- Guessed -->
+		<attributeType>WATER</attributeType>
+		<attributeValue>20</attributeValue>
+		<operateType>A2</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<isMagic>4</isMagic>
+		<isDebuff>true</isDebuff>
+		<effects>
+			<effect name="Speed">
+				<amount>
+					<value level="1">-10</value>
+					<value level="2">-20</value>
+					<value level="3">-30</value>
+					<value level="4">-40</value>
+					<value level="5">-100</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11142" toLevel="3" name="Damaged Area">
+		<!-- Glory Days confirmed -->
+		<!-- Momentarily incurs damage. All speeds are decreased. -->
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>
+			<value level="1">3</value>
+			<value level="2">3</value>
+			<value level="3">5</value>
+		</abnormalTime>
+		<abnormalType>SPEED_DOWN</abnormalType>
+		<affectLimit>5-12</affectLimit>
+		<affectRange>300</affectRange>
+		<icon>icon.skill11032</icon>
+		<operateType>A4</operateType>
+		<isMagic>1</isMagic>
+		<effectPoint>-702</effectPoint>
+		<basicProperty>NONE</basicProperty>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<hitCancelTime>0</hitCancelTime>
+		<activateRate>100</activateRate>
+		<magicLvl>90</magicLvl>
+		<isDebuff>true</isDebuff>
+		<targetType>SELF</targetType>
+		<affectScope>POINT_BLANK</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<effects>
+			<effect name="MagicalAttack">
+				<power>123</power>
+				<overHit>true</overHit>
+			</effect>
+			<effect name="Speed">
+				<amount>
+					<value level="1">-40</value>
+					<value level="2">-60</value>
+					<value level="3">-80</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11143" toLevel="3" name="Damaged Area">
+		<!-- Glory Days confirmed -->
+		<!-- Momentarily incurs damage. All speeds are decreased. -->
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>
+			<value level="1">3</value>
+			<value level="2">3</value>
+			<value level="3">5</value>
+		</abnormalTime>
+		<abnormalType>SPEED_DOWN</abnormalType>
+		<affectLimit>5-12</affectLimit>
+		<affectRange>300</affectRange>
+		<icon>icon.skill11032</icon>
+		<operateType>A4</operateType>
+		<isMagic>1</isMagic>
+		<effectPoint>-707</effectPoint>
+		<basicProperty>NONE</basicProperty>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<hitCancelTime>0</hitCancelTime>
+		<activateRate>100</activateRate>
+		<magicLvl>95</magicLvl>
+		<isDebuff>true</isDebuff>
+		<targetType>SELF</targetType>
+		<affectScope>POINT_BLANK</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<effects>
+			<effect name="MagicalAttack">
+				<power>131</power>
+				<overHit>true</overHit>
+			</effect>
+			<effect name="Speed">
+				<amount>
+					<value level="1">-40</value>
+					<value level="2">-60</value>
+					<value level="3">-80</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11144" toLevel="5" name="Wind Binding">
+		<!-- Updated to IO -->
+		<!-- Speed has decreased due to the gust. -->
+		<icon>icon.skill11137</icon>
+		<abnormalLvl>
+			<value level="1">1</value>
+			<value level="2">2</value>
+			<value level="3">3</value>
+			<value level="4">4</value>
+			<value level="5">5</value>
+		</abnormalLvl>
+		<abnormalTime>5</abnormalTime> <!-- Guessed -->
+		<abnormalType>SPEED_DOWN</abnormalType>
+		<abnormalVisualEffect>
+			<value level="1">TORNADO_SLOW</value>
+			<value level="2">TORNADO_SLOW</value>
+			<value level="3">TORNADO_SLOW</value>
+			<value level="4">TORNADO_SLOW</value>
+			<value level="5">TORNADO</value>
+		</abnormalVisualEffect>
+		<activateRate>80</activateRate>
+		<basicProperty>MAGIC</basicProperty> <!-- Guessed -->
+		<attributeType>WIND</attributeType>
+		<attributeValue>20</attributeValue>
+		<operateType>A2</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<isMagic>4</isMagic>
+		<isDebuff>true</isDebuff>
+		<effects>
+			<effect name="Speed">
+				<amount>
+					<value level="1">-10</value>
+					<value level="2">-20</value>
+					<value level="3">-30</value>
+					<value level="4">-40</value>
+					<value level="5">-100</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11145" toLevel="5" name="Soul Weakness">
+		<!-- Updated to IO -->
+		<!-- Cursed by a soul. -->
+		<icon>icon.skill11138</icon>
+		<abnormalLvl>
+			<value level="1">1</value>
+			<value level="2">2</value>
+			<value level="3">3</value>
+			<value level="4">4</value>
+			<value level="5">5</value>
+		</abnormalLvl>
+		<abnormalTime>5</abnormalTime> <!-- Guessed -->
+		<activateRate>80</activateRate> <!-- Guessed -->
+		<basicProperty>MAGIC</basicProperty> <!-- Guessed -->
+		<operateType>A2</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<isMagic>4</isMagic>
+		<isDebuff>true</isDebuff>
+		<effects>
+			<effect name="PvpPhysicalAttackDefenceBonus">
+				<amount>
+					<value level="1">-10</value>
+					<value level="2">-20</value>
+					<value level="3">-30</value>
+					<value level="4">-40</value>
+					<value level="5">-50</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDefenceBonus">
+				<amount>
+					<value level="1">-10</value>
+					<value level="2">-20</value>
+					<value level="3">-30</value>
+					<value level="4">-40</value>
+					<value level="5">-50</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDefenceBonus">
+				<amount>
+					<value level="1">-10</value>
+					<value level="2">-20</value>
+					<value level="3">-30</value>
+					<value level="4">-40</value>
+					<value level="5">-50</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11150" toLevel="1" name="Dark Curse">
+		<!-- Updated to IO -->
+		<!-- For 10 sec., decreases target's M. Def. by 50% and Attribute Resistance by 50. -->
+		<icon>icon.skill11867</icon>
+		<abnormalLvl>4</abnormalLvl>
+		<abnormalTime>10</abnormalTime>
+		<abnormalType>MD_DOWN</abnormalType>
+		<activateRate>90</activateRate>
+		<basicProperty>MAGIC</basicProperty> <!-- Guessed -->
+		<attributeType>DARK</attributeType>
+		<attributeValue>20</attributeValue>
+		<operateType>A2</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<mpConsume>38</mpConsume>
+		<castRange>1100</castRange>
+		<effectRange>1400</effectRange>
+		<hitTime>2780</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>2400</reuseDelay>
+		<isMagic>1</isMagic>
+		<effectPoint>-209</effectPoint>
+		<isDebuff>true</isDebuff>
+		<effects>
+			<effect name="MagicalDefence">
+				<amount>-50</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>-50</amount>
+				<attribute>FIRE</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>-50</amount>
+				<attribute>WATER</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>-50</amount>
+				<attribute>WIND</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>-50</amount>
+				<attribute>EARTH</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>-50</amount>
+				<attribute>HOLY</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>-50</amount>
+				<attribute>DARK</attribute>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11151" toLevel="4" name="Superior Wizardry">
+		<!-- M. Atk., Max MP, and MP Recovery Rate + 5%. -->
+		<icon>icon.skill0945</icon>
+		<magicLvl>
+			<value level="1">85</value>
+			<value level="2">90</value>
+			<value level="3">95</value>
+			<value level="4">99</value>
+		</magicLvl>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="MAtk">
+				<amount>
+					<value level="1">5</value>
+					<value level="2">6</value>
+					<value level="3">7</value>
+					<value level="4">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MaxMp">
+				<amount>
+					<value level="1">5</value>
+					<value level="2">6</value>
+					<value level="3">7</value>
+					<value level="4">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MpRegen">
+				<amount>
+					<value level="1">5</value>
+					<value level="2">6</value>
+					<value level="3">7</value>
+					<value level="4">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11152" toLevel="1" name="Sacrificial Soul">
+		<!-- Updated to IO -->
+		<!-- Sacrifice your servitor to become immune to debuffs for 3 sec. -->
+		<icon>icon.skill1395</icon>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>3</abnormalTime>
+		<abnormalType>ABNORMAL_INVINCIBILITY</abnormalType>
+		<abnormalVisualEffect>ULTIMATE_DEFENCE</abnormalVisualEffect>
+		<operateType>A2</operateType>
+		<targetType>SUMMON</targetType>
+		<affectScope>SINGLE</affectScope>
+		<mpConsume>276</mpConsume>
+		<castRange>1100</castRange>
+		<effectRange>1400</effectRange>
+		<hitTime>1000</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>15000</reuseDelay>
+		<effectPoint>209</effectPoint>
+		<isMagic>1</isMagic>
+		<effects>
+			<effect name="SacrificeSummon" />
+		</effects>
+		<selfEffects>
+			<effect name="DebuffBlock" />
+			<effect name="Heal" fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1030">
+				<power>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1001">1936</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1002" toSubLevel="1002">2072</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1003" toSubLevel="1003">2207</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1004" toSubLevel="1004">2342</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1005" toSubLevel="1005">2477</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1006" toSubLevel="1006">2612</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1007" toSubLevel="1007">2747</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1008" toSubLevel="1008">2882</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1009" toSubLevel="1009">3017</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1010" toSubLevel="1010">3152</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1011" toSubLevel="1011">3288</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1012" toSubLevel="1012">3423</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1013" toSubLevel="1013">3558</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1014" toSubLevel="1014">3693</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1015" toSubLevel="1015">3828</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1016" toSubLevel="1016">3964</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1017" toSubLevel="1017">4099</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1018" toSubLevel="1018">4234</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1019" toSubLevel="1019">4369</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1020" toSubLevel="1020">4504</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1021" toSubLevel="1021">4594</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1022" toSubLevel="1022">4684</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1023" toSubLevel="1023">4774</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1024" toSubLevel="1024">4864</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1025" toSubLevel="1025">4955</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1026" toSubLevel="1026">5044</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1027" toSubLevel="1027">5135</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1028" toSubLevel="1028">5224</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1029" toSubLevel="1029">5315</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1030" toSubLevel="1030">5405</value>
+				</power>
+			</effect>
+			<effect name="ManaHeal" fromLevel="1" toLevel="1" fromSubLevel="2001" toSubLevel="2030">
+				<power>
+					<value fromLevel="1" toLevel="1" fromSubLevel="2001" toSubLevel="2001">532</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="2002" toSubLevel="2002">570</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="2003" toSubLevel="2003">607</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="2004" toSubLevel="2004">644</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="2005" toSubLevel="2005">681</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="2006" toSubLevel="2006">718</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="2007" toSubLevel="2007">756</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="2008" toSubLevel="2008">793</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="2009" toSubLevel="2009">830</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="2010" toSubLevel="2010">867</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="2011" toSubLevel="2011">904</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="2012" toSubLevel="2012">942</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="2013" toSubLevel="2013">979</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="2014" toSubLevel="2014">1016</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="2015" toSubLevel="2015">1053</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="2016" toSubLevel="2016">1090</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="2017" toSubLevel="2017">1128</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="2018" toSubLevel="2018">1165</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="2019" toSubLevel="2019">1202</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="2020" toSubLevel="2020">1240</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="2021" toSubLevel="2021">1264</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="2022" toSubLevel="2022">1289</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="2023" toSubLevel="2023">1314</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="2024" toSubLevel="2024">1339</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="2025" toSubLevel="2025">1363</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="2026" toSubLevel="2026">1389</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="2027" toSubLevel="2027">1413</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="2028" toSubLevel="2028">1438</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="2029" toSubLevel="2029">1463</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="2030" toSubLevel="2030">1488</value>
+				</power>
+			</effect>
+			<effect name="CpHeal" fromLevel="1" toLevel="1" fromSubLevel="3001" toSubLevel="3030">
+				<power>
+					<value fromLevel="1" toLevel="1" fromSubLevel="3001" toSubLevel="3001">2421</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="3002" toSubLevel="3002">2590</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="3003" toSubLevel="3003">2759</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="3004" toSubLevel="3004">2928</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="3005" toSubLevel="3005">3097</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="3006" toSubLevel="3006">3265</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="3007" toSubLevel="3007">3434</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="3008" toSubLevel="3008">3603</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="3009" toSubLevel="3009">3772</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="3010" toSubLevel="3010">3941</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="3011" toSubLevel="3011">4110</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="3012" toSubLevel="3012">4279</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="3013" toSubLevel="3013">4448</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="3014" toSubLevel="3014">4617</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="3015" toSubLevel="3015">4786</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="3016" toSubLevel="3016">4955</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="3017" toSubLevel="3017">5124</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="3018" toSubLevel="3018">5293</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="3019" toSubLevel="3019">5462</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="3020" toSubLevel="3020">5631</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="3021" toSubLevel="3021">5743</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="3022" toSubLevel="3022">5856</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="3023" toSubLevel="3023">5968</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="3024" toSubLevel="3024">6081</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="3025" toSubLevel="3025">6194</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="3026" toSubLevel="3026">6306</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="3027" toSubLevel="3027">6419</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="3028" toSubLevel="3028">6531</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="3029" toSubLevel="3029">6644</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="3030" toSubLevel="3030">6757</value>
+				</power>
+			</effect>
+		</selfEffects>
+	</skill>
+	<skill id="11153" toLevel="1" name="Chain Blaze">
+		<icon>icon.skill11153</icon>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>1</abnormalTime>
+		<activateRate>200</activateRate>
+		<abnormalType>SYNERGY_FEOH</abnormalType>
+		<basicProperty>NONE</basicProperty>
+		<itemConsumeCount>2</itemConsumeCount>
+		<itemConsumeId>3031</itemConsumeId> <!-- Spirit Ore -->
+		<operateType>A2</operateType>
+		<magicLvl>100</magicLvl>
+		<mpConsume>351</mpConsume>
+		<affectRange>1100</affectRange>
+		<hitTime>2560</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>6000</reuseDelay>
+		<effectPoint>-418</effectPoint>
+		<isMagic>1</isMagic>
+		<isDebuff>true</isDebuff>
+		<targetType>SELF</targetType>
+		<affectScope>RANGE</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<rideState>NONE</rideState>
+		<isDebuff>true</isDebuff>
+		<trait>PARALYZE</trait>
+		<blockedInOlympiad>true</blockedInOlympiad>
+		<affectLimit>6-12</affectLimit>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effects>
+			<effect name="MagicalAttack">
+				<power>
+					<value level="1">349</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1030">{base + base / 100 * subIndex}</value>
+				</power>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>
+					<value fromLevel="1" toLevel="1">-30</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="3001" toSubLevel="3030">{base - (-0.6 - 0.4 * subIndex)}</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11154" toLevel="1" name="Fire Potential">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="11155" toLevel="1" name="Water Potential">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="11156" toLevel="1" name="Chain Blaze_Test">
+		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="11174" toLevel="5" name="Shadow Snare Zone"> <!-- Client Levels only 1 and 5 -->
+		<!-- Glory Days confirmed -->
+		<!-- Pulls nearby enemies to the center. -->
+		<icon>icon.skill1469</icon>
+		<abnormalLvl>5</abnormalLvl>
+		<abnormalTime>1</abnormalTime>
+		<abnormalType>STUN</abnormalType>
+		<activateRate>100</activateRate>
+		<affectLimit>5-12</affectLimit>
+		<affectRange>300</affectRange>
+		<operateType>A2</operateType>
+		<trait>PULL</trait>
+		<effectPoint>
+			<value level="1">-709</value>
+			<value level="2">0</value>
+			<value level="3">0</value>
+			<value level="4">0</value>
+			<value level="5">-709</value>
+		</effectPoint>
+		<basicProperty>NONE</basicProperty>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<hitCancelTime>0</hitCancelTime>
+		<magicLvl>97</magicLvl>
+		<isMagic>2</isMagic>
+		<isDebuff>true</isDebuff>
+		<targetType>SELF</targetType>
+		<affectScope>POINT_BLANK</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<effects>
+			<effect name="PullBack">
+				<speed>600</speed>
+			</effect>
+			<effect name="BlockActions">
+				<allowedSkills>10279;10517;10025;10776;11770;1904;11264;11093;13314;1912</allowedSkills>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11175" toLevel="6" name="Shadow Snare Zone"> <!-- Client Levels only 1 and 6 -->
+		<!-- Glory Days confirmed -->
+		<!-- Pulls nearby enemies to the center. -->
+		<icon>icon.skill1469</icon>
+		<abnormalLvl>5</abnormalLvl>
+		<abnormalTime>1</abnormalTime>
+		<abnormalType>STUN</abnormalType>
+		<activateRate>100</activateRate>
+		<affectLimit>5-12</affectLimit>
+		<affectRange>300</affectRange>
+		<operateType>A2</operateType>
+		<trait>PULL</trait>
+		<effectPoint>
+			<value level="1">-709</value>
+			<value level="2">0</value>
+			<value level="3">0</value>
+			<value level="4">0</value>
+			<value level="5">0</value>
+			<value level="6">-709</value>
+		</effectPoint>
+		<basicProperty>NONE</basicProperty>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<hitCancelTime>0</hitCancelTime>
+		<magicLvl>97</magicLvl>
+		<isMagic>2</isMagic>
+		<isDebuff>true</isDebuff>
+		<targetType>SELF</targetType>
+		<affectScope>POINT_BLANK</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<effects>
+			<effect name="PullBack">
+				<speed>600</speed>
+			</effect>
+			<effect name="BlockActions">
+				<allowedSkills>10279;10517;10025;10776;11770;1904;11264;11093;13314;1912</allowedSkills>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11176" toLevel="4" name="Superior Wizardry">
+		<!-- Player’s M. Atk increases by 5%, maximum MP, MP recovery speed +5%, and magic skill cooldown time decreases by 10%. -->
+		<icon>icon.skill0945</icon>
+		<magicLvl>
+			<value level="1">85</value>
+			<value level="2">90</value>
+			<value level="3">95</value>
+			<value level="4">99</value>
+		</magicLvl>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="MAtk">
+				<amount>
+					<value level="1">5</value>
+					<value level="2">6</value>
+					<value level="3">7</value>
+					<value level="4">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MaxMp">
+				<amount>
+					<value level="1">5</value>
+					<value level="2">6</value>
+					<value level="3">7</value>
+					<value level="4">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MpRegen">
+				<amount>
+					<value level="1">5</value>
+					<value level="2">6</value>
+					<value level="3">7</value>
+					<value level="4">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="Reuse">
+				<amount>-10</amount>
+				<mode>PER</mode>
+				<magicType>1</magicType>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11177" toLevel="7" name="Aqua Crash">
+		<!-- Updated to IO -->
+		<!-- Inflicts damage with 193 Power to target. Applies a stacking debuff that decreases Speed. At 5 stacks target will be frozen for 2 seconds. When Double Casting is active, the debuff will not stack. Instead, there is a chance target will be frozen for 3 seconds. Over-hit. -->
+		<icon>icon.skill10879</icon>
+		<reuseDelayGroup>11177</reuseDelayGroup>
+		<allStanceSkillId>11189</allStanceSkillId> <!-- Double Casting skill Id -->
+		<attributeType>WATER</attributeType>
+		<attributeValue>20</attributeValue>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<magicLvl>
+			<value level="1">85</value>
+			<value level="2">90</value>
+			<value level="3">95</value>
+			<value level="4">99</value>
+			<value level="5">101</value>
+			<value level="6">103</value>
+			<value level="7">105</value>
+		</magicLvl>
+		<mpConsume>
+			<value level="1">37</value>
+			<value level="2">37</value>
+			<value level="3">37</value>
+			<value level="4">37</value>
+			<value level="5">39</value>
+			<value level="6">41</value>
+			<value level="7">43</value>
+		</mpConsume>
+		<castRange>1100</castRange>
+		<effectRange>1400</effectRange>
+		<hitTime>2280</hitTime>
+		<coolTime>300</coolTime>
+		<effectPoint>-687</effectPoint>
+		<isMagic>1</isMagic>
+		<doubleCastSkill>11189</doubleCastSkill>
+		<effects>
+			<effect name="MagicalAttack">
+				<power>
+					<value level="1">193</value>
+					<value level="2">195</value>
+					<value level="3">197</value>
+					<value level="4">199</value>
+					<value level="5">202</value>
+					<value level="6">206</value>
+					<value level="7">210</value>
+				</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11178" toLevel="1" name="Aqua Crash - Speed Decrease">
+		<!-- Updated to IO -->
+		<!-- Use Aqua Crash to decrease target's Speed. -->
+		<icon>icon.skill11011</icon>
+		<magicLvl>85</magicLvl>
+		<operateType>P</operateType>
+		<castRange>0</castRange>
+		<effects>
+			<effect name="TriggerSkillBySkillAttack">
+				<!-- Aqua Crash -->
+				<!-- Frozen -->
+				<attackSkillId>11177</attackSkillId>
+				<skillId>11188</skillId>
+				<skillLevel>1</skillLevel>
+				<skillLevelScaleTo>5</skillLevelScaleTo>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11179" toLevel="1" name="Yoke Status">
+		<!-- Glory Days confirmed -->
+		<!-- Momentarily immobilized midair. -->
+		<icon>icon.skill1042</icon>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>9</abnormalTime>
+		<abnormalType>AIRBIND</abnormalType>
+		<abnormalVisualEffect>AIRBIND</abnormalVisualEffect>
+		<operateType>A2</operateType>
+		<castRange>1100</castRange>
+		<effectRange>1100</effectRange>
+		<effectPoint>-698</effectPoint>
+		<basicProperty>NONE</basicProperty>
+		<rideState>NONE</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<activateRate>100</activateRate>
+		<magicLvl>89</magicLvl>
+		<trait>AIRBIND</trait>
+		<isDebuff>true</isDebuff>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<conditions>
+			<condition name="OpCheckCrtEffect" />
+		</conditions>
+		<effects>
+			<effect name="AirBind" />
+			<effect name="BlockActions">
+				<allowedSkills>10279;10517;10025;10776;11770;1904;11264;11093;13314;1912</allowedSkills>
+			</effect>
+			<effect name="BlockControl" />
+			<effect name="DamOverTime">
+				<power>100</power>
+				<ticks>1</ticks>
+			</effect>
+			<effect name="DefenceTrait">
+				<HOLD>100</HOLD>
+				<DERANGEMENT>100</DERANGEMENT>
+				<SHOCK>100</SHOCK>
+				<KNOCKBACK>100</KNOCKBACK>
+				<CHANGEBODY>100</CHANGEBODY>
+				<KNOCKDOWN>100</KNOCKDOWN>
+				<SLEEP>100</SLEEP>
+				<AIRBIND>100</AIRBIND>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11180" toLevel="1" name="Yoke Status">
+		<!-- Glory Days confirmed -->
+		<!-- Momentarily immobilized midair. -->
+		<icon>icon.skill1042</icon>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>9</abnormalTime>
+		<abnormalType>AIRBIND</abnormalType>
+		<abnormalVisualEffect>AIRBIND</abnormalVisualEffect>
+		<operateType>A2</operateType>
+		<castRange>1100</castRange>
+		<effectRange>1100</effectRange>
+		<effectPoint>-704</effectPoint>
+		<basicProperty>NONE</basicProperty>
+		<rideState>NONE</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<activateRate>100</activateRate>
+		<magicLvl>93</magicLvl>
+		<trait>AIRBIND</trait>
+		<isDebuff>true</isDebuff>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<conditions>
+			<condition name="OpCheckCrtEffect" />
+		</conditions>
+		<effects>
+			<effect name="AirBind" />
+			<effect name="BlockActions">
+				<allowedSkills>10279;10517;10025;10776;11770;1904;11264;11093;13314;1912</allowedSkills>
+			</effect>
+			<effect name="BlockControl" />
+			<effect name="DamOverTime">
+				<power>100</power>
+				<ticks>1</ticks>
+			</effect>
+			<effect name="DefenceTrait">
+				<HOLD>100</HOLD>
+				<DERANGEMENT>100</DERANGEMENT>
+				<SHOCK>100</SHOCK>
+				<KNOCKBACK>100</KNOCKBACK>
+				<CHANGEBODY>100</CHANGEBODY>
+				<KNOCKDOWN>100</KNOCKDOWN>
+				<SLEEP>100</SLEEP>
+				<AIRBIND>100</AIRBIND>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11181" toLevel="1" name="Yoke Status">
+		<!-- Glory Days confirmed -->
+		<!-- Momentarily immobilized midair. -->
+		<icon>icon.skill1042</icon>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>9</abnormalTime>
+		<abnormalType>AIRBIND</abnormalType>
+		<abnormalVisualEffect>AIRBIND</abnormalVisualEffect>
+		<operateType>A2</operateType>
+		<castRange>1100</castRange>
+		<effectRange>1100</effectRange>
+		<effectPoint>-708</effectPoint>
+		<basicProperty>NONE</basicProperty>
+		<rideState>NONE</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<activateRate>100</activateRate>
+		<magicLvl>97</magicLvl>
+		<trait>AIRBIND</trait>
+		<isDebuff>true</isDebuff>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<conditions>
+			<condition name="OpCheckCrtEffect" />
+		</conditions>
+		<effects>
+			<effect name="AirBind" />
+			<effect name="BlockActions">
+				<allowedSkills>10279;10517;10025;10776;11770;1904;11264;11093;13314;1912</allowedSkills>
+			</effect>
+			<effect name="BlockControl" />
+			<effect name="DamOverTime">
+				<power>100</power>
+				<ticks>1</ticks>
+			</effect>
+			<effect name="DefenceTrait">
+				<HOLD>100</HOLD>
+				<DERANGEMENT>100</DERANGEMENT>
+				<SHOCK>100</SHOCK>
+				<KNOCKBACK>100</KNOCKBACK>
+				<CHANGEBODY>100</CHANGEBODY>
+				<KNOCKDOWN>100</KNOCKDOWN>
+				<SLEEP>100</SLEEP>
+				<AIRBIND>100</AIRBIND>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11182" toLevel="4" name="Yoke Status">
+		<!-- TODO: Auto level parse, Requires manual update -->
+		<!-- Glory Days confirmed -->
+		<!-- Momentarily immobilized midair. -->
+		<icon>icon.skill1042</icon>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>9</abnormalTime>
+		<abnormalType>AIRBIND</abnormalType>
+		<abnormalVisualEffect>AIRBIND</abnormalVisualEffect>
+		<operateType>A2</operateType>
+		<castRange>1100</castRange>
+		<effectRange>1100</effectRange>
+		<effectPoint>-707</effectPoint>
+		<basicProperty>NONE</basicProperty>
+		<rideState>NONE</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<activateRate>100</activateRate>
+		<magicLvl>95</magicLvl>
+		<trait>AIRBIND</trait>
+		<isDebuff>true</isDebuff>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<conditions>
+			<condition name="OpCheckCrtEffect" />
+		</conditions>
+		<effects>
+			<effect name="AirBind" />
+			<effect name="BlockActions">
+				<allowedSkills>10279;10517;10025;10776;11770;1904;11264;11093;13314;1912</allowedSkills>
+			</effect>
+			<effect name="BlockControl" />
+			<effect name="DamOverTime">
+				<power>100</power>
+				<ticks>1</ticks>
+			</effect>
+			<effect name="DefenceTrait">
+				<HOLD>100</HOLD>
+				<DERANGEMENT>100</DERANGEMENT>
+				<SHOCK>100</SHOCK>
+				<KNOCKBACK>100</KNOCKBACK>
+				<CHANGEBODY>100</CHANGEBODY>
+				<KNOCKDOWN>100</KNOCKDOWN>
+				<SLEEP>100</SLEEP>
+				<AIRBIND>100</AIRBIND>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11183" toLevel="1" name="Superior Quick Recovery">
+		<!-- Glory Days confirmed -->
+		<!-- INT + 2 and Cooldown - 25% for magic skills. -->
+		<icon>icon.skill11004</icon>
+		<magicLvl>85</magicLvl>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effects>
+			<effect name="StatUp">
+				<amount>2</amount>
+				<stat>INT</stat>
+			</effect>
+			<effect name="Reuse">
+				<amount>-25</amount>
+				<mode>PER</mode>
+				<magicType>1</magicType>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11184" toLevel="1" name="Superior Arcane Lore">
+		<!-- Glory Days confirmed -->
+		<!-- INT + 2 and increases Fire/Water/Wind/Earth Resistance by 20 and M. Def. by 5%. -->
+		<icon>icon.skill10044</icon>
+		<magicLvl>85</magicLvl>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effects>
+			<effect name="MagicalDefence">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>20</amount>
+				<attribute>FIRE</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>20</amount>
+				<attribute>WATER</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>20</amount>
+				<attribute>WIND</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>20</amount>
+				<attribute>EARTH</attribute>
+			</effect>
+			<effect name="StatUp">
+				<amount>2</amount>
+				<stat>INT</stat>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11185" toLevel="10" name="Superior MP Boost">
+		<!-- Glory Days confirmed -->
+		<!-- INT + 2 and increases Max MP by 313. -->
+		<icon>icon.skill0213</icon>
+		<magicLvl>
+			<value level="1">85</value>
+			<value level="2">90</value>
+			<value level="3">95</value>
+			<value level="4">99</value>
+			<value level="5">100</value>
+			<value level="6">102</value>
+			<value level="7">104</value>
+			<value level="8">106</value>
+			<value level="9">108</value>
+			<value level="10">110</value>
+		</magicLvl>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effects>
+			<effect name="MaxMp">
+				<amount>
+					<value level="1">313</value>
+					<value level="2">374</value>
+					<value level="3">435</value>
+					<value level="4">517</value>
+					<value level="5">566</value>
+					<value level="6">635</value>
+					<value level="7">704</value>
+					<value level="8">773</value>
+					<value level="9">842</value>
+					<value level="10">911</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="StatUp">
+				<amount>2</amount>
+				<stat>INT</stat>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11186" toLevel="10" name="Superior Fast MP Recovery">
+		<!-- Glory Days confirmed -->
+		<!-- INT + 2 and increases MP Recovery Bonus by 3.6. -->
+		<icon>icon.skill0229</icon>
+		<magicLvl>
+			<value level="1">85</value>
+			<value level="2">90</value>
+			<value level="3">95</value>
+			<value level="4">99</value>
+			<value level="5">100</value>
+			<value level="6">102</value>
+			<value level="7">104</value>
+			<value level="8">106</value>
+			<value level="9">108</value>
+			<value level="10">110</value>
+		</magicLvl>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effects>
+			<effect name="MpRegen">
+				<amount>
+					<value level="1">3.6</value>
+					<value level="2">4.2</value>
+					<value level="3">4.8</value>
+					<value level="4">5.4</value>
+					<value level="5">6.2</value>
+					<value level="6">7.0</value>
+					<value level="7">7.8</value>
+					<value level="8">8.6</value>
+					<value level="9">9.4</value>
+					<value level="10">10.2</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="StatUp">
+				<amount>2</amount>
+				<stat>INT</stat>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11187" toLevel="10" name="Superior Clear Mind">
+		<!-- Glory Days confirmed -->
+		<!-- INT + 2, increases MP Recovery Bonus by 5.1 while standing and by 6.5 while walking. -->
+		<icon>icon.skill11187</icon>
+		<magicLvl>
+			<value level="1">85</value>
+			<value level="2">90</value>
+			<value level="3">95</value>
+			<value level="4">99</value>
+			<value level="5">100</value>
+			<value level="6">102</value>
+			<value level="7">104</value>
+			<value level="8">106</value>
+			<value level="9">108</value>
+			<value level="10">110</value>
+		</magicLvl>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effects>
+			<effect name="StatByMoveType">
+				<stat>REGENERATE_MP_RATE</stat>
+				<type>SITTING</type>
+				<value>
+					<value level="1">5.1</value>
+					<value level="2">5.7</value>
+					<value level="3">6.3</value>
+					<value level="4">6.9</value>
+					<value level="5">7.7</value>
+					<value level="6">8.5</value>
+					<value level="7">9.3</value>
+					<value level="8">10.1</value>
+					<value level="9">10.9</value>
+					<value level="10">11.7</value>
+				</value>
+			</effect>
+			<effect name="StatByMoveType">
+				<stat>REGENERATE_MP_RATE</stat>
+				<type>WALKING</type>
+				<value>
+					<value level="1">6.5</value>
+					<value level="2">7.1</value>
+					<value level="3">7.7</value>
+					<value level="4">8.3</value>
+					<value level="5">9.1</value>
+					<value level="6">9.9</value>
+					<value level="7">10.7</value>
+					<value level="8">11.5</value>
+					<value level="9">12.3</value>
+					<value level="10">13.1</value>
+				</value>
+			</effect>
+			<effect name="StatUp">
+				<amount>2</amount>
+				<stat>INT</stat>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11188" toLevel="5" name="Frozen">
+		<!-- Updated to IO -->
+		<!-- The cold is creeping up from your feet. -->
+		<abnormalLvl>
+			<value level="1">1</value>
+			<value level="2">2</value>
+			<value level="3">3</value>
+			<value level="4">4</value>
+			<value level="5">5</value>
+		</abnormalLvl>
+		<abnormalTime>2</abnormalTime> <!-- Guessed -->
+		<abnormalType>SPEED_DOWN</abnormalType>
+		<icon>icon.skill11017</icon>
+		<operateType>A2</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<isMagic>4</isMagic>
+		<isTriggeredSkill>true</isTriggeredSkill>
+		<isDebuff>true</isDebuff>
+		<effects>
+			<effect name="Speed">
+				<amount>
+					<value level="1">-10</value>
+					<value level="2">-20</value>
+					<value level="3">-30</value>
+					<value level="4">-40</value>
+					<value level="5">-100</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11189" toLevel="7" name="Aqua Crash">
+		<!-- Updated to IO -->
+		<!-- Inflicts damage with 193 Power to target. Applies a stacking debuff that decreases Speed. At 5 stacks target will be frozen for 2 seconds. When Double Casting is active, the debuff will not stack. Instead, there is a chance target will be frozen for 3 seconds. Over-hit. -->
+		<icon>icon.skill10879</icon>
+		<reuseDelayGroup>11177</reuseDelayGroup>
+		<attributeType>WATER</attributeType>
+		<attributeValue>20</attributeValue>
+		<magicLvl>
+			<value level="1">85</value>
+			<value level="2">90</value>
+			<value level="3">95</value>
+			<value level="4">99</value>
+			<value level="5">101</value>
+			<value level="6">103</value>
+			<value level="7">105</value>
+		</magicLvl>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<mpConsume>
+			<value level="1">37</value>
+			<value level="2">37</value>
+			<value level="3">37</value>
+			<value level="4">37</value>
+			<value level="5">39</value>
+			<value level="6">41</value>
+			<value level="7">43</value>
+		</mpConsume>
+		<castRange>1100</castRange>
+		<effectRange>1400</effectRange>
+		<hitTime>2280</hitTime>
+		<coolTime>300</coolTime>
+		<effectPoint>-687</effectPoint>
+		<isMagic>1</isMagic>
+		<effects>
+			<effect name="MagicalAttack">
+				<power>
+					<value level="1">193</value>
+					<value level="2">195</value>
+					<value level="3">197</value>
+					<value level="4">199</value>
+					<value level="5">202</value>
+					<value level="6">206</value>
+					<value level="7">210</value>
+				</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11190" toLevel="1" name="Elemental Destruction: Fire">
+		<!-- AUTO GENERATED SKILL -->
+		<!-- Fire Attribute -->
+		<icon>icon.skill11017</icon>
+		<operateType>P</operateType>
+	</skill>
+	<skill id="11191" toLevel="1" name="Elemental Destruction: Water">
+		<!-- AUTO GENERATED SKILL -->
+		<!-- Water Attribute -->
+		<icon>icon.skill11017</icon>
+		<operateType>P</operateType>
+	</skill>
+	<skill id="11192" toLevel="1" name="Elemental Destruction: Wind">
+		<!-- AUTO GENERATED SKILL -->
+		<!-- Wind Attribute -->
+		<icon>icon.skill11017</icon>
+		<operateType>P</operateType>
+	</skill>
+	<skill id="11193" toLevel="1" name="Elemental Destruction: Earth">
+		<!-- AUTO GENERATED SKILL -->
+		<!-- Earth Attribute -->
+		<icon>icon.skill11017</icon>
+		<operateType>P</operateType>
+	</skill>
+	<skill id="11194" toLevel="1" name="Elemental Destruction: Double Casting">
+		<!-- AUTO GENERATED SKILL -->
+		<!-- 4 Elements -->
+		<icon>icon.skill11017</icon>
+		<operateType>P</operateType>
+	</skill>
+	<skill id="11195" toLevel="1" name="Aqua Crash - Freeze">
+		<!-- Updated to IO -->
+		<!-- Use Aqua Crash to freeze target. -->
+		<icon>icon.skill11011</icon>
+		<magicLvl>85</magicLvl>
+		<operateType>P</operateType>
+		<castRange>0</castRange>
+		<effects>
+			<effect name="TriggerSkillBySkillAttack">
+				<attackSkillId>11177</attackSkillId> <!-- Aqua Crash -->
+				<skillId>11188</skillId> <!-- Frozen --> 
+				<skillLevel>1</skillLevel>
+				<skillLevelScaleTo>5</skillLevelScaleTo>
+				<chance>33</chance> <!-- Chance guessed -->
+			</effect>
+			<effect name="TriggerSkillBySkillAttack">
+				<attackSkillId>11189</attackSkillId> <!-- Aqua Crash -->
+				<skillId>11196</skillId> <!-- Frozen -->
+				<skillLevel>1</skillLevel>
+				<chance>33</chance> <!-- Chance guessed -->
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11196" toLevel="1" name="Frozen">
+		<!-- Updated to IO -->
+		<!-- Frozen. -->
+		<icon>icon.skill11017</icon>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>3</abnormalTime>
+		<abnormalType>FREEZING</abnormalType> <!-- Guessed -->
+		<abnormalVisualEffect>FREEZING2</abnormalVisualEffect> <!-- Guessed -->
+		<magicLvl>85</magicLvl>
+		<operateType>A2</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<isMagic>4</isMagic>
+		<isTriggeredSkill>true</isTriggeredSkill>
+		<isDebuff>true</isDebuff>
+		<effects>
+			<effect name="BlockActions" />
+		</effects>
+	</skill>
+	<skill id="11199" toLevel="1" name="Elemental Destruction: Fire">
+		<!-- AUTO GENERATED SKILL -->
+		<!-- Fire Attribute -->
+		<icon>icon.skill11017</icon>
+		<operateType>P</operateType>
+	</skill>
+</list>

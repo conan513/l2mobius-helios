@@ -1,0 +1,826 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
+	<skill id="18200" toLevel="1" name="Red Save Card (R-grade)">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18201" toLevel="1" name="Red Save Card (R95-grade)">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18202" toLevel="1" name="Red Save Card (R99-grade)">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18203" toLevel="1" name="Royal Blue Save Card (R-grade)">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18204" toLevel="1" name="Royal Blue Save Card (R95-grade)">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18205" toLevel="1" name="Royal Blue Save Card (R99-grade)">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18206" toLevel="1" name="Royal Red Save Card (R-grade)">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18207" toLevel="1" name="Royal Red Save Card (R95-grade)">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18208" toLevel="1" name="Royal Red Save Card (R99-grade)">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18209" toLevel="1" name="Dandy's Home Run Ball">
+		<!-- AUTO GENERATED SKILL -->
+		<!-- Increases XP and SP by 100% for 1 hr. The appearace of the armor will change to NC Dinos' uniform. Cannot be stacked with Fall of the Dragon. -->
+		<icon>icon.ev_dinos_baseball</icon>
+		<operateType>A2</operateType>
+		<reuseDelay>15000</reuseDelay>
+		<isMagic>4</isMagic>
+	</skill>
+	<skill id="18210" toLevel="1" name="Alien Power">
+		<!-- AUTO GENERATED SKILL -->
+		<!-- A buff that the aliens used for luck when they purchased the lottery. Rumor has it that the user might see the winning numbers in a dream, or even get an increased success rate when enchanting weapons with scrolls. Who knows if the rumors true. -->
+		<icon>Icon.ev_invasion_debuff</icon>
+		<operateType>A2</operateType>
+		<castRange>1200</castRange>
+		<reuseDelay>15000</reuseDelay>
+		<isMagic>4</isMagic>
+	</skill>
+	<skill id="18211" toLevel="1" name="Entrance Pass: Spezion (Epic)">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18212" toLevel="1" name="Entrance Pass: Baylor">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18213" toLevel="1" name="Entrance Pass: Kartia's Labyrinth Lv. 95 Party">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18214" toLevel="1" name="Transformation Potion: L2B2">
+		<!-- Transforms into the very fast L2B2 for 10 minutes. -->
+		<icon>icon.skill0000</icon>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>600</abnormalTime>
+		<abnormalType>TRANSFORM</abnormalType>
+		<operateType>A2</operateType>
+		<effectPoint>1</effectPoint>
+		<basicProperty>NONE</basicProperty>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<specialLevel>-1</specialLevel>
+		<hitCancelTime>0</hitCancelTime>
+		<irreplacableBuff>true</irreplacableBuff>
+		<isMagic>2</isMagic>
+		<hitTime>1000</hitTime>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<reuseDelayType>S</reuseDelayType>
+		<conditions>
+			<condition name="CanTransform">
+				<transformId>156</transformId>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="DispelBySlot">
+				<dispel>
+					<value level="1">CHANGEBODY,-1</value>
+					<value level="2">TURN_STONE,-1</value>
+					<value level="3">BUFF_SPECIAL_MULTI,-1</value>
+				</dispel>
+			</effect>
+			<effect name="Transformation">
+				<transformationId>156</transformationId>
+			</effect>
+			<effect name="TargetCancel">
+				<chance>100</chance>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18215" toLevel="1" name="Alien's Nano Cannister">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18216" toLevel="1" name="Appearance Stone: Formal Wear (30-day)">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18217" toLevel="5" name="Flame Spear">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<mpConsume>10</mpConsume>
+		<castRange>40</castRange>
+		<hitTime>800</hitTime>
+		<coolTime>300</coolTime>
+		<effectPoint>
+			<value level="1">-100</value>
+			<value level="2">-105</value>
+			<value level="3">-110</value>
+			<value level="4">-115</value>
+			<value level="5">-115</value>
+		</effectPoint>
+		<isMagic>1</isMagic>
+	</skill>
+	<skill id="18218" toLevel="5" name="Fire Stigma">
+		<!-- AUTO GENERATED SKILL -->
+		<!-- A stigma placed on those who are a threat to the Blazing Swamp. An unexpected incident might occur while fighting in the Blazing Swamp. -->
+		<icon>icon.etc_fire_rune_i00</icon>
+		<operateType>A2</operateType>
+		<mpConsume>10</mpConsume>
+		<castRange>900</castRange>
+		<hitTime>1500</hitTime>
+		<reuseDelay>5000</reuseDelay>
+		<isMagic>1</isMagic>
+		<effectPoint>-500</effectPoint>
+		<isDebuff>true</isDebuff>
+	</skill>
+	<skill id="18219" toLevel="1" name="Defense Decrease">
+		<!-- AUTO GENERATED SKILL -->
+		<!-- The blazing energy weakens and reduces P./M. Def. by 20% -->
+		<icon>icon.skill0122</icon>
+		<operateType>A2</operateType>
+		<mpConsume>10</mpConsume>
+		<coolTime>500</coolTime>
+		<reuseDelay>3000</reuseDelay>
+		<isMagic>1</isMagic>
+		<effectPoint>-100</effectPoint>
+		<isDebuff>true</isDebuff>
+	</skill>
+	<skill id="18220" toLevel="1" name="Scroll of Escape: Blazing Swamp">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<hitTime>1000</hitTime>
+	</skill>
+	<skill id="18221" toLevel="1" name="Invincibility">
+		<!-- AUTO GENERATED SKILL -->
+		<!-- Invincible state. -->
+		<icon>icon.skill1418</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="18222" toLevel="1" name="Extra Pass - Nightmare Kamaloka">
+		<icon>icon.skill0000</icon>
+		<isMagic>2</isMagic> <!-- Static Skill -->
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>45463</itemConsumeId> <!-- Entrance Pass: Nightmare Kamaloka -->
+		<magicLvl>1</magicLvl>
+		<operateType>A1</operateType>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<hitCancelTime>0</hitCancelTime>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<effects>
+			<effect name="ResetInstanceEntry">
+				<instanceId>258</instanceId>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18223" toLevel="1" name="Kokko's Love">
+		<!-- AUTO GENERATED SKILL -->
+		<!-- For 30 min., Attack Attribute +100, P. Atk. +20%, M. Atk. +30%, Atk./Casting Spd. +10%, P./M. Accuracy +4, Speed +10, Max HP/MP/CP +10%, P./M. Def. +10%, and Skill MP Consumption -10%. Cannot be stacked with Art of Seduction. Buff remains after death. -->
+		<icon>icon.event_altair_enchant_scroll_i00</icon>
+		<operateType>A2</operateType>
+		<reuseDelay>5000</reuseDelay>
+		<effectPoint>1</effectPoint>
+		<isMagic>4</isMagic>
+	</skill>
+	<skill id="18224" toLevel="1" name="Appearance Stone: Zorro Hat (90-day)">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18225" toLevel="1" name="Appearance Stone: Top Hat (90-day)">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18226" toLevel="1" name="Appearance Stone: Napoleon Hat (90-day)">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18227" toLevel="1" name="Appearance Stone: Ruthless Tribe Mask (90-day)">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18228" toLevel="1" name="Cool Hat Pack">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18229" toLevel="1" name="Appearance Stone: Zorro Hat (1-day)">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18230" toLevel="1" name="Appearance Stone: Top Hat (1-day)">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18231" toLevel="1" name="Appearance Stone: Napoleon Hat (1-day)">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18232" toLevel="1" name="Appearance Stone: Ruthless Tribe Mask (1-day)">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18233" toLevel="1" name="Harp's Reward Box">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18234" toLevel="1" name="Damaged PK Pack">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18235" toLevel="1" name="Intact PK Pack">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18236" toLevel="1" name="Damaged Reputation Pack">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18237" toLevel="1" name="Intact Reputation Pack">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18238" toLevel="1" name="Damaged Elcyum Pack">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18239" toLevel="1" name="Intact Elcyum Pack">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18240" toLevel="1" name="Flash Grenade">
+		<!-- AUTO GENERATED SKILL -->
+		<!-- Throws a flare that will identify traps and targets who are hiding. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<hitTime>1200</hitTime>
+		<coolTime>300</coolTime>
+		<reuseDelay>5000</reuseDelay>
+	</skill>
+	<skill id="18241" toLevel="1" name="Mackerel">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18242" toLevel="1" name="Minnow">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18243" toLevel="1" name="Flatfish">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18244" toLevel="1" name="Mandarin Fish">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18245" toLevel="1" name="Rockfish">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18246" toLevel="1" name="Goldfish">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18247" toLevel="1" name="Salmon">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18248" toLevel="1" name="Eel">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18249" toLevel="1" name="Fresh Marlin">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18250" toLevel="1" name="Fresh Catfish">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18251" toLevel="1" name="Fresh Tuna">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18252" toLevel="1" name="Fresh Carp">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18253" toLevel="1" name="Whale">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18254" toLevel="1" name="Wooden Treasure Chest">
+		<icon>icon.skill18254</icon>
+		<itemConsumeId>45486</itemConsumeId>
+		<itemConsumeCount>1</itemConsumeCount>
+		<operateType>A1</operateType>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<hitCancelTime>0</hitCancelTime>
+		<magicLvl>1</magicLvl>
+		<isMagic>2</isMagic>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<effects>
+			<effect name="RestorationRandom">
+				<items>
+					<item chance="95">
+						<item id="45575" count="1" /> <!-- Special Bait Pack -->
+					</item>
+					<item chance="5">
+						<item id="45576" count="1" /> <!-- SP Scroll Pack -->
+					</item>
+				</items>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18255" toLevel="1" name="Silver Treasure Chest">
+		<icon>icon.skill18255</icon>
+		<itemConsumeId>45487</itemConsumeId>
+		<itemConsumeCount>1</itemConsumeCount>
+		<operateType>A1</operateType>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<hitCancelTime>0</hitCancelTime>
+		<magicLvl>1</magicLvl>
+		<isMagic>2</isMagic>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<effects>
+			<effect name="RestorationRandom">
+				<items>
+					<item chance="5">
+						<item id="45572" count="1" /> <!-- Zodiac Agathion Pack (15-day) -->
+					</item>
+					<item chance="70">
+						<item id="45576" count="1" /> <!-- SP Scroll Pack -->
+					</item>
+					<item chance="1">
+						<item id="45494" count="1" /> <!-- Sturdy Fishing Rod -->
+					</item>
+					<item chance="24">
+						<item id="8034" count="1" /> <!-- Rainbow Springs Clan Hall War Decree -->
+					</item>
+				</items>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18256" toLevel="1" name="Golden Treasure Chest">
+		<icon>icon.skill18256</icon>
+		<itemConsumeId>45488</itemConsumeId>
+		<itemConsumeCount>1</itemConsumeCount>
+		<operateType>A1</operateType>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<hitCancelTime>0</hitCancelTime>
+		<magicLvl>1</magicLvl>
+		<isMagic>2</isMagic>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<effects>
+			<effect name="RestorationRandom">
+				<items>
+					<item chance="80">
+						<item id="45574" count="1" /> <!-- Shining Star Agathion Pack (30 day) -->
+					</item>
+					<item chance="20">
+						<item id="45573" count="1" /> <!-- Brilliant Star Agathion Pack (30 day) -->
+					</item>
+				</items>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18257" toLevel="1" name="Zodiac Agathion Pack (15-day)">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18258" toLevel="1" name="Radiant Zodiac Agathion Pack (30-day">
+		<icon>icon.skill0000</icon>
+		<itemConsumeId>45573</itemConsumeId>
+		<itemConsumeCount>1</itemConsumeCount>
+		<operateType>A1</operateType>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<hitCancelTime>0</hitCancelTime>
+		<magicLvl>1</magicLvl>
+		<isMagic>2</isMagic>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<effects>
+			<effect name="RestorationRandom">
+				<items>
+					<item chance="8.333">
+						<item id="45537" count="1" /> <!-- Agathion's Chest: The Blazing Virgin (30 day) -->
+					</item>
+					<item chance="8.333">
+						<item id="45555" count="1" /> <!-- Agathion's Chest: Twinkling Twins (30 day) -->
+					</item>
+					<item chance="8.333">
+						<item id="45543" count="1" /> <!-- Agathion's Chest: Sparkling Libra (30 day) -->
+					</item>
+					<item chance="8.333">
+						<item id="45564" count="1" /> <!-- Chest of Agathion: Shining Fishes (30 day) -->
+					</item>
+					<item chance="8.333">
+						<item id="45561" count="1" /> <!-- Chest of Agathion: Shining Aquarius (30 day) -->
+					</item>
+					<item chance="8.333">
+						<item id="45540" count="1" /> <!-- Agathion's Chest: Sparkling Capricorn (30 day) -->
+					</item>
+					<item chance="8.333">
+						<item id="45552" count="1" /> <!-- Agathion's Chest: Sparkling Lion (30 day) -->
+					</item>
+					<item chance="8.333">
+						<item id="45546" count="1" /> <!-- Agathion's Chest: Sparkling Aries (30 day) -->
+					</item>
+					<item chance="8.333">
+						<item id="45570" count="1" /> <!-- Agathion's Chest: Shining Cancer (30 day) -->
+					</item>
+					<item chance="8.333">
+						<item id="45558" count="1" /> <!-- Agathion's Chest: Sparkling Scorpion (30 day) -->
+					</item>
+					<item chance="8.333">
+						<item id="45567" count="1" /> <!-- Chest of Agathion: Shining Sagittarius (30 day) -->
+					</item>
+					<item chance="8.333">
+						<item id="45549" count="1" /> <!-- Chest of Agathion: Shining Taurus (30 day) -->
+					</item>
+				</items>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18259" toLevel="1" name="Twinkling Zodiac Agathion Pack (30-day)">
+		<icon>icon.skill0000</icon>
+		<itemConsumeId>45574</itemConsumeId>
+		<itemConsumeCount>1</itemConsumeCount>
+		<operateType>A1</operateType>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<hitCancelTime>0</hitCancelTime>
+		<magicLvl>1</magicLvl>
+		<isMagic>2</isMagic>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<effects>
+			<effect name="RestorationRandom">
+				<items>
+					<item chance="8.333">
+						<item id="45536" count="1" /> <!-- Chest of Agathion: Shining Virgin (30 day) -->
+					</item>
+					<item chance="8.333">
+						<item id="45554" count="1" /> <!-- Chest of Agathion: Shining Gemini (30 day) -->
+					</item>
+					<item chance="8.333">
+						<item id="45542" count="1" /> <!-- Agathion's Chest: Radiant Libra (30 day) -->
+					</item>
+					<item chance="8.333">
+						<item id="45563" count="1" /> <!-- Chest of Agathion: Shining Pisces (30 day) -->
+					</item>
+					<item chance="8.333">
+						<item id="45560" count="1" /> <!-- Agathion's Chest: Radiant Aquarius (30 day) -->
+					</item>
+					<item chance="8.333">
+						<item id="45539" count="1" /> <!-- Agathion's Chest: Radiant Capricorn (30 day) -->
+					</item>
+					<item chance="8.333">
+						<item id="45551" count="1" /> <!-- Agathion's Chest: Radiant Lion (30 day) -->
+					</item>
+					<item chance="8.333">
+						<item id="45545" count="1" /> <!-- Chest of Agathion: Shining Aries (30 day) -->
+					</item>
+					<item chance="8.333">
+						<item id="45569" count="1" /> <!-- Agathion's Chest: Shining Cancer (30 day) -->
+					</item>
+					<item chance="8.333">
+						<item id="45557" count="1" /> <!-- Chest of Agathion: Shining Scorpio (30 day) -->
+					</item>
+					<item chance="8.333">
+						<item id="45566" count="1" /> <!-- Chest of Agathion: Shining Sagittarius (30 day) -->
+					</item>
+					<item chance="8.333">
+						<item id="45548" count="1" /> <!-- Chest of Agathion: Shining Taurus (30 day) -->
+					</item>
+				</items>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18260" toLevel="1" name="Special Bait Pack">
+		<icon>icon.skill0000</icon>
+		<itemConsumeId>45575</itemConsumeId>
+		<itemConsumeCount>1</itemConsumeCount>
+		<operateType>A1</operateType>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<hitCancelTime>0</hitCancelTime>
+		<magicLvl>1</magicLvl>
+		<isMagic>2</isMagic>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<effects>
+			<effect name="RestorationRandom">
+				<items>
+					<item chance="80">
+						<item id="45496" count="1" /> <!-- Special Bait -->
+					</item>
+				</items>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18261" toLevel="1" name="SP Scroll Pack">
+		<icon>icon.skill0000</icon>
+		<itemConsumeId>45576</itemConsumeId>
+		<itemConsumeCount>1</itemConsumeCount>
+		<operateType>A1</operateType>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<hitCancelTime>0</hitCancelTime>
+		<magicLvl>1</magicLvl>
+		<isMagic>2</isMagic>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<effects>
+			<effect name="RestorationRandom">
+				<items>
+					<item chance="10">
+						<item id="30275" count="1" /> <!-- SP scroll 1.000.000 -->
+					</item>
+					<item chance="30">
+						<item id="17185" count="1" /> <!-- SP Scroll 10.000 -->
+					</item>
+					<item chance="60">
+						<item id="17277" count="1" /> <!-- SP Scroll 100.000 -->
+					</item>
+				</items>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18262" toLevel="1" name="Zodiac Agathion Pack (15-day)">
+		<icon>icon.skill0000</icon>
+		<itemConsumeId>45577</itemConsumeId>
+		<itemConsumeCount>1</itemConsumeCount>
+		<operateType>A1</operateType>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<hitCancelTime>0</hitCancelTime>
+		<magicLvl>1</magicLvl>
+		<isMagic>2</isMagic>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<effects>
+			<effect name="RestorationRandom">
+				<items>
+					<item chance="8.333">
+						<item id="45556" count="1" /> <!-- Chest of Agathion: Gemini (15 day) -->
+					</item>
+					<item chance="8.333">
+						<item id="45544" count="1" /> <!-- Chest of Agathion: Libra (15 day) -->
+					</item>
+					<item chance="8.333">
+						<item id="45562" count="1" /> <!-- Chest of Agathion: Aquarius (15 day) -->
+					</item>
+					<item chance="8.333">
+						<item id="45538" count="1" /> <!-- Chest of Agathion: Virgo (15 day) -->
+					</item>
+					<item chance="8.333">
+						<item id="45541" count="1" /> <!-- Chest of Agathion: Capricorn (15 day) -->
+					</item>
+					<item chance="8.333">
+						<item id="45553" count="1" /> <!-- Agathion's Chest: Leo (15 day) -->
+					</item>
+					<item chance="8.333">
+						<item id="45547" count="1" /> <!-- Chest of Agathion: Aries (15 day) -->
+					</item>
+					<item chance="8.333">
+						<item id="45571" count="1" /> <!-- Chest of Agathion: Cancer (15 day) -->
+					</item>
+					<item chance="8.333">
+						<item id="45565" count="1" /> <!-- Chest of Agathion: Pisces (15 day) -->
+					</item>
+					<item chance="8.333">
+						<item id="45559" count="1" /> <!-- Chest of Agathion: Scorpio (15 day) -->
+					</item>
+					<item chance="8.333">
+						<item id="45568" count="1" /> <!-- Chest of Agathion: Sagittarius (30 day) -->
+					</item>
+					<item chance="8.333">
+						<item id="45550" count="1" /> <!-- Chest of Agathion: Taurus (30 day) -->
+					</item>
+				</items>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18263" toLevel="1" name="Rodemai's Rune">
+		<!-- AUTO GENERATED SKILL -->
+		<!-- When placed in the inventory, acquired XP/SP through hunting increases by 7%. -->
+		<icon>icon.skill19226</icon>
+		<operateType>P</operateType>
+	</skill>
+	<skill id="18264" toLevel="1" name="Red Devils' Fighting Spirit">
+		<!-- AUTO GENERATED SKILL -->
+		<!-- Speed increases by 16 and XP/SP increase by 16% for 90 minutes. -->
+		<icon>branchsys2.br_soccer_ball_i00</icon>
+		<operateType>A2</operateType>
+		<castRange>1200</castRange>
+		<reuseDelay>15000</reuseDelay>
+		<isMagic>4</isMagic>
+	</skill>
+	<skill id="18265" toLevel="5" name="Pippi's Love">
+		<!-- AUTO GENERATED SKILL -->
+		<!-- Buff filled with Pippi's love. Acquired XP/SP through hunting increases by 5% for 30 minutes. Once the effect wears off, receive Pippi's Fortune Pocket - Stage 1. (Note:) Cannot receive item if you are dead or don't have space in your inventory. Deleted when changing main/dual/sub classes. -->
+		<icon>icon.love_mark</icon>
+		<operateType>A2</operateType>
+		<castRange>900</castRange>
+		<hitTime>3000</hitTime>
+		<effectPoint>1</effectPoint>
+		<abnormalTime>
+			<value level="1">1800</value>
+			<value level="2">1800</value>
+			<value level="3">1800</value>
+			<value level="4">1800</value>
+			<value level="5">3600</value>
+		</abnormalTime>
+		<isMagic>4</isMagic>
+	</skill>
+	<skill id="18266" toLevel="1" name="Spellbook: Fate of the Exalted">
+		<hitTime>3000</hitTime>
+		<isMagic>2</isMagic> <!-- Static Skill -->
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>46036</itemConsumeId> <!-- Spellbook: Fate of the Exalted -->
+		<magicLvl>1</magicLvl>
+		<operateType>A1</operateType>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<conditions>
+			<condition name="CheckLevel">
+				<minLevel>99</minLevel>
+				<maxLevel>105</maxLevel>
+				<affectType>CASTER</affectType>
+			</condition>
+			<condition name="OpSkill">
+				<skillId>19229</skillId>
+				<skillLevel>1</skillLevel>
+				<hasLearned>false</hasLearned>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="SetSkill">
+				<skillId>19229</skillId>
+				<skillLvl>1</skillLvl>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18270" toLevel="1" name="Apocalypse Shaper Focus">
+		<!-- AUTO GENERATED SKILL -->
+		<!-- Creates a + 4/6/9/11 enchanted Apocalypse Shaper Focus. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<hitTime>1500</hitTime>
+	</skill>
+	<skill id="18271" toLevel="1" name="Apocalypse Cutter Focus">
+		<!-- AUTO GENERATED SKILL -->
+		<!-- Creates a + 4/6/9/11 enchanted Apocalypse Cutter Focus. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<hitTime>1500</hitTime>
+	</skill>
+	<skill id="18272" toLevel="1" name="Apocalypse Slasher Focus">
+		<!-- AUTO GENERATED SKILL -->
+		<!-- Creates a + 4/6/9/11 enchanted Apocalypse Slasher Focus. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<hitTime>1500</hitTime>
+	</skill>
+	<skill id="18273" toLevel="1" name="Apocalypse Avenger Focus">
+		<!-- AUTO GENERATED SKILL -->
+		<!-- Creates a + 4/6/9/11 enchanted Apocalypse Avenger Focus. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<hitTime>1500</hitTime>
+	</skill>
+	<skill id="18274" toLevel="1" name="Apocalypse Fighter Focus">
+		<!-- AUTO GENERATED SKILL -->
+		<!-- Creates a + 4/6/9/11 enchanted Apocalypse Fighter Focus. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<hitTime>1500</hitTime>
+	</skill>
+	<skill id="18275" toLevel="1" name="Apocalypse Stormer Damage Up">
+		<!-- AUTO GENERATED SKILL -->
+		<!-- Creates a + 4/6/9/11 enchanted Apocalypse Stormer Damage Up. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<hitTime>1500</hitTime>
+	</skill>
+	<skill id="18276" toLevel="1" name="Apocalypse Thrower Focus">
+		<!-- AUTO GENERATED SKILL -->
+		<!-- Creates a + 4/6/9/11 enchanted Apocalypse Thrower Focus. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<hitTime>1500</hitTime>
+	</skill>
+	<skill id="18277" toLevel="1" name="Apocalypse Shooter Focus">
+		<!-- AUTO GENERATED SKILL -->
+		<!-- Creates a + 4/6/9/11 enchanted Apocalypse Shooter Focus. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<hitTime>1500</hitTime>
+	</skill>
+	<skill id="18278" toLevel="1" name="Apocalypse Buster Acumen">
+		<!-- AUTO GENERATED SKILL -->
+		<!-- Creates a + 4/6/9/11 enchanted Apocalypse Buster Acumen. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<hitTime>1500</hitTime>
+	</skill>
+	<skill id="18279" toLevel="1" name="Apocalypse Caster Acumen">
+		<!-- AUTO GENERATED SKILL -->
+		<!-- Creates a + 4/6/9/11 enchanted Apocalypse Caster Acumen. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<hitTime>1500</hitTime>
+	</skill>
+	<skill id="18280" toLevel="1" name="Apocalypse Retributer Acumen">
+		<!-- AUTO GENERATED SKILL -->
+		<!-- Creates a + 4/6/9/11 enchanted Apocalypse Retributer Acumen. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<hitTime>1500</hitTime>
+	</skill>
+	<skill id="18281" toLevel="1" name="Apocalypse Dualsword Damage Up">
+		<!-- AUTO GENERATED SKILL -->
+		<!-- Creates a + 4/6/9/11 enchanted Apocalypse Dualsword Damage Up. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<hitTime>1500</hitTime>
+	</skill>
+	<skill id="18282" toLevel="1" name="Apocalypse Dual Dagger Focus">
+		<!-- AUTO GENERATED SKILL -->
+		<!-- Creates a + 4/6/9/11 enchanted Apocalypse Dual Dagger Focus. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<hitTime>1500</hitTime>
+	</skill>
+	<skill id="18283" toLevel="1" name="Apocalypse Dual Blunt Weapon Damage Up">
+		<!-- AUTO GENERATED SKILL -->
+		<!-- Creates a + 4/6/9/11 enchanted Apocalypse Dual Blunt Weapon Damage Up. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<hitTime>1500</hitTime>
+	</skill>
+</list>

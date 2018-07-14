@@ -1,0 +1,51 @@
+2018.07.13 08:33:37,039	INFO	1	com.l2jmobius.commons.util.IXmlReader	Network Config: ipconfig.xml doesn't exists using automatic configuration...
+2018.07.13 08:33:37,426	INFO	1	com.l2jmobius.commons.util.IXmlReader	Network Config: Adding new subnet: 127.0.0.0/8 address: 127.0.0.1
+2018.07.13 08:33:37,452	INFO	1	com.l2jmobius.commons.util.IXmlReader	Network Config: Adding new subnet: 192.168.0.0/24 address: 192.168.0.106
+2018.07.13 08:33:37,479	INFO	1	com.l2jmobius.commons.util.IXmlReader	Network Config: Adding new subnet: 0.0.0.0/0 address: 95.168.67.87
+2018.07.13 08:33:37,497	INFO	1	com.l2jmobius.Config	Loaded 6 Filter Words.
+2018.07.13 08:33:37,507	INFO	1	com.l2jmobius.gameserver.GameServer	------------------------------------------------=[ Database ]
+2018.07.13 08:33:37,911	INFO	1	com.l2jmobius.commons.database.DatabaseFactory	Database: Initialized.
+2018.07.13 08:33:37,912	INFO	1	com.l2jmobius.gameserver.GameServer	----------------------------------------------=[ ThreadPool ]
+2018.07.13 08:33:37,946	INFO	1	com.l2jmobius.commons.concurrent.ThreadPool	ThreadPool: Initialized
+2018.07.13 08:33:37,946	INFO	1	com.l2jmobius.commons.concurrent.ThreadPool	...8 scheduled pool executors with 320 total threads.
+2018.07.13 08:33:37,946	INFO	1	com.l2jmobius.commons.concurrent.ThreadPool	...8 instant pool executors with 160 total threads.
+2018.07.13 08:33:37,946	INFO	1	com.l2jmobius.gameserver.GameServer	-----------------------------------------------=[ IdFactory ]
+2018.07.13 08:33:37,949	INFO	1	com.l2jmobius.gameserver.idfactory.BitSetIDFactory	Updated characters online status.
+2018.07.13 08:33:37,975	INFO	1	com.l2jmobius.gameserver.idfactory.BitSetIDFactory	Cleaned 0 elements from database in 0 s
+2018.07.13 08:33:37,977	INFO	1	com.l2jmobius.gameserver.idfactory.BitSetIDFactory	Cleaned 0 expired timestamps from database.
+2018.07.13 08:33:37,977	INFO	1	com.l2jmobius.gameserver.idfactory.BitSetIDFactory	BitSetIDFactory: 102912 id's available.
+2018.07.13 08:33:37,977	INFO	1	com.l2jmobius.gameserver.GameServer	---------------------------------------=[ Scripting Engines ]
+2018.07.13 08:33:37,988	INFO	1	com.l2jmobius.gameserver.scripting.ScriptEngineManager	ScriptEngine: L2J Java Engine 1.0 (Java [0, 1, 2, 3, 4, 5, 6])
+2018.07.13 08:33:38,184	INFO	1	com.l2jmobius.gameserver.scripting.ScriptEngineManager	Loaded 9 files to exclude.
+2018.07.13 08:33:38,184	INFO	1	com.l2jmobius.gameserver.GameServer	--------------------------------------------------=[ Telnet ]
+2018.07.13 08:33:38,223	INFO	1	com.l2jmobius.gameserver.network.telnet.TelnetServer	Telnet server is currently disabled.
+2018.07.13 08:33:38,223	INFO	1	com.l2jmobius.gameserver.GameServer	---------------------------------------------------=[ World ]
+2018.07.13 08:33:38,224	INFO	507	com.l2jmobius.gameserver.GameTimeController	GameTimeController: Started.
+2018.07.13 08:33:38,493	INFO	1	com.l2jmobius.gameserver.model.L2World	L2World: (288 by 272 by 32) World Region Grid set up.
+2018.07.13 08:33:38,619	INFO	1	com.l2jmobius.gameserver.instancemanager.MapRegionManager	MapRegionManager: Loaded 59 map regions.
+2018.07.13 08:33:38,621	INFO	1	com.l2jmobius.gameserver.instancemanager.ZoneManager	ZoneManager 19 by 18 Zone Region Grid set up.
+2018.07.13 08:33:39,025	INFO	1	com.l2jmobius.gameserver.instancemanager.ZoneManager	ZoneManager: Loaded 27 zone classes and 2819 zones.
+2018.07.13 08:33:39,026	INFO	1	com.l2jmobius.gameserver.instancemanager.ZoneManager	ZoneManager: Loaded 16 NPC spawn territoriers.
+2018.07.13 08:33:39,028	INFO	1	com.l2jmobius.gameserver.instancemanager.ZoneManager	ZoneManager: Last static id: 210109
+2018.07.13 08:33:39,291	INFO	1	com.l2jmobius.gameserver.data.xml.impl.DoorData	DoorData: Loaded 1512 Door Templates for 24 regions.
+2018.07.13 08:33:39,296	INFO	1	FenceData	Loaded 1 Fences.
+2018.07.13 08:33:39,301	INFO	1	com.l2jmobius.gameserver.instancemanager.GlobalVariablesManager	GlobalVariablesManager: Loaded 0 variables.
+2018.07.13 08:33:39,301	INFO	1	com.l2jmobius.gameserver.GameServer	----------------------------------------------------=[ Data ]
+2018.07.13 08:33:39,306	INFO	1	com.l2jmobius.gameserver.data.xml.impl.ActionData	ActionData: Loaded 215 player actions.
+2018.07.13 08:33:39,322	INFO	1	com.l2jmobius.gameserver.data.xml.impl.CategoryData	CategoryData: Loaded 215 Categories.
+2018.07.13 08:33:39,326	INFO	1	com.l2jmobius.gameserver.data.xml.impl.SecondaryAuthData	SecondaryAuthData: Loaded 328 forbidden passwords.
+2018.07.13 08:33:39,329	INFO	1	com.l2jmobius.gameserver.data.xml.impl.AbilityPointsData	AbilityPointsData: Loaded 4 range fees.
+2018.07.13 08:33:41,444	INFO	1	com.l2jmobius.gameserver.datatables.ItemTable	ItemTable: Highest item id used: 49798
+2018.07.13 08:33:41,447	INFO	1	com.l2jmobius.gameserver.datatables.ItemTable	ItemTable: Loaded: 20834 Etc Items
+2018.07.13 08:33:41,447	INFO	1	com.l2jmobius.gameserver.datatables.ItemTable	ItemTable: Loaded: 11140 Armor Items
+2018.07.13 08:33:41,447	INFO	1	com.l2jmobius.gameserver.datatables.ItemTable	ItemTable: Loaded: 8628 Weapon Items
+2018.07.13 08:33:41,447	INFO	1	com.l2jmobius.gameserver.datatables.ItemTable	ItemTable: Loaded: 40602 Items in total.
+2018.07.13 08:33:41,450	INFO	1	com.l2jmobius.gameserver.data.xml.impl.CombinationItemsData	CombinationItemsData: Loaded 830 combinations.
+2018.07.13 08:33:41,456	INFO	1	com.l2jmobius.gameserver.data.xml.impl.SayuneData	SayuneData: Loaded: 40 maps.
+2018.07.13 08:33:41,467	INFO	1	com.l2jmobius.gameserver.data.xml.impl.ClanRewardData	ClanRewardData: Loaded: 4 rewards for MEMBERS_ONLINE
+2018.07.13 08:33:41,467	INFO	1	com.l2jmobius.gameserver.data.xml.impl.ClanRewardData	ClanRewardData: Loaded: 4 rewards for HUNTING_MONSTERS
+2018.07.13 08:33:41,908	INFO	1	handlers.DailyMissionMasterHandler	DailyMissionMasterHandler:  Loaded 7 handlers.
+2018.07.13 08:33:41,924	INFO	1	com.l2jmobius.gameserver.data.xml.impl.DailyMissionData	DailyMissionData: Loaded 59 one day rewards.
+2018.07.13 08:33:41,924	INFO	1	com.l2jmobius.gameserver.GameServer	--------------------------------------------------=[ Skills ]
+2018.07.13 08:33:43,550	INFO	1	handlers.EffectMasterHandler	EffectMasterHandler: Loaded 331 effect handlers.
+2018.07.13 08:33:43,558	INFO	1	com.l2jmobius.gameserver.data.xml.impl.EnchantSkillGroupsData	EnchantSkillGroupsData: Loaded 30 enchant routes, max enchant set to 30.

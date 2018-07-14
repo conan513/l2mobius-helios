@@ -1,0 +1,911 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
+	<skill id="27400" toLevel="1" name="Tribal Warrior Hair Accessory Appearance Stone">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27401" toLevel="1" name="Tribal Warrior Top Appearance Stone">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27402" toLevel="1" name="Tribal Warrior Pants Appearance Stone">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27403" toLevel="1" name="Tribal Warrior Gloves Appearance Stone">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27404" toLevel="1" name="Tribal Warrior Shoes Appearance Stone">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27405" toLevel="1" name="Military Hair Accessory Appearance Stone">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27406" toLevel="1" name="Military Top Appearance Stone">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27407" toLevel="1" name="Military Pants Appearance Stone">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27408" toLevel="1" name="Military Gloves Appearance Stone">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27409" toLevel="1" name="Military Shoes Appearance Stone">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27410" toLevel="1" name="Samurai Hair Accessory Appearance Stone">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27411" toLevel="1" name="Samurai Outfit Appearance Stone">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27412" toLevel="1" name="Vampire Top Appearance Stone">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27413" toLevel="1" name="Vampire Pants Appearance Stone">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27414" toLevel="1" name="Vampire Gloves Appearance Stone">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27415" toLevel="1" name="Vampire Shoes Appearance Stone">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27416" toLevel="1" name="Vampire Hair Accessory Appearance Stone">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27417" toLevel="1" name="Anakim Outfit Appearance Stone">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27418" toLevel="1" name="Mysterious Quick Healing Potion">
+		<!-- AUTO GENERATED SKILL -->
+		<!-- Greatly increases HP Recovery Bonus. Effect 20. -->
+		<icon>icon.etc_reagent_white_i00</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="27419" toLevel="1" name="Transform Rose (Male)">
+		<!-- AUTO GENERATED SKILL -->
+		<!-- For 30 min., transform into Rose (Male) -->
+		<icon>icon.skilltransform3</icon>
+		<operateType>A2</operateType>
+		<effectPoint>1</effectPoint>
+		<isMagic>1</isMagic>
+	</skill>
+	<skill id="27420" toLevel="1" name="Transform Rose (Female)">
+		<!-- AUTO GENERATED SKILL -->
+		<!-- For 30 min., transform into Rose (Female) -->
+		<icon>icon.skilltransform3</icon>
+		<operateType>A2</operateType>
+		<effectPoint>1</effectPoint>
+		<isMagic>1</isMagic>
+	</skill>
+	<skill id="27421" toLevel="1" name="Alien's Ingredient Box">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27422" toLevel="1" name="XP Rune (Dragon's Ascension)">
+		<!-- Increases XP/SP by 100%. (Lv. 99 or below) -->
+		<icon>br_cashtex.item.br_cash_rune_of_feather_i00</icon>
+		<operateType>P</operateType>
+		<passiveConditions>
+			<condition name="CheckLevel">
+				<minLevel>1</minLevel>
+				<maxLevel>99</maxLevel>
+				<affectType>CASTER</affectType>
+			</condition>
+		</passiveConditions>
+		<effects>
+			<effect name="ExpModify">
+				<amount>100</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="SpModify">
+				<amount>100</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="27423" toLevel="1" name="Luck Box 1">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27424" toLevel="1" name="Luck Box 2">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27425" toLevel="1" name="Luck Box 3">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27426" toLevel="1" name="Shadow Shaper Box">
+		<icon>icon.skill27426</icon>
+		<isMagic>2</isMagic> <!-- Static Skill -->
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>26437</itemConsumeId>
+		<magicLvl>1</magicLvl>
+		<operateType>A1</operateType>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<hitCancelTime>0</hitCancelTime>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<conditions>
+			<condition name="OpEncumbered">
+				<weightPercent>20</weightPercent>
+				<slotsPercent>10</slotsPercent>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="RestorationRandom">
+				<items>
+					<item chance="100">
+						<item id="46317" count="1" minEnchant="1" maxEnchant="9" />
+					</item>
+				</items>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="27427" toLevel="1" name="Shadow Cutter Box">
+		<icon>icon.skill27427</icon>
+		<isMagic>2</isMagic> <!-- Static Skill -->
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>26438</itemConsumeId>
+		<magicLvl>1</magicLvl>
+		<operateType>A1</operateType>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<hitCancelTime>0</hitCancelTime>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<conditions>
+			<condition name="OpEncumbered">
+				<weightPercent>20</weightPercent>
+				<slotsPercent>10</slotsPercent>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="RestorationRandom">
+				<items>
+					<item chance="100">
+						<item id="46318" count="1" minEnchant="1" maxEnchant="9" />
+					</item>
+				</items>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="27428" toLevel="1" name="Shadow Slasher Box">
+		<icon>icon.skill27428</icon>
+		<isMagic>2</isMagic> <!-- Static Skill -->
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>26439</itemConsumeId>
+		<magicLvl>1</magicLvl>
+		<operateType>A1</operateType>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<hitCancelTime>0</hitCancelTime>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<conditions>
+			<condition name="OpEncumbered">
+				<weightPercent>20</weightPercent>
+				<slotsPercent>10</slotsPercent>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="RestorationRandom">
+				<items>
+					<item chance="100">
+						<item id="46319" count="1" minEnchant="1" maxEnchant="9" />
+					</item>
+				</items>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="27429" toLevel="1" name="Shadow Fighter Box">
+		<icon>icon.skill27429</icon>
+		<isMagic>2</isMagic> <!-- Static Skill -->
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>26440</itemConsumeId>
+		<magicLvl>1</magicLvl>
+		<operateType>A1</operateType>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<hitCancelTime>0</hitCancelTime>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<conditions>
+			<condition name="OpEncumbered">
+				<weightPercent>20</weightPercent>
+				<slotsPercent>10</slotsPercent>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="RestorationRandom">
+				<items>
+					<item chance="100">
+						<item id="46320" count="1" minEnchant="1" maxEnchant="9" />
+					</item>
+				</items>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="27430" toLevel="1" name="Shadow Stormer Box">
+		<icon>icon.skill27430</icon>
+		<isMagic>2</isMagic> <!-- Static Skill -->
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>26441</itemConsumeId>
+		<magicLvl>1</magicLvl>
+		<operateType>A1</operateType>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<hitCancelTime>0</hitCancelTime>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<conditions>
+			<condition name="OpEncumbered">
+				<weightPercent>20</weightPercent>
+				<slotsPercent>10</slotsPercent>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="RestorationRandom">
+				<items>
+					<item chance="100">
+						<item id="46321" count="1" minEnchant="1" maxEnchant="9" />
+					</item>
+				</items>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="27431" toLevel="1" name="Shadow Thrower Box">
+		<icon>icon.skill27431</icon>
+		<isMagic>2</isMagic> <!-- Static Skill -->
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>26442</itemConsumeId>
+		<magicLvl>1</magicLvl>
+		<operateType>A1</operateType>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<hitCancelTime>0</hitCancelTime>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<conditions>
+			<condition name="OpEncumbered">
+				<weightPercent>20</weightPercent>
+				<slotsPercent>10</slotsPercent>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="RestorationRandom">
+				<items>
+					<item chance="100">
+						<item id="46322" count="1" minEnchant="1" maxEnchant="9" />
+					</item>
+				</items>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="27432" toLevel="1" name="Shadow Shooter Box">
+		<icon>icon.skill27432</icon>
+		<isMagic>2</isMagic> <!-- Static Skill -->
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>26443</itemConsumeId>
+		<magicLvl>1</magicLvl>
+		<operateType>A1</operateType>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<hitCancelTime>0</hitCancelTime>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<conditions>
+			<condition name="OpEncumbered">
+				<weightPercent>20</weightPercent>
+				<slotsPercent>10</slotsPercent>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="RestorationRandom">
+				<items>
+					<item chance="100">
+						<item id="46323" count="1" minEnchant="1" maxEnchant="9" />
+					</item>
+				</items>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="27433" toLevel="1" name="Shadow Buster Box">
+		<icon>icon.skill27433</icon>
+		<isMagic>2</isMagic> <!-- Static Skill -->
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>26444</itemConsumeId>
+		<magicLvl>1</magicLvl>
+		<operateType>A1</operateType>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<hitCancelTime>0</hitCancelTime>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<conditions>
+			<condition name="OpEncumbered">
+				<weightPercent>20</weightPercent>
+				<slotsPercent>10</slotsPercent>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="RestorationRandom">
+				<items>
+					<item chance="100">
+						<item id="46324" count="1" minEnchant="1" maxEnchant="9" />
+					</item>
+				</items>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="27434" toLevel="1" name="Shadow Retributer Box">
+		<icon>icon.skill27434</icon>
+		<isMagic>2</isMagic> <!-- Static Skill -->
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>26445</itemConsumeId>
+		<magicLvl>1</magicLvl>
+		<operateType>A1</operateType>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<hitCancelTime>0</hitCancelTime>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<conditions>
+			<condition name="OpEncumbered">
+				<weightPercent>20</weightPercent>
+				<slotsPercent>10</slotsPercent>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="RestorationRandom">
+				<items>
+					<item chance="100">
+						<item id="46325" count="1" minEnchant="1" maxEnchant="9" />
+					</item>
+				</items>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="27435" toLevel="1" name="Shadow Dualsword Box">
+		<icon>icon.skill27435</icon>
+		<isMagic>2</isMagic> <!-- Static Skill -->
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>26446</itemConsumeId>
+		<magicLvl>1</magicLvl>
+		<operateType>A1</operateType>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<hitCancelTime>0</hitCancelTime>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<conditions>
+			<condition name="OpEncumbered">
+				<weightPercent>20</weightPercent>
+				<slotsPercent>10</slotsPercent>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="RestorationRandom">
+				<items>
+					<item chance="100">
+						<item id="46326" count="1" minEnchant="1" maxEnchant="9" />
+					</item>
+				</items>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="27436" toLevel="1" name="Abundance Box">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27437" toLevel="1" name="Lindvior's Earring Random Box">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27438" toLevel="1" name="Lindvior's Earring Random Box">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27439" toLevel="3" name="Vital Stone - Vital Wind">
+		<!-- For 15 seconds when hunting monsters, Vitality Consumption + 20%, XP/SP Gain + 20%. Cooldown 20 minutes.  -->
+		<icon>icon.etc_bm_jewel_vital</icon>
+		<operateType>A2</operateType>
+		<reuseDelay>1200000</reuseDelay>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>15</abnormalTime>
+		<abnormalType>EXP_SPECIAL</abnormalType>
+		<hitTime>750</hitTime>
+		<isMagic>4</isMagic>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<effects>
+			<effect name="VitalityPointsRate">
+				<amount>
+					<value level="1">20</value>
+					<value level="2">50</value>
+					<value level="3">100</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="ExpModify">
+				<amount>
+					<value level="1">20</value>
+					<value level="2">50</value>
+					<value level="3">100</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="SpModify">
+				<amount>
+					<value level="1">20</value>
+					<value level="2">50</value>
+					<value level="3">100</value>
+				</amount>
+				<mode>PER</mode>
+				</effect>
+		</effects>
+	</skill>
+	<skill id="27440" toLevel="6" name="Greater Cat's Eye">
+		<!-- Resistance to Damage Shield + 10. -->
+		<icon>BranchIcon.Icon.etc_bm_jewel_catseye_i00</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="DamageShieldResist">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">20</value>
+					<value level="3">30</value>
+					<value level="4">40</value>
+					<value level="5">50</value>
+					<value level="6">50</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="ReflectSkill" fromLevel="6" toLevel="6">
+				<amount>30</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="ReflectSkill" fromLevel="6" toLevel="6">
+				<amount>30</amount>
+				<mode>DIFF</mode>
+				<type>MAGIC</type>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="27441" toLevel="1" name="Cat's Eye - Invincibility">
+		<!-- Invincinble for 10 seconds. Cooldown 30 minutes. -->
+		<icon>BranchIcon.Icon.etc_bm_jewel_catseye_i00</icon>
+		<operateType>A2</operateType>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>10</abnormalTime>
+		<hitTime>500</hitTime>
+		<reuseDelay>1800000</reuseDelay>
+		<isMagic>1</isMagic>
+		<effects>
+			<effect name="DamageBlock">
+				<type>BLOCK_HP</type>
+			</effect>
+			<effect name="DamageBlock">
+				<type>BLOCK_MP</type>
+			</effect>
+			<effect name="DebuffBlock" />
+			<effect name="DispelByCategory">
+				<slot>DEBUFF</slot>
+				<rate>100</rate>
+				<max>10</max>
+			</effect>
+			<effect name="ResistDispelByCategory">
+				<amount>-100</amount>
+				<slot>ALL</slot>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="27442" toLevel="6" name="Greater Amethyst">
+		<!-- Increases Damage in PvP by 3%. -->
+		<icon>BranchIcon.Icon.etc_bm_jewel_amethyst_i00</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PvpMagicalSkillDamageBonus">
+				<amount>
+					<value level="1">3</value>
+					<value level="2">5</value>
+					<value level="3">7</value>
+					<value level="4">10</value>
+					<value level="5">15</value>
+					<value level="6">15</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDamageBonus">
+				<amount>
+					<value level="1">3</value>
+					<value level="2">5</value>
+					<value level="3">7</value>
+					<value level="4">10</value>
+					<value level="5">15</value>
+					<value level="6">15</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDamageBonus">
+				<amount>
+					<value level="1">3</value>
+					<value level="2">5</value>
+					<value level="3">7</value>
+					<value level="4">10</value>
+					<value level="5">15</value>
+					<value level="6">15</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DefenceCriticalRate" fromLevel="6" toLevel="6">
+				<amount>-25</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="27443" toLevel="1" name="Amethyst - Remove Invincibility">
+		<!-- Removes invincibility of target. Cooldown 30 minutes. -->
+		<icon>BranchIcon.Icon.etc_bm_jewel_amethyst_i00</icon>
+		<operateType>A1</operateType>
+		<castRange>900</castRange>
+		<hitTime>2110</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>1800000</reuseDelay>
+		<effectPoint>-2036</effectPoint>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<hitCancelTime>0</hitCancelTime>
+		<effectRange>600</effectRange>
+		<magicLvl>1</magicLvl>
+		<staticReuse>true</staticReuse>
+		<isMagic>2</isMagic>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<effects>
+			<effect name="DispelBySlotProbability">
+				<dispel>INVINCIBILITY</dispel>
+				<rate>100</rate>
+			</effect>
+			<effect name="BlockAbnormalSlot">
+				<slot>INVINCIBILITY</slot>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="27444" toLevel="1" name="Summon Scroll: Pomona">
+		<!-- AUTO GENERATED SKILL -->
+		<!-- For 30 min., obtained XP + 10%, Max HP/MP/CP + 30%, P. Def./M. Def. + 30%, Speed + 20, P. Atk. + 10%, and M. Atk. + 20%. Skill MP Consumption - 15%. Cannot use with the Art of Seduction buff. -->
+		<icon>icon.etc_star_scroll_baekisung</icon>
+		<operateType>A2</operateType>
+		<reuseDelay>15000</reuseDelay>
+		<effectPoint>1</effectPoint>
+		<isMagic>4</isMagic>
+	</skill>
+	<skill id="27445" toLevel="1" name="Attendance Vitality Tonic">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<reuseDelay>3600000</reuseDelay>
+	</skill>
+	<skill id="27446" toLevel="1" name="Lv. 5 Legendary CHA Dye Pack">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.etc_pi_gift_box_i04</icon>
+		<operateType>A1</operateType>
+		<hitTime>500</hitTime>
+		<coolTime>500</coolTime>
+	</skill>
+	<skill id="27447" toLevel="1" name="Lv. 5 Legendary LUC Dye Pack">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.etc_pi_gift_box_i04</icon>
+		<operateType>A1</operateType>
+		<hitTime>500</hitTime>
+		<coolTime>500</coolTime>
+	</skill>
+	<skill id="27448" toLevel="1" name="Lv. 3 Legendary CHA Dye Pack">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.etc_pi_gift_box_i04</icon>
+		<operateType>A1</operateType>
+		<hitTime>500</hitTime>
+		<coolTime>500</coolTime>
+	</skill>
+	<skill id="27449" toLevel="1" name="Lv. 3 Legendary LUC Dye Pack">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.etc_pi_gift_box_i04</icon>
+		<operateType>A1</operateType>
+		<hitTime>500</hitTime>
+		<coolTime>500</coolTime>
+	</skill>
+	<skill id="27450" toLevel="1" name="Pirate Captain Appearance Stone">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27451" toLevel="1" name="Pirate Crew Appeareance Stone">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27452" toLevel="1" name="Pirate Captain Appearance Stone">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27453" toLevel="1" name="Pirate Captain Appearance Stone">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27454" toLevel="1" name="Pirate Captain Appearance Stone">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27455" toLevel="1" name="Pirate Captain Appearance Stone">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27456" toLevel="1" name="Pirate Captain Appearance Stone">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27457" toLevel="1" name="Pirate Captain Appearance Stone">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27458" toLevel="1" name="Pirate Captain Appearance Stone">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27459" toLevel="1" name="Pirate Captain Appearance Stone">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27460" toLevel="1" name="Pirate Captain Appearance Stone">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27461" toLevel="1" name="Pirate Captain Appearance Stone">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27462" toLevel="1" name="Pirate Captain Appearance Stone">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27463" toLevel="1" name="Pirate Captain Appearance Stone">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27464" toLevel="1" name="Pirate Captain Appearance Stone">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27465" toLevel="1" name="Pirate Captain Appearance Stone">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27466" toLevel="1" name="Pirate Captain Appearance Stone">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27467" toLevel="1" name="Pirate Captain Appearance Stone">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27468" toLevel="1" name="Pirate Captain Appearance Stone">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27469" toLevel="1" name="Pirate Captain Appearance Stone">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27470" toLevel="1" name="Pirate Captain Appearance Stone">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27471" toLevel="1" name="Pirate Captain Appearance Stone">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27472" toLevel="1" name="Pirate Captain Appearance Stone">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27473" toLevel="1" name="Pirate Captain Appearance Stone">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27474" toLevel="1" name="Pirate Captain Appearance Stone">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27475" toLevel="1" name="Pirate Captain Appearance Stone">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27476" toLevel="1" name="Pirate Captain Appearance Stone">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27477" toLevel="1" name="Pirate Captain Appearance Stone">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27478" toLevel="1" name="Pirate Captain Appearance Stone">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27479" toLevel="1" name="Pirate Captain Appearance Stone">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27480" toLevel="1" name="Pirate Captain Appearance Stone">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27481" toLevel="1" name="Pirate Captain Appearance Stone">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27482" toLevel="1" name="Pirate Captain Appearance Stone">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27483" toLevel="1" name="Pirate Captain Appearance Stone">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27484" toLevel="1" name="Pirate Captain Appearance Stone">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27485" toLevel="1" name="Pirate Captain Appearance Stone">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27486" toLevel="1" name="Pirate Captain Appearance Stone">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27487" toLevel="1" name="Pirate Captain Appearance Stone">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27488" toLevel="1" name="Pirate Captain Appearance Stone">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27489" toLevel="1" name="Pirate Captain Appearance Stone">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27490" toLevel="1" name="Pirate Captain Appearance Stone">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27491" toLevel="1" name="Pirate Captain Appearance Stone">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27492" toLevel="1" name="Pirate Captain Appearance Stone">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27493" toLevel="1" name="Pirate Captain Appearance Stone">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27494" toLevel="1" name="Pirate Crew Appeareance Stone">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27495" toLevel="1" name="Pirate Crew Appeareance Stone">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27496" toLevel="1" name="Pirate Crew Appeareance Stone">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27497" toLevel="1" name="Pirate Crew Appeareance Stone">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27498" toLevel="1" name="Pirate Crew Appeareance Stone">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27499" toLevel="1" name="Pirate Crew Appeareance Stone">
+		<!-- AUTO GENERATED SKILL -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+</list>

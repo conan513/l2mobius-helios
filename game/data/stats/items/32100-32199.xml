@@ -1,0 +1,1804 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="32100" name="Unidentified Dwarven Chain Mail Shirt" type="EtcItem">
+		<!-- Dwarven Chain Mail Shirt in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: upper / heavy armor) -->
+		<set name="icon" val="icon.armor_t60_u_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="C" />
+		<set name="commissionItemType" val="ARMOR_TOP" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="71847" />
+		<createItems>
+			<item id="355" count="1" chance="2" /> <!-- Dwarven Chain Mail Shirt -->
+			<item id="31377" count="1" chance="98" /> <!-- Bound Dwarven Chain Mail Shirt -->
+		</createItems>
+		<skills>
+			<skill id="12709" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32101" name="Unidentified Dwarven Chain Gaiters" type="EtcItem">
+		<!-- Dwarven Chain Gaiters in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: lower / heavy armor) -->
+		<set name="icon" val="icon.armor_t60_l_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="C" />
+		<set name="commissionItemType" val="ARMOR_PANTS" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="44906" />
+		<createItems>
+			<item id="382" count="1" chance="2" /> <!-- Dwarven Chain Gaiters -->
+			<item id="31378" count="1" chance="98" /> <!-- Bound Dwarven Chain Gaiters -->
+		</createItems>
+		<skills>
+			<skill id="12710" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32102" name="Unidentified Dwarven Chain Shield" type="EtcItem">
+		<!-- Dwarven Chain Shield in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: Shield) -->
+		<set name="icon" val="icon.shield_dwarven_chain_shield_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="C" />
+		<set name="commissionItemType" val="SHIELD" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="17414" />
+		<createItems>
+			<item id="2496" count="1" chance="2" /> <!-- Dwarven Chain Shield -->
+			<item id="31379" count="1" chance="98" /> <!-- Bound Dwarven Chain Shield -->
+		</createItems>
+		<skills>
+			<skill id="12711" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32103" name="Unidentified Dwarven Chain Boots" type="EtcItem">
+		<!-- Dwarven Chain Boots in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: Boots) -->
+		<set name="icon" val="icon.armor_t60_b_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="C" />
+		<set name="commissionItemType" val="FEET" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="14079" />
+		<createItems>
+			<item id="2432" count="1" chance="2" /> <!-- Dwarven Chain Boots -->
+			<item id="31380" count="1" chance="98" /> <!-- Bound Dwarven Chain Boots -->
+		</createItems>
+		<skills>
+			<skill id="12712" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32104" name="Unidentified Dwarven Chain Gloves" type="EtcItem">
+		<!-- Dwarven Chain Gloves in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: Gloves) -->
+		<set name="icon" val="icon.armor_t60_g_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="C" />
+		<set name="commissionItemType" val="GLOVES" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="17965" />
+		<createItems>
+			<item id="2456" count="1" chance="2" /> <!-- Dwarven Chain Gloves -->
+			<item id="31381" count="1" chance="98" /> <!-- Bound Dwarven Chain Gloves -->
+		</createItems>
+		<skills>
+			<skill id="12713" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32105" name="Unidentified Dwarven War Hammer" type="EtcItem">
+		<!-- Dwarven War Hammer in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: one-handed weapon / blunt) -->
+		<set name="icon" val="icon.weapon_dwarven_warhammer_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="C" />
+		<set name="commissionItemType" val="BLUNT_WEAPON" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="320406" />
+		<createItems>
+			<item id="2502" count="1" chance="2" /> <!-- Dwarven War Hammer -->
+			<item id="31385" count="1" chance="32" /> <!-- Bound Dwarven War Hammer - Haste -->
+			<item id="31383" count="1" chance="33" /> <!-- Bound Dwarven War Hammer - Anger -->
+			<item id="31384" count="1" chance="33" /> <!-- Bound Dwarven War Hammer - Health -->
+		</createItems>
+		<skills>
+			<skill id="12714" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32106" name="Unidentified Dwarven Scale Mail" type="EtcItem">
+		<!-- Dwarven Scale Mail in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: upper / heavy armor) -->
+		<set name="icon" val="icon.armor_t15_u_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="D" />
+		<set name="commissionItemType" val="ARMOR_TOP" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="20459" />
+		<createItems>
+			<item id="350" count="1" chance="2" /> <!-- Dwarven Scale Mail -->
+			<item id="31386" count="1" chance="98" /> <!-- Bound Dwarven Scale Mail -->
+		</createItems>
+		<skills>
+			<skill id="12715" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32107" name="Unidentified Dwarven Scale Gaiters" type="EtcItem">
+		<!-- Dwarven scale Gaiters in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: lower / heavy armor) -->
+		<set name="icon" val="icon.armor_t15_l_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="D" />
+		<set name="commissionItemType" val="ARMOR_PANTS" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="14152" />
+		<createItems>
+			<item id="379" count="1" chance="2" /> <!-- Dwarven Scale Gaiters -->
+			<item id="31387" count="1" chance="98" /> <!-- Bound Dwarven Scale Gaiters -->
+		</createItems>
+		<skills>
+			<skill id="12716" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32108" name="Unidentified Drake Leather Boots" type="EtcItem">
+		<!-- Drake Leather Boots in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: Boots) -->
+		<set name="icon" val="icon.armor_t21_b_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="C" />
+		<set name="commissionItemType" val="FEET" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="39889" />
+		<createItems>
+			<item id="2437" count="1" chance="2" /> <!-- Drake Leather Boots -->
+			<item id="31388" count="1" chance="98" /> <!-- Bound Drake Leather Boots -->
+		</createItems>
+		<skills>
+			<skill id="12717" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32109" name="Unidentified Drake Leather Armor" type="EtcItem">
+		<!-- Drake Leather Armor in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: one-piece / light armor) -->
+		<set name="icon" val="icon.armor_t21_ul_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="C" />
+		<set name="commissionItemType" val="FULL_BODY" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="194445" />
+		<createItems>
+			<item id="401" count="1" chance="2" /> <!-- Drake Leather Armor -->
+			<item id="31389" count="1" chance="98" /> <!-- Bound Drake Leather Armor -->
+		</createItems>
+		<skills>
+			<skill id="12718" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32110" name="Unidentified Drake Leather Gloves" type="EtcItem">
+		<!-- Drake Leather Gloves in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: Gloves) -->
+		<set name="icon" val="icon.armor_t21_g_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="C" />
+		<set name="commissionItemType" val="GLOVES" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="39889" />
+		<createItems>
+			<item id="2461" count="1" chance="2" /> <!-- Drake Leather Gloves -->
+			<item id="31390" count="1" chance="98" /> <!-- Bound Drake Leather Gloves -->
+		</createItems>
+		<skills>
+			<skill id="12719" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32111" name="Unidentified Dragon Hunter Axe" type="EtcItem">
+		<!-- Dragon Hunter Axe in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / blunt) -->
+		<set name="icon" val="icon.weapon_dragon_hunter_axe_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="S" />
+		<set name="commissionItemType" val="TWO_HAND_BLUNT_WEAPON" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="6200113" />
+		<createItems>
+			<item id="6369" count="1" chance="2" /> <!-- Dragon Hunter Axe -->
+			<item id="31394" count="1" chance="32" /> <!-- Bound Dragon Hunter Axe - HP Drain -->
+			<item id="31392" count="1" chance="33" /> <!-- Bound Dragon Hunter Axe - HP Regeneration -->
+			<item id="31393" count="1" chance="33" /> <!-- Bound Dragon Hunter Axe - Health -->
+		</createItems>
+		<skills>
+			<skill id="12720" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32112" name="Unidentified Flaming Dragon Skull" type="EtcItem">
+		<!-- Flaming Dragon Skull in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: one-handed weapon / blunt) -->
+		<set name="icon" val="icon.weapon_dragon_flame_head_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="A" />
+		<set name="commissionItemType" val="ONE_HAND_MAGIC_BLUNT_WEAPON" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="3007445" />
+		<createItems>
+			<item id="7895" count="1" chance="2" /> <!-- Flaming Dragon Skull -->
+			<item id="31396" count="1" chance="32" /> <!-- Bound Flaming Dragon Skull - Acumen -->
+			<item id="31397" count="1" chance="33" /> <!-- Bound Flaming Dragon Skull - M. Atk. -->
+			<item id="31398" count="1" chance="33" /> <!-- Bound Flaming Dragon Skull - Magic Silence -->
+		</createItems>
+		<skills>
+			<skill id="12721" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32113" name="Unidentified Dragon Slayer" type="EtcItem">
+		<!-- Dragon Slayer in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / sword) -->
+		<set name="icon" val="icon.weapon_dragon_slayer_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="A" />
+		<set name="commissionItemType" val="TWO_HAND_SWORD" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="3007445" />
+		<createItems>
+			<item id="81" count="1" chance="2" /> <!-- Dragon Slayer -->
+			<item id="31400" count="1" chance="32" /> <!-- Bound Dragon Slayer - Health -->
+			<item id="31401" count="1" chance="33" /> <!-- Bound Dragon Slayer - Critical Bleed -->
+			<item id="31402" count="1" chance="33" /> <!-- Bound Dragon Slayer - Critical Drain -->
+		</createItems>
+		<skills>
+			<skill id="12722" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32114" name="Unidentified Dragon Grinder" type="EtcItem">
+		<!-- Dragon Grinder in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / fist weapon) -->
+		<set name="icon" val="icon.weapon_dragon_grinder_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="A" />
+		<set name="commissionItemType" val="FIST_WEAPON" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="3007445" />
+		<createItems>
+			<item id="270" count="1" chance="2" /> <!-- Dragon Grinder -->
+			<item id="31406" count="1" chance="32" /> <!-- Bound Dragon Grinder - Health -->
+			<item id="31404" count="1" chance="33" /> <!-- Bound Dragon Grinder - Rsk. Evasion -->
+			<item id="31405" count="1" chance="33" /> <!-- Bound Dragon Grinder - Guidance -->
+		</createItems>
+		<skills>
+			<skill id="12723" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32115" name="Unidentified Draconic Bow" type="EtcItem">
+		<!-- Draconic Bow in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / bow) -->
+		<set name="icon" val="icon.weapon_draconic_bow_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="S" />
+		<set name="commissionItemType" val="BOW" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="6200113" />
+		<createItems>
+			<item id="7575" count="1" chance="2" /> <!-- Draconic Bow -->
+			<item id="31409" count="1" chance="32" /> <!-- Bound Draconic Bow - Focus -->
+			<item id="31408" count="1" chance="33" /> <!-- Bound Draconic Bow - Cheap Shot -->
+			<item id="31410" count="1" chance="33" /> <!-- Bound Draconic Bow - Critical Slow -->
+		</createItems>
+		<skills>
+			<skill id="12724" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32116" name="Unidentified Draconic Leather Helmet" type="EtcItem">
+		<!-- Draconic Leather Helmet in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: headgear) -->
+		<set name="icon" val="icon.armor_leather_helmet_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="S" />
+		<set name="commissionItemType" val="HELMET" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="694985" />
+		<createItems>
+			<item id="6382" count="1" chance="2" /> <!-- Draconic Leather Helmet -->
+			<item id="31411" count="1" chance="98" /> <!-- Bound Draconic Leather Helmet -->
+		</createItems>
+		<skills>
+			<skill id="12725" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32117" name="Unidentified Draconic Leather Armor" type="EtcItem">
+		<!-- Draconic Leather Armor in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: one-piece / light armor) -->
+		<set name="icon" val="icon.armor_t89_ul_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="S" />
+		<set name="commissionItemType" val="FULL_BODY" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="2258665" />
+		<createItems>
+			<item id="6379" count="1" chance="2" /> <!-- Draconic Leather Armor -->
+			<item id="31412" count="1" chance="98" /> <!-- Bound Draconic Leather Armor -->
+		</createItems>
+		<skills>
+			<skill id="12726" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32118" name="Unidentified Draconic Leather Boots" type="EtcItem">
+		<!-- Draconic Leather Boots in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: Boots) -->
+		<set name="icon" val="icon.armor_t89_b_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="S" />
+		<set name="commissionItemType" val="FEET" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="463275" />
+		<createItems>
+			<item id="6381" count="1" chance="2" /> <!-- Draconic Leather Boots -->
+			<item id="31413" count="1" chance="98" /> <!-- Bound Draconic Leather Boots -->
+		</createItems>
+		<skills>
+			<skill id="12727" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32119" name="Unidentified Draconic Leather Gloves" type="EtcItem">
+		<!-- Draconic Leather Gloves in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: Gloves) -->
+		<set name="icon" val="icon.armor_t89_g_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="S" />
+		<set name="commissionItemType" val="GLOVES" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="463275" />
+		<createItems>
+			<item id="6380" count="1" chance="2" /> <!-- Draconic Leather Gloves -->
+			<item id="31414" count="1" chance="98" /> <!-- Bound Draconic Leather Gloves -->
+		</createItems>
+		<skills>
+			<skill id="12728" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32120" name="Unidentified Doom Hammer" type="EtcItem">
+		<!-- Doom Hammer in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: one-handed weapon / blunt) -->
+		<set name="icon" val="icon.weapon_doom_hammer_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="D" />
+		<set name="commissionItemType" val="ONE_HAND_MAGIC_BLUNT_WEAPON" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="71847" />
+		<createItems>
+			<item id="182" count="1" chance="2" /> <!-- Doom Hammer -->
+			<item id="31415" count="1" chance="98" /> <!-- Bound Doom Hammer -->
+		</createItems>
+		<skills>
+			<skill id="12729" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32121" name="Unidentified Doom Helmet" type="EtcItem">
+		<!-- Doom Helmet in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: headgear) -->
+		<set name="icon" val="icon.armor_leather_helmet_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="B" />
+		<set name="commissionItemType" val="HELMET" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="134603" />
+		<createItems>
+			<item id="2417" count="1" chance="2" /> <!-- Doom Helmet -->
+			<item id="31416" count="1" chance="98" /> <!-- Bound Doom Helmet -->
+		</createItems>
+		<skills>
+			<skill id="12730" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32122" name="Unidentified Doom Plate Armor" type="EtcItem">
+		<!-- Doom Plate Armor in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: one-piece / heavy armor) -->
+		<set name="icon" val="icon.armor_t71_ul_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="B" />
+		<set name="commissionItemType" val="FULL_BODY" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="583190" />
+		<createItems>
+			<item id="2381" count="1" chance="2" /> <!-- Doom Plate Armor -->
+			<item id="31417" count="1" chance="98" /> <!-- Bound Doom Plate Armor -->
+		</createItems>
+		<skills>
+			<skill id="12731" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32123" name="Unidentified Doom Crusher" type="EtcItem">
+		<!-- Doom Crusher in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / blunt) -->
+		<set name="icon" val="icon.weapon_doom_crusher_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="A" />
+		<set name="commissionItemType" val="TWO_HAND_BLUNT_WEAPON" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="3007445" />
+		<createItems>
+			<item id="7902" count="1" chance="2" /> <!-- Doom Crusher -->
+			<item id="31419" count="1" chance="32" /> <!-- Bound Doom Crusher - Health -->
+			<item id="31420" count="1" chance="33" /> <!-- Bound Doom Crusher - Anger -->
+			<item id="31421" count="1" chance="33" /> <!-- Bound Doom Crusher - Rsk. Haste -->
+		</createItems>
+		<skills>
+			<skill id="12732" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32124" name="Unidentified Doom Shield" type="EtcItem">
+		<!-- Doom Shield in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: Shield) -->
+		<set name="icon" val="icon.shield_doom_shield_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="B" />
+		<set name="commissionItemType" val="SHIELD" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="94221" />
+		<createItems>
+			<item id="110" count="1" chance="2" /> <!-- Doom Shield -->
+			<item id="31426" count="1" chance="98" /> <!-- Bound Doom Shield -->
+		</createItems>
+		<skills>
+			<skill id="12733" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32125" name="Unidentified Doom Boots" type="EtcItem">
+		<!-- Doom Boots in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: Boots) -->
+		<set name="icon" val="icon.armor_t71_b_i02" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="B" />
+		<set name="commissionItemType" val="FEET" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="89726" />
+		<createItems>
+			<item id="601" count="1" chance="2" /> <!-- Sealed Doom Boots -->
+			<item id="32805" count="1" chance="98" /> <!-- Sealed Bound Doom Boots -->
+		</createItems>
+		<skills>
+			<skill id="12734" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32126" name="Unidentified Doom Gloves" type="EtcItem">
+		<!-- Doom Gloves in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: Gloves) -->
+		<set name="icon" val="icon.armor_t71_g_i02" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="B" />
+		<set name="commissionItemType" val="GLOVES" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="89726" />
+		<createItems>
+			<item id="2475" count="1" chance="2" /> <!-- Sealed Doom Gloves -->
+			<item id="32801" count="1" chance="98" /> <!-- Sealed Bound Doom Gloves -->
+		</createItems>
+		<skills>
+			<skill id="12735" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32127" name="Unidentified Dasparion's Staff" type="EtcItem">
+		<!-- Dasparion's Staff in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / blunt) -->
+		<set name="icon" val="icon.weapon_dasparions_staff_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="A" />
+		<set name="commissionItemType" val="TWO_HAND_MAGIC_BLUNT_WEAPON" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="2044210" />
+		<createItems>
+			<item id="212" count="1" chance="2" /> <!-- Dasparion's Staff -->
+			<item id="31436" count="1" chance="32" /> <!-- Bound Dasparion's Staff - Acumen -->
+			<item id="31434" count="1" chance="33" /> <!-- Bound Dasparion's Staff - Mana Up -->
+			<item id="31435" count="1" chance="33" /> <!-- Bound Dasparion's Staff - Conversion -->
+		</createItems>
+		<skills>
+			<skill id="12736" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32128" name="Unidentified Sword of Whispering Death" type="EtcItem">
+		<!-- Sword of Whispering Death in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: one-handed weapon / sword) -->
+		<set name="icon" val="icon.weapon_deathbreath_sword_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="C" />
+		<set name="commissionItemType" val="ONE_HAND_MAGIC_SWORD" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="479123" />
+		<createItems>
+			<item id="145" count="1" chance="2" /> <!-- Sword of Whispering Death -->
+			<item id="31442" count="1" chance="32" /> <!-- Bound Sword of Whispering Death - Empower -->
+			<item id="31443" count="1" chance="33" /> <!-- Bound Sword of Whispering Death - M. Atk. -->
+			<item id="31444" count="1" chance="33" /> <!-- Bound Sword of Whispering Death - Magic Silence -->
+		</createItems>
+		<skills>
+			<skill id="12737" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32129" name="Unidentified Demon Splinter" type="EtcItem">
+		<!-- Demon Splinter in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / fist weapon) -->
+		<set name="icon" val="icon.weapon_demon_splinter_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="S" />
+		<set name="commissionItemType" val="FIST_WEAPON" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="6200113" />
+		<createItems>
+			<item id="6371" count="1" chance="2" /> <!-- Demon Splinter -->
+			<item id="31446" count="1" chance="32" /> <!-- Bound Demon Splinter - Focus -->
+			<item id="31447" count="1" chance="33" /> <!-- Bound Demon Splinter - Health -->
+			<item id="31448" count="1" chance="33" /> <!-- Bound Demon Splinter - Critical Stun -->
+		</createItems>
+		<skills>
+			<skill id="12738" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32130" name="Unidentified Club of Nature" type="EtcItem">
+		<!-- Club of Nature in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: one-handed weapon / blunt) -->
+		<set name="icon" val="icon.weapon_club_of_nature_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="C" />
+		<set name="commissionItemType" val="ONE_HAND_MAGIC_BLUNT_WEAPON" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="479123" />
+		<createItems>
+			<item id="201" count="1" chance="2" /> <!-- Club of Nature -->
+			<item id="31450" count="1" chance="32" /> <!-- Bound Club of Nature - Acumen -->
+			<item id="31451" count="1" chance="33" /> <!-- Bound Club of Nature - Magic Mental Shield -->
+			<item id="31452" count="1" chance="33" /> <!-- Bound Club of Nature - Magic Hold -->
+		</createItems>
+		<skills>
+			<skill id="12739" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32131" name="Unidentified Dark Elven Bow" type="EtcItem">
+		<!-- Dark Elven Bow in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / bow) -->
+		<set name="icon" val="icon.weapon_dark_elven_bow_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="D" />
+		<set name="commissionItemType" val="BOW" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="71847" />
+		<createItems>
+			<item id="277" count="1" chance="2" /> <!-- Dark Elven Bow -->
+			<item id="31453" count="1" chance="98" /> <!-- Bound Dark Elven Bow -->
+		</createItems>
+		<skills>
+			<skill id="12740" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32132" name="Unidentified Dark Elven Longbow" type="EtcItem">
+		<!-- Dark Elven Longbow in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / bow) -->
+		<set name="icon" val="icon.weapon_dark_elven_long_bow_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="B" />
+		<set name="commissionItemType" val="BOW" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="968672" />
+		<createItems>
+			<item id="284" count="1" chance="2" /> <!-- Dark Elven Longbow -->
+			<item id="31456" count="1" chance="32" /> <!-- Bound Dark Elven Longbow - Critical Bleed -->
+			<item id="31455" count="1" chance="33" /> <!-- Bound Dark Elven Longbow - Evasion -->
+			<item id="31457" count="1" chance="33" /> <!-- Bound Dark Elven Longbow - Miser -->
+		</createItems>
+		<skills>
+			<skill id="12741" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32133" name="Unidentified Dark Screamer" type="EtcItem">
+		<!-- Dark Screamer in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: one-handed weapon / dagger) -->
+		<set name="icon" val="icon.weapon_dark_screamer_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="C" />
+		<set name="commissionItemType" val="DAGGER" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="479123" />
+		<createItems>
+			<item id="233" count="1" chance="2" /> <!-- Dark Screamer -->
+			<item id="31460" count="1" chance="32" /> <!-- Bound Dark Screamer - Focus -->
+			<item id="31459" count="1" chance="33" /> <!-- Bound Dark Screamer - Evasion -->
+			<item id="31461" count="1" chance="33" /> <!-- Bound Dark Screamer - Critical Bleed -->
+		</createItems>
+		<skills>
+			<skill id="12742" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32134" name="Unidentified Dark Crystal Breastplate" type="EtcItem">
+		<!-- Dark Crystal Breastplate in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: upper / heavy armor) -->
+		<set name="icon" val="icon.armor_t74_u_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="A" />
+		<set name="commissionItemType" val="ARMOR_TOP" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="516490" />
+		<createItems>
+			<item id="365" count="1" chance="2" /> <!-- Dark Crystal Breastplate -->
+			<item id="31462" count="1" chance="98" /> <!-- Bound Dark Crystal Breastplate -->
+		</createItems>
+		<skills>
+			<skill id="12743" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32135" name="Unidentified Dark Crystal Helmet" type="EtcItem">
+		<!-- Dark Crystal Helmet in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: headgear) -->
+		<set name="icon" val="icon.armor_helmet_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="A" />
+		<set name="commissionItemType" val="HELMET" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="193720" />
+		<createItems>
+			<item id="512" count="1" chance="2" /> <!-- Dark Crystal Helmet -->
+			<item id="31463" count="1" chance="98" /> <!-- Bound Dark Crystal Helmet -->
+		</createItems>
+		<skills>
+			<skill id="12744" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32136" name="Unidentified Dark Crystal Shield" type="EtcItem">
+		<!-- Dark Crystal Shield in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: Shield) -->
+		<set name="icon" val="icon.shield_dark_crystal_shield_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="A" />
+		<set name="commissionItemType" val="SHIELD" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="135575" />
+		<createItems>
+			<item id="641" count="1" chance="2" /> <!-- Dark Crystal Shield -->
+			<item id="31464" count="1" chance="98" /> <!-- Bound Dark Crystal Shield -->
+		</createItems>
+		<skills>
+			<skill id="12745" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32137" name="Unidentified Dark Crystal Boots" type="EtcItem">
+		<!-- Dark Crystal Boots in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: Boots) -->
+		<set name="icon" val="icon.armor_t74_b_i02" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="A" />
+		<set name="commissionItemType" val="FEET" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="129050" />
+		<createItems>
+			<item id="5291" count="1" chance="2" /> <!-- Sealed Dark Crystal Boots -->
+			<item id="32810" count="1" chance="98" /> <!-- Sealed Bound Dark Crystal Boots -->
+		</createItems>
+		<skills>
+			<skill id="12746" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32138" name="Unidentified Dark Crystal Robe" type="EtcItem">
+		<!-- Dark Crystal Robe in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: one-piece / robe) -->
+		<set name="icon" val="icon.armor_t76_ul_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="A" />
+		<set name="commissionItemType" val="FULL_BODY" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="629445" />
+		<createItems>
+			<item id="2407" count="1" chance="2" /> <!-- Dark Crystal Robe -->
+			<item id="31468" count="1" chance="98" /> <!-- Bound Dark Crystal Robe -->
+		</createItems>
+		<skills>
+			<skill id="12747" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32139" name="Unidentified Dark Crystal Leather Armor" type="EtcItem">
+		<!-- Dark Crystal Leather armor in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: upper / light armor) -->
+		<set name="icon" val="icon.armor_t75_u_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="A" />
+		<set name="commissionItemType" val="ARMOR_TOP" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="387295" />
+		<createItems>
+			<item id="2385" count="1" chance="2" /> <!-- Dark Crystal Leather Armor -->
+			<item id="31469" count="1" chance="98" /> <!-- Bound Dark Crystal Leather Armor -->
+		</createItems>
+		<skills>
+			<skill id="12748" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32140" name="Unidentified Dark Crystal Gloves" type="EtcItem">
+		<!-- Dark Crystal Gloves in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: Gloves) -->
+		<set name="icon" val="icon.armor_t74_g_i02" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="A" />
+		<set name="commissionItemType" val="GLOVES" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="129050" />
+		<createItems>
+			<item id="5290" count="1" chance="2" /> <!-- Sealed Dark Crystal Gloves -->
+			<item id="32806" count="1" chance="98" /> <!-- Sealed Bound Dark Crystal Gloves -->
+		</createItems>
+		<skills>
+			<skill id="12749" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32141" name="Unidentified Dark Crystal Gaiters" type="EtcItem">
+		<!-- Dark Crystal Gaiters in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: lower / heavy armor) -->
+		<set name="icon" val="icon.armor_t74_l_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="A" />
+		<set name="commissionItemType" val="ARMOR_PANTS" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="322770" />
+		<createItems>
+			<item id="388" count="1" chance="2" /> <!-- Dark Crystal Gaiters -->
+			<item id="31473" count="1" chance="98" /> <!-- Bound Dark Crystal Gaiters -->
+		</createItems>
+		<skills>
+			<skill id="12750" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32142" name="Unidentified Dark Elven Dagger" type="EtcItem">
+		<!-- Dark Elven Dagger in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: one-handed weapon / dagger) -->
+		<set name="icon" val="icon.weapon_darkelven_dagger_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="C" />
+		<set name="commissionItemType" val="DAGGER" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="255620" />
+		<createItems>
+			<item id="232" count="1" chance="2" /> <!-- Dark Elven Dagger -->
+			<item id="31475" count="1" chance="53" /> <!-- Bound Dark Elven Dagger - Focus -->
+			<item id="31476" count="1" chance="45" /> <!-- Bound Dark Elven Dagger - Back Blow -->
+		</createItems>
+		<skills>
+			<skill id="12751" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32143" name="Unidentified Dark Legion's Edge" type="EtcItem">
+		<!-- Dark Legion's Edge in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: one-handed weapon / sword) -->
+		<set name="icon" val="icon.weapon_dark_legions_edge_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="A" />
+		<set name="commissionItemType" val="ONE_HAND_SWORD" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="3007445" />
+		<createItems>
+			<item id="2500" count="1" chance="2" /> <!-- Dark Legion's Edge -->
+			<item id="31480" count="1" chance="32" /> <!-- Bound Dark Legion's Edge - Health -->
+			<item id="31479" count="1" chance="33" /> <!-- Bound Dark Legion's Edge - Critical Damage -->
+			<item id="31481" count="1" chance="33" /> <!-- Bound Dark Legion's Edge - Rsk. Focus -->
+		</createItems>
+		<skills>
+			<skill id="12752" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32144" name="Unidentified Damascus Sword" type="EtcItem">
+		<!-- Damascus Sword in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: one-handed weapon / sword) -->
+		<set name="icon" val="icon.weapon_sword_of_damascus_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="B" />
+		<set name="commissionItemType" val="ONE_HAND_SWORD" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="1463253" />
+		<createItems>
+			<item id="79" count="1" chance="2" /> <!-- Damascus Sword -->
+			<item id="31486" count="1" chance="32" /> <!-- Bound Damascus Sword - Focus -->
+			<item id="31487" count="1" chance="33" /> <!-- Bound Damascus Sword - Critical Damage -->
+			<item id="31488" count="1" chance="33" /> <!-- Bound Damascus Sword - Haste -->
+		</createItems>
+		<skills>
+			<skill id="12753" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32145" name="Unidentified Needle Wolverine" type="EtcItem">
+		<!-- Needle Wolverine in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: one-handed weapon / dagger) -->
+		<set name="icon" val="icon.weapon_needle_wolverine_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="C" />
+		<set name="commissionItemType" val="DAGGER" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="255620" />
+		<createItems>
+			<item id="230" count="1" chance="2" /> <!-- Needle Wolverine -->
+			<item id="31489" count="1" chance="98" /> <!-- Bound Needle Wolverine -->
+		</createItems>
+		<skills>
+			<skill id="12754" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32146" name="Unidentified Knuckle Duster" type="EtcItem">
+		<!-- Knuckle Duster in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / combat) -->
+		<set name="icon" val="icon.weapon_knuckle_dust_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="C" />
+		<set name="commissionItemType" val="DUALSWORD" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="320406" />
+		<createItems>
+			<item id="4233" count="1" chance="2" /> <!-- Knuckle Duster -->
+			<item id="31497" count="1" chance="32" /> <!-- Bound Knuckle Duster - Haste -->
+			<item id="31495" count="1" chance="33" /> <!-- Bound Knuckle Duster - Rsk. Evasion -->
+			<item id="31496" count="1" chance="33" /> <!-- Bound Knuckle Duster - Rsk. Haste -->
+		</createItems>
+		<skills>
+			<skill id="12755" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32147" name="Unidentified Nirvana Axe" type="EtcItem">
+		<!-- Nirvana Axe in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: one-handed weapon / blunt) -->
+		<set name="icon" val="icon.weapon_nirvana_axe_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="C" />
+		<set name="commissionItemType" val="ONE_HAND_MAGIC_BLUNT_WEAPON" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="479123" />
+		<createItems>
+			<item id="174" count="1" chance="2" /> <!-- Nirvana Axe -->
+			<item id="31499" count="1" chance="32" /> <!-- Bound Nirvana Axe - M. Atk. -->
+			<item id="31500" count="1" chance="33" /> <!-- Bound Nirvana Axe - Magic Poison -->
+			<item id="31501" count="1" chance="33" /> <!-- Bound Nirvana Axe - Magic Weakness -->
+		</createItems>
+		<skills>
+			<skill id="12756" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32148" name="Unidentified Shilen Knife" type="EtcItem">
+		<!-- Shilen Knife in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: one-handed weapon / dagger) -->
+		<set name="icon" val="icon.weapon_knife_o'_silenus_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="D" />
+		<set name="commissionItemType" val="DAGGER" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="107807" />
+		<createItems>
+			<item id="241" count="1" chance="2" /> <!-- Shilen Knife -->
+			<item id="31502" count="1" chance="98" /> <!-- Bound Shilen Knife -->
+		</createItems>
+		<skills>
+			<skill id="12757" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32149" name="Unidentified Knight's Sword*Sword of Revolution" type="EtcItem">
+		<!-- Knight's Sword*Sword of Revolution in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / dualsword) -->
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="C" />
+		<set name="commissionItemType" val="DUALSWORD" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="236350" />
+		<createItems>
+			<item id="2549" count="1" chance="2" /> <!-- Knight's Sword*Sword of Revolution -->
+			<item id="31503" count="1" chance="98" /> <!-- Bound Knight's Sword*Sword of Revolution -->
+		</createItems>
+		<skills>
+			<skill id="12758" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32150" name="Unidentified Knight's Sword*Crimson Sword" type="EtcItem">
+		<!-- Knight's Sword*Crimson Sword in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / dualsword) -->
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="D" />
+		<set name="commissionItemType" val="DUALSWORD" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="184976" />
+		<createItems>
+			<item id="2547" count="1" chance="2" /> <!-- Knight's Sword*Crimson Sword -->
+			<item id="31504" count="1" chance="98" /> <!-- Bound Knight's Sword*Crimson Sword -->
+		</createItems>
+		<skills>
+			<skill id="12759" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32151" name="Unidentified Knight's Sword*Elven Sword" type="EtcItem">
+		<!-- Knight's Sword*Elven Sword in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / dualsword) -->
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="D" />
+		<set name="commissionItemType" val="DUALSWORD" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="184976" />
+		<createItems>
+			<item id="2548" count="1" chance="2" /> <!-- Knight's Sword*Elven Sword -->
+			<item id="31505" count="1" chance="98" /> <!-- Bound Knight's Sword*Elven Sword -->
+		</createItems>
+		<skills>
+			<skill id="12760" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32152" name="Unidentified Knight's Sword*Elven Sword" type="EtcItem">
+		<!-- Knight's Sword*Elven Sword in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / dualsword) -->
+		<set name="is_freightable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<set name="is_private_storeable" val="false" />
+		<set name="crystal_type" val="D" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<createItems>
+			<item id="2548" count="1" chance="2" /> <!-- Knight's Sword*Elven Sword -->
+			<item id="31505" count="1" chance="98" /> <!-- Bound Knight's Sword*Elven Sword -->
+		</createItems>
+		<skills>
+			<skill id="12761" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32153" name="Unidentified Knight's Sword*Elven Long Sword" type="EtcItem">
+		<!-- Knight's Sword*Elven Long Sword in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / dualsword) -->
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="C" />
+		<set name="commissionItemType" val="DUALSWORD" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="276007" />
+		<createItems>
+			<item id="2550" count="1" chance="2" /> <!-- Knight's Sword*Elven Long Sword -->
+			<item id="31507" count="1" chance="98" /> <!-- Bound Knight's Sword*Elven Long Sword -->
+		</createItems>
+		<skills>
+			<skill id="12762" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32154" name="Unidentified Knight's Sword*Knight's Sword" type="EtcItem">
+		<!-- Knight's Sword*Knight's Sword in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / dualsword) -->
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="D" />
+		<set name="commissionItemType" val="DUALSWORD" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="155730" />
+		<createItems>
+			<item id="2546" count="1" chance="2" /> <!-- Knight's Sword*Knight's Sword -->
+			<item id="31508" count="1" chance="98" /> <!-- Bound Knight's Sword*Knight's Sword -->
+		</createItems>
+		<skills>
+			<skill id="12763" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32155" name="Unidentified Knight's Shield" type="EtcItem">
+		<!-- Knight's Shield in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: Shield) -->
+		<set name="icon" val="icon.shield_knight_shield_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="C" />
+		<set name="commissionItemType" val="SHIELD" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="18864" />
+		<createItems>
+			<item id="632" count="1" chance="2" /> <!-- Knight's Shield -->
+			<item id="31509" count="1" chance="98" /> <!-- Bound Knight's Shield -->
+		</createItems>
+		<skills>
+			<skill id="12764" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32156" name="Unidentified Knight's Sword" type="EtcItem">
+		<!-- Knight's Sword in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: one-handed weapon / sword) -->
+		<set name="icon" val="icon.weapon_knights_sword_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="D" />
+		<set name="commissionItemType" val="ONE_HAND_SWORD" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="71847" />
+		<createItems>
+			<item id="128" count="1" chance="2" /> <!-- Knight's Sword -->
+			<item id="31510" count="1" chance="98" /> <!-- Bound Knight's Sword -->
+		</createItems>
+		<skills>
+			<skill id="12765" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32157" name="Unidentified Nassen's Earring" type="EtcItem">
+		<!-- Nassen's Earring in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: Earring) -->
+		<set name="icon" val="icon.accessary_nassens_earing_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="C" />
+		<set name="commissionItemType" val="EARRING" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="47241" />
+		<createItems>
+			<item id="855" count="1" chance="2" /> <!-- Nassen's Earring -->
+			<item id="31511" count="1" chance="98" /> <!-- Bound Nassen's Earring -->
+		</createItems>
+		<skills>
+			<skill id="12766" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32158" name="Unidentified Mace of Prayer" type="EtcItem">
+		<!-- Mace of Prayer in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: one-handed weapon / blunt) -->
+		<set name="icon" val="icon.weapon_mace_of_prayer_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="D" />
+		<set name="commissionItemType" val="ONE_HAND_MAGIC_BLUNT_WEAPON" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="71847" />
+		<createItems>
+			<item id="179" count="1" chance="2" /> <!-- Mace of Prayer -->
+			<item id="31512" count="1" chance="98" /> <!-- Bound Mace of Prayer -->
+		</createItems>
+		<skills>
+			<skill id="12767" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32159" name="Unidentified Glaive" type="EtcItem">
+		<!-- Glaive in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / spear) -->
+		<set name="icon" val="icon.weapon_glaive_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="D" />
+		<set name="commissionItemType" val="SPEAR" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="201115" />
+		<createItems>
+			<item id="297" count="1" chance="2" /> <!-- Glaive -->
+			<item id="31513" count="1" chance="98" /> <!-- Bound Glaive -->
+		</createItems>
+		<skills>
+			<skill id="12768" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32160" name="Unidentified Ultimate Sword" type="EtcItem">
+		<!-- Ultimate Sword in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: one-handed weapon / sword) -->
+		<set name="icon" val="icon.weapon_sword_of_limit_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="C" />
+		<set name="commissionItemType" val="ONE_HAND_SWORD" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="479123" />
+		<createItems>
+			<item id="132" count="1" chance="2" /> <!-- Ultimate Sword -->
+			<item id="31517" count="1" chance="32" /> <!-- Bound Ultimate Sword - Health -->
+			<item id="31515" count="1" chance="33" /> <!-- Bound Ultimate Sword - Guidance -->
+			<item id="31516" count="1" chance="33" /> <!-- Bound Ultimate Sword - Critical Drain -->
+		</createItems>
+		<skills>
+			<skill id="12769" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32161" name="Unidentified Great Pata" type="EtcItem">
+		<!-- Great Pata in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / combat) -->
+		<set name="icon" val="icon.weapon_great_pata_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="C" />
+		<set name="commissionItemType" val="FIST_WEAPON" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="683457" />
+		<createItems>
+			<item id="266" count="1" chance="2" /> <!-- Great Pata -->
+			<item id="31525" count="1" chance="32" /> <!-- Bound Great Pata - Rsk. Haste -->
+			<item id="31523" count="1" chance="33" /> <!-- Bound Great Pata - Critical Drain -->
+			<item id="31524" count="1" chance="33" /> <!-- Bound Great Pata - Critical Poison -->
+		</createItems>
+		<skills>
+			<skill id="12770" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32162" name="Unidentified Great Helmet" type="EtcItem">
+		<!-- Great Helmet in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: Helmet) -->
+		<set name="icon" val="icon.armor_helmet_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="C" />
+		<set name="commissionItemType" val="HELMET" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="26941" />
+		<createItems>
+			<item id="500" count="1" chance="2" /> <!-- Great Helmet -->
+			<item id="31526" count="1" chance="98" /> <!-- Bound Great Helmet -->
+		</createItems>
+		<skills>
+			<skill id="12771" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32163" name="Unidentified Great Axe" type="EtcItem">
+		<!-- Great Axe in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / spear) -->
+		<set name="icon" val="icon.weapon_great_axe_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="B" />
+		<set name="commissionItemType" val="SPEAR" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="968672" />
+		<createItems>
+			<item id="300" count="1" chance="2" /> <!-- Great Axe -->
+			<item id="31529" count="1" chance="32" /> <!-- Bound Great Axe - Critical Stun -->
+			<item id="31528" count="1" chance="33" /> <!-- Bound Great Axe - Anger -->
+			<item id="31530" count="1" chance="33" /> <!-- Bound Great Axe - Light Armor -->
+		</createItems>
+		<skills>
+			<skill id="12772" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32164" name="Unidentified Great Sword" type="EtcItem">
+		<!-- Great Sword in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / sword) -->
+		<set name="icon" val="icon.weapon_great_sword_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="B" />
+		<set name="commissionItemType" val="TWO_HAND_SWORD" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="968672" />
+		<createItems>
+			<item id="78" count="1" chance="2" /> <!-- Great Sword -->
+			<item id="31534" count="1" chance="32" /> <!-- Bound Great Sword - Focus -->
+			<item id="31532" count="1" chance="33" /> <!-- Bound Great Sword - Health -->
+			<item id="31533" count="1" chance="33" /> <!-- Bound Great Sword - Critical Damage -->
+		</createItems>
+		<skills>
+			<skill id="12773" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32165" name="Unidentified Grace Dagger" type="EtcItem">
+		<!-- Great Dagger in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: one-handed weapon / dagger) -->
+		<set name="icon" val="icon.weapon_grace_dagger_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="C" />
+		<set name="commissionItemType" val="DAGGER" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="479123" />
+		<createItems>
+			<item id="231" count="1" chance="2" /> <!-- Grace Dagger -->
+			<item id="31537" count="1" chance="32" /> <!-- Bound Grace Dagger - Focus -->
+			<item id="31536" count="1" chance="33" /> <!-- Bound Grace Dagger - Evasion -->
+			<item id="31538" count="1" chance="33" /> <!-- Bound Grace Dagger - Back Blow -->
+		</createItems>
+		<skills>
+			<skill id="12774" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32166" name="Unidentified Grand Épée" type="EtcItem">
+		<!-- Kamael-exclusive weapon: Elven Long Sword conversion, Unidentified Grand Épée. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: one-handed weapon type: rapier) -->
+		<set name="icon" val="icon.weapon_rapier_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="D" />
+		<set name="commissionItemType" val="RAPIER" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="201115" />
+		<createItems>
+			<item id="9225" count="1" chance="2" /> <!-- Grand Épée -->
+			<item id="31539" count="1" chance="98" /> <!-- Bound Grand Épée -->
+		</createItems>
+		<skills>
+			<skill id="12775" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32167" name="Unidentified Stick of Eternity" type="EtcItem">
+		<!-- Stick of Eternity in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: one-handed weapon / blunt) -->
+		<set name="icon" val="icon.weapon_stick_of_eternity_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="C" />
+		<set name="commissionItemType" val="ONE_HAND_MAGIC_BLUNT_WEAPON" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="479123" />
+		<createItems>
+			<item id="196" count="1" chance="2" /> <!-- Stick of Eternity -->
+			<item id="31545" count="1" chance="32" /> <!-- Bound Stick of Eternity - Empower -->
+			<item id="31546" count="1" chance="33" /> <!-- Bound Stick of Eternity - Rsk. Evasion -->
+			<item id="31547" count="1" chance="33" /> <!-- Bound Stick of Eternity - Blessed Body -->
+		</createItems>
+		<skills>
+			<skill id="12776" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32168" name="Unidentified Ghoul's Staff" type="EtcItem">
+		<!-- Ghoul's Staff in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / blunt) -->
+		<set name="icon" val="icon.weapon_ghouls_staff_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="C" />
+		<set name="commissionItemType" val="TWO_HAND_MAGIC_BLUNT_WEAPON" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="683457" />
+		<createItems>
+			<item id="205" count="1" chance="2" /> <!-- Ghoul's Staff -->
+			<item id="31550" count="1" chance="32" /> <!-- Bound Ghoul's Staff - Mana Up -->
+			<item id="31549" count="1" chance="33" /> <!-- Bound Ghoul's Staff - Rsk. Evasion -->
+			<item id="31551" count="1" chance="33" /> <!-- Bound Ghoul's Staff - Blessed Body -->
+		</createItems>
+		<skills>
+			<skill id="12777" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32169" name="Unidentified Noble Elven Bow" type="EtcItem">
+		<!-- Noble Elven Bow in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / bow) -->
+		<set name="icon" val="icon.weapon_noble_elven_bow_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="C" />
+		<set name="commissionItemType" val="BOW" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="320406" />
+		<createItems>
+			<item id="285" count="1" chance="2" /> <!-- Noble Elven Bow -->
+			<item id="31553" count="1" chance="32" /> <!-- Bound Noble Elven Bow - Evasion -->
+			<item id="31554" count="1" chance="33" /> <!-- Bound Noble Elven Bow - Miser -->
+			<item id="31555" count="1" chance="33" /> <!-- Bound Noble Elven Bow - Cheap Shot -->
+		</createItems>
+		<skills>
+			<skill id="12778" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32170" name="Unidentified Quality Leather Gloves" type="EtcItem">
+		<!-- Quality Leather Gloves in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: Gloves) -->
+		<set name="icon" val="icon.armor_t09_g_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="D" />
+		<set name="commissionItemType" val="GLOVES" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="2334" />
+		<createItems>
+			<item id="604" count="1" chance="2" /> <!-- Quality Leather Gloves -->
+			<item id="31556" count="1" chance="98" /> <!-- Bound Quality Leather Gloves -->
+		</createItems>
+		<skills>
+			<skill id="12779" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32171" name="Unidentified Dark Stockings" type="EtcItem">
+		<!-- Dark Stockings in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: lower / robe) -->
+		<set name="icon" val="icon.armor_t16_l_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="D" />
+		<set name="commissionItemType" val="ARMOR_PANTS" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="6960" />
+		<createItems>
+			<item id="467" count="1" chance="2" /> <!-- Dark Stockings -->
+			<item id="31557" count="1" chance="98" /> <!-- Bound Dark Stockings -->
+		</createItems>
+		<skills>
+			<skill id="12780" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32172" name="Unidentified Gauntlets" type="EtcItem">
+		<!-- Gauntlets in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: Gloves) -->
+		<set name="icon" val="icon.armor_t10_g_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="D" />
+		<set name="commissionItemType" val="GLOVES" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="5669" />
+		<createItems>
+			<item id="63" count="1" chance="2" /> <!-- Gauntlets -->
+			<item id="31558" count="1" chance="98" /> <!-- Bound Gauntlets -->
+		</createItems>
+		<skills>
+			<skill id="12781" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32173" name="Unidentified Reinforced Longbow" type="EtcItem">
+		<!-- Reinforced Longbow in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / bow) -->
+		<set name="icon" val="icon.weapon_strengthening_long_bow_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="D" />
+		<set name="commissionItemType" val="BOW" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="155730" />
+		<createItems>
+			<item id="279" count="1" chance="2" /> <!-- Reinforced Longbow -->
+			<item id="31559" count="1" chance="98" /> <!-- Bound Reinforced Longbow -->
+		</createItems>
+		<skills>
+			<skill id="12782" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32174" name="Unidentified Reinforced Bow" type="EtcItem">
+		<!-- Reinforced Bow in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / bow) -->
+		<set name="icon" val="icon.weapon_strengthening_bow_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="D" />
+		<set name="commissionItemType" val="BOW" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="45675" />
+		<createItems>
+			<item id="274" count="1" chance="2" /> <!-- Reinforced Bow -->
+			<item id="31560" count="1" chance="98" /> <!-- Bound Reinforced Bow -->
+		</createItems>
+		<skills>
+			<skill id="12783" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32175" name="Unidentified Reinforced Mithril Gloves" type="EtcItem">
+		<!-- Reinforced Mithril Gloves in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: Gloves) -->
+		<set name="icon" val="icon.armor_t47_g_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="C" />
+		<set name="commissionItemType" val="GLOVES" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="14079" />
+		<createItems>
+			<item id="2452" count="1" chance="2" /> <!-- Reinforced Mithril Gloves -->
+			<item id="31561" count="1" chance="98" /> <!-- Bound Reinforced Mithril Gloves -->
+		</createItems>
+		<skills>
+			<skill id="12784" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32176" name="Unidentified Reinforced Mithril Shirt" type="EtcItem">
+		<!-- Reinforced Mithril shirt in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: upper / light armor) -->
+		<set name="icon" val="icon.armor_t47_u_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="C" />
+		<set name="commissionItemType" val="ARMOR_TOP" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="42195" />
+		<createItems>
+			<item id="397" count="1" chance="2" /> <!-- Reinforced Mithril Shirt -->
+			<item id="31562" count="1" chance="98" /> <!-- Bound Reinforced Mithril Shirt -->
+		</createItems>
+		<skills>
+			<skill id="12785" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32177" name="Unidentified Reinforced Mithril Boots" type="EtcItem">
+		<!-- Reinforced Mithril Boots in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: Boots) -->
+		<set name="icon" val="icon.armor_t47_b_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="C" />
+		<set name="commissionItemType" val="FEET" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="14079" />
+		<createItems>
+			<item id="62" count="1" chance="2" /> <!-- Reinforced Mithril Boots -->
+			<item id="31563" count="1" chance="98" /> <!-- Bound Reinforced Mithril Boots -->
+		</createItems>
+		<skills>
+			<skill id="12786" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32178" name="Unidentified Reinforced Mithril Gaiters" type="EtcItem">
+		<!-- Reinforced Mithril Gaiters in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: lower / light armor) -->
+		<set name="icon" val="icon.armor_t47_l_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="C" />
+		<set name="commissionItemType" val="ARMOR_PANTS" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="26404" />
+		<createItems>
+			<item id="2387" count="1" chance="2" /> <!-- Reinforced Mithril Gaiters -->
+			<item id="31564" count="1" chance="98" /> <!-- Bound Reinforced Mithril Gaiters -->
+		</createItems>
+		<skills>
+			<skill id="12787" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32179" name="Unidentified Reinforced Leather Gloves" type="EtcItem">
+		<!-- Reinforced Leather Gloves in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: Gloves) -->
+		<set name="icon" val="icon.armor_t13_g_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="D" />
+		<set name="commissionItemType" val="GLOVES" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="5669" />
+		<createItems>
+			<item id="2446" count="1" chance="2" /> <!-- Reinforced Leather Gloves -->
+			<item id="31565" count="1" chance="98" /> <!-- Bound Reinforced Leather Gloves -->
+		</createItems>
+		<skills>
+			<skill id="12788" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32180" name="Unidentified Reinforced Leather Shirt" type="EtcItem">
+		<!-- Reinforced Leather shirt in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: upper / light armor) -->
+		<set name="icon" val="icon.armor_t13_u_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="D" />
+		<set name="commissionItemType" val="ARMOR_TOP" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="16965" />
+		<createItems>
+			<item id="394" count="1" chance="2" /> <!-- Reinforced Leather Shirt -->
+			<item id="31566" count="1" chance="98" /> <!-- Bound Reinforced Leather Shirt -->
+		</createItems>
+		<skills>
+			<skill id="12789" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32181" name="Unidentified Reinforced Leather Boots" type="EtcItem">
+		<!-- Reinforced Leather Boots in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: Boots) -->
+		<set name="icon" val="icon.armor_t13_b_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="D" />
+		<set name="commissionItemType" val="FEET" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="5669" />
+		<createItems>
+			<item id="2422" count="1" chance="2" /> <!-- Reinforced Leather Boots -->
+			<item id="31567" count="1" chance="98" /> <!-- Bound Reinforced Leather Boots -->
+		</createItems>
+		<skills>
+			<skill id="12790" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32182" name="Unidentified Reinforced Leather Gaiters" type="EtcItem">
+		<!-- Reinforced Leather Gaiters in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: lower / light armor) -->
+		<set name="icon" val="icon.armor_t13_l_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="D" />
+		<set name="commissionItemType" val="ARMOR_PANTS" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="10614" />
+		<createItems>
+			<item id="416" count="1" chance="2" /> <!-- Reinforced Leather Gaiters -->
+			<item id="31568" count="1" chance="98" /> <!-- Bound Reinforced Leather Gaiters -->
+		</createItems>
+		<skills>
+			<skill id="12791" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32183" name="Unidentified Steel Sword" type="EtcItem">
+		<!-- Steel Sword in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / sword) -->
+		<set name="icon" val="icon.weapon_iron_sword_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="D" />
+		<set name="commissionItemType" val="TWO_HAND_SWORD" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="45675" />
+		<createItems>
+			<item id="7880" count="1" chance="2" /> <!-- Steel Sword -->
+			<item id="31569" count="1" chance="98" /> <!-- Bound Steel Sword -->
+		</createItems>
+		<skills>
+			<skill id="12792" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32184" name="Unidentified Iron Boots" type="EtcItem">
+		<!-- Iron Boots in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: Boots) -->
+		<set name="icon" val="icon.armor_t10_b_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="D" />
+		<set name="commissionItemType" val="FEET" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="5669" />
+		<createItems>
+			<item id="553" count="1" chance="2" /> <!-- Iron Boots -->
+			<item id="31570" count="1" chance="98" /> <!-- Bound Iron Boots -->
+		</createItems>
+		<skills>
+			<skill id="12793" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32185" name="Unidentified Assault Boots" type="EtcItem">
+		<!-- Assault Boots in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: Boots) -->
+		<set name="icon" val="icon.armor_t44_b_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="D" />
+		<set name="commissionItemType" val="FEET" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="10904" />
+		<createItems>
+			<item id="1125" count="1" chance="2" /> <!-- Assault Boots -->
+			<item id="31571" count="1" chance="98" /> <!-- Bound Assault Boots -->
+		</createItems>
+		<skills>
+			<skill id="12794" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32186" name="Unidentified Leather Boots" type="EtcItem">
+		<!-- Leather Boots in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: Boots) -->
+		<set name="icon" val="icon.armor_t09_b_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="D" />
+		<set name="commissionItemType" val="FEET" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="2334" />
+		<createItems>
+			<item id="40" count="1" chance="2" /> <!-- Leather Boots -->
+			<item id="31572" count="1" chance="98" /> <!-- Bound Leather Boots -->
+		</createItems>
+		<skills>
+			<skill id="12795" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32187" name="Unidentified Leather Gauntlets" type="EtcItem">
+		<!-- Leather Gauntlets in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: Gloves) -->
+		<set name="icon" val="icon.armor_t18_g_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="D" />
+		<set name="commissionItemType" val="GLOVES" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="3712" />
+		<createItems>
+			<item id="605" count="1" chance="2" /> <!-- Leather Gauntlets -->
+			<item id="31573" count="1" chance="98" /> <!-- Bound Leather Gauntlets -->
+		</createItems>
+		<skills>
+			<skill id="12796" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32188" name="Unidentified Gastraphetes" type="EtcItem">
+		<!-- Gastraphetes in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / bow) -->
+		<set name="icon" val="icon.weapon_gastraphetes_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="D" />
+		<set name="commissionItemType" val="BOW" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="107807" />
+		<createItems>
+			<item id="278" count="1" chance="2" /> <!-- Gastraphetes -->
+			<item id="31574" count="1" chance="98" /> <!-- Bound Gastraphetes -->
+		</createItems>
+		<skills>
+			<skill id="12797" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32189" name="Unidentified Guardian's Sword" type="EtcItem">
+		<!-- Guardian's Sword in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / sword) -->
+		<set name="icon" val="icon.weapon_guardians_sword_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="B" />
+		<set name="commissionItemType" val="TWO_HAND_SWORD" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="1463253" />
+		<createItems>
+			<item id="7883" count="1" chance="2" /> <!-- Guardian's Sword -->
+			<item id="31577" count="1" chance="32" /> <!-- Bound Guardian's Sword - Health -->
+			<item id="31576" count="1" chance="33" /> <!-- Bound Guardian's Sword - Critical Drain -->
+			<item id="31578" count="1" chance="33" /> <!-- Bound Guardian's Sword - Critical Bleed -->
+		</createItems>
+		<skills>
+			<skill id="12798" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="32190" name="Talisman (R-grade) - P. Atk." type="Armor">
+		<!-- P. Atk. + 2% when equipped. -->
+		<set name="icon" val="icon.r85_talisman_pa_up_passive" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
+		<set name="is_freightable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<set name="is_private_storeable" val="false" />
+		<set name="bodypart" val="deco1" />
+		<set name="useSkillDisTime" val="1" />
+		<set name="duration" val="600" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="150" />
+		<skills>
+			<skill id="13125" level="1" /> <!-- Special Talisman - P. Atk. -->
+		</skills>
+	</item>
+	<item id="32191" name="Talisman (R-grade) - P. Atk. Spd." type="Armor">
+		<!-- Atk. Spd. + 2% when equipped. -->
+		<set name="icon" val="icon.r85_talisman_pa_up_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
+		<set name="is_freightable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<set name="is_private_storeable" val="false" />
+		<set name="bodypart" val="deco1" />
+		<set name="useSkillDisTime" val="1" />
+		<set name="duration" val="600" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="150" />
+		<skills>
+			<skill id="13127" level="1" /> <!-- Special Talisman - Atk. Spd. -->
+		</skills>
+	</item>
+	<item id="32192" name="Talisman (R-grade) - M. Atk." type="Armor">
+		<!-- M. Atk. + 2% when equipped. -->
+		<set name="icon" val="icon.r85_talisman_ma_up_passive" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
+		<set name="is_freightable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<set name="is_private_storeable" val="false" />
+		<set name="bodypart" val="deco1" />
+		<set name="useSkillDisTime" val="1" />
+		<set name="duration" val="600" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="150" />
+		<skills>
+			<skill id="13126" level="1" /> <!-- Special Talisman - M. Atk. -->
+		</skills>
+	</item>
+	<item id="32193" name="Talisman (R-grade) - Casting Spd." type="Armor">
+		<!-- Casting Spd. + 2% when equipped. -->
+		<set name="icon" val="icon.r85_talisman_ma_up_active" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
+		<set name="is_freightable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<set name="is_private_storeable" val="false" />
+		<set name="bodypart" val="deco1" />
+		<set name="useSkillDisTime" val="1" />
+		<set name="duration" val="600" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="150" />
+		<skills>
+			<skill id="13128" level="1" /> <!-- Special Talisman - Casting Spd. -->
+		</skills>
+	</item>
+	<item id="32194" name="Blessed Twilight Helmet" additionalName="Attack Type" type="Armor">
+		<set name="icon" val="icon.armor_helmet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="1190" />
+		<set name="weight" val="530" />
+		<set name="is_freightable" val="false" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="commissionItemType" val="HELMET" />
+		<set name="blessed" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="55796000" />
+		<stats>
+			<stat type="pDef">126</stat>
+			<stat type="rEvas">1.05</stat>
+			<stat type="mEvas">1.05</stat>
+		</stats>
+	</item>
+	<item id="32195" name="Blessed Twilight Breastplate" additionalName="Attack Type" type="Armor">
+		<set name="icon" val="icon.armor_t401_u_i00" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="chest" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="3174" />
+		<set name="weight" val="7520" />
+		<set name="is_freightable" val="false" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="commissionItemType" val="ARMOR_TOP" />
+		<set name="isAppearanceable" val="true" />
+		<set name="blessed" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="148789000" />
+		<skills>
+			<skill id="13063" level="1" /> <!-- Cloak Slot Activation (R-grade) -->
+		</skills>
+		<stats>
+			<stat type="pDef">335</stat>
+			<stat type="pAtk">26</stat>
+		</stats>
+	</item>
+	<item id="32196" name="Blessed Twilight Gaiters" additionalName="Attack Type" type="Armor">
+		<set name="icon" val="icon.armor_t401_l_i00" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="legs" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="1983" />
+		<set name="weight" val="3170" />
+		<set name="is_freightable" val="false" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="commissionItemType" val="ARMOR_PANTS" />
+		<set name="isAppearanceable" val="true" />
+		<set name="blessed" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="92993000" />
+		<stats>
+			<stat type="pDef">209</stat>
+			<stat type="rCrit">2.6</stat>
+			<stat type="mCritRate">2.6</stat>
+		</stats>
+	</item>
+	<item id="32197" name="Blessed Twilight Gauntlets" additionalName="Attack Type" type="Armor">
+		<set name="icon" val="icon.armor_t401_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="793" />
+		<set name="weight" val="510" />
+		<set name="is_freightable" val="false" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="commissionItemType" val="GLOVES" />
+		<set name="isAppearanceable" val="true" />
+		<set name="blessed" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="37197000" />
+		<stats>
+			<stat type="pDef">84</stat>
+			<stat type="accCombat">1</stat>
+			<stat type="accMagic">1</stat>
+		</stats>
+	</item>
+	<item id="32198" name="Blessed Twilight Boots" additionalName="Attack Type" type="Armor">
+		<set name="icon" val="icon.armor_t401_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="793" />
+		<set name="weight" val="1070" />
+		<set name="is_freightable" val="false" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="commissionItemType" val="FEET" />
+		<set name="isAppearanceable" val="true" />
+		<set name="blessed" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="37197000" />
+		<stats>
+			<stat type="pDef">84</stat>
+			<stat type="moveSpeed">15</stat>
+		</stats>
+	</item>
+	<item id="32199" name="Blessed Twilight Shield" additionalName="Attack Type" type="Armor">
+		<!-- Additionally increases Shield Defense. -->
+		<set name="icon" val="icon.kratere_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lhand" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="833" />
+		<set name="weight" val="1130" />
+		<set name="is_freightable" val="false" />
+		<set name="enchant_enabled" val="1" />
+		<set name="commissionItemType" val="SHIELD" />
+		<set name="isAppearanceable" val="true" />
+		<set name="blessed" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="39057000" />
+		<skills>
+			<skill id="8782" level="1" /> <!-- Equip Shield -->
+		</skills>
+		<stats>
+			<stat type="sDef">458</stat>
+			<stat type="rShld">20</stat>
+			<stat type="rEvas">-8</stat>
+		</stats>
+	</item>
+</list>

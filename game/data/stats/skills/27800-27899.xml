@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
+<skill id="27832" toLevel="3" name="La Vie En Rose's Radiant Brooch">
+		<icon>icon.etc_rbracelet_s_i03</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="JewelSlot">
+				<amount>
+					<value level="1">6</value>
+					<value level="2">6</value>
+					<value level="3">6</value>
+				</amount>
+			</effect>
+			<effect name="EnlargeSlot">
+				<amount>
+					<value level="1">12</value>
+					<value level="2">12</value>
+					<value level="3">12</value>
+				</amount>
+				<type>INVENTORY_NORMAL</type>
+			</effect>
+			<effect name="StatUp">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">1</value>
+					<value level="3">2</value>
+				</amount>
+				<stat>CHA</stat>
+			</effect>
+			<effect name="StatUp" fromLevel="3" toLevel="3">
+				<amount>2</amount>
+				<stat>STR</stat>
+			</effect>
+			<effect name="StatUp" fromLevel="3" toLevel="3">
+				<amount>2</amount>
+				<stat>DEX</stat>
+			</effect>
+			<effect name="StatUp" fromLevel="3" toLevel="3">
+				<amount>2</amount>
+				<stat>CON</stat>
+			</effect>
+			<effect name="StatUp" fromLevel="3" toLevel="3">
+				<amount>2</amount>
+				<stat>INT</stat>
+			</effect>
+			<effect name="StatUp" fromLevel="3" toLevel="3">
+				<amount>2</amount>
+				<stat>WIT</stat>
+			</effect>
+			<effect name="StatUp" fromLevel="3" toLevel="3">
+				<amount>2</amount>
+				<stat>MEN</stat>
+			</effect>
+			<effect name="StatUp" fromLevel="3" toLevel="3">
+				<amount>2</amount>
+				<stat>LUC</stat>
+			</effect>
+			<effect name="MaxCp" fromLevel="3" toLevel="3">
+				<amount>12</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+</list>

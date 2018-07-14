@@ -1,0 +1,699 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="47600" name="Warm Bear Paws" type="Weapon">
+		<set name="icon" val="BranchSys2.icon.br_polar_bear_wp_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="450" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_sellable" val="false" />
+		<stats>
+			<stat type="pAtk">5</stat>
+			<stat type="mAtk">5</stat>
+			<stat type="rCrit">6</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+	</item>
+	<item id="47601" name="Novice Training Log" type="EtcItem">
+		<!-- A log recorded by Shannon while training the new Commando recruits. You must take this to the Warehouse Keeper Wilford. -->
+		<set name="icon" val="icon.etc_spellbook_blue_i00" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_private_storeable" val="false" />
+	</item>
+	<item id="47602" name="Weapon Supply Box" type="EtcItem">
+		<!-- A weapon supply box that the Weapon Merchant Lector has asked you to take to the Administrative Offices -->
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_private_storeable" val="false" />
+	</item>
+	<item id="47603" name="Armor Supply Box" type="EtcItem">
+		<!-- An armor supply box that the Weapon Merchant Lector has asked you to take to the Administrative Offices -->
+		<set name="icon" val="icon.etc_box_of_adventure_3_i00" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_private_storeable" val="false" />
+	</item>
+	<item id="47604" name="Grocery Supply Box" type="EtcItem">
+		<!-- A grocery supply box that the Grocer Katerina has asked you to take to the Administrative Offices -->
+		<set name="icon" val="icon.etc_box_of_adventure_4_i00" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_private_storeable" val="false" />
+	</item>
+	<item id="47605" name="Accessory Supply Box" type="EtcItem">
+		<!-- An accessory supply box that the Accessory Merchant Trevor has asked you to take to the Administrative Offices -->
+		<set name="icon" val="icon.etc_box_of_adventure_5_i00" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_private_storeable" val="false" />
+	</item>
+	<item id="47606" name="Husk Distribution Report" type="EtcItem">
+		<!-- An Exploration Area 2 Husk Distribution Report that was misplaced in Area 2 by Nagel while retreating to Area 1. Collect and take to Celin who is in Area 2 for the meantime, instead of Nagel. -->
+		<set name="icon" val="icon.etc_letter_red_i00" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_private_storeable" val="false" />
+	</item>
+	<item id="47607" name="King's Tonic" type="EtcItem">
+		<!-- A tonic that the Searchdog King takes for health. Due to the King's habit of hiding his possessions here and there, the tonic lies scattered throughout Exploration Area 4. The Husks sometimes unearth the tonic that the King has hidden, and carry them around. Collect the King's Tonic from the Husks, and take them to Sebion. -->
+		<set name="icon" val="icon.etc_potion_yellow_i00" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_private_storeable" val="false" />
+	</item>
+	<item id="47608" name="Monkey Bait" additionalName="R" type="EtcItem">
+		<!-- Fishing Time: 75 seconds. Standby Time: 15 seconds. Fish bait bought from Chef Monkey. Fish using this bait to catch Ugly Fish, Nimble Fish, Powerful Fish, and Chef Monkey's Treasure Chest. Can be used by characters between Lv. 85-94. Will be deleted when the event ends. -->
+		<set name="icon" val="Icon.ev_monkey_banana" />
+		<set name="default_action" val="EQUIP" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="47609" name="Monkey Bait" additionalName="R95" type="EtcItem">
+		<!-- Fishing Time: 75 seconds. Standby Time: 15 seconds. Fish bait bought from Chef Monkey. Fish using this bait to catch Ugly Fish, Nimble Fish, Powerful Fish, and Chef Monkey's Treasure Chest. Can be used by characters between Lv. 95-98. Will be deleted when the event ends. -->
+		<set name="icon" val="Icon.ev_monkey_banana" />
+		<set name="default_action" val="EQUIP" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="47610" name="Monkey Bait" additionalName="R99" type="EtcItem">
+		<!-- Fishing Time: 75 seconds. Fishing Standby Time: 15 seconds. Fish bait bought from Chef Monkey. Fish using this bait to catch Ugly Fish, Nimble Fish, Powerful Fish, and Chef Monkey's Treasure Chest. Can be used by characters with Lv. 99 or above. Will be deleted when the event ends. -->
+		<set name="icon" val="Icon.ev_monkey_banana" />
+		<set name="default_action" val="EQUIP" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="47611" name="Chef Monkeys' Banana Herb" type="EtcItem">
+		<!-- Chef Monkeys' Banana Herb. P.Atk./M.Atk./P. Def./M. Def. increase by 50% for 5 minutes, and XP and SP gained increase by 10%. Effect disappears when restarted. -->
+		<set name="icon" val="icon.general_fuel_i00" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="47612" name="Chef Monkey's Treasure Chest" type="EtcItem">
+		<!-- Chef Monkey's Treasure Chest, caught using the Banana Bait. Use to obtain various items. Will be deleted after the event. -->
+		<set name="icon" val="icon.new_user_box" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="47626" name="Ruby Lv. 3 Jewelry Box" type="EtcItem">
+		<!-- Double-click to obtain a Ruby Lv. 3. -->
+		<set name="icon" val="icon.etc_bm_jewelbox_ruby_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="47627" name="Sapphire Lv. 3 Jewelry Box" type="EtcItem">
+		<!-- Double-click to obtain a Sapphire Lv. 3. -->
+		<set name="icon" val="icon.etc_bm_jewelbox_sapphire_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="47628" name="Topaz Lv. 3 Jewelry Box" type="EtcItem">
+		<!-- Double-click to obtain a Topaz Lv. 3. -->
+		<set name="icon" val="icon.etc_bm_jewelbox_topaz_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="47629" name="Opal Lv. 3 Jewelry Box" type="EtcItem">
+		<!-- Double-click to obtain an Opal Lv. 3. -->
+		<set name="icon" val="icon.etc_bm_jewelbox_opal_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="47630" name="Obsidian Lv. 3 Jewelry Box" type="EtcItem">
+		<!-- Double-click to obtain a Obsidian Lv. 3. -->
+		<set name="icon" val="icon.etc_bm_jewelbox_obsidian_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="47631" name="Diamond Lv. 3 Jewelry Box" type="EtcItem">
+		<!-- Double-click to obtain a Diamond Lv. 3. -->
+		<set name="icon" val="icon.etc_bm_jewelbox_diamond_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="47632" name="Emerald Lv. 3 Jewelry Box" type="EtcItem">
+		<!-- Double-click to obtain a Emerald Lv. 3. -->
+		<set name="icon" val="icon.etc_bm_jewelbox_emerald_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="47633" name="Aquamarine Lv. 3 Jewelry Box" type="EtcItem">
+		<!-- Double-click to obtain a Aquamarine Lv. 3. -->
+		<set name="icon" val="icon.etc_bm_jewelbox_aquamarine_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="47634" name="Pearl Lv. 3 Jewelry Box" type="EtcItem">
+		<!-- Double-click to obtain a Pearl Lv. 3. -->
+		<set name="icon" val="icon.etc_bm_jewelbox_pearl_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="47635" name="Vital Stone Lv. 3 Jewelry Box" type="EtcItem">
+		<!-- Double-click to obtain a Vital Stone Lv. 3. -->
+		<set name="icon" val="icon.etc_bm_jewelbox_vital" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="47636" name="Garnet Lv. 3 Jewelry Box" type="EtcItem">
+		<!-- Double-click to obtain a Garnet Lv. 3. -->
+		<set name="icon" val="icon.etc_bm_jewelbox_garnet" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="47637" name="Tanzanite Lv. 3 Jewelry Box" type="EtcItem">
+		<!-- Double-click to obtain a Tanzanite Lv. 3. -->
+		<set name="icon" val="icon.etc_bm_jewelbox_tanzanite" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="47638" name="Ruby Lv. 4 Jewelry Box" type="EtcItem">
+		<!-- Double-click to obtain a Ruby Lv. 4. -->
+		<set name="icon" val="icon.etc_bm_jewelbox_ruby_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="47639" name="Sapphire Lv. 4 Jewelry Box" type="EtcItem">
+		<!-- Double-click to obtain a Sapphire Lv. 4. -->
+		<set name="icon" val="icon.etc_bm_jewelbox_sapphire_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="47640" name="Topaz Lv. 4 Jewelry Box" type="EtcItem">
+		<!-- Double-click to obtain a Topaz Lv. 4. -->
+		<set name="icon" val="icon.etc_bm_jewelbox_topaz_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="47641" name="Opal Lv. 4 Jewelry Box" type="EtcItem">
+		<!-- Double-click to obtain an Opal Lv. 4. -->
+		<set name="icon" val="icon.etc_bm_jewelbox_opal_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="47642" name="Obsidian Lv. 4 Jewelry Box" type="EtcItem">
+		<!-- Double-click to obtain a Obsidian Lv. 4. -->
+		<set name="icon" val="icon.etc_bm_jewelbox_obsidian_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="47643" name="Diamond Lv. 4 Jewelry Box" type="EtcItem">
+		<!-- Double-click to obtain a Diamond Lv. 4. -->
+		<set name="icon" val="icon.etc_bm_jewelbox_diamond_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="47644" name="Emerald Lv. 4 Jewelry Box" type="EtcItem">
+		<!-- Double-click to obtain a Emerald Lv. 4. -->
+		<set name="icon" val="icon.etc_bm_jewelbox_emerald_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="47645" name="Aquamarine Lv. 4 Jewelry Box" type="EtcItem">
+		<!-- Double-click to obtain a Aquamarine Lv. 4. -->
+		<set name="icon" val="icon.etc_bm_jewelbox_aquamarine_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="47646" name="Pearl Lv. 4 Jewelry Box" type="EtcItem">
+		<!-- Double-click to obtain a Pearl Lv. 4. -->
+		<set name="icon" val="icon.etc_bm_jewelbox_pearl_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="47647" name="Vital Stone Lv. 4 Jewelry Box" type="EtcItem">
+		<!-- Double-click to obtain a Vital Stone Lv. 4. -->
+		<set name="icon" val="icon.etc_bm_jewelbox_vital" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="47648" name="Garnet Lv. 4 Jewelry Box" type="EtcItem">
+		<!-- Double-click to obtain a Garnet Lv. 4. -->
+		<set name="icon" val="icon.etc_bm_jewelbox_garnet" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="47649" name="Tanzanite Lv. 4 Jewelry Box" type="EtcItem">
+		<!-- Double-click to obtain a Tanzanite Lv. 4. -->
+		<set name="icon" val="icon.etc_bm_jewelbox_tanzanite" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="47663" name="Freya's Art of Seduction" additionalName="Barrier" type="EtcItem">
+		<!-- Dimensional Item. For 30 min., Max HP/MP/CP + 30%, P. Atk. + 10%, M. Atk. + 20%, P./M. Def + 30%, Speed + 20, Skill MP Consumption - 15%. Additionally, Damage Reduction + 10%, All Attributes Defense + 100. Buff remains in place after death. Cooldown is 5 minutes. Cannot be stacked with Art of Seduction. Cannot be used in Olympiad. -->
+		<set name="icon" val="icon.bm_freya_rose_red_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="immediate_effect" val="true" />
+		<set name="reuse_delay" val="300000" />
+		<set name="weight" val="1" />
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<skills>
+			<skill id="18700" level="1" /> <!-- Freya's Art of Seduction -->
+		</skills>
+	</item>
+	<item id="47664" name="Freya's Art of Seduction" additionalName="Exp" type="EtcItem">
+		<!-- Dimensional Item. For 30 min., Max HP/MP/CP + 30%, P. Atk. + 10%, M. Atk. + 20%, P./M. Def + 30%, Speed + 20, Skill MP Consumption - 15%. Additionally, XP Gain + 30%, Vitality Bonus + 12. Buff remains in place after death. Cooldown is 5 minutes. Cannot be stacked with Art of Seduction. Cannot be used in Olympiad. -->
+		<set name="icon" val="icon.bm_freya_rose_red_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="immediate_effect" val="true" />
+		<set name="reuse_delay" val="300000" />
+		<set name="weight" val="1" />
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<skills>
+			<skill id="18701" level="1" /> <!-- Freya's Art of Seduction -->
+		</skills>
+	</item>
+	<item id="47665" name="Pa'agrio's Blessing" additionalName="Might" type="EtcItem">
+		<!-- Dimensional Item. For 30 min., Max HP/MP/CP + 10%, P. Atk. + 20%, M. Atk. + 30%, P./M. Def + 10%, P. Accuracy+ 4, M. Accuracy + 4, Atk./Casting Spd. + 10%, Speed + 10, Attack Attribute + 100, Skill MP Consumption - 10%. Additionally, Damage + 10%, Skill Power + 10. Buff remains in place after death. Cooldown is 5 minutes. Cannot be stacked with Art of Seduction. Cannot be used in Olympiad. -->
+		<set name="icon" val="icon.nshop_bless_of_paagrio" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="weight" val="1" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="47666" name="Pa'agrio's Blessing" additionalName="Exp" type="EtcItem">
+		<!-- Dimensional Item. For 30 min., Max HP/MP/CP + 10%, P. Atk. + 20%, M. Atk. + 30%, P./M. Def + 10%, P. Accuracy+ 4, M. Accuracy + 4, Atk./Casting Spd. + 10%, Speed + 10, Attack Attribute + 100, Skill MP Consumption - 10%. Additionally, XP Gain + 30%, Vitality Bonus + 12. Buff remains in place after death. Cooldown is 5 minutes. Cannot be stacked with Art of Seduction. Cannot be used in Olympiad. -->
+		<set name="icon" val="icon.nshop_bless_of_paagrio" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="weight" val="1" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="47677" name="Red Cat's Eye" additionalName="Lv. 1" type="Armor">
+		<!-- When using a physical skill after equipping, P. Critical Damage + 1% and P. Skill Critical Damage + 1%. Effect does not stack with additional jewels of the same type. -->
+		<set name="icon" val="icon.bm_jewel_red_catseye" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="5" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="18713" level="1" />
+		</skills>
+	</item>
+	<item id="47678" name="Red Cat's Eye" additionalName="Lv. 2" type="Armor">
+		<!-- When using a physical skill after equipping, P. Critical Damage + 2% and P. Skill Critical Damage + 2%. Effect does not stack with additional jewels of the same type. -->
+		<set name="icon" val="icon.bm_jewel_red_catseye" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="5" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="18713" level="2" />
+		</skills>
+	</item>
+	<item id="47679" name="Red Cat's Eye" additionalName="Lv. 3" type="Armor">
+		<!-- When using a physical skill after equipping, P. Critical Damage + 4% and P. Skill Critical Damage + 4%. Effect does not stack with additional jewels of the same type. -->
+		<set name="icon" val="icon.bm_jewel_red_catseye" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="5" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="18713" level="3" />
+		</skills>
+	</item>
+	<item id="47680" name="Red Cat's Eye" additionalName="Lv. 4" type="Armor">
+		<!-- When using a physical skill after equipping, P. Critical Damage + 7% and P. Skill Critical Damage + 7%. Effect does not stack with additional jewels of the same type. -->
+		<set name="icon" val="icon.bm_jewel_red_catseye" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="5" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="18713" level="4" />
+		</skills>
+	</item>
+	<item id="47681" name="Red Cat's Eye" additionalName="Lv. 5" type="Armor">
+		<!-- When using a physical skill after equipping, P. Critical Damage + 12% and P. Skill Critical Damage + 12%. Effect does not stack with additional jewels of the same type. -->
+		<set name="icon" val="icon.bm_jewel_red_catseye" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="18713" level="5" />
+		</skills>
+	</item>
+	<item id="47682" name="Blue Cat's Eye" additionalName="Lv. 1" type="Armor">
+		<!-- When equipped, M. Skill Critical Damage + 1%. Effect does not stack with additional jewels of the same type. -->
+		<set name="icon" val="Icon.bm_jewel_blue_catseye" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="5" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="18714" level="1" />
+		</skills>
+	</item>
+	<item id="47683" name="Blue Cat's Eye" additionalName="Lv. 2" type="Armor">
+		<!-- When equipped, M. Skill Critical Damage + 2%. Effect does not stack with additional jewels of the same type. -->
+		<set name="icon" val="Icon.bm_jewel_blue_catseye" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="5" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="18714" level="2" />
+		</skills>
+	</item>
+	<item id="47684" name="Blue Cat's Eye" additionalName="Lv. 3" type="Armor">
+		<!-- When equipped, M. Skill Critical Damage + 4%. Effect does not stack with additional jewels of the same type. -->
+		<set name="icon" val="Icon.bm_jewel_blue_catseye" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="5" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="18714" level="3" />
+		</skills>
+	</item>
+	<item id="47685" name="Blue Cat's Eye" additionalName="Lv. 4" type="Armor">
+		<!-- When equipped, M. Skill Critical Damage + 7%. Effect does not stack with additional jewels of the same type. -->
+		<set name="icon" val="Icon.bm_jewel_blue_catseye" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="5" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="18714" level="4" />
+		</skills>
+	</item>
+	<item id="47686" name="Blue Cat's Eye" additionalName="Lv. 5" type="Armor">
+		<!-- When equipped, M. Skill Critical Damage + 12%. Effect does not stack with additional jewels of the same type. -->
+		<set name="icon" val="Icon.bm_jewel_blue_catseye" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="18714" level="5" />
+		</skills>
+	</item>
+	<item id="47687" name="Greater Topaz" type="Armor">
+		<!-- Disrupts the target's skill casting when used. When used on a PC, inflicts damage with 13275 power, ignoring the target's CP. Low chance of killing the enemy instantly. Effect does not stack with additional jewels of the same type. Equipping various Greater Jewels will grant additional effects. -->
+		<set name="icon" val="icon.bm_jewel_absdmg_high_lv1_lavianrose" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="17701" level="6" />
+		</skills>
+	</item>
+	<item id="47688" name="Greater Ruby" type="Armor">
+		<!-- When equipped, increases Soulshot and Beast Soulshot damage by 20% and P. Atk. By 9%. Effect does not stack with additional jewels of the same type. Equipping various Greater Jewels will grant additional effects. -->
+		<set name="icon" val="icon.bm_jewel_ssdmg_high_lv1_lavianrose" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="18715" level="1" /> <!-- Greater Ruby -->
+			<skill id="18716" level="1" /> <!-- Greater Ruby -->
+			<skill id="18717" level="6" /> <!-- Ruby -->
+		</skills>
+	</item>
+	<item id="47689" name="Greater Sapphire" type="Armor">
+		<!-- When equipped, increases Spiritshot and Blessed Spiritshot damage by 20% and M. Atk. By 13%. Effect does not stack with additional jewels of the same type. Equipping various Greater Jewels will grant additional effects. -->
+		<set name="icon" val="icon.bm_jewel_spsdmg_high_lv1_lavianrose" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="18718" level="1" /> <!-- Greater Sapphire -->
+			<skill id="18718" level="2" /> <!-- Greater Sapphire -->
+			<skill id="18719" level="6" /> <!-- Sapphire -->
+		</skills>
+	</item>
+	<item id="47690" name="Greater Obsidian" type="Armor">
+		<!-- When equipped, PvP incoming damage decreases by 15% and cancels the attacker's target. Effect does not stack with additional jewels of the same type. Equipping various Greater Jewels will grant additional effects. -->
+		<set name="icon" val="icon.bm_jewel_pvpdef_high_lv1_lavianrose" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="17704" level="6" />
+		</skills>
+	</item>
+	<item id="47691" name="Greater Opal" type="Armor">
+		<!-- When equipped, increases Attack Attribute by 120 and all Defense Attributes by 70. Effect does not stack with additional jewels of the same type. Equipping various Greater Jewels will grant additional effects. -->
+		<set name="icon" val="icon.bm_jewel_atkeleup_high_lv1_lavianrose" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="17705" level="6" />
+		</skills>
+	</item>
+	<item id="47692" name="Greater Emerald" type="Armor">
+		<!-- When equipped, all basic stats + 3 and Skill Prominence rate + 30%. Effect does not stack with additional jewels of the same type. Equipping various Greater Jewels will grant additional effects. -->
+		<set name="icon" val="icon.bm_jewel_allstat_high_lv1_lavianrose" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="17825" level="6" />
+		</skills>
+	</item>
+	<item id="47693" name="Greater Aquamarine" type="Armor">
+		<!-- When using a skill after equipping, there is a 15% chance of recovering 136 MP, and skill cooldown is reduced by 5%. Effect does not stack with additional jewels of the same type. Equipping various Greater Jewels will grant additional effects. -->
+		<set name="icon" val="icon.bm_jewel_castmpup_high_lv1_lavianrose" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="17823" level="6" />
+		</skills>
+	</item>
+	<item id="47694" name="Greater Diamond" type="Armor">
+		<!-- When equipped, P. Def. Increases by 1986 and incoming P. Critical Damage decreases by 5%. P. Def. increases by 10% as well. Effect does not stack with additional jewels of the same type. Equipping various Greater Jewels will grant additional effects. -->
+		<set name="icon" val="icon.bm_jewel_phydef_high_lv1_lavianrose" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="17708" level="6" />
+		</skills>
+	</item>
+	<item id="47695" name="Greater Pearl" type="Armor">
+		<!-- When equipped, M. Def. Increases by 1150 and incoming M. Critical Damage decreases by 5%. M. Def. increases by 10% as well. Effect does not stack with additional jewels of the same type. Equipping various Greater Jewels will grant additional effects. -->
+		<set name="icon" val="icon.bm_jewel_magdef_high_lv1_lavianrose" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="17709" level="6" />
+		</skills>
+	</item>
+	<item id="47696" name="Greater Vital Stone" type="Armor">
+		<!-- Increases Vitality Status Bonus XP by 30% and the Vitality Point Consumption Speed decreases by 15%. XP Gain increases by 10% as well. Effect does not stack with additional jewels of the same type. Equipping various Greater Jewels will grant additional effects. -->
+		<set name="icon" val="icon.bm_jewel_vital_high_lv1_lavianrose" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="18568" level="6" />
+		</skills>
+	</item>
+	<item id="47697" name="Greater Garnet" type="Armor">
+		<!-- Increases success rate of Resistance to Debuffs by 30%, and when receiving damage to a PC, Stun/Silence are canceled. When used, all debuffs are canceled. Effect does not stack with additional jewels of the same type. Equipping various Greater Jewels will grant additional effects. -->
+		<set name="icon" val="icon.bm_jewel_garnet_high_lv1_lavianrose" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="18566" level="6" />
+			<skill id="18567" level="2" />
+		</skills>
+	</item>
+	<item id="47698" name="Greater Tanzanite" type="Armor">
+		<!-- Creates a protection shield that absorbs 50,000 damage for 15 seconds, and recovers 15% of Max HP immediately. Effect does not stack with additional jewels of the same type. Equipping various Greater Jewels will grant additional effects. -->
+		<set name="icon" val="icon.bm_jewel_tanzanite_high_lv1_lavianrose" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="18565" level="6" /> <!-- Greater Tanzanite - Barrier -->
+		</skills>
+	</item>
+	<item id="47699" name="Greater Red Cat's Eye" type="Armor">
+		<!-- When using a physical skill after equipping, P. Critical Damage + 12%, P. Skill Critical Damage + 12% and P. Skill Power + 5%. Effect does not stack with additional jewels of the same type. Equipping various Greater Jewels will grant additional effects. -->
+		<set name="icon" val="icon.bm_jewel_red_catseye_high_lv1_lavianrose" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="18713" level="6" />
+		</skills>
+	</item>
+</list>

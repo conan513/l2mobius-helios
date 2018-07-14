@@ -1,0 +1,2320 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
+	<skill id="16600" toLevel="1" name="Devil Swarm">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<magicLvl>102</magicLvl>
+		<mpConsume>10</mpConsume>
+		<castRange>100</castRange>
+		<hitTime>2000</hitTime>
+		<coolTime>500</coolTime>
+		<isMagic>2</isMagic> <!-- Static Skill -->
+		<effectPoint>-828</effectPoint>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<effects>
+			<effect name="PhysicalAttack">		<!-- TODO -->
+				<power>100000</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16601" toLevel="1" name="Devil Fire">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<magicLvl>102</magicLvl>
+		<mpConsume>10</mpConsume>
+		<castRange>900</castRange>
+		<hitTime>500</hitTime>
+		<coolTime>500</coolTime>
+		<isMagic>2</isMagic> <!-- Static Skill -->
+		<effectPoint>-828</effectPoint>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<effects>
+			<effect name="MagicalAttack">
+				<power>1500</power>		<!-- TODO -->
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16602" toLevel="1" name="Dark Curse">
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+		<abnormalLvl>3</abnormalLvl>
+		<abnormalTime>10</abnormalTime>
+		<magicLvl>102</magicLvl>
+		<mpConsume>10</mpConsume>
+		<castRange>600</castRange>
+		<hitTime>2000</hitTime>
+		<coolTime>500</coolTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>2</isMagic> <!-- Static Skill -->
+		<effectPoint>-150</effectPoint>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<effects>
+			<effect name="PhysicalAttack">
+				<amount>-30</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>-30</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16603" toLevel="1" name="Poison Wave">
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+		<abnormalLvl>3</abnormalLvl>
+		<abnormalTime>15</abnormalTime>
+		<magicLvl>102</magicLvl>
+		<mpConsume>10</mpConsume>
+		<castRange>100</castRange>
+		<hitTime>2000</hitTime>
+		<coolTime>500</coolTime>
+		<abnormalType>POISON</abnormalType>
+		<abnormalVisualEffect>DOT_POISON</abnormalVisualEffect>
+		<isDebuff>true</isDebuff>
+		<isMagic>2</isMagic> <!-- Static Skill -->
+		<effectPoint>-150</effectPoint>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<effects>
+			<effect name="DamOverTime">
+				<power>250</power>
+				<ticks>1</ticks>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16604" toLevel="1" name="Devil Trap">
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+		<abnormalLvl>3</abnormalLvl>
+		<abnormalTime>10</abnormalTime>
+		<magicLvl>102</magicLvl>
+		<mpConsume>10</mpConsume>
+		<castRange>900</castRange>
+		<hitTime>2000</hitTime>
+		<coolTime>500</coolTime>
+		<abnormalType>ROOT_MAGICALLY</abnormalType>
+		<isDebuff>true</isDebuff>
+		<isMagic>2</isMagic> <!-- Static Skill -->
+		<effectPoint>-1578</effectPoint>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<effects>
+			<effect name="Speed">
+				<amount>-50</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalAttackSpeed">
+				<amount>-50</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttackSpeed">
+				<amount>-50</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16605" toLevel="4" name="Replenish Shine Energy">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>10</abnormalTime>
+		<affectRange>1000</affectRange>
+		<magicLvl>102</magicLvl>
+		<mpConsume>10</mpConsume>
+		<castRange>400</castRange>
+		<hitTime>3000</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>30000</reuseDelay>
+		<isMagic>4</isMagic> <!-- Static Skill -->
+		<effectPoint>418</effectPoint>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<affectObject>FRIEND</affectObject>
+		<effects>
+			<effect name="PAtk">
+				<amount>30</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MAtk">
+				<amount>30</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16606" toLevel="1" name="Energy Tremble">
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalType>STUN</abnormalType>
+		<abnormalTime>2</abnormalTime>
+		<abnormalVisualEffect>KNOCKBACK</abnormalVisualEffect>
+		<activateRate>200</activateRate>
+		<affectLimit>10-10</affectLimit>
+		<magicLvl>102</magicLvl>
+		<mpConsume>10</mpConsume>
+		<castRange>100</castRange>
+		<hitTime>3000</hitTime>
+		<coolTime>500</coolTime>
+		<effectRange>100</effectRange>
+		<affectRange>200</affectRange>
+		<reuseDelay>30000</reuseDelay>
+		<isMagic>2</isMagic> <!-- Static Skill -->
+		<effectPoint>-709</effectPoint>
+		<targetType>ENEMY</targetType>
+		<affectScope>RANGE</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<trait>SHOCK</trait>
+		<isDebuff>true</isDebuff>
+		<effects>
+			<effect name="PhysicalAttack">		<!-- TODO -->
+				<power>100000</power>
+			</effect>
+			<effect name="KnockBack">
+				<speed>400</speed>
+				<distance>200</distance>
+			</effect>
+			<effect name="BlockActions">
+				<allowedSkills>10279;10517;10025;10776;11770;1904;11264;11093;13314;1912;30516</allowedSkills>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16607" toLevel="1" name="Mimir">
+		<icon>icon.skill1497</icon>
+		<operateType>P</operateType>
+		<targetType>SELF</targetType>
+	</skill>
+	<skill id="16608" toLevel="10" name="Servitor Attack Weakness">
+		<!-- A slight weakness to Servitor attacks. -->
+		<icon>icon.skill1497</icon>
+		<operateType>P</operateType>
+		<targetType>SELF</targetType>
+	</skill>
+	<skill id="16609" toLevel="1" name="Helios' Plasma">
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>10</abnormalTime>
+		<abnormalType>PARALYZE</abnormalType>
+		<activateRate>150</activateRate>
+		<abnormalVisualEffect>PARALYZE</abnormalVisualEffect>
+		<mpConsume>10</mpConsume>
+		<castRange>2500</castRange>
+		<effectRange>2500</effectRange>
+		<affectRange>200</affectRange>
+		<hitTime>3000</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>10000</reuseDelay>
+		<isMagic>2</isMagic> <!-- Static Skill -->
+		<effectPoint>-52</effectPoint>
+		<hitCancelTime>0</hitCancelTime>
+		<trait>PARALYZE</trait>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<isDebuff>true</isDebuff>
+		<effects>
+			<effect name="MagicalAttack">
+				<power>1500</power>		<!-- TODO -->
+			</effect>
+			<effect name="BlockActions">
+				<allowedSkills>10279;10517;10025;10776;11770;1904;11264;11093;13314;1912;30516</allowedSkills>
+			</effect>
+			<effect name="BlockActions" />
+		</effects>
+	</skill>
+	<skill id="16610" toLevel="1" name="Helios' Grand Plasma">
+		<operateType>A1</operateType>
+		<staticReuse>true</staticReuse>
+		<affectLimit>40-80</affectLimit>
+		<castRange>2500</castRange>
+		<affectRange>900</affectRange>
+		<mpConsume>10</mpConsume>
+		<hitTime>1000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<effectRange>2500</effectRange>
+		<targetType>SELF</targetType>
+		<affectScope>POINT_BLANK</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<isDebuff>true</isDebuff>
+		<effects>
+			<effect name="MagicalAttack">
+				<power>1500</power>		<!-- TODO -->
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16611" toLevel="1" name="Helios' Throne of Agony">
+		<operateType>A2</operateType>
+		<abnormalLvl>5</abnormalLvl>
+		<abnormalTime>2</abnormalTime>
+		<activateRate>200</activateRate>
+		<staticReuse>true</staticReuse>
+		<castRange>-1</castRange>
+		<affectLimit>40-80</affectLimit>
+		<affectRange>900</affectRange>
+		<reuseDelay>20000</reuseDelay>
+		<abnormalType>KNOCKDOWN</abnormalType>
+		<abnormalVisualEffect>KNOCKDOWN</abnormalVisualEffect>
+		<hitCancelTime>0</hitCancelTime>
+		<mpConsume>10</mpConsume>
+		<hitTime>1000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<effectRange>2500</effectRange>
+		<trait>KNOCKDOWN</trait>
+		<targetType>SELF</targetType>
+		<affectScope>POINT_BLANK</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<isDebuff>true</isDebuff>
+		<effects>
+			<effect name="MagicalAttack">
+				<power>1500</power>		<!-- TODO -->
+			</effect>
+			<effect name="KnockBack">
+				<speed>600</speed>
+				<distance>200</distance>
+				<knockDown>true</knockDown>
+			</effect>
+			<effect name="BlockActions" />
+		</effects>
+	</skill>
+	<skill id="16612" toLevel="1" name="Emperor Helios' Authority">
+		<operateType>A2</operateType>
+		<abnormalLvl>5</abnormalLvl>
+		<abnormalTime>30</abnormalTime>
+		<activateRate>200</activateRate>
+		<staticReuse>true</staticReuse>
+		<castRange>-1</castRange>
+		<affectLimit>40-80</affectLimit>
+		<affectRange>900</affectRange>
+		<reuseDelay>20000</reuseDelay>
+		<hitCancelTime>0</hitCancelTime>
+		<mpConsume>10</mpConsume>
+		<hitTime>2000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<effectRange>2500</effectRange>
+		<trait>GIANT_WEAKNESS</trait>
+		<targetType>SELF</targetType>
+		<affectScope>POINT_BLANK</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<isDebuff>true</isDebuff>
+		<effects>
+			<effect name="MagicalAttack">
+				<power>1500</power>		<!-- TODO -->
+			</effect>
+			<effect name="PAtk">
+				<amount>30</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MAtk">
+				<amount>30</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>-50</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>-50</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16613" toLevel="1" name="Audience with Emperor Helios">
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+		<abnormalLvl>5</abnormalLvl>
+		<abnormalTime>30</abnormalTime>		<!-- TODO -->
+		<activateRate>200</activateRate>
+		<staticReuse>true</staticReuse>
+		<castRange>2500</castRange>
+		<affectLimit>40-80</affectLimit>
+		<affectRange>900</affectRange>
+		<hitTime>3000</hitTime>
+		<effectPoint>-52</effectPoint>
+		<mpConsume>10</mpConsume>
+		<reuseDelay>30000</reuseDelay>
+		<effectRange>2500</effectRange>
+		<trait>HOLD</trait>
+		<targetType>SELF</targetType>
+		<affectScope>POINT_BLANK</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<isDebuff>true</isDebuff>
+		<effects>
+			<effect name="Speed">
+				<amount>-80</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16614" toLevel="1" name="Helios Plasma Pressure">
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+		<castRange>1200</castRange>
+		<hitTime>2000</hitTime>
+		<effectPoint>-52</effectPoint>
+		<isMagic>1</isMagic>
+		<mpConsume>10</mpConsume>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>10</abnormalTime>		<!-- TODO -->
+		<affectLimit>40-80</affectLimit>
+		<abnormalType>PARALYZE</abnormalType>
+		<abnormalVisualEffect>PARALYZE</abnormalVisualEffect>
+		<activateRate>150</activateRate>
+		<affectRange>900</affectRange>
+		<effectRange>1200</effectRange>
+		<reuseDelay>10000</reuseDelay>
+		<isMagic>2</isMagic> <!-- Static Skill -->
+		<hitCancelTime>0</hitCancelTime>
+		<trait>PARALYZE</trait>
+		<targetType>ENEMY</targetType>
+		<affectScope>RANGE</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<isDebuff>true</isDebuff>
+		<effects>
+			<effect name="PhysicalAttack">		<!-- TODO -->
+				<power>100000</power>
+			</effect>
+			<effect name="BlockActions">
+				<allowedSkills>10279;10517;10025;10776;11770;1904;11264;11093;13314;1912;30516</allowedSkills>
+			</effect>
+			<effect name="BlockActions" />
+		</effects>
+	</skill>
+	<skill id="16615" toLevel="1" name="Helios Plasma Wall">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<staticReuse>true</staticReuse>
+		<affectLimit>45-45</affectLimit>
+		<activateRate>200</activateRate>
+		<castRange>1200</castRange>
+		<affectRange>400</affectRange>
+		<mpConsume>10</mpConsume>
+		<hitTime>3000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-1349</effectPoint>
+		<effectRange>1200</effectRange>
+		<targetType>ENEMY</targetType>
+		<affectScope>RANGE</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<isDebuff>true</isDebuff>
+		<effects>
+			<effect name="MagicalAttack">
+				<power>1500</power>		<!-- TODO -->
+			</effect>
+			<effect name="MagicalAttackMp">
+				<power>250</power>
+				<critical>true</critical>
+				<criticalLimit>1600</criticalLimit>
+			</effect>
+		</effects>	
+	</skill>
+	<skill id="16616" toLevel="1" name="Helios' Overawing Gaze">
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<castRange>1200</castRange>
+		<hitTime>3000</hitTime>
+		<effectPoint>-52</effectPoint>
+		<isMagic>1</isMagic>
+		<mpConsume>10</mpConsume>
+		<reuseDelay>10000</reuseDelay>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>30</abnormalTime>
+		<abnormalType>PARALYZE</abnormalType>
+		<activateRate>150</activateRate>
+		<abnormalVisualEffect>PARALYZE</abnormalVisualEffect>
+		<isDebuff>true</isDebuff>
+		<hitCancelTime>0</hitCancelTime>
+		<trait>PARALYZE</trait>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<effects>
+			<effect name="DamOverTime">
+				<power>200</power>		<!-- TODO -->
+				<ticks>1</ticks>
+			</effect>
+			<effect name="BlockActions">
+				<allowedSkills>10279;10517;10025;10776;11770;1904;11264;11093;13314;1912;30516</allowedSkills>
+			</effect>
+			<effect name="BlockActions" />
+		</effects>
+	</skill>
+	<skill id="16617" toLevel="1" name="Enuma Elish - Red Lightning Spear">
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+		<abnormalLvl>5</abnormalLvl>
+		<abnormalTime>3</abnormalTime>
+		<activateRate>200</activateRate>
+		<staticReuse>true</staticReuse>
+		<castRange>3500</castRange>
+		<affectLimit>40-80</affectLimit>
+		<affectRange>900</affectRange>
+		<reuseDelay>20000</reuseDelay>
+		<abnormalType>KNOCKDOWN</abnormalType>
+		<abnormalVisualEffect>KNOCKDOWN</abnormalVisualEffect>
+		<hitCancelTime>0</hitCancelTime>
+		<isMagic>1</isMagic>
+		<mpConsume>10</mpConsume>
+		<hitTime>5000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>0</effectPoint>
+		<effectRange>3500</effectRange>
+		<trait>KNOCKDOWN</trait>
+		<targetType>ENEMY</targetType>
+		<affectScope>RANGE</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<isDebuff>true</isDebuff>
+		<effects>
+			<effect name="PhysicalAttack">		<!-- TODO -->
+				<power>100000</power>
+			</effect>
+			<effect name="KnockBack">
+				<speed>600</speed>
+				<distance>200</distance>
+				<knockDown>true</knockDown>
+			</effect>
+			<effect name="BlockActions" />
+		</effects>
+	</skill>		
+	<skill id="16618" toLevel="1" name="Enuma Elish - Blue Lightning Spear">
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+		<abnormalLvl>5</abnormalLvl>
+		<abnormalTime>3</abnormalTime>
+		<activateRate>200</activateRate>
+		<staticReuse>true</staticReuse>
+		<castRange>3500</castRange>
+		<affectLimit>40-80</affectLimit>
+		<affectRange>900</affectRange>
+		<reuseDelay>20000</reuseDelay>
+		<abnormalType>KNOCKDOWN</abnormalType>
+		<abnormalVisualEffect>KNOCKDOWN</abnormalVisualEffect>
+		<hitCancelTime>0</hitCancelTime>
+		<isMagic>1</isMagic>
+		<mpConsume>10</mpConsume>
+		<hitTime>5000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>0</effectPoint>
+		<effectRange>3500</effectRange>
+		<trait>KNOCKDOWN</trait>
+		<targetType>ENEMY</targetType>
+		<affectScope>RANGE</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<isDebuff>true</isDebuff>
+		<effects>
+			<effect name="MagicalAttack">
+				<power>1500</power>		<!-- TODO -->
+			</effect>
+			<effect name="KnockBack">
+				<speed>600</speed>
+				<distance>200</distance>
+				<knockDown>true</knockDown>
+			</effect>
+			<effect name="BlockActions" />
+		</effects>
+	</skill>
+	<skill id="16619" toLevel="1" name="Stigma of Deterioration">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<castRange>3500</castRange>
+		<effectPoint>0</effectPoint>
+		<isMagic>1</isMagic>
+	</skill>
+	<skill id="16620" toLevel="1" name="Stigma of Lightning">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<castRange>3500</castRange>
+		<effectPoint>0</effectPoint>
+		<isMagic>1</isMagic>
+	</skill>
+	<skill id="16621" toLevel="1" name="Helios' Holy Spike">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<castRange>2500</castRange>
+		<hitTime>5000</hitTime>
+		<effectPoint>-52</effectPoint>
+		<isMagic>1</isMagic>
+		<mpConsume>12</mpConsume>
+		<reuseDelay>10000</reuseDelay>
+		<staticReuse>true</staticReuse>
+		<affectRange>400</affectRange>
+		<mpConsume>10</mpConsume>
+		<effectRange>2500</effectRange>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<isDebuff>true</isDebuff>
+		<effects>
+			<effect name="MagicalAttack">
+				<power>1500</power>		<!-- TODO -->
+			</effect>
+			<effect name="MagicalAttackMp">
+				<power>250</power>
+				<critical>true</critical>
+				<criticalLimit>1600</criticalLimit>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16622" toLevel="1" name="Helios' Bionic Bomb">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<castRange>2500</castRange>
+		<hitTime>5000</hitTime>
+		<effectPoint>-696</effectPoint>
+		<isMagic>1</isMagic>
+		<reuseDelay>10000</reuseDelay>
+		<affectRange>200</affectRange>
+		<mpConsume>12</mpConsume>
+		<effectRange>2500</effectRange>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<isDebuff>true</isDebuff>
+		<effects>
+			<effect name="MagicalAttack">
+				<power>1500</power>		<!-- TODO -->
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16623" toLevel="1" name="Helios' Lightning of Anger">
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<castRange>2500</castRange>
+		<effectRange>2500</effectRange>
+		<affectRange>900</affectRange>
+		<hitTime>2500</hitTime>
+		<affectLimit>40-80</affectLimit>
+		<effectPoint>-438</effectPoint>
+		<isMagic>1</isMagic>
+		<mpConsume>10</mpConsume>
+		<reuseDelay>10000</reuseDelay>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>30</abnormalTime>
+		<abnormalType>PARALYZE</abnormalType>
+		<activateRate>150</activateRate>
+		<abnormalVisualEffect>PARALYZE</abnormalVisualEffect>
+		<isDebuff>true</isDebuff>
+		<hitCancelTime>0</hitCancelTime>
+		<trait>PARALYZE</trait>
+		<targetType>ENEMY</targetType>
+		<affectScope>RANGE</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<effects>
+			<effect name="BlockActions" />
+			<effect name="BlockActions">
+				<allowedSkills>10279;10517;10025;10776;11770;1904;11264;11093;13314;1912;30516</allowedSkills>
+			</effect>
+			<effect name="MagicalAttack">
+				<power>1500</power>		<!-- TODO -->
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>-50</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>-50</amount>
+				<mode>PER</mode>
+			</effect>			
+		</effects>		
+	</skill>
+	<skill id="16624" toLevel="1" name="Shield of Light - Pranarach (100%)">
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+		<castRange>-1</castRange>
+		<hitTime>5000</hitTime>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>3600</abnormalTime>
+		<effectPoint>-438</effectPoint>
+		<isMagic>1</isMagic>
+		<abnormalType>INVINCIBILITY_SPECIAL</abnormalType>
+		<abnormalVisualEffect>INVINCIBILITY</abnormalVisualEffect>
+		<reuseDelay>60000</reuseDelay>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<effects>
+			<effect name="DispelBySlotMyself">
+				<dispel>MAGICAL_STANCE</dispel>
+			</effect>
+			<effect name="DamageBlock">
+				<type>BLOCK_HP</type>
+			</effect>
+			<effect name="DamageBlock">
+				<type>BLOCK_MP</type>
+			</effect>
+			<effect name="DebuffBlock" />
+		</effects>
+	</skill>
+	<skill id="16625" toLevel="4" name="Helios' Rage">
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>300</abnormalTime>		<!-- TODO -->
+		<targetType>SELF</targetType>
+		<castRange>-1</castRange>
+		<hitTime>5000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>1</effectPoint>
+		<isMagic>1</isMagic>
+		<reuseDelay>30000</reuseDelay>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<effects>
+			<effect name="MagicalAttack">
+				<amount>
+					<value level="1">50</value>
+					<value level="2">100</value>
+					<value level="3">150</value>
+					<value level="4">200</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalAttack">
+				<amount>
+					<value level="1">50</value>
+					<value level="2">100</value>
+					<value level="3">150</value>
+					<value level="4">200</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>
+					<value level="1">50</value>
+					<value level="2">100</value>
+					<value level="3">150</value>
+					<value level="4">200</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">50</value>
+					<value level="2">100</value>
+					<value level="3">150</value>
+					<value level="4">200</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>	
+		</effects>
+	</skill>
+	<skill id="16626" toLevel="1" name="Giants Particle Dissolver">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>47129</itemConsumeId> <!-- Particle Dissolver -->
+		<castRange>600</castRange>
+		<effectRange>600</effectRange>
+		<affectRange>200</affectRange>
+		<hitTime>5000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<isMagic>1</isMagic>
+		<reuseDelay>1000</reuseDelay>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<effects>
+			<effect name="DispelBySlotProbability">
+				<dispel>INVINCIBILITY_SPECIAL</dispel>
+				<rate>100</rate>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16627" toLevel="1" name="Giants Deterioration Protection Potion">
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>5</abnormalTime>
+		<castRange>-1</castRange>
+		<effectPoint>438</effectPoint>
+		<isMagic>1</isMagic>
+		<reuseDelay>30000</reuseDelay>
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>47127</itemConsumeId> <!-- Giants Deterioration Protection Potion -->
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<effects>
+			<effect name="ResistSkill">
+				<skillId1>16617</skillId1>
+				<skillId2>16618</skillId2>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16628" toLevel="1" name="Giants Lightning Protection Potion">
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>5</abnormalTime>
+		<castRange>-1</castRange>
+		<effectPoint>438</effectPoint>
+		<isMagic>1</isMagic>
+		<reuseDelay>30000</reuseDelay>
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>47128</itemConsumeId> <!-- Giants Lightning Protection Potion -->
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<effects>
+			<effect name="ResistSkill">
+				<skillId1>16617</skillId1>
+				<skillId2>16618</skillId2>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16629" toLevel="1" name="Leopold Bomb">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<castRange>3500</castRange>
+		<hitTime>5000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<isMagic>1</isMagic>
+		<reuseDelay>10000</reuseDelay>
+		<affectRange>200</affectRange>
+		<effectRange>3500</effectRange>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<effects>
+			<effect name="MagicalAttack">
+				<power>1500</power>		<!-- TODO -->
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16630" toLevel="1" name="Leopold Plasma Bomb">
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>5</abnormalTime>
+		<castRange>3500</castRange>
+		<hitTime>7000</hitTime>
+		<effectPoint>438</effectPoint>
+		<isMagic>1</isMagic>
+		<mpConsume>10</mpConsume>
+		<reuseDelay>10000</reuseDelay>
+		<affectRange>200</affectRange>
+		<effectRange>3500</effectRange>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<isDebuff>true</isDebuff>
+		<effects>
+			<effect name="MagicalAttack">
+				<power>1500</power>		<!-- TODO -->
+			</effect>
+			<effect name="DamOverTime">
+				<power>2000</power>		<!-- TODO -->
+				<ticks>1</ticks>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16631" toLevel="1" name="Leopold Energy Bomb">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<castRange>3500</castRange>
+		<hitTime>7000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<isMagic>1</isMagic>
+		<mpConsume>10</mpConsume>
+		<reuseDelay>10000</reuseDelay>
+		<affectRange>200</affectRange>
+		<effectRange>3500</effectRange>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<isDebuff>true</isDebuff>
+		<effects>
+			<effect name="MagicalAttack">
+				<power>1500</power>		<!-- TODO -->
+			</effect>
+			<effect name="MagicalAttackMp">
+				<power>300</power>
+				<critical>true</critical>
+				<criticalLimit>1600</criticalLimit>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16632" toLevel="1" name="Leopold Mini Gun">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<castRange>1200</castRange>
+		<hitTime>1000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<isMagic>1</isMagic>
+		<mpConsume>10</mpConsume>
+		<affectRange>200</affectRange>
+		<effectRange>1200</effectRange>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<effects>
+			<effect name="MagicalAttack">
+				<power>1500</power>		<!-- TODO -->
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16633" toLevel="1" name="Leopold Spray Shot">
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>15</abnormalTime>		<!-- TODO -->
+		<affectLimit>40-80</affectLimit>
+		<activateRate>150</activateRate>
+		<castRange>1200</castRange>
+		<hitTime>2500</hitTime>
+		<effectPoint>-438</effectPoint>
+		<isMagic>1</isMagic>
+		<mpConsume>10</mpConsume>
+		<reuseDelay>5000</reuseDelay>
+		<affectRange>900</affectRange>
+		<effectRange>1200</effectRange>
+		<targetType>ENEMY</targetType>
+		<affectScope>RANGE</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<effects>
+			<effect name="MagicalAttack">
+				<power>1500</power>		<!-- TODO -->
+			</effect>
+			<effect name="Speed">
+				<amount>-80</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16634" toLevel="1" name="Leopold Harpoon">
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+		<castRange>1200</castRange>
+		<affectRange>200</affectRange>
+		<effectRange>1200</effectRange>
+		<hitTime>3000</hitTime>
+		<effectPoint>-438</effectPoint>
+		<isMagic>1</isMagic>
+		<mpConsume>10</mpConsume>
+		<reuseDelay>5000</reuseDelay>
+		<operateType>A2</operateType>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>10</abnormalTime>
+		<abnormalType>PARALYZE</abnormalType>
+		<activateRate>150</activateRate>
+		<abnormalVisualEffect>PARALYZE</abnormalVisualEffect>
+		<hitCancelTime>0</hitCancelTime>
+		<trait>PARALYZE</trait>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<isDebuff>true</isDebuff>
+		<effects>
+			<effect name="MagicalAttack">
+				<power>1500</power>		<!-- TODO -->
+			</effect>
+			<effect name="BlockActions">
+				<allowedSkills>10279;10517;10025;10776;11770;1904;11264;11093;13314;1912;30516</allowedSkills>
+			</effect>
+			<effect name="BlockActions" />
+		</effects>
+	</skill>
+	<skill id="16635" toLevel="1" name="Enuma Elish Shot">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<castRange>1200</castRange>
+		<hitTime>1500</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<isMagic>1</isMagic>
+		<mpConsume>10</mpConsume>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<effects>
+			<effect name="PhysicalAttack">		<!-- TODO -->
+				<power>100000</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16636" toLevel="1" name="Origin Spinning Slasher">
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+		<castRange>1200</castRange>
+		<hitTime>2500</hitTime>
+		<effectPoint>-438</effectPoint>
+		<isMagic>1</isMagic>
+		<mpConsume>10</mpConsume>
+		<reuseDelay>5000</reuseDelay>
+		<abnormalType>BLEEDING</abnormalType>
+		<abnormalVisualEffect>DOT_BLEEDING</abnormalVisualEffect>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>15</abnormalTime>		<!-- TODO -->
+		<affectLimit>40-80</affectLimit>
+		<activateRate>150</activateRate>
+		<affectRange>900</affectRange>
+		<effectRange>1200</effectRange>
+		<targetType>ENEMY</targetType>
+		<affectScope>RANGE</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<trait>BLEED</trait>
+		<isDebuff>true</isDebuff>
+		<effects>
+			<effect name="PhysicalAttack">		<!-- TODO -->
+				<power>100000</power>
+			</effect>
+			<effect name="DamOverTime">
+				<power>2000</power>
+				<ticks>1</ticks>
+			</effect>
+		</effects>	
+	</skill>
+	<skill id="16637" toLevel="1" name="Origin Lightning Harpoon">
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+		<castRange>1200</castRange>
+		<hitTime>3000</hitTime>
+		<effectPoint>-438</effectPoint>
+		<isMagic>1</isMagic>
+		<mpConsume>10</mpConsume>
+		<reuseDelay>5000</reuseDelay>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>30</abnormalTime>		<!-- TODO -->
+		<activateRate>150</activateRate>
+		<affectRange>200</affectRange>
+		<effectRange>1200</effectRange>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<isDebuff>true</isDebuff>
+		<effects>
+			<effect name="PhysicalAttack">		<!-- TODO -->
+				<power>100000</power>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>-50</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>-50</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>	
+	</skill>
+	<skill id="16638" toLevel="1" name="Delta Plasma Lightning">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>10</abnormalTime>
+		<abnormalType>SYNERGY_LENKER</abnormalType>		<!-- TODO -->
+		<activateRate>200</activateRate>
+		<affectRange>1100</affectRange>
+		<effectRange>1200</effectRange>
+		<affectLimit>10-10</affectLimit>
+		<hitTime>2000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-438</effectPoint>
+		<isMagic>1</isMagic>
+		<targetType>ENEMY</targetType>
+		<affectScope>RANGE</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<isDebuff>true</isDebuff>
+		<effects>
+			<effect name="MagicalAttack">
+				<power>1500</power>		<!-- TODO -->
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16639" toLevel="1" name="Royal Plasma Lightning">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>10</abnormalTime>
+		<abnormalType>SYNERGY_LENKER</abnormalType>		<!-- TODO -->
+		<activateRate>200</activateRate>
+		<castRange>1200</castRange>
+		<affectRange>1100</affectRange>
+		<effectRange>1200</effectRange>
+		<affectLimit>10-10</affectLimit>
+		<hitTime>2000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-438</effectPoint>
+		<isMagic>1</isMagic>
+		<targetType>ENEMY</targetType>
+		<affectScope>RANGE</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<isDebuff>true</isDebuff>
+		<effects>
+			<effect name="MagicalAttack">
+				<power>1500</power>		<!-- TODO -->
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16640" toLevel="1" name="Triple Shot">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<castRange>1100</castRange>
+		<hitTime>1500</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<isMagic>6</isMagic>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<effects>
+			<effect name="PhysicalAttack">		<!-- TODO -->
+				<power>100000</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16641" toLevel="1" name="Hyper Mega Plasma Shot">
+		<!-- Magic skill that deals great damage to a single enemy -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<castRange>1100</castRange>
+		<hitTime>2000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<isMagic>1</isMagic>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<effects>
+			<effect name="MagicalAttack">
+				<power>1500</power>		<!-- TODO -->
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16642" toLevel="1" name="Hyper Mega Plasma Burst">
+		<!-- Magic skill; when one enemy is targeted and hit with magic, damage is dealt to other enemies around the target as well -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<castRange>1100</castRange>
+		<affectLimit>40-80</affectLimit>
+		<hitTime>2000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<isMagic>1</isMagic>
+		<affectRange>900</affectRange>
+		<effectRange>1100</effectRange>
+		<targetType>ENEMY</targetType>
+		<affectScope>RANGE</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<effects>
+			<effect name="MagicalAttack">
+				<power>1500</power>		<!-- TODO -->
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16643" toLevel="1" name="Napalm Death">
+		<!-- A fan-shaped flame rages around the target, causing damage. Similar to Valakas' Breath -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<castRange>1100</castRange>
+		<affectLimit>40-80</affectLimit>
+		<hitTime>3000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<isMagic>1</isMagic>
+		<fanRange>0;0;1100;180</fanRange>
+		<targetType>ENEMY</targetType>
+		<affectScope>FAN_PB</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<effects>
+			<effect name="MagicalAttack">
+				<power>1500</power>		<!-- TODO -->
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16644" toLevel="1" name="Ride the Lightning">
+		<!-- An electric field is generated around oneself, dealing damage to the enemy. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<affectLimit>40-40</affectLimit>
+		<castRange>-1</castRange>
+		<hitTime>3000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<isMagic>1</isMagic>
+		<affectRange>200</affectRange>
+		<targetType>SELF</targetType>
+		<affectScope>RING_RANGE</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<effects>
+			<effect name="MagicalAttack">
+				<power>1500</power>		<!-- TODO -->
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16645" toLevel="1" name="Ride the Lightning Mega Burst">
+		<!-- Damage by the electric field has caused paralysis and made movement impossible temporarily. -->
+		<icon>icon.skill0279</icon>
+		<operateType>A2</operateType>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>30</abnormalTime>		<!-- TODO -->
+		<activateRate>150</activateRate>
+		<affectLimit>40-40</affectLimit>
+		<hitTime>3000</hitTime>
+		<castRange>-1</castRange>
+		<affectRange>200</affectRange>
+		<abnormalType>PARALYZE</abnormalType>
+		<abnormalVisualEffect>PARALYZE</abnormalVisualEffect>
+		<hitCancelTime>0</hitCancelTime>
+		<effectPoint>-438</effectPoint>
+		<isMagic>1</isMagic>
+		<targetType>SELF</targetType>
+		<affectScope>RING_RANGE</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<trait>PARALYZE</trait>
+		<isDebuff>true</isDebuff>
+		<effects>
+			<effect name="MagicalAttack">
+				<power>1500</power>		<!-- TODO -->
+			</effect>
+			<effect name="BlockActions">
+				<allowedSkills>10279;10517;10025;10776;11770;1904;11264;11093;13314;1912;30516</allowedSkills>
+			</effect>
+			<effect name="BlockActions" />
+		</effects>
+	</skill>
+	<skill id="16646" toLevel="1" name="Hyper Mega Telekinesis">
+		<!-- Users around oneself are pushed away, dealing damage. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<hitTime>3000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<isMagic>1</isMagic>
+		<affectLimit>40-40</affectLimit>
+		<castRange>-1</castRange>
+		<affectRange>200</affectRange>
+		<targetType>SELF</targetType>
+		<affectScope>RING_RANGE</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<effects>
+			<effect name="MagicalAttack">
+				<power>1500</power>		<!-- TODO -->
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16647" toLevel="1" name="Ultra Mega Telekinesis">
+		<!-- Users far away from oneself are drawn in, dealing damage. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<hitTime>3000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<isMagic>1</isMagic>
+		<affectLimit>40-40</affectLimit>
+		<castRange>-1</castRange>
+		<affectRange>200</affectRange>
+		<targetType>SELF</targetType>
+		<affectScope>RING_RANGE</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<effects>
+			<effect name="MagicalAttack">
+				<power>1500</power>		<!-- TODO -->
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16648" toLevel="1" name="Dance of Death">
+		<!-- Spinning with the weapon one currently holds, damage is dealt to those standing nearby. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<hitTime>1500</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<isMagic>1</isMagic>
+		<affectLimit>40-40</affectLimit>
+		<castRange>-1</castRange>
+		<affectRange>100</affectRange>
+		<targetType>SELF</targetType>
+		<affectScope>RING_RANGE</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<effects>
+			<effect name="MagicalAttack">
+				<power>1500</power>		<!-- TODO -->
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16649" toLevel="1" name="Ultra Purge">
+		<!-- Some of the buffs of users in a wide range around oneself are purged. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<hitTime>10000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<isMagic>1</isMagic>
+		<affectLimit>40-40</affectLimit>
+		<castRange>-1</castRange>
+		<affectRange>2500</affectRange>
+		<targetType>SELF</targetType>
+		<affectScope>RING_RANGE</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<effects>
+			<effect name="DispelByCategory">
+				<slot>BUFF</slot>
+				<rate>100</rate>
+				<max>5</max>
+			</effect>		
+		</effects>		
+	</skill>
+	<skill id="16650" toLevel="1" name="Vertical Smash">
+		<!-- The weapon one currently holds is smashed down vertically, dealing damage to a single target -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<castRange>40</castRange>
+		<hitTime>1500</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<effects>
+			<effect name="PhysicalAttack">		<!-- TODO -->
+				<power>100000</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16651" toLevel="1" name="Horizon Smash">
+		<!-- A targeted fan-type skill. The weapon one currently holds is slashed horizontally -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<castRange>40</castRange>
+		<affectLimit>20-20</affectLimit>
+		<hitTime>1500</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<fanRange>0;0;200;360</fanRange>
+		<targetType>ENEMY</targetType>
+		<affectScope>FAN_PB</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<effects>
+			<effect name="PhysicalAttack">		<!-- TODO -->
+				<power>100000</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16652" toLevel="1" name="Tombstone Attack">
+		<!-- The weapon one currently holds is pounded into the ground; damage is dealt using the resulting impact -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<castRange>40</castRange>
+		<hitTime>1500</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<effects>
+			<effect name="PhysicalAttack">		<!-- TODO -->
+				<power>100000</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16653" toLevel="1" name="Delta Multi Shot">
+		<!-- Targeted fan-type range physical skill -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>FAN</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<fanRange>0;0;900;90</fanRange>
+		<affectLimit>5-12</affectLimit>
+		<affectRange>900</affectRange>
+		<castRange>1100</castRange>
+		<hitTime>1500</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<effects>
+			<effect name="PhysicalAttack">
+				<power>100000</power>
+				<criticalChance>5</criticalChance>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16654" toLevel="1" name="Delta Stun Shot">
+		<!-- Strong damage has caused Stun, and made movement temporarily impossible. -->
+		<operateType>A2</operateType>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>10</abnormalTime>
+		<abnormalType>STUN</abnormalType>
+		<abnormalVisualEffect>STUN</abnormalVisualEffect>
+		<activateRate>90</activateRate>
+		<basicProperty>PHYSICAL</basicProperty>
+		<trait>SHOCK</trait>
+		<icon>icon.skill0101</icon>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<castRange>1100</castRange>
+		<hitTime>1500</hitTime>
+		<effectPoint>-438</effectPoint>
+		<isDebuff>true</isDebuff>
+		<effects>
+			<effect name="PhysicalAttack">
+				<power>100000</power>
+				<criticalChance>5</criticalChance>
+			</effect>
+			<effect name="BlockActions">
+				<allowedSkills>10279;10517;10025;10776;11770;1904;11264;11093;13314;1912;30516</allowedSkills>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16655" toLevel="1" name="Delta Plasma Ball">
+		<!-- Magic skill that deals great damage to a single enemy -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<castRange>900</castRange>
+		<hitTime>1000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<isMagic>1</isMagic>
+		<effects>
+			<effect name="MagicalAttack">
+				<power>1000</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16656" toLevel="1" name="Delta Plasma Wave">
+		<!-- Magic skill that deals great damage within a target range -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>RANGE</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectLimit>10-10</affectLimit>
+		<affectRange>300</affectRange>
+		<castRange>900</castRange>
+		<hitTime>2000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<isMagic>1</isMagic>
+		<effects>
+			<effect name="MagicalAttack">
+				<power>1500</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16657" toLevel="1" name="Royal Aggression Aura">
+		<!-- The targets of nearby enemies are fixed on oneself. -->
+		<abnormalTime>5</abnormalTime>
+		<icon>icon.skill10027</icon>
+		<operateType>A2</operateType>
+		<abnormalLvl>1</abnormalLvl>
+		<targetType>SELF</targetType>
+		<affectScope>POINT_BLANK</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectLimit>10-10</affectLimit>
+		<affectRange>300</affectRange>
+		<hitTime>1000</hitTime>
+		<effectPoint>-438</effectPoint>
+		<isDebuff>true</isDebuff>
+		<effects>
+			<effect name="TargetMe" />
+			<effect name="GetAgro" />
+		</effects>
+	</skill>
+	<skill id="16658" toLevel="1" name="Royal Chain Strike">
+		<!-- Enemies lying ahead are drawn in around oneself. -->
+		<icon>icon.skill10016</icon>
+		<operateType>A2</operateType>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>1</abnormalTime>
+		<abnormalType>STUN</abnormalType>
+		<basicProperty>PHYSICAL</basicProperty>
+		<trait>PULL</trait>
+		<targetType>ENEMY</targetType>
+		<affectScope>RANGE</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>200</affectRange>
+		<hitTime>1000</hitTime>
+		<effectPoint>-438</effectPoint>
+		<isDebuff>true</isDebuff>
+		<effects>
+			<effect name="PullBack">
+				<speed>600</speed>
+				<delay>650</delay>
+			</effect>
+			<effect name="BlockActions">
+				<allowedSkills>10279;10517;10025;10776;11770;1904;11264;11093;13314;1912;30516</allowedSkills>
+			</effect>
+			<effect name="GetAgro" />
+		</effects>
+	</skill>
+	<skill id="16659" toLevel="1" name="Royal Head Shot">
+		<!-- Physical Skill that deals great damage to a single enemy -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<castRange>1100</castRange>
+		<hitTime>1500</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<effects>
+			<effect name="PhysicalAttack">
+				<power>100000</power>
+				<criticalChance>5</criticalChance>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16660" toLevel="1" name="Royal Multi Shot">
+		<!-- Targeted fan-type range physical skill -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>FAN</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<fanRange>0;0;900;90</fanRange>
+		<affectLimit>5-12</affectLimit>
+		<affectRange>900</affectRange>
+		<castRange>1100</castRange>
+		<hitTime>1500</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<effects>
+			<effect name="PhysicalAttack">
+				<power>100000</power>
+				<criticalChance>5</criticalChance>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16661" toLevel="1" name="Royal Stun Shot">
+		<!-- Strong arrow damage has caused Stun, and made movement temporarily impossible. -->
+		<icon>icon.skill0101</icon>
+		<operateType>A2</operateType>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>10</abnormalTime>
+		<abnormalType>STUN</abnormalType>
+		<abnormalVisualEffect>STUN</abnormalVisualEffect>
+		<activateRate>90</activateRate>
+		<basicProperty>PHYSICAL</basicProperty>
+		<trait>SHOCK</trait>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<castRange>1100</castRange>
+		<hitTime>1500</hitTime>
+		<effectPoint>-438</effectPoint>
+		<isDebuff>true</isDebuff>
+		<effects>
+			<effect name="PhysicalAttack">
+				<power>100000</power>
+				<criticalChance>5</criticalChance>
+			</effect>
+			<effect name="BlockActions">
+				<allowedSkills>10279;10517;10025;10776;11770;1904;11264;11093;13314;1912;30516</allowedSkills>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16662" toLevel="1" name="Royal Plasma Ball">
+		<!-- Magic skill that deals great damage to a single enemy -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<castRange>900</castRange>
+		<hitTime>1000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<isMagic>1</isMagic>
+		<effects>
+			<effect name="MagicalAttack">
+				<power>1000</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16663" toLevel="1" name="Royal Plasma Wave">
+		<!-- Magic skill that deals great damage within a target range -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>RANGE</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectLimit>10-10</affectLimit>
+		<affectRange>300</affectRange>
+		<castRange>900</castRange>
+		<hitTime>2000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<isMagic>1</isMagic>
+		<effects>
+			<effect name="MagicalAttack">
+				<power>1500</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16664" toLevel="1" name="Royal Sleep Cloud">
+		<!-- Sleep has set in, and made movement temporarily impossible. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>10</abnormalTime>
+		<abnormalType>SLEEP</abnormalType>
+		<abnormalVisualEffect>SLEEP</abnormalVisualEffect>
+		<activateRate>100</activateRate>
+		<basicProperty>MAGIC</basicProperty>
+		<trait>SLEEP</trait>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitTime>3000</hitTime>
+		<effectPoint>-438</effectPoint>
+		<isMagic>1</isMagic>
+		<isDebuff>true</isDebuff>
+		<effects>
+			<effect name="BlockActions" />
+			<effect name="DefenceTrait">
+				<SLEEP>100</SLEEP>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16665" toLevel="1" name="Royal Power Strike">
+		<!-- A formidable skill that attacks a single target -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<castRange>40</castRange>
+		<hitTime>1500</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<effects>
+			<effect name="PhysicalAttack">
+				<power>100000</power>
+				<criticalChance>3</criticalChance>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16666" toLevel="1" name="Royal Armor Destruction">
+		<!-- Physical defense is greatly reduced. -->
+		<icon>icon.skill10258</icon>
+		<operateType>A2</operateType>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>10</abnormalTime>
+		<activateRate>90</activateRate>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitTime>1500</hitTime>
+		<effectPoint>-438</effectPoint>
+		<isDebuff>true</isDebuff>
+		<effects>
+			<effect name="PhysicalAttack">
+				<power>100000</power>
+				<criticalChance>5</criticalChance>
+				<overHit>true</overHit>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>-23</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16667" toLevel="1" name="Royal Ride the Lightning">
+		<!-- Lightning strikes enemies in range, with the target at the center. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>RANGE</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectLimit>10-10</affectLimit>
+		<affectRange>300</affectRange>
+		<castRange>600</castRange>
+		<hitTime>1500</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<isMagic>1</isMagic>
+		<effects>
+			<effect name="MagicalAttack">
+				<power>1500</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16668" toLevel="1" name="Royal Quick Shot">
+		<!-- Attack skill that deals swift damage to the enemy -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<castRange>1100</castRange>
+		<hitTime>500</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<effects>
+			<effect name="PhysicalAttack">
+				<power>100000</power>
+				<criticalChance>5</criticalChance>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16669" toLevel="1" name="Royal Mark of Death">
+		<!-- The Royal Mark of Death is engraved, and HP steadily drops. -->
+		<operateType>A2</operateType>
+		<abnormalLvl>1</abnormalLvl>
+		<targetType>ENEMY</targetType>
+		<abnormalTime>60</abnormalTime>
+		<activateRate>90</activateRate>
+		<icon>icon.skill1435</icon>
+		<affectScope>SINGLE</affectScope>
+		<castRange>1100</castRange>
+		<hitTime>1000</hitTime>
+		<effectPoint>-438</effectPoint>
+		<isMagic>1</isMagic>
+		<isDebuff>true</isDebuff>
+		<effects>
+			<effect name="DamOverTime">
+				<power>400</power>
+				<ticks>1</ticks>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16670" toLevel="1" name="Royal Super Plasma Ball">
+		<!-- Magic skill that deals great damage to a single enemy -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<castRange>900</castRange>
+		<hitTime>1000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<isMagic>1</isMagic>
+		<effects>
+			<effect name="MagicalAttack">
+				<power>1000</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16671" toLevel="1" name="Royal Super Plasma Wave">
+		<!-- Magic skill that deals great damage within a target range -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>RANGE</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectLimit>10-10</affectLimit>
+		<affectRange>300</affectRange>
+		<castRange>900</castRange>
+		<hitTime>2000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<isMagic>1</isMagic>
+		<effects>
+			<effect name="MagicalAttack">
+				<power>1500</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16672" toLevel="1" name="Royal Super Magic Barrier Weakness">
+		<!-- Damage is dealt, and M. Def. is weakened. -->
+		<operateType>A2</operateType>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>10</abnormalTime>
+		<activateRate>90</activateRate>
+		<icon>icon.skill1036</icon>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitTime>2000</hitTime>
+		<effectPoint>-438</effectPoint>
+		<isMagic>1</isMagic>
+		<isDebuff>true</isDebuff>
+		<effects>
+			<effect name="MagicalAttack">
+				<power>1500</power>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>-20</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16673" toLevel="1" name="Royal Super Lightning Field">
+		<!-- Powerful magic damage has caused paralysis, and made movement temporarily impossible. -->
+		<operateType>A2</operateType>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>5</abnormalTime>
+		<abnormalType>PARALYZE</abnormalType>
+		<abnormalVisualEffect>PARALYZE</abnormalVisualEffect>
+		<activateRate>50</activateRate>
+		<trait>PARALYZE</trait>
+		<basicProperty>MAGIC</basicProperty>
+		<icon>icon.skill0048</icon>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitTime>3000</hitTime>
+		<effectPoint>-438</effectPoint>
+		<isMagic>1</isMagic>
+		<isDebuff>true</isDebuff>
+		<effects>
+			<effect name="MagicalAttack">
+				<power>1000</power>
+			</effect>
+			<effect name="BlockActions">
+				<allowedSkills>10279;10517;10025;10776;11770;1904;11264;11093;13314;1912;30516</allowedSkills>
+			</effect>
+			<effect name="DefenceTrait">
+				<PARALYZE>100</PARALYZE>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16674" toLevel="1" name="Hyper Mega Strike">
+		<!-- Physical Skill that deals damage to a single enemy -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<castRange>40</castRange>
+		<hitTime>1500</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<effects>
+			<effect name="PhysicalAttack">
+				<power>150000</power>
+				<criticalChance>5</criticalChance>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16675" toLevel="1" name="Hyper Giga Strike">
+		<!-- Physical Skill that deals huge damage to a single enemy -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitTime>2000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<effects>
+			<effect name="PhysicalAttack">
+				<power>150000</power>
+				<criticalChance>5</criticalChance>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16676" toLevel="1" name="Hyper Taunt">
+		<!-- A strong shout has caused Stun, and made movement temporarily impossible. -->
+		<icon>icon.skill1376</icon>
+		<operateType>A2</operateType>
+		<castRange>-1</castRange>
+		<abnormalType>STUN</abnormalType>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>30</abnormalTime>
+		<affectLimit>10-25</affectLimit>
+		<abnormalVisualEffect>STUN</abnormalVisualEffect>
+		<activateRate>90</activateRate>
+		<basicProperty>PHYSICAL</basicProperty>
+		<trait>SHOCK</trait>
+		<affectRange>200</affectRange>
+		<hitTime>500</hitTime>
+		<effectPoint>-438</effectPoint>
+		<targetType>SELF</targetType>
+		<affectScope>POINT_BLANK</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<isDebuff>true</isDebuff>
+		<effects>
+			<effect name="BlockActions">
+				<allowedSkills>10279;10517;10025;10776;11770;1904;11264;11093;13314;1912;30516</allowedSkills>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16677" toLevel="1" name="Hyper Power">
+		<!-- P. Atk. is increased for a certain time. -->
+		<icon>icon.skill0077</icon>
+		<operateType>A2</operateType>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>30</abnormalTime>
+		<targetType>SELF</targetType>
+		<hitTime>2000</hitTime>
+		<effectPoint>-438</effectPoint>
+		<isMagic>1</isMagic>
+		<effects>
+			<effect name="PAtk">
+				<amount>30</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16678" toLevel="1" name="Hyper Intelligence">
+		<!-- M. Atk. is increased for a certain time. -->
+		<icon>icon.skill1059</icon>
+		<operateType>A2</operateType>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>30</abnormalTime>
+		<targetType>SELF</targetType>
+		<hitTime>2000</hitTime>
+		<effectPoint>-438</effectPoint>
+		<isMagic>1</isMagic>
+		<effects>
+			<effect name="MAtk">
+				<amount>30</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16679" toLevel="1" name="Hyper Evasion">
+		<!-- Evasion is increased for a certain time. -->
+		<icon>icon.skill0198</icon>
+		<operateType>A2</operateType>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>30</abnormalTime>
+		<targetType>SELF</targetType>
+		<hitTime>2000</hitTime>
+		<effectPoint>-438</effectPoint>
+		<effects>
+			<effect name="PhysicalEvasion">
+				<amount>8</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16680" toLevel="1" name="Commander Aggression Aura">
+		<!-- Target is fixed on the Commander of Queens. -->
+		<icon>icon.skill10027</icon>
+		<operateType>A2</operateType>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>5</abnormalTime>
+		<affectLimit>10-10</affectLimit>
+		<affectRange>300</affectRange>
+		<hitTime>1000</hitTime>
+		<effectPoint>-438</effectPoint>
+		<targetType>SELF</targetType>
+		<affectScope>POINT_BLANK</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<isDebuff>true</isDebuff>
+		<effects>
+			<effect name="TargetMe" />
+			<effect name="GetAgro" />
+		</effects>
+	</skill>
+	<skill id="16681" toLevel="1" name="For the Queen">
+		<!-- Temporary invincibility. -->
+		<icon>icon.skill1427</icon>
+		<operateType>A2</operateType>
+		<castRange>1100</castRange>
+		<hitTime>6000</hitTime>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>60</abnormalTime>
+		<effectPoint>438</effectPoint>
+		<isMagic>1</isMagic>
+		<abnormalType>INVINCIBILITY_SPECIAL</abnormalType>
+		<abnormalVisualEffect>INVINCIBILITY</abnormalVisualEffect>
+		<reuseDelay>60000</reuseDelay>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<effects>
+			<effect name="DispelBySlotMyself">
+				<dispel>MAGICAL_STANCE</dispel>
+			</effect>
+			<effect name="DamageBlock">
+				<type>BLOCK_HP</type>
+			</effect>
+			<effect name="DamageBlock">
+				<type>BLOCK_MP</type>
+			</effect>
+			<effect name="DebuffBlock" />
+		</effects>
+	</skill>
+	<skill id="16682" toLevel="1" name="Doom Hammer">
+		<!-- A gargantuan hammer is dropped form the sky, causing damage to the target and nearby enemies. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<castRange>900</castRange>
+		<effectRange>900</effectRange>
+		<affectLimit>10-25</affectLimit>
+		<affectRange>300</affectRange>
+		<hitTime>2000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<targetType>ENEMY</targetType>
+		<affectScope>RANGE</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<effects>
+			<effect name="PhysicalAttack">
+				<power>150000</power>
+				<criticalChance>5</criticalChance>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16683" toLevel="1" name="Stun Shot">
+		<!-- Strong damage has caused Stun, and made movement temporarily impossible. -->
+		<icon>icon.skill0101</icon>
+		<operateType>A2</operateType>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>10</abnormalTime>
+		<abnormalType>STUN</abnormalType>
+		<abnormalVisualEffect>STUN</abnormalVisualEffect>
+		<activateRate>90</activateRate>
+		<castRange>1100</castRange>
+		<hitTime>1500</hitTime>
+		<effectRange>1100</effectRange>
+		<isMagic>2</isMagic> <!-- Static Skill -->
+		<effectPoint>-438</effectPoint>
+		<trait>SHOCK</trait>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<isDebuff>true</isDebuff>
+		<effects>
+			<effect name="PhysicalAttack">		<!-- TODO -->
+				<power>100000</power>
+			</effect>
+			<effect name="BlockActions">
+				<allowedSkills>10279;10517;10025;10776;11770;1904;11264;11093;13314;1912;30516</allowedSkills>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16684" toLevel="1" name="Multi Shot">
+		<!-- Targeted fan-type range physical skill -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<castRange>1100</castRange>
+		<affectLimit>10-10</affectLimit>
+		<hitTime>1500</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<targetType>ENEMY</targetType>
+		<affectScope>FAN</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<fanRange>0;0;1100;120</fanRange>
+		<isMagic>2</isMagic> <!-- Static Skill -->
+		<effects>
+			<effect name="PhysicalAttack">
+				<power>150000</power>
+				<criticalChance>5</criticalChance>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16685" toLevel="1" name="Ultra Plasma Ball">
+		<!-- Magic skill that deals great damage to a single enemy -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<castRange>900</castRange>
+		<hitTime>1000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<isMagic>1</isMagic>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<effects>
+			<effect name="MagicalAttack">
+				<power>1500</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16686" toLevel="1" name="Ultra Plasma Wave">
+		<!-- Magic skill that deals great damage within a target range -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<castRange>900</castRange>
+		<hitTime>2000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<isMagic>1</isMagic>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<effects>
+			<effect name="MagicalAttack">
+				<power>1500</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16687" toLevel="1" name="Helios' Zone of Overawing Might">
+		<!-- The area around oneself is made a hazardous high-voltage zone, dealing huge magic damage at intervals to enemies who stay within this zone. -->
+		<icon>icon.skill0096</icon>
+		<operateType>A2</operateType>
+		<abnormalType>COMBINATION</abnormalType>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>10</abnormalTime>
+		<activateRate>90</activateRate>
+		<castRange>2000</castRange>
+		<effectRange>2000</effectRange>
+		<affectRange>400</affectRange>
+		<effectPoint>-100</effectPoint>
+		<affectLimit>20-20</affectLimit>
+		<isMagic>1</isMagic>
+		<specialLevel>-1</specialLevel>
+		<hitCancelTime>0</hitCancelTime>
+		<targetType>SELF</targetType>
+		<affectScope>RANGE</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<isDebuff>true</isDebuff>
+		<effects>
+			<effect name="DamOverTime">
+				<power>335</power>
+				<ticks>5</ticks>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16688" toLevel="1" name="Emperor Helios' Command">
+		<!-- All personnel in the zone pass out in front of Helios, and are stunned. -->
+		<icon>icon.skill0096</icon>
+		<operateType>A2</operateType>
+		<abnormalType>STUN</abnormalType>
+		<abnormalVisualEffect>STUN</abnormalVisualEffect>
+		<activateRate>200</activateRate>
+		<castRange>2000</castRange>
+		<hitTime>1500</hitTime>
+		<effectRange>1100</effectRange>
+		<isMagic>2</isMagic> <!-- Static Skill -->
+		<effectPoint>-100</effectPoint>
+		<trait>SHOCK</trait>
+		<targetType>SELF</targetType>
+		<affectScope>RANGE</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<isDebuff>true</isDebuff>
+		<effects>
+			<effect name="BlockActions">
+				<allowedSkills>10279;10517;10025;10776;11770;1904;11264;11093;13314;1912;30516</allowedSkills>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16689" toLevel="2" name="Blessing of the Blackbird Clan">
+		<!-- The blessing of the Berserker Sculpture made by the Blackbird Clan. For 60 minutes, P. Atk. +$s1, M. Atk. +$s2, and Dark Attribute Def. +$s3. -->
+		<icon>icon.etc_residence_sw</icon>
+		<operateType>A2</operateType>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>3600</abnormalTime>
+		<hitTime>1000</hitTime>
+		<effectPoint>204</effectPoint>
+		<isMagic>1</isMagic>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<affectObject>FRIEND</affectObject>
+		<effects>
+			<effect name="MAtk">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PAtk">
+				<amount>2</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>30</amount>
+				<attribute>DARK</attribute>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16690" toLevel="2" name="Blessing of the Giant Trackers">
+		<icon>icon.etc_residence_sw</icon>
+		<operateType>A2</operateType>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>3600</abnormalTime>
+		<hitTime>1000</hitTime>
+		<effectPoint>204</effectPoint>
+		<isMagic>1</isMagic>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<affectObject>FRIEND</affectObject>
+		<effects>
+			<effect name="MAtk">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PAtk">
+				<amount>2</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>30</amount>
+				<attribute>EARTH</attribute>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16691" toLevel="2" name="Blessing of the Unworldly Visitors">
+		<icon>icon.etc_residence_sw</icon>
+		<operateType>A2</operateType>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>3600</abnormalTime>
+		<hitTime>1000</hitTime>
+		<effectPoint>204</effectPoint>
+		<isMagic>1</isMagic>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<affectObject>FRIEND</affectObject>
+		<effects>
+			<effect name="MAtk">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PAtk">
+				<amount>2</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>30</amount>
+				<attribute>WIND</attribute>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16692" toLevel="2" name="Grace of the Mother Tree Guardians">
+		<!-- The grace of the Guardian Sculpture made by the Mother Tree Guardians. For 60 minutes, P. Def. +$s1, M. Def. +$s2, Water Attribute Def. +$s3. -->
+		<icon>icon.etc_residence_sh</icon>
+		<operateType>A2</operateType>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>3600</abnormalTime>
+		<hitTime>1000</hitTime>
+		<effectPoint>204</effectPoint>
+		<isMagic>1</isMagic>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<affectObject>FRIEND</affectObject>
+		<effects>
+			<effect name="MagicalDefence">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>30</amount>
+				<attribute>WATER</attribute>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16693" toLevel="2" name="Grace of the Kingdom's Royal Guard">
+		<!-- The grace of the Guardian Sculpture made by the Kingdom's Royal Guard. For 60 minutes, P. Def. +$s1, M. Def. +$s2, Holy Attribute Def. +$s3. -->
+		<icon>icon.etc_residence_sh</icon>
+		<operateType>A2</operateType>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>3600</abnormalTime>
+		<hitTime>1000</hitTime>
+		<effectPoint>204</effectPoint>
+		<isMagic>1</isMagic>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<affectObject>FRIEND</affectObject>
+		<effects>
+			<effect name="MagicalDefence">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>30</amount>
+				<attribute>HOLY</attribute>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16694" toLevel="1" name="Leopold Stance Switch">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<hitTime>1000</hitTime>
+	</skill>
+	<skill id="16695" toLevel="1" name="Trackers' Shine Energy Injection">
+		<!-- The energy of the Shine Stone is injected into the lesser giant in restoration, inducing final evolution. -->
+		<icon>icon.etc_a_broken_piece_of_soul_stone_i00</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<castRange>300</castRange>
+		<hitTime>1500</hitTime>
+		<reuseDelay>15000</reuseDelay>
+	</skill>
+	<skill id="16696" toLevel="1" name="Purge">
+		<!-- Can be used on Flower Buds to purge contamination. -->
+		<icon>icon.etc_holy_water_i00</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<castRange>300</castRange>
+		<hitTime>1500</hitTime>
+		<reuseDelay>15000</reuseDelay>
+	</skill>
+	<skill id="16697" toLevel="1" name="Thirst Quench">
+		<!-- Desert Thirst status is lifted; P./M. Atk., Atk. Spd./Casting Spd. +55%%. -->
+		<icon>icon.release_thirst</icon>
+		<operateType>A2</operateType>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>30</abnormalTime>	<!-- TODO -->
+		<mpConsume>10</mpConsume>
+		<castRange>1300</castRange>
+		<hitTime>1000</hitTime>
+		<reuseDelay>5000</reuseDelay>
+		<effectPoint>650</effectPoint>
+		<isMagic>1</isMagic>
+		<isDebuff>true</isDebuff>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<effects>
+			<effect name="MAtk">
+				<amount>55</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PAtk">
+				<amount>55</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttackSpeed">
+				<amount>55</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalAttackSpeed">
+				<amount>55</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16698" toLevel="1" name="Thirst Quench">
+		<!-- Desert Thirst status is lifted; P./M. Atk., Atk. Spd./Casting Spd. +60%%. -->
+		<icon>icon.release_thirst</icon>
+		<operateType>A2</operateType>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>30</abnormalTime>	<!-- TODO -->
+		<mpConsume>10</mpConsume>
+		<castRange>1300</castRange>
+		<hitTime>1000</hitTime>
+		<reuseDelay>5000</reuseDelay>
+		<effectPoint>650</effectPoint>
+		<isMagic>1</isMagic>
+		<isDebuff>true</isDebuff>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<effects>
+			<effect name="MAtk">
+				<amount>60</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PAtk">
+				<amount>60</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttackSpeed">
+				<amount>60</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalAttackSpeed">
+				<amount>60</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16699" toLevel="1" name="Critical Rise">
+		<!-- Help has been received from the Commandos; critical damage has increased. -->
+		<icon>icon.skill1242</icon>
+		<operateType>A2</operateType>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>30</abnormalTime>	<!-- TODO -->
+		<mpConsume>10</mpConsume>
+		<castRange>600</castRange>
+		<hitTime>1500</hitTime>
+		<reuseDelay>1000</reuseDelay>
+		<effectPoint>650</effectPoint>
+		<isMagic>1</isMagic>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<effects>
+			<effect name="MagicCriticalDamage">
+				<amount>10</amount>	<!-- TODO -->
+				<mode>PER</mode>
+			</effect>
+			<effect name="CriticalDamage">
+				<amount>10</amount>	<!-- TODO -->
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+</list>

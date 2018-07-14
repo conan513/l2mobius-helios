@@ -1,0 +1,713 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/npcs.xsd">
+	<npc id="19600" level="101" type="L2Monster" name="Flower Bud">
+		<race>PLANT</race>
+		<acquire exp="37812025" sp="90748" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="170278" hpRegen="11.5" mp="24690" mpRegen="3.9" />
+			<attack physical="30955" magical="12921" random="50" critical="4" accuracy="91" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="4524" magical="1888" />
+			<attribute>
+				<defence fire="150" water="200" wind="200" earth="200" holy="200" dark="200" />
+				<attack type="EARTH" value="280" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+		</stats>
+		<skill_list>
+			<skill id="4416" level="5" /> <!-- Plants -->
+			<skill id="5465" level="1" /> <!-- Earth Attack -->
+		</skill_list>
+		<collision>
+			<radius normal="30" />
+			<height normal="78" />
+		</collision>
+		<drop_lists>
+			<drop>
+				<item id="57" min="6507" max="15209" chance="30" /> <!-- Adena -->
+				<item id="36530" min="1" max="1" chance="0.075" /> <!-- Exquisite Fiber -->
+				<item id="35473" min="1" max="1" chance="0.03" /> <!-- Recipe: Eternal Circlet (60%) -->
+			</drop>
+			<spoil>
+				<item id="36565" min="1" max="1" chance="0.03" /> <!-- Exquisite Synthetic Cokes -->
+			</spoil>
+			<lucky_drop>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Bag - Stage 1 --> <!-- Lucky Drop -->
+			</lucky_drop>
+		</drop_lists>
+	</npc>
+	<npc id="19601" level="85" type="L2Npc" name="">
+		<race>ETC</race>
+		<stats str="70" int="28" dex="40" wit="65" con="74" men="20">
+			<vitals hp="58233" hpRegen="7.5" mp="24308" mpRegen="2.7" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+		</stats>
+		<status attackable="false" talkable="false" targetable="false"/>
+		<collision>
+			<radius normal="0.1" />
+			<height normal="0.1" />
+		</collision>
+	</npc>
+	<npc id="19602" level="85" type="L2Npc" name="">
+		<race>ETC</race>
+		<stats str="70" int="28" dex="40" wit="65" con="74" men="20">
+			<vitals hp="58233" hpRegen="7.5" mp="24308" mpRegen="2.7" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+		</stats>
+		<status attackable="false" talkable="false" targetable="false"/>
+		<collision>
+			<radius normal="0.1" />
+			<height normal="0.1" />
+		</collision>
+	</npc>
+	<npc id="19603" level="85" type="L2Npc" name="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="70" int="28" dex="40" wit="65" con="74" men="20">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="10" />
+				<run ground="1" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="25" />
+			<height normal="33.5" />
+		</collision>
+	</npc>
+	<npc id="19604" level="85" type="L2Npc" name="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="0.1" />
+			<height normal="0.1" />
+		</collision>
+	</npc>
+	<npc id="19605" level="85" type="L2Npc" name="Soul">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="15841" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="60.0" />
+				<run ground="1.0" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="6.0" />
+			<height normal="25.0" />
+		</collision>
+	</npc>
+	<npc id="19606" level="85" type="L2Npc" name="Flame Flower">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="135143" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="12" />
+			<height normal="10" />
+		</collision>
+	</npc>
+	<npc id="19607" level="85" type="L2Npc" name="Seal Tombstone">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1613128" hpRegen="7.5" mp="23928" mpRegen="2.7" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="30" />
+			<height normal="60.8" />
+		</collision>
+	</npc>
+	<npc id="19608" level="85" type="L2Npc" name="Seal Device">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="160" />
+			<height normal="40" />
+		</collision>
+	</npc>
+	<npc id="19609" level="85" type="L2Npc" name="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="0.1" />
+			<height normal="0.1" />
+		</collision>
+	</npc>
+	<npc id="19610" level="85" type="L2Npc" name="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="436754" hpRegen="7.5" mp="24308" mpRegen="2.7" />
+			<speed>
+				<walk ground="60" />
+				<run ground="240" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="7.5" />
+			<height normal="24" />
+		</collision>
+	</npc>
+	<npc id="19611" level="85" type="L2Npc" name="Insurgent Backup Soldier">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="168928" hpRegen="7.5" mp="108" mpRegen="2.7" />
+			<speed>
+				<walk ground="60" />
+				<run ground="100" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="7.5" />
+			<height normal="24" />
+		</collision>
+	</npc>
+	<npc id="19612" level="85" type="L2Npc" name="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="15" />
+			<height normal="26" />
+		</collision>
+	</npc>
+	<npc id="19613" level="85" type="L2Npc" name="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="30" />
+			<height normal="45" />
+		</collision>
+	</npc>
+	<npc id="19614" level="85" type="L2Npc" name="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="15" />
+			<height normal="26" />
+		</collision>
+	</npc>
+	<npc id="19615" level="85" type="L2Npc" name="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="11" />
+			<height normal="20" />
+		</collision>
+	</npc>
+	<npc id="19616" level="85" type="L2Npc" name="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="13" />
+			<height normal="40" />
+		</collision>
+	</npc>
+	<npc id="19617" level="85" type="L2Npc" name="Soul">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="15841" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="60.0" />
+				<run ground="1.0" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="6.0" />
+			<height normal="25.0" />
+		</collision>
+	</npc>
+	<npc id="19618" level="85" type="L2Npc" name="Soul">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="15841" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="60.0" />
+				<run ground="1.0" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="6.0" />
+			<height normal="25.0" />
+		</collision>
+	</npc>
+	<npc id="19619" level="85" type="L2Npc" name="Soul">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="15841" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="60.0" />
+				<run ground="1.0" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="6.0" />
+			<height normal="25.0" />
+		</collision>
+	</npc>
+	<npc id="19620" level="85" type="L2Npc" name="Soul">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="15841" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="60.0" />
+				<run ground="1.0" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="6.0" />
+			<height normal="25.0" />
+		</collision>
+	</npc>
+	<npc id="19621" level="85" type="L2Npc" name="Soul">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="15841" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="60.0" />
+				<run ground="1.0" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="6.0" />
+			<height normal="25.0" />
+		</collision>
+	</npc>
+	<npc id="19622" level="85" type="L2Npc" name="Soul" title="Quest">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="15841" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="60.0" />
+				<run ground="1.0" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="6.0" />
+			<height normal="25.0" />
+		</collision>
+	</npc>
+	<npc id="19623" level="85" type="L2Npc" name="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="0.1" />
+			<height normal="0.1" />
+		</collision>
+	</npc>
+	<npc id="19624" level="85" type="L2Npc" name="Altar of Earth">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="34" />
+			<height normal="65" />
+		</collision>
+	</npc>
+	<npc id="19625" level="85" type="L2Npc" name="Altar of Wind">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="34" />
+			<height normal="65" />
+		</collision>
+	</npc>
+	<npc id="19626" level="85" type="L2Npc" name="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="0.1" />
+			<height normal="0.1" />
+		</collision>
+	</npc>
+	<npc id="19627" level="85" type="L2Npc" name="Tauti">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1" hpRegen="7.5" mp="1" mpRegen="2.7" />
+			<speed>
+				<walk ground="25" />
+				<run ground="1" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="24" />
+			<height normal="77" />
+		</collision>
+	</npc>
+	<npc id="19628" level="85" type="L2Npc" name="Soul">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="15841" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="60.0" />
+				<run ground="1.0" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="6.0" />
+			<height normal="25.0" />
+		</collision>
+	</npc>
+	<npc id="19629" level="85" type="L2Npc" name="Soul">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="15841" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="60.0" />
+				<run ground="1.0" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="6.0" />
+			<height normal="25.0" />
+		</collision>
+	</npc>
+	<npc id="19630" level="85" type="L2Npc" name="Soul">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="15841" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="60.0" />
+				<run ground="1.0" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="6.0" />
+			<height normal="25.0" />
+		</collision>
+	</npc>
+	<npc id="19631" level="85" type="L2Npc" name="Soul">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="15841" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="60.0" />
+				<run ground="1.0" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="6.0" />
+			<height normal="25.0" />
+		</collision>
+	</npc>
+	<npc id="19632" level="85" type="L2Npc" name="Soul">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="15841" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="60.0" />
+				<run ground="1.0" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="6.0" />
+			<height normal="25.0" />
+		</collision>
+	</npc>
+	<npc id="19633" level="85" type="L2Npc" name="">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="15302" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="436754" hpRegen="7.5" mp="24308" mpRegen="2.7" />
+			<speed>
+				<walk ground="60" />
+				<run ground="240" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="7.5" />
+			<height normal="24" />
+		</collision>
+	</npc>
+	<npc id="19634" level="85" type="L2Npc" name="Time Bomb" title="Deton">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="53771" hpRegen="7.5" mp="23928" mpRegen="2.7" />
+			<speed>
+				<walk ground="50.0" />
+				<run ground="180.0" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="25.6" />
+			<height normal="71.4" />
+		</collision>
+	</npc>
+	<npc id="19642" level="104" type="L2Monster" name="MP Controller">
+		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="73968" hpRegen="7.5" mp="25460" mpRegen="2.7" />
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<attack physical="10220.2058789866" magical="4304.88513767892" critical="4" attackSpeed="253" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" /> <!-- Need retail value -->
+			<defence physical="4679.90243035914" magical="3133.38489847112" /> <!-- Need retail value -->
+			<attribute>
+				<defence fire="350" water="350" wind="350" earth="350" holy="300" dark="350" /> <!-- TODO -->
+				<attack type="DARK" value="430" /> <!-- TODO -->
+			</attribute>
+			<abnormalResist physical="230" magical="230" /> <!-- TODO -->
+		</stats>
+		<status attackable="false" canMove="false" />
+		<collision>
+			<radius normal="140" />
+			<height normal="75" />
+		</collision>
+	</npc>
+	<npc id="19643" level="104" type="L2Npc" name="">
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" targetable="false" talkable="false" showName="false" />
+		<collision>
+			<radius normal="0.1" />
+			<height normal="0.1" />
+		</collision>
+	</npc>
+	<npc id="19644" level="104" type="L2Npc" name="Ramona">
+		<race>GIANT</race>
+		<acquire exp="576969277248" sp="1384726265" />
+		<stats str="70" int="28" dex="40" wit="65" con="74" men="20"> <!-- Need retail value -->
+			<vitals hp="73968" hpRegen="11.5" mp="25460" mpRegen="3.9" />
+			<speed>
+				<walk ground="40" />
+				<run ground="1" />
+			</speed>
+			<attack physical="57220.2058789866" magical="9304.88513767892" critical="4" attackSpeed="253" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" /><!-- Need retail value -->
+			<defence physical="4679.90243035914" magical="3133.38489847112" /><!-- Need retail value -->
+			<attribute>
+				<defence fire="350" water="350" wind="350" earth="350" holy="300" dark="350" /><!-- TODO -->
+				<attack type="DARK" value="430" /><!-- TODO -->
+			</attribute>
+			<abnormalResist physical="230" magical="230" /><!-- TODO -->
+		</stats>
+		<skill_list>
+			<skill id="4416" level="11" /> <!-- Giants -->
+			<skill id="5465" level="1" /> <!-- Earth Attack -->
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="16746" level="1" /> <!-- Ramona -->
+		</skill_list>
+		<collision>
+			<radius normal="40" />
+			<height normal="87" />
+		</collision>
+	</npc>
+	<npc id="19648" level="104" type="L2Npc" name="Ramona">
+		<race>GIANT</race>
+		<acquire exp="576969277248" sp="1384726265" />
+		<stats str="70" int="28" dex="40" wit="65" con="74" men="20"> <!-- Need retail value -->
+			<vitals hp="73968" hpRegen="11.5" mp="25460" mpRegen="3.9" />
+			<speed>
+				<walk ground="40" />
+				<run ground="1" />
+			</speed>
+			<attack physical="57220.2058789866" magical="9304.88513767892" critical="4" attackSpeed="253" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" /><!-- Need retail value -->
+			<defence physical="4679.90243035914" magical="3133.38489847112" /><!-- Need retail value -->
+			<attribute>
+				<defence fire="350" water="350" wind="350" earth="350" holy="300" dark="350" /><!-- TODO -->
+				<attack type="DARK" value="430" /><!-- TODO -->
+			</attribute>
+			<abnormalResist physical="230" magical="230" /><!-- TODO -->
+		</stats>
+		<skill_list>
+			<skill id="4416" level="11" /> <!-- Giants -->
+			<skill id="5465" level="1" /> <!-- Earth Attack -->
+			<skill id="16746" level="1" /> <!-- Ramona -->
+		</skill_list>
+		<collision>
+			<radius normal="40" />
+			<height normal="87" />
+		</collision>
+	</npc>
+</list>

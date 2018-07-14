@@ -1,0 +1,1816 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="18200" name="Unidentified Seraph Shoes" additionalName="Robe" type="EtcItem">
+		<!-- Seraph Shoes in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: Boots / robe) -->
+		<set name="icon" val="icon.armor_t403_b_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="R95" />
+		<set name="commissionItemType" val="FEET" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="4287000" />
+		<createItems>
+			<item id="17928" count="1" chance="95" /> <!-- Bound Seraph Shoes - Robe -->
+			<item id="18064" count="1" chance="1" /> <!-- Blessed Seraph Shoes - Robe -->
+			<item id="17411" count="1" chance="4" /> <!-- Seraph Shoes - Robe -->
+		</createItems>
+		<skills>
+			<skill id="12109" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="18201" name="Unidentified Seraph Sigil" additionalName="Robe" type="EtcItem">
+		<!-- A Seraph Sigil in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: Shield / robe) -->
+		<set name="icon" val="icon.airtoil_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="R95" />
+		<set name="commissionItemType" val="SIGIL" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="4502000" />
+		<createItems>
+			<item id="17929" count="1" chance="95" /> <!-- Bound Seraph Sigil - Robe -->
+			<item id="18065" count="1" chance="1" /> <!-- Blessed Seraph Sigil - Robe -->
+			<item id="17412" count="1" chance="4" /> <!-- Seraph Sigil - Robe -->
+		</createItems>
+		<skills>
+			<skill id="12110" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="18202" name="Unidentified Seraph Necklace" type="EtcItem">
+		<!-- A Seraph Necklace in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: Necklace) -->
+		<set name="icon" val="icon.r95_necklace_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="R95" />
+		<set name="commissionItemType" val="NECKLACE" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="4466000" />
+		<createItems>
+			<item id="17930" count="1" chance="95" /> <!-- Bound Seraph Necklace -->
+			<item id="18066" count="1" chance="1" /> <!-- Blessed Seraph Necklace -->
+			<item id="17413" count="1" chance="4" /> <!-- Seraph Necklace -->
+		</createItems>
+		<skills>
+			<skill id="12111" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="18203" name="Unidentified Seraph Earring" type="EtcItem">
+		<!-- A Seraph Earring in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: Earring) -->
+		<set name="icon" val="icon.r95_earring_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="R95" />
+		<set name="commissionItemType" val="EARRING" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="3349000" />
+		<createItems>
+			<item id="17931" count="1" chance="95" /> <!-- Bound Seraph Earring -->
+			<item id="18067" count="1" chance="1" /> <!-- Blessed Seraph Earring -->
+			<item id="17414" count="1" chance="4" /> <!-- Seraph Earring -->
+		</createItems>
+		<skills>
+			<skill id="12112" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="18204" name="Unidentified Seraph Ring" type="EtcItem">
+		<!-- A Seraph Ring in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: Ring) -->
+		<set name="icon" val="icon.r95_ring_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="R95" />
+		<set name="commissionItemType" val="RING" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="2233000" />
+		<createItems>
+			<item id="17932" count="1" chance="95" /> <!-- Bound Seraph Ring -->
+			<item id="18068" count="1" chance="1" /> <!-- Blessed Seraph Ring -->
+			<item id="17415" count="1" chance="4" /> <!-- Seraph Ring -->
+		</createItems>
+		<skills>
+			<skill id="12113" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="18205" name="Unidentified Amaranthine Shaper" type="EtcItem">
+		<!-- An Amaranthine Shaper in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: one-handed weapon / dagger) -->
+		<set name="icon" val="icon.weapon_stanpid_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="R99" />
+		<set name="commissionItemType" val="DAGGER" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="72342000" />
+		<createItems>
+			<item id="17933" count="1" chance="95" /> <!-- Bound Amaranthine Shaper -->
+			<item id="18069" count="1" chance="1" /> <!-- Blessed Amaranthine Shaper -->
+			<item id="17416" count="1" chance="4" /> <!-- Amaranthine Shaper -->
+		</createItems>
+		<skills>
+			<skill id="12114" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="18206" name="Unidentified Amaranthine Cutter" type="EtcItem">
+		<!-- An Amaranthine Cutter in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: one-handed weapon / sword) -->
+		<set name="icon" val="icon.weapon_plenitas_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="R99" />
+		<set name="commissionItemType" val="ONE_HAND_SWORD" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="72342000" />
+		<createItems>
+			<item id="17934" count="1" chance="95" /> <!-- Bound Amaranthine Cutter -->
+			<item id="18070" count="1" chance="1" /> <!-- Blessed Amaranthine Cutter -->
+			<item id="17417" count="1" chance="4" /> <!-- Amaranthine Cutter -->
+		</createItems>
+		<skills>
+			<skill id="12115" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="18207" name="Unidentified Amaranthine Slasher" type="EtcItem">
+		<!-- An Amaranthine Slasher in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: two-handed weapon / sword) -->
+		<set name="icon" val="icon.weapon_bauen_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="R99" />
+		<set name="commissionItemType" val="TWO_HAND_SWORD" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="72342000" />
+		<createItems>
+			<item id="17935" count="1" chance="95" /> <!-- Bound Amaranthine Slasher -->
+			<item id="18071" count="1" chance="1" /> <!-- Blessed Amaranthine Slasher -->
+			<item id="17418" count="1" chance="4" /> <!-- Amaranthine Slasher -->
+		</createItems>
+		<skills>
+			<skill id="12116" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="18208" name="Unidentified Amaranthine Avenger" type="EtcItem">
+		<!-- An Amaranthine Avenger in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: one-handed weapon / blunt) -->
+		<set name="icon" val="icon.weapon_qutram_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="R99" />
+		<set name="commissionItemType" val="BLUNT_WEAPON" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="72342000" />
+		<createItems>
+			<item id="17936" count="1" chance="95" /> <!-- Bound Amaranthine Avenger -->
+			<item id="18072" count="1" chance="1" /> <!-- Blessed Amaranthine Avenger -->
+			<item id="17419" count="1" chance="4" /> <!-- Amaranthine Avenger -->
+		</createItems>
+		<skills>
+			<skill id="12117" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="18209" name="Unidentified Amaranthine Fighter" type="EtcItem">
+		<!-- An Amaranthine Fighter in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: two-handed weapon / combat) -->
+		<set name="icon" val="icon.weapon_durga_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="R99" />
+		<set name="commissionItemType" val="FIST_WEAPON" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="72342000" />
+		<createItems>
+			<item id="17937" count="1" chance="95" /> <!-- Bound Amaranthine Fighter -->
+			<item id="18073" count="1" chance="1" /> <!-- Blessed Amaranthine Fighter -->
+			<item id="17420" count="1" chance="4" /> <!-- Amaranthine Fighter -->
+		</createItems>
+		<skills>
+			<skill id="12118" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="18210" name="Unidentified Amaranthine Stormer" type="EtcItem">
+		<!-- An Amaranthine Stormer in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: two-handed weapon / spear) -->
+		<set name="icon" val="icon.weapon_crabel_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="R99" />
+		<set name="commissionItemType" val="SPEAR" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="72342000" />
+		<createItems>
+			<item id="17938" count="1" chance="95" /> <!-- Bound Amaranthine Stormer -->
+			<item id="18074" count="1" chance="1" /> <!-- Blessed Amaranthine Stormer -->
+			<item id="17421" count="1" chance="4" /> <!-- Amaranthine Stormer -->
+		</createItems>
+		<skills>
+			<skill id="12119" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="18211" name="Unidentified Amaranthine Thrower" type="EtcItem">
+		<!-- An Amaranthine Thrower in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: two-handed weapon / bow) -->
+		<set name="icon" val="icon.weapon_castron_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="R99" />
+		<set name="commissionItemType" val="BOW" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="72342000" />
+		<createItems>
+			<item id="17939" count="1" chance="95" /> <!-- Bound Amaranthine Thrower -->
+			<item id="18075" count="1" chance="1" /> <!-- Blessed Amaranthine Thrower -->
+			<item id="17422" count="1" chance="4" /> <!-- Amaranthine Thrower -->
+		</createItems>
+		<skills>
+			<skill id="12120" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="18212" name="Unidentified Amaranthine Shooter" type="EtcItem">
+		<!-- An Amaranthine Shooter in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: two-handed weapon / crossbow / bow) -->
+		<set name="icon" val="icon.weapon_stilla_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="R99" />
+		<set name="commissionItemType" val="CROSSBOW" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="72342000" />
+		<createItems>
+			<item id="17940" count="1" chance="95" /> <!-- Bound Amaranthine Shooter -->
+			<item id="18076" count="1" chance="1" /> <!-- Blessed Amaranthine Shooter -->
+			<item id="17423" count="1" chance="4" /> <!-- Amaranthine Shooter -->
+		</createItems>
+		<skills>
+			<skill id="12121" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="18213" name="Unidentified Amaranthine Buster" type="EtcItem">
+		<!-- An Amaranthine Buster in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: one-handed weapon / sword) -->
+		<set name="icon" val="icon.weaon_serapear_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="R99" />
+		<set name="commissionItemType" val="ONE_HAND_MAGIC_SWORD" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="72342000" />
+		<createItems>
+			<item id="17941" count="1" chance="95" /> <!-- Bound Amaranthine Buster -->
+			<item id="18077" count="1" chance="1" /> <!-- Blessed Amaranthine Buster -->
+			<item id="17424" count="1" chance="4" /> <!-- Amaranthine Buster -->
+		</createItems>
+		<skills>
+			<skill id="12122" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="18214" name="Unidentified Amaranthine Caster" type="EtcItem">
+		<!-- An Amaranthine Caster in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: one-handed weapon / blunt) -->
+		<set name="icon" val="icon.weapon_pilia_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="R99" />
+		<set name="commissionItemType" val="ONE_HAND_MAGIC_BLUNT_WEAPON" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="72342000" />
+		<createItems>
+			<item id="17942" count="1" chance="95" /> <!-- Bound Amaranthine Caster -->
+			<item id="18078" count="1" chance="1" /> <!-- Blessed Amaranthine Caster -->
+			<item id="17425" count="1" chance="4" /> <!-- Amaranthine Caster -->
+		</createItems>
+		<skills>
+			<skill id="12123" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="18215" name="Unidentified Amaranthine Retributer" type="EtcItem">
+		<!-- An Amaranthine Retributer in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: two-handed weapon / blunt) -->
+		<set name="icon" val="icon.weapon_shaelon_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="R99" />
+		<set name="commissionItemType" val="TWO_HAND_MAGIC_BLUNT_WEAPON" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="72342000" />
+		<createItems>
+			<item id="17943" count="1" chance="95" /> <!-- Bound Amaranthine Retributer -->
+			<item id="18079" count="1" chance="1" /> <!-- Blessed Amaranthine Retributer -->
+			<item id="17426" count="1" chance="4" /> <!-- Amaranthine Retributer -->
+		</createItems>
+		<skills>
+			<skill id="12124" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="18216" name="Unidentified Amaranthine Dualsword" type="EtcItem">
+		<!-- Amaranthine Dualsword in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: two-handed weapon / dualsword) -->
+		<set name="icon" val="icon.weapon_r_dualsword_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="R99" />
+		<set name="commissionItemType" val="DUALSWORD" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="86810400" />
+		<createItems>
+			<item id="17944" count="1" chance="95" /> <!-- Bound Amaranthine Dualsword -->
+			<item id="18080" count="1" chance="1" /> <!-- Blessed Amaranthine Dualsword -->
+			<item id="17427" count="1" chance="4" /> <!-- Amaranthine Dualsword -->
+		</createItems>
+		<skills>
+			<skill id="12125" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="18217" name="Unidentified Amaranthine Dual Dagger" type="EtcItem">
+		<!-- An Amaranthine Dual Dagger in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: two-handed weapon / dualsword / dagger) -->
+		<set name="icon" val="icon.weapon_r_dualdagger_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="R99" />
+		<set name="commissionItemType" val="DUAL_DAGGER" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="86810400" />
+		<createItems>
+			<item id="17945" count="1" chance="95" /> <!-- Bound Amaranthine Dual Dagger -->
+			<item id="18081" count="1" chance="1" /> <!-- Blessed Amaranthine Dual Dagger -->
+			<item id="17428" count="1" chance="4" /> <!-- Amaranthine Dual Dagger -->
+		</createItems>
+		<skills>
+			<skill id="12126" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="18218" name="Unidentified Amaranthine Dual Blunt Weapon" type="EtcItem">
+		<!-- An Amaranthine Dual Blunt Weapon in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: two-handed weapon / dualsword / blunt) -->
+		<set name="icon" val="icon.weapon_r_dualblunt_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="R99" />
+		<set name="commissionItemType" val="DUAL_BLUNT_WEAPON" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="86810400" />
+		<createItems>
+			<item id="17946" count="1" chance="95" /> <!-- Bound Amaranthine Dual Blunt Weapon -->
+			<item id="18082" count="1" chance="1" /> <!-- Blessed Amaranthine Dual Blunt Weapon -->
+			<item id="17429" count="1" chance="4" /> <!-- Amaranthine Dual Blunt Weapon -->
+		</createItems>
+		<skills>
+			<skill id="12127" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="18219" name="Unidentified Eternal Helmet" additionalName="Heavy Armor" type="EtcItem">
+		<!-- An Eternal Helmet in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: Helmet / heavy armor) -->
+		<set name="icon" val="icon.armor_helmet_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="R99" />
+		<set name="commissionItemType" val="HELMET" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="14173000" />
+		<createItems>
+			<item id="17947" count="1" chance="95" /> <!-- Bound Eternal Helmet - Heavy Armor -->
+			<item id="18083" count="1" chance="1" /> <!-- Blessed Eternal Helmet - Heavy Armor -->
+			<item id="17430" count="1" chance="4" /> <!-- Eternal Helmet - Heavy Armor -->
+		</createItems>
+		<skills>
+			<skill id="12128" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="18220" name="Unidentified Eternal Breastplate" additionalName="Heavy Armor" type="EtcItem">
+		<!-- An Eternal Breastplate in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: upper / heavy armor) -->
+		<set name="icon" val="icon.armor_t701_u_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="R99" />
+		<set name="commissionItemType" val="ARMOR_TOP" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="37795000" />
+		<createItems>
+			<item id="17948" count="1" chance="95" /> <!-- Bound Eternal Breastplate - Heavy Armor -->
+			<item id="18084" count="1" chance="1" /> <!-- Blessed Eternal Breastplate - Heavy Armor -->
+			<item id="17431" count="1" chance="4" /> <!-- Eternal Breastplate - Heavy Armor -->
+		</createItems>
+		<skills>
+			<skill id="12129" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="18221" name="Unidentified Eternal Gaiters" additionalName="Heavy Armor" type="EtcItem">
+		<!-- Eternal Gaiters in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: lower / heavy armor) -->
+		<set name="icon" val="icon.armor_t701_l_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="R99" />
+		<set name="commissionItemType" val="ARMOR_PANTS" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="23622000" />
+		<createItems>
+			<item id="17949" count="1" chance="95" /> <!-- Bound Eternal Gaiters - Heavy Armor -->
+			<item id="18085" count="1" chance="1" /> <!-- Blessed Eternal Gaiters - Heavy Armor -->
+			<item id="17432" count="1" chance="4" /> <!-- Eternal Gaiters - Heavy Armor -->
+		</createItems>
+		<skills>
+			<skill id="12130" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="18222" name="Unidentified Eternal Gauntlets" additionalName="Heavy Armor" type="EtcItem">
+		<!-- An Eternal Gauntlets in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: Gloves / heavy armor) -->
+		<set name="icon" val="icon.armor_t701_g_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="R99" />
+		<set name="commissionItemType" val="GLOVES" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="9448000" />
+		<createItems>
+			<item id="17950" count="1" chance="95" /> <!-- Bound Eternal Gauntlets - Heavy Armor -->
+			<item id="18086" count="1" chance="1" /> <!-- Blessed Eternal Gauntlets - Heavy Armor -->
+			<item id="17433" count="1" chance="4" /> <!-- Eternal Gauntlets - Heavy Armor -->
+		</createItems>
+		<skills>
+			<skill id="12131" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="18223" name="Unidentified Eternal Boots" additionalName="Heavy Armor" type="EtcItem">
+		<!-- Eternal Boots in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: Boots / heavy armor) -->
+		<set name="icon" val="icon.armor_t701_b_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="R99" />
+		<set name="commissionItemType" val="FEET" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="9448000" />
+		<createItems>
+			<item id="17951" count="1" chance="95" /> <!-- Bound Eternal Boots - Heavy Armor -->
+			<item id="18087" count="1" chance="1" /> <!-- Blessed Eternal Boots - Heavy Armor -->
+			<item id="17434" count="1" chance="4" /> <!-- Eternal Boots - Heavy Armor -->
+		</createItems>
+		<skills>
+			<skill id="12132" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="18224" name="Unidentified Eternal Shield" additionalName="Heavy Armor" type="EtcItem">
+		<!-- An Eternal Shield in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: Shield / heavy armor) -->
+		<set name="icon" val="icon.weapon_akra_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="R99" />
+		<set name="commissionItemType" val="SHIELD" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="9921000" />
+		<createItems>
+			<item id="17952" count="1" chance="95" /> <!-- Bound Eternal Shield - Heavy Armor -->
+			<item id="18088" count="1" chance="1" /> <!-- Blessed Eternal Shield - Heavy Armor -->
+			<item id="17435" count="1" chance="4" /> <!-- Eternal Shield - Heavy Armor -->
+		</createItems>
+		<skills>
+			<skill id="12133" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="18225" name="Unidentified Eternal Leather Helmet" additionalName="Light Armor" type="EtcItem">
+		<!-- An Eternal Leather Helmet in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: Helmet / light armor) -->
+		<set name="icon" val="icon.armor_leather_helmet_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="R99" />
+		<set name="commissionItemType" val="HELMET" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="14173000" />
+		<createItems>
+			<item id="17953" count="1" chance="95" /> <!-- Bound Eternal Leather Helmet - Light Armor -->
+			<item id="18089" count="1" chance="1" /> <!-- Blessed Eternal Leather Helmet - Light Armor -->
+			<item id="17436" count="1" chance="4" /> <!-- Eternal Leather Helmet - Light Armor -->
+		</createItems>
+		<skills>
+			<skill id="12134" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="18226" name="Unidentified Eternal Leather Armor" additionalName="Light Armor" type="EtcItem">
+		<!-- An Eternal Leather Armor in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: upper / light armor) -->
+		<set name="icon" val="icon.armor_t702_u_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="R99" />
+		<set name="commissionItemType" val="ARMOR_TOP" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="37795000" />
+		<createItems>
+			<item id="17954" count="1" chance="95" /> <!-- Bound Eternal Leather Armor - Light Armor -->
+			<item id="18090" count="1" chance="1" /> <!-- Blessed Eternal Leather Armor - Light Armor -->
+			<item id="17437" count="1" chance="4" /> <!-- Eternal Leather Armor - Light Armor -->
+		</createItems>
+		<skills>
+			<skill id="12135" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="18227" name="Unidentified Eternal Leather Leggings" additionalName="Light Armor" type="EtcItem">
+		<!-- Eternal Leather Leggings in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: lower / light armor) -->
+		<set name="icon" val="icon.armor_t702_l_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="R99" />
+		<set name="commissionItemType" val="ARMOR_PANTS" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="23622000" />
+		<createItems>
+			<item id="17955" count="1" chance="95" /> <!-- Bound Eternal Leather Leggings - Light Armor -->
+			<item id="18091" count="1" chance="1" /> <!-- Blessed Eternal Leather Leggings - Light Armor -->
+			<item id="17438" count="1" chance="4" /> <!-- Eternal Leather Leggings - Light Armor -->
+		</createItems>
+		<skills>
+			<skill id="12136" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="18228" name="Unidentified Eternal Leather Gloves" additionalName="Light Armor" type="EtcItem">
+		<!-- Eternal Leather Gloves in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: Gloves / light armor) -->
+		<set name="icon" val="icon.armor_t702_g_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="R99" />
+		<set name="commissionItemType" val="GLOVES" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="9448000" />
+		<createItems>
+			<item id="17956" count="1" chance="95" /> <!-- Bound Eternal Leather Gloves - Light Armor -->
+			<item id="18092" count="1" chance="1" /> <!-- Blessed Eternal Leather Gloves - Light Armor -->
+			<item id="17439" count="1" chance="4" /> <!-- Eternal Leather Gloves - Light Armor -->
+		</createItems>
+		<skills>
+			<skill id="12137" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="18229" name="Unidentified Eternal Leather Boots" additionalName="Light Armor" type="EtcItem">
+		<!-- Eternal Leather Boots in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: Boots / light armor) -->
+		<set name="icon" val="icon.armor_t702_b_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="R99" />
+		<set name="commissionItemType" val="FEET" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="9448000" />
+		<createItems>
+			<item id="17957" count="1" chance="95" /> <!-- Bound Eternal Leather Boots - Light Armor -->
+			<item id="18093" count="1" chance="1" /> <!-- Blessed Eternal Leather Boots - Light Armor -->
+			<item id="17440" count="1" chance="4" /> <!-- Eternal Leather Boots - Light Armor -->
+		</createItems>
+		<skills>
+			<skill id="12138" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="18230" name="Unidentified Eternal Circlet" additionalName="Robe" type="EtcItem">
+		<!-- An Eternal Circlet in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: Helmet / robe) -->
+		<set name="icon" val="icon.armor_circlet_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="R99" />
+		<set name="commissionItemType" val="HELMET" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="14173000" />
+		<createItems>
+			<item id="17958" count="1" chance="95" /> <!-- Bound Eternal Circlet - Robe -->
+			<item id="18094" count="1" chance="1" /> <!-- Blessed Eternal Circlet - Robe -->
+			<item id="17441" count="1" chance="4" /> <!-- Eternal Circlet - Robe -->
+		</createItems>
+		<skills>
+			<skill id="12139" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="18231" name="Unidentified Eternal Tunic" additionalName="Robe" type="EtcItem">
+		<!-- An Eternal Tunic in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: upper / robe) -->
+		<set name="icon" val="icon.armor_t703_u_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="R99" />
+		<set name="commissionItemType" val="ARMOR_TOP" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="37795000" />
+		<createItems>
+			<item id="17959" count="1" chance="95" /> <!-- Bound Eternal Tunic - Robe -->
+			<item id="18095" count="1" chance="1" /> <!-- Blessed Eternal Tunic - Robe -->
+			<item id="17442" count="1" chance="4" /> <!-- Eternal Tunic - Robe -->
+		</createItems>
+		<skills>
+			<skill id="12140" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="18232" name="Unidentified Eternal Stockings" additionalName="Robe" type="EtcItem">
+		<!-- Eternal Stockings in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: lower / robe) -->
+		<set name="icon" val="icon.armor_t703_l_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="R99" />
+		<set name="commissionItemType" val="ARMOR_PANTS" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="23622000" />
+		<createItems>
+			<item id="17960" count="1" chance="95" /> <!-- Bound Eternal Stockings - Robe -->
+			<item id="18096" count="1" chance="1" /> <!-- Blessed Eternal Stockings - Robe -->
+			<item id="17443" count="1" chance="4" /> <!-- Eternal Stockings - Robe -->
+		</createItems>
+		<skills>
+			<skill id="12141" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="18233" name="Unidentified Eternal Gloves" additionalName="Robe" type="EtcItem">
+		<!-- Eternal Gloves in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: Gloves / robe) -->
+		<set name="icon" val="icon.armor_t703_g_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="R99" />
+		<set name="commissionItemType" val="GLOVES" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="9448000" />
+		<createItems>
+			<item id="17961" count="1" chance="95" /> <!-- Bound Eternal Gloves - Robe -->
+			<item id="18097" count="1" chance="1" /> <!-- Blessed Eternal Gloves - Robe -->
+			<item id="17444" count="1" chance="4" /> <!-- Eternal Gloves - Robe -->
+		</createItems>
+		<skills>
+			<skill id="12142" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="18234" name="Unidentified Eternal Shoes" additionalName="Robe" type="EtcItem">
+		<!-- Eternal Shoes in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: Boots / robe) -->
+		<set name="icon" val="icon.armor_t703_b_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="R99" />
+		<set name="commissionItemType" val="FEET" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="9448000" />
+		<createItems>
+			<item id="17962" count="1" chance="95" /> <!-- Bound Eternal Shoes - Robe -->
+			<item id="18098" count="1" chance="1" /> <!-- Blessed Eternal Shoes - Robe -->
+			<item id="17445" count="1" chance="4" /> <!-- Eternal Shoes - Robe -->
+		</createItems>
+		<skills>
+			<skill id="12143" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="18235" name="Unidentified Eternal Sigil" additionalName="Robe" type="EtcItem">
+		<!-- An Eternal Sigil in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: Shield / robe) -->
+		<set name="icon" val="icon.elos_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="R99" />
+		<set name="commissionItemType" val="SIGIL" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="9921000" />
+		<createItems>
+			<item id="17963" count="1" chance="95" /> <!-- Bound Eternal Sigil - Robe -->
+			<item id="18099" count="1" chance="1" /> <!-- Blessed Eternal Sigil - Robe -->
+			<item id="17446" count="1" chance="4" /> <!-- Eternal Sigil - Robe -->
+		</createItems>
+		<skills>
+			<skill id="12144" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="18236" name="Unidentified Eternal Necklace" type="EtcItem">
+		<!-- An Eternal Necklace in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: Necklace) -->
+		<set name="icon" val="icon.r991_necklace_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="R99" />
+		<set name="commissionItemType" val="NECKLACE" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="9842000" />
+		<createItems>
+			<item id="17964" count="1" chance="95" /> <!-- Bound Eternal Necklace -->
+			<item id="18100" count="1" chance="1" /> <!-- Blessed Eternal Necklace -->
+			<item id="17447" count="1" chance="4" /> <!-- Eternal Necklace -->
+		</createItems>
+		<skills>
+			<skill id="12145" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="18237" name="Unidentified Eternal Earring" type="EtcItem">
+		<!-- An Eternal Earring in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: Earring) -->
+		<set name="icon" val="icon.r991_earring_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="R99" />
+		<set name="commissionItemType" val="EARRING" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="7381000" />
+		<createItems>
+			<item id="17965" count="1" chance="95" /> <!-- Bound Eternal Earring -->
+			<item id="18101" count="1" chance="1" /> <!-- Blessed Eternal Earring -->
+			<item id="17448" count="1" chance="4" /> <!-- Eternal Earring -->
+		</createItems>
+		<skills>
+			<skill id="12146" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="18238" name="Unidentified Eternal Ring" type="EtcItem">
+		<!-- An Eternal Ring in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: Ring) -->
+		<set name="icon" val="icon.r991_ring_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="R99" />
+		<set name="commissionItemType" val="RING" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="4921000" />
+		<createItems>
+			<item id="17966" count="1" chance="95" /> <!-- Bound Eternal Ring -->
+			<item id="18102" count="1" chance="1" /> <!-- Blessed Eternal Ring -->
+			<item id="17449" count="1" chance="4" /> <!-- Eternal Ring -->
+		</createItems>
+		<skills>
+			<skill id="12147" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="18239" name="Unidentified Kaliel Shaper" type="EtcItem">
+		<!-- A Kaliel Shaper in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: one-handed weapon / dagger) -->
+		<set name="icon" val="icon.weapon_vesper_shaper_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="R99" />
+		<set name="commissionItemType" val="DAGGER" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="1399831000" />
+		<createItems>
+			<item id="17450" count="1" chance="100" /> <!-- Blessed Kaliel Shaper -->
+		</createItems>
+		<skills>
+			<skill id="12148" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="18240" name="Unidentified Kaliel Cutter" type="EtcItem">
+		<!-- A Kaliel Cutter in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: one-handed weapon / sword) -->
+		<set name="icon" val="icon.weapon_vesper_cutter_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="R99" />
+		<set name="commissionItemType" val="ONE_HAND_SWORD" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="1399831000" />
+		<createItems>
+			<item id="17451" count="1" chance="100" /> <!-- Blessed Kaliel Cutter -->
+		</createItems>
+		<skills>
+			<skill id="12149" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="18241" name="Unidentified Kaliel Slasher" type="EtcItem">
+		<!-- A Kaliel Slasher in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: two-handed weapon / sword) -->
+		<set name="icon" val="icon.weapon_vesper_slasher_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="R99" />
+		<set name="commissionItemType" val="TWO_HAND_SWORD" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="1399831000" />
+		<createItems>
+			<item id="17452" count="1" chance="100" /> <!-- Blessed Kaliel Slasher -->
+		</createItems>
+		<skills>
+			<skill id="12150" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="18242" name="Unidentified Kaliel Avenger" type="EtcItem">
+		<!-- A Kaliel Avenger in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: one-handed weapon / blunt) -->
+		<set name="icon" val="icon.weapon_vesper_avenger_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="R99" />
+		<set name="commissionItemType" val="BLUNT_WEAPON" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="1399831000" />
+		<createItems>
+			<item id="17453" count="1" chance="100" /> <!-- Blessed Kaliel Avenger -->
+		</createItems>
+		<skills>
+			<skill id="12151" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="18243" name="Unidentified Kaliel Fighter" type="EtcItem">
+		<!-- A Kaliel Fighter in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: two-handed weapon / combat) -->
+		<set name="icon" val="icon.weapon_octoclaw_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="R99" />
+		<set name="commissionItemType" val="FIST_WEAPON" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="1399831000" />
+		<createItems>
+			<item id="17454" count="1" chance="100" /> <!-- Blessed Kaliel Fighter -->
+		</createItems>
+		<skills>
+			<skill id="12152" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="18244" name="Unidentified Kaliel Stormer" type="EtcItem">
+		<!-- A Kaliel Stormer in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: two-handed weapon / spear) -->
+		<set name="icon" val="icon.weapon_vesper_stormer_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="R99" />
+		<set name="commissionItemType" val="SPEAR" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="1399831000" />
+		<createItems>
+			<item id="17455" count="1" chance="100" /> <!-- Blessed Kaliel Stormer -->
+		</createItems>
+		<skills>
+			<skill id="12153" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="18245" name="Unidentified Kaliel Thrower" type="EtcItem">
+		<!-- A Kaliel Thrower in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: two-handed weapon / bow) -->
+		<set name="icon" val="icon.weapon_vesper_thrower_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="R99" />
+		<set name="commissionItemType" val="BOW" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="1399831000" />
+		<createItems>
+			<item id="17456" count="1" chance="100" /> <!-- Blessed Kaliel Thrower -->
+		</createItems>
+		<skills>
+			<skill id="12154" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="18246" name="Unidentified Kaliel Shooter" type="EtcItem">
+		<!-- A Kaliel Shooter in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: two-handed weapon / crossbow / bow) -->
+		<set name="icon" val="icon.weapon_vesper_schutze_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="R99" />
+		<set name="commissionItemType" val="CROSSBOW" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="1399831000" />
+		<createItems>
+			<item id="17457" count="1" chance="100" /> <!-- Blessed Kaliel Shooter -->
+		</createItems>
+		<skills>
+			<skill id="12155" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="18247" name="Unidentified Kaliel Buster" type="EtcItem">
+		<!-- A Kaliel Buster in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: one-handed weapon / sword) -->
+		<set name="icon" val="icon.weapon_vesper_burster_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="R99" />
+		<set name="commissionItemType" val="ONE_HAND_MAGIC_SWORD" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="1399831000" />
+		<createItems>
+			<item id="17458" count="1" chance="100" /> <!-- Blessed Kaliel Buster -->
+		</createItems>
+		<skills>
+			<skill id="12156" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="18248" name="Unidentified Kaliel Caster" type="EtcItem">
+		<!-- A Kaliel Caster in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: one-handed weapon / blunt) -->
+		<set name="icon" val="icon.weapon_vesper_caster_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="R99" />
+		<set name="commissionItemType" val="ONE_HAND_MAGIC_BLUNT_WEAPON" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="1399831000" />
+		<createItems>
+			<item id="17459" count="1" chance="100" /> <!-- Blessed Kaliel Caster -->
+		</createItems>
+		<skills>
+			<skill id="12157" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="18249" name="Unidentified Kaliel Retributer" type="EtcItem">
+		<!-- A Kaliel Retributer in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: two-handed weapon / blunt) -->
+		<set name="icon" val="icon.weapon_vesper_singer_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="R99" />
+		<set name="commissionItemType" val="TWO_HAND_MAGIC_BLUNT_WEAPON" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="1399831000" />
+		<createItems>
+			<item id="17460" count="1" chance="100" /> <!-- Blessed Kaliel Retributer -->
+		</createItems>
+		<skills>
+			<skill id="12158" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="18250" name="Unidentified Kaliel Dualsword" type="EtcItem">
+		<!-- A Kaliel Dualsword in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: two-handed weapon / dualsword) -->
+		<set name="icon" val="icon.weapon_r_dualsword_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="R99" />
+		<set name="commissionItemType" val="DUALSWORD" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="1679797200" />
+		<createItems>
+			<item id="17461" count="1" chance="100" /> <!-- Blessed Kaliel Dualsword -->
+		</createItems>
+		<skills>
+			<skill id="12159" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="18251" name="Unidentified Kaliel Dual Dagger" type="EtcItem">
+		<!-- A Kaliel Dual Dagger in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: two-handed weapon / dualsword / dagger) -->
+		<set name="icon" val="icon.weapon_r_dualdagger_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="R99" />
+		<set name="commissionItemType" val="DUAL_DAGGER" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="1679797200" />
+		<createItems>
+			<item id="17462" count="1" chance="100" /> <!-- Blessed Kaliel Dual Dagger -->
+		</createItems>
+		<skills>
+			<skill id="12160" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="18252" name="Unidentified Kaliel Dual Blunt Weapon" type="EtcItem">
+		<!-- A Kaliel Dual Blunt Weapon in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: two-handed weapon / dualsword / blunt) -->
+		<set name="icon" val="icon.weapon_r_dualblunt_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="R99" />
+		<set name="commissionItemType" val="DUAL_BLUNT_WEAPON" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="1679797200" />
+		<createItems>
+			<item id="17463" count="1" chance="100" /> <!-- Blessed Kaliel Dual Blunt Weapon -->
+		</createItems>
+		<skills>
+			<skill id="12161" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="18253" name="Unidentified Durandia Helmet" additionalName="Heavy Armor" type="EtcItem">
+		<!-- A Durandia Helmet in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: Helmet / heavy armor) -->
+		<set name="icon" val="icon.armor_helmet_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="R99" />
+		<set name="commissionItemType" val="HELMET" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="274252000" />
+		<createItems>
+			<item id="17464" count="1" chance="100" /> <!-- Blessed Durandia Helmet - Heavy Armor -->
+		</createItems>
+		<skills>
+			<skill id="12162" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="18254" name="Unidentified Durandia Breastplate" additionalName="Heavy Armor" type="EtcItem">
+		<!-- A Durandia Breastplate in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: upper / heavy armor) -->
+		<set name="icon" val="icon.armor_t97_u_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="R99" />
+		<set name="commissionItemType" val="ARMOR_TOP" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="731340000" />
+		<createItems>
+			<item id="17465" count="1" chance="100" /> <!-- Blessed Durandia Breastplate - Heavy Armor -->
+		</createItems>
+		<skills>
+			<skill id="12163" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="18255" name="Unidentified Durandia Gaiters" additionalName="Heavy Armor" type="EtcItem">
+		<!-- Durandia Gaiters in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: lower / heavy armor) -->
+		<set name="icon" val="icon.armor_t97_l_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="R99" />
+		<set name="commissionItemType" val="ARMOR_PANTS" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="457087000" />
+		<createItems>
+			<item id="17466" count="1" chance="100" /> <!-- Blessed Durandia Gaiters - Heavy Armor -->
+		</createItems>
+		<skills>
+			<skill id="12164" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="18256" name="Unidentified Durandia Gauntlets" additionalName="Heavy Armor" type="EtcItem">
+		<!-- A Durandia Gauntlets in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: Gloves / heavy armor) -->
+		<set name="icon" val="icon.armor_t97_g_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="R99" />
+		<set name="commissionItemType" val="GLOVES" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="182835000" />
+		<createItems>
+			<item id="17467" count="1" chance="100" /> <!-- Blessed Durandia Gauntlets - Heavy Armor -->
+		</createItems>
+		<skills>
+			<skill id="12165" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="18257" name="Unidentified Durandia Boots" additionalName="Heavy Armor" type="EtcItem">
+		<!-- Durandia Boots in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: Boots / heavy armor) -->
+		<set name="icon" val="icon.armor_t97_b_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="R99" />
+		<set name="commissionItemType" val="FEET" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="182835000" />
+		<createItems>
+			<item id="17468" count="1" chance="100" /> <!-- Blessed Durandia Boots - Heavy Armor -->
+		</createItems>
+		<skills>
+			<skill id="12166" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="18258" name="Unidentified Durandia Shield" additionalName="Heavy Armor" type="EtcItem">
+		<!-- A Durandia Shield in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: Shield / heavy armor) -->
+		<set name="icon" val="icon.weapon_vesper_verteidiger_i01" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="R99" />
+		<set name="commissionItemType" val="SHIELD" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="191976000" />
+		<createItems>
+			<item id="17469" count="1" chance="100" /> <!-- Blessed Durandia Shield - Heavy Armor -->
+		</createItems>
+		<skills>
+			<skill id="12167" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="18259" name="Unidentified Durandia Leather Helmet" additionalName="Light Armor" type="EtcItem">
+		<!-- A Durandia leather Helmet in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: Helmet / light armor) -->
+		<set name="icon" val="icon.armor_leather_helmet_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="R99" />
+		<set name="commissionItemType" val="HELMET" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="274252000" />
+		<createItems>
+			<item id="17470" count="1" chance="100" /> <!-- Blessed Durandia Leather Helmet - Light Armor -->
+		</createItems>
+		<skills>
+			<skill id="12168" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="18260" name="Unidentified Durandia Leather Armor" additionalName="Light Armor" type="EtcItem">
+		<!-- A Durandia leather armor in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: upper / light armor) -->
+		<set name="icon" val="icon.armor_t98_u_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="R99" />
+		<set name="commissionItemType" val="ARMOR_TOP" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="731340000" />
+		<createItems>
+			<item id="17471" count="1" chance="100" /> <!-- Blessed Durandia Leather Armor - Light Armor -->
+		</createItems>
+		<skills>
+			<skill id="12169" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="18261" name="Unidentified Durandia Leather Leggings" additionalName="Light Armor" type="EtcItem">
+		<!-- Durandia leather Leggings in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: lower / light armor) -->
+		<set name="icon" val="icon.armor_t98_l_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="R99" />
+		<set name="commissionItemType" val="ARMOR_PANTS" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="457087000" />
+		<createItems>
+			<item id="17472" count="1" chance="100" /> <!-- Blessed Durandia Leather Leggings - Light Armor -->
+		</createItems>
+		<skills>
+			<skill id="12170" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="18262" name="Unidentified Durandia Leather Gloves" additionalName="Light Armor" type="EtcItem">
+		<!-- Immortal Leather Gloves in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: Gloves / light armor) -->
+		<set name="icon" val="icon.armor_t98_g_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="R99" />
+		<set name="commissionItemType" val="GLOVES" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="182835000" />
+		<createItems>
+			<item id="17473" count="1" chance="100" /> <!-- Blessed Durandia Leather Gloves - Light Armor -->
+		</createItems>
+		<skills>
+			<skill id="12171" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="18263" name="Unidentified Durandia Leather Boots" additionalName="Light Armor" type="EtcItem">
+		<!-- Durandia leather Boots in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: Boots / light armor) -->
+		<set name="icon" val="icon.armor_t98_b_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="R99" />
+		<set name="commissionItemType" val="FEET" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="182835000" />
+		<createItems>
+			<item id="17474" count="1" chance="100" /> <!-- Blessed Durandia Leather Boots - Light Armor -->
+		</createItems>
+		<skills>
+			<skill id="12172" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="18264" name="Unidentified Durandia Circlet" additionalName="Robe" type="EtcItem">
+		<!-- A Durandia Circlet in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: Helmet / robe) -->
+		<set name="icon" val="icon.armor_circlet_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="R99" />
+		<set name="commissionItemType" val="HELMET" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="274252000" />
+		<createItems>
+			<item id="17475" count="1" chance="100" /> <!-- Blessed Durandia Circlet - Robe -->
+		</createItems>
+		<skills>
+			<skill id="12173" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="18265" name="Unidentified Durandia Tunic" additionalName="Robe" type="EtcItem">
+		<!-- A Durandia Tunic in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: upper / robe) -->
+		<set name="icon" val="icon.armor_t99_u_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="R99" />
+		<set name="commissionItemType" val="ARMOR_TOP" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="731340000" />
+		<createItems>
+			<item id="17476" count="1" chance="100" /> <!-- Blessed Durandia Tunic - Robe -->
+		</createItems>
+		<skills>
+			<skill id="12174" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="18266" name="Unidentified Durandia Stockings" additionalName="Robe" type="EtcItem">
+		<!-- Durandia Stockings in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: lower / robe) -->
+		<set name="icon" val="icon.armor_t99_l_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="R99" />
+		<set name="commissionItemType" val="ARMOR_PANTS" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="457087000" />
+		<createItems>
+			<item id="17477" count="1" chance="100" /> <!-- Blessed Durandia Stockings - Robe -->
+		</createItems>
+		<skills>
+			<skill id="12175" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="18267" name="Unidentified Durandia Gloves" additionalName="Robe" type="EtcItem">
+		<!-- Durandia Gloves in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: Gloves / robe) -->
+		<set name="icon" val="icon.armor_t99_g_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="R99" />
+		<set name="commissionItemType" val="GLOVES" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="182835000" />
+		<createItems>
+			<item id="17478" count="1" chance="100" /> <!-- Blessed Durandia Gloves - Robe -->
+		</createItems>
+		<skills>
+			<skill id="12176" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="18268" name="Unidentified Durandia Shoes" additionalName="Robe" type="EtcItem">
+		<!-- Durandia Shoes in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: Boots / robe) -->
+		<set name="icon" val="icon.armor_t99_b_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="R99" />
+		<set name="commissionItemType" val="FEET" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="182835000" />
+		<createItems>
+			<item id="17479" count="1" chance="100" /> <!-- Blessed Durandia Shoes - Robe -->
+		</createItems>
+		<skills>
+			<skill id="12177" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="18269" name="Unidentified Durandia Sigil" additionalName="Robe" type="EtcItem">
+		<!-- Durandia Sigil in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: Shield / robe) -->
+		<set name="icon" val="icon.verper_sigil_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="R99" />
+		<set name="commissionItemType" val="SIGIL" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="191976000" />
+		<createItems>
+			<item id="17480" count="1" chance="100" /> <!-- Blessed Durandia Sigil - Robe -->
+		</createItems>
+		<skills>
+			<skill id="12178" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="18270" name="Unidentified Durandia Necklace" type="EtcItem">
+		<!-- A Durandia Necklace in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: Necklace) -->
+		<set name="icon" val="icon.vesper_necklace_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="R99" />
+		<set name="commissionItemType" val="NECKLACE" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="190453000" />
+		<createItems>
+			<item id="17481" count="1" chance="100" /> <!-- Blessed Durandia Necklace -->
+		</createItems>
+		<skills>
+			<skill id="12179" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="18271" name="Unidentified Durandia Earring" type="EtcItem">
+		<!-- A Durandia Earring in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: Earring) -->
+		<set name="icon" val="icon.vesper_earring_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="R99" />
+		<set name="commissionItemType" val="EARRING" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="142839000" />
+		<createItems>
+			<item id="17482" count="1" chance="100" /> <!-- Blessed Durandia Earring -->
+		</createItems>
+		<skills>
+			<skill id="12180" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="18272" name="Unidentified Durandia Ring" type="EtcItem">
+		<!-- A Durandia Ring in an Unidentified state. Double-click the item to identify it. The acquired item can be Blessed, Standard, or Bound. (Type: Ring) -->
+		<set name="icon" val="icon.vesper_ring_i00" />
+		<set name="is_freightable" val="false" />
+		<set name="crystal_type" val="R99" />
+		<set name="commissionItemType" val="RING" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="handler" val="ItemSkills" />
+		<set name="price" val="95226000" />
+		<createItems>
+			<item id="17483" count="1" chance="100" /> <!-- Blessed Durandia Ring -->
+		</createItems>
+		<skills>
+			<skill id="12181" level="1" /> <!-- Check Item -->
+		</skills>
+	</item>
+	<item id="18273" name="Talisman (R85-grade) - P. Atk. (Passive)" type="Armor">
+		<!-- P. Atk. + 37 when equipped. Shadow item. -->
+		<set name="icon" val="icon.r85_talisman_pa_up_passive" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
+		<set name="is_freightable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<set name="is_private_storeable" val="false" />
+		<set name="bodypart" val="deco1" />
+		<set name="useSkillDisTime" val="1" />
+		<set name="duration" val="60" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="150" />
+		<skills>
+			<skill id="8608" level="1" /> <!-- Talisman (R-grade) - P. Atk. -->
+		</skills>
+	</item>
+	<item id="18274" name="Talisman (R90-grade) - P. Atk. (Passive)" type="Armor">
+		<!-- P. Atk. + 43 when equipped. Shadow item. -->
+		<set name="icon" val="icon.r85_talisman_pa_up_passive" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
+		<set name="is_freightable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<set name="is_private_storeable" val="false" />
+		<set name="bodypart" val="deco1" />
+		<set name="useSkillDisTime" val="1" />
+		<set name="duration" val="60" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="150" />
+		<skills>
+			<skill id="8609" level="1" /> <!-- Talisman (R90-grade) - P. Atk. -->
+		</skills>
+	</item>
+	<item id="18275" name="Talisman (R95-grade) - P. Atk. (Passive)" type="Armor">
+		<!-- P. Atk. + 52 when equipped. Shadow item. -->
+		<set name="icon" val="icon.r85_talisman_pa_up_passive" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
+		<set name="is_freightable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<set name="is_private_storeable" val="false" />
+		<set name="bodypart" val="deco1" />
+		<set name="useSkillDisTime" val="1" />
+		<set name="duration" val="60" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="150" />
+		<skills>
+			<skill id="8610" level="1" /> <!-- Talisman (R95-grade) - P. Atk. -->
+		</skills>
+	</item>
+	<item id="18276" name="Talisman (R99-grade) - P. Atk. (Passive)" type="Armor">
+		<!-- P. Atk. + 60 when equipped. Shadow item. -->
+		<set name="icon" val="icon.r85_talisman_pa_up_passive" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
+		<set name="is_freightable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<set name="is_private_storeable" val="false" />
+		<set name="bodypart" val="deco1" />
+		<set name="useSkillDisTime" val="1" />
+		<set name="duration" val="60" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="150" />
+		<skills>
+			<skill id="8611" level="1" /> <!-- Talisman (R99-grade) - P. Atk. -->
+		</skills>
+	</item>
+	<item id="18277" name="Talisman (R85-grade) - P. Def. (Passive)" type="Armor">
+		<!-- P. Def. + 38 when equipped. Shadow item. -->
+		<set name="icon" val="icon.r85_talisman_pd_up_passive" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
+		<set name="is_freightable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<set name="is_private_storeable" val="false" />
+		<set name="bodypart" val="deco1" />
+		<set name="useSkillDisTime" val="1" />
+		<set name="duration" val="60" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="150" />
+		<skills>
+			<skill id="8612" level="1" /> <!-- Talisman (R-grade) - P. Def. -->
+		</skills>
+	</item>
+	<item id="18278" name="Talisman (R90-grade) - P. Def. (Passive)" type="Armor">
+		<!-- P. Def. + 43 when equipped. Shadow item. -->
+		<set name="icon" val="icon.r85_talisman_pd_up_passive" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
+		<set name="is_freightable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<set name="is_private_storeable" val="false" />
+		<set name="bodypart" val="deco1" />
+		<set name="useSkillDisTime" val="1" />
+		<set name="duration" val="60" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="150" />
+		<skills>
+			<skill id="8613" level="1" /> <!-- Talisman (R90-grade) - P. Def. -->
+		</skills>
+	</item>
+	<item id="18279" name="Talisman (R95-grade) - P. Def. (Passive)" type="Armor">
+		<!-- P. Def. + 49 when equipped. Shadow item. -->
+		<set name="icon" val="icon.r85_talisman_pd_up_passive" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
+		<set name="is_freightable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<set name="is_private_storeable" val="false" />
+		<set name="bodypart" val="deco1" />
+		<set name="useSkillDisTime" val="1" />
+		<set name="duration" val="60" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="150" />
+		<skills>
+			<skill id="8614" level="1" /> <!-- Talisman (R95-grade) - P. Def. -->
+		</skills>
+	</item>
+	<item id="18280" name="Talisman (R99-grade) - P. Def. (Passive)" type="Armor">
+		<!-- P. Def. + 54 when equipped. Shadow item. -->
+		<set name="icon" val="icon.r85_talisman_pd_up_passive" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
+		<set name="is_freightable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<set name="is_private_storeable" val="false" />
+		<set name="bodypart" val="deco1" />
+		<set name="useSkillDisTime" val="1" />
+		<set name="duration" val="60" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="150" />
+		<skills>
+			<skill id="8615" level="1" /> <!-- Talisman (R99-grade) - P. Def. -->
+		</skills>
+	</item>
+	<item id="18281" name="Talisman (R85-grade) - M. Atk. (Passive)" type="Armor">
+		<!-- M. Atk. + 37 when equipped. Shadow item. -->
+		<set name="icon" val="icon.r85_talisman_ma_up_passive" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
+		<set name="is_freightable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<set name="is_private_storeable" val="false" />
+		<set name="bodypart" val="deco1" />
+		<set name="useSkillDisTime" val="1" />
+		<set name="duration" val="60" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="150" />
+		<skills>
+			<skill id="8616" level="1" /> <!-- Talisman (R-grade) - M. Atk. -->
+		</skills>
+	</item>
+	<item id="18282" name="Talisman (R90-grade) - M. Atk. (Passive)" type="Armor">
+		<!-- M. Atk. + 46 when equipped. Shadow item. -->
+		<set name="icon" val="icon.r85_talisman_ma_up_passive" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
+		<set name="is_freightable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<set name="is_private_storeable" val="false" />
+		<set name="bodypart" val="deco1" />
+		<set name="useSkillDisTime" val="1" />
+		<set name="duration" val="60" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="150" />
+		<skills>
+			<skill id="8617" level="1" /> <!-- Talisman (R90-grade) - M. Atk. -->
+		</skills>
+	</item>
+	<item id="18283" name="Talisman (R95-grade) - M. Atk. (Passive)" type="Armor">
+		<!-- M. Atk. + 56 when equipped. Shadow item. -->
+		<set name="icon" val="icon.r85_talisman_ma_up_passive" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
+		<set name="is_freightable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<set name="is_private_storeable" val="false" />
+		<set name="bodypart" val="deco1" />
+		<set name="useSkillDisTime" val="1" />
+		<set name="duration" val="60" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="150" />
+		<skills>
+			<skill id="8618" level="1" /> <!-- Talisman (R95-grade) - M. Atk. -->
+		</skills>
+	</item>
+	<item id="18284" name="Talisman (R99-grade) - M. Atk. (Passive)" type="Armor">
+		<!-- M. Atk. + 66 when equipped. Shadow item. -->
+		<set name="icon" val="icon.r85_talisman_ma_up_passive" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
+		<set name="is_freightable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<set name="is_private_storeable" val="false" />
+		<set name="bodypart" val="deco1" />
+		<set name="useSkillDisTime" val="1" />
+		<set name="duration" val="60" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="150" />
+		<skills>
+			<skill id="8619" level="1" /> <!-- Talisman (R99-grade) - M. Atk. -->
+		</skills>
+	</item>
+	<item id="18285" name="Talisman (R85-grade) - M. Def. (Passive)" type="Armor">
+		<!-- M. Def. + 21 when equipped. Shadow item. -->
+		<set name="icon" val="icon.r85_talisman_md_up_passive" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
+		<set name="is_freightable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<set name="is_private_storeable" val="false" />
+		<set name="bodypart" val="deco1" />
+		<set name="useSkillDisTime" val="1" />
+		<set name="duration" val="60" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="150" />
+		<skills>
+			<skill id="8620" level="1" /> <!-- Talisman (R-grade) - M. Def. -->
+		</skills>
+	</item>
+	<item id="18286" name="Talisman (R90-grade) - M. Def. (Passive)" type="Armor">
+		<!-- M. Def. + 24 when equipped. Shadow item. -->
+		<set name="icon" val="icon.r85_talisman_md_up_passive" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
+		<set name="is_freightable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<set name="is_private_storeable" val="false" />
+		<set name="bodypart" val="deco1" />
+		<set name="useSkillDisTime" val="1" />
+		<set name="duration" val="60" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="150" />
+		<skills>
+			<skill id="8621" level="1" /> <!-- Talisman (R90-grade) - M. Def. -->
+		</skills>
+	</item>
+	<item id="18287" name="Talisman (R95-grade) - M. Def. (Passive)" type="Armor">
+		<!-- M. Def. + 28 when equipped. Shadow item. -->
+		<set name="icon" val="icon.r85_talisman_md_up_passive" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
+		<set name="is_freightable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<set name="is_private_storeable" val="false" />
+		<set name="bodypart" val="deco1" />
+		<set name="useSkillDisTime" val="1" />
+		<set name="duration" val="60" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="150" />
+		<skills>
+			<skill id="8622" level="1" /> <!-- Talisman (R95-grade) - M. Def. -->
+		</skills>
+	</item>
+	<item id="18288" name="Talisman (R99-grade) - M. Def. (Passive)" type="Armor">
+		<!-- M. Def. + 32 when equipped. Shadow item. -->
+		<set name="icon" val="icon.r85_talisman_md_up_passive" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
+		<set name="is_freightable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<set name="is_private_storeable" val="false" />
+		<set name="bodypart" val="deco1" />
+		<set name="useSkillDisTime" val="1" />
+		<set name="duration" val="60" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="150" />
+		<skills>
+			<skill id="8623" level="1" /> <!-- Talisman (R99-grade) - M. Def. -->
+		</skills>
+	</item>
+	<item id="18289" name="Talisman (R85-grade) - HP (Passive)" type="Armor">
+		<!-- Max HP + 219 when equipped. Shadow item. -->
+		<set name="icon" val="icon.r85_talisman_hp_up_passive" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
+		<set name="is_freightable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<set name="is_private_storeable" val="false" />
+		<set name="bodypart" val="deco1" />
+		<set name="useSkillDisTime" val="1" />
+		<set name="duration" val="60" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="150" />
+		<skills>
+			<skill id="8624" level="1" /> <!-- Talisman (R-grade) - Max HP -->
+		</skills>
+	</item>
+	<item id="18290" name="Talisman (R90-grade) - HP (Passive)" type="Armor">
+		<!-- Max HP + 246 when equipped. Shadow item. -->
+		<set name="icon" val="icon.r85_talisman_hp_up_passive" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
+		<set name="is_freightable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<set name="is_private_storeable" val="false" />
+		<set name="bodypart" val="deco1" />
+		<set name="useSkillDisTime" val="1" />
+		<set name="duration" val="60" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="150" />
+		<skills>
+			<skill id="8625" level="1" /> <!-- Talisman (R90-grade) - Max HP -->
+		</skills>
+	</item>
+	<item id="18291" name="Talisman (R95-grade) - HP (Passive)" type="Armor">
+		<!-- Max HP + 277 when equipped. Shadow item. -->
+		<set name="icon" val="icon.r85_talisman_hp_up_passive" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
+		<set name="is_freightable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<set name="is_private_storeable" val="false" />
+		<set name="bodypart" val="deco1" />
+		<set name="useSkillDisTime" val="1" />
+		<set name="duration" val="60" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="150" />
+		<skills>
+			<skill id="8626" level="1" /> <!-- Talisman (R95-grade) - Max HP -->
+		</skills>
+	</item>
+	<item id="18292" name="Talisman (R99-grade) - HP (Passive)" type="Armor">
+		<!-- Max HP + 305 when equipped. Shadow item. -->
+		<set name="icon" val="icon.r85_talisman_hp_up_passive" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
+		<set name="is_freightable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<set name="is_private_storeable" val="false" />
+		<set name="bodypart" val="deco1" />
+		<set name="useSkillDisTime" val="1" />
+		<set name="duration" val="60" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="150" />
+		<skills>
+			<skill id="8627" level="1" /> <!-- Talisman (R99-grade) - Max HP -->
+		</skills>
+	</item>
+	<item id="18293" name="Talisman (R85-grade) - MP (Passive)" type="Armor">
+		<!-- Max MP + 109 when equipped. Shadow item. -->
+		<set name="icon" val="icon.r85_talisman_mp_up_passive" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
+		<set name="is_freightable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<set name="is_private_storeable" val="false" />
+		<set name="bodypart" val="deco1" />
+		<set name="useSkillDisTime" val="1" />
+		<set name="duration" val="60" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="150" />
+		<skills>
+			<skill id="8628" level="1" /> <!-- Talisman (R-grade) - Max MP -->
+		</skills>
+	</item>
+	<item id="18294" name="Talisman (R90-grade) - MP (Passive)" type="Armor">
+		<!-- Max MP + 119 when equipped. Shadow item. -->
+		<set name="icon" val="icon.r85_talisman_mp_up_passive" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
+		<set name="is_freightable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<set name="is_private_storeable" val="false" />
+		<set name="bodypart" val="deco1" />
+		<set name="useSkillDisTime" val="1" />
+		<set name="duration" val="60" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="150" />
+		<skills>
+			<skill id="8629" level="1" /> <!-- Talisman (R90-grade) - Max MP -->
+		</skills>
+	</item>
+	<item id="18295" name="Talisman (R95-grade) - MP (Passive)" type="Armor">
+		<!-- Max MP + 130 when equipped. Shadow item. -->
+		<set name="icon" val="icon.r85_talisman_mp_up_passive" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
+		<set name="is_freightable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<set name="is_private_storeable" val="false" />
+		<set name="bodypart" val="deco1" />
+		<set name="useSkillDisTime" val="1" />
+		<set name="duration" val="60" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="150" />
+		<skills>
+			<skill id="8630" level="1" /> <!-- Talisman (R95-grade) - Max MP -->
+		</skills>
+	</item>
+	<item id="18296" name="Talisman (R99-grade) - MP (Passive)" type="Armor">
+		<!-- Max MP + 139 when equipped. Shadow item. -->
+		<set name="icon" val="icon.r85_talisman_mp_up_passive" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
+		<set name="is_freightable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<set name="is_private_storeable" val="false" />
+		<set name="bodypart" val="deco1" />
+		<set name="useSkillDisTime" val="1" />
+		<set name="duration" val="60" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="150" />
+		<skills>
+			<skill id="8631" level="1" /> <!-- Talisman (R99-grade) - Max MP -->
+		</skills>
+	</item>
+	<item id="18297" name="Talisman (R85-grade) - CP (Passive)" type="Armor">
+		<!-- Max CP + 99 when equipped. Shadow item. -->
+		<set name="icon" val="icon.r85_talisman_cp_up_passive" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
+		<set name="is_freightable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<set name="is_private_storeable" val="false" />
+		<set name="bodypart" val="deco1" />
+		<set name="useSkillDisTime" val="1" />
+		<set name="duration" val="60" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="150" />
+		<skills>
+			<skill id="8632" level="1" /> <!-- Talisman (R-grade) - Max CP -->
+		</skills>
+	</item>
+	<item id="18298" name="Talisman (R90-grade) - CP (Passive)" type="Armor">
+		<!-- Max CP + 108 when equipped. Shadow item. -->
+		<set name="icon" val="icon.r85_talisman_cp_up_passive" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
+		<set name="is_freightable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<set name="is_private_storeable" val="false" />
+		<set name="bodypart" val="deco1" />
+		<set name="useSkillDisTime" val="1" />
+		<set name="duration" val="60" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="150" />
+		<skills>
+			<skill id="8633" level="1" /> <!-- Talisman (R90-grade) - Max CP -->
+		</skills>
+	</item>
+	<item id="18299" name="Talisman (R95-grade) - CP (Passive)" type="Armor">
+		<!-- Max CP + 116 when equipped. Shadow item. -->
+		<set name="icon" val="icon.r85_talisman_cp_up_passive" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
+		<set name="is_freightable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<set name="is_private_storeable" val="false" />
+		<set name="bodypart" val="deco1" />
+		<set name="useSkillDisTime" val="1" />
+		<set name="duration" val="60" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="150" />
+		<skills>
+			<skill id="8634" level="1" /> <!-- Talisman (R95-grade) - Max CP -->
+		</skills>
+	</item>
+</list>

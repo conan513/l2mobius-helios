@@ -1,0 +1,5436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
+	<skill id="11500" toLevel="1" name="Heavy Hit">
+		<!-- Glory Days confirmed -->
+		<!-- Inflicts a powerful blow on target. -->
+		<icon>icon.skill10317</icon>
+		<operateType>A1</operateType>
+		<mpConsume>71</mpConsume>
+		<castRange>900</castRange>
+		<hitTime>1000</hitTime>
+		<coolTime>300</coolTime>
+		<reuseDelay>10000</reuseDelay>
+		<effectPoint>-687</effectPoint>
+		<rideState>NONE</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effectRange>1400</effectRange>
+		<magicLvl>85</magicLvl>
+		<isMagic>1</isMagic>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<conditions>
+			<condition name="OpCheckAbnormal">
+				<type>KNOCKDOWN</type>
+				<level>1</level>
+				<hasAbnormal>true</hasAbnormal>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="MagicalAttack">
+				<power>104</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11501" toLevel="10" name="Superior Dual Weapon Mastery">
+		<!-- Glory Days confirmed -->
+		<!-- P. Atk. + 30%, Additional P. Atk. + 1027, Atk. Spd. + 30%, P. Critical Damage + 15% when a dualsword/dualblunt is equipped. Normal hit damage to monsters + 20%. Chance to activate Physical Pose during a normal attack. Depending on your STR can reset cooldown or double skill effect duration. -->
+		<icon>icon.skill10252</icon>
+		<operateType>P</operateType>
+		<magicLvl>
+			<value level="1">85</value>
+			<value level="2">90</value>
+			<value level="3">95</value>
+			<value level="4">99</value>
+			<value level="5">100</value>
+			<value level="6">102</value>
+			<value level="7">104</value>
+			<value level="8">106</value>
+			<value level="9">108</value>
+			<value level="10">110</value>
+		</magicLvl>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effects>
+			<effect name="SkillCritical">
+				<stat>STR</stat>
+			</effect>
+			<effect name="TriggerSkillByAttack">
+				<!-- Physical Pose -->
+				<attackerType>L2Character</attackerType>
+				<minAttackerLevel>1</minAttackerLevel>
+				<maxAttackerLevel>127</maxAttackerLevel>
+				<minDamage>1</minDamage>
+				<chance>3</chance>
+				<targetType>SELF</targetType>
+				<isCritical>false</isCritical>
+				<allowWeapons>DUAL,DUALBLUNT</allowWeapons>
+				<skillId>5559</skillId>
+				<skillLevel>1</skillLevel>
+			</effect>
+			<effect name="PAtk">
+				<amount>30</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PAtk">
+				<amount>
+					<value level="1">1027</value>
+					<value level="2">1191</value>
+					<value level="3">1381</value>
+					<value level="4">1554</value>
+					<value level="5">1761</value>
+					<value level="6">1869</value>
+					<value level="7">1982</value>
+					<value level="8">2103</value>
+					<value level="9">2231</value>
+					<value level="10">2367</value>
+				</amount>
+				<mode>DIFF</mode>
+				<weaponType>
+					<item>DUAL</item>
+					<item>DUALBLUNT</item>
+				</weaponType>
+			</effect>
+			<effect name="PhysicalAttackSpeed">
+				<amount>30</amount>
+				<mode>PER</mode>
+				<weaponType>
+					<item>DUAL</item>
+					<item>DUALBLUNT</item>
+				</weaponType>
+			</effect>
+			<effect name="CriticalDamage">
+				<amount>15</amount>
+				<mode>PER</mode>
+				<weaponType>
+					<item>DUAL</item>
+					<item>DUALBLUNT</item>
+				</weaponType>
+			</effect>
+			<effect name="PvePhysicalAttackDamageBonus">
+				<amount>20</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11502" toLevel="10" name="Superior Robe Mastery">
+		<!-- Glory Days confirmed -->
+		<!--Max HP + 4636, P. Def. + 969 when equipped with a Robe. -->
+		<icon>icon.skill11252</icon>
+		<operateType>P</operateType>
+		<magicLvl>
+			<value level="1">85</value>
+			<value level="2">90</value>
+			<value level="3">95</value>
+			<value level="4">99</value>
+			<value level="5">100</value>
+			<value level="6">102</value>
+			<value level="7">104</value>
+			<value level="8">106</value>
+			<value level="9">108</value>
+			<value level="10">110</value>
+		</magicLvl>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">969</value>
+					<value level="2">1064</value>
+					<value level="3">1169</value>
+					<value level="4">1261</value>
+					<value level="5">1413</value>
+					<value level="6">1467</value>
+					<value level="7">1522</value>
+					<value level="8">1580</value>
+					<value level="9">1646</value>
+					<value level="10">1709</value>
+				</amount>
+				<mode>DIFF</mode>
+				<armorType>
+					<item>MAGIC</item>
+				</armorType>
+			</effect>
+			<effect name="MaxHp">
+				<amount>4636</amount>
+				<mode>DIFF</mode>
+				<armorType>
+					<item>MAGIC</item>
+				</armorType>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11503" toLevel="10" name="Superior Light Armor Mastery">
+		<!-- Glory Days confirmed -->
+		<!-- Max HP + 4636, P. Def. + 1506, Atk. Spd. + 10%, Speed + 4 when equipped with Light Armor. -->
+		<icon>icon.skill10254</icon>
+		<operateType>P</operateType>
+		<magicLvl>
+			<value level="1">85</value>
+			<value level="2">90</value>
+			<value level="3">95</value>
+			<value level="4">99</value>
+			<value level="5">100</value>
+			<value level="6">102</value>
+			<value level="7">104</value>
+			<value level="8">106</value>
+			<value level="9">108</value>
+			<value level="10">110</value>
+		</magicLvl>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">1506</value>
+					<value level="2">1654</value>
+					<value level="3">1817</value>
+					<value level="4">1959</value>
+					<value level="5">2196</value>
+					<value level="6">2279</value>
+					<value level="7">2365</value>
+					<value level="8">2209</value>
+					<value level="9">2302</value>
+					<value level="10">2389</value>
+				</amount>
+				<mode>DIFF</mode>
+				<armorType>
+					<item>LIGHT</item>
+				</armorType>
+			</effect>
+			<effect name="MaxHp">
+				<amount>4636</amount>
+				<mode>DIFF</mode>
+				<armorType>
+					<item>LIGHT</item>
+				</armorType>
+			</effect>
+			<effect name="Speed">
+				<amount>4</amount>
+				<mode>DIFF</mode>
+				<armorType>
+					<item>LIGHT</item>
+				</armorType>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11504" toLevel="10" name="Superior Heavy Armor Mastery">
+		<!-- Glory Days confirmed -->
+		<!-- When heavy armor is equipped, Max HP +4636, P. Def. +1731; P. Critical Damage Received -35%. -->
+		<icon>icon.skill10002</icon>
+		<operateType>P</operateType>
+		<magicLvl>
+			<value level="1">85</value>
+			<value level="2">90</value>
+			<value level="3">95</value>
+			<value level="4">99</value>
+			<value level="5">100</value>
+			<value level="6">102</value>
+			<value level="7">104</value>
+			<value level="8">106</value>
+			<value level="9">108</value>
+			<value level="10">110</value>
+		</magicLvl>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">1731</value>
+					<value level="2">1901</value>
+					<value level="3">2088</value>
+					<value level="4">2252</value>
+					<value level="5">2524</value>
+					<value level="6">2619</value>
+					<value level="7">2718</value>
+					<value level="8">2539</value>
+					<value level="9">2646</value>
+					<value level="10">2746</value>
+				</amount>
+				<mode>DIFF</mode>
+				<armorType>
+					<item>HEAVY</item>
+				</armorType>
+			</effect>
+			<effect name="MaxHp">
+				<amount>4636</amount>
+				<mode>DIFF</mode>
+				<armorType>
+					<item>HEAVY</item>
+				</armorType>
+			</effect>
+			<effect name="DefenceCriticalDamage">
+				<amount>-35</amount>
+				<mode>PER</mode>
+				<armorType>
+					<item>HEAVY</item>
+				</armorType>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11505" toLevel="10" name="Superior Anti Magic">
+		<!-- Glory Days confirmed -->
+		<!-- M. Def. + 776 and Attack M. Def. Rate + 35%. -->
+		<icon>icon.skill10004</icon>
+		<operateType>P</operateType>
+		<magicLvl>
+			<value level="1">85</value>
+			<value level="2">90</value>
+			<value level="3">95</value>
+			<value level="4">99</value>
+			<value level="5">100</value>
+			<value level="6">102</value>
+			<value level="7">104</value>
+			<value level="8">106</value>
+			<value level="9">108</value>
+			<value level="10">110</value>
+		</magicLvl>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effects>
+			<effect name="MagicalDefence">
+				<amount>
+					<value level="1">776</value>
+					<value level="2">878</value>
+					<value level="3">993</value>
+					<value level="4">1097</value>
+					<value level="5">1237</value>
+					<value level="6">1299</value>
+					<value level="7">1365</value>
+					<value level="8">1434</value>
+					<value level="9">1507</value>
+					<value level="10">1583</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="ResistDDMagic">
+				<amount>35</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11506" toLevel="10" name="Superior HP Boost">
+		<!-- Glory Days confirmed -->
+		<!-- STR + 2 and Max HP + 366. -->
+		<icon>icon.skill0211</icon>
+		<operateType>P</operateType>
+		<magicLvl>
+			<value level="1">85</value>
+			<value level="2">90</value>
+			<value level="3">95</value>
+			<value level="4">99</value>
+			<value level="5">100</value>
+			<value level="6">102</value>
+			<value level="7">104</value>
+			<value level="8">106</value>
+			<value level="9">108</value>
+			<value level="10">110</value>
+		</magicLvl>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effects>
+			<effect name="StatUp">
+				<amount>2</amount>
+				<stat>STR</stat>
+			</effect>
+			<effect name="MaxHp">
+				<amount>
+					<value level="1">513</value>
+					<value level="2">574</value>
+					<value level="3">635</value>
+					<value level="4">717</value>
+					<value level="5">766</value>
+					<value level="6">835</value>
+					<value level="7">904</value>
+					<value level="8">973</value>
+					<value level="9">1042</value>
+					<value level="10">1111</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11507" toLevel="10" name="Superior MP Boost">
+		<!-- Glory Days confirmed -->
+		<!-- STR + 2 and Max MP + 313. -->
+		<icon>icon.skill0213</icon>
+		<operateType>P</operateType>
+		<magicLvl>
+			<value level="1">85</value>
+			<value level="2">90</value>
+			<value level="3">95</value>
+			<value level="4">99</value>
+			<value level="5">100</value>
+			<value level="6">102</value>
+			<value level="7">104</value>
+			<value level="8">106</value>
+			<value level="9">108</value>
+			<value level="10">110</value>
+		</magicLvl>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effects>
+			<effect name="MaxMp">
+				<amount>
+					<value level="1">313</value>
+					<value level="2">374</value>
+					<value level="3">435</value>
+					<value level="4">517</value>
+					<value level="5">566</value>
+					<value level="6">635</value>
+					<value level="7">704</value>
+					<value level="8">773</value>
+					<value level="9">842</value>
+					<value level="10">911</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="StatUp">
+				<amount>2</amount>
+				<stat>STR</stat>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11508" toLevel="9" name="Assault Rush">
+		<!-- Glory Days confirmed -->
+		<!-- Rushes the enemy to inflict Stun for 1 second. Requires a sword, dualsword or dual blunt to be equipped. -->
+		<icon>icon.skill11508</icon>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>3</abnormalTime>
+		<abnormalType>STUN</abnormalType>
+		<abnormalVisualEffect>STUN</abnormalVisualEffect>
+		<activateRate>
+			<value fromLevel="1" toLevel="9">150</value>
+			<value fromLevel="5" toLevel="9" fromSubLevel="1001" toSubLevel="1030">{base + base / 100 * subIndex}</value>
+		</activateRate>
+		<basicProperty>NONE</basicProperty>
+		<nextAction>ATTACK</nextAction>
+		<operateType>DA2</operateType>
+		<lvlBonusRate>1</lvlBonusRate>
+		<mpConsume>
+			<value level="1">38</value>
+			<value level="2">39</value>
+			<value level="3">41</value>
+			<value level="4">43</value>
+			<value level="5">45</value>
+			<value level="6">47</value>
+			<value level="7">49</value>
+			<value level="8">51</value>
+			<value level="9">53</value>
+		</mpConsume>
+		<castRange>
+			<value fromLevel="1" toLevel="9">600</value>
+			<value fromLevel="5" toLevel="9" fromSubLevel="2001" toSubLevel="2030">{base + 10 * subIndex}</value>
+		</castRange>
+		<hitTime>800</hitTime>
+		<coolTime>200</coolTime>
+		<reuseDelay>7000</reuseDelay>
+		<isDebuff>true</isDebuff>
+		<effectPoint>
+			<value level="1">-687</value>
+			<value level="2">-698</value>
+			<value level="3">-707</value>
+			<value level="4">-712</value>
+			<value level="5">-712</value>
+			<value level="6">-712</value>
+			<value level="7">-712</value>
+			<value level="8">-712</value>
+			<value level="9">-712</value>
+		</effectPoint>
+		<rideState>NONE</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effectRange>800</effectRange>
+		<magicLvl>
+			<value level="1">85</value>
+			<value level="2">87</value>
+			<value level="3">90</value>
+			<value level="4">93</value>
+			<value level="5">96</value>
+			<value level="6">99</value>
+			<value level="7">101</value>
+			<value level="8">102</value>
+			<value level="9">105</value>
+		</magicLvl>
+		<trait>SHOCK</trait>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<conditions>
+			<condition name="EquipWeapon">
+				<weaponType>
+					<item>DUAL</item>
+					<item>DUALBLUNT</item>
+					<item>SWORD</item>
+					<item>BLUNT</item>
+				</weaponType>
+			</condition>
+			<condition name="OpCheckCastRange">
+				<distance>
+					<value fromLevel="1" toLevel="9">200</value>
+					<value fromLevel="5" toLevel="9" fromSubLevel="3001" toSubLevel="3030">{base - (3 * subIndex)}</value>
+				</distance>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="BlockActions">
+				<allowedSkills>10279;10517;10025;10776;11770;1904;11264;11093;13314;1912</allowedSkills>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11509" toLevel="11" name="Crippling Attack">
+		<!-- Glory Days confirmed -->
+		<!-- Attacks target with 14608 Power added to P. Atk. For 20 seconds, P. Def. and M. Def. - 40% and P. Evasion - 15. Requires a sword, dualsword or dual blunt to be equipped. Over-hit. Critical. -->
+		<abnormalLvl>5</abnormalLvl>
+		<abnormalTime>20</abnormalTime>
+		<abnormalType>ULTIMATE_DEBUFF</abnormalType>
+		<activateRate>
+			<value fromLevel="1" toLevel="11">99</value>
+			<value fromLevel="7" toLevel="11" fromSubLevel="2001" toSubLevel="2030">{base + base / 100 * subIndex}</value>
+		</activateRate>
+		<castRange>40</castRange>
+		<coolTime>300</coolTime>
+		<effectRange>400</effectRange>
+		<hitTime>910</hitTime>
+		<icon>icon.skill11509</icon>
+		<magicLvl>
+			<value level="1">85</value>
+			<value level="2">86</value>
+			<value level="3">88</value>
+			<value level="4">90</value>
+			<value level="5">92</value>
+			<value level="6">94</value>
+			<value level="7">96</value>
+			<value level="8">98</value>
+			<value level="9">101</value>
+			<value level="10">103</value>
+			<value level="11">105</value>
+		</magicLvl>
+		<mpConsume>
+			<value level="1">46</value>
+			<value level="2">47</value>
+			<value level="3">48</value>
+			<value level="4">50</value>
+			<value level="5">52</value>
+			<value level="6">53</value>
+			<value level="7">55</value>
+			<value level="8">57</value>
+			<value level="9">59</value>
+			<value level="10">61</value>
+			<value level="11">63</value>
+		</mpConsume>
+		<operateType>A2</operateType>
+		<nextAction>ATTACK</nextAction>
+		<reuseDelay>7000</reuseDelay>
+		<rideState>NONE</rideState>
+		<effectPoint>
+			<value level="1">-687</value>
+			<value level="2">-694</value>
+			<value level="3">-700</value>
+			<value level="4">-705</value>
+			<value level="5">-709</value>
+			<value level="6">-712</value>
+			<value level="7">-712</value>
+			<value level="8">-712</value>
+			<value level="9">-712</value>
+			<value level="10">-712</value>
+			<value level="11">-712</value>
+		</effectPoint>
+		<basicProperty>NONE</basicProperty>
+		<magicCriticalRate>5</magicCriticalRate>
+		<isDebuff>true</isDebuff>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<conditions>
+			<condition name="EquipWeapon">
+				<weaponType>
+					<item>DUAL</item>
+					<item>DUALBLUNT</item>
+					<item>SWORD</item>
+					<item>BLUNT</item>
+				</weaponType>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="AirBind" />
+			<effect name="PhysicalAttack">
+				<power>
+					<value level="1">14608</value>
+					<value level="2">15192</value>
+					<value level="3">16360</value>
+					<value level="4">17528</value>
+					<value level="5">18696</value>
+					<value level="6">19864</value>
+					<value level="7">21032</value>
+					<value level="8">22200</value>
+					<value level="9">26008</value>
+					<value level="10">27138</value>
+					<value level="11">28268</value>
+					<value fromLevel="7" toLevel="11" fromSubLevel="1001" toSubLevel="1030">{base + base / 100 * subIndex}</value>
+				</power>
+				<overHit>true</overHit>
+				<criticalChance>5</criticalChance>
+				<pDefMod>
+					<value fromLevel="1" toLevel="11">1</value>
+					<value fromLevel="7" toLevel="11" fromSubLevel="3001" toSubLevel="3030">{0.99 - 0.006 * (subIndex - 1)}</value>
+				</pDefMod>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>-40</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>-40</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalEvasion">
+				<amount>-15</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11510" toLevel="11" name="Shadow Blade">
+		<!-- Glory Days confirmed -->
+		<!-- Attacks target with 14608 Power added to P. Atk. For 20 seconds, P. Atk. and M. Atk. - 40%. Requires a sword, dualsword or dual blunt to be equipped. Over-hit. Critical. -->
+		<abnormalLvl>5</abnormalLvl>
+		<abnormalTime>20</abnormalTime>
+		<abnormalType>CRITICAL_PROB_DOWN</abnormalType>
+		<activateRate>
+			<value fromLevel="1" toLevel="11">99</value>
+			<value fromLevel="7" toLevel="11" fromSubLevel="2001" toSubLevel="2030">{base + base / 100 * subIndex}</value>
+		</activateRate>
+		<castRange>40</castRange>
+		<coolTime>300</coolTime>
+		<effectRange>400</effectRange>
+		<hitTime>1010</hitTime>
+		<icon>icon.skill11510</icon>
+		<magicLvl>
+			<value level="1">85</value>
+			<value level="2">87</value>
+			<value level="3">89</value>
+			<value level="4">91</value>
+			<value level="5">93</value>
+			<value level="6">95</value>
+			<value level="7">97</value>
+			<value level="8">99</value>
+			<value level="9">101</value>
+			<value level="10">103</value>
+			<value level="11">105</value>
+		</magicLvl>
+		<mpConsume>
+			<value level="1">50</value>
+			<value level="2">51</value>
+			<value level="3">53</value>
+			<value level="4">55</value>
+			<value level="5">57</value>
+			<value level="6">59</value>
+			<value level="7">60</value>
+			<value level="8">62</value>
+			<value level="9">64</value>
+			<value level="10">66</value>
+			<value level="11">68</value>
+		</mpConsume>
+		<operateType>A2</operateType>
+		<nextAction>ATTACK</nextAction>
+		<reuseDelay>7000</reuseDelay>
+		<rideState>NONE</rideState>
+		<effectPoint>
+			<value level="1">-687</value>
+			<value level="2">-694</value>
+			<value level="3">-700</value>
+			<value level="4">-705</value>
+			<value level="5">-709</value>
+			<value level="6">-712</value>
+			<value level="7">-712</value>
+			<value level="8">-712</value>
+			<value level="9">-712</value>
+			<value level="10">-712</value>
+			<value level="11">-712</value>
+		</effectPoint>
+		<basicProperty>NONE</basicProperty>
+		<magicCriticalRate>5</magicCriticalRate>
+		<isDebuff>true</isDebuff>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<conditions>
+			<condition name="EquipWeapon">
+				<weaponType>
+					<item>DUAL</item>
+					<item>DUALBLUNT</item>
+					<item>SWORD</item>
+					<item>BLUNT</item>
+				</weaponType>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="PhysicalAttack">
+				<power>
+					<value level="1">14608</value>
+					<value level="2">15776</value>
+					<value level="3">16944</value>
+					<value level="4">18112</value>
+					<value level="5">19280</value>
+					<value level="6">20448</value>
+					<value level="7">21616</value>
+					<value level="8">22784</value>
+					<value level="9">28162</value>
+					<value level="10">29386</value>
+					<value level="11">30610</value>
+					<value fromLevel="7" toLevel="11" fromSubLevel="1001" toSubLevel="1030">{base + base / 100 * subIndex}</value>
+				</power>
+				<overHit>true</overHit>
+				<criticalChance>5</criticalChance>
+				<pDefMod>
+					<value fromLevel="1" toLevel="11">1</value>
+					<value fromLevel="7" toLevel="11" fromSubLevel="3001" toSubLevel="3030">{0.99 - 0.006 * (subIndex - 1)}</value>
+				</pDefMod>
+			</effect>
+			<effect name="PAtk">
+				<amount>-40</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MAtk">
+				<amount>-40</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11511" toLevel="11" name="Death Strike">
+		<!-- Glory Days confirmed -->
+		<!-- Attacks target with 21642 Power added to P. Atk. Requires a sword, blunt, dualsword, or dual blunt weapon. Over-hit. Critical. -->
+		<castRange>40</castRange>
+		<coolTime>500</coolTime>
+		<effectRange>400</effectRange>
+		<hitTime>1410</hitTime>
+		<icon>icon.skill11511</icon>
+		<magicLvl>
+			<value level="1">85</value>
+			<value level="2">86</value>
+			<value level="3">88</value>
+			<value level="4">90</value>
+			<value level="5">92</value>
+			<value level="6">94</value>
+			<value level="7">96</value>
+			<value level="8">98</value>
+			<value level="9">101</value>
+			<value level="10">103</value>
+			<value level="11">105</value>
+		</magicLvl>
+		<mpConsume>
+			<value level="1">73</value>
+			<value level="2">74</value>
+			<value level="3">76</value>
+			<value level="4">79</value>
+			<value level="5">82</value>
+			<value level="6">84</value>
+			<value level="7">87</value>
+			<value level="8">90</value>
+			<value level="9">93</value>
+			<value level="10">96</value>
+			<value level="11">99</value>
+		</mpConsume>
+		<operateType>A1</operateType>
+		<nextAction>ATTACK</nextAction>
+		<reuseDelay>7000</reuseDelay>
+		<rideState>NONE</rideState>
+		<effectPoint>
+			<value level="1">-692</value>
+			<value level="2">-696</value>
+			<value level="3">-700</value>
+			<value level="4">-704</value>
+			<value level="5">-707</value>
+			<value level="6">-709</value>
+			<value level="7">-712</value>
+			<value level="8">-712</value>
+			<value level="9">-712</value>
+			<value level="10">-712</value>
+			<value level="11">-712</value>
+		</effectPoint>
+		<magicCriticalRate>5</magicCriticalRate>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<conditions>
+			<condition name="EquipWeapon">
+				<weaponType>
+					<item>DUAL</item>
+					<item>DUALBLUNT</item>
+					<item>SWORD</item>
+					<item>BLUNT</item>
+				</weaponType>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="PhysicalAttack">
+				<power>
+					<value level="1">21642</value>
+					<value level="2">22507</value>
+					<value level="3">24237</value>
+					<value level="4">25967</value>
+					<value level="5">27697</value>
+					<value level="6">29427</value>
+					<value level="7">31157</value>
+					<value level="8">32887</value>
+					<value level="9">40673</value>
+					<value level="10">42657</value>
+					<value level="11">44641</value>
+					<value fromLevel="7" toLevel="11" fromSubLevel="1001" toSubLevel="1030">{base + base / 100 * subIndex}</value>
+				</power>
+				<overHit>true</overHit>
+				<criticalChance>
+					<value fromLevel="1" toLevel="11">5</value>
+					<value fromLevel="7" toLevel="11" fromSubLevel="2001" toSubLevel="2030">{base + base / 100 * subIndex}</value>
+				</criticalChance>
+				<pDefMod>
+					<value fromLevel="1" toLevel="11">1</value>
+					<value fromLevel="7" toLevel="11" fromSubLevel="3001" toSubLevel="3030">{0.99 - 0.006 * (subIndex - 1)}</value>
+				</pDefMod>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11513" toLevel="11" name="Mass Crippling Attack">
+		<!-- Glory Days confirmed -->
+		<!-- Attacks target and nearby enemies with 10263 Power added to P. Atk. For 20 seconds, decreases target's P. Def. and M. Def. by 40% and P. Evasion by 15. Requires a sword, dualsword or dual blunt to be equipped. Over-hit. Critical. -->
+		<icon>icon.skill11513</icon>
+		<abnormalLvl>5</abnormalLvl>
+		<abnormalTime>20</abnormalTime>
+		<abnormalType>ULTIMATE_DEBUFF</abnormalType>
+		<activateRate>
+			<value fromLevel="1" toLevel="11">99</value>
+			<value fromLevel="7" toLevel="11" fromSubLevel="1001" toSubLevel="1030">{base + base / 100 * subIndex}</value>
+		</activateRate>
+		<affectLimit>5-12</affectLimit>
+		<affectRange>200</affectRange>
+		<castRange>40</castRange>
+		<coolTime>500</coolTime>
+		<hitTime>1210</hitTime>
+		<icon>icon.skill11509</icon>
+		<magicLvl>
+			<value level="1">85</value>
+			<value level="2">86</value>
+			<value level="3">88</value>
+			<value level="4">90</value>
+			<value level="5">92</value>
+			<value level="6">94</value>
+			<value level="7">96</value>
+			<value level="8">98</value>
+			<value level="9">101</value>
+			<value level="10">103</value>
+			<value level="11">105</value>
+		</magicLvl>
+		<mpConsume>
+			<value level="1">130</value>
+			<value level="2">132</value>
+			<value level="3">136</value>
+			<value level="4">142</value>
+			<value level="5">146</value>
+			<value level="6">150</value>
+			<value level="7">156</value>
+			<value level="8">160</value>
+			<value level="9">164</value>
+			<value level="10">168</value>
+			<value level="11">172</value>
+		</mpConsume>
+		<nextAction>ATTACK</nextAction>
+		<operateType>A2</operateType>
+		<reuseDelay>10000</reuseDelay>
+		<rideState>NONE</rideState>
+		<effectPoint>
+			<value level="1">-687</value>
+			<value level="2">-694</value>
+			<value level="3">-700</value>
+			<value level="4">-705</value>
+			<value level="5">-709</value>
+			<value level="6">-712</value>
+			<value level="7">-712</value>
+			<value level="8">-712</value>
+			<value level="9">-712</value>
+			<value level="10">-712</value>
+			<value level="11">-712</value>
+		</effectPoint>
+		<basicProperty>NONE</basicProperty>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effectRange>400</effectRange>
+		<isDebuff>true</isDebuff>
+		<targetType>ENEMY</targetType>
+		<affectScope>RANGE</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<conditions>
+			<condition name="EquipWeapon">
+				<weaponType>
+					<item>DUAL</item>
+					<item>DUALBLUNT</item>
+					<item>SWORD</item>
+					<item>BLUNT</item>
+				</weaponType>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="PhysicalAttack">
+				<power>
+					<value level="1">10263</value>
+					<value level="2">10616</value>
+					<value level="3">11322</value>
+					<value level="4">12027</value>
+					<value level="5">12733</value>
+					<value level="6">13438</value>
+					<value level="7">14144</value>
+					<value level="8">14849</value>
+					<value level="9">19113</value>
+					<value level="10">20045</value>
+					<value level="11">20977</value>
+					<value fromLevel="7" toLevel="11" fromSubLevel="1001" toSubLevel="1030">{base + base / 100 * subIndex}</value>
+				</power>
+				<overHit>true</overHit>
+				<criticalChance>5</criticalChance>
+				<pDefMod>
+					<value fromLevel="1" toLevel="11">1</value>
+					<value fromLevel="7" toLevel="11" fromSubLevel="3001" toSubLevel="3030">{0.99 - 0.006 * (subIndex - 1)}</value>
+				</pDefMod>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>-40</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>-40</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalEvasion">
+				<amount>-15</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11514" toLevel="11" name="Mass Shadow Blade">
+		<!-- Glory Days confirmed -->
+		<!-- Attacks target and nearby enemies with 11722 Power added to P. Atk. For 20 seconds, decreases P. Atk. and M. Atk. by 40%. Requires a sword, dualsword or dual blunt to be equipped. Over-hit. Critical. -->
+		<abnormalLvl>5</abnormalLvl>
+		<abnormalTime>20</abnormalTime>
+		<abnormalType>CRITICAL_PROB_DOWN</abnormalType>
+		<activateRate>
+			<value fromLevel="1" toLevel="11">99</value>
+			<value fromLevel="7" toLevel="11" fromSubLevel="1001" toSubLevel="1030">{base + base / 100 * subIndex}</value>
+		</activateRate>
+		<affectLimit>5-12</affectLimit>
+		<affectRange>200</affectRange>
+		<castRange>40</castRange>
+		<coolTime>500</coolTime>
+		<hitTime>1410</hitTime>
+		<icon>icon.skill11514</icon>
+		<magicLvl>
+			<value level="1">85</value>
+			<value level="2">87</value>
+			<value level="3">89</value>
+			<value level="4">91</value>
+			<value level="5">93</value>
+			<value level="6">95</value>
+			<value level="7">97</value>
+			<value level="8">99</value>
+			<value level="9">101</value>
+			<value level="10">103</value>
+			<value level="11">105</value>
+		</magicLvl>
+		<mpConsume>
+			<value level="1">146</value>
+			<value level="2">150</value>
+			<value level="3">156</value>
+			<value level="4">160</value>
+			<value level="5">166</value>
+			<value level="6">172</value>
+			<value level="7">176</value>
+			<value level="8">182</value>
+			<value level="9">188</value>
+			<value level="10">194</value>
+			<value level="11">200</value>
+		</mpConsume>
+		<nextAction>ATTACK</nextAction>
+		<operateType>A2</operateType>
+		<reuseDelay>10000</reuseDelay>
+		<rideState>NONE</rideState>
+		<effectPoint>
+			<value level="1">-692</value>
+			<value level="2">-696</value>
+			<value level="3">-700</value>
+			<value level="4">-704</value>
+			<value level="5">-707</value>
+			<value level="6">-709</value>
+			<value level="7">-712</value>
+			<value level="8">-712</value>
+			<value level="9">-712</value>
+			<value level="10">-712</value>
+			<value level="11">-712</value>
+		</effectPoint>
+		<basicProperty>NONE</basicProperty>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effectRange>400</effectRange>
+		<isDebuff>true</isDebuff>
+		<targetType>ENEMY</targetType>
+		<affectScope>RANGE</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<conditions>
+			<condition name="EquipWeapon">
+				<weaponType>
+					<item>DUAL</item>
+					<item>DUALBLUNT</item>
+					<item>SWORD</item>
+					<item>BLUNT</item>
+				</weaponType>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="PhysicalAttack">
+				<power>
+					<value level="1">11722</value>
+					<value level="2">12525</value>
+					<value level="3">13327</value>
+					<value level="4">14130</value>
+					<value level="5">14933</value>
+					<value level="6">15736</value>
+					<value level="7">16539</value>
+					<value level="8">17342</value>
+					<value level="9">21340</value>
+					<value level="10">22380</value>
+					<value level="11">23420</value>
+					<value fromLevel="7" toLevel="11" fromSubLevel="1001" toSubLevel="1030">{base + base / 100 * subIndex}</value>
+				</power>
+				<overHit>true</overHit>
+				<criticalChance>5</criticalChance>
+				<pDefMod>
+					<value fromLevel="1" toLevel="11">1</value>
+					<value fromLevel="7" toLevel="11" fromSubLevel="3001" toSubLevel="3030">{0.99 - 0.006 * (subIndex - 1)}</value>
+				</pDefMod>
+			</effect>
+			<effect name="PAtk">
+				<amount>-40</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MAtk">
+				<amount>-40</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11515" toLevel="5" name="Confusion Bomber">
+		<!-- Glory Days confirmed -->
+		<!-- Curses target with darkness. For 5 seconds, decreases Speed and Atk. Spd. by 5%. After 5 seconds, detonates target to inflict damage nearby. Requires a sword, dualsword or dual blunt to be equipped. -->
+		<icon>icon.skill11515</icon>
+		<operateType>A2</operateType>
+		<mpConsume>
+			<value level="1">76</value>
+			<value level="2">80</value>
+			<value level="3">84</value>
+			<value level="4">88</value>
+			<value level="5">92</value>
+		</mpConsume>
+		<castRange>200</castRange>
+		<hitTime>1210</hitTime>
+		<coolTime>300</coolTime>
+		<reuseDelay>180000</reuseDelay>
+		<effectPoint>
+			<value level="1">-696</value>
+			<value level="2">-702</value>
+			<value level="3">-707</value>
+			<value level="4">-711</value>
+			<value level="5">-711</value>
+		</effectPoint>
+		<abnormalType>PARALYZE</abnormalType>
+		<basicProperty>NONE</basicProperty>
+		<rideState>NONE</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effectRange>1100</effectRange>
+		<lvlBonusRate>20</lvlBonusRate>
+		<activateRate>60</activateRate>
+		<magicLvl>
+			<value level="1">85</value>
+			<value level="2">88</value>
+			<value level="3">91</value>
+			<value level="4">94</value>
+			<value level="5">97</value>
+		</magicLvl>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>5</abnormalTime>
+		<trait>DERANGEMENT</trait>
+		<isDebuff>true</isDebuff>
+		<targetType>ENEMY_ONLY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<effects>
+			<effect name="Speed">
+				<amount>-5</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalAttackSpeed">
+				<amount>-5</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttackSpeed">
+				<amount>-5</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+		<endEffects>
+			<effect name="CallSkill">
+				<skillId>11516</skillId>
+				<skillLevel>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">4</value>
+					<value level="5">5</value>
+				</skillLevel>
+			</effect>
+		</endEffects>
+	</skill>
+	<skill id="11516" toLevel="15" name="Curse Explosion">
+		<!-- Glory Days confirmed -->
+		<icon>icon.skill1170</icon>
+		<operateType>A1</operateType>
+		<effectPoint>
+			<value level="1">-696</value>
+			<value level="2">-702</value>
+			<value level="3">-707</value>
+			<value level="4">-711</value>
+			<value level="5">-711</value>
+			<value level="6">-711</value>
+			<value level="7">-711</value>
+			<value level="8">-711</value>
+			<value level="9">-711</value>
+			<value level="10">-711</value>
+			<value level="11">-711</value>
+			<value level="12">-711</value>
+			<value level="13">-711</value>
+			<value level="14">-711</value>
+			<value level="15">-711</value>
+		</effectPoint>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLvl>
+			<value level="1">85</value>
+			<value level="2">88</value>
+			<value level="3">91</value>
+			<value level="4">94</value>
+			<value level="5">97</value>
+			<value level="6">99</value>
+			<value level="7">99</value>
+			<value level="8">99</value>
+			<value level="9">99</value>
+			<value level="10">99</value>
+			<value level="11">99</value>
+			<value level="12">99</value>
+			<value level="13">99</value>
+			<value level="14">99</value>
+			<value level="15">99</value>
+		</magicLvl>
+		<trait>DERANGEMENT</trait>
+		<affectRange>200</affectRange>
+		<isDebuff>true</isDebuff>
+		<targetType>SELF</targetType>
+		<affectScope>POINT_BLANK</affectScope>
+		<affectObject>ALL</affectObject>
+		<effects>
+			<effect name="PhysicalAttack">
+				<power>
+					<value level="1">8805</value>
+					<value level="2">9717</value>
+					<value level="3">10630</value>
+					<value level="4">11542</value>
+					<value level="5">12454</value>
+					<value level="6">13366</value>
+					<value level="7">13670</value>
+					<value level="8">13974</value>
+					<value level="9">14278</value>
+					<value level="10">14582</value>
+					<value level="11">14886</value>
+					<value level="12">15190</value>
+					<value level="13">15494</value>
+					<value level="14">15799</value>
+					<value level="15">16103</value>
+				</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11517" toLevel="4" name="Horn Melody">
+		<!-- Glory Days confirmed -->
+		<!-- For 30 minutes, all party members' P. Atk. + 17%, P. Def. + 15%, M. Atk. + 79%, and M. Def. + 30%. -->
+		<abnormalLvl>
+			<value level="1">1</value>
+			<value level="2">2</value>
+			<value level="3">3</value>
+			<value level="4">4</value>
+		</abnormalLvl>
+		<abnormalTime>
+			<value fromLevel="1" toLevel="4">1800</value>
+			<value fromLevel="3" toLevel="4" fromSubLevel="1001" toSubLevel="1030">{base + subIndex * 90}</value>
+		</abnormalTime>
+		<abnormalType>BUFF_SPECIAL_ATTACK</abnormalType>
+		<affectRange>1000</affectRange>
+		<icon>icon.skill11517</icon>
+		<operateType>A2</operateType>
+		<mpConsume>
+			<value level="1">140</value>
+			<value level="2">151</value>
+			<value level="3">170</value>
+			<value level="4">181</value>
+		</mpConsume>
+		<mpInitialConsume>
+			<value level="1">28</value>
+			<value level="2">31</value>
+			<value level="3">34</value>
+			<value level="4">37</value>
+		</mpInitialConsume>
+		<hitTime>700</hitTime>
+		<coolTime>300</coolTime>
+		<isMagic>22</isMagic>
+		<magicLvl>
+			<value level="1">85</value>
+			<value level="2">90</value>
+			<value level="3">95</value>
+			<value level="4">99</value>
+		</magicLvl>
+		<reuseDelay>2000</reuseDelay>
+		<effectPoint>
+			<value level="1">687</value>
+			<value level="2">698</value>
+			<value level="3">707</value>
+			<value level="4">712</value>
+		</effectPoint>
+		<basicProperty>NONE</basicProperty>
+		<magicCriticalRate>5</magicCriticalRate>
+		<affectLimit>
+			<value level="1">0-0</value>
+			<value level="2">0-0</value>
+			<value level="3">0-0</value>
+			<value level="4">50-50</value>
+		</affectLimit>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<targetType>SELF</targetType>
+		<affectScope>
+			<value level="1">PARTY</value>
+			<value level="2">PARTY</value>
+			<value level="3">PARTY</value>
+			<value level="4">PARTY_PLEDGE</value>
+		</affectScope>
+		<affectObject>FRIEND</affectObject>
+		<effects>
+			<effect name="DispelBySlotProbability">
+				<dispel>IMPROVE_PA_PD_UP;PA_UP;IMPROVE_MA_MD_UP;MD_UP;MA_UP;KAMAEL_SPECIAL</dispel>
+				<rate>100</rate>
+			</effect>
+			<effect name="BlockAbnormalSlot">
+				<slot>IMPROVE_PA_PD_UP;PA_UP;IMPROVE_MA_MD_UP;MD_UP;MA_UP;KAMAEL_SPECIAL</slot>
+			</effect>
+			<effect name="PAtk">
+				<amount>
+					<value level="1">17</value>
+					<value level="2">19</value>
+					<value level="3">21</value>
+					<value level="4">23</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MAtk">
+				<amount>
+					<value level="1">79</value>
+					<value level="2">83</value>
+					<value level="3">87</value>
+					<value level="4">91</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>30</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11518" toLevel="4" name="Drum Melody">
+		<!-- For 30 minutes, party members' Max MP + 20%, HP Recovery Bonus + 20%, M. Critical Rate + 20, Critical Damage during a normal attack + 20%, P. Atk. + 10%, P. Def. + 20%, Atk. Spd. + 20%, M. Atk. + 20%, M. Def. + 20%, Casting Spd. + 20%, Debuff Resistance + 10%, damage received from critical attacks - 30% and Speed - 15%. Party members equipped with melee weapons/bows/crossbows have increased Critical Damage after receiving an amount of damage. -->
+		<!-- Glory Days confirmed -->
+		<abnormalLvl>
+			<value level="1">1</value>
+			<value level="2">2</value>
+			<value level="3">3</value>
+			<value level="4">4</value>
+		</abnormalLvl>
+		<abnormalType>BUFF_SPECIAL_DEFENCE</abnormalType>
+		<abnormalTime>
+			<value fromLevel="1" toLevel="4">1800</value>
+			<value fromLevel="3" toLevel="4" fromSubLevel="1001" toSubLevel="1030">{base + subIndex * 90}</value>
+		</abnormalTime>
+		<affectRange>1000</affectRange>
+		<icon>icon.skill11522</icon>
+		<operateType>A2</operateType>
+		<mpConsume>
+			<value level="1">140</value>
+			<value level="2">151</value>
+			<value level="3">170</value>
+			<value level="4">181</value>
+		</mpConsume>
+		<mpInitialConsume>
+			<value level="1">28</value>
+			<value level="2">31</value>
+			<value level="3">34</value>
+			<value level="4">37</value>
+		</mpInitialConsume>
+		<hitTime>700</hitTime>
+		<coolTime>300</coolTime>
+		<isMagic>22</isMagic>
+		<magicLvl>
+			<value level="1">85</value>
+			<value level="2">90</value>
+			<value level="3">95</value>
+			<value level="4">99</value>
+		</magicLvl>
+		<reuseDelay>2000</reuseDelay>
+		<effectPoint>
+			<value level="1">687</value>
+			<value level="2">698</value>
+			<value level="3">707</value>
+			<value level="4">712</value>
+		</effectPoint>
+		<basicProperty>NONE</basicProperty>
+		<magicCriticalRate>5</magicCriticalRate>
+		<affectLimit>
+			<value level="1">0-0</value>
+			<value level="2">0-0</value>
+			<value level="3">0-0</value>
+			<value level="4">50-50</value>
+		</affectLimit>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<targetType>SELF</targetType>
+		<affectScope>
+			<value level="1">PARTY</value>
+			<value level="2">PARTY</value>
+			<value level="3">PARTY</value>
+			<value level="4">PARTY_PLEDGE</value>
+		</affectScope>
+		<affectObject>FRIEND</affectObject>
+		<effects>
+			<effect name="TriggerSkillByDamage">
+				<!-- Critical Damage Increase -->
+				<attackerType>L2Character</attackerType>
+				<minAttackerLevel>1</minAttackerLevel>
+				<maxAttackerLevel>127</maxAttackerLevel>
+				<chance>80</chance>
+				<targetType>SELF</targetType>
+				<minDamage>300</minDamage>
+				<skillId>11569</skillId>
+				<skillLevel>1</skillLevel>
+			</effect>
+			<effect name="DispelBySlotProbability">
+				<dispel>MULTI_BUFF;COUNTER_CRITICAL</dispel>
+				<rate>100</rate>
+			</effect>
+			<effect name="BlockAbnormalSlot">
+				<slot>MULTI_BUFF;COUNTER_CRITICAL</slot>
+			</effect>
+			<effect name="PAtk">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MAtk">
+				<amount>20</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="Speed" fromLevel="1" toLevel="3">
+				<amount>
+					<value level="1">-15</value>
+					<value level="2">-10</value>
+					<value level="3">-5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>20</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>20</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalAttackSpeed">
+				<amount>20</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttackSpeed">
+				<amount>20</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MaxMp">
+				<amount>20</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="CriticalDamage">
+				<amount>20</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="HpRegen">
+				<amount>20</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DefenceCriticalDamage">
+				<amount>-30</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="ResistAbnormalByCategory">
+				<amount>-10</amount>
+				<slot>DEBUFF</slot>
+			</effect>
+			<effect name="MagicCriticalRate">
+				<amount>20</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11519" toLevel="4" name="Pipe Organ Melody">
+		<!-- Glory Days confirmed -->
+		<!-- For 30 minutes, party members' Max HP + 37%, Max MP + 37%, Max CP + 37%, and HP Recovery Bonus + 20%. -->
+		<abnormalLvl>
+			<value level="1">1</value>
+			<value level="2">2</value>
+			<value level="3">3</value>
+			<value level="4">4</value>
+		</abnormalLvl>
+		<abnormalType>BUFF_SPECIAL_CONDITION</abnormalType>
+		<abnormalTime>
+			<value fromLevel="1" toLevel="4">1800</value>
+			<value fromLevel="3" toLevel="4" fromSubLevel="1001" toSubLevel="1030">{base + subIndex * 90}</value>
+		</abnormalTime>
+		<affectRange>1000</affectRange>
+		<icon>icon.skill11519</icon>
+		<operateType>A2</operateType>
+		<mpConsume>
+			<value level="1">140</value>
+			<value level="2">151</value>
+			<value level="3">170</value>
+			<value level="4">181</value>
+		</mpConsume>
+		<mpInitialConsume>
+			<value level="1">28</value>
+			<value level="2">31</value>
+			<value level="3">34</value>
+			<value level="4">37</value>
+		</mpInitialConsume>
+		<hitTime>700</hitTime>
+		<coolTime>300</coolTime>
+		<isMagic>22</isMagic>
+		<magicLvl>
+			<value level="1">85</value>
+			<value level="2">90</value>
+			<value level="3">95</value>
+			<value level="4">99</value>
+		</magicLvl>
+		<reuseDelay>2000</reuseDelay>
+		<effectPoint>
+			<value level="1">687</value>
+			<value level="2">698</value>
+			<value level="3">707</value>
+			<value level="4">712</value>
+		</effectPoint>
+		<basicProperty>NONE</basicProperty>
+		<magicCriticalRate>5</magicCriticalRate>
+		<affectLimit>
+			<value level="1">0-0</value>
+			<value level="2">0-0</value>
+			<value level="3">0-0</value>
+			<value level="4">50-50</value>
+		</affectLimit>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<targetType>SELF</targetType>
+		<affectScope>
+			<value level="1">PARTY</value>
+			<value level="2">PARTY</value>
+			<value level="3">PARTY</value>
+			<value level="4">PARTY_PLEDGE</value>
+		</affectScope>
+		<affectObject>FRIEND</affectObject>
+		<effects>
+			<effect name="DispelBySlotProbability">
+				<dispel>IMPROVE_HP_MP_UP;MAX_HP_UP;MAX_MP_UP;HP_REGEN_UP</dispel>
+				<rate>100</rate>
+			</effect>
+			<effect name="BlockAbnormalSlot">
+				<slot>IMPROVE_HP_MP_UP;MAX_HP_UP;MAX_MP_UP;HP_REGEN_UP</slot>
+			</effect>
+			<effect name="MaxCp">
+				<amount>
+					<value level="1">37</value>
+					<value level="2">39</value>
+					<value level="3">41</value>
+					<value level="4">43</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MaxMp">
+				<amount>
+					<value level="1">37</value>
+					<value level="2">39</value>
+					<value level="3">41</value>
+					<value level="4">43</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="HpRegen">
+				<amount>20</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MaxHp">
+				<amount>
+					<value level="1">37</value>
+					<value level="2">39</value>
+					<value level="3">41</value>
+					<value level="4">43</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11520" toLevel="4" name="Guitar Melody">
+		<!-- Glory Days confirmed -->
+		<!-- For 30 minutes, party members' P. Critical Rate + 32%, P. Critical Damage + 35%, M. Critical Rate + 20 , and MP Consumption - 20% for physical skills and - 10% for magic skills. Iss Enchanter's Enchant Skill MP Consumption - 20%. -->
+		<abnormalLvl>
+			<value level="1">1</value>
+			<value level="2">2</value>
+			<value level="3">3</value>
+			<value level="4">4</value>
+		</abnormalLvl>
+		<abnormalType>BUFF_SPECIAL_CRITICAL</abnormalType>
+		<abnormalTime>
+			<value fromLevel="1" toLevel="4">1800</value>
+			<value fromLevel="3" toLevel="4" fromSubLevel="1001" toSubLevel="1030">{base + subIndex * 90}</value>
+		</abnormalTime>
+		<affectRange>1000</affectRange>
+		<icon>icon.skill11520</icon>
+		<operateType>A2</operateType>
+		<mpConsume>
+			<value level="1">140</value>
+			<value level="2">151</value>
+			<value level="3">170</value>
+			<value level="4">181</value>
+		</mpConsume>
+		<mpInitialConsume>
+			<value level="1">28</value>
+			<value level="2">31</value>
+			<value level="3">34</value>
+			<value level="4">37</value>
+		</mpInitialConsume>
+		<hitTime>700</hitTime>
+		<coolTime>300</coolTime>
+		<isMagic>22</isMagic>
+		<magicLvl>
+			<value level="1">85</value>
+			<value level="2">90</value>
+			<value level="3">95</value>
+			<value level="4">99</value>
+		</magicLvl>
+		<reuseDelay>2000</reuseDelay>
+		<effectPoint>687</effectPoint>
+		<basicProperty>NONE</basicProperty>
+		<magicCriticalRate>5</magicCriticalRate>
+		<affectLimit>
+			<value level="1">0-0</value>
+			<value level="2">0-0</value>
+			<value level="3">0-0</value>
+			<value level="4">50-50</value>
+		</affectLimit>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<targetType>SELF</targetType>
+		<affectScope>
+			<value level="1">PARTY</value>
+			<value level="2">PARTY</value>
+			<value level="3">PARTY</value>
+			<value level="4">PARTY_PLEDGE</value>
+		</affectScope>
+		<affectObject>FRIEND</affectObject>
+		<effects>
+			<effect name="DispelBySlotProbability">
+				<dispel>IMPROVE_CRT_RATE_DMG_UP;CRITICAL_PROB_UP;CRITICAL_DMG_UP;CHEAP_MAGIC;MAGIC_CRITICAL_UP</dispel>
+				<rate>100</rate>
+			</effect>
+			<effect name="BlockAbnormalSlot">
+				<slot>IMPROVE_CRT_RATE_DMG_UP;CRITICAL_PROB_UP;CRITICAL_DMG_UP;CHEAP_MAGIC;MAGIC_CRITICAL_UP</slot>
+			</effect>
+			<effect name="CriticalDamage">
+				<amount>35</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="CriticalRate">
+				<amount>
+					<value level="1">32</value>
+					<value level="2">34</value>
+					<value level="3">36</value>
+					<value level="4">38</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicCriticalRate">
+				<amount>20</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="MagicMpCost">
+				<amount>-10</amount>
+				<mode>PER</mode>
+				<magicType>1</magicType>
+			</effect>
+			<effect name="MagicMpCost">
+				<amount>-20</amount>
+				<mode>PER</mode>
+				<magicType>0</magicType>
+			</effect>
+			<effect name="MagicMpCost">
+				<amount>-20</amount>
+				<mode>PER</mode>
+				<magicType>3</magicType>
+			</effect>
+			<effect name="MagicMpCost">
+				<amount>-20</amount>
+				<mode>PER</mode>
+				<magicType>22</magicType>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11521" toLevel="4" name="Harp Melody">
+		<!-- Glory Days confirmed -->
+		<!-- For 30 minutes, party members' P. Accuracy + 5, P. and M. Evasion + 5, Speed + 34 and received Critical Damage - 30%. -->
+		<abnormalLvl>
+			<value level="1">1</value>
+			<value level="2">2</value>
+			<value level="3">3</value>
+			<value level="4">4</value>
+		</abnormalLvl>
+		<abnormalTime>
+			<value fromLevel="1" toLevel="4">1800</value>
+			<value fromLevel="3" toLevel="4" fromSubLevel="1001" toSubLevel="1030">{base + subIndex * 90}</value>
+		</abnormalTime>
+		<abnormalType>BUFF_SPECIAL_HITAVOID</abnormalType>
+		<affectRange>1000</affectRange>
+		<icon>icon.skill11521</icon>
+		<operateType>A2</operateType>
+		<mpConsume>
+			<value level="1">140</value>
+			<value level="2">151</value>
+			<value level="3">170</value>
+			<value level="4">181</value>
+		</mpConsume>
+		<mpInitialConsume>
+			<value level="1">28</value>
+			<value level="2">31</value>
+			<value level="3">34</value>
+			<value level="4">37</value>
+		</mpInitialConsume>
+		<hitTime>700</hitTime>
+		<coolTime>300</coolTime>
+		<isMagic>22</isMagic>
+		<magicLvl>
+			<value level="1">85</value>
+			<value level="2">90</value>
+			<value level="3">95</value>
+			<value level="4">99</value>
+		</magicLvl>
+		<reuseDelay>2000</reuseDelay>
+		<effectPoint>687</effectPoint>
+		<basicProperty>NONE</basicProperty>
+		<magicCriticalRate>5</magicCriticalRate>
+		<affectLimit>
+			<value level="1">0-0</value>
+			<value level="2">0-0</value>
+			<value level="3">0-0</value>
+			<value level="4">50-50</value>
+		</affectLimit>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<targetType>SELF</targetType>
+		<affectScope>
+			<value level="1">PARTY</value>
+			<value level="2">PARTY</value>
+			<value level="3">PARTY</value>
+			<value level="4">PARTY_PLEDGE</value>
+		</affectScope>
+		<affectObject>FRIEND</affectObject>
+		<effects>
+			<effect name="DispelBySlotProbability">
+				<dispel>IMPROVE_HIT_DEFENCE_CRT_RATE_UP;HIT_UP;T_CRT_DMG_DOWN;IMPROVE_SPEED_AVOID_UP;SPEED_UP;AVOID_UP</dispel>
+				<rate>100</rate>
+			</effect>
+			<effect name="BlockAbnormalSlot">
+				<slot>IMPROVE_HIT_DEFENCE_CRT_RATE_UP;HIT_UP;T_CRT_DMG_DOWN;IMPROVE_SPEED_AVOID_UP;SPEED_UP;AVOID_UP</slot>
+			</effect>
+			<effect name="Speed">
+				<amount>
+					<value level="1">34</value>
+					<value level="2">35</value>
+					<value level="3">36</value>
+					<value level="4">37</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="PhysicalEvasion">
+				<amount>
+					<value level="1">5</value>
+					<value level="2">6</value>
+					<value level="3">7</value>
+					<value level="4">8</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="Accuracy">
+				<amount>
+					<value level="1">5</value>
+					<value level="2">6</value>
+					<value level="3">7</value>
+					<value level="4">8</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="MagicalEvasion">
+				<amount>
+					<value level="1">5</value>
+					<value level="2">6</value>
+					<value level="3">7</value>
+					<value level="4">8</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="DefenceCriticalDamage">
+				<amount>-30</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11522" toLevel="4" name="Lute Melody">
+		<!-- Glory Days confirmed -->
+		<!-- For 30 minutes, party members' Atk. Spd. + 34% and Casting Spd. + 31%. Also has a chance of triggering a 9% Vampiric Rage effect during a normal attack. -->
+		<abnormalLvl>
+			<value level="1">1</value>
+			<value level="2">2</value>
+			<value level="3">3</value>
+			<value level="4">4</value>
+		</abnormalLvl>
+		<abnormalType>BUFF_SPECIAL_MOVE</abnormalType>
+		<abnormalTime>
+			<value fromLevel="1" toLevel="4">1800</value>
+			<value fromLevel="3" toLevel="4" fromSubLevel="1001" toSubLevel="1030">{base + subIndex * 90}</value>
+		</abnormalTime>
+		<affectRange>1000</affectRange>
+		<icon>icon.skill11518</icon>
+		<operateType>A2</operateType>
+		<mpConsume>
+			<value level="1">140</value>
+			<value level="2">151</value>
+			<value level="3">170</value>
+			<value level="4">181</value>
+		</mpConsume>
+		<mpInitialConsume>
+			<value level="1">28</value>
+			<value level="2">31</value>
+			<value level="3">34</value>
+			<value level="4">37</value>
+		</mpInitialConsume>
+		<hitTime>700</hitTime>
+		<coolTime>300</coolTime>
+		<isMagic>22</isMagic>
+		<magicLvl>
+			<value level="1">85</value>
+			<value level="2">90</value>
+			<value level="3">95</value>
+			<value level="4">99</value>
+		</magicLvl>
+		<reuseDelay>2000</reuseDelay>
+		<effectPoint>687</effectPoint>
+		<basicProperty>NONE</basicProperty>
+		<magicCriticalRate>5</magicCriticalRate>
+		<affectLimit>
+			<value level="1">0-0</value>
+			<value level="2">0-0</value>
+			<value level="3">0-0</value>
+			<value level="4">50-50</value>
+		</affectLimit>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<targetType>SELF</targetType>
+		<affectScope>
+			<value level="1">PARTY</value>
+			<value level="2">PARTY</value>
+			<value level="3">PARTY</value>
+			<value level="4">PARTY_PLEDGE</value>
+		</affectScope>
+		<affectObject>FRIEND</affectObject>
+		<effects>
+			<effect name="DispelBySlotProbability">
+				<dispel>IMPROVE_VAMPIRIC_HASTE;ATTACK_TIME_DOWN;VAMPIRIC_ATTACK;CASTING_TIME_DOWN</dispel>
+				<rate>100</rate>
+			</effect>
+			<effect name="BlockAbnormalSlot">
+				<slot>IMPROVE_VAMPIRIC_HASTE;ATTACK_TIME_DOWN;VAMPIRIC_ATTACK;CASTING_TIME_DOWN</slot>
+			</effect>
+			<effect name="VampiricAttack">
+				<amount>9</amount>
+				<chance>80</chance>
+			</effect>
+			<effect name="PhysicalAttackSpeed">
+				<amount>
+					<value level="1">34</value>
+					<value level="2">35</value>
+					<value level="3">36</value>
+					<value level="4">37</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttackSpeed">
+				<amount>
+					<value level="1">31</value>
+					<value level="2">32</value>
+					<value level="3">33</value>
+					<value level="4">34</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11523" toLevel="1" name="Knight's Harmony">
+		<!-- Glory Days confirmed -->
+		<!-- For 30 minutes, the selected party member's P. Atk. + 12%, P. Critical Damage + 35%, P. Critical Rate + 100%, P. Def. + 45%, Shield Defense Rate + 30% and Shield Defense + 50%. -->
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>
+			<value fromLevel="1" toLevel="1">1800</value>
+			<value fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1030">{base + subIndex * 90}</value>
+		</abnormalTime>
+		<abnormalType>BUFF_SPECIAL_CLASS</abnormalType>
+		<icon>icon.skill11523</icon>
+		<operateType>A2</operateType>
+		<mpConsume>140</mpConsume>
+		<mpInitialConsume>28</mpInitialConsume>
+		<castRange>900</castRange>
+		<hitTime>700</hitTime>
+		<coolTime>300</coolTime>
+		<reuseDelay>2000</reuseDelay>
+		<isMagic>22</isMagic>
+		<magicLvl>85</magicLvl>
+		<effectPoint>687</effectPoint>
+		<basicProperty>NONE</basicProperty>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effectRange>1100</effectRange>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<targetType>TARGET</targetType>
+		<affectScope>SINGLE</affectScope>
+		<conditions>
+			<condition name="TargetMyParty">
+				<includeMe>true</includeMe>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="DispelBySlotProbability">
+				<dispel>DANCE_OF_BLADESTORM;SONG_OF_CHAMPION;SONG_OF_EARTH;SONG_OF_HUNTER;SONG_OF_LIFE;SONG_OF_MEDITATION;SONG_OF_RENEWAL;SONG_OF_VENGEANCE;SONG_OF_VITALITY;SONG_OF_WARDING;SONG_OF_WATER;SONG_OF_WIND;DANCE_OF_BERSERKER;DANCE_OF_CONCENTRATION;DANCE_OF_FIRE;DANCE_OF_FURY;DANCE_OF_INSPIRATION;DANCE_OF_MYSTIC;DANCE_OF_SIREN;DANCE_OF_VAMPIRE;DANCE_OF_WARRIOR;SONG_OF_PURIFICATION;WISPERING_OF_BATTLE;SONG_OF_WINDSTORM;MOTION_OF_DEFENCE;INSTINCT;BERSERKER;PA_PD_UP;IMPROVE_SHIELD_RATE_DEFENCE_UP;SHIELD_PROB_UP;SHIELD_DEFENCE_UP;CANCEL_PROB_DOWN;MA_UP_SPECIAL</dispel>
+				<rate>100</rate>
+			</effect>
+			<effect name="BlockAbnormalSlot">
+				<slot>DANCE_OF_BLADESTORM;SONG_OF_CHAMPION;SONG_OF_EARTH;SONG_OF_HUNTER;SONG_OF_LIFE;SONG_OF_MEDITATION;SONG_OF_RENEWAL;SONG_OF_VENGEANCE;SONG_OF_VITALITY;SONG_OF_WARDING;SONG_OF_WATER;SONG_OF_WIND;DANCE_OF_BERSERKER;DANCE_OF_CONCENTRATION;DANCE_OF_FIRE;DANCE_OF_FURY;DANCE_OF_INSPIRATION;DANCE_OF_MYSTIC;DANCE_OF_SIREN;DANCE_OF_VAMPIRE;DANCE_OF_WARRIOR;SONG_OF_PURIFICATION;WISPERING_OF_BATTLE;SONG_OF_WINDSTORM;MOTION_OF_DEFENCE;INSTINCT;BERSERKER;PA_PD_UP;IMPROVE_SHIELD_RATE_DEFENCE_UP;SHIELD_PROB_UP;SHIELD_DEFENCE_UP;CANCEL_PROB_DOWN;MA_UP_SPECIAL</slot>
+			</effect>
+			<effect name="PAtk">
+				<amount>12</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>45</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="ShieldDefenceRate">
+				<amount>30</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="CriticalDamage">
+				<amount>35</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="ShieldDefence">
+				<amount>50</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="CriticalRate">
+				<amount>100</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11524" toLevel="1" name="Warrior's Harmony">
+		<!-- Glory Days confirmed -->
+		<!-- For 30 minutes, the selected party member's P. Atk. + 35%, P. Critical Damage + 35%, P. Critical Rate + 100%, Atk. Spd. + 8%, M. Atk. + 16%, Casting Spd. + 8% and Speed + 8. -->
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>
+			<value fromLevel="1" toLevel="1">1800</value>
+			<value fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1030">{base + subIndex * 90}</value>
+		</abnormalTime>
+		<abnormalType>BUFF_SPECIAL_CLASS</abnormalType>
+		<icon>icon.skill11524</icon>
+		<operateType>A2</operateType>
+		<mpConsume>140</mpConsume>
+		<mpInitialConsume>28</mpInitialConsume>
+		<castRange>900</castRange>
+		<hitTime>700</hitTime>
+		<coolTime>300</coolTime>
+		<reuseDelay>2000</reuseDelay>
+		<isMagic>22</isMagic>
+		<magicLvl>85</magicLvl>
+		<effectPoint>687</effectPoint>
+		<basicProperty>NONE</basicProperty>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effectRange>1100</effectRange>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<targetType>TARGET</targetType>
+		<affectScope>SINGLE</affectScope>
+		<conditions>
+			<condition name="TargetMyParty">
+				<includeMe>true</includeMe>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="DispelBySlotProbability">
+				<dispel>DANCE_OF_BLADESTORM;SONG_OF_CHAMPION;SONG_OF_EARTH;SONG_OF_HUNTER;SONG_OF_LIFE;SONG_OF_MEDITATION;SONG_OF_RENEWAL;SONG_OF_VENGEANCE;SONG_OF_VITALITY;SONG_OF_WARDING;SONG_OF_WATER;SONG_OF_WIND;DANCE_OF_BERSERKER;DANCE_OF_CONCENTRATION;DANCE_OF_FIRE;DANCE_OF_FURY;DANCE_OF_INSPIRATION;DANCE_OF_MYSTIC;DANCE_OF_SIREN;DANCE_OF_VAMPIRE;DANCE_OF_WARRIOR;SONG_OF_PURIFICATION;WISPERING_OF_BATTLE;SONG_OF_WINDSTORM;MOTION_OF_DEFENCE;INSTINCT;BERSERKER;PA_PD_UP;IMPROVE_SHIELD_RATE_DEFENCE_UP;SHIELD_PROB_UP;SHIELD_DEFENCE_UP;CANCEL_PROB_DOWN;MA_UP_SPECIAL</dispel>
+				<rate>100</rate>
+			</effect>
+			<effect name="BlockAbnormalSlot">
+				<slot>DANCE_OF_BLADESTORM;SONG_OF_CHAMPION;SONG_OF_EARTH;SONG_OF_HUNTER;SONG_OF_LIFE;SONG_OF_MEDITATION;SONG_OF_RENEWAL;SONG_OF_VENGEANCE;SONG_OF_VITALITY;SONG_OF_WARDING;SONG_OF_WATER;SONG_OF_WIND;DANCE_OF_BERSERKER;DANCE_OF_CONCENTRATION;DANCE_OF_FIRE;DANCE_OF_FURY;DANCE_OF_INSPIRATION;DANCE_OF_MYSTIC;DANCE_OF_SIREN;DANCE_OF_VAMPIRE;DANCE_OF_WARRIOR;SONG_OF_PURIFICATION;WISPERING_OF_BATTLE;SONG_OF_WINDSTORM;MOTION_OF_DEFENCE;INSTINCT;BERSERKER;PA_PD_UP;IMPROVE_SHIELD_RATE_DEFENCE_UP;SHIELD_PROB_UP;SHIELD_DEFENCE_UP;CANCEL_PROB_DOWN;MA_UP_SPECIAL</slot>
+			</effect>
+			<effect name="PAtk">
+				<amount>35</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MAtk">
+				<amount>16</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="Speed">
+				<amount>8</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="PhysicalAttackSpeed">
+				<amount>8</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttackSpeed">
+				<amount>8</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="CriticalDamage">
+				<amount>35</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="CriticalRate">
+				<amount>100</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11525" toLevel="1" name="Wizard's Harmony">
+		<!-- Glory Days confirmed -->
+		<!-- For 30 minutes, the selected party member's M. Atk. + 40%, M. Critical Rate + 100%, Casting Spd. + 8%, P. Atk. + 8%, Atk. Spd. + 8%, Speed + 8, M. Def. + 14%, MP Recovery Bonus + 20%, MP Consumption for magic skills - 15% and physical skills -5%, and Cooldown - 20%. -->
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>
+			<value fromLevel="1" toLevel="1">1800</value>
+			<value fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1030">{base + subIndex * 90}</value>
+		</abnormalTime>
+		<abnormalType>BUFF_SPECIAL_CLASS</abnormalType>
+		<icon>icon.skill11525</icon>
+		<operateType>A2</operateType>
+		<mpConsume>140</mpConsume>
+		<mpInitialConsume>28</mpInitialConsume>
+		<castRange>900</castRange>
+		<hitTime>700</hitTime>
+		<coolTime>300</coolTime>
+		<reuseDelay>2000</reuseDelay>
+		<isMagic>22</isMagic>
+		<magicLvl>85</magicLvl>
+		<effectPoint>687</effectPoint>
+		<basicProperty>NONE</basicProperty>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effectRange>1100</effectRange>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<targetType>TARGET</targetType>
+		<affectScope>SINGLE</affectScope>
+		<conditions>
+			<condition name="TargetMyParty">
+				<includeMe>true</includeMe>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="DispelBySlotProbability">
+				<dispel>DANCE_OF_BLADESTORM;SONG_OF_CHAMPION;SONG_OF_EARTH;SONG_OF_HUNTER;SONG_OF_LIFE;SONG_OF_MEDITATION;SONG_OF_RENEWAL;SONG_OF_VENGEANCE;SONG_OF_VITALITY;SONG_OF_WARDING;SONG_OF_WATER;SONG_OF_WIND;DANCE_OF_BERSERKER;DANCE_OF_CONCENTRATION;DANCE_OF_FIRE;DANCE_OF_FURY;DANCE_OF_INSPIRATION;DANCE_OF_MYSTIC;DANCE_OF_SIREN;DANCE_OF_VAMPIRE;DANCE_OF_WARRIOR;SONG_OF_PURIFICATION;WISPERING_OF_BATTLE;SONG_OF_WINDSTORM;MOTION_OF_DEFENCE;INSTINCT;BERSERKER;PA_PD_UP;IMPROVE_SHIELD_RATE_DEFENCE_UP;SHIELD_PROB_UP;SHIELD_DEFENCE_UP;CANCEL_PROB_DOWN;MA_UP_SPECIAL</dispel>
+				<rate>100</rate>
+			</effect>
+			<effect name="BlockAbnormalSlot">
+				<slot>DANCE_OF_BLADESTORM;SONG_OF_CHAMPION;SONG_OF_EARTH;SONG_OF_HUNTER;SONG_OF_LIFE;SONG_OF_MEDITATION;SONG_OF_RENEWAL;SONG_OF_VENGEANCE;SONG_OF_VITALITY;SONG_OF_WARDING;SONG_OF_WATER;SONG_OF_WIND;DANCE_OF_BERSERKER;DANCE_OF_CONCENTRATION;DANCE_OF_FIRE;DANCE_OF_FURY;DANCE_OF_INSPIRATION;DANCE_OF_MYSTIC;DANCE_OF_SIREN;DANCE_OF_VAMPIRE;DANCE_OF_WARRIOR;SONG_OF_PURIFICATION;WISPERING_OF_BATTLE;SONG_OF_WINDSTORM;MOTION_OF_DEFENCE;INSTINCT;BERSERKER;PA_PD_UP;IMPROVE_SHIELD_RATE_DEFENCE_UP;SHIELD_PROB_UP;SHIELD_DEFENCE_UP;CANCEL_PROB_DOWN;MA_UP_SPECIAL</slot>
+			</effect>
+			<effect name="PAtk">
+				<amount>8</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MAtk">
+				<amount>40</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="Speed">
+				<amount>8</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>14</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalAttackSpeed">
+				<amount>8</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttackSpeed">
+				<amount>8</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MpRegen">
+				<amount>20</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicCriticalRate">
+				<amount>100</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicMpCost">
+				<amount>-15</amount>
+				<mode>PER</mode>
+				<magicType>1</magicType>
+			</effect>
+			<effect name="MagicMpCost">
+				<amount>-5</amount>
+				<mode>PER</mode>
+				<magicType>0</magicType>
+			</effect>
+			<effect name="MagicMpCost">
+				<amount>-5</amount>
+				<mode>PER</mode>
+				<magicType>3</magicType>
+			</effect>
+			<effect name="Reuse">
+				<amount>-20</amount>
+				<mode>PER</mode>
+				<magicType>0</magicType>
+			</effect>
+			<effect name="Reuse">
+				<amount>-20</amount>
+				<mode>PER</mode>
+				<magicType>1</magicType>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11526" toLevel="10" name="Superior Sword/Blunt Weapon Mastery">
+		<!-- Glory Days confirmed -->
+		<!-- P. Atk. + 30%, Additional P. Atk. + 1027, Atk. Spd. + 30%, P. Critical Damage + 15% when a sword or blunt weapon is equipped. -->
+		<icon>icon.skill10001</icon>
+		<operateType>P</operateType>
+		<magicLvl>
+			<value level="1">85</value>
+			<value level="2">90</value>
+			<value level="3">95</value>
+			<value level="4">99</value>
+			<value level="5">100</value>
+			<value level="6">102</value>
+			<value level="7">104</value>
+			<value level="8">106</value>
+			<value level="9">108</value>
+			<value level="10">110</value>
+		</magicLvl>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effects>
+			<effect name="PAtk">
+				<amount>30</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PAtk">
+				<amount>
+					<value level="1">1027</value>
+					<value level="2">1191</value>
+					<value level="3">1381</value>
+					<value level="4">1554</value>
+					<value level="5">1761</value>
+					<value level="6">1869</value>
+					<value level="7">1982</value>
+					<value level="8">2103</value>
+					<value level="9">2231</value>
+					<value level="10">2367</value>
+				</amount>
+				<mode>DIFF</mode>
+				<weaponType>
+					<item>SWORD</item>
+					<item>BLUNT</item>
+				</weaponType>
+			</effect>
+			<effect name="PhysicalAttackSpeed">
+				<amount>30</amount>
+				<mode>PER</mode>
+				<weaponType>
+					<item>SWORD</item>
+					<item>BLUNT</item>
+				</weaponType>
+			</effect>
+			<effect name="CriticalDamage">
+				<amount>15</amount>
+				<mode>PER</mode>
+				<weaponType>
+					<item>SWORD</item>
+					<item>BLUNT</item>
+				</weaponType>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11529" toLevel="1" name="Prevailing Sonata">
+		<!-- Glory Days confirmed -->
+		<!-- Increases party members' Atk. Spd. by 15%, Casting Spd. by 30%, Max HP by 30%, MP recovery bonus by 20% and decreases MP Consumption for magic skill by 10% and the magic cancel rate for 5 minutes. -->
+		<affectRange>1000</affectRange>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalType>BUFF_SPECIAL_AURA</abnormalType>
+		<abnormalTime>
+			<value fromLevel="1" toLevel="1">300</value>
+			<value fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1030">{base + subIndex * 30}</value>
+		</abnormalTime>
+		<icon>icon.skill11529</icon>
+		<operateType>A2</operateType>
+		<mpConsume>140</mpConsume>
+		<mpInitialConsume>28</mpInitialConsume>
+		<hitTime>700</hitTime>
+		<coolTime>300</coolTime>
+		<reuseDelay>2000</reuseDelay>
+		<isMagic>22</isMagic>
+		<magicLvl>85</magicLvl>
+		<effectPoint>687</effectPoint>
+		<basicProperty>NONE</basicProperty>
+		<magicCriticalRate>5</magicCriticalRate>
+		<hitCancelTime>0</hitCancelTime>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<targetType>SELF</targetType>
+		<affectScope>PARTY</affectScope>
+		<affectObject>FRIEND</affectObject>
+		<effects>
+			<effect name="DispelBySlotProbability">
+				<dispel>DANCE_OF_BLADESTORM;SONG_OF_CHAMPION;SONG_OF_EARTH;SONG_OF_HUNTER;SONG_OF_LIFE;SONG_OF_MEDITATION;SONG_OF_RENEWAL;SONG_OF_VENGEANCE;SONG_OF_VITALITY;SONG_OF_WARDING;SONG_OF_WATER;SONG_OF_WIND;DANCE_OF_BERSERKER;DANCE_OF_CONCENTRATION;DANCE_OF_FIRE;DANCE_OF_FURY;DANCE_OF_INSPIRATION;DANCE_OF_MYSTIC;DANCE_OF_SIREN;DANCE_OF_VAMPIRE;DANCE_OF_WARRIOR;SONG_OF_PURIFICATION;WISPERING_OF_BATTLE;SONG_OF_WINDSTORM;MOTION_OF_DEFENCE;BUFF_UNICORN_SERAPHIM;BUFF_QUEEN_OF_CAT;KNIGHT_AURA;DMG_SHIELD</dispel>
+				<rate>100</rate>
+			</effect>
+			<effect name="BlockAbnormalSlot">
+				<slot>DANCE_OF_BLADESTORM;SONG_OF_CHAMPION;SONG_OF_EARTH;SONG_OF_HUNTER;SONG_OF_LIFE;SONG_OF_MEDITATION;SONG_OF_RENEWAL;SONG_OF_VENGEANCE;SONG_OF_VITALITY;SONG_OF_WARDING;SONG_OF_WATER;SONG_OF_WIND;DANCE_OF_BERSERKER;DANCE_OF_CONCENTRATION;DANCE_OF_FIRE;DANCE_OF_FURY;DANCE_OF_INSPIRATION;DANCE_OF_MYSTIC;DANCE_OF_SIREN;DANCE_OF_VAMPIRE;DANCE_OF_WARRIOR;SONG_OF_PURIFICATION;WISPERING_OF_BATTLE;SONG_OF_WINDSTORM;MOTION_OF_DEFENCE;BUFF_UNICORN_SERAPHIM;BUFF_QUEEN_OF_CAT;KNIGHT_AURA;DMG_SHIELD</slot>
+			</effect>
+			<effect name="PhysicalAttackSpeed">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttackSpeed">
+				<amount>30</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MpRegen">
+				<amount>20</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="ReduceCancel">
+				<amount>-40</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="MaxHp">
+				<amount>30</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicMpCost">
+				<amount>-10</amount>
+				<mode>PER</mode>
+				<magicType>1</magicType>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11530" toLevel="1" name="Daring Sonata">
+		<!-- Glory Days confirmed -->
+		<!-- Increases party members' P. Atk. by 8%, M. Atk. by 16%, Atk. Spd. and Casting Spd. by 8% and decreases P. Def. by 3%, M. Def. by 11% and P. Evasion by 4 for 5 minutes. Also bestows an 8% Vampiric Rage effect and a chance of reflecting 10% of the damage received. -->
+		<affectRange>1000</affectRange>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalType>ENCHANTER_MOD</abnormalType>
+		<abnormalTime>
+			<value fromLevel="1" toLevel="1">300</value>
+			<value fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1030">{base + subIndex * 30}</value>
+		</abnormalTime>
+		<icon>icon.skill11530</icon>
+		<operateType>A2</operateType>
+		<mpConsume>140</mpConsume>
+		<mpInitialConsume>28</mpInitialConsume>
+		<hitTime>700</hitTime>
+		<coolTime>300</coolTime>
+		<reuseDelay>2000</reuseDelay>
+		<isMagic>22</isMagic>
+		<magicLvl>85</magicLvl>
+		<effectPoint>696</effectPoint>
+		<basicProperty>NONE</basicProperty>
+		<magicCriticalRate>5</magicCriticalRate>
+		<hitCancelTime>0</hitCancelTime>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<targetType>SELF</targetType>
+		<affectScope>PARTY</affectScope>
+		<affectObject>FRIEND</affectObject>
+		<effects>
+			<effect name="DispelBySlotProbability">
+				<dispel>DANCE_OF_BLADESTORM;SONG_OF_CHAMPION;SONG_OF_EARTH;SONG_OF_HUNTER;SONG_OF_LIFE;SONG_OF_MEDITATION;SONG_OF_RENEWAL;SONG_OF_VENGEANCE;SONG_OF_VITALITY;SONG_OF_WARDING;SONG_OF_WATER;SONG_OF_WIND;DANCE_OF_BERSERKER;DANCE_OF_CONCENTRATION;DANCE_OF_FIRE;DANCE_OF_FURY;DANCE_OF_INSPIRATION;DANCE_OF_MYSTIC;DANCE_OF_SIREN;DANCE_OF_VAMPIRE;DANCE_OF_WARRIOR;SONG_OF_PURIFICATION;WISPERING_OF_BATTLE;SONG_OF_WINDSTORM;MOTION_OF_DEFENCE;BUFF_UNICORN_SERAPHIM;BUFF_QUEEN_OF_CAT;KNIGHT_AURA;DMG_SHIELD</dispel>
+				<rate>100</rate>
+			</effect>
+			<effect name="BlockAbnormalSlot">
+				<slot>DANCE_OF_BLADESTORM;SONG_OF_CHAMPION;SONG_OF_EARTH;SONG_OF_HUNTER;SONG_OF_LIFE;SONG_OF_MEDITATION;SONG_OF_RENEWAL;SONG_OF_VENGEANCE;SONG_OF_VITALITY;SONG_OF_WARDING;SONG_OF_WATER;SONG_OF_WIND;DANCE_OF_BERSERKER;DANCE_OF_CONCENTRATION;DANCE_OF_FIRE;DANCE_OF_FURY;DANCE_OF_INSPIRATION;DANCE_OF_MYSTIC;DANCE_OF_SIREN;DANCE_OF_VAMPIRE;DANCE_OF_WARRIOR;SONG_OF_PURIFICATION;WISPERING_OF_BATTLE;SONG_OF_WINDSTORM;MOTION_OF_DEFENCE;BUFF_UNICORN_SERAPHIM;BUFF_QUEEN_OF_CAT;KNIGHT_AURA;DMG_SHIELD</slot>
+			</effect>
+			<effect name="VampiricAttack">
+				<amount>9</amount>
+				<chance>30</chance>
+			</effect>
+			<effect name="PAtk">
+				<amount>8</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MAtk">
+				<amount>16</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>-3</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>-3</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalEvasion">
+				<amount>-4</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="PhysicalAttackSpeed">
+				<amount>8</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttackSpeed">
+				<amount>8</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DamageShield">
+				<amount>10</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11532" toLevel="1" name="Refreshing Sonata">
+		<!-- Glory Days confirmed -->
+		<!-- Increases party members' HP Recovery Bonus by 20%, P.ﾠAccuracy by 4, P.ﾠEvasion by 3, Speed by 20, and decreases MP Consumption for skills by 20% and skill Cooldown by 10% for 5 minutes. -->
+		<affectRange>1000</affectRange>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalType>SYNERGY_IS</abnormalType>
+		<abnormalTime>
+			<value fromLevel="1" toLevel="1">300</value>
+			<value fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1030">{base + subIndex * 30}</value>
+		</abnormalTime>
+		<icon>icon.skill11532</icon>
+		<operateType>A2</operateType>
+		<mpConsume>140</mpConsume>
+		<mpInitialConsume>28</mpInitialConsume>
+		<hitTime>700</hitTime>
+		<coolTime>300</coolTime>
+		<reuseDelay>2000</reuseDelay>
+		<isMagic>22</isMagic>
+		<magicLvl>85</magicLvl>
+		<effectPoint>696</effectPoint>
+		<basicProperty>NONE</basicProperty>
+		<magicCriticalRate>5</magicCriticalRate>
+		<hitCancelTime>0</hitCancelTime>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<targetType>SELF</targetType>
+		<affectScope>PARTY</affectScope>
+		<affectObject>FRIEND</affectObject>
+		<effects>
+			<effect name="DispelBySlotProbability">
+				<dispel>DANCE_OF_BLADESTORM;SONG_OF_CHAMPION;SONG_OF_EARTH;SONG_OF_HUNTER;SONG_OF_LIFE;SONG_OF_MEDITATION;SONG_OF_RENEWAL;SONG_OF_VENGEANCE;SONG_OF_VITALITY;SONG_OF_WARDING;SONG_OF_WATER;SONG_OF_WIND;DANCE_OF_BERSERKER;DANCE_OF_CONCENTRATION;DANCE_OF_FIRE;DANCE_OF_FURY;DANCE_OF_INSPIRATION;DANCE_OF_MYSTIC;DANCE_OF_SIREN;DANCE_OF_VAMPIRE;DANCE_OF_WARRIOR;SONG_OF_PURIFICATION;WISPERING_OF_BATTLE;SONG_OF_WINDSTORM;MOTION_OF_DEFENCE;BUFF_UNICORN_SERAPHIM;BUFF_QUEEN_OF_CAT;KNIGHT_AURA;DMG_SHIELD</dispel>
+				<rate>100</rate>
+			</effect>
+			<effect name="BlockAbnormalSlot">
+				<slot>DANCE_OF_BLADESTORM;SONG_OF_CHAMPION;SONG_OF_EARTH;SONG_OF_HUNTER;SONG_OF_LIFE;SONG_OF_MEDITATION;SONG_OF_RENEWAL;SONG_OF_VENGEANCE;SONG_OF_VITALITY;SONG_OF_WARDING;SONG_OF_WATER;SONG_OF_WIND;DANCE_OF_BERSERKER;DANCE_OF_CONCENTRATION;DANCE_OF_FIRE;DANCE_OF_FURY;DANCE_OF_INSPIRATION;DANCE_OF_MYSTIC;DANCE_OF_SIREN;DANCE_OF_VAMPIRE;DANCE_OF_WARRIOR;SONG_OF_PURIFICATION;WISPERING_OF_BATTLE;SONG_OF_WINDSTORM;MOTION_OF_DEFENCE;BUFF_UNICORN_SERAPHIM;BUFF_QUEEN_OF_CAT;KNIGHT_AURA;DMG_SHIELD</slot>
+			</effect>
+			<effect name="Speed">
+				<amount>20</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="PhysicalEvasion">
+				<amount>3</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="Accuracy">
+				<amount>4</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="HpRegen">
+				<amount>20</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicMpCost">
+				<amount>-20</amount>
+				<mode>PER</mode>
+				<magicType>1</magicType>
+			</effect>
+			<effect name="MagicMpCost">
+				<amount>-20</amount>
+				<mode>PER</mode>
+				<magicType>0</magicType>
+			</effect>
+			<effect name="Reuse">
+				<amount>-10</amount>
+				<mode>PER</mode>
+				<magicType>0</magicType>
+			</effect>
+			<effect name="Reuse">
+				<amount>-10</amount>
+				<mode>PER</mode>
+				<magicType>1</magicType>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11533" toLevel="1" name="Blood Requiem">
+		<!-- Updated to IO -->
+		<!-- Glory Days confirmed -->
+		<!-- Party members receives 80% Vampiric Rage effect for 15 seconds. -->
+		<icon>icon.skill11546</icon>
+		<abnormalLvl>5</abnormalLvl>
+		<abnormalTime>15</abnormalTime>
+		<abnormalType>RHAPSODY</abnormalType>
+		<affectRange>1000</affectRange>
+		<operateType>A2</operateType>
+		<magicLvl>97</magicLvl>
+		<mpConsume>342</mpConsume>
+		<hitTime>3000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>711</effectPoint>
+		<reuseDelay>600000</reuseDelay>
+		<basicProperty>NONE</basicProperty>
+		<magicCriticalRate>5</magicCriticalRate>
+		<hitCancelTime>0</hitCancelTime>
+		<isMagic>22</isMagic>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<targetType>SELF</targetType>
+		<affectScope>PARTY</affectScope>
+		<affectObject>FRIEND</affectObject>
+		<effects>
+			<effect name="DispelBySlot">
+				<dispel>BUFF_SPECIAL_MULTI,-1</dispel>
+			</effect>
+			<effect name="VampiricAttack">
+				<amount>80</amount>
+				<chance>30</chance>
+			</effect>
+			<effect name="PAtk" fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1030">
+ 				<amount>
+ 					<value fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1030">{0.6 + 0.4 * subIndex}</value>
+ 				</amount>
+ 				<mode>PER</mode>
+ 			</effect>
+			<effect name="MAtk" fromLevel="1" toLevel="1" fromSubLevel="2001" toSubLevel="2030">
+ 				<amount>
+ 					<value fromLevel="1" toLevel="1" fromSubLevel="2001" toSubLevel="2030">{0.4 + 0.6 * subIndex}</value>
+ 				</amount>
+ 				<mode>PER</mode>
+ 			</effect>
+			<effect name="DefenceCriticalDamage" fromLevel="1" toLevel="1" fromSubLevel="3001" toSubLevel="3030">
+				<amount>
+					<value fromLevel="1" toLevel="1" fromSubLevel="3001" toSubLevel="3030">{-1 - ((subIndex - 1} * 0.5)}</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11534" toLevel="6" name="Angel's Touch">
+		<!-- Updated to IO -->
+		<!-- Glory Days confirmed -->
+		<!-- For 7 seconds, renders target immune to debuffs. -->
+		<icon>icon.skill11534</icon>
+		<abnormalLvl>5</abnormalLvl>
+		<abnormalTime>
+			<value level="1">7</value>
+			<value level="2">9</value>
+			<value level="3">11</value>
+			<value level="4">13</value>
+			<value level="5">15</value>
+			<value level="6">17</value>
+		</abnormalTime>
+		<abnormalType>ABNORMAL_INVINCIBILITY</abnormalType>
+		<operateType>A2</operateType>
+		<magicLvl>
+			<value level="1">87</value>
+			<value level="2">90</value>
+			<value level="3">93</value>
+			<value level="4">96</value>
+			<value level="5">99</value>
+			<value level="6">101</value>
+		</magicLvl>
+		<mpConsume>
+			<value level="1">70</value>
+			<value level="2">75</value>
+			<value level="3">80</value>
+			<value level="4">85</value>
+			<value level="5">90</value>
+			<value level="6">95</value>
+		</mpConsume>
+		<castRange>900</castRange>
+		<hitTime>700</hitTime>
+		<coolTime>300</coolTime>
+		<reuseDelay>60000</reuseDelay>
+		<effectPoint>
+			<value level="1">704</value>
+			<value level="2">707</value>
+			<value level="3">709</value>
+			<value level="4">709</value>
+			<value level="5">709</value>
+			<value level="6">709</value>
+		</effectPoint>
+		<isMagic>1</isMagic>
+		<basicProperty>NONE</basicProperty>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effectRange>1100</effectRange>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<targetType>TARGET</targetType>
+		<affectScope>SINGLE</affectScope>
+		<conditions>
+			<condition name="TargetMyParty">
+				<includeMe>true</includeMe>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="DebuffBlock" />
+			<effect name="PhysicalDefence" fromLevel="4" toLevel="6" fromSubLevel="1001" toSubLevel="1030">
+ 				<amount>
+ 					<value fromLevel="4" toLevel="6" fromSubLevel="1001" toSubLevel="1030">{0.6 + 0.4 * subIndex}</value>
+ 				</amount>
+ 				<mode>PER</mode>
+ 			</effect>
+			<effect name="MagicalDefence" fromLevel="4" toLevel="6" fromSubLevel="2001" toSubLevel="2030">
+ 				<amount>
+ 					<value fromLevel="4" toLevel="6" fromSubLevel="2001" toSubLevel="2030">{0.6 + 0.4 * subIndex}</value>
+ 				</amount>
+ 				<mode>PER</mode>
+ 			</effect>
+			<effect name="DefenceCriticalDamage" fromLevel="4" toLevel="6" fromSubLevel="3001" toSubLevel="3030">
+				<amount>
+					<value fromLevel="4" toLevel="6" fromSubLevel="3001" toSubLevel="3030">{-1 - ((subIndex - 1} * 0.5)}</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11536" toLevel="9" name="Divine Cancel">
+		<!-- Updated to IO -->
+		<!-- Glory Days confirmed -->
+		<!-- Has a chance of canceling up to 2 of the buff effects on target. -->
+		<icon>icon.skill11536</icon>
+		<effectPoint>-709</effectPoint>
+		<operateType>A1</operateType>
+		<mpConsume>
+			<value level="1">70</value>
+			<value level="2">70</value>
+			<value level="3">75</value>
+			<value level="4">80</value>
+			<value level="5">85</value>
+			<value level="6">90</value>
+			<value level="7">95</value>
+			<value level="8">100</value>
+			<value level="9">105</value>
+		</mpConsume>
+		<magicLvl>
+			<value level="1">85</value>
+			<value level="2">86</value>
+			<value level="3">89</value>
+			<value level="4">92</value>
+			<value level="5">95</value>
+			<value level="6">98</value>
+			<value level="7">101</value>
+			<value level="8">103</value>
+			<value level="9">105</value>
+		</magicLvl>
+		<castRange>900</castRange>
+		<hitTime>700</hitTime>
+		<coolTime>300</coolTime>
+		<reuseDelay>300000</reuseDelay>
+		<isMagic>1</isMagic>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effectRange>1100</effectRange>
+		<isDebuff>true</isDebuff>
+		<targetType>ENEMY_ONLY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<effects>
+			<effect name="DispelByCategory">
+				<slot>BUFF</slot>
+				<rate>
+					<value level="1">35</value>
+					<value level="2">40</value>
+					<value level="3">45</value>
+					<value level="4">50</value>
+					<value level="5">55</value>
+					<value level="6">60</value>
+					<value level="7">60</value>
+					<value level="8">60</value>
+					<value level="9">60</value>
+					<value fromLevel="5" toLevel="9" fromSubLevel="1001" toSubLevel="1030">{base + base / 100 * subIndex}</value>
+				</rate>
+				<max>2</max>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11537" toLevel="10" name="Transform">
+		<!-- Glory Days confirmed -->
+		<!-- Transforms target into a harmless creature and decrease its Speed by 20% for 15 seconds. The effect is canceled if the transformed target is attacked. -->
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>15</abnormalTime>
+		<abnormalType>CHANGEBODY</abnormalType>
+		<abnormalVisualEffect>CHANGEBODY</abnormalVisualEffect>
+		<activateRate>
+			<value fromLevel="1" toLevel="10">60</value>
+			<value fromLevel="6" toLevel="10" fromSubLevel="1001" toSubLevel="1030">{base + base / 100 * subIndex}</value>
+		</activateRate>
+		<icon>icon.skill11537</icon>
+		<operateType>A2</operateType>
+		<trait>CHANGEBODY</trait>
+		<magicLvl>
+			<value level="1">85</value>
+			<value level="2">86</value>
+			<value level="3">88</value>
+			<value level="4">91</value>
+			<value level="5">94</value>
+			<value level="6">97</value>
+			<value level="7">99</value>
+			<value level="8">101</value>
+			<value level="9">103</value>
+			<value level="10">105</value>
+		</magicLvl>
+		<mpConsume>
+			<value level="1">126</value>
+			<value level="2">126</value>
+			<value level="3">135</value>
+			<value level="4">139</value>
+			<value level="5">148</value>
+			<value level="6">157</value>
+			<value level="7">166</value>
+			<value level="8">175</value>
+			<value level="9">184</value>
+			<value level="10">193</value>
+		</mpConsume>
+		<castRange>
+			<value fromLevel="1" toLevel="10">900</value>
+			<value fromLevel="6" toLevel="10" fromSubLevel="2001" toSubLevel="2030">{base + 10 * subIndex}</value>
+		</castRange>
+		<hitTime>1500</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>60000</reuseDelay>
+		<removedOnDamage>true</removedOnDamage>
+		<isMagic>1</isMagic>
+		<effectPoint>
+			<value level="1">-696</value>
+			<value level="2">-702</value>
+			<value level="3">-707</value>
+			<value level="4">-711</value>
+			<value level="5">-711</value>
+			<value level="6">-711</value>
+			<value level="7">-711</value>
+			<value level="8">-711</value>
+			<value level="9">-711</value>
+			<value level="10">-711</value>
+		</effectPoint>
+		<basicProperty>NONE</basicProperty>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effectRange>1100</effectRange>
+		<isDebuff>true</isDebuff>
+		<targetType>ENEMY_ONLY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<effects>
+			<effect name="ChangeBody">
+				<templates>
+					<item templateId="500" minChance="0" maxChance="20" />
+					<item templateId="501" minChance="20" maxChance="40" />
+					<item templateId="502" minChance="40" maxChance="60" />
+					<item templateId="503" minChance="60" maxChance="80" />
+					<item templateId="504" minChance="80" maxChance="100" />
+				</templates>
+			</effect>
+			<effect name="TriggerSkillByDamage">
+				<minDamage>1</minDamage>
+				<skillId>11556</skillId> <!-- Cancel Transform -->
+				<skillLevel>1</skillLevel>
+				<attackerType>L2Character</attackerType>
+				<minAttackerLevel>1</minAttackerLevel>
+				<maxAttackerLevel>127</maxAttackerLevel>
+				<targetType>SELF</targetType>
+				<chance>100</chance>
+			</effect>
+			<effect name="Fear" />
+			<effect name="BlockControl" />
+			<effect name="Speed">
+				<amount>
+					<value level="1">-20</value>
+					<value level="2">-30</value>
+					<value level="3">-40</value>
+					<value level="4">-50</value>
+					<value level="5">-60</value>
+					<value level="6">-70</value>
+					<value level="7">-80</value>
+					<value level="8">-80</value>
+					<value level="9">-80</value>
+					<value level="10">-80</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11538" toLevel="7" name="Mass Giant Root">
+		<!-- Updated to IO -->
+		<!-- Glory Days confirmed -->
+		<!-- Inflicts Hold on nearby enemies for 15 seconds. -->
+		<icon>icon.skill11538</icon>
+		<abnormalLvl>5</abnormalLvl>
+		<abnormalTime>15</abnormalTime>
+		<abnormalType>ROOT_MAGICALLY</abnormalType>
+		<abnormalVisualEffect>ROOT</abnormalVisualEffect>
+		<activateRate>
+			<value fromLevel="1" toLevel="7">65</value>
+			<value fromLevel="3" toLevel="7" fromSubLevel="1001" toSubLevel="1030">{base + base / 100 * subIndex}</value>
+		</activateRate>
+		<affectLimit>9-10</affectLimit>
+		<affectRange>200</affectRange>
+		<basicProperty>MAGIC</basicProperty>
+		<effectPoint>-709</effectPoint>
+		<operateType>A2</operateType>
+		<magicLvl>
+			<value level="1">85</value>
+			<value level="2">90</value>
+			<value level="3">95</value>
+			<value level="4">99</value>
+			<value level="5">101</value>
+			<value level="6">103</value>
+			<value level="7">105</value>
+		</magicLvl>
+		<mpConsume>
+			<value level="1">252</value>
+			<value level="2">558</value>
+			<value level="3">612</value>
+			<value level="4">666</value>
+			<value level="5">720</value>
+			<value level="6">774</value>
+			<value level="7">828</value>
+		</mpConsume>
+		<castRange>900</castRange>
+		<hitTime>1500</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>120000</reuseDelay>
+		<isMagic>1</isMagic>
+		<lvlBonusRate>1</lvlBonusRate>
+		<isDebuff>true</isDebuff>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effectRange>1100</effectRange>
+		<trait>HOLD</trait>
+		<targetType>ENEMY_ONLY</targetType>
+		<affectScope>RANGE</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<effects>
+			<effect name="Root" />
+			<effect name="DefenceTrait">
+				<HOLD>100</HOLD>
+			</effect>
+			<effect name="PhysicalDefence" fromLevel="3" toLevel="7" fromSubLevel="2001" toSubLevel="2030">
+ 				<amount>
+ 					<value fromLevel="3" toLevel="7" fromSubLevel="2001" toSubLevel="2030">{-0.6 - 0.4 * subIndex}</value>
+ 				</amount>
+ 				<mode>PER</mode>
+ 			</effect>
+			<effect name="MagicalDefence" fromLevel="3" toLevel="7" fromSubLevel="3001" toSubLevel="3030">
+ 				<amount>
+ 					<value fromLevel="3" toLevel="7" fromSubLevel="3001" toSubLevel="3030">{-0.6 - 0.4 * subIndex}</value>
+ 				</amount>
+ 				<mode>PER</mode>
+ 			</effect>
+		</effects>
+	</skill>
+	<skill id="11539" toLevel="11" name="Petrify">
+		<!-- Updated to IO -->
+		<!-- Glory Days confirmed -->
+		<!-- Petrifies target for 15 seconds. -->
+		<icon>icon.skill11539</icon>
+		<abnormalLvl>5</abnormalLvl>
+		<abnormalTime>15</abnormalTime>
+		<abnormalType>TURN_STONE</abnormalType>
+		<abnormalVisualEffect>FLESH_STONE</abnormalVisualEffect>
+		<activateRate>
+			<value fromLevel="1" toLevel="11">60</value>
+			<value fromLevel="7" toLevel="11" fromSubLevel="1001" toSubLevel="1030">{base + base / 100 * subIndex}</value>
+		</activateRate>
+		<basicProperty>MAGIC</basicProperty>
+		<effectPoint>-687</effectPoint>
+		<effectRange>1100</effectRange>
+		<operateType>A2</operateType>
+		<magicLvl>
+			<value level="1">85</value>
+			<value level="2">87</value>
+			<value level="3">89</value>
+			<value level="4">91</value>
+			<value level="5">93</value>
+			<value level="6">95</value>
+			<value level="7">97</value>
+			<value level="8">99</value>
+			<value level="9">101</value>
+			<value level="10">103</value>
+			<value level="11">105</value>
+		</magicLvl>
+		<mpConsume>
+			<value level="1">70</value>
+			<value level="2">72</value>
+			<value level="3">76</value>
+			<value level="4">78</value>
+			<value level="5">82</value>
+			<value level="6">85</value>
+			<value level="7">88</value>
+			<value level="8">92</value>
+			<value level="9">96</value>
+			<value level="10">100</value>
+			<value level="11">104</value>
+		</mpConsume>
+		<castRange>
+			<value fromLevel="1" toLevel="11">900</value>
+			<value fromLevel="7" toLevel="11" fromSubLevel="2001" toSubLevel="2030">{base + 10 * subIndex}</value>
+		</castRange>
+		<hitTime>1700</hitTime>
+		<coolTime>300</coolTime>
+		<reuseDelay>120000</reuseDelay>
+		<isMagic>1</isMagic>
+		<rideState>NONE</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<trait>TURN_STONE</trait>
+		<isDebuff>true</isDebuff>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<effects>
+			<effect name="BlockActions">
+				<allowedSkills>10279;10517;10025;10776;11770;1904;11264;11093;13314;1912</allowedSkills>
+			</effect>
+			<effect name="DamageBlock">
+				<type>BLOCK_HP</type>
+			</effect>
+			<effect name="DamageBlock">
+				<type>BLOCK_MP</type>
+			</effect>
+			<effect name="BuffBlock" />
+			<effect name="DebuffBlock" />
+			<effect name="DispelBySlot">
+				<dispel>CHANGEBODY,9</dispel>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11540" toLevel="7" name="Quick Escape">
+		<!-- Glory Days confirmed -->
+		<!-- Transforms yourself into a cute pig for 15 seconds. P. Def. and M. Def. + 3000, and Speed + 30%. -->
+		<icon>icon.skill11540</icon>
+		<abnormalLvl>5</abnormalLvl>
+		<abnormalTime>15</abnormalTime>
+		<abnormalType>TURN_STONE</abnormalType>
+		<abnormalVisualEffect>CHANGEBODY</abnormalVisualEffect>
+		<operateType>A2</operateType>
+		<magicLvl>
+			<value level="1">85</value>
+			<value level="2">90</value>
+			<value level="3">95</value>
+			<value level="4">99</value>
+			<value level="5">101</value>
+			<value level="6">103</value>
+			<value level="7">105</value>
+		</magicLvl>
+		<mpConsume>
+			<value level="1">70</value>
+			<value level="2">77</value>
+			<value level="3">85</value>
+			<value level="4">92</value>
+			<value level="5">99</value>
+			<value level="6">106</value>
+			<value level="7">114</value>
+		</mpConsume>
+		<hitTime>1500</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>60000</reuseDelay>
+		<effectPoint>1</effectPoint>
+		<basicProperty>NONE</basicProperty>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<isMagic>1</isMagic>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<effects>
+			<effect name="DispelBySlot">
+				<dispel>CHANGEBODY,9</dispel>
+			</effect>
+			<effect name="ChangeBody">
+				<templates>
+					<item templateId="500" minChance="0" maxChance="100" />
+				</templates>
+			</effect>
+			<effect name="Speed">
+				<amount>
+					<value level="1">30</value>
+					<value level="2">40</value>
+					<value level="3">50</value>
+					<value level="4">60</value>
+					<value level="5">60</value>
+					<value level="6">60</value>
+					<value level="7">60</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>
+					<value level="1">3000</value>
+					<value level="2">3500</value>
+					<value level="3">4000</value>
+					<value level="4">4500</value>
+					<value level="5">5000</value>
+					<value level="6">5500</value>
+					<value level="7">6000</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">3000</value>
+					<value level="2">3500</value>
+					<value level="3">4000</value>
+					<value level="4">4500</value>
+					<value level="5">5000</value>
+					<value level="6">5500</value>
+					<value level="7">6000</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="PhysicalDefence" fromLevel="3" toLevel="7" fromSubLevel="6001" toSubLevel="6030">
+ 				<amount>
+ 					<value fromLevel="3" toLevel="7" fromSubLevel="6001" toSubLevel="6030">{0.6 + 0.4 * subIndex}</value>
+ 				</amount>
+ 				<mode>PER</mode>
+ 			</effect>
+			<effect name="MagicalDefence" fromLevel="3" toLevel="7" fromSubLevel="7001" toSubLevel="7030">
+ 				<amount>
+ 					<value fromLevel="3" toLevel="7" fromSubLevel="7001" toSubLevel="7030">{0.6 + 0.4 * subIndex}</value>
+ 				</amount>
+ 				<mode>PER</mode>
+ 			</effect>
+			<effect name="Speed" fromLevel="3" toLevel="7" fromSubLevel="8001" toSubLevel="8030">
+				<amount>
+					<value fromLevel="7" toLevel="7" fromSubLevel="8001" toSubLevel="8030">{2 * subIndex}</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11541" toLevel="1" name="Polymorph">
+		<!-- Glory Days confirmed -->
+		<!-- Transforms yourself into a stone for 15 seconds to eliminate nearby enemies' aggression and keep them from targeting you. Greatly decreases Speed while transformed. Cannot be used while Disparition is active. -->
+		<icon>icon.skill11541</icon>
+		<abnormalLvl>5</abnormalLvl>
+		<abnormalTime>15</abnormalTime>
+		<abnormalType>TURN_STONE</abnormalType>
+		<abnormalVisualEffect>CHANGEBODY</abnormalVisualEffect>
+		<operateType>A2</operateType>
+		<mpConsume>70</mpConsume>
+		<hitTime>1500</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>60000</reuseDelay>
+		<effectPoint>-687</effectPoint>
+		<basicProperty>NONE</basicProperty>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLvl>85</magicLvl>
+		<isMagic>1</isMagic>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<effects>
+			<effect name="DispelBySlot">
+				<dispel>CHANGEBODY,9</dispel>
+			</effect>
+			<effect name="Untargetable" />
+			<effect name="ChangeBody">
+				<templates>
+					<item templateId="505" minChance="0" maxChance="100" />
+				</templates>
+			</effect>
+			<effect name="DeleteHate" />
+			<effect name="Speed">
+				<amount>
+					<value fromLevel="1" toLevel="1">-50</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="6001" toSubLevel="6030">{base + subIndex * 1.5}</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>4500</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>4500</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="Heal" fromLevel="1" toLevel="1" fromSubLevel="4001" toSubLevel="4030">
+				<power>
+					<value fromLevel="1" toLevel="1" fromSubLevel="4001" toSubLevel="4001">1936</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="4002" toSubLevel="4002">2072</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="4003" toSubLevel="4003">2207</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="4004" toSubLevel="4004">2342</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="4005" toSubLevel="4005">2477</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="4006" toSubLevel="4006">2612</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="4007" toSubLevel="4007">2747</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="4008" toSubLevel="4008">2882</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="4009" toSubLevel="4009">3017</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="4010" toSubLevel="4010">3152</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="4011" toSubLevel="4011">3288</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="4012" toSubLevel="4012">3423</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="4013" toSubLevel="4013">3558</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="4014" toSubLevel="4014">3693</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="4015" toSubLevel="4015">3828</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="4016" toSubLevel="4016">3964</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="4017" toSubLevel="4017">4099</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="4018" toSubLevel="4018">4234</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="4019" toSubLevel="4019">4369</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="4020" toSubLevel="4020">4504</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="4021" toSubLevel="4021">4594</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="4022" toSubLevel="4022">4684</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="4023" toSubLevel="4023">4774</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="4024" toSubLevel="4024">4864</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="4025" toSubLevel="4025">4955</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="4026" toSubLevel="4026">5044</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="4027" toSubLevel="4027">5135</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="4028" toSubLevel="4028">5224</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="4029" toSubLevel="4029">5315</value>
+					<value fromLevel="1" toLevel="1" fromSubLevel="4030" toSubLevel="4030">5405</value>
+				</power>
+			</effect>
+			<effect name="ManaHealOverTime" fromLevel="1" toLevel="1" fromSubLevel="5001" toSubLevel="5030">
+				<power>
+					<value fromLevel="1" toLevel="1" fromSubLevel="5001" toSubLevel="5030">{16 + subIndex}</value>
+				</power>
+				<ticks>1</ticks>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11543" toLevel="6" name="Disperse">
+		<!-- Glory Days confirmed -->
+		<!-- For 30 sec., transforms yourself and nearby party members to increase P. Def. and M. Def. + 2000 and Speed + 44. Decreases P. Atk. and M. Atk. + 80%. -->
+		<icon>icon.skill11543</icon>
+		<abnormalLvl>5</abnormalLvl>
+		<abnormalTime>30</abnormalTime>
+		<abnormalType>BUFF_SPECIAL_MULTI</abnormalType>
+		<affectRange>1000</affectRange>
+		<operateType>A2</operateType>
+		<mpConsume>
+			<value level="1">330</value>
+			<value level="2">350</value>
+			<value level="3">370</value>
+			<value level="4">390</value>
+			<value level="5">410</value>
+			<value level="6">430</value>
+		</mpConsume>
+		<hitTime>700</hitTime>
+		<coolTime>300</coolTime>
+		<reuseDelay>900000</reuseDelay>
+		<effectPoint>
+			<value level="1">704</value>
+			<value level="2">711</value>
+			<value level="3">711</value>
+			<value level="4">715</value>
+			<value level="5">719</value>
+			<value level="6">722</value>
+		</effectPoint>
+		<basicProperty>NONE</basicProperty>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLvl>
+			<value level="1">93</value>
+			<value level="2">96</value>
+			<value level="3">99</value>
+			<value level="4">101</value>
+			<value level="5">103</value>
+			<value level="6">105</value>
+		</magicLvl>
+		<abnormalVisualEffect>ULTIMATE_DEFENCE</abnormalVisualEffect>
+		<isMagic>1</isMagic>
+		<targetType>SELF</targetType>
+		<affectScope>PARTY</affectScope>
+		<effects>
+			<effect name="DispelBySlot">
+				<dispel>CHANGEBODY,9</dispel>
+			</effect>
+			<effect name="ChangeBody">
+				<templates>
+					<item templateId="500" minChance="0" maxChance="20" />
+					<item templateId="501" minChance="20" maxChance="40" />
+					<item templateId="502" minChance="40" maxChance="60" />
+					<item templateId="503" minChance="60" maxChance="80" />
+					<item templateId="504" minChance="80" maxChance="100" />
+				</templates>
+			</effect>
+			<effect name="PAtk">
+				<amount>-80</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MAtk">
+				<amount>-80</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="Speed">
+				<amount>
+					<value level="1">44</value>
+					<value level="2">44</value>
+					<value level="3">44</value>
+					<value level="4">48</value>
+					<value level="5">52</value>
+					<value level="6">56</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>
+					<value level="1">2000</value>
+					<value level="2">3000</value>
+					<value level="3">4000</value>
+					<value level="4">4500</value>
+					<value level="5">5000</value>
+					<value level="6">5500</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">2000</value>
+					<value level="2">3000</value>
+					<value level="3">4000</value>
+					<value level="4">4500</value>
+					<value level="5">5000</value>
+					<value level="6">5500</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="PhysicalAttackSpeed">
+				<amount>-80</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttackSpeed">
+				<amount>-80</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalDefence" fromLevel="2" toLevel="6" fromSubLevel="6001" toSubLevel="6030">
+ 				<amount>
+ 					<value fromLevel="2" toLevel="6" fromSubLevel="6001" toSubLevel="6030">{0.6 + 0.4 * subIndex}</value>
+ 				</amount>
+ 				<mode>PER</mode>
+ 			</effect>
+			<effect name="MagicalDefence" fromLevel="2" toLevel="6" fromSubLevel="7001" toSubLevel="7030">
+ 				<amount>
+ 					<value fromLevel="2" toLevel="6" fromSubLevel="7001" toSubLevel="7030">{0.6 + 0.4 * subIndex}</value>
+ 				</amount>
+ 				<mode>PER</mode>
+ 			</effect>
+		</effects>
+	</skill>
+	<skill id="11544" toLevel="1" name="Battle Rhapsody">
+		<!-- Glory Days confirmed -->
+		<!-- For 30 sec., doubles all party members' P. Atk., M. Atk., Atk. Spd. and Casting Spd. -->
+		<icon>icon.skill11544</icon>
+		<abnormalTime>30</abnormalTime>
+		<affectRange>1000</affectRange>
+		<operateType>A2</operateType>
+		<mpConsume>916</mpConsume>
+		<hitTime>3000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>687</effectPoint>
+		<abnormalType>RHAPSODY</abnormalType>
+		<basicProperty>NONE</basicProperty>
+		<rideState>NONE</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLvl>89</magicLvl>
+		<abnormalLvl>5</abnormalLvl>
+		<reuseDelay>600000</reuseDelay>
+		<targetType>SELF</targetType>
+		<affectScope>PARTY</affectScope>
+		<affectObject>FRIEND</affectObject>
+		<effects>
+			<effect name="PAtk">
+				<amount>100</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MAtk">
+				<amount>100</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalAttackSpeed">
+				<amount>100</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttackSpeed">
+				<amount>100</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalDefence" fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1030">
+ 				<amount>
+ 					<value fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1030">{0.6 + 0.4 * subIndex}</value>
+ 				</amount>
+ 				<mode>PER</mode>
+ 			</effect>
+			<effect name="MagicalDefence" fromLevel="1" toLevel="1" fromSubLevel="2001" toSubLevel="2030">
+ 				<amount>
+ 					<value fromLevel="1" toLevel="1" fromSubLevel="2001" toSubLevel="2030">{0.6 + 0.4 * subIndex}</value>
+ 				</amount>
+ 				<mode>PER</mode>
+ 			</effect>
+			<effect name="MagicalDefence" fromLevel="1" toLevel="1" fromSubLevel="3001" toSubLevel="3030">
+ 				<amount>
+ 					<value fromLevel="1" toLevel="1" fromSubLevel="3001" toSubLevel="3030">{2 * subIndex}</value>
+ 				</amount>
+ 				<mode>DIFF</mode>
+ 			</effect>
+		</effects>
+	</skill>
+	<skill id="11545" toLevel="1" name="Crazy Nocturne">
+		<!-- Glory Days confirmed -->
+		<!-- For 15 sec., decreases standard attack and M. Skill's Critical Rate targeting party members by 50%. -->
+		<icon>icon.skill11545</icon>
+		<abnormalTime>15</abnormalTime>
+		<affectRange>1000</affectRange>
+		<operateType>A2</operateType>
+		<mpConsume>1032</mpConsume>
+		<hitTime>3000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>709</effectPoint>
+		<abnormalType>RHAPSODY</abnormalType>
+		<basicProperty>NONE</basicProperty>
+		<rideState>NONE</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLvl>95</magicLvl>
+		<abnormalLvl>5</abnormalLvl>
+		<isMagic>2</isMagic>
+		<reuseDelay>600000</reuseDelay>
+		<targetType>SELF</targetType>
+		<affectScope>PARTY</affectScope>
+		<affectObject>FRIEND</affectObject>
+		<effects>
+			<effect name="DefenceCriticalRate">
+				<amount>50</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DefenceMagicCriticalRate">
+				<amount>50</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalDefence" fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1030">
+ 				<amount>
+ 					<value fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1030">{0.6 + 0.4 * subIndex}</value>
+ 				</amount>
+ 				<mode>PER</mode>
+ 			</effect>
+			<effect name="MagicalDefence" fromLevel="1" toLevel="1" fromSubLevel="2001" toSubLevel="2030">
+ 				<amount>
+ 					<value fromLevel="1" toLevel="1" fromSubLevel="2001" toSubLevel="2030">{0.6 + 0.4 * subIndex}</value>
+ 				</amount>
+ 				<mode>PER</mode>
+ 			</effect>
+			<effect name="MagicalDefence" fromLevel="1" toLevel="1" fromSubLevel="3001" toSubLevel="3030">
+ 				<amount>
+ 					<value fromLevel="1" toLevel="1" fromSubLevel="3001" toSubLevel="3030">{2 * subIndex}</value>
+ 				</amount>
+ 				<mode>DIFF</mode>
+ 			</effect>
+		</effects>
+	</skill>
+	<skill id="11546" toLevel="4" name="Chaos Symphony">
+		<!-- Glory Days confirmed -->
+		<!-- Inflicts 38826 damage on target and nearby enemies. Decreases nearby enemies' P. Atk., P. Def., M. Atk., M. Def. and Speed by 50% for 10 seconds. Requires a sword, dualsword or dual blunt to be equipped. Over-hit. Critical. -->
+		<affectLimit>10-10</affectLimit>
+		<affectRange>300</affectRange>
+		<abnormalLvl>5</abnormalLvl>
+		<abnormalTime>10</abnormalTime>
+		<abnormalType>MULTI_DEBUFF</abnormalType>
+		<activateRate>
+			<value fromLevel="1" toLevel="4">100</value>
+			<value fromLevel="1" toLevel="4" fromSubLevel="2001" toSubLevel="2030">{base + base / 100 * subIndex}</value>
+		</activateRate>
+		<icon>icon.skill11533</icon>
+		<operateType>A2</operateType>
+		<mpConsume>1767</mpConsume>
+		<castRange>900</castRange>
+		<hitTime>2000</hitTime>
+		<reuseDelay>30000</reuseDelay>
+		<effectPoint>-707</effectPoint>
+		<basicProperty>NONE</basicProperty>
+		<rideState>NONE</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effectRange>1100</effectRange>
+		<magicLvl>99</magicLvl>
+		<trait>DERANGEMENT</trait>
+		<isMagic>2</isMagic>
+		<isDebuff>true</isDebuff>
+		<targetType>ENEMY</targetType>
+		<affectScope>RANGE</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<conditions>
+			<condition name="EquipWeapon">
+				<weaponType>
+					<item>DUAL</item>
+					<item>DUALBLUNT</item>
+					<item>SWORD</item>
+					<item>BLUNT</item>
+				</weaponType>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="PhysicalAttack">
+				<power>
+					<value level="1">38826</value>
+					<value level="2">44708</value>
+					<value level="3">46888</value>
+					<value level="4">49068</value>
+					<value fromLevel="1" toLevel="4" fromSubLevel="1001" toSubLevel="1030">{base + base / 100 * subIndex}</value>
+				</power>
+				<overHit>true</overHit>
+				<criticalChance>
+					<value fromLevel="1" toLevel="4">5</value>
+					<value fromLevel="1" toLevel="4" fromSubLevel="3001" toSubLevel="3030">{base + base / 100 * subIndex}</value>
+				</criticalChance>
+			</effect>
+			<effect name="PAtk">
+				<amount>-50</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MAtk">
+				<amount>-50</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="Speed">
+				<amount>-50</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>-50</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>-50</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11547" toLevel="10" name="Superior HP Recovery">
+		<!-- Glory Days confirmed -->
+		<!-- STR + 2 and HP Recovery Bonus + 2.8. -->
+		<operateType>P</operateType>
+		<magicLvl>
+			<value level="1">85</value>
+			<value level="2">90</value>
+			<value level="3">95</value>
+			<value level="4">99</value>
+			<value level="5">100</value>
+			<value level="6">102</value>
+			<value level="7">104</value>
+			<value level="8">106</value>
+			<value level="9">108</value>
+			<value level="10">110</value>
+		</magicLvl>
+		<icon>icon.skill0212</icon>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effects>
+			<effect name="HpRegen">
+				<amount>
+					<value level="1">2.8</value>
+					<value level="2">3.4</value>
+					<value level="3">4</value>
+					<value level="4">4.6</value>
+					<value level="5">5.4</value>
+					<value level="6">6.2</value>
+					<value level="7">7</value>
+					<value level="8">7.8</value>
+					<value level="9">8.6</value>
+					<value level="10">9.4</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="StatUp">
+				<amount>2</amount>
+				<stat>STR</stat>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11548" toLevel="1" name="Superior Quick Recovery">
+		<!-- Glory Days confirmed -->
+		<!-- INT + 2 and Cooldown for magic skills - 25%. -->
+		<icon>icon.skill11004</icon>
+		<magicLvl>85</magicLvl>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effects>
+			<effect name="StatUp">
+				<amount>2</amount>
+				<stat>STR</stat>
+			</effect>
+			<effect name="Reuse">
+				<amount>-25</amount>
+				<mode>PER</mode>
+				<magicType>1</magicType>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11549" toLevel="1" name="Superior Mana Steal">
+		<!-- Glory Days confirmed -->
+		<!-- Has a chance of recovering MP during a normal attack when equipped with a sword, blunt, dualsword, or dual blunt weapon. -->
+		<icon>icon.skill11505</icon>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLvl>85</magicLvl>
+		<effects>
+			<effect name="TriggerSkillByAttack">
+				<!-- Superior Mana Steal -->
+				<attackerType>L2Character</attackerType>
+				<minAttackerLevel>1</minAttackerLevel>
+				<maxAttackerLevel>127</maxAttackerLevel>
+				<minDamage>100</minDamage>
+				<chance>5</chance>
+				<targetType>SELF</targetType>
+				<isCritical>false</isCritical>
+				<allowWeapons>SWORD,BLUNT,DUAL,DUALBLUNT</allowWeapons>
+				<skillId>11550</skillId>
+				<skillLevel>1</skillLevel>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11550" toLevel="1" name="Superior Mana Steal">
+		<!-- Glory Days confirmed -->
+		<icon>icon.skill11505</icon>
+		<operateType>A1</operateType>
+		<rideState>NONE</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<hitCancelTime>0</hitCancelTime>
+		<magicLvl>85</magicLvl>
+		<reuseDelay>3000</reuseDelay>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<effects>
+			<effect name="Mp">
+				<amount>30</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11551" toLevel="1" name="Superior Mental Attack Resistance">
+		<!-- Glory Days confirmed -->
+		<!-- STR + 2 and Hold/Sleep/Bleed/Mind/Poison Resistance + 30. -->
+		<operateType>P</operateType>
+		<magicLvl>85</magicLvl>
+		<icon>icon.skill10257</icon>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effects>
+			<effect name="DefenceTrait">
+				<HOLD>30</HOLD>
+				<BLEED>30</BLEED>
+				<POISON>30</POISON>
+				<SLEEP>30</SLEEP>
+				<DERANGEMENT>30</DERANGEMENT>
+			</effect>
+			<effect name="StatUp">
+				<amount>2</amount>
+				<stat>STR</stat>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11552" toLevel="4" name="Superior Divine Lore">
+		<!-- Glory Days confirmed -->
+		<!-- MP Consumption for skills is decreased by 6%. -->
+		<operateType>P</operateType>
+		<magicLvl>85</magicLvl>
+		<icon>icon.skill11506</icon>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effects>
+			<effect name="MagicMpCost">
+				<amount>
+					<value level="1">-6</value>
+					<value level="2">-9</value>
+					<value level="3">-12</value>
+					<value level="4">-15</value>
+				</amount>
+				<mode>PER</mode>
+				<magicType>1</magicType>
+			</effect>
+			<effect name="MagicMpCost">
+				<amount>
+					<value level="1">-6</value>
+					<value level="2">-9</value>
+					<value level="3">-12</value>
+					<value level="4">-15</value>
+				</amount>
+				<mode>PER</mode>
+				<magicType>0</magicType>
+			</effect>
+			<effect name="MagicMpCost">
+				<amount>
+					<value level="1">-6</value>
+					<value level="2">-9</value>
+					<value level="3">-12</value>
+					<value level="4">-15</value>
+				</amount>
+				<mode>PER</mode>
+				<magicType>3</magicType>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11553" toLevel="1" name="Superior Focus Mind">
+		<!-- Glory Days confirmed -->
+		<!-- STR + 2 and increases MP recovery bonus by 8.4. -->
+		<operateType>P</operateType>
+		<magicLvl>85</magicLvl>
+		<icon>icon.skill11187</icon>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effects>
+			<effect name="MpRegen">
+				<amount>8.4</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="StatUp">
+				<amount>2</amount>
+				<stat>STR</stat>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11554" toLevel="1" name="Superior Sixth Sense">
+		<!-- Glory Days confirmed -->
+		<!--When HP is below 30%, increases P. Evasion by 17. STR + 2. -->
+		<operateType>P</operateType>
+		<magicLvl>85</magicLvl>
+		<icon>icon.skill11504</icon>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effects>
+			<effect name="PhysicalEvasion">
+				<amount>17</amount>
+				<mode>DIFF</mode>
+				<hpPercent>30</hpPercent>
+			</effect>
+			<effect name="StatUp">
+				<amount>2</amount>
+				<stat>STR</stat>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11555" toLevel="1" name="Superior Fast Spell Casting">
+		<!-- Glory Days confirmed -->
+		<!-- Increases Casting Spd. by 15%. -->
+		<operateType>P</operateType>
+		<magicLvl>85</magicLvl>
+		<icon>icon.skill11788</icon>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effects>
+			<effect name="MagicalAttackSpeed">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11556" toLevel="1" name="Cancel Transform">
+		<!-- Glory Days confirmed -->
+		<icon>icon.skill01703</icon>
+		<operateType>A1</operateType>
+		<effectPoint>1</effectPoint>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLvl>99</magicLvl>
+		<trait>HOLD</trait>
+		<isMagic>2</isMagic> <!-- Static Skill -->
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<effects>
+			<effect name="DispelBySlot">
+				<dispel>CHANGEBODY,9</dispel>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11557" toLevel="1" name="Ultimate Scourge">
+		<!-- Glory Days confirmed -->
+		<!-- Disables nearby enemies' natural HP Recovery for 2 minutes. -->
+		<icon>icon.skill11557</icon>
+		<abnormalLvl>5</abnormalLvl>
+		<abnormalTime>120</abnormalTime>
+		<abnormalType>HP_REGEN_DOWN</abnormalType>
+		<activateRate>65</activateRate>
+		<affectRange>200</affectRange>
+		<affectLimit>10-10</affectLimit>
+		<effectPoint>-379</effectPoint>
+		<operateType>A2</operateType>
+		<mpConsume>423</mpConsume>
+		<hitTime>2000</hitTime>
+		<coolTime>200</coolTime>
+		<reuseDelay>120000</reuseDelay>
+		<isMagic>1</isMagic>
+		<isDebuff>true</isDebuff>
+		<basicProperty>NONE</basicProperty>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLvl>85</magicLvl>
+		<trait>BOSS</trait>
+		<targetType>SELF</targetType>
+		<affectScope>POINT_BLANK</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<effects>
+			<effect name="HpRegen">
+				<amount>-100</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11558" toLevel="1" name="Ultimate Oblivion">
+		<!-- Glory Days confirmed -->
+		<!-- Cancels nearby enemies' targets. -->
+		<icon>icon.skill11558</icon>
+		<affectRange>200</affectRange>
+		<effectPoint>-457</effectPoint>
+		<operateType>A1</operateType>
+		<mpConsume>423</mpConsume>
+		<hitTime>2000</hitTime>
+		<coolTime>200</coolTime>
+		<reuseDelay>120000</reuseDelay>
+		<isMagic>1</isMagic>
+		<isDebuff>true</isDebuff>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLvl>85</magicLvl>
+		<affectLimit>10-10</affectLimit>
+		<trait>DERANGEMENT</trait>
+		<targetType>SELF</targetType>
+		<affectScope>POINT_BLANK</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<effects>
+			<effect name="TargetCancel" />
+		</effects>
+	</skill>
+	<skill id="11559" toLevel="1" name="Ultimate Suspension">
+		<!-- Updated to Ertheia -->
+		<!-- Glory Days confirmed -->
+		<!-- Increases nearby enemies' physical/magic skill Cooldown by 200% for 2 minutes. -->
+		<icon>icon.skill11559</icon>
+		<abnormalTime>120</abnormalTime>
+		<affectRange>200</affectRange>
+		<effectPoint>-457</effectPoint>
+		<operateType>A2</operateType>
+		<mpConsume>423</mpConsume>
+		<hitTime>2000</hitTime>
+		<coolTime>200</coolTime>
+		<reuseDelay>120000</reuseDelay>
+		<isMagic>1</isMagic>
+		<abnormalType>REUSE_DELAY_UP</abnormalType>
+		<basicProperty>NONE</basicProperty>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<activateRate>60</activateRate>
+		<magicLvl>85</magicLvl>
+		<abnormalLvl>5</abnormalLvl>
+		<trait>BOSS</trait>
+		<affectLimit>10-10</affectLimit>
+		<isDebuff>true</isDebuff>
+		<targetType>SELF</targetType>
+		<affectScope>POINT_BLANK</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<effects>
+			<effect name="Reuse">
+				<amount>200</amount>
+				<mode>PER</mode>
+				<magicType>0</magicType>
+			</effect>
+			<effect name="Reuse">
+				<amount>200</amount>
+				<mode>PER</mode>
+				<magicType>1</magicType>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11560" toLevel="2" name="Celestial Aegis">
+		<!-- Updated to Ertheia -->
+		<!-- Glory Days confirmed -->
+		<!-- Makes all party members invincible for 30 seconds. -->
+		<icon>icon.skill11560</icon>
+		<abnormalLvl>5</abnormalLvl>
+		<abnormalTime>30</abnormalTime>
+		<abnormalType>INVINCIBILITY</abnormalType>
+		<abnormalVisualEffect>INVINCIBILITY</abnormalVisualEffect>
+		<affectRange>1000</affectRange>
+		<operateType>A2</operateType>
+		<mpConsume>
+			<value level="1">423</value>
+			<value level="2">557</value>
+		</mpConsume>
+		<hitTime>1000</hitTime>
+		<coolTime>200</coolTime>
+		<reuseDelay>1800000</reuseDelay>
+		<basicProperty>NONE</basicProperty>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<hitCancelTime>0</hitCancelTime>
+		<magicLvl>
+			<value level="1">85</value>
+			<value level="2">99</value>
+		</magicLvl>
+		<affectLimit>
+			<value level="1">0-0</value>
+			<value level="2">50-50</value>
+		</affectLimit>
+		<isMagic>1</isMagic>
+		<staticReuse>true</staticReuse>
+		<targetType>SELF</targetType>
+		<affectScope>
+			<value level="1">PARTY</value>
+			<value level="2">PARTY_PLEDGE</value>
+		</affectScope>
+		<affectObject>FRIEND</affectObject>
+		<removedOnAnyActionExceptMove>true</removedOnAnyActionExceptMove>
+		<effects>
+			<effect name="DispelBySlotMyself">
+				<dispel>MAGICAL_STANCE</dispel>
+			</effect>
+			<effect name="DamageBlock">
+				<type>BLOCK_HP</type>
+			</effect>
+			<effect name="DamageBlock">
+				<type>BLOCK_MP</type>
+			</effect>
+			<effect name="DebuffBlock" />
+			<effect name="Heal" fromLevel="1" toLevel="2" fromSubLevel="1001" toSubLevel="1030">
+				<power>
+					<value fromLevel="1" toLevel="2" fromSubLevel="1001" toSubLevel="1001">1936</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="1002" toSubLevel="1002">2072</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="1003" toSubLevel="1003">2207</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="1004" toSubLevel="1004">2342</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="1005" toSubLevel="1005">2477</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="1006" toSubLevel="1006">2612</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="1007" toSubLevel="1007">2747</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="1008" toSubLevel="1008">2882</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="1009" toSubLevel="1009">3017</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="1010" toSubLevel="1010">3152</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="1011" toSubLevel="1011">3288</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="1012" toSubLevel="1012">3423</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="1013" toSubLevel="1013">3558</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="1014" toSubLevel="1014">3693</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="1015" toSubLevel="1015">3828</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="1016" toSubLevel="1016">3964</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="1017" toSubLevel="1017">4099</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="1018" toSubLevel="1018">4234</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="1019" toSubLevel="1019">4369</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="1020" toSubLevel="1020">4504</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="1021" toSubLevel="1021">4594</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="1022" toSubLevel="1022">4684</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="1023" toSubLevel="1023">4774</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="1024" toSubLevel="1024">4864</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="1025" toSubLevel="1025">4955</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="1026" toSubLevel="1026">5044</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="1027" toSubLevel="1027">5135</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="1028" toSubLevel="1028">5224</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="1029" toSubLevel="1029">5315</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="1030" toSubLevel="1030">5405</value>
+				</power>
+			</effect>
+			<effect name="ManaHeal" fromLevel="1" toLevel="1" fromSubLevel="2001" toSubLevel="2030">
+				<power>
+					<value fromLevel="1" toLevel="2" fromSubLevel="2001" toSubLevel="2001">532</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="2002" toSubLevel="2002">570</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="2003" toSubLevel="2003">607</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="2004" toSubLevel="2004">644</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="2005" toSubLevel="2005">681</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="2006" toSubLevel="2006">718</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="2007" toSubLevel="2007">756</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="2008" toSubLevel="2008">793</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="2009" toSubLevel="2009">830</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="2010" toSubLevel="2010">867</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="2011" toSubLevel="2011">904</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="2012" toSubLevel="2012">942</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="2013" toSubLevel="2013">979</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="2014" toSubLevel="2014">1016</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="2015" toSubLevel="2015">1053</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="2016" toSubLevel="2016">1090</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="2017" toSubLevel="2017">1128</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="2018" toSubLevel="2018">1165</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="2019" toSubLevel="2019">1202</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="2020" toSubLevel="2020">1240</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="2021" toSubLevel="2021">1264</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="2022" toSubLevel="2022">1289</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="2023" toSubLevel="2023">1314</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="2024" toSubLevel="2024">1339</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="2025" toSubLevel="2025">1363</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="2026" toSubLevel="2026">1389</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="2027" toSubLevel="2027">1413</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="2028" toSubLevel="2028">1438</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="2029" toSubLevel="2029">1463</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="2030" toSubLevel="2030">1488</value>
+				</power>
+			</effect>
+			<effect name="CpHeal" fromLevel="1" toLevel="2" fromSubLevel="3001" toSubLevel="3030">
+				<power>
+					<value fromLevel="1" toLevel="2" fromSubLevel="3001" toSubLevel="3001">2421</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="3002" toSubLevel="3002">2590</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="3003" toSubLevel="3003">2759</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="3004" toSubLevel="3004">2928</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="3005" toSubLevel="3005">3097</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="3006" toSubLevel="3006">3265</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="3007" toSubLevel="3007">3434</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="3008" toSubLevel="3008">3603</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="3009" toSubLevel="3009">3772</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="3010" toSubLevel="3010">3941</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="3011" toSubLevel="3011">4110</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="3012" toSubLevel="3012">4279</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="3013" toSubLevel="3013">4448</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="3014" toSubLevel="3014">4617</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="3015" toSubLevel="3015">4786</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="3016" toSubLevel="3016">4955</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="3017" toSubLevel="3017">5124</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="3018" toSubLevel="3018">5293</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="3019" toSubLevel="3019">5462</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="3020" toSubLevel="3020">5631</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="3021" toSubLevel="3021">5743</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="3022" toSubLevel="3022">5856</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="3023" toSubLevel="3023">5968</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="3024" toSubLevel="3024">6081</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="3025" toSubLevel="3025">6194</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="3026" toSubLevel="3026">6306</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="3027" toSubLevel="3027">6419</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="3028" toSubLevel="3028">6531</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="3029" toSubLevel="3029">6644</value>
+					<value fromLevel="1" toLevel="2" fromSubLevel="3030" toSubLevel="3030">6757</value>
+				</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11561" toLevel="7" name="Giant Root">
+		<!-- Updated to Ertheia -->
+		<!-- Glory Days confirmed -->
+		<!-- Inflicts Hold on the enemy for 15 seconds. -->
+		<icon>icon.skill11561</icon>
+		<abnormalLvl>5</abnormalLvl>
+		<abnormalTime>15</abnormalTime>
+		<abnormalType>ROOT_MAGICALLY</abnormalType>
+		<abnormalVisualEffect>ROOT</abnormalVisualEffect>
+		<activateRate>
+			<value fromLevel="1" toLevel="7">65</value>
+			<value fromLevel="3" toLevel="7" fromSubLevel="1001" toSubLevel="1030">{base + base / 100 * subIndex}</value>
+		</activateRate>
+		<basicProperty>MAGIC</basicProperty>
+		<operateType>A2</operateType>
+		<mpConsume>
+			<value level="1">126</value>
+			<value level="2">139</value>
+			<value level="3">153</value>
+			<value level="4">166</value>
+			<value level="5">139</value>
+			<value level="6">153</value>
+			<value level="7">166</value>
+		</mpConsume>
+		<castRange>900</castRange>
+		<hitTime>1500</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>60000</reuseDelay>
+		<isMagic>1</isMagic>
+		<isDebuff>true</isDebuff>
+		<effectPoint>
+			<value level="1">-701</value>
+			<value level="2">-705</value>
+			<value level="3">-709</value>
+			<value level="4">-709</value>
+			<value level="5">-709</value>
+			<value level="6">-709</value>
+			<value level="7">-709</value>
+		</effectPoint>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effectRange>1100</effectRange>
+		<magicLvl>
+			<value level="1">85</value>
+			<value level="2">90</value>
+			<value level="3">95</value>
+			<value level="4">99</value>
+			<value level="5">101</value>
+			<value level="6">103</value>
+			<value level="7">105</value>
+		</magicLvl>
+		<trait>HOLD</trait>
+		<targetType>ENEMY_ONLY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<effects>
+			<effect name="Root" />
+			<effect name="DefenceTrait">
+				<HOLD>100</HOLD>
+			</effect>
+			<effect name="PhysicalDefence" fromLevel="3" toLevel="7" fromSubLevel="2001" toSubLevel="2030">
+				<amount>
+					<value fromLevel="3" toLevel="7" fromSubLevel="2001" toSubLevel="2030">{-0.6 - 0.4 * subIndex}</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalDefence" fromLevel="3" toLevel="7" fromSubLevel="3001" toSubLevel="3030">
+				<amount>
+					<value fromLevel="3" toLevel="7" fromSubLevel="3001" toSubLevel="3030">{-0.6 - 0.4 * subIndex}</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11562" toLevel="1" name="Devil's Movement">
+		<!-- Updated to Ertheia -->
+		<!-- Glory Days confirmed -->
+		<!-- Prevents all party members from being attacked preemptively by monsters for 2 minutes. But if any party member initiates an attack, the effect will be canceled. -->
+		<icon>icon.skill11562</icon>
+		<abnormalLvl>3</abnormalLvl>
+		<abnormalTime>
+			<value fromLevel="1" toLevel="1">120</value>
+			<value fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1030">{base + subIndex * 15}</value>
+		</abnormalTime>
+		<abnormalType>DANCE_OF_SHADOW</abnormalType>
+		<abnormalVisualEffect>STEALTH</abnormalVisualEffect>
+		<affectRange>1000</affectRange>
+		<effectPoint>666</effectPoint>
+		<operateType>A2</operateType>
+		<mpConsume>60</mpConsume>
+		<hitTime>2500</hitTime>
+		<basicProperty>NONE</basicProperty>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<specialLevel>-1</specialLevel>
+		<magicLvl>85</magicLvl>
+		<isMagic>2</isMagic>
+		<reuseDelay>3000</reuseDelay>
+		<targetType>SELF</targetType>
+		<affectScope>PARTY</affectScope>
+		<affectObject>FRIEND</affectObject>
+		<effects>
+			<effect name="SilentMove" />
+			<effect name="TriggerSkillByMagicType">
+				<!-- Cancel Shadow Move -->
+				<magicTypes>0;1;2;3;4;22</magicTypes>
+				<skillId>7097</skillId>
+				<skillLevel>1</skillLevel>
+				<chance>100</chance>
+				<targetType>MY_PARTY</targetType>
+			</effect>
+			<effect name="TriggerSkillByAttack">
+				<!-- Cancel Shadow Move -->
+				<attackerType>L2Character</attackerType>
+				<minAttackerLevel>1</minAttackerLevel>
+				<maxAttackerLevel>127</maxAttackerLevel>
+				<minDamage>1</minDamage>
+				<chance>100</chance>
+				<targetType>MY_PARTY</targetType>
+				<isCritical>true</isCritical>
+				<allowWeapons>SWORD,BLUNT</allowWeapons>
+				<skillId>7097</skillId>
+				<skillLevel>1</skillLevel>
+			</effect>
+			<effect name="TriggerSkillByAttack">
+				<!-- Cancel Shadow Move -->
+				<attackerType>L2Character</attackerType>
+				<minAttackerLevel>1</minAttackerLevel>
+				<maxAttackerLevel>127</maxAttackerLevel>
+				<minDamage>1</minDamage>
+				<chance>100</chance>
+				<targetType>MY_PARTY</targetType>
+				<skillId>7097</skillId>
+				<skillLevel>1</skillLevel>
+				<isCritical>false</isCritical>
+				<allowWeapons>SWORD,BLUNT</allowWeapons>
+			</effect>
+			<effect name="Speed" fromLevel="1" toLevel="1" fromSubLevel="2001" toSubLevel="2030">
+				<amount>
+					<value fromLevel="1" toLevel="1" fromSubLevel="2001" toSubLevel="2030">{2 * subIndex}</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11563" toLevel="1" name="Quick Return">
+		<!-- Glory Days confirmed -->
+		<!-- Copy-Pasted from Return Skill -->
+		<!-- Teleports to a town. Cannot be used in a specially designated place such as the GM Consultation Service. -->
+		<icon>icon.skill11819</icon>
+		<blockedInOlympiad>true</blockedInOlympiad>
+		<operateType>A1</operateType>
+		<mpConsume>60</mpConsume>
+		<hitTime>2500</hitTime>
+		<reuseDelay>75000</reuseDelay>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLvl>85</magicLvl>
+		<isMagic>1</isMagic>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<conditions>
+			<condition name="OpCanEscape" />
+		</conditions>
+		<effects>
+			<effect name="Escape">
+				<escapeType>TOWN</escapeType>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11564" toLevel="4" name="Angel's Resurrection">
+		<!-- Updated to Ertheia -->
+		<!-- Glory Days confirmed -->
+		<!-- Resurrects a dead target and restores 40% of the XP lost. -->
+		<icon>icon.skill1016</icon>
+		<blockedInOlympiad>true</blockedInOlympiad>
+		<operateType>A1</operateType>
+		<mpConsume>60</mpConsume>
+		<castRange>400</castRange>
+		<hitTime>2000</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>30000</reuseDelay>
+		<effectPoint>2</effectPoint>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effectRange>900</effectRange>
+		<magicLvl>
+			<value level="1">85</value>
+			<value level="2">90</value>
+			<value level="3">95</value>
+			<value level="4">99</value>
+		</magicLvl>
+		<isMagic>4</isMagic>
+		<staticReuse>true</staticReuse>
+		<targetType>PC_BODY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<conditions>
+			<condition name="OpResurrection" />
+		</conditions>
+		<effects>
+			<effect name="Resurrection">
+				<power>
+					<value level="1">40</value>
+					<value level="2">50</value>
+					<value level="3">60</value>
+					<value level="4">70</value>
+				</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11565" toLevel="1" name="Elemental Resistance">
+		<!-- Glory Days confirmed -->
+		<!-- Increases party members' Fire/Water/Wind/Earth Resistance by 30 for 30 minutes. -->
+		<affectRange>1000</affectRange>
+		<abnormalLvl>5</abnormalLvl>
+		<abnormalType>ARMOR_ELEMENT_ALL</abnormalType>
+		<abnormalTime>
+			<value fromLevel="1" toLevel="1">1800</value>
+			<value fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1030">{base + subIndex * 15}</value>
+		</abnormalTime>
+		<icon>icon.skill11565</icon>
+		<operateType>A2</operateType>
+		<mpConsume>140</mpConsume>
+		<mpInitialConsume>28</mpInitialConsume>
+		<hitTime>700</hitTime>
+		<coolTime>300</coolTime>
+		<reuseDelay>2000</reuseDelay>
+		<isMagic>22</isMagic>
+		<magicLvl>85</magicLvl>
+		<effectPoint>687</effectPoint>
+		<basicProperty>NONE</basicProperty>
+		<magicCriticalRate>5</magicCriticalRate>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<targetType>SELF</targetType>
+		<affectScope>PARTY</affectScope>
+		<affectObject>FRIEND</affectObject>
+		<conditions>
+			<condition name="TargetMyParty">
+				<includeMe>true</includeMe>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="DispelBySlotProbability">
+				<dispel>ARMOR_FIRE;ARMOR_WATER;ARMOR_WIND;ARMOR_EARTH;MD_UP_ATTR;DANCE_OF_AQUA_GUARD;DANCE_OF_EARTH_GUARD;SONG_OF_ELEMENTAL;SONG_OF_FLAME_GUARD;SONG_OF_STORM_GUARD;SONG_OF_WIND</dispel>
+				<rate>100</rate>
+			</effect>
+			<effect name="BlockAbnormalSlot">
+				<slot>ARMOR_FIRE;ARMOR_WATER;ARMOR_WIND;ARMOR_EARTH;MD_UP_ATTR;DANCE_OF_AQUA_GUARD;DANCE_OF_EARTH_GUARD;SONG_OF_ELEMENTAL;SONG_OF_FLAME_GUARD;SONG_OF_STORM_GUARD;SONG_OF_WIND</slot>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>30</amount>
+				<attribute>FIRE</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>30</amount>
+				<attribute>WATER</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>30</amount>
+				<attribute>WIND</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>30</amount>
+				<attribute>EARTH</attribute>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11566" toLevel="1" name="Holy Attack Resistance">
+		<!-- Glory Days confirmed -->
+		<!-- Increases party members' Holy/Dark Attack Resistance by 30, and Poison/Bleed Resistance by 50% for 30 minutes. -->
+		<affectRange>1000</affectRange>
+		<abnormalLvl>5</abnormalLvl>
+		<abnormalType>ARMOR_HOLY</abnormalType>
+		<abnormalTime>
+			<value fromLevel="1" toLevel="1">1800</value>
+			<value fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1030">{base + subIndex * 15}</value>
+		</abnormalTime>
+		<icon>icon.skill11567</icon>
+		<operateType>A2</operateType>
+		<mpConsume>140</mpConsume>
+		<mpInitialConsume>28</mpInitialConsume>
+		<hitTime>700</hitTime>
+		<coolTime>300</coolTime>
+		<reuseDelay>2000</reuseDelay>
+		<isMagic>22</isMagic>
+		<magicLvl>85</magicLvl>
+		<effectPoint>687</effectPoint>
+		<basicProperty>NONE</basicProperty>
+		<magicCriticalRate>5</magicCriticalRate>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<targetType>SELF</targetType>
+		<affectScope>PARTY</affectScope>
+		<affectObject>FRIEND</affectObject>
+		<conditions>
+			<condition name="TargetMyParty">
+				<includeMe>true</includeMe>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="DefenceTrait">
+				<BLEED>50</BLEED>
+				<POISON>50</POISON>
+			</effect>
+			<effect name="DispelBySlotProbability">
+				<dispel>DANCE_OF_ALIGNMENT;ARMOR_UNHOLY;DANCE_OF_LIGHT;SONG_OF_INVOCATION;RESIST_BLEEDING</dispel>
+				<rate>100</rate>
+			</effect>
+			<effect name="BlockAbnormalSlot">
+				<slot>DANCE_OF_ALIGNMENT;ARMOR_UNHOLY;DANCE_OF_LIGHT;SONG_OF_INVOCATION;RESIST_BLEEDING</slot>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>30</amount>
+				<attribute>HOLY</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>30</amount>
+				<attribute>DARK</attribute>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11567" toLevel="1" name="Mental Attack Resistance">
+		<!-- Glory Days confirmed -->
+		<!-- Increases party members' Hold/Sleep/Mental Attack Resistance by 50, Buff-canceling Attack Resistance by 30 and Debuff Resistance by 20 for 30 minutes. -->
+		<affectRange>1000</affectRange>
+		<abnormalLvl>5</abnormalLvl>
+		<abnormalType>RESIST_DERANGEMENT</abnormalType>
+		<abnormalTime>
+			<value fromLevel="1" toLevel="1">1800</value>
+			<value fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1030">{base + subIndex * 15}</value>
+		</abnormalTime>
+		<icon>icon.skill11824</icon>
+		<operateType>A2</operateType>
+		<mpConsume>140</mpConsume>
+		<hitTime>700</hitTime>
+		<coolTime>300</coolTime>
+		<reuseDelay>2000</reuseDelay>
+		<isMagic>22</isMagic>
+		<magicLvl>85</magicLvl>
+		<effectPoint>687</effectPoint>
+		<basicProperty>NONE</basicProperty>
+		<magicCriticalRate>5</magicCriticalRate>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<targetType>SELF</targetType>
+		<affectScope>PARTY</affectScope>
+		<affectObject>FRIEND</affectObject>
+		<conditions>
+			<condition name="TargetMyParty">
+				<includeMe>true</includeMe>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="DefenceTrait">
+				<HOLD>50</HOLD>
+				<DERANGEMENT>50</DERANGEMENT>
+				<SLEEP>50</SLEEP>
+			</effect>
+			<effect name="DispelBySlotProbability">
+				<dispel>DANCE_OF_PROTECTION;RESIST_DEBUFF_DISPEL</dispel>
+				<rate>100</rate>
+			</effect>
+			<effect name="BlockAbnormalSlot">
+				<slot>DANCE_OF_PROTECTION;RESIST_DEBUFF_DISPEL</slot>
+			</effect>
+			<effect name="ResistDispelByCategory">
+				<amount>30</amount>
+				<slot>BUFF</slot>
+			</effect>
+			<effect name="ResistAbnormalByCategory">
+				<amount>20</amount>
+				<slot>DEBUFF</slot>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11569" toLevel="1" name="Critical Damage Increase">
+		<!-- Glory Days confirmed -->
+		<!-- Critical Damage is greatly increased through Poem of Drum. -->
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>8</abnormalTime>
+		<abnormalType>COUNTER_CRITICAL_TRIGGER</abnormalType>
+		<icon>icon.skill1542</icon>
+		<isTriggeredSkill>true</isTriggeredSkill>
+		<magicLvl>85</magicLvl>
+		<operateType>A2</operateType>
+		<reuseDelay>15000</reuseDelay>
+		<rideState>NONE</rideState>
+		<basicProperty>NONE</basicProperty>
+		<magicCriticalRate>5</magicCriticalRate>
+		<hitCancelTime>0</hitCancelTime>
+		<isMagic>4</isMagic>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<effects>
+			<effect name="CriticalDamage">
+				<amount>100</amount>
+				<mode>PER</mode>
+				<weaponType>
+					<item>SWORD</item>
+					<item>BLUNT</item>
+					<item>DAGGER</item>
+					<item>DUALDAGGER</item>
+					<item>DUAL</item>
+					<item>DUALFIST</item>
+					<item>POLE</item>
+					<item>ANCIENTSWORD</item>
+					<item>RAPIER</item>
+					<item>BOW</item>
+					<item>CROSSBOW</item>
+					<item>DUALBLUNT</item>
+				</weaponType>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11570" toLevel="1" name="Healing Melody">
+		<!-- Glory Days confirmed -->
+		<!-- Heals target and the 10 most injured allies around target by up to 35% of their Max HP. The recovery amount decreases starting from the most injured person. -->
+		<icon>icon.skill11570</icon>
+		<affectLimit>9-0</affectLimit>
+		<affectRange>300</affectRange>
+		<effectPoint>1301</effectPoint>
+		<effectRange>1100</effectRange>
+		<operateType>A1</operateType>
+		<mpConsume>582</mpConsume>
+		<castRange>900</castRange>
+		<hitTime>2000</hitTime>
+		<reuseDelay>5000</reuseDelay>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLvl>85</magicLvl>
+		<isMagic>1</isMagic>
+		<targetType>ENEMY_NOT</targetType>
+		<affectScope>RANGE_SORT_BY_HP</affectScope>
+		<affectObject>FRIEND</affectObject>
+		<effects>
+			<effect name="HealPercent">
+				<power>35</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11571" toLevel="1" name="Recovery Melody">
+		<!-- Updated to Ertheia -->
+		<!-- Glory Days confirmed -->
+		<!-- Restores target's CP by 1000. -->
+		<icon>icon.skill11571</icon>
+		<effectPoint>780</effectPoint>
+		<effectRange>1100</effectRange>
+		<operateType>A1</operateType>
+		<mpConsume>120</mpConsume>
+		<castRange>900</castRange>
+		<hitTime>5000</hitTime>
+		<reuseDelay>5000</reuseDelay>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLvl>85</magicLvl>
+		<isMagic>1</isMagic>
+		<targetType>TARGET</targetType>
+		<affectScope>SINGLE</affectScope>
+		<effects>
+			<effect name="Cp">
+				<amount>1000</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11580" toLevel="7" name="Mass Transform">
+		<!-- Updated to IO -->
+		<!-- For 10 sec., mutates enemies to reduce their Speed by 20% and render them unable to attack. Mutated enemies return to normal when inflicted with damage. -->
+		<icon>icon.skill11580</icon>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>10</abnormalTime>
+		<abnormalType>CHANGEBODY</abnormalType>
+		<abnormalVisualEffect>CHANGEBODY</abnormalVisualEffect>
+		<activateRate>
+			<value fromLevel="1" toLevel="7">60</value>
+			<value fromLevel="3" toLevel="7" fromSubLevel="1001" toSubLevel="1030">{base + base / 100 * subIndex}</value>
+		</activateRate>
+		<operateType>A2</operateType>
+		<targetType>ENEMY_ONLY</targetType>
+		<affectScope>RANGE</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<trait>CHANGEBODY</trait>
+		<affectRange>
+			<value fromLevel="1" toLevel="7">200</value>
+			<value fromLevel="3" toLevel="7" fromSubLevel="2001" toSubLevel="2030">{base + 10 * subIndex}</value>
+		</affectRange>
+		<magicLvl>
+			<value level="1">85</value>
+			<value level="2">90</value>
+			<value level="3">95</value>
+			<value level="4">99</value>
+			<value level="5">101</value>
+			<value level="6">103</value>
+			<value level="7">105</value>
+		</magicLvl>
+		<mpConsume>
+			<value level="1">126</value>
+			<value level="2">139</value>
+			<value level="3">153</value>
+			<value level="4">166</value>
+			<value level="5">179</value>
+			<value level="6">192</value>
+			<value level="7">205</value>
+		</mpConsume>
+		<removedOnDamage>true</removedOnDamage>
+		<castRange>
+			<value fromLevel="1" toLevel="7">900</value>
+			<value fromLevel="3" toLevel="7" fromSubLevel="2001" toSubLevel="2030">{base + 10 * subIndex}</value>
+		</castRange>
+		<effectRange>
+			<value fromLevel="1" toLevel="7">1400</value>
+			<value fromLevel="3" toLevel="7" fromSubLevel="2001" toSubLevel="2030">{base + 10 * subIndex}</value>
+		</effectRange>
+		<hitTime>1410</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>120000</reuseDelay>
+		<effectPoint>-696</effectPoint>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic>
+		<effects>
+			<effect name="ChangeBody">
+				<templates>
+					<item templateId="500" minChance="0" maxChance="20" />
+					<item templateId="501" minChance="20" maxChance="40" />
+					<item templateId="502" minChance="40" maxChance="60" />
+					<item templateId="503" minChance="60" maxChance="80" />
+					<item templateId="504" minChance="80" maxChance="100" />
+				</templates>
+			</effect>
+			<effect name="TriggerSkillByDamage">
+				<minDamage>1</minDamage>
+				<skillId>11556</skillId> <!-- Cancel Transform -->
+				<skillLevel>1</skillLevel>
+				<attackerType>L2Character</attackerType>
+				<minAttackerLevel>1</minAttackerLevel>
+				<maxAttackerLevel>127</maxAttackerLevel>
+				<targetType>SELF</targetType>
+				<chance>100</chance>
+			</effect>
+			<effect name="Fear" />
+			<effect name="BlockControl" />
+			<effect name="Speed">
+				<amount>-20</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11581" toLevel="4" name="Superior Advantage">
+		<!-- Skill Cooldown - 5%, Skill Power + 5%, MP Recovery Rate + 5, and Max HP, MP, and CP + 5%. Skill mastery effect + 10%. -->
+		<operateType>P</operateType>
+		<magicLvl>85</magicLvl>
+		<icon>icon.skill11841</icon>
+		<effects>
+			<effect name="MaxCp">
+				<amount>
+					<value level="1">1.05</value>
+					<value level="2">1.06</value>
+					<value level="3">1.07</value>
+					<value level="4">1.10</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="MaxMp">
+				<amount>
+					<value level="1">1.05</value>
+					<value level="2">1.06</value>
+					<value level="3">1.07</value>
+					<value level="4">1.10</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="MpRegen">
+				<amount>
+					<value level="1">5</value>
+					<value level="2">6</value>
+					<value level="3">7</value>
+					<value level="4">10</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="PhysicalSkillPower">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MaxHp">
+				<amount>
+					<value level="1">1.05</value>
+					<value level="2">1.06</value>
+					<value level="3">1.07</value>
+					<value level="4">1.10</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="Reuse">
+				<amount>
+					<value level="1">-5</value>
+					<value level="2">-6</value>
+					<value level="3">-7</value>
+					<value level="4">-10</value>
+				</amount>
+				<mode>PER</mode>
+				<magicType>0</magicType>
+			</effect>
+			<effect name="Reuse">
+				<amount>
+					<value level="1">-5</value>
+					<value level="2">-6</value>
+					<value level="3">-7</value>
+					<value level="4">-10</value>
+				</amount>
+				<mode>PER</mode>
+				<magicType>1</magicType>
+			</effect>
+			<effect name="SkillCriticalProbability">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">20</value>
+					<value level="3">50</value>
+					<value level="4">100</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11582" toLevel="4" name="Mass Song of Silence">
+		<!-- Updated to IO -->
+		<!-- Plays the Song of Silence. For 10 sec., enemies' P. Skills and M. Skills are locked. -->
+		<icon>icon.skill11839</icon>
+		<abnormalTime>10</abnormalTime>
+		<abnormalType>SILENCE_ALL</abnormalType>
+		<abnormalVisualEffect>SILENCE</abnormalVisualEffect>
+		<activateRate>60</activateRate> <!-- Custom -->
+		<affectLimit>10-10</affectLimit> <!-- Custom -->
+		<affectRange>150</affectRange> <!-- Custom -->
+		<basicProperty>MAGIC</basicProperty> <!-- Guessed -->
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>POINT_BLANK</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<mpConsume>
+			<value level="1">126</value>
+			<value level="2">139</value>
+			<value level="3">153</value>
+			<value level="4">166</value>
+		</mpConsume>
+		<lvlBonusRate>1</lvlBonusRate>
+		<magicLvl>
+			<value level="1">85</value>
+			<value level="2">90</value>
+			<value level="3">95</value>
+			<value level="4">99</value>
+		</magicLvl>
+		<hitTime>1410</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>120000</reuseDelay>
+		<effectPoint>-507</effectPoint>
+		<isDebuff>true</isDebuff>
+		<trait>DERANGEMENT</trait>
+		<effects>
+			<effect name="Mute" />
+			<effect name="PhysicalMute" />
+		</effects>
+	</skill>
+	<skill id="11583" toLevel="4" name="Superior Song of Mastery">
+		<!-- Updated to IO -->
+		<!-- P. Def./ M. Def. + 5%. Skill Power + 5%. -->
+		<icon>icon.skill0153</icon>
+		<magicLvl>
+			<value level="1">85</value>
+			<value level="2">90</value>
+			<value level="3">95</value>
+			<value level="4">99</value>
+		</magicLvl>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="MagicalDefence">
+				<amount>
+					<value level="1">5</value>
+					<value level="2">7</value>
+					<value level="3">10</value>
+					<value level="4">15</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">5</value>
+					<value level="2">7</value>
+					<value level="3">10</value>
+					<value level="4">15</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalSkillPower">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11584" toLevel="4" name="Mass Medusa's Dance">
+		<!-- Updated to IO -->
+		<!-- Performs that evokes the mirage of a Medusa. For 10 sec., Petrifies nearby enemies. -->
+		<icon>icon.skill11840</icon>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>10</abnormalTime>
+		<abnormalType>TURN_STONE</abnormalType>
+		<abnormalVisualEffect>FLESH_STONE</abnormalVisualEffect>
+		<activateRate>80</activateRate> <!-- Custom -->
+		<affectLimit>10-10</affectLimit> <!-- Custom -->
+		<affectRange>150</affectRange> <!-- Custom -->
+		<basicProperty>MAGIC</basicProperty> <!-- Guessed -->
+		<effectPoint>-666</effectPoint> <!-- Custom -->
+		<attributeType>EARTH</attributeType>
+		<attributeValue>20</attributeValue>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>POINT_BLANK</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
+		<mpConsume>
+			<value level="1">126</value>
+			<value level="2">139</value>
+			<value level="3">153</value>
+			<value level="4">166</value>
+		</mpConsume>
+		<lvlBonusRate>1</lvlBonusRate>
+		<magicLvl>
+			<value level="1">85</value>
+			<value level="2">90</value>
+			<value level="3">95</value>
+			<value level="4">99</value>
+		</magicLvl>
+		<hitTime>1410</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>120000</reuseDelay>
+		<isDebuff>true</isDebuff>
+		<effects>
+			<effect name="BlockActions" />
+		</effects>
+	</skill>
+	<skill id="11585" toLevel="4" name="Superior Dance of Mastery">
+		<!-- Updated to IO -->
+		<!-- P. Atk./ M. Atk. + 5%. Skill Power + 5%. -->
+		<icon>icon.skill0141</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PAtk">
+				<amount>
+					<value level="1">5</value>
+					<value level="2">7</value>
+					<value level="3">10</value>
+					<value level="4">15</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MAtk">
+				<amount>
+					<value level="1">5</value>
+					<value level="2">7</value>
+					<value level="3">10</value>
+					<value level="4">15</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalSkillPower">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11586" toLevel="4" name="Pa'agrio's Bravery">
+		<!-- Updated to IO -->
+		<!-- For 30 sec., restores clan members' Max CP and increases it by 5%. -->
+		<icon>icon.skill11843</icon>
+		<abnormalTime>30</abnormalTime>
+		<affectLimit>50-100</affectLimit> <!-- Custom -->
+		<affectRange>1000</affectRange> <!-- Custom -->
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>PARTY_PLEDGE</affectScope>
+		<affectObject>FRIEND</affectObject>
+		<mpConsume>
+			<value level="1">126</value>
+			<value level="2">139</value>
+			<value level="3">153</value>
+			<value level="4">166</value>
+		</mpConsume>
+		<hitTime>1410</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>10000</reuseDelay>
+		<effectPoint>669</effectPoint>
+		<isMagic>1</isMagic>
+		<effects>
+			<effect name="MaxCp">
+				<amount>
+					<value level="1">5</value>
+					<value level="2">6</value>
+					<value level="3">7</value>
+					<value level="4">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="CpHealPercent">
+				<power>
+					<value level="1">5</value>
+					<value level="2">6</value>
+					<value level="3">7</value>
+					<value level="4">10</value>
+				</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11587" toLevel="4" name="Mass Blockade">
+		<!-- Updated to IO -->
+		<!-- For 10 sec., locks target and nearby enemies' standard attacks during PvP. -->
+		<icon>icon.skill11587</icon>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>10</abnormalTime>
+		<abnormalType>NORMAL_ATTACK_BLOCK</abnormalType>
+		<activateRate>80</activateRate>
+		<affectLimit>10-10</affectLimit>
+		<affectRange>200</affectRange>
+		<basicProperty>MAGIC</basicProperty>
+		<operateType>A2</operateType>
+		<lvlBonusRate>30</lvlBonusRate>
+		<mpConsume>
+			<value level="1">252</value>
+			<value level="2">278</value>
+			<value level="3">306</value>
+			<value level="4">332</value>
+		</mpConsume>
+		<castRange>900</castRange>
+		<hitTime>2110</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>120000</reuseDelay>
+		<effectPoint>-673</effectPoint>
+		<isDebuff>true</isDebuff>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<magicCriticalRate>5</magicCriticalRate>
+		<trait>PHYSICAL_BLOCKADE</trait>
+		<targetType>SELF</targetType>
+		<affectScope>POINT_BLANK</affectScope>
+		<affectObject>NOT_FRIEND_PC</affectObject>
+		<effects>
+			<effect name="PhysicalAttackMute" />
+		</effects>
+	</skill>
+	<skill id="11588" toLevel="4" name="Superior Wizard Mastery">
+		<!-- Updated to IO -->
+		<!-- Max MP + 10%. -->
+		<icon>icon.skill0164</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="MaxMp">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">12</value>
+					<value level="3">15</value>
+					<value level="4">20</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11589" toLevel="4" name="Horn Frenzy">
+		<!-- Updated to IO -->
+		<!-- For 30 min., clan members' P. Atk. + 17%, P. Def. + 15%, M. Atk. + 79%, and M. Def. + 30%. -->
+		<icon>icon.skill11589</icon>
+		<abnormalLvl>
+			<value level="1">1</value>
+			<value level="2">2</value>
+			<value level="3">3</value>
+			<value level="4">4</value>
+		</abnormalLvl>
+		<abnormalTime>
+			<value fromLevel="1" toLevel="4">1800</value>
+			<value fromLevel="3" toLevel="4" fromSubLevel="1001" toSubLevel="1030">{base + subIndex * 90}</value>
+		</abnormalTime>
+		<abnormalType>BUFF_SPECIAL_ATTACK</abnormalType>
+		<affectLimit>50-50</affectLimit> <!-- Custom -->
+		<affectRange>1000</affectRange> <!-- Custom -->
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>PLEDGE</affectScope>
+		<affectObject>FRIEND</affectObject>
+		<mpConsume>
+			<value level="1">140</value>
+			<value level="2">151</value>
+			<value level="3">170</value>
+			<value level="4">181</value>
+		</mpConsume>
+		<hitTime>700</hitTime>
+		<coolTime>300</coolTime>
+		<effectPoint>
+			<value level="1">687</value>
+			<value level="2">698</value>
+			<value level="3">707</value>
+			<value level="4">712</value>
+		</effectPoint>
+		<reuseDelay>2000</reuseDelay>
+		<mpInitialConsume>
+			<value level="1">28</value>
+			<value level="2">31</value>
+			<value level="3">34</value>
+			<value level="4">37</value>
+		</mpInitialConsume>
+		<magicLvl>
+			<value level="1">85</value>
+			<value level="2">90</value>
+			<value level="3">95</value>
+			<value level="4">99</value>
+		</magicLvl>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<effects>
+			<effect name="DispelBySlotProbability">
+				<dispel>IMPROVE_PA_PD_UP;PA_UP;IMPROVE_MA_MD_UP;MD_UP;MA_UP;KAMAEL_SPECIAL</dispel>
+				<rate>100</rate>
+			</effect>
+			<effect name="BlockAbnormalSlot">
+				<slot>IMPROVE_PA_PD_UP;PA_UP;IMPROVE_MA_MD_UP;MD_UP;MA_UP;KAMAEL_SPECIAL</slot>
+			</effect>
+			<effect name="PAtk">
+				<amount>
+					<value level="1">17</value>
+					<value level="2">19</value>
+					<value level="3">21</value>
+					<value level="4">23</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MAtk">
+				<amount>
+					<value level="1">79</value>
+					<value level="2">83</value>
+					<value level="3">87</value>
+					<value level="4">91</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>
+					<value level="1">30</value>
+					<value level="2">30</value>
+					<value level="3">30</value>
+					<value level="4">30</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">15</value>
+					<value level="2">15</value>
+					<value level="3">15</value>
+					<value level="4">15</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11590" toLevel="4" name="Drum Frenzy">
+		<!-- Updated to IO -->
+		<!-- For 30 min., clan members' Max MP + 20%, HP Recovery Bonus + 20%, and M. Critical Rate + 20. During a standard attack, P. Atk. and Debuff Resistance + 10%, and Critical Damage, P. Def., Atk. Spd., M. Atk., M. Def., and Casting Spd. + 20%. When hit with a critical attack, received damage - 30% and Speed - 15%. Increases Critical Damage during a standard attack for a member equipped with a melee weapon/bow/crossbow who receives more than a certain amount of damage. -->
+		<icon>icon.skill11590</icon>
+		<abnormalLvl>
+			<value level="1">1</value>
+			<value level="2">2</value>
+			<value level="3">3</value>
+			<value level="4">4</value>
+		</abnormalLvl>
+		<abnormalType>BUFF_SPECIAL_DEFENCE</abnormalType>
+		<abnormalTime>
+			<value fromLevel="1" toLevel="4">1800</value>
+			<value fromLevel="3" toLevel="4" fromSubLevel="1001" toSubLevel="1030">{base + subIndex * 90}</value>
+		</abnormalTime>
+		<affectLimit>50-50</affectLimit> <!-- Custom -->
+		<affectRange>1000</affectRange> <!-- Custom -->
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>PLEDGE</affectScope>
+		<affectObject>FRIEND</affectObject>
+		<mpConsume>
+			<value level="1">140</value>
+			<value level="2">151</value>
+			<value level="3">170</value>
+			<value level="4">181</value>
+		</mpConsume>
+		<mpInitialConsume>
+			<value level="1">28</value>
+			<value level="2">31</value>
+			<value level="3">34</value>
+			<value level="4">37</value>
+		</mpInitialConsume>
+		<hitTime>700</hitTime>
+		<coolTime>300</coolTime>
+		<magicLvl>
+			<value level="1">85</value>
+			<value level="2">90</value>
+			<value level="3">95</value>
+			<value level="4">99</value>
+		</magicLvl>
+		<reuseDelay>2000</reuseDelay>
+		<effectPoint>
+			<value level="1">687</value>
+			<value level="2">698</value>
+			<value level="3">707</value>
+			<value level="4">712</value>
+		</effectPoint>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<effects>
+			<effect name="TriggerSkillByDamage">
+				<!-- Critical Damage Increase -->
+				<attackerType>L2Character</attackerType>
+				<minAttackerLevel>1</minAttackerLevel>
+				<maxAttackerLevel>127</maxAttackerLevel>
+				<chance>25</chance>
+				<targetType>SELF</targetType>
+				<minDamage>300</minDamage>
+				<allowWeapons>SWORD,BLUNT,DAGGER,DUALDAGGER,DUAL,DUALFIST,POLE,ANCIENTSWORD,RAPIER,BOW,CROSSBOW,DUALBLUNT</allowWeapons>
+				<skillId>11569</skillId>
+				<skillLevel>1</skillLevel>
+			</effect>
+			<effect name="DispelBySlotProbability">
+				<dispel>MULTI_BUFF;COUNTER_CRITICAL</dispel>
+				<rate>100</rate>
+			</effect>
+			<effect name="BlockAbnormalSlot">
+				<slot>MULTI_BUFF;COUNTER_CRITICAL</slot>
+			</effect>
+			<effect name="PAtk">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MAtk">
+				<amount>20</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="Speed">
+				<amount>
+					<value level="1">-15</value>
+					<value level="2">-10</value>
+					<value level="3">-5</value>
+					<value level="4">0</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>20</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>20</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalAttackSpeed">
+				<amount>20</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttackSpeed">
+				<amount>20</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MaxMp">
+				<amount>20</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="CriticalDamage">
+				<amount>20</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="HpRegen">
+				<amount>20</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DefenceCriticalDamage">
+				<amount>30</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="ResistAbnormalByCategory">
+				<amount>-10</amount>
+				<slot>DEBUFF</slot>
+			</effect>
+			<effect name="MagicCriticalRate">
+				<amount>20</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11591" toLevel="4" name="Pipe Organ Frenzy">
+		<!-- Updated to IO -->
+		<!-- For 30 min., clan members' Max HP/MP/CP + 37%, and HP Recovery Bonus + 20%. -->
+		<icon>icon.skill11591</icon>
+		<abnormalLvl>
+			<value level="1">1</value>
+			<value level="2">2</value>
+			<value level="3">3</value>
+			<value level="4">4</value>
+		</abnormalLvl>
+		<abnormalType>BUFF_SPECIAL_CONDITION</abnormalType>
+		<abnormalTime>
+			<value fromLevel="1" toLevel="4">1800</value>
+			<value fromLevel="3" toLevel="4" fromSubLevel="1001" toSubLevel="1030">{base + subIndex * 90}</value>
+		</abnormalTime>
+		<affectLimit>50-50</affectLimit> <!-- Custom -->
+		<affectRange>1000</affectRange> <!-- Custom -->
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>PLEDGE</affectScope>
+		<affectObject>FRIEND</affectObject>
+		<mpConsume>
+			<value level="1">140</value>
+			<value level="2">151</value>
+			<value level="3">170</value>
+			<value level="4">181</value>
+		</mpConsume>
+		<mpInitialConsume>
+			<value level="1">28</value>
+			<value level="2">31</value>
+			<value level="3">34</value>
+			<value level="4">37</value>
+		</mpInitialConsume>
+		<hitTime>700</hitTime>
+		<coolTime>300</coolTime>
+		<magicLvl>
+			<value level="1">85</value>
+			<value level="2">90</value>
+			<value level="3">95</value>
+			<value level="4">99</value>
+		</magicLvl>
+		<reuseDelay>2000</reuseDelay>
+		<effectPoint>
+			<value level="1">687</value>
+			<value level="2">698</value>
+			<value level="3">707</value>
+			<value level="4">712</value>
+		</effectPoint>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<effects>
+			<effect name="DispelBySlotProbability">
+				<dispel>IMPROVE_HP_MP_UP;MAX_HP_UP;MAX_MP_UP;HP_REGEN_UP</dispel>
+				<rate>100</rate>
+			</effect>
+			<effect name="BlockAbnormalSlot">
+				<slot>IMPROVE_HP_MP_UP;MAX_HP_UP;MAX_MP_UP;HP_REGEN_UP</slot>
+			</effect>
+			<effect name="MaxCp">
+				<amount>
+					<value level="1">37</value>
+					<value level="2">39</value>
+					<value level="3">41</value>
+					<value level="4">43</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MaxMp">
+				<amount>
+					<value level="1">37</value>
+					<value level="2">39</value>
+					<value level="3">41</value>
+					<value level="4">43</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="HpRegen">
+				<amount>20</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MaxHp">
+				<amount>
+					<value level="1">37</value>
+					<value level="2">39</value>
+					<value level="3">41</value>
+					<value level="4">43</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11592" toLevel="4" name="Guitar Frenzy">
+		<!-- Updated to IO -->
+		<!-- For 30 min., clan members' P. Critical Rate + 32%, P. Critical Damage + 35%, and M. Critical Rate + 20. P. Skill MP Consumption - 20%, M. Skill MP Consumption - 10%, and Iss Enchanter's Enchant Skill MP Consumption - 20%. -->
+		<icon>icon.skill11592</icon>
+		<abnormalLvl>
+			<value level="1">1</value>
+			<value level="2">2</value>
+			<value level="3">3</value>
+			<value level="4">4</value>
+		</abnormalLvl>
+		<abnormalType>BUFF_SPECIAL_CRITICAL</abnormalType>
+		<abnormalTime>
+			<value fromLevel="1" toLevel="4">1800</value>
+			<value fromLevel="3" toLevel="4" fromSubLevel="1001" toSubLevel="1030">{base + subIndex * 90}</value>
+		</abnormalTime>
+		<affectLimit>50-100</affectLimit> <!-- Custom -->
+		<affectRange>1000</affectRange> <!-- Custom -->
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>PLEDGE</affectScope>
+		<affectObject>FRIEND</affectObject>
+		<mpConsume>
+			<value level="1">140</value>
+			<value level="2">151</value>
+			<value level="3">170</value>
+			<value level="4">181</value>
+		</mpConsume>
+		<mpInitialConsume>
+			<value level="1">28</value>
+			<value level="2">31</value>
+			<value level="3">34</value>
+			<value level="4">37</value>
+		</mpInitialConsume>
+		<hitTime>700</hitTime>
+		<coolTime>300</coolTime>
+		<magicLvl>
+			<value level="1">85</value>
+			<value level="2">90</value>
+			<value level="3">95</value>
+			<value level="4">99</value>
+		</magicLvl>
+		<reuseDelay>2000</reuseDelay>
+		<effectPoint>687</effectPoint>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<effects>
+			<effect name="DispelBySlotProbability">
+				<dispel>IMPROVE_CRT_RATE_DMG_UP;CRITICAL_PROB_UP;CRITICAL_DMG_UP;CHEAP_MAGIC;MAGIC_CRITICAL_UP</dispel>
+				<rate>100</rate>
+			</effect>
+			<effect name="BlockAbnormalSlot">
+				<slot>IMPROVE_CRT_RATE_DMG_UP;CRITICAL_PROB_UP;CRITICAL_DMG_UP;CHEAP_MAGIC;MAGIC_CRITICAL_UP</slot>
+			</effect>
+			<effect name="CriticalDamage">
+				<amount>35</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="CriticalRate">
+				<amount>
+					<value level="1">32</value>
+					<value level="2">34</value>
+					<value level="3">36</value>
+					<value level="4">38</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicCriticalRate">
+				<amount>20</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="MagicMpCost">
+				<amount>-10</amount>
+				<mode>PER</mode>
+				<magicType>1</magicType>
+			</effect>
+			<effect name="MagicMpCost">
+				<amount>-20</amount>
+				<mode>PER</mode>
+				<magicType>0</magicType>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11593" toLevel="4" name="Harp Frenzy">
+		<!-- Updated to IO -->
+		<!-- For 30 min., clan members' P. Accuracy and P. Evasion/ M. Evasion + 5, and Speed + 34. Received Critical Damage - 30%. -->
+		<icon>icon.skill11593</icon>
+		<abnormalLvl>
+			<value level="1">1</value>
+			<value level="2">2</value>
+			<value level="3">3</value>
+			<value level="4">4</value>
+		</abnormalLvl>
+		<abnormalType>BUFF_SPECIAL_HITAVOID</abnormalType>
+		<abnormalTime>
+			<value fromLevel="1" toLevel="4">1800</value>
+			<value fromLevel="3" toLevel="4" fromSubLevel="1001" toSubLevel="1030">{base + subIndex * 90}</value>
+		</abnormalTime>
+		<affectLimit>50-50</affectLimit> <!-- Custom -->
+		<affectRange>1000</affectRange> <!-- Custom -->
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>PLEDGE</affectScope>
+		<affectObject>FRIEND</affectObject>
+		<mpConsume>
+			<value level="1">140</value>
+			<value level="2">151</value>
+			<value level="3">170</value>
+			<value level="4">181</value>
+		</mpConsume>
+		<mpInitialConsume>
+			<value level="1">28</value>
+			<value level="2">31</value>
+			<value level="3">34</value>
+			<value level="4">37</value>
+		</mpInitialConsume>
+		<hitTime>700</hitTime>
+		<coolTime>300</coolTime>
+		<isMagic>1</isMagic>
+		<magicLvl>
+			<value level="1">85</value>
+			<value level="2">90</value>
+			<value level="3">95</value>
+			<value level="4">99</value>
+		</magicLvl>
+		<reuseDelay>2000</reuseDelay>
+		<effectPoint>687</effectPoint>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<effects>
+			<effect name="DispelBySlotProbability">
+				<dispel>IMPROVE_HIT_DEFENCE_CRT_RATE_UP;HIT_UP;T_CRT_DMG_DOWN;IMPROVE_SPEED_AVOID_UP;SPEED_UP;AVOID_UP</dispel>
+				<rate>100</rate>
+			</effect>
+			<effect name="BlockAbnormalSlot">
+				<slot>IMPROVE_HIT_DEFENCE_CRT_RATE_UP;HIT_UP;T_CRT_DMG_DOWN;IMPROVE_SPEED_AVOID_UP;SPEED_UP;AVOID_UP</slot>
+			</effect>
+			<effect name="Speed">
+				<amount>
+					<value level="1">34</value>
+					<value level="2">35</value>
+					<value level="3">36</value>
+					<value level="4">37</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="PhysicalEvasion">
+				<amount>
+					<value level="1">5</value>
+					<value level="2">6</value>
+					<value level="3">7</value>
+					<value level="4">8</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="Accuracy">
+				<amount>
+					<value level="1">5</value>
+					<value level="2">6</value>
+					<value level="3">7</value>
+					<value level="4">8</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="MagicalEvasion">
+				<amount>
+					<value level="1">5</value>
+					<value level="2">6</value>
+					<value level="3">7</value>
+					<value level="4">8</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="DefenceCriticalDamage">
+				<amount>30</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11594" toLevel="4" name="Lute Frenzy">
+		<!-- Updated to IO -->
+		<!-- For 30 min., clan members' Atk. Spd. + 34% and Casting Spd. + 31%. Has a chance of applying 9% Vampiric Rage effect. -->
+		<icon>icon.skill11594</icon>
+		<abnormalLvl>
+			<value level="1">1</value>
+			<value level="2">2</value>
+			<value level="3">3</value>
+			<value level="4">4</value>
+		</abnormalLvl>
+		<abnormalType>BUFF_SPECIAL_MOVE</abnormalType>
+		<abnormalTime>
+			<value fromLevel="1" toLevel="4">1800</value>
+			<value fromLevel="3" toLevel="4" fromSubLevel="1001" toSubLevel="1030">{base + subIndex * 90}</value>
+		</abnormalTime>
+		<affectLimit>50-50</affectLimit> <!-- Custom -->
+		<affectRange>1000</affectRange> <!-- Custom -->
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>PLEDGE</affectScope>
+		<affectObject>FRIEND</affectObject>
+		<mpConsume>
+			<value level="1">140</value>
+			<value level="2">151</value>
+			<value level="3">170</value>
+			<value level="4">181</value>
+		</mpConsume>
+		<mpInitialConsume>
+			<value level="1">28</value>
+			<value level="2">31</value>
+			<value level="3">34</value>
+			<value level="4">37</value>
+		</mpInitialConsume>
+		<hitTime>700</hitTime>
+		<coolTime>300</coolTime>
+		<magicLvl>
+			<value level="1">85</value>
+			<value level="2">90</value>
+			<value level="3">95</value>
+			<value level="4">99</value>
+		</magicLvl>
+		<reuseDelay>2000</reuseDelay>
+		<effectPoint>687</effectPoint>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<effects>
+			<effect name="DispelBySlotProbability">
+				<dispel>IMPROVE_VAMPIRIC_HASTE;ATTACK_TIME_DOWN;VAMPIRIC_ATTACK;CASTING_TIME_DOWN</dispel>
+				<rate>100</rate>
+			</effect>
+			<effect name="BlockAbnormalSlot">
+				<slot>IMPROVE_VAMPIRIC_HASTE;ATTACK_TIME_DOWN;VAMPIRIC_ATTACK;CASTING_TIME_DOWN</slot>
+			</effect>
+			<effect name="VampiricAttack">
+				<amount>9</amount>
+				<chance>20</chance>
+			</effect>
+			<effect name="PhysicalAttackSpeed">
+				<amount>
+					<value level="1">34</value>
+					<value level="2">35</value>
+					<value level="3">36</value>
+					<value level="4">37</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttackSpeed">
+				<amount>
+					<value level="1">31</value>
+					<value level="2">32</value>
+					<value level="3">33</value>
+					<value level="4">34</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11595" toLevel="1" name="Knight's Frenzied Harmony">
+		<!-- Updated to IO -->
+		<!-- For 30 minutes, increases clan members' P. Atk. + 12%, P. Critical Damage + 35%, P. Critical Rate + 100%, P. Def. + 45%, Shield Defense Rate + 30%, and Shield Defense + 50%. -->
+		<icon>icon.skill11596</icon>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>
+			<value fromLevel="1" toLevel="1">1800</value>
+			<value fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1030">{base + subIndex * 90}</value>
+		</abnormalTime>
+		<abnormalType>BUFF_SPECIAL_CLASS</abnormalType>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>PLEDGE</affectScope>
+		<affectObject>FRIEND</affectObject>
+		<affectLimit>50-50</affectLimit> <!-- Custom -->
+		<affectRange>1000</affectRange> <!-- Custom -->
+		<mpConsume>140</mpConsume>
+		<mpInitialConsume>28</mpInitialConsume>
+		<castRange>900</castRange>
+		<hitTime>700</hitTime>
+		<coolTime>300</coolTime>
+		<reuseDelay>2000</reuseDelay>
+		<magicLvl>85</magicLvl>
+		<effectPoint>687</effectPoint>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<effects>
+			<effect name="DispelBySlotProbability">
+				<dispel>DANCE_OF_BLADESTORM;SONG_OF_CHAMPION;SONG_OF_EARTH;SONG_OF_HUNTER;SONG_OF_LIFE;SONG_OF_MEDITATION;SONG_OF_RENEWAL;SONG_OF_VENGEANCE;SONG_OF_VITALITY;SONG_OF_WARDING;SONG_OF_WATER;SONG_OF_WIND;DANCE_OF_BERSERKER;DANCE_OF_CONCENTRATION;DANCE_OF_FIRE;DANCE_OF_FURY;DANCE_OF_INSPIRATION;DANCE_OF_MYSTIC;DANCE_OF_SIREN;DANCE_OF_VAMPIRE;DANCE_OF_WARRIOR;SONG_OF_PURIFICATION;WISPERING_OF_BATTLE;SONG_OF_WINDSTORM;MOTION_OF_DEFENCE;INSTINCT;BERSERKER;PA_PD_UP;IMPROVE_SHIELD_RATE_DEFENCE_UP;SHIELD_PROB_UP;SHIELD_DEFENCE_UP;CANCEL_PROB_DOWN;MA_UP_SPECIAL</dispel>
+				<rate>100</rate>
+			</effect>
+			<effect name="BlockAbnormalSlot">
+				<slot>DANCE_OF_BLADESTORM;SONG_OF_CHAMPION;SONG_OF_EARTH;SONG_OF_HUNTER;SONG_OF_LIFE;SONG_OF_MEDITATION;SONG_OF_RENEWAL;SONG_OF_VENGEANCE;SONG_OF_VITALITY;SONG_OF_WARDING;SONG_OF_WATER;SONG_OF_WIND;DANCE_OF_BERSERKER;DANCE_OF_CONCENTRATION;DANCE_OF_FIRE;DANCE_OF_FURY;DANCE_OF_INSPIRATION;DANCE_OF_MYSTIC;DANCE_OF_SIREN;DANCE_OF_VAMPIRE;DANCE_OF_WARRIOR;SONG_OF_PURIFICATION;WISPERING_OF_BATTLE;SONG_OF_WINDSTORM;MOTION_OF_DEFENCE;INSTINCT;BERSERKER;PA_PD_UP;IMPROVE_SHIELD_RATE_DEFENCE_UP;SHIELD_PROB_UP;SHIELD_DEFENCE_UP;CANCEL_PROB_DOWN;MA_UP_SPECIAL</slot>
+			</effect>
+			<effect name="PAtk">
+				<amount>12</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>45</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="ShieldDefenceRate">
+				<amount>30</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="CriticalDamage">
+				<amount>35</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="ShieldDefence">
+				<amount>50</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="CriticalRate">
+				<amount>100</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11596" toLevel="1" name="Warrior's Frenzied Harmony">
+		<!-- Updated to IO -->
+		<!-- For 30 minutes, increases clan members' P. Atk. + 35%, P. Critical Damage + 35%, P. Critical Rate + 100%, Atk. Spd. + 8%, M. Atk. + 16%, Casting Spd. + 8%, and Spd. + 8. -->
+		<icon>icon.skill11595</icon>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>
+			<value fromLevel="1" toLevel="1">1800</value>
+			<value fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1030">{base + subIndex * 90}</value>
+		</abnormalTime>
+		<abnormalType>BUFF_SPECIAL_CLASS</abnormalType>
+		<icon>icon.skill11524</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>PLEDGE</affectScope>
+		<affectObject>FRIEND</affectObject>
+		<affectLimit>50-50</affectLimit> <!-- Custom -->
+		<affectRange>1000</affectRange> <!-- Custom -->
+		<mpConsume>140</mpConsume>
+		<mpInitialConsume>28</mpInitialConsume>
+		<castRange>900</castRange>
+		<hitTime>700</hitTime>
+		<coolTime>300</coolTime>
+		<reuseDelay>2000</reuseDelay>
+		<magicLvl>85</magicLvl>
+		<effectPoint>687</effectPoint>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<effects>
+			<effect name="DispelBySlotProbability">
+				<dispel>DANCE_OF_BLADESTORM;SONG_OF_CHAMPION;SONG_OF_EARTH;SONG_OF_HUNTER;SONG_OF_LIFE;SONG_OF_MEDITATION;SONG_OF_RENEWAL;SONG_OF_VENGEANCE;SONG_OF_VITALITY;SONG_OF_WARDING;SONG_OF_WATER;SONG_OF_WIND;DANCE_OF_BERSERKER;DANCE_OF_CONCENTRATION;DANCE_OF_FIRE;DANCE_OF_FURY;DANCE_OF_INSPIRATION;DANCE_OF_MYSTIC;DANCE_OF_SIREN;DANCE_OF_VAMPIRE;DANCE_OF_WARRIOR;SONG_OF_PURIFICATION;WISPERING_OF_BATTLE;SONG_OF_WINDSTORM;MOTION_OF_DEFENCE;INSTINCT;BERSERKER;PA_PD_UP;IMPROVE_SHIELD_RATE_DEFENCE_UP;SHIELD_PROB_UP;SHIELD_DEFENCE_UP;CANCEL_PROB_DOWN;MA_UP_SPECIAL</dispel>
+				<rate>100</rate>
+			</effect>
+			<effect name="BlockAbnormalSlot">
+				<slot>DANCE_OF_BLADESTORM;SONG_OF_CHAMPION;SONG_OF_EARTH;SONG_OF_HUNTER;SONG_OF_LIFE;SONG_OF_MEDITATION;SONG_OF_RENEWAL;SONG_OF_VENGEANCE;SONG_OF_VITALITY;SONG_OF_WARDING;SONG_OF_WATER;SONG_OF_WIND;DANCE_OF_BERSERKER;DANCE_OF_CONCENTRATION;DANCE_OF_FIRE;DANCE_OF_FURY;DANCE_OF_INSPIRATION;DANCE_OF_MYSTIC;DANCE_OF_SIREN;DANCE_OF_VAMPIRE;DANCE_OF_WARRIOR;SONG_OF_PURIFICATION;WISPERING_OF_BATTLE;SONG_OF_WINDSTORM;MOTION_OF_DEFENCE;INSTINCT;BERSERKER;PA_PD_UP;IMPROVE_SHIELD_RATE_DEFENCE_UP;SHIELD_PROB_UP;SHIELD_DEFENCE_UP;CANCEL_PROB_DOWN;MA_UP_SPECIAL</slot>
+			</effect>
+			<effect name="PAtk">
+				<amount>35</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MAtk">
+				<amount>16</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="Speed">
+				<amount>8</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="PhysicalAttackSpeed">
+				<amount>8</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttackSpeed">
+				<amount>8</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="CriticalDamage">
+				<amount>35</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="CriticalRate">
+				<amount>100</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11597" toLevel="1" name="Wizard's Frenzied Harmony">
+		<!-- Updated to IO -->
+		<!-- For 30 minutes, increases clan members' M. Atk. + 40%, M. Critical Rate + 100%, Casting Spd. + 8%, P. Atk. + 8%, Atk. Spd. + 8%, Spd. + 8, M. Def. + 14%, and MP Recovery Bonus + 20%. Decreases magic skill MP Consumption - 15%, physical skill MP Consumption - 5%, and Skill Cooldown - 20%. -->
+		<icon>icon.skill11597</icon>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>
+			<value fromLevel="1" toLevel="1">1800</value>
+			<value fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1030">{base + subIndex * 90}</value>
+		</abnormalTime>
+		<abnormalType>BUFF_SPECIAL_CLASS</abnormalType>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>PLEDGE</affectScope>
+		<affectObject>FRIEND</affectObject>
+		<affectLimit>50-50</affectLimit> <!-- Custom -->
+		<affectRange>1000</affectRange> <!-- Custom -->
+		<mpConsume>140</mpConsume>
+		<mpInitialConsume>28</mpInitialConsume>
+		<castRange>900</castRange>
+		<hitTime>700</hitTime>
+		<coolTime>300</coolTime>
+		<reuseDelay>2000</reuseDelay>
+		<magicLvl>85</magicLvl>
+		<effectPoint>687</effectPoint>
+		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<effects>
+			<effect name="DispelBySlotProbability">
+				<dispel>DANCE_OF_BLADESTORM;SONG_OF_CHAMPION;SONG_OF_EARTH;SONG_OF_HUNTER;SONG_OF_LIFE;SONG_OF_MEDITATION;SONG_OF_RENEWAL;SONG_OF_VENGEANCE;SONG_OF_VITALITY;SONG_OF_WARDING;SONG_OF_WATER;SONG_OF_WIND;DANCE_OF_BERSERKER;DANCE_OF_CONCENTRATION;DANCE_OF_FIRE;DANCE_OF_FURY;DANCE_OF_INSPIRATION;DANCE_OF_MYSTIC;DANCE_OF_SIREN;DANCE_OF_VAMPIRE;DANCE_OF_WARRIOR;SONG_OF_PURIFICATION;WISPERING_OF_BATTLE;SONG_OF_WINDSTORM;MOTION_OF_DEFENCE;INSTINCT;BERSERKER;PA_PD_UP;IMPROVE_SHIELD_RATE_DEFENCE_UP;SHIELD_PROB_UP;SHIELD_DEFENCE_UP;CANCEL_PROB_DOWN;MA_UP_SPECIAL</dispel>
+				<rate>100</rate>
+			</effect>
+			<effect name="BlockAbnormalSlot">
+				<slot>DANCE_OF_BLADESTORM;SONG_OF_CHAMPION;SONG_OF_EARTH;SONG_OF_HUNTER;SONG_OF_LIFE;SONG_OF_MEDITATION;SONG_OF_RENEWAL;SONG_OF_VENGEANCE;SONG_OF_VITALITY;SONG_OF_WARDING;SONG_OF_WATER;SONG_OF_WIND;DANCE_OF_BERSERKER;DANCE_OF_CONCENTRATION;DANCE_OF_FIRE;DANCE_OF_FURY;DANCE_OF_INSPIRATION;DANCE_OF_MYSTIC;DANCE_OF_SIREN;DANCE_OF_VAMPIRE;DANCE_OF_WARRIOR;SONG_OF_PURIFICATION;WISPERING_OF_BATTLE;SONG_OF_WINDSTORM;MOTION_OF_DEFENCE;INSTINCT;BERSERKER;PA_PD_UP;IMPROVE_SHIELD_RATE_DEFENCE_UP;SHIELD_PROB_UP;SHIELD_DEFENCE_UP;CANCEL_PROB_DOWN;MA_UP_SPECIAL</slot>
+			</effect>
+			<effect name="PAtk">
+				<amount>8</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MAtk">
+				<amount>40</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="Speed">
+				<amount>8</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>14</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalAttackSpeed">
+				<amount>8</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttackSpeed">
+				<amount>8</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MpRegen">
+				<amount>20</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicCriticalRate">
+				<amount>100</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicMpCost">
+				<amount>-15</amount>
+				<mode>PER</mode>
+				<magicType>1</magicType>
+			</effect>
+			<effect name="MagicMpCost">
+				<amount>-5</amount>
+				<mode>PER</mode>
+				<magicType>0</magicType>
+			</effect>
+			<effect name="Reuse">
+				<amount>-20</amount>
+				<mode>PER</mode>
+				<magicType>0</magicType>
+			</effect>
+			<effect name="Reuse">
+				<amount>-20</amount>
+				<mode>PER</mode>
+				<magicType>1</magicType>
+			</effect>
+			<effect name="Reuse">
+				<amount>-20</amount>
+				<mode>PER</mode>
+				<magicType>3</magicType>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11598" toLevel="4" name="Greater Freezing Flame">
+		<!-- Updated to IO -->
+		<!-- A powerful cold flame. For 10 sec., decreases enemy's HP by 326. -->
+		<icon>icon.skill11598</icon>
+		<abnormalTime>10</abnormalTime>
+		<abnormalType>DOT_ATTR</abnormalType>
+		<abnormalVisualEffect>DOT_BLEEDING</abnormalVisualEffect>
+		<activateRate>70</activateRate> <!-- Custom -->
+		<basicProperty>MAGIC</basicProperty> <!-- Guessed -->
+		<operateType>A2</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<mpConsume>
+			<value level="1">73</value>
+			<value level="2">79</value>
+			<value level="3">86</value>
+			<value level="4">91</value>
+		</mpConsume>
+		<castRange>900</castRange>
+		<effectRange>1400</effectRange>
+		<attributeType>FIRE</attributeType>
+		<attributeValue>20</attributeValue>
+		<hitTime>910</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>5000</reuseDelay>
+		<isMagic>1</isMagic>
+		<effectPoint>-379</effectPoint>
+		<isDebuff>true</isDebuff>
+		<effects>
+			<effect name="DamOverTime">
+				<power>
+					<value level="1">326</value>
+					<value level="2">343</value>
+					<value level="3">359</value>
+					<value level="4">375</value>
+				</power>
+				<ticks>1</ticks>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11599" toLevel="4" name="Combat Cry">
+		<!-- Updated to IO -->
+		<!-- P. Atk./P. Def., M. Atk./M. Def. + 5%, and Skill Power + 5%. MP drains consistently depending on level. -->
+		<icon>icon.skill1001</icon>
+		<operateType>T</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<mpConsume>1</mpConsume>
+		<effects>
+			<effect name="ManaDamOverTime">
+				<power>
+					<value level="1">4</value>
+					<value level="2">4</value>
+					<value level="3">4</value>
+					<value level="4">4</value>
+				</power>
+				<ticks>5</ticks>
+			</effect>
+			<effect name="PAtk">
+				<amount>
+					<value level="1">5</value>
+					<value level="2">7</value>
+					<value level="3">10</value>
+					<value level="4">15</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MAtk">
+				<amount>
+					<value level="1">5</value>
+					<value level="2">7</value>
+					<value level="3">10</value>
+					<value level="4">15</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>
+					<value level="1">5</value>
+					<value level="2">7</value>
+					<value level="3">10</value>
+					<value level="4">15</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">5</value>
+					<value level="2">7</value>
+					<value level="3">10</value>
+					<value level="4">15</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalSkillPower">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+</list>
