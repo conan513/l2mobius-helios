@@ -64,7 +64,7 @@ public class Target implements ITargetTypeHandler
 		// Check for cast range if character cannot move. TODO: char will start follow until within castrange, but if his moving is blocked by geodata, this msg will be sent.
 		if (dontMove)
 		{
-			if (activeChar.calculateDistance(target, false, false) > skill.getCastRange())
+			if (activeChar.calculateDistance2D(target) > skill.getCastRange())
 			{
 				if (sendMessage)
 				{

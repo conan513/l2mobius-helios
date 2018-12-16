@@ -25,7 +25,7 @@ import com.l2jmobius.gameserver.model.skills.Skill;
 
 /**
  * Consume Body effect implementation.
- * @author Zoey76
+ * @author Mobius
  */
 public final class ConsumeBody extends AbstractEffect
 {
@@ -42,11 +42,17 @@ public final class ConsumeBody extends AbstractEffect
 	@Override
 	public void instant(L2Character effector, L2Character effected, Skill skill, L2ItemInstance item)
 	{
-		if (!effected.isNpc() || !effected.isDead())
+		if (!effected.isDead() //
+			|| (effector.getTarget() != effected) //
+			|| (!effected.isNpc() && !effected.isSummon()) //
+			|| (effected.isSummon() && (effector != effected.getActingPlayer())))
 		{
 			return;
 		}
 		
-		((L2Npc) effected).endDecayTask();
+		if (effected.isNpc())
+		{
+			((L2Npc) effected).endDecayTask();
+		}
 	}
 }

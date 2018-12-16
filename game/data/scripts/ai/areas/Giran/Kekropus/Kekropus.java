@@ -124,7 +124,7 @@ public final class Kekropus extends AbstractNpcAI
 					}
 					for (L2PcInstance member : members)
 					{
-						if ((member.calculateDistance(npc, false, false) < 1000) && (npc.getId() == KEKROPUS))
+						if ((member.calculateDistance2D(npc) < 1000) && (npc.getId() == KEKROPUS))
 						{
 							member.teleToLocation(RAID_ENTER_LOC, true);
 						}

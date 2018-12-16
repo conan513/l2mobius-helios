@@ -47,7 +47,7 @@ public class Ground implements ITargetTypeHandler
 			final Location worldPosition = activeChar.getActingPlayer().getCurrentSkillWorldPosition();
 			if (worldPosition != null)
 			{
-				if (dontMove && !activeChar.isInsideRadius(worldPosition.getX(), worldPosition.getY(), worldPosition.getZ(), skill.getCastRange() + activeChar.getTemplate().getCollisionRadius(), false, false))
+				if (dontMove && !activeChar.isInsideRadius2D(worldPosition.getX(), worldPosition.getY(), worldPosition.getZ(), skill.getCastRange() + activeChar.getTemplate().getCollisionRadius()))
 				{
 					return null;
 				}

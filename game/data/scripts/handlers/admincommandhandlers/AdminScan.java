@@ -175,7 +175,7 @@ public class AdminScan implements IAdminCommandHandler
 		html.setFile(activeChar, "data/html/admin/scan.htm");
 		
 		//@formatter:off
-		final PageResult result = PageBuilder.newBuilder(L2World.getInstance().getVisibleObjects(activeChar, L2Npc.class, radius, condition), 15, bypassParser.toString())
+		final PageResult result = PageBuilder.newBuilder(L2World.getInstance().getVisibleObjectsInRange(activeChar, L2Npc.class, radius, condition), 15, bypassParser.toString())
 			.currentPage(page)
 			.pageHandler(NextPrevPageHandler.INSTANCE)
 			.formatter(BypassParserFormatter.INSTANCE)
@@ -190,7 +190,7 @@ public class AdminScan implements IAdminCommandHandler
 			sb.append("<tr>");
 			sb.append("<td width=\"45\">").append(character.getId()).append("</td>");
 			sb.append("<td><a action=\"bypass -h admin_move_to ").append(character.getX()).append(SPACE).append(character.getY()).append(SPACE).append(character.getZ()).append("\">").append(npcName.isEmpty() ? "No name NPC" : npcName).append("</a></td>");
-			sb.append("<td width=\"60\">").append(Util.formatAdena(Math.round(activeChar.calculateDistance(character, false, false)))).append("</td>");
+			sb.append("<td width=\"60\">").append(Util.formatAdena(Math.round(activeChar.calculateDistance2D(character)))).append("</td>");
 			sb.append("<td width=\"54\"><a action=\"").append(builder.toStringBuilder()).append("\"><font color=\"LEVEL\">Delete</font></a></td>");
 			sb.append("</tr>");
 		}).build();

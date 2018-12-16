@@ -95,7 +95,7 @@ public final class Q10818_ConfrontingAGiantMonster extends Quest
 			{
 				if ((player.getLevel() >= MIN_LEVEL))
 				{
-					if (hasQuestItems(player, DARK_SOUL_STONE) && qs.get("" + ISTINA).equals("true") && qs.get("" + OCTAVIS).equals("true") && qs.get("" + TAUTI).equals("true") && qs.get("" + EKIMUS).equals("true"))
+					if (hasQuestItems(player, DARK_SOUL_STONE) && qs.get(Integer.toString(ISTINA)).equals("true") && qs.get(Integer.toString(OCTAVIS)).equals("true") && qs.get(Integer.toString(TAUTI)).equals("true") && qs.get(Integer.toString(EKIMUS)).equals("true"))
 					{
 						if (hasQuestItems(player, OLYMPIAD_MANAGER_CERTIFICATE, ISHUMA_CERTIFICATE, SIR_KRISTOF_RODEMAI_CERTIFICATE))
 						{
@@ -108,10 +108,10 @@ public final class Q10818_ConfrontingAGiantMonster extends Quest
 						takeItems(player, DARK_SOUL_STONE, -1);
 						giveItems(player, DAICHIR_SERTIFICATE, 1);
 						addExpAndSp(player, EXP_AMOUNT, 0);
-						qs.unset("" + ISTINA);
-						qs.unset("" + OCTAVIS);
-						qs.unset("" + TAUTI);
-						qs.unset("" + EKIMUS);
+						qs.unset(Integer.toString(ISTINA));
+						qs.unset(Integer.toString(OCTAVIS));
+						qs.unset(Integer.toString(TAUTI));
+						qs.unset(Integer.toString(EKIMUS));
 						qs.exitQuest(false, true);
 					}
 				}
@@ -140,7 +140,7 @@ public final class Q10818_ConfrontingAGiantMonster extends Quest
 			}
 			case State.STARTED:
 			{
-				if (hasQuestItems(player, DARK_SOUL_STONE) && qs.get("" + ISTINA).equals("true") && qs.get("" + OCTAVIS).equals("true") && qs.get("" + TAUTI).equals("true") && qs.get("" + EKIMUS).equals("true"))
+				if (hasQuestItems(player, DARK_SOUL_STONE) && qs.get(Integer.toString(ISTINA)).equals("true") && qs.get(Integer.toString(OCTAVIS)).equals("true") && qs.get(Integer.toString(TAUTI)).equals("true") && qs.get(Integer.toString(EKIMUS)).equals("true"))
 				{
 					htmltext = "30537-08.html";
 				}
@@ -170,7 +170,7 @@ public final class Q10818_ConfrontingAGiantMonster extends Quest
 	public void actionForEachPlayer(L2PcInstance player, L2Npc npc, boolean isSummon)
 	{
 		final QuestState qs = getQuestState(player, false);
-		if ((qs != null) && player.isInsideRadius(npc, Config.ALT_PARTY_RANGE, true, true))
+		if ((qs != null) && player.isInsideRadius3D(npc, Config.ALT_PARTY_RANGE))
 		{
 			if (npc.getId() == TRASKEN)
 			{
@@ -179,7 +179,7 @@ public final class Q10818_ConfrontingAGiantMonster extends Quest
 			}
 			else
 			{
-				qs.set("" + npc.getId(), "true");
+				qs.set(Integer.toString(npc.getId()), "true");
 			}
 		}
 	}

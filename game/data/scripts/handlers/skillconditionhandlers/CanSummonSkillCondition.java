@@ -19,6 +19,7 @@ package handlers.skillconditionhandlers;
 import com.l2jmobius.gameserver.model.L2Object;
 import com.l2jmobius.gameserver.model.StatsSet;
 import com.l2jmobius.gameserver.model.actor.L2Character;
+import com.l2jmobius.gameserver.model.actor.L2Summon;
 import com.l2jmobius.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jmobius.gameserver.model.skills.ISkillCondition;
 import com.l2jmobius.gameserver.model.skills.Skill;
@@ -31,7 +32,6 @@ public class CanSummonSkillCondition implements ISkillCondition
 {
 	public CanSummonSkillCondition(StatsSet params)
 	{
-		
 	}
 	
 	@Override
@@ -47,7 +47,10 @@ public class CanSummonSkillCondition implements ISkillCondition
 		
 		if (player.hasServitors())
 		{
-			canSummon = false;
+			for (L2Summon summon : player.getServitors().values())
+			{
+				summon.unSummon(player);
+			}
 		}
 		else if (player.isFlyingMounted() || player.isMounted() || player.inObserverMode() || player.isTeleporting())
 		{

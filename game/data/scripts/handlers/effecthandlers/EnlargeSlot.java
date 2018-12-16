@@ -19,9 +19,11 @@ package handlers.effecthandlers;
 import com.l2jmobius.gameserver.enums.StorageType;
 import com.l2jmobius.gameserver.model.StatsSet;
 import com.l2jmobius.gameserver.model.actor.L2Character;
+import com.l2jmobius.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jmobius.gameserver.model.effects.AbstractEffect;
 import com.l2jmobius.gameserver.model.skills.Skill;
 import com.l2jmobius.gameserver.model.stats.Stats;
+import com.l2jmobius.gameserver.network.serverpackets.ExStorageMaxCount;
 
 /**
  * @author Sdw
@@ -71,5 +73,9 @@ public class EnlargeSlot extends AbstractEffect
 			}
 		}
 		effected.getStat().mergeAdd(stat, _amount);
+		if (effected.isPlayer())
+		{
+			effected.sendPacket(new ExStorageMaxCount((L2PcInstance) effected));
+		}
 	}
 }

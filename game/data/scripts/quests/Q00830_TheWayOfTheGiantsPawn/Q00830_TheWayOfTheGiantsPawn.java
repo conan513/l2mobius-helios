@@ -187,7 +187,7 @@ public class Q00830_TheWayOfTheGiantsPawn extends Quest
 		for (L2PcInstance member : members)
 		{
 			final QuestState qs = getQuestState(member, false);
-			if ((qs != null) && qs.isCond(1) && member.isInsideRadius(npc, Config.ALT_PARTY_RANGE, true, true))
+			if ((qs != null) && qs.isCond(1) && member.isInsideRadius3D(npc, Config.ALT_PARTY_RANGE))
 			{
 				int count = qs.getMemoState();
 				count++;

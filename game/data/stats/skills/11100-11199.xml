@@ -2067,9 +2067,8 @@
 		<!-- Updated to IO -->
 		<!-- For 10 sec., attacks target with 115 Power per second and recovers HP equivalent to 100% of damage inflicted. -->
 		<icon>icon.skill0000</icon>
-		<channelingSkillId>11131</channelingSkillId>
-		<channelingTickInterval>1000</channelingTickInterval>
-		<channelingTickInitialDelay>2000</channelingTickInitialDelay>
+		<channelingTickInterval>1</channelingTickInterval>
+		<channelingStart>2</channelingStart>
 		<operateType>CA1</operateType>
 		<targetType>ENEMY</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -2174,7 +2173,7 @@
 		<icon>icon.skill11134</icon>
 		<affectRange>250</affectRange>
 		<channelingSkillId>11134</channelingSkillId>
-		<channelingTickInterval>2000</channelingTickInterval>
+		<channelingTickInterval>2</channelingTickInterval>
 		<attributeType>FIRE</attributeType>
 		<attributeValue>20</attributeValue>
 		<itemConsumeCount>5</itemConsumeCount>
@@ -2232,9 +2231,8 @@
 		<!-- Creates a black swamp in the selected location, dealing great damage, and receiving 50% of the target's damage as HP. Inflicts abnormal state and decreases Speed. The higher the level of the abnormal state, the greater the damage, and at the last stage, Shocks the target. Consumes 5 Spirit Ores. -->
 		<icon>icon.skill11135</icon>
 		<affectRange>250</affectRange>
-		<channelingSkillId>11135</channelingSkillId>
-		<channelingTickInterval>1000</channelingTickInterval>
-		<channelingTickInitialDelay>2000</channelingTickInitialDelay>
+		<channelingTickInterval>1</channelingTickInterval>
+		<channelingStart>2</channelingStart>
 		<attributeType>DARK</attributeType>
 		<attributeValue>20</attributeValue>
 		<itemConsumeCount>5</itemConsumeCount>
@@ -2249,6 +2247,7 @@
 		<reuseDelay>120000</reuseDelay>
 		<effectPoint>-676</effectPoint>
 		<isMagic>2</isMagic>
+		<hitCancelTime>4</hitCancelTime>
 		<channelingEffects>
 			<effect name="HpDrain">
 				<power>
@@ -2276,9 +2275,8 @@
 		<affectRange>250</affectRange>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>5</abnormalTime>
-		<channelingSkillId>11136</channelingSkillId>
-		<channelingTickInterval>1000</channelingTickInterval>
-		<channelingTickInitialDelay>2000</channelingTickInitialDelay>
+		<channelingTickInterval>1</channelingTickInterval>
+		<channelingStart>2</channelingStart>
 		<attributeType>WATER</attributeType>
 		<attributeValue>20</attributeValue>
 		<itemConsumeCount>5</itemConsumeCount>
@@ -2293,6 +2291,7 @@
 		<reuseDelay>120000</reuseDelay>
 		<effectPoint>-676</effectPoint>
 		<isMagic>2</isMagic>
+		<hitCancelTime>4</hitCancelTime>
 		<channelingEffects>
 			<effect name="MagicalAttack">
 				<power>
@@ -2336,9 +2335,8 @@
 		<!-- Creates a tornado in the selected location, dealing great damage. Inflicts abnormal state and decreases Speed. The higher the level of the abnormal state, the greater the damage, and at the last stage, locks the target in an Aerial Yoke. Consumes 5 Spirit Ores. -->
 		<icon>icon.skill11137</icon>
 		<affectRange>250</affectRange>
-		<channelingSkillId>11137</channelingSkillId>
-		<channelingTickInterval>1000</channelingTickInterval>
-		<channelingTickInitialDelay>2000</channelingTickInitialDelay>
+		<channelingTickInterval>1</channelingTickInterval>
+		<channelingStart>2</channelingStart>
 		<attributeType>WIND</attributeType>
 		<attributeValue>20</attributeValue>
 		<itemConsumeCount>5</itemConsumeCount>
@@ -2353,6 +2351,7 @@
 		<reuseDelay>120000</reuseDelay>
 		<effectPoint>-676</effectPoint>
 		<isMagic>2</isMagic>
+		<hitCancelTime>4</hitCancelTime>
 		<channelingEffects>
 			<effect name="MagicalAttack">
 				<power>
@@ -2396,9 +2395,8 @@
 		<!-- Detonates the soul in the selected location to attack surrounding enemies. Inflicts abnormal state and increases PvP Damage. The effect increases as the level of the abnormal state increases. Consumes 5 Spirit Ores. -->
 		<icon>icon.skill11138</icon>
 		<affectRange>250</affectRange> <!-- Guessed -->
-		<channelingSkillId>11138</channelingSkillId>
-		<channelingTickInterval>1000</channelingTickInterval>
-		<channelingTickInitialDelay>2000</channelingTickInitialDelay>
+		<channelingTickInterval>1</channelingTickInterval>
+		<channelingStart>2</channelingStart>
 		<itemConsumeCount>5</itemConsumeCount>
 		<itemConsumeId>3031</itemConsumeId> <!-- Spirit Ore -->
 		<operateType>CA1</operateType>
@@ -2411,6 +2409,7 @@
 		<reuseDelay>120000</reuseDelay>
 		<effectPoint>-676</effectPoint>
 		<isMagic>1</isMagic>
+		<hitCancelTime>4</hitCancelTime>
 		<channelingEffects>
 			<effect name="MagicalAttack">
 				<power>600</power>

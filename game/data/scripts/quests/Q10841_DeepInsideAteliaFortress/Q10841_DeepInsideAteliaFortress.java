@@ -154,7 +154,7 @@ public final class Q10841_DeepInsideAteliaFortress extends Quest
 	public void actionForEachPlayer(L2PcInstance player, L2Npc npc, boolean isSummon)
 	{
 		final QuestState qs = getQuestState(player, false);
-		if ((qs != null) && player.isInsideRadius(npc, Config.ALT_PARTY_RANGE, true, true))
+		if ((qs != null) && player.isInsideRadius3D(npc, Config.ALT_PARTY_RANGE))
 		{
 			giveItems(player, KELBIM_ARMOR_PIECE, 1);
 			qs.setCond(2, true);

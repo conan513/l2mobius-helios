@@ -187,15 +187,20 @@
 	<item id="47415" name="Duo - Freya's Wind Cube" type="EtcItem">
 		<!-- Vitality +100% and XP/SP acquisition +100% while hunting. Remains after death. Duration is 10 min. Cooldown is 30 min. Only usable when 1 or more Vitality slot is full. Cannot be used in the Olympiad. Will be deleted when the event ends. -->
 		<set name="icon" val="icon.freya_cube_box" />
+		<set name="etcitem_type" val="SCROLL" />
 		<set name="weight" val="100" />
-		<set name="is_tradable" val="false" />
-		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="default_action" val="SKILL_REDUCE" />
-		<set name="immediate_effect" val="true" />
-		<set name="handler" val="ItemSkills" />
+		<set name="is_dropable" val="false" />
+		<set name="is_tradable" val="false" />
 		<set name="is_private_storeable" val="false" />
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="handler" val="ItemSkills" />
+		<set name="immediate_effect" val="true" />
+		<cond>
+			<player MinimumVitalityPoints="35000" />
+		</cond>
 		<skills>
 			<skill id="18634" level="1" /> <!-- Duo - Freya's Wind -->
 		</skills>
@@ -308,6 +313,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_private_storeable" val="false" />
+		<set name="is_freightable" val="true" />
 	</item>
 	<item id="47420" name="Energy of Longing" type="EtcItem">
 		<!-- Compounding the Energy of Longing with Talisman - Longing gives a certain probability of the production of a Talisman - Insanity. If production fails, the Talisman - Longing is not destroyed, and only the Energy of Longing is lost. -->

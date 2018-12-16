@@ -113,7 +113,7 @@ public final class Q00457_LostAndFound extends Quest
 			}
 			case "CHECK":
 			{
-				final double distance = npc.calculateDistance(player, true, false);
+				final double distance = npc.calculateDistance3D(player);
 				if (distance > 1000)
 				{
 					if (distance > 5000)
@@ -140,7 +140,7 @@ public final class Q00457_LostAndFound extends Quest
 				for (L2Spawn escortSpawn : _escortCheckers)
 				{
 					final L2Npc escort = escortSpawn.getLastSpawn();
-					if ((escort != null) && npc.isInsideRadius(escort, 1000, false, false))
+					if ((escort != null) && npc.isInsideRadius2D(escort, 1000))
 					{
 						startQuestTimer("STOP", 1000, npc, player);
 						startQuestTimer("BYE", 3000, npc, player);

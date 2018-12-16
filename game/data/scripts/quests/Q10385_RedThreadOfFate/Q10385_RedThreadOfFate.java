@@ -416,7 +416,7 @@ public final class Q10385_RedThreadOfFate extends Quest
 		{
 			final L2Npc npc = (L2Npc) player.getTarget();
 			
-			if (((qs != null) && (qs.isCond(3))) && (event.getSocialActionId() == SOCIAL_BOW) && (player.isInsideRadius(npc, 120, true, true)))
+			if (((qs != null) && (qs.isCond(3))) && (event.getSocialActionId() == SOCIAL_BOW) && (player.isInsideRadius3D(npc, 120)))
 			{
 				qs.setCond(4, true);
 			}

@@ -101,7 +101,7 @@ public final class Q10742_AFurryFriend extends Quest
 						showOnScreenMsg(player, NpcStringId.RICKY_IS_NOT_HERE_NTRY_SEARCHING_ANOTHER_KIKU_S_CAVE, ExShowScreenMessage.TOP_CENTER, 8000);
 						htmltext = "33995-02.html";
 					}
-					else if (!L2World.getInstance().getVisibleObjects(player, L2Npc.class, 500).stream().anyMatch(n -> (n.getId() == RICKY) && (n.getSummoner() == player)))
+					else if (!L2World.getInstance().getVisibleObjectsInRange(player, L2Npc.class, 500).stream().anyMatch(n -> (n.getId() == RICKY) && (n.getSummoner() == player)))
 					{
 						showOnScreenMsg(player, NpcStringId.TAKE_RICKY_TO_LEIRA_IN_UNDER_2_MINUTES, ExShowScreenMessage.MIDDLE_CENTER, 5000);
 						player.sendPacket(new ExSendUIEvent(player, false, false, 120, 0, NpcStringId.REMAINING_TIME));
@@ -133,7 +133,7 @@ public final class Q10742_AFurryFriend extends Quest
 					npc.getAI().setIntention(CtrlIntention.AI_INTENTION_FOLLOW, player);
 					
 					// Check Ricky position
-					final double distanceToRicky = player.calculateDistance(npc, false, false);
+					final double distanceToRicky = player.calculateDistance2D(npc);
 					if (distanceToRicky > 350)
 					{
 						showOnScreenMsg(player, NpcStringId.YOU_ARE_FAR_FROM_RICKY, ExShowScreenMessage.TOP_CENTER, 5000);
@@ -149,7 +149,7 @@ public final class Q10742_AFurryFriend extends Quest
 					}
 					else
 					{
-						final L2Npc leira = L2World.getInstance().getVisibleObjects(npc, L2Npc.class, 300).stream().filter(n -> (n.getId() == LEIRA)).findAny().orElse(null);
+						final L2Npc leira = L2World.getInstance().getVisibleObjectsInRange(npc, L2Npc.class, 300).stream().filter(n -> (n.getId() == LEIRA)).findAny().orElse(null);
 						if (leira != null)
 						{
 							qs.setCond(2, true);

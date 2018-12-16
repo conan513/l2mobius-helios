@@ -17,7 +17,9 @@
 package handlers.itemhandlers;
 
 import com.l2jmobius.commons.util.Rnd;
+import com.l2jmobius.gameserver.geoengine.GeoEngine;
 import com.l2jmobius.gameserver.handler.IItemHandler;
+import com.l2jmobius.gameserver.model.Location;
 import com.l2jmobius.gameserver.model.actor.L2Playable;
 import com.l2jmobius.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jmobius.gameserver.model.items.instance.L2ItemInstance;
@@ -26,6 +28,7 @@ import com.l2jmobius.gameserver.network.SystemMessageId;
 import com.l2jmobius.gameserver.network.serverpackets.Dice;
 import com.l2jmobius.gameserver.network.serverpackets.SystemMessage;
 import com.l2jmobius.gameserver.util.Broadcast;
+import com.l2jmobius.gameserver.util.Util;
 
 public class RollingDice implements IItemHandler
 {
@@ -54,7 +57,18 @@ public class RollingDice implements IItemHandler
 			return false;
 		}
 		
-		Broadcast.toSelfAndKnownPlayers(activeChar, new Dice(activeChar.getObjectId(), itemId, number, activeChar.getX() - 30, activeChar.getY() - 30, activeChar.getZ()));
+		// Mobius: Retail dice position land calculation.
+		final double angle = Util.convertHeadingToDegree(activeChar.getHeading());
+		final double radian = Math.toRadians(angle);
+		final double course = Math.toRadians(180);
+		final int x1 = (int) (Math.cos(Math.PI + radian + course) * 40);
+		final int y1 = (int) (Math.sin(Math.PI + radian + course) * 40);
+		final int x = activeChar.getX() + x1;
+		final int y = activeChar.getY() + y1;
+		final int z = activeChar.getZ();
+		final Location destination = GeoEngine.getInstance().canMoveToTargetLoc(activeChar.getX(), activeChar.getY(), activeChar.getZ(), x, y, z, activeChar.getInstanceWorld());
+		
+		Broadcast.toSelfAndKnownPlayers(activeChar, new Dice(activeChar.getObjectId(), itemId, number, destination.getX(), destination.getY(), destination.getZ()));
 		
 		final SystemMessage sm = SystemMessage.getSystemMessage(SystemMessageId.C1_HAS_ROLLED_A_S2);
 		sm.addString(activeChar.getName());

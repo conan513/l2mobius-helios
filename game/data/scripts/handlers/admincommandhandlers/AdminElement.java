@@ -140,7 +140,8 @@ public class AdminElement implements IAdminCommandHandler
 		
 		if (itemInstance != null)
 		{
-			String old, current;
+			String old;
+			String current;
 			final AttributeHolder element = itemInstance.getAttribute(type);
 			if (element == null)
 			{

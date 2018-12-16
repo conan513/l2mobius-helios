@@ -19,7 +19,6 @@ package handlers.admincommandhandlers;
 import java.util.NoSuchElementException;
 import java.util.StringTokenizer;
 
-import com.l2jmobius.Config;
 import com.l2jmobius.commons.concurrent.ThreadPool;
 import com.l2jmobius.gameserver.data.xml.impl.SkillData;
 import com.l2jmobius.gameserver.handler.IAdminCommandHandler;
@@ -38,8 +37,7 @@ public class AdminTest implements IAdminCommandHandler
 	private static final String[] ADMIN_COMMANDS =
 	{
 		"admin_stats",
-		"admin_skill_test",
-		"admin_known"
+		"admin_skill_test"
 	};
 	
 	@Override
@@ -76,14 +74,6 @@ public class AdminTest implements IAdminCommandHandler
 			{
 				BuilderUtil.sendSysMessage(activeChar, "Command format is //skill_test <ID>");
 			}
-		}
-		else if (command.equals("admin_known on"))
-		{
-			Config.CHECK_KNOWN = true;
-		}
-		else if (command.equals("admin_known off"))
-		{
-			Config.CHECK_KNOWN = false;
 		}
 		return true;
 	}

@@ -166,9 +166,7 @@ public final class SummonNpc extends AbstractEffect
 					return;
 				}
 				
-				spawn.setX(x);
-				spawn.setY(y);
-				spawn.setZ(z);
+				spawn.setXYZ(x, y, z);
 				spawn.setHeading(player.getHeading());
 				spawn.stopRespawn();
 				

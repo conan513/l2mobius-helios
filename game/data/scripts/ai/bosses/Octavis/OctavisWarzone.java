@@ -212,7 +212,7 @@ public final class OctavisWarzone extends AbstractInstance
 					
 					if ((hpPer < 50) && npc.isScriptValue(0))
 					{
-						npc.getStat().addFixedValue(Stats.REGENERATE_HP_RATE, 95000d);
+						npc.getStat().addFixedValue(Stats.REGENERATE_HP_RATE, 100d); // On original script 95000d was added, making Octavis targetable for two seconds.
 						npc.setScriptValue(1);
 					}
 					else if ((hpPer > 90) && npc.isScriptValue(1))
@@ -310,9 +310,9 @@ public final class OctavisWarzone extends AbstractInstance
 				case "MINION_CALL":
 				{
 					final L2PcInstance mostHated = ((L2Attackable) npc).getMostHated().getActingPlayer();
-					if ((mostHated != null) && (mostHated.calculateDistance(npc, true, false) < 5000))
+					if ((mostHated != null) && (mostHated.calculateDistance3D(npc) < 5000))
 					{
-						L2World.getInstance().getVisibleObjects(npc, L2Attackable.class, 4000, obj -> CommonUtil.contains(BEASTS_MINIONS, obj.getId()) || CommonUtil.contains(GLADIATORS, obj.getId())).forEach(minion ->
+						L2World.getInstance().getVisibleObjectsInRange(npc, L2Attackable.class, 4000, obj -> CommonUtil.contains(BEASTS_MINIONS, obj.getId()) || CommonUtil.contains(GLADIATORS, obj.getId())).forEach(minion ->
 						{
 							addAttackPlayerDesire(minion, mostHated, 23);
 						});
@@ -323,7 +323,7 @@ public final class OctavisWarzone extends AbstractInstance
 				case "ATTACK_TIMER":
 				{
 					final L2Character mostHated = ((L2Attackable) npc).getMostHated();
-					if ((mostHated != null) && mostHated.isPlayable() && (npc.calculateDistance(mostHated, false, false) < 1000))
+					if ((mostHated != null) && mostHated.isPlayable() && (npc.calculateDistance2D(mostHated) < 1000))
 					{
 						final int random = getRandom(5);
 						if (random < 3)

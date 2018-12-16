@@ -66,11 +66,15 @@
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 	</skill>
-	<skill id="22603" toLevel="2" name="Expand Inventory Lv. 2">
-		<!-- AUTO GENERATED SKILL -->
+	<skill id="22603" toLevel="2" name="Expand Inventory Lv. 1">
 		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>
+			<value level="1">22900</value>
+			<value level="2">22901</value>
+		</itemConsumeId>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>1</magicLvl>
 		<isMagic>2</isMagic>
@@ -80,13 +84,22 @@
 		<conditions>
 			<condition name="OpSkill">
 				<skillId>1372</skillId>
-				<skillLevel>8</skillLevel>
+				<skillLevel>1</skillLevel>
+				<skillLevel>2</skillLevel>
 				<hasLearned>false</hasLearned>
 			</condition>
 		</conditions>
+		<effects>
+			<effect name="SetSkill">
+				<skillId>1372</skillId>
+				<skillLvl>
+					<value level="1">1</value>
+					<value level="2">2</value>
+				</skillLvl>
+			</effect>
+		</effects>
 	</skill>
-	<skill id="22604" toLevel="2" name="Expand Warehouse Lv. 2">
-		<!-- AUTO GENERATED SKILL -->
+	<skill id="22604" toLevel="2" name="Expand Warehouse Lv. 1">
 		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
@@ -99,10 +112,20 @@
 		<conditions>
 			<condition name="OpSkill">
 				<skillId>1371</skillId>
-				<skillLevel>8</skillLevel>
+				<skillLevel>1</skillLevel>
+				<skillLevel>2</skillLevel>
 				<hasLearned>false</hasLearned>
 			</condition>
 		</conditions>
+		<effects>
+			<effect name="SetSkill">
+				<skillId>1371</skillId>
+				<skillLvl>
+					<value level="1">1</value>
+					<value level="2">2</value>
+				</skillLvl>
+			</effect>
+		</effects>
 	</skill>
 	<skill id="22605" toLevel="1" name="Scroll: Enchant Power Shirt">
 		<!-- AUTO GENERATED SKILL -->

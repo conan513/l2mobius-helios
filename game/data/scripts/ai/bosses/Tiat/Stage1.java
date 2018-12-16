@@ -239,7 +239,7 @@ public final class Stage1 extends AbstractInstance implements IGameXmlReader
 								
 								if (!_spawnList.containsKey(flag))
 								{
-									_spawnList.put(flag, new ArrayList<SODSpawn>());
+									_spawnList.put(flag, new ArrayList<>());
 								}
 								
 								for (Node f = e.getFirstChild(); f != null; f = f.getNextSibling())
@@ -495,7 +495,7 @@ public final class Stage1 extends AbstractInstance implements IGameXmlReader
 				final L2Npc videoNpc = world.getNpc(TIAT_VIDEO_NPC);
 				if (videoNpc != null)
 				{
-					playMovie(L2World.getInstance().getVisibleObjects(videoNpc, L2PcInstance.class, 8000), Movie.SC_BOSS_TIAT_OPENING);
+					playMovie(L2World.getInstance().getVisibleObjectsInRange(videoNpc, L2PcInstance.class, 8000), Movie.SC_BOSS_TIAT_OPENING);
 					videoNpc.deleteMe();
 				}
 			}
@@ -639,7 +639,7 @@ public final class Stage1 extends AbstractInstance implements IGameXmlReader
 						if (npc.getId() == TIAT)
 						{
 							world.incStatus();
-							playMovie(L2World.getInstance().getVisibleObjects(npc, L2PcInstance.class, 8000), Movie.SC_BOSS_TIAT_ENDING_SUCCES);
+							playMovie(L2World.getInstance().getVisibleObjectsInRange(npc, L2PcInstance.class, 8000), Movie.SC_BOSS_TIAT_ENDING_SUCCES);
 							world.removeNpcs();
 							world.finishInstance();
 							GraciaSeedsManager.getInstance().increaseSoDTiatKilled();

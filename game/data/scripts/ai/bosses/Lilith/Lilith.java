@@ -556,11 +556,11 @@ public class Lilith extends AbstractNpcAI
 			
 			for (L2PcInstance member : members)
 			{
-				if (member.isInsideRadius(npc, 1000, true, false) && (npc.getId() == ENTER_CUBIC))
+				if (member.isInsideRadius3D(npc, 1000) && (npc.getId() == ENTER_CUBIC))
 				{
 					member.teleToLocation(ENTER_LOC, true);
 				}
-				else if (member.isInsideRadius(npc, 1000, true, false) && (npc.getId() == LILITH_CUBIC))
+				else if (member.isInsideRadius3D(npc, 1000) && (npc.getId() == LILITH_CUBIC))
 				{
 					member.teleToLocation(ENTER_LILITH_LOC, true);
 				}
@@ -669,7 +669,7 @@ public class Lilith extends AbstractNpcAI
 	@Override
 	public String onSkillSee(L2Npc npc, L2PcInstance caster, Skill skill, L2Object[] targets, boolean isPet)
 	{
-		if (CommonUtil.contains(LILITH_MINIONS, npc.getId()) && (Rnd.get(2) == 1))
+		if (CommonUtil.contains(LILITH_MINIONS, npc.getId()) && Rnd.nextBoolean())
 		{
 			if (skill.getAbnormalType() == AbnormalType.HP_RECOVER)
 			{

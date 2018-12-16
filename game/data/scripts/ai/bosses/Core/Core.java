@@ -16,13 +16,17 @@
  */
 package ai.bosses.Core;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
+import java.util.Map.Entry;
 import java.util.concurrent.CopyOnWriteArrayList;
 
 import com.l2jmobius.Config;
 import com.l2jmobius.gameserver.enums.ChatType;
 import com.l2jmobius.gameserver.instancemanager.GlobalVariablesManager;
 import com.l2jmobius.gameserver.instancemanager.GrandBossManager;
+import com.l2jmobius.gameserver.model.Location;
 import com.l2jmobius.gameserver.model.StatsSet;
 import com.l2jmobius.gameserver.model.actor.L2Attackable;
 import com.l2jmobius.gameserver.model.actor.L2Npc;
@@ -35,26 +39,45 @@ import ai.AbstractNpcAI;
 
 /**
  * Core AI.
- * @author DrLecter, Emperorc
+ * @author DrLecter, Emperorc, Mobius
  */
 public final class Core extends AbstractNpcAI
 {
+	// NPCs
 	private static final int CORE = 29006;
 	private static final int DEATH_KNIGHT = 29007;
 	private static final int DOOM_WRAITH = 29008;
-	// private static final int DICOR = 29009;
-	// private static final int VALIDUS = 29010;
 	private static final int SUSCEPTOR = 29011;
-	// private static final int PERUM = 29012;
-	// private static final int PREMO = 29013;
-	
-	// Core Status Tracking :
-	private static final byte ALIVE = 0; // Core is spawned.
-	private static final byte DEAD = 1; // Core has been killed.
+	// Spawns
+	private static final Map<Integer, Location> MINNION_SPAWNS = new HashMap<>();
+	{
+		MINNION_SPAWNS.put(DEATH_KNIGHT, new Location(17191, 109298, -6488));
+		MINNION_SPAWNS.put(DEATH_KNIGHT, new Location(17564, 109548, -6488));
+		MINNION_SPAWNS.put(DEATH_KNIGHT, new Location(17855, 109552, -6488));
+		MINNION_SPAWNS.put(DEATH_KNIGHT, new Location(18280, 109202, -6488));
+		MINNION_SPAWNS.put(DEATH_KNIGHT, new Location(18784, 109253, -6488));
+		MINNION_SPAWNS.put(DEATH_KNIGHT, new Location(18059, 108314, -6488));
+		MINNION_SPAWNS.put(DEATH_KNIGHT, new Location(17300, 108444, -6488));
+		MINNION_SPAWNS.put(DEATH_KNIGHT, new Location(17148, 110071, -6648));
+		MINNION_SPAWNS.put(DEATH_KNIGHT, new Location(18318, 110077, -6648));
+		MINNION_SPAWNS.put(DEATH_KNIGHT, new Location(17726, 110391, -6648));
+		MINNION_SPAWNS.put(DOOM_WRAITH, new Location(17113, 110970, -6648));
+		MINNION_SPAWNS.put(DOOM_WRAITH, new Location(17496, 110880, -6648));
+		MINNION_SPAWNS.put(DOOM_WRAITH, new Location(18061, 110990, -6648));
+		MINNION_SPAWNS.put(DOOM_WRAITH, new Location(18384, 110698, -6648));
+		MINNION_SPAWNS.put(DOOM_WRAITH, new Location(17993, 111458, -6584));
+		MINNION_SPAWNS.put(SUSCEPTOR, new Location(17297, 111470, -6584));
+		MINNION_SPAWNS.put(SUSCEPTOR, new Location(17893, 110198, -6648));
+		MINNION_SPAWNS.put(SUSCEPTOR, new Location(17706, 109423, -6488));
+		MINNION_SPAWNS.put(SUSCEPTOR, new Location(17849, 109388, -6480));
+	}
+	// Misc
+	private static final byte ALIVE = 0;
+	private static final byte DEAD = 1;
 	
 	private static boolean _firstAttacked;
 	
-	private final List<L2Attackable> _minions = new CopyOnWriteArrayList<>();
+	private static final List<L2Attackable> _minions = new CopyOnWriteArrayList<>();
 	
 	private Core()
 	{
@@ -62,20 +85,18 @@ public final class Core extends AbstractNpcAI
 		
 		_firstAttacked = false;
 		final StatsSet info = GrandBossManager.getInstance().getStatsSet(CORE);
-		final int status = GrandBossManager.getInstance().getBossStatus(CORE);
-		if (status == DEAD)
+		if (GrandBossManager.getInstance().getBossStatus(CORE) == DEAD)
 		{
-			// load the unlock date and time for Core from DB
-			final long temp = (info.getLong("respawn_time") - System.currentTimeMillis());
-			// if Core is locked until a certain time, mark it so and start the unlock timer
-			// the unlock time has not yet expired.
+			// Load the unlock date and time for Core from DB.
+			final long temp = info.getLong("respawn_time") - System.currentTimeMillis();
+			// If Core is locked until a certain time, mark it so and start the unlock timer the unlock time has not yet expired.
 			if (temp > 0)
 			{
 				startQuestTimer("core_unlock", temp, null, null);
 			}
 			else
 			{
-				// the time has already expired while the server was offline. Immediately spawn Core.
+				// The time has already expired while the server was offline. Immediately spawn Core.
 				final L2GrandBossInstance core = (L2GrandBossInstance) addSpawn(CORE, 17726, 108915, -6480, 0, false, 0);
 				GrandBossManager.getInstance().setBossStatus(CORE, ALIVE);
 				spawnBoss(core);
@@ -112,24 +133,11 @@ public final class Core extends AbstractNpcAI
 		npc.broadcastPacket(new PlaySound(1, "BS01_A", 1, npc.getObjectId(), npc.getX(), npc.getY(), npc.getZ()));
 		// Spawn minions
 		L2Attackable mob;
-		for (int i = 0; i < 5; i++)
+		Location spawnLocation;
+		for (Entry<Integer, Location> spawn : MINNION_SPAWNS.entrySet())
 		{
-			final int x = 16800 + (i * 360);
-			mob = (L2Attackable) addSpawn(DEATH_KNIGHT, x, 110000, npc.getZ(), 280 + getRandom(40), false, 0);
-			mob.setIsRaidMinion(true);
-			_minions.add(mob);
-			mob = (L2Attackable) addSpawn(DEATH_KNIGHT, x, 109000, npc.getZ(), 280 + getRandom(40), false, 0);
-			mob.setIsRaidMinion(true);
-			_minions.add(mob);
-			final int x2 = 16800 + (i * 600);
-			mob = (L2Attackable) addSpawn(DOOM_WRAITH, x2, 109300, npc.getZ(), 280 + getRandom(40), false, 0);
-			mob.setIsRaidMinion(true);
-			_minions.add(mob);
-		}
-		for (int i = 0; i < 4; i++)
-		{
-			final int x = 16800 + (i * 450);
-			mob = (L2Attackable) addSpawn(SUSCEPTOR, x, 110300, npc.getZ(), 280 + getRandom(40), false, 0);
+			spawnLocation = spawn.getValue();
+			mob = (L2Attackable) addSpawn(spawn.getKey(), spawnLocation.getX(), spawnLocation.getY(), spawnLocation.getZ(), getRandom(61794), false, 0);
 			mob.setIsRaidMinion(true);
 			_minions.add(mob);
 		}
@@ -183,28 +191,26 @@ public final class Core extends AbstractNpcAI
 	@Override
 	public String onKill(L2Npc npc, L2PcInstance killer, boolean isSummon)
 	{
-		final int npcId = npc.getId();
-		if (npcId == CORE)
+		if (npc.getId() == CORE)
 		{
 			npc.broadcastPacket(new PlaySound(1, "BS02_D", 1, npc.getObjectId(), npc.getX(), npc.getY(), npc.getZ()));
 			npc.broadcastSay(ChatType.NPC_GENERAL, NpcStringId.A_FATAL_ERROR_HAS_OCCURRED);
 			npc.broadcastSay(ChatType.NPC_GENERAL, NpcStringId.SYSTEM_IS_BEING_SHUT_DOWN);
 			npc.broadcastSay(ChatType.NPC_GENERAL, NpcStringId.EMPTY);
 			_firstAttacked = false;
+			
 			GrandBossManager.getInstance().setBossStatus(CORE, DEAD);
 			// Calculate Min and Max respawn times randomly.
-			long respawnTime = (Config.CORE_SPAWN_INTERVAL + getRandom(-Config.CORE_SPAWN_RANDOM, Config.CORE_SPAWN_RANDOM)) * 3600000;
-			respawnTime *= 3600000;
-			
+			final long respawnTime = (Config.CORE_SPAWN_INTERVAL + getRandom(-Config.CORE_SPAWN_RANDOM, Config.CORE_SPAWN_RANDOM)) * 3600000;
 			startQuestTimer("core_unlock", respawnTime, null, null);
-			// also save the respawn time so that the info is maintained past reboots
+			// Also save the respawn time so that the info is maintained past reboots.
 			final StatsSet info = GrandBossManager.getInstance().getStatsSet(CORE);
-			info.set("respawn_time", (System.currentTimeMillis() + respawnTime));
+			info.set("respawn_time", System.currentTimeMillis() + respawnTime);
 			GrandBossManager.getInstance().setStatsSet(CORE, info);
 			startQuestTimer("despawn_minions", 20000, null, null);
 			cancelQuestTimers("spawn_minion");
 		}
-		else if ((GrandBossManager.getInstance().getBossStatus(CORE) == ALIVE) && (_minions != null) && _minions.contains(npc))
+		else if ((GrandBossManager.getInstance().getBossStatus(CORE) == ALIVE) && _minions.contains(npc))
 		{
 			_minions.remove(npc);
 			startQuestTimer("spawn_minion", 60000, npc, null);

@@ -185,7 +185,7 @@ public class ExtractableItems implements IItemHandler
 			}
 		}
 		
-		if (extractedItems.size() == 0)
+		if (extractedItems.isEmpty())
 		{
 			activeChar.sendPacket(SystemMessageId.THERE_WAS_NOTHING_FOUND_INSIDE);
 		}

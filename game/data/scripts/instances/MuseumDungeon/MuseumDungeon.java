@@ -150,7 +150,7 @@ public final class MuseumDungeon extends AbstractInstance
 	@Override
 	public String onSkillSee(L2Npc npc, L2PcInstance caster, Skill skill, L2Object[] targets, boolean isSummon)
 	{
-		if (npc.isScriptValue(0) && (skill == SPOIL.getSkill()) && (caster.getTarget() == npc) && (npc.calculateDistance(caster, false, false) < 200))
+		if (npc.isScriptValue(0) && (skill == SPOIL.getSkill()) && (caster.getTarget() == npc) && (npc.calculateDistance2D(caster) < 200))
 		{
 			final L2Npc toyron = npc.getInstanceWorld().getNpc(TOYRON);
 			((FriendlyNpcInstance) toyron).addDamageHate(npc, 0, 9999); // TODO: Find better way for attack

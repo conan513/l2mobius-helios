@@ -336,7 +336,7 @@ public final class OlyManager extends AbstractNpcAI implements IBypassHandler
 				
 				activeChar.sendPacket(new ExOlympiadMatchList());
 			}
-			else if ((olymanager == null) || (olymanager.getId() != MANAGER) || (!activeChar.inObserverMode() && !activeChar.isInsideRadius(olymanager, 300, false, false)))
+			else if ((olymanager == null) || (olymanager.getId() != MANAGER) || (!activeChar.inObserverMode() && !activeChar.isInsideRadius2D(olymanager, 300)))
 			{
 				return false;
 			}

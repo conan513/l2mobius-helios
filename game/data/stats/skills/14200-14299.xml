@@ -465,9 +465,9 @@
 		<effectRange>1400</effectRange>
 		<magicLvl>99</magicLvl>
 		<channelingSkillId>14217</channelingSkillId>
-		<channelingTickInitialDelay>1200</channelingTickInitialDelay>
+		<channelingStart>1.2</channelingStart>
 		<mpPerChanneling>15</mpPerChanneling>
-		<channelingTickInterval>2000</channelingTickInterval>
+		<channelingTickInterval>2</channelingTickInterval>
 		<isMagic>2</isMagic>
 		<isDebuff>true</isDebuff>
 		<targetType>ENEMY</targetType>
@@ -497,7 +497,7 @@
 		<effects>
 			<effect name="AirBind" />
 			<effect name="BlockActions">
-				<allowedSkills>10279;10517;10025;10776;11770;1904</allowedSkills>
+				<allowedSkills>10279;10517;10025;10776;11770;1904;11264;11093;13314;1912</allowedSkills>
 			</effect>
 		</effects>
 	</skill>
@@ -660,9 +660,9 @@
 		<effectRange>600</effectRange>
 		<magicLvl>99</magicLvl>
 		<channelingSkillId>14225</channelingSkillId>
-		<channelingTickInitialDelay>1000</channelingTickInitialDelay>
+		<channelingStart>1</channelingStart>
 		<mpPerChanneling>15</mpPerChanneling>
-		<channelingTickInterval>2000</channelingTickInterval>
+		<channelingTickInterval>2</channelingTickInterval>
 		<isMagic>2</isMagic>
 		<reuseDelay>20000</reuseDelay>
 		<targetType>ENEMY</targetType>
@@ -2341,8 +2341,8 @@
 		<effectRange>1500</effectRange>
 		<magicLvl>99</magicLvl>
 		<channelingSkillId>14436</channelingSkillId> <!-- Obedience Status -->
-		<channelingTickInitialDelay>1200</channelingTickInitialDelay>
-		<channelingTickInterval>2000</channelingTickInterval>
+		<channelingStart>1.2</channelingStart>
+		<channelingTickInterval>2</channelingTickInterval>
 		<isMagic>2</isMagic>
 		<hitTime>5000</hitTime>
 		<targetType>TARGET</targetType>

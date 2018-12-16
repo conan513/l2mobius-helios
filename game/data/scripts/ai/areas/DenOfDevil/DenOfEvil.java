@@ -181,7 +181,7 @@ public final class DenOfEvil extends AbstractNpcAI
 		@Override
 		public void run()
 		{
-			for (int i = SKILL_ID; i <= (SKILL_ID + 4); i = i + 2)
+			for (int i = SKILL_ID; i <= (SKILL_ID + 4); i += 2)
 			{
 				// test 3 skills if some is lvl 4
 				if (_zone.getSkillLevel(i) > 3)
@@ -218,7 +218,7 @@ public final class DenOfEvil extends AbstractNpcAI
 					}
 				}
 			}
-			for (int i = SKILL_ID; i <= (SKILL_ID + 4); i = i + 2)
+			for (int i = SKILL_ID; i <= (SKILL_ID + 4); i += 2)
 			{
 				_zone.removeSkill(i);
 			}

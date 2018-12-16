@@ -129,6 +129,6 @@ public final class Sow extends AbstractEffect
 		
 		// chance can't be less than 1%
 		Math.max(basicSuccess, 1);
-		return Rnd.nextInt(99) < basicSuccess;
+		return Rnd.get(99) < basicSuccess;
 	}
 }

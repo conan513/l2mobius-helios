@@ -185,7 +185,7 @@ public class Q10304_ForForgottenHeroes extends Quest
 		{
 			int cond = qs.getCond();
 			int npcId = npc.getId();
-			if (player.isInsideRadius(npc, Config.ALT_PARTY_RANGE, true, true))
+			if (player.isInsideRadius3D(npc, Config.ALT_PARTY_RANGE))
 			{
 				if ((npcId == YUI) && (cond == 2))
 				{

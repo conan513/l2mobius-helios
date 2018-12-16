@@ -96,7 +96,7 @@ public final class AirBind extends AbstractEffect
 	@Override
 	public void continuousInstant(L2Character effector, L2Character effected, Skill skill, L2ItemInstance item)
 	{
-		for (L2PcInstance nearbyPlayer : L2World.getInstance().getVisibleObjects(effected, L2PcInstance.class, 1200))
+		for (L2PcInstance nearbyPlayer : L2World.getInstance().getVisibleObjectsInRange(effected, L2PcInstance.class, 1200))
 		{
 			if ((nearbyPlayer.getRace() != Race.ERTHEIA) && (nearbyPlayer.getTarget() == effected) //
 				&& nearbyPlayer.isInCategory(CategoryType.SIXTH_CLASS_GROUP) && !nearbyPlayer.isAlterSkillActive())

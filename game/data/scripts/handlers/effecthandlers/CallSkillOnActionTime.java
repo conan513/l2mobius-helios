@@ -16,6 +16,8 @@
  */
 package handlers.effecthandlers;
 
+import java.util.Collections;
+
 import com.l2jmobius.gameserver.model.L2Object;
 import com.l2jmobius.gameserver.model.L2World;
 import com.l2jmobius.gameserver.model.StatsSet;
@@ -36,6 +38,19 @@ public final class CallSkillOnActionTime extends AbstractEffect
 	{
 		_skill = new SkillHolder(params.getInt("skillId"), params.getInt("skillLevel", 1), params.getInt("skillSubLevel", 0));
 		setTicks(params.getInt("ticks"));
+	}
+	
+	@Override
+	public void onStart(L2Character effector, L2Character effected, Skill skill)
+	{
+		effected.getEffectList().stopEffects(Collections.singleton(_skill.getSkill().getAbnormalType()));
+		effected.getEffectList().addBlockedAbnormalTypes(Collections.singleton(_skill.getSkill().getAbnormalType()));
+	}
+	
+	@Override
+	public void onExit(L2Character effector, L2Character effected, Skill skill)
+	{
+		effected.getEffectList().removeBlockedAbnormalTypes(Collections.singleton(_skill.getSkill().getAbnormalType()));
 	}
 	
 	@Override

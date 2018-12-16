@@ -26,11 +26,13 @@ import java.util.regex.Pattern;
 import com.l2jmobius.Config;
 import com.l2jmobius.gameserver.data.xml.impl.AdminData;
 import com.l2jmobius.gameserver.data.xml.impl.NpcData;
+import com.l2jmobius.gameserver.data.xml.impl.SpawnsData;
 import com.l2jmobius.gameserver.datatables.SpawnTable;
 import com.l2jmobius.gameserver.handler.IAdminCommandHandler;
 import com.l2jmobius.gameserver.instancemanager.DBSpawnManager;
 import com.l2jmobius.gameserver.instancemanager.InstanceManager;
 import com.l2jmobius.gameserver.instancemanager.QuestManager;
+import com.l2jmobius.gameserver.instancemanager.ZoneManager;
 import com.l2jmobius.gameserver.model.L2Object;
 import com.l2jmobius.gameserver.model.L2Spawn;
 import com.l2jmobius.gameserver.model.L2World;
@@ -212,20 +214,75 @@ public class AdminSpawn implements IAdminCommandHandler
 		else if (command.startsWith("admin_unspawnall"))
 		{
 			Broadcast.toAllOnlinePlayers(SystemMessage.getSystemMessage(SystemMessageId.THE_NPC_SERVER_IS_NOT_OPERATING_AT_THIS_TIME));
+			// Unload all scripts.
+			QuestManager.getInstance().unloadAllScripts();
+			// Unload all zones.
+			ZoneManager.getInstance().unload();
+			// Delete all spawns.
+			for (L2Npc npc : DBSpawnManager.getInstance().getNpcs().values())
+			{
+				if (npc != null)
+				{
+					DBSpawnManager.getInstance().deleteSpawn(npc.getSpawn(), true);
+					npc.deleteMe();
+				}
+			}
 			DBSpawnManager.getInstance().cleanUp();
-			L2World.getInstance().deleteVisibleNpcSpawns();
-			AdminData.getInstance().broadcastMessageToGMs("NPC Unspawn completed!");
+			for (L2Object obj : L2World.getInstance().getVisibleObjects())
+			{
+				if ((obj != null) && obj.isNpc())
+				{
+					final L2Npc target = (L2Npc) obj;
+					target.deleteMe();
+					final L2Spawn spawn = target.getSpawn();
+					if (spawn != null)
+					{
+						spawn.stopRespawn();
+						SpawnTable.getInstance().deleteSpawn(spawn, false);
+					}
+				}
+			}
+			// Reload.
+			ZoneManager.getInstance().reload();
+			QuestManager.getInstance().reloadAllScripts();
+			AdminData.getInstance().broadcastMessageToGMs("NPC unspawn completed!");
 		}
 		else if (command.startsWith("admin_respawnall") || command.startsWith("admin_spawn_reload"))
 		{
-			// make sure all spawns are deleted
+			// Unload all scripts.
+			QuestManager.getInstance().unloadAllScripts();
+			// Unload all zones.
+			ZoneManager.getInstance().unload();
+			// Delete all spawns.
+			for (L2Npc npc : DBSpawnManager.getInstance().getNpcs().values())
+			{
+				if (npc != null)
+				{
+					DBSpawnManager.getInstance().deleteSpawn(npc.getSpawn(), true);
+					npc.deleteMe();
+				}
+			}
 			DBSpawnManager.getInstance().cleanUp();
-			L2World.getInstance().deleteVisibleNpcSpawns();
-			// now respawn all
-			NpcData.getInstance().load();
+			for (L2Object obj : L2World.getInstance().getVisibleObjects())
+			{
+				if ((obj != null) && obj.isNpc())
+				{
+					final L2Npc target = (L2Npc) obj;
+					target.deleteMe();
+					final L2Spawn spawn = target.getSpawn();
+					if (spawn != null)
+					{
+						spawn.stopRespawn();
+						SpawnTable.getInstance().deleteSpawn(spawn, false);
+					}
+				}
+			}
+			// Reload.
+			SpawnsData.getInstance().init();
 			DBSpawnManager.getInstance().load();
+			ZoneManager.getInstance().reload();
 			QuestManager.getInstance().reloadAllScripts();
-			AdminData.getInstance().broadcastMessageToGMs("NPC Respawn completed!");
+			AdminData.getInstance().broadcastMessageToGMs("NPC respawn completed!");
 		}
 		else if (command.startsWith("admin_spawnat"))
 		{
@@ -425,9 +482,7 @@ public class AdminSpawn implements IAdminCommandHandler
 		try
 		{
 			final L2Spawn spawn = new L2Spawn(template1);
-			spawn.setX(target.getX());
-			spawn.setY(target.getY());
-			spawn.setZ(target.getZ());
+			spawn.setXYZ(target);
 			spawn.setAmount(mobCount);
 			spawn.setHeading(activeChar.getHeading());
 			spawn.setRespawnDelay(respawnTime);
@@ -473,9 +528,7 @@ public class AdminSpawn implements IAdminCommandHandler
 		try
 		{
 			final L2Spawn spawn = new L2Spawn(template1);
-			spawn.setX(x);
-			spawn.setY(y);
-			spawn.setZ(z);
+			spawn.setXYZ(x, y, z);
 			spawn.setAmount(1);
 			spawn.setHeading(h);
 			spawn.setRespawnDelay(60);

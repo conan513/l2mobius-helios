@@ -47,7 +47,7 @@ public class Time implements IUserCommandHandler
 		}
 		
 		final int t = GameTimeController.getInstance().getGameTime();
-		final String h = "" + ((t / 60) % 24);
+		final String h = Integer.toString(((t / 60) % 24));
 		String m;
 		if ((t % 60) < 10)
 		{
@@ -55,7 +55,7 @@ public class Time implements IUserCommandHandler
 		}
 		else
 		{
-			m = "" + (t % 60);
+			m = Integer.toString((t % 60));
 		}
 		
 		SystemMessage sm;

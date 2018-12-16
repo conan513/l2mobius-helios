@@ -46,7 +46,7 @@ public class L2StaticObjectInstanceAction implements IActionHandler
 		else if (interact)
 		{
 			// Calculate the distance between the L2PcInstance and the L2NpcInstance
-			if (!activeChar.isInsideRadius(staticObject, L2Npc.INTERACTION_DISTANCE, false, false))
+			if (!activeChar.isInsideRadius2D(staticObject, L2Npc.INTERACTION_DISTANCE))
 			{
 				// Notify the L2PcInstance AI with AI_INTENTION_INTERACT
 				activeChar.getAI().setIntention(CtrlIntention.AI_INTENTION_INTERACT, staticObject);

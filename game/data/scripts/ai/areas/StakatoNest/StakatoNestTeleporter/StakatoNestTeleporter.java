@@ -61,7 +61,7 @@ public final class StakatoNestTeleporter extends AbstractNpcAI
 			{
 				for (L2PcInstance partyMember : player.getParty().getMembers())
 				{
-					if (partyMember.isInsideRadius(player, 1000, true, true))
+					if (partyMember.isInsideRadius3D(player, 1000))
 					{
 						partyMember.teleToLocation(loc, true);
 					}

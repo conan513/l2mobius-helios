@@ -216,7 +216,7 @@ public final class PrisonOfDarkness extends AbstractInstance
 						{
 							for (L2PcInstance member : player.getParty().getMembers())
 							{
-								if (member.isInsideRadius(npc, 1500, true, true))
+								if (member.isInsideRadius3D(npc, 1500))
 								{
 									member.teleToLocation(ORBIS_LOCATION);
 								}
@@ -398,7 +398,7 @@ public final class PrisonOfDarkness extends AbstractInstance
 		final Instance instance = npc.getInstanceWorld();
 		if (isInInstance(instance))
 		{
-			if ((skill == TELEPORT.getSkill()) && (player != null) && (npc.calculateDistance(player, true, false) < 1000) && (npc.getCurrentHpPercent() > 10))
+			if ((skill == TELEPORT.getSkill()) && (player != null) && (npc.calculateDistance3D(player) < 1000) && (npc.getCurrentHpPercent() > 10))
 			{
 				player.teleToLocation(PLAYERS_TELEPORT_RANDOM_LOCS[getRandom(PLAYERS_TELEPORT_RANDOM_LOCS.length)]);
 			}

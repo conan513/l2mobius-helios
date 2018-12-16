@@ -193,7 +193,7 @@ public class AdminAnnouncements implements IAdminCommandHandler
 						if (!st.hasMoreTokens())
 						{
 							String content = HtmCache.getInstance().getHtm(activeChar, "data/html/admin/announces-edit.htm");
-							final String announcementId = "" + announce.getId();
+							final String announcementId = Integer.toString(announce.getId());
 							final String announcementType = announce.getType().name();
 							String announcementInital = "0";
 							String announcementDelay = "0";
@@ -203,9 +203,9 @@ public class AdminAnnouncements implements IAdminCommandHandler
 							if (announce instanceof AutoAnnouncement)
 							{
 								final AutoAnnouncement autoAnnounce = (AutoAnnouncement) announce;
-								announcementInital = "" + (autoAnnounce.getInitial() / 1000);
-								announcementDelay = "" + (autoAnnounce.getDelay() / 1000);
-								announcementRepeat = "" + autoAnnounce.getRepeat();
+								announcementInital = Long.toString(autoAnnounce.getInitial() / 1000);
+								announcementDelay = Long.toString(autoAnnounce.getDelay() / 1000);
+								announcementRepeat = Integer.toString(autoAnnounce.getRepeat());
 							}
 							content = content.replaceAll("%id%", announcementId);
 							content = content.replaceAll("%type%", announcementType);
@@ -419,7 +419,7 @@ public class AdminAnnouncements implements IAdminCommandHandler
 						if (announce != null)
 						{
 							String content = HtmCache.getInstance().getHtm(activeChar, "data/html/admin/announces-show.htm");
-							final String announcementId = "" + announce.getId();
+							final String announcementId = Integer.toString(announce.getId());
 							final String announcementType = announce.getType().name();
 							String announcementInital = "0";
 							String announcementDelay = "0";
@@ -429,9 +429,9 @@ public class AdminAnnouncements implements IAdminCommandHandler
 							if (announce instanceof AutoAnnouncement)
 							{
 								final AutoAnnouncement autoAnnounce = (AutoAnnouncement) announce;
-								announcementInital = "" + (autoAnnounce.getInitial() / 1000);
-								announcementDelay = "" + (autoAnnounce.getDelay() / 1000);
-								announcementRepeat = "" + autoAnnounce.getRepeat();
+								announcementInital = Long.toString(autoAnnounce.getInitial() / 1000);
+								announcementDelay = Long.toString(autoAnnounce.getDelay() / 1000);
+								announcementRepeat = Integer.toString(autoAnnounce.getRepeat());
 							}
 							content = content.replaceAll("%id%", announcementId);
 							content = content.replaceAll("%type%", announcementType);

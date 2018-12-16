@@ -88,7 +88,7 @@ public final class Trandon extends AbstractNpcAI
 			}
 			case "33490-12.html":
 			{
-				if (player.getRace().equals(Race.ERTHEIA) || hasAllSubCertifications(player))
+				if (player.getRace() == Race.ERTHEIA || hasAllSubCertifications(player))
 				{
 					htmltext = "33490-15.html";
 				}
@@ -134,7 +134,7 @@ public final class Trandon extends AbstractNpcAI
 			}
 			case "giveSubCertify":
 			{
-				if ((substrings.length < 2) || !player.isSubClassActive() || player.getRace().equals(Race.ERTHEIA))
+				if ((substrings.length < 2) || !player.isSubClassActive() || player.getRace() == Race.ERTHEIA)
 				{
 					return null;
 				}
@@ -161,7 +161,7 @@ public final class Trandon extends AbstractNpcAI
 			}
 			case "learnSubSkill":
 			{
-				if (player.getRace().equals(Race.ERTHEIA))
+				if (player.getRace() == Race.ERTHEIA)
 				{
 					htmltext = "33490-15.html";
 				}
@@ -178,7 +178,8 @@ public final class Trandon extends AbstractNpcAI
 			}
 			case "deleteSubSkill":
 			{
-				if (player.getRace().equals(Race.ERTHEIA))
+				// TODO: Unknown html
+				if (player.getRace() == Race.ERTHEIA)
 				{
 					htmltext = "33490-15.html";
 				}

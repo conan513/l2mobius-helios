@@ -142,29 +142,6 @@
 		</parameters>
 		</npc>
 	</spawn>
-	<spawn name="rune10_mb2116_01m1" ai="ON_DAY_NIGHT_SPAWN">
-		<territories>
-			<territory name="rune10_mb2116_01" minZ="-3060" maxZ="-2810">
-				<node x="60056" y="-42856" />
-				<node x="60254" y="-42112" />
-				<node x="59393" y="-41412" />
-				<node x="58528" y="-42009" />
-				<node x="58969" y="-42638" />
-			</territory>
-		</territories>
-		<parameters>
-			<param name="IsNight" value="1" />
-		</parameters>
-		<npc id="25328" dbSave="true" dbName="raid_boss_von_helman" respawnTime="3hour" respawnRandom="1hour"> <!-- Eilhalder von Hellmann -->
-			<locations>
-				<location x="59331" y="-42403" z="-3003" chance="20" />
-				<location x="59709" y="-42310" z="-3003" chance="20" />
-				<location x="59717" y="-41974" z="-3003" chance="20" />
-				<location x="59333" y="-41858" z="-3003" chance="20" />
-				<location x="59047" y="-42165" z="-3003" chance="20" />
-			</locations>
-		</npc>
-	</spawn>
 	<spawn name="schuttgart11_mb2313_01m1" ai="DEFAULT_USE_DB_MAKER">
 		<territories>
 			<territory name="schuttgart11_mb2313_01" minZ="-1716" maxZ="-1016">

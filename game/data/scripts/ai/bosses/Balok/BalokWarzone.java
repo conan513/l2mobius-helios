@@ -165,7 +165,7 @@ public final class BalokWarzone extends AbstractInstance
 				{
 					if (npc.getId() == MINION)
 					{
-						if (npc.calculateDistance(balok, false, true) > 113125)
+						if (npc.calculateDistanceSq2D(balok) > 113125)
 						{
 							npc.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, new Location(balok.getX() + 100, balok.getY() + 50, balok.getZ(), balok.getHeading()));
 							getTimers().addTimer("stage_last_minion_walk", 2000, npc, player);

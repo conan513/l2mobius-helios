@@ -76,7 +76,7 @@ public class Q00181_DevilsStrikeBackAdventOfBalok extends Quest
 				giveAdena(player, 37128000, true);
 				playSound(player, QuestSound.ITEMSOUND_QUEST_ITEMGET);
 				qs.exitQuest(QuestType.ONE_TIME, true);
-				switch (Rnd.get(2))
+				switch (Rnd.get(3))
 				{
 					case 0:
 					{

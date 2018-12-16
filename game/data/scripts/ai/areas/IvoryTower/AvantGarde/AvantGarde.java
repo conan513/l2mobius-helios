@@ -53,7 +53,7 @@ public final class AvantGarde extends AbstractNpcAI
 	@Override
 	public String onAcquireSkill(L2Npc npc, L2PcInstance player, Skill skill, AcquireSkillType type)
 	{
-		if (type.equals(AcquireSkillType.TRANSFORM))
+		if (type == AcquireSkillType.TRANSFORM)
 		{
 			showTransformSkillList(player);
 		}

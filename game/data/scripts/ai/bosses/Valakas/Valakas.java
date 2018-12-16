@@ -516,7 +516,7 @@ public final class Valakas extends AbstractNpcAI
 		}
 		
 		// Valakas will use mass spells if he feels surrounded.
-		if (L2World.getInstance().getVisibleObjects(npc, L2PcInstance.class, 1200).size() >= 20)
+		if (L2World.getInstance().getVisibleObjectsInRange(npc, L2PcInstance.class, 1200).size() >= 20)
 		{
 			return VALAKAS_AOE_SKILLS[getRandom(VALAKAS_AOE_SKILLS.length)];
 		}

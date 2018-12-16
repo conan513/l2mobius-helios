@@ -254,6 +254,7 @@
 		<set name="is_commissionable" val="false" />
 		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
 	</item>
 	<item id="46623" name="5,000,000,000 Adana" additionalName="Event" type="EtcItem">
 		<!-- Adena? No, this is Adana. Take it to Event Manager Miss Patch to exchange for a 30-day Armor Set (R-grade or above), or a Weapon (R-grade or above). Lv. 85 or above. Deleted after event. -->
@@ -267,6 +268,7 @@
 		<set name="is_commissionable" val="false" />
 		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
 	</item>
 	<item id="46624" name="Entrance Pass: Embryo Command Post" additionalName="1-day" type="EtcItem">
 		<!-- Double-click to reset cooldown to Embryo Command Post. Can only be used once a day outside of the instance zone. -->
@@ -534,6 +536,7 @@
 		<set name="is_commissionable" val="false" />
 		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
 	</item>
 	<item id="46640" name="Assistant Roa's Gift" additionalName="Event" type="EtcItem">
 		<!-- Gift box full of Roa's love. Double-click to get a random gift from Roa. -->
@@ -1262,7 +1265,6 @@
 		<set name="handler" val="ExtractableItems" />
 		<set name="is_clan_depositable" val="true" />
 		<set name="is_mailable" val="true" />
-		<set name="is_freightable" val="true" />
 		<set name="is_commissionable" val="false" />
 		<capsuled_items>
 			<item id="26476" min="1" max="1" chance="100" />
@@ -1280,7 +1282,6 @@
 		<set name="handler" val="ExtractableItems" />
 		<set name="is_clan_depositable" val="true" />
 		<set name="is_mailable" val="true" />
-		<set name="is_freightable" val="true" />
 		<set name="is_commissionable" val="false" />
 		<capsuled_items>
 			<item id="26481" min="1" max="1" chance="100" />
@@ -1298,7 +1299,6 @@
 		<set name="handler" val="ExtractableItems" />
 		<set name="is_clan_depositable" val="true" />
 		<set name="is_mailable" val="true" />
-		<set name="is_freightable" val="true" />
 		<set name="is_commissionable" val="false" />
 		<capsuled_items>
 			<item id="26486" min="1" max="1" chance="100" />
@@ -1316,7 +1316,6 @@
 		<set name="handler" val="ExtractableItems" />
 		<set name="is_clan_depositable" val="true" />
 		<set name="is_mailable" val="true" />
-		<set name="is_freightable" val="true" />
 		<set name="is_commissionable" val="false" />
 		<capsuled_items>
 			<item id="26474" min="1" max="1" chance="100" />
@@ -1334,7 +1333,6 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="is_clan_depositable" val="true" />
 		<set name="is_mailable" val="true" />
-		<set name="is_freightable" val="true" />
 		<set name="is_commissionable" val="false" />
 		<skills>
 			<skill id="18564" level="1" /> <!-- Shadai's Jewelry Box -->

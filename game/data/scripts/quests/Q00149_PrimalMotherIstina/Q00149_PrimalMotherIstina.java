@@ -145,7 +145,7 @@ public final class Q00149_PrimalMotherIstina extends Quest
 	public void actionForEachPlayer(L2PcInstance player, L2Npc npc, boolean isSummon)
 	{
 		final QuestState qs = getQuestState(player, false);
-		if ((qs != null) && player.isInsideRadius(npc, Config.ALT_PARTY_RANGE, true, true))
+		if ((qs != null) && player.isInsideRadius3D(npc, Config.ALT_PARTY_RANGE))
 		{
 			giveItems(player, SHILENS_MARK, 1);
 			qs.setCond(2, true);

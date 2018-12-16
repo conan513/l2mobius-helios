@@ -548,7 +548,7 @@ public final class Q10752_WindsOfFateAPromise extends Quest
 		final int oldLevel = event.getOldLevel();
 		final int newLevel = event.getNewLevel();
 		
-		if ((qs == null) && (player.getRace().equals(Race.ERTHEIA)) && (oldLevel < newLevel) && (newLevel >= MIN_LEVEL) && (player.isInCategory(CategoryType.THIRD_CLASS_GROUP)))
+		if ((qs == null) && (player.getRace() == Race.ERTHEIA) && (oldLevel < newLevel) && (newLevel >= MIN_LEVEL) && (player.isInCategory(CategoryType.THIRD_CLASS_GROUP)))
 		{
 			if (player.isMageClass())
 			{
@@ -574,7 +574,7 @@ public final class Q10752_WindsOfFateAPromise extends Quest
 		final L2PcInstance player = event.getActiveChar();
 		final QuestState qs = getQuestState(player, false);
 		
-		if ((qs == null) && player.getRace().equals(Race.ERTHEIA) && (player.getLevel() >= MIN_LEVEL) && (player.isInCategory(CategoryType.THIRD_CLASS_GROUP)))
+		if ((qs == null) && player.getRace() == Race.ERTHEIA && (player.getLevel() >= MIN_LEVEL) && (player.isInCategory(CategoryType.THIRD_CLASS_GROUP)))
 		{
 			if (player.isMageClass())
 			{

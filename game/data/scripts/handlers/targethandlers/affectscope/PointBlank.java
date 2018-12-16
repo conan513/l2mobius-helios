@@ -54,10 +54,16 @@ public class PointBlank implements IAffectScopeHandler
 			{
 				return false;
 			}
-			// XXX : Find a proper way to fix, if it's not proper.
-			if ((affectObject != null) && (!c.isDead() || (skill.getAffectObject() == AffectObject.OBJECT_DEAD_NPC_BODY)) && !affectObject.checkAffectedObject(activeChar, c))
+			if (affectObject != null)
 			{
-				return false;
+				if (c.isDead() && (skill.getAffectObject() != AffectObject.OBJECT_DEAD_NPC_BODY))
+				{
+					return false;
+				}
+				if (!affectObject.checkAffectedObject(activeChar, c))
+				{
+					return false;
+				}
 			}
 			if (!GeoEngine.getInstance().canSeeTarget(target, c))
 			{
@@ -76,9 +82,9 @@ public class PointBlank implements IAffectScopeHandler
 				final Location worldPosition = activeChar.getActingPlayer().getCurrentSkillWorldPosition();
 				if (worldPosition != null)
 				{
-					L2World.getInstance().forEachVisibleObjectInRange(activeChar, L2Character.class, (int) (affectRange + activeChar.calculateDistance(worldPosition, false, false)), c ->
+					L2World.getInstance().forEachVisibleObjectInRange(activeChar, L2Character.class, (int) (affectRange + activeChar.calculateDistance2D(worldPosition)), c ->
 					{
-						if (!c.isInsideRadius(worldPosition, affectRange, true, true))
+						if (!c.isInsideRadius3D(worldPosition, affectRange))
 						{
 							return;
 						}

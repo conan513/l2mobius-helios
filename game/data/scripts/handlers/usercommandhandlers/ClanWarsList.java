@@ -62,7 +62,7 @@ public class ClanWarsList implements IUserCommandHandler
 			return false;
 		}
 		
-		try (Connection con = DatabaseFactory.getInstance().getConnection())
+		try (Connection con = DatabaseFactory.getConnection())
 		{
 			String query;
 			// Attack List

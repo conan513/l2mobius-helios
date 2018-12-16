@@ -91,7 +91,7 @@ public final class Q10787_ASpyMission extends Quest
 						htmltext = "33994-03.html";
 					}
 					// @formatter:off
-					L2World.getInstance().getVisibleObjects(npc, L2Npc.class, 150).stream()
+					L2World.getInstance().getVisibleObjectsInRange(npc, L2Npc.class, 150).stream()
 					.filter(n -> (n.getId() == EMBRYO_PURIFIER))
 					.forEach(mob -> addAttackPlayerDesire(mob, player));
 					// @formatter:on

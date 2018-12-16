@@ -136,6 +136,5 @@ public final class Disarmor extends AbstractEffect
 				}
 			}
 		}
-		super.onExit(effector, effected, skill);
 	}
 }

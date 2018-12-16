@@ -21,6 +21,7 @@
 	<admin command="admin_set_mod" accessLevel="100" />
 	<admin command="admin_saveolymp" accessLevel="100" />
 	<admin command="admin_sethero" accessLevel="100" />
+	<admin command="admin_settruehero" accessLevel="100" />
 	<admin command="admin_givehero" accessLevel="100" confirmDlg="true" />
 	<admin command="admin_endolympiad" accessLevel="100" confirmDlg="true" />
 	<admin command="admin_setconfig" accessLevel="100" />
@@ -163,10 +164,6 @@
 	<admin command="admin_para_all_menu" accessLevel="100" />
 	<admin command="admin_unpara_menu" accessLevel="100" />
 	<admin command="admin_para_menu" accessLevel="100" />
-	<admin command="admin_polyself" accessLevel="100" />
-	<admin command="admin_unpolyself" accessLevel="100" />
-	<admin command="admin_polyself_menu" accessLevel="100" />
-	<admin command="admin_unpolyself_menu" accessLevel="100" />
 	<admin command="admin_clearteams" accessLevel="100" />
 	<admin command="admin_setteam_close" accessLevel="100" />
 	<admin command="admin_setteam" accessLevel="100" />
@@ -237,8 +234,6 @@
 	<admin command="admin_event_name" accessLevel="100" />
 	<admin command="admin_event_control_kill" accessLevel="100" />
 	<admin command="admin_event_control_res" accessLevel="100" />
-	<admin command="admin_event_control_poly" accessLevel="100" />
-	<admin command="admin_event_control_unpoly" accessLevel="100" />
 	<admin command="admin_event_control_transform" accessLevel="100" />
 	<admin command="admin_event_control_untransform" accessLevel="100" />
 	<admin command="admin_event_control_prize" accessLevel="100" />
@@ -435,9 +430,7 @@
 	<!-- ADMIN PLEDGE -->
 	<admin command="admin_pledge" accessLevel="100" />
 
-	<!-- ADMIN POLYMORPH -->
-	<admin command="admin_polymorph" accessLevel="100" />
-	<admin command="admin_unpolymorph" accessLevel="100" />
+	<!-- ADMIN TRANSFORM -->
 	<admin command="admin_transform" accessLevel="100" />
 	<admin command="admin_untransform" accessLevel="100" />
 	<admin command="admin_transform_menu" accessLevel="100" />
@@ -584,7 +577,6 @@
 	<!-- ADMIN TEST -->
 	<admin command="admin_stats" accessLevel="100" />
 	<admin command="admin_skill_test" accessLevel="100" />
-	<admin command="admin_known" accessLevel="100" />
 
 	<!-- ADMIN TVT EVENT -->
 	<admin command="admin_tvt_add" accessLevel="100" />

@@ -67,7 +67,7 @@ public final class TeleportToSummon extends AbstractEffect
 	{
 		final L2Summon summon = effected.getActingPlayer().getFirstServitor();
 		
-		if ((_maxDistance > 0) && (effector.calculateDistance(summon, false, false) >= _maxDistance))
+		if ((_maxDistance > 0) && (effector.calculateDistance2D(summon) >= _maxDistance))
 		{
 			return;
 		}

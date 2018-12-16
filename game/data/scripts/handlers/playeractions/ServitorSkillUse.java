@@ -16,8 +16,8 @@
  */
 package handlers.playeractions;
 
-import com.l2jmobius.gameserver.data.xml.impl.SkillData;
 import com.l2jmobius.gameserver.data.xml.impl.PetSkillData;
+import com.l2jmobius.gameserver.data.xml.impl.SkillData;
 import com.l2jmobius.gameserver.handler.IPlayerActionHandler;
 import com.l2jmobius.gameserver.model.ActionDataHolder;
 import com.l2jmobius.gameserver.model.actor.L2Summon;
@@ -33,11 +33,6 @@ public final class ServitorSkillUse implements IPlayerActionHandler
 	@Override
 	public void useAction(L2PcInstance activeChar, ActionDataHolder data, boolean ctrlPressed, boolean shiftPressed)
 	{
-		if (activeChar.getTarget() == null)
-		{
-			return;
-		}
-		
 		final L2Summon summon = activeChar.getAnyServitor();
 		if ((summon == null) || !summon.isServitor())
 		{

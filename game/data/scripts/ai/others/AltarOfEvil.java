@@ -71,7 +71,7 @@ public final class AltarOfEvil extends AbstractNpcAI
 	
 	private void teleportPlayer(L2Npc npc, L2PcInstance player)
 	{
-		if (npc.isScriptValue(0) && (npc.calculateDistance(player, true, false) > 200))
+		if (npc.isScriptValue(0) && (npc.calculateDistance3D(player) > 200))
 		{
 			addSkillCastDesire(npc, player, SKILL, 23);
 			npc.setScriptValue(1);

@@ -88,7 +88,7 @@ public class BossDailyMissionHandler extends AbstractDailyMissionHandler
 			{
 				final L2CommandChannel channel = party.getCommandChannel();
 				final List<L2PcInstance> members = channel != null ? channel.getMembers() : party.getMembers();
-				members.stream().filter(member -> member.calculateDistance(monster, true, false) <= Config.ALT_PARTY_RANGE).forEach(this::processPlayerProgress);
+				members.stream().filter(member -> member.calculateDistance3D(monster) <= Config.ALT_PARTY_RANGE).forEach(this::processPlayerProgress);
 			}
 			else
 			{

@@ -152,7 +152,7 @@ public final class ImprovedBabyPets extends AbstractNpcAI
 					}
 				}
 				
-				if (!previousFollowStatus && !summon.isInsideRadius(owner, skill.getSkill().getCastRange(), true, true))
+				if (!previousFollowStatus && !summon.isInsideRadius3D(owner, skill.getSkill().getCastRange()))
 				{
 					return false;
 				}
@@ -183,7 +183,7 @@ public final class ImprovedBabyPets extends AbstractNpcAI
 		
 		if ((skill != null) && (owner != null) && SkillCaster.checkUseConditions(summon, skill.getSkill()) && !owner.isDead())
 		{
-			if (!previousFollowStatus && !summon.isInsideRadius(owner, skill.getSkill().getCastRange(), true, true))
+			if (!previousFollowStatus && !summon.isInsideRadius3D(owner, skill.getSkill().getCastRange()))
 			{
 				return;
 			}

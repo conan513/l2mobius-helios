@@ -24,6 +24,7 @@ import com.l2jmobius.gameserver.ai.CtrlEvent;
 import com.l2jmobius.gameserver.ai.CtrlIntention;
 import com.l2jmobius.gameserver.model.StatsSet;
 import com.l2jmobius.gameserver.model.actor.L2Character;
+import com.l2jmobius.gameserver.model.actor.L2Summon;
 import com.l2jmobius.gameserver.model.effects.AbstractEffect;
 import com.l2jmobius.gameserver.model.effects.EffectFlag;
 import com.l2jmobius.gameserver.model.effects.L2EffectType;
@@ -66,13 +67,27 @@ public final class BlockActions extends AbstractEffect
 	public void onExit(L2Character effector, L2Character effected, Skill skill)
 	{
 		_allowedSkills.stream().forEach(effected::removeBlockActionsAllowedSkill);
-		if (!effected.isPlayer())
+		if (effected.isPlayable())
 		{
-			effected.getAI().notifyEvent(CtrlEvent.EVT_THINK);
+			if (effected.isSummon())
+			{
+				if ((effector != null) && !effector.isDead())
+				{
+					((L2Summon) effected).doAttack(effector);
+				}
+				else
+				{
+					effected.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, effected.getActingPlayer());
+				}
+			}
+			else
+			{
+				effected.getAI().setIntention(CtrlIntention.AI_INTENTION_ACTIVE);
+			}
 		}
 		else
 		{
-			effected.getAI().setIntention(CtrlIntention.AI_INTENTION_ACTIVE);
+			effected.getAI().notifyEvent(CtrlEvent.EVT_THINK);
 		}
 	}
 }

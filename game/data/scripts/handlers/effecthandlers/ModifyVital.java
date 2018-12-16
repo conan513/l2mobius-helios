@@ -46,7 +46,7 @@ public final class ModifyVital extends AbstractEffect
 	public ModifyVital(StatsSet params)
 	{
 		_type = params.getEnum("type", ModifyType.class);
-		if (!_type.equals(ModifyType.SET))
+		if (_type != ModifyType.SET)
 		{
 			_hp = params.getInt("hp", 0);
 			_mp = params.getInt("mp", 0);

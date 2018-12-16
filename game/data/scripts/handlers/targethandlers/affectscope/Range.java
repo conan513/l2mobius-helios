@@ -46,6 +46,7 @@ public class Range implements IAffectScopeHandler
 		final int affectLimit = skill.getAffectLimit();
 		
 		// Target checks.
+		final TargetType targetType = skill.getTargetType();
 		final AtomicInteger affected = new AtomicInteger(0);
 		final Predicate<L2Character> filter = c ->
 		{
@@ -53,7 +54,7 @@ public class Range implements IAffectScopeHandler
 			{
 				return false;
 			}
-			if (c.isDead())
+			if (c.isDead() && (targetType != TargetType.NPC_BODY) && (targetType != TargetType.PC_BODY))
 			{
 				return false;
 			}
@@ -75,16 +76,16 @@ public class Range implements IAffectScopeHandler
 		};
 		
 		// Check and add targets.
-		if (skill.getTargetType() == TargetType.GROUND)
+		if (targetType == TargetType.GROUND)
 		{
 			if (activeChar.isPlayable())
 			{
 				final Location worldPosition = activeChar.getActingPlayer().getCurrentSkillWorldPosition();
 				if (worldPosition != null)
 				{
-					L2World.getInstance().forEachVisibleObjectInRange(activeChar, L2Character.class, (int) (affectRange + activeChar.calculateDistance(worldPosition, false, false)), c ->
+					L2World.getInstance().forEachVisibleObjectInRange(activeChar, L2Character.class, (int) (affectRange + activeChar.calculateDistance2D(worldPosition)), c ->
 					{
-						if (!c.isInsideRadius(worldPosition, affectRange, true, true))
+						if (!c.isInsideRadius3D(worldPosition, affectRange))
 						{
 							return;
 						}

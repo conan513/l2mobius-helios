@@ -2297,9 +2297,8 @@
 		<!-- Updated to IO -->
 		<!-- For 10 seconds, drains target's life with 25 Power per second. Absorbs 100% of the damage inflicted as HP. -->
 		<icon>icon.skill11030</icon>
-		<channelingSkillId>11030</channelingSkillId>
-		<channelingTickInterval>1000</channelingTickInterval>
-		<channelingTickInitialDelay>1200</channelingTickInitialDelay>
+		<channelingTickInterval>1</channelingTickInterval>
+		<channelingStart>1.2</channelingStart>
 		<operateType>CA1</operateType>
 		<magicLvl>
 			<value level="1">85</value>
@@ -4323,8 +4322,8 @@
 		</activateRate>
 		<basicProperty>NONE</basicProperty>
 		<channelingSkillId>11182</channelingSkillId> <!-- Yoke Status --> 
-		<channelingTickInitialDelay>1200</channelingTickInitialDelay>
-		<channelingTickInterval>2000</channelingTickInterval>
+		<channelingStart>1.2</channelingStart>
+		<channelingTickInterval>2</channelingTickInterval>
 		<mpPerChanneling>15</mpPerChanneling>
 		<operateType>CA2</operateType>
 		<trait>AIRBIND</trait>

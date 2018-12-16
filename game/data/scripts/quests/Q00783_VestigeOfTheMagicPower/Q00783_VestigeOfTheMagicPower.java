@@ -223,7 +223,7 @@ public class Q00783_VestigeOfTheMagicPower extends Quest
 			for (L2PcInstance singleMember : partyMember)
 			{
 				QuestState qsPartyMember = getQuestState(singleMember, false);
-				double distance = npc.calculateDistance(singleMember, true, false);
+				double distance = npc.calculateDistance3D(singleMember);
 				if ((qsPartyMember != null) && (distance <= 1000))
 				{
 					if (qsPartyMember.isCond(2))

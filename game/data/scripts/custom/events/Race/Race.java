@@ -167,7 +167,7 @@ public final class Race extends Event
 		{
 			if ((player != null) && player.isOnline())
 			{
-				if (player.isInsideRadius(_npc, 500, false, false))
+				if (player.isInsideRadius2D(_npc, 500))
 				{
 					sendMessage(player, "Race started! Go find Finish NPC as fast as you can... He is located near " + _locations[location]);
 					transformPlayer(player);

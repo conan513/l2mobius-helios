@@ -121,7 +121,7 @@ public final class Sailren extends AbstractNpcAI
 					_lastAttack = System.currentTimeMillis();
 					for (L2PcInstance member : player.getParty().getMembers())
 					{
-						if (member.isInsideRadius(npc, 1000, true, false))
+						if (member.isInsideRadius3D(npc, 1000))
 						{
 							member.teleToLocation(27549, -6638, -2008);
 						}

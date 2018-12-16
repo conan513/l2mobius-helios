@@ -98,11 +98,11 @@ public final class Hardin extends AbstractNpcAI
 					}
 					if (Config.HARDIN_RETAIL_LIMITATIONS)
 					{
-						if (c.equals(ClassId.TYRR_MAESTRO) && (player.getRace() != Race.DWARF))
+						if (c == ClassId.TYRR_MAESTRO && (player.getRace() != Race.DWARF))
 						{
 							continue;
 						}
-						if (c.equals(ClassId.ISS_DOMINATOR) && (player.getRace() != Race.ORC))
+						if (c == ClassId.ISS_DOMINATOR && (player.getRace() != Race.ORC))
 						{
 							continue;
 						}
@@ -171,7 +171,7 @@ public final class Hardin extends AbstractNpcAI
 	
 	private String getHtmlMessage(L2PcInstance player)
 	{
-		if (player.getRace().equals(Race.ERTHEIA))
+		if (player.getRace() == Race.ERTHEIA)
 		{
 			final QuestState qs = player.getQuestState(Q10472_WindsOfFateEncroachingShadows.class.getSimpleName());
 			if ((qs != null) && (qs.getCond() >= 7) && (qs.getCond() <= 17))

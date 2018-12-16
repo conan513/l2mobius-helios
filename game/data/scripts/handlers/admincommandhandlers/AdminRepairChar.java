@@ -62,7 +62,7 @@ public class AdminRepairChar implements IAdminCommandHandler
 		}
 		
 		final String cmd = "UPDATE characters SET x=-84318, y=244579, z=-3730 WHERE char_name=?";
-		try (Connection con = DatabaseFactory.getInstance().getConnection())
+		try (Connection con = DatabaseFactory.getConnection())
 		{
 			PreparedStatement statement = con.prepareStatement(cmd);
 			statement.setString(1, parts[1]);
@@ -87,13 +87,13 @@ public class AdminRepairChar implements IAdminCommandHandler
 				return;
 			}
 			
-			// connection = L2DatabaseFactory.getInstance().getConnection();
+			// connection = L2DatabaseFactory.getConnection();
 			statement = con.prepareStatement("DELETE FROM character_shortcuts WHERE charId=?");
 			statement.setInt(1, objId);
 			statement.execute();
 			statement.close();
 			
-			// connection = L2DatabaseFactory.getInstance().getConnection();
+			// connection = L2DatabaseFactory.getConnection();
 			statement = con.prepareStatement("UPDATE items SET loc=\"INVENTORY\" WHERE owner_id=?");
 			statement.setInt(1, objId);
 			statement.execute();

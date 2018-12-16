@@ -864,7 +864,7 @@
 				<power>23700</power>
 			</effect>
 			<effect name="BlockActions">
-				<allowedSkills>10279;10517;10025;10776;11770;1904</allowedSkills>
+				<allowedSkills>10279;10517;10025;10776;11770;1904;11264;11093;13314;1912</allowedSkills>
 			</effect>
 			<effect name="FlyAway"> <!-- TODO: {i_fly_away;curve;push;200} -->
 				<radius>200</radius>
@@ -904,7 +904,7 @@
 				<power>47400</power>
 			</effect>
 			<effect name="BlockActions">
-				<allowedSkills>10279;10517;10025;10776;11770;1904</allowedSkills>
+				<allowedSkills>10279;10517;10025;10776;11770;1904;11264;11093;13314;1912</allowedSkills>
 			</effect>
 			<effect name="FlyAway"> <!-- TODO: {i_fly_away;curve;push;300} -->
 				<radius>300</radius>
@@ -989,7 +989,7 @@
 				<power>242052</power>
 			</effect>
 			<effect name="BlockActions">
-				<allowedSkills>10279;10517;10025;10776;11770;1904</allowedSkills>
+				<allowedSkills>10279;10517;10025;10776;11770;1904;11264;11093;13314;1912</allowedSkills>
 			</effect>
 			<effect name="FlyAway"> <!-- TODO: {i_fly_away;curve;push;450} -->
 				<radius>450</radius>
@@ -1205,7 +1205,7 @@
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>1000</effectRange>
 		<magicLvl>95</magicLvl>
-		<channelingTickInitialDelay>1000</channelingTickInitialDelay>
+		<channelingStart>1</channelingStart>
 		<channelingTickInterval>0</channelingTickInterval>
 		<isMagic>2</isMagic>
 		<reuseDelay>3000</reuseDelay>
@@ -2797,9 +2797,8 @@
 		<abnormalTime>180</abnormalTime>
 		<affectRange>100</affectRange>
 		<isDebuff>true</isDebuff>
-		<targetType>SELF</targetType>
-		<affectScope>POINT_BLANK</affectScope>
-		<affectObject>NOT_FRIEND</affectObject>
+		<targetType>TARGET</targetType>
+		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="Speed">
 				<amount>-20</amount>
@@ -2825,9 +2824,8 @@
 		<abnormalTime>180</abnormalTime>
 		<affectRange>100</affectRange>
 		<isDebuff>true</isDebuff>
-		<targetType>SELF</targetType>
-		<affectScope>POINT_BLANK</affectScope>
-		<affectObject>NOT_FRIEND</affectObject>
+		<targetType>TARGET</targetType>
+		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="PhysicalAttackSpeed">
 				<amount>-15</amount>

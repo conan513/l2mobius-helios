@@ -328,6 +328,7 @@ import quests.Q10450_ADarkAmbition.Q10450_ADarkAmbition;
 import quests.Q10452_IsItEdible.Q10452_IsItEdible;
 import quests.Q10453_StoppingTheWindDragon.Q10453_StoppingTheWindDragon;
 import quests.Q10455_ElikiasLetter.Q10455_ElikiasLetter;
+import quests.Q10456_OperationRescue.Q10456_OperationRescue;
 import quests.Q10459_ASickAmbition.Q10459_ASickAmbition;
 import quests.Q10460_ReturnOfTheAlligatorHunter.Q10460_ReturnOfTheAlligatorHunter;
 import quests.Q10461_TappingThePowerWithin.Q10461_TappingThePowerWithin;
@@ -766,6 +767,7 @@ public class QuestMasterHandler
 		Q10452_IsItEdible.class,
 		Q10453_StoppingTheWindDragon.class,
 		Q10455_ElikiasLetter.class,
+		Q10456_OperationRescue.class,
 		Q10459_ASickAmbition.class,
 		Q10460_ReturnOfTheAlligatorHunter.class,
 		Q10461_TappingThePowerWithin.class,
@@ -893,7 +895,7 @@ public class QuestMasterHandler
 		{
 			try
 			{
-				quest.newInstance();
+				quest.getDeclaredConstructor().newInstance();
 			}
 			catch (Exception e)
 			{

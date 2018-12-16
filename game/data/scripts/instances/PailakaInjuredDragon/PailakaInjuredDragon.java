@@ -370,7 +370,7 @@ public final class PailakaInjuredDragon extends AbstractInstance
 				}
 				case "ATTACK":
 				{
-					if (npc.calculateDistance(player, false, false) < 100)
+					if (npc.calculateDistance2D(player) < 100)
 					{
 						if (getRandom(100) < 30)
 						{
@@ -449,7 +449,7 @@ public final class PailakaInjuredDragon extends AbstractInstance
 				{
 					final L2Npc latana = world.getNpc(LATANA);
 					final L2PcInstance player = world.getFirstPlayer();
-					if ((latana != null) && (player != null) && (latana.calculateDistance(player, false, false) <= 900))
+					if ((latana != null) && (player != null) && (latana.calculateDistance2D(player) <= 900))
 					{
 						addSkillCastDesire(npc, player, STUN, 500000);
 					}
@@ -525,7 +525,7 @@ public final class PailakaInjuredDragon extends AbstractInstance
 				final int longRangeGuardRate = npc.getParameters().getInt("LongRangeGuardRate", -1);
 				if ((longRangeGuardRate != -1) && ((skill != null) && !CommonUtil.contains(REJECTED_SKILLS, skill.getId())))
 				{
-					if (npc.calculateDistance(attacker, false, false) > 150)
+					if (npc.calculateDistance2D(attacker) > 150)
 					{
 						if ((npc.getEffectList().getFirstBuffInfoByAbnormalType(AbnormalType.PD_UP_SPECIAL) == null) && (getRandom(100) < longRangeGuardRate))
 						{
@@ -539,7 +539,7 @@ public final class PailakaInjuredDragon extends AbstractInstance
 				}
 				if (CommonUtil.contains(WARRIORS, npc.getId()))
 				{
-					if (npc.calculateDistance(attacker, false, false) < 40)
+					if (npc.calculateDistance2D(attacker) < 40)
 					{
 						addAttackPlayerDesire(npc, attacker, 1000);
 					}
@@ -595,7 +595,7 @@ public final class PailakaInjuredDragon extends AbstractInstance
 	{
 		final L2Npc npc = event.getNpc();
 		final L2PcInstance attacker = event.getAttacker();
-		if (npc.calculateDistance(attacker, false, false) < 40)
+		if (npc.calculateDistance2D(attacker) < 40)
 		{
 			addAttackPlayerDesire(npc, attacker, 1000);
 		}

@@ -154,7 +154,7 @@ public class Q00831_SayhasScheme extends Quest
 		for (L2PcInstance member : members)
 		{
 			final QuestState qs = getQuestState(member, false);
-			if ((qs != null) && qs.isCond(1) && member.isInsideRadius(npc, Config.ALT_PARTY_RANGE, true, true))
+			if ((qs != null) && qs.isCond(1) && member.isInsideRadius3D(npc, Config.ALT_PARTY_RANGE))
 			{
 				if (giveItemRandomly(member, npc, DESTROYED_MARK_FRAGMENT, 1, 10, 1.0, true))
 				{

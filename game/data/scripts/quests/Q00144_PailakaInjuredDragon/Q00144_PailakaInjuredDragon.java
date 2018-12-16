@@ -296,7 +296,7 @@ public class Q00144_PailakaInjuredDragon extends Quest
 		final QuestState qs = getQuestState(killer, false);
 		if (qs != null)
 		{
-			if (qs.isCond(3) && (npc.calculateDistance(killer, false, false) <= 1500))
+			if (qs.isCond(3) && (npc.calculateDistance2D(killer) <= 1500))
 			{
 				qs.setCond(4, true);
 			}

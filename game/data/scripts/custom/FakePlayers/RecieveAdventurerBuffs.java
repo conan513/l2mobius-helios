@@ -76,7 +76,7 @@ public class RecieveAdventurerBuffs extends AbstractNpcAI
 		{
 			if (!npc.isMoving())
 			{
-				for (L2Npc nearby : L2World.getInstance().getVisibleObjects(npc, L2Npc.class, 100))
+				for (L2Npc nearby : L2World.getInstance().getVisibleObjectsInRange(npc, L2Npc.class, 100))
 				{
 					if (CommonUtil.contains(ADVENTURERS_GUIDE, nearby.getId()))
 					{

@@ -239,7 +239,7 @@ public final class EvilIncubator extends AbstractInstance
 							if (helperCount == 2)
 							{
 								st.setCond(7, true);
-								L2World.getInstance().getVisibleObjects(world.getNpc(ADOLPH), FriendlyNpcInstance.class, 1000).forEach(c -> c.deleteMe());
+								L2World.getInstance().getVisibleObjectsInRange(world.getNpc(ADOLPH), FriendlyNpcInstance.class, 1000).forEach(c -> c.deleteMe());
 							}
 						}
 						break;

@@ -168,7 +168,7 @@ public class AdminFightCalculator implements IAdminCommandHandler
 		
 		L2Character npc1 = null;
 		L2Character npc2 = null;
-		if (params.length() == 0)
+		if (params.isEmpty())
 		{
 			npc1 = activeChar;
 			npc2 = (L2Character) activeChar.getTarget();
@@ -304,7 +304,7 @@ public class AdminFightCalculator implements IAdminCommandHandler
 		final StringBuilder replyMSG = new StringBuilder(1000);
 		replyMSG.append("<html><title>Selected mobs to fight</title><body><table>");
 		
-		if (params.length() == 0)
+		if (params.isEmpty())
 		{
 			replyMSG.append("<tr><td width=140>Parameter</td><td width=70>me</td><td width=70>target</td></tr>");
 		}
@@ -335,7 +335,7 @@ public class AdminFightCalculator implements IAdminCommandHandler
 		
 		replyMSG.append("</tr></table><center><br>");
 		
-		if (params.length() == 0)
+		if (params.isEmpty())
 		{
 			replyMSG.append("<button value=\"Retry\" action=\"bypass -h admin_fight_calculator_show\"  width=100 height=15 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\">");
 		}

@@ -54,7 +54,7 @@ public class L2DoorInstanceAction implements IActionHandler
 			}
 			else if ((activeChar.getClan() != null) && (clanHall != null) && (activeChar.getClanId() == clanHall.getOwnerId()))
 			{
-				if (!door.isInsideRadius(activeChar, L2Npc.INTERACTION_DISTANCE, false, false))
+				if (!door.isInsideRadius2D(activeChar, L2Npc.INTERACTION_DISTANCE))
 				{
 					activeChar.getAI().setIntention(CtrlIntention.AI_INTENTION_INTERACT, target);
 				}
@@ -73,7 +73,7 @@ public class L2DoorInstanceAction implements IActionHandler
 			}
 			else if ((activeChar.getClan() != null) && (((L2DoorInstance) target).getFort() != null) && (activeChar.getClan() == ((L2DoorInstance) target).getFort().getOwnerClan()) && ((L2DoorInstance) target).isOpenableBySkill() && !((L2DoorInstance) target).getFort().getSiege().isInProgress())
 			{
-				if (!((L2Character) target).isInsideRadius(activeChar, L2Npc.INTERACTION_DISTANCE, false, false))
+				if (!((L2Character) target).isInsideRadius2D(activeChar, L2Npc.INTERACTION_DISTANCE))
 				{
 					activeChar.getAI().setIntention(CtrlIntention.AI_INTENTION_INTERACT, target);
 				}

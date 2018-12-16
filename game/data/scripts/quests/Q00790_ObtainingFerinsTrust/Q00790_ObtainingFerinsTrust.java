@@ -345,7 +345,7 @@ public class Q00790_ObtainingFerinsTrust extends Quest
 	public void actionForEachPlayer(L2PcInstance player, L2Npc npc, boolean isSummon)
 	{
 		final QuestState qs = getQuestState(player, false);
-		if ((qs != null) && player.isInsideRadius(npc, Config.ALT_PARTY_RANGE, true, true) && (getQuestItemsCount(player, MUTATAED_SPIRITS_SOUL) < 1000))
+		if ((qs != null) && player.isInsideRadius3D(npc, Config.ALT_PARTY_RANGE) && (getQuestItemsCount(player, MUTATAED_SPIRITS_SOUL) < 1000))
 		{
 			giveItems(player, MUTATAED_SPIRITS_SOUL, 1);
 			if (getQuestItemsCount(player, MUTATAED_SPIRITS_SOUL) == 200)

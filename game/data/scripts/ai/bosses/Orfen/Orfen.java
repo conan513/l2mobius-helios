@@ -212,7 +212,7 @@ public final class Orfen extends AbstractNpcAI
 		{
 			for (L2Attackable mob : _minions)
 			{
-				if (!npc.isInsideRadius(mob, 3000, false, false))
+				if (!npc.isInsideRadius2D(mob, 3000))
 				{
 					mob.teleToLocation(npc.getLocation());
 					((L2Attackable) npc).clearAggroList();
@@ -243,7 +243,7 @@ public final class Orfen extends AbstractNpcAI
 		if (npc.getId() == ORFEN)
 		{
 			final L2Character originalCaster = isSummon ? caster.getServitors().values().stream().findFirst().orElse(caster.getPet()) : caster;
-			if ((skill.getEffectPoint() > 0) && (getRandom(5) == 0) && npc.isInsideRadius(originalCaster, 1000, false, false))
+			if ((skill.getEffectPoint() > 0) && (getRandom(5) == 0) && npc.isInsideRadius2D(originalCaster, 1000))
 			{
 				npc.broadcastSay(ChatType.NPC_GENERAL, TEXT[getRandom(4)], caster.getName());
 				originalCaster.teleToLocation(npc.getLocation());
@@ -296,7 +296,7 @@ public final class Orfen extends AbstractNpcAI
 				_IsTeleported = true;
 				setSpawnPoint(npc, 0);
 			}
-			else if (npc.isInsideRadius(attacker, 1000, false, false) && !npc.isInsideRadius(attacker, 300, false, false) && (getRandom(10) == 0))
+			else if (npc.isInsideRadius2D(attacker, 1000) && !npc.isInsideRadius2D(attacker, 300) && (getRandom(10) == 0))
 			{
 				npc.broadcastSay(ChatType.NPC_GENERAL, TEXT[getRandom(3)], attacker.getName());
 				attacker.teleToLocation(npc.getLocation());

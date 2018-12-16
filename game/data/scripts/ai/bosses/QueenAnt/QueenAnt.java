@@ -404,7 +404,7 @@ public final class QueenAnt extends AbstractNpcAI
 				_task.cancel(false);
 				_task = null;
 			}
-			else if (_queen.calculateDistance(QUEEN_X, QUEEN_Y, QUEEN_Z, false, false) > 2000.)
+			else if (_queen.calculateDistance2D(QUEEN_X, QUEEN_Y, QUEEN_Z) > 2000.)
 			{
 				_queen.clearAggroList();
 				_queen.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, new Location(QUEEN_X, QUEEN_Y, QUEEN_Z, 0));

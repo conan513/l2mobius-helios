@@ -125,7 +125,7 @@ public final class TalkingIslandPast extends AbstractInstance
 			
 			if ((instance != null) && (npc.getId() == INVISIBLE_TI_NPC) && (qs != null) && qs.isCond(21) && qs.isMemoState(1))
 			{
-				final Location loc = npc.isInsideRadius(TI_LOC_1, 1000, false, false) ? TI_LOC_1 : TI_LOC_2;
+				final Location loc = npc.isInsideRadius2D(TI_LOC_1, 1000) ? TI_LOC_1 : TI_LOC_2;
 				qs.setMemoState(2);
 				final L2Npc knight = addSpawn(MYSTERIOUS_DARK_KNIGHT, loc, false, 0, false, instance.getId());
 				knight.getAI().startFollow(player);

@@ -49,7 +49,7 @@ public class SphericBarrier extends AbstractStatAddEffect
 	
 	private DamageReturn onDamageReceivedEvent(OnCreatureDamageReceived event)
 	{
-		if (event.getAttacker().calculateDistance(event.getTarget(), true, false) > _amount)
+		if (event.getAttacker().calculateDistance3D(event.getTarget()) > _amount)
 		{
 			return new DamageReturn(false, true, false, 0);
 		}

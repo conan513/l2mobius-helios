@@ -59,7 +59,7 @@ public class RingRange implements IAffectScopeHandler
 			}
 			
 			// Targets before the start range are unaffected.
-			if (c.isInsideRadius(target, startRange, false, true))
+			if (c.isInsideRadius2D(target, startRange))
 			{
 				return false;
 			}

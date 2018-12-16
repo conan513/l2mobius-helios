@@ -90,12 +90,13 @@ public class L2NpcActionShift implements IActionShiftHandler
 			html.replace("%heading%", String.valueOf(npc.getHeading()));
 			html.replace("%collision_radius%", String.valueOf(npc.getTemplate().getfCollisionRadius()));
 			html.replace("%collision_height%", String.valueOf(npc.getTemplate().getfCollisionHeight()));
-			html.replace("%dist%", String.valueOf((int) activeChar.calculateDistance(target, true, false)));
 			html.replace("%clanHall%", clanHall != null ? clanHall.getName() : "none");
 			html.replace("%mpRewardValue%", npc.getTemplate().getMpRewardValue());
 			html.replace("%mpRewardTicks%", npc.getTemplate().getMpRewardTicks());
 			html.replace("%mpRewardType%", npc.getTemplate().getMpRewardType().name());
 			html.replace("%mpRewardAffectType%", npc.getTemplate().getMpRewardAffectType().name());
+			html.replace("%loc2d%", String.valueOf((int) activeChar.calculateDistance2D(npc)));
+			html.replace("%loc3d%", String.valueOf((int) activeChar.calculateDistance3D(npc)));
 			
 			final AttributeType attackAttribute = npc.getAttackElement();
 			html.replace("%ele_atk%", attackAttribute.name());
@@ -129,8 +130,6 @@ public class L2NpcActionShift implements IActionShiftHandler
 				}
 				
 				html.replace("%spawn%", npc.getSpawn().getX() + " " + npc.getSpawn().getY() + " " + npc.getSpawn().getZ());
-				html.replace("%loc2d%", String.valueOf((int) npc.calculateDistance(npc.getSpawn().getLocation(), false, false)));
-				html.replace("%loc3d%", String.valueOf((int) npc.calculateDistance(npc.getSpawn().getLocation(), true, false)));
 				if (npc.getSpawn().getRespawnMinDelay() == 0)
 				{
 					html.replace("%resp%", "None");
@@ -147,8 +146,6 @@ public class L2NpcActionShift implements IActionShiftHandler
 			else
 			{
 				html.replace("%spawn%", "<font color=FF0000>null</font>");
-				html.replace("%loc2d%", "<font color=FF0000>--</font>");
-				html.replace("%loc3d%", "<font color=FF0000>--</font>");
 				html.replace("%resp%", "<font color=FF0000>--</font>");
 			}
 			

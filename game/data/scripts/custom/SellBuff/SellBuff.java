@@ -340,7 +340,7 @@ public class SellBuff implements IVoicedCommandHandler, IBypassHandler
 					final L2PcInstance seller = L2World.getInstance().getPlayer(objId);
 					if (seller != null)
 					{
-						if (!seller.isSellingBuffs() || !activeChar.isInsideRadius(seller, L2Npc.INTERACTION_DISTANCE, true, true))
+						if (!seller.isSellingBuffs() || !activeChar.isInsideRadius3D(seller, L2Npc.INTERACTION_DISTANCE))
 						{
 							return false;
 						}

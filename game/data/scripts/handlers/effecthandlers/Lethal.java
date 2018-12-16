@@ -27,6 +27,7 @@ import com.l2jmobius.gameserver.model.skills.Skill;
 import com.l2jmobius.gameserver.model.stats.Formulas;
 import com.l2jmobius.gameserver.model.stats.Stats;
 import com.l2jmobius.gameserver.network.SystemMessageId;
+import com.l2jmobius.gameserver.network.serverpackets.SystemMessage;
 
 /**
  * Lethal effect implementation.
@@ -78,9 +79,21 @@ public final class Lethal extends AbstractEffect
 			return;
 		}
 		
-		final double chanceMultiplier = Formulas.calcAttributeBonus(effector, effected, skill) * Formulas.calcGeneralTraitBonus(effector, effected, skill.getTraitType(), false) * effected.getStat().getValue(Stats.INSTANT_KILL_RESIST, 1);
+		final double chanceMultiplier = Formulas.calcAttributeBonus(effector, effected, skill) * Formulas.calcGeneralTraitBonus(effector, effected, skill.getTraitType(), false);
+		
+		// Calculate instant kill resistance first.
+		if (Rnd.get(100) < effected.getStat().getValue(Stats.INSTANT_KILL_RESIST, 0))
+		{
+			final SystemMessage sm = SystemMessage.getSystemMessage(SystemMessageId.C1_HAS_EVADED_C2_S_ATTACK);
+			sm.addString(effected.getName());
+			sm.addString(effector.getName());
+			effected.sendPacket(sm);
+			final SystemMessage sm2 = SystemMessage.getSystemMessage(SystemMessageId.C1_S_ATTACK_WENT_ASTRAY);
+			sm2.addString(effector.getName());
+			effector.sendPacket(sm2);
+		}
 		// Lethal Strike
-		if (Rnd.get(100) < (_fullLethal * chanceMultiplier))
+		else if (Rnd.get(100) < (_fullLethal * chanceMultiplier))
 		{
 			// for Players CP and HP is set to 1.
 			if (effected.isPlayer())

@@ -194,7 +194,10 @@ public class AdminQuest implements IAdminCommandHandler
 		{
 			final String questName = command.substring("admin_quest_info ".length());
 			final Quest quest = QuestManager.getInstance().getQuest(questName);
-			String events = "", npcs = "", items = "", timers = "";
+			String events = "";
+			String npcs = "";
+			String items = "";
+			String timers = "";
 			int counter = 0;
 			if (quest == null)
 			{

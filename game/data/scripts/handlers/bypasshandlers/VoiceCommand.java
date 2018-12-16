@@ -38,7 +38,8 @@ public class VoiceCommand implements IBypassHandler
 		// only voice commands allowed
 		if ((command.length() > 7) && (command.charAt(6) == '.'))
 		{
-			final String vc, vparams;
+			final String vc;
+			final String vparams;
 			final int endOfCommand = command.indexOf(" ", 7);
 			if (endOfCommand > 0)
 			{

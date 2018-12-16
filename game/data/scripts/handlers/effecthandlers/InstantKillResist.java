@@ -37,6 +37,6 @@ public class InstantKillResist extends AbstractEffect
 	@Override
 	public void pump(L2Character effected, Skill skill)
 	{
-		effected.getStat().mergeAdd(Stats.INSTANT_KILL_RESIST, 1 - (_amount / 100));
+		effected.getStat().mergeAdd(Stats.INSTANT_KILL_RESIST, _amount);
 	}
 }

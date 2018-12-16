@@ -48,7 +48,7 @@ public final class SummonPc extends AbstractNpcAI
 	{
 		final int chance = getRandom(100);
 		final boolean attacked = npc.getVariables().getBoolean("attacked", false);
-		if ((npc.calculateDistance(attacker, true, false) > 300) && !attacked)
+		if ((npc.calculateDistance3D(attacker) > 300) && !attacked)
 		{
 			if (chance < 50)
 			{
@@ -66,7 +66,7 @@ public final class SummonPc extends AbstractNpcAI
 				}
 			}
 		}
-		else if ((npc.calculateDistance(attacker, true, false) > 100) && !attacked)
+		else if ((npc.calculateDistance3D(attacker) > 100) && !attacked)
 		{
 			final L2Attackable monster = (L2Attackable) npc;
 			if (monster.getMostHated() != null)

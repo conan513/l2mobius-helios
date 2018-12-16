@@ -84,6 +84,5 @@ public final class DoubleCast extends AbstractEffect
 				return null;
 			});
 		}
-		super.onExit(effector, effected, skill);
 	}
 }

@@ -5,9 +5,10 @@ Client: https://drive.google.com/uc?id=0B_wJFNF_2fcJTE5oVm96emtlSlE&export=downl
 Mirror: https://mega.nz/#!Uo9TTCSQ!JDstscgcLFY3GeM3Q6j8nUq7jpixzqIV1Gl4z2ob0eA
 
 Geodata: http://www.mediafire.com/file/awcm0ud9y6msx5r/mobius_geodata_helios_l2d.zip
+JDK: http://www.mediafire.com/file/514ah8a77dk5j7a/jdk-10.0.2_windows-x64_bin.exe
 
 
-# Working features...
+## Working features...
 
 ## Before Goddess of Destruction:
 -Fantasy Isle Parade
@@ -132,9 +133,11 @@ Geodata: http://www.mediafire.com/file/awcm0ud9y6msx5r/mobius_geodata_helios_l2d
 -Reworked quest system
 -Reworked spawn system
 -Reworked drop system
+-Reworked L2World, L2WorldRegion and L2Object
 -Skill system from L2jUnity
 -GeoEngine from aCis
 
 ## TODO:
 -Provisional Clan Halls
 -Mystic Tavern instanced zones
+

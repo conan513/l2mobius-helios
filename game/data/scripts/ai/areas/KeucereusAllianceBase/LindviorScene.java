@@ -80,7 +80,7 @@ public final class LindviorScene extends AbstractNpcAI
 			{
 				if (npc != null)
 				{
-					playMovie(L2World.getInstance().getVisibleObjects(npc, L2PcInstance.class, 4000), Movie.SC_LINDVIOR);
+					playMovie(L2World.getInstance().getVisibleObjectsInRange(npc, L2PcInstance.class, 4000), Movie.SC_LINDVIOR);
 				}
 				break;
 			}

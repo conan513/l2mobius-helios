@@ -73,7 +73,7 @@ public class RangeSortByHp implements IAffectScopeHandler
 			return true;
 		};
 		
-		final List<L2Character> result = L2World.getInstance().getVisibleObjects(target, L2Character.class, affectRange, filter);
+		final List<L2Character> result = L2World.getInstance().getVisibleObjectsInRange(target, L2Character.class, affectRange, filter);
 		
 		// Add object of origin since its skipped in the getVisibleObjects method.
 		if (target.isCharacter() && filter.test((L2Character) target))

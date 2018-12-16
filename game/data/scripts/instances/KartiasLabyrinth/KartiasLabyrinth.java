@@ -932,7 +932,7 @@ public final class KartiasLabyrinth extends AbstractInstance
 		
 		if ((world != null) && (creature.isPlayer() || creature.getInstanceType().isType(InstanceType.FriendlyNpcInstance)) && npc.isScriptValue(1))
 		{
-			final double distance = npc.calculateDistance(creature, false, false);
+			final double distance = npc.calculateDistance2D(creature);
 			if ((distance < 450) && !CommonUtil.contains(PRISONERS, creature.getId()))
 			{
 				npc.setTargetable(true);

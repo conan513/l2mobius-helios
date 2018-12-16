@@ -164,7 +164,7 @@ public final class IstinaCavern extends AbstractInstance
 				case "DEATH_TIMER":
 				{
 					final L2Character mostHated = ((L2Attackable) npc).getMostHated();
-					if ((mostHated != null) && npc.isInsideRadius(mostHated, 15000, false, true))
+					if ((mostHated != null) && npc.isInsideRadius2D(mostHated, 15000))
 					{
 						final SkillHolder death1 = npcParams.getSkillHolder("Istina_Death_Skill01");
 						final SkillHolder death2 = npcParams.getSkillHolder("Istina_Death_Skill02");
@@ -187,7 +187,7 @@ public final class IstinaCavern extends AbstractInstance
 					final SkillHolder death2 = npcParams.getSkillHolder("Istina_Death_Skill02");
 					final L2Character mostHated = ((L2Attackable) npc).getMostHated();
 					
-					if ((mostHated != null) && npc.isInsideRadius(mostHated, 15000, false, true) && mostHated.isInCategory(CategoryType.TANKER_GROUP) && mostHated.isAffectedBySkill(death1))
+					if ((mostHated != null) && npc.isInsideRadius2D(mostHated, 15000) && mostHated.isInCategory(CategoryType.TANKER_GROUP) && mostHated.isAffectedBySkill(death1))
 					{
 						addSkillCastDesire(npc, mostHated, death2, 23);
 					}
@@ -223,7 +223,7 @@ public final class IstinaCavern extends AbstractInstance
 					final L2Attackable istina = (L2Attackable) npc;
 					if ((istina.getHateList() != null) && (istina.getHateList().size() > 0))
 					{
-						final L2Character target = istina.getHateList().stream().sorted((o1, o2) -> (int) o1.calculateDistance(o2, true, false)).findFirst().orElse(null);
+						final L2Character target = istina.getHateList().stream().sorted((o1, o2) -> (int) o1.calculateDistance3D(o2)).findFirst().orElse(null);
 						if (target != null)
 						{
 							final L2Npc eruption = addSpawn(INVISIBLE_NPC, Util.getRandomPosition(target, 50, 50), false, 0, false, instance.getId());

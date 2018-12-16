@@ -103,7 +103,7 @@ public final class Maguen extends AbstractNpcAI
 			}
 			case "DIST_CHECK_TIMER":
 			{
-				if ((npc.calculateDistance(player, true, false) < 100) && (npc.getVariables().getInt("IS_NEAR_PLAYER") == 0))
+				if ((npc.calculateDistance3D(player) < 100) && (npc.getVariables().getInt("IS_NEAR_PLAYER") == 0))
 				{
 					npc.getVariables().set("IS_NEAR_PLAYER", 1);
 					startQuestTimer("FIRST_TIMER", 4000, npc, player);
@@ -369,7 +369,7 @@ public final class Maguen extends AbstractNpcAI
 			final L2PcInstance partyMember = getRandomPartyMember(killer);
 			final int i0 = 10 + (10 * killer.getParty().getMemberCount());
 			
-			if ((getRandom(1000) < i0) && (npc.calculateDistance(killer, true, false) < 2000) && (npc.calculateDistance(partyMember, true, false) < 2000))
+			if ((getRandom(1000) < i0) && (npc.calculateDistance3D(killer) < 2000) && (npc.calculateDistance3D(partyMember) < 2000))
 			{
 				notifyEvent("SPAWN_MAGUEN", npc, partyMember);
 			}

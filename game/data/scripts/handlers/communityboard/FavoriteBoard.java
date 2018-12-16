@@ -61,7 +61,7 @@ public class FavoriteBoard implements IParseBoardHandler
 			// Load Favorite links
 			final String list = HtmCache.getInstance().getHtm(activeChar, "data/html/CommunityBoard/favorite_list.html");
 			final StringBuilder sb = new StringBuilder();
-			try (Connection con = DatabaseFactory.getInstance().getConnection();
+			try (Connection con = DatabaseFactory.getConnection();
 				PreparedStatement ps = con.prepareStatement(SELECT_FAVORITES))
 			{
 				ps.setInt(1, activeChar.getObjectId());
@@ -98,7 +98,7 @@ public class FavoriteBoard implements IParseBoardHandler
 					return false;
 				}
 				
-				try (Connection con = DatabaseFactory.getInstance().getConnection();
+				try (Connection con = DatabaseFactory.getConnection();
 					PreparedStatement ps = con.prepareStatement(ADD_FAVORITE))
 				{
 					ps.setInt(1, activeChar.getObjectId());
@@ -123,7 +123,7 @@ public class FavoriteBoard implements IParseBoardHandler
 				return false;
 			}
 			
-			try (Connection con = DatabaseFactory.getInstance().getConnection();
+			try (Connection con = DatabaseFactory.getConnection();
 				PreparedStatement ps = con.prepareStatement(DELETE_FAVORITE))
 			{
 				ps.setInt(1, activeChar.getObjectId());

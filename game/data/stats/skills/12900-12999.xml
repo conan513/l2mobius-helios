@@ -888,12 +888,19 @@
 		<effectRange>600</effectRange>
 		<magicLvl>1</magicLvl>
 		<isMagic>2</isMagic>
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>33518</itemConsumeId>
 		<coolTime>500</coolTime>
 		<targetType>PC_BODY</targetType>
 		<affectScope>SINGLE</affectScope>
 		<conditions>
 			<condition name="OpResurrection" />
 		</conditions>
+		<effects>
+			<effect name="Resurrection">
+				<power>100</power>
+			</effect>
+		</effects>
 	</skill>
 	<skill id="12936" toLevel="1" name="Blessed Scroll of Escape">
 		<!-- Glory Days confirmed -->
@@ -904,12 +911,19 @@
 		<hitCancelTime>0</hitCancelTime>
 		<magicLvl>1</magicLvl>
 		<isMagic>2</isMagic>
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>33640</itemConsumeId>
 		<hitTime>200</hitTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<conditions>
 			<condition name="OpCanEscape" />
 		</conditions>
+		<effects>
+			<effect name="Escape">
+				<escapeType>TOWN</escapeType>
+			</effect>
+		</effects>
 	</skill>
 	<skill id="12937" toLevel="1" name="Check Item">
 		<!-- Glory Days confirmed -->

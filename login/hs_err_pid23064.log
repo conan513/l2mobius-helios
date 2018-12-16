@@ -1,0 +1,179 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x00000000611d1958, pid=23064, tid=17896
+#
+# JRE version:  (10.0.2+13) (build )
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (10.0.2+13, mixed mode, aot, tiered, compressed oops, g1 gc, windows-amd64)
+# Problematic frame:
+# V  [jvm.dll+0x1c1958]
+#
+# No core dump will be written. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.java.com/bugreport/crash.jsp
+#
+
+---------------  S U M M A R Y ------------
+
+Command Line: e:\Cucc\Server\SPP-L2 Helios\spp-l2-classic\libs\LoginServer.jar
+
+Host: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz, 8 cores, 15G,  Windows 10 , 64 bit Build 17134 (10.0.17134.1)
+Time: Fri Dec 14 18:26:19 2018 Közép-európai téli ido  elapsed time: 0 seconds (0d 0h 0m 0s)
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x000002979fb1e800):  JavaThread "Unknown thread" [_thread_in_vm, id=17896, stack(0x000000f123e00000,0x000000f123f00000)]
+
+Stack: [0x000000f123e00000,0x000000f123f00000],  sp=0x000000f123eff3e0,  free space=1020k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [jvm.dll+0x1c1958]
+V  [jvm.dll+0x1bfe43]
+V  [jvm.dll+0x3519cb]
+V  [jvm.dll+0x6856a2]
+V  [jvm.dll+0x3ba0c3]
+V  [jvm.dll+0x3bc261]
+C  [java.exe+0x3531]
+C  [java.exe+0xe1af]
+C  [java.exe+0xe356]
+C  [KERNEL32.DLL+0x13034]
+C  [ntdll.dll+0x71471]
+
+
+siginfo: EXCEPTION_ACCESS_VIOLATION (0xc0000005), reading address 0x0000000000000000
+
+
+Registers:
+RAX=0x00006bcf287e8dbd, RBX=0x0000000000000000, RCX=0x0000000000000000, RDX=0x0000000000000000
+RSP=0x000000f123eff3e0, RBP=0x0000000000000000, RSI=0x000002979fb1e800, RDI=0x0000000000000000
+R8 =0x0000000000000006, R9 =0x0000000000000007, R10=0x0000000000000006, R11=0x000000f123efec60
+R12=0x0000000000000000, R13=0x0000000061562ab0, R14=0x000000f123eff838, R15=0x000002979fa213c8
+RIP=0x00000000611d1958, EFLAGS=0x0000000000010256
+
+Top of Stack: (sp=0x000000f123eff3e0)
+0x000000f123eff3e0:   00000000617b1658 0000000061585c2d
+0x000000f123eff3f0:   00000000618193c0 00000000617b1658
+0x000000f123eff400:   0000000000000040 000000f123eff460
+0x000000f123eff410:   000002979fb1cea0 0000000061586075
+0x000000f123eff420:   000002979fb1e800 0000000000000000
+0x000000f123eff430:   0000000000000000 0000000061585957
+0x000000f123eff440:   0000000000000000 00000000615d6f79
+0x000000f123eff450:   000002979fb1cea0 0000000000000000
+0x000000f123eff460:   0000000000000000 0000000000000000
+0x000000f123eff470:   0000000000000004 00000000615d75d8
+0x000000f123eff480:   000002979fb1cea0 00006bcf287e8dbd
+0x000000f123eff490:   0000000000000004 0000000000000000
+0x000000f123eff4a0:   0000000061562ab0 000002979fb1e800
+0x000000f123eff4b0:   000000f123eff4f0 00000000611cfe43
+0x000000f123eff4c0:   0000000000000000 000000f123eff4f0
+0x000000f123eff4d0:   0000000000000000 0000000000000000 
+
+Instructions: (pc=0x00000000611d1958)
+0x00000000611d1938:   c0 00 00 00 48 8b 05 6d 1d 7a 00 48 33 c4 48 89
+0x00000000611d1948:   84 24 a8 00 00 00 48 8b e9 48 83 ca ff 48 ff c2
+0x00000000611d1958:   80 3c 0a 00 75 f7 33 f6 45 33 ed c6 44 24 30 01
+0x00000000611d1968:   85 d2 0f 8e 54 02 00 00 8b 0d e6 6d 81 00 65 48 
+
+
+
+---------------  P R O C E S S  ---------------
+
+Threads class SMR info:
+_java_thread_list=0x000002979fa276d0, length=0, elements={
+}
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+[error occurred during error reporting (printing all threads), id 0xc0000005]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+
+[error occurred during error reporting (printing compressed oops mode), id 0xc0000005]
+
+Deoptimization events (0 events):
+No events
+
+Classes redefined (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (0 events):
+No events
+
+
+Dynamic libraries:
+0x00007ff7445c0000 - 0x00007ff7445fe000 	e:\Cucc\Server\SPP-L2 Helios\spp-l2-classic\Java\bin\java.exe
+0x00007ffe20990000 - 0x00007ffe20b71000 	C:\Windows\SYSTEM32\ntdll.dll
+0x00007ffe1e0c0000 - 0x00007ffe1e172000 	C:\Windows\System32\KERNEL32.DLL
+0x00007ffe1d660000 - 0x00007ffe1d8d3000 	C:\Windows\System32\KERNELBASE.dll
+0x00007ffe207b0000 - 0x00007ffe20851000 	C:\Windows\System32\ADVAPI32.dll
+0x00007ffe1e180000 - 0x00007ffe1e21e000 	C:\Windows\System32\msvcrt.dll
+0x00007ffe20410000 - 0x00007ffe2046b000 	C:\Windows\System32\sechost.dll
+0x00007ffe1df80000 - 0x00007ffe1e0a4000 	C:\Windows\System32\RPCRT4.dll
+0x00007ffe1ebc0000 - 0x00007ffe1ed50000 	C:\Windows\System32\USER32.dll
+0x00007ffe1db80000 - 0x00007ffe1dba0000 	C:\Windows\System32\win32u.dll
+0x00007ffe20780000 - 0x00007ffe207a8000 	C:\Windows\System32\GDI32.dll
+0x00007ffe1dc80000 - 0x00007ffe1de12000 	C:\Windows\System32\gdi32full.dll
+0x00007ffe1d8e0000 - 0x00007ffe1d97f000 	C:\Windows\System32\msvcp_win.dll
+0x00007ffe1d9d0000 - 0x00007ffe1daca000 	C:\Windows\System32\ucrtbase.dll
+0x00007ffe0df90000 - 0x00007ffe0e1f9000 	C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17134.407_none_fb449d63306391e9\COMCTL32.dll
+0x00007ffe17600000 - 0x00007ffe1760a000 	C:\Windows\SYSTEM32\VERSION.dll
+0x00007ffe1e870000 - 0x00007ffe1eb92000 	C:\Windows\System32\combase.dll
+0x00007ffe1dc00000 - 0x00007ffe1dc7a000 	C:\Windows\System32\bcryptPrimitives.dll
+0x00007ffe204d0000 - 0x00007ffe204fd000 	C:\Windows\System32\IMM32.DLL
+0x00007ffdda690000 - 0x00007ffdda77f000 	e:\Cucc\Server\SPP-L2 Helios\spp-l2-classic\Java\bin\msvcr120.dll
+0x00007ffddc5a0000 - 0x00007ffddc646000 	e:\Cucc\Server\SPP-L2 Helios\spp-l2-classic\Java\bin\msvcp120.dll
+0x0000000061010000 - 0x0000000061a80000 	e:\Cucc\Server\SPP-L2 Helios\spp-l2-classic\Java\bin\server\jvm.dll
+0x00007ffe1e0b0000 - 0x00007ffe1e0b8000 	C:\Windows\System32\PSAPI.DLL
+0x00007ffe19790000 - 0x00007ffe197b3000 	C:\Windows\SYSTEM32\WINMM.dll
+0x00007ffe166d0000 - 0x00007ffe166d9000 	C:\Windows\SYSTEM32\WSOCK32.dll
+0x00007ffe20710000 - 0x00007ffe2077c000 	C:\Windows\System32\WS2_32.dll
+0x00007ffe19760000 - 0x00007ffe1978a000 	C:\Windows\SYSTEM32\winmmbase.dll
+0x00007ffe1d980000 - 0x00007ffe1d9c9000 	C:\Windows\System32\cfgmgr32.dll
+0x00007ffe105f0000 - 0x00007ffe105ff000 	e:\Cucc\Server\SPP-L2 Helios\spp-l2-classic\Java\bin\verify.dll
+0x00007ffe01650000 - 0x00007ffe01819000 	C:\Windows\SYSTEM32\DBGHELP.DLL
+0x00007ffe01560000 - 0x00007ffe01589000 	C:\Windows\SYSTEM32\dbgcore.DLL
+0x00007ffde7b60000 - 0x00007ffde7b87000 	e:\Cucc\Server\SPP-L2 Helios\spp-l2-classic\Java\bin\java.dll
+0x00007ffdeb7b0000 - 0x00007ffdeb7c6000 	e:\Cucc\Server\SPP-L2 Helios\spp-l2-classic\Java\bin\zip.dll
+0x00007ffe105c0000 - 0x00007ffe105ca000 	e:\Cucc\Server\SPP-L2 Helios\spp-l2-classic\Java\bin\jimage.dll
+
+dbghelp: loaded successfully - version: 4.0.5 - missing functions: none
+symbol engine: initialized successfully - sym options: 0x614 - pdb path: .;e:\Cucc\Server\SPP-L2 Helios\spp-l2-classic\Java\bin;C:\Windows\SYSTEM32;C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17134.407_none_fb449d63306391e9;e:\Cucc\Server\SPP-L2 Helios\spp-l2-classic\Java\bin\server
+
+VM Arguments:
+java_command: e:\Cucc\Server\SPP-L2 Helios\spp-l2-classic\libs\LoginServer.jar
+java_class_path (initial): e:\Cucc\Server\SPP-L2 Helios\spp-l2-classic\libs\LoginServer.jar
+Launcher Type: SUN_STANDARD
+
+Logging:
+Log output configuration:
+#0: stdout all=warning uptime,level,tags
+#1: stderr all=off uptime,level,tags
+
+Environment Variables:
+JAVA_HOME=e:\Cucc\Server\SPP-L2 Helios\spp-l2-classic\Java
+PATH=C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\ImageMagick-7.0.8-Q16;C:\Program Files\Python37\Scripts\;C:\Program Files\Python37\;C:\Program Files\Oculus\Support\oculus-runtime;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git LFS;C:\Program Files\PuTTY\;C:\Users\conan\AppData\Local\Microsoft\WindowsApps;C:\Users\conan\AppData\Local\GitHubDesktop\bin;C:\Users\conan\.dotnet\tools
+USERNAME=conan
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 94 Stepping 3, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 10 , 64 bit Build 17134 (10.0.17134.1)
+
+CPU:total 8 (initial active 8) 
+
+Memory: 4k page, physical 16736140k(6979888k free), swap 26697612k(11475912k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (10.0.2+13) for windows-amd64 JRE (10.0.2+13), built on Jun 28 2018 01:57:56 by "mach5one" with MS VC++ 12.0 (VS2013)
+
+END.

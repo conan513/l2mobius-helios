@@ -21,11 +21,12 @@ import java.util.Collections;
 import java.util.List;
 import java.util.StringTokenizer;
 
-import com.l2jmobius.gameserver.enums.InstanceType;
 import com.l2jmobius.gameserver.handler.IAdminCommandHandler;
 import com.l2jmobius.gameserver.model.L2Object;
 import com.l2jmobius.gameserver.model.L2World;
 import com.l2jmobius.gameserver.model.actor.L2Npc;
+import com.l2jmobius.gameserver.model.actor.instance.L2ArtefactInstance;
+import com.l2jmobius.gameserver.model.actor.instance.L2ObservationInstance;
 import com.l2jmobius.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jmobius.gameserver.model.events.EventType;
 import com.l2jmobius.gameserver.util.BuilderUtil;
@@ -60,13 +61,13 @@ public class AdminMissingHtmls implements IAdminCommandHandler
 				final List<Integer> results = new ArrayList<>();
 				for (L2Object obj : L2World.getInstance().getVisibleObjects())
 				{
-					if (obj.isNpc() && !obj.isMonster() && !results.contains(obj.getId()))
+					if (obj.isNpc() //
+						&& !obj.isMonster() //
+						&& !(obj instanceof L2ObservationInstance) //
+						&& !(obj instanceof L2ArtefactInstance) //
+						&& !results.contains(obj.getId()))
 					{
 						final L2Npc npc = (L2Npc) obj;
-						if (npc.getInstanceType() == InstanceType.L2ObservationInstance)
-						{
-							continue;
-						}
 						if ((npc.getLocation().getX() > topLeftX) && (npc.getLocation().getX() < bottomRightX) && (npc.getLocation().getY() > topLeftY) && (npc.getLocation().getY() < bottomRightY) && npc.isTalkable() && !npc.hasListener(EventType.ON_NPC_FIRST_TALK) && (npc.getHtmlPath(npc.getId(), 0) == "data/html/npcdefault.htm"))
 						{
 							results.add(npc.getId());
@@ -87,13 +88,13 @@ public class AdminMissingHtmls implements IAdminCommandHandler
 				final List<Integer> results = new ArrayList<>();
 				for (L2Object obj : L2World.getInstance().getVisibleObjects())
 				{
-					if (obj.isNpc() && !obj.isMonster() && !results.contains(obj.getId()))
+					if (obj.isNpc() //
+						&& !obj.isMonster() //
+						&& !(obj instanceof L2ObservationInstance) //
+						&& !(obj instanceof L2ArtefactInstance) //
+						&& !results.contains(obj.getId()))
 					{
 						final L2Npc npc = (L2Npc) obj;
-						if (npc.getInstanceType() == InstanceType.L2ObservationInstance)
-						{
-							continue;
-						}
 						if (npc.isTalkable() && !npc.hasListener(EventType.ON_NPC_FIRST_TALK) && (npc.getHtmlPath(npc.getId(), 0) == "data/html/npcdefault.htm"))
 						{
 							results.add(npc.getId());

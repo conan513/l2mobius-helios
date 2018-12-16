@@ -59,7 +59,7 @@ public final class LeopardDragonHachling extends AbstractNpcAI
 	{
 		if ((npc != null) && event.equals("MOVE_TO_TRANSFORM"))
 		{
-			if (npc.calculateDistance(nearestLocation(npc), false, false) < 100)
+			if (npc.calculateDistance2D(nearestLocation(npc)) < 100)
 			{
 				final int random = getRandom(1, 4);
 				for (int counter = 1; counter < random; counter++)
@@ -99,7 +99,7 @@ public final class LeopardDragonHachling extends AbstractNpcAI
 		Location gotoLoc = TRANSFORM_LOCATIONS.get(0);
 		for (Location loc : TRANSFORM_LOCATIONS)
 		{
-			if (npc.calculateDistance(loc, false, false) < npc.calculateDistance(gotoLoc, false, false))
+			if (npc.calculateDistance2D(loc) < npc.calculateDistance2D(gotoLoc))
 			{
 				gotoLoc = loc;
 			}

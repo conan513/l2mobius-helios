@@ -38,7 +38,7 @@ public final class GeneralDilios extends AbstractNpcAI
 	private static final int GUARD_ID = 32619;
 	
 	private L2Npc _general = null;
-	private final Set<L2Spawn> _guards = Collections.newSetFromMap(new ConcurrentHashMap<L2Spawn, Boolean>());
+	private final Set<L2Spawn> _guards = Collections.newSetFromMap(new ConcurrentHashMap<>());
 	
 	private static final NpcStringId[] DILIOS_TEXT =
 	{

@@ -443,7 +443,7 @@ public final class Q10369_NoblesseSoulTesting extends Quest
 		final L2PcInstance partyMember = getRandomPartyMember(killer);
 		final QuestState qs = getQuestState(partyMember, false);
 		
-		if (canProgress(partyMember) && (qs != null) && qs.isStarted() && (partyMember.calculateDistance(npc, false, false) <= 1500))
+		if (canProgress(partyMember) && (qs != null) && qs.isStarted() && (partyMember.calculateDistance2D(npc) <= 1500))
 		{
 			switch (qs.getCond())
 			{
@@ -629,11 +629,11 @@ public final class Q10369_NoblesseSoulTesting extends Quest
 							qs.setCond(17, true);
 							giveItems(player, ASHES_OF_REMNANTS, 1);
 							
-							if (npc.isInsideRadius(HELPING_TREE_LOC_1, 2000, false, false))
+							if (npc.isInsideRadius2D(HELPING_TREE_LOC_1, 2000))
 							{
 								addSpawn(HELPING_TREE, HELPING_TREE_LOC_1, false, 300000);
 							}
-							else if (npc.isInsideRadius(HELPING_TREE_LOC_2, 2000, false, false))
+							else if (npc.isInsideRadius2D(HELPING_TREE_LOC_2, 2000))
 							{
 								addSpawn(HELPING_TREE, HELPING_TREE_LOC_2, false, 300000);
 							}

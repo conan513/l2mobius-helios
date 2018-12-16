@@ -148,7 +148,7 @@ public final class AirShipGludioGracia extends AbstractNpcAI implements Runnable
 	private final L2Npc findController()
 	{
 		// check objects around the ship
-		for (L2Npc obj : L2World.getInstance().getVisibleObjects(_ship, L2Npc.class, 600))
+		for (L2Npc obj : L2World.getInstance().getVisibleObjectsInRange(_ship, L2Npc.class, 600))
 		{
 			for (int id : CONTROLLERS)
 			{
@@ -219,7 +219,7 @@ public final class AirShipGludioGracia extends AbstractNpcAI implements Runnable
 			player.sendPacket(SystemMessageId.YOU_CANNOT_BOARD_AN_AIRSHIP_WHILE_A_PET_OR_A_SERVITOR_IS_SUMMONED);
 			return null;
 		}
-		else if (_ship.isInDock() && _ship.isInsideRadius(player, 600, true, false))
+		else if (_ship.isInDock() && _ship.isInsideRadius3D(player, 600))
 		{
 			_ship.addPassenger(player);
 		}

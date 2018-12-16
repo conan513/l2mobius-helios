@@ -46,7 +46,9 @@ public class ChangePassword implements IVoicedCommandHandler
 			final StringTokenizer st = new StringTokenizer(target);
 			try
 			{
-				String curpass = null, newpass = null, repeatnewpass = null;
+				String curpass = null;
+				String newpass = null;
+				String repeatnewpass = null;
 				if (st.hasMoreTokens())
 				{
 					curpass = st.nextToken();

@@ -46,7 +46,7 @@ public final class WindVortex extends AbstractNpcAI
 		if (npc.isScriptValue(0) && !npc.isDead())
 		{
 			npc.setScriptValue(1);
-			if (attacker.getRace().equals(Race.ERTHEIA))
+			if (attacker.getRace() == Race.ERTHEIA)
 			{
 				final int npcId = (attacker.isMageClass()) ? IMMENSE_WINDIMA : GIANT_WINDIMA;
 				showOnScreenMsg(attacker, NpcStringId.A_POWERFUL_MONSTER_HAS_COME_TO_FACE_YOU, ExShowScreenMessage.TOP_CENTER, 5000);

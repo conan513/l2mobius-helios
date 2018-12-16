@@ -103,9 +103,9 @@ public class SiegeGuards extends AbstractNpcAI
 		if ((npc != null) && !npc.isDead())
 		{
 			final L2Object target = npc.getTarget();
-			if (!npc.isInCombat() || (target == null) || (npc.calculateDistance(target, false, false) > npc.getAggroRange()) || target.isInvul())
+			if (!npc.isInCombat() || (target == null) || (npc.calculateDistance2D(target) > npc.getAggroRange()) || target.isInvul())
 			{
-				for (L2Character nearby : L2World.getInstance().getVisibleObjects(npc, L2Character.class, npc.getAggroRange()))
+				for (L2Character nearby : L2World.getInstance().getVisibleObjectsInRange(npc, L2Character.class, npc.getAggroRange()))
 				{
 					if (nearby.isPlayable() && GeoEngine.getInstance().canSeeTarget(npc, nearby))
 					{

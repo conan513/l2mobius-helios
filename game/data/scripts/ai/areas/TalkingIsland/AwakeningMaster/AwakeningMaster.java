@@ -206,7 +206,7 @@ public final class AwakeningMaster extends AbstractNpcAI
 	@Override
 	public String onFirstTalk(L2Npc npc, L2PcInstance player)
 	{
-		if (player.getRace().equals(Race.ERTHEIA))
+		if (player.getRace() == Race.ERTHEIA)
 		{
 			// Ertheia dual class quest
 			final QuestState qs = player.getQuestState(Q10472_WindsOfFateEncroachingShadows.class.getSimpleName());

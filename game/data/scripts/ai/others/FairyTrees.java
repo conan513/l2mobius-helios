@@ -55,7 +55,7 @@ public class FairyTrees extends AbstractNpcAI
 	@Override
 	public String onKill(L2Npc npc, L2PcInstance killer, boolean isSummon)
 	{
-		if (npc.calculateDistance(killer, true, false) <= MIN_DISTANCE)
+		if (npc.calculateDistance3D(killer) <= MIN_DISTANCE)
 		{
 			for (int i = 0; i < 20; i++)
 			{

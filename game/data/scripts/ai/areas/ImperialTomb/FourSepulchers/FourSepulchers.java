@@ -128,10 +128,10 @@ public final class FourSepulchers extends AbstractNpcAI implements IGameXmlReade
 	private static final Map<Integer, List<L2Npc>> STORED_MONSTER_SPAWNS = new HashMap<>();
 	static
 	{
-		STORED_MONSTER_SPAWNS.put(1, new CopyOnWriteArrayList<L2Npc>());
-		STORED_MONSTER_SPAWNS.put(2, new CopyOnWriteArrayList<L2Npc>());
-		STORED_MONSTER_SPAWNS.put(3, new CopyOnWriteArrayList<L2Npc>());
-		STORED_MONSTER_SPAWNS.put(4, new CopyOnWriteArrayList<L2Npc>());
+		STORED_MONSTER_SPAWNS.put(1, new CopyOnWriteArrayList<>());
+		STORED_MONSTER_SPAWNS.put(2, new CopyOnWriteArrayList<>());
+		STORED_MONSTER_SPAWNS.put(3, new CopyOnWriteArrayList<>());
+		STORED_MONSTER_SPAWNS.put(4, new CopyOnWriteArrayList<>());
 	}
 	// @formatter:off
 	private static final int[][] CHEST_SPAWN_LOCATIONS =

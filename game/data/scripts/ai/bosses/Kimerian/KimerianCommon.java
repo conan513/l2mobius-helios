@@ -95,7 +95,7 @@ public final class KimerianCommon extends AbstractInstance
 					player = npc.getVariables().getObject("PC_INSTANCE", L2PcInstance.class);
 					if (player != null)
 					{
-						final double distance = npc.calculateDistance(player, false, false);
+						final double distance = npc.calculateDistance2D(player);
 						if (distance > 1000)
 						{
 							npc.teleToLocation(new Location(player.getX() + getRandom(-100, 100), player.getY() + getRandom(-100, 100), player.getZ() + 50));

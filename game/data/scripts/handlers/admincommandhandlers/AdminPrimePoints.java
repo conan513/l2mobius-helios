@@ -129,7 +129,7 @@ public final class AdminPrimePoints implements IAdminCommandHandler
 						}
 						else if (range > 0)
 						{
-							final int count = increaseForAll(L2World.getInstance().getVisibleObjects(activeChar, L2PcInstance.class, range), value);
+							final int count = increaseForAll(L2World.getInstance().getVisibleObjectsInRange(activeChar, L2PcInstance.class, range), value);
 							BuilderUtil.sendSysMessage(activeChar, "You increased Prime Point(s) of all players (" + count + ") in range " + range + " by " + value + ".");
 						}
 						break;

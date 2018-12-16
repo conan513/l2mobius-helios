@@ -75,7 +75,7 @@ public final class OrcBarracks extends AbstractNpcAI
 	@Override
 	public String onKill(L2Npc npc, L2PcInstance killer, boolean isSummon)
 	{
-		if (killer.getRace().equals(Race.ERTHEIA) && (SPAWN_RATE > getRandom(100)))
+		if (killer.getRace() == Race.ERTHEIA && (SPAWN_RATE > getRandom(100)))
 		{
 			final int npcId = (killer.isMageClass()) ? CHERTUBA_ILLUSION : CHERTUBA_MIRAGE;
 			showOnScreenMsg(killer, NpcStringId.A_POWERFUL_MONSTER_HAS_COME_TO_FACE_YOU, ExShowScreenMessage.TOP_CENTER, 5000);

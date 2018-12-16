@@ -90,7 +90,7 @@ public final class Anais extends AbstractNpcAI
 					final L2Object target = npc.getTarget();
 					_nextTarget = (target != null) && target.isPlayer() ? (L2PcInstance) target : null;
 					final L2Npc b = _divineBurners.get(_pot);
-					_pot = _pot + 1;
+					_pot += 1;
 					b.setDisplayEffect(1);
 					b.setWalking();
 					final L2Npc ward = addSpawn(GRAIL_WARD, new Location(b.getX(), b.getY(), b.getZ()), true, 0);
@@ -107,7 +107,7 @@ public final class Anais extends AbstractNpcAI
 			{
 				if (_nextTarget != null)
 				{
-					final double distance = npc.calculateDistance(_nextTarget, false, false);
+					final double distance = npc.calculateDistance2D(_nextTarget);
 					if (distance < 100)
 					{
 						npc.doCast(DIVINE_NOVA.getSkill());

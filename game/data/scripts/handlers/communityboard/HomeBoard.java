@@ -300,7 +300,7 @@ public final class HomeBoard implements IParseBoardHandler
 	private static int getFavoriteCount(L2PcInstance player)
 	{
 		int count = 0;
-		try (Connection con = DatabaseFactory.getInstance().getConnection();
+		try (Connection con = DatabaseFactory.getConnection();
 			PreparedStatement ps = con.prepareStatement(COUNT_FAVORITES))
 		{
 			ps.setInt(1, player.getObjectId());

@@ -127,7 +127,7 @@ public final class KartiaHelperElise extends AbstractNpcAI
 			}
 			if (adolph != null)
 			{
-				final double distance = npc.calculateDistance(adolph, false, false);
+				final double distance = npc.calculateDistance2D(adolph);
 				if (distance > 300)
 				{
 					final Location loc = new Location(adolph.getX(), adolph.getY(), adolph.getZ() + 50);

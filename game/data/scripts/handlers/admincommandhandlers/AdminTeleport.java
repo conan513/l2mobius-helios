@@ -190,7 +190,7 @@ public class AdminTeleport implements IAdminCommandHandler
 				st.nextToken();
 				final int x = (int) Float.parseFloat(st.nextToken());
 				final int y = (int) Float.parseFloat(st.nextToken());
-				final int z = st.hasMoreTokens() ? ((int) Float.parseFloat(st.nextToken())) : GeoEngine.getInstance().getHeight(x, y, L2World.MAP_MAX_Z);
+				final int z = st.hasMoreTokens() ? ((int) Float.parseFloat(st.nextToken())) : GeoEngine.getInstance().getHeight(x, y, 10000);
 				
 				activeChar.teleToLocation(x, y, z);
 			}
@@ -231,7 +231,9 @@ public class AdminTeleport implements IAdminCommandHandler
 		else if (command.startsWith("admin_go"))
 		{
 			int intVal = 150;
-			int x = activeChar.getX(), y = activeChar.getY(), z = activeChar.getZ();
+			int x = activeChar.getX();
+			int y = activeChar.getY();
+			int z = activeChar.getZ();
 			try
 			{
 				final String val = command.substring(8);
@@ -489,7 +491,7 @@ public class AdminTeleport implements IAdminCommandHandler
 		final int x = activeChar.getX();
 		final int y = activeChar.getY();
 		final int z = activeChar.getZ();
-		try (Connection con = DatabaseFactory.getInstance().getConnection())
+		try (Connection con = DatabaseFactory.getConnection())
 		{
 			final PreparedStatement statement = con.prepareStatement("UPDATE characters SET x=?, y=?, z=? WHERE char_name=?");
 			statement.setInt(1, x);
@@ -546,9 +548,7 @@ public class AdminTeleport implements IAdminCommandHandler
 			try
 			{
 				spawn = new L2Spawn(template1);
-				spawn.setX(activeChar.getX());
-				spawn.setY(activeChar.getY());
-				spawn.setZ(activeChar.getZ());
+				spawn.setXYZ(activeChar);
 				spawn.setAmount(1);
 				spawn.setHeading(activeChar.getHeading());
 				spawn.setRespawnDelay(respawnTime);
@@ -583,9 +583,7 @@ public class AdminTeleport implements IAdminCommandHandler
 			try
 			{
 				final L2Spawn spawnDat = new L2Spawn(target.getId());
-				spawnDat.setX(activeChar.getX());
-				spawnDat.setY(activeChar.getY());
-				spawnDat.setZ(activeChar.getZ());
+				spawnDat.setXYZ(activeChar);
 				spawnDat.setAmount(1);
 				spawnDat.setHeading(activeChar.getHeading());
 				spawnDat.setRespawnMinDelay(43200);

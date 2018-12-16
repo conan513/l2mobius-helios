@@ -173,7 +173,7 @@ public class AdminShowQuests implements IAdminCommandHandler
 	
 	private static void showQuestMenu(L2PcInstance target, L2PcInstance actor, String[] val)
 	{
-		try (Connection con = DatabaseFactory.getInstance().getConnection())
+		try (Connection con = DatabaseFactory.getConnection())
 		{
 			ResultSet rs;
 			PreparedStatement req;

@@ -77,9 +77,10 @@ public class Fortuna extends AbstractInstance
 				{
 					for (L2PcInstance member : player.getParty().getMembers())
 					{
-						if ((member.getInstanceWorld() != null) && (member.getInstanceWorld().getTemplateId() == TEMPLATE_ID))
+						final Instance world = member.getInstanceWorld();
+						if ((world != null) && (world.getTemplateId() == TEMPLATE_ID) && (world.getPlayersCount() < 7))
 						{
-							player.teleToLocation(RE_ENTRY_LOCATION.getX(), RE_ENTRY_LOCATION.getY(), RE_ENTRY_LOCATION.getZ(), member.getInstanceWorld());
+							player.teleToLocation(RE_ENTRY_LOCATION, world);
 							break;
 						}
 					}

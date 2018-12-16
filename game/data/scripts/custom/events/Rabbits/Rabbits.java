@@ -222,7 +222,7 @@ public final class Rabbits extends Event
 		}
 		else if (skill.getId() == RABBIT_MAGIC_EYE.getSkillId())
 		{
-			if (npc.isInvisible() && npc.isInsideRadius(caster, skill.getAffectRange(), false, false))
+			if (npc.isInvisible() && npc.isInsideRadius2D(caster, skill.getAffectRange()))
 			{
 				npc.setInvisible(false);
 			}

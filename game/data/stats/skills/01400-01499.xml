@@ -870,8 +870,8 @@
 		<affectRange>200</affectRange>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<castRange>900</castRange>
-		<channelingSkillId>1419</channelingSkillId>
-		<channelingTickInterval>2000</channelingTickInterval>
+		<channelingStart>1</channelingStart>
+		<channelingTickInterval>2</channelingTickInterval>
 		<effectPoint>-676</effectPoint>
 		<attributeType>FIRE</attributeType>
 		<attributeValue>20</attributeValue>
@@ -891,23 +891,22 @@
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>4</hitCancelTime>
 		<effectRange>1000</effectRange>
-		<channelingTickInitialDelay>1000</channelingTickInitialDelay>
+		<targetType>GROUND</targetType>
+		<affectScope>POINT_BLANK</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
 		<channelingEffects>
 			<effect name="MagicalAttack">
 				<power>500</power>
 			</effect>
 		</channelingEffects>
-		<targetType>GROUND</targetType>
-		<affectScope>POINT_BLANK</affectScope>
-		<affectObject>NOT_FRIEND</affectObject>
 	</skill>
 	<skill id="1420" toLevel="1" name="Cyclone">
 		<affectLimit>15-25</affectLimit>
 		<affectRange>200</affectRange>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<castRange>900</castRange>
-		<channelingSkillId>1420</channelingSkillId>
-		<channelingTickInterval>2000</channelingTickInterval>
+		<channelingStart>1</channelingStart>
+		<channelingTickInterval>2</channelingTickInterval>
 		<effectPoint>-676</effectPoint>
 		<attributeType>WIND</attributeType>
 		<attributeValue>20</attributeValue>
@@ -927,23 +926,22 @@
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>4</hitCancelTime>
 		<effectRange>1000</effectRange>
-		<channelingTickInitialDelay>1000</channelingTickInitialDelay>
+		<targetType>GROUND</targetType>
+		<affectScope>POINT_BLANK</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
 		<channelingEffects>
 			<effect name="MagicalAttack">
 				<power>500</power>
 			</effect>
 		</channelingEffects>
-		<targetType>GROUND</targetType>
-		<affectScope>POINT_BLANK</affectScope>
-		<affectObject>NOT_FRIEND</affectObject>
 	</skill>
 	<skill id="1421" toLevel="1" name="Raging Waves">
 		<affectLimit>15-25</affectLimit>
 		<affectRange>200</affectRange>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<castRange>900</castRange>
-		<channelingSkillId>1421</channelingSkillId>
-		<channelingTickInterval>2000</channelingTickInterval>
+		<channelingStart>1</channelingStart>
+		<channelingTickInterval>2</channelingTickInterval>
 		<effectPoint>-676</effectPoint>
 		<attributeType>WATER</attributeType>
 		<attributeValue>20</attributeValue>
@@ -963,15 +961,14 @@
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>4</hitCancelTime>
 		<effectRange>1000</effectRange>
-		<channelingTickInitialDelay>1000</channelingTickInitialDelay>
+		<targetType>GROUND</targetType>
+		<affectScope>POINT_BLANK</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
 		<channelingEffects>
 			<effect name="MagicalAttack">
 				<power>500</power>
 			</effect>
 		</channelingEffects>
-		<targetType>GROUND</targetType>
-		<affectScope>POINT_BLANK</affectScope>
-		<affectObject>NOT_FRIEND</affectObject>
 	</skill>
 	<skill id="1422" toLevel="1" name="Day of Doom">
 		<blockedInOlympiad>true</blockedInOlympiad>
@@ -1021,8 +1018,8 @@
 		<affectRange>200</affectRange>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<castRange>900</castRange>
-		<channelingSkillId>1423</channelingSkillId>
-		<channelingTickInterval>2000</channelingTickInterval>
+		<channelingStart>1</channelingStart>
+		<channelingTickInterval>2</channelingTickInterval>
 		<effectPoint>-676</effectPoint>
 		<attributeType>DARK</attributeType>
 		<attributeValue>20</attributeValue>
@@ -1042,15 +1039,14 @@
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>4</hitCancelTime>
 		<effectRange>1000</effectRange>
-		<channelingTickInitialDelay>1000</channelingTickInitialDelay>
+		<targetType>GROUND</targetType>
+		<affectScope>POINT_BLANK</affectScope>
+		<affectObject>NOT_FRIEND</affectObject>
 		<channelingEffects>
 			<effect name="MagicalAttack">
 				<power>500</power>
 			</effect>
 		</channelingEffects>
-		<targetType>GROUND</targetType>
-		<affectScope>POINT_BLANK</affectScope>
-		<affectObject>NOT_FRIEND</affectObject>
 	</skill>
 	<skill id="1424" toLevel="1" name="Anti-summoning Field">
 		<blockedInOlympiad>true</blockedInOlympiad>
@@ -3538,7 +3534,8 @@
 		<!-- Confirmed CT2.5 -->
 		<!-- Kamael Final Form Skill -->
 		<castRange>900</castRange>
-		<channelingTickInterval>2000</channelingTickInterval>
+		<channelingStart>1</channelingStart>
+		<channelingTickInterval>2</channelingTickInterval>
 		<effectPoint>-676</effectPoint>
 		<effectRange>1000</effectRange>
 		<attributeType>DARK</attributeType>
@@ -3555,14 +3552,13 @@
 		<staticReuse>true</staticReuse>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>4</hitCancelTime>
-		<channelingTickInitialDelay>1000</channelingTickInitialDelay>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
 		<channelingEffects>
 			<effect name="MagicalAttack">
 				<power>30</power>
 			</effect>
 		</channelingEffects>
-		<targetType>ENEMY</targetType>
-		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="1473" toLevel="1" name="Change Weapon">
 		<!-- Confirmed CT2.5 -->

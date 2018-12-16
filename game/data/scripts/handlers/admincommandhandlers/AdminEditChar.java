@@ -278,6 +278,7 @@ public class AdminEditChar implements IAdminCommandHandler
 				{
 					final L2PcInstance player = (L2PcInstance) target;
 					player.setPvpKills(pvp);
+					player.updatePvpTitleAndColor(false);
 					player.broadcastUserInfo();
 					player.sendPacket(new UserInfo(player));
 					player.sendMessage("A GM changed your PVP count to " + pvp);
@@ -383,7 +384,7 @@ public class AdminEditChar implements IAdminCommandHandler
 					}
 					
 					// Sex checks.
-					if (player.getRace().equals(Race.KAMAEL))
+					if (player.getRace() == Race.KAMAEL)
 					{
 						switch (classidval)
 						{
@@ -417,7 +418,7 @@ public class AdminEditChar implements IAdminCommandHandler
 							}
 						}
 					}
-					if (player.getRace().equals(Race.ERTHEIA))
+					if (player.getRace() == Race.ERTHEIA)
 					{
 						player.getAppearance().setSex(true);
 					}
@@ -630,7 +631,7 @@ public class AdminEditChar implements IAdminCommandHandler
 				
 				if (player == null)
 				{
-					final Connection con = DatabaseFactory.getInstance().getConnection();
+					final Connection con = DatabaseFactory.getConnection();
 					final PreparedStatement ps = con.prepareStatement("UPDATE characters SET " + (changeCreateExpiryTime ? "clan_create_expiry_time" : "clan_join_expiry_time") + " WHERE char_name=? LIMIT 1");
 					
 					ps.setString(1, playerName);
@@ -774,9 +775,8 @@ public class AdminEditChar implements IAdminCommandHandler
 				{
 					final String val = command.substring(20);
 					final int level = Integer.parseInt(val);
-					long newexp, oldexp = 0;
-					oldexp = pet.getStat().getExp();
-					newexp = pet.getStat().getExpForLevel(level);
+					final long oldexp = pet.getStat().getExp();
+					final long newexp = pet.getStat().getExpForLevel(level);
 					if (oldexp > newexp)
 					{
 						pet.getStat().removeExp(oldexp - newexp);
@@ -1265,7 +1265,7 @@ public class AdminEditChar implements IAdminCommandHandler
 			name = player.getName();
 			if (name.toLowerCase().contains(CharacterToFind.toLowerCase()))
 			{
-				CharactersFound = CharactersFound + 1;
+				CharactersFound += 1;
 				replyMSG.append("<tr><td width=80><a action=\"bypass -h admin_character_info ");
 				replyMSG.append(name);
 				replyMSG.append("\">");
@@ -1328,7 +1328,7 @@ public class AdminEditChar implements IAdminCommandHandler
 		
 		int CharactersFound = 0;
 		L2GameClient client;
-		String name, ip = "0.0.0.0";
+		String ip = "0.0.0.0";
 		final StringBuilder replyMSG = new StringBuilder(1000);
 		final NpcHtmlMessage adminReply = new NpcHtmlMessage(0, 1);
 		adminReply.setFile(activeChar, "data/html/admin/ipfind.htm");
@@ -1364,8 +1364,8 @@ public class AdminEditChar implements IAdminCommandHandler
 				}
 			}
 			
-			name = player.getName();
-			CharactersFound = CharactersFound + 1;
+			final String name = player.getName();
+			CharactersFound += 1;
 			replyMSG.append("<tr><td width=80><a action=\"bypass -h admin_character_info ");
 			replyMSG.append(name);
 			replyMSG.append("\">");
@@ -1457,7 +1457,7 @@ public class AdminEditChar implements IAdminCommandHandler
 			ip = client.getConnectionAddress().getHostAddress();
 			if (ipMap.get(ip) == null)
 			{
-				ipMap.put(ip, new ArrayList<L2PcInstance>());
+				ipMap.put(ip, new ArrayList<>());
 			}
 			ipMap.get(ip).add(player);
 			
@@ -1511,7 +1511,7 @@ public class AdminEditChar implements IAdminCommandHandler
 			final IpPack pack = new IpPack(client.getConnectionAddress().getHostAddress(), client.getTrace());
 			if (ipMap.get(pack) == null)
 			{
-				ipMap.put(pack, new ArrayList<L2PcInstance>());
+				ipMap.put(pack, new ArrayList<>());
 			}
 			ipMap.get(pack).add(player);
 			

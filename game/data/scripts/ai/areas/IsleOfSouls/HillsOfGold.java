@@ -61,7 +61,7 @@ public final class HillsOfGold extends AbstractNpcAI
 	{
 		if ((npc != null) && !npc.isDead())
 		{
-			L2World.getInstance().forEachVisibleObject(npc, L2MonsterInstance.class, npc.getAggroRange(), nearby ->
+			L2World.getInstance().forEachVisibleObjectInRange(npc, L2MonsterInstance.class, npc.getAggroRange(), nearby ->
 			{
 				if (npc.isInCombat())
 				{

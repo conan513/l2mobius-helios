@@ -803,7 +803,7 @@ public class Lindvior extends AbstractNpcAI
 						{
 							npc.setTarget(generator);
 							npc.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, generator.getLocation());
-							if (npc.distFromMe(generator) < 500)
+							if (npc.calculateDistance3D(generator) < 500)
 							{
 								npc.reduceCurrentHp(1, generator, null);
 								generator.reduceCurrentHp(1, npc, null);
@@ -915,7 +915,8 @@ public class Lindvior extends AbstractNpcAI
 	
 	private void spawnServitor(int count, int radius, Location loc, int... npcIds)
 	{
-		int x = loc.getX(), y = loc.getY();
+		int x = loc.getX();
+		int y = loc.getY();
 		if (radius > 0)
 		{
 			x += Rnd.get(-radius, radius);

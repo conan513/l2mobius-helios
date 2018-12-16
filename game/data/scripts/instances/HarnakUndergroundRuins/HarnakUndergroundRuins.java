@@ -302,7 +302,7 @@ public final class HarnakUndergroundRuins extends AbstractInstance
 				final Instance world = player.getInstanceWorld();
 				if (world != null)
 				{
-					if (npc.calculateDistance(player, true, false) < MAXIMUM_DEFENSE.getSkill().getCastRange())
+					if (npc.calculateDistance3D(player) < MAXIMUM_DEFENSE.getSkill().getCastRange())
 					{
 						npc.doCast(MAXIMUM_DEFENSE.getSkill());
 						
@@ -331,7 +331,7 @@ public final class HarnakUndergroundRuins extends AbstractInstance
 					final Instance world = player.getInstanceWorld();
 					if ((world != null) && (world.isStatus(3) || world.isStatus(4)))
 					{
-						if (npc.calculateDistance(player, true, false) < LIGHT_HEAL.getSkill().getCastRange())
+						if (npc.calculateDistance3D(player) < LIGHT_HEAL.getSkill().getCastRange())
 						{
 							npc.doCast(LIGHT_HEAL.getSkill());
 						}

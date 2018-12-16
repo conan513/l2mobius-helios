@@ -128,7 +128,8 @@ public final class Parade extends AbstractNpcAI
 	public Parade()
 	{
 		// Starts at 8:00 and repeats every 6 hours.
-		final long diff = timeLeftMilli(8, 0, 0), cycle = 3600000;
+		final long diff = timeLeftMilli(8, 0, 0);
+		final long cycle = 3600000;
 		ThreadPool.scheduleAtFixedRate(new Start(), diff, cycle);
 		
 		// Test - Starts 3 minutes after server startup and repeats every 20 minutes.
@@ -234,7 +235,7 @@ public final class Parade extends AbstractNpcAI
 			{
 				if (actor != null)
 				{
-					if (actor.calculateDistance(actor.getXdestination(), actor.getYdestination(), 0, false, true) < (100 * 100))
+					if (actor.calculateDistanceSq2D(actor.getXdestination(), actor.getYdestination(), 0) < (100 * 100))
 					{
 						actor.deleteMe();
 						spawns.remove(actor);

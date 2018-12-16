@@ -105,7 +105,7 @@ public final class KartiaHelperAdolph extends AbstractNpcAI
 			player = npcVars.getObject("PLAYER_OBJECT", L2PcInstance.class);
 			if (player != null)
 			{
-				final double distance = npc.calculateDistance(player, false, false);
+				final double distance = npc.calculateDistance2D(player);
 				if (distance > 300)
 				{
 					final Location loc = new Location(player.getX(), player.getY(), player.getZ() + 50);
@@ -122,7 +122,7 @@ public final class KartiaHelperAdolph extends AbstractNpcAI
 				}
 				else if (!npc.isInCombat() || (npc.getTarget() == null))
 				{
-					final List<L2MonsterInstance> monsterList = L2World.getInstance().getVisibleObjects(npc, L2MonsterInstance.class, 500);
+					final List<L2MonsterInstance> monsterList = L2World.getInstance().getVisibleObjectsInRange(npc, L2MonsterInstance.class, 500);
 					if (!monsterList.isEmpty())
 					{
 						final L2MonsterInstance monster = monsterList.get(getRandom(monsterList.size()));
@@ -183,7 +183,7 @@ public final class KartiaHelperAdolph extends AbstractNpcAI
 						{
 							npc.broadcastSay(ChatType.NPC_GENERAL, NpcStringId.I_WILL_SHOW_YOU_THE_JUSTICE_OF_ADEN);
 							npc.doCast(skill_01.getSkill(), null, true, false);
-							final List<L2MonsterInstance> monsterList = L2World.getInstance().getVisibleObjects(npc, L2MonsterInstance.class, 300);
+							final List<L2MonsterInstance> monsterList = L2World.getInstance().getVisibleObjectsInRange(npc, L2MonsterInstance.class, 300);
 							if (!monsterList.isEmpty())
 							{
 								for (L2MonsterInstance monster : monsterList)

@@ -234,7 +234,7 @@ public final class Antharas extends AbstractNpcAI
 					{
 						for (L2PcInstance member : members)
 						{
-							if (member.isInsideRadius(npc, 1000, true, false))
+							if (member.isInsideRadius3D(npc, 1000))
 							{
 								member.teleToLocation(179700 + getRandom(700), 113800 + getRandom(2100), -7709);
 							}
@@ -314,7 +314,7 @@ public final class Antharas extends AbstractNpcAI
 			}
 			case "START_MOVE":
 			{
-				for (L2PcInstance players : L2World.getInstance().getVisibleObjects(npc, L2PcInstance.class, 4000))
+				for (L2PcInstance players : L2World.getInstance().getVisibleObjectsInRange(npc, L2PcInstance.class, 4000))
 				{
 					if (players.isHero())
 					{
@@ -618,7 +618,7 @@ public final class Antharas extends AbstractNpcAI
 		
 		if (npc.getId() == BOMBER)
 		{
-			if (npc.calculateDistance(attacker, true, false) < 230)
+			if (npc.calculateDistance3D(attacker) < 230)
 			{
 				npc.doCast(DISPEL_BOM.getSkill());
 				npc.doDie(attacker);
@@ -820,17 +820,17 @@ public final class Antharas extends AbstractNpcAI
 		int i1 = 0;
 		int i2 = 0;
 		L2PcInstance c2 = null;
-		if ((attacker_1 == null) || (npc.calculateDistance(attacker_1, true, false) > 9000) || attacker_1.isDead())
+		if ((attacker_1 == null) || (npc.calculateDistance3D(attacker_1) > 9000) || attacker_1.isDead())
 		{
 			attacker_1_hate = 0;
 		}
 		
-		if ((attacker_2 == null) || (npc.calculateDistance(attacker_2, true, false) > 9000) || attacker_2.isDead())
+		if ((attacker_2 == null) || (npc.calculateDistance3D(attacker_2) > 9000) || attacker_2.isDead())
 		{
 			attacker_2_hate = 0;
 		}
 		
-		if ((attacker_3 == null) || (npc.calculateDistance(attacker_3, true, false) > 9000) || attacker_3.isDead())
+		if ((attacker_3 == null) || (npc.calculateDistance3D(attacker_3) > 9000) || attacker_3.isDead())
 		{
 			attacker_3_hate = 0;
 		}
@@ -878,7 +878,7 @@ public final class Antharas extends AbstractNpcAI
 				}
 			}
 			
-			final double distance_c2 = npc.calculateDistance(c2, true, false);
+			final double distance_c2 = npc.calculateDistance3D(c2);
 			final double direction_c2 = npc.calculateDirectionTo(c2);
 			
 			SkillHolder skillToCast = null;

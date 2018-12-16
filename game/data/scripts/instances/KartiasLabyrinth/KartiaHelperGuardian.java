@@ -103,7 +103,7 @@ public final class KartiaHelperGuardian extends AbstractNpcAI
 			final FriendlyNpcInstance eliyah = npc.getVariables().getObject("ELIYAH_OBJECT", FriendlyNpcInstance.class);
 			if (eliyah != null)
 			{
-				final double distance = npc.calculateDistance(eliyah, false, false);
+				final double distance = npc.calculateDistance2D(eliyah);
 				if (distance > 300)
 				{
 					final Location loc = new Location(eliyah.getX(), eliyah.getY(), eliyah.getZ() + 50);

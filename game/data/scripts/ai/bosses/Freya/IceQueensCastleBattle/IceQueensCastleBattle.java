@@ -277,6 +277,7 @@ public final class IceQueensCastleBattle extends AbstractInstance
 					{
 						final L2GrandBossInstance frey = (L2GrandBossInstance) addSpawn(FREYA_SPELLING, FREYA_SPELLING_SPAWN, false, 0, true, world.getId());
 						frey.setIsInvul(true);
+						frey.setRandomWalking(false);
 						frey.disableCoreAI(true);
 						manageTimer(world, 60, NpcStringId.TIME_REMAINING_UNTIL_NEXT_BATTLE);
 						world.setStatus(2);
@@ -338,6 +339,7 @@ public final class IceQueensCastleBattle extends AbstractInstance
 					}
 					case "STAGE_3_MOVIE":
 					{
+						freya.deleteMe();
 						manageMovie(world, Movie.SC_BOSS_FREYA_PHASECH_B);
 						startQuestTimer("STAGE_3_START", 21500, controller, null);
 						break;
@@ -353,7 +355,6 @@ public final class IceQueensCastleBattle extends AbstractInstance
 								players.sendPacket(new OnEventTrigger(emmiterId, true));
 							}
 						}
-						freya.deleteMe();
 						final L2GrandBossInstance frey = (L2GrandBossInstance) addSpawn((isHardMode ? FREYA_STAND_HARD : FREYA_STAND_EASY), FREYA_SPAWN, false, 0, true, world.getId());
 						world.setStatus(4);
 						world.setParameter("canSpawnMobs", true);
@@ -382,8 +383,11 @@ public final class IceQueensCastleBattle extends AbstractInstance
 						if (npc.getVariables().getInt("FREYA_MOVE") == 0)
 						{
 							controller.getVariables().set("FREYA_MOVE", 1);
-							freya.setRunning();
-							freya.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, MIDDLE_POINT);
+							if (!freya.isInCombat())
+							{
+								freya.setRunning();
+								freya.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, MIDDLE_POINT);
+							}
 						}
 						break;
 					}
@@ -455,13 +459,6 @@ public final class IceQueensCastleBattle extends AbstractInstance
 							world.getNpc(SUPP_KEGOR).doCast(KEGOR_SUPPORT.getSkill());
 							startQuestTimer("GIVE_SUPPORT", 25000, controller, null);
 						}
-						break;
-					}
-					case "FINISH_STAGE":
-					{
-						freya.teleToLocation(FREYA_CORPSE);
-						world.getNpc(SUPP_JINIA).deleteMe();
-						world.getNpc(SUPP_KEGOR).teleToLocation(KEGOR_FINISH);
 						break;
 					}
 					case "START_SPAWN":
@@ -635,7 +632,7 @@ public final class IceQueensCastleBattle extends AbstractInstance
 					case "LEADER_DASH":
 					{
 						final L2Character mostHated = ((L2Attackable) npc).getMostHated();
-						if (getRandomBoolean() && !npc.isCastingNow(SkillCaster::isAnyNormalType) && (mostHated != null) && !mostHated.isDead() && (npc.calculateDistance(mostHated, true, false) < 1000))
+						if (getRandomBoolean() && !npc.isCastingNow(SkillCaster::isAnyNormalType) && (mostHated != null) && !mostHated.isDead() && (npc.calculateDistance3D(mostHated) < 1000))
 						{
 							npc.setTarget(mostHated);
 							npc.doCast(LEADER_RUSH.getSkill());
@@ -750,9 +747,12 @@ public final class IceQueensCastleBattle extends AbstractInstance
 					if ((controller.getVariables().getInt("FREYA_MOVE") == 0) && world.isStatus(1))
 					{
 						controller.getVariables().set("FREYA_MOVE", 1);
-						manageScreenMsg(world, NpcStringId.FREYA_HAS_STARTED_TO_MOVE);
-						freya.setRunning();
-						freya.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, MIDDLE_POINT);
+						if (!freya.isInCombat())
+						{
+							manageScreenMsg(world, NpcStringId.FREYA_HAS_STARTED_TO_MOVE);
+							freya.setRunning();
+							freya.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, MIDDLE_POINT);
+						}
 					}
 					
 					if (npc.getCurrentHp() < (npc.getMaxHp() * 0.02))
@@ -772,13 +772,13 @@ public final class IceQueensCastleBattle extends AbstractInstance
 						}
 						
 						final L2Character mostHated = ((L2Attackable) npc).getMostHated();
-						final boolean canReachMostHated = (mostHated != null) && !mostHated.isDead() && (npc.calculateDistance(mostHated, true, false) <= 800);
+						final boolean canReachMostHated = (mostHated != null) && !mostHated.isDead() && (npc.calculateDistance3D(mostHated) <= 800);
 						
 						if (getRandom(10000) < 3333)
 						{
 							if (getRandomBoolean())
 							{
-								if ((npc.calculateDistance(attacker, true, false) <= 800) && SkillCaster.checkUseConditions(npc, ICE_BALL.getSkill()))
+								if ((npc.calculateDistance3D(attacker) <= 800) && SkillCaster.checkUseConditions(npc, ICE_BALL.getSkill()))
 								{
 									npc.setTarget(attacker);
 									npc.doCast(ICE_BALL.getSkill());
@@ -794,7 +794,7 @@ public final class IceQueensCastleBattle extends AbstractInstance
 						{
 							if (getRandomBoolean())
 							{
-								if ((npc.calculateDistance(attacker, true, false) <= 800) && SkillCaster.checkUseConditions(npc, SUMMON_ELEMENTAL.getSkill()))
+								if ((npc.calculateDistance3D(attacker) <= 800) && SkillCaster.checkUseConditions(npc, SUMMON_ELEMENTAL.getSkill()))
 								{
 									npc.setTarget(attacker);
 									npc.doCast(SUMMON_ELEMENTAL.getSkill());
@@ -825,8 +825,11 @@ public final class IceQueensCastleBattle extends AbstractInstance
 					if (controller.getVariables().getInt("FREYA_MOVE") == 0)
 					{
 						controller.getVariables().set("FREYA_MOVE", 1);
-						freya.setRunning();
-						freya.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, MIDDLE_POINT);
+						if (!freya.isInCombat())
+						{
+							freya.setRunning();
+							freya.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, MIDDLE_POINT);
+						}
 					}
 					
 					if ((npc.getCurrentHp() < (npc.getMaxHp() * 0.2)) && !params.getBoolean("isSupportActive", false))
@@ -853,13 +856,13 @@ public final class IceQueensCastleBattle extends AbstractInstance
 					}
 					
 					final L2Character mostHated = ((L2Attackable) npc).getMostHated();
-					final boolean canReachMostHated = (mostHated != null) && !mostHated.isDead() && (npc.calculateDistance(mostHated, true, false) <= 800);
+					final boolean canReachMostHated = (mostHated != null) && !mostHated.isDead() && (npc.calculateDistance3D(mostHated) <= 800);
 					
 					if (getRandom(10000) < 3333)
 					{
 						if (getRandomBoolean())
 						{
-							if ((npc.calculateDistance(attacker, true, false) <= 800) && SkillCaster.checkUseConditions(npc, ICE_BALL.getSkill()))
+							if ((npc.calculateDistance3D(attacker) <= 800) && SkillCaster.checkUseConditions(npc, ICE_BALL.getSkill()))
 							{
 								npc.setTarget(attacker);
 								npc.doCast(ICE_BALL.getSkill());
@@ -875,7 +878,7 @@ public final class IceQueensCastleBattle extends AbstractInstance
 					{
 						if (getRandomBoolean())
 						{
-							if ((npc.calculateDistance(attacker, true, false) <= 800) && SkillCaster.checkUseConditions(npc, SUMMON_ELEMENTAL.getSkill()))
+							if ((npc.calculateDistance3D(attacker) <= 800) && SkillCaster.checkUseConditions(npc, SUMMON_ELEMENTAL.getSkill()))
 							{
 								npc.setTarget(attacker);
 								npc.doCast(SUMMON_ELEMENTAL.getSkill());
@@ -958,7 +961,7 @@ public final class IceQueensCastleBattle extends AbstractInstance
 					else if ((npc.getVariables().getInt("OFF_SHOUT") == 0) && (npc.getVariables().getInt("DELAY_VAL") == 1))
 					{
 						final L2Character mostHated = ((L2Attackable) npc).getMostHated();
-						final boolean canReachMostHated = (mostHated != null) && !mostHated.isDead() && (npc.calculateDistance(mostHated, true, false) < 1000);
+						final boolean canReachMostHated = (mostHated != null) && !mostHated.isDead() && (npc.calculateDistance3D(mostHated) < 1000);
 						
 						if (npc.getVariables().getInt("TIMER_ON") == 0)
 						{
@@ -1092,6 +1095,17 @@ public final class IceQueensCastleBattle extends AbstractInstance
 				case FREYA_STAND_HARD:
 				{
 					world.setParameter("isSupportActive", false);
+					npc.teleToLocation(FREYA_CORPSE);
+					final L2Npc jinia = world.getNpc(SUPP_JINIA);
+					final L2Npc kegor = world.getNpc(SUPP_KEGOR);
+					if (jinia != null)
+					{
+						world.getNpc(SUPP_JINIA).deleteMe();
+					}
+					if (kegor != null)
+					{
+						world.getNpc(SUPP_KEGOR).teleToLocation(KEGOR_FINISH);
+					}
 					manageMovie(world, Movie.SC_BOSS_FREYA_ENDING_A);
 					manageDespawnMinions(world);
 					world.finishInstance();
@@ -1099,7 +1113,6 @@ public final class IceQueensCastleBattle extends AbstractInstance
 					cancelQuestTimer("GIVE_SUPPORT", controller, null);
 					cancelQuestTimer("CAST_BLIZZARD", controller, null);
 					cancelQuestTimer("FREYA_BUFF", controller, null);
-					startQuestTimer("FINISH_STAGE", 16000, controller, null);
 					startQuestTimer("FINISH_WORLD", 300000, controller, null);
 					break;
 				}
@@ -1113,11 +1126,13 @@ public final class IceQueensCastleBattle extends AbstractInstance
 					if ((var.getInt("FREYA_MOVE") == 0) && world.isStatus(1))
 					{
 						var.set("FREYA_MOVE", 1);
-						manageScreenMsg(world, NpcStringId.FREYA_HAS_STARTED_TO_MOVE);
-						
 						final L2Npc freya = params.getObject("freya", L2Npc.class);
-						freya.setRunning();
-						freya.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, MIDDLE_POINT);
+						if (!freya.isInCombat())
+						{
+							manageScreenMsg(world, NpcStringId.FREYA_HAS_STARTED_TO_MOVE);
+							freya.setRunning();
+							freya.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, MIDDLE_POINT);
+						}
 					}
 					
 					if ((knightCount < 10) && (world.isStatus(2)))
@@ -1212,7 +1227,7 @@ public final class IceQueensCastleBattle extends AbstractInstance
 	private void manageMovie(Instance world, Movie movie)
 	{
 		final L2Npc controller = world.getParameters().getObject("controller", L2Npc.class);
-		playMovie(L2World.getInstance().getVisibleObjects(controller, L2PcInstance.class, 8000), movie);
+		playMovie(L2World.getInstance().getVisibleObjectsInRange(controller, L2PcInstance.class, 8000), movie);
 	}
 	
 	private List<L2Npc> getKnightStatues(Instance world)

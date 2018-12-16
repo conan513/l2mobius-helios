@@ -39,7 +39,7 @@ CREATE TABLE IF NOT EXISTS `characters` (
   `onlinetime` INT DEFAULT NULL,
   `char_slot` TINYINT UNSIGNED DEFAULT NULL,
   `lastAccess` bigint(13) unsigned NOT NULL DEFAULT '0',
-  `clan_privs` MEDIUMINT UNSIGNED DEFAULT 0,
+  `clan_privs` INT UNSIGNED DEFAULT 0,
   `wantspeace` TINYINT UNSIGNED DEFAULT 0,
   `power_grade` TINYINT UNSIGNED DEFAULT NULL,
   `nobless` TINYINT UNSIGNED NOT NULL DEFAULT 0,

@@ -16,9 +16,7 @@
  */
 package ai.areas.TalkingIsland;
 
-import com.l2jmobius.gameserver.ai.CtrlIntention;
 import com.l2jmobius.gameserver.model.L2World;
-import com.l2jmobius.gameserver.model.actor.L2Character;
 import com.l2jmobius.gameserver.model.actor.L2Npc;
 import com.l2jmobius.gameserver.model.actor.instance.L2PcInstance;
 
@@ -26,7 +24,7 @@ import ai.AbstractNpcAI;
 
 /**
  * Trainning Soldier AI.
- * @author St3eT
+ * @author Mobius
  */
 public final class TrainningSoldier extends AbstractNpcAI
 {
@@ -36,42 +34,36 @@ public final class TrainningSoldier extends AbstractNpcAI
 	
 	private TrainningSoldier()
 	{
-		addSeeCreatureId(SOLDIER);
+		addSpawnId(SOLDIER);
 	}
 	
 	@Override
 	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
 	{
-		if (event.equals("START_ATTACK"))
+		if ((npc != null) && !npc.isDead())
 		{
-			//@formatter:off
-			final L2Npc dummy = L2World.getInstance().getVisibleObjects(npc, L2Npc.class, 150)
-				.stream()
-				.filter(obj -> (obj.getId() == DUMMY))
-				.findFirst()
-				.orElse(null);
-			//@formatter:on
-			
-			if (dummy != null)
+			if (!npc.isInCombat())
 			{
-				addAttackDesire(npc, dummy);
+				for (L2Npc nearby : L2World.getInstance().getVisibleObjectsInRange(npc, L2Npc.class, 150))
+				{
+					if ((nearby != null) && (nearby.getId() == DUMMY))
+					{
+						addAttackDesire(npc, nearby);
+						break;
+					}
+				}
 			}
-			else
-			{
-				startQuestTimer("START_ATTACK", 250, npc, null);
-			}
+			startQuestTimer("START_ATTACK", 10000, npc, null);
 		}
 		return super.onAdvEvent(event, npc, player);
 	}
 	
 	@Override
-	public String onSeeCreature(L2Npc npc, L2Character creature, boolean isSummon)
+	public String onSpawn(L2Npc npc)
 	{
-		if (creature.isPlayer() && (npc.getAI().getIntention() != CtrlIntention.AI_INTENTION_ATTACK))
-		{
-			startQuestTimer("START_ATTACK", 250, npc, null);
-		}
-		return super.onSeeCreature(npc, creature, isSummon);
+		npc.setRandomAnimation(false);
+		startQuestTimer("START_ATTACK", 5000, npc, null);
+		return super.onSpawn(npc);
 	}
 	
 	public static void main(String[] args)

@@ -19,7 +19,6 @@ package handlers.skillconditionhandlers;
 import com.l2jmobius.gameserver.model.L2Object;
 import com.l2jmobius.gameserver.model.StatsSet;
 import com.l2jmobius.gameserver.model.actor.L2Character;
-import com.l2jmobius.gameserver.model.actor.instance.L2MonsterInstance;
 import com.l2jmobius.gameserver.model.skills.ISkillCondition;
 import com.l2jmobius.gameserver.model.skills.Skill;
 import com.l2jmobius.gameserver.network.SystemMessageId;
@@ -36,10 +35,10 @@ public class ConsumeBodySkillCondition implements ISkillCondition
 	@Override
 	public boolean canUse(L2Character caster, Skill skill, L2Object target)
 	{
-		if ((target != null) && target.isMonster())
+		if ((target != null) && (target.isMonster() || target.isSummon()))
 		{
-			final L2MonsterInstance monster = (L2MonsterInstance) target;
-			if (monster.isDead() && monster.isSpawned())
+			final L2Character character = (L2Character) target;
+			if (character.isDead() && character.isSpawned())
 			{
 				return true;
 			}

@@ -2989,7 +2989,8 @@
 		<!-- Confirmed CT2.5 -->
 		<!-- Kamael Final Form Skill -->
 		<castRange>900</castRange>
-		<channelingTickInterval>2000</channelingTickInterval>
+		<channelingStart>1</channelingStart>
+		<channelingTickInterval>2</channelingTickInterval>
 		<effectPoint>-676</effectPoint>
 		<effectRange>1000</effectRange>
 		<attributeType>DARK</attributeType>
@@ -3006,14 +3007,13 @@
 		<staticReuse>true</staticReuse>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>4</hitCancelTime>
-		<channelingTickInitialDelay>1000</channelingTickInitialDelay>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
 		<channelingEffects>
 			<effect name="MagicalAttack">
 				<power>30</power>
 			</effect>
 		</channelingEffects>
-		<targetType>ENEMY</targetType>
-		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="1546" toLevel="1" name="Strider Fear">
 		<!-- Confirmed CT2.5 -->

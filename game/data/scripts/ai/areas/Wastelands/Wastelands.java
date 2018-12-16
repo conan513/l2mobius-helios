@@ -92,7 +92,7 @@ public final class Wastelands extends AbstractNpcAI
 				npc.broadcastSocialAction(4);
 				npc.broadcastSay(ChatType.NPC_GENERAL, GUARD_SHOUT[getRandom(2)], 1000);
 				
-				L2World.getInstance().getVisibleObjects(npc, L2Npc.class, 500).stream().filter(n -> n.getId() == GUARD).forEach(guard ->
+				L2World.getInstance().getVisibleObjectsInRange(npc, L2Npc.class, 500).stream().filter(n -> n.getId() == GUARD).forEach(guard ->
 				{
 					startQuestTimer("SOCIAL_ACTION", getRandom(2500, 3500), guard, null);
 				});
@@ -136,7 +136,7 @@ public final class Wastelands extends AbstractNpcAI
 				if (attackId > 0)
 				{
 					//@formatter:off
-					final L2MonsterInstance monster = L2World.getInstance().getVisibleObjects(guard, L2MonsterInstance.class, 1000)
+					final L2MonsterInstance monster = L2World.getInstance().getVisibleObjectsInRange(guard, L2MonsterInstance.class, 1000)
 						.stream()
 						.filter(obj -> (obj.getId() == attackId))
 						.findFirst()
@@ -162,7 +162,7 @@ public final class Wastelands extends AbstractNpcAI
 						if (guard.getId() == SCHUAZEN)
 						{
 							//@formatter:off
-							final FriendlyNpcInstance decoGuard = L2World.getInstance().getVisibleObjects(guard, FriendlyNpcInstance.class, 500)
+							final FriendlyNpcInstance decoGuard = L2World.getInstance().getVisibleObjectsInRange(guard, FriendlyNpcInstance.class, 500)
 								.stream()
 								.filter(obj -> (obj.getId() == DECO_GUARD2))
 								.findFirst()
@@ -212,7 +212,7 @@ public final class Wastelands extends AbstractNpcAI
 			{
 				final int guardId = npc.getId() == REGENERATED_KANILOV ? JOEL : SCHUAZEN;
 				//@formatter:off
-				final FriendlyNpcInstance guard =  L2World.getInstance().getVisibleObjects(npc, FriendlyNpcInstance.class, 500)
+				final FriendlyNpcInstance guard =  L2World.getInstance().getVisibleObjectsInRange(npc, FriendlyNpcInstance.class, 500)
 					.stream()
 					.filter(obj -> (obj.getId() == guardId))
 					.findFirst()
@@ -280,7 +280,7 @@ public final class Wastelands extends AbstractNpcAI
 		final L2Attackable guard = (L2Attackable) event.getTarget();
 		
 		//@formatter:off
-		final L2Attackable sakum = L2World.getInstance().getVisibleObjects(guard, L2Attackable.class, 1000)
+		final L2Attackable sakum = L2World.getInstance().getVisibleObjectsInRange(guard, L2Attackable.class, 1000)
 			.stream()
 			.filter(obj -> (obj.getId() == SAKUM))
 			.findFirst()

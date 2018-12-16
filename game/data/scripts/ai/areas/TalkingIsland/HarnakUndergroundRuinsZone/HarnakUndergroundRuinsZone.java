@@ -175,7 +175,7 @@ public class HarnakUndergroundRuinsZone extends AbstractNpcAI
 							zone.broadcastPacket(new ExShowScreenMessage(NpcStringId.DEMONIC_SYSTEM_WILL_ACTIVATE, ExShowScreenMessage.TOP_CENTER, 3000));
 							String zoneName = zone.getName().toLowerCase().replace(" ", "_");
 							_templates.stream().forEach(t -> t.despawn(g -> String.valueOf(g.getName()).equalsIgnoreCase(zoneName)));
-							_templates.stream().forEach(t -> t.spawn(g -> String.valueOf(g.getName()).equalsIgnoreCase(zoneName.concat("_demonic")), null));
+							_templates.stream().forEach(t -> t.spawn(g -> String.valueOf(g.getName()).equalsIgnoreCase(zoneName + "_demonic"), null));
 							zone.getPlayersInside().forEach(temp -> temp.sendPacket(new ExSendUIEvent(temp, false, false, 600, 0, NpcStringId.DEMONIC_SYSTEM_ACTIVATED)));
 							currentInfo.setZoneStage(7);
 							ThreadPool.schedule(new changeZoneStage(zone), 600000); // 10min
@@ -198,7 +198,7 @@ public class HarnakUndergroundRuinsZone extends AbstractNpcAI
 							}
 						}
 						String zoneName = zone.getName().toLowerCase().replace(" ", "_");
-						_templates.stream().forEach(t -> t.despawn(g -> String.valueOf(g.getName()).equalsIgnoreCase(zoneName.concat("_demonic"))));
+						_templates.stream().forEach(t -> t.despawn(g -> String.valueOf(g.getName()).equalsIgnoreCase(zoneName + "_demonic")));
 						_templates.stream().forEach(t -> t.spawn(g -> String.valueOf(g.getName()).equalsIgnoreCase(zoneName), null));
 						return;
 					}

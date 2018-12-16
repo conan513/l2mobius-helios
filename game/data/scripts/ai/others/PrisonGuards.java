@@ -61,7 +61,7 @@ public final class PrisonGuards extends AbstractNpcAI
 		}
 		else if (event.equals("CHECK_HOME"))
 		{
-			if ((npc.calculateDistance(npc.getSpawn().getLocation(), false, false) > 10) && !npc.isInCombat() && !npc.isDead())
+			if ((npc.calculateDistance2D(npc.getSpawn().getLocation()) > 10) && !npc.isInCombat() && !npc.isDead())
 			{
 				npc.teleToLocation(npc.getSpawn().getLocation());
 			}
@@ -77,7 +77,7 @@ public final class PrisonGuards extends AbstractNpcAI
 		{
 			if (player.isAffectedBySkill(TIMER))
 			{
-				if ((getRandom(100) < 10) && (npc.calculateDistance(player, true, false) < 100))
+				if ((getRandom(100) < 10) && (npc.calculateDistance3D(player) < 100))
 				{
 					if ((getQuestItemsCount(player, STAMP) <= 3) && npc.isScriptValue(0))
 					{
@@ -94,7 +94,7 @@ public final class PrisonGuards extends AbstractNpcAI
 				npc.broadcastSay(ChatType.NPC_GENERAL, NpcStringId.IT_S_NOT_EASY_TO_OBTAIN);
 			}
 		}
-		else if (!player.isAffectedBySkill(TIMER) && (npc.calculateDistance(npc.getSpawn().getLocation(), false, false) < 2000))
+		else if (!player.isAffectedBySkill(TIMER) && (npc.calculateDistance2D(npc.getSpawn().getLocation()) < 2000))
 		{
 			npc.setTarget(player);
 			npc.doCast(STONE.getSkill());

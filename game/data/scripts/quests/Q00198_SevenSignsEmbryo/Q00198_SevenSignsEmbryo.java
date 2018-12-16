@@ -121,7 +121,7 @@ public final class Q00198_SevenSignsEmbryo extends Quest
 			}
 			case "heal":
 			{
-				if (!npc.isInsideRadius(player, 600, true, false))
+				if (!npc.isInsideRadius3D(player, 600))
 				{
 					npc.broadcastSay(ChatType.NPC_GENERAL, NpcStringId.LOOK_HERE_S1_DON_T_FALL_TOO_FAR_BEHIND, player.getName());
 				}
@@ -179,7 +179,7 @@ public final class Q00198_SevenSignsEmbryo extends Quest
 		}
 		
 		final QuestState st = getQuestState(partyMember, false);
-		if (npc.isInsideRadius(partyMember, 1500, true, false))
+		if (npc.isInsideRadius3D(partyMember, 1500))
 		{
 			giveItems(partyMember, SCULPTURE_OF_DOUBT, 1);
 			st.setCond(2, true);

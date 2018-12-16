@@ -212,7 +212,7 @@ public final class PrimevalIsle extends AbstractNpcAI
 				if ((npc != null) && (player != null))
 				{
 					npc.setScriptValue(0);
-					if (player.isInsideRadius(npc, 800, true, false))
+					if (player.isInsideRadius3D(npc, 800))
 					{
 						npc.setTarget(player);
 						npc.doCast(LONGRANGEDMAGIC1.getSkill());

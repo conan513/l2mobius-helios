@@ -253,7 +253,8 @@ public class Debug implements ITelnetCommand
 	
 	static String getServerStatus()
 	{
-		int playerCount = 0, objectCount = 0;
+		int playerCount = 0;
+		int objectCount = 0;
 		final int max = LoginServerThread.getInstance().getMaxPlayer();
 		
 		playerCount = L2World.getInstance().getPlayers().size();

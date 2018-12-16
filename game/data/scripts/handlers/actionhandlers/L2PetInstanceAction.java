@@ -65,7 +65,7 @@ public class L2PetInstanceAction implements IActionHandler
 					activeChar.onActionRequest();
 				}
 			}
-			else if (!((L2Character) target).isInsideRadius(activeChar, 150, false, false))
+			else if (!((L2Character) target).isInsideRadius2D(activeChar, 150))
 			{
 				if (GeoEngine.getInstance().canSeeTarget(activeChar, target))
 				{

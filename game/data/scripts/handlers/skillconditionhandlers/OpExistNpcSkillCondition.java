@@ -45,7 +45,7 @@ public class OpExistNpcSkillCondition implements ISkillCondition
 	@Override
 	public boolean canUse(L2Character caster, Skill skill, L2Object target)
 	{
-		final List<L2Npc> npcs = L2World.getInstance().getVisibleObjects(caster, L2Npc.class, _range);
+		final List<L2Npc> npcs = L2World.getInstance().getVisibleObjectsInRange(caster, L2Npc.class, _range);
 		return _isAround == npcs.stream().anyMatch(npc -> _npcIds.contains(npc.getId()));
 	}
 }

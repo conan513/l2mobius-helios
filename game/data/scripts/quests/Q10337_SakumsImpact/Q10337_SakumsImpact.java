@@ -40,8 +40,9 @@ public final class Q10337_SakumsImpact extends Quest
 	private static final int LEF = 33510;
 	private static final int SKELETON_WARRIOR = 23022;
 	private static final int RUIN_IMP = 20506;
+	private static final int RUIN_IMP_ELDER = 20507;
 	private static final int RUIN_BAT = 23023;
-	private static final int BAT = 20411;
+	private static final int SCAVENGER_BAT = 20411;
 	// Misc
 	private static final int MIN_LEVEL = 28;
 	private static final int MAX_LEVEL = 40;
@@ -51,7 +52,7 @@ public final class Q10337_SakumsImpact extends Quest
 		super(10337);
 		addStartNpc(ADVENTURE_GUILDSMAN);
 		addTalkId(ADVENTURE_GUILDSMAN, SILVAN, LEF);
-		addKillId(SKELETON_WARRIOR, RUIN_IMP, BAT, RUIN_BAT);
+		addKillId(SKELETON_WARRIOR, RUIN_IMP, RUIN_IMP_ELDER, SCAVENGER_BAT, RUIN_BAT);
 		addCondNotRace(Race.ERTHEIA, "");
 		addCondLevel(MIN_LEVEL, MAX_LEVEL, "");
 	}
@@ -230,7 +231,7 @@ public final class Q10337_SakumsImpact extends Quest
 		{
 			int killedWarriors = qs.getInt("killed_" + SKELETON_WARRIOR);
 			int killedImps = qs.getInt("killed_" + RUIN_IMP);
-			int killedBats = qs.getInt("killed_" + BAT);
+			int killedBats = qs.getInt("killed_" + SCAVENGER_BAT);
 			
 			switch (npc.getId())
 			{
@@ -245,6 +246,7 @@ public final class Q10337_SakumsImpact extends Quest
 					break;
 				}
 				case RUIN_IMP:
+				case RUIN_IMP_ELDER:
 				{
 					if (killedImps < 20)
 					{
@@ -255,12 +257,12 @@ public final class Q10337_SakumsImpact extends Quest
 					break;
 				}
 				case RUIN_BAT:
-				case BAT:
+				case SCAVENGER_BAT:
 				{
 					if (killedBats < 25)
 					{
 						killedBats++;
-						qs.set("killed_" + BAT, killedBats);
+						qs.set("killed_" + SCAVENGER_BAT, killedBats);
 						playSound(killer, QuestSound.ITEMSOUND_QUEST_ITEMGET);
 					}
 					break;
@@ -284,7 +286,7 @@ public final class Q10337_SakumsImpact extends Quest
 			final Set<NpcLogListHolder> npcLogList = new HashSet<>(3);
 			npcLogList.add(new NpcLogListHolder(SKELETON_WARRIOR, false, qs.getInt("killed_" + SKELETON_WARRIOR)));
 			npcLogList.add(new NpcLogListHolder(RUIN_IMP, false, qs.getInt("killed_" + RUIN_IMP)));
-			npcLogList.add(new NpcLogListHolder(27458, false, qs.getInt("killed_" + BAT))); // NOTE: Somehow quest log react on bad ID, maybe client bug
+			npcLogList.add(new NpcLogListHolder(27458, false, qs.getInt("killed_" + SCAVENGER_BAT))); // NOTE: Somehow quest log react on bad ID, maybe client bug
 			return npcLogList;
 		}
 		return super.getNpcLogList(activeChar);

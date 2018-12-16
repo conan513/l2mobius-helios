@@ -57,7 +57,7 @@ public final class LairOfAntharas extends AbstractNpcAI
 	{
 		if (event.equals("CHECK_HOME") && (npc != null) && !npc.isDead())
 		{
-			if ((npc.calculateDistance(npc.getSpawn().getLocation(), false, false) > 10) && !npc.isInCombat())
+			if ((npc.calculateDistance2D(npc.getSpawn().getLocation()) > 10) && !npc.isInCombat())
 			{
 				((L2Attackable) npc).returnHome();
 			}

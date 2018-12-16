@@ -90,7 +90,7 @@ public abstract class AbstractNpcAI extends Quest
 				return;
 			}
 			
-			final double distance = npc.calculateDistance(npcAround, true, false);
+			final double distance = npc.calculateDistance3D(npcAround);
 			if ((distance >= maxDistance) && npc.isScriptValue(0))
 			{
 				npc.setRunning();

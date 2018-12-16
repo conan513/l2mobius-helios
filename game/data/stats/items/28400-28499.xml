@@ -371,6 +371,7 @@
 		<set name="is_commissionable" val="false" />
 		<set name="is_private_storeable" val="false" />
 		<set name="is_mailable" val="false" />
+		<set name="is_freightable" val="true" />
 		<skills>
 			<skill id="27786" level="1" /> <!-- Ride Elk -->
 		</skills>
@@ -636,6 +637,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
 		<skills>
 			<skill id="18097" level="1" /> <!-- Dimensional Bracelet Lv1 -->
 		</skills>
@@ -665,6 +667,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
 	</item>
 	<item id="28460" name="Heine Exclusive Bait (90-94)" type="EtcItem">
 		<!-- Bait used for a chance to obtain a Heine Exclusive Reward Chest. Can be used by characters Lv. 90 - 94. -->
@@ -676,6 +679,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
 	</item>
 	<item id="28461" name="Heine Exclusive Bait (95-98)" type="EtcItem">
 		<!-- Bait used for a chance to obtain a Heine Exclusive Reward Chest. Can be used by characters Lv. 95 - 98. -->
@@ -687,6 +691,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
 	</item>
 	<item id="28462" name="Heine Exclusive Bait (99+)" type="EtcItem">
 		<!-- Bait used for a chance to obtain a Heine Exclusive Reward Chest. Can be used by characters Lv. 99 or above. -->
@@ -698,6 +703,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
 	</item>
 	<item id="28463" name="Heine Exclusive Bait Coupon" type="EtcItem">
 		<!-- Exchange for 1 Heine Exclusive Bait of your choice through a fishing guild member. -->
@@ -846,6 +852,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
 	</item>
 	<item id="28475" name="Mount - Elk (30-day)" type="EtcItem">
 		<!-- Wrapped Pack containing Mount - Elk (30-day) -->
@@ -858,6 +865,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
 	</item>
 	<item id="28476" name="Mount - Elk (Event 7-day)" type="EtcItem">
 		<!-- Wrapped Pack containing Mount - Elk (Event 7-day) -->
@@ -870,6 +878,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
 	</item>
 	<item id="28477" name="Freya's Shopping Bag" type="EtcItem">
 		<!-- Wrapped pack containing Freya's Frozen Scroll, Freya's Art of Seduction, and Freya's Recovery Potion. Has a chance of obtaining one of the following items: Freya's Gift Box, Sirra's Gift Box, Snow Man's Gift Box. -->
@@ -962,7 +971,6 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
-		<set name="is_freightable" val="false" />
 		<set name="is_commissionable" val="false" />
 		<set name="is_private_storeable" val="false" />
 		<skills>

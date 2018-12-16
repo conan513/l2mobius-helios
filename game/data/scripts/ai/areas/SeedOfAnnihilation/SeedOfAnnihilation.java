@@ -263,14 +263,14 @@ public final class SeedOfAnnihilation extends AbstractNpcAI
 	
 	private void startEffectZonesControl()
 	{
-		for (int i = 0; i < _regionsData.length; i++)
+		for (SeedRegion a_regionsData : _regionsData)
 		{
-			for (int j = 0; j < _regionsData[i].af_spawns.length; j++)
+			for (int j = 0; j < a_regionsData.af_spawns.length; j++)
 			{
-				_regionsData[i].af_npcs[j] = addSpawn(ANNIHILATION_FURNACE, _regionsData[i].af_spawns[j][0], _regionsData[i].af_spawns[j][1], _regionsData[i].af_spawns[j][2], _regionsData[i].af_spawns[j][3], false, 0);
-				_regionsData[i].af_npcs[j].setDisplayEffect(_regionsData[i].activeBuff);
+				a_regionsData.af_npcs[j] = addSpawn(ANNIHILATION_FURNACE, a_regionsData.af_spawns[j][0], a_regionsData.af_spawns[j][1], a_regionsData.af_spawns[j][2], a_regionsData.af_spawns[j][3], false, 0);
+				a_regionsData.af_npcs[j].setDisplayEffect(a_regionsData.activeBuff);
 			}
-			ZoneManager.getInstance().getZoneById(_regionsData[i].buff_zone, L2EffectZone.class).addSkill(ZONE_BUFFS[_regionsData[i].activeBuff], 1);
+			ZoneManager.getInstance().getZoneById(a_regionsData.buff_zone, L2EffectZone.class).addSkill(ZONE_BUFFS[a_regionsData.activeBuff], 1);
 		}
 		startQuestTimer("ChangeSeedsStatus", _seedsNextStatusChange - System.currentTimeMillis(), null, null);
 	}
@@ -344,7 +344,7 @@ public final class SeedOfAnnihilation extends AbstractNpcAI
 		{
 			final Location teleLoc = TELEPORT_ZONES.get(zone.getId());
 			// Conditions for Quest 454
-			L2World.getInstance().forEachVisibleObject(character, L2Npc.class, 500, npc ->
+			L2World.getInstance().forEachVisibleObjectInRange(character, L2Npc.class, 500, npc ->
 			{
 				if ((npc.getId() == 32738) && (npc.getTarget() != null))
 				{

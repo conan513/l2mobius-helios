@@ -67,7 +67,7 @@ public final class MithrilMine extends AbstractInstance
 		{
 			case "BUFF":
 			{
-				if ((player != null) && npc.isInsideRadius(player, 1000, true, false) && npc.isScriptValue(1) && !player.isDead())
+				if ((player != null) && npc.isInsideRadius3D(player, 1000) && npc.isScriptValue(1) && !player.isDead())
 				{
 					npc.setTarget(player);
 					npc.doCast(BLESS_OF_SWORD.getSkill());

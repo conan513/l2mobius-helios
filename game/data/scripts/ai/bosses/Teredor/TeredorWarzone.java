@@ -136,7 +136,7 @@ public final class TeredorWarzone extends AbstractInstance
 				}
 				case "TEREDOR_LAIR_CHECK":
 				{
-					final Location spawnLoc = npc.getSpawn().getLocation();
+					final Location spawnLoc = npc.getSpawn();
 					
 					if (((spawnLoc.getX() - npc.getX()) > 1000) || ((spawnLoc.getX() - npc.getX()) < -2000))
 					{
@@ -435,7 +435,7 @@ public final class TeredorWarzone extends AbstractInstance
 							if (npcId > 0)
 							{
 								final L2Npc minion = addSpawn(npcId, npc.getX(), npc.getY(), npc.getZ(), 0, false, 0, false, instance.getId());
-								if ((player != null) && (minion.calculateDistance(player, true, false) < 2000))
+								if ((player != null) && (minion.calculateDistance3D(player) < 2000))
 								{
 									addAttackPlayerDesire(minion, player, 23);
 								}
@@ -470,7 +470,7 @@ public final class TeredorWarzone extends AbstractInstance
 					final int hpPer = npc.getCurrentHpPercent();
 					int teredorStatus = npcVars.getInt("TEREDOR_STATUS", 1);
 					
-					if ((npc.distFromMe(attacker) > 450) && (getRandom(100) < 5))
+					if ((npc.calculateDistance3D(attacker) > 450) && (getRandom(100) < 5))
 					{
 						addSkillCastDesire(npc, attacker, TEREDOR_POISON_SKILL, 23);
 						addSpawn(TEREDOR_POISON, attacker.getX(), attacker.getY(), attacker.getZ(), 0, false, 0, false, instance.getId());

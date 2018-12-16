@@ -318,7 +318,7 @@ public class Q00663_SeductiveWhispers extends Quest
 				isPlayerWin = true;
 				htmltext = getHtm(player, isPractice ? "30846-07.html" : "30846-18.html");
 				htmltext = htmltext.replace("%table%", table);
-				htmltext = htmltext.replaceAll("%win_count%", "" + winCount);
+				htmltext = htmltext.replaceAll("%win_count%", Integer.toString(winCount));
 			}
 			else
 			{

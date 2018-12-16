@@ -2559,23 +2559,19 @@
 		<attributeType>FIRE</attributeType>
 		<attributeValue>20</attributeValue>
 		<affectRange>150</affectRange>
-		<channelingTickInitialDelay>1000</channelingTickInitialDelay>
+		<channelingStart>1</channelingStart>
 		<affectLimit>10-10</affectLimit>
 		<mpPerChanneling>72</mpPerChanneling>
-		<channelingTickInterval>2000</channelingTickInterval>
+		<channelingTickInterval>2</channelingTickInterval>
 		<isMagic>1</isMagic>
 		<targetType>ENEMY</targetType>
 		<affectScope>RANGE</affectScope>
 		<affectObject>NOT_FRIEND</affectObject>
-		<effects>
+		<channelingEffects>
 			<effect name="MagicalAttack">
 				<power>117</power>
 			</effect>
-			<effect name="DamOverTime">
-				<power>111</power>
-				<ticks>3</ticks>
-			</effect>
-		</effects>
+		</channelingEffects>
 	</skill>
 	<skill id="8582" toLevel="1" name="Dark Vortex">
 		<!-- Glory Days Confirmed -->
@@ -2765,19 +2761,19 @@
 		<effectRange>1100</effectRange>
 		<magicLvl>81</magicLvl>
 		<affectRange>150</affectRange>
-		<channelingTickInitialDelay>1000</channelingTickInitialDelay>
+		<channelingStart>1</channelingStart>
 		<affectLimit>10-10</affectLimit>
 		<mpPerChanneling>72</mpPerChanneling>
-		<channelingTickInterval>2000</channelingTickInterval>
+		<channelingTickInterval>2</channelingTickInterval>
 		<isMagic>1</isMagic>
 		<targetType>ENEMY</targetType>
 		<affectScope>RANGE</affectScope>
 		<affectObject>NOT_FRIEND</affectObject>
-		<effects>
+		<channelingEffects>
 			<effect name="MagicalAttack">
 				<power>117</power>
 			</effect>
-		</effects>
+		</channelingEffects>
 	</skill>
 	<skill id="8587" toLevel="1" name="Wind Vortex">
 		<!-- Glory Days Confirmed -->

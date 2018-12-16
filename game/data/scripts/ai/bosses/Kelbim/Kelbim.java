@@ -340,7 +340,7 @@ public class Kelbim extends AbstractNpcAI
 			{
 				for (L2PcInstance member : members)
 				{
-					if (member.isInsideRadius(npc, 1000, true, false))
+					if (member.isInsideRadius3D(npc, 1000))
 					{
 						member.teleToLocation(KELBIM_LOCATION, true);
 					}

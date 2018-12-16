@@ -247,12 +247,12 @@ public final class Baium extends AbstractNpcAI
 			{
 				if (npc != null)
 				{
-					if ((player != null) && player.isInsideRadius(npc, 16000, true, false))
+					if ((player != null) && player.isInsideRadius3D(npc, 16000))
 					{
 						player.teleToLocation(BAIUM_GIFT_LOC);
 						startQuestTimer("PLAYER_KILL", 3000, npc, player);
 					}
-					else if ((_standbyPlayer != null) && _standbyPlayer.isInsideRadius(npc, 16000, true, false))
+					else if ((_standbyPlayer != null) && _standbyPlayer.isInsideRadius3D(npc, 16000))
 					{
 						_standbyPlayer.teleToLocation(BAIUM_GIFT_LOC);
 						startQuestTimer("PLAYER_KILL", 3000, npc, _standbyPlayer);
@@ -262,7 +262,7 @@ public final class Baium extends AbstractNpcAI
 			}
 			case "PLAYER_KILL":
 			{
-				if ((player != null) && player.isInsideRadius(npc, 16000, true, false))
+				if ((player != null) && player.isInsideRadius3D(npc, 16000))
 				{
 					zone.broadcastPacket(new SocialAction(npc.getObjectId(), 1));
 					npc.broadcastSay(ChatType.NPC_GENERAL, player.getName() + ", How dare you wake me! Now you shall die!"); // TODO: replace with NpcStringId when are done core support
@@ -301,7 +301,7 @@ public final class Baium extends AbstractNpcAI
 				}
 				else
 				{
-					for (L2Character creature : L2World.getInstance().getVisibleObjects(npc, L2PcInstance.class, 2000))
+					for (L2Character creature : L2World.getInstance().getVisibleObjectsInRange(npc, L2PcInstance.class, 2000))
 					{
 						if (zone.isInsideZone(creature) && !creature.isDead())
 						{
@@ -336,7 +336,7 @@ public final class Baium extends AbstractNpcAI
 					else
 					{
 						boolean found = false;
-						for (L2Playable creature : L2World.getInstance().getVisibleObjects(mob, L2Playable.class, 1000))
+						for (L2Playable creature : L2World.getInstance().getVisibleObjectsInRange(mob, L2Playable.class, 1000))
 						{
 							if (zone.isInsideZone(creature) && !creature.isDead())
 							{
@@ -352,7 +352,7 @@ public final class Baium extends AbstractNpcAI
 						
 						if (!found)
 						{
-							if (mob.isInsideRadius(_baium, 40, true, false))
+							if (mob.isInsideRadius3D(_baium, 40))
 							{
 								if (mob.getTarget() != _baium)
 								{
@@ -525,7 +525,7 @@ public final class Baium extends AbstractNpcAI
 			
 			if ((getRandom(100) < 10) && SkillCaster.checkUseConditions(mob, SPEAR_ATTACK.getSkill()))
 			{
-				if ((mostHated != null) && (npc.calculateDistance(mostHated, true, false) < 1000) && zone.isCharacterInZone(mostHated))
+				if ((mostHated != null) && (npc.calculateDistance3D(mostHated) < 1000) && zone.isCharacterInZone(mostHated))
 				{
 					mob.setTarget(mostHated);
 					mob.doCast(SPEAR_ATTACK.getSkill());
@@ -682,7 +682,7 @@ public final class Baium extends AbstractNpcAI
 		for (int i = 0; i < 3; i++)
 		{
 			final L2Character attacker = vars.getObject("c_quest" + i, L2Character.class);
-			if ((attacker == null) || ((npc.calculateDistance(attacker, true, false) > 9000) || attacker.isDead()))
+			if ((attacker == null) || ((npc.calculateDistance3D(attacker) > 9000) || attacker.isDead()))
 			{
 				vars.set("i_quest" + i, 0);
 			}

@@ -20,7 +20,6 @@ import com.l2jmobius.gameserver.geoengine.GeoEngine;
 import com.l2jmobius.gameserver.handler.ITargetTypeHandler;
 import com.l2jmobius.gameserver.model.L2Object;
 import com.l2jmobius.gameserver.model.actor.L2Character;
-import com.l2jmobius.gameserver.model.actor.L2Npc;
 import com.l2jmobius.gameserver.model.skills.Skill;
 import com.l2jmobius.gameserver.model.skills.targets.TargetType;
 import com.l2jmobius.gameserver.network.SystemMessageId;
@@ -51,46 +50,41 @@ public class NpcBody implements ITargetTypeHandler
 			return null;
 		}
 		
-		if (!selectedTarget.isNpc())
+		if (!selectedTarget.isNpc() && !selectedTarget.isSummon())
 		{
 			if (sendMessage)
 			{
 				activeChar.sendPacket(SystemMessageId.INVALID_TARGET);
 			}
-			
 			return null;
 		}
 		
-		final L2Npc npc = (L2Npc) selectedTarget;
-		
-		if (npc.isDead())
+		final L2Character cha = (L2Character) selectedTarget;
+		if (cha.isDead())
 		{
 			// Check for cast range if character cannot move. TODO: char will start follow until within castrange, but if his moving is blocked by geodata, this msg will be sent.
 			if (dontMove)
 			{
-				if (activeChar.calculateDistance(npc, false, false) > skill.getCastRange())
+				if (activeChar.calculateDistance2D(cha) > skill.getCastRange())
 				{
 					if (sendMessage)
 					{
 						activeChar.sendPacket(SystemMessageId.THE_DISTANCE_IS_TOO_FAR_AND_SO_THE_CASTING_HAS_BEEN_STOPPED);
 					}
-					
 					return null;
 				}
 			}
 			
 			// Geodata check when character is within range.
-			if (!GeoEngine.getInstance().canSeeTarget(activeChar, npc))
+			if (!GeoEngine.getInstance().canSeeTarget(activeChar, cha))
 			{
 				if (sendMessage)
 				{
 					activeChar.sendPacket(SystemMessageId.CANNOT_SEE_TARGET);
 				}
-				
 				return null;
 			}
-			
-			return npc;
+			return cha;
 		}
 		
 		// If target is not dead or not player/pet it will not even bother to walk within range, unlike Enemy target type.
@@ -98,7 +92,6 @@ public class NpcBody implements ITargetTypeHandler
 		{
 			activeChar.sendPacket(SystemMessageId.INVALID_TARGET);
 		}
-		
 		return null;
 	}
 }

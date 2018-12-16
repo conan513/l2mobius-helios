@@ -150,83 +150,83 @@ public final class Q00662_AGameOfCards extends Quest
 					}
 					if (i1 >= 57)
 					{
-						i1 = i1 - 56;
+						i1 -= 56;
 					}
 					else if (i1 >= 43)
 					{
-						i1 = i1 - 42;
+						i1 -= 42;
 					}
 					else if (i1 >= 29)
 					{
-						i1 = i1 - 28;
+						i1 -= 28;
 					}
 					else if (i1 >= 15)
 					{
-						i1 = i1 - 14;
+						i1 -= 14;
 					}
 					if (i2 >= 57)
 					{
-						i2 = i2 - 56;
+						i2 -= 56;
 					}
 					else if (i2 >= 43)
 					{
-						i2 = i2 - 42;
+						i2 -= 42;
 					}
 					else if (i2 >= 29)
 					{
-						i2 = i2 - 28;
+						i2 -= 28;
 					}
 					else if (i2 >= 15)
 					{
-						i2 = i2 - 14;
+						i2 -= 14;
 					}
 					if (i3 >= 57)
 					{
-						i3 = i3 - 56;
+						i3 -= 56;
 					}
 					else if (i3 >= 43)
 					{
-						i3 = i3 - 42;
+						i3 -= 42;
 					}
 					else if (i3 >= 29)
 					{
-						i3 = i3 - 28;
+						i3 -= 28;
 					}
 					else if (i3 >= 15)
 					{
-						i3 = i3 - 14;
+						i3 -= 14;
 					}
 					if (i4 >= 57)
 					{
-						i4 = i4 - 56;
+						i4 -= 56;
 					}
 					else if (i4 >= 43)
 					{
-						i4 = i4 - 42;
+						i4 -= 42;
 					}
 					else if (i4 >= 29)
 					{
-						i4 = i4 - 28;
+						i4 -= 28;
 					}
 					else if (i4 >= 15)
 					{
-						i4 = i4 - 14;
+						i4 -= 14;
 					}
 					if (i5 >= 57)
 					{
-						i5 = i5 - 56;
+						i5 -= 56;
 					}
 					else if (i5 >= 43)
 					{
-						i5 = i5 - 42;
+						i5 -= 42;
 					}
 					else if (i5 >= 29)
 					{
-						i5 = i5 - 28;
+						i5 -= 28;
 					}
 					else if (i5 >= 15)
 					{
-						i5 = i5 - 14;
+						i5 -= 14;
 					}
 					
 					st.setCond((i4 * 1000000) + (i3 * 10000) + (i2 * 100) + i1);
@@ -256,7 +256,7 @@ public final class Q00662_AGameOfCards extends Quest
 					{
 						if ((i9 % 2) < 1)
 						{
-							i9 = i9 + 1;
+							i9 += 1;
 						}
 						if ((i9 % 32) < 31)
 						{
@@ -268,7 +268,7 @@ public final class Q00662_AGameOfCards extends Quest
 					{
 						if ((i9 % 4) < 2)
 						{
-							i9 = i9 + 2;
+							i9 += 2;
 						}
 						if ((i9 % 32) < 31)
 						{
@@ -280,7 +280,7 @@ public final class Q00662_AGameOfCards extends Quest
 					{
 						if ((i9 % 8) < 4)
 						{
-							i9 = i9 + 4;
+							i9 += 4;
 						}
 						if ((i9 % 32) < 31)
 						{
@@ -292,7 +292,7 @@ public final class Q00662_AGameOfCards extends Quest
 					{
 						if ((i9 % 16) < 8)
 						{
-							i9 = i9 + 8;
+							i9 += 8;
 						}
 						if ((i9 % 32) < 31)
 						{
@@ -304,7 +304,7 @@ public final class Q00662_AGameOfCards extends Quest
 					{
 						if ((i9 % 32) < 16)
 						{
-							i9 = i9 + 16;
+							i9 += 16;
 						}
 						if ((i9 % 32) < 31)
 						{
@@ -326,23 +326,23 @@ public final class Q00662_AGameOfCards extends Quest
 					{
 						if (i1 == i2)
 						{
-							i6 = i6 + 10;
-							i8 = i8 + 8;
+							i6 += 10;
+							i8 += 8;
 						}
 						if (i1 == i3)
 						{
-							i6 = i6 + 10;
-							i8 = i8 + 4;
+							i6 += 10;
+							i8 += 4;
 						}
 						if (i1 == i4)
 						{
-							i6 = i6 + 10;
-							i8 = i8 + 2;
+							i6 += 10;
+							i8 += 2;
 						}
 						if (i1 == i5)
 						{
-							i6 = i6 + 10;
-							i8 = i8 + 1;
+							i6 += 10;
+							i8 += 1;
 						}
 						if ((i6 % 100) < 10)
 						{
@@ -352,24 +352,24 @@ public final class Q00662_AGameOfCards extends Quest
 								{
 									if (i2 == i3)
 									{
-										i6 = i6 + 10;
-										i8 = i8 + 4;
+										i6 += 10;
+										i8 += 4;
 									}
 								}
 								if ((i8 % 4) < 2)
 								{
 									if (i2 == i4)
 									{
-										i6 = i6 + 10;
-										i8 = i8 + 2;
+										i6 += 10;
+										i8 += 2;
 									}
 								}
 								if ((i8 % 2) < 1)
 								{
 									if (i2 == i5)
 									{
-										i6 = i6 + 10;
-										i8 = i8 + 1;
+										i6 += 10;
+										i8 += 1;
 									}
 								}
 							}
@@ -382,24 +382,24 @@ public final class Q00662_AGameOfCards extends Quest
 								{
 									if (i2 == i3)
 									{
-										i6 = i6 + 1;
-										i8 = i8 + 4;
+										i6 += 1;
+										i8 += 4;
 									}
 								}
 								if ((i8 % 4) < 2)
 								{
 									if (i2 == i4)
 									{
-										i6 = i6 + 1;
-										i8 = i8 + 2;
+										i6 += 1;
+										i8 += 2;
 									}
 								}
 								if ((i8 % 2) < 1)
 								{
 									if (i2 == i5)
 									{
-										i6 = i6 + 1;
-										i8 = i8 + 1;
+										i6 += 1;
+										i8 += 1;
 									}
 								}
 							}
@@ -412,16 +412,16 @@ public final class Q00662_AGameOfCards extends Quest
 								{
 									if (i3 == i4)
 									{
-										i6 = i6 + 10;
-										i8 = i8 + 2;
+										i6 += 10;
+										i8 += 2;
 									}
 								}
 								if ((i8 % 2) < 1)
 								{
 									if (i3 == i5)
 									{
-										i6 = i6 + 10;
-										i8 = i8 + 1;
+										i6 += 10;
+										i8 += 1;
 									}
 								}
 							}
@@ -434,16 +434,16 @@ public final class Q00662_AGameOfCards extends Quest
 								{
 									if (i3 == i4)
 									{
-										i6 = i6 + 1;
-										i8 = i8 + 2;
+										i6 += 1;
+										i8 += 2;
 									}
 								}
 								if ((i8 % 2) < 1)
 								{
 									if (i3 == i5)
 									{
-										i6 = i6 + 1;
-										i8 = i8 + 1;
+										i6 += 1;
+										i8 += 1;
 									}
 								}
 							}
@@ -456,8 +456,8 @@ public final class Q00662_AGameOfCards extends Quest
 								{
 									if (i4 == i5)
 									{
-										i6 = i6 + 10;
-										i8 = i8 + 1;
+										i6 += 10;
+										i8 += 1;
 									}
 								}
 							}
@@ -470,8 +470,8 @@ public final class Q00662_AGameOfCards extends Quest
 								{
 									if (i4 == i5)
 									{
-										i6 = i6 + 1;
-										i8 = i8 + 1;
+										i6 += 1;
+										i8 += 1;
 									}
 								}
 							}

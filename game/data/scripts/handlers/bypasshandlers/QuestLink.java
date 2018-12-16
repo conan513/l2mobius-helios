@@ -54,7 +54,7 @@ public class QuestLink implements IBypassHandler
 		catch (IndexOutOfBoundsException ioobe)
 		{
 		}
-		if (quest.length() == 0)
+		if (quest.isEmpty())
 		{
 			showQuestWindow(activeChar, (L2Npc) target);
 		}

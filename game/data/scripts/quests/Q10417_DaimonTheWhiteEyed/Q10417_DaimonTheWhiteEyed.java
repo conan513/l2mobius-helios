@@ -180,7 +180,7 @@ public final class Q10417_DaimonTheWhiteEyed extends Quest
 			for (L2PcInstance singleMember : partyMember)
 			{
 				QuestState qsPartyMember = getQuestState(singleMember, false);
-				double distance = npc.calculateDistance(singleMember, true, false);
+				double distance = npc.calculateDistance3D(singleMember);
 				if ((qsPartyMember != null) && qsPartyMember.isCond(1) && (distance <= 1000))
 				{
 					int mobCount = qsPartyMember.getInt("KillCount_MOBS");

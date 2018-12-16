@@ -181,7 +181,7 @@ public abstract class AbstractInstance extends AbstractNpcAI
 			template.applyConditionEffects(enterGroup);
 			
 			// Set re-enter for instances with re-enter on start
-			if (instance.getReenterType().equals(InstanceReenterType.ON_ENTER))
+			if (instance.getReenterType() == InstanceReenterType.ON_ENTER)
 			{
 				instance.setReenterTime();
 			}

@@ -107,7 +107,7 @@
 				<delay>5000</delay>
 			</effect>
 			<effect name="BlockActions">
-				<allowedSkills>10279;10517;10025;10776;11770;1904</allowedSkills>
+				<allowedSkills>10279;10517;10025;10776;11770;1904;11264;11093;13314;1912</allowedSkills>
 			</effect>
 		</effects>
 	</skill>
@@ -146,7 +146,7 @@
 				<knockDown>true</knockDown>
 			</effect>
 			<effect name="BlockActions">
-				<allowedSkills>10279;10517;10025;10776;11770;1904</allowedSkills>
+				<allowedSkills>10279;10517;10025;10776;11770;1904;11264;11093;13314;1912</allowedSkills>
 			</effect>
 			<effect name="DefenceTrait">
 				<HOLD>100</HOLD>
@@ -185,7 +185,7 @@
 				<delay>600</delay>
 			</effect>
 			<effect name="BlockActions">
-				<allowedSkills>10279;10517;10025;10776;11770;1904</allowedSkills>
+				<allowedSkills>10279;10517;10025;10776;11770;1904;11264;11093;13314;1912</allowedSkills>
 			</effect>
 		</effects>
 	</skill>
@@ -205,8 +205,8 @@
 		<effectRange>1400</effectRange>
 		<magicLvl>85</magicLvl>
 		<channelingSkillId>14510</channelingSkillId> <!-- Drain Status -->
-		<channelingTickInitialDelay>1200</channelingTickInitialDelay>
-		<channelingTickInterval>2000</channelingTickInterval>
+		<channelingStart>1.2</channelingStart>
+		<channelingTickInterval>2</channelingTickInterval>
 		<isMagic>2</isMagic>
 		<isDebuff>true</isDebuff>
 		<targetType>ENEMY</targetType>
@@ -266,7 +266,7 @@
 				<knockDown>true</knockDown>
 			</effect>
 			<effect name="BlockActions">
-				<allowedSkills>10279;10517;10025;10776;11770;1904</allowedSkills>
+				<allowedSkills>10279;10517;10025;10776;11770;1904;11264;11093;13314;1912</allowedSkills>
 			</effect>
 			<effect name="DefenceTrait">
 				<HOLD>100</HOLD>
@@ -419,8 +419,8 @@
 		<effectRange>1000</effectRange>
 		<magicLvl>96</magicLvl>
 		<channelingSkillId>14616</channelingSkillId> <!-- Blood Siphon -->
-		<channelingTickInitialDelay>1000</channelingTickInitialDelay>
-		<channelingTickInterval>2000</channelingTickInterval>
+		<channelingStart>1</channelingStart>
+		<channelingTickInterval>2</channelingTickInterval>
 		<staticReuse>true</staticReuse>
 		<isMagic>2</isMagic>
 		<reuseDelay>15000</reuseDelay>
@@ -644,8 +644,8 @@
 		<magicLvl>96</magicLvl>
 		<attributeType>FIRE</attributeType>
 		<attributeValue>20</attributeValue>
-		<channelingTickInitialDelay>1000</channelingTickInitialDelay>
-		<channelingTickInterval>2000</channelingTickInterval>
+		<channelingStart>1</channelingStart>
+		<channelingTickInterval>2</channelingTickInterval>
 		<staticReuse>true</staticReuse>
 		<fanRange>0;0;500;500</fanRange>
 		<isMagic>1</isMagic>
@@ -1481,8 +1481,8 @@
 		<effectRange>1100</effectRange>
 		<magicLvl>94</magicLvl>
 		<channelingSkillId>14548</channelingSkillId> <!-- Yoke of Sacrifice -->
-		<channelingTickInitialDelay>1200</channelingTickInitialDelay>
-		<channelingTickInterval>2000</channelingTickInterval>
+		<channelingStart>1.2</channelingStart>
+		<channelingTickInterval>2</channelingTickInterval>
 		<isMagic>2</isMagic>
 		<isDebuff>true</isDebuff>
 		<targetType>ENEMY</targetType>
@@ -1511,7 +1511,7 @@
 		<effects>
 			<effect name="AirBind" />
 			<effect name="BlockActions">
-				<allowedSkills>10279;10517;10025;10776;11770;1904</allowedSkills>
+				<allowedSkills>10279;10517;10025;10776;11770;1904;11264;11093;13314;1912</allowedSkills>
 			</effect>
 			<effect name="BlockControl" />
 			<effect name="DamOverTime">
@@ -1545,8 +1545,8 @@
 		<effectRange>1100</effectRange>
 		<magicLvl>94</magicLvl>
 		<channelingSkillId>14550</channelingSkillId> <!-- Yoke of Offering -->
-		<channelingTickInitialDelay>1200</channelingTickInitialDelay>
-		<channelingTickInterval>2000</channelingTickInterval>
+		<channelingStart>1.2</channelingStart>
+		<channelingTickInterval>2</channelingTickInterval>
 		<isMagic>2</isMagic>
 		<isDebuff>true</isDebuff>
 		<targetType>ENEMY</targetType>
@@ -1575,7 +1575,7 @@
 		<effects>
 			<effect name="AirBind" />
 			<effect name="BlockActions">
-				<allowedSkills>10279;10517;10025;10776;11770;1904</allowedSkills>
+				<allowedSkills>10279;10517;10025;10776;11770;1904;11264;11093;13314;1912</allowedSkills>
 			</effect>
 			<effect name="BlockControl" />
 			<effect name="DamOverTime">
@@ -1694,7 +1694,7 @@
 				<power>63230</power>
 			</effect>
 			<effect name="BlockActions">
-				<allowedSkills>10279;10517;10025;10776;11770;1904</allowedSkills>
+				<allowedSkills>10279;10517;10025;10776;11770;1904;11264;11093;13314;1912</allowedSkills>
 			</effect>
 			<effect name="FlyAway"> <!-- TODO: {i_fly_away;curve;push;600} -->
 				<radius>600</radius>
@@ -1716,8 +1716,8 @@
 		<effectRange>400</effectRange>
 		<magicLvl>99</magicLvl>
 		<channelingSkillId>14555</channelingSkillId> <!-- Earth Wyrm Heart Protection -->
-		<channelingTickInitialDelay>1200</channelingTickInitialDelay>
-		<channelingTickInterval>2000</channelingTickInterval>
+		<channelingStart>1.2</channelingStart>
+		<channelingTickInterval>2</channelingTickInterval>
 		<isMagic>2</isMagic>
 		<isDebuff>true</isDebuff>
 		<targetType>TARGET</targetType>
@@ -1974,8 +1974,8 @@
 		<magicLvl>87</magicLvl>
 		<reuseDelayGroup>11050</reuseDelayGroup>
 		<channelingSkillId>14569</channelingSkillId> <!-- Yoke of Sacrifice -->
-		<channelingTickInitialDelay>1200</channelingTickInitialDelay>
-		<channelingTickInterval>2000</channelingTickInterval>
+		<channelingStart>1.2</channelingStart>
+		<channelingTickInterval>2</channelingTickInterval>
 		<isMagic>2</isMagic>
 		<isDebuff>true</isDebuff>
 		<targetType>ENEMY</targetType>
@@ -2001,8 +2001,8 @@
 		<magicLvl>87</magicLvl>
 		<reuseDelayGroup>11050</reuseDelayGroup>
 		<channelingSkillId>14569</channelingSkillId>  <!-- Yoke of Sacrifice -->
-		<channelingTickInitialDelay>1200</channelingTickInitialDelay>
-		<channelingTickInterval>2000</channelingTickInterval>
+		<channelingStart>1.2</channelingStart>
+		<channelingTickInterval>2</channelingTickInterval>
 		<isMagic>2</isMagic>
 		<isDebuff>true</isDebuff>
 		<targetType>ENEMY</targetType>
@@ -2028,8 +2028,8 @@
 		<magicLvl>87</magicLvl>
 		<reuseDelayGroup>11050</reuseDelayGroup>
 		<channelingSkillId>14569</channelingSkillId> <!-- Yoke of Sacrifice -->
-		<channelingTickInitialDelay>1200</channelingTickInitialDelay>
-		<channelingTickInterval>2000</channelingTickInterval>
+		<channelingStart>1.2</channelingStart>
+		<channelingTickInterval>2</channelingTickInterval>
 		<isMagic>2</isMagic>
 		<isDebuff>true</isDebuff>
 		<targetType>ENEMY</targetType>
@@ -2055,8 +2055,8 @@
 		<magicLvl>87</magicLvl>
 		<reuseDelayGroup>11050</reuseDelayGroup>
 		<channelingSkillId>14569</channelingSkillId> <!-- Yoke of Sacrifice -->
-		<channelingTickInitialDelay>1200</channelingTickInitialDelay>
-		<channelingTickInterval>2000</channelingTickInterval>
+		<channelingStart>1.2</channelingStart>
+		<channelingTickInterval>2</channelingTickInterval>
 		<isMagic>2</isMagic>
 		<isDebuff>true</isDebuff>
 		<targetType>ENEMY</targetType>
@@ -2082,8 +2082,8 @@
 		<magicLvl>87</magicLvl>
 		<reuseDelayGroup>11050</reuseDelayGroup>
 		<channelingSkillId>14569</channelingSkillId> <!-- Yoke of Sacrifice -->
-		<channelingTickInitialDelay>1200</channelingTickInitialDelay>
-		<channelingTickInterval>2000</channelingTickInterval>
+		<channelingStart>1.2</channelingStart>
+		<channelingTickInterval>2</channelingTickInterval>
 		<isMagic>2</isMagic>
 		<isDebuff>true</isDebuff>
 		<targetType>ENEMY</targetType>
@@ -2114,7 +2114,7 @@
 		<effects>
 			<effect name="AirBind" />
 			<effect name="BlockActions">
-				<allowedSkills>10279;10517;10025;10776;11770;1904</allowedSkills>
+				<allowedSkills>10279;10517;10025;10776;11770;1904;11264;11093;13314;1912</allowedSkills>
 			</effect>
 			<effect name="BlockControl" />
 			<effect name="DamOverTime">
@@ -2153,7 +2153,7 @@
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="BlockActions">
-				<allowedSkills>10279;10517;10025;10776;11770;1904</allowedSkills>
+				<allowedSkills>10279;10517;10025;10776;11770;1904;11264;11093;13314;1912</allowedSkills>
 			</effect>
 			<effect name="DefenceTrait">
 				<HOLD>100</HOLD>
@@ -2826,7 +2826,7 @@
 				<power>8102</power>
 			</effect>
 			<effect name="BlockActions">
-				<allowedSkills>10279;10517;10025;10776;11770;1904</allowedSkills>
+				<allowedSkills>10279;10517;10025;10776;11770;1904;11264;11093;13314;1912</allowedSkills>
 			</effect>
 			<effect name="DispelBySlot">
 				<dispel>NPC_ATTACK3,-1</dispel>
@@ -3226,7 +3226,7 @@
 		<effects>
 			<effect name="AirBind" />
 			<effect name="BlockActions">
-				<allowedSkills>10279;10517;10025;10776;11770;1904</allowedSkills>
+				<allowedSkills>10279;10517;10025;10776;11770;1904;11264;11093;13314;1912</allowedSkills>
 			</effect>
 			<effect name="DispelBySlot">
 				<dispel>NPC_ATTACK3,-1</dispel>

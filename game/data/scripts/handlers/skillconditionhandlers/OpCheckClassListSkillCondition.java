@@ -53,9 +53,9 @@ public class OpCheckClassListSkillCondition implements ISkillCondition
 			}
 			case TARGET:
 			{
-				if ((target != null) && !target.isPlayer())
+				if ((target != null) && target.isPlayer())
 				{
-					return _isWithin == _classIds.stream().anyMatch(classId -> classId == target.getActingPlayer().getClassId());
+					return _isWithin == _classIds.stream().anyMatch(classId -> classId.getId() == target.getActingPlayer().getClassId().getId());
 				}
 				break;
 			}

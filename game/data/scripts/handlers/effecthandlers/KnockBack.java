@@ -166,7 +166,7 @@ public final class KnockBack extends AbstractEffect
 		effected.broadcastPacket(new ValidateLocation(effected));
 		effected.revalidateZone(true);
 		
-		for (L2PcInstance nearbyPlayer : L2World.getInstance().getVisibleObjects(effected, L2PcInstance.class, 1200))
+		for (L2PcInstance nearbyPlayer : L2World.getInstance().getVisibleObjectsInRange(effected, L2PcInstance.class, 1200))
 		{
 			if (nearbyPlayer.getRace() == Race.ERTHEIA)
 			{

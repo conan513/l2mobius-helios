@@ -372,11 +372,16 @@
 		<attributeType>FIRE</attributeType>
 		<attributeValue>180</attributeValue>
 		<affectRange>250</affectRange>
-		<channelingTickInitialDelay>1000</channelingTickInitialDelay>
-		<channelingTickInterval>2000</channelingTickInterval>
+		<channelingStart>1</channelingStart>
+		<channelingTickInterval>2</channelingTickInterval>
 		<targetType>SELF</targetType>
 		<affectScope>POINT_BLANK</affectScope>
 		<affectObject>NOT_FRIEND</affectObject>
+		<channelingEffects>
+			<effect name="MagicalAttack">
+				<power>100</power>
+			</effect>
+		</channelingEffects>
 	</skill>
 	<skill id="5514" toLevel="1" name="Water Taint">
 		<effectPoint>-1063</effectPoint>
@@ -388,11 +393,16 @@
 		<attributeType>WATER</attributeType>
 		<attributeValue>180</attributeValue>
 		<affectRange>250</affectRange>
-		<channelingTickInitialDelay>1000</channelingTickInitialDelay>
-		<channelingTickInterval>2000</channelingTickInterval>
+		<channelingStart>1</channelingStart>
+		<channelingTickInterval>2</channelingTickInterval>
 		<targetType>SELF</targetType>
 		<affectScope>POINT_BLANK</affectScope>
 		<affectObject>NOT_FRIEND</affectObject>
+		<channelingEffects>
+			<effect name="MagicalAttack">
+				<power>30</power>
+			</effect>
+		</channelingEffects>
 	</skill>
 	<skill id="5515" toLevel="1" name="Wind Taint">
 		<effectPoint>-1063</effectPoint>
@@ -404,11 +414,16 @@
 		<attributeType>WIND</attributeType>
 		<attributeValue>180</attributeValue>
 		<affectRange>250</affectRange>
-		<channelingTickInitialDelay>1000</channelingTickInitialDelay>
-		<channelingTickInterval>2000</channelingTickInterval>
+		<channelingStart>1</channelingStart>
+		<channelingTickInterval>2</channelingTickInterval>
 		<targetType>SELF</targetType>
 		<affectScope>POINT_BLANK</affectScope>
 		<affectObject>NOT_FRIEND</affectObject>
+		<channelingEffects>
+			<effect name="MagicalAttack">
+				<power>30</power>
+			</effect>
+		</channelingEffects>
 	</skill>
 	<skill id="5516" toLevel="1" name="Earth Taint">
 		<effectPoint>-1063</effectPoint>
@@ -420,11 +435,16 @@
 		<attributeType>EARTH</attributeType>
 		<attributeValue>180</attributeValue>
 		<affectRange>250</affectRange>
-		<channelingTickInitialDelay>1000</channelingTickInitialDelay>
-		<channelingTickInterval>2000</channelingTickInterval>
+		<channelingStart>1</channelingStart>
+		<channelingTickInterval>2</channelingTickInterval>
 		<targetType>SELF</targetType>
 		<affectScope>POINT_BLANK</affectScope>
 		<affectObject>NOT_FRIEND</affectObject>
+		<channelingEffects>
+			<effect name="MagicalAttack">
+				<power>30</power>
+			</effect>
+		</channelingEffects>
 	</skill>
 	<skill id="5517" toLevel="1" name="Nurture">
 		<abnormalLvl>1</abnormalLvl>
@@ -2495,7 +2515,7 @@
 		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>-5</magicCriticalRate>
-		<targetType>TARGET</targetType>
+		<targetType>OWNER_PET</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="PAtk">
@@ -2546,7 +2566,7 @@
 		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>-5</magicCriticalRate>
-		<targetType>TARGET</targetType>
+		<targetType>OWNER_PET</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="PhysicalDefence">
@@ -2597,7 +2617,7 @@
 		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>-5</magicCriticalRate>
-		<targetType>TARGET</targetType>
+		<targetType>OWNER_PET</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="CriticalRate">
@@ -2648,7 +2668,7 @@
 		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>-5</magicCriticalRate>
-		<targetType>TARGET</targetType>
+		<targetType>OWNER_PET</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="CriticalDamage">
@@ -2727,7 +2747,7 @@
 		<reuseDelay>3000</reuseDelay>
 		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
-		<targetType>TARGET</targetType>
+		<targetType>OWNER_PET</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="Heal">

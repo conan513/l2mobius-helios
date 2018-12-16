@@ -68,7 +68,7 @@ public class L2SummonAction implements IActionHandler
 			{
 				// This Action Failed packet avoids activeChar getting stuck when clicking three or more times
 				activeChar.sendPacket(ActionFailed.STATIC_PACKET);
-				if (((L2Summon) target).isInsideRadius(activeChar, 150, false, false))
+				if (((L2Summon) target).isInsideRadius2D(activeChar, 150))
 				{
 					activeChar.updateNotMoveUntil();
 				}

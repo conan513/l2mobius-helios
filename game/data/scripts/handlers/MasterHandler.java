@@ -112,7 +112,6 @@ import handlers.admincommandhandlers.AdminPcCafePoints;
 import handlers.admincommandhandlers.AdminPcCondOverride;
 import handlers.admincommandhandlers.AdminPetition;
 import handlers.admincommandhandlers.AdminPledge;
-import handlers.admincommandhandlers.AdminPolymorph;
 import handlers.admincommandhandlers.AdminPremium;
 import handlers.admincommandhandlers.AdminPrimePoints;
 import handlers.admincommandhandlers.AdminPunishment;
@@ -134,6 +133,7 @@ import handlers.admincommandhandlers.AdminTarget;
 import handlers.admincommandhandlers.AdminTargetSay;
 import handlers.admincommandhandlers.AdminTeleport;
 import handlers.admincommandhandlers.AdminTest;
+import handlers.admincommandhandlers.AdminTransform;
 import handlers.admincommandhandlers.AdminUnblockIp;
 import handlers.admincommandhandlers.AdminVitality;
 import handlers.admincommandhandlers.AdminZone;
@@ -256,6 +256,7 @@ import handlers.targethandlers.MyParty;
 import handlers.targethandlers.None;
 import handlers.targethandlers.NpcBody;
 import handlers.targethandlers.Others;
+import handlers.targethandlers.OwnerPet;
 import handlers.targethandlers.PcBody;
 import handlers.targethandlers.Self;
 import handlers.targethandlers.Summon;
@@ -447,7 +448,6 @@ public class MasterHandler
 			AdminPForge.class,
 			AdminPledge.class,
 			AdminZones.class,
-			AdminPolymorph.class,
 			AdminPremium.class,
 			AdminPrimePoints.class,
 			AdminPunishment.class,
@@ -469,6 +469,7 @@ public class MasterHandler
 			AdminTargetSay.class,
 			AdminTeleport.class,
 			AdminTest.class,
+			AdminTransform.class,
 			AdminUnblockIp.class,
 			AdminVitality.class,
 			AdminZone.class,
@@ -616,6 +617,7 @@ public class MasterHandler
 			None.class,
 			NpcBody.class,
 			Others.class,
+			OwnerPet.class,
 			PcBody.class,
 			Self.class,
 			Summon.class,
@@ -719,7 +721,7 @@ public class MasterHandler
 				
 				try
 				{
-					final Object handler = c.newInstance();
+					final Object handler = c.getDeclaredConstructor().newInstance();
 					for (Entry<IHandler<?, ?>, Method> entry : registerHandlerMethods.entrySet())
 					{
 						if ((entry.getValue() != null) && entry.getValue().getParameterTypes()[0].isInstance(handler))

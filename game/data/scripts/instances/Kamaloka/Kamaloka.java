@@ -450,7 +450,7 @@ public final class Kamaloka extends AbstractInstance
 				return false;
 			}
 			// player must be near party leader
-			if (!partyMember.isInsideRadius(player, 1000, true, true))
+			if (!partyMember.isInsideRadius3D(player, 1000))
 			{
 				final SystemMessage sm = SystemMessage.getSystemMessage(SystemMessageId.C1_IS_IN_A_LOCATION_WHICH_CANNOT_BE_ENTERED_THEREFORE_IT_CANNOT_BE_PROCESSED);
 				sm.addPcName(partyMember);
