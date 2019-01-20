@@ -27,6 +27,7 @@ import com.l2jmobius.gameserver.model.actor.instance.L2DefenderInstance;
 import com.l2jmobius.gameserver.model.actor.instance.L2FortCommanderInstance;
 import com.l2jmobius.gameserver.model.actor.instance.L2SiegeFlagInstance;
 import com.l2jmobius.gameserver.model.effects.AbstractEffect;
+import com.l2jmobius.gameserver.model.effects.EffectFlag;
 import com.l2jmobius.gameserver.model.skills.Skill;
 import com.l2jmobius.gameserver.util.Util;
 
@@ -41,6 +42,12 @@ public final class Fear extends AbstractEffect
 	public Fear(StatsSet params)
 	{
 		
+	}
+	
+	@Override
+	public long getEffectFlags()
+	{
+		return EffectFlag.FEAR.getMask();
 	}
 	
 	@Override

@@ -204,9 +204,9 @@
 		<set name="price" val="683457" />
 		<createItems>
 			<item id="5286" count="1" chance="2" /> <!-- Berserker Blade -->
-			<item id="31226" count="1" chance="32" /> <!-- Bound Berserker Blade - Focus -->
-			<item id="31227" count="1" chance="33" /> <!-- Bound Berserker Blade - Critical Damage -->
-			<item id="31228" count="1" chance="33" /> <!-- Bound Berserker Blade - Haste -->
+			<item id="31226" count="1" chance="32" /> <!-- Player Commendation - Apocalypse Thrower (Water) - Focus (PC-exclusive) -->
+			<item id="31227" count="1" chance="33" /> <!-- Player Commendation - Apocalypse Thrower (Wind) - Focus (PC-exclusive) -->
+			<item id="31228" count="1" chance="33" /> <!-- Player Commendation - Apocalypse Thrower (Fire) - Focus (PC-exclusive) -->
 		</createItems>
 		<skills>
 			<skill id="12621" level="1" /> <!-- Check Item -->
@@ -598,6 +598,7 @@
 	</item>
 	<item id="32036" name="Unidentified Mithril Stockings" type="EtcItem">
 		<!-- Mithril Stockings in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: lower / robe) -->
+		<set name="icon" val="icon.armor_t51_l_i00" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
@@ -606,7 +607,6 @@
 		<set name="crystal_type" val="D" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.armor_t51_l_i00" />
 		<createItems>
 			<item id="470" count="1" chance="2" /> <!-- Mithril Stockings -->
 			<item id="31278" count="1" chance="98" /> <!-- Bound Mithril Stockings -->
@@ -633,6 +633,7 @@
 	</item>
 	<item id="32038" name="Unidentified Mithril Tunic" type="EtcItem">
 		<!-- Mithril Tunic in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: upper / robe) -->
+		<set name="icon" val="icon.armor_t51_u_i00" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
@@ -641,7 +642,6 @@
 		<set name="crystal_type" val="D" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.armor_t51_u_i00" />
 		<createItems>
 			<item id="437" count="1" chance="2" /> <!-- Mithril Tunic -->
 			<item id="31280" count="1" chance="98" /> <!-- Bound Mithril Tunic -->
@@ -668,6 +668,7 @@
 	</item>
 	<item id="32040" name="Unidentified Mithril Gloves" type="EtcItem">
 		<!-- Mithril Gloves in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: Gloves) -->
+		<set name="icon" val="icon.armor_t46_g_i00" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
@@ -676,7 +677,6 @@
 		<set name="crystal_type" val="D" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.armor_t46_g_i00" />
 		<createItems>
 			<item id="61" count="1" chance="2" /> <!-- Mithril Gloves -->
 			<item id="31282" count="1" chance="98" /> <!-- Bound Mithril Gloves -->

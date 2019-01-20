@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
 	<skill id="16400" toLevel="1" name="Ferin's Recharge">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Instantly recovers the target's MP with a maximum of 166 power depending on the target's Lv.. Also, for 10 seconds, recovers 12 MP per second. -->
 		<icon>icon.skill11760</icon>
 		<operateType>A2</operateType>
@@ -13,7 +12,6 @@
 		<isMagic>1</isMagic>
 	</skill>
 	<skill id="16401" toLevel="1" name="Dimensional Death Skin">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- For 10 sec., received damage - 50%. -->
 		<icon>icon.skill0340</icon>
 		<operateType>A2</operateType>
@@ -22,7 +20,6 @@
 		<isMagic>1</isMagic>
 	</skill>
 	<skill id="16402" toLevel="1" name="Dimensional Horror">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Inflicts Fear on nearby enemies for 5 sec. -->
 		<icon>icon.skill1169</icon>
 		<operateType>A2</operateType>
@@ -33,9 +30,7 @@
 		<isDebuff>true</isDebuff>
 	</skill>
 	<skill id="16403" toLevel="1" name="Dimensional Judgment">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Sentence target to death. 150,000 damage. -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<castRange>40</castRange>
 		<hitTime>2000</hitTime>
@@ -44,9 +39,7 @@
 		<isMagic>6</isMagic>
 	</skill>
 	<skill id="16404" toLevel="1" name="Dimensional Wide Judgment">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Sentence enemies to the front to death. 150,000 damage. -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<castRange>40</castRange>
 		<hitTime>2000</hitTime>
@@ -55,9 +48,7 @@
 		<isMagic>6</isMagic>
 	</skill>
 	<skill id="16405" toLevel="1" name="Dimensional Mass Judgment">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Sentence all nearby enemies to death. 150,000 damage. -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<hitTime>2000</hitTime>
 		<reuseDelay>3000</reuseDelay>
@@ -65,7 +56,6 @@
 		<isMagic>6</isMagic>
 	</skill>
 	<skill id="16406" toLevel="1" name="Dimensional Fear">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Inflicts Fear on target for 5 sec. -->
 		<icon>icon.skill1169</icon>
 		<operateType>A2</operateType>
@@ -76,7 +66,6 @@
 		<isDebuff>true</isDebuff>
 	</skill>
 	<skill id="16407" toLevel="1" name="Dimensional Resurrection Block">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Stops target from resurrecting for 60 sec. -->
 		<icon>icon.skill_resurrection</icon>
 		<operateType>A2</operateType>
@@ -89,7 +78,6 @@
 		<isDebuff>true</isDebuff>
 	</skill>
 	<skill id="16408" toLevel="3" name="Trap Fear">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Moving against your will due to Fear. -->
 		<icon>icon.skill1381</icon>
 		<operateType>A2</operateType>
@@ -98,85 +86,249 @@
 		<isDebuff>true</isDebuff>
 	</skill>
 	<skill id="16409" toLevel="3" name="Trap Hold">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Immobilized. -->
 		<icon>icon.skill4047</icon>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>
+			<value level="1">6</value>
+			<value level="2">8</value>
+			<value level="3">10</value>
+		</abnormalTime>
+		<abnormalType>ROOT_MAGICALLY</abnormalType>
+		<abnormalVisualEffect>ROOT</abnormalVisualEffect>
 		<operateType>A2</operateType>
 		<reuseDelay>10000</reuseDelay>
+		<basicProperty>NONE</basicProperty>
+		<magicCriticalRate>-5</magicCriticalRate>
+		<hitCancelTime>0</hitCancelTime>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>10</abnormalTime>
+		<affectRange>150</affectRange>
+		<castRange>150</castRange>
 		<effectPoint>-100</effectPoint>
-		<isDebuff>true</isDebuff>
+		<activateRate>80</activateRate>
+		<trait>HOLD</trait>
+		<isDebuff>1</isDebuff>
+		<targetType>TARGET</targetType>
+		<affectScope>SINGLE</affectScope>
+		<effects>
+			<effect name="Root" />
+			<effect name="DefenceTrait">
+				<HOLD>100</HOLD>
+			</effect>
+		</effects>
 	</skill>
 	<skill id="16410" toLevel="3" name="Trap Aerial Yoke">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Immobilized. -->
 		<icon>icon.skill11050</icon>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>
+			<value level="1">6</value>
+			<value level="2">8</value>
+			<value level="3">10</value>
+		</abnormalTime>
+		<abnormalType>AIRBIND</abnormalType>
+		<abnormalVisualEffect>AIRBIND</abnormalVisualEffect>
+		<abnormalResists>STUN;TURN_FLEE</abnormalResists>
 		<operateType>A2</operateType>
 		<reuseDelay>10000</reuseDelay>
+		<basicProperty>NONE</basicProperty>
+		<magicCriticalRate>-5</magicCriticalRate>
+		<hitCancelTime>0</hitCancelTime>
 		<effectPoint>-100</effectPoint>
-		<isDebuff>true</isDebuff>
+		<activateRate>80</activateRate>
+		<isDebuff>1</isDebuff>
+		<targetType>TARGET</targetType>
+		<affectScope>SINGLE</affectScope>
+		<effects>
+			<effect name="AirBind" />
+			<effect name="BlockActions">
+				<allowedSkills>10279;10517;10025;10776;11770;1904;11264;11093;13314;1912</allowedSkills>
+			</effect>
+			<effect name="DefenceTrait">
+				<HOLD>100</HOLD>
+				<DERANGEMENT>100</DERANGEMENT>
+				<SHOCK>100</SHOCK>
+				<KNOCKBACK>100</KNOCKBACK>
+				<CHANGEBODY>100</CHANGEBODY>
+				<KNOCKDOWN>100</KNOCKDOWN>
+				<SLEEP>100</SLEEP>
+				<AIRBIND>100</AIRBIND>
+			</effect>
+		</effects>
 	</skill>
 	<skill id="16411" toLevel="3" name="Trap Stun">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Immobilized. -->
 		<icon>icon.skill0100</icon>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>
+			<value level="1">6</value>
+			<value level="2">8</value>
+			<value level="3">10</value>
+		</abnormalTime>
+		<abnormalType>STUN</abnormalType>
+		<abnormalVisualEffect>STUN</abnormalVisualEffect>
 		<operateType>A2</operateType>
 		<reuseDelay>10000</reuseDelay>
+		<basicProperty>NONE</basicProperty>
+		<magicCriticalRate>-5</magicCriticalRate>
+		<hitCancelTime>0</hitCancelTime>
+		<affectRange>150</affectRange>
+		<castRange>150</castRange>
 		<effectPoint>-100</effectPoint>
-		<isDebuff>true</isDebuff>
+		<activateRate>100</activateRate>
+		<trait>SHOCK</trait>
+		<isDebuff>1</isDebuff>
+		<targetType>TARGET</targetType>
+		<affectScope>SINGLE</affectScope>
+		<effects>
+			<effect name="BlockActions" />
+		</effects>
 	</skill>
 	<skill id="16412" toLevel="3" name="Trap Petrify">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Immobilized. -->
 		<icon>icon.skill4111</icon>
 		<operateType>A2</operateType>
 		<reuseDelay>10000</reuseDelay>
+		<basicProperty>NONE</basicProperty>
+		<magicCriticalRate>-5</magicCriticalRate>
+		<hitCancelTime>0</hitCancelTime>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>10</abnormalTime>
+		<affectRange>150</affectRange>
 		<effectPoint>-100</effectPoint>
-		<isDebuff>true</isDebuff>
+		<activateRate>100</activateRate>
+		<isDebuff>1</isDebuff>
+		<targetType>TARGET</targetType>
+		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="16413" toLevel="3" name="Trap Poison">
-		<!-- AUTO GENERATED SKILL -->
-		<!-- Poisoned and losing 1,000 HP/second. -->
+		<!-- Poisoned and losing $s1,$s2 HP/second. -->
 		<icon>icon.skill4035</icon>
+		<abnormalLvl>1</abnormalLvl>
+		<abnormalTime>
+			<value level="1">6</value>
+			<value level="2">8</value>
+			<value level="3">10</value>
+		</abnormalTime>
+		<subordinationAbnormalType>POISON</subordinationAbnormalType>
+		<abnormalType>POISON</abnormalType>
+		<abnormalVisualEffect>DOT_POISON</abnormalVisualEffect>
 		<operateType>A2</operateType>
 		<reuseDelay>10000</reuseDelay>
+		<basicProperty>NONE</basicProperty>
+		<magicCriticalRate>-5</magicCriticalRate>
+		<hitCancelTime>0</hitCancelTime>
+		<affectRange>150</affectRange>
+		<castRange>150</castRange>
 		<effectPoint>-100</effectPoint>
-		<isDebuff>true</isDebuff>
+		<activateRate>100</activateRate>
+		<trait>POISON</trait>
+		<isDebuff>1</isDebuff>
+		<targetType>TARGET</targetType>
+		<affectScope>SINGLE</affectScope>
+		<effects>
+			<effect name="DamOverTime">
+				<power>1000</power>
+				<ticks>1</ticks>
+			</effect>
+		</effects>
 	</skill>
 	<skill id="16414" toLevel="1" name="Peace Zone Cure">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Recover 10% of Max HP and 30% of Max MP of self and everyone within 200 grids. Cooldown is 10 sec. -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<reuseDelay>10000</reuseDelay>
+		<basicProperty>NONE</basicProperty>
+		<magicCriticalRate>-5</magicCriticalRate>
+		<affectRange>200</affectRange>
+		<targetType>TARGET</targetType>
+		<affectScope>SINGLE</affectScope>
+		<effects>
+			<effect name="HealPercent">
+				<power>10</power>
+			</effect>
+		</effects>
+		<effect name="ManaHealPercent">
+				<power>30</power>
+			</effect>
 	</skill>
 	<skill id="16415" toLevel="4" name="Dimensional Dark Forces">
-		<!-- AUTO GENERATED SKILL -->
-		<!-- P./M./ Atk. - 10%, and P./M. Critical Rate - 30. -->
+		<!-- P. Atk - $s1, M. Atk. - $s2, and P. Critical Rate - $s3, M. Critical Rate - $s4. -->
 		<icon>icon.skill1298</icon>
+		<abnormalLvl>
+			<value level="1">1</value>
+			<value level="2">2</value>
+			<value level="3">3</value>
+			<value level="4">4</value>
+		</abnormalLvl>
+		<abnormalTime>
+			<value level="1">5</value>
+			<value level="2">5</value>
+			<value level="3">10</value>
+			<value level="4">10</value>
+		</abnormalTime>
 		<operateType>A2</operateType>
+		<basicProperty>NONE</basicProperty>
 		<effectPoint>-100</effectPoint>
-		<isDebuff>true</isDebuff>
+		<isDebuff>1</isDebuff>
+		<affectScope>SINGLE</affectScope>
+		<targetType>SELF</targetType>
+		<effects>
+			<effect name="PAtk">
+				<amount>
+					<value level="1">-4</value>
+					<value level="2">-6</value>
+					<value level="3">-8</value>
+					<value level="3">-10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MAtk">
+				<amount>
+					<value level="1">-4</value>
+					<value level="2">-6</value>
+					<value level="3">-8</value>
+					<value level="3">-10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="CriticalRate">
+				<amount>
+					<value level="1">-5</value>
+					<value level="2">-10</value>
+					<value level="3">-20</value>
+					<value level="3">-30</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicCriticalRate">
+				<amount>
+					<value level="1">-5</value>
+					<value level="2">-10</value>
+					<value level="3">-20</value>
+					<value level="3">-30</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
 	</skill>
 	<skill id="16416" toLevel="10" name="Bluff Resistance">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Resistance to Bluff. -->
 		<icon>icon.skill0358</icon>
 		<operateType>P</operateType>
 	</skill>
 	<skill id="16417" toLevel="10" name="Wind Stun Resistance">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Resistance to Wind Stun. -->
 		<icon>icon.skill4011</icon>
 		<operateType>P</operateType>
 	</skill>
 	<skill id="16418" toLevel="10" name="Seduction Resistance">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Seduction Resistance. -->
 		<icon>icon.skill5934</icon>
 		<operateType>P</operateType>
 	</skill>
 	<skill id="16419" toLevel="2" name="Stocking Fairy's Blessing">
-		<!-- For 2 hr., STR + 3, INT + 3, Speed + 7. Can obtain item after 2 hr. Must be alive with space in the inventory to receive item. -->
+		<!-- For $s1 hr., STR + $s3, INT + $s4, Speed + $s5. Can obtain item after $s6 hr. Must be alive with space in the inventory to receive item. -->
 		<icon>BranchSys.icon.br_xmas_present_i00</icon>
 		<operateType>A2</operateType>
 		<abnormalLvl>1</abnormalLvl>
@@ -206,7 +358,7 @@
 		</effects>
 	</skill>
 	<skill id="16420" toLevel="2" name="Tree Fairy's Blessing">
-		<!-- For 2 hr., CON + 3, MEN + 3, P. Critical Rate + 30, M. Critical Rate + 30. Can obtain item after 2 hr. Must be alive with space in the inventory to receive item. -->
+		<!-- For $s1 hr., CON + $s2, MEN + $s3, P. Critical Rate + $s4, M. Critical Rate + $s5. Can obtain item after $s6 hr. Must be alive with space in the inventory to receive item. -->
 		<icon>BranchSys.icon.br_xmas_miracle_i00</icon>
 		<operateType>A2</operateType>
 		<abnormalLvl>1</abnormalLvl>
@@ -240,7 +392,7 @@
 		</effects>
 	</skill>
 	<skill id="16421" toLevel="2" name="Snowman Fairy's Blessing">
-		<!-- For 2 hr., DEX + 3, WIT + 3, Max HP/MP + 2013. Can obtain item after 2 hr. Must be alive with space in the inventory to receive item. -->
+		<!-- For $s1 hr., DEX + $s2, WIT + $s3, Max HP/MP + $s4. Can obtain item after $s5 hr. Must be alive with space in the inventory to receive item. -->
 		<icon>BranchSys.icon.br_xmas_present_luck_i00</icon>
 		<operateType>A2</operateType>
 		<abnormalLvl>1</abnormalLvl>
@@ -271,12 +423,10 @@
 				<amount>2013</amount>
 				<mode>DIFF</mode>
 			</effect>
-		</effects>	
+		</effects>
 	</skill>
 	<skill id="16422" toLevel="1" name="Winter Holiday Reward">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Receive a Santa's Mark when the blessing from the Stocking/Tree/Snowman Fairy expires. -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="16423" toLevel="1" name="Noelle's Gift">
@@ -300,13 +450,10 @@
 		</effects>
 	</skill>
 	<skill id="16424" toLevel="1" name="Appearance Stone: Santa Hat">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Changes the appearance of your hair accessory into that of a Santa Hat. -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="16425" toLevel="1" name="Appearance Stone: Santa Suit">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- For 1 hr., changes the appearance of your armor into that of a Santa Suit. -->
 		<icon>BranchSys.icon.br_xmas_present_fun_i00</icon>
 		<operateType>A2</operateType>
@@ -544,9 +691,7 @@
 		</effects>
 	</skill>
 	<skill id="16436" toLevel="1" name="Rush">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Charges into the enemy. -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<mpConsume>20</mpConsume>
 		<castRange>400</castRange>
@@ -555,7 +700,6 @@
 		<coolTime>200</coolTime>
 	</skill>
 	<skill id="16437" toLevel="1" name="Master's Blessing - GM's Cheers">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- The GM is always with you. XP and SP increases by 100% for 1 hr. Cannot be stacked with Fall of the Dragon. -->
 		<icon>icon.skill0919</icon>
 		<operateType>A2</operateType>
@@ -563,56 +707,48 @@
 		<isMagic>4</isMagic>
 	</skill>
 	<skill id="16438" toLevel="1" name="Horn Melody Lv. 2 (Adventurer)">
-		<!-- AUTO GENERATED SKILL -->
-		<!-- For 60 min., party members get P. Atk. + 19%, P. Def. + 15%, M. Atk. + 83%, M. Def. + 30%. -->
+		<!-- For 60 minutes, party members' P. Atk. +19%, P. Def. +15%, M. Atk. +83%, M. Def. +30%. -->
 		<icon>icon.skill11517</icon>
 		<operateType>A2</operateType>
 		<effectPoint>687</effectPoint>
 		<castRange>400</castRange>
 	</skill>
 	<skill id="16439" toLevel="1" name="Drum Melody Lv. 2 (Adventurer)">
-		<!-- AUTO GENERATED SKILL -->
-		<!-- For 60 min., party members get Max MP + 20%, HP Recovery Bonus + 20%, M. Critical Rate + 20, Critical Damage in standard attack + 20%, P. Atk. + 10%, P. Def. + 20%, Atk. Spd. + 20%, M. Atk./Def. + 20%, Casting Spd. +60, anad Debuff Resistance + 10%, Received Critical Damage - 30%, and Speed - 10%. Party members equipped with melee/bows/crossbows have increased Critical Damage after receiving an amount of damage. -->
+		<!-- For 60 minutes, party members' Max MP +20%, HP Recovery Bonus +20%, M. Critical Rate +20, P. Critical Damage +20%, P. Atk. +10%, P. Def. +20%, Atk. Spd. +20%, M. Atk. +20%, M. Def. +20%, Casting Spd. +20%, Debuff Resistance +10%, Critical Damage Received -30%, Movement Speed -10% -->
 		<icon>icon.skill11522</icon>
 		<operateType>A2</operateType>
 		<effectPoint>687</effectPoint>
 		<castRange>400</castRange>
 	</skill>
 	<skill id="16440" toLevel="1" name="Pipe Organ Melody Lv. 2 (Adventurer)">
-		<!-- AUTO GENERATED SKILL -->
-		<!-- For 60 min., party members get Max HP/MP/CP + 39%, and HP Recovery Bonus + 20%. -->
+		<!-- For 60 minutes, party members' Max HP +39%, Max MP +39%, Max CP +39%, HP Recovery Bonus +20% up. -->
 		<icon>icon.skill11519</icon>
 		<operateType>A2</operateType>
 		<effectPoint>687</effectPoint>
 		<castRange>400</castRange>
 	</skill>
 	<skill id="16441" toLevel="1" name="Guitar Melody Lv. 2 (Adventurer)">
-		<!-- AUTO GENERATED SKILL -->
-		<!-- For 60 min., party members get P. Critical Rate + 34%, P. Critical Damage + 35%, M. Critical Rate + 20. M. Skill Consumption - 10%, and Iss enchanter's Enchant Skill MP Consumption - 20%. -->
+		<!-- For 60 minutes, party members' P. Critical Rate +34%, P. Critical Damage +35%, M. Critical Rate +20, and P. Skill MP Consumption -20%, M. Skill MP Consumption -10%, Iss Enchanter Enhance Skill MP Consumption -20%. -->
 		<icon>icon.skill11520</icon>
 		<operateType>A2</operateType>
 		<effectPoint>687</effectPoint>
 		<castRange>400</castRange>
 	</skill>
 	<skill id="16442" toLevel="1" name="Harp Melody Lv. 2 (Adventurer)">
-		<!-- AUTO GENERATED SKILL -->
-		<!-- For 60 min., party members get P. Accuracy + 6, P./M. Evasion + 6, Speed + 35. Received Critical Damage - 30%. -->
+		<!-- For 60 minutes, party members' P. Accuracy +6, P./M. Evasion +6, Movement Speed +35, and Critical Damage Received -30%. -->
 		<icon>icon.skill11521</icon>
 		<operateType>A2</operateType>
 		<effectPoint>687</effectPoint>
 		<castRange>400</castRange>
 	</skill>
 	<skill id="16443" toLevel="1" name="Lute Melody Lv. 2 (Adventurer)">
-		<!-- AUTO GENERATED SKILL -->
-		<!-- For 60 min., party members get Atk. Spd. + 35%, Casting Spd. + 32%, and have a chance of applying 9% Vampiric Rage. -->
+		<!-- For 60 minutes, party members' Atk Spd. +35%, Casting Spd. +32%, with a chance of 9% Vampiric Rage. -->
 		<icon>icon.skill11518</icon>
 		<operateType>A2</operateType>
 		<effectPoint>687</effectPoint>
 		<castRange>400</castRange>
 	</skill>
 	<skill id="16444" toLevel="1" name="Fatal Slasher">
-		<!-- AUTO GENERATED SKILL -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<mpConsume>1</mpConsume>
 		<hitTime>2000</hitTime>
@@ -620,8 +756,6 @@
 		<coolTime>1000</coolTime>
 	</skill>
 	<skill id="16445" toLevel="1" name="Dark Buster">
-		<!-- AUTO GENERATED SKILL -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<mpConsume>1</mpConsume>
 		<hitTime>2000</hitTime>
@@ -630,8 +764,6 @@
 		<isMagic>1</isMagic>
 	</skill>
 	<skill id="16446" toLevel="1" name="Unholy Blast">
-		<!-- AUTO GENERATED SKILL -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<mpConsume>39</mpConsume>
 		<castRange>1500</castRange>
@@ -640,7 +772,6 @@
 		<isMagic>1</isMagic>
 	</skill>
 	<skill id="16447" toLevel="1" name="Mass Poison">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Poisoned. HP momentarily decreases. Power 14. -->
 		<icon>icon.skill4035</icon>
 		<operateType>A2</operateType>
@@ -652,7 +783,6 @@
 		<isDebuff>true</isDebuff>
 	</skill>
 	<skill id="16448" toLevel="1" name="Mass Airbind">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Throws nearby enemies into the air and binds them for 10 sec. -->
 		<icon>icon.skill11052</icon>
 		<operateType>A2</operateType>
@@ -664,7 +794,6 @@
 		<isDebuff>true</isDebuff>
 	</skill>
 	<skill id="16449" toLevel="1" name="Mass Hold">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Casts Hold on target and nearby enemies for 10 sec. -->
 		<icon>icon.skill10090new</icon>
 		<operateType>A2</operateType>
@@ -676,7 +805,6 @@
 		<isDebuff>true</isDebuff>
 	</skill>
 	<skill id="16450" toLevel="1" name="Mass Fear">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Moving against your will due to Fear. -->
 		<icon>icon.skill1092</icon>
 		<operateType>A2</operateType>
@@ -688,7 +816,6 @@
 		<isDebuff>true</isDebuff>
 	</skill>
 	<skill id="16451" toLevel="1" name="Wide Stun">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Attacks nearby enemies and stuns and cancels target for 10 sec. -->
 		<icon>icon.skill10265</icon>
 		<operateType>A2</operateType>
@@ -699,15 +826,12 @@
 		<isDebuff>true</isDebuff>
 	</skill>
 	<skill id="16452" toLevel="6" name="Raid Boss (Lv. 99)">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- One of Etis van Etina's disciples. Twin of Isadora, and a Dark Healer representing the Seal of Avarice. Has been aiming for Aden from another dimension to help Etis van Etina. -->
 		<icon>icon.skillraid</icon>
 		<operateType>P</operateType>
 	</skill>
 	<skill id="16453" toLevel="1" name="Exalted Production">
-		<icon>icon.skill0922</icon>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<staticReuse>true</staticReuse>
@@ -723,7 +847,6 @@
 		</effects>
 	</skill>
 	<skill id="16454" toLevel="1" name="Spinning Slasher">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Pushes back enemies nearby and cancels target. -->
 		<icon>icon.skill0922</icon>
 		<operateType>A2</operateType>
@@ -733,7 +856,6 @@
 		<isDebuff>true</isDebuff>
 	</skill>
 	<skill id="16455" toLevel="1" name="Spinning Power Slasher">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Pushes back enemies nearby, cancels target and decreases speed. -->
 		<icon>icon.skill0922</icon>
 		<operateType>A2</operateType>
@@ -743,7 +865,6 @@
 		<isDebuff>true</isDebuff>
 	</skill>
 	<skill id="16456" toLevel="1" name="Decrease Speed">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Speed decreases momentarily. Effect 1. -->
 		<icon>icon.skill1160</icon>
 		<operateType>A2</operateType>
@@ -755,7 +876,6 @@
 		<isDebuff>true</isDebuff>
 	</skill>
 	<skill id="16457" toLevel="1" name="Mass Knock Down">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Deal powerful attack and knock down enemies nearby. Cancels target. -->
 		<icon>icon.skill0922</icon>
 		<operateType>A2</operateType>
@@ -766,7 +886,6 @@
 		<isDebuff>true</isDebuff>
 	</skill>
 	<skill id="16458" toLevel="1" name="Mass Power Knock Down">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Deal powerful attack and knock down enemies nearby. Cancels target and decreases speed. -->
 		<icon>icon.skill0922</icon>
 		<operateType>A2</operateType>
@@ -777,7 +896,6 @@
 		<isDebuff>true</isDebuff>
 	</skill>
 	<skill id="16459" toLevel="1" name="Decrease P. Def.">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- P. Def. decreased. -->
 		<icon>icon.skill0122</icon>
 		<operateType>A2</operateType>
@@ -786,7 +904,6 @@
 		<isDebuff>true</isDebuff>
 	</skill>
 	<skill id="16460" toLevel="1" name="Maliss Bloody Mark">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Leaves Blood Seal to enemies in range for 20 seconds, making them bleed. -->
 		<icon>icon.skill0096</icon>
 		<operateType>A2</operateType>
@@ -798,7 +915,6 @@
 		<isDebuff>true</isDebuff>
 	</skill>
 	<skill id="16461" toLevel="1" name="Isadora Chaos Mark">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Leaves Dark Seal to enemies in range for 20 seconds, decreasing their defense. -->
 		<icon>icon.skill0122</icon>
 		<operateType>A2</operateType>
@@ -810,7 +926,6 @@
 		<isDebuff>true</isDebuff>
 	</skill>
 	<skill id="16462" toLevel="1" name="Chaos Mark Retriever">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Explodes Chaos Mark left to enemies in range, dealing additional Magic Damage. -->
 		<icon>icon.skill0006</icon>
 		<operateType>A1</operateType>
@@ -821,7 +936,6 @@
 		<isMagic>1</isMagic>
 	</skill>
 	<skill id="16463" toLevel="1" name="Bloody Mark Retriever">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Explodes Bloody Mark left to enemies in range, dealing additional Magic Damage. -->
 		<icon>icon.skill0006</icon>
 		<operateType>A1</operateType>
@@ -832,7 +946,6 @@
 		<isMagic>1</isMagic>
 	</skill>
 	<skill id="16464" toLevel="1" name="Maliss Blood Splash">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Explodes powerful Blood Splash to enemies in range, dealing Magic Damage. -->
 		<icon>icon.skill0006</icon>
 		<operateType>A1</operateType>
@@ -843,7 +956,6 @@
 		<isMagic>1</isMagic>
 	</skill>
 	<skill id="16465" toLevel="1" name="Isadora Dark Splash">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Explodes powerful Dark Splash to enemies in range, dealing Magic Damage. -->
 		<icon>icon.skill0006</icon>
 		<operateType>A1</operateType>
@@ -854,7 +966,6 @@
 		<isMagic>1</isMagic>
 	</skill>
 	<skill id="16466" toLevel="1" name="Explosion">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Explodes bomb and deals great damage and pushes back enemies within range. -->
 		<icon>icon.skill0922</icon>
 		<operateType>A2</operateType>
@@ -864,7 +975,6 @@
 		<isMagic>1</isMagic>
 	</skill>
 	<skill id="16467" toLevel="1" name="Dimensional Raid Blessing">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Blessing that can be obtained through Merlot. Your chances of receiving a better reward from Merlot increase next time you have this buff. -->
 		<icon>BranchSys2.icon.br_vitality_day_i00</icon>
 		<operateType>A2</operateType>
@@ -874,7 +984,6 @@
 		<isMagic>1</isMagic>
 	</skill>
 	<skill id="16468" toLevel="1" name="Tauti's Temporary Invincibility">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- A temporary buff that makes Tauti immune to attacks when he's down. -->
 		<icon>icon.weapon_tauti_one_hand_axe_i01</icon>
 		<operateType>A2</operateType>
@@ -882,7 +991,6 @@
 		<reuseDelay>5000</reuseDelay>
 	</skill>
 	<skill id="16469" toLevel="1" name="Poison Arrow">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Chance of inflicting powerful damage on all party members along with poison damage. -->
 		<icon>icon.skill0223</icon>
 		<operateType>A2</operateType>
@@ -893,7 +1001,6 @@
 		<isDebuff>true</isDebuff>
 	</skill>
 	<skill id="16470" toLevel="1" name="Scream Penetration">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Front Fan Sector Range Blow. -->
 		<icon>icon.skill0003</icon>
 		<operateType>A1</operateType>
@@ -903,7 +1010,6 @@
 		<coolTime>500</coolTime>
 	</skill>
 	<skill id="16471" toLevel="1" name="Mighty Rush">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Rushes in with all your strength for knock back. -->
 		<icon>icon.skill0495</icon>
 		<operateType>A1</operateType>
@@ -915,8 +1021,6 @@
 		<isDebuff>true</isDebuff>
 	</skill>
 	<skill id="16472" toLevel="1" name="Holy Spike">
-		<!-- AUTO GENERATED SKILL -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<mpConsume>1</mpConsume>
 		<castRange>900</castRange>
@@ -926,8 +1030,6 @@
 		<isMagic>1</isMagic>
 	</skill>
 	<skill id="16473" toLevel="1" name="Dark Spike">
-		<!-- AUTO GENERATED SKILL -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<mpConsume>1</mpConsume>
 		<castRange>900</castRange>
@@ -937,8 +1039,6 @@
 		<isMagic>1</isMagic>
 	</skill>
 	<skill id="16474" toLevel="1" name="Fire Spike">
-		<!-- AUTO GENERATED SKILL -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<mpConsume>1</mpConsume>
 		<castRange>900</castRange>
@@ -948,8 +1048,6 @@
 		<isMagic>1</isMagic>
 	</skill>
 	<skill id="16475" toLevel="1" name="Water Spike">
-		<!-- AUTO GENERATED SKILL -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<mpConsume>1</mpConsume>
 		<castRange>900</castRange>
@@ -959,8 +1057,6 @@
 		<isMagic>1</isMagic>
 	</skill>
 	<skill id="16476" toLevel="1" name="Wind Spike">
-		<!-- AUTO GENERATED SKILL -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<mpConsume>1</mpConsume>
 		<castRange>900</castRange>
@@ -970,8 +1066,6 @@
 		<isMagic>1</isMagic>
 	</skill>
 	<skill id="16477" toLevel="1" name="Earth Spike">
-		<!-- AUTO GENERATED SKILL -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<mpConsume>1</mpConsume>
 		<castRange>900</castRange>
@@ -981,8 +1075,6 @@
 		<isMagic>1</isMagic>
 	</skill>
 	<skill id="16478" toLevel="1" name="Holy Buster">
-		<!-- AUTO GENERATED SKILL -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<mpConsume>1</mpConsume>
 		<hitTime>2000</hitTime>
@@ -992,8 +1084,6 @@
 		<isMagic>1</isMagic>
 	</skill>
 	<skill id="16479" toLevel="1" name="Fire Buster">
-		<!-- AUTO GENERATED SKILL -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<mpConsume>1</mpConsume>
 		<hitTime>2000</hitTime>
@@ -1003,8 +1093,6 @@
 		<isMagic>1</isMagic>
 	</skill>
 	<skill id="16480" toLevel="1" name="Water Buster">
-		<!-- AUTO GENERATED SKILL -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<mpConsume>1</mpConsume>
 		<hitTime>2000</hitTime>
@@ -1014,8 +1102,6 @@
 		<isMagic>1</isMagic>
 	</skill>
 	<skill id="16481" toLevel="1" name="Wind Buster">
-		<!-- AUTO GENERATED SKILL -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<mpConsume>1</mpConsume>
 		<hitTime>2000</hitTime>
@@ -1025,8 +1111,6 @@
 		<isMagic>1</isMagic>
 	</skill>
 	<skill id="16482" toLevel="1" name="Earth Buster">
-		<!-- AUTO GENERATED SKILL -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<mpConsume>1</mpConsume>
 		<hitTime>2000</hitTime>
@@ -1036,8 +1120,6 @@
 		<isMagic>1</isMagic>
 	</skill>
 	<skill id="16483" toLevel="1" name="Holy Blast">
-		<!-- AUTO GENERATED SKILL -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<mpConsume>1</mpConsume>
 		<castRange>900</castRange>
@@ -1048,8 +1130,6 @@
 		<isMagic>1</isMagic>
 	</skill>
 	<skill id="16484" toLevel="1" name="Fire Blast">
-		<!-- AUTO GENERATED SKILL -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<mpConsume>1</mpConsume>
 		<castRange>900</castRange>
@@ -1060,8 +1140,6 @@
 		<isMagic>1</isMagic>
 	</skill>
 	<skill id="16485" toLevel="1" name="Water Blast">
-		<!-- AUTO GENERATED SKILL -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<mpConsume>1</mpConsume>
 		<castRange>900</castRange>
@@ -1072,8 +1150,6 @@
 		<isMagic>1</isMagic>
 	</skill>
 	<skill id="16486" toLevel="1" name="Wind Blast">
-		<!-- AUTO GENERATED SKILL -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<mpConsume>1</mpConsume>
 		<castRange>900</castRange>
@@ -1084,8 +1160,6 @@
 		<isMagic>1</isMagic>
 	</skill>
 	<skill id="16487" toLevel="1" name="Earth Blast">
-		<!-- AUTO GENERATED SKILL -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<mpConsume>1</mpConsume>
 		<castRange>900</castRange>
@@ -1096,8 +1170,6 @@
 		<isMagic>1</isMagic>
 	</skill>
 	<skill id="16488" toLevel="1" name="Fatal Strike">
-		<!-- AUTO GENERATED SKILL -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<mpConsume>1</mpConsume>
 		<castRange>40</castRange>
@@ -1107,7 +1179,6 @@
 		<reuseDelay>5000</reuseDelay>
 	</skill>
 	<skill id="16489" toLevel="1" name="Luminosity">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Knocked down. -->
 		<icon>icon.skill10549</icon>
 		<operateType>A2</operateType>
@@ -1119,61 +1190,51 @@
 		<isDebuff>true</isDebuff>
 	</skill>
 	<skill id="16490" toLevel="1" name="99Lv. Raid Boss">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Shilen's blood seeped into a criminal's corpse and came back to life against as one of the Undead. Currently aiming for Giran from another dimension in order to complete the darkness. -->
 		<icon>icon.skillraid</icon>
 		<operateType>P</operateType>
 	</skill>
 	<skill id="16491" toLevel="1" name="99Lv. Raid Boss">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- The master criminal who resurrected after drinking the blood of Shilen that seeped into the Execution Grounds. It is trapped in the madness of blood, and is aiming for the Giran from another dimension. -->
 		<icon>icon.skillraid</icon>
 		<operateType>P</operateType>
 	</skill>
 	<skill id="16492" toLevel="1" name="99Lv. Raid Boss">
-		<!-- AUTO GENERATED SKILL -->
-		<!-- The Guillotine was once an executioner. After drinking the blood of Shilen that permeated the Execution Grounds, it became the 'Guillotine of Death' that kills to bring about the resurrection of Shilen, and is aiming for the Giran from another dimension. -->
+		<!-- The Guillotine was once an executioner. After drinking the blood of Shilen that permeated the Execution Grounds, it became the "Guillotine of Death" that kills to bring about the resurrection of Shilen, and is aiming for the Giran from another dimension. -->
 		<icon>icon.skillraid</icon>
 		<operateType>P</operateType>
 	</skill>
 	<skill id="16493" toLevel="1" name="99Lv. Raid Boss">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Messenger sent by Lindvior to help with Shilen's resurrection. Has the power of wind as strong as Lindvior, and is aiming for Goddard from another dimension. -->
 		<icon>icon.skillraid</icon>
 		<operateType>P</operateType>
 	</skill>
 	<skill id="16494" toLevel="1" name="99Lv. Raid Boss">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Messenger sent by Valakas to help with Shilen's resurrection. Has the power of fire as strong as Valakas, and is aiming for Goddard from another dimension. -->
 		<icon>icon.skillraid</icon>
 		<operateType>P</operateType>
 	</skill>
 	<skill id="16495" toLevel="1" name="99Lv. Raid Boss">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Messenger sent by Antharas to help with Shilen's resurrection. Has the power of earth as strong as Antharas, and is aiming for Goddard from another dimension. -->
 		<icon>icon.skillraid</icon>
 		<operateType>P</operateType>
 	</skill>
 	<skill id="16496" toLevel="1" name="99Lv. Raid Boss">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Part of the Spicula was affected by the darkness of Nemis and was reborn as Vengeful Agarez. Currently aiming for Gludio from another dimension in order to carry out Nemis' will. -->
 		<icon>icon.skillraid</icon>
 		<operateType>P</operateType>
 	</skill>
 	<skill id="16497" toLevel="1" name="99Lv. Raid Boss">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Part of the Krakia was affected by the darkness of Nemis and was reborn as Vengeful Oretross. Currently aiming for Gludio from another dimension in order to carry out Nemis' will. -->
 		<icon>icon.skillraid</icon>
 		<operateType>P</operateType>
 	</skill>
 	<skill id="16498" toLevel="1" name="99Lv. Raid Boss">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Part of the Spicula was affected by the darkness of Nemis and was reborn as Vengeful Eligos. Currently aiming for Gludio from another dimension in order to carry out Nemis' will. -->
 		<icon>icon.skillraid</icon>
 		<operateType>P</operateType>
 	</skill>
 	<skill id="16499" toLevel="1" name="99Lv. Raid Boss">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Part of the Weiss was affected by the darkness of Nemis and was reborn as Vengeful Lerazia. Currently aiming for Gludin from another dimension in order to carry out Nemis' will. -->
 		<icon>icon.skillraid</icon>
 		<operateType>P</operateType>

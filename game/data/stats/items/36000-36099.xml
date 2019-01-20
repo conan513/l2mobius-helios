@@ -469,6 +469,7 @@
 	</item>
 	<item id="36024" name="Returning Hero's Wondrous Cubic" type="EtcItem">
 		<!-- Double-click to acquire one of the following: 30-minute Vitality Recovering Potion, 700 PC Coupon Points, 2 Heavenly Cocktails, Scroll of Escape Box: Village, and Blessed Scroll of Escape. (Can only be used once a-day) -->
+		<set name="icon" val="Branchsys2.icon.cube_event_i02" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
@@ -481,7 +482,6 @@
 		<set name="time" val="21600" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="Branchsys2.icon.cube_event_i02" />
 		<skills>
 			<skill id="9576" level="1" /> <!-- Returning Hero's Wondrous Cubic -->
 		</skills>
@@ -1376,6 +1376,7 @@
 	</item>
 	<item id="36065" name="Verna's Vaccine" type="EtcItem">
 		<!-- Vaccine made by Verna. Can be used on Golem Generators that occasionally come out of Scout Golems in Nornil's Cave. -->
+		<set name="icon" val="icon.etc_mechanic_box_i00" />
 		<set name="is_depositable" val="false" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
@@ -1389,13 +1390,13 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.etc_mechanic_box_i00" />
 		<skills>
 			<skill id="9584" level="1" /> <!-- Verna's Vaccine -->
 		</skills>
 	</item>
 	<item id="36066" name="Water from the Garden of Eva" type="EtcItem">
 		<!-- Water scooped from deep inside the Garden of Eva. Probably not the Clearest Water. -->
+		<set name="icon" val="icon.etc_fruit_juice_glass_bottle_i08" />
 		<set name="is_depositable" val="false" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
@@ -1408,10 +1409,10 @@
 		<set name="is_questitem" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="immediate_effect" val="true" />
-		<set name="icon" val="icon.etc_fruit_juice_glass_bottle_i08" />
 	</item>
 	<item id="36067" name="Clearest Water" type="EtcItem">
 		<!-- The cleanest water received from the Lady of the Lake. Can be used on the Mother Tree at the center of Elven Village. -->
+		<set name="icon" val="icon.etc_fruit_juice_glass_bottle_i05" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
@@ -1423,13 +1424,13 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.etc_fruit_juice_glass_bottle_i05" />
 		<skills>
 			<skill id="9579" level="1" /> <!-- Clearest Water -->
 		</skills>
 	</item>
 	<item id="36068" name="Brightest Light" type="EtcItem">
 		<!-- The Brightest Light received from Nerupa in the Arms of Timiniel in Magmeld. Can be used in front of Shilen's Stone Statue towering at the center of Dark Elf Village. -->
+		<set name="icon" val="icon.tersi_specter_seed" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
@@ -1441,13 +1442,13 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.tersi_specter_seed" />
 		<skills>
 			<skill id="9580" level="1" /> <!-- Brightest Light -->
 		</skills>
 	</item>
 	<item id="36069" name="Purest Soul" type="EtcItem">
 		<!-- The Purest Soul received from Enfeux in the Valley of Saints. Can be used in front of the Cave of Souls close to Kamael Village. -->
+		<set name="icon" val="icon.etc_crystal_ball_white_i00" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
@@ -1459,13 +1460,13 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.etc_crystal_ball_white_i00" />
 		<skills>
 			<skill id="9581" level="1" /> <!-- Purest Soul -->
 		</skills>
 	</item>
 	<item id="36070" name="Fiercest Flame" type="EtcItem">
 		<!-- The Fiercest Flame received from the Blacksmith of Flame Vulcan at the Forge of the Gods. Can be used in front of the Pa'agrio Temple in Orc Village. -->
+		<set name="icon" val="icon.etc_torch_on_i09" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
@@ -1477,13 +1478,13 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.etc_torch_on_i09" />
 		<skills>
 			<skill id="9582" level="1" /> <!-- Fiercest Flame -->
 		</skills>
 	</item>
 	<item id="36071" name="Fondest Heart" type="EtcItem">
 		<!-- Letter that shows the Fondest Heart of the Blacksmith of Flame Vulcan. Can be used in the Deserted Dwarven House. -->
+		<set name="icon" val="icon.etc_letter_blue_i00" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
@@ -1495,13 +1496,13 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
 		<set name="commissionItemType" val="OTHER_ITEM" />
-		<set name="icon" val="icon.etc_letter_blue_i00" />
 		<skills>
 			<skill id="9583" level="1" /> <!-- Fondest Heart -->
 		</skills>
 	</item>
 	<item id="36072" name="Mysterious Letter" type="EtcItem">
 		<!-- Mysterious Letter handed over by Subclass Master Raina of Talking Island Village. Double-click to check the content. -->
+		<set name="icon" val="icon.etc_roll_of_paper_blue_i00" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
@@ -1512,12 +1513,12 @@
 		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="default_action" val="SHOW_HTML" />
-		<set name="icon" val="icon.etc_roll_of_paper_blue_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Bypass" />
 	</item>
 	<item id="36073" name="Vaccine Box" type="EtcItem">
 		<!-- Box that contains a vaccine for Virus Laido. Deliver it to Dwarves who are sealing Spicula Clone Generator Brand. -->
+		<set name="icon" val="icon.etc_squares_wood_i00" />
 		<set name="is_depositable" val="false" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
@@ -1530,7 +1531,6 @@
 		<set name="is_questitem" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="immediate_effect" val="true" />
-		<set name="icon" val="icon.etc_squares_wood_i00" />
 	</item>
 	<item id="36074" name="Yin's Trace" type="EtcItem">
 		<!-- Fragments with information about Metusela Clone Generator Brand. When you collect them all, take them to Hesed of the Black Anvil Guild. -->
@@ -1568,6 +1568,7 @@
 	</item>
 	<item id="36076" name="Verna's Red Gate Key" type="EtcItem">
 		<!-- Key for opening the Red Gate of Nornil Dungeon. -->
+		<set name="icon" val="icon.etc_old_key_i02" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
@@ -1578,7 +1579,6 @@
 		<set name="is_questitem" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="immediate_effect" val="true" />
-		<set name="icon" val="icon.etc_old_key_i02" />
 	</item>
 	<item id="36077" name="Crumbs of Penitence" type="EtcItem">
 		<!-- Mark of Penitence. Sins scattered in the world have been made into crumbs by the Sin Eater. -->
@@ -1614,7 +1614,8 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="36079" name="Yum Yum Candy" type="EtcItem">
-		<!-- Yum Yum Candy made of the peanuts grown by Maphr, the goddess of earth, for Valentine's Day. Increases additionally obtained XP/SP by 25%. Its effect applies together with that of Nom Nom Candy (limited to 1).  Temporary event item. -->
+		<!-- Yum Yum Candy made of the peanuts grown by Maphr, the goddess of earth, for Valentine's Day. Increases additionally obtained XP/SP by 25%. Its effect applies together with that of Nom Nom Candy (limited to 1). Temporary event item. -->
+		<set name="icon" val="icon.etc_whiteday_candy_i05" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -1624,14 +1625,14 @@
 		<set name="is_freightable" val="true" />
 		<set name="etcitem_type" val="ENCHT_ATTR_RUNE" />
 		<set name="immediate_effect" val="true" />
-		<set name="icon" val="icon.etc_whiteday_candy_i05" />
 		<set name="handler" val="ItemSkills" />
 		<skills>
 			<skill id="9618" level="1" /> <!-- Yum Yum Candy -->
 		</skills>
 	</item>
 	<item id="36080" name="Nom Nom Candy" type="EtcItem">
-		<!-- Nom Nom Candy made of the peanuts grown by Maphr, the goddess of earth, for Valentine's Day. Increases additionally obtained XP/SP by 25%. Its effect applies together with that of Yum Yum Candy (limited to 1).  Temporary event item. -->
+		<!-- Nom Nom Candy made of the peanuts grown by Maphr, the goddess of earth, for Valentine's Day. Increases additionally obtained XP/SP by 25%. Its effect applies together with that of Yum Yum Candy (limited to 1). Temporary event item. -->
+		<set name="icon" val="icon.etc_whiteday_candy_i06" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -1641,7 +1642,6 @@
 		<set name="is_freightable" val="true" />
 		<set name="etcitem_type" val="ENCHT_ATTR_RUNE" />
 		<set name="immediate_effect" val="true" />
-		<set name="icon" val="icon.etc_whiteday_candy_i06" />
 		<set name="handler" val="ItemSkills" />
 		<skills>
 			<skill id="9619" level="1" /> <!-- Nom Nom Candy -->

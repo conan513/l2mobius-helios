@@ -50,18 +50,18 @@
 	</item>
 	<item id="40202" name="Supply Box (R-grade)" type="EtcItem">
 		<!-- Double-click to obtain either a normal/blessed weapon/armor/accessory (R-grade). -->
-		<set name="crystal_type" val="R" />
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="crystal_type" val="R" />
 	</item>
 	<item id="40203" name="Supply Box (R95-grade)" type="EtcItem">
 		<!-- Double-click to obtain either a normal/blessed weapon/armor/accessory (R95-grade). -->
-		<set name="crystal_type" val="R" />
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="crystal_type" val="R" />
 	</item>
 	<item id="40204" name="Supply Box (R99-grade)" type="EtcItem">
 		<!-- Double-click to obtain either a normal/blessed weapon/armor/accessory (R99-grade). -->
-		<set name="crystal_type" val="R" />
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="crystal_type" val="R" />
 	</item>
 	<item id="40205" name="Requiem Fragment" type="EtcItem">
 		<!-- Main ingredient for crafting a random R-grade item. -->
@@ -91,13 +91,13 @@
 	</item>
 	<item id="40208" name="Throwaway Item 1" additionalName="Not in Use" type="EtcItem">
 		<!-- Unidentified Amaranthine weapon. Double-click to see whether you got a normal or blessed weapon. -->
-		<set name="crystal_type" val="R" />
 		<set name="icon" val="icon.weapon_aspeda_i00" />
+		<set name="crystal_type" val="R" />
 	</item>
 	<item id="40209" name="Throwaway Item 1" additionalName="Not in Use" type="EtcItem">
 		<!-- Unidentified Eternal armor. Double-click to see whether you got normal or blessed armor. -->
-		<set name="crystal_type" val="R" />
 		<set name="icon" val="icon.weapon_aspeda_i00" />
+		<set name="crystal_type" val="R" />
 	</item>
 	<item id="40210" name="Recipe: R (100%)" type="EtcItem">
 		<!-- Recipe for crafting an R-grade equipment. Results vary. Very high chance of obtaining blessed equipment. Requires Create Item Lv. 12. 100% success rate. Tyrr Maestros only. -->
@@ -306,7 +306,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="40227" name="Freya's Frozen Scroll" type="EtcItem">
-		<!-- Vitality consumption +100%, XP/SP acquisition +100% while hunting. Remains after death. Duration is 10 min. Cooldown is 10 min. Only usable when 1 or more Vitality slot is full. Cannot be used in the Olympiad. Cannot be used together with Freya's Scroll of Storm. -->
+		<!-- Vitality consumption +100%, XP/SP acquisition +100% while hunting. Remains after death. Duration is 10 min. Cooldown is 10 min. Only usable when 1 or more Vitality slot is full. Cannot be used in the Olympiad. Cannot be used together with "Freya's Scroll of Storm". -->
 		<set name="icon" val="icon.freya_scroll" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
@@ -345,7 +345,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="40230" name="Snowman's Wish Box" type="EtcItem">
-		<!-- Double-click for a chance to obtain one of the following items: Energy of Destruction, Giant's Energy, Kaliel's Energy, Elemental Shirt Pack, Sealed Talisman - Longing, Seven Signs' Energy, Talisman - Anakim, Talisman - Lilith, or Talisman - Seven Signs. -->
+		<!-- Double-click for a chance to obtain one of the following items: Energy of Destruction, Giant's Energy, Kaliel's Energy, Elemental Shirt Pack, Sealed Talisman ?Longing, Seven Signs' Energy, Talisman ?Anakim, Talisman ?Lilith, or Talisman ?Seven Signs. -->
 		<set name="icon" val="icon.freya_box_i03" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
@@ -1213,6 +1213,7 @@
 	</item>
 	<item id="40289" name="NC Magazine" additionalName="Event" type="EtcItem">
 		<!-- Go to Tiffany in town for a special gift. -->
+		<set name="icon" val="icon.nc_magazine" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
@@ -1223,7 +1224,6 @@
 		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
 		<set name="etcitem_type" val="SCROLL" />
-		<set name="icon" val="icon.nc_magazine" />
 	</item>
 	<item id="40290" name="Lara's Key Card Pack" additionalName="Normal" type="EtcItem">
 		<!-- Double-click to obtain Lara's Key Card. -->

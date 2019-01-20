@@ -16,7 +16,10 @@
  */
 package handlers.admincommandhandlers;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
+import java.util.Map.Entry;
 import java.util.NoSuchElementException;
 import java.util.StringTokenizer;
 import java.util.logging.Logger;
@@ -45,6 +48,7 @@ import com.l2jmobius.gameserver.network.serverpackets.NpcHtmlMessage;
 import com.l2jmobius.gameserver.network.serverpackets.SystemMessage;
 import com.l2jmobius.gameserver.util.Broadcast;
 import com.l2jmobius.gameserver.util.BuilderUtil;
+import com.l2jmobius.gameserver.util.Util;
 
 /**
  * This class handles following admin commands: - show_spawns = shows menu - spawn_index lvl = shows menu for monsters with respective level - spawn_monster id = spawns monster id on target
@@ -72,7 +76,9 @@ public class AdminSpawn implements IAdminCommandHandler
 		"admin_list_positions",
 		"admin_spawn_debug_menu",
 		"admin_spawn_debug_print",
-		"admin_spawn_debug_print_menu"
+		"admin_spawn_debug_print_menu",
+		"admin_topspawncount",
+		"admin_top_spawn_count"
 	};
 	
 	@Override
@@ -370,6 +376,52 @@ public class AdminSpawn implements IAdminCommandHandler
 				findNPCInstances(activeChar, npcId, teleportIndex, false);
 			}
 		}
+		else if (command.startsWith("admin_topspawncount") || command.startsWith("admin_top_spawn_count"))
+		{
+			final StringTokenizer st = new StringTokenizer(command, " ");
+			st.nextToken();
+			int count = 5;
+			if (st.hasMoreTokens())
+			{
+				final String nextToken = st.nextToken();
+				if (Util.isDigit(nextToken))
+				{
+					count = Integer.parseInt(nextToken);
+				}
+				if (count <= 0)
+				{
+					return true;
+				}
+			}
+			final Map<Integer, Integer> npcsFound = new HashMap<>();
+			for (L2Object obj : L2World.getInstance().getVisibleObjects())
+			{
+				if (!obj.isNpc())
+				{
+					continue;
+				}
+				final int npcId = obj.getId();
+				if (npcsFound.containsKey(npcId))
+				{
+					npcsFound.put(npcId, npcsFound.get(npcId) + 1);
+				}
+				else
+				{
+					npcsFound.put(npcId, 1);
+				}
+			}
+			BuilderUtil.sendSysMessage(activeChar, "Top " + count + " spawn count.");
+			for (Entry<Integer, Integer> entry : Util.sortByValue(npcsFound, true).entrySet())
+			{
+				count--;
+				if (count < 0)
+				{
+					break;
+				}
+				final int npcId = entry.getKey();
+				BuilderUtil.sendSysMessage(activeChar, NpcData.getInstance().getTemplate(npcId).getName() + " (" + npcId + "): " + entry.getValue());
+			}
+		}
 		return true;
 	}
 	
@@ -495,7 +547,7 @@ public class AdminSpawn implements IAdminCommandHandler
 			SpawnTable.getInstance().addNewSpawn(spawn, permanent);
 			spawn.init();
 			
-			if (!permanent)
+			if (!permanent || (respawnTime <= 0))
 			{
 				spawn.stopRespawn();
 			}

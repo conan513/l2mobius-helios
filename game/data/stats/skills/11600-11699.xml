@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
 	<skill id="11600" toLevel="1" name="Frenzied Prevailing Sonata">
-		<!-- Updated to IO -->
-		<!-- For 5 minutes, increases clan members' Atk. Spd. + 15%, Casting Spd. + 30%, Max HP + 30%, and MP recovery bonus + 20%. Decreases MP Consumption for magic skills - 10% and the magic cancel rate. -->
+		<!-- For $s1, increases clan members' Atk. Spd. + $s2, Casting Spd. + $s3, Max HP + $s4, and MP recovery bonus + $s5. Decreases MP Consumption for magic skills - $s6 and the magic cancel rate. -->
 		<icon>icon.skill11600</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalType>BUFF_SPECIAL_AURA</abnormalType>
@@ -57,8 +56,7 @@
 		</effects>
 	</skill>
 	<skill id="11601" toLevel="1" name="Frenzied Daring Sonata">
-		<!-- Updated to IO -->
-		<!-- For 5 minutes, increases clan members' P. Atk. + 8%, M. Atk. + 16%, Atk. Spd. and Casting Spd. + 8%. Decreases P. Def. - 3%, M. Def. - 11%, and P. Evasion - 4. Chance of applying 8% Vampiric Rage effect. Reflects 10% of incurred damage back to the enemy. -->
+		<!-- For $s1, increases clan members' P. Atk. + $s2, M. Atk. + $s3, Atk. Spd. and Casting Spd. + $s4. Decreases P. Def. - $s5, M. Def. - $s6, and P. Evasion - $s7. Also bestows an $s8 Vampiric Rage effect and a chance of reflecting $s9 of the damage received. -->
 		<icon>icon.skill11601</icon>
 		<affectRange>1000</affectRange>
 		<abnormalLvl>1</abnormalLvl>
@@ -121,8 +119,7 @@
 		</effects>
 	</skill>
 	<skill id="11602" toLevel="1" name="Frenzied Refreshing Sonata">
-		<!-- Updated to IO -->
-		<!-- For 5 minutes, increases clan members' HP Recovery Bonus + 20%, P.ﾠAccuracy + 4, P.ﾠEvasion + 3, and Spd. + 20. Decreases skill MP Consumption - 20% and skill Cooldown - 10%. -->
+		<!-- For $s1, increases clan members' HP Recovery Bonus + $s2, P.Accuracy + $s3, P.Evasion + $s4, and Spd. + $s5. Decreases skill MP Consumption - $s6 and skill Cooldown - $s7. -->
 		<icon>icon.skill11602</icon>
 		<affectRange>1000</affectRange>
 		<abnormalLvl>1</abnormalLvl>
@@ -193,8 +190,7 @@
 		</effects>
 	</skill>
 	<skill id="11603" toLevel="4" name="Mass Restriction">
-		<!-- Updated to IO -->
-		<!-- During PvP, limits the CP, HP, and MP recovery of target and nearby enemies to maximum 60% for 30 seconds. -->
+		<!-- During PvP, limits the CP, HP, and MP recovery of the target and nearby enemies to maximum $s2 for $s1. -->
 		<icon>icon.skill11603</icon>
 		<abnormalLvl>4</abnormalLvl> <!-- Custom -->
 		<abnormalTime>30</abnormalTime>
@@ -251,7 +247,6 @@
 		</effects>
 	</skill>
 	<skill id="11604" toLevel="7" name="Shocking Blow">
-		<!-- Updated to IO -->
 		<!-- Removes Invincibility of target and nearby enemies during PvP. -->
 		<icon>icon.skill11604</icon>
 		<affectLimit>10-10</affectLimit> <!-- Custom -->
@@ -295,8 +290,7 @@
 		</effects>
 	</skill>
 	<skill id="11605" toLevel="1" name="Shield Song">
-		<!-- Updated to IO -->
-		<!-- For 30 min., P. Def. + 5%, Attribute Def. + 20, Resistance to bows/crossbows + 10%, and Debuff Resistance + 10%. -->
+		<!-- For $s1, P. Def. + $s2, Attribute Def. + $s3, Resistance to bows/crossbows + $s4, and Debuff Resistance + $s5. -->
 		<icon>icon.skill11606new</icon>
 		<abnormalTime>
 			<value fromLevel="1" toLevel="1">1800</value>
@@ -334,8 +328,7 @@
 		</effects>
 	</skill>
 	<skill id="11606" toLevel="1" name="Dance of Might">
-		<!-- Updated to IO -->
-		<!-- For 30 min., P. Atk. + 5%, Atk. Spd. + 5%, P. Critical Rate + 10, and Speed + 10. -->
+		<!-- For $s1, P. Atk. + $s2, Atk. Spd. + $s3, P. Critical Rate + $s4, and Speed + $s5. -->
 		<icon>icon.skill11605new</icon>
 		<abnormalTime>
 			<value fromLevel="1" toLevel="1">1800</value>
@@ -369,7 +362,8 @@
 		</effects>
 	</skill>
 	<skill id="11607" toLevel="1" name="Prevailing Song">
-		<!-- For 5 minutes, increases party members' Atk. Spd. + 15%, Casting Spd. + 30%, Max HP + 30%, and MP recovery bonus + 20%. Decreases magic skill MP Consumption - 10% and the magic cancel rate. -->
+		<!-- Increases party members' Atk. Spd. by $s2, Casting Spd. by $s3, Max HP by $s4, MP recovery bonus by $s5 and decreases MP Consumption for magic skill by $s6 and the magic cancel rate for $s1. -->
+		<icon>icon.skill11607</icon>
 		<affectRange>1000</affectRange>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalType>BUFF_SPECIAL_AURA</abnormalType>
@@ -377,7 +371,6 @@
 			<value fromLevel="1" toLevel="1">300</value>
 			<value fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1030">{base + subIndex * 30}</value>
 		</abnormalTime>
-		<icon>icon.skill11607</icon>
 		<operateType>A2</operateType>
 		<targetType>SELF</targetType>
 		<affectScope>PARTY</affectScope>
@@ -388,7 +381,6 @@
 		<reuseDelay>2000</reuseDelay>
 		<magicLvl>85</magicLvl>
 		<effectPoint>687</effectPoint>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<effects>
 			<effect name="MaxHp">
 				<amount>30</amount>
@@ -425,7 +417,8 @@
 		</effects>
 	</skill>
 	<skill id="11608" toLevel="1" name="Daring Song">
-		<!-- For 5 minutes, increases party members' P. Atk. + 8%, M. Atk. + 16%, Atk. Spd. and Casting Spd. + 8%. Decreases P. Def. - 3%, M. Def. - 11%, and P. Evasion - 4. Chance of applying 8% Vampiric Rage effect. Reflects 10% of incurred damage back to the enemy. -->
+		<!-- Increases party members' P. Atk. by $s2, M. Atk. by $s3, Atk. Spd. and Casting Spd. by $s4 and decreases P. Def. by $s5, M. Def. by $s6 and P. Evasion by $s7 for $s1. Also bestows an $s8 Vampiric Rage effect and a chance of reflecting $s9 of the damage received. -->
+		<icon>icon.skill11608</icon>
 		<affectRange>1000</affectRange>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalType>ENCHANTER_MOD</abnormalType>
@@ -433,7 +426,6 @@
 			<value fromLevel="1" toLevel="1">300</value>
 			<value fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1030">{base + subIndex * 30}</value>
 		</abnormalTime>
-		<icon>icon.skill11608</icon>
 		<operateType>A2</operateType>
 		<targetType>SELF</targetType>
 		<affectScope>PARTY</affectScope>
@@ -444,7 +436,6 @@
 		<reuseDelay>2000</reuseDelay>
 		<magicLvl>85</magicLvl>
 		<effectPoint>696</effectPoint>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<effects>
 			<effect name="DispelBySlotProbability">
 				<dispel>DANCE_OF_BLADESTORM;SONG_OF_CHAMPION;SONG_OF_EARTH;SONG_OF_HUNTER;SONG_OF_LIFE;SONG_OF_MEDITATION;SONG_OF_RENEWAL;SONG_OF_VENGEANCE;SONG_OF_VITALITY;SONG_OF_WARDING;SONG_OF_WATER;SONG_OF_WIND;DANCE_OF_BERSERKER;DANCE_OF_CONCENTRATION;DANCE_OF_FIRE;DANCE_OF_FURY;DANCE_OF_INSPIRATION;DANCE_OF_MYSTIC;DANCE_OF_SIREN;DANCE_OF_VAMPIRE;DANCE_OF_WARRIOR;SONG_OF_PURIFICATION;WISPERING_OF_BATTLE;SONG_OF_WINDSTORM;MOTION_OF_DEFENCE;BUFF_UNICORN_SERAPHIM;BUFF_QUEEN_OF_CAT;KNIGHT_AURA;DMG_SHIELD</dispel>
@@ -493,7 +484,8 @@
 		</effects>
 	</skill>
 	<skill id="11609" toLevel="1" name="Refreshing Song">
-		<!-- For 5 minutes, increases party members' HP Recovery Bonus + 20%, P.ﾠAccuracy + 4, P.ﾠEvasion + 3, and Spd. + 20. Decreases skill MP Consumption - 20% and skill Cooldown - 10%. -->
+		<!-- Increases party members' HP Recovery Bonus by $s2, P.Accuracy by $s3, P.Evasion by $s4, Speed by $s5, and decreases MP Consumption for skills by $s6 and skill Cooldown by $s7 for $s1. -->
+		<icon>icon.skill11609</icon>
 		<affectRange>1000</affectRange>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalType>SYNERGY_IS</abnormalType>
@@ -501,7 +493,6 @@
 			<value fromLevel="1" toLevel="1">300</value>
 			<value fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1030">{base + subIndex * 30}</value>
 		</abnormalTime>
-		<icon>icon.skill11609</icon>
 		<operateType>A2</operateType>
 		<targetType>SELF</targetType>
 		<affectScope>PARTY</affectScope>
@@ -512,7 +503,6 @@
 		<reuseDelay>2000</reuseDelay>
 		<magicLvl>85</magicLvl>
 		<effectPoint>696</effectPoint>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<effects>
 			<effect name="DispelBySlotProbability">
 				<dispel>DANCE_OF_BLADESTORM;SONG_OF_CHAMPION;SONG_OF_EARTH;SONG_OF_HUNTER;SONG_OF_LIFE;SONG_OF_MEDITATION;SONG_OF_RENEWAL;SONG_OF_VENGEANCE;SONG_OF_VITALITY;SONG_OF_WARDING;SONG_OF_WATER;SONG_OF_WIND;DANCE_OF_BERSERKER;DANCE_OF_CONCENTRATION;DANCE_OF_FIRE;DANCE_OF_FURY;DANCE_OF_INSPIRATION;DANCE_OF_MYSTIC;DANCE_OF_SIREN;DANCE_OF_VAMPIRE;DANCE_OF_WARRIOR;SONG_OF_PURIFICATION;WISPERING_OF_BATTLE;SONG_OF_WINDSTORM;MOTION_OF_DEFENCE;BUFF_UNICORN_SERAPHIM;BUFF_QUEEN_OF_CAT;KNIGHT_AURA;DMG_SHIELD</dispel>
@@ -560,7 +550,8 @@
 		</effects>
 	</skill>
 	<skill id="11610" toLevel="1" name="Prevailing Dance">
-		<!-- For 5 minutes, increases party members' Atk. Spd. + 15%, Casting Spd. + 30%, Max HP + 30%, and MP recovery bonus + 20%. Decreases magic skill MP Consumption - 10% and the magic cancel rate. -->
+		<!-- Increases party members' Atk. Spd. by $s2, Casting Spd. by $s3, Max HP by $s4, MP recovery bonus by $s5 and decreases MP Consumption for magic skill by $s6 and the magic cancel rate for $s1. -->
+		<icon>icon.skill11610</icon>
 		<affectRange>1000</affectRange>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalType>BUFF_SPECIAL_AURA</abnormalType>
@@ -568,7 +559,6 @@
 			<value fromLevel="1" toLevel="1">300</value>
 			<value fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1030">{base + subIndex * 30}</value>
 		</abnormalTime>
-		<icon>icon.skill11610</icon>
 		<operateType>A2</operateType>
 		<targetType>SELF</targetType>
 		<affectScope>PARTY</affectScope>
@@ -579,7 +569,6 @@
 		<reuseDelay>2000</reuseDelay>
 		<magicLvl>85</magicLvl>
 		<effectPoint>687</effectPoint>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<effects>
 			<effect name="MaxHp">
 				<amount>30</amount>
@@ -616,7 +605,8 @@
 		</effects>
 	</skill>
 	<skill id="11611" toLevel="1" name="Daring Dance">
-		<!-- For 5 minutes, increases party members' P. Atk. + 8%, M. Atk. + 16%, Atk. Spd. and Casting Spd. + 8%. Decreases P. Def. - 3%, M. Def. - 11%, and P. Evasion - 4. Chance of applying 8% Vampiric Rage effect. Reflects 10% of incurred damage back to the enemy. -->
+		<!-- Increases party members' P. Atk. by $s2, M. Atk. by $s3, Atk. Spd. and Casting Spd. by $s4 and decreases P. Def. by $s5, M. Def. by $s6 and P. Evasion by $s7 for $s1. Also bestows an $s8 Vampiric Rage effect and a chance of reflecting $s9 of the damage received. -->
+		<icon>icon.skill11611</icon>
 		<affectRange>1000</affectRange>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalType>ENCHANTER_MOD</abnormalType>
@@ -624,7 +614,6 @@
 			<value fromLevel="1" toLevel="1">300</value>
 			<value fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1030">{base + subIndex * 30}</value>
 		</abnormalTime>
-		<icon>icon.skill11611</icon>
 		<operateType>A2</operateType>
 		<targetType>SELF</targetType>
 		<affectScope>PARTY</affectScope>
@@ -635,7 +624,6 @@
 		<reuseDelay>2000</reuseDelay>
 		<magicLvl>85</magicLvl>
 		<effectPoint>696</effectPoint>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<effects>
 			<effect name="DispelBySlotProbability">
 				<dispel>DANCE_OF_BLADESTORM;SONG_OF_CHAMPION;SONG_OF_EARTH;SONG_OF_HUNTER;SONG_OF_LIFE;SONG_OF_MEDITATION;SONG_OF_RENEWAL;SONG_OF_VENGEANCE;SONG_OF_VITALITY;SONG_OF_WARDING;SONG_OF_WATER;SONG_OF_WIND;DANCE_OF_BERSERKER;DANCE_OF_CONCENTRATION;DANCE_OF_FIRE;DANCE_OF_FURY;DANCE_OF_INSPIRATION;DANCE_OF_MYSTIC;DANCE_OF_SIREN;DANCE_OF_VAMPIRE;DANCE_OF_WARRIOR;SONG_OF_PURIFICATION;WISPERING_OF_BATTLE;SONG_OF_WINDSTORM;MOTION_OF_DEFENCE;BUFF_UNICORN_SERAPHIM;BUFF_QUEEN_OF_CAT;KNIGHT_AURA;DMG_SHIELD</dispel>
@@ -684,7 +672,8 @@
 		</effects>
 	</skill>
 	<skill id="11612" toLevel="1" name="Refreshing Dance">
-		<!-- For 5 minutes, increases party members' HP Recovery Bonus + 20%, P.ﾠAccuracy + 4, P.ﾠEvasion + 3, and Spd. + 20. Decreases skill MP Consumption - 20% and skill Cooldown - 10%. -->
+		<!-- Increases party members' HP Recovery Bonus by $s2, P.Accuracy by $s3, P.Evasion by $s4, Speed by $s5, and decreases MP Consumption for skills by $s6 and skill Cooldown by $s7 for $s1. -->
+		<icon>icon.skill11612</icon>
 		<affectRange>1000</affectRange>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalType>SYNERGY_IS</abnormalType>
@@ -692,7 +681,6 @@
 			<value fromLevel="1" toLevel="1">300</value>
 			<value fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1030">{base + subIndex * 30}</value>
 		</abnormalTime>
-		<icon>icon.skill11612</icon>
 		<operateType>A2</operateType>
 		<targetType>SELF</targetType>
 		<affectScope>PARTY</affectScope>
@@ -703,7 +691,6 @@
 		<reuseDelay>2000</reuseDelay>
 		<magicLvl>85</magicLvl>
 		<effectPoint>696</effectPoint>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<effects>
 			<effect name="DispelBySlotProbability">
 				<dispel>DANCE_OF_BLADESTORM;SONG_OF_CHAMPION;SONG_OF_EARTH;SONG_OF_HUNTER;SONG_OF_LIFE;SONG_OF_MEDITATION;SONG_OF_RENEWAL;SONG_OF_VENGEANCE;SONG_OF_VITALITY;SONG_OF_WARDING;SONG_OF_WATER;SONG_OF_WIND;DANCE_OF_BERSERKER;DANCE_OF_CONCENTRATION;DANCE_OF_FIRE;DANCE_OF_FURY;DANCE_OF_INSPIRATION;DANCE_OF_MYSTIC;DANCE_OF_SIREN;DANCE_OF_VAMPIRE;DANCE_OF_WARRIOR;SONG_OF_PURIFICATION;WISPERING_OF_BATTLE;SONG_OF_WINDSTORM;MOTION_OF_DEFENCE;BUFF_UNICORN_SERAPHIM;BUFF_QUEEN_OF_CAT;KNIGHT_AURA;DMG_SHIELD</dispel>
@@ -751,8 +738,7 @@
 		</effects>
 	</skill>
 	<skill id="11613" toLevel="4" name="Song of Protection">
-		<!-- Updated to IO -->
-		<!-- For 30 sec., increases your P. Def. + 5000 and M. Def. + 5000. Restores 1000 HP. -->
+		<!-- For $s1, increases your P. Def. + $s2 and M. Def. + $s3. Restores $s4 HP. -->
 		<icon>icon.skill11613</icon>
 		<abnormalLvl>1</abnormalLvl> <!-- Guessed -->
 		<abnormalTime>
@@ -795,8 +781,7 @@
 		</effects>
 	</skill>
 	<skill id="11614" toLevel="4" name="Battle Rhapsody Dance">
-		<!-- Updated to IO -->
-		<!-- For 30 sec., increases your P. Atk./M. Atk./Atk. Spd./Casting Spd. + 50%. -->
+		<!-- For $s1, increases your P. Atk./M. Atk./Atk. Spd./Casting Spd. + $s2. -->
 		<icon>icon.skill11614</icon>
 		<abnormalTime>
 			<value fromLevel="1" toLevel="4">30</value>
@@ -856,8 +841,7 @@
 		</effects>
 	</skill>
 	<skill id="11615" toLevel="1" name="Battle Ditty">
-		<!-- Updated to IO -->
-		<!-- For 30 min., selected party member's PvP Damage + 10%, Attribute Attack + 10, MP Recovery Bonus + 10%. Consumes 10 Spirit Ores. -->
+		<!-- For $s1, selected party member's PvP Damage + $s2, Attribute Attack + $s3, MP Recovery Bonus + $s4. Consumes $s5 Spirit Ores. -->
 		<icon>icon.skill11615</icon>
 		<abnormalTime>
 			<value fromLevel="1" toLevel="1">1800</value>
@@ -904,8 +888,7 @@
 		</effects>
 	</skill>
 	<skill id="11616" toLevel="1" name="Protective Ditty">
-		<!-- Updated to IO -->
-		<!-- For 30 min., selected party member's Received PvP Damage - 10%, Speed + 4, HP Recovery Bonus + 10%. Consumes 10 Spirit Ores. -->
+		<!-- For $s1, selected party member's Received PvP Damage - $s2, Speed + $s3, HP Recovery Bonus + $s4. Consumes $s5 Spirit Ores. -->
 		<icon>icon.skill11616</icon>
 		<abnormalTime>
 			<value fromLevel="1" toLevel="1">1800</value>
@@ -953,8 +936,7 @@
 		</effects>
 	</skill>
 	<skill id="11617" toLevel="1" name="Frezied Battle Ditty">
-		<!-- Updated to IO -->
-		<!-- For 30 min., selected clan member's PvP Damage + 10%, Attribute Attack + 10, MP Recovery Bonus + 10%. Consumes 10 Spirit Ores. -->
+		<!-- For $s1, selected clan member's PvP Damage + $s2, Attribute Attack + $s3, MP Recovery Bonus + $s4. Consumes $s5 Spirit Ores. -->
 		<icon>icon.skill11617</icon>
 		<abnormalTime>
 			<value fromLevel="1" toLevel="1">1800</value>
@@ -1004,8 +986,7 @@
 		</effects>
 	</skill>
 	<skill id="11618" toLevel="1" name="Frenzied Protective Ditty">
-		<!-- Updated to IO -->
-		<!-- For 30 min., selected clan member's Received PvP Damage - 10%, Speed + 4, HP Recovery Bonus + 10%. Consumes 10 Spirit Ores. -->
+		<!-- For $s1, selected clan member's Received PvP Damage - $s2, Speed + $s3, HP Recovery Bonus + $s4. Consumes $s5 Spirit Ores. -->
 		<icon>icon.skill11618</icon>
 		<abnormalTime>
 			<value fromLevel="1" toLevel="1">1800</value>
@@ -1051,8 +1032,7 @@
 		</effects>
 	</skill>
 	<skill id="11619" toLevel="3" name="Soul Ditty">
-		<!-- Updated to IO -->
-		<!-- Entire party's P. Atk. + 3%, P. Critical Damage + 3%, Atk. Spd. + 2%, M. Atk. + 2%, Casting Spd. + 2%, P. Def. + 2%, M. Def. + 2%, Skill Power + 2%. -->
+		<!-- Entire party's P. Atk. + $s1, P. Critical Damage + $s2, Atk. Spd. + $s3, M. Atk. + $s4, Casting Spd. + $s5, P. Def. + $s6, M. Def. + $s7, Skill Power + $s8. -->
 		<icon>icon.skill11529</icon>
 		<abnormalTime>1800</abnormalTime> <!-- Custom -->
 		<affectRange>1000</affectRange>
@@ -1135,8 +1115,7 @@
 		</effects>
 	</skill>
 	<skill id="11620" toLevel="10" name="Superior Shield Mastery">
-		<!-- Updated to IO -->
-		<!-- Shield Defense Success Rate + $s1, Shield Defense + $s2. -->
+		<!-- Shield Def. Success Rate +$s1, Shield Def. +$s2. -->
 		<icon>icon.skill10003</icon>
 		<operateType>P</operateType>
 		<magicLvl>
@@ -1175,8 +1154,7 @@
 		</effects>
 	</skill>
 	<skill id="11621" toLevel="1" name="Blessing Barrier">
-		<!-- Updated to IO -->
-		<!-- Has a chance to create a barrier that absorbs damage. -->
+		<!-- A chance of a damage-absorbing barrier being generated when damage is received. -->
 		<icon>icon.skill11621</icon>
 		<operateType>P</operateType>
 		<magicLvl>99</magicLvl>
@@ -1193,12 +1171,12 @@
 		</effects>
 	</skill>
 	<skill id="11622" toLevel="1" name="Blessing Barrier">
-		<!-- Protected by a barrier. It absorbs 20000 damage for 10 seconds. -->
+		<!-- Protected by a divine barrier. The barrier absorbs 20000 damage for 10 seconds. -->
+		<icon>icon.skill11621</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>10</abnormalTime>
 		<abnormalType>BARRIER</abnormalType>
 		<abnormalVisualEffect>ABSORB_SHIELD</abnormalVisualEffect>
-		<icon>icon.skill11621</icon>
 		<operateType>A2</operateType>
 		<magicLvl>99</magicLvl>
 		<targetType>TARGET</targetType>

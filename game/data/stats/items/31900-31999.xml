@@ -125,7 +125,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="price" val="533266" />
 		<createItems>
-			<item id="301" count="1" chance="2" /> <!-- Scorpion -->
+			<item id="301" count="1" chance="2" /> <!-- scorpion -->
 			<item id="31023" count="1" chance="32" /> <!-- Bound Scorpion - Critical Stun -->
 			<item id="31022" count="1" chance="33" /> <!-- Bound Scorpion - Anger -->
 			<item id="31024" count="1" chance="33" /> <!-- Bound Scorpion - Long Blow -->
@@ -1154,6 +1154,7 @@
 	</item>
 	<item id="31970" name="Unidentified Salamander Skin Boots" type="EtcItem">
 		<!-- Salamander Skin Boots in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: Boots) -->
+		<set name="icon" val="icon.armor_t45_b_i00" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
@@ -1162,7 +1163,6 @@
 		<set name="crystal_type" val="D" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.armor_t45_b_i00" />
 		<createItems>
 			<item id="2427" count="1" chance="2" /> <!-- Salamander Skin Boots -->
 			<item id="31145" count="1" chance="98" /> <!-- Bound Salamander Skin Boots -->
@@ -1189,6 +1189,7 @@
 	</item>
 	<item id="31972" name="Unidentified Salamander Skin Mail" type="EtcItem">
 		<!-- Salamander Skin Mail in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: one-piece / light armor) -->
+		<set name="icon" val="icon.armor_t45_ul_i00" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
@@ -1197,7 +1198,6 @@
 		<set name="crystal_type" val="D" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.armor_t45_ul_i00" />
 		<createItems>
 			<item id="396" count="1" chance="2" /> <!-- Salamander Skin Mail -->
 			<item id="31147" count="1" chance="98" /> <!-- Bound Salamander Skin Mail -->
@@ -1322,6 +1322,7 @@
 	</item>
 	<item id="31980" name="Unidentified Light Crossbow" type="EtcItem">
 		<!-- Light Crossbow in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / bow) -->
+		<set name="icon" val="icon.weapon_cyclone_bow_i00" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
@@ -1330,7 +1331,6 @@
 		<set name="crystal_type" val="D" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.weapon_cyclone_bow_i00" />
 		<createItems>
 			<item id="280" count="1" chance="2" /> <!-- Light Crossbow -->
 			<item id="31158" count="1" chance="98" /> <!-- Bound Light Crossbow -->

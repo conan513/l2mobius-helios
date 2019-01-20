@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
 	<skill id="14100" toLevel="6" name="Lachik Front Foot Strike">
-		<!-- Glory Days confirmed -->
 		<icon>icon.skill0003</icon>
 		<operateType>A1</operateType>
 		<mpConsume>
@@ -22,7 +21,6 @@
 			<value level="5">-352</value>
 			<value level="6">-352</value>
 		</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>200</effectRange>
@@ -53,8 +51,7 @@
 		</effects>
 	</skill>
 	<skill id="14101" toLevel="4" name="Wood Downward Strike">
-		<!-- Glory Days confirmed -->
-		<!-- Speed is decreased by 20%. -->
+		<!-- Speed is decreased by $s1. -->
 		<icon>icon.skill1160</icon>
 		<operateType>A2</operateType>
 		<mpConsume>
@@ -73,7 +70,6 @@
 		</effectPoint>
 		<abnormalType>SPEED_DOWN</abnormalType>
 		<basicProperty>MAGIC</basicProperty>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
 		<hitCancelTime>0</hitCancelTime>
@@ -102,11 +98,9 @@
 		</effects>
 	</skill>
 	<skill id="14102" toLevel="1" name="Agathion Cute Trick - Magmeld Fairy">
-		<!-- Glory Days confirmed -->
 		<!-- See the summoned spirit perform cute tricks. -->
 		<icon>icon.skill_agathion_cute</icon>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<magicLvl>85</magicLvl>
@@ -119,12 +113,9 @@
 		</conditions>
 	</skill>
 	<skill id="14103" toLevel="1" name="Agathion Return - Magmeld Fairy">
-		<!-- Glory Days confirmed -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<hitTime>15000</hitTime>
 		<effectPoint>100</effectPoint>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<magicLvl>1</magicLvl>
 		<isMagic>2</isMagic>
@@ -143,14 +134,12 @@
 		</effects>
 	</skill>
 	<skill id="14104" toLevel="1" name="Transformed: Orbis' Curse">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Transformed into Orbis' Curse. -->
 		<icon>icon.skilltransform3</icon>
 		<operateType>A2</operateType>
 		<effectPoint>10</effectPoint>
 		<abnormalType>TRANSFORM</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
 		<hitCancelTime>0</hitCancelTime>
@@ -169,7 +158,6 @@
 		</conditions>
 	</skill>
 	<skill id="14105" toLevel="6" name="Howling">
-		<!-- Glory Days confirmed -->
 		<icon>icon.skill0412</icon>
 		<operateType>A2</operateType>
 		<mpConsume>
@@ -193,7 +181,6 @@
 		</effectPoint>
 		<abnormalType>HIT_DOWN</abnormalType>
 		<basicProperty>MAGIC</basicProperty>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>400</effectRange>
@@ -232,14 +219,12 @@
 		</effects>
 	</skill>
 	<skill id="14106" toLevel="1" name="Recovery">
-		<!-- Glory Days confirmed -->
 		<icon>icon.skill1258</icon>
 		<operateType>A1</operateType>
 		<mpConsume>77</mpConsume>
 		<hitTime>3500</hitTime>
 		<reuseDelay>2000</reuseDelay>
 		<effectPoint>1</effectPoint>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<magicLvl>88</magicLvl>
@@ -253,7 +238,6 @@
 		</effects>
 	</skill>
 	<skill id="14107" toLevel="1" name="Saturation">
-		<!-- Glory Days confirmed -->
 		<icon>icon.skill1062</icon>
 		<operateType>A2</operateType>
 		<mpConsume>77</mpConsume>
@@ -262,7 +246,6 @@
 		<effectPoint>1</effectPoint>
 		<abnormalType>BERSERKER</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
 		<hitCancelTime>3.5</hitCancelTime>
@@ -283,7 +266,6 @@
 		</effects>
 	</skill>
 	<skill id="14108" toLevel="6" name="Lachik Ball">
-		<!-- Glory Days confirmed -->
 		<icon>icon.skill1230</icon>
 		<operateType>A1</operateType>
 		<mpConsume>
@@ -305,7 +287,6 @@
 			<value level="5">-352</value>
 			<value level="6">-352</value>
 		</effectPoint>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>1000</effectRange>
@@ -336,7 +317,6 @@
 		</effects>
 	</skill>
 	<skill id="14109" toLevel="6" name="Lachik Beam">
-		<!-- Glory Days confirmed -->
 		<icon>icon.skill1230</icon>
 		<operateType>A1</operateType>
 		<mpConsume>
@@ -358,7 +338,6 @@
 			<value level="5">-352</value>
 			<value level="6">-352</value>
 		</effectPoint>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>1000</effectRange>
@@ -384,7 +363,6 @@
 		</effects>
 	</skill>
 	<skill id="14110" toLevel="1" name="Teredor Blow">
-		<!-- Glory Days confirmed -->
 		<!-- Armor is destroyed. P. Def. and M. Def. decreased 10%. Additional 500 decrease. Evasion 4 decrease. Accumulates with every incurred attack. -->
 		<icon>icon.skill1230</icon>
 		<operateType>A2</operateType>
@@ -395,7 +373,6 @@
 		<effectPoint>-351</effectPoint>
 		<abnormalType>ABSORB</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
 		<hitCancelTime>0</hitCancelTime>
@@ -430,7 +407,6 @@
 		</effects>
 	</skill>
 	<skill id="14111" toLevel="1" name="Teredor Range Attack">
-		<!-- Glory Days confirmed -->
 		<icon>icon.skill1230</icon>
 		<operateType>A1</operateType>
 		<mpConsume>77</mpConsume>
@@ -439,7 +415,6 @@
 		<reuseDelay>2000</reuseDelay>
 		<effectPoint>-351</effectPoint>
 		<abnormalResists>TURN_FLEE;KNOCKDOWN;DEPORT;SILENCE;PARALYZE;ABSORB;DISARM;SILENCE_PHYSICAL;SILENCE_ALL;CHANGEBODY;TURN_STONE;DERANGEMENT;AIRBIND;SLEEP;OBLIVION;MIRAGE;MIRAGE_TRAP;ROOT_MAGICALLY;ROOT_PHYSICALLY;STUN;PUBLIC_SLOT</abnormalResists>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>200</effectRange>
@@ -458,7 +433,6 @@
 		</effects>
 	</skill>
 	<skill id="14112" toLevel="2" name="Teredor Poison">
-		<!-- Glory Days confirmed -->
 		<!-- Poison status. -->
 		<icon>icon.skill1168</icon>
 		<operateType>A2</operateType>
@@ -472,7 +446,6 @@
 		<abnormalType>POISON</abnormalType>
 		<abnormalResists>TURN_FLEE;KNOCKDOWN;DEPORT;SILENCE;PARALYZE;ABSORB;DISARM;SILENCE_PHYSICAL;SILENCE_ALL;CHANGEBODY;TURN_STONE;DERANGEMENT;AIRBIND;SLEEP;OBLIVION;MIRAGE;MIRAGE_TRAP;ROOT_MAGICALLY;ROOT_PHYSICALLY;STUN;PUBLIC_SLOT</abnormalResists>
 		<basicProperty>PHYSICAL</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>1100</effectRange>
@@ -500,7 +473,6 @@
 		</endEffects>
 	</skill>
 	<skill id="14113" toLevel="1" name="Teredor Flu Infection">
-		<!-- Glory Days confirmed -->
 		<!-- Poison status. -->
 		<icon>icon.skill1168</icon>
 		<operateType>A2</operateType>
@@ -511,7 +483,6 @@
 		<subordinationAbnormalType>POISON</subordinationAbnormalType>
 		<abnormalType>POISON</abnormalType>
 		<basicProperty>PHYSICAL</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<lvlBonusRate>2</lvlBonusRate>
@@ -534,10 +505,8 @@
 		</effects>
 	</skill>
 	<skill id="14114" toLevel="1" name="Teredor P. Resistance">
-		<!-- Glory Days confirmed -->
 		<icon>icon.skill0322</icon>
 		<operateType>T</operateType>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<magicLvl>90</magicLvl>
 		<targetType>NONE</targetType>
@@ -549,10 +518,8 @@
 		</effects>
 	</skill>
 	<skill id="14115" toLevel="1" name="Teredor M. Def.">
-		<!-- Glory Days confirmed -->
 		<icon>icon.skill0322</icon>
 		<operateType>T</operateType>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<magicLvl>90</magicLvl>
 		<targetType>NONE</targetType>
@@ -564,10 +531,8 @@
 		</effects>
 	</skill>
 	<skill id="14116" toLevel="1" name="Teredor Rage">
-		<!-- Glory Days confirmed -->
 		<icon>icon.skill1062</icon>
 		<operateType>T</operateType>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<magicLvl>90</magicLvl>
 		<targetType>NONE</targetType>
@@ -591,7 +556,6 @@
 		</effects>
 	</skill>
 	<skill id="14117" toLevel="5" name="Millipede P. Atk. Enhancement">
-		<!-- Glory Days confirmed -->
 		<icon>icon.skill1168</icon>
 		<operateType>A2</operateType>
 		<mpConsume>77</mpConsume>
@@ -601,7 +565,6 @@
 		<effectPoint>1</effectPoint>
 		<abnormalType>ATTACK_TIME_DOWN</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<magicLvl>90</magicLvl>
@@ -641,7 +604,6 @@
 		</effects>
 	</skill>
 	<skill id="14118" toLevel="1" name="Millipede P. Def. Enhancement">
-		<!-- Glory Days confirmed -->
 		<icon>icon.skill0322</icon>
 		<operateType>A2</operateType>
 		<mpConsume>77</mpConsume>
@@ -650,7 +612,6 @@
 		<effectPoint>1</effectPoint>
 		<abnormalType>PD_UP_SPECIAL</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
 		<hitCancelTime>0</hitCancelTime>
@@ -671,8 +632,6 @@
 		</effects>
 	</skill>
 	<skill id="14119" toLevel="1" name="Underbug Self Blasting">
-		<!-- Glory Days confirmed -->
-		<icon>icon.skill0000</icon>
 		<operateType>A2</operateType>
 		<hitTime>5000</hitTime>
 		<reuseDelay>2000</reuseDelay>
@@ -681,7 +640,6 @@
 		<subordinationAbnormalType>POISON</subordinationAbnormalType>
 		<abnormalType>POISON</abnormalType>
 		<basicProperty>PHYSICAL</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
 		<hitCancelTime>0</hitCancelTime>
@@ -708,7 +666,6 @@
 		</effects>
 	</skill>
 	<skill id="14120" toLevel="3" name="Enhance">
-		<!-- Glory Days confirmed -->
 		<icon>icon.skill1059</icon>
 		<operateType>A2</operateType>
 		<mpConsume>77</mpConsume>
@@ -719,7 +676,6 @@
 		<effectPoint>1</effectPoint>
 		<abnormalType>MA_UP</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>1400</effectRange>
@@ -754,7 +710,6 @@
 		</effects>
 	</skill>
 	<skill id="14121" toLevel="1" name="Othell Rogue's Essence">
-		<!-- Glory Days confirmed -->
 		<!-- Speed is increased by 10%. -->
 		<icon>icon.skill1536</icon>
 		<operateType>A2</operateType>
@@ -764,7 +719,6 @@
 		<effectPoint>1</effectPoint>
 		<abnormalType>PUBLIC_SLOT</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
 		<hitCancelTime>0</hitCancelTime>
@@ -783,7 +737,6 @@
 		</effects>
 	</skill>
 	<skill id="14122" toLevel="1" name="Tyrr Warrior's Essence">
-		<!-- Glory Days confirmed -->
 		<!-- P. Atk. is increased by 10%. -->
 		<icon>icon.skill1536</icon>
 		<operateType>A2</operateType>
@@ -793,7 +746,6 @@
 		<effectPoint>1</effectPoint>
 		<abnormalType>PUBLIC_SLOT</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
 		<hitCancelTime>0</hitCancelTime>
@@ -812,7 +764,6 @@
 		</effects>
 	</skill>
 	<skill id="14123" toLevel="1" name="Feoh Wizard's Essence">
-		<!-- Glory Days confirmed -->
 		<!-- M. Atk. is increased by 10%. -->
 		<icon>icon.skill1536</icon>
 		<operateType>A2</operateType>
@@ -822,7 +773,6 @@
 		<effectPoint>1</effectPoint>
 		<abnormalType>PUBLIC_SLOT</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
 		<hitCancelTime>0</hitCancelTime>
@@ -841,7 +791,6 @@
 		</effects>
 	</skill>
 	<skill id="14124" toLevel="1" name="Iss Enchanter's Essence">
-		<!-- Glory Days confirmed -->
 		<!-- M. Critical is increased by 10%. -->
 		<icon>icon.skill1536</icon>
 		<operateType>A2</operateType>
@@ -851,7 +800,6 @@
 		<effectPoint>1</effectPoint>
 		<abnormalType>PUBLIC_SLOT</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
 		<hitCancelTime>0</hitCancelTime>
@@ -870,7 +818,6 @@
 		</effects>
 	</skill>
 	<skill id="14125" toLevel="1" name="Wynn Summoner's Essence">
-		<!-- Glory Days confirmed -->
 		<!-- Critical is increased by 10%. -->
 		<icon>icon.skill1536</icon>
 		<operateType>A2</operateType>
@@ -880,7 +827,6 @@
 		<effectPoint>1</effectPoint>
 		<abnormalType>PUBLIC_SLOT</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
 		<hitCancelTime>0</hitCancelTime>
@@ -899,7 +845,6 @@
 		</effects>
 	</skill>
 	<skill id="14126" toLevel="1" name="Sigel Knight's Essence">
-		<!-- Glory Days confirmed -->
 		<!-- P. Def. is increased by 10%. -->
 		<icon>icon.skill1536</icon>
 		<operateType>A2</operateType>
@@ -909,7 +854,6 @@
 		<effectPoint>1</effectPoint>
 		<abnormalType>PUBLIC_SLOT</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
 		<hitCancelTime>0</hitCancelTime>
@@ -928,7 +872,6 @@
 		</effects>
 	</skill>
 	<skill id="14127" toLevel="1" name="Yul Archer's Essence">
-		<!-- Glory Days confirmed -->
 		<!-- Atk. Spd. is increased by 10%. -->
 		<icon>icon.skill1536</icon>
 		<operateType>A2</operateType>
@@ -938,7 +881,6 @@
 		<effectPoint>1</effectPoint>
 		<abnormalType>PUBLIC_SLOT</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
 		<hitCancelTime>0</hitCancelTime>
@@ -957,7 +899,6 @@
 		</effects>
 	</skill>
 	<skill id="14128" toLevel="1" name="Aeore Healer's Essence">
-		<!-- Glory Days confirmed -->
 		<!-- Casting Spd. is increased by 10%. -->
 		<icon>icon.skill1536</icon>
 		<operateType>A2</operateType>
@@ -967,7 +908,6 @@
 		<effectPoint>1</effectPoint>
 		<abnormalType>PUBLIC_SLOT</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
 		<hitCancelTime>0</hitCancelTime>
@@ -986,7 +926,6 @@
 		</effects>
 	</skill>
 	<skill id="14129" toLevel="1" name="Enchant Skill">
-		<!-- Glory Days confirmed -->
 		<!-- Skill Boost -->
 		<icon>icon.skill1536</icon>
 		<operateType>A2</operateType>
@@ -996,7 +935,6 @@
 		<effectPoint>1</effectPoint>
 		<abnormalType>PUBLIC_SLOT</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
 		<hitCancelTime>0</hitCancelTime>
@@ -1009,7 +947,6 @@
 		<affectObject>NOT_FRIEND</affectObject>
 	</skill>
 	<skill id="14130" toLevel="3" name="Phantom Circle">
-		<!-- Glory Days confirmed -->
 		<icon>icon.skill0006</icon>
 		<operateType>A1</operateType>
 		<mpConsume>85</mpConsume>
@@ -1020,7 +957,6 @@
 			<value level="2">-353</value>
 			<value level="3">-353</value>
 		</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>300</effectRange>
@@ -1045,7 +981,6 @@
 		</effects>
 	</skill>
 	<skill id="14131" toLevel="3" name="Phantom Attack">
-		<!-- Glory Days confirmed -->
 		<icon>icon.skill0006</icon>
 		<operateType>A1</operateType>
 		<mpConsume>85</mpConsume>
@@ -1056,7 +991,6 @@
 			<value level="2">-353</value>
 			<value level="3">-353</value>
 		</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>900</effectRange>
@@ -1079,7 +1013,6 @@
 		</effects>
 	</skill>
 	<skill id="14132" toLevel="3" name="Curse Bloodstain">
-		<!-- Glory Days confirmed -->
 		<!-- Poison status. -->
 		<icon>icon.skill1168</icon>
 		<operateType>A2</operateType>
@@ -1096,7 +1029,6 @@
 		<subordinationAbnormalType>POISON</subordinationAbnormalType>
 		<abnormalType>POISON</abnormalType>
 		<basicProperty>PHYSICAL</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>1000</effectRange>
@@ -1124,7 +1056,6 @@
 		</effects>
 	</skill>
 	<skill id="14133" toLevel="3" name="Curse Shout">
-		<!-- Glory Days confirmed -->
 		<icon>icon.skill1230</icon>
 		<operateType>A1</operateType>
 		<mpConsume>78</mpConsume>
@@ -1136,7 +1067,6 @@
 			<value level="2">-353</value>
 			<value level="3">-353</value>
 		</effectPoint>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>900</effectRange>
@@ -1159,7 +1089,6 @@
 		</effects>
 	</skill>
 	<skill id="14134" toLevel="3" name="Exile Attack">
-		<!-- Glory Days confirmed -->
 		<icon>icon.skill0006</icon>
 		<operateType>A1</operateType>
 		<mpConsume>85</mpConsume>
@@ -1170,7 +1099,6 @@
 			<value level="2">-353</value>
 			<value level="3">-353</value>
 		</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>900</effectRange>
@@ -1195,7 +1123,6 @@
 		</effects>
 	</skill>
 	<skill id="14135" toLevel="3" name="Exile Slasher">
-		<!-- Glory Days confirmed -->
 		<icon>icon.skill0006</icon>
 		<operateType>A1</operateType>
 		<mpConsume>85</mpConsume>
@@ -1206,7 +1133,6 @@
 			<value level="2">-353</value>
 			<value level="3">-353</value>
 		</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>300</effectRange>
@@ -1229,7 +1155,6 @@
 		</effects>
 	</skill>
 	<skill id="14136" toLevel="3" name="Dark Counter">
-		<!-- Glory Days confirmed -->
 		<icon>icon.skill0006</icon>
 		<operateType>A1</operateType>
 		<mpConsume>85</mpConsume>
@@ -1239,7 +1164,6 @@
 			<value level="2">-353</value>
 			<value level="3">-353</value>
 		</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<magicLvl>
@@ -1263,7 +1187,6 @@
 		</effects>
 	</skill>
 	<skill id="14137" toLevel="3" name="Bloody Fist">
-		<!-- Glory Days confirmed -->
 		<!-- Poison status. -->
 		<icon>icon.skill1168</icon>
 		<operateType>A2</operateType>
@@ -1280,7 +1203,6 @@
 		<subordinationAbnormalType>POISON</subordinationAbnormalType>
 		<abnormalType>POISON</abnormalType>
 		<basicProperty>PHYSICAL</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>2500</effectRange>
@@ -1312,8 +1234,6 @@
 		</effects>
 	</skill>
 	<skill id="14138" toLevel="3" name="Dark Avenger">
-		<!-- Glory Days confirmed -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<mpConsume>78</mpConsume>
 		<castRange>150</castRange>
@@ -1324,7 +1244,6 @@
 			<value level="2">-353</value>
 			<value level="3">-353</value>
 		</effectPoint>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>300</effectRange>
@@ -1347,14 +1266,12 @@
 		</effects>
 	</skill>
 	<skill id="14139" toLevel="1" name="Teleport">
-		<!-- Glory Days confirmed -->
 		<icon>Icon.skill1050</icon>
 		<operateType>A1</operateType>
 		<mpConsume>78</mpConsume>
 		<castRange>1000</castRange>
 		<hitTime>3000</hitTime>
 		<effectPoint>-352</effectPoint>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>1500</effectRange>
@@ -1366,8 +1283,7 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="14140" toLevel="3" name="Decrease Speed">
-		<!-- Glory Days confirmed -->
-		<!-- Spd decreased. -->
+		<!-- Speed is decreased. -->
 		<icon>icon.skill1160</icon>
 		<operateType>A2</operateType>
 		<mpConsume>78</mpConsume>
@@ -1381,7 +1297,6 @@
 		</effectPoint>
 		<abnormalType>SPEED_DOWN</abnormalType>
 		<basicProperty>MAGIC</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>1500</effectRange>
@@ -1405,8 +1320,7 @@
 		</effects>
 	</skill>
 	<skill id="14141" toLevel="3" name="Sleep">
-		<!-- Glory Days confirmed -->
-		<!-- Sleep Status. -->
+		<!-- Sleep status. -->
 		<icon>icon.skill1069</icon>
 		<operateType>A2</operateType>
 		<mpConsume>78</mpConsume>
@@ -1420,7 +1334,6 @@
 		</effectPoint>
 		<abnormalType>SLEEP</abnormalType>
 		<basicProperty>MAGIC</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>1500</effectRange>
@@ -1448,7 +1361,6 @@
 		</effects>
 	</skill>
 	<skill id="14142" toLevel="3" name="Fear">
-		<!-- Glory Days confirmed -->
 		<!-- Fear status. -->
 		<icon>icon.skill1169</icon>
 		<operateType>A2</operateType>
@@ -1463,7 +1375,6 @@
 		</effectPoint>
 		<abnormalType>TURN_FLEE</abnormalType>
 		<basicProperty>MAGIC</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>1500</effectRange>
@@ -1487,7 +1398,6 @@
 		</effects>
 	</skill>
 	<skill id="14143" toLevel="3" name="Exile Sword Attack">
-		<!-- Glory Days confirmed -->
 		<icon>icon.skill0006</icon>
 		<operateType>A1</operateType>
 		<mpConsume>85</mpConsume>
@@ -1498,7 +1408,6 @@
 			<value level="2">-353</value>
 			<value level="3">-353</value>
 		</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>1100</effectRange>
@@ -1521,7 +1430,6 @@
 		</effects>
 	</skill>
 	<skill id="14144" toLevel="3" name="Exile Sword Slasher">
-		<!-- Glory Days confirmed -->
 		<icon>icon.skill0036</icon>
 		<operateType>A1</operateType>
 		<mpConsume>85</mpConsume>
@@ -1531,7 +1439,6 @@
 			<value level="2">-353</value>
 			<value level="3">-353</value>
 		</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<magicLvl>
@@ -1555,7 +1462,6 @@
 		</effects>
 	</skill>
 	<skill id="14145" toLevel="3" name="Yoke of Blood">
-		<!-- Glory Days confirmed -->
 		<!-- Speed is decreased. -->
 		<icon>icon.skill1160</icon>
 		<operateType>A2</operateType>
@@ -1571,7 +1477,6 @@
 		</effectPoint>
 		<abnormalType>SPEED_DOWN</abnormalType>
 		<basicProperty>MAGIC</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>1100</effectRange>
@@ -1597,7 +1502,6 @@
 		</effects>
 	</skill>
 	<skill id="14146" toLevel="3" name="Bloodstain's Will">
-		<!-- Glory Days confirmed -->
 		<icon>icon.skill0006</icon>
 		<operateType>A1</operateType>
 		<mpConsume>78</mpConsume>
@@ -1609,7 +1513,6 @@
 			<value level="2">-353</value>
 			<value level="3">-353</value>
 		</effectPoint>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>1100</effectRange>
@@ -1632,7 +1535,6 @@
 		</effects>
 	</skill>
 	<skill id="14147" toLevel="3" name="Exile Knuckle">
-		<!-- Glory Days confirmed -->
 		<icon>icon.skill0006</icon>
 		<operateType>A1</operateType>
 		<mpConsume>85</mpConsume>
@@ -1643,7 +1545,6 @@
 			<value level="2">-353</value>
 			<value level="3">-353</value>
 		</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>900</effectRange>
@@ -1668,7 +1569,6 @@
 		</effects>
 	</skill>
 	<skill id="14148" toLevel="3" name="Exile Circle">
-		<!-- Glory Days confirmed -->
 		<icon>icon.skill0006</icon>
 		<operateType>A1</operateType>
 		<mpConsume>85</mpConsume>
@@ -1679,7 +1579,6 @@
 			<value level="2">-353</value>
 			<value level="3">-353</value>
 		</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>1000</effectRange>
@@ -1704,7 +1603,6 @@
 		</effects>
 	</skill>
 	<skill id="14149" toLevel="3" name="Sound of Wind">
-		<!-- Glory Days confirmed -->
 		<icon>icon.skill0793</icon>
 		<operateType>DA1</operateType>
 		<mpConsume>85</mpConsume>
@@ -1716,7 +1614,6 @@
 			<value level="3">-353</value>
 		</effectPoint>
 		<abnormalResists>TURN_FLEE;KNOCKDOWN;DEPORT;SILENCE;PARALYZE;ABSORB;DISARM;SILENCE_PHYSICAL;SILENCE_ALL;CHANGEBODY;TURN_STONE;DERANGEMENT;AIRBIND;SLEEP;OBLIVION;MIRAGE;MIRAGE_TRAP;ROOT_MAGICALLY;ROOT_PHYSICALLY;STUN;PUBLIC_SLOT</abnormalResists>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>800</effectRange>
@@ -1742,7 +1639,6 @@
 		</effects>
 	</skill>
 	<skill id="14150" toLevel="3" name="Space Wave">
-		<!-- Glory Days confirmed -->
 		<icon>icon.skill0006</icon>
 		<operateType>A1</operateType>
 		<mpConsume>85</mpConsume>
@@ -1753,7 +1649,6 @@
 			<value level="2">-353</value>
 			<value level="3">-353</value>
 		</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>2500</effectRange>
@@ -1778,7 +1673,6 @@
 		</effects>
 	</skill>
 	<skill id="14151" toLevel="3" name="Sky Dash">
-		<!-- Glory Days confirmed -->
 		<icon>icon.skill0493</icon>
 		<operateType>DA1</operateType>
 		<mpConsume>85</mpConsume>
@@ -1789,7 +1683,6 @@
 			<value level="3">-353</value>
 		</effectPoint>
 		<abnormalResists>TURN_FLEE;KNOCKDOWN;DEPORT;SILENCE;PARALYZE;ABSORB;DISARM;SILENCE_PHYSICAL;SILENCE_ALL;CHANGEBODY;TURN_STONE;DERANGEMENT;AIRBIND;SLEEP;OBLIVION;MIRAGE;MIRAGE_TRAP;ROOT_MAGICALLY;ROOT_PHYSICALLY;STUN;PUBLIC_SLOT</abnormalResists>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>1000</effectRange>
@@ -1810,7 +1703,6 @@
 		</effects>
 	</skill>
 	<skill id="14152" toLevel="3" name="Roar of Destruction">
-		<!-- Glory Days confirmed -->
 		<icon>icon.skill1230</icon>
 		<operateType>A1</operateType>
 		<mpConsume>85</mpConsume>
@@ -1821,7 +1713,6 @@
 			<value level="2">-353</value>
 			<value level="3">-353</value>
 		</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>400</effectRange>
@@ -1846,7 +1737,6 @@
 		</effects>
 	</skill>
 	<skill id="14153" toLevel="3" name="Sky Bomb">
-		<!-- Glory Days confirmed -->
 		<icon>icon.skill0493</icon>
 		<operateType>DA1</operateType>
 		<mpConsume>85</mpConsume>
@@ -1857,7 +1747,6 @@
 			<value level="3">-353</value>
 		</effectPoint>
 		<abnormalResists>TURN_FLEE;KNOCKDOWN;DEPORT;SILENCE;PARALYZE;ABSORB;DISARM;SILENCE_PHYSICAL;SILENCE_ALL;CHANGEBODY;TURN_STONE;DERANGEMENT;AIRBIND;SLEEP;OBLIVION;MIRAGE;MIRAGE_TRAP;ROOT_MAGICALLY;ROOT_PHYSICALLY;STUN;PUBLIC_SLOT</abnormalResists>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>1000</effectRange>
@@ -1882,7 +1771,6 @@
 		</effects>
 	</skill>
 	<skill id="14154" toLevel="3" name="Earthquake Roar">
-		<!-- Glory Days confirmed -->
 		<icon>icon.skill0036</icon>
 		<operateType>A1</operateType>
 		<mpConsume>85</mpConsume>
@@ -1893,7 +1781,6 @@
 			<value level="2">-353</value>
 			<value level="3">-353</value>
 		</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>400</effectRange>
@@ -1918,7 +1805,6 @@
 		</effects>
 	</skill>
 	<skill id="14155" toLevel="3" name="Quake Bomb">
-		<!-- Glory Days confirmed -->
 		<icon>icon.skill0006</icon>
 		<operateType>A1</operateType>
 		<mpConsume>85</mpConsume>
@@ -1930,7 +1816,6 @@
 			<value level="3">-353</value>
 		</effectPoint>
 		<abnormalResists>TURN_FLEE;KNOCKDOWN;DEPORT;SILENCE;PARALYZE;ABSORB;DISARM;SILENCE_PHYSICAL;SILENCE_ALL;CHANGEBODY;TURN_STONE;DERANGEMENT;AIRBIND;SLEEP;OBLIVION;MIRAGE;MIRAGE_TRAP;ROOT_MAGICALLY;ROOT_PHYSICALLY;STUN;PUBLIC_SLOT</abnormalResists>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>400</effectRange>
@@ -1955,10 +1840,9 @@
 		</effects>
 	</skill>
 	<skill id="14156" toLevel="1" name="Snake">
-		<!-- Glory Days confirmed -->
+		<icon>icon.skill0006</icon>
 		<operateType>A1</operateType>
 		<effectPoint>-64</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>200</effectRange>
@@ -1966,7 +1850,6 @@
 		<mpConsume>11</mpConsume>
 		<castRange>150</castRange>
 		<hitTime>1500</hitTime>
-		<icon>icon.skill0006</icon>
 		<reuseDelay>3000</reuseDelay>
 		<targetType>ENEMY</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -1977,10 +1860,9 @@
 		</effects>
 	</skill>
 	<skill id="14157" toLevel="1" name="Long Snake">
-		<!-- Glory Days confirmed -->
+		<icon>icon.skill0006</icon>
 		<operateType>A1</operateType>
 		<effectPoint>-64</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<castRange>400</castRange>
@@ -1989,7 +1871,6 @@
 		<affectRange>250</affectRange>
 		<mpConsume>11</mpConsume>
 		<hitTime>2000</hitTime>
-		<icon>icon.skill0006</icon>
 		<reuseDelay>5000</reuseDelay>
 		<targetType>ENEMY</targetType>
 		<affectScope>RANGE</affectScope>
@@ -2001,11 +1882,9 @@
 		</effects>
 	</skill>
 	<skill id="14158" toLevel="2" name="Crawler Spear">
-		<!-- Glory Days confirmed -->
-		<!-- Both level are identical -->
+		<icon>icon.skill0006</icon>
 		<operateType>A1</operateType>
 		<effectPoint>-76</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>400</effectRange>
@@ -2014,7 +1893,6 @@
 		<mpConsume>15</mpConsume>
 		<castRange>200</castRange>
 		<hitTime>2000</hitTime>
-		<icon>icon.skill0006</icon>
 		<reuseDelay>5000</reuseDelay>
 		<targetType>ENEMY</targetType>
 		<affectScope>RANGE</affectScope>
@@ -2026,7 +1904,6 @@
 		</effects>
 	</skill>
 	<skill id="14159" toLevel="1" name="Fist Bump">
-		<!-- Glory Days confirmed -->
 		<icon>icon.skill0036</icon>
 		<operateType>A1</operateType>
 		<fanRange>0;0;90;400</fanRange>
@@ -2034,7 +1911,6 @@
 		<castRange>200</castRange>
 		<hitTime>3000</hitTime>
 		<effectPoint>-70</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>400</effectRange>
@@ -2050,14 +1926,12 @@
 		</effects>
 	</skill>
 	<skill id="14160" toLevel="1" name="Fist Slasher">
-		<!-- Glory Days confirmed -->
 		<icon>icon.skill0036</icon>
 		<operateType>A1</operateType>
 		<mpConsume>13</mpConsume>
 		<castRange>800</castRange>
 		<hitTime>3000</hitTime>
 		<effectPoint>-70</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>1300</effectRange>
@@ -2074,14 +1948,12 @@
 		</effects>
 	</skill>
 	<skill id="14161" toLevel="1" name="Gash">
-		<!-- Glory Days confirmed -->
 		<icon>icon.skill0006</icon>
 		<operateType>A1</operateType>
 		<mpConsume>16</mpConsume>
 		<castRange>150</castRange>
 		<hitTime>3000</hitTime>
 		<effectPoint>-83</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>200</effectRange>
@@ -2096,7 +1968,6 @@
 		</effects>
 	</skill>
 	<skill id="14162" toLevel="1" name="Sweep">
-		<!-- Glory Days confirmed -->
 		<!-- Speed is decreased. -->
 		<icon>icon.skill1160</icon>
 		<operateType>A2</operateType>
@@ -2108,7 +1979,6 @@
 		<effectPoint>-89</effectPoint>
 		<abnormalType>SPEED_DOWN</abnormalType>
 		<basicProperty>MAGIC</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>800</effectRange>
@@ -2128,7 +1998,6 @@
 		</effects>
 	</skill>
 	<skill id="14163" toLevel="1" name="Howl">
-		<!-- Glory Days confirmed -->
 		<!-- P. Atk. is decreased. -->
 		<icon>icon.skill0115</icon>
 		<operateType>A2</operateType>
@@ -2140,7 +2009,6 @@
 		<effectPoint>-89</effectPoint>
 		<abnormalType>PA_DOWN</abnormalType>
 		<basicProperty>MAGIC</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>800</effectRange>
@@ -2162,10 +2030,9 @@
 		</effects>
 	</skill>
 	<skill id="14164" toLevel="1" name="Arcane Jet">
-		<!-- Glory Days confirmed -->
+		<icon>icon.skill1275</icon>
 		<operateType>A1</operateType>
 		<effectPoint>-104</effectPoint>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>800</effectRange>
@@ -2175,7 +2042,6 @@
 		<mpConsume>13</mpConsume>
 		<castRange>300</castRange>
 		<hitTime>2500</hitTime>
-		<icon>icon.skill1275</icon>
 		<reuseDelay>5000</reuseDelay>
 		<targetType>ENEMY</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -2186,10 +2052,9 @@
 		</effects>
 	</skill>
 	<skill id="14165" toLevel="1" name="Arcane Bust">
-		<!-- Glory Days confirmed -->
+		<icon>icon.skill1275</icon>
 		<operateType>A1</operateType>
 		<effectPoint>-104</effectPoint>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>800</effectRange>
@@ -2200,7 +2065,6 @@
 		<mpConsume>16</mpConsume>
 		<castRange>300</castRange>
 		<hitTime>2500</hitTime>
-		<icon>icon.skill1275</icon>
 		<reuseDelay>5000</reuseDelay>
 		<targetType>ENEMY</targetType>
 		<affectScope>FAN</affectScope>
@@ -2212,7 +2076,6 @@
 		</effects>
 	</skill>
 	<skill id="14166" toLevel="1" name="Baelz">
-		<!-- Glory Days confirmed -->
 		<!-- Poison status. -->
 		<icon>icon.skill1168</icon>
 		<operateType>A2</operateType>
@@ -2226,7 +2089,6 @@
 		<subordinationAbnormalType>POISON</subordinationAbnormalType>
 		<abnormalType>POISON</abnormalType>
 		<basicProperty>PHYSICAL</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>800</effectRange>
@@ -2249,10 +2111,9 @@
 		</effects>
 	</skill>
 	<skill id="14167" toLevel="1" name="Black Powder">
-		<!-- Glory Days confirmed -->
+		<icon>icon.skill0006</icon>
 		<operateType>A1</operateType>
 		<effectPoint>-96</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>900</effectRange>
@@ -2260,7 +2121,6 @@
 		<castRange>400</castRange>
 		<hitTime>1500</hitTime>
 		<reuseDelay>5000</reuseDelay>
-		<icon>icon.skill0006</icon>
 		<mpConsume>18</mpConsume>
 		<targetType>ENEMY</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -2271,10 +2131,9 @@
 		</effects>
 	</skill>
 	<skill id="14168" toLevel="1" name="Throw Grenade">
-		<!-- Glory Days confirmed -->
+		<icon>icon.skill1275</icon>
 		<operateType>A1</operateType>
 		<effectPoint>-96</effectPoint>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>900</effectRange>
@@ -2285,7 +2144,6 @@
 		<mpConsume>15</mpConsume>
 		<castRange>400</castRange>
 		<hitTime>1500</hitTime>
-		<icon>icon.skill1275</icon>
 		<reuseDelay>5000</reuseDelay>
 		<targetType>ENEMY</targetType>
 		<affectScope>RANGE</affectScope>
@@ -2297,14 +2155,12 @@
 		</effects>
 	</skill>
 	<skill id="14169" toLevel="1" name="Dirty Fighting">
-		<!-- Glory Days confirmed -->
 		<icon>icon.skill0006</icon>
 		<operateType>A1</operateType>
 		<mpConsume>18</mpConsume>
 		<castRange>150</castRange>
 		<hitTime>1500</hitTime>
 		<effectPoint>-96</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>300</effectRange>
@@ -2319,7 +2175,6 @@
 		</effects>
 	</skill>
 	<skill id="14170" toLevel="1" name="Grappling Web">
-		<!-- Glory Days confirmed -->
 		<!-- Speed is decreased. -->
 		<icon>icon.skill1160</icon>
 		<operateType>A2</operateType>
@@ -2330,7 +2185,6 @@
 		<effectPoint>-352</effectPoint>
 		<abnormalType>SPEED_DOWN</abnormalType>
 		<basicProperty>MAGIC</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>900</effectRange>
@@ -2350,7 +2204,6 @@
 		</effects>
 	</skill>
 	<skill id="14171" toLevel="1" name="Steady Shot">
-		<!-- Glory Days confirmed -->
 		<icon>icon.skill1275</icon>
 		<operateType>A1</operateType>
 		<mpConsume>19</mpConsume>
@@ -2358,7 +2211,6 @@
 		<hitTime>2000</hitTime>
 		<reuseDelay>5000</reuseDelay>
 		<effectPoint>-96</effectPoint>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>900</effectRange>
@@ -2375,7 +2227,6 @@
 		</effects>
 	</skill>
 	<skill id="14172" toLevel="1" name="Ray of Pain">
-		<!-- Glory Days confirmed -->
 		<!-- Atk. Spd. is decreased. -->
 		<icon>icon.skill0115</icon>
 		<operateType>A2</operateType>
@@ -2387,7 +2238,6 @@
 		<effectPoint>-104</effectPoint>
 		<abnormalType>SPEED_DOWN</abnormalType>
 		<basicProperty>MAGIC</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>900</effectRange>
@@ -2409,14 +2259,12 @@
 		</effects>
 	</skill>
 	<skill id="14173" toLevel="1" name="Assault">
-		<!-- Glory Days confirmed -->
 		<icon>icon.skill0484</icon>
 		<operateType>DA1</operateType>
 		<mpConsume>20</mpConsume>
 		<castRange>350</castRange>
 		<hitTime>1500</hitTime>
 		<effectPoint>-104</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>600</effectRange>
@@ -2431,7 +2279,6 @@
 		</effects>
 	</skill>
 	<skill id="14174" toLevel="1" name="Black Powder Eruption">
-		<!-- Glory Days confirmed -->
 		<icon>icon.skill1181</icon>
 		<operateType>A1</operateType>
 		<mpConsume>20</mpConsume>
@@ -2439,7 +2286,6 @@
 		<hitTime>1500</hitTime>
 		<reuseDelay>5000</reuseDelay>
 		<effectPoint>-104</effectPoint>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>300 </effectRange>
@@ -2458,12 +2304,9 @@
 		</effects>
 	</skill>
 	<skill id="14175" toLevel="1" name="Cannon Blast">
-		<!-- Glory Days confirmed -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<castRange>600</castRange>
 		<effectPoint>100</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>1100</effectRange>
@@ -2473,12 +2316,9 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="14176" toLevel="1" name="Exorcism">
-		<!-- Glory Days confirmed -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<castRange>600</castRange>
 		<effectPoint>100</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>1100</effectRange>
@@ -2488,12 +2328,9 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="14177" toLevel="1" name="Exorcism">
-		<!-- Glory Days confirmed -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<castRange>600</castRange>
 		<effectPoint>100</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>1100</effectRange>
@@ -2503,12 +2340,9 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="14178" toLevel="1" name="Exorcism">
-		<!-- Glory Days confirmed -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<castRange>600</castRange>
 		<effectPoint>100</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>1100</effectRange>
@@ -2518,15 +2352,12 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="14179" toLevel="1" name="Stronghold Water Cannon">
-		<!-- Glory Days confirmed -->
-		<icon>icon.skill0000</icon>
 		<operateType>A2</operateType>
 		<mpConsume>121</mpConsume>
 		<hitTime>500</hitTime>
 		<effectPoint>-100</effectPoint>
 		<abnormalType>KNOCKDOWN</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
 		<hitCancelTime>0</hitCancelTime>
@@ -2561,14 +2392,11 @@
 		</effects>
 	</skill>
 	<skill id="14180" toLevel="1" name="Trap Over Steam">
-		<!-- Glory Days confirmed -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<mpConsume>123</mpConsume>
 		<hitTime>2000</hitTime>
 		<reuseDelay>1000</reuseDelay>
 		<effectPoint>-574</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<magicLvl>96</magicLvl>
@@ -2584,14 +2412,11 @@
 		</effects>
 	</skill>
 	<skill id="14181" toLevel="1" name="Trap Over Steam">
-		<!-- Glory Days confirmed -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<mpConsume>123</mpConsume>
 		<hitTime>2000</hitTime>
 		<reuseDelay>1000</reuseDelay>
 		<effectPoint>-574</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<magicLvl>96</magicLvl>
@@ -2607,14 +2432,12 @@
 		</effects>
 	</skill>
 	<skill id="14182" toLevel="1" name="Millipede Blow">
-		<!-- Glory Days confirmed -->
 		<icon>icon.skill0003</icon>
 		<operateType>A1</operateType>
 		<mpConsume>84</mpConsume>
 		<castRange>100</castRange>
 		<hitTime>1500</hitTime>
 		<effectPoint>-700</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>400</effectRange>
@@ -2629,14 +2452,12 @@
 		</effects>
 	</skill>
 	<skill id="14183" toLevel="1" name="Millipede Blow">
-		<!-- Glory Days confirmed -->
 		<icon>icon.skill0003</icon>
 		<operateType>A1</operateType>
 		<mpConsume>84</mpConsume>
 		<castRange>100</castRange>
 		<hitTime>1500</hitTime>
 		<effectPoint>-700</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>400</effectRange>
@@ -2651,7 +2472,6 @@
 		</effects>
 	</skill>
 	<skill id="14184" toLevel="1" name="Millipede Ultimate Blow">
-		<!-- Glory Days confirmed -->
 		<!-- Armor is destroyed. P. Def. and M. Def. decreased 10%. Additional 500 decrease. Evasion 4 decrease. Accumulates with every incurred attack. -->
 		<icon>icon.skill0003</icon>
 		<operateType>A2</operateType>
@@ -2661,7 +2481,6 @@
 		<effectPoint>-700</effectPoint>
 		<abnormalType>ABSORB</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
 		<hitCancelTime>0</hitCancelTime>
@@ -2694,7 +2513,6 @@
 		</effects>
 	</skill>
 	<skill id="14185" toLevel="1" name="Rose Sleep">
-		<!-- Glory Days confirmed -->
 		<icon>icon.skill1389</icon>
 		<operateType>A2</operateType>
 		<mpConsume>84</mpConsume>
@@ -2702,7 +2520,6 @@
 		<effectPoint>1</effectPoint>
 		<abnormalType>PA_PD_UP</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
 		<hitCancelTime>0</hitCancelTime>
@@ -2721,13 +2538,10 @@
 		</effects>
 	</skill>
 	<skill id="14186" toLevel="1" name="Fairy Lv.">
-		<!-- Glory Days confirmed -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<mpConsume>2</mpConsume>
 		<hitTime>15000</hitTime>
 		<reuseDelay>5400000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<magicLvl>90</magicLvl>
 		<isMagic>1</isMagic>
@@ -2740,13 +2554,10 @@
 		</conditions>
 	</skill>
 	<skill id="14187" toLevel="1" name="Magmeld Teleport">
-		<!-- Glory Days confirmed -->
 		<!-- Teleports to Magmeld Ancient City Arcan. -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<hitTime>10000</hitTime>
 		<effectPoint>2</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<magicLvl>90</magicLvl>
@@ -2766,12 +2577,9 @@
 		</effects>
 	</skill>
 	<skill id="14188" toLevel="1" name="Millipede's Gas">
-		<!-- Glory Days confirmed -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<castRange>600</castRange>
 		<effectPoint>100</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>1100</effectRange>
@@ -2781,7 +2589,6 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="14189" toLevel="1" name="Fairy Slow Attack">
-		<!-- Glory Days confirmed -->
 		<!-- Speed is decreased by 30% -->
 		<icon>icon.skill0354</icon>
 		<operateType>A2</operateType>
@@ -2793,7 +2600,6 @@
 		<effectPoint>-507</effectPoint>
 		<abnormalType>SPEED_DOWN</abnormalType>
 		<basicProperty>MAGIC</basicProperty>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<effectRange>1100</effectRange>
 		<lvlBonusRate>1</lvlBonusRate>
@@ -2816,7 +2622,6 @@
 		</effects>
 	</skill>
 	<skill id="14190" toLevel="1" name="Invincibility Activation">
-		<!-- Glory Days confirmed -->
 		<!-- Invincible status. -->
 		<icon>icon.skill0442</icon>
 		<operateType>A2</operateType>
@@ -2824,7 +2629,6 @@
 		<effectPoint>673</effectPoint>
 		<abnormalType>PD_UP_SPECIAL</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
 		<abnormalLvl>1</abnormalLvl>
@@ -2848,12 +2652,9 @@
 		</effects>
 	</skill>
 	<skill id="14191" toLevel="1" name="Cancel Invincibility">
-		<!-- Glory Days confirmed -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<mpConsume>1</mpConsume>
 		<hitTime>500</hitTime>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<magicLvl>95</magicLvl>
@@ -2867,7 +2668,6 @@
 		</effects>
 	</skill>
 	<skill id="14192" toLevel="1" name="Petrify">
-		<!-- Glory Days confirmed -->
 		<!-- Petrify status. -->
 		<icon>icon.skill1540</icon>
 		<operateType>A2</operateType>
@@ -2876,7 +2676,6 @@
 		<effectPoint>343</effectPoint>
 		<abnormalType>TURN_STONE</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<magicLvl>95</magicLvl>
 		<abnormalLvl>1</abnormalLvl>
@@ -2904,7 +2703,6 @@
 		</effects>
 	</skill>
 	<skill id="14193" toLevel="1" name="Damage Shield">
-		<!-- Glory Days confirmed -->
 		<!-- Reflects 100% of damage. -->
 		<icon>icon.skill0086</icon>
 		<operateType>A2</operateType>
@@ -2913,7 +2711,6 @@
 		<effectPoint>379</effectPoint>
 		<abnormalType>DMG_SHIELD</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
 		<abnormalLvl>1</abnormalLvl>
@@ -2928,7 +2725,6 @@
 		</effects>
 	</skill>
 	<skill id="14194" toLevel="1" name="Range Stun">
-		<!-- Glory Days confirmed -->
 		<!-- Stun status. -->
 		<icon>icon.skill0048</icon>
 		<operateType>A2</operateType>
@@ -2938,7 +2734,6 @@
 		<effectPoint>-1</effectPoint>
 		<abnormalType>STUN</abnormalType>
 		<basicProperty>PHYSICAL</basicProperty>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<effectRange>1100</effectRange>
 		<magicLvl>95</magicLvl>
@@ -2958,7 +2753,6 @@
 		</effects>
 	</skill>
 	<skill id="14195" toLevel="1" name="Range Fire Magic">
-		<!-- Glory Days confirmed -->
 		<!-- Flame status. -->
 		<icon>icon.skill1107</icon>
 		<operateType>A2</operateType>
@@ -2969,7 +2763,6 @@
 		<effectPoint>-1</effectPoint>
 		<abnormalType>DOT_ATTR</abnormalType>
 		<basicProperty>MAGIC</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<effectRange>1100</effectRange>
 		<lvlBonusRate>1</lvlBonusRate>
@@ -2996,7 +2789,6 @@
 		</effects>
 	</skill>
 	<skill id="14196" toLevel="1" name="Decaying Darkness">
-		<!-- Glory Days confirmed -->
 		<!-- Transformed by the decaying darkness. -->
 		<icon>icon.skilltransform1</icon>
 		<operateType>A2</operateType>
@@ -3005,7 +2797,6 @@
 		<effectPoint>-100</effectPoint>
 		<abnormalType>TRANSFORM</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
 		<abnormalLvl>1</abnormalLvl>
@@ -3029,7 +2820,6 @@
 		</effects>
 	</skill>
 	<skill id="14197" toLevel="1" name="Range Fire Damage Zone">
-		<!-- Glory Days confirmed -->
 		<!-- Poison status. -->
 		<icon>icon.skill1168</icon>
 		<operateType>A2</operateType>
@@ -3039,7 +2829,6 @@
 		<effectPoint>-352</effectPoint>
 		<abnormalType>DOT_ATTR</abnormalType>
 		<basicProperty>PHYSICAL</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<lvlBonusRate>2</lvlBonusRate>
@@ -3061,16 +2850,13 @@
 		</effects>
 	</skill>
 	<skill id="14198" toLevel="1" name="Water Cannon Damage">
-		<!-- Glory Days confirmed -->
 		<!-- Water Cannon -->
-		<icon>icon.skill0000</icon>
 		<operateType>A2</operateType>
 		<mpConsume>177</mpConsume>
 		<hitTime>500</hitTime>
 		<effectPoint>-100</effectPoint>
 		<abnormalType>KNOCKDOWN</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
 		<hitCancelTime>0</hitCancelTime>
@@ -3102,7 +2888,6 @@
 		</effects>
 	</skill>
 	<skill id="14199" toLevel="6" name="Garden Voltage">
-		<!-- Glory Days confirmed -->
 		<icon>icon.skill0003</icon>
 		<operateType>A2</operateType>
 		<mpConsume>1</mpConsume>
@@ -3110,7 +2895,6 @@
 		<effectPoint>-700</effectPoint>
 		<abnormalType>KNOCKDOWN</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
 		<hitCancelTime>0</hitCancelTime>

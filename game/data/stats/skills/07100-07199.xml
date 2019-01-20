@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
 	<skill id="7100" toLevel="1" name="Clan-exclusive Pet Stun">
-		<!-- Glory Days confirmed -->
 		<!-- Stuns the target for 3 seconds. -->
 		<icon>icon.skill5168</icon>
 		<operateType>A2</operateType>
@@ -11,7 +10,6 @@
 		<effectPoint>-700</effectPoint>
 		<abnormalType>STUN</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>1100</effectRange>
@@ -30,7 +28,6 @@
 		</effects>
 	</skill>
 	<skill id="7101" toLevel="1" name="Clan-exclusive Pet Aerial Thrust">
-		<!-- Glory Days confirmed -->
 		<!-- Lifts and holds the target in the air for 3 seconds. -->
 		<icon>icon.skill11276</icon>
 		<operateType>A2</operateType>
@@ -42,7 +39,6 @@
 		<abnormalType>AIRBIND</abnormalType>
 		<abnormalResists>STUN;TURN_FLEE</abnormalResists>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>1100</effectRange>
@@ -72,10 +68,7 @@
 		</effects>
 	</skill>
 	<skill id="7102" toLevel="1" name="Summon Clan Pet">
-		<!-- Glory Days confirmed -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<magicLvl>1</magicLvl>
 		<isMagic>2</isMagic>
@@ -93,12 +86,9 @@
 		</effects>
 	</skill>
 	<skill id="7103" toLevel="1" name="Helping Tree CP Recovery Range">
-		<!-- Glory Days confirmed -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<hitTime>300</hitTime>
 		<effectPoint>635</effectPoint>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<magicLvl>85</magicLvl>
@@ -110,7 +100,6 @@
 		<affectObject>FRIEND</affectObject>
 	</skill>
 	<skill id="7104" toLevel="1" name="Pa'agrio's Hand">
-		<!-- Glory Days confirmed -->
 		<!-- Raise the temperature of the Draco Egg through Pa'agrio's Hand. It raises the temperature by 1 - 10 degrees on a Small Draco Egg and 0.1 - 1.0 degrees on a Large Draco Egg. The Fire Spirit Agathion must be summoned for it to be used. -->
 		<icon>icon.skill11775</icon>
 		<operateType>A1</operateType>
@@ -118,7 +107,6 @@
 		<hitTime>1000</hitTime>
 		<coolTime>500</coolTime>
 		<effectPoint>-1</effectPoint>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<effectRange>400</effectRange>
 		<magicLvl>1</magicLvl>
@@ -128,14 +116,11 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="7105" toLevel="1" name="Incubation Possible">
-		<!-- Glory Days confirmed -->
 		<!-- Incubation Possible -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<castRange>100</castRange>
 		<effectPoint>-1</effectPoint>
 		<abnormalResists>TURN_FLEE;KNOCKDOWN;DEPORT;SILENCE;PARALYZE;ABSORB;DISARM;SILENCE_PHYSICAL;SILENCE_ALL;CHANGEBODY;TURN_STONE;DERANGEMENT;AIRBIND;SLEEP;OBLIVION;MIRAGE;MIRAGE_TRAP;ROOT_MAGICALLY;ROOT_PHYSICALLY;STUN;PUBLIC_SLOT</abnormalResists>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<effectRange>700</effectRange>
 		<magicLvl>1</magicLvl>
@@ -154,14 +139,11 @@
 		</conditions>
 	</skill>
 	<skill id="7106" toLevel="1" name="Optimal Temperature Incubation Success">
-		<!-- Glory Days confirmed -->
 		<!-- Optimal Temperature Incubation Success -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<coolTime>800</coolTime>
 		<effectPoint>-1</effectPoint>
 		<abnormalResists>TURN_FLEE;KNOCKDOWN;DEPORT;SILENCE;PARALYZE;ABSORB;DISARM;SILENCE_PHYSICAL;SILENCE_ALL;CHANGEBODY;TURN_STONE;DERANGEMENT;AIRBIND;SLEEP;OBLIVION;MIRAGE;MIRAGE_TRAP;ROOT_MAGICALLY;ROOT_PHYSICALLY;STUN;PUBLIC_SLOT</abnormalResists>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<magicLvl>1</magicLvl>
 		<reuseDelay>2000</reuseDelay>
@@ -179,14 +161,11 @@
 		</conditions>
 	</skill>
 	<skill id="7107" toLevel="1" name="Incubation Success">
-		<!-- Glory Days confirmed -->
 		<!-- Incubation Success -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<coolTime>800</coolTime>
 		<effectPoint>-1</effectPoint>
 		<abnormalResists>TURN_FLEE;KNOCKDOWN;DEPORT;SILENCE;PARALYZE;ABSORB;DISARM;SILENCE_PHYSICAL;SILENCE_ALL;CHANGEBODY;TURN_STONE;DERANGEMENT;AIRBIND;SLEEP;OBLIVION;MIRAGE;MIRAGE_TRAP;ROOT_MAGICALLY;ROOT_PHYSICALLY;STUN;PUBLIC_SLOT</abnormalResists>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<magicLvl>1</magicLvl>
 		<reuseDelay>2000</reuseDelay>
@@ -204,14 +183,11 @@
 		</conditions>
 	</skill>
 	<skill id="7108" toLevel="1" name="Incubation Failure">
-		<!-- Glory Days confirmed -->
 		<!-- Incubation Failure -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<coolTime>800</coolTime>
 		<effectPoint>-1</effectPoint>
 		<abnormalResists>TURN_FLEE;KNOCKDOWN;DEPORT;SILENCE;PARALYZE;ABSORB;DISARM;SILENCE_PHYSICAL;SILENCE_ALL;CHANGEBODY;TURN_STONE;DERANGEMENT;AIRBIND;SLEEP;OBLIVION;MIRAGE;MIRAGE_TRAP;ROOT_MAGICALLY;ROOT_PHYSICALLY;STUN;PUBLIC_SLOT</abnormalResists>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<magicLvl>1</magicLvl>
 		<reuseDelay>2000</reuseDelay>
@@ -229,7 +205,6 @@
 		</conditions>
 	</skill>
 	<skill id="7109" toLevel="1" name="Summon Bratty Angma">
-		<!-- Glory Days confirmed -->
 		<!-- Summon a Bratty Angma. -->
 		<icon>icon.skill0028</icon>
 		<operateType>A1</operateType>
@@ -237,7 +212,6 @@
 		<coolTime>500</coolTime>
 		<reuseDelay>10000</reuseDelay>
 		<effectPoint>100</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<magicLvl>85</magicLvl>
 		<isMagic>1</isMagic>
@@ -350,7 +324,6 @@
 		</effects>
 	</skill>
 	<skill id="7110" toLevel="1" name="Summon Bratty Angma">
-		<!-- Glory Days confirmed -->
 		<!-- Summon a Bratty Angma. -->
 		<icon>icon.skill0028</icon>
 		<operateType>A1</operateType>
@@ -358,7 +331,6 @@
 		<coolTime>500</coolTime>
 		<reuseDelay>10000</reuseDelay>
 		<effectPoint>100</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<magicLvl>85</magicLvl>
 		<isMagic>1</isMagic>
@@ -465,7 +437,6 @@
 		</conditions>
 	</skill>
 	<skill id="7111" toLevel="1" name="Summon Bratty Angma">
-		<!-- Glory Days confirmed -->
 		<!-- Summon a Bratty Angma. -->
 		<icon>icon.skill0028</icon>
 		<operateType>A1</operateType>
@@ -473,7 +444,6 @@
 		<coolTime>500</coolTime>
 		<reuseDelay>10000</reuseDelay>
 		<effectPoint>100</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<magicLvl>85</magicLvl>
 		<isMagic>1</isMagic>
@@ -584,7 +554,6 @@
 		</effects>
 	</skill>
 	<skill id="7112" toLevel="1" name="Summon Bratty Angma">
-		<!-- Glory Days confirmed -->
 		<!-- Summon a Bratty Angma. -->
 		<icon>icon.skill0028</icon>
 		<operateType>A1</operateType>
@@ -592,7 +561,6 @@
 		<coolTime>500</coolTime>
 		<reuseDelay>10000</reuseDelay>
 		<effectPoint>100</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<magicLvl>85</magicLvl>
 		<isMagic>1</isMagic>
@@ -705,7 +673,6 @@
 		</effects>
 	</skill>
 	<skill id="7113" toLevel="1" name="Pet Invincibility Effect">
-		<!-- Glory Days confirmed -->
 		<!-- Invincibility Effect -->
 		<icon>icon.skill0442</icon>
 		<operateType>A2</operateType>
@@ -714,7 +681,6 @@
 		<effectPoint>-100</effectPoint>
 		<abnormalType>INVINCIBILITY</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<magicLvl>85</magicLvl>
 		<abnormalLvl>1</abnormalLvl>
@@ -734,10 +700,7 @@
 		</effects>
 	</skill>
 	<skill id="7114" toLevel="1" name="Spellbook: Clan Flag">
-		<!-- Glory Days confirmed -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<magicLvl>85</magicLvl>
 		<isMagic>2</isMagic>
@@ -752,7 +715,7 @@
 				<socialClass>8</socialClass>
 			</condition>
 			<condition name="OpSkill">
-				<skillId>15094</skillId>
+				<skillId>15094</skillId> <!-- Clan Flag -->
 				<skillLevel>1</skillLevel>
 				<hasLearned>false</hasLearned>
 			</condition>
@@ -765,17 +728,15 @@
 		</effects>
 	</skill>
 	<skill id="7115" toLevel="1" name="Energy of Chaos">
-		<!-- Glory Days confirmed -->
 		<!-- Character's hair and cloak have been changed due to participation in the Ceremony of Chaos. -->
+		<icon>icon.skill0810</icon>
 		<abnormalTime>600</abnormalTime>
 		<abnormalVisualEffect>CURIOUS_HOUSE</abnormalVisualEffect>
-		<icon>icon.skill0810</icon>
 		<canBeDispelled>false</canBeDispelled>
 		<operateType>A2</operateType>
 		<effectPoint>1</effectPoint>
 		<abnormalType>CURIOUS_HOUSE</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<specialLevel>-2</specialLevel>
 		<magicLvl>85</magicLvl>
@@ -786,7 +747,6 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="7116" toLevel="1" name="Spellbook: Air Bike">
-		<icon>icon.skill0000</icon>
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>36952</itemConsumeId>
 		<operateType>A1</operateType>
@@ -797,7 +757,6 @@
 		<magicLvl>99</magicLvl>
 		<isMagic>2</isMagic>
 		<magicCriticalRate>-5</magicCriticalRate>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<conditions>
 			<condition name="OpMainjob" />
 			<condition name="CheckLevel">
@@ -819,7 +778,6 @@
 		</effects>
 	</skill>
 	<skill id="7117" toLevel="1" name="Spellbook: Hell Hound">
-		<icon>icon.skill7117</icon>
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>47148</itemConsumeId>
 		<operateType>A1</operateType>
@@ -830,7 +788,6 @@
 		<magicLvl>99</magicLvl>
 		<isMagic>2</isMagic>
 		<magicCriticalRate>-5</magicCriticalRate>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<conditions>
 			<condition name="OpMainjob" />
 			<condition name="CheckLevel">
@@ -852,7 +809,6 @@
 		</effects>
 	</skill>
 	<skill id="7118" toLevel="1" name="Spellbook: Pegasus">
-		<icon>icon.skill7118</icon>
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>47150</itemConsumeId>
 		<operateType>A1</operateType>
@@ -863,7 +819,6 @@
 		<magicLvl>99</magicLvl>
 		<isMagic>2</isMagic>
 		<magicCriticalRate>-5</magicCriticalRate>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<conditions>
 			<condition name="CheckLevel">
 				<minLevel>99</minLevel>
@@ -884,7 +839,6 @@
 		</effects>
 	</skill>
 	<skill id="7119" toLevel="1" name="Spellbook: Wing Hound">
-		<icon>icon.skill7119</icon>
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>47152</itemConsumeId>
 		<operateType>A1</operateType>
@@ -895,7 +849,6 @@
 		<magicLvl>99</magicLvl>
 		<isMagic>2</isMagic>
 		<magicCriticalRate>-5</magicCriticalRate>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<conditions>
 			<condition name="CheckLevel">
 				<minLevel>99</minLevel>
@@ -916,7 +869,6 @@
 		</effects>
 	</skill>
 	<skill id="7120" toLevel="1" name="Spellbook: War Horse">
-		<icon>icon.skill7120</icon>
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>47149</itemConsumeId>
 		<operateType>A1</operateType>
@@ -927,7 +879,6 @@
 		<magicLvl>99</magicLvl>
 		<isMagic>2</isMagic>
 		<magicCriticalRate>-5</magicCriticalRate>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<conditions>
 			<condition name="CheckLevel">
 				<minLevel>99</minLevel>
@@ -948,7 +899,6 @@
 		</effects>
 	</skill>
 	<skill id="7121" toLevel="1" name="Spellbook: Griffin">
-		<icon>icon.skill7121</icon>
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>47151</itemConsumeId>
 		<operateType>A1</operateType>
@@ -959,7 +909,6 @@
 		<magicLvl>99</magicLvl>
 		<isMagic>2</isMagic>
 		<magicCriticalRate>-5</magicCriticalRate>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<conditions>
 			<condition name="CheckLevel">
 				<minLevel>99</minLevel>

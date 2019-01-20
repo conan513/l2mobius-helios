@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/npcs.xsd">
 	<npc id="2081" level="82" type="L2Monster" name="Plague Kanabion">
 		<!-- TODO: Must be confirmed -->
@@ -36,18 +36,18 @@
 			</speed>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4032" level="1" /> <!-- NPC Strike -->
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="5565" level="1" /> <!-- Expose Weak Point -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="200" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>RIM</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="960" min="1" max="1" chance="0.3" /> <!-- Scroll: Enchant Armor (S-grade) -->
 				<!-- FIXME: Also drops herbs. -->
@@ -61,7 +61,7 @@
 				<item id="34850" min="1" max="1" chance="0.7" /> <!-- Mysterious Herb of Magic -->
 				<item id="13028" min="1" max="1" chance="0.1" /> <!-- Vitality Replenishing Herb -->
 			</drop>
-		</drop_lists>
+		</dropLists>
 		<status undying="false" />
 		<collision>
 			<radius normal="9" />
@@ -106,19 +106,19 @@
 			</speed>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4032" level="1" /> <!-- NPC Strike -->
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="5565" level="1" /> <!-- Expose Weak Point -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="200" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>RIM</clan>
-				<ignore_npc_id>2081</ignore_npc_id>
-			</clan_list>
+				<ignoreNpcId>2081</ignoreNpcId>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="960" min="1" max="1" chance="0.3" /> <!-- Scroll: Enchant Armor (S-grade) -->
 				<!-- FIXME: Also drops herbs. -->
@@ -132,7 +132,7 @@
 				<item id="34850" min="1" max="1" chance="0.7" /> <!-- Mysterious Herb of Magic -->
 				<item id="13028" min="1" max="1" chance="0.1" /> <!-- Vitality Replenishing Herb -->
 			</drop>
-		</drop_lists>
+		</dropLists>
 		<status undying="false" />
 		<collision>
 			<radius normal="9" />
@@ -178,20 +178,20 @@
 			</speed>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4032" level="1" /> <!-- NPC Strike -->
 			<skill id="4340" level="1" /> <!-- Ultimate Buff, 2nd -->
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="5565" level="1" /> <!-- Expose Weak Point -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>RIM</clan>
-				<ignore_npc_id>2081</ignore_npc_id>
-			</clan_list>
+				<ignoreNpcId>2081</ignoreNpcId>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="960" min="1" max="1" chance="0.3" /> <!-- Scroll: Enchant Armor (S-grade) -->
 				<!-- FIXME: Also drops herbs. -->
@@ -205,7 +205,7 @@
 				<item id="34850" min="1" max="1" chance="0.7" /> <!-- Mysterious Herb of Magic -->
 				<item id="13028" min="1" max="1" chance="0.1" /> <!-- Vitality Replenishing Herb -->
 			</drop>
-		</drop_lists>
+		</dropLists>
 		<status undying="false" />
 		<collision>
 			<radius normal="10" />

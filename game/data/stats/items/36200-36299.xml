@@ -716,6 +716,7 @@
 	</item>
 	<item id="36222" name="Kaliel's Cube" type="EtcItem">
 		<!-- Cube imbued with Kaliel's power. Double-click to obtain an entrance pass for entering an instance zone once. Cannot be used in the Olympiad. Can only be used once a day. Temporary event item. -->
+		<set name="icon" val="icon.etc_kalie_cube" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
@@ -726,7 +727,6 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.etc_kalie_cube" />
 		<skills>
 			<skill id="9724" level="1" /> <!-- Kaliel's Cube -->
 		</skills>
@@ -785,6 +785,7 @@
 	</item>
 	<item id="36227" name="Mark of Kargos" type="EtcItem">
 		<!-- Certificate proving that you are on a mission given by Kargos, captain of the 3rd unit of Elmore Knights. Bring this to Kitchen, a knight disguised as a pagan in the Pagan Temple, and he will give you your next mission. -->
+		<set name="icon" val="icon.fairy_encounter_letter" />
 		<set name="is_depositable" val="false" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
@@ -797,10 +798,10 @@
 		<set name="is_questitem" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="immediate_effect" val="true" />
-		<set name="icon" val="icon.fairy_encounter_letter" />
 	</item>
 	<item id="36228" name="Visitor's Badge" type="EtcItem">
 		<!-- Grants you entry into the Pagan Temple. If you lose it, you may receive another one from Kitchen, a knight disguised as a pagan inside the Pagan Temple. -->
+		<set name="icon" val="icon.etc_red_rose_i00" />
 		<set name="is_depositable" val="false" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
@@ -812,10 +813,10 @@
 		<set name="is_questitem" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="immediate_effect" val="true" />
-		<set name="icon" val="icon.etc_red_rose_i00" />
 	</item>
 	<item id="36229" name="Pagan's Badge" type="EtcItem">
 		<!-- With this, you can go inside the Pagan Temple. Unlike the Visitor's Badge, it lets you go all the way to the inside of the chapel. If you lose it, you can get another one from Priestess of Light Razen inside the Pagan Temple. -->
+		<set name="icon" val="icon.etc_totem_necklace_red_i00" />
 		<set name="is_depositable" val="false" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
@@ -827,7 +828,6 @@
 		<set name="is_questitem" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="immediate_effect" val="true" />
-		<set name="icon" val="icon.etc_totem_necklace_red_i00" />
 	</item>
 	<item id="36230" name="Pagan Totem" type="EtcItem">
 		<!-- Totem obtained after defeating the pagans inside the Pagan Temple. Bring this to Razen, the Priest of Light inside the Pagan Temple, or Captain Kargos in Rune Castle, to receive a reward. -->
@@ -1162,6 +1162,7 @@
 	</item>
 	<item id="36246" name="Verdof's Invitation" type="EtcItem">
 		<!-- Invitation sent by Verdof. Double-click to summon the Dimensional Door. -->
+		<set name="icon" val="icon.etc_letter_envelope_i00" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
@@ -1174,7 +1175,6 @@
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.etc_letter_envelope_i00" />
 		<skills>
 			<skill id="9722" level="1" /> <!-- Summon Dimensional Door -->
 		</skills>
@@ -1450,6 +1450,7 @@
 	</item>
 	<item id="36267" name="Dimension Crumbs" type="EtcItem">
 		<!-- Resources sought by Charlotte. Bring them to her before they disappear. -->
+		<set name="icon" val="icon.etc_broken_crystal_blue_i00" />
 		<set name="is_depositable" val="false" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
@@ -1462,7 +1463,6 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="time" val="5" />
 		<set name="immediate_effect" val="true" />
-		<set name="icon" val="icon.etc_broken_crystal_blue_i00" />
 	</item>
 	<item id="36268" name="Entrance Pass: Emperor's Labyrinth Lv. 90 Party" type="EtcItem">
 		<!-- Extra Pass for Kartia's Labyrinth Party Dungeon. Double click to disable the Lv. 90 entry restriction for the Kartia's Labyrinth Party Dungeon. Cannot use if locked out from Instanced Zone. Can be used once a day only, outside the Instanced Zone. Cannot use in Olympiad. -->
@@ -1644,6 +1644,7 @@
 	</item>
 	<item id="36282" name="Error Compensation Package" type="EtcItem">
 		<!-- We apologize for the inconvenience caused by the downed server. We will try our best to provide our customers with stable environments for fun play. Double-click to receive 5 scrolls imbued with the power of heroes, 1 unit of PC Vitality and 1 Boss Accessory Pack (1-day). -->
+		<set name="icon" val="icon.etc_treasure_box_i05" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
@@ -1655,7 +1656,6 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
-		<set name="icon" val="icon.etc_treasure_box_i05" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
 			<item id="36221" min="5" max="5" chance="100" /> <!-- Scroll Imbued with Heroes' Power -->

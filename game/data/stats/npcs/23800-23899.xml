@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/npcs.xsd">
 	<npc id="23800" level="102" type="L2Monster" name="Delta Kshana" title="Superion Scout">
 		<race>GIANT</race>
@@ -15,7 +15,7 @@
 			<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
 			</attribute>
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="11" /> <!-- Giants -->
 			<skill id="5465" level="1" /> <!-- Earth Attack -->
 			<skill id="14823" level="1" /> <!-- Lethal Strike Resistance -->
@@ -25,19 +25,19 @@
 			<skill id="4461" level="1" /> <!-- Dagger/Rapier Vulnerability -->
 			<skill id="16608" level="1" /> <!-- Servitor Attack Weakness -->
 			<skill id="4071" level="1" /> <!-- Bow/Crossbow Resistance -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="24" />
 			<height normal="47.5" />
 		</collision>
-		<drop_lists>
+		<dropLists>
 			<drop>
-				<item id="17434" min="1" max="1" chance="0.03" /> <!-- Eternal Boots -->
-				<item id="17435" min="1" max="1" chance="0.03" /> <!-- Eternal Shield -->
+				<item id="17434" min="1" max="1" chance="0.03" /> <!-- Eternal Boots - Heavy Armor -->
+				<item id="17435" min="1" max="1" chance="0.03" /> <!-- Eternal Shield - Heavy Armor -->
 				<item id="57" min="29430" max="68561" chance="70" /> <!-- Adena -->
 				<item id="36543" min="1" max="1" chance="12.26" /> <!-- Adamantite Wire -->
-				<item id="47250" min="1" max="1" chance="0.75" /> <!-- Giant Power Crystal -->
-				<item id="35332" min="1" max="1" chance="0.3" /> <!-- Helios Stormer Fragment -->
+				<item id="47250" min="1" max="1" chance="0.75" /> <!-- Giant Crystal -->
+				<item id="35332" min="1" max="1" chance="0.3" /> <!-- Amaranthine Stormer Fragment -->
 				<item id="35342" min="1" max="1" chance="0.3" /> <!-- Eternal Boot Ingredient -->
 				<item id="35343" min="1" max="1" chance="0.3" /> <!-- Eternal Shield Ingredient -->
 				<item id="36545" min="1" max="1" chance="0.075" /> <!-- Durandil Wire -->
@@ -46,10 +46,10 @@
 				<item id="36564" min="1" max="1" chance="0.75" /> <!-- Greater Synthetic Cokes -->
 				<item id="36565" min="1" max="1" chance="0.075" /> <!-- Exquisite Synthetic Cokes -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 	</npc>
 	<npc id="23801" level="89" type="L2Monster" name="Lillim Royal Knight">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -67,7 +67,7 @@
 			<radius normal="13" />
 			<height normal="55" />
 		</collision>
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="5467" level="1" /> <!-- Dark Attack -->
 			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
@@ -76,8 +76,8 @@
 			<skill id="4413" level="15" /> <!-- Strong M. Def. -->
 			<skill id="4287" level="3" /> <!-- Hold Resistance -->
 			<skill id="4285" level="3" /> <!-- Sleep Resistance -->
-		</skill_list>
-		<drop_lists>
+		</skillList>
+		<dropLists>
 			<drop>
 				<item id="57" min="4516" max="10527" chance="70" /> <!-- Adena -->
 				<item id="37724" min="1" max="1" chance="0.3" /> <!-- Shilen's Energy -->
@@ -87,7 +87,7 @@
 				<item id="36553" min="1" max="1" chance="1.383" /> <!-- Armor Fragment (Mid-grade) -->
 				<item id="45930" min="1" max="1" chance="0.3" /> <!-- Mid-grade Spirit Stone -->
 			</spoil>
-		</drop_lists>
+		</dropLists>
 	</npc>
 	<npc id="23802" level="87" type="L2Monster" name="Lillim Slayer">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -104,13 +104,13 @@
 			<radius normal="13" />
 			<height normal="44" />
 		</collision>
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="5467" level="1" /> <!-- Dark Attack -->
 			<skill id="4414" level="3" /> <!-- Light Armor Type -->
 			<skill id="4287" level="5" /> <!-- Hold Resistance -->
-		</skill_list>
-		<drop_lists>
+		</skillList>
+		<dropLists>
 			<drop>
 				<item id="57" min="6437" max="15020" chance="70" /> <!-- Adena -->
 				<item id="36563" min="1" max="1" chance="2.286" /> <!-- Synthetic Cokes -->
@@ -120,7 +120,7 @@
 				<item id="36558" min="1" max="1" chance="7.148" /> <!-- Accessory Gem (Mid-grade) -->
 				<item id="36553" min="1" max="1" chance="2.043" /> <!-- Armor Fragment (Mid-grade) -->
 			</spoil>
-		</drop_lists>
+		</dropLists>
 	</npc>
 	<npc id="23803" level="101" type="L2Monster" name="Gigantic Healer">
 		<!-- Gigantic Healer -->
@@ -143,12 +143,12 @@
 			<radius normal="10" />
 			<height normal="40" />
 		</collision>
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="8" /> <!-- Angels -->
 			<skill id="5467" level="1" /> <!-- Dark Attack -->
 			<skill id="14823" level="1" /> <!-- Instant Kill Attack Resistance -->
 			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
-		</skill_list>
+		</skillList>
 	</npc>
 	<npc id="23804" level="88" type="L2Monster" name="Lillim Great Magus">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -165,12 +165,12 @@
 			<radius normal="10" />
 			<height normal="37.5" />
 		</collision>
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="5467" level="1" /> <!-- Dark Attack -->
 			<skill id="4285" level="5" /> <!-- Sleep Resistance -->
-		</skill_list>
-		<drop_lists>
+		</skillList>
+		<dropLists>
 			<drop>
 				<item id="57" min="5569" max="13008" chance="70" /> <!-- Adena -->
 				<item id="19440" min="1" max="1" chance="0.975" /> <!-- Gemstone (R-grade) -->
@@ -180,7 +180,7 @@
 				<item id="36558" min="1" max="1" chance="6.167" /> <!-- Accessory Gem (Mid-grade) -->
 				<item id="36553" min="1" max="1" chance="1.838" /> <!-- Armor Fragment (Mid-grade) -->
 			</spoil>
-		</drop_lists>
+		</dropLists>
 	</npc>
 	<npc id="23805" level="92" type="L2Monster" name="Nephilim Royal Guard">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -197,13 +197,13 @@
 			<radius normal="13" />
 			<height normal="39.6" />
 		</collision>
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="8" /> <!-- Angels -->
 			<skill id="5467" level="1" /> <!-- Dark Attack -->
 			<skill id="4414" level="3" /> <!-- Light Armor Type -->
 			<skill id="4287" level="5" /> <!-- Hold Resistance -->
-		</skill_list>
-		<drop_lists>
+		</skillList>
+		<dropLists>
 			<drop>
 				<item id="57" min="7508" max="17513" chance="70" /> <!-- Adena -->
 				<item id="36563" min="1" max="1" chance="2.609" /> <!-- Synthetic Cokes -->
@@ -213,7 +213,7 @@
 				<item id="36558" min="1" max="1" chance="8.238" /> <!-- Accessory Gem (Mid-grade) -->
 				<item id="36553" min="1" max="1" chance="2.424" /> <!-- Armor Fragment (Mid-grade) -->
 			</spoil>
-		</drop_lists>
+		</dropLists>
 	</npc>
 	<npc id="23806" level="101" type="L2Monster" name="Wandering Dead of the Dimension" title="Attacker of the Rift">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -231,17 +231,17 @@
 			<radius normal="12" />
 			<height normal="28.5" />
 		</collision>
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
 			<skill id="5467" level="1" /> <!-- Dark Attack -->
 			<skill id="14823" level="1" /> <!-- Instant Kill Attack Resistance -->
 			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
-		</skill_list>
-		<drop_lists>
-			<lucky_drop>
+		</skillList>
+		<dropLists>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 	</npc>
 	<npc id="23807" level="101" type="L2Monster" name="Wandering Dimensional Spirit" title="Attacker of the Rift">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -259,17 +259,17 @@
 			<radius normal="25" />
 			<height normal="27" />
 		</collision>
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="3" /> <!-- Beast -->
 			<skill id="5467" level="1" /> <!-- Dark Attack -->
 			<skill id="14823" level="1" /> <!-- Instant Kill Attack Resistance -->
 			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
-		</skill_list>
-		<drop_lists>
-			<lucky_drop>
+		</skillList>
+		<dropLists>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 	</npc>
 	<npc id="23808" level="101" type="L2Monster" name="Lost Soul of the Dimension" title="Attacker of the Rift">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -287,17 +287,17 @@
 			<radius normal="12" />
 			<height normal="26" />
 		</collision>
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
 			<skill id="5467" level="1" /> <!-- Dark Attack -->
 			<skill id="14823" level="1" /> <!-- Instant Kill Attack Resistance -->
 			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
-		</skill_list>
-		<drop_lists>
-			<lucky_drop>
+		</skillList>
+		<dropLists>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 	</npc>
 	<npc id="23809" level="101" type="L2Monster" name="Lost Dimensional Evil Thoughts" title="Attacker of the Rift">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -315,17 +315,17 @@
 			<radius normal="24" />
 			<height normal="45" />
 		</collision>
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="5467" level="1" /> <!-- Dark Attack -->
 			<skill id="14823" level="1" /> <!-- Instant Kill Attack Resistance -->
 			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
-		</skill_list>
-		<drop_lists>
-			<lucky_drop>
+		</skillList>
+		<dropLists>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 	</npc>
 	<npc id="23810" level="101" type="L2Monster" name="Roaming Vengeance of the Dimension" title="Attacker of the Rift">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -344,17 +344,17 @@
 			<radius normal="15" />
 			<height normal="24.5" />
 		</collision>
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="5467" level="1" /> <!-- Dark Attack -->
 			<skill id="14823" level="1" /> <!-- Instant Kill Attack Resistance -->
 			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
-		</skill_list>
-		<drop_lists>
-			<lucky_drop>
+		</skillList>
+		<dropLists>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 	</npc>
 	<npc id="23811" level="99" type="L2Monster" name="Cantera Tanya">
 		<!-- Source: www.l2wiki.com -->
@@ -374,25 +374,25 @@
 				<attack type="FIRE" value="330" />
 			</attribute>
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="5462" level="1" /> <!-- Fire Attack -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="28" />
 			<height normal="59" />
 		</collision>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="1713" max="3998" chance="20" /> <!-- Adena -->
 				<item id="37776" min="1" max="1" chance="0.075" /> <!-- Scroll of Blessing Scraps: Weapon (R-grade) -->
 				<item id="37791" min="1" max="1" chance="0.03" /> <!-- Sealed Demonic Tome -->
 				<item id="37773" min="1" max="1" chance="0.0075" /> <!-- Recipe: Scroll of Blessing: Weapon (R-grade) -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 	</npc>
 	<npc id="23812" level="99" type="L2Monster" name="Cantera Deathmoz">
 		<!-- Source: www.l2wiki.com -->
@@ -411,25 +411,25 @@
 				<attack type="FIRE" value="330" />
 			</attribute>
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="5462" level="1" /> <!-- Fire Attack -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="16" />
 			<height normal="60" />
 		</collision>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="1713" max="3998" chance="20" /> <!-- Adena -->
 				<item id="37791" min="1" max="1" chance="0.03" /> <!-- Sealed Demonic Tome -->
 				<item id="37778" min="1" max="1" chance="0.003" /> <!-- Scroll of Blessing Scraps: Weapon (R99-grade) -->
 				<item id="37775" min="1" max="1" chance="0.0009" /> <!-- Recipe: Scroll of Blessing: Weapon (R99-grade) -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 	</npc>
 	<npc id="23813" level="99" type="L2Monster" name="Cantera Floxis">
 		<!-- Source: www.l2wiki.com -->
@@ -448,15 +448,15 @@
 				<attack type="FIRE" value="330" />
 			</attribute>
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="2" /> <!-- Magic Creatures -->
 			<skill id="5462" level="1" /> <!-- Fire Attack -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="38" />
 			<height normal="45" />
 		</collision>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="1713" max="3998" chance="20" /> <!-- Adena -->
 				<item id="37791" min="1" max="1" chance="0.03" /> <!-- Sealed Demonic Tome -->
@@ -464,10 +464,10 @@
 				<item id="36921" min="1" max="1" chance="0.0009" /> <!-- Recipe: Weapon Fragment (Top-grade) - Upgrade -->
 				<item id="37784" min="1" max="1" chance="0.0009" /> <!-- Recipe: Scroll of Blessing: Armor (R99-grade) -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 	</npc>
 	<npc id="23814" level="99" type="L2Monster" name="Cantera Belika">
 		<!-- Source: www.l2wiki.com -->
@@ -486,25 +486,25 @@
 				<attack type="FIRE" value="330" />
 			</attribute>
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="7" /> <!-- Spirits -->
 			<skill id="5462" level="1" /> <!-- Fire Attack -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="13" />
 			<height normal="55" />
 		</collision>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="1713" max="3998" chance="20" /> <!-- Adena -->
 				<item id="37791" min="1" max="1" chance="0.03" /> <!-- Sealed Demonic Tome -->
 				<item id="37778" min="1" max="1" chance="0.003" /> <!-- Scroll of Blessing Scraps: Weapon (R99-grade) -->
 				<item id="37775" min="1" max="1" chance="0.0009" /> <!-- Recipe: Scroll of Blessing: Weapon (R99-grade) -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 	</npc>
 	<npc id="23815" level="99" type="L2Monster" name="Cantera Bridget">
 		<!-- Source: www.l2wiki.com -->
@@ -523,15 +523,15 @@
 				<attack type="FIRE" value="330" />
 			</attribute>
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="5462" level="1" /> <!-- Fire Attack -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="35" />
 			<height normal="47.5" />
 		</collision>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="1713" max="3998" chance="20" /> <!-- Adena -->
 				<item id="37791" min="1" max="1" chance="0.03" /> <!-- Sealed Demonic Tome -->
@@ -539,9 +539,9 @@
 				<item id="36919" min="1" max="1" chance="0.0009" /> <!-- Recipe: Weapon Fragment (High-grade) - Downgrade -->
 				<item id="37784" min="1" max="1" chance="0.0009" /> <!-- Recipe: Scroll of Blessing: Armor (R99-grade) -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 	</npc>
 </list>

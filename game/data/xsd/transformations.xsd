@@ -433,14 +433,6 @@
 						</xs:attribute>
 						<xs:attribute name="setName" type="xs:string" use="optional" />
 						<xs:attribute name="setTitle" type="xs:string" use="optional" />
-						<xs:attribute name="allow_all_skills" use="optional">
-							<xs:simpleType>
-								<xs:restriction base="xs:nonNegativeInteger">
-									<xs:minInclusive value="0" />
-									<xs:maxInclusive value="1" />
-								</xs:restriction>
-							</xs:simpleType>
-						</xs:attribute>
 					</xs:complexType>
 				</xs:element>
 			</xs:sequence>

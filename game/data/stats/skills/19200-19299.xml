@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
 	<skill id="19200" toLevel="1" name="Gravity Sign">
 		<!-- For 30 sec., P./M. Def. + 10%. -->
+		<icon>icon.skill1997</icon>
 		<abnormalType>1</abnormalType>
 		<abnormalTime>30</abnormalTime>
 		<abnormalType>PUBLIC_SLOT</abnormalType>
-		<icon>icon.skill1997</icon>
 		<operateType>A2</operateType>
 		<effectPoint>2</effectPoint>
 		<isMagic>4</isMagic>
@@ -21,12 +21,11 @@
 		</effects>
 	</skill>
 	<skill id="19201" toLevel="1" name="Paladin's Protection">
-		<!-- TODO abnormalType -->
 		<!-- For 15 sec., all party members' P. Def. + 200%, P. Evastion + 8, Speed + 20. Consumes 5 Soulstones. -->
+		<icon>icon.skill19201</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>15</abnormalTime>
 		<abnormalVisualEffect>PALADIN_PROTECTION</abnormalVisualEffect>
-		<icon>icon.skill19201</icon>
 		<itemConsumeCount>5</itemConsumeCount>
 		<itemConsumeId>1785</itemConsumeId> <!-- Soulstones -->
 		<operateType>A2</operateType>
@@ -54,12 +53,11 @@
 		</effects>
 	</skill>
 	<skill id="19202" toLevel="1" name="Sentinel's Protection">
-		<!-- TODO abnormalType -->
 		<!-- For 15 sec., all party members' M. Def. + 200%, M. Evastion + 8, Speed + 20. Consumes 5 Soulstones. -->
+		<icon>icon.skill19202</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>15</abnormalTime>
 		<abnormalVisualEffect>SENTINEL_PROTECTION</abnormalVisualEffect>
-		<icon>icon.skill19202</icon>
 		<itemConsumeCount>5</itemConsumeCount>
 		<itemConsumeId>1785</itemConsumeId> <!-- Soulstones -->
 		<operateType>A2</operateType>
@@ -87,12 +85,12 @@
 		</effects>
 	</skill>
 	<skill id="19203" toLevel="1" name="Ultimate Bullseye">
-		<!-- Decreases target's Bow/Crossbow Resistance by 60% for 7 seconds. Does not cancel when striking. Consumes 1 Soulstone. -->
+		<!-- Decreases target's Bow/Crossbow Resistance by $s2 for $s1. Does not cancel when striking. Consumes $s3 Soulstone. -->
+		<icon>icon.skill19203</icon>
 		<abnormalLvl>8</abnormalLvl>
 		<abnormalTime>7</abnormalTime>
 		<abnormalType>REAL_TARGET</abnormalType>
 		<abnormalVisualEffect>REAL_TARGET</abnormalVisualEffect>
-		<icon>icon.skill19203</icon>
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>1785</itemConsumeId> <!-- Soulstones -->
 		<operateType>A2</operateType>
@@ -124,7 +122,8 @@
 		</effects>
 	</skill>
 	<skill id="19204" toLevel="1" name="Prophecy of Might">
-		<!-- Increases Critical Rate and Damage of general attacks and skills of selected party member by 25% for 5 minutes. Consumes 5 Spirit Ores. -->
+		<!-- Increases Critical Rate and Damage of general attacks and skills of selected party member by $s1 for $s2. Consumes $s3 Spirit Ores. -->
+		<icon>icon.skill19204</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>
 			<value fromLevel="1" toLevel="1">300</value>
@@ -132,7 +131,6 @@
 			<value fromLevel="1" toLevel="1" fromSubLevel="1011" toSubLevel="1030">{base + 10 + 0.5 * subIndex}</value>
 		</abnormalTime>
 		<abnormalType>SONG_WEAPON</abnormalType> <!-- find proper name -->
-		<icon>icon.skill19204</icon>
 		<itemConsumeCount>5</itemConsumeCount>
 		<itemConsumeId>3031</itemConsumeId> <!-- Spirit Ores -->
 		<operateType>A2</operateType>
@@ -173,7 +171,8 @@
 		</effects>
 	</skill>
 	<skill id="19205" toLevel="1" name="Song of Archery">
-		<!-- Increases Bow/Crossbow Resistance of all party members by 50% for 30 seconds. Consumes 5 Spirit Ores. -->
+		<!-- Increases Bow/Crossbow Resistance of all party members by $s2 for $s1. Consumes $s3 Spirit Ores. -->
+		<icon>icon.skillsongofarchery</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>
 			<value fromLevel="1" toLevel="1">30</value>
@@ -182,7 +181,6 @@
 		</abnormalTime>
 		<abnormalType>SONG_OF_ARCHERY</abnormalType>
 		<affectRange>1000</affectRange>
-		<icon>icon.skillsongofarchery</icon>
 		<itemConsumeCount>5</itemConsumeCount>
 		<itemConsumeId>3031</itemConsumeId> <!-- Spirit Ores -->
 		<operateType>A2</operateType>
@@ -202,7 +200,8 @@
 		</effects>
 	</skill>
 	<skill id="19206" toLevel="1" name="Sage's Dance">
-		<!-- Increases M. Def. of all party members by 50% for 30 seconds. Consumes 5 Spirit Ores. -->
+		<!-- Increases M. Def. of all party members by $s2 for $s1. Consumes $s3 Spirit Ores. -->
+		<icon>icon.skilldanceofwisdom</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>
 			<value fromLevel="1" toLevel="1">30</value>
@@ -211,7 +210,6 @@
 		</abnormalTime>
 		<abnormalType>DANCE_OF_SAGE</abnormalType>
 		<affectRange>1000</affectRange>
-		<icon>icon.skilldanceofwisdom</icon>
 		<itemConsumeCount>5</itemConsumeCount>
 		<itemConsumeId>3031</itemConsumeId> <!-- Spirit Ores -->
 		<operateType>A2</operateType>
@@ -231,7 +229,8 @@
 		</effects>
 	</skill>
 	<skill id="19207" toLevel="1" name="Chant of Bison">
-		<!-- Increases P. Atk./M. Atk. by 10% and P. Accuracy/M. Accuracy by 4 for all party members for 5 minutes. Consumes 10 Spirit Ores. -->
+		<!-- Increases P. Atk./M. Atk. by $s2 and P. Accuracy/M. Accuracy by $s3 for all party members for $s1. Consumes $s4 Spirit Ores. -->
+		<icon>icon.skill19207</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>
 			<value fromLevel="1" toLevel="1">300</value>
@@ -240,7 +239,6 @@
 		</abnormalTime>
 		<abnormalType>SONG_WEAPON</abnormalType> <!-- find proper name -->
 		<affectRange>1000</affectRange>
-		<icon>icon.skill19207</icon>
 		<itemConsumeCount>10</itemConsumeCount>
 		<itemConsumeId>3031</itemConsumeId> <!-- Spirit Ores -->
 		<operateType>A2</operateType>
@@ -272,8 +270,7 @@
 		</effects>
 	</skill>
 	<skill id="19208" toLevel="1" name="Seal of Restriction">
-		<!-- Updated to IO -->
-		<!-- Casts a curse that prevents the target and nearby enemies from receiving Invincibility for 30 seconds during PvP. Consumes 5 Spirit Ores. -->
+		<!-- In PvP, blocks use of physical/magic skills by the target and nearby enemies for $s1, and casts a curse that prevents invincibility. Consumes 5 Spirit Ores. -->
 		<icon>icon.skill19208</icon>
 		<operateType>A2</operateType>
 		<targetType>SELF</targetType>
@@ -324,8 +321,7 @@
 		</effects>
 	</skill>
 	<skill id="19209" toLevel="1" name="Divinity of Einhasad">
-		<!-- Updated to IO -->
-		<!-- Decreases Magic Skill MP Consumption by 30% and has a 100% to result in a Critical when using 'Radiant Heal', 'Panic Heal', or 'Brilliant Heal'. Consumes 5 Spirit Ores. -->
+		<!-- Decreases Magic Skill MP Consumption by $s2 and has a $s3 to result in a Critical when using 'Radiant Heal', 'Panic Heal', or 'Brilliant Heal' for $s1. Consumes $s4 Spirit Ores. -->
 		<icon>icon.skill19209</icon>
 		<operateType>A2</operateType>
 		<mpConsume>46</mpConsume>
@@ -341,7 +337,6 @@
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<magicLvl>101</magicLvl>
-		<rideState>NONE</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<itemConsumeCount>5</itemConsumeCount>
@@ -356,8 +351,7 @@
 		</effects>
 	</skill>
 	<skill id="19210" toLevel="1" name="Summon Tree of Sephiroth">
-		<!-- Updated to IO -->
-		<!-- Summons an Enchanted Tree of Life that cannot be targeted. The summoned tree heals nearby party members for 30 seconds and casts a debuff canceling blessing. Consumes 5 Spirit Ores. -->
+		<!-- Summons an Enchanted Tree of Life that cannot be targeted. The summoned tree heals nearby party members for $s1 and casts a debuff canceling blessing. Consumes $s2 Spirit Ores. -->
 		<icon>icon.skill19210</icon>
 		<operateType>A1</operateType>
 		<targetType>SELF</targetType>
@@ -371,14 +365,13 @@
 		<effectPoint>1733</effectPoint>
 		<isMagic>1</isMagic>
 		<effectRange>1000</effectRange>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>3</hitCancelTime>
 		<itemConsumeCount>5</itemConsumeCount>
 		<itemConsumeId>3031</itemConsumeId> <!-- Spirit Ore -->
 		<effects>
 			<effect name="Summon">
-				<npcId>15154</npcId>
+				<npcId>15154</npcId> <!-- Mother Tree -->
 				<lifeTime>30</lifeTime>
 			</effect>
 			<effect name="ManaHeal" fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1030">
@@ -418,7 +411,6 @@
 		</effects>
 	</skill>
 	<skill id="19211" toLevel="1" name="Barrer for Test">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- For 1 min., puts a barrier around a party member. The barrier blocks 50000 damage. Consumes 5 Soulstones. -->
 		<icon>icon.skill19211</icon>
 		<operateType>A2</operateType>
@@ -431,8 +423,7 @@
 		<isMagic>1</isMagic>
 	</skill>
 	<skill id="19212" toLevel="1" name="Shillien Protection">
-		<!-- Updated to IO -->
-		<!-- Puts a barrier around a party member for 30 seconds. Recovers 100% CP/HP if dealt a death blow. Buff is deleted when the effect is applied. Consumes 5 Spirit Ores. -->
+		<!-- Puts a barrier around a party member for $s1. Recovers $s2 CP/HP if dealt a death blow. Buff is deleted when the effect is applied. Consumes $s3 Spirit Ores. -->
 		<icon>icon.skill19211</icon>
 		<operateType>A2</operateType>
 		<mpConsume>46</mpConsume>
@@ -462,13 +453,12 @@
 		<effects>
 			<effect name="TriggerSkillByDeathBlow">
 				<chance>100</chance>
-				<skillId>19221</skillId>
+				<skillId>19221</skillId> <!-- Power of Darkness -->
 				<skillLevel>1</skillLevel>
 			</effect>
 		</effects>
 	</skill>
 	<skill id="19213" toLevel="1" name="Polishing Arrows: Atk. Spd.">
-		<!-- Updated to IO -->
 		<!-- Creates 250 Enhanced Orichalcum Arrows with increased Atk. Spd. Consumes 1 Crystal (R-grade). -->
 		<icon>icon.skill_polishing_arrows</icon>
 		<operateType>A1</operateType>
@@ -495,7 +485,6 @@
 		</effects>
 	</skill>
 	<skill id="19214" toLevel="1" name="Polishing Bolts: Atk. Spd.">
-		<!-- Updated to IO -->
 		<!-- Creates 250 Enhanced Orichalcum Bolts with increased Atk. Spd. Consumes 1 Crystal (R-grade). -->
 		<icon>icon.skill_polishing_bolts</icon>
 		<operateType>A1</operateType>
@@ -522,7 +511,6 @@
 		</effects>
 	</skill>
 	<skill id="19215" toLevel="1" name="Polishing Arrows: P. Atk.">
-		<!-- Updated to IO -->
 		<!-- Creates 250 Enhanced Orichalcum Arrows with increased P. Atk. Consumes 1 Crystal (R-grade). -->
 		<icon>icon.skill_polishing_arrows</icon>
 		<operateType>A1</operateType>
@@ -549,7 +537,6 @@
 		</effects>
 	</skill>
 	<skill id="19216" toLevel="1" name="Polishing Bolts: P. Atk.">
-		<!-- Updated to IO -->
 		<!-- Creates 250 Enhanced Orichalcum Bolts with increased P. Atk. Consumes 1 Crystal (R-grade). -->
 		<icon>icon.skill_polishing_bolts</icon>
 		<operateType>A1</operateType>
@@ -576,7 +563,6 @@
 		</effects>
 	</skill>
 	<skill id="19217" toLevel="1" name="Polishing Arrows: Added Blow">
-		<!-- Updated to IO -->
 		<!-- Creates 250 Enhanced Orichalcum Arrows with Additional Hit. Consumes 1 Crystal (R-grade). -->
 		<icon>icon.skill_polishing_arrows</icon>
 		<operateType>A1</operateType>
@@ -603,7 +589,6 @@
 		</effects>
 	</skill>
 	<skill id="19218" toLevel="1" name="Polishing Bolts: Added Blow">
-		<!-- Updated to IO -->
 		<!-- Creates 250 Enhanced Orichalcum Bolts with Additional Hit. Consumes 1 Crystal (R-grade). -->
 		<icon>icon.skill_polishing_bolts</icon>
 		<operateType>A1</operateType>
@@ -630,7 +615,6 @@
 		</effects>
 	</skill>
 	<skill id="19219" toLevel="1" name="Blessing of Tree">
-		<!-- Updated to IO -->
 		<!-- Recovers HP and removes bad abnormal statuses. -->
 		<icon>icon.skill1258</icon>
 		<operateType>A1</operateType>
@@ -641,7 +625,6 @@
 		<effectPoint>2</effectPoint>
 		<isMagic>1</isMagic>
 		<magicLvl>101</magicLvl>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<affectRange>200</affectRange>
 		<effects>
@@ -658,7 +641,6 @@
 	</skill>
 	<skill id="19220" toLevel="1" name="Sharing Equipment">
 		<!-- For 30 min., the ability of the equipped item transfers to your servitor. Consumes 5 Spirit Ores. -->
-		<!-- Info: Transfers PvP/PvE attack/defense from items, just as other SAs, but not augments. -->
 		<icon>icon.skill19220</icon>
 		<operateType>A2</operateType>
 		<abnormalLvl>1</abnormalLvl>
@@ -673,7 +655,6 @@
 		<itemConsumeCount>5</itemConsumeCount>
 		<itemConsumeId>3031</itemConsumeId> <!-- Spirit Ores -->
 		<effectPoint>418</effectPoint>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<castRange>900</castRange>
@@ -723,7 +704,6 @@
 		</effects>
 	</skill>
 	<skill id="19221" toLevel="1" name="Power of Darkness">
-		<!-- Updated to IO -->
 		<icon>Icon.skill1050</icon>
 		<operateType>A1</operateType>
 		<reuseDelay>5000</reuseDelay>
@@ -744,7 +724,7 @@
 		</effects>
 	</skill>
 	<skill id="19222" toLevel="3" name="Dignity of the Exalted">
-		<!-- STR/DEX/CON/INT/WIT/MEN/CHA + 1 -->
+		<!-- STR + $s1, DEX + $s2, CON + $s3, INT + $s4, WIT + $s5, MEN + $s6, CHA + $s7. -->
 		<icon>icon.skill19222</icon>
 		<operateType>P</operateType>
 		<excludedFromCheck>true</excludedFromCheck>
@@ -819,11 +799,9 @@
 		<hitTime>5000</hitTime>
 		<coolTime>500</coolTime>
 		<reuseDelay>600000</reuseDelay>
-		<icon>icon.skill0821</icon>
 		<magicLvl>99</magicLvl>
 		<itemConsumeId>3031</itemConsumeId> <!-- Spirit Ore -->
 		<itemConsumeCount>100</itemConsumeCount>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>MY_PARTY</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -857,7 +835,6 @@
 		<itemConsumeId>3031</itemConsumeId> <!-- Spirit Ore -->
 		<itemConsumeCount>40</itemConsumeCount>
 		<magicLvl>99</magicLvl>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>SELF</targetType>
@@ -893,7 +870,7 @@
 		</effects>
 	</skill>
 	<skill id="19226" toLevel="2" name="Favor of the Exalted">
-		<!-- For 1 hr., increases gained XP/SP by 3%. Consumes 40 Spirit Ores. -->
+		<!-- For $s1 hr., increases gained XP/SP by $s2. Consumes $s3 Spirit Ores. -->
 		<icon>icon.skill19226</icon>
 		<operateType>A2</operateType>
 		<excludedFromCheck>true</excludedFromCheck>
@@ -934,7 +911,8 @@
 		</effects>
 	</skill>
 	<skill id="19227" toLevel="2" name="Wind Hiding">
-		<!-- Blends into the wind for 5 seconds. Increases Speed by 14. Canceled when using normal attacks or attack skills. -->
+		<!-- Blends into the wind for $s1. Increases Speed by $s2. Canceled when using normal attacks or attack skills. -->
+		<icon>icon.skill30008</icon>
 		<abnormalLvl>
 			<value level="1">1</value>
 			<value level="2">2</value>
@@ -949,7 +927,6 @@
 			<value level="1">20</value>
 			<value level="2">85</value>
 		</magicLvl>
-		<icon>icon.skill30008</icon>
 		<operateType>A2</operateType>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -967,13 +944,12 @@
 		</effects>
 	</skill>
 	<skill id="19228" toLevel="1" name="Song of Thief">
-		<!-- Updated to IO -->
-		<!-- Increases Dagger/Dual Dagger Resistance of all party members by 50% for 30 seconds. Consumes 5 Spirit Ores. -->
+		<!-- Increases Dagger/Dual Dagger Resistance of all party members by $s2 for $s1. Consumes $s3 Spirit Ores. -->
+		<icon>icon.skill19228</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>30</abnormalTime>
 		<abnormalType>SONG_OF_THIEF</abnormalType> <!-- TODO: confirm -->
 		<affectRange>1000</affectRange>
-		<icon>icon.skill19228</icon>
 		<itemConsumeCount>5</itemConsumeCount>
 		<itemConsumeId>3031</itemConsumeId> <!-- Spirit Ores -->
 		<operateType>A2</operateType>
@@ -994,7 +970,6 @@
 		</effects>
 	</skill>
 	<skill id="19229" toLevel="1" name="Fate of the Exalted">
-		<!-- Updated to IO -->
 		<!-- LUC + 3. -->
 		<icon>icon.skill19222</icon>
 		<operateType>P</operateType>
@@ -1008,18 +983,19 @@
 		</effects>
 	</skill>
 	<skill id="19230" toLevel="30" name="MP Recovery">
+		<!-- MP Recovery Bonus + $s2 for $s1. -->
+		<icon>icon.skill1047</icon>
 		<abnormalLvl>5</abnormalLvl>
 		<abnormalTime>15</abnormalTime>
 		<abnormalType>MP_REGEN_UP</abnormalType>
-		<icon>icon.skill1047</icon>
 		<operateType>A2</operateType>
 		<effectPoint>635</effectPoint>
 		<abnormalTime>15</abnormalTime>
 		<isMagic>1</isMagic>
 	</skill>
 	<skill id="19231" toLevel="1" name="Song of Wisdom">
-		<!-- Updated to IO -->
-		<!-- Party's M. Atk. + 30%% for 30 seconds. Consumes 5 Spirit Ores. -->
+		<!-- For $s1, all party members' M. Atk. +$s2, M. Skill Power +$s3. Consumes 5 Spirit Ores. -->
+		<icon>icon.skill19231</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>
 			<value fromLevel="1" toLevel="1">30</value>
@@ -1028,7 +1004,6 @@
 		</abnormalTime>
 		<abnormalType>SONG_OF_WISDOM</abnormalType> <!-- TODO: confirm -->
 		<affectRange>1000</affectRange>
-		<icon>icon.skill19231</icon>
 		<itemConsumeCount>5</itemConsumeCount>
 		<itemConsumeId>3031</itemConsumeId> <!-- Spirit Ores -->
 		<operateType>A2</operateType>
@@ -1052,8 +1027,8 @@
 		</effects>
 	</skill>
 	<skill id="19232" toLevel="1" name="Crippling Dance">
-		<!-- Updated to HELIOS -->
-		<!-- Party's P. Skill Power + 30%% for 30 seconds. Consumes 5 Spirit Ores. -->
+		<!-- For $s1, all party members' P. Atk. +$s2, P. Skill Power +$s3. Consumes 5 Spirit Ores. -->
+		<icon>icon.skill19232</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>
 			<value fromLevel="1" toLevel="1">30</value>
@@ -1062,7 +1037,6 @@
 		</abnormalTime>
 		<abnormalType>CRIPPLING_DANCE</abnormalType> <!-- TODO: confirm -->
 		<affectRange>1000</affectRange>
-		<icon>icon.skill19232</icon>
 		<itemConsumeCount>5</itemConsumeCount>
 		<itemConsumeId>3031</itemConsumeId> <!-- Spirit Ores -->
 		<operateType>A2</operateType>

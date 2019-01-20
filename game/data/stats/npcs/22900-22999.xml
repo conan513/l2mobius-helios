@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/npcs.xsd">
 	<npc id="22900" level="93" type="L2Monster" name="Satyr Summoner" title="Brutal">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -32,7 +32,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
 			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
 			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
@@ -44,13 +44,13 @@
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14047" level="4" /> <!-- Fairy Curse Poison -->
 			<skill id="14765" level="3" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="300" isAggressive="true" clanHelpRange="300">
-			<clan_list>
+			<clanList>
 				<clan>M_FAIRY</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="748" max="1743" chance="70" /> <!-- Adena -->
 				<item id="17333" min="1" max="1" chance="0.003" /> <!-- Apocalypse Caster -->
@@ -73,17 +73,17 @@
 				<item id="40205" min="1" max="1" chance="17.84" /> <!-- Requiem Fragment -->
 				<item id="40210" min="1" max="1" chance="0.003" /> <!-- Recipe: R (100%) -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="15" />
 			<height normal="42" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22901" level="92" type="L2Monster" name="Satyr Summoner" title="Fully Enraged">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -117,7 +117,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5463" level="1" /> <!-- Water Attack -->
 			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
 			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
@@ -129,13 +129,13 @@
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14047" level="4" /> <!-- Fairy Curse Poison -->
 			<skill id="14765" level="3" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="300" isAggressive="true" clanHelpRange="300">
-			<clan_list>
+			<clanList>
 				<clan>M_FAIRY</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="682" max="1592" chance="70" /> <!-- Adena -->
 				<item id="17333" min="1" max="1" chance="0.003" /> <!-- Apocalypse Caster -->
@@ -156,17 +156,17 @@
 				<item id="40205" min="1" max="1" chance="16.88" /> <!-- Requiem Fragment -->
 				<item id="40210" min="1" max="1" chance="0.003" /> <!-- Recipe: R (100%) -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="15" />
 			<height normal="28" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22902" level="92" type="L2Monster" name="Satyr Summoner" title="Slightly Enraged">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -200,7 +200,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5463" level="1" /> <!-- Water Attack -->
 			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
 			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
@@ -210,13 +210,13 @@
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14047" level="4" /> <!-- Fairy Curse Poison -->
 			<skill id="14765" level="3" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="300" isAggressive="true" clanHelpRange="300">
-			<clan_list>
+			<clanList>
 				<clan>M_FAIRY</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="617" max="1441" chance="70" /> <!-- Adena -->
 				<item id="17333" min="1" max="1" chance="0.003" /> <!-- Apocalypse Caster -->
@@ -238,17 +238,17 @@
 				<item id="40205" min="1" max="1" chance="15.68" /> <!-- Requiem Fragment -->
 				<item id="40210" min="1" max="1" chance="0.003" /> <!-- Recipe: R (100%) -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="15" />
 			<height normal="28" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22903" level="88" type="L2Monster" name="Satyr Witch">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -282,7 +282,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5463" level="1" /> <!-- Water Attack -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="4408" level="7" /> <!-- HP Very High -->
@@ -291,13 +291,13 @@
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14046" level="3" /> <!-- Fairy Curse Gloom -->
 			<skill id="14765" level="2" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="300" isAggressive="true" clanHelpRange="300">
-			<clan_list>
+			<clanList>
 				<clan>M_FAIRY</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="404" max="941" chance="70" /> <!-- Adena -->
 				<item id="17332" min="1" max="1" chance="0.000900000000000008" /> <!-- Apocalypse Buster -->
@@ -318,17 +318,17 @@
 				<item id="40205" min="1" max="1" chance="9.767" /> <!-- Requiem Fragment -->
 				<item id="40210" min="1" max="1" chance="0.003" /> <!-- Recipe: R (100%) -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="15" />
 			<height normal="28" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22904" level="90" type="L2Monster" name="Satyr Witch" title="Wicked">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -362,7 +362,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
 			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
 			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
@@ -373,13 +373,13 @@
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14046" level="3" /> <!-- Fairy Curse Gloom -->
 			<skill id="14765" level="2" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="300" isAggressive="true" clanHelpRange="300">
-			<clan_list>
+			<clanList>
 				<clan>M_FAIRY</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="590" max="1377" chance="70" /> <!-- Adena -->
 				<item id="17332" min="1" max="1" chance="0.000900000000000008" /> <!-- Apocalypse Buster -->
@@ -401,17 +401,17 @@
 				<item id="40205" min="1" max="1" chance="14.39" /> <!-- Requiem Fragment -->
 				<item id="40210" min="1" max="1" chance="0.003" /> <!-- Recipe: R (100%) -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="15" />
 			<height normal="42" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22905" level="89" type="L2Monster" name="Satyr Witch" title="Mature">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -445,7 +445,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5463" level="1" /> <!-- Water Attack -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="4408" level="11" /> <!-- HP Increase (3x) -->
@@ -454,13 +454,13 @@
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14046" level="3" /> <!-- Fairy Curse Gloom -->
 			<skill id="14765" level="2" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="300" isAggressive="true" clanHelpRange="300">
-			<clan_list>
+			<clanList>
 				<clan>M_FAIRY</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="513" max="1195" chance="70" /> <!-- Adena -->
 				<item id="17332" min="1" max="1" chance="0.000900000000000008" /> <!-- Apocalypse Buster -->
@@ -481,17 +481,17 @@
 				<item id="40205" min="1" max="1" chance="13.05" /> <!-- Requiem Fragment -->
 				<item id="40210" min="1" max="1" chance="0.003" /> <!-- Recipe: R (100%) -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="15" />
 			<height normal="28" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22906" level="89" type="L2Monster" name="Satyr Witch" title="Imperfect">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -525,7 +525,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5463" level="1" /> <!-- Water Attack -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
@@ -534,13 +534,13 @@
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14046" level="3" /> <!-- Fairy Curse Gloom -->
 			<skill id="14765" level="2" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="300" isAggressive="true" clanHelpRange="300">
-			<clan_list>
+			<clanList>
 				<clan>M_FAIRY</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="434" max="1012" chance="70" /> <!-- Adena -->
 				<item id="17332" min="1" max="1" chance="0.000900000000000008" /> <!-- Apocalypse Buster -->
@@ -562,17 +562,17 @@
 				<item id="40205" min="1" max="1" chance="10.88" /> <!-- Requiem Fragment -->
 				<item id="40210" min="1" max="1" chance="0.003" /> <!-- Recipe: R (100%) -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="15" />
 			<height normal="28" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22907" level="91" type="L2Monster" name="Satyr Witch" title="Violent">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -606,7 +606,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5463" level="1" /> <!-- Water Attack -->
 			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
 			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
@@ -617,13 +617,13 @@
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14046" level="4" /> <!-- Fairy Curse Gloom -->
 			<skill id="14765" level="3" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="300" isAggressive="true" clanHelpRange="300">
-			<clan_list>
+			<clanList>
 				<clan>M_FAIRY</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="537" max="1253" chance="70" /> <!-- Adena -->
 				<item id="17332" min="1" max="1" chance="0.000900000000000008" /> <!-- Apocalypse Buster -->
@@ -644,17 +644,17 @@
 				<item id="40205" min="1" max="1" chance="13.58" /> <!-- Requiem Fragment -->
 				<item id="40210" min="1" max="1" chance="0.003" /> <!-- Recipe: R (100%) -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="15" />
 			<height normal="28" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22908" level="93" type="L2Monster" name="Satyr Witch" title="Brutal">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -688,7 +688,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
 			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
 			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
@@ -701,13 +701,13 @@
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14046" level="4" /> <!-- Fairy Curse Gloom -->
 			<skill id="14765" level="3" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="300" isAggressive="true" clanHelpRange="300">
-			<clan_list>
+			<clanList>
 				<clan>M_FAIRY</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="748" max="1743" chance="70" /> <!-- Adena -->
 				<item id="17332" min="1" max="1" chance="0.003" /> <!-- Apocalypse Buster -->
@@ -730,17 +730,17 @@
 				<item id="40205" min="1" max="1" chance="18.02" /> <!-- Requiem Fragment -->
 				<item id="40210" min="1" max="1" chance="0.003" /> <!-- Recipe: R (100%) -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="15" />
 			<height normal="42" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22909" level="92" type="L2Monster" name="Satyr Witch" title="Fully Enraged">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -774,7 +774,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5463" level="1" /> <!-- Water Attack -->
 			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
 			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
@@ -787,13 +787,13 @@
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14046" level="4" /> <!-- Fairy Curse Gloom -->
 			<skill id="14765" level="3" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="300" isAggressive="true" clanHelpRange="300">
-			<clan_list>
+			<clanList>
 				<clan>M_FAIRY</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="682" max="1592" chance="70" /> <!-- Adena -->
 				<item id="17332" min="1" max="1" chance="0.003" /> <!-- Apocalypse Buster -->
@@ -814,17 +814,17 @@
 				<item id="40205" min="1" max="1" chance="16.29" /> <!-- Requiem Fragment -->
 				<item id="40210" min="1" max="1" chance="0.003" /> <!-- Recipe: R (100%) -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="15" />
 			<height normal="28" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22910" level="92" type="L2Monster" name="Satyr Witch" title="Slightly Enraged">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -858,7 +858,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5463" level="1" /> <!-- Water Attack -->
 			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
 			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
@@ -869,13 +869,13 @@
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14046" level="4" /> <!-- Fairy Curse Gloom -->
 			<skill id="14765" level="3" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="300" isAggressive="true" clanHelpRange="300">
-			<clan_list>
+			<clanList>
 				<clan>M_FAIRY</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="617" max="1441" chance="70" /> <!-- Adena -->
 				<item id="17332" min="1" max="1" chance="0.003" /> <!-- Apocalypse Buster -->
@@ -896,17 +896,17 @@
 				<item id="36532" min="1" max="1" chance="10.79" /> <!-- Thin Braid -->
 				<item id="36533" min="1" max="1" chance="2.049" /> <!-- Synthetic Braid -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="15" />
 			<height normal="28" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22911" level="95" type="L2Monster" name="Orbis' Victim">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -940,7 +940,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" randomAnimation="false" randomWalk="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
 			<skill id="4458" level="1" /> <!-- Spear Vulnerability -->
 			<skill id="4457" level="1" /> <!-- Fist Weapon Vulnerability -->
@@ -948,38 +948,38 @@
 			<skill id="4415" level="4" /> <!-- One-handed Sword -->
 			<skill id="14001" level="1" /> <!-- Cross Slash -->
 			<skill id="14765" level="3" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="150" isAggressive="true" clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="5119" max="11940" chance="70" /> <!-- Adena -->
 				<item id="35297" min="1" max="1" chance="0.3" /> <!-- Specter Cutter Fragment -->
 				<item id="35315" min="1" max="1" chance="0.3" /> <!-- Seraph Leather Legging Ingredient -->
 				<item id="36553" min="1" max="1" chance="0.3" /> <!-- Armor Fragment (Mid-grade) -->
 				<item id="36554" min="1" max="1" chance="0.03" /> <!-- Armor Fragment (High-grade) -->
-				<item id="35421" min="1" max="1" chance="0.003" /> <!-- Recipe:Β Specter Cutter (60%) -->
-				<item id="35439" min="1" max="1" chance="0.003" /> <!-- Recipe:Β Seraph Leather Leggings (60%) -->
+				<item id="35421" min="1" max="1" chance="0.003" /> <!-- Recipe: Specter Cutter (60%) -->
+				<item id="35439" min="1" max="1" chance="0.003" /> <!-- Recipe: Seraph Leather Leggings (60%) -->
 			</drop>
 			<spoil>
 				<item id="36553" min="1" max="1" chance="0.75" /> <!-- Armor Fragment (Mid-grade) -->
 				<item id="19440" min="1" max="1" chance="0.3" /> <!-- Gemstone (R-grade) -->
 				<item id="36554" min="1" max="1" chance="0.075" /> <!-- Armor Fragment (High-grade) -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="30" />
 			<height normal="51" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22912" level="95" type="L2Monster" name="Orbis' Victim">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -1013,7 +1013,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" randomAnimation="false" randomWalk="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
 			<skill id="4410" level="9" /> <!-- Slightly Weak P. Atk. -->
 			<skill id="4458" level="1" /> <!-- Spear Vulnerability -->
@@ -1022,38 +1022,38 @@
 			<skill id="4415" level="4" /> <!-- One-handed Sword -->
 			<skill id="14001" level="1" /> <!-- Cross Slash -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="150" isAggressive="true" clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="5119" max="11940" chance="70" /> <!-- Adena -->
 				<item id="35297" min="1" max="1" chance="0.3" /> <!-- Specter Cutter Fragment -->
 				<item id="35315" min="1" max="1" chance="0.3" /> <!-- Seraph Leather Legging Ingredient -->
 				<item id="36553" min="1" max="1" chance="0.3" /> <!-- Armor Fragment (Mid-grade) -->
 				<item id="36554" min="1" max="1" chance="0.03" /> <!-- Armor Fragment (High-grade) -->
-				<item id="35421" min="1" max="1" chance="0.003" /> <!-- Recipe:Β Specter Cutter (60%) -->
-				<item id="35439" min="1" max="1" chance="0.003" /> <!-- Recipe:Β Seraph Leather Leggings (60%) -->
+				<item id="35421" min="1" max="1" chance="0.003" /> <!-- Recipe: Specter Cutter (60%) -->
+				<item id="35439" min="1" max="1" chance="0.003" /> <!-- Recipe: Seraph Leather Leggings (60%) -->
 			</drop>
 			<spoil>
 				<item id="36553" min="1" max="1" chance="0.75" /> <!-- Armor Fragment (Mid-grade) -->
 				<item id="19440" min="1" max="1" chance="0.3" /> <!-- Gemstone (R-grade) -->
 				<item id="36554" min="1" max="1" chance="0.075" /> <!-- Armor Fragment (High-grade) -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="30" />
 			<height normal="51" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22913" level="95" type="L2Monster" name="Orbis' Victim">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -1087,7 +1087,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" randomAnimation="false" randomWalk="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
 			<skill id="4458" level="1" /> <!-- Spear Vulnerability -->
 			<skill id="4457" level="1" /> <!-- Fist Weapon Vulnerability -->
@@ -1096,38 +1096,38 @@
 			<skill id="4415" level="4" /> <!-- One-handed Sword -->
 			<skill id="14001" level="1" /> <!-- Cross Slash -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="150" isAggressive="true" clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="5119" max="11940" chance="70" /> <!-- Adena -->
 				<item id="35297" min="1" max="1" chance="0.3" /> <!-- Specter Cutter Fragment -->
 				<item id="35315" min="1" max="1" chance="0.3" /> <!-- Seraph Leather Legging Ingredient -->
 				<item id="36553" min="1" max="1" chance="0.3" /> <!-- Armor Fragment (Mid-grade) -->
 				<item id="36554" min="1" max="1" chance="0.03" /> <!-- Armor Fragment (High-grade) -->
-				<item id="35421" min="1" max="1" chance="0.003" /> <!-- Recipe:Β Specter Cutter (60%) -->
-				<item id="35439" min="1" max="1" chance="0.003" /> <!-- Recipe:Β Seraph Leather Leggings (60%) -->
+				<item id="35421" min="1" max="1" chance="0.003" /> <!-- Recipe: Specter Cutter (60%) -->
+				<item id="35439" min="1" max="1" chance="0.003" /> <!-- Recipe: Seraph Leather Leggings (60%) -->
 			</drop>
 			<spoil>
 				<item id="36553" min="1" max="1" chance="0.75" /> <!-- Armor Fragment (Mid-grade) -->
 				<item id="19440" min="1" max="1" chance="0.3" /> <!-- Gemstone (R-grade) -->
 				<item id="36554" min="1" max="1" chance="0.075" /> <!-- Armor Fragment (High-grade) -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="30" />
 			<height normal="51" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22914" level="95" type="L2Monster" name="Orbis' Guard">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -1161,7 +1161,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" randomAnimation="false" randomWalk="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
 			<skill id="4458" level="1" /> <!-- Spear Vulnerability -->
 			<skill id="4457" level="1" /> <!-- Fist Weapon Vulnerability -->
@@ -1169,36 +1169,36 @@
 			<skill id="4415" level="12" /> <!-- Spear -->
 			<skill id="14765" level="3" /> <!-- Blood Siphon Resistance -->
 			<skill id="14004" level="1" /> <!-- Front Elven Bow -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="150" isAggressive="true" clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="17387" min="1" max="1" chance="0.0009" /> <!-- Specter Stormer -->
 				<item id="57" min="5119" max="11940" chance="70" /> <!-- Adena -->
 				<item id="35301" min="1" max="1" chance="0.075" /> <!-- Specter Stormer Fragment -->
 				<item id="35309" min="1" max="1" chance="0.075" /> <!-- Seraph Gaiter Ingredient -->
-				<item id="35425" min="1" max="1" chance="0.003" /> <!-- Recipe:Β Specter Stormer (60%) -->
-				<item id="35433" min="1" max="1" chance="0.003" /> <!-- Recipe:Β Seraph Gaiters (60%) -->
+				<item id="35425" min="1" max="1" chance="0.003" /> <!-- Recipe: Specter Stormer (60%) -->
+				<item id="35433" min="1" max="1" chance="0.003" /> <!-- Recipe: Seraph Gaiters (60%) -->
 			</drop>
 			<spoil>
 				<item id="36534" min="1" max="1" chance="0.75" /> <!-- Durable Braid -->
 				<item id="17526" min="1" max="1" chance="0.03" /> <!-- Scroll: Enchant Weapon (R-grade) -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="30" />
 			<height normal="54" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22915" level="95" type="L2Monster" name="Orbis' Guard">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -1232,7 +1232,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" randomAnimation="false" randomWalk="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
 			<skill id="4410" level="9" /> <!-- Slightly Weak P. Atk. -->
 			<skill id="4458" level="1" /> <!-- Spear Vulnerability -->
@@ -1241,36 +1241,36 @@
 			<skill id="4415" level="12" /> <!-- Spear -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
 			<skill id="14004" level="1" /> <!-- Front Elven Bow -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="150" isAggressive="true" clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="17387" min="1" max="1" chance="0.0009" /> <!-- Specter Stormer -->
 				<item id="57" min="5119" max="11940" chance="70" /> <!-- Adena -->
 				<item id="35301" min="1" max="1" chance="0.075" /> <!-- Specter Stormer Fragment -->
 				<item id="35309" min="1" max="1" chance="0.075" /> <!-- Seraph Gaiter Ingredient -->
-				<item id="35425" min="1" max="1" chance="0.003" /> <!-- Recipe:Β Specter Stormer (60%) -->
-				<item id="35433" min="1" max="1" chance="0.003" /> <!-- Recipe:Β Seraph Gaiters (60%) -->
+				<item id="35425" min="1" max="1" chance="0.003" /> <!-- Recipe: Specter Stormer (60%) -->
+				<item id="35433" min="1" max="1" chance="0.003" /> <!-- Recipe: Seraph Gaiters (60%) -->
 			</drop>
 			<spoil>
 				<item id="36534" min="1" max="1" chance="0.75" /> <!-- Durable Braid -->
 				<item id="17526" min="1" max="1" chance="0.03" /> <!-- Scroll: Enchant Weapon (R-grade) -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="30" />
 			<height normal="54" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22916" level="95" type="L2Monster" name="Orbis' Guard">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -1304,7 +1304,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" randomAnimation="false" randomWalk="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
 			<skill id="4458" level="1" /> <!-- Spear Vulnerability -->
 			<skill id="4457" level="1" /> <!-- Fist Weapon Vulnerability -->
@@ -1313,36 +1313,36 @@
 			<skill id="4415" level="12" /> <!-- Spear -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
 			<skill id="14004" level="1" /> <!-- Front Elven Bow -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="150" isAggressive="true" clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="17387" min="1" max="1" chance="0.0009" /> <!-- Specter Stormer -->
 				<item id="57" min="5119" max="11940" chance="70" /> <!-- Adena -->
 				<item id="35301" min="1" max="1" chance="0.075" /> <!-- Specter Stormer Fragment -->
 				<item id="35309" min="1" max="1" chance="0.075" /> <!-- Seraph Gaiter Ingredient -->
-				<item id="35425" min="1" max="1" chance="0.003" /> <!-- Recipe:Β Specter Stormer (60%) -->
-				<item id="35433" min="1" max="1" chance="0.003" /> <!-- Recipe:Β Seraph Gaiters (60%) -->
+				<item id="35425" min="1" max="1" chance="0.003" /> <!-- Recipe: Specter Stormer (60%) -->
+				<item id="35433" min="1" max="1" chance="0.003" /> <!-- Recipe: Seraph Gaiters (60%) -->
 			</drop>
 			<spoil>
 				<item id="36534" min="1" max="1" chance="0.75" /> <!-- Durable Braid -->
 				<item id="17526" min="1" max="1" chance="0.03" /> <!-- Scroll: Enchant Weapon (R-grade) -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="30" />
 			<height normal="54" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22917" level="95" type="L2Monster" name="Orbis' Thrower">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -1376,7 +1376,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" randomAnimation="false" randomWalk="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
 			<skill id="4410" level="5" /> <!-- Very Weak P. Atk. -->
 			<skill id="4411" level="5" /> <!-- Very Weak M. Atk. -->
@@ -1386,9 +1386,9 @@
 			<skill id="4415" level="10" /> <!-- Bow -->
 			<skill id="14006" level="1" /> <!-- Shield Stun -->
 			<skill id="14765" level="3" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="600" isAggressive="true" clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="17389" min="1" max="1" chance="0.0009" /> <!-- Specter Shooter -->
 				<item id="57" min="4095" max="9552" chance="70" /> <!-- Adena -->
@@ -1396,29 +1396,29 @@
 				<item id="35303" min="1" max="1" chance="0.075" /> <!-- Specter Shooter Fragment -->
 				<item id="35314" min="1" max="1" chance="0.03" /> <!-- Seraph Leather Armor Ingredient -->
 				<item id="36554" min="1" max="1" chance="0.03" /> <!-- Armor Fragment (High-grade) -->
-				<item id="35427" min="1" max="1" chance="0.003" /> <!-- Recipe:Β Specter Shooter (60%) -->
-				<item id="35438" min="1" max="1" chance="0.0009" /> <!-- Recipe:Β Seraph Leather Armor (60%) -->
+				<item id="35427" min="1" max="1" chance="0.003" /> <!-- Recipe: Specter Shooter (60%) -->
+				<item id="35438" min="1" max="1" chance="0.0009" /> <!-- Recipe: Seraph Leather Armor (60%) -->
 			</drop>
 			<spoil>
 				<item id="36553" min="1" max="1" chance="0.75" /> <!-- Armor Fragment (Mid-grade) -->
 				<item id="17527" min="1" max="1" chance="0.3" /> <!-- Scroll: Enchant Armor (R-grade) -->
 				<item id="36554" min="1" max="1" chance="0.075" /> <!-- Armor Fragment (High-grade) -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="35" />
 			<height normal="54" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22918" level="95" type="L2Monster" name="Orbis' Thrower">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -1452,7 +1452,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" randomAnimation="false" randomWalk="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
 			<skill id="4410" level="9" /> <!-- Very Weak P. Atk. -->
 			<skill id="4411" level="5" /> <!-- Very Weak M. Atk. -->
@@ -1462,9 +1462,9 @@
 			<skill id="4415" level="10" /> <!-- Bow -->
 			<skill id="14006" level="1" /> <!-- Shield Stun -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="600" isAggressive="true" clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="17389" min="1" max="1" chance="0.0009" /> <!-- Specter Shooter -->
 				<item id="57" min="4095" max="9552" chance="70" /> <!-- Adena -->
@@ -1472,29 +1472,29 @@
 				<item id="35303" min="1" max="1" chance="0.075" /> <!-- Specter Shooter Fragment -->
 				<item id="35314" min="1" max="1" chance="0.03" /> <!-- Seraph Leather Armor Ingredient -->
 				<item id="36554" min="1" max="1" chance="0.03" /> <!-- Armor Fragment (High-grade) -->
-				<item id="35427" min="1" max="1" chance="0.003" /> <!-- Recipe:Β Specter Shooter (60%) -->
-				<item id="35438" min="1" max="1" chance="0.0009" /> <!-- Recipe:Β Seraph Leather Armor (60%) -->
+				<item id="35427" min="1" max="1" chance="0.003" /> <!-- Recipe: Specter Shooter (60%) -->
+				<item id="35438" min="1" max="1" chance="0.0009" /> <!-- Recipe: Seraph Leather Armor (60%) -->
 			</drop>
 			<spoil>
 				<item id="36553" min="1" max="1" chance="0.75" /> <!-- Armor Fragment (Mid-grade) -->
 				<item id="17527" min="1" max="1" chance="0.3" /> <!-- Scroll: Enchant Armor (R-grade) -->
 				<item id="36554" min="1" max="1" chance="0.075" /> <!-- Armor Fragment (High-grade) -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="35" />
 			<height normal="54" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22919" level="95" type="L2Monster" name="Orbis' Thrower">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -1528,7 +1528,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" randomAnimation="false" randomWalk="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
 			<skill id="4410" level="5" /> <!-- Very Weak P. Atk. -->
 			<skill id="4411" level="5" /> <!-- Very Weak M. Atk. -->
@@ -1539,9 +1539,9 @@
 			<skill id="4415" level="10" /> <!-- Bow -->
 			<skill id="14006" level="1" /> <!-- Shield Stun -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="600" isAggressive="true" clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="17389" min="1" max="1" chance="0.0009" /> <!-- Specter Shooter -->
 				<item id="57" min="4095" max="9552" chance="70" /> <!-- Adena -->
@@ -1549,29 +1549,29 @@
 				<item id="35303" min="1" max="1" chance="0.075" /> <!-- Specter Shooter Fragment -->
 				<item id="35314" min="1" max="1" chance="0.03" /> <!-- Seraph Leather Armor Ingredient -->
 				<item id="36554" min="1" max="1" chance="0.03" /> <!-- Armor Fragment (High-grade) -->
-				<item id="35427" min="1" max="1" chance="0.003" /> <!-- Recipe:Β Specter Shooter (60%) -->
-				<item id="35438" min="1" max="1" chance="0.0009" /> <!-- Recipe:Β Seraph Leather Armor (60%) -->
+				<item id="35427" min="1" max="1" chance="0.003" /> <!-- Recipe: Specter Shooter (60%) -->
+				<item id="35438" min="1" max="1" chance="0.0009" /> <!-- Recipe: Seraph Leather Armor (60%) -->
 			</drop>
 			<spoil>
 				<item id="36553" min="1" max="1" chance="0.75" /> <!-- Armor Fragment (Mid-grade) -->
 				<item id="17527" min="1" max="1" chance="0.3" /> <!-- Scroll: Enchant Armor (R-grade) -->
 				<item id="36554" min="1" max="1" chance="0.075" /> <!-- Armor Fragment (High-grade) -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="35" />
 			<height normal="54" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22920" level="95" type="L2Monster" name="Orbis' Thrower" title="Scout">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -1604,7 +1604,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" randomAnimation="false" randomWalk="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
 			<skill id="4410" level="12" /> <!-- Very Weak P. Atk. -->
 			<skill id="4411" level="5" /> <!-- Very Weak M. Atk. -->
@@ -1615,9 +1615,9 @@
 			<skill id="4415" level="10" /> <!-- Bow -->
 			<skill id="14007" level="1" /> <!-- Power Blow -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="600" isAggressive="true" clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="17389" min="1" max="1" chance="0.0009" /> <!-- Specter Shooter -->
 				<item id="57" min="4095" max="9552" chance="70" /> <!-- Adena -->
@@ -1625,29 +1625,29 @@
 				<item id="35303" min="1" max="1" chance="0.075" /> <!-- Specter Shooter Fragment -->
 				<item id="35314" min="1" max="1" chance="0.03" /> <!-- Seraph Leather Armor Ingredient -->
 				<item id="36554" min="1" max="1" chance="0.03" /> <!-- Armor Fragment (High-grade) -->
-				<item id="35427" min="1" max="1" chance="0.003" /> <!-- Recipe:Β Specter Shooter (60%) -->
-				<item id="35438" min="1" max="1" chance="0.0009" /> <!-- Recipe:Β Seraph Leather Armor (60%) -->
+				<item id="35427" min="1" max="1" chance="0.003" /> <!-- Recipe: Specter Shooter (60%) -->
+				<item id="35438" min="1" max="1" chance="0.0009" /> <!-- Recipe: Seraph Leather Armor (60%) -->
 			</drop>
 			<spoil>
 				<item id="36553" min="1" max="1" chance="0.75" /> <!-- Armor Fragment (Mid-grade) -->
 				<item id="17527" min="1" max="1" chance="0.3" /> <!-- Scroll: Enchant Armor (R-grade) -->
 				<item id="36554" min="1" max="1" chance="0.075" /> <!-- Armor Fragment (High-grade) -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="35" />
 			<height normal="54" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22921" level="96" type="L2Monster" name="Orbis' Curator">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -1681,7 +1681,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" randomAnimation="false" randomWalk="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5463" level="1" /> <!-- Water Attack -->
 			<skill id="4458" level="1" /> <!-- Spear Vulnerability -->
 			<skill id="4457" level="1" /> <!-- Fist Weapon Vulnerability -->
@@ -1689,16 +1689,16 @@
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14765" level="3" /> <!-- Blood Siphon Resistance -->
 			<skill id="14009" level="1" /> <!-- Electric Shock -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="150" isAggressive="true" clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
-				<item id="17397" min="1" max="1" chance="0.003" /> <!-- Seraph Breastplate -->
-				<item id="17404" min="1" max="1" chance="0.003" /> <!-- Seraph Leather Leggings -->
-				<item id="17408" min="1" max="1" chance="0.003" /> <!-- Seraph Tunic -->
+				<item id="17397" min="1" max="1" chance="0.003" /> <!-- Seraph Breastplate - Heavy Armor -->
+				<item id="17404" min="1" max="1" chance="0.003" /> <!-- Seraph Leather Leggings - Light Armor -->
+				<item id="17408" min="1" max="1" chance="0.003" /> <!-- Seraph Tunic - Robe -->
 				<item id="57" min="3237" max="7559" chance="70" /> <!-- Adena -->
 				<item id="9555" min="1" max="1" chance="0.075" /> <!-- Wind Crystal -->
-				<item id="35427" min="1" max="1" chance="0.003" /> <!-- Recipe:Β Specter Shooter (60%) -->
+				<item id="35427" min="1" max="1" chance="0.003" /> <!-- Recipe: Specter Shooter (60%) -->
 			</drop>
 			<spoil>
 				<item id="36533" min="1" max="1" chance="3.66" /> <!-- Synthetic Braid -->
@@ -1708,18 +1708,18 @@
 				<item id="36886" min="1" max="1" chance="0.003" /> <!-- Recipe: Durable Braid - Upgrade -->
 				<item id="36885" min="1" max="1" chance="9" /> <!-- Recipe: Durable Braid - Downgrade -->
 			</spoil>
-		</drop_lists>
+		</dropLists>
 		<collision>
 			<radius normal="30" />
 			<height normal="56" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22922" level="96" type="L2Monster" name="Orbis' Curator">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -1753,7 +1753,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" randomAnimation="false" randomWalk="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5463" level="1" /> <!-- Water Attack -->
 			<skill id="4411" level="9" /> <!-- Slightly Weak M. Atk. -->
 			<skill id="4458" level="1" /> <!-- Spear Vulnerability -->
@@ -1762,16 +1762,16 @@
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
 			<skill id="14009" level="1" /> <!-- Electric Shock -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="150" isAggressive="true" clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
-				<item id="17397" min="1" max="1" chance="0.003" /> <!-- Seraph Breastplate -->
-				<item id="17404" min="1" max="1" chance="0.003" /> <!-- Seraph Leather Leggings -->
-				<item id="17408" min="1" max="1" chance="0.003" /> <!-- Seraph Tunic -->
+				<item id="17397" min="1" max="1" chance="0.003" /> <!-- Seraph Breastplate - Heavy Armor -->
+				<item id="17404" min="1" max="1" chance="0.003" /> <!-- Seraph Leather Leggings - Light Armor -->
+				<item id="17408" min="1" max="1" chance="0.003" /> <!-- Seraph Tunic - Robe -->
 				<item id="57" min="3237" max="7559" chance="70" /> <!-- Adena -->
 				<item id="9555" min="1" max="1" chance="0.075" /> <!-- Wind Crystal -->
-				<item id="35427" min="1" max="1" chance="0.003" /> <!-- Recipe:Β Specter Shooter (60%) -->
+				<item id="35427" min="1" max="1" chance="0.003" /> <!-- Recipe: Specter Shooter (60%) -->
 			</drop>
 			<spoil>
 				<item id="36533" min="1" max="1" chance="3.66" /> <!-- Synthetic Braid -->
@@ -1781,18 +1781,18 @@
 				<item id="36886" min="1" max="1" chance="0.003" /> <!-- Recipe: Durable Braid - Upgrade -->
 				<item id="36885" min="1" max="1" chance="9" /> <!-- Recipe: Durable Braid - Downgrade -->
 			</spoil>
-		</drop_lists>
+		</dropLists>
 		<collision>
 			<radius normal="30" />
 			<height normal="56" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22923" level="96" type="L2Monster" name="Orbis' Curator">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -1826,7 +1826,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" randomAnimation="false" randomWalk="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5463" level="1" /> <!-- Water Attack -->
 			<skill id="4458" level="1" /> <!-- Spear Vulnerability -->
 			<skill id="4457" level="1" /> <!-- Fist Weapon Vulnerability -->
@@ -1835,16 +1835,16 @@
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
 			<skill id="14009" level="1" /> <!-- Electric Shock -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="150" isAggressive="true" clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
-				<item id="17397" min="1" max="1" chance="0.003" /> <!-- Seraph Breastplate -->
-				<item id="17404" min="1" max="1" chance="0.003" /> <!-- Seraph Leather Leggings -->
-				<item id="17408" min="1" max="1" chance="0.003" /> <!-- Seraph Tunic -->
+				<item id="17397" min="1" max="1" chance="0.003" /> <!-- Seraph Breastplate - Heavy Armor -->
+				<item id="17404" min="1" max="1" chance="0.003" /> <!-- Seraph Leather Leggings - Light Armor -->
+				<item id="17408" min="1" max="1" chance="0.003" /> <!-- Seraph Tunic - Robe -->
 				<item id="57" min="3237" max="7559" chance="70" /> <!-- Adena -->
 				<item id="9555" min="1" max="1" chance="0.075" /> <!-- Wind Crystal -->
-				<item id="35427" min="1" max="1" chance="0.003" /> <!-- Recipe:Β Specter Shooter (60%) -->
+				<item id="35427" min="1" max="1" chance="0.003" /> <!-- Recipe: Specter Shooter (60%) -->
 			</drop>
 			<spoil>
 				<item id="36533" min="1" max="1" chance="3.66" /> <!-- Synthetic Braid -->
@@ -1854,18 +1854,18 @@
 				<item id="36886" min="1" max="1" chance="0.003" /> <!-- Recipe: Durable Braid - Upgrade -->
 				<item id="36885" min="1" max="1" chance="9" /> <!-- Recipe: Durable Braid - Downgrade -->
 			</spoil>
-		</drop_lists>
+		</dropLists>
 		<collision>
 			<radius normal="30" />
 			<height normal="56" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22924" level="96" type="L2Monster" name="Orbis' Ancient Hero">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -1899,40 +1899,40 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" randomAnimation="false" randomWalk="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="4408" level="14" /> <!-- HP Increase (6x) -->
 			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
 			<skill id="14012" level="1" /> <!-- Iron Deal -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="300" isAggressive="true" clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
-				<item id="17398" min="1" max="1" chance="0.0009" /> <!-- Seraph Gaiters -->
-				<item id="17403" min="1" max="1" chance="0.0009" /> <!-- Seraph Leather Armor -->
-				<item id="17409" min="1" max="1" chance="0.0009" /> <!-- Seraph Stockings -->
+				<item id="17398" min="1" max="1" chance="0.0009" /> <!-- Seraph Gaiters - Heavy Armor -->
+				<item id="17403" min="1" max="1" chance="0.0009" /> <!-- Seraph Leather Armor - Light Armor -->
+				<item id="17409" min="1" max="1" chance="0.0009" /> <!-- Seraph Stockings - Robe -->
 				<item id="57" min="4109" max="9597" chance="70" /> <!-- Adena -->
 				<item id="35326" min="1" max="1" chance="0.3" /> <!-- Seraph Ring Gem -->
-				<item id="30424" min="1" max="1" chance="0.03" /> <!-- Recipe: Spiritshot (R-grade) (for dwarves) -->
+				<item id="30424" min="1" max="1" chance="0.03" /> <!-- Recipe: Spiritshot (R-grade) -->
 				<item id="17526" min="1" max="1" chance="0.003" /> <!-- Scroll: Enchant Weapon (R-grade) -->
 			</drop>
 			<spoil>
-				<item id="17412" min="1" max="1" chance="0.03" /> <!-- Seraph Sigil -->
+				<item id="17412" min="1" max="1" chance="0.03" /> <!-- Seraph Sigil - Robe -->
 			</spoil>
-		</drop_lists>
+		</dropLists>
 		<collision>
 			<radius normal="40" />
 			<height normal="60" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22925" level="96" type="L2Monster" name="Orbis' Ancient Hero">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -1966,7 +1966,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" randomAnimation="false" randomWalk="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
 			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
@@ -1974,33 +1974,33 @@
 			<skill id="4415" level="6" /> <!-- Blunt Weapon -->
 			<skill id="14012" level="1" /> <!-- Iron Deal -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="300" isAggressive="true" clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
-				<item id="17398" min="1" max="1" chance="0.0009" /> <!-- Seraph Gaiters -->
-				<item id="17403" min="1" max="1" chance="0.0009" /> <!-- Seraph Leather Armor -->
-				<item id="17409" min="1" max="1" chance="0.0009" /> <!-- Seraph Stockings -->
+				<item id="17398" min="1" max="1" chance="0.0009" /> <!-- Seraph Gaiters - Heavy Armor -->
+				<item id="17403" min="1" max="1" chance="0.0009" /> <!-- Seraph Leather Armor - Light Armor -->
+				<item id="17409" min="1" max="1" chance="0.0009" /> <!-- Seraph Stockings - Robe -->
 				<item id="57" min="4109" max="9597" chance="70" /> <!-- Adena -->
 				<item id="35326" min="1" max="1" chance="0.3" /> <!-- Seraph Ring Gem -->
-				<item id="30424" min="1" max="1" chance="0.03" /> <!-- Recipe: Spiritshot (R-grade) (for dwarves) -->
+				<item id="30424" min="1" max="1" chance="0.03" /> <!-- Recipe: Spiritshot (R-grade) -->
 				<item id="17526" min="1" max="1" chance="0.003" /> <!-- Scroll: Enchant Weapon (R-grade) -->
 			</drop>
 			<spoil>
-				<item id="17412" min="1" max="1" chance="0.03" /> <!-- Seraph Sigil -->
+				<item id="17412" min="1" max="1" chance="0.03" /> <!-- Seraph Sigil - Robe -->
 			</spoil>
-		</drop_lists>
+		</dropLists>
 		<collision>
 			<radius normal="40" />
 			<height normal="58" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22926" level="96" type="L2Monster" name="Orbis' Chief Curator">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -2035,16 +2035,16 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" randomAnimation="false" randomWalk="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5463" level="1" /> <!-- Water Attack -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="4408" level="14" /> <!-- HP Increase (6x) -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
 			<skill id="14009" level="1" /> <!-- Electric Shock -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="300" isAggressive="true" clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="6390" max="14924" chance="70" /> <!-- Adena -->
 				<item id="35306" min="1" max="1" chance="0.3" /> <!-- Specter Retributer Fragment -->
@@ -2054,21 +2054,21 @@
 				<item id="36533" min="1" max="1" chance="22.32" /> <!-- Synthetic Braid -->
 				<item id="36534" min="1" max="1" chance="1.993" /> <!-- Durable Braid -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="30" />
 			<height normal="36.5" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22927" level="97" type="L2Monster" name="Orbis' Chief Curator">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -2103,7 +2103,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" randomAnimation="false" randomWalk="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5463" level="1" /> <!-- Water Attack -->
 			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
@@ -2111,9 +2111,9 @@
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
 			<skill id="14009" level="1" /> <!-- Electric Shock -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="300" isAggressive="true" clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="7339" max="17132" chance="70" /> <!-- Adena -->
 				<item id="35306" min="1" max="1" chance="0.75" /> <!-- Specter Retributer Fragment -->
@@ -2125,21 +2125,21 @@
 				<item id="36534" min="1" max="1" chance="1.494" /> <!-- Durable Braid -->
 				<item id="9556" min="1" max="1" chance="0.3" /> <!-- Dark Crystal -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="30" />
 			<height normal="36.5" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22928" level="97" type="L2Monster" name="Octavis' Gladiator">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -2171,7 +2171,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="4408" level="14" /> <!-- HP Increase (6x) -->
@@ -2182,7 +2182,7 @@
 			<skill id="14033" level="1" /> <!-- Vital Spot Attack -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
 			<skill id="5549" level="1" /> <!-- Melee Attack Vulnerability -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="300" isAggressive="true" clanHelpRange="300" />
 		<collision>
 			<radius normal="35" />
@@ -2219,14 +2219,14 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
 			<skill id="4416" level="3" /> <!-- Beast -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
 			<skill id="14037" level="1" /> <!-- Front Foot Attack -->
 			<skill id="14036" level="1" /> <!-- Vulnerability Attack -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="300" isAggressive="true" clanHelpRange="300" />
 		<collision>
 			<radius normal="40" />
@@ -2266,7 +2266,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
@@ -2277,7 +2277,7 @@
 			<skill id="14010" level="3" /> <!-- Electric Range -->
 			<skill id="14011" level="3" /> <!-- Electric Staff -->
 			<skill id="14009" level="3" /> <!-- Electric Shock -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="600" isAggressive="true" clanHelpRange="300" />
 		<collision>
 			<radius normal="30" />
@@ -2325,7 +2325,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5463" level="1" /> <!-- Water Attack -->
 			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
 			<skill id="4411" level="15" /> <!-- Strong M. Atk. -->
@@ -2333,9 +2333,9 @@
 			<skill id="14448" level="1" /> <!-- Blink -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14765" level="2" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="300" isAggressive="false" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="17293" min="1" max="1" chance="0.003" /> <!-- Requiem Avenger -->
 				<item id="57" min="889" max="2073" chance="20" /> <!-- Adena -->
@@ -2348,21 +2348,21 @@
 				<item id="40205" min="1" max="1" chance="12.57" /> <!-- Requiem Fragment -->
 				<item id="40210" min="1" max="1" chance="0.003" /> <!-- Recipe: R (100%) -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="28" grown="32" />
 			<height normal="46.15" grown="55" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22932" level="86" type="L2Monster" name="Krakia Carcass">
 		<parameters>
@@ -2407,7 +2407,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5463" level="1" /> <!-- Water Attack -->
 			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
 			<skill id="4411" level="15" /> <!-- Strong M. Atk. -->
@@ -2415,11 +2415,11 @@
 			<skill id="4415" level="9" /> <!-- Bows -->
 			<skill id="14448" level="1" /> <!-- Blink -->
 			<skill id="14765" level="2" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="300" isAggressive="false" />
-		<drop_lists>
+		<dropLists>
 			<drop>
-				<item id="17309" min="1" max="1" chance="0.03" /> <!-- Immortal Shield -->
+				<item id="17309" min="1" max="1" chance="0.03" /> <!-- Immortal Shield - Heavy Armor -->
 				<item id="57" min="889" max="2073" chance="20" /> <!-- Adena -->
 				<item id="36810" min="1" max="1" chance="4.661" /> <!-- Immortal Shield Ingredient -->
 				<item id="36557" min="1" max="1" chance="0.75" /> <!-- Accessory Gem -->
@@ -2431,21 +2431,21 @@
 				<item id="36558" min="1" max="1" chance="0.75" /> <!-- Accessory Gem (Mid-grade) -->
 				<item id="19440" min="1" max="1" chance="0.075" /> <!-- Gemstone (R-grade) -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="25" grown="32" />
 			<height normal="36" grown="55" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22933" level="87" type="L2Monster" name="Krakia Lotus">
 		<parameters>
@@ -2488,7 +2488,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5463" level="1" /> <!-- Water Attack -->
 			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
 			<skill id="4411" level="15" /> <!-- Strong M. Atk. -->
@@ -2497,11 +2497,11 @@
 			<skill id="14448" level="1" /> <!-- Blink -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14765" level="2" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="300" isAggressive="false" />
-		<drop_lists>
+		<dropLists>
 			<drop>
-				<item id="17307" min="1" max="1" chance="0.03" /> <!-- Immortal Gauntlets -->
+				<item id="17307" min="1" max="1" chance="0.03" /> <!-- Immortal Gauntlets - Heavy Armor -->
 				<item id="57" min="916" max="2136" chance="20" /> <!-- Adena -->
 				<item id="36808" min="1" max="1" chance="4.826" /> <!-- Immortal Gauntlet Ingredient -->
 				<item id="36746" min="1" max="1" chance="0.3" /> <!-- Recipe: Immortal Gauntlets (60%) -->
@@ -2511,21 +2511,21 @@
 				<item id="40205" min="1" max="1" chance="12.9" /> <!-- Requiem Fragment -->
 				<item id="40210" min="1" max="1" chance="0.003" /> <!-- Recipe: R (100%) -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="28" grown="32" />
 			<height normal="46.15" grown="55" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22934" level="86" type="L2Monster" name="Rakzan">
 		<parameters>
@@ -2568,7 +2568,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5465" level="1" /> <!-- Earth Attack -->
 			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
 			<skill id="4411" level="15" /> <!-- Strong M. Atk. -->
@@ -2577,9 +2577,9 @@
 			<skill id="14448" level="1" /> <!-- Blink -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14765" level="2" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="300" isAggressive="false" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="17292" min="1" max="1" chance="0.003" /> <!-- Requiem Slasher -->
 				<item id="57" min="889" max="2073" chance="20" /> <!-- Adena -->
@@ -2590,21 +2590,21 @@
 				<item id="36532" min="1" max="1" chance="9.197" /> <!-- Thin Braid -->
 				<item id="36533" min="1" max="1" chance="1.782" /> <!-- Synthetic Braid -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="65" grown="48" />
 			<height normal="79" grown="93" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22935" level="85" type="L2Monster" name="Weiss Khan">
 		<parameters>
@@ -2648,7 +2648,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5465" level="1" /> <!-- Earth Attack -->
 			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
 			<skill id="4411" level="15" /> <!-- Strong M. Atk. -->
@@ -2656,11 +2656,11 @@
 			<skill id="14448" level="1" /> <!-- Blink -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14765" level="2" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="300" isAggressive="false" />
-		<drop_lists>
+		<dropLists>
 			<drop>
-				<item id="17308" min="1" max="1" chance="0.03" /> <!-- Immortal Boots -->
+				<item id="17308" min="1" max="1" chance="0.03" /> <!-- Immortal Boots - Heavy Armor -->
 				<item id="57" min="867" max="2021" chance="20" /> <!-- Adena -->
 				<item id="36809" min="1" max="1" chance="3.182" /> <!-- Immortal Boot Ingredient -->
 				<item id="36747" min="1" max="1" chance="0.075" /> <!-- Recipe: Immortal Boots (60%) -->
@@ -2671,21 +2671,21 @@
 				<item id="40205" min="1" max="1" chance="12.64" /> <!-- Requiem Fragment -->
 				<item id="40210" min="1" max="1" chance="0.003" /> <!-- Recipe: R (100%) -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="16" grown="18" />
 			<height normal="42.5" grown="46" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22936" level="85" type="L2Monster" name="Weiss Ele">
 		<parameters>
@@ -2728,7 +2728,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5465" level="1" /> <!-- Earth Attack -->
 			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
 			<skill id="4411" level="15" /> <!-- Strong M. Atk. -->
@@ -2737,11 +2737,11 @@
 			<skill id="14448" level="1" /> <!-- Blink -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14765" level="2" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="300" isAggressive="false" />
-		<drop_lists>
+		<dropLists>
 			<drop>
-				<item id="17304" min="1" max="1" chance="0.03" /> <!-- Immortal Helmet -->
+				<item id="17304" min="1" max="1" chance="0.03" /> <!-- Immortal Helmet - Heavy Armor -->
 				<item id="57" min="867" max="2021" chance="20" /> <!-- Adena -->
 				<item id="36517" min="1" max="1" chance="2.509" /> <!-- Leather -->
 				<item id="36805" min="1" max="1" chance="2.038" /> <!-- Immortal Helmet Ingredient -->
@@ -2753,21 +2753,21 @@
 				<item id="40205" min="1" max="1" chance="12.04" /> <!-- Requiem Fragment -->
 				<item id="40210" min="1" max="1" chance="0.003" /> <!-- Recipe: R (100%) -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="18" grown="12" />
 			<height normal="35" grown="42" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22937" level="86" type="L2Monster" name="Bamonti">
 		<parameters>
@@ -2810,7 +2810,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5465" level="1" /> <!-- Earth Attack -->
 			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
 			<skill id="4411" level="15" /> <!-- Strong M. Atk. -->
@@ -2818,9 +2818,9 @@
 			<skill id="14448" level="1" /> <!-- Blink -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14765" level="2" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="300" isAggressive="false" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="17323" min="1" max="1" chance="0.03" /> <!-- Immortal Ring -->
 				<item id="57" min="889" max="2073" chance="20" /> <!-- Adena -->
@@ -2834,21 +2834,21 @@
 				<item id="36557" min="1" max="1" chance="4.254" /> <!-- Accessory Gem -->
 				<item id="36558" min="1" max="1" chance="0.75" /> <!-- Accessory Gem (Mid-grade) -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="19" grown="14" />
 			<height normal="43" grown="50" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22938" level="85" type="L2Monster" name="Seknus">
 		<parameters>
@@ -2891,7 +2891,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5465" level="1" /> <!-- Earth Attack -->
 			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
 			<skill id="4411" level="15" /> <!-- Strong M. Atk. -->
@@ -2899,11 +2899,11 @@
 			<skill id="14448" level="1" /> <!-- Blink -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14765" level="2" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="300" isAggressive="false" />
-		<drop_lists>
+		<dropLists>
 			<drop>
-				<item id="17310" min="1" max="1" chance="0.03" /> <!-- Immortal Leather Helmet -->
+				<item id="17310" min="1" max="1" chance="0.03" /> <!-- Immortal Leather Helmet - Light Armor -->
 				<item id="57" min="867" max="2021" chance="20" /> <!-- Adena -->
 				<item id="36517" min="1" max="1" chance="2.599" /> <!-- Leather -->
 				<item id="36811" min="1" max="1" chance="2.244" /> <!-- Immortal Leather Helmet Ingredient -->
@@ -2916,21 +2916,21 @@
 				<item id="36518" min="1" max="1" chance="3.493" /> <!-- Durable Leather -->
 				<item id="36884" min="1" max="1" chance="0.003" /> <!-- Recipe: Synthetic Braid - Upgrade -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="18" grown="21" />
 			<height normal="50" grown="76" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22939" level="86" type="L2Monster" name="Demonic Bathus">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -2974,7 +2974,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5463" level="1" /> <!-- Water Attack -->
 			<skill id="4410" level="17" /> <!-- Very Strong P. Atk. -->
 			<skill id="4411" level="17" /> <!-- Very Strong M. Atk. -->
@@ -2982,41 +2982,41 @@
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14765" level="2" /> <!-- Blood Siphon Resistance -->
 			<skill id="14447" level="1" /> <!-- Chains of Hatred -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="300" isAggressive="true" clanHelpRange="450">
-			<clan_list>
+			<clanList>
 				<clan>HARNAK</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="17293" min="1" max="1" chance="0.003" /> <!-- Requiem Avenger -->
 				<item id="57" min="1051" max="2450" chance="20" /> <!-- Adena -->
 				<item id="36517" min="1" max="1" chance="4.243" /> <!-- Leather -->
 				<item id="36518" min="1" max="1" chance="0.75" /> <!-- Durable Leather -->
 				<item id="36797" min="1" max="1" chance="0.3" /> <!-- Requiem Avenger Fragment -->
-				<item id="30424" min="1" max="1" chance="0.03" /> <!-- Recipe: Spiritshot (R-grade) (for dwarves) -->
+				<item id="30424" min="1" max="1" chance="0.03" /> <!-- Recipe: Spiritshot (R-grade) -->
 				<item id="36735" min="1" max="1" chance="0.0075" /> <!-- Recipe: Requiem Avenger (60%) -->
 			</drop>
 			<spoil>
 				<item id="40205" min="1" max="1" chance="14.69" /> <!-- Requiem Fragment -->
 				<item id="40210" min="1" max="1" chance="0.003" /> <!-- Recipe: R (100%) -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="28" grown="32" />
 			<height normal="46.15" grown="55" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22940" level="86" type="L2Monster" name="Demonic Carcass">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -3062,7 +3062,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5463" level="1" /> <!-- Water Attack -->
 			<skill id="4410" level="17" /> <!-- Very Strong P. Atk. -->
 			<skill id="4411" level="17" /> <!-- Very Strong M. Atk. -->
@@ -3070,15 +3070,15 @@
 			<skill id="4415" level="9" /> <!-- Bows -->
 			<skill id="14765" level="2" /> <!-- Blood Siphon Resistance -->
 			<skill id="14447" level="1" /> <!-- Chains of Hatred -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="300" isAggressive="true" clanHelpRange="450">
-			<clan_list>
+			<clanList>
 				<clan>HARNAK</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
-				<item id="17309" min="1" max="1" chance="0.03" /> <!-- Immortal Shield -->
+				<item id="17309" min="1" max="1" chance="0.03" /> <!-- Immortal Shield - Heavy Armor -->
 				<item id="57" min="1051" max="2450" chance="20" /> <!-- Adena -->
 				<item id="36810" min="1" max="1" chance="5.397" /> <!-- Immortal Shield Ingredient -->
 				<item id="36748" min="1" max="1" chance="0.3" /> <!-- Recipe: Immortal Shield (60%) -->
@@ -3089,21 +3089,21 @@
 				<item id="36533" min="1" max="1" chance="1.419" /> <!-- Synthetic Braid -->
 				<item id="19440" min="1" max="1" chance="0.075" /> <!-- Gemstone (R-grade) -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="25" grown="32" />
 			<height normal="36" grown="55" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22941" level="87" type="L2Monster" name="Demonic Lotus">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -3147,7 +3147,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5463" level="1" /> <!-- Water Attack -->
 			<skill id="4410" level="17" /> <!-- Very Strong P. Atk. -->
 			<skill id="4411" level="17" /> <!-- Very Strong M. Atk. -->
@@ -3156,15 +3156,15 @@
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14765" level="2" /> <!-- Blood Siphon Resistance -->
 			<skill id="14447" level="1" /> <!-- Chains of Hatred -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="300" isAggressive="true" clanHelpRange="450">
-			<clan_list>
+			<clanList>
 				<clan>HARNAK</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
-				<item id="17307" min="1" max="1" chance="0.03" /> <!-- Immortal Gauntlets -->
+				<item id="17307" min="1" max="1" chance="0.03" /> <!-- Immortal Gauntlets - Heavy Armor -->
 				<item id="57" min="1082" max="2524" chance="20" /> <!-- Adena -->
 				<item id="36808" min="1" max="1" chance="5.742" /> <!-- Immortal Gauntlet Ingredient -->
 				<item id="36746" min="1" max="1" chance="0.3" /> <!-- Recipe: Immortal Gauntlets (60%) -->
@@ -3173,21 +3173,21 @@
 				<item id="40205" min="1" max="1" chance="15.65" /> <!-- Requiem Fragment -->
 				<item id="40210" min="1" max="1" chance="0.003" /> <!-- Recipe: R (100%) -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="28" grown="32" />
 			<height normal="46.15" grown="55" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22942" level="86" type="L2Monster" name="Demonic Rakzan">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -3231,7 +3231,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5465" level="1" /> <!-- Earth Attack -->
 			<skill id="4410" level="17" /> <!-- Very Strong P. Atk. -->
 			<skill id="4411" level="17" /> <!-- Very Strong M. Atk. -->
@@ -3240,13 +3240,13 @@
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14765" level="2" /> <!-- Blood Siphon Resistance -->
 			<skill id="14447" level="1" /> <!-- Chains of Hatred -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="300" isAggressive="true" clanHelpRange="450">
-			<clan_list>
+			<clanList>
 				<clan>HARNAK</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="17292" min="1" max="1" chance="0.003" /> <!-- Requiem Slasher -->
 				<item id="57" min="1051" max="2450" chance="20" /> <!-- Adena -->
@@ -3261,21 +3261,21 @@
 				<item id="40205" min="1" max="1" chance="14.16" /> <!-- Requiem Fragment -->
 				<item id="40210" min="1" max="1" chance="0.003" /> <!-- Recipe: R (100%) -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="42" grown="48" />
 			<height normal="79" grown="93" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22943" level="85" type="L2Monster" name="Demonic Weiss Khan">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -3320,7 +3320,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5465" level="1" /> <!-- Earth Attack -->
 			<skill id="4410" level="17" /> <!-- Very Strong P. Atk. -->
 			<skill id="4411" level="17" /> <!-- Very Strong M. Atk. -->
@@ -3328,15 +3328,15 @@
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14765" level="2" /> <!-- Blood Siphon Resistance -->
 			<skill id="14447" level="1" /> <!-- Chains of Hatred -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="300" isAggressive="true" clanHelpRange="450">
-			<clan_list>
+			<clanList>
 				<clan>HARNAK</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
-				<item id="17308" min="1" max="1" chance="0.03" /> <!-- Immortal Boots -->
+				<item id="17308" min="1" max="1" chance="0.03" /> <!-- Immortal Boots - Heavy Armor -->
 				<item id="57" min="1025" max="2388" chance="20" /> <!-- Adena -->
 				<item id="36809" min="1" max="1" chance="3.898" /> <!-- Immortal Boot Ingredient -->
 				<item id="36747" min="1" max="1" chance="0.075" /> <!-- Recipe: Immortal Boots (60%) -->
@@ -3346,21 +3346,21 @@
 				<item id="36532" min="1" max="1" chance="10.94" /> <!-- Thin Braid -->
 				<item id="36533" min="1" max="1" chance="2.011" /> <!-- Synthetic Braid -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="16" grown="18" />
 			<height normal="42.5" grown="46" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22944" level="85" type="L2Monster" name="Demonic Weiss Ele">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -3404,7 +3404,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5465" level="1" /> <!-- Earth Attack -->
 			<skill id="4410" level="17" /> <!-- Very Strong P. Atk. -->
 			<skill id="4411" level="17" /> <!-- Very Strong M. Atk. -->
@@ -3412,15 +3412,15 @@
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14765" level="2" /> <!-- Blood Siphon Resistance -->
 			<skill id="14447" level="1" /> <!-- Chains of Hatred -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="300" isAggressive="true" clanHelpRange="450">
-			<clan_list>
+			<clanList>
 				<clan>HARNAK</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
-				<item id="17304" min="1" max="1" chance="0.03" /> <!-- Immortal Helmet -->
+				<item id="17304" min="1" max="1" chance="0.03" /> <!-- Immortal Helmet - Heavy Armor -->
 				<item id="57" min="1025" max="2388" chance="20" /> <!-- Adena -->
 				<item id="36517" min="1" max="1" chance="3.968" /> <!-- Leather -->
 				<item id="36805" min="1" max="1" chance="2.441" /> <!-- Immortal Helmet Ingredient -->
@@ -3431,21 +3431,21 @@
 				<item id="40205" min="1" max="1" chance="14.2" /> <!-- Requiem Fragment -->
 				<item id="40210" min="1" max="1" chance="0.003" /> <!-- Recipe: R (100%) -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="18" grown="12" />
 			<height normal="35" grown="42" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22945" level="86" type="L2Monster" name="Demonic Bamonti">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -3489,7 +3489,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5465" level="1" /> <!-- Earth Attack -->
 			<skill id="4410" level="17" /> <!-- Very Strong P. Atk. -->
 			<skill id="4411" level="17" /> <!-- Very Strong M. Atk. -->
@@ -3497,13 +3497,13 @@
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14765" level="2" /> <!-- Blood Siphon Resistance -->
 			<skill id="14447" level="1" /> <!-- Chains of Hatred -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="300" isAggressive="true" clanHelpRange="450">
-			<clan_list>
+			<clanList>
 				<clan>HARNAK</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="17323" min="1" max="1" chance="0.075" /> <!-- Immortal Ring -->
 				<item id="57" min="1051" max="2450" chance="20" /> <!-- Adena -->
@@ -3518,21 +3518,21 @@
 				<item id="36557" min="1" max="1" chance="4.944" /> <!-- Accessory Gem -->
 				<item id="36558" min="1" max="1" chance="0.75" /> <!-- Accessory Gem (Mid-grade) -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="19" grown="14" />
 			<height normal="43" grown="50" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22946" level="85" type="L2Monster" name="Demonic Seknus">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -3576,7 +3576,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5465" level="1" /> <!-- Earth Attack -->
 			<skill id="4410" level="17" /> <!-- Very Strong P. Atk. -->
 			<skill id="4411" level="17" /> <!-- Very Strong M. Atk. -->
@@ -3584,15 +3584,15 @@
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14765" level="2" /> <!-- Blood Siphon Resistance -->
 			<skill id="14447" level="1" /> <!-- Chains of Hatred -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="300" isAggressive="true" clanHelpRange="450">
-			<clan_list>
+			<clanList>
 				<clan>HARNAK</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
-				<item id="17310" min="1" max="1" chance="0.03" /> <!-- Immortal Leather Helmet -->
+				<item id="17310" min="1" max="1" chance="0.03" /> <!-- Immortal Leather Helmet - Light Armor -->
 				<item id="57" min="1025" max="2388" chance="20" /> <!-- Adena -->
 				<item id="36517" min="1" max="1" chance="3.064" /> <!-- Leather -->
 				<item id="36811" min="1" max="1" chance="2.68" /> <!-- Immortal Leather Helmet Ingredient -->
@@ -3605,21 +3605,21 @@
 				<item id="36884" min="1" max="1" chance="0.0075" /> <!-- Recipe: Synthetic Braid - Upgrade -->
 				<item id="36897" min="1" max="1" chance="9" /> <!-- Recipe: Quality Leather Braid - Upgrade -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="18" grown="21" />
 			<height normal="50" grown="76" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22947" level="90" type="L2Monster" name="Garden Sentry">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -3648,20 +3648,20 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5464" level="1" /> <!-- Wind Attack -->
 			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
 			<skill id="4416" level="3" /> <!-- Beast -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14068" level="1" /> <!-- Garden Inducement -->
 			<skill id="14765" level="2" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="300" isAggressive="true" clanHelpRange="300">
-			<clan_list>
+			<clanList>
 				<clan>MGG_FC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="7524" max="17566" chance="70" /> <!-- Adena -->
 				<item id="36518" min="2" max="6" chance="23.6499999999999" /> <!-- Durable Leather -->
@@ -3671,21 +3671,21 @@
 				<item id="36517" min="1" max="9" chance="79.77" /> <!-- Leather -->
 				<item id="36518" min="1" max="1" chance="77.97" /> <!-- Durable Leather -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="35" />
 			<height normal="35" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22948" level="90" type="L2Monster" name="Garden Scout">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -3716,19 +3716,19 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5464" level="1" /> <!-- Wind Attack -->
 			<skill id="4416" level="12" /> <!-- Bugs -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14765" level="2" /> <!-- Blood Siphon Resistance -->
 			<skill id="14069" level="1" /> <!-- Garden Dark Magic -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="300" isAggressive="true" clanHelpRange="300">
-			<clan_list>
+			<clanList>
 				<clan>MGG_FC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="7524" max="17566" chance="70" /> <!-- Adena -->
 				<item id="36528" min="2" max="6" chance="28.4400000000001" /> <!-- Metallic Fiber -->
@@ -3738,21 +3738,21 @@
 				<item id="36527" min="1" max="9" chance="91.06" /> <!-- Synthetic Fiber -->
 				<item id="36528" min="1" max="1" chance="88.41" /> <!-- Metallic Fiber -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="30" />
 			<height normal="42.5" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22949" level="91" type="L2Monster" name="Garden Commander">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -3781,20 +3781,20 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5465" level="1" /> <!-- Earth Attack -->
 			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
 			<skill id="4416" level="3" /> <!-- Beast -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14070" level="1" /> <!-- Branch Straightening -->
 			<skill id="14765" level="3" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="300" isAggressive="true" clanHelpRange="300">
-			<clan_list>
+			<clanList>
 				<clan>MGG_FC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="8529" max="19911" chance="70" /> <!-- Adena -->
 				<item id="36522" min="3" max="9" chance="37.21" /> <!-- Silver -->
@@ -3804,21 +3804,21 @@
 				<item id="36522" min="1" max="3" chance="87.52" /> <!-- Silver -->
 				<item id="36523" min="1" max="1" chance="34.34" /> <!-- Adamantite -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="44" />
 			<height normal="35" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22950" level="92" type="L2Monster" name="Outdoor Gardener">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -3850,16 +3850,16 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5465" level="1" /> <!-- Earth Attack -->
 			<skill id="4416" level="4" /> <!-- Animals -->
 			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14765" level="3" /> <!-- Blood Siphon Resistance -->
 			<skill id="14072" level="1" /> <!-- Gardener Blow -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="300" isAggressive="true" clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="11576" max="27023" chance="70" /> <!-- Adena -->
 				<item id="36527" min="15" max="45" chance="27.88" /> <!-- Synthetic Fiber -->
@@ -3869,21 +3869,21 @@
 				<item id="36532" min="1" max="5" chance="68.36" /> <!-- Thin Braid -->
 				<item id="36533" min="1" max="1" chance="40.88" /> <!-- Synthetic Braid -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="30" />
 			<height normal="39" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22951" level="90" type="L2Monster" name="Garden Destroyer">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -3912,16 +3912,16 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5464" level="1" /> <!-- Wind Attack -->
 			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
 			<skill id="4416" level="1" /> <!-- Undead -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14073" level="1" /> <!-- Garden Destroyer Slash -->
 			<skill id="14765" level="2" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="300" isAggressive="true" clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="8149" max="19024" chance="70" /> <!-- Adena -->
 				<item id="36547" min="1" max="1" chance="27.32" /> <!-- Weapon Fragment -->
@@ -3931,21 +3931,21 @@
 				<item id="36547" min="1" max="1" chance="22.26" /> <!-- Weapon Fragment -->
 				<item id="36548" min="1" max="1" chance="4.295" /> <!-- Weapon Fragment (Mid-grade) -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="17" />
 			<height normal="26.8" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22952" level="92" type="L2Monster" name="Garden Watchman">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -3975,15 +3975,15 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5464" level="1" /> <!-- Wind Attack -->
 			<skill id="4416" level="13" /> <!-- Fairies -->
 			<skill id="6578" level="1" /> <!-- Wind Attack -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14765" level="3" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="150" isAggressive="true" clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="8703" max="20317" chance="70" /> <!-- Adena -->
 				<item id="36552" min="1" max="1" chance="27.52" /> <!-- Armor Fragment -->
@@ -3993,21 +3993,21 @@
 				<item id="36552" min="1" max="1" chance="20" /> <!-- Armor Fragment -->
 				<item id="36553" min="1" max="1" chance="3.99" /> <!-- Armor Fragment (Mid-grade) -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="12" />
 			<height normal="28" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22953" level="92" type="L2Monster" name="Garden Scout">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -4039,15 +4039,15 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5464" level="1" /> <!-- Wind Attack -->
 			<skill id="4416" level="12" /> <!-- Bugs -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14765" level="3" /> <!-- Blood Siphon Resistance -->
 			<skill id="14069" level="1" /> <!-- Garden Dark Magic -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="300" isAggressive="true" clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="8036" max="18760" chance="70" /> <!-- Adena -->
 				<item id="36558" min="1" max="1" chance="16.78" /> <!-- Accessory Gem (Mid-grade) -->
@@ -4057,21 +4057,21 @@
 				<item id="36557" min="1" max="1" chance="65.81" /> <!-- Accessory Gem -->
 				<item id="36558" min="1" max="1" chance="13.05" /> <!-- Accessory Gem (Mid-grade) -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="30" />
 			<height normal="42.5" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22954" level="94" type="L2Monster" name="Sun Garden Manager">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -4105,7 +4105,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5465" level="1" /> <!-- Earth Attack -->
 			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
@@ -4113,13 +4113,13 @@
 			<skill id="14077" level="1" /> <!-- Gardener Slash -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14765" level="3" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="300" isAggressive="true" clanHelpRange="300">
-			<clan_list>
+			<clanList>
 				<clan>MGG_GD</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="12293" max="28684" chance="70" /> <!-- Adena -->
 				<item id="36562" min="1" max="1" chance="32.57" /> <!-- Greater Cokes -->
@@ -4129,21 +4129,21 @@
 				<item id="36562" min="1" max="1" chance="25.14" /> <!-- Greater Cokes -->
 				<item id="36563" min="1" max="1" chance="4.679" /> <!-- Synthetic Cokes -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="14" />
 			<height normal="30" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22955" level="94" type="L2Monster" name="Sun Gardener">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -4178,20 +4178,20 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5464" level="1" /> <!-- Wind Attack -->
 			<skill id="4416" level="4" /> <!-- Animals -->
 			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
 			<skill id="14078" level="1" /> <!-- Pirate Gardener Shock -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14765" level="3" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="300" isAggressive="true" clanHelpRange="300">
-			<clan_list>
+			<clanList>
 				<clan>MGG_GD</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="12293" max="28684" chance="70" /> <!-- Adena -->
 				<item id="36517" min="15" max="45" chance="28.89" /> <!-- Leather -->
@@ -4201,21 +4201,21 @@
 				<item id="36517" min="1" max="13" chance="91.6" /> <!-- Leather -->
 				<item id="36518" min="1" max="3" chance="64.09" /> <!-- Durable Leather -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="30" />
 			<height normal="39" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22956" level="91" type="L2Monster" name="Garden Commander">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -4250,7 +4250,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5465" level="1" /> <!-- Earth Attack -->
 			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
 			<skill id="4416" level="3" /> <!-- Beast -->
@@ -4258,9 +4258,9 @@
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14079" level="1" /> <!-- Garden Reflect -->
 			<skill id="14765" level="3" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="300" isAggressive="true" clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="8529" max="19911" chance="70" /> <!-- Adena -->
 				<item id="36522" min="3" max="9" chance="37.21" /> <!-- Silver -->
@@ -4270,21 +4270,21 @@
 				<item id="36522" min="1" max="3" chance="87.52" /> <!-- Silver -->
 				<item id="36523" min="1" max="1" chance="34.34" /> <!-- Adamantite -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="44" />
 			<height normal="35" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22957" level="93" type="L2Monster" name="Garden Warrior">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -4314,16 +4314,16 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5465" level="1" /> <!-- Earth Attack -->
 			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="14081" level="1" /> <!-- Garden Judgment -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14765" level="3" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="300" isAggressive="true" clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="8367" max="19494" chance="70" /> <!-- Adena -->
 				<item id="36522" min="3" max="9" chance="35.8000000000001" /> <!-- Silver -->
@@ -4333,21 +4333,21 @@
 				<item id="36522" min="1" max="3" chance="86.71" /> <!-- Silver -->
 				<item id="36523" min="1" max="1" chance="33.29" /> <!-- Adamantite -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="35" />
 			<height normal="46.5" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22958" level="94" type="L2Monster" name="Moon Garden Manager">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -4380,7 +4380,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5465" level="1" /> <!-- Earth Attack -->
 			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
@@ -4388,13 +4388,13 @@
 			<skill id="14082" level="1" /> <!-- Gardener's Wrath -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14765" level="3" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="300" isAggressive="true" clanHelpRange="300">
-			<clan_list>
+			<clanList>
 				<clan>MGG_GN</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="12293" max="28684" chance="70" /> <!-- Adena -->
 				<item id="36527" min="15" max="45" chance="29.62" /> <!-- Synthetic Fiber -->
@@ -4404,21 +4404,21 @@
 				<item id="36527" min="1" max="15" chance="91.535" /> <!-- Synthetic Fiber -->
 				<item id="36528" min="1" max="3" chance="69.56" /> <!-- Metallic Fiber -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="14" />
 			<height normal="30" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22959" level="92" type="L2Monster" name="Garden Protector">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -4452,7 +4452,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5465" level="1" /> <!-- Earth Attack -->
 			<skill id="4410" level="10" /> <!-- Slightly Weak P. Atk. -->
 			<skill id="4416" level="4" /> <!-- Animals -->
@@ -4460,13 +4460,13 @@
 			<skill id="6602" level="1" /> <!-- Earth Attack -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14765" level="3" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="300" isAggressive="true" clanHelpRange="300">
-			<clan_list>
+			<clanList>
 				<clan>MGG_GN</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="4919" max="11484" chance="70" /> <!-- Adena -->
 				<item id="36547" min="1" max="1" chance="16.56" /> <!-- Weapon Fragment -->
@@ -4476,21 +4476,21 @@
 				<item id="36547" min="1" max="1" chance="13.72" /> <!-- Weapon Fragment -->
 				<item id="36548" min="1" max="1" chance="2.575" /> <!-- Weapon Fragment (Mid-grade) -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="25" />
 			<height normal="31" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22960" level="94" type="L2Monster" name="Moon Gardener">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -4525,20 +4525,20 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5465" level="1" /> <!-- Earth Attack -->
 			<skill id="4416" level="4" /> <!-- Animals -->
 			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
 			<skill id="14084" level="1" /> <!-- Garden Range Bleed -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14765" level="3" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="300" isAggressive="true" clanHelpRange="300">
-			<clan_list>
+			<clanList>
 				<clan>MGG_GN</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="12293" max="28684" chance="70" /> <!-- Adena -->
 				<item id="36552" min="1" max="1" chance="36.25" /> <!-- Armor Fragment -->
@@ -4548,21 +4548,21 @@
 				<item id="36552" min="1" max="1" chance="28.25" /> <!-- Armor Fragment -->
 				<item id="36553" min="1" max="1" chance="5.636" /> <!-- Armor Fragment (Mid-grade) -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="30" />
 			<height normal="39" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22961" level="92" type="L2Monster" name="Garden Sentry">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -4591,20 +4591,20 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5464" level="1" /> <!-- Wind Attack -->
 			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
 			<skill id="4416" level="3" /> <!-- Beast -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14068" level="1" /> <!-- Garden Inducement -->
 			<skill id="14765" level="3" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="300" isAggressive="true" clanHelpRange="300">
-			<clan_list>
+			<clanList>
 				<clan>MGG_GNIGHT</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="8036" max="18760" chance="70" /> <!-- Adena -->
 				<item id="36558" min="1" max="1" chance="16.5100000000002" /> <!-- Accessory Gem (Mid-grade) -->
@@ -4614,21 +4614,21 @@
 				<item id="36557" min="1" max="1" chance="65.19" /> <!-- Accessory Gem -->
 				<item id="36558" min="1" max="1" chance="12.13" /> <!-- Accessory Gem (Mid-grade) -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="35" />
 			<height normal="35" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22962" level="91" type="L2Monster" name="Garden Commander">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -4663,7 +4663,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5465" level="1" /> <!-- Earth Attack -->
 			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
 			<skill id="4416" level="3" /> <!-- Beast -->
@@ -4671,13 +4671,13 @@
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14079" level="1" /> <!-- Garden Reflect -->
 			<skill id="14765" level="3" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="300" isAggressive="true" clanHelpRange="300">
-			<clan_list>
+			<clanList>
 				<clan>MGG_GNIGHT</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="8529" max="19911" chance="70" /> <!-- Adena -->
 				<item id="36522" min="3" max="9" chance="37.21" /> <!-- Silver -->
@@ -4687,21 +4687,21 @@
 				<item id="36522" min="1" max="3" chance="87.52" /> <!-- Silver -->
 				<item id="36523" min="1" max="1" chance="34.34" /> <!-- Adamantite -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="44" />
 			<height normal="35" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22963" level="93" type="L2Monster" name="Garden Warrior">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -4731,20 +4731,20 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5465" level="1" /> <!-- Earth Attack -->
 			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="14081" level="1" /> <!-- Garden Judgment -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14765" level="3" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="300" isAggressive="true" clanHelpRange="300">
-			<clan_list>
+			<clanList>
 				<clan>MGG_GNIGHT</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="8367" max="19494" chance="70" /> <!-- Adena -->
 				<item id="36562" min="1" max="1" chance="21.5" /> <!-- Greater Cokes -->
@@ -4754,21 +4754,21 @@
 				<item id="36562" min="1" max="1" chance="16.62" /> <!-- Greater Cokes -->
 				<item id="36563" min="1" max="1" chance="3.282" /> <!-- Synthetic Cokes -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="35" />
 			<height normal="46.5" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22964" level="93" type="L2Monster" name="Apherus Lookout" title="Bewildered">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -4798,16 +4798,16 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5464" level="1" /> <!-- Wind Attack -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
 			<skill id="14085" level="1" /> <!-- Protection -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14765" level="3" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="300" isAggressive="true" clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="12052" max="28081" chance="70" /> <!-- Adena -->
 				<item id="36562" min="1" max="1" chance="29.9" /> <!-- Greater Cokes -->
@@ -4817,21 +4817,21 @@
 				<item id="36562" min="1" max="1" chance="23.21" /> <!-- Greater Cokes -->
 				<item id="36563" min="1" max="1" chance="4.652" /> <!-- Synthetic Cokes -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="14" />
 			<height normal="30" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22965" level="92" type="L2Monster" name="Novice Phantom">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -4861,21 +4861,21 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="4408" level="9" /> <!-- HP Increase (1/2x) -->
 			<skill id="14130" level="1" /> <!-- Phantom Circle -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14765" level="3" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="300" isAggressive="true" clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="2014" max="4701" chance="70" /> <!-- Adena -->
-				<item id="17340" min="1" max="1" chance="0.0299999999999998" /> <!-- Twilight Gaiters -->
-				<item id="17351" min="1" max="1" chance="0.0299999999999998" /> <!-- Twilight Stockings -->
-				<item id="17345" min="1" max="1" chance="0.0055" /> <!-- Twilight Leather Armor -->
+				<item id="17340" min="1" max="1" chance="0.0299999999999998" /> <!-- Twilight Gaiters - Heavy Armor -->
+				<item id="17351" min="1" max="1" chance="0.0299999999999998" /> <!-- Twilight Stockings - Robe -->
+				<item id="17345" min="1" max="1" chance="0.0055" /> <!-- Twilight Leather Armor - Light Armor -->
 				<item id="36547" min="1" max="1" chance="0.75" /> <!-- Weapon Fragment -->
 				<item id="17527" min="1" max="1" chance="0.075" /> <!-- Scroll: Enchant Armor (R-grade) -->
 				<item id="36872" min="1" max="1" chance="0.075" /> <!-- Recipe: Fiber - Downgrade -->
@@ -4884,21 +4884,21 @@
 				<item id="36884" min="1" max="1" chance="0.03" /> <!-- Recipe: Synthetic Braid - Upgrade -->
 				<item id="36883" min="1" max="1" chance="0.003" /> <!-- Recipe: Synthetic Braid - Downgrade -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="28" />
 			<height normal="41.5" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22966" level="92" type="L2Monster" name="Novice Phantom Wizard">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -4928,19 +4928,19 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="4408" level="9" /> <!-- HP Increase (1/2x) -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14132" level="1" /> <!-- Curse Bloodstain -->
 			<skill id="14765" level="3" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="300" isAggressive="true" clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
-				<item id="17343" min="1" max="1" chance="0.03" /> <!-- Twilight Shield -->
-				<item id="17354" min="1" max="1" chance="0.03" /> <!-- Twilight Sigil -->
+				<item id="17343" min="1" max="1" chance="0.03" /> <!-- Twilight Shield - Heavy Armor -->
+				<item id="17354" min="1" max="1" chance="0.03" /> <!-- Twilight Sigil - Robe -->
 				<item id="57" min="3444" max="8035" chance="20" /> <!-- Adena -->
 				<item id="36552" min="1" max="1" chance="0.75" /> <!-- Armor Fragment -->
 				<item id="17527" min="1" max="1" chance="0.075" /> <!-- Scroll: Enchant Armor (R-grade) -->
@@ -4950,21 +4950,21 @@
 				<item id="36884" min="1" max="1" chance="0.03" /> <!-- Recipe: Synthetic Braid - Upgrade -->
 				<item id="36883" min="1" max="1" chance="0.003" /> <!-- Recipe: Synthetic Braid - Downgrade -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="20" />
 			<height normal="39" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22967" level="92" type="L2Monster" name="Median Phantom">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -4995,7 +4995,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
 			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
@@ -5003,14 +5003,14 @@
 			<skill id="14130" level="1" /> <!-- Phantom Circle -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14765" level="3" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="300" isAggressive="true" clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="2014" max="4701" chance="70" /> <!-- Adena -->
-				<item id="17340" min="1" max="1" chance="0.0299999999999998" /> <!-- Twilight Gaiters -->
-				<item id="17346" min="1" max="1" chance="0.0299999999999998" /> <!-- Twilight Leather Leggings -->
-				<item id="17339" min="1" max="1" chance="0.0055" /> <!-- Twilight Breastplate -->
+				<item id="17340" min="1" max="1" chance="0.0299999999999998" /> <!-- Twilight Gaiters - Heavy Armor -->
+				<item id="17346" min="1" max="1" chance="0.0299999999999998" /> <!-- Twilight Leather Leggings - Light Armor -->
+				<item id="17339" min="1" max="1" chance="0.0055" /> <!-- Twilight Breastplate - Heavy Armor -->
 				<item id="36557" min="1" max="1" chance="2.765" /> <!-- Accessory Gem -->
 				<item id="36874" min="1" max="1" chance="0.0749999999999995" /> <!-- Recipe: Synthetic Fiber - Upgrade -->
 				<item id="17526" min="1" max="1" chance="0.00550000000000012" /> <!-- Scroll: Enchant Weapon (R-grade) -->
@@ -5019,21 +5019,21 @@
 				<item id="36884" min="1" max="1" chance="0.03" /> <!-- Recipe: Synthetic Braid - Upgrade -->
 				<item id="36883" min="1" max="1" chance="0.003" /> <!-- Recipe: Synthetic Braid - Downgrade -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="30" />
 			<height normal="44.5" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22968" level="94" type="L2Monster" name="Median Escort Swordsman">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -5064,16 +5064,16 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
 			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="14134" level="1" /> <!-- Exile Attack -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14765" level="3" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="300" isAggressive="true" clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="2845" max="6638" chance="70" /> <!-- Adena -->
 				<item id="17326" min="1" max="1" chance="0.00299999999999997" /> <!-- Apocalypse Slasher -->
@@ -5087,21 +5087,21 @@
 				<item id="36884" min="1" max="1" chance="0.03" /> <!-- Recipe: Synthetic Braid - Upgrade -->
 				<item id="36883" min="1" max="1" chance="0.003" /> <!-- Recipe: Synthetic Braid - Downgrade -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="15" />
 			<height normal="32.5" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22969" level="93" type="L2Monster" name="Wraith Guardian">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -5132,19 +5132,19 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
 			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="14130" level="1" /> <!-- Phantom Circle -->
 			<skill id="4415" level="1" /> <!-- Bare Hands -->
 			<skill id="14765" level="3" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="300" isAggressive="true" clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
-				<item id="17340" min="1" max="1" chance="0.03" /> <!-- Twilight Gaiters -->
-				<item id="17345" min="1" max="1" chance="0.03" /> <!-- Twilight Leather Armor -->
+				<item id="17340" min="1" max="1" chance="0.03" /> <!-- Twilight Gaiters - Heavy Armor -->
+				<item id="17345" min="1" max="1" chance="0.03" /> <!-- Twilight Leather Armor - Light Armor -->
 				<item id="57" min="4758" max="11117" chance="20" /> <!-- Adena -->
 				<item id="36889" min="1" max="1" chance="1.685" /> <!-- Recipe: Worn Leather Braid - Combination -->
 				<item id="17527" min="1" max="1" chance="0.3" /> <!-- Scroll: Enchant Armor (R-grade) -->
@@ -5153,21 +5153,21 @@
 				<item id="36884" min="1" max="1" chance="0.03" /> <!-- Recipe: Synthetic Braid - Upgrade -->
 				<item id="36883" min="1" max="1" chance="0.003" /> <!-- Recipe: Synthetic Braid - Downgrade -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="23" />
 			<height normal="52" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22970" level="93" type="L2Monster" name="Wraith Warrior">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -5197,20 +5197,20 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
 			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="14131" level="1" /> <!-- Phantom Attack -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14765" level="3" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="300" isAggressive="true" clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
-				<item id="17343" min="1" max="1" chance="0.03" /> <!-- Twilight Shield -->
-				<item id="17351" min="1" max="1" chance="0.03" /> <!-- Twilight Stockings -->
-				<item id="17354" min="1" max="1" chance="0.03" /> <!-- Twilight Sigil -->
+				<item id="17343" min="1" max="1" chance="0.03" /> <!-- Twilight Shield - Heavy Armor -->
+				<item id="17351" min="1" max="1" chance="0.03" /> <!-- Twilight Stockings - Robe -->
+				<item id="17354" min="1" max="1" chance="0.03" /> <!-- Twilight Sigil - Robe -->
 				<item id="57" min="4758" max="11117" chance="20" /> <!-- Adena -->
 				<item id="17527" min="1" max="1" chance="0.3" /> <!-- Scroll: Enchant Armor (R-grade) -->
 				<item id="36890" min="1" max="1" chance="0.0075" /> <!-- Recipe: Leather Braid - Downgrade -->
@@ -5219,21 +5219,21 @@
 				<item id="36884" min="1" max="1" chance="0.03" /> <!-- Recipe: Synthetic Braid - Upgrade -->
 				<item id="36883" min="1" max="1" chance="0.003" /> <!-- Recipe: Synthetic Braid - Downgrade -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="22" />
 			<height normal="43" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22979" level="94" type="L2Monster" name="Novice Escort Swordsman">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -5264,17 +5264,17 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" randomWalk="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="14143" level="1" /> <!-- Exile Sword Attack -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14765" level="3" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="300" isAggressive="true" clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
-				<item id="17343" min="1" max="1" chance="0.03" /> <!-- Twilight Shield -->
+				<item id="17343" min="1" max="1" chance="0.03" /> <!-- Twilight Shield - Heavy Armor -->
 				<item id="17325" min="1" max="1" chance="0.003" /> <!-- Apocalypse Cutter -->
 				<item id="17326" min="1" max="1" chance="0.003" /> <!-- Apocalypse Slasher -->
 				<item id="17328" min="1" max="1" chance="0.003" /> <!-- Apocalypse Fighter -->
@@ -5287,10 +5287,10 @@
 				<item id="36884" min="1" max="1" chance="0.03" /> <!-- Recipe: Synthetic Braid - Upgrade -->
 				<item id="36883" min="1" max="1" chance="0.003" /> <!-- Recipe: Synthetic Braid - Downgrade -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="12" />
 			<height normal="27" />
@@ -5325,15 +5325,15 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" randomWalk="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14145" level="1" /> <!-- Yoke of Blood -->
 			<skill id="14765" level="3" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="300" isAggressive="true" clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="17324" min="1" max="1" chance="0.003" /> <!-- Apocalypse Shaper -->
 				<item id="17327" min="1" max="1" chance="0.003" /> <!-- Apocalypse Avenger -->
@@ -5346,10 +5346,10 @@
 				<item id="36884" min="1" max="1" chance="0.03" /> <!-- Recipe: Synthetic Braid - Upgrade -->
 				<item id="36883" min="1" max="1" chance="0.003" /> <!-- Recipe: Synthetic Braid - Downgrade -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="13" />
 			<height normal="26" />
@@ -5384,21 +5384,21 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" randomWalk="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14147" level="1" /> <!-- Exile Knuckle -->
 			<skill id="14765" level="3" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="300" isAggressive="true" clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="2997" max="6989" chance="70" /> <!-- Adena -->
 				<item id="17330" min="1" max="1" chance="0.003" /> <!-- Apocalypse Thrower -->
-				<item id="17346" min="1" max="1" chance="0.03" /> <!-- Twilight Leather Leggings -->
-				<item id="17339" min="1" max="1" chance="0.00549999999999981" /> <!-- Twilight Breastplate -->
-				<item id="17350" min="1" max="1" chance="0.00549999999999981" /> <!-- Twilight Tunic -->
+				<item id="17346" min="1" max="1" chance="0.03" /> <!-- Twilight Leather Leggings - Light Armor -->
+				<item id="17339" min="1" max="1" chance="0.00549999999999981" /> <!-- Twilight Breastplate - Heavy Armor -->
+				<item id="17350" min="1" max="1" chance="0.00549999999999981" /> <!-- Twilight Tunic - Robe -->
 				<item id="17527" min="1" max="1" chance="0.3" /> <!-- Scroll: Enchant Armor (R-grade) -->
 				<item id="36922" min="1" max="1" chance="0.03" /> <!-- Recipe: Armor Fragment (Low-grade) - Downgrade -->
 			</drop>
@@ -5406,10 +5406,10 @@
 				<item id="36884" min="1" max="1" chance="0.03" /> <!-- Recipe: Synthetic Braid - Upgrade -->
 				<item id="36883" min="1" max="1" chance="0.003" /> <!-- Recipe: Synthetic Braid - Downgrade -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="15" />
 			<height normal="32.5" />
@@ -5443,12 +5443,12 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14765" level="3" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="300" aggroRange="300" />
 		<collision>
 			<radius normal="13" />
@@ -5480,12 +5480,12 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="4408" level="11" /> <!-- HP Increase (3x) -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14136" level="1" /> <!-- Dark Counter -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="300" aggroRange="300" />
 		<collision>
 			<radius normal="14" />
@@ -5521,13 +5521,13 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" randomWalk="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5465" level="1" /> <!-- Earth Attack -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="14143" level="1" /> <!-- Exile Sword Attack -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14765" level="3" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="300" aggroRange="300" />
 		<collision>
 			<radius normal="12" />
@@ -5555,14 +5555,14 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
 			<skill id="4412" level="9" /> <!-- Slightly Weak P. Def. -->
 			<skill id="4413" level="8" /> <!-- Weak M. Def. -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14158" level="1" /> <!-- Crawler Spear -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="300" aggroRange="300" />
 		<collision>
 			<radius normal="6.5" />
@@ -5591,7 +5591,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
 			<skill id="4412" level="9" /> <!-- Slightly Weak P. Def. -->
 			<skill id="4413" level="8" /> <!-- Weak M. Def. -->
@@ -5599,7 +5599,7 @@
 			<skill id="14156" level="1" /> <!-- Snake -->
 			<skill id="14157" level="1" /> <!-- Long Snake -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="300" isAggressive="true" clanHelpRange="300" />
 		<collision>
 			<radius normal="9.4" />
@@ -5628,7 +5628,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
 			<skill id="4412" level="9" /> <!-- Slightly Weak P. Def. -->
 			<skill id="4413" level="8" /> <!-- Weak M. Def. -->
@@ -5636,7 +5636,7 @@
 			<skill id="4408" level="9" /> <!-- HP Increase (1/2x) -->
 			<skill id="14166" level="1" /> <!-- Baelz -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="300" aggroRange="200" />
 		<collision>
 			<radius normal="14.5" />
@@ -5664,14 +5664,14 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
 			<skill id="4412" level="9" /> <!-- Slightly Weak P. Def. -->
 			<skill id="4413" level="8" /> <!-- Weak M. Def. -->
 			<skill id="4416" level="4" /> <!-- Animals -->
 			<skill id="14161" level="1" /> <!-- Gash -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="300" aggroRange="300" />
 		<collision>
 			<radius normal="11" />
@@ -5700,7 +5700,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
 			<skill id="4412" level="8" /> <!-- Weak P. Def. -->
 			<skill id="4413" level="9" /> <!-- Slightly Weak M. Def. -->
@@ -5708,7 +5708,7 @@
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14162" level="1" /> <!-- Sweep -->
 			<skill id="14163" level="1" /> <!-- Howl -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="300" aggroRange="300" />
 		<collision>
 			<radius normal="31" />
@@ -5738,7 +5738,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
 			<skill id="4412" level="8" /> <!-- Weak P. Def. -->
 			<skill id="4413" level="9" /> <!-- Slightly Weak M. Def. -->
@@ -5746,7 +5746,7 @@
 			<skill id="14164" level="1" /> <!-- Arcane Jet -->
 			<skill id="14165" level="1" /> <!-- Arcane Bust -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="150" isAggressive="true" clanHelpRange="300" />
 		<collision>
 			<radius normal="9" />
@@ -5777,7 +5777,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4412" level="8" /> <!-- Weak P. Def. -->
 			<skill id="4413" level="9" /> <!-- Slightly Weak M. Def. -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
@@ -5785,9 +5785,9 @@
 			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
 			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
 			<skill id="14167" level="1" /> <!-- Black Powder -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="300" aggroRange="100" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="8600" min="1" max="1" chance="10" /> <!-- Herb of Life -->
 				<item id="8601" min="1" max="1" chance="8" /> <!-- Major Herb of Life -->
@@ -5799,7 +5799,7 @@
 				<item id="34850" min="1" max="1" chance="0.7" /> <!-- Mysterious Herb of Magic -->
 				<item id="13028" min="1" max="1" chance="0.1" /> <!-- Vitality Replenishing Herb -->
 			</drop>
-		</drop_lists>
+		</dropLists>
 		<collision>
 			<radius normal="6" />
 			<height normal="22.5" />
@@ -5830,7 +5830,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4412" level="8" /> <!-- Weak P. Def. -->
 			<skill id="4413" level="9" /> <!-- Slightly Weak M. Def. -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
@@ -5838,9 +5838,9 @@
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
 			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="300" aggroRange="100" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="8600" min="1" max="1" chance="10" /> <!-- Herb of Life -->
 				<item id="8601" min="1" max="1" chance="8" /> <!-- Major Herb of Life -->
@@ -5852,7 +5852,7 @@
 				<item id="34850" min="1" max="1" chance="0.7" /> <!-- Mysterious Herb of Magic -->
 				<item id="13028" min="1" max="1" chance="0.1" /> <!-- Vitality Replenishing Herb -->
 			</drop>
-		</drop_lists>
+		</dropLists>
 		<collision>
 			<radius normal="6" />
 			<height normal="22.5" />

@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
 	<skill id="10100" toLevel="4" name="Guardian's Frenzy">
-		<!-- For 1 min., P./M. Def. +50%, Attribute Resistance + 10, Speed + 10. When equipped with a sword or blunt weapon, Accuracy + 4, Atk. Spd. + 10%, Critical Rate + 30, Critical Damage + 30%. -->
+		<!-- For $s1, P./M. Def. + $s2, Attribute Resistance + $s3, Speed + $s4. When equipped with a sword or blunt weapon, Accuracy + $s5, Atk. Spd. + $s6, Critical Rate + $s7, Critical Damage + $s8. -->
+		<icon>icon.skill10100</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>
 			<value fromLevel="1" toLevel="4">60</value>
@@ -9,7 +10,6 @@
 			<value fromLevel="3" toLevel="4" fromSubLevel="1011" toSubLevel="1030">{base + 10 + 0.5 * subIndex}</value>
 		</abnormalTime>
 		<abnormalType>POSSESSION</abnormalType>
-		<icon>icon.skill10100</icon>
 		<operateType>A2</operateType>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -172,7 +172,8 @@
 		</effects>
 	</skill>
 	<skill id="10101" toLevel="4" name="Templar's Frenzy">
-		<!-- For 1 min., P. Skill Power + 5%, P./M. Def. + 50%, Speed + 10. When equipped with a sword or blunt weapon, Accuracy + 4, Atk. Spd. + 10%, Critical Rate + 30, Critical Damage + 30%. -->
+		<!-- For $s1, P. Skill Power + $s2, P./M. Def. + $s3, Speed + $s4. When equipped with a sword or blunt weapon, Accuracy + $s5, Atk. Spd. + $s6, Critical Rate + $s7, Critical Damage + $s8. -->
+		<icon>icon.skill10101</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>
 			<value fromLevel="1" toLevel="4">60</value>
@@ -180,7 +181,6 @@
 			<value fromLevel="3" toLevel="4" fromSubLevel="1011" toSubLevel="1030">{base + 10 + 0.5 * subIndex}</value>
 		</abnormalTime>
 		<abnormalType>POSSESSION</abnormalType>
-		<icon>icon.skill10101</icon>
 		<operateType>A2</operateType>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -298,7 +298,8 @@
 		</effects>
 	</skill>
 	<skill id="10102" toLevel="6" name="Shadow Slash">
-		<!-- Summons a Dark Panther to attack enemies in front of you with 33505 Power added to P. Atk. and knocks them down. Requires a shield. Consumes 6 Soulstones. Over-hit. -->
+		<!-- Summons a Dark Panther to attack enemies in front of you with $s1 Power added to P. Atk. and knocks them down. Requires a shield. Consumes $s2 Soulstones. Over-hit. -->
+		<icon>icon.skill10102</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>1</abnormalTime>
 		<abnormalType>KNOCKDOWN</abnormalType>
@@ -311,7 +312,6 @@
 		</activateRate>
 		<lvlBonusRate>1</lvlBonusRate>
 		<nextAction>ATTACK</nextAction>
-		<icon>icon.skill10102</icon>
 		<itemConsumeId>1785</itemConsumeId> <!-- Soulstones -->
 		<itemConsumeCount>6</itemConsumeCount>
 		<operateType>A2</operateType>
@@ -365,7 +365,8 @@
 		</effects>
 	</skill>
 	<skill id="10103" toLevel="6" name="Mass Freezing Strike">
-		<!-- Freezes the air, inflicting 18151 damage to target and nearby enemies, and for 10 sec., decreases enemy Speed by 100. Consumes 6 Soulstones. -->
+		<!-- Freezes the air, inflicting $s1 damage to target and nearby enemies, and for 10 sec., decreases enemy Speed by $s2. Consumes $s3 Soulstones. -->
+		<icon>icon.skill10103</icon>
 		<abnormalLvl>2</abnormalLvl>
 		<abnormalTime>10</abnormalTime>
 		<abnormalType>SPEED_DOWN</abnormalType>
@@ -378,7 +379,6 @@
 		<basicProperty>MAGIC</basicProperty> <!-- Guessed -->
 		<attributeType>WATER</attributeType>
 		<attributeValue>20</attributeValue>
-		<icon>icon.skill10103</icon>
 		<itemConsumeId>1785</itemConsumeId> <!-- Soulstones -->
 		<itemConsumeCount>6</itemConsumeCount>
 		<lvlBonusRate>1</lvlBonusRate>
@@ -427,18 +427,18 @@
 		</effects>
 	</skill>
 	<skill id="10104" toLevel="1" name="Paladin's Aura">
-		<!-- Increases P. Def. by 25%, Received Heal by 25%, and decreases Received P. Critical Damage by 25%. Increases party members' P. Def. by 20%, Received Heal by 20%, and decreases Received Critical Damage by 20%. Only one Knight's Aura can be active at any time. -->
+		<!-- P./M. Def. +$s1, Heal Received +$s2 -->
+		<icon>icon.skill10104</icon>
 		<magicCriticalRate>5</magicCriticalRate>
 		<toggleGroupId>4</toggleGroupId>
 		<abnormalVisualEffect>PHOENIX_AURA</abnormalVisualEffect>
 		<magicLvl>101</magicLvl>
-		<icon>icon.skill10104</icon>
 		<operateType>AU</operateType>
 		<reuseDelay>1000</reuseDelay>
 		<effects>
 			<effect name="CallSkillOnActionTime">
 				<!-- Paladin's Aura -->
-				<skillId>10108</skillId>
+				<skillId>10108</skillId> <!-- Paladin's Aura -->
 				<skillLevel>1</skillLevel>
 				<skillSubLevel>
 					<value fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1030">{1000 + subIndex}</value>
@@ -474,18 +474,18 @@
 		</effects>
 	</skill>
 	<skill id="10105" toLevel="1" name="Avenger's Aura">
-		<!-- Increases P. Atk./Atk. Spd by 25%, P. Critical Rate by 80, P. Critical Damage by 25%, and Speed by 20. Decreases P./M. Atk. by 30%, Atk. Spd./Casting Spd. by 30%, Speed by 20 and Received Critical Damage by 15% of nearby enemies. Only one Knight's Aura can be active at any time. -->
+		<!-- Increases P. Atk./Atk. Spd by $s1, P. Critical Rate by $s2, P. Critical Damage by $s3, and Speed by $s4. Decreases P./M. Atk. by $s5, Atk. Spd./Casting Spd. by $s6, Speed by $s7 and Received Critical Damage by $s8 of nearby enemies. Only one Knight's Aura can be active at any time. -->
+		<icon>icon.skill10105</icon>
 		<magicCriticalRate>5</magicCriticalRate>
 		<toggleGroupId>4</toggleGroupId>
 		<abnormalVisualEffect>REVENGE_AURA</abnormalVisualEffect>
 		<magicLvl>85</magicLvl>
-		<icon>icon.skill10105</icon>
 		<operateType>AU</operateType>
 		<reuseDelay>1000</reuseDelay>
 		<effects>
 			<effect name="CallSkillOnActionTime">
 				<!-- Avenger's Aura -->
-				<skillId>10109</skillId>
+				<skillId>10109</skillId> <!-- Avenger's Aura -->
 				<skillLevel>1</skillLevel>
 				<skillSubLevel>
 					<value fromLevel="1" toLevel="1" fromSubLevel="2001" toSubLevel="2030">{2000 + subIndex}</value>
@@ -518,18 +518,18 @@
 		</effects>
 	</skill>
 	<skill id="10106" toLevel="1" name="Sentinel's Aura">
-		<!-- Increases P./M. Def. by 25%, Attribute Resistance by 50, and Debuff Resistance by 25%. Increases party members' M. Def. by 20%, Attribute Resistance by 40, and Debuff Resistance by 20%. Only one Knight's Aura can be active at any time. -->
+		<!-- P./M. Def. +$s1, $s2Attribute Def. +$s3, Debuff Resistance +$s4. Party members' P./M. Def. +$s5, $s6Attribute Def. +$s7, Debuff Resistance +$s8. Only one Knight's Aura can be active at any time. -->
+		<icon>icon.skill10106</icon>
 		<magicCriticalRate>5</magicCriticalRate>
 		<toggleGroupId>4</toggleGroupId>
 		<abnormalVisualEffect>EVAS_AURA</abnormalVisualEffect>
 		<magicLvl>85</magicLvl>
-		<icon>icon.skill10106</icon>
 		<operateType>AU</operateType>
 		<reuseDelay>1000</reuseDelay>
 		<effects>
 			<effect name="CallSkillOnActionTime">
 				<!-- Sentinel's Aura -->
-				<skillId>10110</skillId>
+				<skillId>10110</skillId> <!-- Sentinel's Aura -->
 				<skillLevel>1</skillLevel>
 				<skillSubLevel>
 					<value fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1030">{1000 + subIndex}</value>
@@ -600,18 +600,18 @@
 		</effects>
 	</skill>
 	<skill id="10107" toLevel="1" name="Templar's Aura">
-		<!-- Increases P. Atk. by 15%, Atk. Spd. by 15%, and Speed by 10. Increases party members' P. Atk. by 10%, Atk. Spd. by 10%, M. Atk. by 10%, Casting Spd. by 10% and Speed by 10. Only one Knight's Aura can be active at any time. -->
+		<!-- Increases P. Atk. by $s1, Atk. Spd. by $s2, and Speed by $s3. Increases party members' P. Atk. By $s4, Atk. Spd. by $s5, M. Atk. by $s6, Casting Spd. by $s7 and Speed by $s8. Only one Knight's Aura can be active at any time. -->
+		<icon>icon.skill10107</icon>
 		<magicCriticalRate>5</magicCriticalRate>
 		<toggleGroupId>4</toggleGroupId>
 		<abnormalVisualEffect>TEMPLAR_AURA</abnormalVisualEffect>
 		<magicLvl>85</magicLvl>
-		<icon>icon.skill10107</icon>
 		<operateType>AU</operateType>
 		<reuseDelay>1000</reuseDelay>
 		<effects>
 			<effect name="CallSkillOnActionTime">
 				<!-- Templar's Aura -->
-				<skillId>10111</skillId>
+				<skillId>10111</skillId> <!-- Templar's Aura -->
 				<skillLevel>1</skillLevel>
 				<skillSubLevel>
 					<value fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1030">{1000 + subIndex}</value>
@@ -643,7 +643,8 @@
 		</effects>
 	</skill>
 	<skill id="10108" toLevel="1" name="Paladin's Aura">
-		<!-- P. Def. + 20%, heal amount + 20%, and Received P. Critical Damage - 20%. -->
+		<!-- P./M. Def. +$s1, Heal Received +$s2 -->
+		<icon>icon.skill10104</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>11</abnormalTime>
 		<abnormalType>AURA</abnormalType>
@@ -652,7 +653,6 @@
 		<canBeDispelled>false</canBeDispelled>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>85</magicLvl>
-		<icon>icon.skill10104</icon>
 		<operateType>A5</operateType>
 		<targetType>MY_PARTY</targetType>
 		<affectScope>PARTY</affectScope>
@@ -689,7 +689,8 @@
 		</effects>
 	</skill>
 	<skill id="10109" toLevel="1" name="Avenger's Aura">
-		<!-- P./M. Atk. - 30%, Atk. Spd./Casting Spd. - 30%, Speed - 30%, and Received Critical Damage + 15%. -->
+		<!-- P./M. Atk. - $s1, Atk. Spd./Casting Spd. - $s2, Speed - $s3, and Received Critical Damage + $s4. -->
+		<icon>icon.skill10105</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>11</abnormalTime>
 		<abnormalType>AURA</abnormalType>
@@ -698,7 +699,6 @@
 		<canBeDispelled>false</canBeDispelled>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>85</magicLvl>
-		<icon>icon.skill10105</icon>
 		<operateType>A5</operateType>
 		<targetType>ENEMY</targetType>
 		<affectScope>RANGE</affectScope>
@@ -741,7 +741,8 @@
 		</effects>
 	</skill>
 	<skill id="10110" toLevel="1" name="Sentinel's Aura">
-		<!-- M. Def. + 20%, Attribute Resistance + 40, Debuff Resistance + 20%. -->
+		<!-- P./M. Def. +$s1, $s2Attribute Def. +$s3, Debuff Resistance +$s4. -->
+		<icon>icon.skill10106</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>11</abnormalTime>
 		<abnormalType>AURA</abnormalType>
@@ -749,7 +750,6 @@
 		<affectRange>1000</affectRange>
 		<canBeDispelled>false</canBeDispelled>
 		<magicLvl>85</magicLvl>
-		<icon>icon.skill10106</icon>
 		<operateType>A5</operateType>
 		<targetType>MY_PARTY</targetType>
 		<affectScope>PARTY</affectScope>
@@ -814,7 +814,8 @@
 		</effects>
 	</skill>
 	<skill id="10111" toLevel="1" name="Templar's Aura">
-		<!-- P. Atk. + 10%, Atk. Spd. + 10%, M. Atk. + 10%, Casting Spd. + 10%, Speed + 10. -->
+		<!-- P. Atk. + $s1, Atk. Spd. + $s2, M. Atk. + $s3, Casting Spd. + $s4, Speed + $s5. -->
+		<icon>icon.skill10107</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>11</abnormalTime>
 		<abnormalType>AURA</abnormalType>
@@ -823,7 +824,6 @@
 		<canBeDispelled>false</canBeDispelled>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>85</magicLvl>
-		<icon>icon.skill10107</icon>
 		<operateType>A5</operateType>
 		<targetType>MY_PARTY</targetType>
 		<affectScope>PARTY</affectScope>

@@ -180,9 +180,9 @@ public final class AwakeningMaster extends AbstractNpcAI
 						}
 					}
 					
+					// Fix for Female Soulhounds
 					if (player.getClassId() == ClassId.FEMALE_SOUL_HOUND)
 					{
-						// Fix for Female Soulhounds
 						player.sendPacket(new ExChangeToAwakenedClass(ClassId.FEOH_SOUL_HOUND.getId()));
 					}
 					else
@@ -303,42 +303,53 @@ public final class AwakeningMaster extends AbstractNpcAI
 			return;
 		}
 		
-		for (ClassId newClass : player.getClassId().getNextClassIds())
+		// Fix for Female Soulhounds
+		int newClassId = -1;
+		if (player.getClassId() == ClassId.FEMALE_SOUL_HOUND)
 		{
-			player.setClassId(newClass.getId());
-			if (player.isDualClassActive())
-			{
-				player.getSubClasses().get(player.getClassIndex()).setClassId(player.getActiveClass());
-			}
-			else
-			{
-				player.setBaseClass(player.getActiveClass());
-			}
-			player.sendPacket(SystemMessageId.CONGRATULATIONS_YOU_VE_COMPLETED_A_CLASS_TRANSFER);
-			final UserInfo ui = new UserInfo(player, false);
-			ui.addComponentType(UserInfoType.BASIC_INFO);
-			ui.addComponentType(UserInfoType.MAX_HPCPMP);
-			player.sendPacket(ui);
-			player.broadcastInfo();
-			
-			player.broadcastPacket(new SocialAction(player.getObjectId(), 20));
-			for (Entry<CategoryType, Integer> ent : AWAKE_POWER.entrySet())
-			{
-				if (player.isInCategory(ent.getKey()))
-				{
-					giveItems(player, ent.getValue(), 1);
-					break;
-				}
-			}
-			giveItems(player, player.isDualClassActive() ? CHAOS_POMANDER_DUAL_CLASS : CHAOS_POMANDER, 2);
-			
-			SkillTreesData.getInstance().cleanSkillUponAwakening(player);
-			for (L2SkillLearn skill : SkillTreesData.getInstance().getRaceSkillTree(player.getRace()))
-			{
-				player.addSkill(SkillData.getInstance().getSkill(skill.getSkillId(), skill.getSkillLevel()), true);
-			}
-			player.sendSkillList();
+			newClassId = ClassId.FEOH_SOUL_HOUND.getId();
 		}
+		else
+		{
+			for (ClassId newClass : player.getClassId().getNextClassIds())
+			{
+				newClassId = newClass.getId();
+			}
+		}
+		
+		player.setClassId(newClassId);
+		if (player.isDualClassActive())
+		{
+			player.getSubClasses().get(player.getClassIndex()).setClassId(player.getActiveClass());
+		}
+		else
+		{
+			player.setBaseClass(player.getActiveClass());
+		}
+		player.sendPacket(SystemMessageId.CONGRATULATIONS_YOU_VE_COMPLETED_A_CLASS_TRANSFER);
+		final UserInfo ui = new UserInfo(player, false);
+		ui.addComponentType(UserInfoType.BASIC_INFO);
+		ui.addComponentType(UserInfoType.MAX_HPCPMP);
+		player.sendPacket(ui);
+		player.broadcastInfo();
+		
+		player.broadcastPacket(new SocialAction(player.getObjectId(), 20));
+		for (Entry<CategoryType, Integer> ent : AWAKE_POWER.entrySet())
+		{
+			if (player.isInCategory(ent.getKey()))
+			{
+				giveItems(player, ent.getValue(), 1);
+				break;
+			}
+		}
+		giveItems(player, player.isDualClassActive() ? CHAOS_POMANDER_DUAL_CLASS : CHAOS_POMANDER, 2);
+		
+		SkillTreesData.getInstance().cleanSkillUponAwakening(player);
+		for (L2SkillLearn skill : SkillTreesData.getInstance().getRaceSkillTree(player.getRace()))
+		{
+			player.addSkill(SkillData.getInstance().getSkill(skill.getSkillId(), skill.getSkillLevel()), true);
+		}
+		player.sendSkillList();
 		
 		ThreadPool.schedule(() ->
 		{

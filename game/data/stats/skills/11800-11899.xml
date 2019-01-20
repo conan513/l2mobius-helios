@@ -1,18 +1,15 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
 	<skill id="11800" toLevel="3" name="Sustain">
-		<!-- Glory Days confirmed -->
-		<!-- Updated to Ertheia -->
-		<!-- For 10 second, increases Healing power by 50. If triggered again, the effect will increase. -->
+		<!-- For $s1, increases Healing power by $s2. If triggered again, the effect will increase. -->
+		<icon>icon.skill1217</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>10</abnormalTime>
 		<abnormalType>LIFE_FORCE_HEALER_SELF</abnormalType>
-		<icon>icon.skill1217</icon>
 		<magicLvl>93</magicLvl>
 		<operateType>A4</operateType>
 		<effectPoint>1</effectPoint>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<isMagic>4</isMagic>
@@ -30,9 +27,7 @@
 		</effects>
 	</skill>
 	<skill id="11801" toLevel="3" name="Sustain">
-		<!-- Glory Days confirmed -->
-		<!-- Updated to Ertheia -->
-		<!-- For 15 seconds, Heals allies over time. Also increases your Healing power. If triggered again, the effect will increase. -->
+		<!-- For $s1, Heals allies over time. Also increases your Healing power. If triggered again, the effect will increase. -->
 		<icon>icon.skill1217</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>15</abnormalTime>
@@ -50,7 +45,6 @@
 		<hitTime>500</hitTime>
 		<effectPoint>1</effectPoint>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<isMagic>1</isMagic>
 		<targetType>TARGET</targetType>
@@ -80,25 +74,22 @@
 		</effects>
 		<selfEffects>
 			<effect name="CallSkill">
-				<skillId>11802</skillId>
+				<skillId>11802</skillId> <!-- Sustain -->
 				<skillLevel>1</skillLevel>
 				<skillLevelScaleTo>3</skillLevelScaleTo>
 			</effect>
 		</selfEffects>
 	</skill>
 	<skill id="11802" toLevel="3" name="Sustain">
-		<!-- Glory Days confirmed -->
-		<!-- Updated to Ertheia -->
-		<!-- For 10 second, increases Healing power by 50. If triggered again, the effect will increase. -->
+		<!-- For $s1, increases Healing power by $s2. If triggered again, the effect will increase. -->
+		<icon>icon.skill1217</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>10</abnormalTime>
 		<abnormalType>LIFE_FORCE_HEALER_SELF</abnormalType>
-		<icon>icon.skill1217</icon>
 		<magicLvl>95</magicLvl>
 		<operateType>A4</operateType>
 		<effectPoint>1</effectPoint>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<isMagic>4</isMagic>
@@ -116,9 +107,7 @@
 		</effects>
 	</skill>
 	<skill id="11803" toLevel="3" name="Sustain">
-		<!-- Updated to Ertheia -->
-		<!-- Glory Days confirmed -->
-		<!-- For 15 seconds, Heals allies over time. Also increases your Healing power. If triggered again, the effect will increase. -->
+		<!-- For $s1, Heals allies over time. Also increases your Healing power. If triggered again, the effect will increase. -->
 		<icon>icon.skill1217</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>15</abnormalTime>
@@ -135,7 +124,6 @@
 		<hitTime>500</hitTime>
 		<effectPoint>1</effectPoint>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>1100</effectRange>
 		<isMagic>1</isMagic>
@@ -166,25 +154,22 @@
 		</effects>
 		<selfEffects>
 			<effect name="CallSkill">
-				<skillId>11804</skillId>
+				<skillId>11804</skillId> <!-- Sustain -->
 				<skillLevel>1</skillLevel>
 				<skillLevelScaleTo>3</skillLevelScaleTo>
 			</effect>
 		</selfEffects>
 	</skill>
 	<skill id="11804" toLevel="3" name="Sustain">
-		<!-- Updated to Ertheia -->
-		<!-- Glory Days confirmed -->
-		<!-- For 10 second, increases Healing power by 50. If triggered again, the effect will increase. -->
+		<!-- For $s1, increases Healing power by $s2. If triggered again, the effect will increase. -->
+		<icon>icon.skill1217</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>10</abnormalTime>
 		<abnormalType>LIFE_FORCE_HEALER_SELF</abnormalType>
-		<icon>icon.skill1217</icon>
 		<magicLvl>97</magicLvl>
 		<operateType>A4</operateType>
 		<effectPoint>1</effectPoint>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<isMagic>4</isMagic>
@@ -202,21 +187,17 @@
 		</effects>
 	</skill>
 	<skill id="11805" toLevel="1" name="Not in Use">
-		<!-- Glory Days confirmed -->
 		<icon>icon.skill1460</icon>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>97</magicLvl>
 	</skill>
 	<skill id="11806" toLevel="4" name="Blessing of Tree">
-		<!-- Updated to Ertheia -->
-		<!-- Glory Days confirmed -->
 		<!-- Recovers HP and removes bad abnormal statuses. -->
 		<icon>icon.skill1258</icon>
 		<operateType>A1</operateType>
 		<reuseDelay>7000</reuseDelay>
 		<effectPoint>2</effectPoint>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>
 			<value level="1">85</value>
@@ -246,8 +227,6 @@
 		</effects>
 	</skill>
 	<skill id="11807" toLevel="5" name="Miracle of Fairy">
-		<!-- Updated to Ertheia -->
-		<!-- Glory Days confirmed -->
 		<icon>icon.skill11807</icon>
 		<magicLvl>
 			<value level="1">87</value>
@@ -259,7 +238,6 @@
 		<operateType>A1</operateType>
 		<castRange>600</castRange>
 		<effectRange>1100</effectRange>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<staticReuse>true</staticReuse>
@@ -279,21 +257,18 @@
 		</effects>
 	</skill>
 	<skill id="11808" toLevel="2" name="Elegance of Light">
-		<!-- Updated to Ertheia -->
-		<!-- Glory Days confirmed -->
 		<!-- Affected by Elegance of Light. HP is decreased. -->
+		<icon>icon.skill0086</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>11</abnormalTime>
 		<abnormalType>ALL_REGEN_DOWN</abnormalType>
 		<affectRange>300</affectRange>
-		<icon>icon.skill0086</icon>
 		<operateType>A5</operateType>
 		<mpConsume>1</mpConsume>
 		<hitTime>500</hitTime>
 		<reuseDelay>10000</reuseDelay>
 		<effectPoint>379</effectPoint>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>
 			<value level="1">91</value>
@@ -314,20 +289,17 @@
 		</effects>
 	</skill>
 	<skill id="11809" toLevel="2" name="Elegance of Light">
-		<!-- Updated to Ertheia -->
-		<!-- Glory Days confirmed -->
 		<!-- Affected by Elegance of Light. Increases HP. -->
+		<icon>icon.skill0086</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>11</abnormalTime>
 		<abnormalType>MULTI_DEBUFF_EARTH</abnormalType>
 		<affectRange>300</affectRange>
-		<icon>icon.skill0086</icon>
 		<operateType>A5</operateType>
 		<mpConsume>1</mpConsume>
 		<hitTime>500</hitTime>
 		<effectPoint>379</effectPoint>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>
 			<value level="1">91</value>
@@ -348,7 +320,6 @@
 		</effects>
 	</skill>
 	<skill id="11810" toLevel="1" name="Resurrection Wish">
-		<!-- Glory Days confirmed -->
 		<!-- Can use the Mark of Resurrection for 30 seconds. -->
 		<icon>icon.skill1217</icon>
 		<abnormalLvl>1</abnormalLvl>
@@ -356,7 +327,6 @@
 		<abnormalType>AB_HAWK_EYE</abnormalType>
 		<operateType>A4</operateType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<activateRate>0</activateRate>
@@ -366,15 +336,13 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="11811" toLevel="1" name="Total Resurrection Wish">
-		<!-- Glory Days confirmed -->
 		<!-- Can use the Mark of Resurrection and Mark of Total Resurrection for 30 seconds. -->
+		<icon>icon.skill1217</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>30</abnormalTime>
 		<abnormalType>SNIPE</abnormalType>
-		<icon>icon.skill1217</icon>
 		<operateType>A4</operateType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<activateRate>0</activateRate>
@@ -384,8 +352,6 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="11812" toLevel="1" name="Mark of Resurrection">
-		<!-- Updated to Ertheia -->
-		<!-- Glory Days confirmed -->
 		<!-- Bestows the mark of resurrection that can completely resurrect party members from death for 10 minutes. Buffs and debuffs are maintained at death. But the Noblesse Blessing and Lucky Charm will disappear. -->
 		<icon>icon.skill1410</icon>
 		<abnormalLvl>2</abnormalLvl>
@@ -401,7 +367,6 @@
 		<reuseDelay>600000</reuseDelay>
 		<staticReuse>true</staticReuse>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>900</effectRange>
 		<magicLvl>85</magicLvl>
@@ -417,8 +382,6 @@
 		</effects>
 	</skill>
 	<skill id="11813" toLevel="1" name="Mark of Total Resurrection">
-		<!-- Updated to Ertheia -->
-		<!-- Glory Days confirmed -->
 		<!-- Bestows the mark of resurrection that can completely resurrect all party members from death for 10 minutes. Buffs and debuffs are maintained at death. But the Noblesse Blessing and Lucky Charm will disappear. -->
 		<icon>icon.skill1410</icon>
 		<abnormalLvl>2</abnormalLvl>
@@ -434,7 +397,6 @@
 		<reuseDelay>600000</reuseDelay>
 		<staticReuse>true</staticReuse>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>93</magicLvl>
 		<isMagic>1</isMagic>
@@ -450,9 +412,8 @@
 		</effects>
 	</skill>
 	<skill id="11814" toLevel="11" name="Dark Force">
-		<!-- Updated to IO -->
-		<!-- Glory Days confirmed -->
-		<!-- Inflicts damage on target with 124 Power added to M. Atk. Has a chance of pushing back target. -->
+		<!-- Inflicts damage on target with $s1 Power added to M. Atk. Has a chance of pushing back target. -->
+		<icon>icon.skill11814</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalType>STUN</abnormalType>
 		<abnormalTime>1</abnormalTime>
@@ -463,7 +424,6 @@
 		</activateRate>
 		<basicProperty>PHYSICAL</basicProperty>
 		<lvlBonusRate>20</lvlBonusRate>
-		<icon>icon.skill11814</icon>
 		<magicLvl>
 			<value level="1">85</value>
 			<value level="2">86</value>
@@ -511,7 +471,6 @@
 		<reuseDelay>10000</reuseDelay>
 		<isMagic>1</isMagic>
 		<isDebuff>true</isDebuff>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>
 			<value fromLevel="1" toLevel="11">5</value>
 			<value fromLevel="7" toLevel="11" fromSubLevel="3001" toSubLevel="3030">{base + base / 100 * subIndex}</value>
@@ -567,9 +526,7 @@
 		</effects>
 	</skill>
 	<skill id="11815" toLevel="3" name="Sustain">
-		<!-- Updated to Ertheia -->
-		<!-- Glory Days confirmed -->
-		<!-- For 15 seconds, Heals allies over time. Also increases your Healing power. If triggered again, the effect will increase. -->
+		<!-- For $s1, Heals allies over time. Also increases your Healing power. If triggered again, the effect will increase. -->
 		<icon>icon.skill1217</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>15</abnormalTime>
@@ -586,7 +543,6 @@
 		<hitTime>500</hitTime>
 		<effectPoint>1</effectPoint>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>1100</effectRange>
 		<isMagic>1</isMagic>
@@ -618,24 +574,21 @@
 		<selfEffects>
 			<effect name="CallSkill">
 				<!-- Sustain -->
-				<skillId>11804</skillId>
+				<skillId>11804</skillId> <!-- Sustain -->
 				<skillLevel>1</skillLevel>
 				<skillLevelScaleTo>3</skillLevelScaleTo>
 			</effect>
 		</selfEffects>
 	</skill>
 	<skill id="11816" toLevel="3" name="Sustain">
-		<!-- Updated to Ertheia -->
-		<!-- Glory Days confirmed -->
-		<!-- For 10 second, increases Healing power by 50. If triggered again, the effect will increase. -->
+		<!-- For $s1, increases Healing power by $s2. If triggered again, the effect will increase. -->
+		<icon>icon.skill1217</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>10</abnormalTime>
 		<abnormalType>LIFE_FORCE_HEALER_SELF</abnormalType>
-		<icon>icon.skill1217</icon>
 		<operateType>A4</operateType>
 		<effectPoint>1</effectPoint>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<magicLvl>99</magicLvl>
@@ -654,12 +607,10 @@
 		</effects>
 	</skill>
 	<skill id="11817" toLevel="11" name="Dark Rain">
-		<!-- Updated to Ertheia -->
-		<!-- Glory Days confirmed -->
-		<!-- Inflicts damage on nearby enemies with 102 Power added to M. Atk. and decreases aggression toward yourself. -->
+		<!-- Inflicts damage on nearby enemies with $s1 Power added to M. Atk. and decreases aggression toward yourself. -->
+		<icon>icon.skill11817</icon>
 		<affectLimit>10-10</affectLimit>
 		<affectRange>300</affectRange>
-		<icon>icon.skill11817</icon>
 		<castRange>900</castRange>
 		<effectPoint>
 			<value level="1">-1733</value>
@@ -705,7 +656,6 @@
 		<hitTime>3780</hitTime>
 		<coolTime>500</coolTime>
 		<reuseDelay>6700</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>
 			<value fromLevel="1" toLevel="11">5</value>
 			<value fromLevel="7" toLevel="11" fromSubLevel="2001" toSubLevel="2030">{base + base / 100 * subIndex}</value>
@@ -760,20 +710,16 @@
 		</effects>
 	</skill>
 	<skill id="11818" toLevel="1" name="Price of Summoning">
-		<!-- Updated to Ertheia -->
-		<!-- Glory Days confirmed -->
-		<!-- Effect comes in 2 seconds after summoning Lumi. Debuff is updated 2 seconds after disappears. (the 1 second delay is the effect icon show delay) -->
 		<!-- Healing abilities are decreased as a price for summoning Lumi. -->
+		<icon>icon.skill1100</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>180</abnormalTime>
 		<abnormalType>DOT_MP</abnormalType>
-		<icon>icon.skill1100</icon>
 		<operateType>A2</operateType>
 		<castRange>600</castRange>
 		<reuseDelay>8000</reuseDelay>
 		<effectPoint>1</effectPoint>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
 		<effectRange>1100</effectRange>
@@ -790,8 +736,6 @@
 		</effects>
 	</skill>
 	<skill id="11819" toLevel="1" name="Party Return">
-		<!-- Glory Days confirmed -->
-		<!-- Copy-pasted from Party Recall skill. -->
 		<!-- Teleports party members to the nearest village. Cannot be used in a specially designated place such as the GM Consultation Service. -->
 		<icon>icon.skill11819</icon>
 		<affectRange>1000</affectRange>
@@ -801,7 +745,6 @@
 		<hitTime>3500</hitTime>
 		<reuseDelay>150000</reuseDelay>
 		<isMagic>1</isMagic>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>85</magicLvl>
 		<targetType>SELF</targetType>
@@ -817,9 +760,7 @@
 		</effects>
 	</skill>
 	<skill id="11820" toLevel="1" name="Power of Saha">
-		<!-- Glory Days confirmed -->
-		<!-- Updated to Ertheia -->
-		<!-- For 30 minutes, target's P. Atk. + 17%, P. Def. + 15%, M. Atk. + 79%, M. Def. + 30%. -->
+		<!-- For $s1, target's P. Atk. + $s2, P. Def. + $s3, M. Atk. + $s4, M. Def. + $s5. -->
 		<icon>icon.skill11820</icon>
 		<abnormalTime>1800</abnormalTime>
 		<abnormalLvl>1</abnormalLvl>
@@ -832,7 +773,6 @@
 		<reuseDelay>2000</reuseDelay>
 		<effectPoint>687</effectPoint>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>1100</effectRange>
 		<magicLvl>85</magicLvl>
@@ -865,9 +805,7 @@
 		</effects>
 	</skill>
 	<skill id="11821" toLevel="1" name="Critical of Saha">
-		<!-- Updated to IO -->
-		<!-- Glory Days confirmed -->
-		<!-- For 30 minutes, target's P. Critical Rate + 32%, P. Critical Damage + 35%, M. Critical Rate + 20, MP Consumption for physical skills - 20% and MP Consumption for magic skills - 10%. -->
+		<!-- For $s1, target's P. Critical Rate + $s2, P. Critical Damage + $s3, M. Critical Rate + $s4, MP Consumption for physical skills - $s5 and MP Consumption for magic skills - $s6. -->
 		<icon>icon.skill11821</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>1800</abnormalTime>
@@ -880,7 +818,6 @@
 		<reuseDelay>2000</reuseDelay>
 		<effectPoint>687</effectPoint>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>1100</effectRange>
 		<magicLvl>85</magicLvl>
@@ -919,9 +856,7 @@
 		</effects>
 	</skill>
 	<skill id="11822" toLevel="1" name="Force of Saha">
-		<!-- Updated to Ertheia -->
-		<!-- Glory Days confirmed -->
-		<!-- For 30 minutes, target's Atk. Spd. + 34% and Casting Spd. + 31%. Bestows a 9% Vampiric Rage effect at a certain rate. -->
+		<!-- For $s1, target's Atk. Spd. + $s2 and Casting Spd. + $s3. Bestows a $s4 Vampiric Rage effect at a certain rate. -->
 		<icon>icon.skill11822</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>1800</abnormalTime>
@@ -934,7 +869,6 @@
 		<reuseDelay>2000</reuseDelay>
 		<effectPoint>687</effectPoint>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>1100</effectRange>
 		<magicLvl>85</magicLvl>
@@ -963,9 +897,7 @@
 		</effects>
 	</skill>
 	<skill id="11823" toLevel="1" name="Speed of Saha">
-		<!-- Updated to Ertheia -->
-		<!-- Glory Days confirmed -->
-		<!-- For 30 minutes, target's P. Accuracy + 5, P. and M. Evasion + 5, Speed + 34 and received Critical Damage - 30%. -->
+		<!-- For $s1, target's P. Accuracy + $s2, P. and M. Evasion + $s3, Speed + $s4 and received Critical Damage - $s5. -->
 		<icon>icon.skill11823</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>1800</abnormalTime>
@@ -978,7 +910,6 @@
 		<reuseDelay>2000</reuseDelay>
 		<effectPoint>687</effectPoint>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>1100</effectRange>
 		<magicLvl>85</magicLvl>
@@ -1015,9 +946,7 @@
 		</effects>
 	</skill>
 	<skill id="11824" toLevel="1" name="Resistance of Saha">
-		<!-- Updated to Ertheia -->
-		<!-- Glory Days confirmed -->
-		<!-- For 30 minutes, Stun Resistance + 40%, Poison Resistance + 50% and Holy/Dark Attack Resistance + 30. -->
+		<!-- For $s1, Stun Resistance + $s2, Poison Resistance + $s3 and Holy/Dark Attack Resistance + $s4. -->
 		<icon>icon.skill11567</icon>
 		<abnormalLvl>5</abnormalLvl>
 		<abnormalTime>1800</abnormalTime>
@@ -1030,7 +959,6 @@
 		<reuseDelay>2000</reuseDelay>
 		<effectPoint>687</effectPoint>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>1100</effectRange>
 		<magicLvl>85</magicLvl>
@@ -1059,9 +987,7 @@
 		</effects>
 	</skill>
 	<skill id="11825" toLevel="1" name="Clarity of Saha">
-		<!-- Updated to Ertheia -->
-		<!-- Glory Days confirmed -->
-		<!-- For 30 minutes, Hold/Sleep/Mental Attack Resistance + 50, Buff-canceling Attack Resistance + 30 and Debuff Resistance + 20. -->
+		<!-- For $s1, Hold/Sleep/Mental Attack Resistance + $s2, Buff-canceling Attack Resistance + $s3 and Debuff Resistance + $s4. -->
 		<icon>icon.skill11825</icon>
 		<abnormalTime>1800</abnormalTime>
 		<abnormalLvl>5</abnormalLvl>
@@ -1074,7 +1000,6 @@
 		<reuseDelay>2000</reuseDelay>
 		<effectPoint>687</effectPoint>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>1100</effectRange>
 		<magicLvl>85</magicLvl>
@@ -1104,8 +1029,8 @@
 		</effects>
 	</skill>
 	<skill id="11826" toLevel="1" name="Emblem of Salvation">
-		<!-- Glory Days confirmed -->
 		<!-- Resurrects from death fully recovered. Buffs/debuffs remain in death, but Noblesse Blessing and Lucky Charm disappear. -->
+		<icon>icon.skill11826</icon>
 		<abnormalLvl>2</abnormalLvl>
 		<abnormalType>RESURRECTION_SPECIAL</abnormalType>
 		<abnormalTime>
@@ -1116,14 +1041,12 @@
 		<effectPoint>687</effectPoint>
 		<effectRange>1100</effectRange>
 		<hitTime>4000</hitTime>
-		<icon>icon.skill11826</icon>
 		<isMagic>22</isMagic>
 		<magicLvl>85</magicLvl>
 		<mpConsume>70</mpConsume>
 		<mpInitialConsume>14</mpInitialConsume>
 		<operateType>A2</operateType>
 		<reuseDelay>3600000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<staticReuse>true</staticReuse>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -1136,12 +1059,8 @@
 		</effects>
 	</skill>
 	<skill id="11827" toLevel="5" name="Fairy Blessing">
-		<!-- Updated to Ertheia -->
-		<!-- TODO: Level 4 was 1077 before update, supposed to be confirmed -->
-		<!-- Glory Days confirmed -->
 		<icon>icon.skill11827</icon>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>
 			<value level="1">85</value>
@@ -1169,22 +1088,20 @@
 		</effects>
 	</skill>
 	<skill id="11828" toLevel="1" name="Progressive Heal">
-		<!-- Glory Days confirmed -->
-		<!-- Heals target and the 10 most injured allies around target by up to 40% of their Max HP. The recovery amount decreases starting from the most injured person. -->
+		<!-- Heals target and the $s1 most injured allies around target by up to $s2 of their Max HP. The recovery amount decreases starting from the most injured person. -->
+		<icon>icon.skill11828</icon>
 		<affectLimit>9-0</affectLimit>
 		<affectRange>300</affectRange>
 		<castRange>900</castRange>
 		<effectPoint>1301</effectPoint>
 		<effectRange>1400</effectRange>
 		<hitTime>3000</hitTime>
-		<icon>icon.skill11828</icon>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<magicLvl>85</magicLvl>
 		<mpConsume>458</mpConsume>
 		<mpInitialConsume>115</mpInitialConsume>
 		<operateType>A1</operateType>
 		<reuseDelay>5000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>ENEMY_NOT</targetType>
 		<affectScope>RANGE_SORT_BY_HP</affectScope>
@@ -1196,9 +1113,7 @@
 		</effects>
 	</skill>
 	<skill id="11830" toLevel="1" name="Blessing of Saha">
-		<!-- Updated to Ertheia -->
-		<!-- Glory Days confirmed -->
-		<!-- For 30 minutes, target's Max MP - 20%, HP Recovery Bonus - 20%, M. Critical Rate - 20, Critical Damage during a normal attack - 20%, P. Atk. - 10%, P. Def. - 20%, Atk. Spd. - 20%, M. Atk. - 20%, M. Def. - 20%, Casting Spd. - 20%, Debuff Resistance - 10%, damage received from a critical attack - 30% and Speed - 15%. -->
+		<!-- For $s1, target's Max MP + $s2, HP Recovery Bonus + $s3, M. Critical Rate + $s4, Critical Damage during a normal attack + $s5, P. Atk. + $s6, P. Def. + $s7, Atk. Spd. + $s8, M. Atk. + $s9, M. Def. + $s10, Casting Spd. + $s11, Debuff Resistance + $s12, damage received from a critical attack + $s13 and Speed - $s14. -->
 		<icon>icon.skill11522</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>1800</abnormalTime>
@@ -1211,7 +1126,6 @@
 		<reuseDelay>2000</reuseDelay>
 		<effectPoint>687</effectPoint>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>1100</effectRange>
 		<magicLvl>85</magicLvl>
@@ -1280,8 +1194,6 @@
 		</effects>
 	</skill>
 	<skill id="11831" toLevel="11" name="Erase Impact">
-		<!-- Updated to IO -->
-		<!-- Glory Days confirmed -->
 		<!-- Banishes the enemy's servitor into another dimension. -->
 		<icon>icon.skill1395</icon>
 		<affectRange>100</affectRange>
@@ -1317,7 +1229,6 @@
 		<castRange>600</castRange>
 		<hitTime>2500</hitTime>
 		<reuseDelay>30000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<trait>DERANGEMENT</trait>
 		<magicCriticalRate>5</magicCriticalRate>
 		<isMagic>1</isMagic>
@@ -1331,9 +1242,7 @@
 		</effects>
 	</skill>
 	<skill id="11832" toLevel="9" name="Mass Fatal Sleep">
-		<!-- Updated to Ertheia -->
-		<!-- Glory Days confirmed -->
-		<!-- Casts Sleep on nearby enemies for 30 seconds. -->
+		<!-- Casts Sleep on nearby enemies for $s1. -->
 		<icon>icon.skill1072</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>30</abnormalTime>
@@ -1386,7 +1295,6 @@
 		<hitTime>4000</hitTime>
 		<reuseDelay>120000</reuseDelay>
 		<isMagic>1</isMagic>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<isDebuff>true</isDebuff>
 		<targetType>SELF</targetType>
@@ -1408,9 +1316,6 @@
 		</effects>
 	</skill>
 	<skill id="11833" toLevel="1" name="Lingering Protection">
-		<!-- Updated to Ertheia -->
-		<!-- Glory Days confirmed -->
-		<!-- Skill activates once Celestial Protection wears off. -->
 		<!-- Lingering Celestial Protection. For 1 minute, increases HP/MP recovery bonus and Spd. + 5. Cannot receive the effects of Celestial Protection, Celestial Party Protection, or Celestial Aegis. -->
 		<icon>icon.skill11758</icon>
 		<abnormalLvl>9</abnormalLvl>
@@ -1421,7 +1326,6 @@
 		<effectPoint>1</effectPoint>
 		<isDebuff>true</isDebuff>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-2</specialLevel>
 		<hitCancelTime>0</hitCancelTime>
@@ -1446,9 +1350,6 @@
 		</effects>
 	</skill>
 	<skill id="11834" toLevel="1" name="Lingering Protection">
-		<!-- Updated to Ertheia -->
-		<!-- Glory Days confirmed -->
-		<!-- Skill activates once Celestial Party Protection wears off. -->
 		<!-- Lingering Celestial Party Protection. For 1 minute, increases HP/MP recovery bonus and Spd. + 5. Cannot receive the effects of Celestial Protection, Celestial Party Protection, or Celestial Aegis. -->
 		<icon>icon.skill11759</icon>
 		<abnormalLvl>9</abnormalLvl>
@@ -1459,7 +1360,6 @@
 		<effectPoint>1</effectPoint>
 		<isDebuff>true</isDebuff>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-2</specialLevel>
 		<hitCancelTime>0</hitCancelTime>
@@ -1484,16 +1384,13 @@
 		</effects>
 	</skill>
 	<skill id="11835" toLevel="1" name="Dissolve">
-		<!-- Updated to Ertheia -->
-		<!-- Glory Days confirmed -->
 		<!-- Increases Speed. -->
+		<icon>icon.skill11770</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>15</abnormalTime>
 		<abnormalType>SPEED_UP_SPECIAL</abnormalType>
-		<icon>icon.skill11770</icon>
 		<operateType>A2</operateType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<magicLvl>97</magicLvl>
@@ -1519,7 +1416,6 @@
 		</effects>
 	</skill>
 	<skill id="11836" fromLevel="101" toLevel="110" name="Summon Lumi Power Passive">
-		<!-- Glory Days confirmed -->
 		<!-- Increases P. Atk. -->
 		<icon>icon.skill10001</icon>
 		<operateType>P</operateType>
@@ -1543,7 +1439,7 @@
 		</effects>
 	</skill>
 	<skill id="11850" toLevel="4" name="Miraculous Benediction">
-		<!-- Restores clan members' CP/HP. Can only be used when MP is 50% or below. -->
+		<!-- Restores clan members' CP/HP. Can only be used when MP is $s1 or below. -->
 		<icon>icon.skill11850new</icon>
 		<operateType>A1</operateType>
 		<targetType>SELF</targetType>
@@ -1572,7 +1468,6 @@
 			<value level="4">99</value>
 		</magicLvl>
 		<effectPoint>560</effectPoint>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<conditions>
 			<condition name="RemainMpPer">
 				<amount>50</amount>
@@ -1623,7 +1518,8 @@
 		</effects>
 	</skill>
 	<skill id="11851" toLevel="4" name="Divine Prayer">
-		<!-- For 30 min., party members' HP heal amount + 5%. -->
+		<!-- For $s1, party members' HP heal amount + $s2. -->
+		<icon>icon.skill11859</icon>
 		<abnormalLvl>
 			<value level="1">4</value>
 			<value level="2">5</value>
@@ -1634,7 +1530,6 @@
 		<abnormalTime>1800</abnormalTime>
 		<affectRange>1000</affectRange>
 		<operateType>A2</operateType>
-		<icon>icon.skill11859</icon>
 		<hitTime>1500</hitTime>
 		<coolTime>500</coolTime>
 		<reuseDelay>30000</reuseDelay>
@@ -1661,7 +1556,6 @@
 		<affectScope>PARTY</affectScope>
 		<affectObject>FRIEND</affectObject>
 		<effectPoint>611</effectPoint>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<effects>
 			<effect name="HealEffect">
 				<amount>
@@ -1693,7 +1587,8 @@
 		</effects>
 	</skill>
 	<skill id="11852" toLevel="4" name="Mass Mana Gain">
-		<!-- For 30 min., party members' MP heal amount + 33. -->
+		<!-- For $s1, party members' MP heal amount + $s2. -->
+		<icon>icon.skill11852new</icon>
 		<abnormalLvl>
 			<value level="1">2</value>
 			<value level="2">3</value>
@@ -1704,7 +1599,6 @@
 		<abnormalTime>1800</abnormalTime>
 		<affectRange>1000</affectRange>
 		<operateType>A2</operateType>
-		<icon>icon.skill11852new</icon>
 		<hitTime>1500</hitTime>
 		<coolTime>500</coolTime>
 		<reuseDelay>30000</reuseDelay>
@@ -1762,7 +1656,7 @@
 		</effects>
 	</skill>
 	<skill id="11853" toLevel="4" name="Superior Quick Recovery">
-		<!-- Magic skill Cooldown - 5%. -->
+		<!-- Magic skill Cooldown - $s1. -->
 		<icon>icon.skill0228</icon>
 		<operateType>P</operateType>
 		<magicLvl>
@@ -1785,7 +1679,8 @@
 		</effects>
 	</skill>
 	<skill id="11854" toLevel="4" name="Mass Mana Gain">
-		<!-- For 30 min., party members' MP heal amount + 33. -->
+		<!-- For $s1, party members' MP heal amount + $s2. -->
+		<icon>icon.skill11852new</icon>
 		<abnormalLvl>
 			<value level="1">2</value>
 			<value level="2">3</value>
@@ -1796,7 +1691,6 @@
 		<abnormalTime>1800</abnormalTime>
 		<affectRange>1000</affectRange>
 		<operateType>A2</operateType>
-		<icon>icon.skill11852new</icon>
 		<hitTime>1500</hitTime>
 		<coolTime>500</coolTime>
 		<reuseDelay>30000</reuseDelay>
@@ -1854,7 +1748,7 @@
 		</effects>
 	</skill>
 	<skill id="11855" toLevel="4" name="Superior Wizard Combat">
-		<!-- M. Atk. + 10%. M. Skill MP Consumption - 10%. -->
+		<!-- M. Atk. + $s1. M. Skill MP Consumption - $s2. -->
 		<icon>icon.skill0945</icon>
 		<operateType>P</operateType>
 		<magicLvl>
@@ -1901,7 +1795,6 @@
 		</effects>
 	</skill>
 	<skill id="11857" toLevel="3" name="Summon Flag of Life">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Summons a Flag of Life, which restores the HP of those that click on it. -->
 		<icon>icon.skill11774</icon>
 		<operateType>A1</operateType>
@@ -1914,8 +1807,7 @@
 		<isMagic>1</isMagic>
 	</skill>
 	<skill id="11858" toLevel="3" name="Protective Heal">
-		<!-- AUTO GENERATED SKILL -->
-		<!-- For 1 min., puts a barrier around a party member. The barrier blocks 5 times. -->
+		<!-- For $s1, puts a barrier around a party member. The barrier blocks $s2 times. -->
 		<icon>icon.skill11754</icon>
 		<abnormalTime>60</abnormalTime>
 		<operateType>A2</operateType>
@@ -1928,8 +1820,7 @@
 		<isMagic>1</isMagic>
 	</skill>
 	<skill id="11859" toLevel="6" name="Dark Vampirism">
-		<!-- Updated to IO -->
-		<!-- Attacks target with 198 Power added to M. Atk. and recovers HP equivalent to 50% of damage inflicted. Consumes 1 Spirit Ore. -->
+		<!-- Attacks target with $s1 Power added to M. Atk. and recovers HP equivalent to $s2 of damage inflicted. Consumes $s3 Spirit Ore. -->
 		<icon>icon.skill11859</icon>
 		<operateType>A1</operateType>
 		<targetType>ENEMY</targetType>
@@ -1965,8 +1856,7 @@
 		</effects>
 	</skill>
 	<skill id="11860" toLevel="3" name="Healing Flag">
-		<!-- Updated to IO -->
-		<!-- Attacks target with 2490 Power added to M. Atk. If HP is full, CP is restored. -->
+		<!-- Attacks target with $s1 Power added to M. Atk. If HP is full, CP is restored. -->
 		<icon>icon.skill11755</icon>
 		<operateType>A1</operateType>
 		<mpConsume>50</mpConsume>
@@ -1989,12 +1879,11 @@
 		</effects>
 	</skill>
 	<skill id="11861" toLevel="1" name="Elemental Resistance">
-		<!-- Updated to IO -->
-		<!-- For 30 min., increases party member's Elemental Resistance by 30. Consumes 10 Spirit Ores. -->
+		<!-- For $s1, increases party member's Elemental Resistance by $s2. Consumes $s3 Spirit Ores. -->
+		<icon>icon.skill11861</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>1800</abnormalTime>
 		<abnormalType>HEAL_RESISTANCE</abnormalType>
-		<icon>icon.skill11861</icon>
 		<operateType>A2</operateType>
 		<targetType>SELF</targetType>
 		<affectScope>PARTY</affectScope>
@@ -2046,11 +1935,11 @@
 		</effects>
 	</skill>
 	<skill id="11862" toLevel="1" name="Limited Melee Weapon Resistance">
-		<!-- For 30 min., increases party member's resistance to melee weapons by 5%. Consumes 10 Spirit Ores. -->
+		<!-- For $s1, increases party member's resistance to melee weapons by $s2. Consumes $s3 Spirit Ores. -->
+		<icon>icon.skill11862</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>1800</abnormalTime>
 		<abnormalType>HEAL_RESISTANCE</abnormalType>
-		<icon>icon.skill11862</icon>
 		<itemConsumeCount>10</itemConsumeCount>
 		<itemConsumeId>3031</itemConsumeId> <!-- Spirit Ore -->
 		<operateType>A2</operateType>
@@ -2102,11 +1991,11 @@
 		</effects>
 	</skill>
 	<skill id="11863" toLevel="1" name="Limited Ranged Weapon Resistance">
-		<!-- For 30 min., increases party member's resistance to ranged weapons by 5%. Consumes 10 Spirit Ores. -->
+		<!-- For $s1, increases party member's resistance to ranged weapons by $s2. Consumes $s3 Spirit Ores. -->
+		<icon>icon.skill11863</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>1800</abnormalTime>
 		<abnormalType>HEAL_RESISTANCE</abnormalType>
-		<icon>icon.skill11863</icon>
 		<itemConsumeCount>10</itemConsumeCount>
 		<itemConsumeId>3031</itemConsumeId> <!-- Spirit Ore -->
 		<operateType>A2</operateType>

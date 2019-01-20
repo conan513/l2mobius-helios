@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
 	<skill id="10500" toLevel="1" name="Heavy Hit">
-		<!-- Glory Days confirmed -->
 		<!-- Inflicts a powerful blow on target. -->
 		<icon>icon.skill10317</icon>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -11,7 +10,6 @@
 		<effectRange>800</effectRange>
 		<coolTime>500</coolTime>
 		<effectPoint>-687</effectPoint>
-		<rideState>NONE</rideState>
 		<hitCancelTime>0</hitCancelTime>
 		<reuseDelay>5000</reuseDelay>
 		<targetType>ENEMY</targetType>
@@ -30,9 +28,7 @@
 		</effects>
 	</skill>
 	<skill id="10501" toLevel="10" name="Superior Dagger Mastery">
-		<!-- Updated to IO -->
-		<!-- Glory Days confirmed -->
-		<!-- P. Atk. + 739, Atk. Spd. + 25%, Accuracy + 8, and vital spot attack success rate + 5%. STR +2. Depending on your STR, Cooldown can be reset or abnormal status duration increases + 2 times. -->
+		<!-- P. Atk. + $s1, Atk. Spd. + $s2, Accuracy + $s3, and vital spot attack success rate + $s4. STR + $s5. Depending on your STR, Cooldown can be reset or abnormal status duration increases + $s6 times. -->
 		<icon>icon.skill10501</icon>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>
@@ -95,9 +91,7 @@
 		</effects>
 	</skill>
 	<skill id="10502" toLevel="10" name="Superior Dual Dagger Mastery">
-		<!-- Updated to IO -->
-		<!-- Glory Days confirmed -->
-		<!-- P. Atk. + 844, Atk. Spd. + 25%, Accuracy + 8, and vital spot attack success rate + 5%. STR + 2. -->
+		<!-- P. Atk. + $s1, Atk. Spd. + $s2, Accuracy + $s3, and vital spot attack success rate + $s4. STR + $s5. -->
 		<icon>icon.skill10502</icon>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>
@@ -157,9 +151,7 @@
 		</effects>
 	</skill>
 	<skill id="10503" toLevel="10" name="Superior Light Armor Mastery">
-		<!-- Updated to IO -->
-		<!-- Glory Days confirmed -->
-		<!-- STR + 2. Max HP + 4880, P. Def. + 1386, P. Evasion + 20, and chance of receiving Critical Damage -35% when equipped with Light Armor. Depending on your DEX, Spd. and P. Skill Critical Rate change. Upon evasion, 10% chance of obtaining an Assassin's Reflex effect that raises Atk. Spd. -->
+		<!-- Max HP + $s1, P. Def. + $s2, P. Evasion + $s3, and chance of receiving Critical Damage - $s4 when equipped with Light Armor. Depending on your DEX, Spd. and P. Skill Critical Rate change. STR. + $s5. Upon evasion, $s6 chance of obtaining an Assassin's Reflex effect. -->
 		<icon>icon.skill10503</icon>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>
@@ -180,7 +172,7 @@
 				<!-- Assassin's Reflex -->
 				<chance>10</chance>
 				<targetType>SELF</targetType>
-				<skillId>10518</skillId>
+				<skillId>10518</skillId> <!-- Assassin's Reflex -->
 				<skillLevel>1</skillLevel>
 			</effect>
 			<effect name="PhysicalDefence">
@@ -241,9 +233,7 @@
 		</effects>
 	</skill>
 	<skill id="10504" toLevel="10" name="Superior Movement">
-		<!-- Updated to IO -->
-		<!-- Glory Days confirmed -->
-		<!-- Speed + 17, HP Recovery Bonus + 12, MP Recovery Bonus + 6. STR + 2. -->
+		<!-- Speed + $s1, HP Recovery Bonus + $s2, MP Recovery Bonus + $s3. STR + $s4. -->
 		<icon>icon.skill10504</icon>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>
@@ -290,9 +280,7 @@
 		</effects>
 	</skill>
 	<skill id="10505" toLevel="10" name="Superior Critical Mastery">
-		<!-- Updated to IO -->
-		<!-- Glory Days confirmed -->
-		<!-- STR + 2, P. Critical Damage + 539 and P. Critical Rate + 60%. + 1000% chance of triggering skill mastery. -->
+		<!-- P. Critical Rate + $s1, P. Critical Damage + $s2, + $s3 chance of triggering skill mastery. STR + $s4. -->
 		<icon>icon.skill10505</icon>
 		<magicLvl>
 			<value level="1">85</value>
@@ -339,9 +327,7 @@
 		</effects>
 	</skill>
 	<skill id="10506" toLevel="1" name="Superior Spirit Mastery">
-		<!-- Updated to IO -->
-		<!-- Glory Days confirmed -->
-		<!-- STR + 2 and Hold/Sleep/Bleed/Mind/Poison Resistance + 30. -->
+		<!-- Poison/Bleed/Hold/Sleep/Mind Resistance + 30%. STR + 2. -->
 		<icon>icon.skill10506</icon>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>85</magicLvl>
@@ -361,8 +347,6 @@
 		</effects>
 	</skill>
 	<skill id="10507" toLevel="1" name="Death Clock">
-		<!-- Updated to IO -->
-		<!-- Glory Days confirmed -->
 		<!-- P. Atk. + 200. Also, when using Shadow Flash, triggers the Blind Spot effect that increases P. Atk., Critical Rate, Critical Damage, and Vital Spot Attack Rate. -->
 		<icon>icon.skill10507</icon>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -373,7 +357,7 @@
 				<!-- Shadow Flash -->
 				<!-- Blind Spot -->
 				<castSkillId>10529</castSkillId>
-				<skillId>10530</skillId>
+				<skillId>10530</skillId> <!-- Blind Spot -->
 				<skillLevel>1</skillLevel>
 				<chance>100</chance>
 				<targetType>SELF</targetType>
@@ -385,9 +369,8 @@
 		</effects>
 	</skill>
 	<skill id="10508" toLevel="11" name="Blood Stab">
-		<!-- Updated to IO -->
-		<!-- Glory Days confirmed -->
-		<!-- Strike's the enemy's unprotected back with 32401 Power and additionally inflicts bleed. Over-hit. Critical hit. Half-kill. Requires a dagger or dual dagger. -->
+		<!-- Strike's the enemy's unprotected back with $s1 Power and additionally inflicts bleed. Over-hit. Critical hit. Half-kill. Requires a dagger or dual dagger. -->
+		<icon>icon.skill10508</icon>
 		<abnormalLvl>
 			<value level="1">1</value>
 			<value level="2">2</value>
@@ -405,7 +388,6 @@
 		<abnormalType>BLEEDING</abnormalType>
 		<abnormalVisualEffect>DOT_BLEEDING</abnormalVisualEffect>
 		<activateRate>120</activateRate>
-		<icon>icon.skill10508</icon>
 		<operateType>A2</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>
@@ -455,7 +437,6 @@
 		</effectPoint>
 		<isDebuff>true</isDebuff>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<trait>BLEED</trait>
 		<targetType>ENEMY</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -522,13 +503,11 @@
 		</pvpEffects>
 	</skill>
 	<skill id="10509" toLevel="11" name="Heart Breaker">
-		<!-- Updated to IO -->
-		<!-- Glory Days confirmed -->
-		<!-- Stabs target's heart with 21344 Power added to P. Atk. to inflict a powerful vital spot attack. Increases Spd. + 40, Evasion + 5, and Rear Critical Damage + 30%. Over-hit. Critical hit. Half-kill. Requires a dagger or dual dagger. -->
+		<!-- Stabs target's heart with $s1 Power added to P. Atk. to inflict a powerful vital spot attack. Increases Spd. + $s2, Evasion + $s3, and Rear Critical Damage + $s4. Over-hit. Critical hit. Half-kill. Requires a dagger or dual dagger. -->
+		<icon>icon.skill10509</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>5</abnormalTime>
 		<abnormalType>SPEED_UP_SPECIAL</abnormalType>
-		<icon>icon.skill10509</icon>
 		<operateType>A3</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>
@@ -576,7 +555,6 @@
 			<value level="11">-712</value>
 		</effectPoint>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<reuseDelay>5000</reuseDelay>
 		<targetType>ENEMY</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -653,9 +631,7 @@
 		</selfEffects>
 	</skill>
 	<skill id="10510" toLevel="11" name="Chain Blow">
-		<!-- Updated to IO -->
-		<!-- Glory Days confirmed -->
-		<!-- Inflicts damage with 22718 Power added to P. Atk. Additional Skill Power 20% to damage if used during bleed. Over-hit. Critical hit. Half-kill. Requires a dagger or dual dagger. -->
+		<!-- Inflicts damage with $s1 Power added to P. Atk. Additional Skill Power $s2 to damage if used during bleed. Over-hit. Critical hit. Half-kill. Requires a dagger or dual dagger. -->
 		<icon>icon.skill10510</icon>
 		<nextAction>ATTACK</nextAction>
 		<operateType>A1</operateType>
@@ -703,7 +679,6 @@
 			<value level="10">-709</value>
 			<value level="11">-709</value>
 		</effectPoint>
-		<rideState>NONE</rideState>
 		<reuseDelay>5000</reuseDelay>
 		<targetType>ENEMY</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -769,9 +744,7 @@
 		</pvpEffects>
 	</skill>
 	<skill id="10511" toLevel="7" name="Reverse">
-		<!-- Updated to IO -->
-		<!-- Glory Days confirmed -->
-		<!-- Attempts a vital spot attack with 26320 Power added to P. Atk. Over-hit. Critical. Half-kill. Requires a dagger or dual dagger to be equipped. -->
+		<!-- Attempts a vital spot attack with $s1 Power added to P. Atk. Over-hit. Critical. Half-kill. Requires a dagger or dual dagger to be equipped. -->
 		<icon>icon.skill10511</icon>
 		<nextAction>ATTACK</nextAction>
 		<operateType>A1</operateType>
@@ -808,7 +781,6 @@
 			<value level="7">-715</value>
 		</effectPoint>
 		<reuseDelay>5000</reuseDelay>
-		<rideState>NONE</rideState>
 		<trait>DEATH</trait>
 		<targetType>ENEMY</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -862,9 +834,7 @@
 		</pvpEffects>
 	</skill>
 	<skill id="10512" toLevel="11" name="Dagger Explosion">
-		<!-- Updated to IO -->
-		<!-- Glory Days confirmed -->
-		<!-- Detonates a blade to attack nearby enemies with 11903 Power added to P. Atk. Requires a dagger/dual dagger. Over-hit. Critical. -->
+		<!-- Detonates a blade to attack nearby enemies with $s1 Power added to P. Atk. Requires a dagger/dual dagger. Over-hit. Critical. -->
 		<icon>icon.skill10512</icon>
 		<affectLimit>5-12</affectLimit>
 		<affectRange>200</affectRange>
@@ -914,7 +884,6 @@
 			<value level="10">-711</value>
 			<value level="11">-712</value>
 		</effectPoint>
-		<rideState>NONE</rideState>
 		<reuseDelay>10000</reuseDelay>
 		<targetType>ENEMY</targetType>
 		<affectScope>RANGE</affectScope>
@@ -956,9 +925,7 @@
 		</effects>
 	</skill>
 	<skill id="10513" toLevel="10" name="Razor Rain">
-		<!-- Updated to IO -->
-		<!-- Glory Days confirmed -->
-		<!-- Calls down a rain of blades to attack nearby enemies with 13649 Power added to P. Atk. and inflicts Bleed. Requires a dagger or dual dagger. Over-hit. Critical hit. -->
+		<!-- Calls down a rain of blades to attack nearby enemies with $s1 Power added to P. Atk. and inflicts Bleed. Requires a dagger or dual dagger. Over-hit. Critical hit. -->
 		<icon>icon.skill10513</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>15</abnormalTime>
@@ -1012,7 +979,6 @@
 			<value level="10">-710</value>
 		</effectPoint>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<isDebuff>true</isDebuff>
 		<targetType>SELF</targetType>
 		<affectScope>POINT_BLANK</affectScope>
@@ -1056,9 +1022,7 @@
 		</effects>
 	</skill>
 	<skill id="10514" toLevel="8" name="Dark Paralysis">
-		<!-- Updated to IO -->
-		<!-- Glory Days confirmed -->
-		<!-- Seals an enemy with the power of darkness. Causes the enemy's body to go completely rigid for 10 seconds and causes paralysis for 5 seconds. -->
+		<!-- Seals an enemy with the power of darkness. Causes the enemy's body to go completely rigid for $s1 and causes paralysis for $s2. -->
 		<icon>icon.skill10514</icon>
 		<abnormalLvl>
 			<value level="1">1</value>
@@ -1117,7 +1081,6 @@
 			<value level="8">-721</value>
 		</effectPoint>
 		<isDebuff>true</isDebuff>
-		<rideState>NONE</rideState>
 		<trait>PARALYZE</trait>
 		<targetType>ENEMY</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -1143,15 +1106,14 @@
 		</effects>
 		<endEffects>
 			<effect name="CallSkill">
-				<skillId>10515</skillId>
+				<skillId>10515</skillId> <!-- Paralyzed -->
 				<skillLevel>1</skillLevel>
 			</effect>
 		</endEffects>
 	</skill>
 	<skill id="10515" toLevel="6" name="Paralyzed">
-		<!-- Updated to IO -->
-		<!-- Glory Days confirmed -->
 		<!-- Your body is paralyzed. -->
+		<icon>icon.skill1170</icon>
 		<abnormalLvl>
 			<value level="1">1</value>
 			<value level="2">2</value>
@@ -1163,7 +1125,6 @@
 		<abnormalTime>5</abnormalTime>
 		<abnormalType>PARALYZE</abnormalType>
 		<abnormalVisualEffect>PARALYZE</abnormalVisualEffect>
-		<icon>icon.skill1170</icon>
 		<operateType>A2</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>
@@ -1186,7 +1147,6 @@
 		<isDebuff>true</isDebuff>
 		<isTriggeredSkill>true</isTriggeredSkill>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<isMagic>2</isMagic>
 		<trait>PARALYZE</trait>
 		<targetType>SELF</targetType>
@@ -1198,9 +1158,8 @@
 		</effects>
 	</skill>
 	<skill id="10516" toLevel="9" name="Shadow Chase">
-		<!-- Updated to IO -->
-		<!-- Glory Days confirmed -->
 		<!-- Moves behind an enemy, cancels his target, and inflicts Stun. -->
+		<icon>icon.skill10516</icon>
 		<abnormalLvl>
 			<value level="1">1</value>
 			<value level="2">2</value>
@@ -1232,7 +1191,6 @@
 			<value level="9">105</value>
 		</magicLvl>
 		<trait>SHOCK</trait>
-		<icon>icon.skill10516</icon>
 		<operateType>A2</operateType>
 		<mpConsume>
 			<value level="1">38</value>
@@ -1265,7 +1223,6 @@
 			<value level="9">-709</value>
 		</effectPoint>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<isDebuff>true</isDebuff>
 		<targetType>ENEMY</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -1278,9 +1235,8 @@
 		</effects>
 	</skill>
 	<skill id="10517" toLevel="1" name="Shadow Hide">
-		<!-- Updated to HELIOS -->
-		<!-- Glory Days confirmed -->
-		<!-- You go into Hide state, cancel debuffs and Hold effects on you, increase HP Recovery Bonus, and eliminate enemy enmity toward you. -->
+		<!-- Become hidden for $s1, canceling all buffs and reducing speed by $s2. -->
+		<icon>icon.skill10517</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>
 			<value fromLevel="1" toLevel="1">50</value>
@@ -1289,7 +1245,6 @@
 		</abnormalTime>
 		<abnormalType>HIDE</abnormalType>
 		<abnormalVisualEffect>STEALTH</abnormalVisualEffect>
-		<icon>icon.skill10517</icon>
 		<operateType>A2</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>85</magicLvl>
@@ -1302,7 +1257,6 @@
 		<removedOnDamage>true</removedOnDamage>
 		<canCastWhileDisabled>true</canCastWhileDisabled>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<staticReuse>true</staticReuse>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -1326,13 +1280,11 @@
 		</effects>
 	</skill>
 	<skill id="10518" toLevel="1" name="Assassin's Reflex">
-		<!-- Updated to IO -->
-		<!-- Glory Days confirmed -->
 		<!-- Atk. Spd. + 20% for 10 seconds. -->
+		<icon>icon.skill10518</icon>
 		<abnormalLvl>2</abnormalLvl>
 		<abnormalTime>10</abnormalTime>
 		<abnormalType>MIGHT_MORTAL</abnormalType>
-		<icon>icon.skill10518</icon>
 		<isTriggeredSkill>true</isTriggeredSkill>
 		<operateType>A2</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -1340,7 +1292,6 @@
 		<hitTime>700</hitTime>
 		<reuseDelay>8000</reuseDelay>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<hitCancelTime>0</hitCancelTime>
 		<isMagic>4</isMagic>
 		<targetType>SELF</targetType>
@@ -1353,9 +1304,8 @@
 		</effects>
 	</skill>
 	<skill id="10520" toLevel="4" name="Final Ultimate Evasion">
-		<!-- Updated to HELIOS -->
-		<!-- Glory Days confirmed -->
-		<!-- For 30 seconds, own P. Evasion +25, M. Def. +70%, P. Skill Evasion Rate +35%, Debuff Resistance +35%. Has a chance of canceling the enemy's targeting when attacked. -->
+		<!-- For $s1, own P. Evasion +$s2, M. Def. +$s3, P. Skill Evasion Rate +$s4, Debuff Resistance +$s5. Chance of disarming the attacker when damage is received. -->
+		<icon>icon.skill10520</icon>
 		<abnormalLvl>
 			<value level="1">1</value>
 			<value level="2">2</value>
@@ -1368,7 +1318,6 @@
 			<value fromLevel="3" toLevel="4" fromSubLevel="1011" toSubLevel="1030">{base + 10 + 0.5 * subIndex}</value>
 		</abnormalTime>
 		<abnormalType>SUPER_AVOID</abnormalType>
-		<icon>icon.skill10520</icon>
 		<operateType>A2</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>
@@ -1393,7 +1342,6 @@
 		</effectPoint>
 		<reuseDelay>600000</reuseDelay>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<staticReuse>true</staticReuse>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -1406,7 +1354,7 @@
 				<chance>40</chance>
 				<targetType>ENEMY</targetType>
 				<minDamage>1</minDamage>
-				<skillId>10544</skillId>
+				<skillId>10544</skillId> <!-- Cancel target -->
 				<skillLevel>1</skillLevel>
 			</effect>
 			<effect name="PhysicalEvasion">
@@ -1455,9 +1403,7 @@
 		</effects>
 	</skill>
 	<skill id="10522" toLevel="9" name="Poison Zone">
-		<!-- Updated to IO -->
-		<!-- Glory Days confirmed -->
-		<!-- Sprays poison onto nearby targets for 15 seconds. Decreases P. Atk., Speed, Shield Defense, P. Def., and M. Def. Inflicts Poison that blocks the use of magic. -->
+		<!-- Sprays poison onto nearby targets for $s1. Decreases P. Atk., Speed, Shield Defense, P. Def., and M. Def. Inflicts Poison that blocks the use of magic. -->
 		<icon>icon.skill10522</icon>
 		<operateType>A1</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -1487,7 +1433,6 @@
 			<value level="8">-711</value>
 			<value level="9">-711</value>
 		</effectPoint>
-		<rideState>NONE</rideState>
 		<magicLvl>
 			<value level="1">85</value>
 			<value level="2">87</value>
@@ -1520,9 +1465,8 @@
 		</effects>
 	</skill>
 	<skill id="10523" toLevel="9" name="Poisoned">
-		<!-- Updated to IO -->
-		<!-- Glory Days confirmed -->
-		<!-- Poisoned by a toxin cloud. Decreases Speed, P. Atk., Shield Defense, P. Def., and M. Def., and blocks the use of magic. Decreases HP by 687 per second. -->
+		<!-- Poisoned by a toxin cloud. Decreases Speed, P. Atk., Shield Defense, P. Def., and M. Def., and blocks the use of magic. Decreases HP by $s1 per second. -->
+		<icon>icon.skill1167</icon>
 		<abnormalLvl>
 			<value level="1">1</value>
 			<value level="2">2</value>
@@ -1540,7 +1484,6 @@
 		<activateRate>130</activateRate>
 		<affectLimit>5-12</affectLimit>
 		<affectRange>300</affectRange>
-		<icon>icon.skill1167</icon>
 		<operateType>A2</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>
@@ -1569,7 +1512,6 @@
 		</effectPoint>
 		<isDebuff>true</isDebuff>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<hitCancelTime>0</hitCancelTime>
 		<trait>POISON</trait>
 		<targetType>SELF</targetType>
@@ -1614,9 +1556,7 @@
 		</effects>
 	</skill>
 	<skill id="10524" toLevel="3" name="Evasive Counterstrike">
-		<!-- Updated to IO -->
-		<!-- Glory Days confirmed -->
-		<!-- For 10 seconds, evades physical skill attacks and reflects part of the damage received. -->
+		<!-- For $s1, evades physical skill attacks and reflects part of the damage received. -->
 		<icon>icon.skill10524</icon>
 		<abnormalLvl>
 			<value level="1">1</value>
@@ -1645,7 +1585,6 @@
 			<value level="3">711</value>
 		</effectPoint>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<reuseDelay>150000</reuseDelay>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -1686,9 +1625,8 @@
 		</effects>
 	</skill>
 	<skill id="10525" toLevel="7" name="Shadow Dash">
-		<!-- Updated to IO -->
-		<!-- Glory Days confirmed -->
-		<!-- For 15 seconds, increases Speed by 66, P. Evasion by 4, and HP Recovery Bonus by 10. -->
+		<!-- For $s1, increases Speed by $s2, P. Evasion by $s3, and HP Recovery Bonus by $s4. -->
+		<icon>icon.skill10525</icon>
 		<abnormalLvl>
 			<value level="1">1</value>
 			<value level="2">2</value>
@@ -1700,7 +1638,6 @@
 		</abnormalLvl>
 		<abnormalTime>15</abnormalTime>
 		<abnormalType>SUPER_MOVE</abnormalType>
-		<icon>icon.skill10525</icon>
 		<operateType>A2</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>
@@ -1732,7 +1669,6 @@
 			<value level="7">715</value>
 		</effectPoint>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<reuseDelay>60000</reuseDelay>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -1794,9 +1730,7 @@
 		</effects>
 	</skill>
 	<skill id="10526" toLevel="9" name="Mischief">
-		<!-- Updated to IO -->
-		<!-- Glory Days confirmed -->
-		<!-- Inflicts confusion on target to stop him from attacking target with the highest hostility. Speed - 70. -->
+		<!-- Inflicts confusion on target to stop him from attacking target with the highest hostility. Speed - $s1. -->
 		<icon>icon.skill10526</icon>
 		<abnormalLvl>3</abnormalLvl>
 		<abnormalTime>5</abnormalTime>
@@ -1847,7 +1781,6 @@
 			<value level="9">-709</value>
 		</effectPoint>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<isDebuff>true</isDebuff>
 		<targetType>ENEMY</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -1868,9 +1801,7 @@
 		</effects>
 	</skill>
 	<skill id="10527" toLevel="4" name="Mass Trick">
-		<!-- Updated to IO -->
-		<!-- Glory Days confirmed -->
-		<!-- Cancels target of frontal enemies. Eliminates their aggression and prevent them from targeting anything for 3 seconds. -->
+		<!-- Cancels target of frontal enemies. Eliminates their aggression and prevent them from targeting anything for $s1. -->
 		<icon>icon.skill10527</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>3</abnormalTime>
@@ -1899,7 +1830,6 @@
 		<reuseDelay>60000</reuseDelay>
 		<effectPoint>-709</effectPoint>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<isDebuff>true</isDebuff>
 		<targetType>ENEMY</targetType>
 		<affectScope>FAN</affectScope>
@@ -1918,15 +1848,12 @@
 		</effects>
 	</skill>
 	<skill id="10528" toLevel="1" name="Shadow Fake Death">
-		<!-- Updated to IO -->
-		<!-- Glory Days confirmed -->
-		<!-- Acts dead to stop monsters from attacking. Cannot be targeted until you get back up. Consumes 300 MP per second. -->
+		<!-- The player feigns death to prevent monsters from attacking. The player is not detected by the target until further movement. Consumes 100 MP per second. -->
 		<icon>icon.skill10528</icon>
 		<magicLvl>93</magicLvl>
 		<operateType>T</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
 		<mpInitialConsume>1</mpInitialConsume>
-		<rideState>NONE</rideState>
 		<hitTime>800</hitTime>
 		<targetType>NONE</targetType>
 		<effects>
@@ -1938,9 +1865,7 @@
 		</effects>
 	</skill>
 	<skill id="10529" toLevel="4" name="Shadow Flash">
-		<!-- Updated to HELIOS -->
-		<!-- Glory Days confirmed -->
-		<!-- Teleports to the back of the target to increase the damage from P. Critical Attack by 30% for 10 seconds and prevents it from recovering HP by over 50%. Additionally, the target is unable to hide and this state cannot be canceled. -->
+		<!-- Move behind the target to increase the target's Critical Damage Received by $s2 for $s1, and prevents HP Recovery above $s3. Additionally, the target becomes unable to hide. Can only be used on PCs. -->
 		<icon>icon.skill10529</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>10</abnormalTime>
@@ -1971,7 +1896,6 @@
 		<effectPoint>-709</effectPoint>
 		<isDebuff>true</isDebuff>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<effectRange>1100</effectRange>
 		<isMagic>4</isMagic>
 		<staticReuse>true</staticReuse>
@@ -2003,13 +1927,11 @@
 		</effects>
 	</skill>
 	<skill id="10530" toLevel="1" name="Blind Spot">
-		<!-- Updated to IO -->
-		<!-- Glory Days confirmed -->
 		<!-- Increases P. Atk., Critical Rate, Critical Damage and Vital Spot Attack Rate. -->
+		<icon>icon.skill10529</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>10</abnormalTime>
 		<abnormalType>SUPER_BUFF</abnormalType>
-		<icon>icon.skill10529</icon>
 		<operateType>A2</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>99</magicLvl>
@@ -2019,7 +1941,6 @@
 		<reuseDelay>1000</reuseDelay>
 		<effectPoint>709</effectPoint>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<abnormalVisualEffect>ULTIMATE_DEFENCE</abnormalVisualEffect>
 		<isMagic>4</isMagic>
 		<targetType>SELF</targetType>
@@ -2044,9 +1965,8 @@
 		</effects>
 	</skill>
 	<skill id="10531" toLevel="2" name="Angel of Death">
-		<!-- Updated to HELIOS -->
-		<!-- Glory Days confirmed -->
-		<!-- For 30 seconds, Vital Spot Attack Rate +40%, P. Skill Power +10%, P. Accuracy +8, P. Evasion +40, and defends against debuff attacks 5 times. Can be used when Dagger/Dual Dagger is equipped. -->
+		<!-- For $s1, Deadly Attack Success Rate +$s2, P. Skill Power +$s3, P. Accuracy +$s4, P. Evasion +$s5, and defends against debuff attacks $s6. Can be used when Dagger/Dual Dagger is equipped. -->
+		<icon>icon.skill10531</icon>
 		<abnormalLvl>
 			<value level="1">1</value>
 			<value level="2">2</value>
@@ -2057,7 +1977,6 @@
 			<value fromLevel="1" toLevel="2" fromSubLevel="1011" toSubLevel="1030">{base + 10 + 0.5 * subIndex}</value>
 		</abnormalTime>
 		<abnormalType>MOVEMENT</abnormalType>
-		<icon>icon.skill10531</icon>
 		<operateType>A2</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>
@@ -2075,7 +1994,6 @@
 			<value level="2">704</value>
 		</effectPoint>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<abnormalVisualEffect>ULTIMATE_DEFENCE</abnormalVisualEffect>
 		<isMagic>4</isMagic>
 		<reuseDelay>600000</reuseDelay>
@@ -2123,8 +2041,6 @@
 		</effects>
 	</skill>
 	<skill id="10532" toLevel="7" name="Clone Attack">
-		<!-- Updated to IO -->
-		<!-- Glory Days confirmed -->
 		<!-- Melt into a target's shadow and summons clones to attack it. Requires a dagger or dual dagger to be equipped. -->
 		<icon>icon.skill10532</icon>
 		<operateType>A1</operateType>
@@ -2162,7 +2078,6 @@
 			<value level="7">-715</value>
 		</effectPoint>
 		<reuseDelay>300000</reuseDelay>
-		<rideState>NONE</rideState>
 		<isMagic>4</isMagic>
 		<staticReuse>true</staticReuse>
 		<targetType>ENEMY</targetType>
@@ -2196,19 +2111,17 @@
 		<endEffects>
 			<effect name="CallSkill">
 				<!-- Illusion Hide -->
-				<skillId>10556</skillId>
+				<skillId>10556</skillId> <!-- Illusion Hide -->
 				<skillLevel>1</skillLevel>
 			</effect>
 		</endEffects>
 	</skill>
 	<skill id="10534" toLevel="1" name="Toad Poison">
-		<!-- Updated to IO -->
-		<!-- Glory Days confirmed -->
 		<!-- During normal attacks, has a chance of inflicting Poison on the enemy and blocking the use of magic skills. -->
+		<icon>icon.skill10534</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>300</abnormalTime>
 		<abnormalType>POISON</abnormalType>
-		<icon>icon.skill10534</icon>
 		<operateType>A2</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>99</magicLvl>
@@ -2218,7 +2131,6 @@
 		<effectPoint>711</effectPoint>
 		<reuseDelay>600000</reuseDelay>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<staticReuse>true</staticReuse>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -2232,19 +2144,16 @@
 				<targetType>TARGET</targetType>
 				<chance>15</chance>
 				<allowWeapons>ALL</allowWeapons>
-				<skillId>10537</skillId>
+				<skillId>10537</skillId> <!-- Block Magic -->
 				<skillLevel>1</skillLevel>
 			</effect>
 		</effects>
 	</skill>
 	<skill id="10535" toLevel="4" name="Scorpion Poison">
-		<!-- Updated to IO -->
-		<!-- Glory Days confirmed -->
 		<!-- Injects a poison that decreases an enemy's Spd. during a normal attack or disables magic skills. Increases poison and bleed attack success rate. -->
 		<icon>icon.skill10535</icon>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
-		<rideState>NONE</rideState>
 		<magicLvl>
 			<value level="1">85</value>
 			<value level="2">90</value>
@@ -2261,7 +2170,7 @@
 				<targetType>TARGET</targetType>
 				<chance>10</chance>
 				<allowWeapons>ALL</allowWeapons>
-				<skillId>10537</skillId>
+				<skillId>10537</skillId> <!-- Block Magic -->
 				<skillLevel>
 					<value level="1">0</value>
 					<value level="2">0</value>
@@ -2276,7 +2185,7 @@
 				<maxAttackerLevel>127</maxAttackerLevel>
 				<isCritical>false</isCritical>
 				<targetType>TARGET</targetType>
-				<skillId>10538</skillId>
+				<skillId>10538</skillId> <!-- Weakness Critical -->
 				<skillLevel>
 					<value level="1">1</value>
 					<value level="2">2</value>
@@ -2289,8 +2198,6 @@
 		</effects>
 	</skill>
 	<skill id="10537" toLevel="2" name="Block Magic">
-		<!-- Updated to IO -->
-		<!-- Glory Days confirmed -->
 		<!-- Poisoned. Speed is decreased and M. Skills are disabled momentarily. -->
 		<icon>icon.skill0129</icon>
 		<abnormalLvl>
@@ -2317,7 +2224,6 @@
 		<isMagic>4</isMagic>
 		<effectPoint>-711</effectPoint>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<isDebuff>true</isDebuff>
 		<targetType>ENEMY_ONLY</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -2331,9 +2237,7 @@
 		</effects>
 	</skill>
 	<skill id="10538" toLevel="4" name="Weakness Critical">
-		<!-- Updated to IO -->
-		<!-- Glory Days confirmed -->
-		<!-- Inflicted with Poison. Increases received Critical Damage by 35% momentarily. Increases the chance of receiving a critical attack by 10%. -->
+		<!-- Inflicted with Poison. Increases received Critical Damage by $s1 momentarily. Increases the chance of receiving a critical attack by $s2. -->
 		<icon>icon.skill1222</icon>
 		<abnormalLvl>
 			<value level="1">1</value>
@@ -2361,7 +2265,6 @@
 		<isMagic>4</isMagic>
 		<effectPoint>-711</effectPoint>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<abnormalVisualEffect>DOT_POISON</abnormalVisualEffect>
 		<isDebuff>true</isDebuff>
 		<targetType>ENEMY_ONLY</targetType>
@@ -2384,9 +2287,8 @@
 		</effects>
 	</skill>
 	<skill id="10539" toLevel="11" name="Throw Dagger">
-		<!-- Updated to IO -->
-		<!-- Glory Days confirmed -->
-		<!-- Throws a dagger at the enemy with 7396 Power added to P. Atk. For 10 sec., Speed - 180. Requires a dagger/dual dagger to be equipped. Over-hit. -->
+		<!-- Throws a dagger at the enemy with $s1 Power added to P. Atk. for 1$s2, Speed - $s3. Requires a dagger/dual dagger to be equipped. Over-hit. -->
+		<icon>icon.skill10539</icon>
 		<abnormalLvl>
 			<value level="1">1</value>
 			<value level="2">2</value>
@@ -2409,7 +2311,6 @@
 		<lvlBonusRate>20</lvlBonusRate>
 		<basicProperty>MAGIC</basicProperty>
 		<effectRange>900</effectRange>
-		<icon>icon.skill10539</icon>
 		<operateType>A2</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>
@@ -2457,7 +2358,6 @@
 			<value level="11">-709</value>
 		</effectPoint>
 		<isDebuff>true</isDebuff>
-		<rideState>NONE</rideState>
 		<staticReuse>true</staticReuse>
 		<targetType>ENEMY</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -2500,9 +2400,8 @@
 		</effects>
 	</skill>
 	<skill id="10540" toLevel="8" name="Throw Sand">
-		<!-- Updated to IO -->
-		<!-- Glory Days confirmed -->
-		<!-- Hurls poisonous sand at the enemy. For 5 seconds, greatly decreases P. accuracy and lures the enemy to you. Requires a dagger/dual dagger to be equipped. -->
+		<!-- Hurls poisonous sand at the enemy. For$s1, greatly decreases P. accuracy and lures the enemy to you. Requires a dagger/dual dagger to be equipped. -->
+		<icon>icon.skill10540</icon>
 		<abnormalLvl>
 			<value level="1">1</value>
 			<value level="2">2</value>
@@ -2519,7 +2418,6 @@
 			<value fromLevel="1" toLevel="8">80</value>
 			<value fromLevel="4" toLevel="8" fromSubLevel="2001" toSubLevel="2030">{base + base / 100 * subIndex}</value>
 		</activateRate>
-		<icon>icon.skill10540</icon>
 		<operateType>A2</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>
@@ -2548,7 +2446,6 @@
 		<reuseDelay>60000</reuseDelay>
 		<isDebuff>true</isDebuff>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<effectRange>900</effectRange>
 		<trait>DERANGEMENT</trait>
 		<targetType>ENEMY_ONLY</targetType>
@@ -2587,8 +2484,6 @@
 		</effects>
 	</skill>
 	<skill id="10541" toLevel="9" name="Throw Poison Needle">
-		<!-- Updated to IO -->
-		<!-- Glory Days confirmed -->
 		<!-- Throws a poison needle to cancel the enemy's skill casting. Requires a dagger/dual dagger to be equipped. -->
 		<icon>icon.skill10541</icon>
 		<operateType>A1</operateType>
@@ -2630,7 +2525,6 @@
 			<value level="8">-709</value>
 			<value level="9">-709</value>
 		</effectPoint>
-		<rideState>NONE</rideState>
 		<reuseDelay>15000</reuseDelay>
 		<targetType>ENEMY</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -2649,14 +2543,11 @@
 		</effects>
 	</skill>
 	<skill id="10542" toLevel="1" name="Maximum Critical">
-		<!-- Updated to IO -->
-		<!-- Glory Days confirmed -->
 		<!-- Critical Damage + 609 and vital spot attack success rate + 10%. Side Critical Rate + 30% and Critical Damage + 40%. Rear Critical Rate + 60% and Critical Damage + 70%. -->
 		<icon>icon.skill10542_1</icon>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>85</magicLvl>
 		<operateType>P</operateType>
-		<rideState>NONE</rideState>
 		<effects>
 			<effect name="CriticalRatePositionBonus">
 				<amount>30</amount>
@@ -2689,16 +2580,13 @@
 		</effects>
 	</skill>
 	<skill id="10543" toLevel="1" name="Silent Step">
-		<!-- Updated to IO -->
-		<!-- Glory Days confirmed -->
 		<!-- Allows you to move unnoticed by most monsters. Decreases P. Def. by 20% and increases Speed by 20%. MP is consumed continuously. -->
-		<abnormalVisualEffect>STEALTH</abnormalVisualEffect>
 		<icon>icon.skill10543</icon>
+		<abnormalVisualEffect>STEALTH</abnormalVisualEffect>
 		<operateType>T</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>85</magicLvl>
 		<mpInitialConsume>1</mpInitialConsume>
-		<rideState>NONE</rideState>
 		<hitTime>800</hitTime>
 		<targetType>NONE</targetType>
 		<effects>
@@ -2719,8 +2607,6 @@
 		</effects>
 	</skill>
 	<skill id="10544" toLevel="4" name="Cancel target">
-		<!-- Updated to IO -->
-		<!-- Glory Days confirmed -->
 		<icon>icon.skill0445</icon>
 		<isTriggeredSkill>true</isTriggeredSkill>
 		<operateType>A1</operateType>
@@ -2734,7 +2620,6 @@
 		<castRange>900</castRange>
 		<effectRange>1400</effectRange>
 		<hitTime>2000</hitTime>
-		<rideState>NONE</rideState>
 		<hitCancelTime>0</hitCancelTime>
 		<reuseDelay>5000</reuseDelay>
 		<targetType>ENEMY</targetType>
@@ -2744,9 +2629,7 @@
 		</effects>
 	</skill>
 	<skill id="10545" toLevel="4" name="Crippling Poison">
-		<!-- Updated to IO -->
-		<!-- Glory Days confirmed -->
-		<!-- Causes the body to gradually become rigid for 4 seconds. Once fully rigid, paralysis lasts for 5 seconds. -->
+		<!-- Causes the body to gradually become rigid for $s1. Once fully rigid, paralysis lasts for $s2. -->
 		<icon>icon.skill1170</icon>
 		<abnormalLvl>
 			<value level="1">1</value>
@@ -2780,7 +2663,6 @@
 			<value level="4">-709</value>
 		</effectPoint>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<hitCancelTime>0</hitCancelTime>
 		<isDebuff>true</isDebuff>
 		<targetType>ENEMY_ONLY</targetType>
@@ -2802,15 +2684,13 @@
 		<endEffects>
 			<effect name="CallSkill">
 				<!-- Paralyzed -->
-				<skillId>10515</skillId>
+				<skillId>10515</skillId> <!-- Paralyzed -->
 				<skillLevel>1</skillLevel>
 			</effect>
 		</endEffects>
 	</skill>
 	<skill id="10546" toLevel="7" name="Uppercut">
-		<!-- Updated to IO -->
-		<!-- Glory Days confirmed -->
-		<!-- Delivers a powerful blow to Knock Down the target for 2 seconds. Requires a dagger or dual dagger to be equipped. -->
+		<!-- Delivers a powerful blow to Knock Down target for $s1. Requires a dagger or dual dagger to be equipped. -->
 		<icon>icon.skill10546</icon>
 		<abnormalLvl>
 			<value level="1">1</value>
@@ -2857,7 +2737,6 @@
 		<nextAction>ATTACK</nextAction>
 		<effectPoint>-709</effectPoint>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<trait>KNOCKDOWN</trait>
 		<targetType>ENEMY</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -2888,7 +2767,6 @@
 		</effects>
 	</skill>
 	<skill id="10547" toLevel="1" name="Shadow Attack">
-		<!-- Glory Days confirmed -->
 		<!-- Not in use. -->
 		<icon>icon.skill0263</icon>
 		<operateType>A2</operateType>
@@ -2900,7 +2778,6 @@
 		<effectPoint>-709</effectPoint>
 		<abnormalType>STUN</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>60</effectRange>
 		<activateRate>130</activateRate>
@@ -2933,7 +2810,6 @@
 		</effects>
 	</skill>
 	<skill id="10548" toLevel="8" name="Plunder">
-		<!-- Glory Days confirmed -->
 		<!-- Steals an item from the enemy. -->
 		<icon>icon.skill10548</icon>
 		<operateType>A1</operateType>
@@ -2950,7 +2826,6 @@
 		<castRange>40</castRange>
 		<hitTime>800</hitTime>
 		<effectPoint>-709</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>400</effectRange>
 		<magicLvl>
@@ -2975,9 +2850,7 @@
 		</effects>
 	</skill>
 	<skill id="10549" toLevel="8" name="Kick">
-		<!-- Updated to IO -->
-		<!-- Glory Days confirmed -->
-		<!-- Powerfully Knock Back the target with a kick. -->
+		<!-- Powerfully Knock Back target with a kick. -->
 		<icon>icon.skill10549</icon>
 		<abnormalLvl>
 			<value level="1">1</value>
@@ -3036,7 +2909,6 @@
 			<value level="8">-721</value>
 		</effectPoint>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<trait>KNOCKDOWN</trait>
 		<targetType>ENEMY</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -3058,8 +2930,7 @@
 		</effects>
 	</skill>
 	<skill id="10550" toLevel="7" name="Illusion Strike">
-		<!-- Glory Days confirmed -->
-		<!-- Inflicts a powerful vital spot attack and decreases speed by 23% for 7 seconds. -->
+		<!-- Inflicts a powerful vital spot attack and decreases speed by $s2 for $s1. -->
 		<icon>icon.skill10550</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>7</abnormalTime>
@@ -3091,7 +2962,6 @@
 		</effectPoint>
 		<isDebuff>true</isDebuff>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>
 			<value level="1">90</value>
@@ -3125,8 +2995,7 @@
 		</effects>
 	</skill>
 	<skill id="10551" toLevel="7" name="Illusion Trick">
-		<!-- Glory Days confirmed -->
-		<!-- Cancels the enemy's target and stops him from targeting for 1 second. -->
+		<!-- Cancels the enemy's target and stops him from targeting for $s1. -->
 		<icon>icon.skill10551</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>1</abnormalTime>
@@ -3159,7 +3028,6 @@
 		</effectPoint>
 		<isDebuff>true</isDebuff>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>
 			<value level="1">90</value>
@@ -3179,9 +3047,7 @@
 		</effects>
 	</skill>
 	<skill id="10552" toLevel="10" name="Superior Resistance">
-		<!-- Updated to IO -->
-		<!-- Glory Days confirmed -->
-		<!-- STR + 2, M. Def. + 199, and Fire/Water/Wind/Earth Resistance + 20. When receiving damage, M. Def. and Attribute Resistance momentarily increase. -->
+		<!-- M. Def. + $s1, and Fire/Water/Wind/Earth Resistance + $s2. STR + $s3. -->
 		<icon>icon.skill10005</icon>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>
@@ -3280,8 +3146,7 @@
 		</effects>
 	</skill>
 	<skill id="10553" toLevel="8" name="Dagger Storm">
-		<!-- Glory Days confirmed -->
-		<!-- Attack nearby enemies with 6871 Power added to P. Atk. Over-hit. -->
+		<!-- Attack nearby enemies with $s1 Power added to P. Atk. Over-hit. -->
 		<icon>icon.skill0005</icon>
 		<affectLimit>5-12</affectLimit>
 		<affectRange>300</affectRange>
@@ -3310,7 +3175,6 @@
 		<hitTime>1530</hitTime>
 		<coolTime>200</coolTime>
 		<effectPoint>-704</effectPoint>
-		<rideState>NONE</rideState>
 		<reuseDelay>10000</reuseDelay>
 		<targetType>SELF</targetType>
 		<affectScope>POINT_BLANK</affectScope>
@@ -3340,8 +3204,8 @@
 		</effects>
 	</skill>
 	<skill id="10554" toLevel="7" name="Power Bluff">
-		<!-- Glory Days confirmed -->
-		<!-- For 3 sec., turns the enemy's back to you and Stuns them. Requires a dagger or dual dagger. -->
+		<!-- For $s1, turns the enemy's back to you and Stuns them. -->
+		<icon>icon.skill10554</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>3</abnormalTime>
 		<abnormalType>STUN</abnormalType>
@@ -3351,7 +3215,6 @@
 			<value fromLevel="1" toLevel="7" fromSubLevel="1001" toSubLevel="1030">{base + base / 100 * subIndex}</value>
 		</activateRate>
 		<basicProperty>MAGIC</basicProperty>
-		<icon>icon.skill10554</icon>
 		<lvlBonusRate>20</lvlBonusRate>
 		<operateType>A2</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -3371,7 +3234,6 @@
 		<reuseDelay>8000</reuseDelay>
 		<effectPoint>-1</effectPoint>
 		<isDebuff>true</isDebuff>
-		<rideState>NONE</rideState>
 		<trait>DERANGEMENT</trait>
 		<targetType>ENEMY_ONLY</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -3397,13 +3259,12 @@
 		</effects>
 	</skill>
 	<skill id="10555" toLevel="1" name="Impaired">
-		<!-- Glory Days confirmed -->
 		<!-- Cannot move for 5 seconds. -->
+		<icon>icon.skill1201</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>5</abnormalTime>
 		<abnormalType>ROOT_MAGICALLY</abnormalType>
 		<abnormalVisualEffect>ROOT</abnormalVisualEffect>
-		<icon>icon.skill1201</icon>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>85</magicLvl>
 		<operateType>A2</operateType>
@@ -3411,7 +3272,6 @@
 		<isDebuff>true</isDebuff>
 		<isTriggeredSkill>true</isTriggeredSkill>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<isMagic>2</isMagic>
 		<trait>PARALYZE</trait>
 		<targetType>SELF</targetType>
@@ -3424,7 +3284,6 @@
 		</effects>
 	</skill>
 	<skill id="10556" toLevel="1" name="Illusion Hide">
-		<!-- Glory Days confirmed -->
 		<!-- Becomes hidden momentarily. -->
 		<icon>icon.skill10517</icon>
 		<abnormalLvl>1</abnormalLvl>
@@ -3440,7 +3299,6 @@
 		<mpConsume>1</mpConsume>
 		<effectPoint>709</effectPoint>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<hitCancelTime>0</hitCancelTime>
 		<reuseDelay>1000</reuseDelay>
 		<targetType>SELF</targetType>
@@ -3466,7 +3324,7 @@
 		</effects>
 	</skill>
 	<skill id="10557" toLevel="2" name="Maximize Critical">
-		<!-- For 20 sec., side Critical Rate + 30% and rear Critical Rate + 60%. During a critical attack, 50 % chance of triggering Critical level 2. -->
+		<!-- For $s1, side Critical Rate + $s2 and rear Critical Rate + $s3. During a critical attack, $s4 chance of triggering Critical level $s5. -->
 		<icon>
 			<value level="1">icon.skill10542</value>
 			<value level="2">icon.skill10542_2</value>
@@ -3481,7 +3339,6 @@
 		<hitTime>800</hitTime>
 		<effectPoint>696</effectPoint>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>85</magicLvl>
 		<isMagic>4</isMagic>
@@ -3507,7 +3364,7 @@
 			<effect name="TriggerSkillByAttack">
 				<!-- Maximize Critical -->
 				<isCritical>true</isCritical>
-				<skillId>10557</skillId>
+				<skillId>10557</skillId> <!-- Maximize Critical -->
 				<skillLevel>
 					<value level="1">2</value>
 					<value level="2">0</value>
@@ -3519,11 +3376,11 @@
 		</effects>
 	</skill>
 	<skill id="10558" toLevel="1" name="Elusive Mirage">
-		<!-- For 30 sec., has a chance of cancelling target of the enemy that attacked you. Requires a dagger or dual dagger. -->
+		<!-- For $s1, has a chance of cancelling target of the enemy that attacked you. Requires a dagger or dual dagger. -->
+		<icon>icon.skill11861</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>30</abnormalTime>
 		<abnormalType>MIRAGE</abnormalType>
-		<icon>icon.skill11861</icon>
 		<operateType>A2</operateType>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -3545,7 +3402,7 @@
 			<effect name="TriggerSkillByDamage">
 				<!-- Elusive Mirage -->
 				<minDamage>1</minDamage>
-				<skillId>10559</skillId>
+				<skillId>10559</skillId> <!-- Elusive Mirage -->
 				<skillLevel>1</skillLevel>
 				<chance>80</chance>
 				<targetType>SELF</targetType>
@@ -3590,11 +3447,11 @@
 		</effects>
 	</skill>
 	<skill id="10560" toLevel="1" name="Maximum Blow">
-		<!-- For 20 sec., Vital Spot Attack Rate + 10%. Requires a dagger or dual dagger. -->
+		<!-- For $s1, Vital Spot Attack Rate + $s2. Requires a dagger or dual dagger. -->
+		<icon>icon.skill11877</icon>
 		<abnormalLvl>5</abnormalLvl>
 		<abnormalTime>20</abnormalTime>
 		<abnormalType>MIGHT_MORTAL</abnormalType>
-		<icon>icon.skill11877</icon>
 		<operateType>A2</operateType>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -3631,7 +3488,7 @@
 		</effects>
 	</skill>
 	<skill id="10561" toLevel="4" name="Superior Vitality">
-		<!-- Max HP and CP + 7%. Increases resistance to poison, bleed, and stun + 4. -->
+		<!-- Max HP and CP + $s1. Increases resistance to poison, bleed, and stun + $s2. -->
 		<icon>icon.skill11864</icon>
 		<magicLvl>
 			<value level="1">85</value>
@@ -3682,11 +3539,11 @@
 		</effects>
 	</skill>
 	<skill id="10562" toLevel="1" name="Critical Adventures">
-		<!-- For 5 min., Critical Damage + 304 and vital spot attack success rate + 10%. Front Critical Damage - 30%, Side Critical Rate + 20% and Critical Damage + 20%. Rear Critical Rate + 40% and Critical Damage + 40%. Requires a dagger or dual dagger. -->
+		<!-- For $s1, Critical Damage + $s2 and vital spot attack success rate + $s3. Front Critical Damage - $s4, Side Critical Rate + $s5 and Critical Damage + $s6. Rear Critical Rate + $s7 and Critical Damage + $s8. Requires a dagger or dual dagger. -->
+		<icon>icon.skill10562</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>300</abnormalTime>
 		<abnormalType>FOCUS_DAGGER</abnormalType>
-		<icon>icon.skill10562</icon>
 		<operateType>A2</operateType>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>

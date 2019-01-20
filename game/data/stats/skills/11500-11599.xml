@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
 	<skill id="11500" toLevel="1" name="Heavy Hit">
-		<!-- Glory Days confirmed -->
 		<!-- Inflicts a powerful blow on target. -->
 		<icon>icon.skill10317</icon>
 		<operateType>A1</operateType>
@@ -11,7 +10,6 @@
 		<coolTime>300</coolTime>
 		<reuseDelay>10000</reuseDelay>
 		<effectPoint>-687</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>1400</effectRange>
 		<magicLvl>85</magicLvl>
@@ -32,8 +30,7 @@
 		</effects>
 	</skill>
 	<skill id="11501" toLevel="10" name="Superior Dual Weapon Mastery">
-		<!-- Glory Days confirmed -->
-		<!-- P. Atk. + 30%, Additional P. Atk. + 1027, Atk. Spd. + 30%, P. Critical Damage + 15% when a dualsword/dualblunt is equipped. Normal hit damage to monsters + 20%. Chance to activate Physical Pose during a normal attack. Depending on your STR can reset cooldown or double skill effect duration. -->
+		<!-- P. Atk. + $s1, Additional P. Atk. + $s2, Atk. Spd. + $s3, P. Critical Damage + $s4 when a dualsword/blunt is equipped. Normal hit damage to monsters + $s5. Chance to activate Physical Pose during a normal attack. Depending on STR, your STR can reset cooldown or double skill effect duration. -->
 		<icon>icon.skill10252</icon>
 		<operateType>P</operateType>
 		<magicLvl>
@@ -63,7 +60,7 @@
 				<targetType>SELF</targetType>
 				<isCritical>false</isCritical>
 				<allowWeapons>DUAL,DUALBLUNT</allowWeapons>
-				<skillId>5559</skillId>
+				<skillId>5559</skillId> <!-- Physical Pose -->
 				<skillLevel>1</skillLevel>
 			</effect>
 			<effect name="PAtk">
@@ -112,8 +109,7 @@
 		</effects>
 	</skill>
 	<skill id="11502" toLevel="10" name="Superior Robe Mastery">
-		<!-- Glory Days confirmed -->
-		<!--Max HP + 4636, P. Def. + 969 when equipped with a Robe. -->
+		<!-- Max HP + $s1, P. Def. + $s2 when equipped with a Robe. -->
 		<icon>icon.skill11252</icon>
 		<operateType>P</operateType>
 		<magicLvl>
@@ -158,8 +154,7 @@
 		</effects>
 	</skill>
 	<skill id="11503" toLevel="10" name="Superior Light Armor Mastery">
-		<!-- Glory Days confirmed -->
-		<!-- Max HP + 4636, P. Def. + 1506, Atk. Spd. + 10%, Speed + 4 when equipped with Light Armor. -->
+		<!-- Max HP + $s1, P. Def. + $s2, Atk. Spd. + $s3, Speed + $4 when equipped with Light Armor. -->
 		<icon>icon.skill10254</icon>
 		<operateType>P</operateType>
 		<magicLvl>
@@ -211,8 +206,7 @@
 		</effects>
 	</skill>
 	<skill id="11504" toLevel="10" name="Superior Heavy Armor Mastery">
-		<!-- Glory Days confirmed -->
-		<!-- When heavy armor is equipped, Max HP +4636, P. Def. +1731; P. Critical Damage Received -35%. -->
+		<!-- When heavy armor is equipped, Max HP +$s1, P. Def. +$s2 -->
 		<icon>icon.skill10002</icon>
 		<operateType>P</operateType>
 		<magicLvl>
@@ -264,8 +258,7 @@
 		</effects>
 	</skill>
 	<skill id="11505" toLevel="10" name="Superior Anti Magic">
-		<!-- Glory Days confirmed -->
-		<!-- M. Def. + 776 and Attack M. Def. Rate + 35%. -->
+		<!-- M. Def. + $s1 and Attack M. Def. Rate + $s2. -->
 		<icon>icon.skill10004</icon>
 		<operateType>P</operateType>
 		<magicLvl>
@@ -304,8 +297,7 @@
 		</effects>
 	</skill>
 	<skill id="11506" toLevel="10" name="Superior HP Boost">
-		<!-- Glory Days confirmed -->
-		<!-- STR + 2 and Max HP + 366. -->
+		<!-- Max HP + $s1. STR + $s2. -->
 		<icon>icon.skill0211</icon>
 		<operateType>P</operateType>
 		<magicLvl>
@@ -344,8 +336,7 @@
 		</effects>
 	</skill>
 	<skill id="11507" toLevel="10" name="Superior MP Boost">
-		<!-- Glory Days confirmed -->
-		<!-- STR + 2 and Max MP + 313. -->
+		<!-- Max MP + $s1. STR + $s2. -->
 		<icon>icon.skill0213</icon>
 		<operateType>P</operateType>
 		<magicLvl>
@@ -384,8 +375,7 @@
 		</effects>
 	</skill>
 	<skill id="11508" toLevel="9" name="Assault Rush">
-		<!-- Glory Days confirmed -->
-		<!-- Rushes the enemy to inflict Stun for 1 second. Requires a sword, dualsword or dual blunt to be equipped. -->
+		<!-- Rushes the enemy to inflict Stun for $s1. Requires a sword, dualsword or dual blunt to be equipped. -->
 		<icon>icon.skill11508</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>3</abnormalTime>
@@ -429,7 +419,6 @@
 			<value level="8">-712</value>
 			<value level="9">-712</value>
 		</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>800</effectRange>
 		<magicLvl>
@@ -469,8 +458,8 @@
 		</effects>
 	</skill>
 	<skill id="11509" toLevel="11" name="Crippling Attack">
-		<!-- Glory Days confirmed -->
-		<!-- Attacks target with 14608 Power added to P. Atk. For 20 seconds, P. Def. and M. Def. - 40% and P. Evasion - 15. Requires a sword, dualsword or dual blunt to be equipped. Over-hit. Critical. -->
+		<!-- Attacks target with $s1 Power added to P. Atk. for $s2, P. Def. and M. Def. - $s3 and P. Evasion - $s4. Requires a sword, dualsword or dual blunt to be equipped. Over-hit. Critical. -->
+		<icon>icon.skill11509</icon>
 		<abnormalLvl>5</abnormalLvl>
 		<abnormalTime>20</abnormalTime>
 		<abnormalType>ULTIMATE_DEBUFF</abnormalType>
@@ -482,7 +471,6 @@
 		<coolTime>300</coolTime>
 		<effectRange>400</effectRange>
 		<hitTime>910</hitTime>
-		<icon>icon.skill11509</icon>
 		<magicLvl>
 			<value level="1">85</value>
 			<value level="2">86</value>
@@ -512,7 +500,6 @@
 		<operateType>A2</operateType>
 		<nextAction>ATTACK</nextAction>
 		<reuseDelay>7000</reuseDelay>
-		<rideState>NONE</rideState>
 		<effectPoint>
 			<value level="1">-687</value>
 			<value level="2">-694</value>
@@ -580,8 +567,8 @@
 		</effects>
 	</skill>
 	<skill id="11510" toLevel="11" name="Shadow Blade">
-		<!-- Glory Days confirmed -->
-		<!-- Attacks target with 14608 Power added to P. Atk. For 20 seconds, P. Atk. and M. Atk. - 40%. Requires a sword, dualsword or dual blunt to be equipped. Over-hit. Critical. -->
+		<!-- Attacks target with $s1 Power added to P. Atk. for $s2, P. Atk. and M. Atk. - $s3. Requires a sword, dualsword or dual blunt to be equipped. Over-hit. Critical. -->
+		<icon>icon.skill11510</icon>
 		<abnormalLvl>5</abnormalLvl>
 		<abnormalTime>20</abnormalTime>
 		<abnormalType>CRITICAL_PROB_DOWN</abnormalType>
@@ -593,7 +580,6 @@
 		<coolTime>300</coolTime>
 		<effectRange>400</effectRange>
 		<hitTime>1010</hitTime>
-		<icon>icon.skill11510</icon>
 		<magicLvl>
 			<value level="1">85</value>
 			<value level="2">87</value>
@@ -623,7 +609,6 @@
 		<operateType>A2</operateType>
 		<nextAction>ATTACK</nextAction>
 		<reuseDelay>7000</reuseDelay>
-		<rideState>NONE</rideState>
 		<effectPoint>
 			<value level="1">-687</value>
 			<value level="2">-694</value>
@@ -686,13 +671,12 @@
 		</effects>
 	</skill>
 	<skill id="11511" toLevel="11" name="Death Strike">
-		<!-- Glory Days confirmed -->
-		<!-- Attacks target with 21642 Power added to P. Atk. Requires a sword, blunt, dualsword, or dual blunt weapon. Over-hit. Critical. -->
+		<!-- Attacks target with $s1 Power added to P. Atk. Requires a sword, blunt, dualsword, or dual blunt weapon. Over-hit. Critical. -->
+		<icon>icon.skill11511</icon>
 		<castRange>40</castRange>
 		<coolTime>500</coolTime>
 		<effectRange>400</effectRange>
 		<hitTime>1410</hitTime>
-		<icon>icon.skill11511</icon>
 		<magicLvl>
 			<value level="1">85</value>
 			<value level="2">86</value>
@@ -722,7 +706,6 @@
 		<operateType>A1</operateType>
 		<nextAction>ATTACK</nextAction>
 		<reuseDelay>7000</reuseDelay>
-		<rideState>NONE</rideState>
 		<effectPoint>
 			<value level="1">-692</value>
 			<value level="2">-696</value>
@@ -778,8 +761,7 @@
 		</effects>
 	</skill>
 	<skill id="11513" toLevel="11" name="Mass Crippling Attack">
-		<!-- Glory Days confirmed -->
-		<!-- Attacks target and nearby enemies with 10263 Power added to P. Atk. For 20 seconds, decreases target's P. Def. and M. Def. by 40% and P. Evasion by 15. Requires a sword, dualsword or dual blunt to be equipped. Over-hit. Critical. -->
+		<!-- Attacks target and nearby enemies with $s1 Power added to P. Atk. for $s2, decreases target's P. Def. and M. Def. by $s3 and P. Evasion by $s4. Requires a sword, dualsword or dual blunt to be equipped. Over-hit. Critical. -->
 		<icon>icon.skill11513</icon>
 		<abnormalLvl>5</abnormalLvl>
 		<abnormalTime>20</abnormalTime>
@@ -793,7 +775,6 @@
 		<castRange>40</castRange>
 		<coolTime>500</coolTime>
 		<hitTime>1210</hitTime>
-		<icon>icon.skill11509</icon>
 		<magicLvl>
 			<value level="1">85</value>
 			<value level="2">86</value>
@@ -823,7 +804,6 @@
 		<nextAction>ATTACK</nextAction>
 		<operateType>A2</operateType>
 		<reuseDelay>10000</reuseDelay>
-		<rideState>NONE</rideState>
 		<effectPoint>
 			<value level="1">-687</value>
 			<value level="2">-694</value>
@@ -892,8 +872,8 @@
 		</effects>
 	</skill>
 	<skill id="11514" toLevel="11" name="Mass Shadow Blade">
-		<!-- Glory Days confirmed -->
-		<!-- Attacks target and nearby enemies with 11722 Power added to P. Atk. For 20 seconds, decreases P. Atk. and M. Atk. by 40%. Requires a sword, dualsword or dual blunt to be equipped. Over-hit. Critical. -->
+		<!-- Attacks target and nearby enemies with $s1 Power added to P. Atk. for $s2, decreases P. Atk. and M. Atk. by $s3. Requires a sword, dualsword or dual blunt to be equipped. Over-hit. Critical. -->
+		<icon>icon.skill11514</icon>
 		<abnormalLvl>5</abnormalLvl>
 		<abnormalTime>20</abnormalTime>
 		<abnormalType>CRITICAL_PROB_DOWN</abnormalType>
@@ -906,7 +886,6 @@
 		<castRange>40</castRange>
 		<coolTime>500</coolTime>
 		<hitTime>1410</hitTime>
-		<icon>icon.skill11514</icon>
 		<magicLvl>
 			<value level="1">85</value>
 			<value level="2">87</value>
@@ -936,7 +915,6 @@
 		<nextAction>ATTACK</nextAction>
 		<operateType>A2</operateType>
 		<reuseDelay>10000</reuseDelay>
-		<rideState>NONE</rideState>
 		<effectPoint>
 			<value level="1">-692</value>
 			<value level="2">-696</value>
@@ -1001,8 +979,7 @@
 		</effects>
 	</skill>
 	<skill id="11515" toLevel="5" name="Confusion Bomber">
-		<!-- Glory Days confirmed -->
-		<!-- Curses target with darkness. For 5 seconds, decreases Speed and Atk. Spd. by 5%. After 5 seconds, detonates target to inflict damage nearby. Requires a sword, dualsword or dual blunt to be equipped. -->
+		<!-- Curses target with darkness. For $s1, decreases Speed and Atk. Spd. by $s2. After $s3, detonates target to inflict damage nearby. Requires a sword, dualsword or dual blunt to be equipped. -->
 		<icon>icon.skill11515</icon>
 		<operateType>A2</operateType>
 		<mpConsume>
@@ -1025,7 +1002,6 @@
 		</effectPoint>
 		<abnormalType>PARALYZE</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>1100</effectRange>
 		<lvlBonusRate>20</lvlBonusRate>
@@ -1059,7 +1035,7 @@
 		</effects>
 		<endEffects>
 			<effect name="CallSkill">
-				<skillId>11516</skillId>
+				<skillId>11516</skillId> <!-- Curse Explosion -->
 				<skillLevel>
 					<value level="1">1</value>
 					<value level="2">2</value>
@@ -1071,7 +1047,6 @@
 		</endEffects>
 	</skill>
 	<skill id="11516" toLevel="15" name="Curse Explosion">
-		<!-- Glory Days confirmed -->
 		<icon>icon.skill1170</icon>
 		<operateType>A1</operateType>
 		<effectPoint>
@@ -1091,7 +1066,6 @@
 			<value level="14">-711</value>
 			<value level="15">-711</value>
 		</effectPoint>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>
 			<value level="1">85</value>
@@ -1139,8 +1113,8 @@
 		</effects>
 	</skill>
 	<skill id="11517" toLevel="4" name="Horn Melody">
-		<!-- Glory Days confirmed -->
-		<!-- For 30 minutes, all party members' P. Atk. + 17%, P. Def. + 15%, M. Atk. + 79%, and M. Def. + 30%. -->
+		<!-- For $s1, P. Atk. + $s2, P. Def. + $s3, M. Atk. + $s4, and M. Def. + $s5. -->
+		<icon>icon.skill11517</icon>
 		<abnormalLvl>
 			<value level="1">1</value>
 			<value level="2">2</value>
@@ -1153,7 +1127,6 @@
 		</abnormalTime>
 		<abnormalType>BUFF_SPECIAL_ATTACK</abnormalType>
 		<affectRange>1000</affectRange>
-		<icon>icon.skill11517</icon>
 		<operateType>A2</operateType>
 		<mpConsume>
 			<value level="1">140</value>
@@ -1191,7 +1164,6 @@
 			<value level="3">0-0</value>
 			<value level="4">50-50</value>
 		</affectLimit>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<targetType>SELF</targetType>
 		<affectScope>
 			<value level="1">PARTY</value>
@@ -1237,8 +1209,8 @@
 		</effects>
 	</skill>
 	<skill id="11518" toLevel="4" name="Drum Melody">
-		<!-- For 30 minutes, party members' Max MP + 20%, HP Recovery Bonus + 20%, M. Critical Rate + 20, Critical Damage during a normal attack + 20%, P. Atk. + 10%, P. Def. + 20%, Atk. Spd. + 20%, M. Atk. + 20%, M. Def. + 20%, Casting Spd. + 20%, Debuff Resistance + 10%, damage received from critical attacks - 30% and Speed - 15%. Party members equipped with melee weapons/bows/crossbows have increased Critical Damage after receiving an amount of damage. -->
-		<!-- Glory Days confirmed -->
+		<!-- For $s1, Max MP + $s2, HP Recovery Bonus + $s3, M. Critical Rate + $s4, Critical Damage in standard attack + $s5, P. Atk. + $s6, P. Def. + $s7, Atk. Spd. + $s8, M. Atk. + $s9, M. Def. + $s10, Casting Spd. + $s11, and Debuff Resistance + $s12. Received Critical Damage - $s13, and Speed - $s14. Party members equipped with melee weapons/bows/crossbows have increased Critical Damage after receiving an amount of damage. -->
+		<icon>icon.skill11522</icon>
 		<abnormalLvl>
 			<value level="1">1</value>
 			<value level="2">2</value>
@@ -1251,7 +1223,6 @@
 			<value fromLevel="3" toLevel="4" fromSubLevel="1001" toSubLevel="1030">{base + subIndex * 90}</value>
 		</abnormalTime>
 		<affectRange>1000</affectRange>
-		<icon>icon.skill11522</icon>
 		<operateType>A2</operateType>
 		<mpConsume>
 			<value level="1">140</value>
@@ -1289,7 +1260,6 @@
 			<value level="3">0-0</value>
 			<value level="4">50-50</value>
 		</affectLimit>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<targetType>SELF</targetType>
 		<affectScope>
 			<value level="1">PARTY</value>
@@ -1307,7 +1277,7 @@
 				<chance>80</chance>
 				<targetType>SELF</targetType>
 				<minDamage>300</minDamage>
-				<skillId>11569</skillId>
+				<skillId>11569</skillId> <!-- Critical Damage Increase -->
 				<skillLevel>1</skillLevel>
 			</effect>
 			<effect name="DispelBySlotProbability">
@@ -1376,8 +1346,8 @@
 		</effects>
 	</skill>
 	<skill id="11519" toLevel="4" name="Pipe Organ Melody">
-		<!-- Glory Days confirmed -->
-		<!-- For 30 minutes, party members' Max HP + 37%, Max MP + 37%, Max CP + 37%, and HP Recovery Bonus + 20%. -->
+		<!-- For $s1, Max HP + $s2, Max MP + $x3, Max CP + $s4, and HP Recovery Bonus + $s5. -->
+		<icon>icon.skill11519</icon>
 		<abnormalLvl>
 			<value level="1">1</value>
 			<value level="2">2</value>
@@ -1390,7 +1360,6 @@
 			<value fromLevel="3" toLevel="4" fromSubLevel="1001" toSubLevel="1030">{base + subIndex * 90}</value>
 		</abnormalTime>
 		<affectRange>1000</affectRange>
-		<icon>icon.skill11519</icon>
 		<operateType>A2</operateType>
 		<mpConsume>
 			<value level="1">140</value>
@@ -1428,7 +1397,6 @@
 			<value level="3">0-0</value>
 			<value level="4">50-50</value>
 		</affectLimit>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<targetType>SELF</targetType>
 		<affectScope>
 			<value level="1">PARTY</value>
@@ -1479,8 +1447,8 @@
 		</effects>
 	</skill>
 	<skill id="11520" toLevel="4" name="Guitar Melody">
-		<!-- Glory Days confirmed -->
-		<!-- For 30 minutes, party members' P. Critical Rate + 32%, P. Critical Damage + 35%, M. Critical Rate + 20 , and MP Consumption - 20% for physical skills and - 10% for magic skills. Iss Enchanter's Enchant Skill MP Consumption - 20%. -->
+		<!-- For $s1, P. Critical Rate + $s2, P. Critical Damage + $s3, and M. Critical Rate + $s4. P. Skill MP Consumption - $s5, M. Skill MP Consumption - $s6, and Iss Enchanter's Enchant Skill MP Consumption - $s7. -->
+		<icon>icon.skill11520</icon>
 		<abnormalLvl>
 			<value level="1">1</value>
 			<value level="2">2</value>
@@ -1493,7 +1461,6 @@
 			<value fromLevel="3" toLevel="4" fromSubLevel="1001" toSubLevel="1030">{base + subIndex * 90}</value>
 		</abnormalTime>
 		<affectRange>1000</affectRange>
-		<icon>icon.skill11520</icon>
 		<operateType>A2</operateType>
 		<mpConsume>
 			<value level="1">140</value>
@@ -1526,7 +1493,6 @@
 			<value level="3">0-0</value>
 			<value level="4">50-50</value>
 		</affectLimit>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<targetType>SELF</targetType>
 		<affectScope>
 			<value level="1">PARTY</value>
@@ -1583,8 +1549,8 @@
 		</effects>
 	</skill>
 	<skill id="11521" toLevel="4" name="Harp Melody">
-		<!-- Glory Days confirmed -->
-		<!-- For 30 minutes, party members' P. Accuracy + 5, P. and M. Evasion + 5, Speed + 34 and received Critical Damage - 30%. -->
+		<!-- For $s1, P. Accuracy + $s2, P./M. Evasion + $s3, and Speed + $s4. Received Critical Damage - $s5. -->
+		<icon>icon.skill11521</icon>
 		<abnormalLvl>
 			<value level="1">1</value>
 			<value level="2">2</value>
@@ -1597,7 +1563,6 @@
 		</abnormalTime>
 		<abnormalType>BUFF_SPECIAL_HITAVOID</abnormalType>
 		<affectRange>1000</affectRange>
-		<icon>icon.skill11521</icon>
 		<operateType>A2</operateType>
 		<mpConsume>
 			<value level="1">140</value>
@@ -1630,7 +1595,6 @@
 			<value level="3">0-0</value>
 			<value level="4">50-50</value>
 		</affectLimit>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<targetType>SELF</targetType>
 		<affectScope>
 			<value level="1">PARTY</value>
@@ -1690,8 +1654,8 @@
 		</effects>
 	</skill>
 	<skill id="11522" toLevel="4" name="Lute Melody">
-		<!-- Glory Days confirmed -->
-		<!-- For 30 minutes, party members' Atk. Spd. + 34% and Casting Spd. + 31%. Also has a chance of triggering a 9% Vampiric Rage effect during a normal attack. -->
+		<!-- For $s1, Atk. Spd. + $s2, Casting Spd. + $s3, and has a chance of applying $s4 Vampiric Rage. -->
+		<icon>icon.skill11518</icon>
 		<abnormalLvl>
 			<value level="1">1</value>
 			<value level="2">2</value>
@@ -1704,7 +1668,6 @@
 			<value fromLevel="3" toLevel="4" fromSubLevel="1001" toSubLevel="1030">{base + subIndex * 90}</value>
 		</abnormalTime>
 		<affectRange>1000</affectRange>
-		<icon>icon.skill11518</icon>
 		<operateType>A2</operateType>
 		<mpConsume>
 			<value level="1">140</value>
@@ -1737,7 +1700,6 @@
 			<value level="3">0-0</value>
 			<value level="4">50-50</value>
 		</affectLimit>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<targetType>SELF</targetType>
 		<affectScope>
 			<value level="1">PARTY</value>
@@ -1779,15 +1741,14 @@
 		</effects>
 	</skill>
 	<skill id="11523" toLevel="1" name="Knight's Harmony">
-		<!-- Glory Days confirmed -->
-		<!-- For 30 minutes, the selected party member's P. Atk. + 12%, P. Critical Damage + 35%, P. Critical Rate + 100%, P. Def. + 45%, Shield Defense Rate + 30% and Shield Defense + 50%. -->
+		<!-- For $s1, the selected party member's P. Atk. + $s2, P. Critical Damage + $s3, P. Critical Rate + $s4, P. Def. + $s5, Shield Defense Rate + $s6 and Shield Defense + $s7. -->
+		<icon>icon.skill11523</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>
 			<value fromLevel="1" toLevel="1">1800</value>
 			<value fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1030">{base + subIndex * 90}</value>
 		</abnormalTime>
 		<abnormalType>BUFF_SPECIAL_CLASS</abnormalType>
-		<icon>icon.skill11523</icon>
 		<operateType>A2</operateType>
 		<mpConsume>140</mpConsume>
 		<mpInitialConsume>28</mpInitialConsume>
@@ -1801,7 +1762,6 @@
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>1100</effectRange>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<targetType>TARGET</targetType>
 		<affectScope>SINGLE</affectScope>
 		<conditions>
@@ -1844,15 +1804,14 @@
 		</effects>
 	</skill>
 	<skill id="11524" toLevel="1" name="Warrior's Harmony">
-		<!-- Glory Days confirmed -->
-		<!-- For 30 minutes, the selected party member's P. Atk. + 35%, P. Critical Damage + 35%, P. Critical Rate + 100%, Atk. Spd. + 8%, M. Atk. + 16%, Casting Spd. + 8% and Speed + 8. -->
+		<!-- For $s1, the selected party member's P. Atk. + $s2, P. Critical Damage + $s3, P. Critical Rate + $s4, Atk. Spd. + $s5, M. Atk. + $s6, Casting Spd. + $s7 and Speed + $s8. -->
+		<icon>icon.skill11524</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>
 			<value fromLevel="1" toLevel="1">1800</value>
 			<value fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1030">{base + subIndex * 90}</value>
 		</abnormalTime>
 		<abnormalType>BUFF_SPECIAL_CLASS</abnormalType>
-		<icon>icon.skill11524</icon>
 		<operateType>A2</operateType>
 		<mpConsume>140</mpConsume>
 		<mpInitialConsume>28</mpInitialConsume>
@@ -1866,7 +1825,6 @@
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>1100</effectRange>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<targetType>TARGET</targetType>
 		<affectScope>SINGLE</affectScope>
 		<conditions>
@@ -1913,15 +1871,14 @@
 		</effects>
 	</skill>
 	<skill id="11525" toLevel="1" name="Wizard's Harmony">
-		<!-- Glory Days confirmed -->
-		<!-- For 30 minutes, the selected party member's M. Atk. + 40%, M. Critical Rate + 100%, Casting Spd. + 8%, P. Atk. + 8%, Atk. Spd. + 8%, Speed + 8, M. Def. + 14%, MP Recovery Bonus + 20%, MP Consumption for magic skills - 15% and physical skills -5%, and Cooldown - 20%. -->
+		<!-- For $s1, the selected party member's M. Atk. + $s2, M. Critical Rate + $s3, Casting Spd. + $s4, P. Atk. + $s5, Atk. Spd. + $s6, Speed + $s7, M. Def. + $s8, MP Recovery Bonus + $s9, MP Consumption for magic skills - $s10 and physical skills - $s11, and Cooldown - $s12. -->
+		<icon>icon.skill11525</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>
 			<value fromLevel="1" toLevel="1">1800</value>
 			<value fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1030">{base + subIndex * 90}</value>
 		</abnormalTime>
 		<abnormalType>BUFF_SPECIAL_CLASS</abnormalType>
-		<icon>icon.skill11525</icon>
 		<operateType>A2</operateType>
 		<mpConsume>140</mpConsume>
 		<mpInitialConsume>28</mpInitialConsume>
@@ -1935,7 +1892,6 @@
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>1100</effectRange>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<targetType>TARGET</targetType>
 		<affectScope>SINGLE</affectScope>
 		<conditions>
@@ -2011,8 +1967,7 @@
 		</effects>
 	</skill>
 	<skill id="11526" toLevel="10" name="Superior Sword/Blunt Weapon Mastery">
-		<!-- Glory Days confirmed -->
-		<!-- P. Atk. + 30%, Additional P. Atk. + 1027, Atk. Spd. + 30%, P. Critical Damage + 15% when a sword or blunt weapon is equipped. -->
+		<!-- P. Atk. + $s1, Additional P. Atk. + $s2, Atk. Spd. + $s3, P. Critical Damage + $s4 when a sword or blunt weapon is equipped. -->
 		<icon>icon.skill10001</icon>
 		<operateType>P</operateType>
 		<magicLvl>
@@ -2071,8 +2026,8 @@
 		</effects>
 	</skill>
 	<skill id="11529" toLevel="1" name="Prevailing Sonata">
-		<!-- Glory Days confirmed -->
-		<!-- Increases party members' Atk. Spd. by 15%, Casting Spd. by 30%, Max HP by 30%, MP recovery bonus by 20% and decreases MP Consumption for magic skill by 10% and the magic cancel rate for 5 minutes. -->
+		<!-- Increases party members' Atk. Spd. by $s2, Casting Spd. by $s3, Max HP by $s4, MP recovery bonus by $s5 and decreases MP Consumption for magic skill by $s6 and the magic cancel rate for $s1 minutes. -->
+		<icon>icon.skill11529</icon>
 		<affectRange>1000</affectRange>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalType>BUFF_SPECIAL_AURA</abnormalType>
@@ -2080,7 +2035,6 @@
 			<value fromLevel="1" toLevel="1">300</value>
 			<value fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1030">{base + subIndex * 30}</value>
 		</abnormalTime>
-		<icon>icon.skill11529</icon>
 		<operateType>A2</operateType>
 		<mpConsume>140</mpConsume>
 		<mpInitialConsume>28</mpInitialConsume>
@@ -2093,7 +2047,6 @@
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<targetType>SELF</targetType>
 		<affectScope>PARTY</affectScope>
 		<affectObject>FRIEND</affectObject>
@@ -2133,8 +2086,8 @@
 		</effects>
 	</skill>
 	<skill id="11530" toLevel="1" name="Daring Sonata">
-		<!-- Glory Days confirmed -->
-		<!-- Increases party members' P. Atk. by 8%, M. Atk. by 16%, Atk. Spd. and Casting Spd. by 8% and decreases P. Def. by 3%, M. Def. by 11% and P. Evasion by 4 for 5 minutes. Also bestows an 8% Vampiric Rage effect and a chance of reflecting 10% of the damage received. -->
+		<!-- Increases party members' P. Atk. by $s2, M. Atk. by $s3, Atk. Spd. and Casting Spd. by $s4 and decreases P. Def. by $s5, M. Def. by $s6 and P. Evasion by $s7 for $s1 minutes. Also bestows an $s8 Vampiric Rage effect and a chance of reflecting $s9 of the damage received. -->
+		<icon>icon.skill11530</icon>
 		<affectRange>1000</affectRange>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalType>ENCHANTER_MOD</abnormalType>
@@ -2142,7 +2095,6 @@
 			<value fromLevel="1" toLevel="1">300</value>
 			<value fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1030">{base + subIndex * 30}</value>
 		</abnormalTime>
-		<icon>icon.skill11530</icon>
 		<operateType>A2</operateType>
 		<mpConsume>140</mpConsume>
 		<mpInitialConsume>28</mpInitialConsume>
@@ -2155,7 +2107,6 @@
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<targetType>SELF</targetType>
 		<affectScope>PARTY</affectScope>
 		<affectObject>FRIEND</affectObject>
@@ -2206,8 +2157,8 @@
 		</effects>
 	</skill>
 	<skill id="11532" toLevel="1" name="Refreshing Sonata">
-		<!-- Glory Days confirmed -->
-		<!-- Increases party members' HP Recovery Bonus by 20%, P.ﾠAccuracy by 4, P.ﾠEvasion by 3, Speed by 20, and decreases MP Consumption for skills by 20% and skill Cooldown by 10% for 5 minutes. -->
+		<!-- Increases party members' HP Recovery Bonus by $s2, P.Accuracy by $s3, P.Evasion by $s4, Speed by $s5, and decreases MP Consumption for skills by $s6 and skill Cooldown by $s7 for $s1. -->
+		<icon>icon.skill11532</icon>
 		<affectRange>1000</affectRange>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalType>SYNERGY_IS</abnormalType>
@@ -2215,7 +2166,6 @@
 			<value fromLevel="1" toLevel="1">300</value>
 			<value fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1030">{base + subIndex * 30}</value>
 		</abnormalTime>
-		<icon>icon.skill11532</icon>
 		<operateType>A2</operateType>
 		<mpConsume>140</mpConsume>
 		<mpInitialConsume>28</mpInitialConsume>
@@ -2228,7 +2178,6 @@
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<targetType>SELF</targetType>
 		<affectScope>PARTY</affectScope>
 		<affectObject>FRIEND</affectObject>
@@ -2279,9 +2228,7 @@
 		</effects>
 	</skill>
 	<skill id="11533" toLevel="1" name="Blood Requiem">
-		<!-- Updated to IO -->
-		<!-- Glory Days confirmed -->
-		<!-- Party members receives 80% Vampiric Rage effect for 15 seconds. -->
+		<!-- Party members receives $s2 Vampiric Rage effect for $s1. -->
 		<icon>icon.skill11546</icon>
 		<abnormalLvl>5</abnormalLvl>
 		<abnormalTime>15</abnormalTime>
@@ -2298,7 +2245,6 @@
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<isMagic>22</isMagic>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<targetType>SELF</targetType>
 		<affectScope>PARTY</affectScope>
 		<affectObject>FRIEND</affectObject>
@@ -2331,9 +2277,7 @@
 		</effects>
 	</skill>
 	<skill id="11534" toLevel="6" name="Angel's Touch">
-		<!-- Updated to IO -->
-		<!-- Glory Days confirmed -->
-		<!-- For 7 seconds, renders target immune to debuffs. -->
+		<!-- For $s1, renders target immune to debuffs. -->
 		<icon>icon.skill11534</icon>
 		<abnormalLvl>5</abnormalLvl>
 		<abnormalTime>
@@ -2378,7 +2322,6 @@
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>1100</effectRange>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<targetType>TARGET</targetType>
 		<affectScope>SINGLE</affectScope>
 		<conditions>
@@ -2409,9 +2352,7 @@
 		</effects>
 	</skill>
 	<skill id="11536" toLevel="9" name="Divine Cancel">
-		<!-- Updated to IO -->
-		<!-- Glory Days confirmed -->
-		<!-- Has a chance of canceling up to 2 of the buff effects on target. -->
+		<!-- Has a chance of canceling up to $s1 of the buff effects on target. -->
 		<icon>icon.skill11536</icon>
 		<effectPoint>-709</effectPoint>
 		<operateType>A1</operateType>
@@ -2442,7 +2383,6 @@
 		<coolTime>300</coolTime>
 		<reuseDelay>300000</reuseDelay>
 		<isMagic>1</isMagic>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>1100</effectRange>
 		<isDebuff>true</isDebuff>
@@ -2468,8 +2408,8 @@
 		</effects>
 	</skill>
 	<skill id="11537" toLevel="10" name="Transform">
-		<!-- Glory Days confirmed -->
-		<!-- Transforms target into a harmless creature and decrease its Speed by 20% for 15 seconds. The effect is canceled if the transformed target is attacked. -->
+		<!-- Transforms target into a harmless creature and decrease its Speed by $s2 for $s1. The effect is canceled if the transformed target is attacked. -->
+		<icon>icon.skill11537</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>15</abnormalTime>
 		<abnormalType>CHANGEBODY</abnormalType>
@@ -2478,7 +2418,6 @@
 			<value fromLevel="1" toLevel="10">60</value>
 			<value fromLevel="6" toLevel="10" fromSubLevel="1001" toSubLevel="1030">{base + base / 100 * subIndex}</value>
 		</activateRate>
-		<icon>icon.skill11537</icon>
 		<operateType>A2</operateType>
 		<trait>CHANGEBODY</trait>
 		<magicLvl>
@@ -2527,7 +2466,6 @@
 			<value level="10">-711</value>
 		</effectPoint>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>1100</effectRange>
 		<isDebuff>true</isDebuff>
@@ -2573,9 +2511,7 @@
 		</effects>
 	</skill>
 	<skill id="11538" toLevel="7" name="Mass Giant Root">
-		<!-- Updated to IO -->
-		<!-- Glory Days confirmed -->
-		<!-- Inflicts Hold on nearby enemies for 15 seconds. -->
+		<!-- Inflicts Hold on nearby enemies for $s1. -->
 		<icon>icon.skill11538</icon>
 		<abnormalLvl>5</abnormalLvl>
 		<abnormalTime>15</abnormalTime>
@@ -2615,7 +2551,6 @@
 		<isMagic>1</isMagic>
 		<lvlBonusRate>1</lvlBonusRate>
 		<isDebuff>true</isDebuff>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>1100</effectRange>
 		<trait>HOLD</trait>
@@ -2642,9 +2577,7 @@
 		</effects>
 	</skill>
 	<skill id="11539" toLevel="11" name="Petrify">
-		<!-- Updated to IO -->
-		<!-- Glory Days confirmed -->
-		<!-- Petrifies target for 15 seconds. -->
+		<!-- Petrifies target for $s1. -->
 		<icon>icon.skill11539</icon>
 		<abnormalLvl>5</abnormalLvl>
 		<abnormalTime>15</abnormalTime>
@@ -2692,7 +2625,6 @@
 		<coolTime>300</coolTime>
 		<reuseDelay>120000</reuseDelay>
 		<isMagic>1</isMagic>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<trait>TURN_STONE</trait>
 		<isDebuff>true</isDebuff>
@@ -2716,8 +2648,7 @@
 		</effects>
 	</skill>
 	<skill id="11540" toLevel="7" name="Quick Escape">
-		<!-- Glory Days confirmed -->
-		<!-- Transforms yourself into a cute pig for 15 seconds. P. Def. and M. Def. + 3000, and Speed + 30%. -->
+		<!-- Transforms yourself into a cute pig for $s1. P. Def. and M. Def. + $s2, and Speed + $s3. -->
 		<icon>icon.skill11540</icon>
 		<abnormalLvl>5</abnormalLvl>
 		<abnormalTime>15</abnormalTime>
@@ -2747,7 +2678,6 @@
 		<reuseDelay>60000</reuseDelay>
 		<effectPoint>1</effectPoint>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<isMagic>1</isMagic>
 		<targetType>SELF</targetType>
@@ -2818,8 +2748,7 @@
 		</effects>
 	</skill>
 	<skill id="11541" toLevel="1" name="Polymorph">
-		<!-- Glory Days confirmed -->
-		<!-- Transforms yourself into a stone for 15 seconds to eliminate nearby enemies' aggression and keep them from targeting you. Greatly decreases Speed while transformed. Cannot be used while Disparition is active. -->
+		<!-- Transforms yourself into a stone for $s1 to eliminate nearby enemies' aggression and keep them from targeting you. Greatly decreases Speed while transformed. -->
 		<icon>icon.skill11541</icon>
 		<abnormalLvl>5</abnormalLvl>
 		<abnormalTime>15</abnormalTime>
@@ -2832,7 +2761,6 @@
 		<reuseDelay>60000</reuseDelay>
 		<effectPoint>-687</effectPoint>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>85</magicLvl>
 		<isMagic>1</isMagic>
@@ -2907,8 +2835,7 @@
 		</effects>
 	</skill>
 	<skill id="11543" toLevel="6" name="Disperse">
-		<!-- Glory Days confirmed -->
-		<!-- For 30 sec., transforms yourself and nearby party members to increase P. Def. and M. Def. + 2000 and Speed + 44. Decreases P. Atk. and M. Atk. + 80%. -->
+		<!-- For $s1, transforms yourself and nearby party members to increase P. Def. and M. Def. + $s2 and Speed + $s3. Decreases P. Atk. and M. Atk. + $s4. -->
 		<icon>icon.skill11543</icon>
 		<abnormalLvl>5</abnormalLvl>
 		<abnormalTime>30</abnormalTime>
@@ -2935,7 +2862,6 @@
 			<value level="6">722</value>
 		</effectPoint>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>
 			<value level="1">93</value>
@@ -3026,8 +2952,7 @@
 		</effects>
 	</skill>
 	<skill id="11544" toLevel="1" name="Battle Rhapsody">
-		<!-- Glory Days confirmed -->
-		<!-- For 30 sec., doubles all party members' P. Atk., M. Atk., Atk. Spd. and Casting Spd. -->
+		<!-- For $s1, doubles all party members' P. Atk., M. Atk., Atk. Spd. and Casting Spd. -->
 		<icon>icon.skill11544</icon>
 		<abnormalTime>30</abnormalTime>
 		<affectRange>1000</affectRange>
@@ -3038,7 +2963,6 @@
 		<effectPoint>687</effectPoint>
 		<abnormalType>RHAPSODY</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>89</magicLvl>
 		<abnormalLvl>5</abnormalLvl>
@@ -3084,8 +3008,7 @@
 		</effects>
 	</skill>
 	<skill id="11545" toLevel="1" name="Crazy Nocturne">
-		<!-- Glory Days confirmed -->
-		<!-- For 15 sec., decreases standard attack and M. Skill's Critical Rate targeting party members by 50%. -->
+		<!-- For $s1, decreases standard attack and M. Skill's Critical Rate targeting party members by $s2. -->
 		<icon>icon.skill11545</icon>
 		<abnormalTime>15</abnormalTime>
 		<affectRange>1000</affectRange>
@@ -3096,7 +3019,6 @@
 		<effectPoint>709</effectPoint>
 		<abnormalType>RHAPSODY</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>95</magicLvl>
 		<abnormalLvl>5</abnormalLvl>
@@ -3135,8 +3057,8 @@
 		</effects>
 	</skill>
 	<skill id="11546" toLevel="4" name="Chaos Symphony">
-		<!-- Glory Days confirmed -->
-		<!-- Inflicts 38826 damage on target and nearby enemies. Decreases nearby enemies' P. Atk., P. Def., M. Atk., M. Def. and Speed by 50% for 10 seconds. Requires a sword, dualsword or dual blunt to be equipped. Over-hit. Critical. -->
+		<!-- Inflicts $s1 damage on target and nearby enemies. Decreases nearby enemies' P. Atk., P. Def., M. Atk., M. Def. and Speed by $s3 for $s2. Requires a sword, dualsword or dual blunt to be equipped. Over-hit. Critical. -->
+		<icon>icon.skill11533</icon>
 		<affectLimit>10-10</affectLimit>
 		<affectRange>300</affectRange>
 		<abnormalLvl>5</abnormalLvl>
@@ -3146,7 +3068,6 @@
 			<value fromLevel="1" toLevel="4">100</value>
 			<value fromLevel="1" toLevel="4" fromSubLevel="2001" toSubLevel="2030">{base + base / 100 * subIndex}</value>
 		</activateRate>
-		<icon>icon.skill11533</icon>
 		<operateType>A2</operateType>
 		<mpConsume>1767</mpConsume>
 		<castRange>900</castRange>
@@ -3154,7 +3075,6 @@
 		<reuseDelay>30000</reuseDelay>
 		<effectPoint>-707</effectPoint>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>1100</effectRange>
 		<magicLvl>99</magicLvl>
@@ -3212,8 +3132,8 @@
 		</effects>
 	</skill>
 	<skill id="11547" toLevel="10" name="Superior HP Recovery">
-		<!-- Glory Days confirmed -->
-		<!-- STR + 2 and HP Recovery Bonus + 2.8. -->
+		<!-- HP Recovery Bonus + $s1. STR + $s2. -->
+		<icon>icon.skill0212</icon>
 		<operateType>P</operateType>
 		<magicLvl>
 			<value level="1">85</value>
@@ -3227,7 +3147,6 @@
 			<value level="9">108</value>
 			<value level="10">110</value>
 		</magicLvl>
-		<icon>icon.skill0212</icon>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effects>
 			<effect name="HpRegen">
@@ -3252,8 +3171,7 @@
 		</effects>
 	</skill>
 	<skill id="11548" toLevel="1" name="Superior Quick Recovery">
-		<!-- Glory Days confirmed -->
-		<!-- INT + 2 and Cooldown for magic skills - 25%. -->
+		<!-- Cooldown for magic skills - 25%. STR + 2. -->
 		<icon>icon.skill11004</icon>
 		<magicLvl>85</magicLvl>
 		<operateType>P</operateType>
@@ -3271,7 +3189,6 @@
 		</effects>
 	</skill>
 	<skill id="11549" toLevel="1" name="Superior Mana Steal">
-		<!-- Glory Days confirmed -->
 		<!-- Has a chance of recovering MP during a normal attack when equipped with a sword, blunt, dualsword, or dual blunt weapon. -->
 		<icon>icon.skill11505</icon>
 		<operateType>P</operateType>
@@ -3288,16 +3205,14 @@
 				<targetType>SELF</targetType>
 				<isCritical>false</isCritical>
 				<allowWeapons>SWORD,BLUNT,DUAL,DUALBLUNT</allowWeapons>
-				<skillId>11550</skillId>
+				<skillId>11550</skillId> <!-- Superior Mana Steal -->
 				<skillLevel>1</skillLevel>
 			</effect>
 		</effects>
 	</skill>
 	<skill id="11550" toLevel="1" name="Superior Mana Steal">
-		<!-- Glory Days confirmed -->
 		<icon>icon.skill11505</icon>
 		<operateType>A1</operateType>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<magicLvl>85</magicLvl>
@@ -3312,11 +3227,10 @@
 		</effects>
 	</skill>
 	<skill id="11551" toLevel="1" name="Superior Mental Attack Resistance">
-		<!-- Glory Days confirmed -->
-		<!-- STR + 2 and Hold/Sleep/Bleed/Mind/Poison Resistance + 30. -->
+		<!-- Poison/Bleed/Hold/Sleep/Mind Attack Resistance + 30%. STR + 2. -->
+		<icon>icon.skill10257</icon>
 		<operateType>P</operateType>
 		<magicLvl>85</magicLvl>
-		<icon>icon.skill10257</icon>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effects>
 			<effect name="DefenceTrait">
@@ -3333,11 +3247,10 @@
 		</effects>
 	</skill>
 	<skill id="11552" toLevel="4" name="Superior Divine Lore">
-		<!-- Glory Days confirmed -->
-		<!-- MP Consumption for skills is decreased by 6%. -->
+		<!-- MP Consumption for skills is decreased by $s1. -->
+		<icon>icon.skill11506</icon>
 		<operateType>P</operateType>
 		<magicLvl>85</magicLvl>
-		<icon>icon.skill11506</icon>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effects>
 			<effect name="MagicMpCost">
@@ -3373,11 +3286,10 @@
 		</effects>
 	</skill>
 	<skill id="11553" toLevel="1" name="Superior Focus Mind">
-		<!-- Glory Days confirmed -->
-		<!-- STR + 2 and increases MP recovery bonus by 8.4. -->
+		<!-- MP Recovery Bonus + 8.4. STR + 2. -->
+		<icon>icon.skill11187</icon>
 		<operateType>P</operateType>
 		<magicLvl>85</magicLvl>
-		<icon>icon.skill11187</icon>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effects>
 			<effect name="MpRegen">
@@ -3391,11 +3303,10 @@
 		</effects>
 	</skill>
 	<skill id="11554" toLevel="1" name="Superior Sixth Sense">
-		<!-- Glory Days confirmed -->
-		<!--When HP is below 30%, increases P. Evasion by 17. STR + 2. -->
+		<!-- When HP is below 30%, increases P. Evasion by 17. STR + 2. -->
+		<icon>icon.skill11504</icon>
 		<operateType>P</operateType>
 		<magicLvl>85</magicLvl>
-		<icon>icon.skill11504</icon>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effects>
 			<effect name="PhysicalEvasion">
@@ -3410,11 +3321,10 @@
 		</effects>
 	</skill>
 	<skill id="11555" toLevel="1" name="Superior Fast Spell Casting">
-		<!-- Glory Days confirmed -->
 		<!-- Increases Casting Spd. by 15%. -->
+		<icon>icon.skill11788</icon>
 		<operateType>P</operateType>
 		<magicLvl>85</magicLvl>
-		<icon>icon.skill11788</icon>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effects>
 			<effect name="MagicalAttackSpeed">
@@ -3424,11 +3334,9 @@
 		</effects>
 	</skill>
 	<skill id="11556" toLevel="1" name="Cancel Transform">
-		<!-- Glory Days confirmed -->
 		<icon>icon.skill01703</icon>
 		<operateType>A1</operateType>
 		<effectPoint>1</effectPoint>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>99</magicLvl>
 		<trait>HOLD</trait>
@@ -3442,8 +3350,7 @@
 		</effects>
 	</skill>
 	<skill id="11557" toLevel="1" name="Ultimate Scourge">
-		<!-- Glory Days confirmed -->
-		<!-- Disables nearby enemies' natural HP Recovery for 2 minutes. -->
+		<!-- Disables nearby enemies' natural HP Recovery for $s1. -->
 		<icon>icon.skill11557</icon>
 		<abnormalLvl>5</abnormalLvl>
 		<abnormalTime>120</abnormalTime>
@@ -3460,7 +3367,6 @@
 		<isMagic>1</isMagic>
 		<isDebuff>true</isDebuff>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>85</magicLvl>
 		<trait>BOSS</trait>
@@ -3475,7 +3381,6 @@
 		</effects>
 	</skill>
 	<skill id="11558" toLevel="1" name="Ultimate Oblivion">
-		<!-- Glory Days confirmed -->
 		<!-- Cancels nearby enemies' targets. -->
 		<icon>icon.skill11558</icon>
 		<affectRange>200</affectRange>
@@ -3487,7 +3392,6 @@
 		<reuseDelay>120000</reuseDelay>
 		<isMagic>1</isMagic>
 		<isDebuff>true</isDebuff>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>85</magicLvl>
 		<affectLimit>10-10</affectLimit>
@@ -3500,9 +3404,7 @@
 		</effects>
 	</skill>
 	<skill id="11559" toLevel="1" name="Ultimate Suspension">
-		<!-- Updated to Ertheia -->
-		<!-- Glory Days confirmed -->
-		<!-- Increases nearby enemies' physical/magic skill Cooldown by 200% for 2 minutes. -->
+		<!-- Increases nearby enemies' physical/magic skill Cooldown by $s2 for $s1. -->
 		<icon>icon.skill11559</icon>
 		<abnormalTime>120</abnormalTime>
 		<affectRange>200</affectRange>
@@ -3515,7 +3417,6 @@
 		<isMagic>1</isMagic>
 		<abnormalType>REUSE_DELAY_UP</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<activateRate>60</activateRate>
 		<magicLvl>85</magicLvl>
@@ -3540,8 +3441,6 @@
 		</effects>
 	</skill>
 	<skill id="11560" toLevel="2" name="Celestial Aegis">
-		<!-- Updated to Ertheia -->
-		<!-- Glory Days confirmed -->
 		<!-- Makes all party members invincible for 30 seconds. -->
 		<icon>icon.skill11560</icon>
 		<abnormalLvl>5</abnormalLvl>
@@ -3558,7 +3457,6 @@
 		<coolTime>200</coolTime>
 		<reuseDelay>1800000</reuseDelay>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<magicLvl>
@@ -3694,9 +3592,7 @@
 		</effects>
 	</skill>
 	<skill id="11561" toLevel="7" name="Giant Root">
-		<!-- Updated to Ertheia -->
-		<!-- Glory Days confirmed -->
-		<!-- Inflicts Hold on the enemy for 15 seconds. -->
+		<!-- Immobilizes the enemy for $s1. -->
 		<icon>icon.skill11561</icon>
 		<abnormalLvl>5</abnormalLvl>
 		<abnormalTime>15</abnormalTime>
@@ -3732,7 +3628,6 @@
 			<value level="6">-709</value>
 			<value level="7">-709</value>
 		</effectPoint>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>1100</effectRange>
 		<magicLvl>
@@ -3767,9 +3662,7 @@
 		</effects>
 	</skill>
 	<skill id="11562" toLevel="1" name="Devil's Movement">
-		<!-- Updated to Ertheia -->
-		<!-- Glory Days confirmed -->
-		<!-- Prevents all party members from being attacked preemptively by monsters for 2 minutes. But if any party member initiates an attack, the effect will be canceled. -->
+		<!-- Prevents all party members from being attacked preemptively by monsters for $s1. But if any party member initiates an attack, the effect will be canceled. -->
 		<icon>icon.skill11562</icon>
 		<abnormalLvl>3</abnormalLvl>
 		<abnormalTime>
@@ -3784,7 +3677,6 @@
 		<mpConsume>60</mpConsume>
 		<hitTime>2500</hitTime>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
 		<magicLvl>85</magicLvl>
@@ -3798,7 +3690,7 @@
 			<effect name="TriggerSkillByMagicType">
 				<!-- Cancel Shadow Move -->
 				<magicTypes>0;1;2;3;4;22</magicTypes>
-				<skillId>7097</skillId>
+				<skillId>7097</skillId> <!-- Cancel Shadow Move -->
 				<skillLevel>1</skillLevel>
 				<chance>100</chance>
 				<targetType>MY_PARTY</targetType>
@@ -3813,7 +3705,7 @@
 				<targetType>MY_PARTY</targetType>
 				<isCritical>true</isCritical>
 				<allowWeapons>SWORD,BLUNT</allowWeapons>
-				<skillId>7097</skillId>
+				<skillId>7097</skillId> <!-- Cancel Shadow Move -->
 				<skillLevel>1</skillLevel>
 			</effect>
 			<effect name="TriggerSkillByAttack">
@@ -3824,7 +3716,7 @@
 				<minDamage>1</minDamage>
 				<chance>100</chance>
 				<targetType>MY_PARTY</targetType>
-				<skillId>7097</skillId>
+				<skillId>7097</skillId> <!-- Cancel Shadow Move -->
 				<skillLevel>1</skillLevel>
 				<isCritical>false</isCritical>
 				<allowWeapons>SWORD,BLUNT</allowWeapons>
@@ -3838,8 +3730,6 @@
 		</effects>
 	</skill>
 	<skill id="11563" toLevel="1" name="Quick Return">
-		<!-- Glory Days confirmed -->
-		<!-- Copy-Pasted from Return Skill -->
 		<!-- Teleports to a town. Cannot be used in a specially designated place such as the GM Consultation Service. -->
 		<icon>icon.skill11819</icon>
 		<blockedInOlympiad>true</blockedInOlympiad>
@@ -3847,7 +3737,6 @@
 		<mpConsume>60</mpConsume>
 		<hitTime>2500</hitTime>
 		<reuseDelay>75000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>85</magicLvl>
 		<isMagic>1</isMagic>
@@ -3863,9 +3752,7 @@
 		</effects>
 	</skill>
 	<skill id="11564" toLevel="4" name="Angel's Resurrection">
-		<!-- Updated to Ertheia -->
-		<!-- Glory Days confirmed -->
-		<!-- Resurrects a dead target and restores 40% of the XP lost. -->
+		<!-- Resurrects a dead target and restores $s1 of the XP lost. -->
 		<icon>icon.skill1016</icon>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<operateType>A1</operateType>
@@ -3875,7 +3762,6 @@
 		<coolTime>500</coolTime>
 		<reuseDelay>30000</reuseDelay>
 		<effectPoint>2</effectPoint>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>900</effectRange>
 		<magicLvl>
@@ -3903,8 +3789,8 @@
 		</effects>
 	</skill>
 	<skill id="11565" toLevel="1" name="Elemental Resistance">
-		<!-- Glory Days confirmed -->
-		<!-- Increases party members' Fire/Water/Wind/Earth Resistance by 30 for 30 minutes. -->
+		<!-- Increases party members' Fire/Water/Wind/Earth Resistance by $s3 for $s1. -->
+		<icon>icon.skill11565</icon>
 		<affectRange>1000</affectRange>
 		<abnormalLvl>5</abnormalLvl>
 		<abnormalType>ARMOR_ELEMENT_ALL</abnormalType>
@@ -3912,7 +3798,6 @@
 			<value fromLevel="1" toLevel="1">1800</value>
 			<value fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1030">{base + subIndex * 15}</value>
 		</abnormalTime>
-		<icon>icon.skill11565</icon>
 		<operateType>A2</operateType>
 		<mpConsume>140</mpConsume>
 		<mpInitialConsume>28</mpInitialConsume>
@@ -3924,7 +3809,6 @@
 		<effectPoint>687</effectPoint>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<targetType>SELF</targetType>
 		<affectScope>PARTY</affectScope>
 		<affectObject>FRIEND</affectObject>
@@ -3960,8 +3844,8 @@
 		</effects>
 	</skill>
 	<skill id="11566" toLevel="1" name="Holy Attack Resistance">
-		<!-- Glory Days confirmed -->
-		<!-- Increases party members' Holy/Dark Attack Resistance by 30, and Poison/Bleed Resistance by 50% for 30 minutes. -->
+		<!-- Increases party members' Holy/Dark Attack Resistance by $s2, and Poison/Bleed Resistance by $s3 for $s1. -->
+		<icon>icon.skill11567</icon>
 		<affectRange>1000</affectRange>
 		<abnormalLvl>5</abnormalLvl>
 		<abnormalType>ARMOR_HOLY</abnormalType>
@@ -3969,7 +3853,6 @@
 			<value fromLevel="1" toLevel="1">1800</value>
 			<value fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1030">{base + subIndex * 15}</value>
 		</abnormalTime>
-		<icon>icon.skill11567</icon>
 		<operateType>A2</operateType>
 		<mpConsume>140</mpConsume>
 		<mpInitialConsume>28</mpInitialConsume>
@@ -3981,7 +3864,6 @@
 		<effectPoint>687</effectPoint>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<targetType>SELF</targetType>
 		<affectScope>PARTY</affectScope>
 		<affectObject>FRIEND</affectObject>
@@ -4013,8 +3895,8 @@
 		</effects>
 	</skill>
 	<skill id="11567" toLevel="1" name="Mental Attack Resistance">
-		<!-- Glory Days confirmed -->
-		<!-- Increases party members' Hold/Sleep/Mental Attack Resistance by 50, Buff-canceling Attack Resistance by 30 and Debuff Resistance by 20 for 30 minutes. -->
+		<!-- Increases party members' Hold/Sleep/Mental Attack Resistance by $s2, Buff-canceling Attack Resistance by $s3 and Debuff Resistance by $s4 for $s1. -->
+		<icon>icon.skill11824</icon>
 		<affectRange>1000</affectRange>
 		<abnormalLvl>5</abnormalLvl>
 		<abnormalType>RESIST_DERANGEMENT</abnormalType>
@@ -4022,7 +3904,6 @@
 			<value fromLevel="1" toLevel="1">1800</value>
 			<value fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1030">{base + subIndex * 15}</value>
 		</abnormalTime>
-		<icon>icon.skill11824</icon>
 		<operateType>A2</operateType>
 		<mpConsume>140</mpConsume>
 		<hitTime>700</hitTime>
@@ -4033,7 +3914,6 @@
 		<effectPoint>687</effectPoint>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<targetType>SELF</targetType>
 		<affectScope>PARTY</affectScope>
 		<affectObject>FRIEND</affectObject>
@@ -4066,17 +3946,15 @@
 		</effects>
 	</skill>
 	<skill id="11569" toLevel="1" name="Critical Damage Increase">
-		<!-- Glory Days confirmed -->
 		<!-- Critical Damage is greatly increased through Poem of Drum. -->
+		<icon>icon.skill1542</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>8</abnormalTime>
 		<abnormalType>COUNTER_CRITICAL_TRIGGER</abnormalType>
-		<icon>icon.skill1542</icon>
 		<isTriggeredSkill>true</isTriggeredSkill>
 		<magicLvl>85</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>15000</reuseDelay>
-		<rideState>NONE</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
@@ -4105,8 +3983,7 @@
 		</effects>
 	</skill>
 	<skill id="11570" toLevel="1" name="Healing Melody">
-		<!-- Glory Days confirmed -->
-		<!-- Heals target and the 10 most injured allies around target by up to 35% of their Max HP. The recovery amount decreases starting from the most injured person. -->
+		<!-- Heals target and the $s1 most injured allies around target by up to $s2 of their Max HP. The recovery amount decreases starting from the most injured person. -->
 		<icon>icon.skill11570</icon>
 		<affectLimit>9-0</affectLimit>
 		<affectRange>300</affectRange>
@@ -4117,7 +3994,6 @@
 		<castRange>900</castRange>
 		<hitTime>2000</hitTime>
 		<reuseDelay>5000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>85</magicLvl>
 		<isMagic>1</isMagic>
@@ -4131,9 +4007,7 @@
 		</effects>
 	</skill>
 	<skill id="11571" toLevel="1" name="Recovery Melody">
-		<!-- Updated to Ertheia -->
-		<!-- Glory Days confirmed -->
-		<!-- Restores target's CP by 1000. -->
+		<!-- Restores target's CP by $s1. -->
 		<icon>icon.skill11571</icon>
 		<effectPoint>780</effectPoint>
 		<effectRange>1100</effectRange>
@@ -4142,7 +4016,6 @@
 		<castRange>900</castRange>
 		<hitTime>5000</hitTime>
 		<reuseDelay>5000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>85</magicLvl>
 		<isMagic>1</isMagic>
@@ -4156,8 +4029,7 @@
 		</effects>
 	</skill>
 	<skill id="11580" toLevel="7" name="Mass Transform">
-		<!-- Updated to IO -->
-		<!-- For 10 sec., mutates enemies to reduce their Speed by 20% and render them unable to attack. Mutated enemies return to normal when inflicted with damage. -->
+		<!-- For $s1, mutates enemies to reduce their Speed by $s2 and render them unable to attack. Mutated enemies return to normal when inflicted with damage. -->
 		<icon>icon.skill11580</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>10</abnormalTime>
@@ -4238,10 +4110,10 @@
 		</effects>
 	</skill>
 	<skill id="11581" toLevel="4" name="Superior Advantage">
-		<!-- Skill Cooldown - 5%, Skill Power + 5%, MP Recovery Rate + 5, and Max HP, MP, and CP + 5%. Skill mastery effect + 10%. -->
+		<!-- Skill Cooldown - $s1, Skill Power + $s2, MP Recovery Rate + $s3, and Max HP, MP, and CP + $s4. Skill mastery effect + $s5. -->
+		<icon>icon.skill11841</icon>
 		<operateType>P</operateType>
 		<magicLvl>85</magicLvl>
-		<icon>icon.skill11841</icon>
 		<effects>
 			<effect name="MaxCp">
 				<amount>
@@ -4315,8 +4187,7 @@
 		</effects>
 	</skill>
 	<skill id="11582" toLevel="4" name="Mass Song of Silence">
-		<!-- Updated to IO -->
-		<!-- Plays the Song of Silence. For 10 sec., enemies' P. Skills and M. Skills are locked. -->
+		<!-- Plays the Song of Silence. For $s1, enemies' P. Skills and M. Skills are locked. -->
 		<icon>icon.skill11839</icon>
 		<abnormalTime>10</abnormalTime>
 		<abnormalType>SILENCE_ALL</abnormalType>
@@ -4354,8 +4225,7 @@
 		</effects>
 	</skill>
 	<skill id="11583" toLevel="4" name="Superior Song of Mastery">
-		<!-- Updated to IO -->
-		<!-- P. Def./ M. Def. + 5%. Skill Power + 5%. -->
+		<!-- P. Def./ M. Def. + $s1. Skill Power + $s2. -->
 		<icon>icon.skill0153</icon>
 		<magicLvl>
 			<value level="1">85</value>
@@ -4390,8 +4260,7 @@
 		</effects>
 	</skill>
 	<skill id="11584" toLevel="4" name="Mass Medusa's Dance">
-		<!-- Updated to IO -->
-		<!-- Performs that evokes the mirage of a Medusa. For 10 sec., Petrifies nearby enemies. -->
+		<!-- Performs that evokes the mirage of a Medusa. For $s1, Petrifies nearby enemies. -->
 		<icon>icon.skill11840</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>10</abnormalTime>
@@ -4430,8 +4299,7 @@
 		</effects>
 	</skill>
 	<skill id="11585" toLevel="4" name="Superior Dance of Mastery">
-		<!-- Updated to IO -->
-		<!-- P. Atk./ M. Atk. + 5%. Skill Power + 5%. -->
+		<!-- P. Atk./ M. Atk. + $s1. Skill Power + $s2. -->
 		<icon>icon.skill0141</icon>
 		<operateType>P</operateType>
 		<effects>
@@ -4460,8 +4328,7 @@
 		</effects>
 	</skill>
 	<skill id="11586" toLevel="4" name="Pa'agrio's Bravery">
-		<!-- Updated to IO -->
-		<!-- For 30 sec., restores clan members' Max CP and increases it by 5%. -->
+		<!-- For $s1, restores and increases clan members' Max CP + $s2. -->
 		<icon>icon.skill11843</icon>
 		<abnormalTime>30</abnormalTime>
 		<affectLimit>50-100</affectLimit> <!-- Custom -->
@@ -4502,8 +4369,7 @@
 		</effects>
 	</skill>
 	<skill id="11587" toLevel="4" name="Mass Blockade">
-		<!-- Updated to IO -->
-		<!-- For 10 sec., locks target and nearby enemies' standard attacks during PvP. -->
+		<!-- During PvP, restrains the normal attacks of the enemy and nearby targets for $s1. -->
 		<icon>icon.skill11587</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>10</abnormalTime>
@@ -4526,7 +4392,6 @@
 		<reuseDelay>120000</reuseDelay>
 		<effectPoint>-673</effectPoint>
 		<isDebuff>true</isDebuff>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<trait>PHYSICAL_BLOCKADE</trait>
 		<targetType>SELF</targetType>
@@ -4537,8 +4402,7 @@
 		</effects>
 	</skill>
 	<skill id="11588" toLevel="4" name="Superior Wizard Mastery">
-		<!-- Updated to IO -->
-		<!-- Max MP + 10%. -->
+		<!-- Max MP + $s1. -->
 		<icon>icon.skill0164</icon>
 		<operateType>P</operateType>
 		<effects>
@@ -4554,8 +4418,7 @@
 		</effects>
 	</skill>
 	<skill id="11589" toLevel="4" name="Horn Frenzy">
-		<!-- Updated to IO -->
-		<!-- For 30 min., clan members' P. Atk. + 17%, P. Def. + 15%, M. Atk. + 79%, and M. Def. + 30%. -->
+		<!-- For $s1, clan members' P. Atk. + $s2, P. Def. + $s3, M. Atk. + $s4, and M. Def. + $s5. -->
 		<icon>icon.skill11589</icon>
 		<abnormalLvl>
 			<value level="1">1</value>
@@ -4601,7 +4464,6 @@
 			<value level="3">95</value>
 			<value level="4">99</value>
 		</magicLvl>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<effects>
 			<effect name="DispelBySlotProbability">
 				<dispel>IMPROVE_PA_PD_UP;PA_UP;IMPROVE_MA_MD_UP;MD_UP;MA_UP;KAMAEL_SPECIAL</dispel>
@@ -4649,8 +4511,7 @@
 		</effects>
 	</skill>
 	<skill id="11590" toLevel="4" name="Drum Frenzy">
-		<!-- Updated to IO -->
-		<!-- For 30 min., clan members' Max MP + 20%, HP Recovery Bonus + 20%, and M. Critical Rate + 20. During a standard attack, P. Atk. and Debuff Resistance + 10%, and Critical Damage, P. Def., Atk. Spd., M. Atk., M. Def., and Casting Spd. + 20%. When hit with a critical attack, received damage - 30% and Speed - 15%. Increases Critical Damage during a standard attack for a member equipped with a melee weapon/bow/crossbow who receives more than a certain amount of damage. -->
+		<!-- For $s1, increases clan members' Max MP + $s2, HP Recovery Bonus + $s3, M. Critical Rate + $s4, Critical Damage during a normal attack + $s5, P. Atk. + $s6, P. Def. + $s7, Atk. Spd. + $s8, M. Atk. + $s9, M. Def. + $s10, Casting Spd. + $s11, and Debuff Resistance + $s12. When hit with a critical attack, received damage - $s13 and Speed - $s14. Increases Critical Damage during a standard attack for a member equipped with a melee weapon/bow/crossbow who receives more than a certain amount of damage. -->
 		<icon>icon.skill11590</icon>
 		<abnormalLvl>
 			<value level="1">1</value>
@@ -4696,7 +4557,6 @@
 			<value level="3">707</value>
 			<value level="4">712</value>
 		</effectPoint>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<effects>
 			<effect name="TriggerSkillByDamage">
 				<!-- Critical Damage Increase -->
@@ -4707,7 +4567,7 @@
 				<targetType>SELF</targetType>
 				<minDamage>300</minDamage>
 				<allowWeapons>SWORD,BLUNT,DAGGER,DUALDAGGER,DUAL,DUALFIST,POLE,ANCIENTSWORD,RAPIER,BOW,CROSSBOW,DUALBLUNT</allowWeapons>
-				<skillId>11569</skillId>
+				<skillId>11569</skillId> <!-- Critical Damage Increase -->
 				<skillLevel>1</skillLevel>
 			</effect>
 			<effect name="DispelBySlotProbability">
@@ -4777,8 +4637,7 @@
 		</effects>
 	</skill>
 	<skill id="11591" toLevel="4" name="Pipe Organ Frenzy">
-		<!-- Updated to IO -->
-		<!-- For 30 min., clan members' Max HP/MP/CP + 37%, and HP Recovery Bonus + 20%. -->
+		<!-- For $s1, clan members' Max HP/MP/CP + $s2, and HP Recovery Bonus + $s3. -->
 		<icon>icon.skill11591</icon>
 		<abnormalLvl>
 			<value level="1">1</value>
@@ -4824,7 +4683,6 @@
 			<value level="3">707</value>
 			<value level="4">712</value>
 		</effectPoint>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<effects>
 			<effect name="DispelBySlotProbability">
 				<dispel>IMPROVE_HP_MP_UP;MAX_HP_UP;MAX_MP_UP;HP_REGEN_UP</dispel>
@@ -4867,8 +4725,7 @@
 		</effects>
 	</skill>
 	<skill id="11592" toLevel="4" name="Guitar Frenzy">
-		<!-- Updated to IO -->
-		<!-- For 30 min., clan members' P. Critical Rate + 32%, P. Critical Damage + 35%, and M. Critical Rate + 20. P. Skill MP Consumption - 20%, M. Skill MP Consumption - 10%, and Iss Enchanter's Enchant Skill MP Consumption - 20%. -->
+		<!-- For $s1, clan members' P. Critical Rate + $s2, P. Critical Damage + $s3, and M. Critical Rate + $s4. P. Skill MP Consumption - $s5, M. Skill MP Consumption - $s6, and Iss Enchanter's Enchant Skill MP Consumption - $s7. -->
 		<icon>icon.skill11592</icon>
 		<abnormalLvl>
 			<value level="1">1</value>
@@ -4909,7 +4766,6 @@
 		</magicLvl>
 		<reuseDelay>2000</reuseDelay>
 		<effectPoint>687</effectPoint>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<effects>
 			<effect name="DispelBySlotProbability">
 				<dispel>IMPROVE_CRT_RATE_DMG_UP;CRITICAL_PROB_UP;CRITICAL_DMG_UP;CHEAP_MAGIC;MAGIC_CRITICAL_UP</dispel>
@@ -4948,8 +4804,7 @@
 		</effects>
 	</skill>
 	<skill id="11593" toLevel="4" name="Harp Frenzy">
-		<!-- Updated to IO -->
-		<!-- For 30 min., clan members' P. Accuracy and P. Evasion/ M. Evasion + 5, and Speed + 34. Received Critical Damage - 30%. -->
+		<!-- For $s1, clan members' P. Accuracy and P. Evasion/ M. Evasion + $s2, and Speed + $s3. Received Critical Damage - $s4. -->
 		<icon>icon.skill11593</icon>
 		<abnormalLvl>
 			<value level="1">1</value>
@@ -4991,7 +4846,6 @@
 		</magicLvl>
 		<reuseDelay>2000</reuseDelay>
 		<effectPoint>687</effectPoint>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<effects>
 			<effect name="DispelBySlotProbability">
 				<dispel>IMPROVE_HIT_DEFENCE_CRT_RATE_UP;HIT_UP;T_CRT_DMG_DOWN;IMPROVE_SPEED_AVOID_UP;SPEED_UP;AVOID_UP</dispel>
@@ -5043,8 +4897,7 @@
 		</effects>
 	</skill>
 	<skill id="11594" toLevel="4" name="Lute Frenzy">
-		<!-- Updated to IO -->
-		<!-- For 30 min., clan members' Atk. Spd. + 34% and Casting Spd. + 31%. Has a chance of applying 9% Vampiric Rage effect. -->
+		<!-- For $s1, clan members' Atk. Spd. + $s2 and Casting Spd. + $s3. Has a chance of applying $s4 Vampiric Rage effect. -->
 		<icon>icon.skill11594</icon>
 		<abnormalLvl>
 			<value level="1">1</value>
@@ -5085,7 +4938,6 @@
 		</magicLvl>
 		<reuseDelay>2000</reuseDelay>
 		<effectPoint>687</effectPoint>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<effects>
 			<effect name="DispelBySlotProbability">
 				<dispel>IMPROVE_VAMPIRIC_HASTE;ATTACK_TIME_DOWN;VAMPIRIC_ATTACK;CASTING_TIME_DOWN</dispel>
@@ -5119,8 +4971,7 @@
 		</effects>
 	</skill>
 	<skill id="11595" toLevel="1" name="Knight's Frenzied Harmony">
-		<!-- Updated to IO -->
-		<!-- For 30 minutes, increases clan members' P. Atk. + 12%, P. Critical Damage + 35%, P. Critical Rate + 100%, P. Def. + 45%, Shield Defense Rate + 30%, and Shield Defense + 50%. -->
+		<!-- For $s1, increases clan members' P. Atk. + $s2, P. Critical Damage + $s3, P. Critical Rate + $s4, P. Def. + $s5, Shield Defense Rate + $s6, and Shield Defense + $s7. -->
 		<icon>icon.skill11596</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>
@@ -5142,7 +4993,6 @@
 		<reuseDelay>2000</reuseDelay>
 		<magicLvl>85</magicLvl>
 		<effectPoint>687</effectPoint>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<effects>
 			<effect name="DispelBySlotProbability">
 				<dispel>DANCE_OF_BLADESTORM;SONG_OF_CHAMPION;SONG_OF_EARTH;SONG_OF_HUNTER;SONG_OF_LIFE;SONG_OF_MEDITATION;SONG_OF_RENEWAL;SONG_OF_VENGEANCE;SONG_OF_VITALITY;SONG_OF_WARDING;SONG_OF_WATER;SONG_OF_WIND;DANCE_OF_BERSERKER;DANCE_OF_CONCENTRATION;DANCE_OF_FIRE;DANCE_OF_FURY;DANCE_OF_INSPIRATION;DANCE_OF_MYSTIC;DANCE_OF_SIREN;DANCE_OF_VAMPIRE;DANCE_OF_WARRIOR;SONG_OF_PURIFICATION;WISPERING_OF_BATTLE;SONG_OF_WINDSTORM;MOTION_OF_DEFENCE;INSTINCT;BERSERKER;PA_PD_UP;IMPROVE_SHIELD_RATE_DEFENCE_UP;SHIELD_PROB_UP;SHIELD_DEFENCE_UP;CANCEL_PROB_DOWN;MA_UP_SPECIAL</dispel>
@@ -5178,8 +5028,7 @@
 		</effects>
 	</skill>
 	<skill id="11596" toLevel="1" name="Warrior's Frenzied Harmony">
-		<!-- Updated to IO -->
-		<!-- For 30 minutes, increases clan members' P. Atk. + 35%, P. Critical Damage + 35%, P. Critical Rate + 100%, Atk. Spd. + 8%, M. Atk. + 16%, Casting Spd. + 8%, and Spd. + 8. -->
+		<!-- For $s1, increases clan members' P. Atk. + $s2, P. Critical Damage + $s3, P. Critical Rate + $s4, Atk. Spd. + $s5, M. Atk. + $s6, Casting Spd. + $s7, and Spd. + $s8. -->
 		<icon>icon.skill11595</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>
@@ -5187,7 +5036,6 @@
 			<value fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1030">{base + subIndex * 90}</value>
 		</abnormalTime>
 		<abnormalType>BUFF_SPECIAL_CLASS</abnormalType>
-		<icon>icon.skill11524</icon>
 		<operateType>A2</operateType>
 		<targetType>SELF</targetType>
 		<affectScope>PLEDGE</affectScope>
@@ -5202,7 +5050,6 @@
 		<reuseDelay>2000</reuseDelay>
 		<magicLvl>85</magicLvl>
 		<effectPoint>687</effectPoint>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<effects>
 			<effect name="DispelBySlotProbability">
 				<dispel>DANCE_OF_BLADESTORM;SONG_OF_CHAMPION;SONG_OF_EARTH;SONG_OF_HUNTER;SONG_OF_LIFE;SONG_OF_MEDITATION;SONG_OF_RENEWAL;SONG_OF_VENGEANCE;SONG_OF_VITALITY;SONG_OF_WARDING;SONG_OF_WATER;SONG_OF_WIND;DANCE_OF_BERSERKER;DANCE_OF_CONCENTRATION;DANCE_OF_FIRE;DANCE_OF_FURY;DANCE_OF_INSPIRATION;DANCE_OF_MYSTIC;DANCE_OF_SIREN;DANCE_OF_VAMPIRE;DANCE_OF_WARRIOR;SONG_OF_PURIFICATION;WISPERING_OF_BATTLE;SONG_OF_WINDSTORM;MOTION_OF_DEFENCE;INSTINCT;BERSERKER;PA_PD_UP;IMPROVE_SHIELD_RATE_DEFENCE_UP;SHIELD_PROB_UP;SHIELD_DEFENCE_UP;CANCEL_PROB_DOWN;MA_UP_SPECIAL</dispel>
@@ -5242,8 +5089,7 @@
 		</effects>
 	</skill>
 	<skill id="11597" toLevel="1" name="Wizard's Frenzied Harmony">
-		<!-- Updated to IO -->
-		<!-- For 30 minutes, increases clan members' M. Atk. + 40%, M. Critical Rate + 100%, Casting Spd. + 8%, P. Atk. + 8%, Atk. Spd. + 8%, Spd. + 8, M. Def. + 14%, and MP Recovery Bonus + 20%. Decreases magic skill MP Consumption - 15%, physical skill MP Consumption - 5%, and Skill Cooldown - 20%. -->
+		<!-- For $s1, increases clan members' M. Atk. + $s2, M. Critical Rate + $s3, Casting Spd. + $s4, P. Atk. + $s5, Atk. Spd. + $s6, Speed + $s7, M. Def. + $s8, MP Recovery Bonus + $s9, MP Consumption for magic skills - $s10 and physical skills -$s11, and Cooldown - $s12. -->
 		<icon>icon.skill11597</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>
@@ -5265,7 +5111,6 @@
 		<reuseDelay>2000</reuseDelay>
 		<magicLvl>85</magicLvl>
 		<effectPoint>687</effectPoint>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<effects>
 			<effect name="DispelBySlotProbability">
 				<dispel>DANCE_OF_BLADESTORM;SONG_OF_CHAMPION;SONG_OF_EARTH;SONG_OF_HUNTER;SONG_OF_LIFE;SONG_OF_MEDITATION;SONG_OF_RENEWAL;SONG_OF_VENGEANCE;SONG_OF_VITALITY;SONG_OF_WARDING;SONG_OF_WATER;SONG_OF_WIND;DANCE_OF_BERSERKER;DANCE_OF_CONCENTRATION;DANCE_OF_FIRE;DANCE_OF_FURY;DANCE_OF_INSPIRATION;DANCE_OF_MYSTIC;DANCE_OF_SIREN;DANCE_OF_VAMPIRE;DANCE_OF_WARRIOR;SONG_OF_PURIFICATION;WISPERING_OF_BATTLE;SONG_OF_WINDSTORM;MOTION_OF_DEFENCE;INSTINCT;BERSERKER;PA_PD_UP;IMPROVE_SHIELD_RATE_DEFENCE_UP;SHIELD_PROB_UP;SHIELD_DEFENCE_UP;CANCEL_PROB_DOWN;MA_UP_SPECIAL</dispel>
@@ -5334,8 +5179,7 @@
 		</effects>
 	</skill>
 	<skill id="11598" toLevel="4" name="Greater Freezing Flame">
-		<!-- Updated to IO -->
-		<!-- A powerful cold flame. For 10 sec., decreases enemy's HP by 326. -->
+		<!-- A powerful cold flame. For $s1., decreases enemy's HP by $s2. -->
 		<icon>icon.skill11598</icon>
 		<abnormalTime>10</abnormalTime>
 		<abnormalType>DOT_ATTR</abnormalType>
@@ -5374,8 +5218,7 @@
 		</effects>
 	</skill>
 	<skill id="11599" toLevel="4" name="Combat Cry">
-		<!-- Updated to IO -->
-		<!-- P. Atk./P. Def., M. Atk./M. Def. + 5%, and Skill Power + 5%. MP drains consistently depending on level. -->
+		<!-- P. Atk., P. Def., M. Atk., and M. Def. + $s1. Skill power + $s2. Continuously consumes MP proportionately to your level. -->
 		<icon>icon.skill1001</icon>
 		<operateType>T</operateType>
 		<targetType>SELF</targetType>

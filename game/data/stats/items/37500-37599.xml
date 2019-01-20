@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="37500" name="Water Stone" additionalName="Event" type="EtcItem">
-		<!-- Water attack attribute increases by 5 when bestowed on a weapon. Fire Resistance increases by 6 when bestowed on an armor. Attribute Stones can be used up to attribute level 3. Additionally, a maximum of three types of Elemental Resistance can be bestowed, and one type of Elemental attack attribute. Opposite attributes cannot be bestowed together. -->
+		<!-- Water attack attribute increases by 5 when bestowed on a weapon. Fire defense attribute increases by 6 when bestowed on armor. Attribute Stones. levels 1- 3. Additionally, a maximum of three types of Elemental defense attribute can be bestowed, and one type of Elemental attack attribute. Opposite attributes cannot be bestowed together. -->
 		<set name="icon" val="icon.etc_water_stone_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="ENCHT_ATTR" />
@@ -24,7 +24,7 @@
 		</skills>
 	</item>
 	<item id="37501" name="Earth Stone" additionalName="Event" type="EtcItem">
-		<!-- Earth attack attribute increases by 5 when bestowed on a weapon. Wind Resistance increases by 6 when bestowed on an armor. Attribute Stones can be used up to attribute level 3. Additionally, a maximum of three types of Elemental Resistance can be bestowed, and one type of Elemental attack attribute. Opposite attributes cannot be bestowed together. -->
+		<!-- Earth attack attribute increases by 5 when bestowed on a weapon. Wind defense attribute increases by 6 when bestowed on armor. Attribute Stones. levels 1- 3. Additionally, a maximum of three types of Elemental defense attribute can be bestowed, and one type of Elemental attack attribute. Opposite attributes cannot be bestowed together. -->
 		<set name="icon" val="icon.etc_earth_stone_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="ENCHT_ATTR" />
@@ -47,7 +47,7 @@
 		</skills>
 	</item>
 	<item id="37502" name="Wind Stone" additionalName="Event" type="EtcItem">
-		<!-- Wind attack attribute increases by 5 when bestowed on a weapon. Earth Resistance increases by 6 when bestowed on an armor. Attribute Stones can be used up to attribute level 3. Additionally, a maximum of three types of Elemental Resistance can be bestowed, and one type of Elemental attack attribute. Opposite attributes cannot be bestowed together. -->
+		<!-- Wind attack attribute increases by 5 when bestowed on a weapon. Earth defense attribute increases by 6 when bestowed on armor. Attribute Stones. levels 1- 3. Additionally, a maximum of three types of Elemental defense attribute can be bestowed, and one type of Elemental attack attribute. Opposite attributes cannot be bestowed together. -->
 		<set name="icon" val="icon.etc_wind_stone_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="ENCHT_ATTR" />
@@ -70,7 +70,7 @@
 		</skills>
 	</item>
 	<item id="37503" name="Dark Stone" additionalName="Event" type="EtcItem">
-		<!-- Dark attack attribute increases by 5 when bestowed on a weapon. Holy Resistance increases by 6 when bestowed on an armor. Attribute Stones can be used up to attribute level 3. Additionally, a maximum of three types of Elemental Resistance can be bestowed, and one type of Elemental attack attribute. Opposite attributes cannot be bestowed together. -->
+		<!-- Darkness Elemental attack attribute increases by 5 when bestowed on a weapon. Holy defense attribute increases by 6 when bestowed on armor. Attribute Stones. levels 1- 3. Additionally, a maximum of three types of Elemental defense attribute can be bestowed, and one type of Elemental attack attribute. Opposite attributes cannot be bestowed together. -->
 		<set name="icon" val="icon.etc_unholy_stone_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="ENCHT_ATTR" />
@@ -93,7 +93,7 @@
 		</skills>
 	</item>
 	<item id="37504" name="Holy Stone" additionalName="Event" type="EtcItem">
-		<!-- Holy attack attribute increases by 5 when bestowed on a weapon. Dark Resistance increases by 6 when bestowed on an armor. Attribute Stones can be used up to attribute level 3. Additionally, a maximum of three types of Elemental Resistance can be bestowed, and one type of Elemental attack attribute. Opposite attributes cannot be bestowed together. -->
+		<!-- Holy attack attribute increases by 5 when bestowed on a weapon. Darkness Elemental defense attribute increases by 6 when bestowed on armor. Attribute Stones. levels 1- 3. Additionally, a maximum of three types of Elemental defense attribute can be bestowed, and one type of Elemental attack attribute. Opposite attributes cannot be bestowed together. -->
 		<set name="icon" val="icon.etc_holy_stone_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="ENCHT_ATTR" />
@@ -472,6 +472,7 @@
 	</item>
 	<item id="37532" name="Lindvior's Egg" type="EtcItem">
 		<!-- Wind Dragon's egg. 10th anniversary item that brings you luck. -->
+		<set name="icon" val="icon.etc_ev_lind_egg" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
@@ -481,7 +482,6 @@
 		<set name="is_commissionable" val="false" />
 		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
-		<set name="icon" val="icon.etc_ev_lind_egg" />
 	</item>
 	<item id="37533" name="NC Messenger's Hat" type="Armor">
 		<!-- NC Messenger's Hat. Uses 2 hair accessory slots. When equipped, STR/DEX/INT/WIT each increase by 1. -->
@@ -514,7 +514,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
 		<set name="is_private_storeable" val="false" />
-		<set name="commissionItemType" val="OTHER_ITEM" />		
+		<set name="commissionItemType" val="OTHER_ITEM" />
 	</item>
 	<item id="37535" name="Santa Hat" type="Armor">
 		<!-- Santa Hat. -->
@@ -526,7 +526,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
 		<set name="is_private_storeable" val="false" />
-		<set name="bodypart" val="hairall" /> 
+		<set name="bodypart" val="hairall" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="default_action" val="EQUIP" />
@@ -778,6 +778,7 @@
 	</item>
 	<item id="37564" name="Emperor's Rune" type="EtcItem">
 		<!-- 8-hour limited item. While in possession, the character's acquired XP and SP increase by 30%. -->
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_feather_i00" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
@@ -786,7 +787,6 @@
 		<set name="is_commissionable" val="false" />
 		<set name="is_private_storeable" val="false" />
 		<set name="etcitem_type" val="ENCHT_ATTR_RUNE" />
-		<set name="icon" val="br_cashtex.item.br_cash_rune_of_feather_i00" />
 		<set name="time" val="480" />
 	</item>
 	<item id="37565" name="Emperor's Rune Pack" type="EtcItem">
@@ -810,7 +810,7 @@
 		</skills>
 	</item>
 	<item id="37567" name="Blessed Lucky Enchant Stone: Armor (R-grade)" type="EtcItem">
-		<!-- Enchant success rate + 10% for armor (R-grade) when using Blessed Scroll: Enchant Armor. Only for items enchanted between + 3 and + 9.  For one-piece armor, enchant must be between + 4 and + 9. -->
+		<!-- Enchant success rate + 10% for armor (R-grade) when using Blessed Scroll: Enchant Armor. Only for items enchanted between + 3 and + 9. For one-piece armor, enchant must be between + 4 and + 9. -->
 		<set name="icon" val="icon.bless_ench_amr_stone_i05" />
 		<set name="weight" val="120" />
 		<set name="is_stackable" val="true" />

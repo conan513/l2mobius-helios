@@ -462,6 +462,7 @@
 	</item>
 	<item id="36949" name="Chaos Essence" type="EtcItem">
 		<!-- Mysterious essence with the power of chaos. Take it to Hardin at the Reliquary of the Giants to change your specialized awakened class. Cannot be used by Ertheia. Can be used only by the main class. 30-day. -->
+		<set name="icon" val="icon.etc_water_of_silen_i00" />
 		<set name="is_depositable" val="false" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
@@ -471,7 +472,6 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
 		<set name="is_private_storeable" val="false" />
-		<set name="icon" val="icon.etc_water_of_silen_i00" />
 		<set name="time" val="43200" />
 	</item>
 	<item id="36950" name="Toma's Living Guide" type="EtcItem">
@@ -628,7 +628,7 @@
 		<set name="is_freightable" val="true" />
 	</item>
 	<item id="36960" name="Fire Stone (+ 60)" type="EtcItem">
-		<!-- Increases fire attribute by 60 at once. Additional Elemental attributes cannot be bestowed. Up to 3 types of attributes can be enchanted for armor. Opposite attributes cannot be bestowed at the same time. -->
+		<!-- Can bestow fire attribute up to 60 at one time. Additional Elemental attributes cannot be bestowed. Up to 3 types of attributes can be enchanted for armor. Opposite attributes cannot be bestowed at the same time. -->
 		<set name="icon" val="icon.etc_fire_stone_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="ENCHT_ATTR" />
@@ -650,7 +650,7 @@
 		</skills>
 	</item>
 	<item id="36961" name="Water Stone (+ 60)" type="EtcItem">
-		<!-- Increases water attribute by 60 at once. Additional Elemental attributes cannot be bestowed. Up to 3 types of attributes can be enchanted for armor. Opposite attributes cannot be bestowed at the same time. -->
+		<!-- Can bestow water attribute up to 60 at one time. Additional Elemental attributes cannot be bestowed. Up to 3 types of attributes can be enchanted for armor. Opposite attributes cannot be bestowed at the same time. -->
 		<set name="icon" val="icon.etc_water_stone_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="ENCHT_ATTR" />
@@ -672,7 +672,7 @@
 		</skills>
 	</item>
 	<item id="36962" name="Earth Stone (+ 60)" type="EtcItem">
-		<!-- Increases earth attribute by 60 at once. Additional Elemental attributes cannot be bestowed. Up to 3 types of attributes can be enchanted for armor. Opposite attributes cannot be bestowed at the same time. -->
+		<!-- Can bestow earth attribute up to 60 at one time. Additional Elemental attributes cannot be bestowed. Up to 3 types of attributes can be enchanted for armor. Opposite attributes cannot be bestowed at the same time. -->
 		<set name="icon" val="icon.etc_earth_stone_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="ENCHT_ATTR" />
@@ -694,7 +694,7 @@
 		</skills>
 	</item>
 	<item id="36963" name="Wind Stone (+ 60)" type="EtcItem">
-		<!-- Increases wind attribute by 60 at once. Additional Elemental attributes cannot be bestowed. Up to 3 types of attributes can be enchanted for armor. Opposite attributes cannot be bestowed at the same time. -->
+		<!-- Can bestow wind attribute up to 60 at one time. Additional Elemental attributes cannot be bestowed. Up to 3 types of attributes can be enchanted for armor. Opposite attributes cannot be bestowed at the same time. -->
 		<set name="icon" val="icon.etc_wind_stone_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="ENCHT_ATTR" />
@@ -716,7 +716,7 @@
 		</skills>
 	</item>
 	<item id="36964" name="Dark Stone (+ 60)" type="EtcItem">
-		<!-- Increases dark attribute by 60 at once. Additional Elemental attributes cannot be bestowed. Up to 3 types of attributes can be enchanted for armor. Opposite attributes cannot be bestowed at the same time. -->
+		<!-- Can bestow dark attribute up to 60 at one time. Additional Elemental attributes cannot be bestowed. Up to 3 types of attributes can be enchanted for armor. Opposite attributes cannot be bestowed at the same time. -->
 		<set name="icon" val="icon.etc_unholy_stone_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="ENCHT_ATTR" />
@@ -738,7 +738,7 @@
 		</skills>
 	</item>
 	<item id="36965" name="Holy Stone (+ 60)" type="EtcItem">
-		<!-- Increases holy attribute by 60 at once. Additional Elemental attributes cannot be bestowed. Up to 3 types of attributes can be enchanted for armor. Opposite attributes cannot be bestowed at the same time. -->
+		<!-- Can bestow holy attribute up to 60 at one time. Additional Elemental attributes cannot be bestowed. Up to 3 types of attributes can be enchanted for armor. Opposite attributes cannot be bestowed at the same time. -->
 		<set name="icon" val="icon.etc_holy_stone_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="ENCHT_ATTR" />
@@ -760,7 +760,7 @@
 		</skills>
 	</item>
 	<item id="36966" name="Fire Stone (+ 150)" type="EtcItem">
-		<!-- Increases fire attribute by 150 at once. Additional Elemental attributes cannot be bestowed. Up to 3 types of attributes can be enchanted for armor. Opposite attributes cannot be bestowed at the same time. -->
+		<!-- Can bestow fire attribute up to level 3 at one time. Additional Elemental attributes cannot be bestowed. Up to 3 types of attributes can be enchanted for armor. Opposite attributes cannot be bestowed at the same time. -->
 		<set name="icon" val="icon.etc_fire_stone_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="ENCHT_ATTR" />
@@ -782,7 +782,7 @@
 		</skills>
 	</item>
 	<item id="36967" name="Water Stone (+ 150)" type="EtcItem">
-		<!-- Increases water attribute by 150 at once. Additional Elemental attributes cannot be bestowed. Up to 3 types of attributes can be enchanted for armor. Opposite attributes cannot be bestowed at the same time. -->
+		<!-- Can bestow water attribute up to level 3 at one time. Additional Elemental attributes cannot be bestowed. Up to 3 types of attributes can be enchanted for armor. Opposite attributes cannot be bestowed at the same time. -->
 		<set name="icon" val="icon.etc_water_stone_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="ENCHT_ATTR" />
@@ -804,7 +804,7 @@
 		</skills>
 	</item>
 	<item id="36968" name="Earth Stone (+ 150)" type="EtcItem">
-		<!-- Increases earth attribute by 150 at once. Additional Elemental attributes cannot be bestowed. Up to 3 types of attributes can be enchanted for armor. Opposite attributes cannot be bestowed at the same time. -->
+		<!-- Can bestow earth attribute up to level 3 at one time. Additional Elemental attributes cannot be bestowed. Up to 3 types of attributes can be enchanted for armor. Opposite attributes cannot be bestowed at the same time. -->
 		<set name="icon" val="icon.etc_earth_stone_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="ENCHT_ATTR" />
@@ -826,7 +826,7 @@
 		</skills>
 	</item>
 	<item id="36969" name="Wind Stone (+ 150)" type="EtcItem">
-		<!-- Increases wind attribute by 150 at once. Additional Elemental attributes cannot be bestowed. Up to 3 types of attributes can be enchanted for armor. Opposite attributes cannot be bestowed at the same time. -->
+		<!-- Can bestow wind attribute up to level 3 at one time. Additional Elemental attributes cannot be bestowed. Up to 3 types of attributes can be enchanted for armor. Opposite attributes cannot be bestowed at the same time. -->
 		<set name="icon" val="icon.etc_wind_stone_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="ENCHT_ATTR" />
@@ -848,7 +848,7 @@
 		</skills>
 	</item>
 	<item id="36970" name="Dark Stone (+ 150)" type="EtcItem">
-		<!-- Increases dark attribute by 150 at once. Additional Elemental attributes cannot be bestowed. Up to 3 types of attributes can be enchanted for armor. Opposite attributes cannot be bestowed at the same time. -->
+		<!-- Can bestow dark attribute up to level 3 at one time. Additional Elemental attributes cannot be bestowed. Up to 3 types of attributes can be enchanted for armor. Opposite attributes cannot be bestowed at the same time. -->
 		<set name="icon" val="icon.etc_unholy_stone_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="ENCHT_ATTR" />
@@ -870,7 +870,7 @@
 		</skills>
 	</item>
 	<item id="36971" name="Holy Stone (+ 150)" type="EtcItem">
-		<!-- Increases holy attribute by 150 at once. Additional Elemental attributes cannot be bestowed. Up to 3 types of attributes can be enchanted for armor. Opposite attributes cannot be bestowed at the same time. -->
+		<!-- Can bestow holy attribute up to level 3 at one time. Additional Elemental attributes cannot be bestowed. Up to 3 types of attributes can be enchanted for armor. Opposite attributes cannot be bestowed at the same time. -->
 		<set name="icon" val="icon.etc_holy_stone_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="ENCHT_ATTR" />
@@ -1176,6 +1176,7 @@
 	</item>
 	<item id="36999" name="9th Anniversary Cube (30-day) (Event)" type="EtcItem">
 		<!-- Lineage II's 9th Anniversary Cube. Double-click to obtain one of the following: Kaliel's Energy (Annihilation/Hellfire/Desire), Honey Wheat Cake, Honey Rice Cake, and Blessed Scroll of Resurrection. Can be used once a day. -->
+		<set name="icon" val="icon.special_cube_i00" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
@@ -1185,7 +1186,6 @@
 		<set name="is_commissionable" val="false" />
 		<set name="is_private_storeable" val="false" />
 		<set name="etcitem_type" val="ELIXIR" />
-		<set name="icon" val="icon.special_cube_i00" />
 		<set name="time" val="43200" />
 	</item>
 </list>

@@ -2,6 +2,7 @@
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="17600" name="Scroll of Afterlife" type="EtcItem">
 		<!-- Tome containing the soul of an Ancient Giant hero. Can be used before the Ancient Giat statues in the Reliquary of the Giants found in the Ruins of Ye Sagira. -->
+		<set name="icon" val="icon.q10338_book_of_hades" />
 		<set name="is_depositable" val="false" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
@@ -13,10 +14,10 @@
 		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="immediate_effect" val="true" />
-		<set name="icon" val="icon.q10338_book_of_hades" />
 	</item>
 	<item id="17601" name="Earth Wyrm Heart Fragment" type="EtcItem">
 		<!-- Cut heart of a dying Earth Wyrm's heart. It still moves and appears to contain tremendous life force. -->
+		<set name="icon" val="icon.earthworm_heart" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
@@ -26,7 +27,6 @@
 		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="immediate_effect" val="true" />
-		<set name="icon" val="icon.earthworm_heart" />
 	</item>
 	<item id="17602" name="Tissue Energy Crystal" type="EtcItem">
 		<!-- Crystal with concentrated tissue energy that can be obtained in the Seed of Annihilation. Bring it to Kirklan. -->
@@ -79,6 +79,7 @@
 	</item>
 	<item id="17605" name="10,000,000 Adena" type="EtcItem">
 		<!-- 10,000,000 Adena. Coins received after kissing a toad... -->
+		<set name="icon" val="icon.fairy_adena_joke" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
@@ -88,10 +89,10 @@
 		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="immediate_effect" val="true" />
-		<set name="icon" val="icon.fairy_adena_joke" />
 	</item>
 	<item id="17606" name="Stronghold Fragment" type="EtcItem">
 		<!-- Stronghold fragment piece for controlling the stronghold. -->
+		<set name="icon" val="icon.gd_square_fragment" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
@@ -104,26 +105,26 @@
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="handler" val="ItemSkills" />
 		<set name="immediate_effect" val="true" />
-		<set name="icon" val="icon.gd_square_fragment" />
 		<skills>
 			<skill id="12003" level="1" /> <!-- Stronghold Fragment -->
 		</skills>
 	</item>
 	<item id="17607" name="Key to the Hall of Jewels" type="EtcItem">
 		<!-- Can open all the doors in the Coral Garden Hall. -->
+		<set name="icon" val="icon.etc_key_i00" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="handler" val="ItemSkills" />
 		<set name="immediate_effect" val="true" />
-		<set name="icon" val="icon.etc_key_i00" />
 		<skills>
 			<skill id="12010" level="1" /> <!-- Bonus Hall Key -->
 		</skills>
 	</item>
 	<item id="17608" name="Energy Control Device" type="EtcItem">
 		<!-- You can control the amount of energy with this device. -->
+		<set name="icon" val="icon.etc_medicine_of_growth_i00" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
@@ -134,7 +135,6 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.etc_medicine_of_growth_i00" />
 		<skills>
 			<skill id="14224" level="1" /> <!-- Energy Control Device -->
 		</skills>
@@ -216,6 +216,7 @@
 	</item>
 	<item id="17614" name="Pantheon's Book" type="EtcItem">
 		<!-- Can view the records of the heroes. -->
+		<set name="icon" val="icon.si_phanteon_book" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
@@ -226,7 +227,6 @@
 		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="immediate_effect" val="true" />
-		<set name="icon" val="icon.si_phanteon_book" />
 	</item>
 	<item id="17615" name="Belis' Mark" type="EtcItem">
 		<!-- Can use the Labyrinth of Belis. -->

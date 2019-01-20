@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
 	<skill id="16600" toLevel="1" name="Devil Swarm">
-		<icon>icon.skill0000</icon>
+		<!-- The energy of darkness is launched toward the enemy, causing physical damage. -->
 		<operateType>A1</operateType>
 		<magicLvl>102</magicLvl>
 		<mpConsume>10</mpConsume>
@@ -19,7 +19,7 @@
 		</effects>
 	</skill>
 	<skill id="16601" toLevel="1" name="Devil Fire">
-		<icon>icon.skill0000</icon>
+		<!-- The energy of darkness is launched toward the enemy, causing magic damage. -->
 		<operateType>A1</operateType>
 		<magicLvl>102</magicLvl>
 		<mpConsume>10</mpConsume>
@@ -37,7 +37,8 @@
 		</effects>
 	</skill>
 	<skill id="16602" toLevel="1" name="Dark Curse">
-		<icon>icon.skill0000</icon>
+		<!-- A curse of darkness is cast on the target. P. Atk. and M. Atk. -30% for 10 seconds. -->
+		<icon>icon.skill1164</icon>
 		<operateType>A2</operateType>
 		<abnormalLvl>3</abnormalLvl>
 		<abnormalTime>10</abnormalTime>
@@ -63,7 +64,8 @@
 		</effects>
 	</skill>
 	<skill id="16603" toLevel="1" name="Poison Wave">
-		<icon>icon.skill0000</icon>
+		<!-- A venom of darkness is used on the target and nearby enemies, poisoning them for 15 seconds. -->
+		<icon>icon.skill0129</icon>
 		<operateType>A2</operateType>
 		<abnormalLvl>3</abnormalLvl>
 		<abnormalTime>15</abnormalTime>
@@ -87,7 +89,8 @@
 		</effects>
 	</skill>
 	<skill id="16604" toLevel="1" name="Devil Trap">
-		<icon>icon.skill0000</icon>
+		<!-- The target and nearby enemies are caught in a devil trap. Movement Speed, Atk. Spd., Casting Spd. -50% for 10 seconds. -->
+		<icon>icon.skill1298</icon>
 		<operateType>A2</operateType>
 		<abnormalLvl>3</abnormalLvl>
 		<abnormalTime>10</abnormalTime>
@@ -118,7 +121,8 @@
 		</effects>
 	</skill>
 	<skill id="16605" toLevel="4" name="Replenish Shine Energy">
-		<icon>icon.skill0000</icon>
+		<!-- Replenishment of shine energy is completed, stimulating the vital energy of the Lesser Giants and triggering evolution. P. Atk. and M.Atk +30% for 10 seconds for all Giants within range. -->
+		<icon>icon.skill0788</icon>
 		<operateType>A1</operateType>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>10</abnormalTime>
@@ -146,7 +150,8 @@
 		</effects>
 	</skill>
 	<skill id="16606" toLevel="1" name="Energy Tremble">
-		<icon>icon.skill0000</icon>
+		<!-- Causes sever physical damage to the target and nearby enemies, with 2-second Knock Back. -->
+		<icon>icon.skill10262</icon>
 		<operateType>A2</operateType>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalType>STUN</abnormalType>
@@ -183,7 +188,8 @@
 		</effects>
 	</skill>
 	<skill id="16607" toLevel="1" name="Mimir">
-		<icon>icon.skill1497</icon>
+		<!-- A great sage who was known as the right hand of the great emperor of the Giant Empire. After surviving the gods' judgment of the Giants, he lay dormant deep within the Giant's Cave. Since waking up from his long slumber, he has been restoring the Lesser Giants, and is gathering the energy of Shine Stones for the resurrection of the great emperor. -->
+		<icon>icon.skillboss</icon>
 		<operateType>P</operateType>
 		<targetType>SELF</targetType>
 	</skill>
@@ -194,7 +200,8 @@
 		<targetType>SELF</targetType>
 	</skill>
 	<skill id="16609" toLevel="1" name="Helios' Plasma">
-		<icon>icon.skill0000</icon>
+		<!-- Electric particles are shot toward the target, causing magic damage and paralyzing the target. -->
+		<icon>icon.skill1265</icon>
 		<operateType>A2</operateType>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>10</abnormalTime>
@@ -226,6 +233,7 @@
 		</effects>
 	</skill>
 	<skill id="16610" toLevel="1" name="Helios' Grand Plasma">
+		<!-- Range attack skill -->
 		<operateType>A1</operateType>
 		<staticReuse>true</staticReuse>
 		<affectLimit>40-80</affectLimit>
@@ -247,6 +255,8 @@
 		</effects>
 	</skill>
 	<skill id="16611" toLevel="1" name="Helios' Throne of Agony">
+		<!-- Arrows of Light are shot at nearby enemies, dealing magic damage and causing knock down. -->
+		<icon>icon.skill1275</icon>
 		<operateType>A2</operateType>
 		<abnormalLvl>5</abnormalLvl>
 		<abnormalTime>2</abnormalTime>
@@ -282,6 +292,8 @@
 		</effects>
 	</skill>
 	<skill id="16612" toLevel="1" name="Emperor Helios' Authority">
+		<!-- Throws a bomb of light to the target and nearby enemies, dealing magic damage -->
+		<icon>icon.skill16612</icon>
 		<operateType>A2</operateType>
 		<abnormalLvl>5</abnormalLvl>
 		<abnormalTime>30</abnormalTime>
@@ -325,7 +337,8 @@
 		</effects>
 	</skill>
 	<skill id="16613" toLevel="1" name="Audience with Emperor Helios">
-		<icon>icon.skill0000</icon>
+		<!-- Reduced Movement Speed. -->
+		<icon>icon.skill16612</icon>
 		<operateType>A2</operateType>
 		<abnormalLvl>5</abnormalLvl>
 		<abnormalTime>30</abnormalTime>		<!-- TODO -->
@@ -352,7 +365,8 @@
 		</effects>
 	</skill>
 	<skill id="16614" toLevel="1" name="Helios Plasma Pressure">
-		<icon>icon.skill0000</icon>
+		<!-- Deals physical damage to, and paralyzes the target and nearby enemies. -->
+		<icon>icon.skill1172</icon>
 		<operateType>A2</operateType>
 		<castRange>1200</castRange>
 		<hitTime>2000</hitTime>
@@ -386,7 +400,7 @@
 		</effects>
 	</skill>
 	<skill id="16615" toLevel="1" name="Helios Plasma Wall">
-		<icon>icon.skill0000</icon>
+		<!-- A rectangular barrier or electricity is formed around a range target, dealing powerful magic damage and 25% Mana Burn. -->
 		<operateType>A1</operateType>
 		<staticReuse>true</staticReuse>
 		<affectLimit>45-45</affectLimit>
@@ -411,10 +425,11 @@
 				<critical>true</critical>
 				<criticalLimit>1600</criticalLimit>
 			</effect>
-		</effects>	
+		</effects>
 	</skill>
 	<skill id="16616" toLevel="1" name="Helios' Overawing Gaze">
-		<icon>icon.skill0000</icon>
+		<!-- Helios' overawing gaze has petrified you and made you unable to move. Additional damage is received at regular intervals. -->
+		<icon>icon.skill16614</icon>
 		<operateType>A2</operateType>
 		<targetType>SELF</targetType>
 		<castRange>1200</castRange>
@@ -445,7 +460,8 @@
 		</effects>
 	</skill>
 	<skill id="16617" toLevel="1" name="Enuma Elish - Red Lightning Spear">
-		<icon>icon.skill0000</icon>
+		<!-- Helios throws the Red Lightning Spear, dealing great damage to the target and nearby enemies, and knocking them down. -->
+		<icon>icon.skill16617</icon>
 		<operateType>A2</operateType>
 		<abnormalLvl>5</abnormalLvl>
 		<abnormalTime>3</abnormalTime>
@@ -480,9 +496,10 @@
 			</effect>
 			<effect name="BlockActions" />
 		</effects>
-	</skill>		
+	</skill>
 	<skill id="16618" toLevel="1" name="Enuma Elish - Blue Lightning Spear">
-		<icon>icon.skill0000</icon>
+		<!-- Helios throws the Blue Lightning Spear, dealing great damage to the target and nearby enemies, and knocking them down. -->
+		<icon>icon.skill16618</icon>
 		<operateType>A2</operateType>
 		<abnormalLvl>5</abnormalLvl>
 		<abnormalTime>3</abnormalTime>
@@ -519,7 +536,8 @@
 		</effects>
 	</skill>
 	<skill id="16619" toLevel="1" name="Stigma of Deterioration">
-		<icon>icon.skill0000</icon>
+		<!-- Unable to receive Resurrection effects after death. Additional damage is received at regular intervals. -->
+		<icon>icon.skill1181</icon>
 		<operateType>A1</operateType>
 		<targetType>SELF</targetType>
 		<castRange>3500</castRange>
@@ -527,7 +545,8 @@
 		<isMagic>1</isMagic>
 	</skill>
 	<skill id="16620" toLevel="1" name="Stigma of Lightning">
-		<icon>icon.skill0000</icon>
+		<!-- Unable to receive Resurrection effects after death. P. Def. and M. Def. dropped. -->
+		<icon>icon.skill0048</icon>
 		<operateType>A1</operateType>
 		<targetType>SELF</targetType>
 		<castRange>3500</castRange>
@@ -535,7 +554,7 @@
 		<isMagic>1</isMagic>
 	</skill>
 	<skill id="16621" toLevel="1" name="Helios' Holy Spike">
-		<icon>icon.skill0000</icon>
+		<!-- Powerful magic damage and Mana Burn effect dealt to the target. -->
 		<operateType>A1</operateType>
 		<castRange>2500</castRange>
 		<hitTime>5000</hitTime>
@@ -563,7 +582,8 @@
 		</effects>
 	</skill>
 	<skill id="16622" toLevel="1" name="Helios' Bionic Bomb">
-		<icon>icon.skill0000</icon>
+		<!-- A range target is targeted using a bionic bomb. For 5 seconds, an explosion of light is caused around the target at each tick, dealing great magic damage. -->
+		<icon>icon.skill11030</icon>
 		<operateType>A1</operateType>
 		<castRange>2500</castRange>
 		<hitTime>5000</hitTime>
@@ -584,7 +604,8 @@
 		</effects>
 	</skill>
 	<skill id="16623" toLevel="1" name="Helios' Lightning of Anger">
-		<icon>icon.skill0000</icon>
+		<!-- Lightning strikes the target and nearby enemies, dealing magic damage and paralyzing them. Also decreases P. Def. and Magic Resistance. -->
+		<icon>icon.skll10094</icon>
 		<operateType>A2</operateType>
 		<targetType>SELF</targetType>
 		<castRange>2500</castRange>
@@ -622,11 +643,12 @@
 			<effect name="PhysicalDefence">
 				<amount>-50</amount>
 				<mode>PER</mode>
-			</effect>			
-		</effects>		
+			</effect>
+		</effects>
 	</skill>
 	<skill id="16624" toLevel="1" name="Shield of Light - Pranarach (100%)">
-		<icon>icon.skill0000</icon>
+		<!-- Pranarach Shield of Light is summoned -->
+		<icon>icon.skill16624</icon>
 		<operateType>A2</operateType>
 		<castRange>-1</castRange>
 		<hitTime>5000</hitTime>
@@ -653,7 +675,8 @@
 		</effects>
 	</skill>
 	<skill id="16625" toLevel="4" name="Helios' Rage">
-		<icon>icon.skill0000</icon>
+		<!-- Own P. Atk., M. Atk., P. Def. and M. Def. +$s1. Helios' Rage can be overlapped up to Stage 4, and can rise to a maximum of 200%. -->
+		<icon>icon.skill16612</icon>
 		<operateType>A2</operateType>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>300</abnormalTime>		<!-- TODO -->
@@ -702,11 +725,11 @@
 					<value level="4">200</value>
 				</amount>
 				<mode>PER</mode>
-			</effect>	
+			</effect>
 		</effects>
 	</skill>
 	<skill id="16626" toLevel="1" name="Giants Particle Dissolver">
-		<icon>icon.skill0000</icon>
+		<icon>icon.skill11030</icon>
 		<operateType>A1</operateType>
 		<targetType>SELF</targetType>
 		<itemConsumeCount>1</itemConsumeCount>
@@ -729,7 +752,8 @@
 		</effects>
 	</skill>
 	<skill id="16627" toLevel="1" name="Giants Deterioration Protection Potion">
-		<icon>icon.skill0000</icon>
+		<!-- During the duration, damage from Enuma Elish - Red Lightning Spear skills is reduced by 50%, and immunity to the Stigma of Deterioration skill is gained. -->
+		<icon>icon.giant_red_potion</icon>
 		<operateType>A2</operateType>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>5</abnormalTime>
@@ -749,7 +773,8 @@
 		</effects>
 	</skill>
 	<skill id="16628" toLevel="1" name="Giants Lightning Protection Potion">
-		<icon>icon.skill0000</icon>
+		<!-- During the duration, damage from Enuma Elish - Blue Lightning Spear skills is reduced by 50%, and immunity to the Stigma of Lightning skill is gained. -->
+		<icon>icon.giant_blue_potion</icon>
 		<operateType>A2</operateType>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>5</abnormalTime>
@@ -769,7 +794,7 @@
 		</effects>
 	</skill>
 	<skill id="16629" toLevel="1" name="Leopold Bomb">
-		<icon>icon.skill0000</icon>
+		<!-- Leopold's cannon is fired to the target, dealing strong magic damage. -->
 		<operateType>A1</operateType>
 		<targetType>SELF</targetType>
 		<castRange>3500</castRange>
@@ -790,7 +815,8 @@
 		</effects>
 	</skill>
 	<skill id="16630" toLevel="1" name="Leopold Plasma Bomb">
-		<icon>icon.skill0000</icon>
+		<!-- Magic damage is dealt to the target and nearby enemies, and additional damage is dealt at intervals. -->
+		<icon>icon.skill1064</icon>
 		<operateType>A2</operateType>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>5</abnormalTime>
@@ -816,7 +842,7 @@
 		</effects>
 	</skill>
 	<skill id="16631" toLevel="1" name="Leopold Energy Bomb">
-		<icon>icon.skill0000</icon>
+		<!-- Powerful magic damage is dealt to the target and enemies in range, with a 30% Mana Burn effect. -->
 		<operateType>A1</operateType>
 		<castRange>3500</castRange>
 		<hitTime>7000</hitTime>
@@ -842,7 +868,7 @@
 		</effects>
 	</skill>
 	<skill id="16632" toLevel="1" name="Leopold Mini Gun">
-		<icon>icon.skill0000</icon>
+		<!-- Strong magic damage is dealt to the target. -->
 		<operateType>A1</operateType>
 		<castRange>1200</castRange>
 		<hitTime>1000</hitTime>
@@ -862,7 +888,8 @@
 		</effects>
 	</skill>
 	<skill id="16633" toLevel="1" name="Leopold Spray Shot">
-		<icon>icon.skill0000</icon>
+		<!-- Magic damage is dealt to the target and nearby enemies, and movement speed is reduced. -->
+		<icon>icon.skill0507</icon>
 		<operateType>A2</operateType>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>15</abnormalTime>		<!-- TODO -->
@@ -890,7 +917,8 @@
 		</effects>
 	</skill>
 	<skill id="16634" toLevel="1" name="Leopold Harpoon">
-		<icon>icon.skill0000</icon>
+		<!-- A powerful lightning harpoon is flung to the target, dealing magic damage and paralyzing the target. -->
+		<icon>icon.skll10321</icon>
 		<operateType>A2</operateType>
 		<castRange>1200</castRange>
 		<affectRange>200</affectRange>
@@ -922,7 +950,7 @@
 		</effects>
 	</skill>
 	<skill id="16635" toLevel="1" name="Enuma Elish Shot">
-		<icon>icon.skill0000</icon>
+		<!-- A spear of light is thrown toward the target to deal great physical damage. -->
 		<operateType>A1</operateType>
 		<castRange>1200</castRange>
 		<hitTime>1500</hitTime>
@@ -939,7 +967,8 @@
 		</effects>
 	</skill>
 	<skill id="16636" toLevel="1" name="Origin Spinning Slasher">
-		<icon>icon.skill0000</icon>
+		<!-- A spear of light is wielded, dealing damage to the target and nearby enemies, and causing Bleed. -->
+		<icon>icon.skill0922</icon>
 		<operateType>A2</operateType>
 		<castRange>1200</castRange>
 		<hitTime>2500</hitTime>
@@ -968,10 +997,11 @@
 				<power>2000</power>
 				<ticks>1</ticks>
 			</effect>
-		</effects>	
+		</effects>
 	</skill>
 	<skill id="16637" toLevel="1" name="Origin Lightning Harpoon">
-		<icon>icon.skill0000</icon>
+		<!-- A harpoon of light is thrown at the target, dealing great physical damage and reducing P. Def. and Magic Resistance. -->
+		<icon>icon.skill0279</icon>
 		<operateType>A2</operateType>
 		<castRange>1200</castRange>
 		<hitTime>3000</hitTime>
@@ -999,10 +1029,10 @@
 				<amount>-50</amount>
 				<mode>PER</mode>
 			</effect>
-		</effects>	
+		</effects>
 	</skill>
 	<skill id="16638" toLevel="1" name="Delta Plasma Lightning">
-		<icon>icon.skill0000</icon>
+		<!-- When a skill hits one enemy, the skill seeks out the next target and continues attacking. Finds and attacks up to 10 targets. -->
 		<operateType>A1</operateType>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>10</abnormalTime>
@@ -1026,7 +1056,7 @@
 		</effects>
 	</skill>
 	<skill id="16639" toLevel="1" name="Royal Plasma Lightning">
-		<icon>icon.skill0000</icon>
+		<!-- When a skill hits one enemy, the skill seeks out the next target and continues attacking. Finds and attacks up to 10 targets. -->
 		<operateType>A1</operateType>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>10</abnormalTime>
@@ -1051,7 +1081,7 @@
 		</effects>
 	</skill>
 	<skill id="16640" toLevel="1" name="Triple Shot">
-		<icon>icon.skill0000</icon>
+		<!-- Physical Skill that deals great damage to a single enemy -->
 		<operateType>A1</operateType>
 		<castRange>1100</castRange>
 		<hitTime>1500</hitTime>
@@ -1068,7 +1098,6 @@
 	</skill>
 	<skill id="16641" toLevel="1" name="Hyper Mega Plasma Shot">
 		<!-- Magic skill that deals great damage to a single enemy -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<targetType>SELF</targetType>
 		<castRange>1100</castRange>
@@ -1085,8 +1114,7 @@
 		</effects>
 	</skill>
 	<skill id="16642" toLevel="1" name="Hyper Mega Plasma Burst">
-		<!-- Magic skill; when one enemy is targeted and hit with magic, damage is dealt to other enemies around the target as well -->
-		<icon>icon.skill0000</icon>
+		<!-- Magic skill -->
 		<operateType>A1</operateType>
 		<castRange>1100</castRange>
 		<affectLimit>40-80</affectLimit>
@@ -1107,7 +1135,6 @@
 	</skill>
 	<skill id="16643" toLevel="1" name="Napalm Death">
 		<!-- A fan-shaped flame rages around the target, causing damage. Similar to Valakas' Breath -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<castRange>1100</castRange>
 		<affectLimit>40-80</affectLimit>
@@ -1127,7 +1154,6 @@
 	</skill>
 	<skill id="16644" toLevel="1" name="Ride the Lightning">
 		<!-- An electric field is generated around oneself, dealing damage to the enemy. -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<affectLimit>40-40</affectLimit>
 		<castRange>-1</castRange>
@@ -1178,7 +1204,6 @@
 	</skill>
 	<skill id="16646" toLevel="1" name="Hyper Mega Telekinesis">
 		<!-- Users around oneself are pushed away, dealing damage. -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<hitTime>3000</hitTime>
 		<coolTime>500</coolTime>
@@ -1198,7 +1223,6 @@
 	</skill>
 	<skill id="16647" toLevel="1" name="Ultra Mega Telekinesis">
 		<!-- Users far away from oneself are drawn in, dealing damage. -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<hitTime>3000</hitTime>
 		<coolTime>500</coolTime>
@@ -1218,7 +1242,6 @@
 	</skill>
 	<skill id="16648" toLevel="1" name="Dance of Death">
 		<!-- Spinning with the weapon one currently holds, damage is dealt to those standing nearby. -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<hitTime>1500</hitTime>
 		<coolTime>500</coolTime>
@@ -1238,7 +1261,6 @@
 	</skill>
 	<skill id="16649" toLevel="1" name="Ultra Purge">
 		<!-- Some of the buffs of users in a wide range around oneself are purged. -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<hitTime>10000</hitTime>
 		<coolTime>500</coolTime>
@@ -1255,12 +1277,11 @@
 				<slot>BUFF</slot>
 				<rate>100</rate>
 				<max>5</max>
-			</effect>		
-		</effects>		
+			</effect>
+		</effects>
 	</skill>
 	<skill id="16650" toLevel="1" name="Vertical Smash">
 		<!-- The weapon one currently holds is smashed down vertically, dealing damage to a single target -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<castRange>40</castRange>
 		<hitTime>1500</hitTime>
@@ -1276,7 +1297,6 @@
 	</skill>
 	<skill id="16651" toLevel="1" name="Horizon Smash">
 		<!-- A targeted fan-type skill. The weapon one currently holds is slashed horizontally -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<castRange>40</castRange>
 		<affectLimit>20-20</affectLimit>
@@ -1294,8 +1314,7 @@
 		</effects>
 	</skill>
 	<skill id="16652" toLevel="1" name="Tombstone Attack">
-		<!-- The weapon one currently holds is pounded into the ground; damage is dealt using the resulting impact -->
-		<icon>icon.skill0000</icon>
+		<!-- The weapon one currently holds is pounded into the ground -->
 		<operateType>A1</operateType>
 		<targetType>SELF</targetType>
 		<castRange>40</castRange>
@@ -1313,7 +1332,6 @@
 	</skill>
 	<skill id="16653" toLevel="1" name="Delta Multi Shot">
 		<!-- Targeted fan-type range physical skill -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<targetType>ENEMY</targetType>
 		<affectScope>FAN</affectScope>
@@ -1334,6 +1352,7 @@
 	</skill>
 	<skill id="16654" toLevel="1" name="Delta Stun Shot">
 		<!-- Strong damage has caused Stun, and made movement temporarily impossible. -->
+		<icon>icon.skill0101</icon>
 		<operateType>A2</operateType>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>10</abnormalTime>
@@ -1342,7 +1361,6 @@
 		<activateRate>90</activateRate>
 		<basicProperty>PHYSICAL</basicProperty>
 		<trait>SHOCK</trait>
-		<icon>icon.skill0101</icon>
 		<targetType>ENEMY</targetType>
 		<affectScope>SINGLE</affectScope>
 		<castRange>1100</castRange>
@@ -1361,7 +1379,6 @@
 	</skill>
 	<skill id="16655" toLevel="1" name="Delta Plasma Ball">
 		<!-- Magic skill that deals great damage to a single enemy -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<targetType>ENEMY</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -1378,7 +1395,6 @@
 	</skill>
 	<skill id="16656" toLevel="1" name="Delta Plasma Wave">
 		<!-- Magic skill that deals great damage within a target range -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<targetType>ENEMY</targetType>
 		<affectScope>RANGE</affectScope>
@@ -1398,8 +1414,8 @@
 	</skill>
 	<skill id="16657" toLevel="1" name="Royal Aggression Aura">
 		<!-- The targets of nearby enemies are fixed on oneself. -->
-		<abnormalTime>5</abnormalTime>
 		<icon>icon.skill10027</icon>
+		<abnormalTime>5</abnormalTime>
 		<operateType>A2</operateType>
 		<abnormalLvl>1</abnormalLvl>
 		<targetType>SELF</targetType>
@@ -1444,7 +1460,6 @@
 	</skill>
 	<skill id="16659" toLevel="1" name="Royal Head Shot">
 		<!-- Physical Skill that deals great damage to a single enemy -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<targetType>ENEMY</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -1461,7 +1476,6 @@
 	</skill>
 	<skill id="16660" toLevel="1" name="Royal Multi Shot">
 		<!-- Targeted fan-type range physical skill -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<targetType>ENEMY</targetType>
 		<affectScope>FAN</affectScope>
@@ -1509,7 +1523,6 @@
 	</skill>
 	<skill id="16662" toLevel="1" name="Royal Plasma Ball">
 		<!-- Magic skill that deals great damage to a single enemy -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<targetType>ENEMY</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -1526,7 +1539,6 @@
 	</skill>
 	<skill id="16663" toLevel="1" name="Royal Plasma Wave">
 		<!-- Magic skill that deals great damage within a target range -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<targetType>ENEMY</targetType>
 		<affectScope>RANGE</affectScope>
@@ -1546,7 +1558,6 @@
 	</skill>
 	<skill id="16664" toLevel="1" name="Royal Sleep Cloud">
 		<!-- Sleep has set in, and made movement temporarily impossible. -->
-		<icon>icon.skill0000</icon>
 		<operateType>A2</operateType>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>10</abnormalTime>
@@ -1570,7 +1581,6 @@
 	</skill>
 	<skill id="16665" toLevel="1" name="Royal Power Strike">
 		<!-- A formidable skill that attacks a single target -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<targetType>ENEMY</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -1611,7 +1621,6 @@
 	</skill>
 	<skill id="16667" toLevel="1" name="Royal Ride the Lightning">
 		<!-- Lightning strikes enemies in range, with the target at the center. -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<targetType>ENEMY</targetType>
 		<affectScope>RANGE</affectScope>
@@ -1631,7 +1640,6 @@
 	</skill>
 	<skill id="16668" toLevel="1" name="Royal Quick Shot">
 		<!-- Attack skill that deals swift damage to the enemy -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<targetType>ENEMY</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -1648,12 +1656,12 @@
 	</skill>
 	<skill id="16669" toLevel="1" name="Royal Mark of Death">
 		<!-- The Royal Mark of Death is engraved, and HP steadily drops. -->
+		<icon>icon.skill1435</icon>
 		<operateType>A2</operateType>
 		<abnormalLvl>1</abnormalLvl>
 		<targetType>ENEMY</targetType>
 		<abnormalTime>60</abnormalTime>
 		<activateRate>90</activateRate>
-		<icon>icon.skill1435</icon>
 		<affectScope>SINGLE</affectScope>
 		<castRange>1100</castRange>
 		<hitTime>1000</hitTime>
@@ -1669,7 +1677,6 @@
 	</skill>
 	<skill id="16670" toLevel="1" name="Royal Super Plasma Ball">
 		<!-- Magic skill that deals great damage to a single enemy -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<targetType>ENEMY</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -1686,7 +1693,6 @@
 	</skill>
 	<skill id="16671" toLevel="1" name="Royal Super Plasma Wave">
 		<!-- Magic skill that deals great damage within a target range -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<targetType>ENEMY</targetType>
 		<affectScope>RANGE</affectScope>
@@ -1706,11 +1712,11 @@
 	</skill>
 	<skill id="16672" toLevel="1" name="Royal Super Magic Barrier Weakness">
 		<!-- Damage is dealt, and M. Def. is weakened. -->
+		<icon>icon.skill1036</icon>
 		<operateType>A2</operateType>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>10</abnormalTime>
 		<activateRate>90</activateRate>
-		<icon>icon.skill1036</icon>
 		<targetType>ENEMY</targetType>
 		<affectScope>SINGLE</affectScope>
 		<hitTime>2000</hitTime>
@@ -1729,6 +1735,7 @@
 	</skill>
 	<skill id="16673" toLevel="1" name="Royal Super Lightning Field">
 		<!-- Powerful magic damage has caused paralysis, and made movement temporarily impossible. -->
+		<icon>icon.skill0048</icon>
 		<operateType>A2</operateType>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>5</abnormalTime>
@@ -1737,7 +1744,6 @@
 		<activateRate>50</activateRate>
 		<trait>PARALYZE</trait>
 		<basicProperty>MAGIC</basicProperty>
-		<icon>icon.skill0048</icon>
 		<targetType>ENEMY</targetType>
 		<affectScope>SINGLE</affectScope>
 		<hitTime>3000</hitTime>
@@ -1758,7 +1764,6 @@
 	</skill>
 	<skill id="16674" toLevel="1" name="Hyper Mega Strike">
 		<!-- Physical Skill that deals damage to a single enemy -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<targetType>ENEMY</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -1775,7 +1780,6 @@
 	</skill>
 	<skill id="16675" toLevel="1" name="Hyper Giga Strike">
 		<!-- Physical Skill that deals huge damage to a single enemy -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<targetType>ENEMY</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -1914,7 +1918,6 @@
 	</skill>
 	<skill id="16682" toLevel="1" name="Doom Hammer">
 		<!-- A gargantuan hammer is dropped form the sky, causing damage to the target and nearby enemies. -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<castRange>900</castRange>
 		<effectRange>900</effectRange>
@@ -1962,7 +1965,6 @@
 	</skill>
 	<skill id="16684" toLevel="1" name="Multi Shot">
 		<!-- Targeted fan-type range physical skill -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<castRange>1100</castRange>
 		<affectLimit>10-10</affectLimit>
@@ -1983,7 +1985,6 @@
 	</skill>
 	<skill id="16685" toLevel="1" name="Ultra Plasma Ball">
 		<!-- Magic skill that deals great damage to a single enemy -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<castRange>900</castRange>
 		<hitTime>1000</hitTime>
@@ -2001,7 +2002,6 @@
 	</skill>
 	<skill id="16686" toLevel="1" name="Ultra Plasma Wave">
 		<!-- Magic skill that deals great damage within a target range -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<castRange>900</castRange>
 		<hitTime>2000</hitTime>
@@ -2095,6 +2095,7 @@
 		</effects>
 	</skill>
 	<skill id="16690" toLevel="2" name="Blessing of the Giant Trackers">
+		<!-- The blessing of the Berserker Sculpture made by the Giant Trackers. For 60 minutes, P. Atk. +$s1, M. Atk. +$s2, and Earth Attribute Def. +$s3. -->
 		<icon>icon.etc_residence_sw</icon>
 		<operateType>A2</operateType>
 		<abnormalLvl>1</abnormalLvl>
@@ -2121,6 +2122,7 @@
 		</effects>
 	</skill>
 	<skill id="16691" toLevel="2" name="Blessing of the Unworldly Visitors">
+		<!-- The blessing of the Berserker Sculpture made by the Unworldly Visitors. For 60 minutes, P. Atk. +$s1, M. Atk. +$s2, and Wind Attribute Def. +$s3. -->
 		<icon>icon.etc_residence_sw</icon>
 		<operateType>A2</operateType>
 		<abnormalLvl>1</abnormalLvl>
@@ -2201,7 +2203,6 @@
 		</effects>
 	</skill>
 	<skill id="16694" toLevel="1" name="Leopold Stance Switch">
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<targetType>SELF</targetType>
 		<hitTime>1000</hitTime>
@@ -2225,7 +2226,7 @@
 		<reuseDelay>15000</reuseDelay>
 	</skill>
 	<skill id="16697" toLevel="1" name="Thirst Quench">
-		<!-- Desert Thirst status is lifted; P./M. Atk., Atk. Spd./Casting Spd. +55%%. -->
+		<!-- Desert Thirst status is lifted -->
 		<icon>icon.release_thirst</icon>
 		<operateType>A2</operateType>
 		<abnormalLvl>1</abnormalLvl>
@@ -2259,7 +2260,7 @@
 		</effects>
 	</skill>
 	<skill id="16698" toLevel="1" name="Thirst Quench">
-		<!-- Desert Thirst status is lifted; P./M. Atk., Atk. Spd./Casting Spd. +60%%. -->
+		<!-- Desert Thirst status is lifted -->
 		<icon>icon.release_thirst</icon>
 		<operateType>A2</operateType>
 		<abnormalLvl>1</abnormalLvl>
@@ -2293,7 +2294,7 @@
 		</effects>
 	</skill>
 	<skill id="16699" toLevel="1" name="Critical Rise">
-		<!-- Help has been received from the Commandos; critical damage has increased. -->
+		<!-- Help has been received from the Commandos -->
 		<icon>icon.skill1242</icon>
 		<operateType>A2</operateType>
 		<abnormalLvl>1</abnormalLvl>

@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
 	<skill id="11496" toLevel="2" name="Summoner Boss Penalty">
-		<!-- Glory Days confirmed -->
-		<!-- Decreases P. Atk. Toward bosses by 20%. -->
+		<!-- Decreases P. Atk. Toward bosses by $s1. -->
 		<icon>icon.skill0217</icon>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -23,14 +22,12 @@
 		</effects>
 	</skill>
 	<skill id="11497" toLevel="1" name="Summoner - Individual Passive">
-		<!-- Glory Days confirmed -->
 		<icon>icon.skill0217</icon>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>85</magicLvl>
 	</skill>
 	<skill id="11498" toLevel="1" name="Summoner - Individual">
-		<!-- Glory Days confirmed -->
 		<!-- For 5 seconds, increases P. Atk., M. Atk., Critical rate, and critical damage by 10%. -->
 		<icon>icon.skill1543</icon>
 		<abnormalLvl>1</abnormalLvl>
@@ -41,7 +38,6 @@
 		<reuseDelay>5000</reuseDelay>
 		<effectPoint>1</effectPoint>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<magicLvl>85</magicLvl>
@@ -69,7 +65,6 @@
 		</effects>
 	</skill>
 	<skill id="11499" toLevel="1" name="Heavy Hit">
-		<!-- Glory Days confirmed -->
 		<!-- Inflicts a powerful blow on target. -->
 		<icon>icon.skill10317</icon>
 		<operateType>A1</operateType>
@@ -79,7 +74,6 @@
 		<coolTime>300</coolTime>
 		<reuseDelay>10000</reuseDelay>
 		<effectPoint>-687</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>1400</effectRange>
 		<magicLvl>85</magicLvl>

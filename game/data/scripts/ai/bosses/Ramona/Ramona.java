@@ -24,6 +24,7 @@ import com.l2jmobius.gameserver.enums.Movie;
 import com.l2jmobius.gameserver.instancemanager.MapRegionManager;
 import com.l2jmobius.gameserver.instancemanager.ZoneManager;
 import com.l2jmobius.gameserver.model.L2World;
+import com.l2jmobius.gameserver.model.Location;
 import com.l2jmobius.gameserver.model.TeleportWhereType;
 import com.l2jmobius.gameserver.model.actor.L2Attackable;
 import com.l2jmobius.gameserver.model.actor.L2Character;
@@ -86,6 +87,9 @@ public class Ramona extends AbstractNpcAI
 		HIPER_MEGA_TELEKINESS,
 		ULTRA_MEGA_TELEKINESS
 	};
+	// Locations
+	private static final Location RAMONA_SPAWN_LOC_1 = new Location(78023, 172262, -10604, 16383);
+	private static final Location RAMONA_SPAWN_LOC_2 = new Location(78012, 169922, -10467, 16383);
 	// Other
 	private static final int ROOM_CONTROL_DOOR = 22230711;
 	private static final L2NoSummonFriendZone ZONE = ZoneManager.getInstance().getZoneById(210108, L2NoSummonFriendZone.class);
@@ -115,8 +119,8 @@ public class Ramona extends AbstractNpcAI
 		{
 			case "SPAWN_MS":
 			{
-				addSpawn(ROOM_CONTROL, 78023, 172262, -10604, 16383, false, 600000, false);
-				addSpawn(RAMONA, 78012, 169922, -10467, 16383, false, 600000, false);
+				addSpawn(ROOM_CONTROL, RAMONA_SPAWN_LOC_1, false, 600000, false);
+				addSpawn(RAMONA, RAMONA_SPAWN_LOC_2, false, 600000, false);
 				_lastAction = System.currentTimeMillis();
 				break;
 			}
@@ -130,7 +134,7 @@ public class Ramona extends AbstractNpcAI
 						ramona.deleteMe();
 					}
 				});
-				_ramona1 = addSpawn(RAMONA_1, 78023, 172262, -10604, 16383, false, 1200000, true);
+				_ramona1 = addSpawn(RAMONA_1, RAMONA_SPAWN_LOC_1, false, 1200000, true);
 				startQuestTimer("CHECK_ACTIVITY_TASK", 60000, null, null, true);
 				startQuestTimer("RAMONA1_SKILL", 6000, _ramona1, null);
 				break;
@@ -283,7 +287,7 @@ public class Ramona extends AbstractNpcAI
 				if (currentHp < 75)
 				{
 					playMovie(ZONE.getPlayersInside(), Movie.SC_RAMONA_TRANS_A);
-					_ramona2 = addSpawn(RAMONA_2, 78023, 172262, -10604, 16383, false, 1200000, false);
+					_ramona2 = addSpawn(RAMONA_2, RAMONA_SPAWN_LOC_1, false, 1200000, false);
 					_ramona2.setCurrentHp(_ramona1.getCurrentHp());
 					_ramona1.deleteMe();
 					startQuestTimer("SPAWN_RAMONA_MINIONS", 6000, _ramona2, null);
@@ -296,7 +300,7 @@ public class Ramona extends AbstractNpcAI
 				if (currentHp < 50)
 				{
 					playMovie(ZONE.getPlayersInside(), Movie.SC_RAMONA_TRANS_B);
-					_ramona3 = addSpawn(RAMONA_3, 78023, 172262, -10604, 16383, false, 1200000, false);
+					_ramona3 = addSpawn(RAMONA_3, RAMONA_SPAWN_LOC_1, false, 1200000, false);
 					_ramona3.setCurrentHp(_ramona2.getCurrentHp());
 					_ramona2.deleteMe();
 					startQuestTimer("SPAWN_RAMONA_MINIONS_1", 6000, _ramona3, null);

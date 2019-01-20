@@ -1489,6 +1489,7 @@
 	</item>
 	<item id="31790" name="Unidentified Ogre Power Gauntlets" type="EtcItem">
 		<!-- Ogre Power Gauntlets in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: Gloves) -->
+		<set name="icon" val="icon.armor_t45_g_i00" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
@@ -1497,7 +1498,6 @@
 		<set name="crystal_type" val="D" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.armor_t45_g_i00" />
 		<createItems>
 			<item id="607" count="1" chance="2" /> <!-- Ogre Power Gauntlets -->
 			<item id="30812" count="1" chance="98" /> <!-- Bound Ogre Power Gauntlets -->

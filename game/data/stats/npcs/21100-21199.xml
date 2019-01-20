@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/npcs.xsd">
 	<npc id="21100" level="19" type="L2Monster" name="Langk Lizardman Sentinel">
 		<!-- Confirmed CT2.5 -->
@@ -19,11 +19,11 @@
 				<walk ground="43" />
 				<run ground="130" />
 			</speed>
-			<hit_time>480</hit_time>
+			<hitTime>480</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
@@ -33,15 +33,15 @@
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-		</skill_list>
+		</skillList>
 		<shots shotChance="30" spiritChance="30" />
-		<ex_crt_effect>false</ex_crt_effect>
+		<exCrtEffect>false</exCrtEffect>
 		<ai aggroRange="450" clanHelpRange="300" isAggressive="true">
-			<clan_list>
+			<clanList>
 				<clan>LIZARDMAN</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="4" max="11" chance="70" /> <!-- Adena -->
 				<item id="36522" min="1" max="1" chance="0.075" /> <!-- Silver -->
@@ -60,10 +60,10 @@
 			<spoil>
 				<item id="36521" min="1" max="1" chance="5.744" /> <!-- Iron Ore -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="10" />
 			<height normal="23" />
@@ -96,11 +96,11 @@
 				<walk ground="43" />
 				<run ground="130" />
 			</speed>
-			<hit_time>480</hit_time>
+			<hitTime>480</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4076" level="1" /> <!-- Decrease Speed -->
 			<skill id="4152" level="2" /> <!-- NPC HP Drain - Magic -->
 			<skill id="4160" level="2" /> <!-- NPC Aura Burn - Magic -->
@@ -113,15 +113,15 @@
 			<skill id="4414" level="3" /> <!-- Light Armor Type -->
 			<skill id="4415" level="5" /> <!-- Blunt Weapons -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-		</skill_list>
+		</skillList>
 		<shots shotChance="30" spiritChance="30" />
-		<ex_crt_effect>false</ex_crt_effect>
+		<exCrtEffect>false</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" aggroRange="450">
-			<clan_list>
+			<clanList>
 				<clan>LIZARDMAN</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="7" max="16" chance="70" /> <!-- Adena -->
 				<item id="6035" min="1" max="1" chance="0.3" /> <!-- Magic Haste Potion -->
@@ -141,10 +141,10 @@
 			<spoil>
 				<item id="36526" min="1" max="1" chance="24.94" /> <!-- Fiber -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="10" />
 			<height normal="29" />
@@ -175,11 +175,11 @@
 				<walk ground="90" />
 				<run ground="160" />
 			</speed>
-			<hit_time>390</hit_time>
+			<hitTime>390</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4151" level="3" /> <!-- NPC Windstrike - Magic -->
 			<skill id="4160" level="3" /> <!-- NPC Aura Burn - Magic -->
 			<skill id="4276" level="1" /> <!-- Weak Point against Bow/Crossbow Weapons -->
@@ -193,15 +193,15 @@
 			<skill id="4415" level="5" /> <!-- Blunt Weapons -->
 			<skill id="4416" level="2" /> <!-- Magic Creatures -->
 			<skill id="4281" level="1" /> <!-- Wind Attack Vulnerability -->
-		</skill_list>
+		</skillList>
 		<shots shotChance="30" spiritChance="30" />
-		<ex_crt_effect>false</ex_crt_effect>
+		<exCrtEffect>false</exCrtEffect>
 		<ai aggroRange="450" clanHelpRange="300" isAggressive="true">
-			<clan_list>
+			<clanList>
 				<clan>MONSTER_EYE</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="9" max="21" chance="70" /> <!-- Adena -->
 				<item id="36537" min="1" max="1" chance="0.075" /> <!-- Leather Braid -->
@@ -220,10 +220,10 @@
 			<spoil>
 				<item id="36531" min="1" max="1" chance="10.38" /> <!-- Thread -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="11" grown="13" />
 			<height normal="20" grown="24" />
@@ -253,11 +253,11 @@
 				<walk ground="23" />
 				<run ground="23" />
 			</speed>
-			<hit_time>410</hit_time>
+			<hitTime>410</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4254" level="3" /> <!-- NPC Prominence - Slow -->
 			<skill id="4273" level="3" /> <!-- Resist Daggers/Rapier Weapon -->
 			<skill id="4274" level="1" /> <!-- Blunt Weapon Weak Point -->
@@ -271,15 +271,15 @@
 			<skill id="4415" level="5" /> <!-- Blunt Weapons -->
 			<skill id="4416" level="2" /> <!-- Magic Creatures -->
 			<skill id="4444" level="2" /> <!-- Higher Resist Bow/Crossbow Weapons -->
-		</skill_list>
+		</skillList>
 		<shots shotChance="30" spiritChance="30" />
-		<ex_crt_effect>false</ex_crt_effect>
+		<exCrtEffect>false</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="450">
-			<clan_list>
+			<clanList>
 				<clan>ALL</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="10" max="22" chance="70" /> <!-- Adena -->
 				<item id="1061" min="1" max="1" chance="2.273" /> <!-- Major Healing Potion -->
@@ -300,10 +300,10 @@
 			<spoil>
 				<item id="36531" min="1" max="1" chance="10.09" /> <!-- Thread -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="20" />
 			<height normal="40.3" />
@@ -335,11 +335,11 @@
 				<walk ground="43" />
 				<run ground="135" />
 			</speed>
-			<hit_time>480</hit_time>
+			<hitTime>480</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4032" level="3" /> <!-- NPC Strike -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -350,11 +350,11 @@
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="7" /> <!-- Daggers -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-		</skill_list>
+		</skillList>
 		<shots shotChance="30" spiritChance="30" />
-		<ex_crt_effect>false</ex_crt_effect>
+		<exCrtEffect>false</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="450" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="12" max="27" chance="70" /> <!-- Adena -->
 				<item id="1061" min="1" max="1" chance="2.779" /> <!-- Major Healing Potion -->
@@ -375,10 +375,10 @@
 			<spoil>
 				<item id="36531" min="1" max="1" chance="13.65" /> <!-- Thread -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="10" />
 			<height normal="23" />
@@ -410,11 +410,11 @@
 				<walk ground="43" />
 				<run ground="135" />
 			</speed>
-			<hit_time>720</hit_time>
+			<hitTime>720</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4124" level="3" /> <!-- NPC Spear Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -425,11 +425,11 @@
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="9" /> <!-- Bows -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-		</skill_list>
+		</skillList>
 		<shots shotChance="30" spiritChance="30" />
-		<ex_crt_effect>false</ex_crt_effect>
+		<exCrtEffect>false</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="450" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="14" max="32" chance="70" /> <!-- Adena -->
 				<item id="36552" min="1" max="1" chance="0.03" /> <!-- Armor Fragment -->
@@ -448,10 +448,10 @@
 			<spoil>
 				<item id="36531" min="1" max="1" chance="14.43" /> <!-- Thread -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="10" grown="12" />
 			<height normal="22" grown="27" />
@@ -483,11 +483,11 @@
 				<walk ground="90" />
 				<run ground="160" />
 			</speed>
-			<hit_time>390</hit_time>
+			<hitTime>390</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4038" level="1" /> <!-- Decrease Atk. Spd. -->
 			<skill id="4151" level="3" /> <!-- NPC Windstrike - Magic -->
 			<skill id="4160" level="3" /> <!-- NPC Aura Burn - Magic -->
@@ -502,15 +502,15 @@
 			<skill id="4415" level="5" /> <!-- Blunt Weapons -->
 			<skill id="4416" level="2" /> <!-- Magic Creatures -->
 			<skill id="4281" level="1" /> <!-- Wind Attack Vulnerability -->
-		</skill_list>
+		</skillList>
 		<shots shotChance="30" spiritChance="30" />
-		<ex_crt_effect>false</ex_crt_effect>
+		<exCrtEffect>false</exCrtEffect>
 		<ai aggroRange="450" clanHelpRange="300" isAggressive="true">
-			<clan_list>
+			<clanList>
 				<clan>MONSTER_EYE</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="11" max="27" chance="70" /> <!-- Adena -->
 				<item id="36517" min="1" max="1" chance="0.3" /> <!-- Leather -->
@@ -530,10 +530,10 @@
 			<spoil>
 				<item id="36531" min="1" max="1" chance="13.19" /> <!-- Thread -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="11" grown="13" />
 			<height normal="20" grown="24" />
@@ -565,11 +565,11 @@
 				<walk ground="52" />
 				<run ground="135" />
 			</speed>
-			<hit_time>590</hit_time>
+			<hitTime>590</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4033" level="3" /> <!-- NPC Burn -->
 			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -580,12 +580,12 @@
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-		</skill_list>
+		</skillList>
 		<shots shotChance="30" spiritChance="30" />
-		<ex_crt_effect>false</ex_crt_effect>
-		<s_npc_prop_hp_rate>2</s_npc_prop_hp_rate>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>2</sNpcPropHpRate>
 		<ai clanHelpRange="300" aggroRange="450" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="25" max="56" chance="70" /> <!-- Adena -->
 				<item id="36522" min="1" max="1" chance="0.3" /> <!-- Silver -->
@@ -604,10 +604,10 @@
 			<spoil>
 				<item id="36531" min="1" max="1" chance="26.14" /> <!-- Thread -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="12" />
 			<height normal="30" />
@@ -638,11 +638,11 @@
 				<walk ground="25" />
 				<run ground="175" />
 			</speed>
-			<hit_time>430</hit_time>
+			<hitTime>430</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4152" level="7" /> <!-- NPC HP Drain - Magic -->
 			<skill id="4160" level="7" /> <!-- NPC Aura Burn - Magic -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
@@ -654,15 +654,15 @@
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4416" level="12" /> <!-- Bugs -->
-		</skill_list>
+		</skillList>
 		<shots shotChance="30" spiritChance="30" />
-		<ex_crt_effect>false</ex_crt_effect>
+		<exCrtEffect>false</exCrtEffect>
 		<ai clanHelpRange="200" aggroRange="450">
-			<clan_list>
+			<clanList>
 				<clan>ALL</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="48" max="111" chance="70" /> <!-- Adena -->
 				<item id="1807" min="1" max="1" chance="0.03" /> <!-- Recipe: Soulshot (A-grade) -->
@@ -685,10 +685,10 @@
 				<item id="36882" min="1" max="1" chance="0.003" /> <!-- Recipe: Thin Braid - Upgrade -->
 				<item id="36881" min="1" max="1" chance="9" /> <!-- Recipe: Thin Braid - Downgrade -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="35" />
 			<height normal="35" />
@@ -719,11 +719,11 @@
 				<walk ground="70" />
 				<run ground="175" />
 			</speed>
-			<hit_time>190</hit_time>
+			<hitTime>190</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4158" level="7" /> <!-- NPC Prominence - Magic -->
 			<skill id="4160" level="7" /> <!-- NPC Aura Burn - Magic -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
@@ -735,11 +735,11 @@
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4416" level="10" /> <!-- Dragons -->
-		</skill_list>
+		</skillList>
 		<shots shotChance="30" spiritChance="30" />
-		<ex_crt_effect>false</ex_crt_effect>
+		<exCrtEffect>false</exCrtEffect>
 		<ai aggroRange="450" clanHelpRange="300" isAggressive="true" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="50" max="116" chance="70" /> <!-- Adena -->
 				<item id="5166" min="1" max="1" chance="0.03" /> <!-- Recipe: Blessed Spiritshot Compressed Package (A-grade) -->
@@ -762,10 +762,10 @@
 				<item id="36882" min="1" max="1" chance="0.003" /> <!-- Recipe: Thin Braid - Upgrade -->
 				<item id="36881" min="1" max="1" chance="9" /> <!-- Recipe: Thin Braid - Downgrade -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="29" />
 			<height normal="72" />
@@ -797,11 +797,11 @@
 				<walk ground="45" />
 				<run ground="180" />
 			</speed>
-			<hit_time>460</hit_time>
+			<hitTime>460</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4032" level="7" /> <!-- NPC Strike -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -812,15 +812,15 @@
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-		</skill_list>
+		</skillList>
 		<shots shotChance="30" spiritChance="30" />
-		<ex_crt_effect>false</ex_crt_effect>
+		<exCrtEffect>false</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="450">
-			<clan_list>
+			<clanList>
 				<clan>ORC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="61" max="141" chance="70" /> <!-- Adena -->
 				<item id="3956" min="1" max="1" chance="0.03" /> <!-- Recipe: Blessed Spiritshot (A-grade) -->
@@ -843,10 +843,10 @@
 				<item id="36882" min="1" max="1" chance="0.003" /> <!-- Recipe: Thin Braid - Upgrade -->
 				<item id="36881" min="1" max="1" chance="9" /> <!-- Recipe: Thin Braid - Downgrade -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="12" />
 			<height normal="29" />
@@ -877,11 +877,11 @@
 				<walk ground="45" />
 				<run ground="160" />
 			</speed>
-			<hit_time>910</hit_time>
+			<hitTime>910</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4040" level="7" /> <!-- NPC Bow Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -892,15 +892,15 @@
 			<skill id="4414" level="3" /> <!-- Light Armor Type -->
 			<skill id="4415" level="9" /> <!-- Bows -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-		</skill_list>
+		</skillList>
 		<shots shotChance="30" spiritChance="30" />
-		<ex_crt_effect>false</ex_crt_effect>
+		<exCrtEffect>false</exCrtEffect>
 		<ai type="ARCHER" clanHelpRange="300" dodge="15" aggroRange="450">
-			<clan_list>
+			<clanList>
 				<clan>ORC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="68" max="158" chance="70" /> <!-- Adena -->
 				<item id="3035" min="1" max="1" chance="0.03" /> <!-- Recipe: Spiritshot (A-grade) -->
@@ -924,10 +924,10 @@
 				<item id="36882" min="1" max="1" chance="0.003" /> <!-- Recipe: Thin Braid - Upgrade -->
 				<item id="36881" min="1" max="1" chance="9" /> <!-- Recipe: Thin Braid - Downgrade -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="12" />
 			<height normal="27" />
@@ -960,11 +960,11 @@
 				<walk ground="10" />
 				<run ground="145" />
 			</speed>
-			<hit_time>340</hit_time>
+			<hitTime>340</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4037" level="2" /> <!-- Decrease P. Atk. -->
 			<skill id="4047" level="7" /> <!-- Hold -->
 			<skill id="4087" level="7" /> <!-- NPC Blaze -->
@@ -977,15 +977,15 @@
 			<skill id="4414" level="3" /> <!-- Light Armor Type -->
 			<skill id="4415" level="5" /> <!-- Blunt Weapons -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-		</skill_list>
+		</skillList>
 		<shots shotChance="30" spiritChance="30" />
-		<ex_crt_effect>false</ex_crt_effect>
+		<exCrtEffect>false</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="400" aggroRange="450">
-			<clan_list>
+			<clanList>
 				<clan>ORC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="56" max="131" chance="70" /> <!-- Adena -->
 				<item id="5166" min="1" max="1" chance="0.03" /> <!-- Recipe: Blessed Spiritshot Compressed Package (A-grade) -->
@@ -1009,10 +1009,10 @@
 				<item id="36882" min="1" max="1" chance="0.003" /> <!-- Recipe: Thin Braid - Upgrade -->
 				<item id="36881" min="1" max="1" chance="9" /> <!-- Recipe: Thin Braid - Downgrade -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="10" />
 			<height normal="23" />
@@ -1046,11 +1046,11 @@
 				<walk ground="36" />
 				<run ground="175" />
 			</speed>
-			<hit_time>540</hit_time>
+			<hitTime>540</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4032" level="8" /> <!-- NPC Strike -->
 			<skill id="4033" level="8" /> <!-- NPC Burn -->
 			<skill id="4091" level="1" /> <!-- NPC Ogre Spirit Totem -->
@@ -1065,15 +1065,15 @@
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-		</skill_list>
+		</skillList>
 		<shots shotChance="30" spiritChance="30" />
-		<ex_crt_effect>false</ex_crt_effect>
+		<exCrtEffect>false</exCrtEffect>
 		<ai aggroRange="450" clanHelpRange="500" isAggressive="true">
-			<clan_list>
+			<clanList>
 				<clan>ORC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="89" max="207" chance="70" /> <!-- Adena -->
 				<item id="729" min="1" max="1" chance="0.003" /> <!-- Scroll: Enchant Weapon (A-grade) -->
@@ -1096,10 +1096,10 @@
 				<item id="36882" min="1" max="1" chance="0.003" /> <!-- Recipe: Thin Braid - Upgrade -->
 				<item id="36881" min="1" max="1" chance="9" /> <!-- Recipe: Thin Braid - Downgrade -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="12" grown="14" />
 			<height normal="24" grown="28.8" />
@@ -1123,11 +1123,11 @@
 				<walk ground="60" />
 				<run ground="85" />
 			</speed>
-			<hit_time>340</hit_time>
+			<hitTime>340</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
@@ -1137,15 +1137,15 @@
 			<skill id="4414" level="3" /> <!-- Light Armor Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4416" level="13" /> <!-- Fairies -->
-		</skill_list>
+		</skillList>
 		<shots shotChance="30" spiritChance="30" />
-		<ex_crt_effect>false</ex_crt_effect>
+		<exCrtEffect>false</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="450">
-			<clan_list>
+			<clanList>
 				<clan>ALL</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="8600" min="1" max="1" chance="10" /> <!-- Herb of Life -->
 				<item id="8601" min="1" max="1" chance="8" /> <!-- Major Herb of Life -->
@@ -1157,7 +1157,7 @@
 				<item id="34850" min="1" max="1" chance="0.7" /> <!-- Mysterious Herb of Magic -->
 				<item id="13028" min="1" max="1" chance="0.1" /> <!-- Vitality Replenishing Herb -->
 			</drop>
-		</drop_lists>
+		</dropLists>
 		<collision>
 			<radius normal="10" />
 			<height normal="30" />
@@ -1181,11 +1181,11 @@
 				<walk ground="80" />
 				<run ground="85" />
 			</speed>
-			<hit_time>350</hit_time>
+			<hitTime>350</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
@@ -1197,15 +1197,15 @@
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="4278" level="1" /> <!-- Dark Attack -->
 			<skill id="4333" level="5" /> <!-- Dark Attack Resistance -->
-		</skill_list>
+		</skillList>
 		<shots shotChance="30" spiritChance="30" />
-		<ex_crt_effect>false</ex_crt_effect>
+		<exCrtEffect>false</exCrtEffect>
 		<ai aggroRange="450" clanHelpRange="300" isAggressive="true">
-			<clan_list>
+			<clanList>
 				<clan>DEMONIC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="8600" min="1" max="1" chance="10" /> <!-- Herb of Life -->
 				<item id="8601" min="1" max="1" chance="8" /> <!-- Major Herb of Life -->
@@ -1217,7 +1217,7 @@
 				<item id="34850" min="1" max="1" chance="0.7" /> <!-- Mysterious Herb of Magic -->
 				<item id="13028" min="1" max="1" chance="0.1" /> <!-- Vitality Replenishing Herb -->
 			</drop>
-		</drop_lists>
+		</dropLists>
 		<collision>
 			<radius normal="14" />
 			<height normal="36" />
@@ -1247,11 +1247,11 @@
 				<walk ground="45" />
 				<run ground="110" />
 			</speed>
-			<hit_time>410</hit_time>
+			<hitTime>410</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
@@ -1261,15 +1261,15 @@
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="5" /> <!-- Blunt Weapons -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-		</skill_list>
+		</skillList>
 		<shots shotChance="30" spiritChance="30" />
-		<ex_crt_effect>false</ex_crt_effect>
+		<exCrtEffect>false</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="450">
-			<clan_list>
+			<clanList>
 				<clan>GOBLIN</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="8600" min="1" max="1" chance="10" /> <!-- Herb of Life -->
 				<item id="8601" min="1" max="1" chance="8" /> <!-- Major Herb of Life -->
@@ -1281,7 +1281,7 @@
 				<item id="34850" min="1" max="1" chance="0.7" /> <!-- Mysterious Herb of Magic -->
 				<item id="13028" min="1" max="1" chance="0.1" /> <!-- Vitality Replenishing Herb -->
 			</drop>
-		</drop_lists>
+		</dropLists>
 		<collision>
 			<radius normal="12" />
 			<height normal="24" />
@@ -1311,11 +1311,11 @@
 				<walk ground="60" />
 				<run ground="85" />
 			</speed>
-			<hit_time>340</hit_time>
+			<hitTime>340</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4032" level="2" /> <!-- NPC Strike -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -1326,15 +1326,15 @@
 			<skill id="4414" level="3" /> <!-- Light Armor Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4416" level="13" /> <!-- Fairies -->
-		</skill_list>
+		</skillList>
 		<shots shotChance="30" spiritChance="30" />
-		<ex_crt_effect>false</ex_crt_effect>
+		<exCrtEffect>false</exCrtEffect>
 		<ai aggroRange="450" clanHelpRange="300" isAggressive="true">
-			<clan_list>
+			<clanList>
 				<clan>ALL</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="8600" min="1" max="1" chance="10" /> <!-- Herb of Life -->
 				<item id="8601" min="1" max="1" chance="8" /> <!-- Major Herb of Life -->
@@ -1346,7 +1346,7 @@
 				<item id="34850" min="1" max="1" chance="0.7" /> <!-- Mysterious Herb of Magic -->
 				<item id="13028" min="1" max="1" chance="0.1" /> <!-- Vitality Replenishing Herb -->
 			</drop>
-		</drop_lists>
+		</dropLists>
 		<collision>
 			<radius normal="10" />
 			<height normal="30" />
@@ -1375,11 +1375,11 @@
 				<walk ground="24" />
 				<run ground="135" />
 			</speed>
-			<hit_time>390</hit_time>
+			<hitTime>390</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
@@ -1389,15 +1389,15 @@
 			<skill id="4414" level="3" /> <!-- Light Armor Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4416" level="4" /> <!-- Animals -->
-		</skill_list>
+		</skillList>
 		<shots shotChance="30" spiritChance="30" />
-		<ex_crt_effect>false</ex_crt_effect>
+		<exCrtEffect>false</exCrtEffect>
 		<ai aggroRange="450" clanHelpRange="300" isAggressive="true">
-			<clan_list>
+			<clanList>
 				<clan>ALL</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="8600" min="1" max="1" chance="10" /> <!-- Herb of Life -->
 				<item id="8601" min="1" max="1" chance="8" /> <!-- Major Herb of Life -->
@@ -1409,7 +1409,7 @@
 				<item id="34850" min="1" max="1" chance="0.7" /> <!-- Mysterious Herb of Magic -->
 				<item id="13028" min="1" max="1" chance="0.1" /> <!-- Vitality Replenishing Herb -->
 			</drop>
-		</drop_lists>
+		</dropLists>
 		<collision>
 			<radius normal="13" />
 			<height normal="11" />
@@ -1439,11 +1439,11 @@
 				<walk ground="55" />
 				<run ground="130" />
 			</speed>
-			<hit_time>280</hit_time>
+			<hitTime>280</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
@@ -1453,15 +1453,15 @@
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="5" /> <!-- Blunt Weapons -->
 			<skill id="4416" level="11" /> <!-- Giants -->
-		</skill_list>
+		</skillList>
 		<shots shotChance="30" spiritChance="30" />
-		<ex_crt_effect>false</ex_crt_effect>
+		<exCrtEffect>false</exCrtEffect>
 		<ai aggroRange="450" clanHelpRange="300" isAggressive="true">
-			<clan_list>
+			<clanList>
 				<clan>ALL</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="8600" min="1" max="1" chance="10" /> <!-- Herb of Life -->
 				<item id="8601" min="1" max="1" chance="8" /> <!-- Major Herb of Life -->
@@ -1473,7 +1473,7 @@
 				<item id="34850" min="1" max="1" chance="0.7" /> <!-- Mysterious Herb of Magic -->
 				<item id="13028" min="1" max="1" chance="0.1" /> <!-- Vitality Replenishing Herb -->
 			</drop>
-		</drop_lists>
+		</dropLists>
 		<collision>
 			<radius normal="17" />
 			<height normal="35" />
@@ -1503,11 +1503,11 @@
 				<walk ground="80" />
 				<run ground="85" />
 			</speed>
-			<hit_time>350</hit_time>
+			<hitTime>350</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4229" level="2" /> <!-- NPC Double Wind Fist -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -1520,15 +1520,15 @@
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="4278" level="1" /> <!-- Dark Attack -->
 			<skill id="4333" level="5" /> <!-- Dark Attack Resistance -->
-		</skill_list>
+		</skillList>
 		<shots shotChance="30" spiritChance="30" />
-		<ex_crt_effect>false</ex_crt_effect>
+		<exCrtEffect>false</exCrtEffect>
 		<ai aggroRange="450" clanHelpRange="300" isAggressive="true">
-			<clan_list>
+			<clanList>
 				<clan>DEMONIC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="8600" min="1" max="1" chance="10" /> <!-- Herb of Life -->
 				<item id="8601" min="1" max="1" chance="8" /> <!-- Major Herb of Life -->
@@ -1540,7 +1540,7 @@
 				<item id="34850" min="1" max="1" chance="0.7" /> <!-- Mysterious Herb of Magic -->
 				<item id="13028" min="1" max="1" chance="0.1" /> <!-- Vitality Replenishing Herb -->
 			</drop>
-		</drop_lists>
+		</dropLists>
 		<collision>
 			<radius normal="14" />
 			<height normal="36" />
@@ -1564,11 +1564,11 @@
 				<walk ground="60" />
 				<run ground="90" />
 			</speed>
-			<hit_time>500</hit_time>
+			<hitTime>500</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4276" level="1" /> <!-- Weak Point against Bow/Crossbow Weapons -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -1580,15 +1580,15 @@
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4416" level="4" /> <!-- Animals -->
 			<skill id="4281" level="1" /> <!-- Wind Attack Vulnerability -->
-		</skill_list>
+		</skillList>
 		<shots shotChance="30" spiritChance="30" />
-		<ex_crt_effect>false</ex_crt_effect>
+		<exCrtEffect>false</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="450">
-			<clan_list>
+			<clanList>
 				<clan>ALL</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="4" max="10" chance="70" /> <!-- Adena -->
 				<item id="735" min="1" max="1" chance="0.3" /> <!-- Haste Potion -->
@@ -1607,10 +1607,10 @@
 			<spoil>
 				<item id="36531" min="1" max="1" chance="4.685" /> <!-- Thread -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="10" />
 			<height normal="33.5" />
@@ -1634,11 +1634,11 @@
 				<walk ground="60" />
 				<run ground="140" />
 			</speed>
-			<hit_time>650</hit_time>
+			<hitTime>650</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
@@ -1648,11 +1648,11 @@
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4416" level="12" /> <!-- Bugs -->
-		</skill_list>
+		</skillList>
 		<shots shotChance="30" spiritChance="30" />
-		<ex_crt_effect>false</ex_crt_effect>
+		<exCrtEffect>false</exCrtEffect>
 		<ai aggroRange="450" clanHelpRange="300" isAggressive="true" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="8600" min="1" max="1" chance="10" /> <!-- Herb of Life -->
 				<item id="8601" min="1" max="1" chance="8" /> <!-- Major Herb of Life -->
@@ -1664,7 +1664,7 @@
 				<item id="34850" min="1" max="1" chance="0.7" /> <!-- Mysterious Herb of Magic -->
 				<item id="13028" min="1" max="1" chance="0.1" /> <!-- Vitality Replenishing Herb -->
 			</drop>
-		</drop_lists>
+		</dropLists>
 		<collision>
 			<radius normal="27" />
 			<height normal="25.5" />
@@ -1688,11 +1688,11 @@
 				<walk ground="50" />
 				<run ground="125" />
 			</speed>
-			<hit_time>430</hit_time>
+			<hitTime>430</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
@@ -1702,15 +1702,15 @@
 			<skill id="4414" level="3" /> <!-- Light Armor Type -->
 			<skill id="4415" level="5" /> <!-- Blunt Weapons -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-		</skill_list>
+		</skillList>
 		<shots shotChance="30" spiritChance="30" />
-		<ex_crt_effect>false</ex_crt_effect>
+		<exCrtEffect>false</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="450">
-			<clan_list>
+			<clanList>
 				<clan>WEREWOLF</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="5" max="11" chance="70" /> <!-- Adena -->
 				<item id="36562" min="1" max="1" chance="0.03" /> <!-- Greater Cokes -->
@@ -1728,10 +1728,10 @@
 			<spoil>
 				<item id="36531" min="1" max="1" chance="5.078" /> <!-- Thread -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="11" />
 			<height normal="29.7" />
@@ -1761,11 +1761,11 @@
 				<walk ground="30" />
 				<run ground="120" />
 			</speed>
-			<hit_time>450</hit_time>
+			<hitTime>450</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
@@ -1775,15 +1775,15 @@
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="5" /> <!-- Blunt Weapons -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-		</skill_list>
+		</skillList>
 		<shots shotChance="30" spiritChance="30" />
-		<ex_crt_effect>false</ex_crt_effect>
+		<exCrtEffect>false</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="450">
-			<clan_list>
+			<clanList>
 				<clan>GOBLIN</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="6" max="13" chance="70" /> <!-- Adena -->
 				<item id="6035" min="1" max="1" chance="0.3" /> <!-- Magic Haste Potion -->
@@ -1803,10 +1803,10 @@
 			<spoil>
 				<item id="36531" min="1" max="1" chance="6.277" /> <!-- Thread -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="4" />
 			<height normal="15" />
@@ -1836,11 +1836,11 @@
 				<walk ground="23" />
 				<run ground="23" />
 			</speed>
-			<hit_time>410</hit_time>
+			<hitTime>410</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4254" level="2" /> <!-- NPC Prominence - Slow -->
 			<skill id="4273" level="3" /> <!-- Resist Daggers/Rapier Weapon -->
 			<skill id="4274" level="1" /> <!-- Blunt Weapon Weak Point -->
@@ -1854,15 +1854,15 @@
 			<skill id="4415" level="5" /> <!-- Blunt Weapons -->
 			<skill id="4416" level="2" /> <!-- Magic Creatures -->
 			<skill id="4444" level="2" /> <!-- Higher Resist Bow/Crossbow Weapons -->
-		</skill_list>
+		</skillList>
 		<shots shotChance="30" spiritChance="30" />
-		<ex_crt_effect>false</ex_crt_effect>
+		<exCrtEffect>false</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="450">
-			<clan_list>
+			<clanList>
 				<clan>ALL</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="6" max="14" chance="70" /> <!-- Adena -->
 				<item id="36562" min="1" max="1" chance="0.03" /> <!-- Greater Cokes -->
@@ -1880,10 +1880,10 @@
 			<spoil>
 				<item id="36531" min="1" max="1" chance="6.722" /> <!-- Thread -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="20" />
 			<height normal="40.3" />
@@ -1912,11 +1912,11 @@
 				<walk ground="50" />
 				<run ground="140" />
 			</speed>
-			<hit_time>430</hit_time>
+			<hitTime>430</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
@@ -1926,15 +1926,15 @@
 			<skill id="4414" level="3" /> <!-- Light Armor Type -->
 			<skill id="4415" level="5" /> <!-- Blunt Weapons -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-		</skill_list>
+		</skillList>
 		<shots shotChance="30" spiritChance="30" />
-		<ex_crt_effect>false</ex_crt_effect>
+		<exCrtEffect>false</exCrtEffect>
 		<ai aggroRange="450" clanHelpRange="300" isAggressive="true">
-			<clan_list>
+			<clanList>
 				<clan>WEREWOLF</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="7" max="15" chance="70" /> <!-- Adena -->
 				<item id="6035" min="1" max="1" chance="0.3" /> <!-- Magic Haste Potion -->
@@ -1954,10 +1954,10 @@
 			<spoil>
 				<item id="36531" min="1" max="1" chance="7.165" /> <!-- Thread -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="11" />
 			<height normal="29.7" />
@@ -1987,11 +1987,11 @@
 				<walk ground="30" />
 				<run ground="125" />
 			</speed>
-			<hit_time>450</hit_time>
+			<hitTime>450</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
@@ -2001,15 +2001,15 @@
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="5" /> <!-- Blunt Weapons -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-		</skill_list>
+		</skillList>
 		<shots shotChance="30" spiritChance="30" />
-		<ex_crt_effect>false</ex_crt_effect>
+		<exCrtEffect>false</exCrtEffect>
 		<ai aggroRange="450" clanHelpRange="300" isAggressive="true">
-			<clan_list>
+			<clanList>
 				<clan>GOBLIN</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="7" max="16" chance="70" /> <!-- Adena -->
 				<item id="734" min="1" max="1" chance="0.75" /> <!-- Wind Walk Potion -->
@@ -2029,10 +2029,10 @@
 			<spoil>
 				<item id="36531" min="1" max="1" chance="7.596" /> <!-- Thread -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="4" />
 			<height normal="15" />
@@ -2062,11 +2062,11 @@
 				<walk ground="23" />
 				<run ground="29" />
 			</speed>
-			<hit_time>410</hit_time>
+			<hitTime>410</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4250" level="3" /> <!-- NPC Twister - Slow -->
 			<skill id="4273" level="3" /> <!-- Resist Daggers/Rapier Weapon -->
 			<skill id="4274" level="1" /> <!-- Blunt Weapon Weak Point -->
@@ -2080,15 +2080,15 @@
 			<skill id="4415" level="5" /> <!-- Blunt Weapons -->
 			<skill id="4416" level="2" /> <!-- Magic Creatures -->
 			<skill id="4444" level="2" /> <!-- Higher Resist Bow/Crossbow Weapons -->
-		</skill_list>
+		</skillList>
 		<shots shotChance="30" spiritChance="30" />
-		<ex_crt_effect>false</ex_crt_effect>
+		<exCrtEffect>false</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="450">
-			<clan_list>
+			<clanList>
 				<clan>ALL</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="7" max="16" chance="70" /> <!-- Adena -->
 				<item id="36562" min="1" max="1" chance="0.03" /> <!-- Greater Cokes -->
@@ -2106,10 +2106,10 @@
 			<spoil>
 				<item id="36531" min="1" max="1" chance="7.746" /> <!-- Thread -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="20" />
 			<height normal="40.3" />
@@ -2139,11 +2139,11 @@
 				<walk ground="36" />
 				<run ground="180" />
 			</speed>
-			<hit_time>460</hit_time>
+			<hitTime>460</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4067" level="5" /> <!-- NPC Mortal Blow -->
 			<skill id="4287" level="5" /> <!-- Resist Hold Attacks -->
 			<skill id="4408" level="12" /> <!-- HP Increase (4x) -->
@@ -2158,27 +2158,27 @@
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="4278" level="1" /> <!-- Dark Attack -->
 			<skill id="4333" level="5" /> <!-- Dark Attack Resistance -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
-		<s_npc_prop_hp_rate>4</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>4</sNpcPropHpRate>
 		<ai clanHelpRange="400" aggroRange="450">
-			<clan_list>
+			<clanList>
 				<clan>C_DUNGEON</clan>
-				<ignore_npc_id>21196</ignore_npc_id> <!-- Nephilim Sentinel -->
-				<ignore_npc_id>21197</ignore_npc_id> <!-- Nephilim Priest -->
-				<ignore_npc_id>21198</ignore_npc_id> <!-- Nephilim Swordsman -->
-				<ignore_npc_id>21199</ignore_npc_id> <!-- Nephilim Guard -->
-				<ignore_npc_id>21200</ignore_npc_id> <!-- Nephilim Bishop -->
-				<ignore_npc_id>21201</ignore_npc_id> <!-- Nephilim Centurion -->
-				<ignore_npc_id>21202</ignore_npc_id> <!-- Nephilim Scout -->
-				<ignore_npc_id>21203</ignore_npc_id> <!-- Nephilim Archbishop -->
-				<ignore_npc_id>21204</ignore_npc_id> <!-- Nephilim Praetorian -->
-				<ignore_npc_id>21205</ignore_npc_id> <!-- Nephilim Royal Guard -->
-				<ignore_npc_id>21206</ignore_npc_id> <!-- Nephilim Cardinal -->
-				<ignore_npc_id>21207</ignore_npc_id> <!-- Nephilim Commander -->
-			</clan_list>
+				<ignoreNpcId>21196</ignoreNpcId> <!-- Nephilim Sentinel -->
+				<ignoreNpcId>21197</ignoreNpcId> <!-- Nephilim Priest -->
+				<ignoreNpcId>21198</ignoreNpcId> <!-- Nephilim Swordsman -->
+				<ignoreNpcId>21199</ignoreNpcId> <!-- Nephilim Guard -->
+				<ignoreNpcId>21200</ignoreNpcId> <!-- Nephilim Bishop -->
+				<ignoreNpcId>21201</ignoreNpcId> <!-- Nephilim Centurion -->
+				<ignoreNpcId>21202</ignoreNpcId> <!-- Nephilim Scout -->
+				<ignoreNpcId>21203</ignoreNpcId> <!-- Nephilim Archbishop -->
+				<ignoreNpcId>21204</ignoreNpcId> <!-- Nephilim Praetorian -->
+				<ignoreNpcId>21205</ignoreNpcId> <!-- Nephilim Royal Guard -->
+				<ignoreNpcId>21206</ignoreNpcId> <!-- Nephilim Cardinal -->
+				<ignoreNpcId>21207</ignoreNpcId> <!-- Nephilim Commander -->
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="6034" max="14063" chance="70" /> <!-- Adena -->
 				<item id="36563" min="1" max="1" chance="1.531" /> <!-- Synthetic Cokes -->
@@ -2188,7 +2188,7 @@
 				<item id="36558" min="1" max="1" chance="10.98" /> <!-- Accessory Gem (Mid-grade) -->
 				<item id="36553" min="1" max="1" chance="3.15" /> <!-- Armor Fragment (Mid-grade) -->
 			</spoil>
-		</drop_lists>
+		</dropLists>
 		<collision>
 			<radius normal="11" />
 			<height normal="36" />
@@ -2221,11 +2221,11 @@
 				<walk ground="50" />
 				<run ground="160" />
 			</speed>
-			<hit_time>500</hit_time>
+			<hitTime>500</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4002" level="6" /> <!-- NPC HP Drain -->
 			<skill id="4046" level="6" /> <!-- Sleep -->
 			<skill id="4094" level="6" /> <!-- NPC Cancel Magic -->
@@ -2243,27 +2243,27 @@
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="4278" level="1" /> <!-- Dark Attack -->
 			<skill id="4333" level="5" /> <!-- Dark Attack Resistance -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
-		<s_npc_prop_hp_rate>4</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>4</sNpcPropHpRate>
 		<ai type="BALANCED" clanHelpRange="400" aggroRange="450">
-			<clan_list>
+			<clanList>
 				<clan>C_DUNGEON</clan>
-				<ignore_npc_id>21196</ignore_npc_id> <!-- Nephilim Sentinel -->
-				<ignore_npc_id>21197</ignore_npc_id> <!-- Nephilim Priest -->
-				<ignore_npc_id>21198</ignore_npc_id> <!-- Nephilim Swordsman -->
-				<ignore_npc_id>21199</ignore_npc_id> <!-- Nephilim Guard -->
-				<ignore_npc_id>21200</ignore_npc_id> <!-- Nephilim Bishop -->
-				<ignore_npc_id>21201</ignore_npc_id> <!-- Nephilim Centurion -->
-				<ignore_npc_id>21202</ignore_npc_id> <!-- Nephilim Scout -->
-				<ignore_npc_id>21203</ignore_npc_id> <!-- Nephilim Archbishop -->
-				<ignore_npc_id>21204</ignore_npc_id> <!-- Nephilim Praetorian -->
-				<ignore_npc_id>21205</ignore_npc_id> <!-- Nephilim Royal Guard -->
-				<ignore_npc_id>21206</ignore_npc_id> <!-- Nephilim Cardinal -->
-				<ignore_npc_id>21207</ignore_npc_id> <!-- Nephilim Commander -->
-			</clan_list>
+				<ignoreNpcId>21196</ignoreNpcId> <!-- Nephilim Sentinel -->
+				<ignoreNpcId>21197</ignoreNpcId> <!-- Nephilim Priest -->
+				<ignoreNpcId>21198</ignoreNpcId> <!-- Nephilim Swordsman -->
+				<ignoreNpcId>21199</ignoreNpcId> <!-- Nephilim Guard -->
+				<ignoreNpcId>21200</ignoreNpcId> <!-- Nephilim Bishop -->
+				<ignoreNpcId>21201</ignoreNpcId> <!-- Nephilim Centurion -->
+				<ignoreNpcId>21202</ignoreNpcId> <!-- Nephilim Scout -->
+				<ignoreNpcId>21203</ignoreNpcId> <!-- Nephilim Archbishop -->
+				<ignoreNpcId>21204</ignoreNpcId> <!-- Nephilim Praetorian -->
+				<ignoreNpcId>21205</ignoreNpcId> <!-- Nephilim Royal Guard -->
+				<ignoreNpcId>21206</ignoreNpcId> <!-- Nephilim Cardinal -->
+				<ignoreNpcId>21207</ignoreNpcId> <!-- Nephilim Commander -->
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="3431" max="7996" chance="70" /> <!-- Adena -->
 				<item id="37724" min="1" max="1" chance="0.3" /> <!-- Shilen's Energy -->
@@ -2273,7 +2273,7 @@
 				<item id="36553" min="1" max="1" chance="1.007" /> <!-- Armor Fragment (Mid-grade) -->
 				<item id="45930" min="1" max="1" chance="0.3" /> <!-- Mid-grade Spirit Stone -->
 			</spoil>
-		</drop_lists>
+		</dropLists>
 		<collision>
 			<radius normal="8" />
 			<height normal="30.6" />
@@ -2305,11 +2305,11 @@
 				<walk ground="56" />
 				<run ground="180" />
 			</speed>
-			<hit_time>460</hit_time>
+			<hitTime>460</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4032" level="6" /> <!-- NPC Strike -->
 			<skill id="4072" level="6" /> <!-- Stun -->
 			<skill id="4092" level="1" /> <!-- NPC Puma Spirit Totem -->
@@ -2327,27 +2327,27 @@
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="4278" level="1" /> <!-- Dark Attack -->
 			<skill id="4333" level="5" /> <!-- Dark Attack Resistance -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
-		<s_npc_prop_hp_rate>4</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>4</sNpcPropHpRate>
 		<ai clanHelpRange="400" aggroRange="450">
-			<clan_list>
+			<clanList>
 				<clan>C_DUNGEON</clan>
-				<ignore_npc_id>21196</ignore_npc_id> <!-- Nephilim Sentinel -->
-				<ignore_npc_id>21197</ignore_npc_id> <!-- Nephilim Priest -->
-				<ignore_npc_id>21198</ignore_npc_id> <!-- Nephilim Swordsman -->
-				<ignore_npc_id>21199</ignore_npc_id> <!-- Nephilim Guard -->
-				<ignore_npc_id>21200</ignore_npc_id> <!-- Nephilim Bishop -->
-				<ignore_npc_id>21201</ignore_npc_id> <!-- Nephilim Centurion -->
-				<ignore_npc_id>21202</ignore_npc_id> <!-- Nephilim Scout -->
-				<ignore_npc_id>21203</ignore_npc_id> <!-- Nephilim Archbishop -->
-				<ignore_npc_id>21204</ignore_npc_id> <!-- Nephilim Praetorian -->
-				<ignore_npc_id>21205</ignore_npc_id> <!-- Nephilim Royal Guard -->
-				<ignore_npc_id>21206</ignore_npc_id> <!-- Nephilim Cardinal -->
-				<ignore_npc_id>21207</ignore_npc_id> <!-- Nephilim Commander -->
-			</clan_list>
+				<ignoreNpcId>21196</ignoreNpcId> <!-- Nephilim Sentinel -->
+				<ignoreNpcId>21197</ignoreNpcId> <!-- Nephilim Priest -->
+				<ignoreNpcId>21198</ignoreNpcId> <!-- Nephilim Swordsman -->
+				<ignoreNpcId>21199</ignoreNpcId> <!-- Nephilim Guard -->
+				<ignoreNpcId>21200</ignoreNpcId> <!-- Nephilim Bishop -->
+				<ignoreNpcId>21201</ignoreNpcId> <!-- Nephilim Centurion -->
+				<ignoreNpcId>21202</ignoreNpcId> <!-- Nephilim Scout -->
+				<ignoreNpcId>21203</ignoreNpcId> <!-- Nephilim Archbishop -->
+				<ignoreNpcId>21204</ignoreNpcId> <!-- Nephilim Praetorian -->
+				<ignoreNpcId>21205</ignoreNpcId> <!-- Nephilim Royal Guard -->
+				<ignoreNpcId>21206</ignoreNpcId> <!-- Nephilim Cardinal -->
+				<ignoreNpcId>21207</ignoreNpcId> <!-- Nephilim Commander -->
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="6437" max="15020" chance="70" /> <!-- Adena -->
 				<item id="19440" min="1" max="1" chance="1.233" /> <!-- Gemstone (R-grade) -->
@@ -2357,7 +2357,7 @@
 				<item id="36558" min="1" max="1" chance="7.127" /> <!-- Accessory Gem (Mid-grade) -->
 				<item id="36553" min="1" max="1" chance="2.153" /> <!-- Armor Fragment (Mid-grade) -->
 			</spoil>
-		</drop_lists>
+		</dropLists>
 		<collision>
 			<radius normal="11" />
 			<height normal="45" />
@@ -2387,11 +2387,11 @@
 				<walk ground="36" />
 				<run ground="190" />
 			</speed>
-			<hit_time>460</hit_time>
+			<hitTime>460</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4067" level="6" /> <!-- NPC Mortal Blow -->
 			<skill id="4287" level="5" /> <!-- Resist Hold Attacks -->
 			<skill id="4408" level="12" /> <!-- HP Increase (4x) -->
@@ -2406,27 +2406,27 @@
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="4278" level="1" /> <!-- Dark Attack -->
 			<skill id="4333" level="5" /> <!-- Dark Attack Resistance -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
-		<s_npc_prop_hp_rate>4</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>4</sNpcPropHpRate>
 		<ai clanHelpRange="400" aggroRange="450">
-			<clan_list>
+			<clanList>
 				<clan>C_DUNGEON</clan>
-				<ignore_npc_id>21196</ignore_npc_id> <!-- Nephilim Sentinel -->
-				<ignore_npc_id>21197</ignore_npc_id> <!-- Nephilim Priest -->
-				<ignore_npc_id>21198</ignore_npc_id> <!-- Nephilim Swordsman -->
-				<ignore_npc_id>21199</ignore_npc_id> <!-- Nephilim Guard -->
-				<ignore_npc_id>21200</ignore_npc_id> <!-- Nephilim Bishop -->
-				<ignore_npc_id>21201</ignore_npc_id> <!-- Nephilim Centurion -->
-				<ignore_npc_id>21202</ignore_npc_id> <!-- Nephilim Scout -->
-				<ignore_npc_id>21203</ignore_npc_id> <!-- Nephilim Archbishop -->
-				<ignore_npc_id>21204</ignore_npc_id> <!-- Nephilim Praetorian -->
-				<ignore_npc_id>21205</ignore_npc_id> <!-- Nephilim Royal Guard -->
-				<ignore_npc_id>21206</ignore_npc_id> <!-- Nephilim Cardinal -->
-				<ignore_npc_id>21207</ignore_npc_id> <!-- Nephilim Commander -->
-			</clan_list>
+				<ignoreNpcId>21196</ignoreNpcId> <!-- Nephilim Sentinel -->
+				<ignoreNpcId>21197</ignoreNpcId> <!-- Nephilim Priest -->
+				<ignoreNpcId>21198</ignoreNpcId> <!-- Nephilim Swordsman -->
+				<ignoreNpcId>21199</ignoreNpcId> <!-- Nephilim Guard -->
+				<ignoreNpcId>21200</ignoreNpcId> <!-- Nephilim Bishop -->
+				<ignoreNpcId>21201</ignoreNpcId> <!-- Nephilim Centurion -->
+				<ignoreNpcId>21202</ignoreNpcId> <!-- Nephilim Scout -->
+				<ignoreNpcId>21203</ignoreNpcId> <!-- Nephilim Archbishop -->
+				<ignoreNpcId>21204</ignoreNpcId> <!-- Nephilim Praetorian -->
+				<ignoreNpcId>21205</ignoreNpcId> <!-- Nephilim Royal Guard -->
+				<ignoreNpcId>21206</ignoreNpcId> <!-- Nephilim Cardinal -->
+				<ignoreNpcId>21207</ignoreNpcId> <!-- Nephilim Commander -->
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="6174" max="14406" chance="70" /> <!-- Adena -->
 				<item id="36563" min="1" max="1" chance="2.167" /> <!-- Synthetic Cokes -->
@@ -2436,7 +2436,7 @@
 				<item id="36558" min="1" max="1" chance="6.876" /> <!-- Accessory Gem (Mid-grade) -->
 				<item id="36553" min="1" max="1" chance="1.939" /> <!-- Armor Fragment (Mid-grade) -->
 			</spoil>
-		</drop_lists>
+		</dropLists>
 		<collision>
 			<radius normal="13" />
 			<height normal="44" />
@@ -2469,11 +2469,11 @@
 				<walk ground="50" />
 				<run ground="170" />
 			</speed>
-			<hit_time>500</hit_time>
+			<hitTime>500</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4002" level="6" /> <!-- NPC HP Drain -->
 			<skill id="4046" level="6" /> <!-- Sleep -->
 			<skill id="4094" level="6" /> <!-- NPC Cancel Magic -->
@@ -2491,27 +2491,27 @@
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="4278" level="1" /> <!-- Dark Attack -->
 			<skill id="4333" level="5" /> <!-- Dark Attack Resistance -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
-		<s_npc_prop_hp_rate>4</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>4</sNpcPropHpRate>
 		<ai type="BALANCED" clanHelpRange="400" aggroRange="450">
-			<clan_list>
+			<clanList>
 				<clan>C_DUNGEON</clan>
-				<ignore_npc_id>21196</ignore_npc_id> <!-- Nephilim Sentinel -->
-				<ignore_npc_id>21197</ignore_npc_id> <!-- Nephilim Priest -->
-				<ignore_npc_id>21198</ignore_npc_id> <!-- Nephilim Swordsman -->
-				<ignore_npc_id>21199</ignore_npc_id> <!-- Nephilim Guard -->
-				<ignore_npc_id>21200</ignore_npc_id> <!-- Nephilim Bishop -->
-				<ignore_npc_id>21201</ignore_npc_id> <!-- Nephilim Centurion -->
-				<ignore_npc_id>21202</ignore_npc_id> <!-- Nephilim Scout -->
-				<ignore_npc_id>21203</ignore_npc_id> <!-- Nephilim Archbishop -->
-				<ignore_npc_id>21204</ignore_npc_id> <!-- Nephilim Praetorian -->
-				<ignore_npc_id>21205</ignore_npc_id> <!-- Nephilim Royal Guard -->
-				<ignore_npc_id>21206</ignore_npc_id> <!-- Nephilim Cardinal -->
-				<ignore_npc_id>21207</ignore_npc_id> <!-- Nephilim Commander -->
-			</clan_list>
+				<ignoreNpcId>21196</ignoreNpcId> <!-- Nephilim Sentinel -->
+				<ignoreNpcId>21197</ignoreNpcId> <!-- Nephilim Priest -->
+				<ignoreNpcId>21198</ignoreNpcId> <!-- Nephilim Swordsman -->
+				<ignoreNpcId>21199</ignoreNpcId> <!-- Nephilim Guard -->
+				<ignoreNpcId>21200</ignoreNpcId> <!-- Nephilim Bishop -->
+				<ignoreNpcId>21201</ignoreNpcId> <!-- Nephilim Centurion -->
+				<ignoreNpcId>21202</ignoreNpcId> <!-- Nephilim Scout -->
+				<ignoreNpcId>21203</ignoreNpcId> <!-- Nephilim Archbishop -->
+				<ignoreNpcId>21204</ignoreNpcId> <!-- Nephilim Praetorian -->
+				<ignoreNpcId>21205</ignoreNpcId> <!-- Nephilim Royal Guard -->
+				<ignoreNpcId>21206</ignoreNpcId> <!-- Nephilim Cardinal -->
+				<ignoreNpcId>21207</ignoreNpcId> <!-- Nephilim Commander -->
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="3578" max="8340" chance="70" /> <!-- Adena -->
 				<item id="37724" min="1" max="1" chance="0.3" /> <!-- Shilen's Energy -->
@@ -2521,7 +2521,7 @@
 				<item id="36553" min="1" max="1" chance="1.095" /> <!-- Armor Fragment (Mid-grade) -->
 				<item id="45930" min="1" max="1" chance="0.3" /> <!-- Mid-grade Spirit Stone -->
 			</spoil>
-		</drop_lists>
+		</dropLists>
 		<collision>
 			<radius normal="10" />
 			<height normal="37.5" />
@@ -2553,11 +2553,11 @@
 				<walk ground="56" />
 				<run ground="190" />
 			</speed>
-			<hit_time>460</hit_time>
+			<hitTime>460</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4032" level="7" /> <!-- NPC Strike -->
 			<skill id="4072" level="7" /> <!-- Stun -->
 			<skill id="4092" level="1" /> <!-- NPC Puma Spirit Totem -->
@@ -2575,27 +2575,27 @@
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="4278" level="1" /> <!-- Dark Attack -->
 			<skill id="4333" level="5" /> <!-- Dark Attack Resistance -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
-		<s_npc_prop_hp_rate>4</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>4</sNpcPropHpRate>
 		<ai clanHelpRange="400" aggroRange="450">
-			<clan_list>
+			<clanList>
 				<clan>C_DUNGEON</clan>
-				<ignore_npc_id>21196</ignore_npc_id> <!-- Nephilim Sentinel -->
-				<ignore_npc_id>21197</ignore_npc_id> <!-- Nephilim Priest -->
-				<ignore_npc_id>21198</ignore_npc_id> <!-- Nephilim Swordsman -->
-				<ignore_npc_id>21199</ignore_npc_id> <!-- Nephilim Guard -->
-				<ignore_npc_id>21200</ignore_npc_id> <!-- Nephilim Bishop -->
-				<ignore_npc_id>21201</ignore_npc_id> <!-- Nephilim Centurion -->
-				<ignore_npc_id>21202</ignore_npc_id> <!-- Nephilim Scout -->
-				<ignore_npc_id>21203</ignore_npc_id> <!-- Nephilim Archbishop -->
-				<ignore_npc_id>21204</ignore_npc_id> <!-- Nephilim Praetorian -->
-				<ignore_npc_id>21205</ignore_npc_id> <!-- Nephilim Royal Guard -->
-				<ignore_npc_id>21206</ignore_npc_id> <!-- Nephilim Cardinal -->
-				<ignore_npc_id>21207</ignore_npc_id> <!-- Nephilim Commander -->
-			</clan_list>
+				<ignoreNpcId>21196</ignoreNpcId> <!-- Nephilim Sentinel -->
+				<ignoreNpcId>21197</ignoreNpcId> <!-- Nephilim Priest -->
+				<ignoreNpcId>21198</ignoreNpcId> <!-- Nephilim Swordsman -->
+				<ignoreNpcId>21199</ignoreNpcId> <!-- Nephilim Guard -->
+				<ignoreNpcId>21200</ignoreNpcId> <!-- Nephilim Bishop -->
+				<ignoreNpcId>21201</ignoreNpcId> <!-- Nephilim Centurion -->
+				<ignoreNpcId>21202</ignoreNpcId> <!-- Nephilim Scout -->
+				<ignoreNpcId>21203</ignoreNpcId> <!-- Nephilim Archbishop -->
+				<ignoreNpcId>21204</ignoreNpcId> <!-- Nephilim Praetorian -->
+				<ignoreNpcId>21205</ignoreNpcId> <!-- Nephilim Royal Guard -->
+				<ignoreNpcId>21206</ignoreNpcId> <!-- Nephilim Cardinal -->
+				<ignoreNpcId>21207</ignoreNpcId> <!-- Nephilim Commander -->
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="6580" max="15369" chance="70" /> <!-- Adena -->
 				<item id="19440" min="1" max="1" chance="1.172" /> <!-- Gemstone (R-grade) -->
@@ -2605,7 +2605,7 @@
 				<item id="36558" min="1" max="1" chance="7.325" /> <!-- Accessory Gem (Mid-grade) -->
 				<item id="36553" min="1" max="1" chance="2.104" /> <!-- Armor Fragment (Mid-grade) -->
 			</spoil>
-		</drop_lists>
+		</dropLists>
 		<collision>
 			<radius normal="13" />
 			<height normal="55" />
@@ -2635,11 +2635,11 @@
 				<walk ground="36" />
 				<run ground="200" />
 			</speed>
-			<hit_time>460</hit_time>
+			<hitTime>460</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4067" level="8" /> <!-- NPC Mortal Blow -->
 			<skill id="4287" level="5" /> <!-- Resist Hold Attacks -->
 			<skill id="4408" level="12" /> <!-- HP Increase (4x) -->
@@ -2654,27 +2654,27 @@
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="4278" level="1" /> <!-- Dark Attack -->
 			<skill id="4333" level="5" /> <!-- Dark Attack Resistance -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
-		<s_npc_prop_hp_rate>4</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>4</sNpcPropHpRate>
 		<ai clanHelpRange="400" aggroRange="450">
-			<clan_list>
+			<clanList>
 				<clan>C_DUNGEON</clan>
-				<ignore_npc_id>21196</ignore_npc_id> <!-- Nephilim Sentinel -->
-				<ignore_npc_id>21197</ignore_npc_id> <!-- Nephilim Priest -->
-				<ignore_npc_id>21198</ignore_npc_id> <!-- Nephilim Swordsman -->
-				<ignore_npc_id>21199</ignore_npc_id> <!-- Nephilim Guard -->
-				<ignore_npc_id>21200</ignore_npc_id> <!-- Nephilim Bishop -->
-				<ignore_npc_id>21201</ignore_npc_id> <!-- Nephilim Centurion -->
-				<ignore_npc_id>21202</ignore_npc_id> <!-- Nephilim Scout -->
-				<ignore_npc_id>21203</ignore_npc_id> <!-- Nephilim Archbishop -->
-				<ignore_npc_id>21204</ignore_npc_id> <!-- Nephilim Praetorian -->
-				<ignore_npc_id>21205</ignore_npc_id> <!-- Nephilim Royal Guard -->
-				<ignore_npc_id>21206</ignore_npc_id> <!-- Nephilim Cardinal -->
-				<ignore_npc_id>21207</ignore_npc_id> <!-- Nephilim Commander -->
-			</clan_list>
+				<ignoreNpcId>21196</ignoreNpcId> <!-- Nephilim Sentinel -->
+				<ignoreNpcId>21197</ignoreNpcId> <!-- Nephilim Priest -->
+				<ignoreNpcId>21198</ignoreNpcId> <!-- Nephilim Swordsman -->
+				<ignoreNpcId>21199</ignoreNpcId> <!-- Nephilim Guard -->
+				<ignoreNpcId>21200</ignoreNpcId> <!-- Nephilim Bishop -->
+				<ignoreNpcId>21201</ignoreNpcId> <!-- Nephilim Centurion -->
+				<ignoreNpcId>21202</ignoreNpcId> <!-- Nephilim Scout -->
+				<ignoreNpcId>21203</ignoreNpcId> <!-- Nephilim Archbishop -->
+				<ignoreNpcId>21204</ignoreNpcId> <!-- Nephilim Praetorian -->
+				<ignoreNpcId>21205</ignoreNpcId> <!-- Nephilim Royal Guard -->
+				<ignoreNpcId>21206</ignoreNpcId> <!-- Nephilim Cardinal -->
+				<ignoreNpcId>21207</ignoreNpcId> <!-- Nephilim Commander -->
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="6437" max="15020" chance="70" /> <!-- Adena -->
 				<item id="36563" min="1" max="1" chance="2.286" /> <!-- Synthetic Cokes -->
@@ -2684,7 +2684,7 @@
 				<item id="36558" min="1" max="1" chance="7.148" /> <!-- Accessory Gem (Mid-grade) -->
 				<item id="36553" min="1" max="1" chance="2.043" /> <!-- Armor Fragment (Mid-grade) -->
 			</spoil>
-		</drop_lists>
+		</dropLists>
 		<collision>
 			<radius normal="13" />
 			<height normal="44" />
@@ -2712,11 +2712,11 @@
 				<walk ground="50" />
 				<run ground="180" />
 			</speed>
-			<hit_time>500</hit_time>
+			<hitTime>500</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4002" level="8" /> <!-- NPC HP Drain -->
 			<skill id="4046" level="8" /> <!-- Sleep -->
 			<skill id="4094" level="8" /> <!-- NPC Cancel Magic -->
@@ -2734,27 +2734,27 @@
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="4278" level="1" /> <!-- Dark Attack -->
 			<skill id="4333" level="5" /> <!-- Dark Attack Resistance -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
-		<s_npc_prop_hp_rate>4</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>4</sNpcPropHpRate>
 		<ai type="MAGE" clanHelpRange="400" aggroRange="450">
-			<clan_list>
+			<clanList>
 				<clan>C_DUNGEON</clan>
-				<ignore_npc_id>21196</ignore_npc_id> <!-- Nephilim Sentinel -->
-				<ignore_npc_id>21197</ignore_npc_id> <!-- Nephilim Priest -->
-				<ignore_npc_id>21198</ignore_npc_id> <!-- Nephilim Swordsman -->
-				<ignore_npc_id>21199</ignore_npc_id> <!-- Nephilim Guard -->
-				<ignore_npc_id>21200</ignore_npc_id> <!-- Nephilim Bishop -->
-				<ignore_npc_id>21201</ignore_npc_id> <!-- Nephilim Centurion -->
-				<ignore_npc_id>21202</ignore_npc_id> <!-- Nephilim Scout -->
-				<ignore_npc_id>21203</ignore_npc_id> <!-- Nephilim Archbishop -->
-				<ignore_npc_id>21204</ignore_npc_id> <!-- Nephilim Praetorian -->
-				<ignore_npc_id>21205</ignore_npc_id> <!-- Nephilim Royal Guard -->
-				<ignore_npc_id>21206</ignore_npc_id> <!-- Nephilim Cardinal -->
-				<ignore_npc_id>21207</ignore_npc_id> <!-- Nephilim Commander -->
-			</clan_list>
+				<ignoreNpcId>21196</ignoreNpcId> <!-- Nephilim Sentinel -->
+				<ignoreNpcId>21197</ignoreNpcId> <!-- Nephilim Priest -->
+				<ignoreNpcId>21198</ignoreNpcId> <!-- Nephilim Swordsman -->
+				<ignoreNpcId>21199</ignoreNpcId> <!-- Nephilim Guard -->
+				<ignoreNpcId>21200</ignoreNpcId> <!-- Nephilim Bishop -->
+				<ignoreNpcId>21201</ignoreNpcId> <!-- Nephilim Centurion -->
+				<ignoreNpcId>21202</ignoreNpcId> <!-- Nephilim Scout -->
+				<ignoreNpcId>21203</ignoreNpcId> <!-- Nephilim Archbishop -->
+				<ignoreNpcId>21204</ignoreNpcId> <!-- Nephilim Praetorian -->
+				<ignoreNpcId>21205</ignoreNpcId> <!-- Nephilim Royal Guard -->
+				<ignoreNpcId>21206</ignoreNpcId> <!-- Nephilim Cardinal -->
+				<ignoreNpcId>21207</ignoreNpcId> <!-- Nephilim Commander -->
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="5569" max="13008" chance="70" /> <!-- Adena -->
 				<item id="19440" min="1" max="1" chance="0.975" /> <!-- Gemstone (R-grade) -->
@@ -2764,7 +2764,7 @@
 				<item id="36558" min="1" max="1" chance="6.167" /> <!-- Accessory Gem (Mid-grade) -->
 				<item id="36553" min="1" max="1" chance="1.838" /> <!-- Armor Fragment (Mid-grade) -->
 			</spoil>
-		</drop_lists>
+		</dropLists>
 		<collision>
 			<radius normal="10" />
 			<height normal="37.5" />
@@ -2791,11 +2791,11 @@
 				<walk ground="56" />
 				<run ground="200" />
 			</speed>
-			<hit_time>460</hit_time>
+			<hitTime>460</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4032" level="9" /> <!-- NPC Strike -->
 			<skill id="4072" level="9" /> <!-- Stun -->
 			<skill id="4092" level="1" /> <!-- NPC Puma Spirit Totem -->
@@ -2813,27 +2813,27 @@
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="4278" level="1" /> <!-- Dark Attack -->
 			<skill id="4333" level="5" /> <!-- Dark Attack Resistance -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
-		<s_npc_prop_hp_rate>4</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>4</sNpcPropHpRate>
 		<ai clanHelpRange="400" aggroRange="450">
-			<clan_list>
+			<clanList>
 				<clan>C_DUNGEON</clan>
-				<ignore_npc_id>21196</ignore_npc_id> <!-- Nephilim Sentinel -->
-				<ignore_npc_id>21197</ignore_npc_id> <!-- Nephilim Priest -->
-				<ignore_npc_id>21198</ignore_npc_id> <!-- Nephilim Swordsman -->
-				<ignore_npc_id>21199</ignore_npc_id> <!-- Nephilim Guard -->
-				<ignore_npc_id>21200</ignore_npc_id> <!-- Nephilim Bishop -->
-				<ignore_npc_id>21201</ignore_npc_id> <!-- Nephilim Centurion -->
-				<ignore_npc_id>21202</ignore_npc_id> <!-- Nephilim Scout -->
-				<ignore_npc_id>21203</ignore_npc_id> <!-- Nephilim Archbishop -->
-				<ignore_npc_id>21204</ignore_npc_id> <!-- Nephilim Praetorian -->
-				<ignore_npc_id>21205</ignore_npc_id> <!-- Nephilim Royal Guard -->
-				<ignore_npc_id>21206</ignore_npc_id> <!-- Nephilim Cardinal -->
-				<ignore_npc_id>21207</ignore_npc_id> <!-- Nephilim Commander -->
-			</clan_list>
+				<ignoreNpcId>21196</ignoreNpcId> <!-- Nephilim Sentinel -->
+				<ignoreNpcId>21197</ignoreNpcId> <!-- Nephilim Priest -->
+				<ignoreNpcId>21198</ignoreNpcId> <!-- Nephilim Swordsman -->
+				<ignoreNpcId>21199</ignoreNpcId> <!-- Nephilim Guard -->
+				<ignoreNpcId>21200</ignoreNpcId> <!-- Nephilim Bishop -->
+				<ignoreNpcId>21201</ignoreNpcId> <!-- Nephilim Centurion -->
+				<ignoreNpcId>21202</ignoreNpcId> <!-- Nephilim Scout -->
+				<ignoreNpcId>21203</ignoreNpcId> <!-- Nephilim Archbishop -->
+				<ignoreNpcId>21204</ignoreNpcId> <!-- Nephilim Praetorian -->
+				<ignoreNpcId>21205</ignoreNpcId> <!-- Nephilim Royal Guard -->
+				<ignoreNpcId>21206</ignoreNpcId> <!-- Nephilim Cardinal -->
+				<ignoreNpcId>21207</ignoreNpcId> <!-- Nephilim Commander -->
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="4516" max="10527" chance="70" /> <!-- Adena -->
 				<item id="37724" min="1" max="1" chance="0.3" /> <!-- Shilen's Energy -->
@@ -2843,7 +2843,7 @@
 				<item id="36553" min="1" max="1" chance="1.383" /> <!-- Armor Fragment (Mid-grade) -->
 				<item id="45930" min="1" max="1" chance="0.3" /> <!-- Mid-grade Spirit Stone -->
 			</spoil>
-		</drop_lists>
+		</dropLists>
 		<collision>
 			<radius normal="13" />
 			<height normal="55" />
@@ -2872,11 +2872,11 @@
 				<walk ground="65" />
 				<run ground="180" />
 			</speed>
-			<hit_time>630</hit_time>
+			<hitTime>630</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4032" level="5" /> <!-- NPC Strike -->
 			<skill id="4287" level="5" /> <!-- Resist Hold Attacks -->
 			<skill id="4408" level="12" /> <!-- HP Increase (4x) -->
@@ -2890,27 +2890,27 @@
 			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
 			<skill id="4416" level="8" /> <!-- Angels -->
 			<skill id="4336" level="2" /> <!-- Dark Attack Vulnerability -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
-		<s_npc_prop_hp_rate>4</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>4</sNpcPropHpRate>
 		<ai clanHelpRange="400" aggroRange="450">
-			<clan_list>
+			<clanList>
 				<clan>C_DUNGEON</clan>
-				<ignore_npc_id>21175</ignore_npc_id> <!-- Lilim Butcher -->
-				<ignore_npc_id>21176</ignore_npc_id> <!-- Lilim Magus -->
-				<ignore_npc_id>21177</ignore_npc_id> <!-- Lilim Knight-Errant -->
-				<ignore_npc_id>21178</ignore_npc_id> <!-- Lilim Marauder -->
-				<ignore_npc_id>21179</ignore_npc_id> <!-- Lilim Seer -->
-				<ignore_npc_id>21180</ignore_npc_id> <!-- Lilim Knight -->
-				<ignore_npc_id>21181</ignore_npc_id> <!-- Lilim Assassin -->
-				<ignore_npc_id>21182</ignore_npc_id> <!-- Lilim Soldier -->
-				<ignore_npc_id>21183</ignore_npc_id> <!-- Lilim Knight Commander -->
-				<ignore_npc_id>21184</ignore_npc_id> <!-- Lilim Slayer -->
-				<ignore_npc_id>21185</ignore_npc_id> <!-- Lilim Great Magus -->
-				<ignore_npc_id>21186</ignore_npc_id> <!-- Lilim Guard Knight -->
-			</clan_list>
+				<ignoreNpcId>21175</ignoreNpcId> <!-- Lilim Butcher -->
+				<ignoreNpcId>21176</ignoreNpcId> <!-- Lilim Magus -->
+				<ignoreNpcId>21177</ignoreNpcId> <!-- Lilim Knight-Errant -->
+				<ignoreNpcId>21178</ignoreNpcId> <!-- Lilim Marauder -->
+				<ignoreNpcId>21179</ignoreNpcId> <!-- Lilim Seer -->
+				<ignoreNpcId>21180</ignoreNpcId> <!-- Lilim Knight -->
+				<ignoreNpcId>21181</ignoreNpcId> <!-- Lilim Assassin -->
+				<ignoreNpcId>21182</ignoreNpcId> <!-- Lilim Soldier -->
+				<ignoreNpcId>21183</ignoreNpcId> <!-- Lilim Knight Commander -->
+				<ignoreNpcId>21184</ignoreNpcId> <!-- Lilim Slayer -->
+				<ignoreNpcId>21185</ignoreNpcId> <!-- Lilim Great Magus -->
+				<ignoreNpcId>21186</ignoreNpcId> <!-- Lilim Guard Knight -->
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="7034" max="16408" chance="70" /> <!-- Adena -->
 				<item id="36563" min="1" max="1" chance="2.448" /> <!-- Synthetic Cokes -->
@@ -2920,7 +2920,7 @@
 				<item id="36558" min="1" max="1" chance="7.807" /> <!-- Accessory Gem (Mid-grade) -->
 				<item id="36553" min="1" max="1" chance="2.263" /> <!-- Armor Fragment (Mid-grade) -->
 			</spoil>
-		</drop_lists>
+		</dropLists>
 		<collision>
 			<radius normal="11" />
 			<height normal="32.4" />

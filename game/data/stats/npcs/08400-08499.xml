@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/npcs.xsd">
 	<npc id="8401" level="88" type="L2Monster" name="Jermann" title="Ancient Kartia's Ruler">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -19,18 +19,18 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
-		</skill_list>
+		</skillList>
 		<shots soul="2" spirit="2" />
 		<ai>
-			<clan_list>
+			<clanList>
 				<clan>PC_TO_NPC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="35" />
@@ -56,18 +56,18 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
-		</skill_list>
+		</skillList>
 		<shots soul="2" spirit="2" />
 		<ai>
-			<clan_list>
+			<clanList>
 				<clan>PC_TO_NPC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="35" />
@@ -93,18 +93,18 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
-		</skill_list>
+		</skillList>
 		<shots soul="2" spirit="2" />
 		<ai>
-			<clan_list>
+			<clanList>
 				<clan>PC_TO_NPC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="35" />
@@ -129,10 +129,10 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="4" /> <!-- Animals -->
 			<skill id="4415" level="1" /> <!-- Bare Hands -->
-		</skill_list>
+		</skillList>
 		<shots soul="2" spirit="2" />
 		<collision>
 			<radius normal="8" />
@@ -157,14 +157,14 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="19" /> <!-- Others -->
 			<skill id="4415" level="1" /> <!-- Bare Hands -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="300" aggroRange="100">
-			<clan_list>
+			<clanList>
 				<clan>PC_TO_NPC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="32" />
@@ -189,16 +189,16 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" targetable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="2" /> <!-- Magic Creatures -->
 			<skill id="4390" level="1" /> <!-- NPC Abnormal Immunity -->
 			<skill id="4415" level="1" /> <!-- Bare Hands -->
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
-		</skill_list>
+		</skillList>
 		<ai>
-			<clan_list>
+			<clanList>
 				<clan>PC_TO_NPC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="10" />
@@ -229,7 +229,7 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="16" /> <!-- Dark Elfs -->
 			<skill id="23452" level="1" /> <!-- (Protection of Faith) -->
 			<skill id="23451" level="1" /> <!-- (Final Ultimate Defense) -->
@@ -243,12 +243,12 @@
 			<skill id="4414" level="1" /> <!-- Heavy Armor Type -->
 			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-		</skill_list>
+		</skillList>
 		<shots soul="1" spirit="1" />
 		<ai clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>NPC_TO_PC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="8" />
@@ -279,7 +279,7 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="17" /> <!-- Orcs -->
 			<skill id="23462" level="1" /> <!-- (Power Bomber) -->
 			<skill id="23458" level="1" /> <!-- (Second Wind) -->
@@ -292,12 +292,12 @@
 			<skill id="14765" level="5" /> <!-- Blood Siphon Resistance -->
 			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-		</skill_list>
+		</skillList>
 		<shots soul="1" spirit="1" />
 		<ai clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>NPC_TO_PC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="10" />
@@ -329,7 +329,7 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="15" /> <!-- Elves -->
 			<skill id="23471" level="1" /> <!-- (Elemental Destruction) -->
 			<skill id="23472" level="1" /> <!-- (Mass Devil's Curse) -->
@@ -341,12 +341,12 @@
 			<skill id="14765" level="5" /> <!-- Blood Siphon Resistance -->
 			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-		</skill_list>
+		</skillList>
 		<shots soul="1" spirit="1" />
 		<ai clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>NPC_TO_PC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="7" />
@@ -378,7 +378,7 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="14" /> <!-- Humans -->
 			<skill id="23500" level="1" /> <!-- (Harp Melody) -->
 			<skill id="23494" level="1" /> <!-- (Drum Melody) -->
@@ -396,12 +396,12 @@
 			<skill id="14765" level="5" /> <!-- Blood Siphon Resistance -->
 			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-		</skill_list>
+		</skillList>
 		<shots soul="1" spirit="1" />
 		<ai clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>NPC_TO_PC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="8" />
@@ -431,7 +431,7 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="18" /> <!-- Dwarves -->
 			<skill id="23469" level="1" /> <!-- (Razor Rain) -->
 			<skill id="23467" level="1" /> <!-- (Blood Stab) -->
@@ -442,12 +442,12 @@
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
 			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-		</skill_list>
+		</skillList>
 		<shots soul="1" spirit="1" />
 		<ai clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>NPC_TO_PC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="7" />
@@ -479,7 +479,7 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="15" /> <!-- Elves -->
 			<skill id="23471" level="2" /> <!-- (Elemental Destruction) -->
 			<skill id="23472" level="2" /> <!-- (Mass Devil's Curse) -->
@@ -491,12 +491,12 @@
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
 			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-		</skill_list>
+		</skillList>
 		<shots soul="1" spirit="1" />
 		<ai clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>NPC_TO_PC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="7" />
@@ -528,7 +528,7 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="15" /> <!-- Elves -->
 			<skill id="23475" level="1" /> <!-- (Crippling Attack) -->
 			<skill id="23477" level="1" /> <!-- (Assault Rush) -->
@@ -545,12 +545,12 @@
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
 			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-		</skill_list>
+		</skillList>
 		<shots soul="1" spirit="1" />
 		<ai clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>NPC_TO_PC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="6" />
@@ -581,7 +581,7 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="14" /> <!-- Humans -->
 			<skill id="23453" level="3" /> <!-- (Superior Aggression) -->
 			<skill id="23452" level="3" /> <!-- (Protection of Faith) -->
@@ -596,12 +596,12 @@
 			<skill id="4414" level="1" /> <!-- Heavy Armor Type -->
 			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-		</skill_list>
+		</skillList>
 		<shots soul="1" spirit="1" />
 		<ai clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>NPC_TO_PC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="8" />
@@ -633,7 +633,7 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="25" /> <!-- Kamael -->
 			<skill id="23464" level="1" /> <!-- (Tornado Shot) -->
 			<skill id="23465" level="1" /> <!-- (Impact Shot) -->
@@ -645,12 +645,12 @@
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
 			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-		</skill_list>
+		</skillList>
 		<shots soul="1" spirit="1" />
 		<ai clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>NPC_TO_PC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="7" />
@@ -675,7 +675,7 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="2" /> <!-- Magic Creatures -->
 			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
 			<skill id="4441" level="5" /> <!-- Greater Mental Attack Resistance -->
@@ -684,11 +684,11 @@
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14765" level="2" /> <!-- Blood Siphon Resistance -->
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>PC_TO_NPC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="7" />
@@ -713,16 +713,16 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" targetable="false" showName="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="2" /> <!-- Magic Creatures -->
 			<skill id="4390" level="1" /> <!-- NPC Abnormal Immunity -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>PC_TO_NPC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="15" />
@@ -754,16 +754,16 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" targetable="false" showName="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="2" /> <!-- Magic Creatures -->
 			<skill id="4390" level="1" /> <!-- NPC Abnormal Immunity -->
 			<skill id="4415" level="1" /> <!-- Bare Hands -->
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="600">
-			<clan_list>
+			<clanList>
 				<clan>PC_TO_NPC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="10" />
@@ -788,16 +788,16 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" targetable="false" showName="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="2" /> <!-- Magic Creatures -->
 			<skill id="4390" level="1" /> <!-- NPC Abnormal Immunity -->
 			<skill id="4415" level="1" /> <!-- Bare Hands -->
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="600">
-			<clan_list>
+			<clanList>
 				<clan>PC_TO_NPC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="10" />
@@ -829,16 +829,16 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" targetable="false" showName="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="2" /> <!-- Magic Creatures -->
 			<skill id="4390" level="1" /> <!-- NPC Abnormal Immunity -->
 			<skill id="4415" level="1" /> <!-- Bare Hands -->
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="600">
-			<clan_list>
+			<clanList>
 				<clan>PC_TO_NPC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="10" />
@@ -870,16 +870,16 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" targetable="false" showName="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="2" /> <!-- Magic Creatures -->
 			<skill id="4390" level="1" /> <!-- NPC Abnormal Immunity -->
 			<skill id="4415" level="1" /> <!-- Bare Hands -->
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="600">
-			<clan_list>
+			<clanList>
 				<clan>PC_TO_NPC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="10" />
@@ -909,17 +909,17 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" targetable="false" showName="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="5467" level="1" /> <!-- Dark Attack -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="600">
-			<clan_list>
+			<clanList>
 				<clan>PC_TO_NPC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="35" />
@@ -953,17 +953,17 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" targetable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
 			<skill id="4408" level="12" /> <!-- HP Increase (4x) -->
 			<skill id="5467" level="1" /> <!-- Dark Attack -->
 			<skill id="4415" level="19" /> <!-- Dualsword -->
 			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>PC_TO_NPC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="16" />
@@ -993,13 +993,13 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="9" /> <!-- Demons -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="200" aggroRange="200">
-			<clan_list>
+			<clanList>
 				<clan>PC_TO_NPC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="10" />
@@ -1029,13 +1029,13 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="200" aggroRange="200">
-			<clan_list>
+			<clanList>
 				<clan>PC_TO_NPC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="17" />
@@ -1060,11 +1060,11 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="4" /> <!-- Animals -->
 			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
 			<skill id="4390" level="1" /> <!-- NPC Abnormal Immunity -->
-		</skill_list>
+		</skillList>
 		<shots soul="2" spirit="2" />
 		<collision>
 			<radius normal="33" />
@@ -1089,16 +1089,16 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" targetable="false" showName="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="2" /> <!-- Magic Creatures -->
 			<skill id="4390" level="1" /> <!-- NPC Abnormal Immunity -->
 			<skill id="4415" level="1" /> <!-- Bare Hands -->
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="600">
-			<clan_list>
+			<clanList>
 				<clan>PC_TO_NPC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="10" />
@@ -1129,7 +1129,7 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="16" /> <!-- Dark Elfs -->
 			<skill id="23452" level="2" /> <!-- (Protection of Faith) -->
 			<skill id="23451" level="2" /> <!-- (Final Ultimate Defense) -->
@@ -1143,12 +1143,12 @@
 			<skill id="4414" level="1" /> <!-- Heavy Armor Type -->
 			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-		</skill_list>
+		</skillList>
 		<shots soul="1" spirit="1" />
 		<ai clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>NPC_TO_PC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="8" />
@@ -1180,7 +1180,7 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="14" /> <!-- Humans -->
 			<skill id="23455" level="2" /> <!-- (Radiant Heal) -->
 			<skill id="23457" level="2" /> <!-- (Sustain) -->
@@ -1192,12 +1192,12 @@
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
 			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-		</skill_list>
+		</skillList>
 		<shots soul="1" spirit="1" />
 		<ai clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>NPC_TO_PC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="8" />
@@ -1229,7 +1229,7 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="15" /> <!-- Elves -->
 			<skill id="23475" level="2" /> <!-- (Crippling Attack) -->
 			<skill id="23477" level="2" /> <!-- (Assault Rush) -->
@@ -1249,12 +1249,12 @@
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
 			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-		</skill_list>
+		</skillList>
 		<shots soul="1" spirit="1" />
 		<ai clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>NPC_TO_PC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="6" />
@@ -1286,7 +1286,7 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="14" /> <!-- Humans -->
 			<skill id="23455" level="3" /> <!-- (Radiant Heal) -->
 			<skill id="23457" level="3" /> <!-- (Sustain) -->
@@ -1298,12 +1298,12 @@
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
 			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-		</skill_list>
+		</skillList>
 		<shots soul="1" spirit="1" />
 		<ai clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>NPC_TO_PC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="8" />
@@ -1333,7 +1333,7 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="18" /> <!-- Dwarves -->
 			<skill id="23469" level="2" /> <!-- (Razor Rain) -->
 			<skill id="23467" level="2" /> <!-- (Blood Stab) -->
@@ -1344,12 +1344,12 @@
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
 			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-		</skill_list>
+		</skillList>
 		<shots soul="1" spirit="1" />
 		<ai clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>NPC_TO_PC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="7" />
@@ -1383,17 +1383,17 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" targetable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
 			<skill id="4408" level="12" /> <!-- HP Increase (4x) -->
 			<skill id="5467" level="1" /> <!-- Dark Attack -->
 			<skill id="4415" level="19" /> <!-- Dualsword -->
 			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>PC_TO_NPC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="16" />
@@ -1427,17 +1427,17 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" targetable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
 			<skill id="4408" level="12" /> <!-- HP Increase (4x) -->
 			<skill id="5467" level="1" /> <!-- Dark Attack -->
 			<skill id="4415" level="19" /> <!-- Dualsword -->
 			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>PC_TO_NPC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="16" />
@@ -1462,11 +1462,11 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="4" /> <!-- Animals -->
 			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
 			<skill id="4390" level="1" /> <!-- NPC Abnormal Immunity -->
-		</skill_list>
+		</skillList>
 		<shots soul="2" spirit="2" />
 		<collision>
 			<radius normal="9" />
@@ -1496,15 +1496,15 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="4408" level="2" /> <!-- HP Medium-High -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="200" aggroRange="200">
-			<clan_list>
+			<clanList>
 				<clan>PC_TO_NPC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="10" />
@@ -1534,15 +1534,15 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="4408" level="2" /> <!-- HP Medium-High -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="200" aggroRange="200">
-			<clan_list>
+			<clanList>
 				<clan>PC_TO_NPC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="17" />
@@ -1572,15 +1572,15 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="4408" level="2" /> <!-- HP Medium-High -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="200" aggroRange="200">
-			<clan_list>
+			<clanList>
 				<clan>PC_TO_NPC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="10" />
@@ -1610,15 +1610,15 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="4408" level="2" /> <!-- HP Medium-High -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="200" aggroRange="200">
-			<clan_list>
+			<clanList>
 				<clan>PC_TO_NPC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="17" />
@@ -1643,12 +1643,12 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="19" /> <!-- Misc. -->
 			<skill id="4390" level="1" /> <!-- NPC Abnormal Immunity -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="20" />
 			<height normal="30" />
@@ -1669,7 +1669,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
 			<skill id="4410" level="10" /> <!-- Slightly Weak P. Atk. -->
 			<skill id="4411" level="10" /> <!-- Slightly Weak M. Atk. -->
@@ -1677,7 +1677,7 @@
 			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="4415" level="1" /> <!-- Bare Hands -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="200" aggroRange="200" />
 		<collision>
 			<radius normal="12" />
@@ -1702,16 +1702,16 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" targetable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="2" /> <!-- Magic Creatures -->
 			<skill id="4390" level="1" /> <!-- NPC Abnormal Immunity -->
 			<skill id="4415" level="1" /> <!-- Bare Hands -->
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="140" aggroRange="200">
-			<clan_list>
+			<clanList>
 				<clan>PC_TO_NPC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="10" />
@@ -1736,11 +1736,11 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" targetable="false" showName="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="2" /> <!-- Magic Creatures -->
 			<skill id="4390" level="1" /> <!-- NPC Abnormal Immunity -->
 			<skill id="4415" level="1" /> <!-- Bare Hands -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="44.5" />
 			<height normal="7" />
@@ -1764,15 +1764,15 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" showName="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="1500" aggroRange="1500">
-			<clan_list>
+			<clanList>
 				<clan>NPC_TO_PC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="17" />
@@ -1797,15 +1797,15 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" showName="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="1500" aggroRange="1500">
-			<clan_list>
+			<clanList>
 				<clan>NPC_TO_PC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="10" />
@@ -1830,15 +1830,15 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4408" level="2" /> <!-- HP Medium-High -->
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>NPC_TO_PC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="10" />
@@ -1863,15 +1863,15 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4408" level="2" /> <!-- HP Medium-High -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>NPC_TO_PC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="17" />
@@ -1893,12 +1893,12 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="2" /> <!-- Magic Creatures -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4413" level="21" /> <!-- Extremely Strong M. Def. -->
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="8.5" />
 			<height normal="8.5" />
@@ -1926,17 +1926,17 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="5467" level="1" /> <!-- Dark Attack -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14765" level="2" /> <!-- Blood Siphon Resistance -->
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="600" aggroRange="450">
-			<clan_list>
+			<clanList>
 				<clan>UNDEAD</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="30" />
@@ -1965,17 +1965,17 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="5462" level="1" /> <!-- Fire Attack -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14765" level="3" /> <!-- Blood Siphon Resistance -->
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="600" aggroRange="450">
-			<clan_list>
+			<clanList>
 				<clan>DEMONIC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="18" />
@@ -2004,17 +2004,17 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="5464" level="1" /> <!-- Wind Attack -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="600" aggroRange="450">
-			<clan_list>
+			<clanList>
 				<clan>DRAGON</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="25" />
@@ -2040,15 +2040,15 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14765" level="2" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="1500" aggroRange="1500">
-			<clan_list>
+			<clanList>
 				<clan>UNDEAD</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="14" />
@@ -2074,15 +2074,15 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14765" level="2" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="1500" aggroRange="1500">
-			<clan_list>
+			<clanList>
 				<clan>UNDEAD</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="21.12" />
@@ -2108,16 +2108,16 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="5462" level="1" /> <!-- Fire Attack -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14765" level="3" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="1500" aggroRange="1500">
-			<clan_list>
+			<clanList>
 				<clan>DEMONIC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="18" />
@@ -2143,16 +2143,16 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="5462" level="1" /> <!-- Fire Attack -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14765" level="3" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="1500" aggroRange="1500">
-			<clan_list>
+			<clanList>
 				<clan>DEMONIC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="14" />
@@ -2179,16 +2179,16 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="10" /> <!-- Dragons -->
 			<skill id="5464" level="1" /> <!-- Wind Attack -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="1500" aggroRange="1500">
-			<clan_list>
+			<clanList>
 				<clan>DRAGON</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="22" />
@@ -2215,16 +2215,16 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="10" /> <!-- Dragons -->
 			<skill id="5464" level="1" /> <!-- Wind Attack -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="1500" aggroRange="1500">
-			<clan_list>
+			<clanList>
 				<clan>DRAGON</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="25" />
@@ -2249,16 +2249,16 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="2" /> <!-- Magic Creatures -->
 			<skill id="4390" level="1" /> <!-- NPC Abnormal Immunity -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>PC_TO_NPC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="30" />
@@ -2287,11 +2287,11 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="7" /> <!-- Spirits -->
 			<skill id="4415" level="1" /> <!-- Bare Hands -->
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="300" aggroRange="450" />
 		<collision>
 			<radius normal="8" />
@@ -2316,11 +2316,11 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="7" /> <!-- Spirits -->
 			<skill id="4415" level="1" /> <!-- Bare Hands -->
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="300" aggroRange="450" />
 		<collision>
 			<radius normal="7" />
@@ -2345,11 +2345,11 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" targetable="false" showName="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="7" /> <!-- Spirits -->
 			<skill id="4415" level="1" /> <!-- Bare Hands -->
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="300" aggroRange="450" />
 		<collision>
 			<radius normal="18" />
@@ -2374,12 +2374,12 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="2" /> <!-- Magic Creatures -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4413" level="21" /> <!-- Extremely Strong M. Def. -->
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="7" />
 			<height normal="35" />
@@ -2403,15 +2403,15 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4408" level="2" /> <!-- HP Medium-High -->
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>PC_TO_NPC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="10" />
@@ -2436,15 +2436,15 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4408" level="2" /> <!-- HP Medium-High -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>PC_TO_NPC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="17" />
@@ -2469,16 +2469,16 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" targetable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="2" /> <!-- Magic Creatures -->
 			<skill id="4390" level="1" /> <!-- NPC Abnormal Immunity -->
 			<skill id="4415" level="1" /> <!-- Bare Hands -->
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
-		</skill_list>
+		</skillList>
 		<ai>
-			<clan_list>
+			<clanList>
 				<clan>PC_TO_NPC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="10" />
@@ -2503,11 +2503,11 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="7" /> <!-- Spirits -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="300" aggroRange="450" />
 		<collision>
 			<radius normal="6" />
@@ -2533,15 +2533,15 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="4" /> <!-- Animals -->
 			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
 			<skill id="4390" level="1" /> <!-- NPC Abnormal Immunity -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="1000" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>RAT</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="15" />
@@ -2566,7 +2566,7 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="14" /> <!-- Humans -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4411" level="9" /> <!-- Slightly Weak M. Atk. -->
@@ -2574,12 +2574,12 @@
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
 			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-		</skill_list>
+		</skillList>
 		<shots soul="1" spirit="1" />
 		<ai clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>NPC_TO_PC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="9" />
@@ -2604,7 +2604,7 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="14" /> <!-- Humans -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4411" level="9" /> <!-- Slightly Weak M. Atk. -->
@@ -2612,12 +2612,12 @@
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
 			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-		</skill_list>
+		</skillList>
 		<shots soul="1" spirit="1" />
 		<ai clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>NPC_TO_PC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="8" />
@@ -2642,7 +2642,7 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="14" /> <!-- Humans -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4411" level="9" /> <!-- Slightly Weak M. Atk. -->
@@ -2650,12 +2650,12 @@
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
 			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-		</skill_list>
+		</skillList>
 		<shots soul="1" spirit="1" />
 		<ai clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>NPC_TO_PC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="7.5" />
@@ -2680,7 +2680,7 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="14" /> <!-- Humans -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4411" level="9" /> <!-- Slightly Weak M. Atk. -->
@@ -2688,12 +2688,12 @@
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
 			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-		</skill_list>
+		</skillList>
 		<shots soul="1" spirit="1" />
 		<ai clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>NPC_TO_PC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="6.5" />
@@ -2718,7 +2718,7 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="14" /> <!-- Humans -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4411" level="9" /> <!-- Slightly Weak M. Atk. -->
@@ -2726,12 +2726,12 @@
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
 			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-		</skill_list>
+		</skillList>
 		<shots soul="1" spirit="1" />
 		<ai clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>NPC_TO_PC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="7.5" />
@@ -2756,7 +2756,7 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="14" /> <!-- Humans -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4411" level="9" /> <!-- Slightly Weak M. Atk. -->
@@ -2764,12 +2764,12 @@
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
 			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-		</skill_list>
+		</skillList>
 		<shots soul="1" spirit="1" />
 		<ai clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>NPC_TO_PC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="7.5" />
@@ -2794,7 +2794,7 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="14" /> <!-- Humans -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4411" level="9" /> <!-- Slightly Weak M. Atk. -->
@@ -2802,12 +2802,12 @@
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
 			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-		</skill_list>
+		</skillList>
 		<shots soul="1" spirit="1" />
 		<ai clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>NPC_TO_PC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="7.5" />
@@ -2832,7 +2832,7 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="14" /> <!-- Humans -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4411" level="9" /> <!-- Slightly Weak M. Atk. -->
@@ -2840,12 +2840,12 @@
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
 			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-		</skill_list>
+		</skillList>
 		<shots soul="1" spirit="1" />
 		<ai clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>NPC_TO_PC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="7" />
@@ -2870,7 +2870,7 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="14" /> <!-- Humans -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4411" level="9" /> <!-- Slightly Weak M. Atk. -->
@@ -2878,12 +2878,12 @@
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
 			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-		</skill_list>
+		</skillList>
 		<shots soul="1" spirit="1" />
 		<ai clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>NPC_TO_PC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="9" />
@@ -2908,7 +2908,7 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="14" /> <!-- Humans -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4411" level="9" /> <!-- Slightly Weak M. Atk. -->
@@ -2916,12 +2916,12 @@
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
 			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-		</skill_list>
+		</skillList>
 		<shots soul="1" spirit="1" />
 		<ai clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>NPC_TO_PC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="5" />
@@ -2946,7 +2946,7 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="14" /> <!-- Humans -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4411" level="9" /> <!-- Slightly Weak M. Atk. -->
@@ -2954,12 +2954,12 @@
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
 			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-		</skill_list>
+		</skillList>
 		<shots soul="1" spirit="1" />
 		<ai clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>NPC_TO_PC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="11" />
@@ -2984,7 +2984,7 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="14" /> <!-- Humans -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4411" level="9" /> <!-- Slightly Weak M. Atk. -->
@@ -2992,12 +2992,12 @@
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
 			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-		</skill_list>
+		</skillList>
 		<shots soul="1" spirit="1" />
 		<ai clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>NPC_TO_PC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="7" />
@@ -3022,7 +3022,7 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="14" /> <!-- Humans -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4411" level="9" /> <!-- Slightly Weak M. Atk. -->
@@ -3030,12 +3030,12 @@
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
 			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-		</skill_list>
+		</skillList>
 		<shots soul="1" spirit="1" />
 		<ai clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>NPC_TO_PC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="7" />
@@ -3060,7 +3060,7 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="14" /> <!-- Humans -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4411" level="9" /> <!-- Slightly Weak M. Atk. -->
@@ -3068,12 +3068,12 @@
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
 			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-		</skill_list>
+		</skillList>
 		<shots soul="1" spirit="1" />
 		<ai clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>NPC_TO_PC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="8" />
@@ -3098,7 +3098,7 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="14" /> <!-- Humans -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4411" level="9" /> <!-- Slightly Weak M. Atk. -->
@@ -3106,12 +3106,12 @@
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
 			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-		</skill_list>
+		</skillList>
 		<shots soul="1" spirit="1" />
 		<ai clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>NPC_TO_PC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="8" />
@@ -3136,7 +3136,7 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="14" /> <!-- Humans -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4411" level="9" /> <!-- Slightly Weak M. Atk. -->
@@ -3144,12 +3144,12 @@
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
 			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-		</skill_list>
+		</skillList>
 		<shots soul="1" spirit="1" />
 		<ai clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>NPC_TO_PC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="7" />
@@ -3174,7 +3174,7 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" targetable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="14" /> <!-- Humans -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4411" level="9" /> <!-- Slightly Weak M. Atk. -->
@@ -3182,12 +3182,12 @@
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
 			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-		</skill_list>
+		</skillList>
 		<shots soul="1" spirit="1" />
 		<ai clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>NPC_TO_PC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="9" />
@@ -3212,7 +3212,7 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" targetable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="14" /> <!-- Humans -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4411" level="9" /> <!-- Slightly Weak M. Atk. -->
@@ -3220,12 +3220,12 @@
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
 			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-		</skill_list>
+		</skillList>
 		<shots soul="1" spirit="1" />
 		<ai clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>NPC_TO_PC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="8" />
@@ -3250,7 +3250,7 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" targetable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="14" /> <!-- Humans -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4411" level="9" /> <!-- Slightly Weak M. Atk. -->
@@ -3258,12 +3258,12 @@
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
 			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-		</skill_list>
+		</skillList>
 		<shots soul="1" spirit="1" />
 		<ai clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>NPC_TO_PC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="7.5" />
@@ -3288,7 +3288,7 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" targetable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="14" /> <!-- Humans -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4411" level="9" /> <!-- Slightly Weak M. Atk. -->
@@ -3296,12 +3296,12 @@
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
 			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-		</skill_list>
+		</skillList>
 		<shots soul="1" spirit="1" />
 		<ai clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>NPC_TO_PC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="6.5" />
@@ -3326,7 +3326,7 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" targetable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="14" /> <!-- Humans -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4411" level="9" /> <!-- Slightly Weak M. Atk. -->
@@ -3334,12 +3334,12 @@
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
 			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-		</skill_list>
+		</skillList>
 		<shots soul="1" spirit="1" />
 		<ai clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>NPC_TO_PC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="7.5" />
@@ -3364,7 +3364,7 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" targetable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="14" /> <!-- Humans -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4411" level="9" /> <!-- Slightly Weak M. Atk. -->
@@ -3372,12 +3372,12 @@
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
 			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-		</skill_list>
+		</skillList>
 		<shots soul="1" spirit="1" />
 		<ai clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>NPC_TO_PC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="7.5" />
@@ -3402,7 +3402,7 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" targetable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="14" /> <!-- Humans -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4411" level="9" /> <!-- Slightly Weak M. Atk. -->
@@ -3410,12 +3410,12 @@
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
 			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-		</skill_list>
+		</skillList>
 		<shots soul="1" spirit="1" />
 		<ai clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>NPC_TO_PC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="7.5" />
@@ -3440,7 +3440,7 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" targetable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="14" /> <!-- Humans -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4411" level="9" /> <!-- Slightly Weak M. Atk. -->
@@ -3448,12 +3448,12 @@
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
 			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-		</skill_list>
+		</skillList>
 		<shots soul="1" spirit="1" />
 		<ai clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>NPC_TO_PC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="7" />
@@ -3478,7 +3478,7 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" targetable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="14" /> <!-- Humans -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4411" level="9" /> <!-- Slightly Weak M. Atk. -->
@@ -3486,12 +3486,12 @@
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
 			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-		</skill_list>
+		</skillList>
 		<shots soul="1" spirit="1" />
 		<ai clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>NPC_TO_PC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="9" />
@@ -3516,7 +3516,7 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" targetable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="14" /> <!-- Humans -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4411" level="9" /> <!-- Slightly Weak M. Atk. -->
@@ -3524,12 +3524,12 @@
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
 			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-		</skill_list>
+		</skillList>
 		<shots soul="1" spirit="1" />
 		<ai clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>NPC_TO_PC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="5" />
@@ -3554,7 +3554,7 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" targetable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="14" /> <!-- Humans -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4411" level="9" /> <!-- Slightly Weak M. Atk. -->
@@ -3562,12 +3562,12 @@
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
 			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-		</skill_list>
+		</skillList>
 		<shots soul="1" spirit="1" />
 		<ai clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>NPC_TO_PC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="11" />
@@ -3592,7 +3592,7 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" targetable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="14" /> <!-- Humans -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4411" level="9" /> <!-- Slightly Weak M. Atk. -->
@@ -3600,12 +3600,12 @@
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
 			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-		</skill_list>
+		</skillList>
 		<shots soul="1" spirit="1" />
 		<ai clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>NPC_TO_PC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="7" />
@@ -3630,7 +3630,7 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" targetable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="14" /> <!-- Humans -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4411" level="9" /> <!-- Slightly Weak M. Atk. -->
@@ -3638,12 +3638,12 @@
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
 			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-		</skill_list>
+		</skillList>
 		<shots soul="1" spirit="1" />
 		<ai clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>NPC_TO_PC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="7" />
@@ -3668,7 +3668,7 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" targetable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="14" /> <!-- Humans -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4411" level="9" /> <!-- Slightly Weak M. Atk. -->
@@ -3676,12 +3676,12 @@
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
 			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-		</skill_list>
+		</skillList>
 		<shots soul="1" spirit="1" />
 		<ai clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>NPC_TO_PC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="8" />
@@ -3706,7 +3706,7 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="14" /> <!-- Humans -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4411" level="9" /> <!-- Slightly Weak M. Atk. -->
@@ -3714,12 +3714,12 @@
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
 			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-		</skill_list>
+		</skillList>
 		<shots soul="1" spirit="1" />
 		<ai clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>NPC_TO_PC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="8" />
@@ -3744,7 +3744,7 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="14" /> <!-- Humans -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4411" level="9" /> <!-- Slightly Weak M. Atk. -->
@@ -3752,12 +3752,12 @@
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
 			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-		</skill_list>
+		</skillList>
 		<shots soul="1" spirit="1" />
 		<ai clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>NPC_TO_PC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="7" />

@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
 	<skill id="3400" toLevel="1" name="Stat Enhancing Earring">
-		<!-- Confirmed CT2.5 -->
+		<!-- Increases the power of mental attacks. -->
 		<magicLvl>80</magicLvl>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -12,6 +12,7 @@
 		</effects>
 	</skill>
 	<skill id="3401" toLevel="1" name="Dynasty Resistance Necklace">
+		<!-- Increases mental Attack Resistance. -->
 		<magicLvl>80</magicLvl>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -22,6 +23,7 @@
 		</effects>
 	</skill>
 	<skill id="3402" toLevel="1" name="Dynasty Resistance Ring">
+		<!-- Increases mental Attack Resistance. -->
 		<magicLvl>80</magicLvl>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -32,6 +34,7 @@
 		</effects>
 	</skill>
 	<skill id="3403" toLevel="1" name="Dynasty Resistance Earring">
+		<!-- Increases mental Attack Resistance. -->
 		<magicLvl>80</magicLvl>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -42,7 +45,7 @@
 		</effects>
 	</skill>
 	<skill id="3404" toLevel="1" name="Mysterious Effect">
-		<!-- Confirmed CT2.5 -->
+		<!-- Enlarges the user's head. -->
 		<abnormalLvl>0</abnormalLvl>
 		<abnormalTime>1200</abnormalTime>
 		<abnormalType>BIG_HEAD</abnormalType>
@@ -52,7 +55,6 @@
 		<magicLvl>1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>1800000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
@@ -66,18 +68,18 @@
 		</conditions>
 	</skill>
 	<skill id="3405" toLevel="1" name="Large Firecracker Effect">
+		<!-- Shoots out large firecrackers. -->
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>1</magicLvl>
 		<operateType>A1</operateType>
 		<reuseDelay>1200000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="3406" toLevel="1" name="Weight Loss Ring">
-		<!-- Confirmed CT2.5 -->
+		<!-- Decreases weight penalty. -->
 		<magicLvl>1</magicLvl>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -88,8 +90,7 @@
 		</effects>
 	</skill>
 	<skill id="3407" toLevel="1" name="Stealth Ring">
-		<!-- Confirmed CT2.5 -->
-		<!-- set name="avoidAggro" val="100" / -->
+		<!-- Decreases the sound of your own steps to avoid receiving the first strike. -->
 		<abnormalLvl>0</abnormalLvl>
 		<abnormalTime>120</abnormalTime>
 		<abnormalType>STEALTH</abnormalType>
@@ -99,7 +100,6 @@
 		<magicLvl>1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>600000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
@@ -116,14 +116,13 @@
 		</effects>
 	</skill>
 	<skill id="3408" toLevel="1" name="Blessed Ring of Escape">
-		<!-- Confirmed CT2.5 -->
+		<!-- Allows the use of Blessed Escape every 1 minute. -->
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>200</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>1</magicLvl>
 		<operateType>A1</operateType>
 		<reuseDelay>60000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
@@ -138,7 +137,7 @@
 		</effects>
 	</skill>
 	<skill id="3409" toLevel="1" name="Blessed Ring of Resurrection">
-		<!-- Confirmed CT2.5 -->
+		<!-- Allows the use of Blessed Resurrection every 5 minutes. -->
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<castRange>400</castRange>
 		<effectPoint>1</effectPoint>
@@ -148,7 +147,6 @@
 		<magicLvl>1</magicLvl>
 		<operateType>A1</operateType>
 		<reuseDelay>300000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>PC_BODY</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -162,18 +160,18 @@
 		</effects>
 	</skill>
 	<skill id="3410" toLevel="1" name="Blue Talisman - Damage Reflect">
+		<!-- Reflects a portion of physical melee damage received back onto the enemy when using a Talisman. -->
+		<icon>icon.etc_talisman_i01</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>7</abnormalTime>
 		<abnormalType>TALISMAN</abnormalType>
 		<hitTime>4000</hitTime>
-		<icon>icon.etc_talisman_i01</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>55</magicLvl>
 		<mpConsume>40</mpConsume>
 		<mpInitialConsume>10</mpInitialConsume>
 		<operateType>A2</operateType>
 		<reuseDelay>360000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<staticReuse>true</staticReuse>
@@ -187,6 +185,7 @@
 		</effects>
 	</skill>
 	<skill id="3411" toLevel="1" name="Special Ability: Focus">
+		<!-- Increases Max HP by $s1, and Critical Rate. Inflicts additional damage during PvP. -->
 		<icon>icon.ensoul_big_old</icon>
 		<magicLvl>80</magicLvl>
 		<operateType>P</operateType>
@@ -215,7 +214,7 @@
 		</effects>
 	</skill>
 	<skill id="3412" toLevel="1" name="Dynasty Breastplate">
-		<!-- Confirmed CT2.5 -->
+		<!-- Increases P. Def., Max HP, and Dark Resistance. -->
 		<icon>icon.armor_t91_u_i00</icon>
 		<magicLvl>1</magicLvl>
 		<operateType>P</operateType>
@@ -237,7 +236,7 @@
 		</effects>
 	</skill>
 	<skill id="3413" toLevel="1" name="Dynasty Leather Armor">
-		<!-- Confirmed CT2.5 -->
+		<!-- Increases P. Atk./Evasion Rate/Max HP/Dark Resistance. -->
 		<icon>icon.armor_t92_u_i00</icon>
 		<magicLvl>1</magicLvl>
 		<operateType>P</operateType>
@@ -263,7 +262,7 @@
 		</effects>
 	</skill>
 	<skill id="3414" toLevel="1" name="Dynasty Leather Armor">
-		<!-- Confirmed CT2.5 -->
+		<!-- Increases P. Atk./Max HP/Dark Resistance, and decreases MP Consumption. -->
 		<icon>icon.armor_t92_ud_i00</icon>
 		<magicLvl>1</magicLvl>
 		<operateType>P</operateType>
@@ -290,7 +289,7 @@
 		</effects>
 	</skill>
 	<skill id="3415" toLevel="1" name="Dynasty Leather Armor">
-		<!-- Confirmed CT2.5 -->
+		<!-- Increases P. Atk/Max HP/Critical Rate/Critical Damage/Dark Resistance. -->
 		<icon>icon.armor_t92_ub_i00</icon>
 		<magicLvl>1</magicLvl>
 		<operateType>P</operateType>
@@ -320,7 +319,7 @@
 		</effects>
 	</skill>
 	<skill id="3416" toLevel="1" name="Dynasty Tunic">
-		<!-- Confirmed CT2.5 -->
+		<!-- Increases Casting Spd./ Max MP/Dark Resistance. -->
 		<icon>icon.armor_t93_u_i00</icon>
 		<magicLvl>1</magicLvl>
 		<operateType>P</operateType>
@@ -342,8 +341,7 @@
 		</effects>
 	</skill>
 	<skill id="3417" toLevel="1" name="Equip Shield">
-		<!-- Confirmed CT2.5 -->
-		<!-- Dynasty Shield Skill -->
+		<!-- Increases Shield Defense Rate. -->
 		<icon>icon.shield_dynasty_shield_i00</icon>
 		<magicLvl>1</magicLvl>
 		<operateType>P</operateType>
@@ -356,6 +354,7 @@
 		</effects>
 	</skill>
 	<skill id="3418" toLevel="1" name="Active Skill: Transform Pig">
+		<!-- Transform into a cute pig for 5 minutes. -->
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>300</abnormalTime>
 		<abnormalType>TRANSFORM</abnormalType>
@@ -363,7 +362,6 @@
 		<magicLvl>1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>600000</reuseDelay>
-		<rideState>NONE</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
@@ -382,13 +380,14 @@
 		</effects>
 	</skill>
 	<skill id="3419" toLevel="1" name="Magic Immunity">
+		<!-- Increases M. Def. when equipped with a shirt -->
 		<icon>icon.etc_stripe_shirts_s_i05</icon>
 		<magicLvl>1</magicLvl>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
 	</skill>
 	<skill id="3420" toLevel="1" name="Dynasty Leather Armor">
-		<!-- Confirmed CT2.5 -->
+		<!-- Increases P. Atk., P. Def., Max HP, Atk. Speed and Dark Resistance. -->
 		<icon>icon.armor_t92_u_i00</icon>
 		<magicLvl>1</magicLvl>
 		<operateType>P</operateType>
@@ -418,86 +417,82 @@
 		</effects>
 	</skill>
 	<skill id="3421" toLevel="1" name="Ride Wolf">
-		<blockedInOlympiad>true</blockedInOlympiad>
+		<!-- Ride a Wolf -->
 		<icon>icon.skill0083</icon>
+		<blockedInOlympiad>true</blockedInOlympiad>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<magicLvl>1</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="3422" toLevel="1" name="Dismount Wolf">
-		<blockedInOlympiad>true</blockedInOlympiad>
+		<!-- Dismount a Wolf. -->
 		<icon>icon.skill0083</icon>
+		<blockedInOlympiad>true</blockedInOlympiad>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<magicLvl>1</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="3423" toLevel="1" name="Release Agathion's Seal - Little Angel">
-		<!-- Confirmed CT2.5 -->
-		<hitTime>3000</hitTime>
+		<!-- Removes the Agathion's seal. -->
 		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SummonAgathion">
-				<npcId>16031</npcId>
+				<npcId>16031</npcId> <!-- Little Angel Agathion -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="3424" toLevel="1" name="Release Agathion's Seal - Little Devil">
-		<!-- Confirmed CT2.5 -->
-		<hitTime>3000</hitTime>
+		<!-- Removes the Agathion's seal. -->
 		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SummonAgathion">
-				<npcId>16032</npcId>
+				<npcId>16032</npcId> <!-- Little Devil Agathion -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="3425" toLevel="1" name="Release Agathion's Seal - Rudolph">
-		<!-- Confirmed CT2.5 -->
-		<hitTime>3000</hitTime>
+		<!-- Removes the Agathion's seal. -->
 		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SummonAgathion">
-				<npcId>16033</npcId>
+				<npcId>16033</npcId> <!-- Rudolph Agathion -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="3426" toLevel="1" name="Maximum Ability">
-		<!-- Confirmed CT2.5 -->
-		<!-- Rapier +4 Skill -->
+		<!-- A critical attack will have a chance to increase P. Atk., M. Atk., and healing power, and decrease MP Consumption during skill use, for you and your party members. -->
 		<magicLvl>1</magicLvl>
 		<magicCriticalRate>5</magicCriticalRate>
 		<operateType>P</operateType>
@@ -512,13 +507,13 @@
 				<targetType>MY_PARTY</targetType>
 				<isCritical>true</isCritical>
 				<allowWeapons>ALL</allowWeapons>
-				<skillId>5547</skillId>
+				<skillId>5547</skillId> <!-- Maximum Ability -->
 				<skillLevel>1</skillLevel>
 			</effect>
 		</effects>
 	</skill>
 	<skill id="3427" toLevel="1" name="Special Ability: Infinity Rapier">
-		<!-- Confirmed CT2.5 and Updated to H5 -->
+		<!-- Decreases the enemy's P. Def. on a critical attack. Increases Max HP, Max MP, Max CP. Inflicts additional damage during PvP. Reflects some of the damage received back to the enemy. In addition, when a critical hit occurs during a regular attack, there is a chance that the capacity of a party member's skills will be maximized. -->
 		<icon>icon.weapon_infinity_rapier_i00</icon>
 		<magicLvl>80</magicLvl>
 		<operateType>P</operateType>
@@ -534,7 +529,7 @@
 				<targetType>MY_PARTY</targetType>
 				<isCritical>true</isCritical>
 				<allowWeapons>ALL</allowWeapons>
-				<skillId>5547</skillId>
+				<skillId>5547</skillId> <!-- Maximum Ability -->
 				<skillLevel>1</skillLevel>
 			</effect>
 			<effect name="DamageShield">
@@ -568,20 +563,19 @@
 		</effects>
 	</skill>
 	<skill id="3428" toLevel="1" name="Blue Talisman - Explosion">
-		<!-- Confirmed CT2.5 -->
+		<!-- Increases the attacking power/speed momentarily with the power of Talisman. -->
+		<icon>icon.etc_talisman_i01</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>10</abnormalTime>
 		<abnormalType>TALISMAN</abnormalType>
 		<effectPoint>669</effectPoint>
 		<hitTime>4000</hitTime>
-		<icon>icon.etc_talisman_i01</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>75</magicLvl>
 		<mpConsume>40</mpConsume>
 		<mpInitialConsume>10</mpInitialConsume>
 		<operateType>A2</operateType>
 		<reuseDelay>600000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<staticReuse>true</staticReuse>
@@ -599,14 +593,13 @@
 		</effects>
 	</skill>
 	<skill id="3429" toLevel="1" name="Red Talisman - Life Force">
-		<!-- Confirmed CT2.5 -->
-		<hitTime>3000</hitTime>
+		<!-- Regenerate HP and MP completely with the power of Talisman. -->
 		<icon>icon.etc_talisman_i00</icon>
+		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>75</magicLvl>
 		<operateType>A1</operateType>
 		<reuseDelay>1800000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<staticReuse>true</staticReuse>
 		<targetType>SELF</targetType>
@@ -621,20 +614,19 @@
 		</effects>
 	</skill>
 	<skill id="3430" toLevel="1" name="White Talisman - Darkness">
-		<!-- Confirmed CT2.5 -->
+		<!-- Momentarily and greatly increases Dark Resistance with the power of Talisman. -->
+		<icon>icon.etc_talisman_i06</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>10</abnormalTime>
 		<abnormalType>TALISMAN</abnormalType>
 		<effectPoint>669</effectPoint>
 		<hitTime>4000</hitTime>
-		<icon>icon.etc_talisman_i06</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>75</magicLvl>
 		<mpConsume>40</mpConsume>
 		<mpInitialConsume>10</mpInitialConsume>
 		<operateType>A2</operateType>
 		<reuseDelay>600000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<staticReuse>true</staticReuse>
@@ -648,20 +640,19 @@
 		</effects>
 	</skill>
 	<skill id="3431" toLevel="1" name="White Talisman - Storm">
-		<!-- Confirmed CT2.5 -->
+		<!-- Momentarily and greatly increases Wind Resistance with the power of Talisman. -->
+		<icon>icon.etc_talisman_i06</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>10</abnormalTime>
 		<abnormalType>TALISMAN</abnormalType>
 		<effectPoint>669</effectPoint>
 		<hitTime>4000</hitTime>
-		<icon>icon.etc_talisman_i06</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>75</magicLvl>
 		<mpConsume>40</mpConsume>
 		<mpInitialConsume>10</mpInitialConsume>
 		<operateType>A2</operateType>
 		<reuseDelay>600000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<staticReuse>true</staticReuse>
@@ -675,20 +666,19 @@
 		</effects>
 	</skill>
 	<skill id="3432" toLevel="1" name="White Talisman - Water">
-		<!-- Confirmed CT2.5 -->
+		<!-- Momentarily and greatly increases Water Resistance with the power of Talisman. -->
+		<icon>icon.etc_talisman_i06</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>10</abnormalTime>
 		<abnormalType>TALISMAN</abnormalType>
 		<effectPoint>669</effectPoint>
 		<hitTime>4000</hitTime>
-		<icon>icon.etc_talisman_i06</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>75</magicLvl>
 		<mpConsume>40</mpConsume>
 		<mpInitialConsume>10</mpInitialConsume>
 		<operateType>A2</operateType>
 		<reuseDelay>600000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<staticReuse>true</staticReuse>
@@ -702,20 +692,19 @@
 		</effects>
 	</skill>
 	<skill id="3433" toLevel="1" name="White Talisman - Fire">
-		<!-- Confirmed CT2.5 -->
+		<!-- Momentarily and greatly increases Fire Resistance with the power of Talisman. -->
+		<icon>icon.etc_talisman_i06</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>10</abnormalTime>
 		<abnormalType>TALISMAN</abnormalType>
 		<effectPoint>669</effectPoint>
 		<hitTime>4000</hitTime>
-		<icon>icon.etc_talisman_i06</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>75</magicLvl>
 		<mpConsume>40</mpConsume>
 		<mpInitialConsume>10</mpInitialConsume>
 		<operateType>A2</operateType>
 		<reuseDelay>600000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<staticReuse>true</staticReuse>
@@ -729,20 +718,19 @@
 		</effects>
 	</skill>
 	<skill id="3434" toLevel="1" name="White Talisman - Earth">
-		<!-- Confirmed CT2.5 -->
+		<!-- Momentarily and greatly increases Earth Resistance with the power of Talisman. -->
+		<icon>icon.etc_talisman_i06</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>10</abnormalTime>
 		<abnormalType>TALISMAN</abnormalType>
 		<effectPoint>669</effectPoint>
 		<hitTime>4000</hitTime>
-		<icon>icon.etc_talisman_i06</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>75</magicLvl>
 		<mpConsume>40</mpConsume>
 		<mpInitialConsume>10</mpInitialConsume>
 		<operateType>A2</operateType>
 		<reuseDelay>600000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<staticReuse>true</staticReuse>
@@ -756,20 +744,19 @@
 		</effects>
 	</skill>
 	<skill id="3435" toLevel="1" name="White Talisman - Light">
-		<!-- Confirmed CT2.5 -->
+		<!-- Momentarily and greatly increases Holy Resistance with the power of Talisman. -->
+		<icon>icon.etc_talisman_i06</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>10</abnormalTime>
 		<abnormalType>TALISMAN</abnormalType>
 		<effectPoint>669</effectPoint>
 		<hitTime>4000</hitTime>
-		<icon>icon.etc_talisman_i06</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>75</magicLvl>
 		<mpConsume>40</mpConsume>
 		<mpInitialConsume>10</mpInitialConsume>
 		<operateType>A2</operateType>
 		<reuseDelay>600000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<staticReuse>true</staticReuse>
@@ -783,17 +770,16 @@
 		</effects>
 	</skill>
 	<skill id="3436" toLevel="1" name="Blue Talisman - Self-destruction">
-		<!-- Confirmed CT2.5 -->
+		<!-- Greatly damage the environment exploding the power of Talisman. -->
+		<icon>icon.etc_talisman_i01</icon>
 		<affectLimit>6-12</affectLimit>
 		<affectRange>200</affectRange>
 		<effectPoint>-669</effectPoint>
 		<hitTime>3000</hitTime>
 		<hpConsume>800</hpConsume>
-		<icon>icon.etc_talisman_i01</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>75</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<staticReuse>true</staticReuse>
@@ -807,20 +793,19 @@
 		</effects>
 	</skill>
 	<skill id="3437" toLevel="1" name="Blue Talisman - Magic Explosion">
-		<!-- Confirmed CT2.5 -->
+		<!-- Momentarily and greatly increases M. Atk. and M. Critical Rate with the power of Talisman. -->
+		<icon>icon.etc_talisman_i01</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>10</abnormalTime>
 		<abnormalType>TALISMAN</abnormalType>
 		<effectPoint>669</effectPoint>
 		<hitTime>4000</hitTime>
-		<icon>icon.etc_talisman_i01</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>75</magicLvl>
 		<mpConsume>40</mpConsume>
 		<mpInitialConsume>10</mpInitialConsume>
 		<operateType>A2</operateType>
 		<reuseDelay>600000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<staticReuse>true</staticReuse>
@@ -838,20 +823,19 @@
 		</effects>
 	</skill>
 	<skill id="3438" toLevel="1" name="Blue Talisman - Greater Healing">
-		<!-- Confirmed CT2.5 -->
+		<!-- Momentarily and greatly increases the power of HP regeneration magic with the power of Talisman. -->
+		<icon>icon.etc_talisman_i01</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>10</abnormalTime>
 		<abnormalType>TALISMAN</abnormalType>
 		<effectPoint>669</effectPoint>
 		<hitTime>4000</hitTime>
-		<icon>icon.etc_talisman_i01</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>75</magicLvl>
 		<mpConsume>40</mpConsume>
 		<mpInitialConsume>10</mpInitialConsume>
 		<operateType>A2</operateType>
 		<reuseDelay>600000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<staticReuse>true</staticReuse>
@@ -865,6 +849,7 @@
 		</effects>
 	</skill>
 	<skill id="3439" toLevel="1" name="Silk Shirt">
+		<!-- Increases Max HP. -->
 		<magicLvl>49</magicLvl>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -876,6 +861,7 @@
 		</effects>
 	</skill>
 	<skill id="3440" toLevel="1" name="Silk Shirt">
+		<!-- Increases Max MP. -->
 		<magicLvl>49</magicLvl>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -887,6 +873,7 @@
 		</effects>
 	</skill>
 	<skill id="3441" toLevel="1" name="Silk Shirt">
+		<!-- Increases Max CP. -->
 		<magicLvl>49</magicLvl>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -898,6 +885,7 @@
 		</effects>
 	</skill>
 	<skill id="3442" toLevel="1" name="Silk Shirt">
+		<!-- Increases Max HP/MP. -->
 		<magicLvl>49</magicLvl>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -913,6 +901,7 @@
 		</effects>
 	</skill>
 	<skill id="3443" toLevel="1" name="Silk Shirt">
+		<!-- Increases Max HP/CP. -->
 		<magicLvl>49</magicLvl>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -928,6 +917,7 @@
 		</effects>
 	</skill>
 	<skill id="3444" toLevel="1" name="Silk Shirt">
+		<!-- Increases Max MP/CP. -->
 		<magicLvl>49</magicLvl>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -943,6 +933,7 @@
 		</effects>
 	</skill>
 	<skill id="3445" toLevel="1" name="Thin Leather Shirt">
+		<!-- Increases Max HP. -->
 		<magicLvl>58</magicLvl>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -954,6 +945,7 @@
 		</effects>
 	</skill>
 	<skill id="3446" toLevel="1" name="Thin Leather Shirt">
+		<!-- Increases Max MP. -->
 		<magicLvl>58</magicLvl>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -965,6 +957,7 @@
 		</effects>
 	</skill>
 	<skill id="3447" toLevel="1" name="Thin Leather Shirt">
+		<!-- Increases Max CP. -->
 		<magicLvl>58</magicLvl>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -976,6 +969,7 @@
 		</effects>
 	</skill>
 	<skill id="3448" toLevel="1" name="Thin Leather Shirt">
+		<!-- Increases Max HP/MP. -->
 		<magicLvl>58</magicLvl>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -991,6 +985,7 @@
 		</effects>
 	</skill>
 	<skill id="3449" toLevel="1" name="Thin Leather Shirt">
+		<!-- Increases Max HP/CP. -->
 		<magicLvl>58</magicLvl>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -1006,6 +1001,7 @@
 		</effects>
 	</skill>
 	<skill id="3450" toLevel="1" name="Thin Leather Shirt">
+		<!-- Increases Max MP/CP. -->
 		<magicLvl>58</magicLvl>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -1021,6 +1017,7 @@
 		</effects>
 	</skill>
 	<skill id="3451" toLevel="1" name="Scale Shirt">
+		<!-- Increases Max HP. -->
 		<magicLvl>64</magicLvl>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -1032,6 +1029,7 @@
 		</effects>
 	</skill>
 	<skill id="3452" toLevel="1" name="Scale Shirt">
+		<!-- Increases Max MP. -->
 		<magicLvl>64</magicLvl>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -1043,6 +1041,7 @@
 		</effects>
 	</skill>
 	<skill id="3453" toLevel="1" name="Scale Shirt">
+		<!-- Increases Max CP. -->
 		<magicLvl>64</magicLvl>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -1054,6 +1053,7 @@
 		</effects>
 	</skill>
 	<skill id="3454" toLevel="1" name="Scale Shirt">
+		<!-- Increases Max HP/MP. -->
 		<magicLvl>64</magicLvl>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -1069,6 +1069,7 @@
 		</effects>
 	</skill>
 	<skill id="3455" toLevel="1" name="Scale Shirt">
+		<!-- Increases Max HP/CP. -->
 		<magicLvl>64</magicLvl>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -1084,6 +1085,7 @@
 		</effects>
 	</skill>
 	<skill id="3456" toLevel="1" name="Scale Shirt">
+		<!-- Increases Max MP/CP. -->
 		<magicLvl>64</magicLvl>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -1099,6 +1101,7 @@
 		</effects>
 	</skill>
 	<skill id="3457" toLevel="1" name="Mithril Shirt">
+		<!-- Increases Max HP. -->
 		<magicLvl>75</magicLvl>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -1110,6 +1113,7 @@
 		</effects>
 	</skill>
 	<skill id="3458" toLevel="1" name="Mithril Shirt">
+		<!-- Increases Max MP. -->
 		<magicLvl>75</magicLvl>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -1121,6 +1125,7 @@
 		</effects>
 	</skill>
 	<skill id="3459" toLevel="1" name="Mithril Shirt">
+		<!-- Increases Max CP. -->
 		<magicLvl>75</magicLvl>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -1132,6 +1137,7 @@
 		</effects>
 	</skill>
 	<skill id="3460" toLevel="1" name="Mithril Shirt">
+		<!-- Increases Max HP/MP. -->
 		<magicLvl>75</magicLvl>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -1147,6 +1153,7 @@
 		</effects>
 	</skill>
 	<skill id="3461" toLevel="1" name="Mithril Shirt">
+		<!-- Increases Max HP/CP. -->
 		<magicLvl>75</magicLvl>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -1162,6 +1169,7 @@
 		</effects>
 	</skill>
 	<skill id="3462" toLevel="1" name="Mithril Shirt">
+		<!-- Increases Max MP/CP. -->
 		<magicLvl>75</magicLvl>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -1177,6 +1185,7 @@
 		</effects>
 	</skill>
 	<skill id="3463" toLevel="1" name="Striped Silk Shirt">
+		<!-- Increases Max HP. -->
 		<magicLvl>55</magicLvl>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -1188,6 +1197,7 @@
 		</effects>
 	</skill>
 	<skill id="3464" toLevel="1" name="Striped Silk Shirt">
+		<!-- Increases Max MP. -->
 		<magicLvl>55</magicLvl>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -1199,6 +1209,7 @@
 		</effects>
 	</skill>
 	<skill id="3465" toLevel="1" name="Striped Silk Shirt">
+		<!-- Increases Max CP. -->
 		<magicLvl>55</magicLvl>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -1210,6 +1221,7 @@
 		</effects>
 	</skill>
 	<skill id="3466" toLevel="1" name="Striped Silk Shirt">
+		<!-- Increases Max HP/MP. -->
 		<magicLvl>55</magicLvl>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -1225,6 +1237,7 @@
 		</effects>
 	</skill>
 	<skill id="3467" toLevel="1" name="Striped Silk Shirt">
+		<!-- Increases Max HP/CP. -->
 		<magicLvl>55</magicLvl>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -1240,6 +1253,7 @@
 		</effects>
 	</skill>
 	<skill id="3468" toLevel="1" name="Striped Silk Shirt">
+		<!-- Increases Max MP/CP. -->
 		<magicLvl>55</magicLvl>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -1255,6 +1269,7 @@
 		</effects>
 	</skill>
 	<skill id="3469" toLevel="1" name="Thin Striped Leather Shirt">
+		<!-- Increases Max HP. -->
 		<magicLvl>61</magicLvl>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -1266,6 +1281,7 @@
 		</effects>
 	</skill>
 	<skill id="3470" toLevel="1" name="Thin Striped Leather Shirt">
+		<!-- Increases Max MP. -->
 		<magicLvl>61</magicLvl>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -1277,6 +1293,7 @@
 		</effects>
 	</skill>
 	<skill id="3471" toLevel="1" name="Thin Striped Leather Shirt">
+		<!-- Increases Max CP. -->
 		<magicLvl>61</magicLvl>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -1288,6 +1305,7 @@
 		</effects>
 	</skill>
 	<skill id="3472" toLevel="1" name="Thin Striped Leather Shirt">
+		<!-- Increases Max HP/MP. -->
 		<magicLvl>61</magicLvl>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -1303,6 +1321,7 @@
 		</effects>
 	</skill>
 	<skill id="3473" toLevel="1" name="Thin Striped Leather Shirt">
+		<!-- Increases Max HP/CP. -->
 		<magicLvl>61</magicLvl>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -1318,6 +1337,7 @@
 		</effects>
 	</skill>
 	<skill id="3474" toLevel="1" name="Thin Striped Leather Shirt">
+		<!-- Increases Max MP/CP. -->
 		<magicLvl>61</magicLvl>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -1333,6 +1353,7 @@
 		</effects>
 	</skill>
 	<skill id="3475" toLevel="1" name="Striped Scale Shirt">
+		<!-- Increases Max HP. -->
 		<magicLvl>67</magicLvl>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -1344,6 +1365,7 @@
 		</effects>
 	</skill>
 	<skill id="3476" toLevel="1" name="Striped Scale Shirt">
+		<!-- Increases Max MP. -->
 		<magicLvl>67</magicLvl>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -1355,6 +1377,7 @@
 		</effects>
 	</skill>
 	<skill id="3477" toLevel="1" name="Striped Scale Shirt">
+		<!-- Increases Max CP. -->
 		<magicLvl>67</magicLvl>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -1366,6 +1389,7 @@
 		</effects>
 	</skill>
 	<skill id="3478" toLevel="1" name="Striped Scale Shirt">
+		<!-- Increases Max HP/MP. -->
 		<magicLvl>67</magicLvl>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -1381,6 +1405,7 @@
 		</effects>
 	</skill>
 	<skill id="3479" toLevel="1" name="Striped Scale Shirt">
+		<!-- Increases Max HP/CP. -->
 		<magicLvl>67</magicLvl>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -1396,6 +1421,7 @@
 		</effects>
 	</skill>
 	<skill id="3480" toLevel="1" name="Striped Scale Shirt">
+		<!-- Increases Max MP/CP. -->
 		<magicLvl>67</magicLvl>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -1411,6 +1437,7 @@
 		</effects>
 	</skill>
 	<skill id="3481" toLevel="1" name="Striped Mithril Shirt">
+		<!-- Increases Max HP. -->
 		<magicLvl>80</magicLvl>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -1422,6 +1449,7 @@
 		</effects>
 	</skill>
 	<skill id="3482" toLevel="1" name="Striped Mithril Shirt">
+		<!-- Increases Max MP. -->
 		<magicLvl>80</magicLvl>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -1433,6 +1461,7 @@
 		</effects>
 	</skill>
 	<skill id="3483" toLevel="1" name="Striped Mithril Shirt">
+		<!-- Increases Max CP. -->
 		<magicLvl>80</magicLvl>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -1444,6 +1473,7 @@
 		</effects>
 	</skill>
 	<skill id="3484" toLevel="1" name="Striped Mithril Shirt">
+		<!-- Increases Max HP/MP. -->
 		<magicLvl>80</magicLvl>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -1459,6 +1489,7 @@
 		</effects>
 	</skill>
 	<skill id="3485" toLevel="1" name="Striped Mithril Shirt">
+		<!-- Increases Max HP/CP. -->
 		<magicLvl>80</magicLvl>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -1474,6 +1505,7 @@
 		</effects>
 	</skill>
 	<skill id="3486" toLevel="1" name="Striped Mithril Shirt">
+		<!-- Increases Max MP/CP. -->
 		<magicLvl>80</magicLvl>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -1489,20 +1521,19 @@
 		</effects>
 	</skill>
 	<skill id="3487" toLevel="1" name="Blue Talisman - P. Atk.">
-		<!-- Confirmed CT2.5 -->
+		<!-- Increases P. Atk with the power of Talisman. -->
+		<icon>icon.etc_talisman_i01</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>120</abnormalTime>
 		<abnormalType>TALISMAN</abnormalType>
 		<effectPoint>532</effectPoint>
 		<hitTime>4000</hitTime>
-		<icon>icon.etc_talisman_i01</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>55</magicLvl>
 		<mpConsume>40</mpConsume>
 		<mpInitialConsume>10</mpInitialConsume>
 		<operateType>A2</operateType>
 		<reuseDelay>360000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<staticReuse>true</staticReuse>
@@ -1516,20 +1547,19 @@
 		</effects>
 	</skill>
 	<skill id="3488" toLevel="1" name="Blue Talisman - Shield Defense">
-		<!-- Confirmed CT2.5 -->
+		<!-- Increases Shield Defense with the power of Talisman. -->
+		<icon>icon.etc_talisman_i01</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>120</abnormalTime>
 		<abnormalType>TALISMAN</abnormalType>
 		<effectPoint>532</effectPoint>
 		<hitTime>4000</hitTime>
-		<icon>icon.etc_talisman_i01</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>55</magicLvl>
 		<mpConsume>40</mpConsume>
 		<mpInitialConsume>10</mpInitialConsume>
 		<operateType>A2</operateType>
 		<reuseDelay>360000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<staticReuse>true</staticReuse>
@@ -1543,7 +1573,7 @@
 		</effects>
 	</skill>
 	<skill id="3489" toLevel="1" name="Yellow Talisman - M. Atk.">
-		<!-- Confirmed CT2.5 -->
+		<!-- Increases M. Atk. when equipped. -->
 		<icon>icon.etc_talisman_i02</icon>
 		<magicLvl>55</magicLvl>
 		<operateType>P</operateType>
@@ -1556,7 +1586,7 @@
 		</effects>
 	</skill>
 	<skill id="3490" toLevel="1" name="Yellow Talisman - P. Def.">
-		<!-- Confirmed CT2.5 -->
+		<!-- Increases P. Def. when equipped. -->
 		<icon>icon.etc_talisman_i02</icon>
 		<magicLvl>55</magicLvl>
 		<operateType>P</operateType>
@@ -1569,7 +1599,7 @@
 		</effects>
 	</skill>
 	<skill id="3491" toLevel="1" name="Yellow Talisman - Evasion">
-		<!-- Confirmed CT2.5 -->
+		<!-- Increases Evasion when equipped. -->
 		<icon>icon.etc_talisman_i02</icon>
 		<magicLvl>55</magicLvl>
 		<operateType>P</operateType>
@@ -1582,7 +1612,7 @@
 		</effects>
 	</skill>
 	<skill id="3492" toLevel="1" name="Yellow Talisman - Speed">
-		<!-- Confirmed CT2.5 -->
+		<!-- Increases Speed when equipped. -->
 		<icon>icon.etc_talisman_i02</icon>
 		<magicLvl>55</magicLvl>
 		<operateType>P</operateType>
@@ -1595,7 +1625,7 @@
 		</effects>
 	</skill>
 	<skill id="3493" toLevel="1" name="Yellow Talisman - HP Regeneration">
-		<!-- Confirmed CT2.5 -->
+		<!-- Increases HP Recovery Bonus when a talisman is equipped. -->
 		<icon>icon.etc_talisman_i02</icon>
 		<magicLvl>55</magicLvl>
 		<operateType>P</operateType>
@@ -1608,7 +1638,7 @@
 		</effects>
 	</skill>
 	<skill id="3494" toLevel="1" name="Yellow Talisman - CP Regeneration">
-		<!-- Confirmed CT2.5 -->
+		<!-- Increases CP Recovery Bonus when a talisman is equipped. -->
 		<icon>icon.etc_talisman_i02</icon>
 		<magicLvl>55</magicLvl>
 		<operateType>P</operateType>
@@ -1621,7 +1651,7 @@
 		</effects>
 	</skill>
 	<skill id="3495" toLevel="1" name="Yellow Talisman - Healing">
-		<!-- Confirmed CT2.5 -->
+		<!-- Increases power of HP regeneration magic when equipped. -->
 		<icon>icon.etc_talisman_i02</icon>
 		<magicLvl>55</magicLvl>
 		<operateType>P</operateType>
@@ -1634,17 +1664,16 @@
 		</effects>
 	</skill>
 	<skill id="3496" toLevel="1" name="Red Talisman - HP/CP Recovery">
-		<!-- Confirmed CT2.5 -->
+		<!-- Recover HP/CP with the power of Talisman. -->
+		<icon>icon.etc_talisman_i00</icon>
 		<effectPoint>532</effectPoint>
 		<hitTime>4000</hitTime>
-		<icon>icon.etc_talisman_i00</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>55</magicLvl>
 		<mpConsume>40</mpConsume>
 		<mpInitialConsume>10</mpInitialConsume>
 		<operateType>A1</operateType>
 		<reuseDelay>300000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<staticReuse>true</staticReuse>
 		<targetType>SELF</targetType>
@@ -1660,7 +1689,7 @@
 		</effects>
 	</skill>
 	<skill id="3497" toLevel="1" name="Yellow Talisman - MP Regeneration">
-		<!-- Confirmed CT2.5 -->
+		<!-- Increases MP Recovery Bonus when a talisman is equipped. -->
 		<icon>icon.etc_talisman_i02</icon>
 		<magicLvl>55</magicLvl>
 		<operateType>P</operateType>
@@ -1673,7 +1702,7 @@
 		</effects>
 	</skill>
 	<skill id="3498" toLevel="1" name="Special Ability: Light">
-		<!-- Confirmed CT2.5 -->
+		<!-- Increases Weight Gauge by 20%. -->
 		<icon>icon.ensoul_big_old</icon>
 		<magicLvl>46</magicLvl>
 		<operateType>P</operateType>
@@ -1686,13 +1715,12 @@
 		</effects>
 	</skill>
 	<skill id="3499" toLevel="1" name="Dispel Transform">
-		<!-- Confirmed CT2.5 -->
+		<!-- Cancels transformation. -->
+		<icon>icon.skilltransform2</icon>
 		<effectPoint>10</effectPoint>
 		<hitTime>2500</hitTime>
-		<icon>icon.skilltransform2</icon>
 		<magicLvl>56</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>

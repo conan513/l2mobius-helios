@@ -46,7 +46,7 @@ public final class SkillTurningOverTime extends AbstractEffect
 			return false;
 		}
 		
-		final boolean skillSuccess = _staticChance ? Formulas.calcProbability(_chance, effector, effected, skill) : ((_chance >= 100) || (Rnd.get(100) < _chance));
+		final boolean skillSuccess = _staticChance ? Formulas.calcProbability(_chance, effector, effected, skill) : (Rnd.get(100) < _chance);
 		if (skillSuccess)
 		{
 			effected.breakCast();

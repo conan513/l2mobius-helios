@@ -2613,6 +2613,7 @@
 	</item>
 	<item id="31586" name="Unidentified Ghost Staff" type="EtcItem">
 		<!-- Ghost staff in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / blunt) -->
+		<set name="icon" val="icon.weapon_ghost_staff_i00" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
@@ -2621,7 +2622,6 @@
 		<set name="crystal_type" val="D" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.weapon_ghost_staff_i00" />
 		<createItems>
 			<item id="188" count="1" chance="2" /> <!-- Ghost Staff -->
 			<item id="30440" count="1" chance="98" /> <!-- Bound Ghost Staff -->

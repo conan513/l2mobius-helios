@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/npcs.xsd">
 	<npc id="19600" level="101" type="L2Monster" name="Flower Bud">
 		<race>PLANT</race>
@@ -16,15 +16,15 @@
 				<run ground="180" />
 			</speed>
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="5" /> <!-- Plants -->
 			<skill id="5465" level="1" /> <!-- Earth Attack -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="30" />
 			<height normal="78" />
 		</collision>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="6507" max="15209" chance="30" /> <!-- Adena -->
 				<item id="36530" min="1" max="1" chance="0.075" /> <!-- Exquisite Fiber -->
@@ -33,10 +33,10 @@
 			<spoil>
 				<item id="36565" min="1" max="1" chance="0.03" /> <!-- Exquisite Synthetic Cokes -->
 			</spoil>
-			<lucky_drop>
-				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Bag - Stage 1 --> <!-- Lucky Drop -->
-			</lucky_drop>
-		</drop_lists>
+			<lucky>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</lucky>
+		</dropLists>
 	</npc>
 	<npc id="19601" level="85" type="L2Npc" name="">
 		<race>ETC</race>
@@ -672,12 +672,12 @@
 			</attribute>
 			<abnormalResist physical="230" magical="230" /><!-- TODO -->
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="11" /> <!-- Giants -->
 			<skill id="5465" level="1" /> <!-- Earth Attack -->
 			<skill id="4494" level="1" /> <!-- Raid Boss -->
 			<skill id="16746" level="1" /> <!-- Ramona -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="40" />
 			<height normal="87" />
@@ -700,11 +700,11 @@
 			</attribute>
 			<abnormalResist physical="230" magical="230" /><!-- TODO -->
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="11" /> <!-- Giants -->
 			<skill id="5465" level="1" /> <!-- Earth Attack -->
 			<skill id="16746" level="1" /> <!-- Ramona -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="40" />
 			<height normal="87" />

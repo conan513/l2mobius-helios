@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
 	<skill id="8500" toLevel="1" name="Pink Talisman - CON">
-		<!-- Confirmed CT2.5 -->
+		<!-- Increases when equipped. -->
 		<icon>icon.etc_talisman_event_i00</icon>
 		<magicLvl>55</magicLvl>
 		<operateType>P</operateType>
@@ -14,7 +14,7 @@
 		</effects>
 	</skill>
 	<skill id="8501" toLevel="1" name="Pink Talisman - INT">
-		<!-- Confirmed CT2.5 -->
+		<!-- Increases INT when equipped. -->
 		<icon>icon.etc_talisman_event_i00</icon>
 		<magicLvl>55</magicLvl>
 		<operateType>P</operateType>
@@ -27,7 +27,7 @@
 		</effects>
 	</skill>
 	<skill id="8502" toLevel="1" name="Pink Talisman - WIT">
-		<!-- Confirmed CT2.5 -->
+		<!-- Increases WIT when equipped. -->
 		<icon>icon.etc_talisman_event_i00</icon>
 		<magicLvl>55</magicLvl>
 		<operateType>P</operateType>
@@ -40,7 +40,7 @@
 		</effects>
 	</skill>
 	<skill id="8503" toLevel="1" name="Pink Talisman - MEN">
-		<!-- Confirmed CT2.5 -->
+		<!-- Increases MEN when equipped. -->
 		<icon>icon.etc_talisman_event_i00</icon>
 		<magicLvl>55</magicLvl>
 		<operateType>P</operateType>
@@ -53,7 +53,7 @@
 		</effects>
 	</skill>
 	<skill id="8504" toLevel="1" name="Pink Talisman - Stun Resistance">
-		<!-- Confirmed CT2.5 -->
+		<!-- Increases Stun Resistance when equipped. -->
 		<icon>icon.etc_talisman_event_i01</icon>
 		<magicLvl>55</magicLvl>
 		<operateType>P</operateType>
@@ -65,7 +65,7 @@
 		</effects>
 	</skill>
 	<skill id="8505" toLevel="1" name="Pink Talisman - Sleep Resistance">
-		<!-- Confirmed CT2.5 -->
+		<!-- Increases Sleep Resistance when equipped. -->
 		<icon>icon.etc_talisman_event_i01</icon>
 		<magicLvl>55</magicLvl>
 		<operateType>P</operateType>
@@ -77,7 +77,7 @@
 		</effects>
 	</skill>
 	<skill id="8506" toLevel="1" name="Pink Talisman - Hold Resistance">
-		<!-- Confirmed CT2.5 -->
+		<!-- Increases Hold Resistance when equipped. -->
 		<icon>icon.etc_talisman_event_i01</icon>
 		<magicLvl>55</magicLvl>
 		<operateType>P</operateType>
@@ -89,7 +89,7 @@
 		</effects>
 	</skill>
 	<skill id="8507" toLevel="1" name="Pink Talisman - Paralysis Resistance">
-		<!-- Confirmed CT2.5 -->
+		<!-- Increases Paralysis Resistance when equipped. -->
 		<icon>icon.etc_talisman_event_i01</icon>
 		<magicLvl>55</magicLvl>
 		<operateType>P</operateType>
@@ -101,7 +101,7 @@
 		</effects>
 	</skill>
 	<skill id="8508" toLevel="1" name="Pink Talisman - All STAT">
-		<!-- Confirmed CT2.5 -->
+		<!-- Increases all stats when equipped. -->
 		<icon>icon.etc_talisman_event_i02</icon>
 		<magicLvl>55</magicLvl>
 		<operateType>P</operateType>
@@ -134,15 +134,14 @@
 		</effects>
 	</skill>
 	<skill id="8509" toLevel="1" name="Blessed Escape">
-		<!-- Confirmed CT2.5 -->
+		<!-- Able to perform the High Angel Circlet power every hour -->
+		<icon>icon.accessory_highangel_circlet_i00</icon>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>200</hitTime>
-		<icon>icon.accessory_highangel_circlet_i00</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>1</magicLvl>
 		<operateType>A1</operateType>
 		<reuseDelay>3600000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<staticReuse>true</staticReuse>
@@ -158,13 +157,13 @@
 		</effects>
 	</skill>
 	<skill id="8510" toLevel="1" name="Summon Friend">
-		<effectPoint>1000</effectPoint>
+		<!-- Summons your friend. -->
 		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<effectPoint>1000</effectPoint>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>1</magicLvl>
 		<operateType>A1</operateType>
 		<reuseDelay>3600000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>-2</effectRange>
 		<hitTime>10000</hitTime>
@@ -183,21 +182,20 @@
 	</skill>
 	<skill id="8511" toLevel="1" name="Blessing of Victory">
 		<!-- Increases Speed by 2%. -->
+		<icon>BranchSys2.icon.br_worldcup_hair_i02</icon>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>1</magicLvl>
-		<icon>BranchSys2.icon.br_worldcup_hair_i02</icon>
 	</skill>
 	<skill id="8512" toLevel="1" name="Olympic Athlete's Tenacity">
-		<!-- "When used, you can obtain at random one 3-, 7-, 10-, 30-day, or unlimited National Representative Warrior's accessory set. Upon skill use, 10 Proofs of Cheers are consumed, and it can be cancelled when attacked." -->
+		<!-- Use to obtain a 3-day/7-day/10-day/30-day/unlimited National Warrior's Accessory Set. Using the skill consumes 10 Marks of Cheers, and the skill may be canceled when attacked. -->
+		<icon>BranchSys2.icon.br_spirit_of_brave_i00</icon>
 		<itemConsumeId>17201</itemConsumeId>
 		<itemConsumeCount>10</itemConsumeCount>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<magicLvl>85</magicLvl>
-		<icon>BranchSys2.icon.br_spirit_of_brave_i00</icon>
 		<reuseDelay>2000</reuseDelay>
 		<staticReuse>true</staticReuse>
 		<isMagic>2</isMagic>
@@ -210,44 +208,43 @@
 			<effect name="RestorationRandom">
 				<items>
 					<item chance="50.5549">
-						<item id="17186" count="1" />
-						<item id="17187" count="1" />
-						<item id="17188" count="1" />
+						<item id="17186" count="1" /> <!-- Olympic Athlete's Ring - 3-day -->
+						<item id="17187" count="1" /> <!-- Olympic Athlete's Necklace - 3-day -->
+						<item id="17188" count="1" /> <!-- Olympic Athlete's Earring - 3-day -->
 					</item>
 					<item chance="29.7381">
-						<item id="17189" count="1" />
-						<item id="17190" count="1" />
-						<item id="17191" count="1" />
+						<item id="17189" count="1" /> <!-- Olympic Athlete's Ring - 7-day -->
+						<item id="17190" count="1" /> <!-- Olympic Athlete's Necklace - 7-day -->
+						<item id="17191" count="1" /> <!-- Olympic Athlete's Earring - 7-day -->
 					</item>
 					<item chance="16.6667">
-						<item id="17192" count="1" />
-						<item id="17193" count="1" />
-						<item id="17194" count="1" />
+						<item id="17192" count="1" /> <!-- Olympic Athlete's Ring - 10-day -->
+						<item id="17193" count="1" /> <!-- Olympic Athlete's Necklace - 10-day -->
+						<item id="17194" count="1" /> <!-- Olympic Athlete's Earring - 10-day -->
 					</item>
 					<item chance="3.0303">
-						<item id="17195" count="1" />
-						<item id="17196" count="1" />
-						<item id="17197" count="1" />
+						<item id="17195" count="1" /> <!-- Olympic Athlete's Ring - 30-day -->
+						<item id="17196" count="1" /> <!-- Olympic Athlete's Necklace - 30-day -->
+						<item id="17197" count="1" /> <!-- Olympic Athlete's Earring - 30-day -->
 					</item>
 					<item chance="0.01">
-						<item id="17198" count="1" />
-						<item id="17199" count="1" />
-						<item id="17200" count="1" />
+						<item id="17198" count="1" /> <!-- Olympic Athlete's Ring -->
+						<item id="17199" count="1" /> <!-- Olympic Athlete's Necklace -->
+						<item id="17200" count="1" /> <!-- Olympic Athlete's Earring -->
 					</item>
 				</items>
 			</effect>
 		</effects>
 	</skill>
 	<skill id="8513" toLevel="1" name="Olympic Athlete's Spell of Blessing">
-		<!-- "When used, you can obtain at random a Blessed Scroll of Escape or a B~S grade Blessed Weapon/Armor Strengthening Scroll. Upon skill use, 10 Proofs of Cheers are consumed, and it can be cancelled when attacked." -->
+		<!-- When used, you can obtain at random a Blessed Scroll of Escape or a B~S-grade Blessed Weapon/Armor Strengthening Scroll. Upon skill use, 10 Proofs of Cheers are consumed, and it can be cancelled when attacked. -->
+		<icon>BranchSys2.icon.br_spell_of_blessing_i00</icon>
 		<itemConsumeId>17201</itemConsumeId>
 		<itemConsumeCount>10</itemConsumeCount>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<magicLvl>85</magicLvl>
-		<icon>BranchSys2.icon.br_spell_of_blessing_i00</icon>
 		<reuseDelay>2000</reuseDelay>
 		<staticReuse>true</staticReuse>
 		<isMagic>2</isMagic>
@@ -260,40 +257,39 @@
 			<effect name="RestorationRandom">
 				<items>
 					<item chance="20.1158">
-						<item id="9156" count="5" />
+						<item id="9156" count="5" /> <!-- Blessed Scroll of Escape (Event) -->
 					</item>
 					<item chance="19.2014">
-						<item id="17258" count="1" />
+						<item id="17258" count="1" /> <!-- Blessed Scroll: Enchant Armor (B-grade) - Event -->
 					</item>
 					<item chance="18.287">
-						<item id="17257" count="1" />
+						<item id="17257" count="1" /> <!-- Blessed Scroll: Enchant Weapon (B-grade) - Event -->
 					</item>
 					<item chance="16.4583">
-						<item id="17256" count="1" />
+						<item id="17256" count="1" /> <!-- Blessed Scroll: Enchant Armor (A-grade) - Event -->
 					</item>
 					<item chance="13.7153">
-						<item id="17255" count="1" />
+						<item id="17255" count="1" /> <!-- Blessed Scroll: Enchant Weapon (A-grade) - Event -->
 					</item>
 					<item chance="10">
-						<item id="17264" count="1" />
+						<item id="17264" count="1" /> <!-- Blessed Scroll: Enchant Armor (S-grade) - Event -->
 					</item>
 					<item chance="2.2222">
-						<item id="17263" count="1" />
+						<item id="17263" count="1" /> <!-- Blessed Scroll: Enchant Weapon (S-grade) - Event -->
 					</item>
 				</items>
 			</effect>
 		</effects>
 	</skill>
 	<skill id="8514" toLevel="1" name="Olympic Athlete's Energy of Victory">
-		<!-- "When used, you can obtain at random one Nevit's Hourglass 1~4 hours and Nevit's Voice. Upon skill use, 10 Proofs of Cheers are consumed, and it can be cancelled when attacked." -->
+		<!-- When used, you can obtain at random one XP Buff 50% 1 (4-hour) and Nevit's Voice. Upon skill use, 10 Proofs of Cheers are consumed, and it can be cancelled when attacked. -->
+		<icon>BranchSys2.icon.br_obsession_of_winning_i00</icon>
 		<itemConsumeId>17201</itemConsumeId>
 		<itemConsumeCount>10</itemConsumeCount>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<magicLvl>85</magicLvl>
-		<icon>BranchSys2.icon.br_obsession_of_winning_i00</icon>
 		<reuseDelay>2000</reuseDelay>
 		<staticReuse>true</staticReuse>
 		<isMagic>2</isMagic>
@@ -306,98 +302,94 @@
 			<effect name="RestorationRandom">
 				<items>
 					<item chance="20.9127">
-						<item id="17206" count="1" />
-						<item id="17212" count="1" />
+						<item id="17206" count="1" /> <!-- XP Buff 50% (1-hour) -->
+						<item id="17212" count="1" /> <!-- Nevit's Voice -->
 					</item>
 					<item chance="20.9127">
-						<item id="17207" count="1" />
-						<item id="17212" count="1" />
+						<item id="17207" count="1" /> <!-- XP Buff 50% (1.5-hour) -->
+						<item id="17212" count="1" /> <!-- Nevit's Voice -->
 					</item>
 					<item chance="19.2262">
-						<item id="17208" count="1" />
-						<item id="17212" count="1" />
+						<item id="17208" count="1" /> <!-- XP Buff 50% (2-hour) -->
+						<item id="17212" count="1" /> <!-- Nevit's Voice -->
 					</item>
 					<item chance="18.5516">
-						<item id="17209" count="1" />
-						<item id="17212" count="1" />
+						<item id="17209" count="1" /> <!-- XP Buff 50% (2.5-hour) -->
+						<item id="17212" count="1" /> <!-- Nevit's Voice -->
 					</item>
 					<item chance="17.5397">
-						<item id="17210" count="1" />
-						<item id="17212" count="1" />
+						<item id="17210" count="1" /> <!-- XP Buff 50% (3-hour) -->
+						<item id="17212" count="1" /> <!-- Nevit's Voice -->
 					</item>
 					<item chance="2.8571">
-						<item id="17211" count="1" />
-						<item id="17212" count="1" />
+						<item id="17211" count="1" /> <!-- XP Buff 50% (4-hour) -->
+						<item id="17212" count="1" /> <!-- Nevit's Voice -->
 					</item>
 				</items>
 			</effect>
 		</effects>
 	</skill>
 	<skill id="8515" toLevel="1" name="Release Agathion's Seal - Ball Trapping Gnosian">
-		<!-- High Five Skill -->
+		<!-- Removes the Agathion's seal. -->
+		<icon>icon.etc_summon_aga_agit_i00</icon>
 		<blockedInOlympiad>false</blockedInOlympiad>
 		<hitTime>3000</hitTime>
-		<icon>icon.etc_summon_aga_agit_i00</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SummonAgathion">
-				<npcId>1576</npcId>
+				<npcId>1576</npcId> <!-- Ball Trapping Gnosian -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="8516" toLevel="1" name="Release Agathion's Seal - Ball Trapping Orodriel">
-		<!-- High Five Skill -->
+		<!-- Removes the Agathion's seal. -->
+		<icon>icon.etc_summon_aga_agit_i00</icon>
 		<blockedInOlympiad>false</blockedInOlympiad>
 		<hitTime>3000</hitTime>
-		<icon>icon.etc_summon_aga_agit_i00</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SummonAgathion">
-				<npcId>1577</npcId>
+				<npcId>1577</npcId> <!-- Ball Trapping Orodriel -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="8517" toLevel="1" name="Release Agathion's Seal - Penalty Kick">
-		<!-- High Five Skill -->
+		<!-- Removes the Agathion's seal. -->
+		<icon>icon.etc_summon_aga_agit_i00</icon>
 		<blockedInOlympiad>false</blockedInOlympiad>
 		<hitTime>3000</hitTime>
-		<icon>icon.etc_summon_aga_agit_i00</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SummonAgathion">
-				<npcId>1578</npcId>
+				<npcId>1578</npcId> <!-- Penalty Kick -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="8518" toLevel="1" name="Notifier">
 		<!-- Informs you of the re-supply time of the gift given by the Agathion. -->
+		<icon>icon.skill5239</icon>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<magicLvl>85</magicLvl>
-		<icon>icon.skill5239</icon>
 		<reuseDelay>15000</reuseDelay>
 		<isMagic>2</isMagic>
 		<targetType>SELF</targetType>
@@ -408,12 +400,11 @@
 	</skill>
 	<skill id="8519" toLevel="1" name="Notifier">
 		<!-- Informs you of the re-supply time of the gift given by the Agathion. -->
+		<icon>icon.skill5239</icon>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<magicLvl>85</magicLvl>
-		<icon>icon.skill5239</icon>
 		<reuseDelay>15000</reuseDelay>
 		<isMagic>2</isMagic>
 		<targetType>SELF</targetType>
@@ -424,12 +415,11 @@
 	</skill>
 	<skill id="8520" toLevel="1" name="Notifier">
 		<!-- Informs you of the re-supply time of the gift given by the Agathion. -->
+		<icon>icon.skill5239</icon>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<magicLvl>85</magicLvl>
-		<icon>icon.skill5239</icon>
 		<reuseDelay>15000</reuseDelay>
 		<isMagic>2</isMagic>
 		<targetType>SELF</targetType>
@@ -439,65 +429,62 @@
 		</conditions>
 	</skill>
 	<skill id="8521" toLevel="1" name="Release Agathion's Seal - Antharas">
-		<!-- High Five Skill -->
+		<!-- Removes the Agathion's seal. -->
+		<icon>icon.etc_summon_aga_agit_i00</icon>
 		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
-		<icon>icon.etc_summon_aga_agit_i00</icon>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SummonAgathion">
-				<npcId>16077</npcId>
+				<npcId>16077</npcId> <!-- Antharas -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="8522" toLevel="1" name="Release Agathion's Seal - Nevit's Messenger Kanna">
-		<!-- High Five Skill -->
+		<!-- Removes the Agathion's seal. -->
+		<icon>icon.etc_summon_aga_agit_i00</icon>
 		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
-		<icon>icon.etc_summon_aga_agit_i00</icon>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SummonAgathion">
-				<npcId>16078</npcId>
+				<npcId>16078</npcId> <!-- Nevit's Messenger Kanna -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="8523" toLevel="1" name="Release Agathion's Seal - Guardian of Dawn Kallesin">
-		<!-- High Five Skill -->
+		<!-- Removes the Agathion's seal. -->
+		<icon>icon.etc_summon_aga_agit_i00</icon>
 		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
-		<icon>icon.etc_summon_aga_agit_i00</icon>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SummonAgathion">
-				<npcId>16079</npcId>
+				<npcId>16079</npcId> <!-- Guardian of Dawn Kallesin -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="8524" toLevel="1" name="Hero's Holy Attack">
-		<!-- Divine attck is increased by 250. -->
+		<!-- Increases Holy P. Atk. by 250. -->
+		<icon>icon.weapon_the_sword_of_hero_i00</icon>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>80</magicLvl>
-		<icon>icon.weapon_the_sword_of_hero_i00</icon>
 		<effects>
 			<effect name="AttackAttribute">
 				<amount>250</amount>
@@ -506,11 +493,11 @@
 		</effects>
 	</skill>
 	<skill id="8525" toLevel="1" name="Hero's Holy Attack">
-		<!-- Increases holy attack by 250. -->
+		<!-- Increases Holy P. Atk. by 250. -->
+		<icon>icon.weapon_the_staff_of_hero_i00</icon>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>80</magicLvl>
-		<icon>icon.weapon_the_staff_of_hero_i00</icon>
 		<effects>
 			<effect name="AttackAttribute">
 				<amount>250</amount>
@@ -520,10 +507,10 @@
 	</skill>
 	<skill id="8526" toLevel="1" name="Shiny Bracelet">
 		<!-- 3 Talisman can be equipped. -->
+		<icon>icon.accessory_shiny_bracelet</icon>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>52</magicLvl>
-		<icon>icon.accessory_shiny_bracelet</icon>
 		<effects>
 			<effect name="TalismanSlot">
 				<slots>3</slots>
@@ -536,23 +523,20 @@
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SummonAgathion">
-				<npcId>16080</npcId>
+				<npcId>16080</npcId> <!-- Magmeld Fairy -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="8528" toLevel="1" name="Release Agathion's Seal">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Removes the Agathion's seal. -->
 		<icon>icon.etc_summon_aga_agit_i00</icon>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<magicLvl>75</magicLvl>
@@ -562,7 +546,6 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="8529" toLevel="1" name="Ring of Insolence">
-		<!-- Glory Days confirmed -->
 		<!-- Increases Max MP by 15 and Poison Resistance by 10%. -->
 		<icon>icon.ring_of_oman</icon>
 		<operateType>P</operateType>
@@ -579,7 +562,6 @@
 		</effects>
 	</skill>
 	<skill id="8530" toLevel="1" name="Ring of Insolence">
-		<!-- Glory Days confirmed -->
 		<!-- Increases Max MP by 15, Poison Resistance by 10%, and poison attack rate by 10%. -->
 		<icon>icon.ring_of_oman</icon>
 		<operateType>P</operateType>
@@ -599,7 +581,6 @@
 		</effects>
 	</skill>
 	<skill id="8531" toLevel="1" name="Ring of Insolence">
-		<!-- Glory Days confirmed -->
 		<!-- Increases Max MP by 15, Poison Resistance by 10%, poison attack rate by 10%, and Hold Resistance by 10%. -->
 		<icon>icon.ring_of_oman</icon>
 		<operateType>P</operateType>
@@ -620,7 +601,6 @@
 		</effects>
 	</skill>
 	<skill id="8532" toLevel="1" name="Ring of Insolence">
-		<!-- Glory Days confirmed -->
 		<!-- Increases Max MP by 15, Poison Resistance by 10%, poison attack rate by 10%, Hold Resistance by 10%, and hold attack rate by 10%. -->
 		<icon>icon.ring_of_oman</icon>
 		<operateType>P</operateType>
@@ -642,7 +622,6 @@
 		</effects>
 	</skill>
 	<skill id="8533" toLevel="1" name="Ring of Insolence">
-		<!-- Glory Days confirmed -->
 		<!-- Increases Max MP by 15, Poison Resistance by 10%, poison attack rate by 10%, Hold Resistance by 10%, hold attack rate by 10%, and accuracy. -->
 		<icon>icon.ring_of_oman</icon>
 		<operateType>P</operateType>
@@ -668,7 +647,6 @@
 		</effects>
 	</skill>
 	<skill id="8534" toLevel="1" name="Ring of Insolence">
-		<!-- Glory Days confirmed -->
 		<!-- Increases Max MP by 15, Poison Resistance by 10%, poison attack rate by 10%, Hold Resistance by 10%, hold attack rate by 10%, accuracy, and Atk. Spd. -->
 		<icon>icon.ring_of_oman</icon>
 		<operateType>P</operateType>
@@ -698,7 +676,6 @@
 		</effects>
 	</skill>
 	<skill id="8535" toLevel="1" name="Ring of Insolence">
-		<!-- Glory Days confirmed -->
 		<!-- Increases Max MP by 15, Poison Resistance by 10%, poison attack rate by 10%, Hold Resistance by 10%, hold attack rate by 10%, accuracy, Atk. Spd., and Casting Spd. -->
 		<icon>icon.ring_of_oman</icon>
 		<operateType>P</operateType>
@@ -732,7 +709,6 @@
 		</effects>
 	</skill>
 	<skill id="8536" toLevel="1" name="Ring of Insolence">
-		<!-- Glory Days confirmed -->
 		<!-- Increases Max MP by 15, Poison Resistance by 10%, poison attack rate by 10%, Hold Resistance by 10%, hold attack rate by 10%, accuracy, Atk. Spd., Casting Spd., and critical damage. -->
 		<icon>icon.ring_of_oman</icon>
 		<operateType>P</operateType>
@@ -770,7 +746,6 @@
 		</effects>
 	</skill>
 	<skill id="8537" toLevel="1" name="T-shirt of Insolence">
-		<!-- Glory Days confirmed -->
 		<!-- Increases Max HP by 246. -->
 		<icon>icon.tshirt_of_oman</icon>
 		<operateType>P</operateType>
@@ -784,7 +759,6 @@
 		</effects>
 	</skill>
 	<skill id="8538" toLevel="1" name="Vengeance">
-		<!-- Glory Days confirmed -->
 		<!-- Provokes nearby enemies to switch targets and attack through Power 7987. For 30 seconds, increases P. Def. by 5400, M. Def. by 4050, and Buff-canceling Attack Resistance by 50, and becomes unable to move. Requires a shield. -->
 		<icon>icon.skill0368</icon>
 		<operateType>A3</operateType>
@@ -793,7 +767,6 @@
 		<effectPoint>-7985</effectPoint>
 		<abnormalType>PD_UP_SPECIAL</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>77</magicLvl>
 		<abnormalLvl>3</abnormalLvl>
@@ -827,7 +800,6 @@
 		</effects>
 	</skill>
 	<skill id="8539" toLevel="1" name="Spirit of the Phoenix">
-		<!-- Glory Days confirmed -->
 		<!-- Share Phoenix's spirit and yours. There is a chance that the Spirit of the Phoenix will expand when being attacked. Additional effects appear as it expands. Use requirements are complete through the ring's power. -->
 		<icon>icon.skill0784</icon>
 		<operateType>A2</operateType>
@@ -837,7 +809,6 @@
 		<effectPoint>138</effectPoint>
 		<abnormalType>SEED_OF_KNIGHT</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>81</magicLvl>
 		<abnormalLvl>1</abnormalLvl>
@@ -857,13 +828,12 @@
 				<chance>20</chance>
 				<targetType>SELF</targetType>
 				<minDamage>1</minDamage>
-				<skillId>5562</skillId> <!-- Spirit of Phoenix -->
+				<skillId>5562</skillId> <!-- Spirit of the Phoenix -->
 				<skillLevel>1</skillLevel>
 			</effect>
 		</effects>
 	</skill>
 	<skill id="8540" toLevel="1" name="Shield of Faith">
-		<!-- Glory Days confirmed -->
 		<!-- For 15 seconds, increases party members' P. Def. by 3600 and M. Def. by 2700, and absorbs 90% of any damage received by a party member. -->
 		<icon>icon.skill0528</icon>
 		<operateType>A2</operateType>
@@ -872,7 +842,6 @@
 		<effectPoint>673</effectPoint>
 		<abnormalType>TRANSFER_DAMAGE</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>79</magicLvl>
 		<abnormalLvl>1</abnormalLvl>
@@ -897,7 +866,6 @@
 		</effects>
 	</skill>
 	<skill id="8541" toLevel="1" name="Seed of Revenge">
-		<!-- Glory Days confirmed -->
 		<!-- One sows a seed of wrath himself. There is a chance that the Seed of Wrath will grow when being attacked. P. Atk. increases with growth. -->
 		<icon>icon.skill0761</icon>
 		<operateType>A2</operateType>
@@ -907,7 +875,6 @@
 		<effectPoint>679</effectPoint>
 		<abnormalType>SEED_OF_KNIGHT</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>81</magicLvl>
 		<abnormalLvl>1</abnormalLvl>
@@ -933,7 +900,6 @@
 		</effects>
 	</skill>
 	<skill id="8542" toLevel="1" name="Touch of Eva">
-		<!-- Glory Days confirmed -->
 		<!-- Restores HP of party members by 50%. For 1 minute, increases Buff-canceling Attack Resistance by 100% and the power of received HP recovery magic by 30%. Restores 50 HP every second. Use requirements are complete through the ring's power. -->
 		<icon>icon.skill0787</icon>
 		<operateType>A2</operateType>
@@ -943,7 +909,6 @@
 		<effectPoint>835</effectPoint>
 		<abnormalType>TOUCH_OF_LIFE</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>400</effectRange>
 		<magicLvl>81</magicLvl>
@@ -979,7 +944,6 @@
 		</effects>
 	</skill>
 	<skill id="8543" toLevel="1" name="Pain of Shilen">
-		<!-- Glory Days confirmed -->
 		<!-- Shilen's pain becomes your own. Shilen's suffering wracks your body, having a chance to increase when you are being attacked. Additional effects appear with each increase. When Lv. 3 is achieved, you can then use the Spirit of Shilen. -->
 		<icon>icon.skill0788</icon>
 		<operateType>A2</operateType>
@@ -989,7 +953,6 @@
 		<effectPoint>138</effectPoint>
 		<abnormalType>SEED_OF_KNIGHT</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>81</magicLvl>
 		<abnormalLvl>1</abnormalLvl>
@@ -1005,7 +968,7 @@
 				<chance>20</chance>
 				<targetType>SELF</targetType>
 				<minDamage>1</minDamage>
-				<skillId>5564</skillId> <!-- Pain of Shillien -->
+				<skillId>5564</skillId> <!-- Pain of Shilen -->
 				<skillLevel>1</skillLevel>
 			</effect>
 			<effect name="CriticalDamage">
@@ -1015,7 +978,6 @@
 		</effects>
 	</skill>
 	<skill id="8544" toLevel="1" name="Prophecy of Fire">
-		<!-- Glory Days confirmed -->
 		<!-- For 5 minutes, a powerful spirit acts to increase a party member's Max MP by 20%, HP Recovery Bonus by 20%, magic damage's Critical Rate by 2, Critical Damages by 20%, P. Atk. by 10%, P. Def. by 20%, Atk. Spd. by 20%, M. Atk. by 20%, M. Def. by 20%, Casting Spd. by 20%, and Debuff Resistance by 10%. Decreases Speed by 20%. Consumes 10 Spirit Ore. -->
 		<icon>icon.skill1356</icon>
 		<operateType>A2</operateType>
@@ -1026,7 +988,6 @@
 		<effectPoint>669</effectPoint>
 		<abnormalType>MULTI_BUFF</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>600</effectRange>
 		<magicLvl>78</magicLvl>
@@ -1096,7 +1057,6 @@
 		</effects>
 	</skill>
 	<skill id="8545" toLevel="1" name="Turn to Stone">
-		<!-- Glory Days confirmed -->
 		<!-- Petrifies oneself for 8 seconds to avoid incurring damage. -->
 		<icon>icon.skill1540</icon>
 		<operateType>A2</operateType>
@@ -1105,7 +1065,6 @@
 		<effectPoint>343</effectPoint>
 		<abnormalType>TURN_STONE</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>81</magicLvl>
 		<abnormalLvl>1</abnormalLvl>
@@ -1133,11 +1092,9 @@
 		</effects>
 	</skill>
 	<skill id="8546" toLevel="1" name="Arcane Wisdom">
-		<!-- Glory Days confirmed -->
 		<!-- Maximizes magic efficiency by decreasing MP Consumption by 30% and Casting Spd. by 10%. 50 HP is consumed per second. -->
 		<icon>icon.skill0336</icon>
 		<operateType>T</operateType>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>78</magicLvl>
 		<mpConsume>36</mpConsume>
@@ -1159,7 +1116,6 @@
 		</effects>
 	</skill>
 	<skill id="8547" toLevel="1" name="Song of Champion">
-		<!-- Glory Days confirmed -->
 		<!-- For 2 minutes, decreases all party members' physical/sing/dance skill use MP Consumption by 20% and physical/sing/dance skill reuse time by 10%. Additionally increases MP Consumption when singing while song/dance is in effect. -->
 		<icon>icon.skill0364</icon>
 		<operateType>A2</operateType>
@@ -1169,7 +1125,6 @@
 		<effectPoint>669</effectPoint>
 		<abnormalType>SONG_OF_CHAMPION</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>78</magicLvl>
 		<abnormalLvl>1</abnormalLvl>
@@ -1203,7 +1158,6 @@
 		</effects>
 	</skill>
 	<skill id="8548" toLevel="1" name="Song of Purification">
-		<!-- Glory Days confirmed -->
 		<!-- Provides an 80% chance of removing a party member's debuffs. And for the next 2 minutes, increases Debuff Resistance by 30% and increases the power of received HP recovery magic by 30%. -->
 		<icon>icon.skill0914</icon>
 		<operateType>A2</operateType>
@@ -1213,7 +1167,6 @@
 		<effectPoint>687</effectPoint>
 		<abnormalType>SONG_OF_PURIFICATION</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>81</magicLvl>
 		<abnormalLvl>1</abnormalLvl>
@@ -1240,7 +1193,6 @@
 		</effects>
 	</skill>
 	<skill id="8549" toLevel="1" name="Dance of Berserker">
-		<!-- Glory Days confirmed -->
 		<!-- Decreases a party member's P. Def., M. Def. and Evasion, and increases their P. Atk., M. Atk., Atk. Spd., Casting Spd. and Speed for 2 minutes. -->
 		<icon>icon.skill0915</icon>
 		<operateType>A2</operateType>
@@ -1250,7 +1202,6 @@
 		<effectPoint>687</effectPoint>
 		<abnormalType>DANCE_OF_BERSERKER</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>81</magicLvl>
 		<abnormalLvl>1</abnormalLvl>
@@ -1304,7 +1255,6 @@
 		</effects>
 	</skill>
 	<skill id="8550" toLevel="1" name="Dance of Medusa">
-		<!-- Glory Days confirmed -->
 		<!-- Dances to stir up the illusion of Medusa. Petrifies nearby enemies for 30 seconds. Requires a dualsword. -->
 		<icon>icon.skill0367</icon>
 		<operateType>A2</operateType>
@@ -1314,7 +1264,6 @@
 		<effectPoint>-666</effectPoint>
 		<abnormalType>TURN_STONE</abnormalType>
 		<basicProperty>MAGIC</basicProperty>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<lvlBonusRate>10</lvlBonusRate>
 		<activateRate>40</activateRate>
@@ -1361,7 +1310,6 @@
 		</effects>
 	</skill>
 	<skill id="8551" toLevel="1" name="Chant of Victory">
-		<!-- Glory Days confirmed -->
 		<!-- Recovers all party members' HP by 20%, and for 5 minutes, receives help from a great spirit to increase Max HP by 20%, magic damage Critical Damage by 2, Critical Damage by 20%, P. Atk. by 10%, P. Def. by 20%, Atk. Spd. by 20%, M. Atk. by 20%, M. Def. by 20%, Casting Spd. by 20%, Debuff Resistance by 10%, and Accuracy by 4. Decreases Speed by 20%. Consumes 40 Spirit Ore. -->
 		<icon>icon.skill1363</icon>
 		<operateType>A2</operateType>
@@ -1371,7 +1319,6 @@
 		<effectPoint>669</effectPoint>
 		<abnormalType>MULTI_BUFF</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>78</magicLvl>
 		<abnormalLvl>1</abnormalLvl>
@@ -1434,7 +1381,6 @@
 		</effects>
 	</skill>
 	<skill id="8552" toLevel="1" name="Onslaught of Pa'agrio">
-		<!-- Glory Days confirmed -->
 		<!-- Attacks near the enemy with 4563 Power added to P. Atk., causes burns for 15 seconds, and makes him consume 92 HP every second. Requires a blunt weapon. Over-hit is possible. -->
 		<icon>icon.skill0949</icon>
 		<operateType>A2</operateType>
@@ -1446,7 +1392,6 @@
 		<effectPoint>-346</effectPoint>
 		<abnormalType>DOT_ATTR</abnormalType>
 		<basicProperty>PHYSICAL</basicProperty>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>400</effectRange>
 		<lvlBonusRate>1</lvlBonusRate>
@@ -1482,11 +1427,9 @@
 		</effects>
 	</skill>
 	<skill id="8553" toLevel="1" name="Arcane Power">
-		<!-- Glory Days confirmed -->
 		<!-- Maximizes magic efficiency by increasing M. Atk. by 30% and MP Consumption by 10%. Every second, 50 HP is consumed. -->
 		<icon>icon.skill0337</icon>
 		<operateType>T</operateType>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>78</magicLvl>
 		<mpConsume>36</mpConsume>
@@ -1508,7 +1451,6 @@
 		</effects>
 	</skill>
 	<skill id="8554" toLevel="1" name="Lethal Blow">
-		<!-- Glory Days confirmed -->
 		<!-- Attacks the target's vital points with 5773 Power added to P. Atk. Requires a dagger. Over-hit is possible. Half-kill. -->
 		<icon>icon.skill0344</icon>
 		<operateType>A1</operateType>
@@ -1516,7 +1458,6 @@
 		<castRange>40</castRange>
 		<hitTime>1800</hitTime>
 		<effectPoint>-337</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>400</effectRange>
 		<magicLvl>76</magicLvl>
@@ -1546,7 +1487,6 @@
 		</effects>
 	</skill>
 	<skill id="8555" toLevel="1" name="Throwing Dagger">
-		<!-- Glory Days confirmed -->
 		<!-- Attacks the enemy by throwing a dagger with 3488 Power added to P. Atk. and decreases Speed by 80% for 10 seconds. Requires a dagger to be equipped. -->
 		<icon>icon.skill0991</icon>
 		<operateType>A2</operateType>
@@ -1557,7 +1497,6 @@
 		<effectPoint>-345</effectPoint>
 		<abnormalType>SPEED_DOWN</abnormalType>
 		<basicProperty>MAGIC</basicProperty>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>450</effectRange>
 		<lvlBonusRate>10</lvlBonusRate>
@@ -1589,7 +1528,6 @@
 		</effects>
 	</skill>
 	<skill id="8556" toLevel="1" name="Exciting Adventure">
-		<!-- Glory Days confirmed -->
 		<!-- Feels extreme excitement during a melee. For 30 seconds, increases Speed by 20, Evasion by 15, vital point attack rate by 30%, physical skill Evasion Rate by 40%, and Buff-canceling Attack Resistance by 90. -->
 		<icon>icon.skill0768</icon>
 		<operateType>A2</operateType>
@@ -1598,7 +1536,6 @@
 		<effectPoint>679</effectPoint>
 		<abnormalType>AVOID_UP_SPECIAL</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>81</magicLvl>
 		<abnormalLvl>2</abnormalLvl>
@@ -1631,7 +1568,6 @@
 		</effects>
 	</skill>
 	<skill id="8557" toLevel="1" name="Wind Riding">
-		<!-- Glory Days confirmed -->
 		<!-- Storms the battleground riding the Wind. For 30 seconds, increases Speed by 50, Evasion by 20, vital point attack rate by 20%, physical skill Evasion Rate by 75%, and Buff-canceling Attack Resistance by 80. -->
 		<icon>icon.skill0769</icon>
 		<operateType>A2</operateType>
@@ -1640,7 +1576,6 @@
 		<effectPoint>679</effectPoint>
 		<abnormalType>AVOID_UP_SPECIAL</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>81</magicLvl>
 		<abnormalLvl>2</abnormalLvl>
@@ -1673,8 +1608,7 @@
 		</effects>
 	</skill>
 	<skill id="8558" toLevel="1" name="Ghost Walking">
-		<!-- Glory Days confirmed -->
-		<!-- Infiltrates the battleground like a ghost.ﾠFor 30 seconds, increases Speed by 33, Evasion by 15, vital point attack rate by 40%, physical skill Evasion Rate by 60%, and Buff-canceling Attack Resistance by 90. -->
+		<!-- Infiltrates the battleground like a ghost.For 30 seconds, increases Speed by 33, Evasion by 15, vital point attack rate by 40%, physical skill Evasion Rate by 60%, and Buff-canceling Attack Resistance by 90. -->
 		<icon>icon.skill0770</icon>
 		<operateType>A2</operateType>
 		<mpConsume>36</mpConsume>
@@ -1682,7 +1616,6 @@
 		<effectPoint>679</effectPoint>
 		<abnormalType>AVOID_UP_SPECIAL</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>81</magicLvl>
 		<abnormalLvl>2</abnormalLvl>
@@ -1715,7 +1648,6 @@
 		</effects>
 	</skill>
 	<skill id="8559" toLevel="1" name="Lethal Shot">
-		<!-- Glory Days confirmed -->
 		<!-- Shoots an arrow at a vital spot. Attacks the enemy with 7698 Power added to P. Atk. Requires a bow. Over-hit, Half-Kill, and Critical are possible. -->
 		<icon>icon.skill0343</icon>
 		<operateType>A1</operateType>
@@ -1723,7 +1655,6 @@
 		<castRange>900</castRange>
 		<hitTime>4000</hitTime>
 		<effectPoint>-897</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>1400</effectRange>
 		<magicLvl>76</magicLvl>
@@ -1750,7 +1681,6 @@
 		</effects>
 	</skill>
 	<skill id="8560" toLevel="1" name="Flame Hawk">
-		<!-- Glory Days confirmed -->
 		<!-- Shoots an arrow filled with the energy of the phoenix to attack the enemies with 6084 Power added to P. Atk. Requires a bow. Over-hit and critical hit are possible. -->
 		<icon>icon.skill0771</icon>
 		<operateType>A1</operateType>
@@ -1759,7 +1689,6 @@
 		<hitTime>3500</hitTime>
 		<coolTime>1000</coolTime>
 		<effectPoint>-686</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>1400</effectRange>
 		<magicLvl>81</magicLvl>
@@ -1783,13 +1712,12 @@
 				<criticalChance>15</criticalChance>
 			</effect>
 			<effect name="CallSkill">
-				<skillId>23298</skillId>
+				<skillId>23298</skillId> <!-- Flame Hawk -->
 				<skillLevel>1</skillLevel>
 			</effect>
 		</effects>
 	</skill>
 	<skill id="8561" toLevel="1" name="Arrow Rain">
-		<!-- Glory Days confirmed -->
 		<!-- Causes arrows to rain down from the sky to attack near the enemy with 4563 Power added to P. Atk. Requires a bow. Over-hit and critical hit are possible. -->
 		<icon>icon.skill0772</icon>
 		<operateType>A1</operateType>
@@ -1798,7 +1726,6 @@
 		<hitTime>4000</hitTime>
 		<coolTime>1000</coolTime>
 		<effectPoint>-686</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>1100</effectRange>
 		<magicLvl>81</magicLvl>
@@ -1822,13 +1749,12 @@
 				<criticalChance>15</criticalChance>
 			</effect>
 			<effect name="CallSkill">
-				<skillId>23299</skillId>
+				<skillId>23299</skillId> <!-- Arrow Rain -->
 				<skillLevel>1</skillLevel>
 			</effect>
 		</effects>
 	</skill>
 	<skill id="8562" toLevel="1" name="Ghost Piercing">
-		<!-- Glory Days confirmed -->
 		<!-- Shoots an arrow filled with the energy of a ghost to attack the enemies with 6388 Power added to P. Atk. Requires a bow. Over-hit and critical hit are possible. -->
 		<icon>icon.skill0773</icon>
 		<operateType>A1</operateType>
@@ -1837,7 +1763,6 @@
 		<hitTime>3000</hitTime>
 		<coolTime>1000</coolTime>
 		<effectPoint>-686</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>1400</effectRange>
 		<magicLvl>81</magicLvl>
@@ -1861,13 +1786,12 @@
 				<criticalChance>15</criticalChance>
 			</effect>
 			<effect name="CallSkill">
-				<skillId>23300</skillId>
+				<skillId>23300</skillId> <!-- Ghost Piercing -->
 				<skillLevel>1</skillLevel>
 			</effect>
 		</effects>
 	</skill>
 	<skill id="8563" toLevel="1" name="Death Shot">
-		<!-- Glory Days confirmed -->
 		<!-- Shoots an arrow to kill. Attacks the enemy with 24306 Power added to P. Atk. Over-hit possible. Critical hit possible. Requires a bow/crossbow to be equipped. -->
 		<icon>icon.skill0990</icon>
 		<operateType>A1</operateType>
@@ -1876,7 +1800,6 @@
 		<hitTime>3500</hitTime>
 		<coolTime>500</coolTime>
 		<effectPoint>-1387</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>1400</effectRange>
 		<magicLvl>83</magicLvl>
@@ -1901,7 +1824,6 @@
 		</effects>
 	</skill>
 	<skill id="8564" toLevel="1" name="Rush Impact">
-		<!-- Glory Days confirmed -->
 		<!-- Rushes forward to attack the enemies in front with 4040 Power added to P. Atk. and inflicts Stun for 9 seconds. Use requirements are completed through the ring's power. -->
 		<icon>icon.skill0793</icon>
 		<operateType>DA2</operateType>
@@ -1912,7 +1834,6 @@
 		<effectPoint>-679</effectPoint>
 		<abnormalType>STUN</abnormalType>
 		<basicProperty>PHYSICAL</basicProperty>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>800</effectRange>
 		<lvlBonusRate>1</lvlBonusRate>
@@ -1943,7 +1864,6 @@
 		</effects>
 	</skill>
 	<skill id="8565" toLevel="1" name="Dread Pool">
-		<!-- Glory Days confirmed -->
 		<!-- Fear spreads around the area. Decreases nearby enemies' Speed by 33%. Inflicts fear and causes them to flee for 8 seconds. -->
 		<icon>icon.skill0774</icon>
 		<operateType>A2</operateType>
@@ -1953,7 +1873,6 @@
 		<effectPoint>-655</effectPoint>
 		<abnormalType>TURN_FLEE</abnormalType>
 		<basicProperty>MAGIC</basicProperty>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<lvlBonusRate>10</lvlBonusRate>
 		<activateRate>70</activateRate>
@@ -1979,7 +1898,6 @@
 		</effects>
 	</skill>
 	<skill id="8566" toLevel="1" name="Earthquake">
-		<!-- Glory Days confirmed -->
 		<!-- Wields a spear at neary by enemies with 4848 Power added to P. Atk. Requires a polearm. Over-hit and critical hit are possible. Ignores Shield Defense. Target may be canceled. -->
 		<icon>icon.skill0347</icon>
 		<operateType>A1</operateType>
@@ -1987,7 +1905,6 @@
 		<mpConsume>78</mpConsume>
 		<hitTime>1800</hitTime>
 		<effectPoint>-679</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>78</magicLvl>
 		<affectRange>150</affectRange>
@@ -2016,8 +1933,7 @@
 		</effects>
 	</skill>
 	<skill id="8567" toLevel="1" name="Maximum Force Focus">
-		<!-- Glory Days confirmed -->
-		<!-- Immediately increases Momentum to its maximum Lv.. -->
+		<!-- Immediately increases Momentum to its maximum level. -->
 		<icon>icon.skill0918</icon>
 		<operateType>A1</operateType>
 		<hpConsume>80</hpConsume>
@@ -2027,7 +1943,6 @@
 		<reuseDelay>75000</reuseDelay>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>81</magicLvl>
-		<rideState>NONE</rideState>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<conditions>
@@ -2045,8 +1960,7 @@
 		</effects>
 	</skill>
 	<skill id="8568" toLevel="1" name="Maximum Sonic Focus">
-		<!-- Glory Days confirmed -->
-		<!-- Immediately increases Momentum to its maximum Lv.. -->
+		<!-- Immediately increases Momentum to its maximum level. -->
 		<icon>icon.skill0919</icon>
 		<operateType>A1</operateType>
 		<hpConsume>80</hpConsume>
@@ -2056,7 +1970,6 @@
 		<reuseDelay>75000</reuseDelay>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>81</magicLvl>
-		<rideState>NONE</rideState>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<conditions>
@@ -2075,7 +1988,6 @@
 		</effects>
 	</skill>
 	<skill id="8569" toLevel="1" name="Sonic Rage">
-		<!-- Glory Days confirmed -->
 		<!-- Attacks the enemy with a devastating momentum burst. Requires a dualsword. Possible up to stage 7. Over-hit and critical hit are possible. -->
 		<icon>icon.skill0345</icon>
 		<operateType>A1</operateType>
@@ -2083,7 +1995,6 @@
 		<mpConsume>5</mpConsume>
 		<castRange>600</castRange>
 		<effectPoint>-340</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>1100</effectRange>
 		<magicLvl>78</magicLvl>
@@ -2113,7 +2024,6 @@
 		</selfEffects>
 	</skill>
 	<skill id="8570" toLevel="1" name="Raging Force">
-		<!-- Glory Days confirmed -->
 		<!-- Attacks the enemy with a devastating burst of energy of wind. Requires a fist weapon. Possible up to stage 7. Over-hit and critical hit are possible. -->
 		<icon>icon.skill0346</icon>
 		<operateType>A1</operateType>
@@ -2121,7 +2031,6 @@
 		<mpConsume>5</mpConsume>
 		<castRange>600</castRange>
 		<effectPoint>-340</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>1100</effectRange>
 		<magicLvl>78</magicLvl>
@@ -2150,7 +2059,6 @@
 		</selfEffects>
 	</skill>
 	<skill id="8571" toLevel="1" name="Demolition Impact">
-		<!-- Glory Days confirmed -->
 		<!-- Unleashes a stun of destruction to attack nearby enemies with 6084 Power added to P. Atk. Requires a two-handed sword/ blunt weapon. Over-hit and Critical are possible. -->
 		<icon>icon.skill0777</icon>
 		<operateType>A1</operateType>
@@ -2158,7 +2066,6 @@
 		<castRange>40</castRange>
 		<hitTime>1200</hitTime>
 		<effectPoint>-692</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>200</effectRange>
 		<magicLvl>81</magicLvl>
@@ -2186,7 +2093,6 @@
 		</effects>
 	</skill>
 	<skill id="8572" toLevel="1" name="Armor Crush">
-		<!-- Glory Days confirmed -->
 		<!-- Attacks the enemy with 3295 Power added to P. Atk. Stun the enemy for 9 seconds, and decrease their P. Def. by 30% and M. Def. by 30%. Requires a sword, blunt weapon, two-handed sword or two-handed blunt weapon. Over-hit and critical hit are possible. Ignores Shield Defense. -->
 		<icon>icon.skill0362</icon>
 		<operateType>A2</operateType>
@@ -2199,7 +2105,6 @@
 		<effectPoint>-507</effectPoint>
 		<abnormalType>STUN</abnormalType>
 		<basicProperty>PHYSICAL</basicProperty>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>400</effectRange>
 		<lvlBonusRate>10</lvlBonusRate>
@@ -2242,7 +2147,6 @@
 		</effects>
 	</skill>
 	<skill id="8573" toLevel="1" name="Soul Rage">
-		<!-- Glory Days Confirmed -->
 		<!-- Gathers souls and attacks the enemy by hurling projectiles. Possible up to Lv. 40. Critical hit and over-hit are possible. -->
 		<icon>icon.skill0939</icon>
 		<operateType>A1</operateType>
@@ -2250,7 +2154,6 @@
 		<mpConsume>5</mpConsume>
 		<castRange>600</castRange>
 		<effectPoint>-340</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>1100</effectRange>
 		<magicLvl>78</magicLvl>
@@ -2270,7 +2173,6 @@
 		</selfEffects>
 	</skill>
 	<skill id="8574" toLevel="1" name="Enuma Elish">
-		<!-- Glory Days Confirmed -->
 		<!-- Attacks enemies in front using the mighty Sword of Creation with 6468 Power added to P. Atk. Increases Power upon the consumption of up to 5 souls. Over-hit is possible. -->
 		<icon>icon.skill0526</icon>
 		<operateType>A1</operateType>
@@ -2279,7 +2181,6 @@
 		<hitTime>1080</hitTime>
 		<coolTime>720</coolTime>
 		<effectPoint>-343</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>400</effectRange>
 		<magicLvl>78</magicLvl>
@@ -2299,7 +2200,6 @@
 		</effects>
 	</skill>
 	<skill id="8575" toLevel="1" name="Soul Vortex">
-		<!-- Glory Days Confirmed -->
 		<!-- Stirs up a vortex connecting to the dimension of souls and inflicts non-attribute damage on the enemy with 112 Power added to M. Atk. For 30 seconds, decreases Speed by 20%, Atk. Spd. by 30%, and Casting Spd. by 30%. Consumes 12 MP every second. Over-hit is possible. -->
 		<icon>icon.skill1512</icon>
 		<operateType>A2</operateType>
@@ -2311,7 +2211,6 @@
 		<effectPoint>-999</effectPoint>
 		<abnormalType>MULTI_DEBUFF_SOUL</abnormalType>
 		<basicProperty>MAGIC</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>1400</effectRange>
 		<lvlBonusRate>10</lvlBonusRate>
@@ -2346,7 +2245,6 @@
 		</effects>
 	</skill>
 	<skill id="8576" toLevel="1" name="Soul Vortex Extinction">
-		<!-- Glory Days Confirmed -->
 		<!-- Detonates an Soul Vortex to inflict non-attribute damage on the enemy with 195 Power added to M. Atk. Increases Power upon the consumption of up to 5 souls. -->
 		<icon>icon.skill1513</icon>
 		<operateType>A1</operateType>
@@ -2355,7 +2253,6 @@
 		<hitTime>2000</hitTime>
 		<reuseDelay>15000</reuseDelay>
 		<effectPoint>-1009</effectPoint>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>1400</effectRange>
 		<magicLvl>79</magicLvl>
@@ -2380,7 +2277,6 @@
 		</effects>
 	</skill>
 	<skill id="8577" toLevel="1" name="Wild Shot">
-		<!-- Glory Days Confirmed -->
 		<!-- Fires bolt at random to attack enemies in front with 6084 Power added to P. Atk. Requires a crossbow. Over-hit and Critical are possible. Increases Power upon the consumption of up to 5 souls. -->
 		<icon>icon.skill0790</icon>
 		<operateType>A1</operateType>
@@ -2389,7 +2285,6 @@
 		<hitTime>3500</hitTime>
 		<coolTime>1000</coolTime>
 		<effectPoint>-692</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>1400</effectRange>
 		<magicLvl>81</magicLvl>
@@ -2417,7 +2312,6 @@
 		</effects>
 	</skill>
 	<skill id="8578" toLevel="1" name="Multiple Shot">
-		<!-- Glory Days Confirmed -->
 		<!-- Attacks multiple enemies with 16667 Power added to P. Atk. Over-hit and Critical hit are possible. Requires a bow/crossbow. -->
 		<icon>icon.skill0987</icon>
 		<operateType>A1</operateType>
@@ -2426,7 +2320,6 @@
 		<hitTime>3000</hitTime>
 		<coolTime>1000</coolTime>
 		<effectPoint>-686</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>1400</effectRange>
 		<magicLvl>83</magicLvl>
@@ -2455,7 +2348,6 @@
 		</effects>
 	</skill>
 	<skill id="8579" toLevel="1" name="Fire Vortex">
-		<!-- Glory Days Confirmed -->
 		<!-- Summons a dimensional vortex that inflicts Fire damage on the enemy, supplementing user's M. Atk. with 140 Power. For 30 seconds, decreases Speed by 10%, Atk. Spd. by 30%, Casting Spd. by 10%, and Fire Resistance by 20. Consumes 12 MP every second. Over-hit is possible. -->
 		<icon>icon.skill1339</icon>
 		<operateType>A2</operateType>
@@ -2467,7 +2359,6 @@
 		<effectPoint>-999</effectPoint>
 		<abnormalType>MULTI_DEBUFF_FIRE</abnormalType>
 		<basicProperty>MAGIC</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>1400</effectRange>
 		<lvlBonusRate>10</lvlBonusRate>
@@ -2508,7 +2399,6 @@
 		</effects>
 	</skill>
 	<skill id="8580" toLevel="1" name="Fire Vortex Buster">
-		<!-- Glory Days Confirmed -->
 		<!-- Detonates a Fire Vortex that inflicts Fire damage on the enemy with 195 Power added to user's M. Atk. -->
 		<icon>icon.skill1451</icon>
 		<operateType>A1</operateType>
@@ -2517,7 +2407,6 @@
 		<hitTime>2000</hitTime>
 		<reuseDelay>15000</reuseDelay>
 		<effectPoint>-1009</effectPoint>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>1400</effectRange>
 		<magicLvl>79</magicLvl>
@@ -2543,7 +2432,6 @@
 		</effects>
 	</skill>
 	<skill id="8581" toLevel="1" name="Meteor">
-		<!-- Glory Days Confirmed -->
 		<!-- Crashes down meteors to inflict continuous fire damage near the enemy with 117 Power added to M. Atk. -->
 		<icon>icon.skill1467</icon>
 		<operateType>CA1</operateType>
@@ -2552,7 +2440,6 @@
 		<hitTime>11000</hitTime>
 		<reuseDelay>900000</reuseDelay>
 		<effectPoint>-687</effectPoint>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>1100</effectRange>
 		<magicLvl>81</magicLvl>
@@ -2574,7 +2461,6 @@
 		</channelingEffects>
 	</skill>
 	<skill id="8582" toLevel="1" name="Dark Vortex">
-		<!-- Glory Days Confirmed -->
 		<!-- Stirs up a vortex connecting to the dimension of darkness and inflicts dark damage on the enemy with 139 Power added to M. Atk. Absorbs 25% as HP. For 30 seconds, decreases Accuracy by 6 and Dark Resistance by 30. Consumes 12 MP every second. -->
 		<icon>icon.skill1343</icon>
 		<operateType>A2</operateType>
@@ -2586,7 +2472,6 @@
 		<effectPoint>-993</effectPoint>
 		<abnormalType>MULTI_DEBUFF_UNHOLY</abnormalType>
 		<basicProperty>MAGIC</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>1400</effectRange>
 		<lvlBonusRate>10</lvlBonusRate>
@@ -2615,7 +2500,6 @@
 		</effects>
 	</skill>
 	<skill id="8583" toLevel="1" name="Day of Doom">
-		<!-- Glory Days Confirmed -->
 		<!-- Creates a seal that casts a powerful curse that decreases all the abilities of nearby enemies. The seal's effect disappears upon leaving the area. Consumes 1 Magic Symbol. -->
 		<icon>icon.skill1422</icon>
 		<operateType>A1</operateType>
@@ -2623,7 +2507,6 @@
 		<castRange>900</castRange>
 		<hitTime>5000</hitTime>
 		<reuseDelay>1800000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>1000</effectRange>
 		<magicLvl>80</magicLvl>
@@ -2659,7 +2542,6 @@
 		</effects>
 	</skill>
 	<skill id="8584" toLevel="1" name="Ice Vortex">
-		<!-- Glory Days Confirmed -->
 		<!-- Stirs up a vortex connecting to the dimension of Water and inflicts Water damage on the enemy with 140 Power added to M. Atk. For 30 seconds, decreases Speed by 30%, Atk. Spd. by 10%, Casting Spd. by 10%, and resistance against Water by 20. Consumes 12 MP every second. Over-hit is possible. -->
 		<icon>icon.skill1340</icon>
 		<operateType>A2</operateType>
@@ -2671,7 +2553,6 @@
 		<effectPoint>-999</effectPoint>
 		<abnormalType>MULTI_DEBUFF_WATER</abnormalType>
 		<basicProperty>MAGIC</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>1400</effectRange>
 		<lvlBonusRate>10</lvlBonusRate>
@@ -2712,7 +2593,6 @@
 		</effects>
 	</skill>
 	<skill id="8585" toLevel="1" name="Ice Vortex Crusher">
-		<!-- Glory Days Confirmed -->
 		<!-- Detonates an Ice Vortex that inflicts Water damage on the enemy with 195 Power added to user's M. Atk. -->
 		<icon>icon.skill1453</icon>
 		<operateType>A1</operateType>
@@ -2721,7 +2601,6 @@
 		<hitTime>2000</hitTime>
 		<reuseDelay>15000</reuseDelay>
 		<effectPoint>-1009</effectPoint>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>1400</effectRange>
 		<magicLvl>79</magicLvl>
@@ -2747,7 +2626,6 @@
 		</effects>
 	</skill>
 	<skill id="8586" toLevel="1" name="Star Fall">
-		<!-- Glory Days Confirmed -->
 		<!-- Crashes down meteors to inflict continuous non-type damage near the enemy with 117 Power added to M. Atk. -->
 		<icon>icon.skill1468</icon>
 		<operateType>CA1</operateType>
@@ -2756,7 +2634,6 @@
 		<hitTime>11000</hitTime>
 		<reuseDelay>900000</reuseDelay>
 		<effectPoint>-687</effectPoint>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>1100</effectRange>
 		<magicLvl>81</magicLvl>
@@ -2776,7 +2653,6 @@
 		</channelingEffects>
 	</skill>
 	<skill id="8587" toLevel="1" name="Wind Vortex">
-		<!-- Glory Days Confirmed -->
 		<!-- Stirs up a vortex connecting to the dimension of Wind and inflicts Wind damage on the enemy with 140 Power added to M. Atk. For 30 seconds, decreases Speed by 10%, Atk. Spd. by 10%, Casting Spd. by 30%, and resistance against Wind by 20. Consumes 12 MP every second. Over-hit is possible. -->
 		<icon>icon.skill1341</icon>
 		<operateType>A2</operateType>
@@ -2788,7 +2664,6 @@
 		<effectPoint>-999</effectPoint>
 		<abnormalType>MULTI_DEBUFF_WIND</abnormalType>
 		<basicProperty>MAGIC</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>1400</effectRange>
 		<lvlBonusRate>10</lvlBonusRate>
@@ -2829,7 +2704,6 @@
 		</effects>
 	</skill>
 	<skill id="8588" toLevel="1" name="Wind Vortex Slug">
-		<!-- Glory Days Confirmed -->
 		<!-- Creates a powerful Wind Vortex that inflicts Wind damage on the enemy with 195 Power added to user's M. Atk. -->
 		<icon>icon.skill1456</icon>
 		<operateType>A1</operateType>
@@ -2838,7 +2712,6 @@
 		<hitTime>2000</hitTime>
 		<reuseDelay>15000</reuseDelay>
 		<effectPoint>-1009</effectPoint>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>1400</effectRange>
 		<magicLvl>79</magicLvl>
@@ -2864,14 +2737,12 @@
 		</effects>
 	</skill>
 	<skill id="8589" toLevel="1" name="Summon Feline King">
-		<!-- Glory Days Confirmed -->
 		<!-- Summon the servitor Feline King. Requires 4 Spirit Ore and consumes 11 Spirit Ore at regular intervals up to 14 times. -->
 		<icon>icon.skill1406</icon>
 		<operateType>A1</operateType>
 		<mpConsume>60</mpConsume>
 		<hitTime>15000</hitTime>
 		<reuseDelay>5000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>79</magicLvl>
 		<isMagic>1</isMagic>
@@ -2885,15 +2756,14 @@
 		<effects>
 			<effect name="Summon">
 				<!-- Spirit Ore -->
-				<npcId>14836</npcId>
+				<npcId>14836</npcId> <!-- Feline King -->
 				<lifeTime>3600</lifeTime>
-				<consumeItemId>3031</consumeItemId>
+				<consumeItemId>3031</consumeItemId> <!-- Spirit Ore -->
 				<consumeItemCount>11</consumeItemCount>
 			</effect>
 		</effects>
 	</skill>
 	<skill id="8590" toLevel="1" name="Final Servitor">
-		<!-- Glory Days Confirmed -->
 		<!-- For 5 minutes, causes the servitor to be possessed with the spirit of an ancient hero, instantly recovering 20% of HP. Increases Max HP by 20%, Accuracy by 4, P. Atk. by 10%, P. Def. by 20%, Atk. Spd. by 20%, Critical Rate by 20%, Critical Damage by 20%, M. Def. by 20%, M. Atk. by 20%, Casting Spd. by 20%, and Debuff Resistance by 20. Decreases Speed by 20%. Consumes 20 Spirit Ore. -->
 		<icon>icon.skill1349</icon>
 		<operateType>A2</operateType>
@@ -2904,7 +2774,6 @@
 		<effectPoint>669</effectPoint>
 		<abnormalType>MULTI_BUFF</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>900</effectRange>
 		<magicLvl>78</magicLvl>
@@ -2968,14 +2837,12 @@
 		</effects>
 	</skill>
 	<skill id="8591" toLevel="1" name="Summon Magnus the Unicorn">
-		<!-- Glory Days Confirmed -->
 		<!-- Summons Magnus the Unicorn. Requires 4 Spirit Ore and additionally consumes 11 Spirit Ore up to 14 times. -->
 		<icon>icon.skill1407</icon>
 		<operateType>A1</operateType>
 		<mpConsume>60</mpConsume>
 		<hitTime>15000</hitTime>
 		<reuseDelay>5000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>79</magicLvl>
 		<isMagic>1</isMagic>
@@ -2988,22 +2855,20 @@
 		</conditions>
 		<effects>
 			<effect name="Summon">
-				<npcId>14837</npcId>
+				<npcId>14837</npcId> <!-- Magnus the Unicorn -->
 				<lifeTime>3600</lifeTime>
-				<consumeItemId>3031</consumeItemId>
+				<consumeItemId>3031</consumeItemId> <!-- Spirit Ore -->
 				<consumeItemCount>11</consumeItemCount>
 			</effect>
 		</effects>
 	</skill>
 	<skill id="8592" toLevel="1" name="Summon Spectral Lord">
-		<!-- Glory Days Confirmed -->
 		<!-- Summon the servitor Spectral Lord. Requires 4 Spirit Ore and consumes 11 Spirit Ore at regular intervals up to 14 times. -->
 		<icon>icon.skill1408</icon>
 		<operateType>A1</operateType>
 		<mpConsume>60</mpConsume>
 		<hitTime>15000</hitTime>
 		<reuseDelay>5000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>79</magicLvl>
 		<isMagic>1</isMagic>
@@ -3016,15 +2881,14 @@
 		</conditions>
 		<effects>
 			<effect name="Summon">
-				<npcId>14838</npcId>
+				<npcId>14838</npcId> <!-- Spectral Lord -->
 				<lifeTime>3600</lifeTime>
-				<consumeItemId>3031</consumeItemId>
+				<consumeItemId>3031</consumeItemId> <!-- Spirit Ore -->
 				<consumeItemCount>11</consumeItemCount>
 			</effect>
 		</effects>
 	</skill>
 	<skill id="8593" toLevel="1" name="Servitor Barrier">
-		<!-- Glory Days Confirmed -->
 		<!-- Momentarily makes the servitor invincible. Consumes 5 Spirit Ore. -->
 		<icon>icon.skill1496</icon>
 		<operateType>A2</operateType>
@@ -3036,7 +2900,6 @@
 		<abnormalType>INVINCIBILITY</abnormalType>
 		<abnormalVisualEffect>INVINCIBILITY</abnormalVisualEffect>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>900</effectRange>
 		<magicLvl>81</magicLvl>
@@ -3059,7 +2922,6 @@
 		</effects>
 	</skill>
 	<skill id="8594" toLevel="1" name="Cleanse">
-		<!-- Glory Days Confirmed -->
 		<!-- Cancels the target's debuffs. Consumes 1 Einhasad's Holy Water. -->
 		<icon>icon.skill1409</icon>
 		<operateType>A1</operateType>
@@ -3068,7 +2930,6 @@
 		<hitTime>4000</hitTime>
 		<reuseDelay>8000</reuseDelay>
 		<effectPoint>679</effectPoint>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>1100</effectRange>
 		<magicLvl>78</magicLvl>
@@ -3086,7 +2947,6 @@
 		</effects>
 	</skill>
 	<skill id="8595" toLevel="1" name="Prophecy of Water">
-		<!-- Glory Days Confirmed -->
 		<!-- For 5 minutes, a powerful spirit acts to increase the damage caused by the targeted party member's magic damage by 2, MP Recovery Bonus by 20%, P. Atk. by 10%, P. Def. by 20%, Atk. Spd. by 20%, M. Atk. by 20%, M. Def. by 20%, Casting Spd. by 20%, and Debuff Resistance by 10%. Decreases Speed by 20% and MP Consumption for skill use by 5%. Consumes 10 Spirit Ore. -->
 		<icon>icon.skill1355</icon>
 		<operateType>A2</operateType>
@@ -3097,7 +2957,6 @@
 		<effectPoint>669</effectPoint>
 		<abnormalType>MULTI_BUFF</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>600</effectRange>
 		<magicLvl>78</magicLvl>
@@ -3172,7 +3031,6 @@
 		</effects>
 	</skill>
 	<skill id="8596" toLevel="1" name="Prophecy of Wind">
-		<!-- Glory Days Confirmed -->
 		<!-- For 5 minutes, a powerful spirit acts to increase a party member's Max HP by 20%, rate of critical attack by 20%, magic damage's Critical Rate by 20%, P. Atk. by 10%, P. Def. by 20%, Atk. Spd. by 20%, M. Atk. by 20%, M. Def. by 20%, Casting Spd. by 20%, and Debuff Resistance by 10%. Decreases Speed by 20%. Restores HP by using 5% of the damage inflicted upon the enemy with a certain probability. Consumes 10 Spirit Ore. -->
 		<icon>icon.skill1357</icon>
 		<operateType>A2</operateType>
@@ -3183,7 +3041,6 @@
 		<effectPoint>669</effectPoint>
 		<abnormalType>MULTI_BUFF</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>600</effectRange>
 		<magicLvl>78</magicLvl>
@@ -3251,7 +3108,6 @@
 		</effects>
 	</skill>
 	<skill id="8597" toLevel="1" name="Dance of Siren">
-		<!-- Glory Days Confirmed -->
 		<!-- Increases the Critical Rate of all party members' damage attack magic by 100% for 2 minutes. Additionally increases MP Consumption when dancing while song/dance is in effect. Requires a dualsword. -->
 		<icon>icon.skill0365</icon>
 		<operateType>A2</operateType>
@@ -3261,7 +3117,6 @@
 		<effectPoint>2</effectPoint>
 		<abnormalType>DANCE_OF_SIREN</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>78</magicLvl>
 		<abnormalLvl>1</abnormalLvl>
@@ -3287,7 +3142,6 @@
 		</effects>
 	</skill>
 	<skill id="8598" toLevel="1" name="Song of Silence">
-		<!-- Glory Days Confirmed -->
 		<!-- Weaves a mystical song that blocks all the enemy's physical and magical skills for 2 minutes. -->
 		<icon>icon.skill0437</icon>
 		<operateType>A2</operateType>
@@ -3298,7 +3152,6 @@
 		<abnormalType>SILENCE_ALL</abnormalType>
 		<abnormalVisualEffect>SILENCE</abnormalVisualEffect>
 		<basicProperty>MAGIC</basicProperty>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<lvlBonusRate>10</lvlBonusRate>
 		<activateRate>60</activateRate>
@@ -3318,7 +3171,6 @@
 		</effects>
 	</skill>
 	<skill id="8599" toLevel="1" name="Chain Heal">
-		<!-- Glory Days Confirmed -->
 		<!-- Recovers the target and the 10 most injured allies around the target by 30% of their Max HP. The recovery amount decreases starting from the most injured person. Requires 4 Spirit Ore. -->
 		<icon>icon.skill1553</icon>
 		<operateType>A1</operateType>
@@ -3328,7 +3180,6 @@
 		<hitTime>3000</hitTime>
 		<reuseDelay>5000</reuseDelay>
 		<effectPoint>2</effectPoint>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>1400</effectRange>
 		<magicLvl>83</magicLvl>

@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="33600" name="Bound Dynasty Leather Gloves" additionalName="Event" type="Armor">
-		<!-- Cannot be unbound through Unbind Scrolls or otherwise. -->
 		<set name="icon" val="icon.armor_t92_g_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="gloves" />
@@ -23,7 +22,6 @@
 		</stats>
 	</item>
 	<item id="33601" name="Bound Dynasty Leather Boots" additionalName="Event" type="Armor">
-		<!-- Cannot be unbound through Unbind Scrolls or otherwise. -->
 		<set name="icon" val="icon.armor_t92_b_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="feet" />
@@ -45,7 +43,6 @@
 		</stats>
 	</item>
 	<item id="33602" name="Bound Dynasty Tunic" additionalName="Event" type="Armor">
-		<!-- Cannot be unbound through Unbind Scrolls or otherwise. -->
 		<set name="icon" val="icon.armor_t93_u_i00" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="default_action" val="EQUIP" />
@@ -68,7 +65,6 @@
 		</stats>
 	</item>
 	<item id="33603" name="Bound Dynasty Stockings" additionalName="Event" type="Armor">
-		<!-- Cannot be unbound through Unbind Scrolls or otherwise. -->
 		<set name="icon" val="icon.armor_t93_l_i00" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="default_action" val="EQUIP" />
@@ -91,7 +87,6 @@
 		</stats>
 	</item>
 	<item id="33604" name="Bound Dynasty Circlet" additionalName="Event" type="Armor">
-		<!-- Cannot be unbound through Unbind Scrolls or otherwise. -->
 		<set name="icon" val="icon.armor_circlet_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="head" />
@@ -112,7 +107,6 @@
 		</stats>
 	</item>
 	<item id="33605" name="Bound Dynasty Gloves" additionalName="Event" type="Armor">
-		<!-- Cannot be unbound through Unbind Scrolls or otherwise. -->
 		<set name="icon" val="icon.armor_t93_g_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="gloves" />
@@ -134,7 +128,6 @@
 		</stats>
 	</item>
 	<item id="33606" name="Bound Dynasty Shoes" additionalName="Event" type="Armor">
-		<!-- Cannot be unbound through Unbind Scrolls or otherwise. -->
 		<set name="icon" val="icon.armor_t93_b_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="feet" />
@@ -156,7 +149,6 @@
 		</stats>
 	</item>
 	<item id="33607" name="Bound Dynasty Sigil" additionalName="Event" type="Armor">
-		<!-- Cannot be unbound through Unbind Scrolls or otherwise. -->
 		<set name="icon" val="icon.dynasty_sigil_i00" />
 		<set name="armor_type" val="SIGIL" />
 		<set name="default_action" val="EQUIP" />
@@ -183,17 +175,17 @@
 	</item>
 	<item id="33608" name="Unidentified Dynasty Knife" additionalName="Event" type="EtcItem">
 		<!-- Dynasty knife in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: one-handed weapon / dagger) -->
+		<set name="icon" val="icon.weapon_dynasty_dagger_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="S" />
 		<set name="commissionItemType" val="DAGGER" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
-		<set name="icon" val="icon.weapon_dynasty_dagger_i00" />
 		<set name="handler" val="ItemSkills" />
 		<createItems>
 			<item id="9446" count="1" chance="10" /> <!-- Dynasty Knife -->
-			<item id="33559" count="1" chance="30" /> <!-- Bound Dynasty Knife - Focus (Event) -->
-			<item id="33560" count="1" chance="30" /> <!-- Bound Dynasty Knife - Evasion (Event) -->
-			<item id="33561" count="1" chance="30" /> <!-- Bound Dynasty Knife - Critical Damage (Event) -->
+			<item id="33559" count="1" chance="30" /> <!-- Bound Dynasty Knife - Focus - Event -->
+			<item id="33560" count="1" chance="30" /> <!-- Bound Dynasty Knife - Evasion - Event -->
+			<item id="33561" count="1" chance="30" /> <!-- Bound Dynasty Knife - Critical Damage - Event -->
 		</createItems>
 		<skills>
 			<skill id="12900" level="1" /> <!-- Check Item -->
@@ -201,17 +193,17 @@
 	</item>
 	<item id="33609" name="Unidentified Dynasty Sword" additionalName="Event" type="EtcItem">
 		<!-- Dynasty sword in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: one-handed weapon / sword) -->
+		<set name="icon" val="icon.weapon_dynasty_blade_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="S" />
 		<set name="commissionItemType" val="ONE_HAND_SWORD" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.weapon_dynasty_blade_i00" />
 		<createItems>
 			<item id="9442" count="1" chance="10" /> <!-- Dynasty Sword -->
-			<item id="33547" count="1" chance="30" /> <!-- Bound Dynasty Sword - Focus (Event) -->
-			<item id="33548" count="1" chance="30" /> <!-- Bound Dynasty Sword - Health (Event) -->
-			<item id="33549" count="1" chance="30" /> <!-- Bound Dynasty Sword - Light Armor (Event) -->
+			<item id="33547" count="1" chance="30" /> <!-- Bound Dynasty Sword - Focus - Event -->
+			<item id="33548" count="1" chance="30" /> <!-- Bound Dynasty Sword - Health - Event -->
+			<item id="33549" count="1" chance="30" /> <!-- Bound Dynasty Sword - Light Armor - Event -->
 		</createItems>
 		<skills>
 			<skill id="12901" level="1" /> <!-- Check Item -->
@@ -219,17 +211,17 @@
 	</item>
 	<item id="33610" name="Unidentified Dynasty Phantom" additionalName="Event" type="EtcItem">
 		<!-- Dynasty phantom in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: one-handed weapon / sword) -->
+		<set name="icon" val="icon.weapon_dynasty_magic_sword_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="S" />
 		<set name="commissionItemType" val="ONE_HAND_MAGIC_SWORD" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.weapon_dynasty_magic_sword_i00" />
 		<createItems>
 			<item id="9444" count="1" chance="10" /> <!-- Dynasty Phantom -->
-			<item id="33553" count="1" chance="30" /> <!-- Bound Dynasty Phantom - Acumen (Event) -->
-			<item id="33554" count="1" chance="30" /> <!-- Bound Dynasty Phantom - Mana Up (Event) -->
-			<item id="33555" count="1" chance="30" /> <!-- Bound Dynasty Phantom - Conversion (Event) -->
+			<item id="33553" count="1" chance="30" /> <!-- Bound Dynasty Phantom - Acumen - Event -->
+			<item id="33554" count="1" chance="30" /> <!-- Bound Dynasty Phantom - Mana Up - Event -->
+			<item id="33555" count="1" chance="30" /> <!-- Bound Dynasty Phantom - Conversion - Event -->
 		</createItems>
 		<skills>
 			<skill id="12902" level="1" /> <!-- Check Item -->
@@ -237,17 +229,17 @@
 	</item>
 	<item id="33611" name="Unidentified Dynasty Rapier" additionalName="Event" type="EtcItem">
 		<!-- Dynasty rapier in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: one-handed weapon / short sword) -->
+		<set name="icon" val="icon.weapon_dynasty_rapier_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="S" />
 		<set name="commissionItemType" val="RAPIER" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.weapon_dynasty_rapier_i00" />
 		<createItems>
 			<item id="9376" count="1" chance="10" /> <!-- Dynasty Rapier -->
-			<item id="33582" count="1" chance="30" /> <!-- Bound Dynasty Rapier - Focus (Event) -->
-			<item id="33583" count="1" chance="30" /> <!-- Bound Dynasty Rapier - Health (Event) -->
-			<item id="33584" count="1" chance="30" /> <!-- Bound Dynasty Rapier - Light Armor (Event) -->
+			<item id="33582" count="1" chance="30" /> <!-- Bound Dynasty Rapier - Focus - Event -->
+			<item id="33583" count="1" chance="30" /> <!-- Bound Dynasty Rapier - Health - Event -->
+			<item id="33584" count="1" chance="30" /> <!-- Bound Dynasty Rapier - Light Armor - Event -->
 		</createItems>
 		<skills>
 			<skill id="12903" level="1" /> <!-- Check Item -->
@@ -255,17 +247,17 @@
 	</item>
 	<item id="33612" name="Unidentified Dynasty Blade" additionalName="Event" type="EtcItem">
 		<!-- Dynasty blade in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / sword) -->
+		<set name="icon" val="icon.weapon_dynasty_twohand_sword_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="S" />
 		<set name="commissionItemType" val="TWO_HAND_SWORD" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.weapon_dynasty_twohand_sword_i00" />
 		<createItems>
 			<item id="9443" count="1" chance="10" /> <!-- Dynasty Blade -->
-			<item id="33550" count="1" chance="30" /> <!-- Bound Dynasty Blade - Focus (Event) -->
-			<item id="33551" count="1" chance="30" /> <!-- Bound Dynasty Blade - Health (Event) -->
-			<item id="33552" count="1" chance="30" /> <!-- Bound Dynasty Blade - Light Armor (Event) -->
+			<item id="33550" count="1" chance="30" /> <!-- Bound Dynasty Blade - Focus - Event -->
+			<item id="33551" count="1" chance="30" /> <!-- Bound Dynasty Blade - Health - Event -->
+			<item id="33552" count="1" chance="30" /> <!-- Bound Dynasty Blade - Light Armor - Event -->
 		</createItems>
 		<skills>
 			<skill id="12904" level="1" /> <!-- Check Item -->
@@ -273,17 +265,17 @@
 	</item>
 	<item id="33613" name="Unidentified Dynasty Ancient Sword" additionalName="Event" type="EtcItem">
 		<!-- Dynasty ancient sword in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / ancient sword) -->
+		<set name="icon" val="icon.weapon_dynasty_ancient_sword_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="S" />
 		<set name="commissionItemType" val="ANCIENT_SWORD" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.weapon_dynasty_ancient_sword_i00" />
 		<createItems>
 			<item id="9380" count="1" chance="10" /> <!-- Dynasty Ancient Sword -->
-			<item id="33585" count="1" chance="30" /> <!-- Bound Dynasty Ancient Sword - Focus (Event) -->
-			<item id="33586" count="1" chance="30" /> <!-- Bound Dynasty Ancient Sword - Health (Event) -->
-			<item id="33587" count="1" chance="30" /> <!-- Bound Dynasty Ancient Sword - Light Armor (Event) -->
+			<item id="33585" count="1" chance="30" /> <!-- Bound Dynasty Ancient Sword - Focus - Event -->
+			<item id="33586" count="1" chance="30" /> <!-- Bound Dynasty Ancient Sword - Health - Event -->
+			<item id="33587" count="1" chance="30" /> <!-- Bound Dynasty Ancient Sword - Light Armor - Event -->
 		</createItems>
 		<skills>
 			<skill id="12905" level="1" /> <!-- Check Item -->
@@ -291,17 +283,17 @@
 	</item>
 	<item id="33614" name="Unidentified Dynasty Halberd" additionalName="Event" type="EtcItem">
 		<!-- Dynasty halberd in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / spear) -->
+		<set name="icon" val="icon.weapon_dynasty_spear_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="S" />
 		<set name="commissionItemType" val="SPEAR" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.weapon_dynasty_spear_i00" />
 		<createItems>
 			<item id="9447" count="1" chance="10" /> <!-- Dynasty Halberd -->
-			<item id="33562" count="1" chance="30" /> <!-- Bound Dynasty Halberd - Anger (Event) -->
-			<item id="33563" count="1" chance="30" /> <!-- Bound Dynasty Halberd - Critical Stun (Event) -->
-			<item id="33564" count="1" chance="30" /> <!-- Bound Dynasty Halberd - Light Armor (Event) -->
+			<item id="33562" count="1" chance="30" /> <!-- Bound Dynasty Halberd - Anger - Event -->
+			<item id="33563" count="1" chance="30" /> <!-- Bound Dynasty Halberd - Critical Stun - Event -->
+			<item id="33564" count="1" chance="30" /> <!-- Bound Dynasty Halberd - Light Armor - Event -->
 		</createItems>
 		<skills>
 			<skill id="12906" level="1" /> <!-- Check Item -->
@@ -309,17 +301,17 @@
 	</item>
 	<item id="33615" name="Unidentified Dynasty Crossbow" additionalName="Event" type="EtcItem">
 		<!-- Dynasty crossbow in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / crossbow) -->
+		<set name="icon" val="icon.weapon_dynasty_crossbow_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="S" />
 		<set name="commissionItemType" val="CROSSBOW" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.weapon_dynasty_crossbow_i00" />
 		<createItems>
 			<item id="9384" count="1" chance="10" /> <!-- Dynasty Crossbow -->
-			<item id="33588" count="1" chance="30" /> <!-- Bound Dynasty Crossbow - Cheap Shot (Event) -->
-			<item id="33589" count="1" chance="30" /> <!-- Bound Dynasty Crossbow - Guidance (Event) -->
-			<item id="33590" count="1" chance="30" /> <!-- Bound Dynasty Crossbow - Focus (Event) -->
+			<item id="33588" count="1" chance="30" /> <!-- Bound Dynasty Crossbow - Cheap Shot - Event -->
+			<item id="33589" count="1" chance="30" /> <!-- Bound Dynasty Crossbow - Guidance - Event -->
+			<item id="33590" count="1" chance="30" /> <!-- Bound Dynasty Crossbow - Focus - Event -->
 		</createItems>
 		<skills>
 			<skill id="12907" level="1" /> <!-- Check Item -->
@@ -327,17 +319,17 @@
 	</item>
 	<item id="33616" name="Unidentified Dynasty Cudgel" additionalName="Event" type="EtcItem">
 		<!-- Dynasty cudgel in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: one-handed weapon / blunt) -->
+		<set name="icon" val="icon.weapon_dynasty_hammer_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="S" />
 		<set name="commissionItemType" val="BLUNT_WEAPON" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.weapon_dynasty_hammer_i00" />
 		<createItems>
 			<item id="9448" count="1" chance="10" /> <!-- Dynasty Cudgel -->
-			<item id="33565" count="1" chance="30" /> <!-- Bound Dynasty Cudgel - Anger (Event) -->
-			<item id="33566" count="1" chance="30" /> <!-- Bound Dynasty Cudgel - Health (Event) -->
-			<item id="33567" count="1" chance="30" /> <!-- Bound Dynasty Cudgel - Rsk. Focus (Event) -->
+			<item id="33565" count="1" chance="30" /> <!-- Bound Dynasty Cudgel - Anger - Event -->
+			<item id="33566" count="1" chance="30" /> <!-- Bound Dynasty Cudgel - Health - Event -->
+			<item id="33567" count="1" chance="30" /> <!-- Bound Dynasty Cudgel - Rsk. Focus - Event -->
 		</createItems>
 		<skills>
 			<skill id="12908" level="1" /> <!-- Check Item -->
@@ -345,17 +337,17 @@
 	</item>
 	<item id="33617" name="Unidentified Dynasty Mace" additionalName="Event" type="EtcItem">
 		<!-- Dynasty mace in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: one-handed weapon / blunt) -->
+		<set name="icon" val="icon.weapon_dynasty_staff_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="S" />
 		<set name="commissionItemType" val="ONE_HAND_MAGIC_BLUNT_WEAPON" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.weapon_dynasty_staff_i00" />
 		<createItems>
 			<item id="9449" count="1" chance="10" /> <!-- Dynasty Mace -->
-			<item id="33568" count="1" chance="30" /> <!-- Bound Dynasty Mace - Mana Up (Event) -->
-			<item id="33569" count="1" chance="30" /> <!-- Bound Dynasty Mace - Conversion (Event) -->
-			<item id="33570" count="1" chance="30" /> <!-- Bound Dynasty Mace - Acumen (Event) -->
+			<item id="33568" count="1" chance="30" /> <!-- Bound Dynasty Mace - Mana Up - Event -->
+			<item id="33569" count="1" chance="30" /> <!-- Bound Dynasty Mace - Conversion - Event -->
+			<item id="33570" count="1" chance="30" /> <!-- Bound Dynasty Mace - Acumen - Event -->
 		</createItems>
 		<skills>
 			<skill id="12909" level="1" /> <!-- Check Item -->
@@ -363,17 +355,17 @@
 	</item>
 	<item id="33618" name="Unidentified Dynasty Staff" additionalName="Event" type="EtcItem">
 		<!-- Dynasty staff in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / blunt) -->
+		<set name="icon" val="icon.weapon_dynasty_twohand_staff_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="S" />
 		<set name="commissionItemType" val="TWO_HAND_MAGIC_BLUNT_WEAPON" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.weapon_dynasty_twohand_staff_i00" />
 		<createItems>
 			<item id="10252" count="1" chance="10" /> <!-- Dynasty Staff -->
-			<item id="33574" count="1" chance="30" /> <!-- Bound Dynasty Staff - Mana Up (Event) -->
-			<item id="33575" count="1" chance="30" /> <!-- Bound Dynasty Staff - Conversion (Event) -->
-			<item id="33576" count="1" chance="30" /> <!-- Bound Dynasty Staff - Acumen (Event) -->
+			<item id="33574" count="1" chance="30" /> <!-- Bound Dynasty Staff - Mana Up - Event -->
+			<item id="33575" count="1" chance="30" /> <!-- Bound Dynasty Staff - Conversion - Event -->
+			<item id="33576" count="1" chance="30" /> <!-- Bound Dynasty Staff - Acumen - Event -->
 		</createItems>
 		<skills>
 			<skill id="12910" level="1" /> <!-- Check Item -->
@@ -381,17 +373,17 @@
 	</item>
 	<item id="33619" name="Unidentified Dynasty Crusher" additionalName="Event" type="EtcItem">
 		<!-- Dynasty crusher in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / blunt) -->
+		<set name="icon" val="icon.weapon_dynasty_crusher_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="S" />
 		<set name="commissionItemType" val="TWO_HAND_BLUNT_WEAPON" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.weapon_dynasty_crusher_i00" />
 		<createItems>
 			<item id="10253" count="1" chance="10" /> <!-- Dynasty Crusher -->
-			<item id="33577" count="1" chance="30" /> <!-- Bound Dynasty Crusher - Anger (Event) -->
-			<item id="33578" count="1" chance="30" /> <!-- Bound Dynasty Crusher - Health (Event) -->
-			<item id="33579" count="1" chance="30" /> <!-- Bound Dynasty Crusher - Rsk. Focus (Event) -->
+			<item id="33577" count="1" chance="30" /> <!-- Bound Dynasty Crusher - Anger - Event -->
+			<item id="33578" count="1" chance="30" /> <!-- Bound Dynasty Crusher - Health - Event -->
+			<item id="33579" count="1" chance="30" /> <!-- Bound Dynasty Crusher - Rsk. Focus - Event -->
 		</createItems>
 		<skills>
 			<skill id="12911" level="1" /> <!-- Check Item -->
@@ -399,17 +391,17 @@
 	</item>
 	<item id="33620" name="Unidentified Dynasty Bagh-Nakh" additionalName="Event" type="EtcItem">
 		<!-- Dynasty Bagh-Nakh in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / fist weapon) -->
+		<set name="icon" val="icon.weapon_dynasty_jamadhr_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="S" />
 		<set name="commissionItemType" val="FIST_WEAPON" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.weapon_dynasty_jamadhr_i00" />
 		<createItems>
 			<item id="9450" count="1" chance="10" /> <!-- Dynasty Bagh-Nakh -->
-			<item id="33571" count="1" chance="30" /> <!-- Bound Dynasty Bagh-Nakh - Rsk. Evasion (Event) -->
-			<item id="33572" count="1" chance="30" /> <!-- Bound Dynasty Bagh-Nakh - Focus (Event) -->
-			<item id="33573" count="1" chance="30" /> <!-- Bound Dynasty Bagh-Nakh - Haste (Event) -->
+			<item id="33571" count="1" chance="30" /> <!-- Bound Dynasty Bagh-Nakh - Rsk. Evasion - Event -->
+			<item id="33572" count="1" chance="30" /> <!-- Bound Dynasty Bagh-Nakh - Focus - Event -->
+			<item id="33573" count="1" chance="30" /> <!-- Bound Dynasty Bagh-Nakh - Haste - Event -->
 		</createItems>
 		<skills>
 			<skill id="12912" level="1" /> <!-- Check Item -->
@@ -417,12 +409,12 @@
 	</item>
 	<item id="33621" name="Unidentified Dynasty Dualsword" additionalName="Event" type="EtcItem">
 		<!-- Dynasty dualsword in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / dualsword) -->
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="S" />
 		<set name="commissionItemType" val="DUALSWORD" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<createItems>
 			<item id="10004" count="1" chance="10" /> <!-- Dynasty Dualsword -->
 			<item id="33581" count="1" chance="90" /> <!-- Bound Dynasty Dualsword - Event -->
@@ -433,12 +425,12 @@
 	</item>
 	<item id="33622" name="Unidentified Dynasty Dual Dagger" additionalName="Event" type="EtcItem">
 		<!-- Dynasty Dual Dagger in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / dual dagger) -->
+		<set name="icon" val="icon.dual_dagger_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="S" />
 		<set name="commissionItemType" val="DUAL_DAGGER" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.dual_dagger_i00" />
 		<createItems>
 			<item id="13882" count="1" chance="10" /> <!-- Dynasty Dual Dagger -->
 			<item id="33580" count="1" chance="90" /> <!-- Bound Dynasty Dual Dagger - Event -->
@@ -449,12 +441,12 @@
 	</item>
 	<item id="33623" name="Unidentified Dynasty Breastplate" additionalName="Event" type="EtcItem">
 		<!-- Dynasty breastplate in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: upper / heavy armor) -->
+		<set name="icon" val="icon.armor_t91_u_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="S" />
 		<set name="commissionItemType" val="ARMOR_TOP" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.armor_t91_u_i00" />
 		<createItems>
 			<item id="9416" count="1" chance="10" /> <!-- Dynasty Breastplate -->
 			<item id="33591" count="1" chance="90" /> <!-- Bound Dynasty Breastplate - Event -->
@@ -465,12 +457,12 @@
 	</item>
 	<item id="33624" name="Unidentified Dynasty Gaiters" additionalName="Event" type="EtcItem">
 		<!-- Dynasty gaiters in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: lower / heavy armor) -->
+		<set name="icon" val="icon.armor_t91_l_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="S" />
 		<set name="commissionItemType" val="ARMOR_PANTS" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.armor_t91_l_i00" />
 		<createItems>
 			<item id="9421" count="1" chance="10" /> <!-- Dynasty Gaiters -->
 			<item id="33592" count="1" chance="90" /> <!-- Bound Dynasty Gaiters - Event -->
@@ -481,12 +473,12 @@
 	</item>
 	<item id="33625" name="Unidentified Dynasty Helmet" additionalName="Event" type="EtcItem">
 		<!-- Dynasty helmet in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: headgear) -->
+		<set name="icon" val="icon.armor_helmet_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="S" />
 		<set name="commissionItemType" val="HELMET" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.armor_helmet_i00" />
 		<createItems>
 			<item id="9422" count="1" chance="10" /> <!-- Dynasty Helmet -->
 			<item id="33593" count="1" chance="90" /> <!-- Bound Dynasty Helmet - Event -->
@@ -497,12 +489,12 @@
 	</item>
 	<item id="33626" name="Unidentified Dynasty Gauntlets" additionalName="Event" type="EtcItem">
 		<!-- Dynasty gauntlets in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: gloves) -->
+		<set name="icon" val="icon.armor_t91_g_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="S" />
 		<set name="commissionItemType" val="GLOVES" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.armor_t91_g_i00" />
 		<createItems>
 			<item id="9423" count="1" chance="10" /> <!-- Dynasty Gauntlets - Heavy Armor -->
 			<item id="33594" count="1" chance="90" /> <!-- Bound Dynasty Gauntlets - Event -->
@@ -513,12 +505,12 @@
 	</item>
 	<item id="33627" name="Unidentified Dynasty Boots" additionalName="Event" type="EtcItem">
 		<!-- Dynasty boots in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: boots) -->
+		<set name="icon" val="icon.armor_t91_b_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="S" />
 		<set name="commissionItemType" val="FEET" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.armor_t91_b_i00" />
 		<createItems>
 			<item id="9424" count="1" chance="10" /> <!-- Dynasty Boots - Heavy Armor -->
 			<item id="33595" count="1" chance="90" /> <!-- Bound Dynasty Boots - Event -->
@@ -529,12 +521,12 @@
 	</item>
 	<item id="33628" name="Unidentified Dynasty Shield" additionalName="Event" type="EtcItem">
 		<!-- Dynasty shield in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: shield) -->
+		<set name="icon" val="icon.shield_dynasty_shield_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="S" />
 		<set name="commissionItemType" val="SHIELD" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.shield_dynasty_shield_i00" />
 		<createItems>
 			<item id="9441" count="1" chance="10" /> <!-- Dynasty Shield -->
 			<item id="33596" count="1" chance="90" /> <!-- Bound Dynasty Shield - Event -->
@@ -545,12 +537,12 @@
 	</item>
 	<item id="33629" name="Unidentified Dynasty Leather Armor" additionalName="Event" type="EtcItem">
 		<!-- Dynasty leather armor in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: upper / light armor) -->
+		<set name="icon" val="icon.armor_t92_u_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="S" />
 		<set name="commissionItemType" val="ARMOR_TOP" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.armor_t92_u_i00" />
 		<createItems>
 			<item id="9425" count="1" chance="10" /> <!-- Dynasty Leather Armor -->
 			<item id="33597" count="1" chance="90" /> <!-- Bound Dynasty Leather Armor - Event -->
@@ -561,12 +553,12 @@
 	</item>
 	<item id="33630" name="Unidentified Dynasty Leather Leggings" additionalName="Event" type="EtcItem">
 		<!-- Dynasty leather leggings in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: lower / light armor) -->
+		<set name="icon" val="icon.armor_t92_l_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="S" />
 		<set name="commissionItemType" val="ARMOR_PANTS" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.armor_t92_l_i00" />
 		<createItems>
 			<item id="9428" count="1" chance="10" /> <!-- Dynasty Leather Leggings -->
 			<item id="33598" count="1" chance="90" /> <!-- Bound Dynasty Leather Leggings - Event -->
@@ -577,12 +569,12 @@
 	</item>
 	<item id="33631" name="Unidentified Dynasty Leather Helmet" additionalName="Event" type="EtcItem">
 		<!-- Dynasty leather helmet in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: headgear) -->
+		<set name="icon" val="icon.armor_leather_helmet_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="S" />
 		<set name="commissionItemType" val="HELMET" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.armor_leather_helmet_i00" />
 		<createItems>
 			<item id="9429" count="1" chance="10" /> <!-- Dynasty Leather Helmet -->
 			<item id="33599" count="1" chance="90" /> <!-- Bound Dynasty Leather Helmet - Event -->
@@ -593,12 +585,12 @@
 	</item>
 	<item id="33632" name="Unidentified Dynasty Leather Gloves" additionalName="Event" type="EtcItem">
 		<!-- Dynasty leather gloves in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: gloves) -->
+		<set name="icon" val="icon.armor_t92_g_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="S" />
 		<set name="commissionItemType" val="GLOVES" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.armor_t92_g_i00" />
 		<createItems>
 			<item id="9430" count="1" chance="10" /> <!-- Dynasty Leather Gloves - Light Armor -->
 			<item id="33600" count="1" chance="90" /> <!-- Bound Dynasty Leather Gloves - Event -->
@@ -609,12 +601,12 @@
 	</item>
 	<item id="33633" name="Unidentified Dynasty Leather Boots" additionalName="Event" type="EtcItem">
 		<!-- Dynasty leather boots in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: boots) -->
+		<set name="icon" val="icon.armor_t92_b_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="S" />
 		<set name="commissionItemType" val="FEET" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.armor_t92_b_i00" />
 		<createItems>
 			<item id="9431" count="1" chance="10" /> <!-- Dynasty Leather Boots - Light Armor -->
 			<item id="33601" count="1" chance="90" /> <!-- Bound Dynasty Leather Boots - Event -->
@@ -625,12 +617,12 @@
 	</item>
 	<item id="33634" name="Unidentified Dynasty Tunic" additionalName="Event" type="EtcItem">
 		<!-- Dynasty tunic in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: upper / robe) -->
+		<set name="icon" val="icon.armor_t93_u_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="S" />
 		<set name="commissionItemType" val="ARMOR_TOP" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.armor_t93_u_i00" />
 		<createItems>
 			<item id="9432" count="1" chance="10" /> <!-- Dynasty Tunic -->
 			<item id="33602" count="1" chance="90" /> <!-- Bound Dynasty Tunic - Event -->
@@ -641,12 +633,12 @@
 	</item>
 	<item id="33635" name="Unidentified Dynasty Stockings" additionalName="Event" type="EtcItem">
 		<!-- Dynasty stockings in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: lower / robe) -->
+		<set name="icon" val="icon.armor_t93_l_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="S" />
 		<set name="commissionItemType" val="ARMOR_PANTS" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.armor_t93_l_i00" />
 		<createItems>
 			<item id="9437" count="1" chance="10" /> <!-- Dynasty Stockings -->
 			<item id="33603" count="1" chance="90" /> <!-- Bound Dynasty Stockings - Event -->
@@ -657,12 +649,12 @@
 	</item>
 	<item id="33636" name="Unidentified Dynasty Circlet" additionalName="Event" type="EtcItem">
 		<!-- Dynasty circlet in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: headgear) -->
+		<set name="icon" val="icon.armor_circlet_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="S" />
 		<set name="commissionItemType" val="HELMET" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.armor_circlet_i00" />
 		<createItems>
 			<item id="9438" count="1" chance="10" /> <!-- Dynasty Circlet -->
 			<item id="33604" count="1" chance="90" /> <!-- Bound Dynasty Circlet - Event -->
@@ -673,12 +665,12 @@
 	</item>
 	<item id="33637" name="Unidentified Dynasty Gloves" additionalName="Event" type="EtcItem">
 		<!-- Dynasty gloves in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: gloves) -->
+		<set name="icon" val="icon.armor_t93_g_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="S" />
 		<set name="commissionItemType" val="GLOVES" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.armor_t93_g_i00" />
 		<createItems>
 			<item id="9439" count="1" chance="10" /> <!-- Dynasty Gloves - Robe -->
 			<item id="33605" count="1" chance="90" /> <!-- Bound Dynasty Gloves - Event -->
@@ -689,12 +681,12 @@
 	</item>
 	<item id="33638" name="Unidentified Dynasty Shoes" additionalName="Event" type="EtcItem">
 		<!-- Dynasty shoes in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: boots) -->
+		<set name="icon" val="icon.armor_t93_b_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="S" />
 		<set name="commissionItemType" val="FEET" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.armor_t93_b_i00" />
 		<createItems>
 			<item id="9440" count="1" chance="10" /> <!-- Dynasty Shoes - Robe -->
 			<item id="33606" count="1" chance="90" /> <!-- Bound Dynasty Shoes - Event -->
@@ -705,12 +697,12 @@
 	</item>
 	<item id="33639" name="Unidentified Dynasty Sigil" additionalName="Event" type="EtcItem">
 		<!-- Dynasty sigil in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: sigil) -->
+		<set name="icon" val="icon.dynasty_sigil_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="S" />
 		<set name="commissionItemType" val="SIGIL" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.dynasty_sigil_i00" />
 		<createItems>
 			<item id="10119" count="1" chance="10" /> <!-- Dynasty Sigil -->
 			<item id="33607" count="1" chance="90" /> <!-- Bound Dynasty Sigil - Event -->
@@ -945,12 +937,12 @@
 	</item>
 	<item id="33651" name="Unidentified Crystal Dagger" additionalName="Event" type="EtcItem">
 		<!-- Crystal Dagger in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: one-handed weapon / dagger) -->
+		<set name="icon" val="icon.weapon_crystal_dagger_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="C" />
 		<set name="commissionItemType" val="DAGGER" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.weapon_crystal_dagger_i00" />
 		<createItems>
 			<item id="228" count="1" chance="10" /> <!-- Crystal Dagger -->
 			<item id="30659" count="1" chance="45" /> <!-- Bound Crystal Dagger - Critical Bleed -->
@@ -962,12 +954,12 @@
 	</item>
 	<item id="33652" name="Unidentified Samurai Long Sword" additionalName="Event" type="EtcItem">
 		<!-- Samurai Long Sword in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: one-handed weapon / sword) -->
+		<set name="icon" val="icon.weapon_samurai_longsword_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="C" />
 		<set name="commissionItemType" val="ONE_HAND_SWORD" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.weapon_samurai_longsword_i00" />
 		<createItems>
 			<item id="135" count="1" chance="10" /> <!-- Samurai Long Sword -->
 			<item id="30972" count="1" chance="30" /> <!-- Bound Samurai Long Sword - Focus -->
@@ -980,12 +972,12 @@
 	</item>
 	<item id="33653" name="Unidentified Ecliptic Sword" additionalName="Event" type="EtcItem">
 		<!-- Ecliptic Sword in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: one-handed weapon / sword) -->
+		<set name="icon" val="icon.weapon_sword_of_eclipse_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="C" />
 		<set name="commissionItemType" val="ONE_HAND_MAGIC_SWORD" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.weapon_sword_of_eclipse_i00" />
 		<createItems>
 			<item id="7888" count="1" chance="10" /> <!-- Ecliptic Sword -->
 			<item id="31091" count="1" chance="30" /> <!-- Bound Ecliptic Sword - Empower -->
@@ -998,12 +990,12 @@
 	</item>
 	<item id="33654" name="Unidentified Admiral's Estoc" additionalName="Event" type="EtcItem">
 		<!-- Kamael-exclusive Weapon: Samurai Long Sword Conversion, Admiral's Estoc in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: one-handed weapon: rapier) -->
+		<set name="icon" val="icon.weapon_blink_slasher_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="C" />
 		<set name="commissionItemType" val="RAPIER" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.weapon_blink_slasher_i00" />
 		<createItems>
 			<item id="9292" count="1" chance="10" /> <!-- Admiral's Estoc -->
 			<item id="30956" count="1" chance="30" /> <!-- Bound Admiral's Estoc - Focus -->
@@ -1016,17 +1008,17 @@
 	</item>
 	<item id="33655" name="Unidentified Berserker Blade" additionalName="Event" type="EtcItem">
 		<!-- Berserker Blade in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / sword) -->
+		<set name="icon" val="icon.weapon_berserker_blade_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="C" />
 		<set name="commissionItemType" val="TWO_HAND_SWORD" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.weapon_berserker_blade_i00" />
 		<createItems>
 			<item id="5286" count="1" chance="10" /> <!-- Berserker Blade -->
-			<item id="31226" count="1" chance="30" /> <!-- Bound Berserker Blade - Focus -->
-			<item id="31227" count="1" chance="30" /> <!-- Bound Berserker Blade - Critical Damage -->
-			<item id="31228" count="1" chance="30" /> <!-- Bound Berserker Blade - Haste -->
+			<item id="31226" count="1" chance="30" /> <!-- Player Commendation - Apocalypse Thrower (Water) - Focus (PC-exclusive) -->
+			<item id="31227" count="1" chance="30" /> <!-- Player Commendation - Apocalypse Thrower (Wind) - Focus (PC-exclusive) -->
+			<item id="31228" count="1" chance="30" /> <!-- Player Commendation - Apocalypse Thrower (Fire) - Focus (PC-exclusive) -->
 		</createItems>
 		<skills>
 			<skill id="12941" level="1" /> <!-- Check Item -->
@@ -1034,12 +1026,12 @@
 	</item>
 	<item id="33656" name="Unidentified Saber Tooth" additionalName="Event" type="EtcItem">
 		<!-- Kamael-exclusive Weapon: Berserker Blade Conversion, Saber Tooth in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / ancient sword) -->
+		<set name="icon" val="icon.weapon_invincible_blade_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="C" />
 		<set name="commissionItemType" val="ANCIENT_SWORD" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.weapon_invincible_blade_i00" />
 		<createItems>
 			<item id="9296" count="1" chance="10" /> <!-- Saber Tooth -->
 			<item id="31111" count="1" chance="30" /> <!-- Bound Saber Tooth - Focus -->
@@ -1052,12 +1044,12 @@
 	</item>
 	<item id="33657" name="Unidentified Eminence Bow" additionalName="Event" type="EtcItem">
 		<!-- Eminence Bow in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / bow) -->
+		<set name="icon" val="icon.weapon_eminence_bow_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="C" />
 		<set name="commissionItemType" val="BOW" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.weapon_eminence_bow_i00" />
 		<createItems>
 			<item id="286" count="1" chance="10" /> <!-- Eminence Bow -->
 			<item id="30867" count="1" chance="30" /> <!-- Bound Eminence Bow - Guidance -->
@@ -1070,12 +1062,12 @@
 	</item>
 	<item id="33658" name="Unidentified Sharpshooter" additionalName="Event" type="EtcItem">
 		<!-- Kamael-exclusive Weapon: Eminence Bow Conversion, Sharpshooter in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / crossbow) -->
+		<set name="icon" val="icon.weapon_taslam_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="C" />
 		<set name="commissionItemType" val="CROSSBOW" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.weapon_taslam_i00" />
 		<createItems>
 			<item id="9300" count="1" chance="10" /> <!-- Sharpshooter -->
 			<item id="31139" count="1" chance="30" /> <!-- Bound Sharpshooter - Guidance -->
@@ -1088,12 +1080,12 @@
 	</item>
 	<item id="33659" name="Unidentified Ecliptic Axe" additionalName="Event" type="EtcItem">
 		<!-- Ecliptic Axe in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: one-handed weapon / blunt) -->
+		<set name="icon" val="icon.weapon_eclipse_axe_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="C" />
 		<set name="commissionItemType" val="ONE_HAND_MAGIC_BLUNT_WEAPON" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.weapon_eclipse_axe_i00" />
 		<createItems>
 			<item id="7891" count="1" chance="10" /> <!-- Ecliptic Axe -->
 			<item id="30783" count="1" chance="30" /> <!-- Bound Ecliptic Axe - M. Atk. -->
@@ -1106,12 +1098,12 @@
 	</item>
 	<item id="33660" name="Unidentified Yaksa Mace" additionalName="Event" type="EtcItem">
 		<!-- Yaksa Mace in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: one-handed weapon / blunt) -->
+		<set name="icon" val="icon.weapon_yaksa_mace_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="C" />
 		<set name="commissionItemType" val="BLUNT_WEAPON" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.weapon_yaksa_mace_i00" />
 		<createItems>
 			<item id="2503" count="1" chance="10" /> <!-- Yaksa Mace -->
 			<item id="30883" count="1" chance="30" /> <!-- Bound Yaksa Mace - Health -->
@@ -1124,12 +1116,12 @@
 	</item>
 	<item id="33661" name="Unidentified Dwarven Hammer" additionalName="Event" type="EtcItem">
 		<!-- Dwarven Hammer in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / blunt) -->
+		<set name="icon" val="icon.weapon_dwarven_hammer_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="C" />
 		<set name="commissionItemType" val="TWO_HAND_BLUNT_WEAPON" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.weapon_dwarven_hammer_i00" />
 		<createItems>
 			<item id="7897" count="1" chance="10" /> <!-- Dwarven Hammer -->
 			<item id="31373" count="1" chance="30" /> <!-- Bound Dwarven Hammer - Health -->
@@ -1142,12 +1134,12 @@
 	</item>
 	<item id="33662" name="Unidentified Ghoul's Staff" additionalName="Event" type="EtcItem">
 		<!-- Ghoul's Staff in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / blunt) -->
+		<set name="icon" val="icon.weapon_ghouls_staff_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="C" />
 		<set name="commissionItemType" val="TWO_HAND_MAGIC_BLUNT_WEAPON" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.weapon_ghouls_staff_i00" />
 		<createItems>
 			<item id="205" count="1" chance="10" /> <!-- Ghoul's Staff -->
 			<item id="31550" count="1" chance="30" /> <!-- Bound Ghoul's Staff - Mana Up -->
@@ -1160,12 +1152,12 @@
 	</item>
 	<item id="33663" name="Unidentified Orcish Poleaxe" additionalName="Event" type="EtcItem">
 		<!-- Orcish Poleaxe in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / spear) -->
+		<set name="icon" val="icon.weapon_orcish_poleaxe_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="C" />
 		<set name="commissionItemType" val="SPEAR" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.weapon_orcish_poleaxe_i00" />
 		<createItems>
 			<item id="299" count="1" chance="10" /> <!-- Orcish Poleaxe -->
 			<item id="30804" count="1" chance="30" /> <!-- Bound Orcish Poleaxe - Critical Stun -->
@@ -1178,12 +1170,12 @@
 	</item>
 	<item id="33664" name="Unidentified Great Pata" additionalName="Event" type="EtcItem">
 		<!-- Great Pata in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / fist weapon) -->
+		<set name="icon" val="icon.weapon_great_pata_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="C" />
 		<set name="commissionItemType" val="FIST_WEAPON" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.weapon_great_pata_i00" />
 		<createItems>
 			<item id="266" count="1" chance="10" /> <!-- Great Pata -->
 			<item id="31525" count="1" chance="30" /> <!-- Bound Great Pata - Rsk. Haste -->
@@ -1196,12 +1188,12 @@
 	</item>
 	<item id="33665" name="Unidentified Shamshir*Shamshir" additionalName="Event" type="EtcItem">
 		<!-- Shamshir*Shamshir in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / dual weapon) -->
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="C" />
 		<set name="commissionItemType" val="DUALSWORD" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<createItems>
 			<item id="2572" count="1" chance="10" /> <!-- Shamshir*Shamshir -->
 			<item id="31132" count="1" chance="90" /> <!-- Bound Shamshir*Shamshir -->
@@ -1212,12 +1204,12 @@
 	</item>
 	<item id="33666" name="Unidentified Full Plate Helmet" additionalName="Event" type="EtcItem">
 		<!-- Full Plate Helmet in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: Headgear) -->
+		<set name="icon" val="icon.armor_leather_helmet_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="C" />
 		<set name="commissionItemType" val="HELMET" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.armor_leather_helmet_i00" />
 		<createItems>
 			<item id="2414" count="1" chance="10" /> <!-- Full Plate Helmet -->
 			<item id="30548" count="1" chance="90" /> <!-- Bound Full Plate Helmet -->
@@ -1228,12 +1220,12 @@
 	</item>
 	<item id="33667" name="Unidentified Full Plate Armor" additionalName="Event" type="EtcItem">
 		<!-- Full Plate Armor in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: one-piece/ heavy armor) -->
+		<set name="icon" val="icon.armor_t62_ul_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="C" />
 		<set name="commissionItemType" val="FULL_BODY" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.armor_t62_ul_i00" />
 		<createItems>
 			<item id="356" count="1" chance="10" /> <!-- Full Plate Armor -->
 			<item id="30549" count="1" chance="90" /> <!-- Bound Full Plate Armor -->
@@ -1244,12 +1236,12 @@
 	</item>
 	<item id="33668" name="Unidentified Full Plate Shield" additionalName="Event" type="EtcItem">
 		<!-- Full Plate Shield in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: Shield) -->
+		<set name="icon" val="icon.shield_full_plate_shield_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="C" />
 		<set name="commissionItemType" val="SHIELD" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.shield_full_plate_shield_i00" />
 		<createItems>
 			<item id="2497" count="1" chance="10" /> <!-- Full Plate Shield -->
 			<item id="30550" count="1" chance="90" /> <!-- Bound Full Plate Shield -->
@@ -1260,12 +1252,12 @@
 	</item>
 	<item id="33669" name="Unidentified Full Plate Boots" additionalName="Event" type="EtcItem">
 		<!-- Full Plate Boots in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: boots) -->
+		<set name="icon" val="icon.armor_t62_b_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="C" />
 		<set name="commissionItemType" val="FEET" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.armor_t62_b_i00" />
 		<createItems>
 			<item id="2438" count="1" chance="10" /> <!-- Full Plate Boots -->
 			<item id="30551" count="1" chance="90" /> <!-- Bound Full Plate Boots -->
@@ -1276,12 +1268,12 @@
 	</item>
 	<item id="33670" name="Unidentified Full Plate Gauntlets" additionalName="Event" type="EtcItem">
 		<!-- Full Plate Gauntlets in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: Gloves) -->
+		<set name="icon" val="icon.armor_t62_g_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="C" />
 		<set name="commissionItemType" val="GLOVES" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.armor_t62_g_i00" />
 		<createItems>
 			<item id="2462" count="1" chance="10" /> <!-- Full Plate Gauntlets -->
 			<item id="30552" count="1" chance="90" /> <!-- Bound Full Plate Gauntlets -->
@@ -1292,12 +1284,12 @@
 	</item>
 	<item id="33671" name="Unidentified Divine Stockings" additionalName="Event" type="EtcItem">
 		<!-- Divine Stockings in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: lower / robe) -->
+		<set name="icon" val="icon.armor_t57_l_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="C" />
 		<set name="commissionItemType" val="ARMOR_PANTS" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.armor_t57_l_i00" />
 		<createItems>
 			<item id="473" count="1" chance="10" /> <!-- Divine Stockings -->
 			<item id="30982" count="1" chance="90" /> <!-- Bound Divine Stockings -->
@@ -1308,12 +1300,12 @@
 	</item>
 	<item id="33672" name="Unidentified Divine Tunic" additionalName="Event" type="EtcItem">
 		<!-- Divine Tunic in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: upper / robe) -->
+		<set name="icon" val="icon.armor_t57_u_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="C" />
 		<set name="commissionItemType" val="ARMOR_TOP" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.armor_t57_u_i00" />
 		<createItems>
 			<item id="442" count="1" chance="10" /> <!-- Divine Tunic -->
 			<item id="30983" count="1" chance="90" /> <!-- Bound Divine Tunic -->
@@ -1324,12 +1316,12 @@
 	</item>
 	<item id="33673" name="Unidentified Divine Gloves" additionalName="Event" type="EtcItem">
 		<!-- Divine Gloves in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: Gloves) -->
+		<set name="icon" val="icon.armor_t57_g_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="C" />
 		<set name="commissionItemType" val="GLOVES" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.armor_t57_g_i00" />
 		<createItems>
 			<item id="2463" count="1" chance="10" /> <!-- Divine Gloves -->
 			<item id="30984" count="1" chance="90" /> <!-- Bound Divine Gloves -->
@@ -1340,12 +1332,12 @@
 	</item>
 	<item id="33674" name="Unidentified Drake Leather Boots" additionalName="Event" type="EtcItem">
 		<!-- Drake Leather boots in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: boots) -->
+		<set name="icon" val="icon.armor_t21_b_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="C" />
 		<set name="commissionItemType" val="FEET" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.armor_t21_b_i00" />
 		<createItems>
 			<item id="2437" count="1" chance="10" /> <!-- Drake Leather Boots -->
 			<item id="31388" count="1" chance="90" /> <!-- Bound Drake Leather Boots -->
@@ -1356,12 +1348,12 @@
 	</item>
 	<item id="33675" name="Unidentified Drake Leather Armor" additionalName="Event" type="EtcItem">
 		<!-- Drake Leather armor in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: one piece / light armor) -->
+		<set name="icon" val="icon.armor_t21_ul_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="C" />
 		<set name="commissionItemType" val="FULL_BODY" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.armor_t21_ul_i00" />
 		<createItems>
 			<item id="401" count="1" chance="10" /> <!-- Drake Leather Armor -->
 			<item id="31389" count="1" chance="90" /> <!-- Bound Drake Leather Armor -->
@@ -1372,12 +1364,12 @@
 	</item>
 	<item id="33676" name="Unidentified Drake Leather Gloves" additionalName="Event" type="EtcItem">
 		<!-- Drake Leather gloves in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: Gloves) -->
+		<set name="icon" val="icon.armor_t21_g_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="C" />
 		<set name="commissionItemType" val="GLOVES" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.armor_t21_g_i00" />
 		<createItems>
 			<item id="2461" count="1" chance="10" /> <!-- Drake Leather Gloves -->
 			<item id="31390" count="1" chance="90" /> <!-- Bound Drake Leather Gloves -->
@@ -1388,12 +1380,12 @@
 	</item>
 	<item id="33677" name="Unidentified Demon's Dagger" additionalName="Event" type="EtcItem">
 		<!-- Demon's Dagger in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: one-handed weapon / dagger) -->
+		<set name="icon" val="icon.weapon_demons_sword_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="B" />
 		<set name="commissionItemType" val="DAGGER" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.weapon_demons_sword_i00" />
 		<createItems>
 			<item id="234" count="1" chance="10" /> <!-- Demon's Dagger -->
 			<item id="30916" count="1" chance="45" /> <!-- Bound Demon's Dagger - Critical Bleed -->
@@ -1405,12 +1397,12 @@
 	</item>
 	<item id="33678" name="Unidentified Wizard's Tear" additionalName="Event" type="EtcItem">
 		<!-- Wizard's Tear in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: one-handed weapon / sword) -->
+		<set name="icon" val="icon.weapon_tears_of_wizard_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="B" />
 		<set name="commissionItemType" val="ONE_HAND_MAGIC_SWORD" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.weapon_tears_of_wizard_i00" />
 		<createItems>
 			<item id="7889" count="1" chance="10" /> <!-- Wizard's Tear -->
 			<item id="30597" count="1" chance="30" /> <!-- Bound Wizard's Tear - Acumen -->
@@ -1423,12 +1415,12 @@
 	</item>
 	<item id="33679" name="Unidentified Damascus Sword" additionalName="Event" type="EtcItem">
 		<!-- Damascus Sword in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: one-handed weapon / sword) -->
+		<set name="icon" val="icon.weapon_sword_of_damascus_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="B" />
 		<set name="commissionItemType" val="ONE_HAND_SWORD" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.weapon_sword_of_damascus_i00" />
 		<createItems>
 			<item id="79" count="1" chance="10" /> <!-- Damascus Sword -->
 			<item id="31486" count="1" chance="30" /> <!-- Bound Damascus Sword - Focus -->
@@ -1441,12 +1433,12 @@
 	</item>
 	<item id="33680" name="Unidentified Guardian's Sword" additionalName="Event" type="EtcItem">
 		<!-- Guardian's Sword in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / sword) -->
+		<set name="icon" val="icon.weapon_guardians_sword_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="B" />
 		<set name="commissionItemType" val="TWO_HAND_SWORD" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.weapon_guardians_sword_i00" />
 		<createItems>
 			<item id="7883" count="1" chance="10" /> <!-- Guardian's Sword -->
 			<item id="31577" count="1" chance="30" /> <!-- Bound Guardian's Sword - Health -->
@@ -1459,12 +1451,12 @@
 	</item>
 	<item id="33681" name="Unidentified Bow of Peril" additionalName="Event" type="EtcItem">
 		<!-- Bow of Peril in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / bow) -->
+		<set name="icon" val="icon.weapon_hazard_bow_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="B" />
 		<set name="commissionItemType" val="BOW" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.weapon_hazard_bow_i00" />
 		<createItems>
 			<item id="287" count="1" chance="10" /> <!-- Bow of Peril -->
 			<item id="30503" count="1" chance="30" /> <!-- Bound Bow of Peril - Guidance -->
@@ -1477,12 +1469,12 @@
 	</item>
 	<item id="33682" name="Unidentified Kaim Vanul's Bones" additionalName="Event" type="EtcItem">
 		<!-- Kaim Vanul's Bones in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: one-handed weapon / blunt) -->
+		<set name="icon" val="icon.weapon_bone_of_kaim_vanul_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="B" />
 		<set name="commissionItemType" val="ONE_HAND_MAGIC_BLUNT_WEAPON" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.weapon_bone_of_kaim_vanul_i00" />
 		<createItems>
 			<item id="7893" count="1" chance="10" /> <!-- Kaim Vanul's Bones -->
 			<item id="30688" count="1" chance="30" /> <!-- Bound Kaim Vanul's Bones - Mana Up -->
@@ -1495,12 +1487,12 @@
 	</item>
 	<item id="33683" name="Unidentified Art of Battle Axe" additionalName="Event" type="EtcItem">
 		<!-- Art of Battle Axe in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: one-handed weapon / blunt) -->
+		<set name="icon" val="icon.weapon_art_of_battle_axe_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="B" />
 		<set name="commissionItemType" val="BLUNT_WEAPON" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.weapon_art_of_battle_axe_i00" />
 		<createItems>
 			<item id="175" count="1" chance="10" /> <!-- Art of Battle Axe -->
 			<item id="30923" count="1" chance="30" /> <!-- Bound Art of Battle Axe - Haste -->
@@ -1513,12 +1505,12 @@
 	</item>
 	<item id="33684" name="Unidentified Star Buster" additionalName="Event" type="EtcItem">
 		<!-- Star Buster in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / blunt) -->
+		<set name="icon" val="icon.weapon_star_buster_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="B" />
 		<set name="commissionItemType" val="TWO_HAND_BLUNT_WEAPON" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.weapon_star_buster_i00" />
 		<createItems>
 			<item id="7901" count="1" chance="10" /> <!-- Star Buster -->
 			<item id="31019" count="1" chance="30" /> <!-- Bound Star Buster - Haste -->
@@ -1531,12 +1523,12 @@
 	</item>
 	<item id="33685" name="Unidentified Staff of Evil Spirits" additionalName="Event" type="EtcItem">
 		<!-- Staff of Evil Spirits in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / blunt) -->
+		<set name="icon" val="icon.weapon_staff_of_evil_sprit_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="B" />
 		<set name="commissionItemType" val="TWO_HAND_MAGIC_BLUNT_WEAPON" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.weapon_staff_of_evil_sprit_i00" />
 		<createItems>
 			<item id="210" count="1" chance="10" /> <!-- Staff of Evil Spirits -->
 			<item id="31171" count="1" chance="30" /> <!-- Bound Staff of Evil Spirits - Magic Poison -->
@@ -1549,12 +1541,12 @@
 	</item>
 	<item id="33686" name="Unidentified Lance" additionalName="Event" type="EtcItem">
 		<!-- Lance in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / spear) -->
+		<set name="icon" val="icon.weapon_lancia_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="B" />
 		<set name="commissionItemType" val="SPEAR" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.weapon_lancia_i00" />
 		<createItems>
 			<item id="97" count="1" chance="10" /> <!-- Lance -->
 			<item id="31357" count="1" chance="30" /> <!-- Bound Lance - Critical Stun -->
@@ -1567,12 +1559,12 @@
 	</item>
 	<item id="33687" name="Unidentified Bellion Cestus" additionalName="Event" type="EtcItem">
 		<!-- Bellion Cestus in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / fist weapon) -->
+		<set name="icon" val="icon.weapon_bellion_cestus_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="B" />
 		<set name="commissionItemType" val="FIST_WEAPON" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.weapon_bellion_cestus_i00" />
 		<createItems>
 			<item id="268" count="1" chance="10" /> <!-- Bellion Cestus -->
 			<item id="31222" count="1" chance="30" /> <!-- Bound Bellion Cestus - Critical Drain -->
@@ -1585,12 +1577,12 @@
 	</item>
 	<item id="33688" name="Unidentified Samurai Long Sword*Samurai Long Sword" additionalName="Event" type="EtcItem">
 		<!-- Samurai Long Sword*Samurai Long Sword in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / dual weapon) -->
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="B" />
 		<set name="commissionItemType" val="DUALSWORD" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<createItems>
 			<item id="2626" count="1" chance="10" /> <!-- Samurai Long Sword*Samurai Long Sword -->
 			<item id="33543" count="1" chance="90" /> <!-- Bound Samurai Long Sword*Samurai Long Sword - Event -->
@@ -1601,12 +1593,12 @@
 	</item>
 	<item id="33689" name="Unidentified Stockings of Doom" additionalName="Event" type="EtcItem">
 		<!-- Stockings of Doom in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: lower / robe) -->
+		<set name="icon" val="icon.armor_t73_l_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="B" />
 		<set name="commissionItemType" val="ARMOR_PANTS" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.armor_t73_l_i00" />
 		<createItems>
 			<item id="2404" count="1" chance="10" /> <!-- Stockings of Doom -->
 			<item id="30444" count="1" chance="90" /> <!-- Bound Stockings of Doom -->
@@ -1617,12 +1609,12 @@
 	</item>
 	<item id="33690" name="Unidentified Tunic of Doom" additionalName="Event" type="EtcItem">
 		<!-- Tunic of Doom in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: upper / robe) -->
+		<set name="icon" val="icon.armor_t73_u_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="B" />
 		<set name="commissionItemType" val="ARMOR_TOP" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.armor_t73_u_i00" />
 		<createItems>
 			<item id="2399" count="1" chance="10" /> <!-- Tunic of Doom -->
 			<item id="30602" count="1" chance="90" /> <!-- Bound Tunic of Doom -->
@@ -1633,12 +1625,12 @@
 	</item>
 	<item id="33691" name="Unidentified Leather Armor of Doom" additionalName="Event" type="EtcItem">
 		<!-- Leather Armor of Doom in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: one piece / light armor) -->
+		<set name="icon" val="icon.armor_t72_ul_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="B" />
 		<set name="commissionItemType" val="FULL_BODY" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.armor_t72_ul_i00" />
 		<createItems>
 			<item id="2392" count="1" chance="10" /> <!-- Leather Armor of Doom -->
 			<item id="31353" count="1" chance="90" /> <!-- Bound Leather Armor of Doom -->
@@ -1649,12 +1641,12 @@
 	</item>
 	<item id="33692" name="Unidentified Doom Helmet" additionalName="Event" type="EtcItem">
 		<!-- Doom Helmet in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: Headgear) -->
+		<set name="icon" val="icon.armor_leather_helmet_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="B" />
 		<set name="commissionItemType" val="HELMET" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.armor_leather_helmet_i00" />
 		<createItems>
 			<item id="2417" count="1" chance="10" /> <!-- Doom Helmet -->
 			<item id="31416" count="1" chance="90" /> <!-- Bound Doom Helmet -->
@@ -1665,12 +1657,12 @@
 	</item>
 	<item id="33693" name="Unidentified Doom Plate Armor" additionalName="Event" type="EtcItem">
 		<!-- Doom Plate Armor in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: one piece / heavy armor) -->
+		<set name="icon" val="icon.armor_t71_ul_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="B" />
 		<set name="commissionItemType" val="FULL_BODY" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.armor_t71_ul_i00" />
 		<createItems>
 			<item id="2381" count="1" chance="10" /> <!-- Doom Plate Armor -->
 			<item id="31417" count="1" chance="90" /> <!-- Bound Doom Plate Armor -->
@@ -1681,12 +1673,12 @@
 	</item>
 	<item id="33694" name="Unidentified Doom Shield" additionalName="Event" type="EtcItem">
 		<!-- Doom Shield in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: Shield) -->
+		<set name="icon" val="icon.shield_doom_shield_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="B" />
 		<set name="commissionItemType" val="SHIELD" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.shield_doom_shield_i00" />
 		<createItems>
 			<item id="110" count="1" chance="10" /> <!-- Doom Shield -->
 			<item id="31426" count="1" chance="90" /> <!-- Bound Doom Shield -->
@@ -1697,12 +1689,12 @@
 	</item>
 	<item id="33695" name="Unidentified Doom Boots" additionalName="Event" type="EtcItem">
 		<!-- Doom Boots in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: boots) -->
+		<set name="icon" val="icon.armor_t71_b_i02" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="B" />
 		<set name="commissionItemType" val="FEET" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.armor_t71_b_i02" />
 		<createItems>
 			<item id="601" count="1" chance="10" /> <!-- Sealed Doom Boots -->
 			<item id="32805" count="1" chance="90" /> <!-- Sealed Bound Doom Boots -->
@@ -1713,12 +1705,12 @@
 	</item>
 	<item id="33696" name="Unidentified Doom Gloves" additionalName="Event" type="EtcItem">
 		<!-- Doom Gloves in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: Gloves) -->
+		<set name="icon" val="icon.armor_t71_g_i02" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="B" />
 		<set name="commissionItemType" val="GLOVES" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.armor_t71_g_i02" />
 		<createItems>
 			<item id="2475" count="1" chance="10" /> <!-- Sealed Doom Gloves -->
 			<item id="32801" count="1" chance="90" /> <!-- Sealed Bound Doom Gloves -->
@@ -1729,12 +1721,12 @@
 	</item>
 	<item id="33697" name="Unidentified Soul Separator" additionalName="Event" type="EtcItem">
 		<!-- Soul Separator in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: one-handed weapon / dagger) -->
+		<set name="icon" val="icon.weapon_soul_separator_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="A" />
 		<set name="commissionItemType" val="DAGGER" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.weapon_soul_separator_i00" />
 		<createItems>
 			<item id="236" count="1" chance="10" /> <!-- Soul Separator -->
 			<item id="31079" count="1" chance="30" /> <!-- Bound Soul Separator - Guidance -->
@@ -1747,12 +1739,12 @@
 	</item>
 	<item id="33698" name="Unidentified Sword of Miracles" additionalName="Event" type="EtcItem">
 		<!-- Sword of Miracles in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: one-handed weapon / sword) -->
+		<set name="icon" val="icon.weapon_sword_of_miracle_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="A" />
 		<set name="commissionItemType" val="ONE_HAND_MAGIC_SWORD" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.weapon_sword_of_miracle_i00" />
 		<createItems>
 			<item id="151" count="1" chance="10" /> <!-- Sword of Miracles -->
 			<item id="31103" count="1" chance="30" /> <!-- Bound Sword of Miracles - Acumen -->
@@ -1765,12 +1757,12 @@
 	</item>
 	<item id="33699" name="Unidentified Dark Legion's Edge" additionalName="Event" type="EtcItem">
 		<!-- Dark Legion's Edge in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: one-handed weapon / sword) -->
+		<set name="icon" val="icon.weapon_dark_legions_edge_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="crystal_type" val="A" />
 		<set name="commissionItemType" val="ONE_HAND_SWORD" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.weapon_dark_legions_edge_i00" />
 		<createItems>
 			<item id="2500" count="1" chance="10" /> <!-- Dark Legion's Edge -->
 			<item id="31480" count="1" chance="30" /> <!-- Bound Dark Legion's Edge - Health -->

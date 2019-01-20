@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
 	<skill id="8400" toLevel="1" name="Vorpal Heavy Armor Set">
-		<!-- Confirmed CT2.5 and Updated to H5 -->
+		<!-- Increases P. Def. by 8.47%, P. Atk. by 5.57%, Accuracy by 4, Speed by 7, M. Def. by 2%, Max HP by 541, Bleed/Hold/Sleep Resistance by 50%, and Fire/Water/Wind/Earth Resistance by 5. Can equip a cloak. CON+ 2. STR-2 -->
 		<icon>icon.armor_t94_u_i03</icon>
 		<magicLvl>85</magicLvl>
 		<operateType>P</operateType>
@@ -66,7 +66,7 @@
 		</effects>
 	</skill>
 	<skill id="8401" toLevel="1" name="Vorpal Leather Armor Set">
-		<!-- Confirmed CT2.5 and Updated to H5 -->
+		<!-- Increases P. Atk./P. Def. by 5.57%, Atk. Spd. by 5%, Speed by 3%, Critical Damage by 182, Max MP by 360, Stun Resistance by 50%, and Fire/Water/Wind/Earth Resistance by 5. Can equip a cloak. STR+ 1, DEX+ 2, CON-3 -->
 		<icon>icon.armor_t95_u_i03</icon>
 		<magicLvl>85</magicLvl>
 		<operateType>P</operateType>
@@ -129,7 +129,7 @@
 		</effects>
 	</skill>
 	<skill id="8402" toLevel="1" name="Vorpal Robe Set">
-		<!-- Confirmed CT2.5 and Updated to H5 -->
+		<!-- Increases M. Atk. by 8.7%, Casting Spd. by 15%, MP Recovery Bonus by 5%, Speed by 7, Max MP by 92, Stun Resistance by 50%, and Fire/Water/Wind/Earth Resistance by 5. Can equip a cloak. WIT+ 2, MEN-1, INT-1 -->
 		<icon>icon.armor_t96_u_i03</icon>
 		<magicLvl>85</magicLvl>
 		<operateType>P</operateType>
@@ -187,7 +187,7 @@
 		</effects>
 	</skill>
 	<skill id="8403" toLevel="1" name="Elegia Heavy Armor Set">
-		<!-- Confirmed CT2.5 -->
+		<!-- STR+ 3, CON-2.P. Atk. increases by 6.59% when equipped -->
 		<icon>icon.armor_t97_u_i00</icon>
 		<magicLvl>85</magicLvl>
 		<operateType>P</operateType>
@@ -246,7 +246,7 @@
 		</effects>
 	</skill>
 	<skill id="8404" toLevel="1" name="Elegia Leather Armor Set">
-		<!-- Confirmed CT2.5 -->
+		<!-- STR+ 1, DEX+ 2, CON-2. When equipped, increases P. Atk. by 6.59%, Atk. Spd. by 6%, Critical Rate by 171, Paralysis Resistance by 50%, Speed by 3%, and Fire/Water/Wind/Earth Resistance by 5. Can equip a cloak. -->
 		<icon>icon.armor_t98_u_i00</icon>
 		<magicLvl>85</magicLvl>
 		<operateType>P</operateType>
@@ -299,7 +299,7 @@
 		</effects>
 	</skill>
 	<skill id="8405" toLevel="1" name="Elegia Robe Set">
-		<!-- Confirmed CT2.5 and Updated to H5 -->
+		<!-- Increases M. Atk. by 10%, Casting Spd. by 15%, MP Recovery Bonus by 5%, Speed by 7, Max MP by 97, Stun Resistance by 50%, and Fire/Water/Wind/Earth Resistance by 5. Decreases MP Consumption for magic skills by 3%. Can equip a cloak. WIT+ 2, INT+ 1, MEN-2 -->
 		<icon>icon.armor_t99_u_i00</icon>
 		<magicLvl>85</magicLvl>
 		<operateType>P</operateType>
@@ -363,7 +363,7 @@
 		</effects>
 	</skill>
 	<skill id="8406" toLevel="1" name="Moirai Heavy Armor Set - PvP">
-		<!-- Confirmed CT2.5 -->
+		<!-- Increases P. Atk. by 4.26%, Atk. Spd. by 4%, M. Def. by 2%, Stun Resistance by 50%, and Fire/Water/Wind/Earth Resistance by 3. Decreases damage received during PvP, and has a chance to decrease the opponent's Speed. Cloak equip possible. STR+ 2. CON-2 -->
 		<icon>icon.armor_t100_u_i00</icon>
 		<magicLvl>82</magicLvl>
 		<operateType>P</operateType>
@@ -377,7 +377,7 @@
 				<chance>2</chance>
 				<targetType>ENEMY</targetType>
 				<minDamage>1</minDamage>
-				<skillId>5693</skillId>
+				<skillId>5693</skillId> <!-- PvP Armor - Speed Down -->
 				<skillLevel>1</skillLevel>
 			</effect>
 			<effect name="DefenceTrait">
@@ -427,7 +427,7 @@
 		</effects>
 	</skill>
 	<skill id="8407" toLevel="1" name="Moirai Light Armor Set - PvP">
-		<!-- Confirmed CT2.5 -->
+		<!-- Increases P. Atk. by 4.26%, Atk. Spd. by 4%, Moving Spd. by 3%, Hold Resistance by 50% and Fire/Water/Wind/Earth Resistance by 3. Decreases damage received during PvP, and has a chance of removing the opponent's target when attacked. Cloak equip possible. DEX+ 2, CON-2 -->
 		<icon>icon.armor_t101_u_i00</icon>
 		<magicLvl>82</magicLvl>
 		<operateType>P</operateType>
@@ -441,7 +441,7 @@
 				<chance>2</chance>
 				<targetType>ENEMY</targetType>
 				<minDamage>1</minDamage>
-				<skillId>5694</skillId>
+				<skillId>5694</skillId> <!-- PvP Armor - Mirage -->
 				<skillLevel>1</skillLevel>
 			</effect>
 			<effect name="DefenceTrait">
@@ -501,7 +501,7 @@
 		</effects>
 	</skill>
 	<skill id="8408" toLevel="1" name="Moirai Robe Set - PvP">
-		<!-- Confirmed CT2.5 -->
+		<!-- Increases M. Atk. by 8.11%, Casting Spd. by 15%, Paralysis Resistance by 50% and Fire/Water/Wind/Earth Resistance by 5. Decreases damage received during PvP, and has a chance of decreasing Critical Rate/Damage when attacked. Cloak equip possible. WIT+ 2, MEN-2 -->
 		<icon>icon.armor_t102_u_i00</icon>
 		<magicLvl>82</magicLvl>
 		<operateType>P</operateType>
@@ -515,7 +515,7 @@
 				<chance>2</chance>
 				<targetType>SELF</targetType>
 				<minDamage>1</minDamage>
-				<skillId>5691</skillId>
+				<skillId>5691</skillId> <!-- PvP Armor - Critical Down -->
 				<skillLevel>1</skillLevel>
 			</effect>
 			<effect name="DefenceTrait">
@@ -570,7 +570,7 @@
 		</effects>
 	</skill>
 	<skill id="8409" toLevel="1" name="Vorpal Heavy Armor Set - PvP">
-		<!-- Confirmed CT2.5 and Updated to H5 -->
+		<!-- Increases P. Def. by 8.47%, P. Atk. by 5.57%, Accuracy by 4, Speed by 7, M. Def. by 2%, Max HP by 541, Bleed/Hold/Sleep Resistance by 50%, and Fire/Water/Wind/Earth Resistance by 5. During PvP, received damage decreases, and all speeds of the attacker decrease at a fixed rate. Can equip a cloak. CON+ 2. STR-2 -->
 		<icon>icon.armor_t94_u_i03</icon>
 		<magicLvl>85</magicLvl>
 		<operateType>P</operateType>
@@ -584,7 +584,7 @@
 				<chance>2</chance>
 				<targetType>ENEMY</targetType>
 				<minDamage>1</minDamage>
-				<skillId>5693</skillId>
+				<skillId>5693</skillId> <!-- PvP Armor - Speed Down -->
 				<skillLevel>1</skillLevel>
 			</effect>
 			<effect name="DefenceTrait">
@@ -661,7 +661,7 @@
 		</effects>
 	</skill>
 	<skill id="8410" toLevel="1" name="Vorpal Leather Armor Set - PvP">
-		<!-- Confirmed CT2.5 and Updated to H5 -->
+		<!-- Increases P. Atk./P. Def. by 5.57%, Atk. Spd. by 5%, Speed by 3%, Critical Damage by 182, Max MP by 360, Stun Resistance by 50%, and Fire/Water/Wind/Earth Resistance by 5. During PvP, received damage decreases and the opponent's target is cancelled at a fixed rate when attacked. Can equip a cloak. STR+ 1, DEX+ 2, CON-3 -->
 		<icon>icon.armor_t95_u_i03</icon>
 		<magicLvl>85</magicLvl>
 		<operateType>P</operateType>
@@ -675,7 +675,7 @@
 				<chance>2</chance>
 				<targetType>ENEMY</targetType>
 				<minDamage>1</minDamage>
-				<skillId>5694</skillId>
+				<skillId>5694</skillId> <!-- PvP Armor - Mirage -->
 				<skillLevel>1</skillLevel>
 			</effect>
 			<effect name="DefenceTrait">
@@ -750,7 +750,7 @@
 		</effects>
 	</skill>
 	<skill id="8411" toLevel="1" name="Vorpal Robe Set - PvP">
-		<!-- Confirmed CT2.5 and Updated to H5 -->
+		<!-- Increases M. Atk. by 8.7%, Casting Spd. by 15%, MP Recovery Bonus by 5%, Speed by 7, Max MP by 92, Stun Resistance by 50%, and Fire/Water/Wind/Earth Resistance by 5. During PvP, received damage decreases and Critical Rate/damage decrease at a fixed rate when attacked. Can equip a cloak. WIT+ 2, MEN-1, INT-1 -->
 		<icon>icon.armor_t96_u_i03</icon>
 		<magicLvl>85</magicLvl>
 		<operateType>P</operateType>
@@ -764,7 +764,7 @@
 				<chance>2</chance>
 				<targetType>SELF</targetType>
 				<minDamage>1</minDamage>
-				<skillId>5691</skillId>
+				<skillId>5691</skillId> <!-- PvP Armor - Critical Down -->
 				<skillLevel>1</skillLevel>
 			</effect>
 			<effect name="DefenceTrait">
@@ -834,7 +834,7 @@
 		</effects>
 	</skill>
 	<skill id="8412" toLevel="1" name="Elegia Heavy Armor Set - PvP">
-		<!-- Confirmed CT2.5 -->
+		<!-- STR+ 3, CON-2. P. Atk. increases by 6.59% when equipped -->
 		<icon>icon.armor_t97_u_i00</icon>
 		<magicLvl>85</magicLvl>
 		<operateType>P</operateType>
@@ -848,7 +848,7 @@
 				<chance>2</chance>
 				<targetType>ENEMY</targetType>
 				<minDamage>1</minDamage>
-				<skillId>5693</skillId>
+				<skillId>5693</skillId> <!-- PvP Armor - Speed Down -->
 				<skillLevel>1</skillLevel>
 			</effect>
 			<effect name="DefenceTrait">
@@ -919,7 +919,7 @@
 		</effects>
 	</skill>
 	<skill id="8413" toLevel="1" name="Elegia Leather Armor Set - PvP">
-		<!-- Confirmed CT2.5 -->
+		<!-- STR+ 1, DEX+ 2, CON-2. When equipped, increases P. Atk. by 6.59%, Atk. Spd. by 6%, Critical Rate by 171, Paralysis Resistance by 50%, Speed by 3%, and Fire/Water/Wind/Earth Resistance by 5. During PvP, damage incurred upon attack decreases and the opponent's target is cancelled at a fixed rate. Can equip a cloak. -->
 		<icon>icon.armor_t98_u_i00</icon>
 		<magicLvl>85</magicLvl>
 		<operateType>P</operateType>
@@ -933,7 +933,7 @@
 				<chance>2</chance>
 				<targetType>ENEMY</targetType>
 				<minDamage>1</minDamage>
-				<skillId>5694</skillId>
+				<skillId>5694</skillId> <!-- PvP Armor - Mirage -->
 				<skillLevel>1</skillLevel>
 			</effect>
 			<effect name="DefenceTrait">
@@ -998,7 +998,7 @@
 		</effects>
 	</skill>
 	<skill id="8414" toLevel="1" name="Elegia Robe Set - PvP">
-		<!-- Confirmed CT2.5 and Updated to H5 -->
+		<!-- Increases M. Atk. by 10%, Casting Spd. by 15%, MP Recovery Bonus by 5%, Speed by 7, Max MP by 97, Stun Resistance by 50%, and Fire/Water/Wind/Earth Resistance by 5. Decreases MP Consumption for magic skills by 3%. During PvP, received damage decreases and Critical Rate/damage decrease at a fixed rate when attacked. Can equip a cloak. WIT+ 2, INT+ 1, MEN-2 -->
 		<icon>icon.armor_t99_u_i00</icon>
 		<magicLvl>85</magicLvl>
 		<operateType>P</operateType>
@@ -1012,7 +1012,7 @@
 				<chance>2</chance>
 				<targetType>SELF</targetType>
 				<minDamage>1</minDamage>
-				<skillId>5691</skillId>
+				<skillId>5691</skillId> <!-- PvP Armor - Critical Down -->
 				<skillLevel>1</skillLevel>
 			</effect>
 			<effect name="DefenceTrait">
@@ -1075,6 +1075,7 @@
 		</effects>
 	</skill>
 	<skill id="8415" toLevel="5" name="Ring Ability: Drop Rate Up">
+		<!-- Increases item drop rate. -->
 		<icon>icon.skill3080</icon>
 		<magicLvl>85</magicLvl>
 		<operateType>P</operateType>
@@ -1093,6 +1094,7 @@
 		</effects>
 	</skill>
 	<skill id="8416" toLevel="5" name="Earring Ability: Increase Drop Rate">
+		<!-- Increases item drop rate. -->
 		<icon>icon.skill3080</icon>
 		<magicLvl>85</magicLvl>
 		<operateType>P</operateType>
@@ -1111,6 +1113,7 @@
 		</effects>
 	</skill>
 	<skill id="8417" toLevel="5" name="Necklace Ability: Drop Rate Up">
+		<!-- Increases item drop rate. -->
 		<icon>icon.skill3080</icon>
 		<magicLvl>85</magicLvl>
 		<operateType>P</operateType>
@@ -1129,7 +1132,7 @@
 		</effects>
 	</skill>
 	<skill id="8418" toLevel="1" name="Moirai Helmet">
-		<!-- Increases P.Atk. by 1.25%, Atk. Spd. by 1%, resistance to shock by 5% and resistance to Fire Attibute by 3. -->
+		<!-- Increases P. Atk. by 1.25%, Atk. Spd. by 1%, Stun Resistance by 5% and Fire Resistance by 3. -->
 		<icon>icon.armor_helmet_i00</icon>
 		<magicLvl>82</magicLvl>
 		<operateType>P</operateType>
@@ -1153,7 +1156,7 @@
 		</effects>
 	</skill>
 	<skill id="8419" toLevel="1" name="Moirai Breastplate">
-		<!-- Increases P.Atk. by 4.26%, Atk. Spd. by 4%, resistance to shock by 5% and resistance to Fire/Water/Wind/Earth attack by 1. -->
+		<!-- Increases P. Atk. by 4.26%, Atk. Spd. by 4%, Stun Resistance by 5% and Fire/Water/Wind/Earth Resistance by 1. -->
 		<icon>icon.armor_t100_u_i00</icon>
 		<magicLvl>82</magicLvl>
 		<operateType>P</operateType>
@@ -1189,7 +1192,7 @@
 		</effects>
 	</skill>
 	<skill id="8420" toLevel="1" name="Moirai Gaiters">
-		<!-- Increases P.Atk. by 2.08%, Atk. Spd. by 1.67%, resistance to shock by 5% and resistance to Water Attibute by 3. -->
+		<!-- Increases P. Atk. by 2.08%, Atk. Spd. by 1.67%, Stun Resistance by 5% and Water Resistance by 3. -->
 		<icon>icon.armor_t100_l_i00</icon>
 		<magicLvl>82</magicLvl>
 		<operateType>P</operateType>
@@ -1213,7 +1216,7 @@
 		</effects>
 	</skill>
 	<skill id="8421" toLevel="1" name="Moirai Gauntlets">
-		<!-- Increases P.Atk. by 0.83%, Atk. Spd. by 0.67%, resistance to shock by 5% and resistance to Wind Attibute by 3. -->
+		<!-- Increases P. Atk. by 0.83%, Atk. Spd. by 0.67%, Stun Resistance by 5% and Wind Resistance by 3. -->
 		<icon>icon.armor_t100_g_i00</icon>
 		<magicLvl>82</magicLvl>
 		<operateType>P</operateType>
@@ -1237,7 +1240,7 @@
 		</effects>
 	</skill>
 	<skill id="8422" toLevel="1" name="Moirai Boots">
-		<!-- Increases P.Atk. by 0.83%, Atk. Spd. by 0.67%, resistance to shock by 5% and resistance to Earth Attibute by 3. -->
+		<!-- Increases P. Atk. by 0.83%, Atk. Spd. by 0.67%, Stun Resistance by 5% and Earth Resistance by 3. -->
 		<icon>icon.armor_t100_b_i00</icon>
 		<magicLvl>82</magicLvl>
 		<operateType>P</operateType>
@@ -1261,7 +1264,7 @@
 		</effects>
 	</skill>
 	<skill id="8423" toLevel="1" name="Moirai Shield">
-		<!-- Increases resistance to magic damage by 2%. -->
+		<!-- Increases M. Def. by 2%. -->
 		<icon>icon.weapon_tysandy_shield_i01</icon>
 		<magicLvl>82</magicLvl>
 		<operateType>P</operateType>
@@ -1274,7 +1277,7 @@
 		</effects>
 	</skill>
 	<skill id="8424" toLevel="1" name="Moirai Leather Helmet">
-		<!-- Increases P. Atk. by 1.25%, MP recovery rate by 1%, resistance to Hold by 5% and resistance to Fire by 3. -->
+		<!-- Increases P. Atk. by 1.25%, MP Recovery Bonus by 1%, Hold Resistance by 5%, and Fire Resistance by 3. -->
 		<icon>icon.armor_leather_helmet_i00</icon>
 		<magicLvl>82</magicLvl>
 		<operateType>P</operateType>
@@ -1298,7 +1301,7 @@
 		</effects>
 	</skill>
 	<skill id="8425" toLevel="1" name="Moirai Leather Breastplate">
-		<!-- Increases P. Atk. by 4.26%, MP recovery rate by 4%, resistance to Hold by 5% and resistance to Water by 3. -->
+		<!-- Increases P. Atk. by 4.26%, MP Recovery Bonus by 4%, Hold Resistance by 5%, and Water Resistance by 3. -->
 		<icon>icon.armor_t101_u_i00</icon>
 		<magicLvl>82</magicLvl>
 		<operateType>P</operateType>
@@ -1322,7 +1325,7 @@
 		</effects>
 	</skill>
 	<skill id="8426" toLevel="1" name="Moirai Leather Leggings">
-		<!-- Increases P. Atk. by 2.08%, MP recovery rate by 1.67%, resistance to Hold by 5% and resistance to Water by 3. -->
+		<!-- Increases P. Atk. by 2.08%, MP Recovery Bonus by 1.67%, Hold Resistance by 5%, and Water Resistance by 3. -->
 		<icon>icon.armor_t101_l_i00</icon>
 		<magicLvl>82</magicLvl>
 		<operateType>P</operateType>
@@ -1346,7 +1349,7 @@
 		</effects>
 	</skill>
 	<skill id="8427" toLevel="1" name="Moirai Leather Gloves">
-		<!-- Increases P. Atk. by 0.83%, MP recovery rate by 0.67%, resistance to Hold by 5% and resistance to Wind by 3. -->
+		<!-- Increases P. Atk. by 0.83%, MP Recovery Bonus by 0.67%, Hold Resistance by 5%, and Earth Resistance by 3. -->
 		<icon>icon.armor_t101_g_i00</icon>
 		<magicLvl>82</magicLvl>
 		<operateType>P</operateType>
@@ -1370,7 +1373,7 @@
 		</effects>
 	</skill>
 	<skill id="8428" toLevel="1" name="Moirai Leather Boots">
-		<!-- Increases P. Atk. by 0.83%, MP recovery rate by 0.67%, resistance to Hold by 5% and resistance to Earth by 3. -->
+		<!-- Increases P. Atk. by 0.83%, MP Recovery Bonus by 0.67%, Hold Resistance by 5%, and Earth Resistance by 3. -->
 		<icon>icon.armor_t101_b_i00</icon>
 		<magicLvl>82</magicLvl>
 		<operateType>P</operateType>
@@ -1394,7 +1397,7 @@
 		</effects>
 	</skill>
 	<skill id="8429" toLevel="1" name="Moirai Circlet">
-		<!-- Increases M. Atk. by 0.62%, resistance to Paralysis by 5% and resistance to Fire by 5. -->
+		<!-- Increases M. Atk. by 0.62%, Paralysis Resistance by 5% and Fire Resistance by 5. -->
 		<icon>icon.armor_circlet_i00</icon>
 		<magicLvl>82</magicLvl>
 		<operateType>P</operateType>
@@ -1414,7 +1417,7 @@
 		</effects>
 	</skill>
 	<skill id="8430" toLevel="1" name="Moirai Tunic">
-		<!-- Increases M. Atk. by 8.11%, Casting Spd. by 15%, resistance to Paralysis by 5% and resistance to Fire/Water/Wind/Earth by 1. -->
+		<!-- Increases M. Atk. by 8.11%, Casting Spd. by 15%, Paralysis Resistance by 5% and Fire/Water/Wind/Earth Resistance by 1. -->
 		<icon>icon.armor_t102_u_i00</icon>
 		<magicLvl>82</magicLvl>
 		<operateType>P</operateType>
@@ -1452,7 +1455,7 @@
 		</effects>
 	</skill>
 	<skill id="8431" toLevel="1" name="Moirai Stockings">
-		<!-- Increases M. Atk. by 1.03%, resistance to Paralysis by 5% and resistance to Water by 5. -->
+		<!-- Increases M. Atk. by 1.03%, Paralysis Resistance by 5% and Water Resistance by 5. -->
 		<icon>icon.armor_t102_l_i00</icon>
 		<magicLvl>82</magicLvl>
 		<operateType>P</operateType>
@@ -1472,7 +1475,7 @@
 		</effects>
 	</skill>
 	<skill id="8432" toLevel="1" name="Moirai Gloves">
-		<!-- Increases M. Atk. by 0.41%, resistance to Paralysis by 5% and resistance to Wind by 5. -->
+		<!-- Increases M. Atk. by 0.41%, Paralysis Resistance by 5% and Wind Resistance by 5. -->
 		<icon>icon.armor_t102_g_i00</icon>
 		<magicLvl>82</magicLvl>
 		<operateType>P</operateType>
@@ -1492,7 +1495,7 @@
 		</effects>
 	</skill>
 	<skill id="8433" toLevel="1" name="Moirai Shoes">
-		<!-- Increases M. Atk. by 0.41%, resistance to Paralysis by 5% and resistance to Earth by 5. -->
+		<!-- Increases M. Atk. by 0.41%, Paralysis Resistance by 5% and Earth Resistance by 5. -->
 		<icon>icon.armor_t102_b_i00</icon>
 		<magicLvl>82</magicLvl>
 		<operateType>P</operateType>
@@ -1512,7 +1515,7 @@
 		</effects>
 	</skill>
 	<skill id="8434" toLevel="1" name="Moirai Sigil">
-		<!-- Increases resistance to magic damage by 2%. -->
+		<!-- Increases M. Def. by 2%. -->
 		<icon>icon.weapon_tysandy_sigil_i01</icon>
 		<magicLvl>82</magicLvl>
 		<operateType>P</operateType>
@@ -1525,7 +1528,7 @@
 		</effects>
 	</skill>
 	<skill id="8435" toLevel="1" name="Vesper Helmet">
-		<!-- Increases P. Atk./P. Def. by 0.62%, Max HP by 133 and resistance to Sleep/Hold Atk. by 10.5%. -->
+		<!-- Increases P. Atk./P. Def. by 0.62%, Max HP by 133 and Sleep/Hold Resistance by 10.5%. -->
 		<icon>icon.armor_helmet_i00</icon>
 		<magicLvl>85</magicLvl>
 		<operateType>P</operateType>
@@ -1550,7 +1553,7 @@
 		</effects>
 	</skill>
 	<skill id="8436" toLevel="1" name="Vesper Breastplate">
-		<!-- Increases P. Atk./P. Def. by 5.57%, Max HP by 531 and resistance to Sleep/Hold Atk. by 28%. -->
+		<!-- Increases P. Atk./P. Def. by 5.57%, Max HP by 531 and Sleep/Hold Resistance by 28%. -->
 		<icon>icon.armor_t94_u_i00</icon>
 		<magicLvl>85</magicLvl>
 		<operateType>P</operateType>
@@ -1575,7 +1578,7 @@
 		</effects>
 	</skill>
 	<skill id="8437" toLevel="1" name="Vesper Gaiters">
-		<!-- Increases P. Atk./P. Def. by 1/03%, Max HP by 55 and resistance to Sleep/Hold Atk. by 18%. -->
+		<!-- Increases P. Atk./P. Def. by 1.03%, Max HP by 55 and Sleep/Hold Resistance by 18%. -->
 		<icon>icon.armor_t94_l_i00</icon>
 		<magicLvl>85</magicLvl>
 		<operateType>P</operateType>
@@ -1600,7 +1603,7 @@
 		</effects>
 	</skill>
 	<skill id="8438" toLevel="1" name="Vesper Gauntlets">
-		<!-- Increases P. Atk./P. Def. by 0.41%, Max HP by 22 and resistance to Sleep/Hold Atk. by 7%. -->
+		<!-- Increases P. Atk./P. Def. by 0.41%, Max HP by 22 and Sleep/Hold Resistance by 7%. -->
 		<icon>icon.armor_t94_g_i00</icon>
 		<magicLvl>85</magicLvl>
 		<operateType>P</operateType>
@@ -1625,7 +1628,7 @@
 		</effects>
 	</skill>
 	<skill id="8439" toLevel="1" name="Vesper Boots">
-		<!-- Increases P. Atk./P. Def. by 0.41%, Max HP by 22 and resistance to Sleep/Hold Atk. by 7%. -->
+		<!-- Increases P. Atk./P. Def. by 0.41%, Max HP by 22 and Sleep/Hold Resistance by 7%. -->
 		<icon>icon.armor_t94_b_i00</icon>
 		<magicLvl>85</magicLvl>
 		<operateType>P</operateType>
@@ -1650,7 +1653,7 @@
 		</effects>
 	</skill>
 	<skill id="8440" toLevel="1" name="Vesper Shield">
-		<!-- Increases resistance to magic damage by 2%. -->
+		<!-- Increases M. Def. by 2%. -->
 		<icon>icon.weapon_vesper_verteidiger_i01</icon>
 		<magicLvl>85</magicLvl>
 		<operateType>P</operateType>
@@ -1788,7 +1791,7 @@
 		</effects>
 	</skill>
 	<skill id="8446" toLevel="1" name="Vesper Circlet">
-		<!-- Increases M. Atk. by 0.41%, MP recovery rate by 0.41%, resistance to Stun by 7.5% and decreases magic cancel rate by 4.5. -->
+		<!-- Increases M. Atk. by 0.41%, MP Recovery Rate by 0.41%, Stun Resistance by 7.5% and decreases magic cancel rate by 4.5. -->
 		<icon>icon.armor_circlet_i00</icon>
 		<magicLvl>85</magicLvl>
 		<operateType>P</operateType>
@@ -1812,7 +1815,7 @@
 		</effects>
 	</skill>
 	<skill id="8447" toLevel="1" name="Vesper Tunic">
-		<!-- Increases M. Atk. by 8.47%, Casting Spd. By 15%, MP recovery rate by 5%, resistance to Stun by 20% and decreases magic cancel rate by 12. -->
+		<!-- Increases M. Atk. by 8.47%, Casting Spd. by 15%, MP Recovery Rate by 5%, Stun Resistance by 20% and decreases magic cancel rate by 12. -->
 		<icon>icon.armor_t96_u_i00</icon>
 		<magicLvl>85</magicLvl>
 		<operateType>P</operateType>
@@ -1840,7 +1843,7 @@
 		</effects>
 	</skill>
 	<skill id="8448" toLevel="1" name="Vesper Stockings">
-		<!-- Increases M. Atk. by 0.68%, MP recovery rate by 0.68%, resistance to Stun by 5% and decreases magic cancel rate by 7.5. -->
+		<!-- Increases M. Atk. by 0.68%, MP Recovery Bonus by 0.68%, Stun Resistance by 12.5% and decreases magic cancel rate by 7.5. -->
 		<icon>icon.armor_t96_l_i00</icon>
 		<magicLvl>85</magicLvl>
 		<operateType>P</operateType>
@@ -1864,7 +1867,7 @@
 		</effects>
 	</skill>
 	<skill id="8449" toLevel="1" name="Vesper Gloves">
-		<!-- Increases M. Atk. by 0.27%, MP recovery rate by 0.27%, resistance to Stun by 5% and decreases magic cancel rate by 3. -->
+		<!-- Increases M. Atk. by 0.27%, MP Recovery Rate by 0.27%, Stun Resistance by 5% and decreases magic cancel rate by 3. -->
 		<icon>icon.armor_t96_g_i00</icon>
 		<magicLvl>85</magicLvl>
 		<operateType>P</operateType>
@@ -1888,7 +1891,7 @@
 		</effects>
 	</skill>
 	<skill id="8450" toLevel="1" name="Vesper Shoes">
-		<!-- Increases M. Atk. by 0.27%, MP recovery rate by 0.27%, resistance to Stun by 5% and decreases magic cancel rate by 3. -->
+		<!-- Increases M. Atk. by 0.27%, MP Recovery Rate by 0.27%, Stun Resistance by 5% and decreases magic cancel rate by 3. -->
 		<icon>icon.armor_t96_b_i00</icon>
 		<magicLvl>85</magicLvl>
 		<operateType>P</operateType>
@@ -1912,7 +1915,7 @@
 		</effects>
 	</skill>
 	<skill id="8451" toLevel="1" name="Vesper Sigil">
-		<!-- Increases resistance to magic damage by 2%. -->
+		<!-- Increases M. Def. by 2%. -->
 		<icon>icon.verper_sigil_i00</icon>
 		<magicLvl>85</magicLvl>
 		<operateType>P</operateType>
@@ -1925,7 +1928,7 @@
 		</effects>
 	</skill>
 	<skill id="8452" toLevel="1" name="Moirai Earring">
-		<!-- Confirmed CT2.5 -->
+		<!-- Increases Bleed Resistance. -->
 		<icon>icon.accessary_bluelycan_earring_i00</icon>
 		<magicLvl>75</magicLvl>
 		<operateType>P</operateType>
@@ -1937,7 +1940,7 @@
 		</effects>
 	</skill>
 	<skill id="8453" toLevel="1" name="Moirai Necklace">
-		<!-- Confirmed CT2.5 -->
+		<!-- Increases Poison Resistance. -->
 		<icon>icon.accessary_bluelycan_necklace_i00</icon>
 		<magicLvl>75</magicLvl>
 		<operateType>P</operateType>
@@ -1949,7 +1952,7 @@
 		</effects>
 	</skill>
 	<skill id="8454" toLevel="1" name="Moirai Ring">
-		<!-- Confirmed CT2.5 -->
+		<!-- Increases Max MP. -->
 		<icon>icon.accessary_bluelycan_ring_i00</icon>
 		<magicLvl>75</magicLvl>
 		<operateType>P</operateType>
@@ -1962,7 +1965,7 @@
 		</effects>
 	</skill>
 	<skill id="8455" toLevel="1" name="Vesper Earring">
-		<!-- Confirmed CT2.5 -->
+		<!-- Increases Sleep/Hold Resistance. -->
 		<icon>icon.vesper_earring_i00</icon>
 		<magicLvl>80</magicLvl>
 		<operateType>P</operateType>
@@ -1975,7 +1978,7 @@
 		</effects>
 	</skill>
 	<skill id="8456" toLevel="1" name="Vesper Necklace">
-		<!-- Confirmed CT2.5 -->
+		<!-- Increases Max MP by 33. -->
 		<icon>icon.vesper_necklace_i00</icon>
 		<magicLvl>80</magicLvl>
 		<operateType>P</operateType>
@@ -1988,7 +1991,7 @@
 		</effects>
 	</skill>
 	<skill id="8457" toLevel="1" name="Vesper Ring">
-		<!-- Confirmed CT2.5 -->
+		<!-- Increases Stun Resistance. -->
 		<icon>icon.vesper_ring_i00</icon>
 		<magicLvl>80</magicLvl>
 		<operateType>P</operateType>
@@ -2000,7 +2003,7 @@
 		</effects>
 	</skill>
 	<skill id="8458" toLevel="1" name="Bracelet Weight Gauge Add">
-		<!-- Confirmed CT2.5 -->
+		<!-- Increases weight gauge when a bracelet is equipped. -->
 		<icon>icon.skill0150</icon>
 		<magicLvl>1</magicLvl>
 		<operateType>P</operateType>
@@ -2012,8 +2015,7 @@
 		</effects>
 	</skill>
 	<skill id="8459" toLevel="1" name="Freya's Necklace">
-		<!-- Confirmed CT2.5 -->
-		<!-- Boss Jewel Skill -->
+		<!-- Increases Max MP by 50, MP Recovery Rate by 0.23, Bleed Resistance by 20%, Paralysis/Stun/Sleep Resistance by 15%, Mental Attack Resistance by 10% and Water Resistance by 10. Decreases Magic reuse time by 5%. Reflects 4% of the target's damage back to the enemy. -->
 		<icon>icon.accessary_queen_of_ice_necklace_i00</icon>
 		<magicLvl>1</magicLvl>
 		<operateType>P</operateType>
@@ -2050,8 +2052,7 @@
 		</effects>
 	</skill>
 	<skill id="8460" toLevel="1" name="Blessed Freya's Necklace">
-		<!-- Confirmed CT2.5 -->
-		<!-- Boss Jewel Skill -->
+		<!-- Increases Max MP by 50, MP Recovery Rate by 0.46, Bleed Resistance by 25%, Paralysis/Stun/Sleep Resistance by 20%, Mental Attack Resistance by 10%, Water Resistance by 15 and Healing Power by 15. Decreases Magic reuse time by 5%, magic MP Consumption by 5% and reflects 4% of the target's damage back to the enemy. MEN + 2, CON + 1, STR -1 -->
 		<icon>icon.accessary_queen_of_ice_necklace_i00</icon>
 		<magicLvl>1</magicLvl>
 		<operateType>P</operateType>
@@ -2109,7 +2110,7 @@
 		</effects>
 	</skill>
 	<skill id="8461" toLevel="3" name="Enchant Heavy Armor (S-grade)">
-		<!-- Confirmed CT2.5 and Updated to Ertheia -->
+		<!-- Increases P. Def. and MP Recovery Bonus by enchanting set items. -->
 		<icon>icon.skill0231</icon>
 		<magicLvl>1</magicLvl>
 		<operateType>P</operateType>
@@ -2147,7 +2148,7 @@
 		</effects>
 	</skill>
 	<skill id="8462" toLevel="3" name="Enchant Light Armor (S-grade)">
-		<!-- Confirmed CT2.5 and Updated to Ertheia -->
+		<!-- Increases M. Def. and Evasion by enchanting set items. -->
 		<icon>icon.skill0233</icon>
 		<magicLvl>1</magicLvl>
 		<operateType>P</operateType>
@@ -2178,7 +2179,7 @@
 		</effects>
 	</skill>
 	<skill id="8463" toLevel="3" name="Enchant Robe (S-grade)">
-		<!-- Confirmed CT2.5 and Updated to Ertheia -->
+		<!-- Increases P. Def. and weight capacity by enchanting set items. -->
 		<icon>icon.skill0234</icon>
 		<magicLvl>1</magicLvl>
 		<operateType>P</operateType>
@@ -2202,31 +2203,29 @@
 		</effects>
 	</skill>
 	<skill id="8464" toLevel="1" name="Release Agathion's Seal - Kid Rudolph">
-		<!-- Confirmed CT2.5 -->
-		<hitTime>3000</hitTime>
+		<!-- Removes the Agathion's seal. -->
 		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SummonAgathion">
-				<npcId>16073</npcId>
+				<npcId>16073</npcId> <!-- Rudolph Agathion -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="8465" toLevel="1" name="Notifier">
-		<!-- It's time to return Santa Claus's gift that the Agathions gave you. -->
+		<!-- Notifies about the Rudolph Agathion's gift resupply time. -->
 		<icon>icon.skill5239</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
 		<reuseDelay>15000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
@@ -2236,6 +2235,7 @@
 		</conditions>
 	</skill>
 	<skill id="8466" toLevel="2" name="Sword of Vampiric Rage">
+		<!-- When equipped with a sword, it restores HP by using some of the damage inflicted upon the enemy with a certain probability. -->
 		<icon>icon.skill1268</icon>
 		<magicLvl>
 			<value level="1">85</value>
@@ -2245,6 +2245,7 @@
 		<magicCriticalRate>5</magicCriticalRate>
 	</skill>
 	<skill id="8467" toLevel="2" name="Two-handed Sword of Regeneration">
+		<!-- Increases HP Recovery Bonus when equipped with a tow-handed sword. -->
 		<icon>icon.skill1044</icon>
 		<magicLvl>
 			<value level="1">85</value>
@@ -2254,6 +2255,7 @@
 		<magicCriticalRate>5</magicCriticalRate>
 	</skill>
 	<skill id="8468" toLevel="2" name="Sword of Mana Regeneration">
+		<!-- Increases MP Recovery Bonus. -->
 		<icon>icon.skill1047</icon>
 		<magicLvl>
 			<value level="1">85</value>
@@ -2263,6 +2265,7 @@
 		<magicCriticalRate>5</magicCriticalRate>
 	</skill>
 	<skill id="8469" toLevel="2" name="Dagger of Evasion">
+		<!-- Increases Evasion when equipped with a dagger. -->
 		<icon>icon.skill1087</icon>
 		<magicLvl>
 			<value level="1">85</value>
@@ -2272,6 +2275,7 @@
 		<magicCriticalRate>5</magicCriticalRate>
 	</skill>
 	<skill id="8470" toLevel="2" name="Fist Weapon of Haste">
+		<!-- Increases Atk. Spd. -->
 		<icon>icon.skill1086</icon>
 		<magicLvl>
 			<value level="1">85</value>
@@ -2281,6 +2285,7 @@
 		<magicCriticalRate>5</magicCriticalRate>
 	</skill>
 	<skill id="8471" toLevel="2" name="Polearm of Focus">
+		<!-- Increases Critical Rate. -->
 		<icon>icon.skill1077</icon>
 		<magicLvl>
 			<value level="1">85</value>
@@ -2290,6 +2295,7 @@
 		<magicCriticalRate>5</magicCriticalRate>
 	</skill>
 	<skill id="8472" toLevel="2" name="Blunt Weapon of Focus">
+		<!-- Increases Critical Rate. -->
 		<icon>icon.skill1077</icon>
 		<magicLvl>
 			<value level="1">85</value>
@@ -2299,6 +2305,7 @@
 		<magicCriticalRate>5</magicCriticalRate>
 	</skill>
 	<skill id="8473" toLevel="2" name="Two-handed Blunt Weapon of Death Whisper">
+		<!-- Increases Critical Damage. -->
 		<icon>icon.skill1242</icon>
 		<magicLvl>
 			<value level="1">85</value>
@@ -2308,6 +2315,7 @@
 		<magicCriticalRate>5</magicCriticalRate>
 	</skill>
 	<skill id="8474" toLevel="2" name="Blunt Weapon of Empower">
+		<!-- Increases M. Atk. -->
 		<icon>icon.skill1059</icon>
 		<magicLvl>
 			<value level="1">85</value>
@@ -2317,6 +2325,7 @@
 		<magicCriticalRate>5</magicCriticalRate>
 	</skill>
 	<skill id="8475" toLevel="2" name="Staff of Arcane Acumen">
+		<!-- Increases Casting Spd. -->
 		<icon>icon.skill1085</icon>
 		<magicLvl>
 			<value level="1">85</value>
@@ -2326,6 +2335,7 @@
 		<magicCriticalRate>5</magicCriticalRate>
 	</skill>
 	<skill id="8476" toLevel="2" name="Bow of Boost HP">
+		<!-- Increases Max HP. -->
 		<icon>icon.skill0211</icon>
 		<magicLvl>
 			<value level="1">85</value>
@@ -2335,6 +2345,7 @@
 		<magicCriticalRate>5</magicCriticalRate>
 	</skill>
 	<skill id="8477" toLevel="2" name="Rapier of Vampiric Rage">
+		<!-- When equipped with a rapier, restores HP by using some of the damage inflicted upon the enemy with a certain probability. -->
 		<icon>icon.skill1268</icon>
 		<magicLvl>
 			<value level="1">85</value>
@@ -2344,6 +2355,7 @@
 		<magicCriticalRate>5</magicCriticalRate>
 	</skill>
 	<skill id="8478" toLevel="2" name="Crossbow of Boost HP">
+		<!-- Increases Max HP. -->
 		<icon>icon.skill0211</icon>
 		<magicLvl>
 			<value level="1">85</value>
@@ -2353,6 +2365,7 @@
 		<magicCriticalRate>5</magicCriticalRate>
 	</skill>
 	<skill id="8479" toLevel="2" name="Ancient Sword of Regeneration">
+		<!-- Increases HP Recovery Bonus when equipped with an ancient sword. -->
 		<icon>icon.skill1044</icon>
 		<magicLvl>
 			<value level="1">85</value>
@@ -2362,6 +2375,7 @@
 		<magicCriticalRate>5</magicCriticalRate>
 	</skill>
 	<skill id="8480" toLevel="2" name="Dual-blade Weapon of Guidance">
+		<!-- Increases Accuracy when equipped with a dual-blade weapon. -->
 		<icon>icon.skill1240</icon>
 		<magicLvl>
 			<value level="1">85</value>
@@ -2371,7 +2385,7 @@
 		<magicCriticalRate>5</magicCriticalRate>
 	</skill>
 	<skill id="8481" toLevel="1" name="Vesper Noble Helmet">
-		<!-- Increases P. Atk./P. Def. by 0.62%, Max HP by 133 and resistance to Sleep/Hold by 10.5%. -->
+		<!-- Increases P. Atk./P. Def. by 0.62%, Max HP by 133 and Sleep/Hold Resistance by 10.5%. -->
 		<icon>icon.armor_helmet_i00</icon>
 		<magicLvl>85</magicLvl>
 		<operateType>P</operateType>
@@ -2396,7 +2410,7 @@
 		</effects>
 	</skill>
 	<skill id="8482" toLevel="1" name="Vesper Noble Gaiters">
-		<!-- Increases P. Atk./P. Def. by 1.03%, Max HP by 55 and resistance to Sleep/Hold by 185%. -->
+		<!-- Increases P. Atk./P. Def. by 1.03%, Max HP by 55 and Sleep/Hold Resistance by 18%. -->
 		<icon>icon.armor_t94_l_i01</icon>
 		<magicLvl>85</magicLvl>
 		<operateType>P</operateType>
@@ -2421,7 +2435,7 @@
 		</effects>
 	</skill>
 	<skill id="8483" toLevel="1" name="Vesper Noble Gauntlets">
-		<!-- Increases P. Atk./P. Def. by 0.41%, Max HP by 22 and resistance to Sleep/Hold by 7%. -->
+		<!-- Increases P. Atk./P. Def. by 0.41%, Max HP by 22 and Sleep/Hold Resistance by 7%. -->
 		<icon>icon.armor_t94_g_i01</icon>
 		<magicLvl>85</magicLvl>
 		<operateType>P</operateType>
@@ -2446,7 +2460,7 @@
 		</effects>
 	</skill>
 	<skill id="8484" toLevel="1" name="Vesper Noble Boots">
-		<!-- Increases P. Atk./P. Def. by 0.41%, Max HP by 22 and resistance to Sleep/Hold by 7%. -->
+		<!-- Increases P. Atk./P. Def. by 0.41%, Max HP by 22 and Sleep/Hold Resistance by 7%. -->
 		<icon>icon.armor_t94_b_i01</icon>
 		<magicLvl>85</magicLvl>
 		<operateType>P</operateType>
@@ -2471,7 +2485,7 @@
 		</effects>
 	</skill>
 	<skill id="8485" toLevel="1" name="Vesper Noble Leather Helmet">
-		<!-- Increases P.Atk. By 0.41%, Atk. Spd./MP Recovery Bonus by 0.41% and Max MP by 87. -->
+		<!-- Increases P. Atk. by 0.41%, Atk. Spd./MP Recovery Bonus by 0.41% and Max MP by 87. -->
 		<icon>icon.armor_leather_helmet_i00</icon>
 		<magicLvl>85</magicLvl>
 		<operateType>P</operateType>
@@ -2496,7 +2510,7 @@
 		</effects>
 	</skill>
 	<skill id="8486" toLevel="1" name="Vesper Noble Leather Leggings">
-		<!-- Increases P.Atk. By 0.68%, Atk. Spd./MP Recovery Bonus by 0.68% and Max MP by 145. -->
+		<!-- Increases P. Atk. by 0.68%, Atk. Spd./MP Recovery Bonus by 0.68% and Max MP by 145. -->
 		<icon>icon.armor_t95_l_i01</icon>
 		<magicLvl>85</magicLvl>
 		<operateType>P</operateType>
@@ -2521,7 +2535,7 @@
 		</effects>
 	</skill>
 	<skill id="8487" toLevel="1" name="Vesper Noble Leather Gloves">
-		<!-- Increases P.Atk. By 0.27%, Atk. Spd./MP Recovery Bonus by 0.27% and Max MP by 58. -->
+		<!-- Increases P. Atk. by 0.27%, Atk. Spd./MP Recovery Bonus by 0.27% and Max MP by 58. -->
 		<icon>icon.armor_t95_g_i01</icon>
 		<magicLvl>85</magicLvl>
 		<operateType>P</operateType>
@@ -2546,7 +2560,7 @@
 		</effects>
 	</skill>
 	<skill id="8488" toLevel="1" name="Vesper Noble Leather Boots">
-		<!-- Increases P.Atk. By 0.27%, Atk. Spd./MP Recovery Bonus by 0.27% and Max MP by 58. -->
+		<!-- Increases P. Atk. by 0.27%, Atk. Spd./MP Recovery Bonus by 0.27% and Max MP by 58. -->
 		<icon>icon.armor_t95_b_i01</icon>
 		<magicLvl>85</magicLvl>
 		<operateType>P</operateType>
@@ -2571,7 +2585,7 @@
 		</effects>
 	</skill>
 	<skill id="8489" toLevel="1" name="Vesper Noble Circlet">
-		<!-- Increases M. Atk. by 0.41%, MP recovery rate by 0.41%, resistance to Stun Atk. by 7.5% and decreases magic cancel rate by 4.5. -->
+		<!-- Increases M. Atk. by 0.41%, MP Recovery Rate by 0.41%, Stun Resistance by 7.5% and decreases magic cancel rate by 4.5. -->
 		<icon>icon.armor_circlet_i00</icon>
 		<magicLvl>85</magicLvl>
 		<operateType>P</operateType>
@@ -2595,7 +2609,7 @@
 		</effects>
 	</skill>
 	<skill id="8490" toLevel="1" name="Vesper Noble Stockings">
-		<!-- Increases M. Atk. by 0.68%, MP recovery rate by 0.68%, resistance to Stun Atk. by 12.5% and decreases magic cancel rate by 7.5. -->
+		<!-- Increases M. Atk. by 0.68%, MP Recovery Bonus by 0.68%, Stun Resistance by 12.5% and decreases magic cancel rate by 7.5. -->
 		<icon>icon.armor_t96_l_i01</icon>
 		<magicLvl>85</magicLvl>
 		<operateType>P</operateType>
@@ -2619,7 +2633,7 @@
 		</effects>
 	</skill>
 	<skill id="8491" toLevel="1" name="Vesper Noble Gloves">
-		<!-- Increases M. Atk. by 0.27%, MP recovery rate by 0.27%, resistance to Stun by 5% and decreases magic cancel rate by 3. -->
+		<!-- Increases M. Atk. by 0.27%, MP Recovery Rate by 0.27%, Stun Resistance by 5% and decreases magic cancel rate by 3. -->
 		<icon>icon.armor_t96_g_i01</icon>
 		<magicLvl>85</magicLvl>
 		<operateType>P</operateType>
@@ -2643,7 +2657,7 @@
 		</effects>
 	</skill>
 	<skill id="8492" toLevel="1" name="Vesper Noble Shoes">
-		<!-- Increases M. Atk. by 0.27%, MP recovery rate by 0.27%, resistance to Stun by 5% and decreases magic cancel rate by 3. -->
+		<!-- Increases M. Atk. by 0.27%, MP Recovery Rate by 0.27%, Stun Resistance by 5% and decreases magic cancel rate by 3. -->
 		<icon>icon.armor_t96_b_i01</icon>
 		<magicLvl>85</magicLvl>
 		<operateType>P</operateType>
@@ -2667,7 +2681,7 @@
 		</effects>
 	</skill>
 	<skill id="8493" toLevel="1" name="Equip Shield">
-		<!-- Confirmed CT2.5 -->
+		<!-- Shield Defense is additionally increased. -->
 		<icon>icon.weapon_tysandy_shield_i01</icon>
 		<magicLvl>82</magicLvl>
 		<operateType>P</operateType>
@@ -2680,7 +2694,7 @@
 		</effects>
 	</skill>
 	<skill id="8494" toLevel="1" name="Equip Shield">
-		<!-- Confirmed CT2.5 -->
+		<!-- Shield Defense is additionally increased. -->
 		<icon>icon.weapon_vesper_verteidiger_i01</icon>
 		<magicLvl>84</magicLvl>
 		<operateType>P</operateType>
@@ -2693,7 +2707,7 @@
 		</effects>
 	</skill>
 	<skill id="8495" toLevel="1" name="Equip Shield">
-		<!-- Confirmed CT2.5 -->
+		<!-- Shield Defense is additionally increased. -->
 		<icon>icon.Evilgate_Shield_i00</icon>
 		<magicLvl>85</magicLvl>
 		<operateType>P</operateType>
@@ -2706,7 +2720,7 @@
 		</effects>
 	</skill>
 	<skill id="8496" toLevel="1" name="Equip Shield">
-		<!-- Confirmed CT2.5 -->
+		<!-- Shield Defense is additionally increased. -->
 		<icon>icon.heavengate_shield_i00</icon>
 		<magicLvl>86</magicLvl>
 		<operateType>P</operateType>
@@ -2719,14 +2733,14 @@
 		</effects>
 	</skill>
 	<skill id="8497" toLevel="1" name="Circlet of Ice">
-		<!-- Increases resistance to water-type attacks by 30. -->
+		<!-- Increases Water Resistance by 30. -->
 		<icon>icon.accessory_ice_circlet_i00</icon>
 		<magicLvl>1</magicLvl>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
 	</skill>
 	<skill id="8498" toLevel="1" name="Pink Talisman - STR">
-		<!-- Confirmed CT2.5 -->
+		<!-- Increases STR when equipped. -->
 		<icon>icon.etc_talisman_event_i00</icon>
 		<magicLvl>55</magicLvl>
 		<operateType>P</operateType>
@@ -2739,7 +2753,7 @@
 		</effects>
 	</skill>
 	<skill id="8499" toLevel="1" name="Pink Talisman - DEX">
-		<!-- Confirmed CT2.5 -->
+		<!-- Increases DEX when equipped. -->
 		<icon>icon.etc_talisman_event_i00</icon>
 		<magicLvl>55</magicLvl>
 		<operateType>P</operateType>

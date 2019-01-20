@@ -1,7 +1,179 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
+	<skill id="18700" toLevel="1" name="Freya's Art of Seduction">
+		<!-- Dimensional Item. For 30 min., Max HP/MP/CP + 30%, P. Atk. + 10%, M. Atk. + 20%, P./M. Def + 30%, Speed + 20, Skill MP Consumption - 15%. Additionally, Damage Reduction + 10%, All Attributes Defense + 100. Buff remains in place after death. -->
+		<icon>icon.bm_freya_rose_red_i00</icon>
+		<operateType>A2</operateType>
+		<abnormalLvl>2</abnormalLvl>
+		<abnormalTime>1800</abnormalTime>
+		<abnormalType>BR_EVENT_BUF1</abnormalType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitTime>3000</hitTime>
+		<coolTime>3000</coolTime>
+		<reuseDelay>300000</reuseDelay>
+		<effectPoint>1</effectPoint>
+		<isMagic>2</isMagic>
+		<stayAfterDeath>true</stayAfterDeath>
+		<effects>
+			<effect name="MaxHp">
+				<amount>30</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MaxMp">
+				<amount>30</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MaxCp">
+				<amount>30</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>30</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>30</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PAtk">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MAtk">
+				<amount>20</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="Speed">
+				<amount>20</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="MagicMpCost">
+				<amount>-15</amount>
+				<mode>PER</mode>
+				<magicType>0</magicType>
+			</effect>
+			<effect name="MagicMpCost">
+				<amount>-15</amount>
+				<mode>PER</mode>
+				<magicType>1</magicType>
+			</effect>
+			<effect name="DamageByAttack">
+				<amount>-10</amount>
+				<type>PK</type>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DamageByAttack">
+				<amount>-10</amount>
+				<type>ENEMY_ALL</type>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>100</amount>
+				<attribute>FIRE</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>100</amount>
+				<attribute>WATER</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>100</amount>
+				<attribute>EARTH</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>100</amount>
+				<attribute>WIND</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>100</amount>
+				<attribute>HOLY</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>100</amount>
+				<attribute>DARK</attribute>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18701" toLevel="1" name="Freya's Art of Seduction">
+		<!-- Dimensional Item. For 30 min., Max HP/MP/CP + 30%, P. Atk. + 10%, M. Atk. + 20%, P./M. Def + 30%, Speed + 20, Skill MP Consumption - 15%. Additionally, XP Gain + 30%, Vitality Bonus + 12. Buff remains in place after death. -->
+		<icon>icon.bm_freya_rose_red_i00</icon>
+		<operateType>A2</operateType>
+		<abnormalLvl>2</abnormalLvl>
+		<abnormalTime>1800</abnormalTime>
+		<abnormalType>BR_EVENT_BUF1</abnormalType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitTime>3000</hitTime>
+		<coolTime>3000</coolTime>
+		<reuseDelay>300000</reuseDelay>
+		<effectPoint>1</effectPoint>
+		<isMagic>2</isMagic>
+		<stayAfterDeath>true</stayAfterDeath>
+		<effects>
+			<effect name="MaxHp">
+				<amount>30</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MaxMp">
+				<amount>30</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MaxCp">
+				<amount>30</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>30</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>30</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PAtk">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MAtk">
+				<amount>20</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="Speed">
+				<amount>20</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="MagicMpCost">
+				<amount>-15</amount>
+				<mode>PER</mode>
+				<magicType>0</magicType>
+			</effect>
+			<effect name="MagicMpCost">
+				<amount>-15</amount>
+				<mode>PER</mode>
+				<magicType>1</magicType>
+			</effect>
+			<effect name="ExpModify">
+				<amount>30</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="VitalityPointsRate">
+				<amount>-12</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
 	<skill id="18713" toLevel="6" name="Greater Red Cat's Eye">
-		<icon>icon.skill0000</icon>
+		<!-- P. Critical Damage + $s1, P. Skill Critical Damage + $s2. -->
+		<icon>
+			<value level="1">icon.bm_jewel_red_catseye</value>
+			<value level="2">icon.bm_jewel_red_catseye</value>
+			<value level="3">icon.bm_jewel_red_catseye</value>
+			<value level="4">icon.bm_jewel_red_catseye</value>
+			<value level="5">icon.bm_jewel_red_catseye</value>
+			<value level="6">icon.bm_jewel_red_catseye_high_lv1_lavianrose</value>
+		</icon>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>1</magicLvl>
@@ -35,7 +207,15 @@
 		</effects>
 	</skill>
 	<skill id="18714" toLevel="6" name="Greater Blue Cat's Eye">
-		<icon>icon.skill0000</icon>
+		<!-- M. Skill Critical Damage + $s1. -->
+		<icon>
+			<value level="1">Icon.bm_jewel_blue_catseye</value>
+			<value level="2">Icon.bm_jewel_blue_catseye</value>
+			<value level="3">Icon.bm_jewel_blue_catseye</value>
+			<value level="4">Icon.bm_jewel_blue_catseye</value>
+			<value level="5">Icon.bm_jewel_blue_catseye</value>
+			<value level="6">icon.bm_jewel_blue_catseye_high_lv1_lavianrose</value>
+		</icon>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>1</magicLvl>
@@ -58,19 +238,27 @@
 		</effects>
 	</skill>
 	<skill id="18715" toLevel="1" name="Greater Ruby">
-		<!-- Soulshot damage + 20%. -->
+		<!-- Soulshot damage + $s1. -->
 		<icon>icon.bm_jewel_ssdmg_high_lv1_lavianrose</icon>
 		<operateType>A1</operateType>
 		<targetType>SELF</targetType>
 	</skill>
 	<skill id="18716" toLevel="1" name="Greater Ruby">
-		<!-- Beast Soulshot damage + 20%. -->
+		<!-- Beast Soulshot damage + $s1. -->
 		<icon>icon.bm_jewel_ssdmg_high_lv1_lavianrose</icon>
 		<operateType>A1</operateType>
 		<targetType>SELF</targetType>
 	</skill>
 	<skill id="18717" toLevel="6" name="Greater Ruby">
-		<!-- P. Atk. + 9%. -->
+		<!-- Soulshot/Beast Soulshot Damage + $s1 -->
+		<icon>
+			<value level="1">icon.etc_bm_jewel_ruby_i00</value>
+			<value level="2">icon.etc_bm_jewel_ruby_i00</value>
+			<value level="3">icon.etc_bm_jewel_ruby_i00</value>
+			<value level="4">icon.etc_bm_jewel_ruby_i00</value>
+			<value level="5">icon.etc_bm_jewel_ruby_i00</value>
+			<value level="6">icon.bm_jewel_ssdmg_high_lv1_lavianrose</value>
+		</icon>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>1</magicLvl>
@@ -85,13 +273,21 @@
 		</effects>
 	</skill>
 	<skill id="18718" toLevel="2" name="Greater Sapphire">
-		<!-- Blessed Spiritshot Damage + 20%. -->
+		<!-- Spiritshot damage + $s1. -->
 		<icon>icon.bm_jewel_spsdmg_high_lv1_lavianrose</icon>
 		<operateType>A1</operateType>
 		<targetType>SELF</targetType>
 	</skill>
 	<skill id="18719" toLevel="6" name="Greater Sapphire">
-		<!-- M. Atk. + 13%. -->
+		<!-- Spiritshot/Blessed Spiritshot Damage + $s1. -->
+		<icon>
+			<value level="1">icon.etc_bm_jewel_sapphire_i00</value>
+			<value level="2">icon.etc_bm_jewel_sapphire_i00</value>
+			<value level="3">icon.etc_bm_jewel_sapphire_i00</value>
+			<value level="4">icon.etc_bm_jewel_sapphire_i00</value>
+			<value level="5">icon.etc_bm_jewel_sapphire_i00</value>
+			<value level="6">icon.bm_jewel_spsdmg_high_lv1_lavianrose</value>
+		</icon>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>1</magicLvl>
@@ -114,7 +310,6 @@
 		<reuseDelay>15000</reuseDelay>
 		<staticReuse>true</staticReuse>
 		<isTriggeredSkill>true</isTriggeredSkill>
-		<rideState>NONE</rideState>
 		<targetConditions>
 			<condition name="OpTargetPc" />
 		</targetConditions>
@@ -123,6 +318,7 @@
 		</effects>
 	</skill>
 	<skill id="18721" toLevel="1" name="Greater Garnet - Cancel Stun/Silence">
+		<!-- Cancels Stun/Silence. -->
 		<icon>icon.bm_jewel_garnet_high_lv1_lavianrose</icon>
 		<operateType>A2</operateType>
 		<abnormalTime>1</abnormalTime>
@@ -130,7 +326,6 @@
 		<reuseDelay>15000</reuseDelay>
 		<staticReuse>true</staticReuse>
 		<isTriggeredSkill>true</isTriggeredSkill>
-		<rideState>NONE</rideState>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<targetConditions>
@@ -145,13 +340,13 @@
 		</effects>
 	</skill>
 	<skill id="18722" toLevel="1" name="Greater Garnet - Cancel Debuffs">
+		<!-- Cancel all debuffs. -->
 		<icon>icon.bm_jewel_garnet_high_lv1_lavianrose</icon>
 		<operateType>A2</operateType>
 		<abnormalTime>7</abnormalTime>
 		<chance>100</chance>
 		<reuseDelay>15000</reuseDelay>
 		<staticReuse>true</staticReuse>
-		<rideState>NONE</rideState>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
@@ -164,13 +359,10 @@
 		</effects>
 	</skill>
 	<skill id="18723" toLevel="4" name="Ultimate Lv. 4 Jewelry Box">
-		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="18724" toLevel="2" name="Blue Cat's Eye Fortune Box">
-		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
-		<icon>icon.skill0000</icon>
+		<!-- Double-click to obtain 1 Red Cat's Eye Lv. 1-5. -->
 		<operateType>A1</operateType>
 	</skill>
 </list>

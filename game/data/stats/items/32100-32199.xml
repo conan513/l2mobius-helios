@@ -869,6 +869,7 @@
 	</item>
 	<item id="32152" name="Unidentified Knight's Sword*Elven Sword" type="EtcItem">
 		<!-- Knight's Sword*Elven Sword in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / dualsword) -->
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
@@ -877,7 +878,6 @@
 		<set name="crystal_type" val="D" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<createItems>
 			<item id="2548" count="1" chance="2" /> <!-- Knight's Sword*Elven Sword -->
 			<item id="31505" count="1" chance="98" /> <!-- Bound Knight's Sword*Elven Sword -->
@@ -1105,7 +1105,7 @@
 		</skills>
 	</item>
 	<item id="32166" name="Unidentified Grand Épée" type="EtcItem">
-		<!-- Kamael-exclusive weapon: Elven Long Sword conversion, Unidentified Grand Épée. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: one-handed weapon type: rapier) -->
+		<!-- Kamael-exclusive weapon: Elven Long Sword conversion, Unidentified Grand ?p?e. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: one-handed weapon type: rapier) -->
 		<set name="icon" val="icon.weapon_rapier_i00" />
 		<set name="crystal_type" val="D" />
 		<set name="commissionItemType" val="RAPIER" />
@@ -1113,8 +1113,8 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="price" val="201115" />
 		<createItems>
-			<item id="9225" count="1" chance="2" /> <!-- Grand Épée -->
-			<item id="31539" count="1" chance="98" /> <!-- Bound Grand Épée -->
+			<item id="9225" count="1" chance="2" /> <!-- Grand ?p?e -->
+			<item id="31539" count="1" chance="98" /> <!-- Bound Grand ?p?e -->
 		</createItems>
 		<skills>
 			<skill id="12775" level="1" /> <!-- Check Item -->

@@ -61,6 +61,12 @@ public final class PullBack extends AbstractEffect
 	@Override
 	public void instant(L2Character effector, L2Character effected, Skill skill, L2ItemInstance item)
 	{
+		// Prevent pulling NPCs.
+		if (!effected.isPlayable() && !effected.isMonster())
+		{
+			return;
+		}
+		
 		// In retail, you get debuff, but you are not even moved if there is obstacle. You are still disabled from using skills and moving though.
 		if (GeoEngine.getInstance().canMoveToTarget(effected.getX(), effected.getY(), effected.getZ(), effector.getX(), effector.getY(), effector.getZ(), effector.getInstanceWorld()))
 		{

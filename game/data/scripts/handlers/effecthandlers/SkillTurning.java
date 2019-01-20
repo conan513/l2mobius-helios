@@ -41,7 +41,7 @@ public final class SkillTurning extends AbstractEffect
 	@Override
 	public boolean calcSuccess(L2Character effector, L2Character effected, Skill skill)
 	{
-		return _staticChance ? Formulas.calcProbability(_chance, effector, effected, skill) : ((_chance >= 100) || (Rnd.get(100) < _chance));
+		return _staticChance ? Formulas.calcProbability(_chance, effector, effected, skill) : (Rnd.get(100) < _chance);
 	}
 	
 	@Override

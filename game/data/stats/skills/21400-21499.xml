@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
 	<skill id="21400" toLevel="1" name="Mysterious Lindvior Defense Dye">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- P. Def. and M. Def. + 20% when fighting Lindvior. -->
 		<icon>BranchSys3.icon1.g_premium_hena_boss_lindvior</icon>
 		<operateType>P</operateType>
@@ -24,7 +23,6 @@
 		<mpInitialConsume>14</mpInitialConsume>
 		<operateType>A2</operateType>
 		<reuseDelay>2000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>TARGET</targetType>
@@ -44,7 +42,6 @@
 		<abnormalType>RACE_HUMAN1</abnormalType>
 		<effectPoint>867</effectPoint>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<magicLvl>85</magicLvl>
 		<staticReuse>true</staticReuse>
@@ -74,7 +71,6 @@
 		<abnormalType>RACE_ELF1</abnormalType>
 		<effectPoint>867</effectPoint>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<magicLvl>85</magicLvl>
 		<staticReuse>true</staticReuse>
@@ -107,7 +103,6 @@
 		<abnormalType>RACE_DARKELF1</abnormalType>
 		<effectPoint>867</effectPoint>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<magicLvl>85</magicLvl>
 		<staticReuse>true</staticReuse>
@@ -140,7 +135,6 @@
 		<hitTime>200</hitTime>
 		<basicProperty>NONE</basicProperty>
 		<reuseDelay>600000</reuseDelay>
-		<rideState>NONE</rideState>
 		<hitCancelTime>0.2</hitCancelTime>
 		<staticReuse>true</staticReuse>
 		<targetType>SELF</targetType>
@@ -184,7 +178,6 @@
 		<hitTime>200</hitTime>
 		<basicProperty>NONE</basicProperty>
 		<reuseDelay>600000</reuseDelay>
-		<rideState>NONE</rideState>
 		<hitCancelTime>0.2</hitCancelTime>
 		<staticReuse>true</staticReuse>
 		<targetType>SELF</targetType>
@@ -205,7 +198,6 @@
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>60</abnormalTime>
 		<abnormalType>RACE_KAMAEL1</abnormalType>
-		<icon>icon.skill1925</icon>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>99</magicLvl>
 		<operateType>A2</operateType>
@@ -213,7 +205,6 @@
 		<effectPoint>2</effectPoint>
 		<basicProperty>NONE</basicProperty>
 		<reuseDelay>600000</reuseDelay>
-		<rideState>NONE</rideState>
 		<hitCancelTime>0.2</hitCancelTime>
 		<activateRate>0</activateRate>
 		<staticReuse>true</staticReuse>
@@ -226,39 +217,32 @@
 		</effects>
 	</skill>
 	<skill id="21408" toLevel="1" name="Mysterious Dye Cancellation">
-		<!-- AUTO GENERATED SKILL -->
-		<icon>icon.skill0000</icon>
 		<operateType>A2</operateType>
 	</skill>
 	<skill id="21409" toLevel="1" name="Release Agathion's Seal - Three-headed Dragon">
-		<!-- Updated to GRAND CRUSADE -->
 		<!-- Removes the Agathion's seal. -->
 		<icon>icon.etc_summon_aga_agit_i00</icon>
 		<operateType>A1</operateType>
 		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SummonAgathion">
-				<npcId>1575</npcId>
+				<npcId>1575</npcId> <!-- Three-headed Dragon -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="21410" toLevel="1" name="Cloak of the Chosen: Blessed Escape">
-		<!-- Updated to Helios -->
 		<!-- Can use Blessed Escape every hour. -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<magicLvl>1</magicLvl>
 		<hitTime>200</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<reuseDelay>600000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
@@ -273,17 +257,12 @@
 		</effects>
 	</skill>
 	<skill id="21411" toLevel="1" name="Halloween Outfit Appearance Stone">
-		<!-- AUTO GENERATED SKILL -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="21412" toLevel="1" name="Halloween Weapon Appearance Stone">
-		<!-- AUTO GENERATED SKILL -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="21413" toLevel="1" name="Mysterious Halloween Potion">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Mysterious potion that changes the appearance into that of a Halloween weapon and outfit for 1 hour. -->
 		<icon>icon.etc_whiteday_herb</icon>
 		<operateType>A2</operateType>
@@ -292,9 +271,8 @@
 		<isMagic>4</isMagic>
 	</skill>
 	<skill id="21414" toLevel="1" name="Halloween: Outfit">
-		<!-- Updated to GRAND CRUSADE -->
-		<!-- Decreases Damage by 3%, LUC +1, and all Attribute Resistance + 10. -->
-		<icon>[icon.ev_wp_halloween]</icon>
+		<!-- Decreases all Received Damage by 3%, LUC +1, and all Attribute Resistance + 10. -->
+		<icon>[icon.ev_wp_halloween</icon>
 		<operateType>P</operateType>
 		<effects>
 			<effect name="DamageByAttack">
@@ -333,9 +311,8 @@
 		</effects>
 	</skill>
 	<skill id="21415" toLevel="1" name="Halloween: Weapon">
-		<!-- Updated to GRAND CRUSADE -->
-		<!-- Increases Damage by 3%, LUC +1, and Attack Attribute + 30. -->
-		<icon>[icon.ev_wp_halloween]</icon>
+		<!-- Increases all Damage by 3%, LUC +1, and Attack Attribute + 30. -->
+		<icon>[icon.ev_wp_halloween</icon>
 		<operateType>P</operateType>
 		<effects>
 			<effect name="PvePhysicalAttackDamageBonus">
@@ -933,115 +910,97 @@
 		</effects>
 	</skill>
 	<skill id="21458" toLevel="1" name="Visual Enchant Stone">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Low-grade / Option 15. -->
 		<icon>icon.skill_agathion_special</icon>
 		<operateType>P</operateType>
 	</skill>
 	<skill id="21459" toLevel="1" name="Visual Enchant Stone">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Mid-grade / Option 15. -->
 		<icon>icon.skill_agathion_special</icon>
 		<operateType>P</operateType>
 	</skill>
 	<skill id="21460" toLevel="1" name="Visual Enchant Stone">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- High-grade / Option 15. -->
 		<icon>icon.skill_agathion_special</icon>
 		<operateType>P</operateType>
 	</skill>
 	<skill id="21461" toLevel="1" name="Visual Enchant Stone">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Low-grade / Option 16. -->
 		<icon>icon.skill_agathion_special</icon>
 		<operateType>P</operateType>
 	</skill>
 	<skill id="21462" toLevel="1" name="Visual Enchant Stone">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Mid-grade / Option 16. -->
 		<icon>icon.skill_agathion_special</icon>
 		<operateType>P</operateType>
 	</skill>
 	<skill id="21463" toLevel="1" name="Visual Enchant Stone">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- High-grade / Option 16. -->
 		<icon>icon.skill_agathion_special</icon>
 		<operateType>P</operateType>
 	</skill>
 	<skill id="21464" toLevel="1" name="Visual Enchant Stone">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Low-grade / Option 17. -->
 		<icon>icon.skill_agathion_special</icon>
 		<operateType>P</operateType>
 	</skill>
 	<skill id="21465" toLevel="1" name="Visual Enchant Stone">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Mid-grade / Option 17. -->
 		<icon>icon.skill_agathion_special</icon>
 		<operateType>P</operateType>
 	</skill>
 	<skill id="21466" toLevel="1" name="Visual Enchant Stone">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- High-grade / Option 17. -->
 		<icon>icon.skill_agathion_special</icon>
 		<operateType>P</operateType>
 	</skill>
 	<skill id="21467" toLevel="1" name="Visual Enchant Stone">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Low-grade / Option 18. -->
 		<icon>icon.skill_agathion_special</icon>
 		<operateType>P</operateType>
 	</skill>
 	<skill id="21468" toLevel="1" name="Visual Enchant Stone">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Mid-grade / Option 18. -->
 		<icon>icon.skill_agathion_special</icon>
 		<operateType>P</operateType>
 	</skill>
 	<skill id="21469" toLevel="1" name="Visual Enchant Stone">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- High-grade / Option 18. -->
 		<icon>icon.skill_agathion_special</icon>
 		<operateType>P</operateType>
 	</skill>
 	<skill id="21470" toLevel="1" name="Visual Enchant Stone">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Low-grade / Option 19. -->
 		<icon>icon.skill_agathion_special</icon>
 		<operateType>P</operateType>
 	</skill>
 	<skill id="21471" toLevel="1" name="Visual Enchant Stone">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Mid-grade / Option 19. -->
 		<icon>icon.skill_agathion_special</icon>
 		<operateType>P</operateType>
 	</skill>
 	<skill id="21472" toLevel="1" name="Visual Enchant Stone">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- High-grade / Option 19. -->
 		<icon>icon.skill_agathion_special</icon>
 		<operateType>P</operateType>
 	</skill>
 	<skill id="21473" toLevel="1" name="Visual Enchant Stone">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Low-grade / Option 20. -->
 		<icon>icon.skill_agathion_special</icon>
 		<operateType>P</operateType>
 	</skill>
 	<skill id="21474" toLevel="1" name="Visual Enchant Stone">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Mid-grade / Option 20. -->
 		<icon>icon.skill_agathion_special</icon>
 		<operateType>P</operateType>
 	</skill>
 	<skill id="21475" toLevel="1" name="Visual Enchant Stone">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- High-grade / Option 20. -->
 		<icon>icon.skill_agathion_special</icon>
 		<operateType>P</operateType>
 	</skill>
 	<skill id="21476" toLevel="1" name="Cloak of the Chosen">
-		<!-- STR/DEX/CON/INT/WIT/MEN +2. Received damage during PvP - 5%. -->
+		<!-- STR/DEX/CON/INT/WIT/MEN + 3. Received damage during PvP - 15%, Weight Limit + 25600, Inventory Slots + 36. -->
 		<icon>icon.vesper_cloack_i00</icon>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -1087,10 +1046,7 @@
 		</effects>
 	</skill>
 	<skill id="21477" toLevel="4" name="Power of Abundance - Lv. 1">
-		<!-- Level 1 : Increases P. Atk. + 15%, M. Atk. + 15%, Skill Power + 15%, Skill Critical Rate + 15% momentarily with the power of Talisman. -->
-		<!-- Level 2 : Increases P. Atk. + 16%, M. Atk. + 16%, Skill Power + 16%, Skill Critical Rate + 16% momentarily with the power of Talisman. -->
-		<!-- Level 3 : Increases P. Atk. + 17%, M. Atk. + 17%, Skill Power + 17%, Skill Critical Rate + 17% momentarily with the power of Talisman. -->
-		<!-- Level 4 : Increases P. Atk. + 20%, M. Atk. + 20%, Skill Power + 20%, Skill Critical Rate + 20% momentarily with the power of Talisman. -->
+		<!-- Increases P. Atk. + 15%, M. Atk. + 15%, Skill Power + 15%, Skill Critical Rate + 15% momentarily with the power of Talisman. -->
 		<icon>
 			<value level="1">BranchIcon.Icon.g_therich_i00</value>
 			<value level="2">BranchIcon.Icon.g_therich_i01</value>
@@ -1157,47 +1113,40 @@
 		</effects>
 	</skill>
 	<skill id="21478" toLevel="1" name="Release Agathion's Seal - Griffin">
-		<!-- AUTO GENERATED SKILL -->
+		<!-- Removes the Agathion's seal. -->
 		<icon>icon.etc_summon_aga_agit_i00</icon>
 		<operateType>A1</operateType>
 		<hitTime>3000</hitTime>
 	</skill>
 	<skill id="21479" toLevel="1" name="Three-headed Dragon Teleport - Town of Aden">
-		<!-- AUTO GENERATED SKILL -->
-		<icon>icon.skill0000</icon>
+		<!-- Teleport to the Town of Aden. Usable only when Agathion's Seal is released. -->
 		<operateType>A1</operateType>
 		<hitTime>3000</hitTime>
 		<reuseDelay>600000</reuseDelay>
 	</skill>
 	<skill id="21480" toLevel="1" name="Three-headed Dragon Teleport - Town of Rune">
-		<!-- AUTO GENERATED SKILL -->
-		<icon>icon.skill0000</icon>
+		<!-- Teleport to the Town of Rune. Usable only when Agathion's Seal is released. -->
 		<operateType>A1</operateType>
 		<hitTime>3000</hitTime>
 		<reuseDelay>600000</reuseDelay>
 	</skill>
 	<skill id="21481" toLevel="1" name="Three-headed Dragon Teleport - Town of Giran">
-		<!-- AUTO GENERATED SKILL -->
-		<icon>icon.skill0000</icon>
+		<!-- Teleport to the Town of Giran. Usable only when Agathion's Seal is released. -->
 		<operateType>A1</operateType>
 		<hitTime>3000</hitTime>
 		<reuseDelay>600000</reuseDelay>
 	</skill>
 	<skill id="21482" toLevel="1" name="Blessed Griffin Agathion's Egg">
-		<!-- AUTO GENERATED SKILL -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<hitTime>2700</hitTime>
 		<coolTime>1000</coolTime>
 		<reuseDelay>-1000</reuseDelay>
 	</skill>
 	<skill id="21483" toLevel="1" name="Blessed Griffin Egg">
-		<!-- AUTO GENERATED SKILL -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="21484" toLevel="1" name="Fancy Fishing Rod">
-		<!-- Increases XP/SP from fishing by 50%. -->
+		<!-- Increases XP/SP from fishing by $s1. -->
 		<icon>icon.weapon_fishing_rod_i04</icon>
 		<magicCriticalRate>5</magicCriticalRate>
 		<operateType>P</operateType>

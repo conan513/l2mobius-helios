@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/npcs.xsd">
 	<npc id="25001" level="23" type="L2RaidBoss" name="Greyclaw Kutus" title="Raid Boss">
 		<!-- Confirmed CT2.5 -->
@@ -22,11 +22,11 @@
 				<walk ground="50" />
 				<run ground="170" />
 			</speed>
-			<hit_time>630</hit_time>
+			<hitTime>630</hitTime>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4197" level="2" /> <!-- Hold -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
@@ -41,8 +41,8 @@
 			<skill id="4494" level="1" /> <!-- Raid Boss -->
 			<skill id="4790" level="1" /> <!-- Raid Boss - Level 23 -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
 		<collision>
 			<radius normal="21" />
@@ -66,11 +66,11 @@
 				<walk ground="50" />
 				<run ground="170" />
 			</speed>
-			<hit_time>460</hit_time>
+			<hitTime>460</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4191" level="2" /> <!-- BOSS Windstrike -->
 			<skill id="4198" level="2" /> <!-- Poison -->
@@ -83,8 +83,8 @@
 			<skill id="4414" level="3" /> <!-- Light Armor Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" />
 		<collision>
 			<radius normal="13.5" />
@@ -107,11 +107,11 @@
 				<walk ground="50" />
 				<run ground="170" />
 			</speed>
-			<hit_time>460</hit_time>
+			<hitTime>460</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -123,8 +123,8 @@
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="4727" level="2" /> <!-- Stun -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" />
 		<collision>
 			<radius normal="13.5" />
@@ -153,11 +153,11 @@
 				<walk ground="45" />
 				<run ground="170" />
 			</speed>
-			<hit_time>760</hit_time>
+			<hitTime>760</hitTime>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -172,10 +172,10 @@
 			<skill id="4739" level="3" /> <!-- BOSS Strike -->
 			<skill id="4791" level="1" /> <!-- Raid Boss - Level 30 -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="224" min="1" max="1" chance="0.3" /> <!-- Maingauche -->
 				<item id="1660" min="1" max="1" chance="0.3" /> <!-- Cursed Maingauche -->
@@ -183,10 +183,10 @@
 				<item id="2377" min="1" max="1" chance="2.98800000000003" /> <!-- Mithril Scale Gaiters -->
 				<item id="352" min="1" max="1" chance="1.868" /> <!-- Brigandine -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="50.09" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="24" grown="12" />
 			<height normal="47" grown="27.6" />
@@ -208,11 +208,11 @@
 				<walk ground="45" />
 				<run ground="170" />
 			</speed>
-			<hit_time>800</hit_time>
+			<hitTime>800</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -224,8 +224,8 @@
 			<skill id="4415" level="9" /> <!-- Bows -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="4754" level="2" /> <!-- BOSS Power Shot -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="ARCHER" clanHelpRange="300" dodge="15" />
 		<collision>
 			<radius normal="16" />
@@ -245,11 +245,11 @@
 				<walk ground="45" />
 				<run ground="170" />
 			</speed>
-			<hit_time>460</hit_time>
+			<hitTime>460</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -260,8 +260,8 @@
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" />
 		<collision>
 			<radius normal="15" grown="14" />
@@ -289,11 +289,11 @@
 				<walk ground="60" />
 				<run ground="170" />
 			</speed>
-			<hit_time>650</hit_time>
+			<hitTime>650</hitTime>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4178" level="4" /> <!-- BOSS Flamestrike -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
@@ -308,10 +308,10 @@
 			<skill id="4494" level="1" /> <!-- Raid Boss -->
 			<skill id="4792" level="1" /> <!-- Raid Boss - Level 42 -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="282" min="1" max="1" chance="0.3" /> <!-- Elemental Bow -->
 				<item id="285" min="1" max="1" chance="0.3" /> <!-- Noble Elven Bow -->
@@ -322,10 +322,10 @@
 				<item id="8176" min="1" max="2" chance="50.89072418265" /> <!-- Destruction Tombstone -->
 				<item id="9816" min="1" max="5" chance="49.10927581735" /> <!-- Earth Egg -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="61.17" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="27" />
 			<height normal="25.5" />
@@ -347,11 +347,11 @@
 				<walk ground="72" />
 				<run ground="170" />
 			</speed>
-			<hit_time>260</hit_time>
+			<hitTime>260</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4214" level="3" /> <!-- BOSS Reflect Damage -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
@@ -364,8 +364,8 @@
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4416" level="12" /> <!-- Bugs -->
 			<skill id="4780" level="3" /> <!-- BOSS Heal -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" />
 		<collision>
 			<radius normal="26" />
@@ -384,11 +384,11 @@
 				<walk ground="72" />
 				<run ground="170" />
 			</speed>
-			<hit_time>260</hit_time>
+			<hitTime>260</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -399,8 +399,8 @@
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4416" level="12" /> <!-- Bugs -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" />
 		<collision>
 			<radius normal="26" />
@@ -431,11 +431,11 @@
 				<walk ground="40" />
 				<run ground="170" />
 			</speed>
-			<hit_time>170</hit_time>
+			<hitTime>170</hitTime>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4188" level="5" /> <!-- Bleed -->
 			<skill id="4190" level="5" /> <!-- Decrease MP -->
@@ -454,8 +454,8 @@
 			<skill id="4278" level="1" /> <!-- Dark Attack -->
 			<skill id="4794" level="1" /> <!-- Raid Boss - Level 50 -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
 		<collision>
 			<radius normal="15" />
@@ -478,11 +478,11 @@
 				<walk ground="60" />
 				<run ground="170" />
 			</speed>
-			<hit_time>300</hit_time>
+			<hitTime>300</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -496,8 +496,8 @@
 			<skill id="4275" level="2" /> <!-- Holy Attack Vulnerability -->
 			<skill id="4278" level="1" /> <!-- Dark Attack -->
 			<skill id="4720" level="4" /> <!-- BOSS Strike -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
 		<collision>
 			<radius normal="11" grown="13" />
@@ -517,11 +517,11 @@
 				<walk ground="40" />
 				<run ground="170" />
 			</speed>
-			<hit_time>800</hit_time>
+			<hitTime>800</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -534,8 +534,8 @@
 			<skill id="4275" level="2" /> <!-- Holy Attack Vulnerability -->
 			<skill id="4278" level="1" /> <!-- Dark Attack -->
 			<skill id="4416" level="1" /> <!-- Undead -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="ARCHER" clanHelpRange="300" dodge="15" />
 		<collision>
 			<radius normal="11" />
@@ -563,11 +563,11 @@
 				<walk ground="27" />
 				<run ground="150" />
 			</speed>
-			<hit_time>430</hit_time>
+			<hitTime>430</hitTime>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4178" level="6" /> <!-- BOSS Flamestrike -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
@@ -582,10 +582,10 @@
 			<skill id="4494" level="1" /> <!-- Raid Boss -->
 			<skill id="4795" level="1" /> <!-- Raid Boss - Level 60 -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="268" min="1" max="1" chance="2.723" /> <!-- Bellion Cestus -->
 				<item id="2487" min="1" max="1" chance="8.86700000000005" /> <!-- Sealed Blue Wolf Gloves -->
@@ -594,15 +594,15 @@
 				<item id="2475" min="1" max="1" chance="1.33000000000001" /> <!-- Sealed Doom Gloves -->
 				<item id="8176" min="1" max="3" chance="40.823252285703" /> <!-- Destruction Tombstone -->
 				<item id="9817" min="2" max="7" chance="36.985467321436" /> <!-- Nonliving Nucleus -->
-				<item id="4620" min="1" max="1" chance="8.1945941629736" /> <!-- Greater INT Dye (Int + 4 Wit - 4) -->
-				<item id="4621" min="1" max="1" chance="7.7703916636723" /> <!-- Greater MEN Dye (Men + 4 Int - 4) -->
-				<item id="4619" min="1" max="3" chance="3.9241226494191" /> <!-- Greater INT Dye (Int + 4 Men - 4) -->
+				<item id="4620" min="1" max="1" chance="8.1945941629736" /> <!-- Greater INT Dye <Int + 4 Wit - 4> -->
+				<item id="4621" min="1" max="1" chance="7.7703916636723" /> <!-- Greater MEN Dye <Men + 4 Int - 4> -->
+				<item id="4619" min="1" max="3" chance="3.9241226494191" /> <!-- Greater INT Dye <Int + 4 Men - 4> -->
 				<item id="947" min="1" max="1" chance="2.3021719167964" /> <!-- Scroll: Enchant Weapon (B-grade) -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="81.65" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="40" />
 			<height normal="73" />
@@ -624,11 +624,11 @@
 				<walk ground="80" />
 				<run ground="170" />
 			</speed>
-			<hit_time>100</hit_time>
+			<hitTime>100</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4213" level="5" /> <!-- BOSS Haste -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
@@ -641,8 +641,8 @@
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4416" level="2" /> <!-- Magic Creatures -->
 			<skill id="4784" level="5" /> <!-- BOSS Chant of Life -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
 		<collision>
 			<radius normal="13" />
@@ -661,11 +661,11 @@
 				<walk ground="80" />
 				<run ground="170" />
 			</speed>
-			<hit_time>100</hit_time>
+			<hitTime>100</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -676,8 +676,8 @@
 			<skill id="4414" level="3" /> <!-- Light Armor Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4416" level="2" /> <!-- Magic Creatures -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
 		<collision>
 			<radius normal="13" />
@@ -705,11 +705,11 @@
 				<walk ground="45" />
 				<run ground="170" />
 			</speed>
-			<hit_time>580</hit_time>
+			<hitTime>580</hitTime>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4172" level="2" /> <!-- Stun -->
 			<skill id="4175" level="2" /> <!-- BOSS Haste -->
@@ -727,10 +727,10 @@
 			<skill id="4732" level="2" /> <!-- BOSS Mortal Blow -->
 			<skill id="4796" level="1" /> <!-- Raid Boss - Level 25 -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="316" min="1" max="1" chance="1.19000000000001" /> <!-- Sage's Blood -->
 				<item id="317" min="1" max="1" chance="1.14399999999999" /> <!-- Tome of Blood -->
@@ -739,10 +739,10 @@
 				<item id="394" min="1" max="1" chance="7.51799999999994" /> <!-- Reinforced Leather Shirt -->
 				<item id="393" min="1" max="1" chance="7.447" /> <!-- Mithril Banded Mail -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="40.61" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="42" />
 			<height normal="73" />
@@ -770,11 +770,11 @@
 				<walk ground="50" />
 				<run ground="170" />
 			</speed>
-			<hit_time>300</hit_time>
+			<hitTime>300</hitTime>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4178" level="3" /> <!-- BOSS Flamestrike -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
@@ -789,10 +789,10 @@
 			<skill id="4494" level="1" /> <!-- Raid Boss -->
 			<skill id="4797" level="1" /> <!-- Raid Boss - Level 34 -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="187" min="1" max="1" chance="1.7776776186278" /> <!-- Atuba Hammer -->
 				<item id="189" min="1" max="1" chance="1.7577930815067" /> <!-- Staff of Life -->
@@ -808,10 +808,10 @@
 				<item id="1952" min="27" max="81" chance="10.6999999999999" /> <!-- Salamander Skin Mail Texture -->
 				<item id="6574" min="1" max="1" chance="8.47700000000007" /> <!-- Blessed Scroll: Enchant Armor (C-grade) -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="50.55" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="22" />
 			<height normal="35" />
@@ -833,11 +833,11 @@
 				<walk ground="80" />
 				<run ground="170" />
 			</speed>
-			<hit_time>540</hit_time>
+			<hitTime>540</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4211" level="3" /> <!-- BOSS Might -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
@@ -852,8 +852,8 @@
 			<skill id="4278" level="1" /> <!-- Dark Attack -->
 			<skill id="4333" level="5" /> <!-- Dark Attack Resistance -->
 			<skill id="4786" level="3" /> <!-- BOSS Chant of Life -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" />
 		<collision>
 			<radius normal="8" />
@@ -872,11 +872,11 @@
 				<walk ground="80" />
 				<run ground="170" />
 			</speed>
-			<hit_time>540</hit_time>
+			<hitTime>540</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -889,8 +889,8 @@
 			<skill id="4278" level="1" /> <!-- Dark Attack -->
 			<skill id="4333" level="5" /> <!-- Dark Attack Resistance -->
 			<skill id="4416" level="9" /> <!-- Demons -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" />
 		<collision>
 			<radius normal="10" />
@@ -921,11 +921,11 @@
 				<walk ground="50" />
 				<run ground="170" />
 			</speed>
-			<hit_time>410</hit_time>
+			<hitTime>410</hitTime>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4183" level="3" /> <!-- Decrease P. Atk. -->
 			<skill id="4188" level="3" /> <!-- Bleed -->
@@ -942,20 +942,20 @@
 			<skill id="4494" level="1" /> <!-- Raid Boss -->
 			<skill id="4798" level="1" /> <!-- Raid Boss - Level 34 -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="262" min="1" max="1" chance="2.58" /> <!-- Scallop Jamadhr -->
 				<item id="380" min="1" max="1" chance="2.12" /> <!-- Plate Gaiters -->
 				<item id="353" min="1" max="1" chance="4.772" /> <!-- Half Plate Armor -->
 				<item id="951" min="1" max="1" chance="41.04" /> <!-- Scroll: Enchant Weapon (C-grade) -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="50" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="30" />
 			<height normal="76" />
@@ -977,11 +977,11 @@
 				<walk ground="80" />
 				<run ground="170" />
 			</speed>
-			<hit_time>390</hit_time>
+			<hitTime>390</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -993,8 +993,8 @@
 			<skill id="4415" level="7" /> <!-- Daggers -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="4730" level="3" /> <!-- BOSS Mortal Blow -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
 		<collision>
 			<radius normal="9" grown="11" />
@@ -1014,11 +1014,11 @@
 				<walk ground="30" />
 				<run ground="170" />
 			</speed>
-			<hit_time>740</hit_time>
+			<hitTime>740</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -1029,8 +1029,8 @@
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" />
 		<collision>
 			<radius normal="10" grown="18" />
@@ -1059,11 +1059,11 @@
 				<walk ground="33" />
 				<run ground="170" />
 			</speed>
-			<hit_time>480</hit_time>
+			<hitTime>480</hitTime>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -1078,10 +1078,10 @@
 			<skill id="4746" level="4" /> <!-- Stun -->
 			<skill id="4799" level="1" /> <!-- Raid Boss - Level 49 -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="286" min="1" max="1" chance="3.84" /> <!-- Eminence Bow -->
 				<item id="886" min="1" max="1" chance="8.23899999999996" /> <!-- Ring of Seal -->
@@ -1089,15 +1089,15 @@
 				<item id="119" min="1" max="1" chance="1.52000000000001" /> <!-- Necklace of Seal -->
 				<item id="9814" min="1" max="3" chance="41.332900171718" /> <!-- Memento Mori -->
 				<item id="8176" min="1" max="1" chance="40.107671601615" /> <!-- Destruction Tombstone -->
-				<item id="4609" min="1" max="1" chance="6.3581937160626" /> <!-- Greater MEN Dye (Men + 3 Int - 3) -->
-				<item id="4608" min="1" max="1" chance="6.0426045389149" /> <!-- Greater INT Dye (Int + 3 Wit - 3) -->
-				<item id="4607" min="1" max="1" chance="6.01939945236" /> <!-- Greater INT Dye (Int + 3 Men - 3) -->
+				<item id="4609" min="1" max="1" chance="6.3581937160626" /> <!-- Greater MEN Dye <Men + 3 Int - 3> -->
+				<item id="4608" min="1" max="1" chance="6.0426045389149" /> <!-- Greater INT Dye <Int + 3 Wit - 3> -->
+				<item id="4607" min="1" max="1" chance="6.01939945236" /> <!-- Greater INT Dye <Int + 3 Men - 3> -->
 				<item id="6573" min="1" max="1" chance="0.13923051932984" /> <!-- Blessed Scroll: Enchant Weapon (C-grade) -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="59.87" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="12" />
 			<height normal="24" />
@@ -1119,11 +1119,11 @@
 				<walk ground="45" />
 				<run ground="170" />
 			</speed>
-			<hit_time>910</hit_time>
+			<hitTime>910</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -1135,8 +1135,8 @@
 			<skill id="4415" level="9" /> <!-- Bows -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="4761" level="4" /> <!-- Stun -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="ARCHER" clanHelpRange="300" dodge="15" />
 		<collision>
 			<radius normal="12" />
@@ -1156,11 +1156,11 @@
 				<walk ground="36" />
 				<run ground="170" />
 			</speed>
-			<hit_time>540</hit_time>
+			<hitTime>540</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -1171,8 +1171,8 @@
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" />
 		<collision>
 			<radius normal="12" grown="14" />
@@ -1200,11 +1200,11 @@
 				<walk ground="70" />
 				<run ground="170" />
 			</speed>
-			<hit_time>410</hit_time>
+			<hitTime>410</hitTime>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4178" level="5" /> <!-- BOSS Flamestrike -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
@@ -1219,10 +1219,10 @@
 			<skill id="4494" level="1" /> <!-- Raid Boss -->
 			<skill id="4800" level="1" /> <!-- Raid Boss - Level 53 -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="633" min="1" max="1" chance="5.20300000000004" /> <!-- Zubei's Shield -->
 				<item id="284" min="1" max="1" chance="3.85200000000003" /> <!-- Dark Elven Longbow -->
@@ -1231,15 +1231,15 @@
 				<item id="2415" min="1" max="1" chance="0.750000000000004" /> <!-- Avadon Circlet -->
 				<item id="9817" min="2" max="6" chance="38.068718324244" /> <!-- Nonliving Nucleus -->
 				<item id="8176" min="1" max="3" chance="37.933825371437" /> <!-- Destruction Tombstone -->
-				<item id="4614" min="1" max="1" chance="7.3757539552541" /> <!-- Greater STR Dye (STR + 4 DEX - 4) -->
-				<item id="4615" min="1" max="1" chance="7.3661187443393" /> <!-- Greater CON Dye (Con + 4 Str - 4) -->
-				<item id="4613" min="1" max="1" chance="7.1204208660128" /> <!-- Greater STR Dye (STR + 4 CON - 4) -->
+				<item id="4614" min="1" max="1" chance="7.3757539552541" /> <!-- Greater STR Dye <STR + 4 DEX - 4> -->
+				<item id="4615" min="1" max="1" chance="7.3661187443393" /> <!-- Greater CON Dye <Con + 4 Str - 4> -->
+				<item id="4613" min="1" max="1" chance="7.1204208660128" /> <!-- Greater STR Dye <STR + 4 CON - 4> -->
 				<item id="947" min="1" max="1" chance="2.1351627387124" /> <!-- Scroll: Enchant Weapon (B-grade) -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="68.79" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="45" />
 			<height normal="96" />
@@ -1261,11 +1261,11 @@
 				<walk ground="80" />
 				<run ground="170" />
 			</speed>
-			<hit_time>100</hit_time>
+			<hitTime>100</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4212" level="5" /> <!-- BOSS Shield -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
@@ -1278,8 +1278,8 @@
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4416" level="2" /> <!-- Magic Creatures -->
 			<skill id="4784" level="5" /> <!-- BOSS Chant of Life -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
 		<collision>
 			<radius normal="13" />
@@ -1298,11 +1298,11 @@
 				<walk ground="80" />
 				<run ground="170" />
 			</speed>
-			<hit_time>340</hit_time>
+			<hitTime>340</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -1313,8 +1313,8 @@
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4416" level="2" /> <!-- Magic Creatures -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
 		<collision>
 			<radius normal="15" />
@@ -1343,11 +1343,11 @@
 				<walk ground="80" />
 				<run ground="170" />
 			</speed>
-			<hit_time>560</hit_time>
+			<hitTime>560</hitTime>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4197" level="5" /> <!-- Hold -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
@@ -1364,10 +1364,10 @@
 			<skill id="4333" level="5" /> <!-- Dark Attack Resistance -->
 			<skill id="4801" level="1" /> <!-- Raid Boss - Level 58 -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="288" min="1" max="1" chance="1.12999999999999" /> <!-- Carnage Bow -->
 				<item id="5535" min="3" max="9" chance="28.25" /> <!-- Carnage Bow Shaft -->
@@ -1382,10 +1382,10 @@
 				<item id="6570" min="1" max="1" chance="1.5031210389113" /> <!-- Blessed Scroll: Enchant Armor (A-grade) -->
 				<item id="729" min="1" max="1" chance="1.4756176308803" /> <!-- Scroll: Enchant Weapon (A-grade) -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="69.09" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="13.5" />
 			<height normal="38" />
@@ -1408,11 +1408,11 @@
 				<walk ground="29" />
 				<run ground="170" />
 			</speed>
-			<hit_time>220</hit_time>
+			<hitTime>220</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4193" level="5" /> <!-- BOSS Life Drain -->
 			<skill id="4199" level="5" /> <!-- Decrease P. Atk. -->
@@ -1425,8 +1425,8 @@
 			<skill id="4414" level="3" /> <!-- Light Armor Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
 		<collision>
 			<radius normal="13" />
@@ -1449,11 +1449,11 @@
 				<walk ground="80" />
 				<run ground="170" />
 			</speed>
-			<hit_time>520</hit_time>
+			<hitTime>520</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4170" level="5" /> <!-- BOSS Mortal Blow -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
@@ -1467,8 +1467,8 @@
 			<skill id="4275" level="2" /> <!-- Holy Attack Vulnerability -->
 			<skill id="4278" level="1" /> <!-- Dark Attack -->
 			<skill id="4416" level="1" /> <!-- Undead -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
 		<collision>
 			<radius normal="11" />
@@ -1497,11 +1497,11 @@
 				<walk ground="70" />
 				<run ground="170" />
 			</speed>
-			<hit_time>740</hit_time>
+			<hitTime>740</hitTime>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4180" level="7" /> <!-- Stun -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
@@ -1518,8 +1518,8 @@
 			<skill id="4333" level="5" /> <!-- Dark Attack Resistance -->
 			<skill id="4802" level="1" /> <!-- Raid Boss - Level 70 -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
 		<collision>
 			<radius normal="18" />
@@ -1542,11 +1542,11 @@
 				<walk ground="40" />
 				<run ground="170" />
 			</speed>
-			<hit_time>800</hit_time>
+			<hitTime>800</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4208" level="6" /> <!-- Stun -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
@@ -1560,8 +1560,8 @@
 			<skill id="4275" level="2" /> <!-- Holy Attack Vulnerability -->
 			<skill id="4278" level="1" /> <!-- Dark Attack -->
 			<skill id="4416" level="1" /> <!-- Undead -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="ARCHER" clanHelpRange="300" dodge="15" />
 		<collision>
 			<radius normal="11" />
@@ -1581,11 +1581,11 @@
 				<walk ground="22" />
 				<run ground="170" />
 			</speed>
-			<hit_time>500</hit_time>
+			<hitTime>500</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -1598,8 +1598,8 @@
 			<skill id="4278" level="1" /> <!-- Dark Attack -->
 			<skill id="4333" level="5" /> <!-- Dark Attack Resistance -->
 			<skill id="4416" level="9" /> <!-- Demons -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
 		<collision>
 			<radius normal="6" />
@@ -1629,11 +1629,11 @@
 				<walk ground="80" />
 				<run ground="170" />
 			</speed>
-			<hit_time>350</hit_time>
+			<hitTime>350</hitTime>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4182" level="2" /> <!-- Poison -->
 			<skill id="4186" level="2" /> <!-- Hold -->
@@ -1652,10 +1652,10 @@
 			<skill id="4333" level="5" /> <!-- Dark Attack Resistance -->
 			<skill id="4803" level="1" /> <!-- Raid Boss - Level 28 -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="127" min="1" max="1" chance="8.29300000000007" /> <!-- Crimson Sword -->
 				<item id="130" min="1" max="1" chance="8.205" /> <!-- Elven Sword -->
@@ -1665,10 +1665,10 @@
 				<item id="880" min="1" max="1" chance="2.30900000000003" /> <!-- Black Pearl Ring -->
 				<item id="955" min="1" max="1" chance="48.34" /> <!-- Scroll: Enchant Weapon (D-grade) -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="40.37" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="28" />
 			<height normal="75" />
@@ -1690,11 +1690,11 @@
 				<walk ground="60" />
 				<run ground="170" />
 			</speed>
-			<hit_time>300</hit_time>
+			<hitTime>300</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -1708,8 +1708,8 @@
 			<skill id="4275" level="2" /> <!-- Holy Attack Vulnerability -->
 			<skill id="4278" level="1" /> <!-- Dark Attack -->
 			<skill id="4732" level="2" /> <!-- BOSS Mortal Blow -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" />
 		<collision>
 			<radius normal="11" grown="13" />
@@ -1729,11 +1729,11 @@
 				<walk ground="60" />
 				<run ground="170" />
 			</speed>
-			<hit_time>300</hit_time>
+			<hitTime>300</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -1746,8 +1746,8 @@
 			<skill id="4275" level="2" /> <!-- Holy Attack Vulnerability -->
 			<skill id="4278" level="1" /> <!-- Dark Attack -->
 			<skill id="4416" level="1" /> <!-- Undead -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" />
 		<collision>
 			<radius normal="11" grown="13" />
@@ -1776,11 +1776,11 @@
 				<walk ground="50" />
 				<run ground="170" />
 			</speed>
-			<hit_time>410</hit_time>
+			<hitTime>410</hitTime>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -1795,10 +1795,10 @@
 			<skill id="4752" level="3" /> <!-- BOSS Mortal Blow -->
 			<skill id="4804" level="1" /> <!-- Raid Boss - Level 35 -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="262" min="1" max="1" chance="4.768" /> <!-- Scallop Jamadhr -->
 				<item id="1125" min="1" max="1" chance="21.9799999999998" /> <!-- Assault Boots -->
@@ -1809,10 +1809,10 @@
 				<item id="607" min="1" max="1" chance="3.25400000000002" /> <!-- Ogre Power Gauntlets -->
 				<item id="6574" min="1" max="1" chance="8.792" /> <!-- Blessed Scroll: Enchant Armor (C-grade) -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="51.02" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="30" />
 			<height normal="76" />
@@ -1834,11 +1834,11 @@
 				<walk ground="45" />
 				<run ground="170" />
 			</speed>
-			<hit_time>960</hit_time>
+			<hitTime>960</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -1850,8 +1850,8 @@
 			<skill id="4415" level="9" /> <!-- Bows -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="4757" level="3" /> <!-- BOSS Power Shot -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="ARCHER" clanHelpRange="300" dodge="15" />
 		<collision>
 			<radius normal="11" />
@@ -1871,11 +1871,11 @@
 				<walk ground="21" />
 				<run ground="170" />
 			</speed>
-			<hit_time>740</hit_time>
+			<hitTime>740</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -1886,8 +1886,8 @@
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" />
 		<collision>
 			<radius normal="10" />
@@ -1916,11 +1916,11 @@
 				<walk ground="40" />
 				<run ground="170" />
 			</speed>
-			<hit_time>170</hit_time>
+			<hitTime>170</hitTime>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4178" level="4" /> <!-- BOSS Flamestrike -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
@@ -1937,10 +1937,10 @@
 			<skill id="4278" level="1" /> <!-- Dark Attack -->
 			<skill id="4805" level="1" /> <!-- Raid Boss - Level 47 -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="228" min="1" max="1" chance="1.754" /> <!-- Crystal Dagger -->
 				<item id="2460" min="1" max="1" chance="13.7099999999999" /> <!-- Theca Leather Gloves -->
@@ -1952,14 +1952,14 @@
 				<item id="2436" min="1" max="1" chance="2.16400000000002" /> <!-- Theca Leather Boots -->
 				<item id="8176" min="1" max="1" chance="39.861509073543" /> <!-- Destruction Tombstone -->
 				<item id="9814" min="1" max="3" chance="37.053486150907" /> <!-- Memento Mori -->
-				<item id="4604" min="1" max="1" chance="7.7172874880611" /> <!-- Greater CON Dye (Con + 3 DEX - 3) -->
-				<item id="4606" min="1" max="1" chance="7.7172874880611" /> <!-- Greater DEX Dye (Dex + 3 CON - 3) -->
-				<item id="4605" min="1" max="1" chance="7.6504297994269" /> <!-- Greater DEX Dye (Dex + 3 Str - 3) -->
+				<item id="4604" min="1" max="1" chance="7.7172874880611" /> <!-- Greater CON Dye <Con + 3 DEX - 3> -->
+				<item id="4606" min="1" max="1" chance="7.7172874880611" /> <!-- Greater DEX Dye <Dex + 3 CON - 3> -->
+				<item id="4605" min="1" max="1" chance="7.6504297994269" /> <!-- Greater DEX Dye <Dex + 3 Str - 3> -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="59.02" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="15" />
 			<height normal="39" />
@@ -1982,11 +1982,11 @@
 				<walk ground="50" />
 				<run ground="120" />
 			</speed>
-			<hit_time>300</hit_time>
+			<hitTime>300</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4213" level="4" /> <!-- BOSS Haste -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
@@ -1999,8 +1999,8 @@
 			<skill id="4415" level="5" /> <!-- Blunt Weapons -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="4781" level="4" /> <!-- BOSS Heal -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
 		<collision>
 			<radius normal="11" />
@@ -2020,11 +2020,11 @@
 				<walk ground="60" />
 				<run ground="170" />
 			</speed>
-			<hit_time>300</hit_time>
+			<hitTime>300</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -2037,8 +2037,8 @@
 			<skill id="4275" level="2" /> <!-- Holy Attack Vulnerability -->
 			<skill id="4278" level="1" /> <!-- Dark Attack -->
 			<skill id="4416" level="1" /> <!-- Undead -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" />
 		<collision>
 			<radius normal="11" grown="13" />
@@ -2069,11 +2069,11 @@
 				<walk ground="27" />
 				<run ground="170" />
 			</speed>
-			<hit_time>710</hit_time>
+			<hitTime>710</hitTime>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4188" level="4" /> <!-- Bleed -->
 			<skill id="4190" level="4" /> <!-- Decrease MP -->
@@ -2092,10 +2092,10 @@
 			<skill id="4278" level="1" /> <!-- Dark Attack -->
 			<skill id="4806" level="1" /> <!-- Raid Boss - Level 49 -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="228" min="1" max="1" chance="1.948" /> <!-- Crystal Dagger -->
 				<item id="2460" min="1" max="1" chance="14.6299999999998" /> <!-- Theca Leather Gloves -->
@@ -2107,15 +2107,15 @@
 				<item id="2436" min="1" max="1" chance="2.33100000000001" /> <!-- Theca Leather Boots -->
 				<item id="8176" min="1" max="1" chance="40.90720699977" /> <!-- Destruction Tombstone -->
 				<item id="9814" min="1" max="3" chance="39.253971908819" /> <!-- Memento Mori -->
-				<item id="4610" min="1" max="1" chance="6.3458438867143" /> <!-- Greater MEN Dye (Men + 3 Wit - 3) -->
-				<item id="4611" min="1" max="1" chance="6.0234860695372" /> <!-- Greater WIT Dye (Wit + 3 Int - 3) -->
-				<item id="4612" min="1" max="1" chance="5.8715173842966" /> <!-- Greater WIT Dye (Wit + 3 Men - 3) -->
+				<item id="4610" min="1" max="1" chance="6.3458438867143" /> <!-- Greater MEN Dye <Men + 3 Wit - 3> -->
+				<item id="4611" min="1" max="1" chance="6.0234860695372" /> <!-- Greater WIT Dye <Wit + 3 Int - 3> -->
+				<item id="4612" min="1" max="1" chance="5.8715173842966" /> <!-- Greater WIT Dye <Wit + 3 Men - 3> -->
 				<item id="6574" min="1" max="1" chance="1.5979737508635" /> <!-- Blessed Scroll: Enchant Armor (C-grade) -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="60.24" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="18" />
 			<height normal="47.5" />
@@ -2137,11 +2137,11 @@
 				<walk ground="40" />
 				<run ground="170" />
 			</speed>
-			<hit_time>170</hit_time>
+			<hitTime>170</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -2155,8 +2155,8 @@
 			<skill id="4275" level="2" /> <!-- Holy Attack Vulnerability -->
 			<skill id="4278" level="1" /> <!-- Dark Attack -->
 			<skill id="4722" level="4" /> <!-- BOSS Strike -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" />
 		<collision>
 			<radius normal="10" />
@@ -2176,11 +2176,11 @@
 				<walk ground="60" />
 				<run ground="170" />
 			</speed>
-			<hit_time>300</hit_time>
+			<hitTime>300</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -2193,8 +2193,8 @@
 			<skill id="4275" level="2" /> <!-- Holy Attack Vulnerability -->
 			<skill id="4278" level="1" /> <!-- Dark Attack -->
 			<skill id="4416" level="1" /> <!-- Undead -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" />
 		<collision>
 			<radius normal="11" grown="13" />
@@ -2222,11 +2222,11 @@
 				<walk ground="100" />
 				<run ground="170" />
 			</speed>
-			<hit_time>450</hit_time>
+			<hitTime>450</hitTime>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4172" level="5" /> <!-- Stun -->
 			<skill id="4176" level="5" /> <!-- BOSS Reflect Damage -->
@@ -2246,10 +2246,10 @@
 			<skill id="4278" level="1" /> <!-- Dark Attack -->
 			<skill id="4807" level="1" /> <!-- Raid Boss - Level 51 -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="300" min="1" max="1" chance="2.62" /> <!-- Great Axe -->
 				<item id="2390" min="1" max="1" chance="9.07499999999993" /> <!-- Avadon Leather Armor -->
@@ -2257,15 +2257,15 @@
 				<item id="2388" min="1" max="1" chance="2.97799999999998" /> <!-- Zubei's Leather Gaiters -->
 				<item id="9814" min="1" max="3" chance="40.794328593342" /> <!-- Memento Mori -->
 				<item id="8176" min="1" max="1" chance="39.214331449313" /> <!-- Destruction Tombstone -->
-				<item id="4610" min="1" max="1" chance="6.2969565477753" /> <!-- Greater MEN Dye (Men + 3 Wit - 3) -->
-				<item id="4611" min="1" max="1" chance="6.1495515664082" /> <!-- Greater WIT Dye (Wit + 3 Int - 3) -->
-				<item id="4612" min="1" max="1" chance="5.9745081510348" /> <!-- Greater WIT Dye (Wit + 3 Men - 3) -->
+				<item id="4610" min="1" max="1" chance="6.2969565477753" /> <!-- Greater MEN Dye <Men + 3 Wit - 3> -->
+				<item id="4611" min="1" max="1" chance="6.1495515664082" /> <!-- Greater WIT Dye <Wit + 3 Int - 3> -->
+				<item id="4612" min="1" max="1" chance="5.9745081510348" /> <!-- Greater WIT Dye <Wit + 3 Men - 3> -->
 				<item id="6574" min="1" max="1" chance="1.5703236921263" /> <!-- Blessed Scroll: Enchant Armor (C-grade) -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="71.52" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="45" />
 			<height normal="141" />
@@ -2295,7 +2295,7 @@
 			<abnormalResist physical="230" magical="230" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4178" level="6" /> <!-- BOSS Flamestrike -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
@@ -2312,10 +2312,10 @@
 			<skill id="4333" level="5" /> <!-- Dark Attack Resistance -->
 			<skill id="4808" level="1" /> <!-- Raid Boss - Level 65 -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="235" min="1" max="1" chance="1.496" /> <!-- Bloody Orchid -->
 				<item id="5536" min="3" max="9" chance="41.2199999999999" /> <!-- Bloody Orchid Head -->
@@ -2331,10 +2331,10 @@
 				<item id="729" min="1" max="1" chance="1.1559744224376" /> <!-- Scroll: Enchant Weapon (A-grade) -->
 				<item id="6569" min="1" max="1" chance="0.16991294793301" /> <!-- Blessed Scroll: Enchant Weapon (A-grade) -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="79.07" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="11" />
 			<height normal="34" />
@@ -2356,11 +2356,11 @@
 				<walk ground="50" />
 				<run ground="170" />
 			</speed>
-			<hit_time>520</hit_time>
+			<hitTime>520</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4213" level="6" /> <!-- BOSS Haste -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
@@ -2373,8 +2373,8 @@
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4416" level="3" /> <!-- Beasts -->
 			<skill id="4785" level="6" /> <!-- BOSS Chant of Life -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
 		<collision>
 			<radius normal="10" />
@@ -2393,11 +2393,11 @@
 				<walk ground="60" />
 				<run ground="170" />
 			</speed>
-			<hit_time>650</hit_time>
+			<hitTime>650</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -2408,8 +2408,8 @@
 			<skill id="4414" level="3" /> <!-- Light Armor Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4416" level="3" /> <!-- Beasts -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
 		<collision>
 			<radius normal="10" />
@@ -2439,11 +2439,11 @@
 				<walk ground="37" />
 				<run ground="170" />
 			</speed>
-			<hit_time>450</hit_time>
+			<hitTime>450</hitTime>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4182" level="8" /> <!-- Poison -->
 			<skill id="4190" level="8" /> <!-- Decrease MP -->
@@ -2462,8 +2462,8 @@
 			<skill id="4333" level="5" /> <!-- Dark Attack Resistance -->
 			<skill id="4809" level="1" /> <!-- Raid Boss - Level 75 -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
 		<collision>
 			<radius normal="24" grown="29" />
@@ -2486,11 +2486,11 @@
 				<walk ground="100" />
 				<run ground="170" />
 			</speed>
-			<hit_time>450</hit_time>
+			<hitTime>450</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4168" level="7" /> <!-- BOSS Strike -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
@@ -2504,8 +2504,8 @@
 			<skill id="4275" level="2" /> <!-- Holy Attack Vulnerability -->
 			<skill id="4278" level="1" /> <!-- Dark Attack -->
 			<skill id="4416" level="1" /> <!-- Undead -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
 		<collision>
 			<radius normal="15" grown="25" />
@@ -2525,11 +2525,11 @@
 				<walk ground="27" />
 				<run ground="170" />
 			</speed>
-			<hit_time>710</hit_time>
+			<hitTime>710</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -2542,8 +2542,8 @@
 			<skill id="4275" level="2" /> <!-- Holy Attack Vulnerability -->
 			<skill id="4278" level="1" /> <!-- Dark Attack -->
 			<skill id="4416" level="1" /> <!-- Undead -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
 		<collision>
 			<radius normal="12" grown="14.5" />
@@ -2571,11 +2571,11 @@
 				<walk ground="100" />
 				<run ground="170" />
 			</speed>
-			<hit_time>460</hit_time>
+			<hitTime>460</hitTime>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -2590,10 +2590,10 @@
 			<skill id="4742" level="4" /> <!-- BOSS Strike -->
 			<skill id="4810" level="1" /> <!-- Raid Boss - Level 45 -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="231" min="1" max="1" chance="4.60299999999995" /> <!-- Grace Dagger -->
 				<item id="233" min="1" max="1" chance="4.59400000000005" /> <!-- Dark Screamer -->
@@ -2601,14 +2601,14 @@
 				<item id="64" min="1" max="1" chance="1.693" /> <!-- Compound Boots -->
 				<item id="8176" min="1" max="1" chance="38.852500634679" /> <!-- Destruction Tombstone -->
 				<item id="9816" min="1" max="3" chance="37.913175932978" /> <!-- Earth Egg -->
-				<item id="4606" min="1" max="1" chance="8.0934247270881" /> <!-- Greater DEX Dye (Dex + 3 CON - 3) -->
-				<item id="4605" min="1" max="1" chance="7.5907590759076" /> <!-- Greater DEX Dye (Dex + 3 Str - 3) -->
-				<item id="4604" min="1" max="1" chance="7.5501396293476" /> <!-- Greater CON Dye (Con + 3 DEX - 3) -->
+				<item id="4606" min="1" max="1" chance="8.0934247270881" /> <!-- Greater DEX Dye <Dex + 3 CON - 3> -->
+				<item id="4605" min="1" max="1" chance="7.5907590759076" /> <!-- Greater DEX Dye <Dex + 3 Str - 3> -->
+				<item id="4604" min="1" max="1" chance="7.5501396293476" /> <!-- Greater CON Dye <Con + 3 DEX - 3> -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="61.25" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="12" />
 			<height normal="50" />
@@ -2630,11 +2630,11 @@
 				<walk ground="40" />
 				<run ground="170" />
 			</speed>
-			<hit_time>800</hit_time>
+			<hitTime>800</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -2648,8 +2648,8 @@
 			<skill id="4275" level="2" /> <!-- Holy Attack Vulnerability -->
 			<skill id="4278" level="1" /> <!-- Dark Attack -->
 			<skill id="4757" level="5" /> <!-- BOSS Power Shot -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="ARCHER" clanHelpRange="300" dodge="15" />
 		<collision>
 			<radius normal="11" />
@@ -2669,11 +2669,11 @@
 				<walk ground="40" />
 				<run ground="160" />
 			</speed>
-			<hit_time>170</hit_time>
+			<hitTime>170</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -2686,8 +2686,8 @@
 			<skill id="4275" level="2" /> <!-- Holy Attack Vulnerability -->
 			<skill id="4278" level="1" /> <!-- Dark Attack -->
 			<skill id="4416" level="1" /> <!-- Undead -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" />
 		<collision>
 			<radius normal="10" />
@@ -2715,11 +2715,11 @@
 				<walk ground="60" />
 				<run ground="170" />
 			</speed>
-			<hit_time>840</hit_time>
+			<hitTime>840</hitTime>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4197" level="2" /> <!-- Hold -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
@@ -2736,10 +2736,10 @@
 			<skill id="4333" level="5" /> <!-- Dark Attack Resistance -->
 			<skill id="4811" level="1" /> <!-- Raid Boss - Level 24 -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="275" min="1" max="1" chance="13.1800000000002" /> <!-- Longbow -->
 				<item id="276" min="1" max="1" chance="12.7699999999999" /> <!-- Elven Bow -->
@@ -2750,10 +2750,10 @@
 				<item id="955" min="1" max="1" chance="15.08" /> <!-- Scroll: Enchant Weapon (D-grade) -->
 				<item id="956" min="7" max="21" chance="8.12900000000009" /> <!-- Scroll: Enchant Armor (D-grade) -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="41.06" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="20" />
 			<height normal="75" />
@@ -2775,11 +2775,11 @@
 				<walk ground="80" />
 				<run ground="170" />
 			</speed>
-			<hit_time>100</hit_time>
+			<hitTime>100</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4194" level="2" /> <!-- BOSS Aura Burn -->
 			<skill id="4199" level="2" /> <!-- Decrease P. Atk. -->
@@ -2792,8 +2792,8 @@
 			<skill id="4414" level="3" /> <!-- Light Armor Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4416" level="2" /> <!-- Magic Creatures -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" />
 		<collision>
 			<radius normal="13" />
@@ -2815,11 +2815,11 @@
 				<walk ground="60" />
 				<run ground="170" />
 			</speed>
-			<hit_time>650</hit_time>
+			<hitTime>650</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -2831,8 +2831,8 @@
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4416" level="3" /> <!-- Beasts -->
 			<skill id="4728" level="2" /> <!-- Stun -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" />
 		<collision>
 			<radius normal="10" />
@@ -2860,11 +2860,11 @@
 				<walk ground="36" />
 				<run ground="170" />
 			</speed>
-			<hit_time>540</hit_time>
+			<hitTime>540</hitTime>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4173" level="3" /> <!-- BOSS Might -->
 			<skill id="4177" level="3" /> <!-- BOSS Cancel Magic -->
@@ -2882,10 +2882,10 @@
 			<skill id="4737" level="3" /> <!-- BOSS Spinning Slash -->
 			<skill id="4812" level="1" /> <!-- Raid Boss - Level 35 -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="2494" min="1" max="1" chance="8.01400000000001" /> <!-- Plate Shield -->
 				<item id="630" min="1" max="1" chance="1.821" /> <!-- Square Shield -->
@@ -2893,10 +2893,10 @@
 				<item id="2412" min="1" max="1" chance="3.592" /> <!-- Plate Helmet -->
 				<item id="951" min="1" max="1" chance="28.35" /> <!-- Scroll: Enchant Weapon (C-grade) -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="51.01" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="24" />
 			<height normal="51" />
@@ -2926,11 +2926,11 @@
 				<walk ground="43" />
 				<run ground="170" />
 			</speed>
-			<hit_time>630</hit_time>
+			<hitTime>630</hitTime>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4185" level="4" /> <!-- Sleep -->
 			<skill id="4188" level="4" /> <!-- Bleed -->
@@ -2947,10 +2947,10 @@
 			<skill id="4494" level="1" /> <!-- Raid Boss -->
 			<skill id="4813" level="1" /> <!-- Raid Boss - Level 40 -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="160" min="1" max="1" chance="2.78699999999996" /> <!-- Battle Axe -->
 				<item id="173" min="1" max="1" chance="2.76799999999991" /> <!-- Skull Graver -->
@@ -2965,15 +2965,15 @@
 				<item id="915" min="1" max="1" chance="0.749999999999996" /> <!-- Aquastone Necklace -->
 				<item id="8176" min="1" max="1" chance="37.074972810919" /> <!-- Destruction Tombstone -->
 				<item id="9818" min="1" max="3" chance="36.977149663661" /> <!-- Angelic Essence -->
-				<item id="4592" min="1" max="1" chance="8.6199455642957" /> <!-- Greater CON Dye (Con + 2 DEX - 2) -->
-				<item id="4593" min="1" max="1" chance="8.4300535725589" /> <!-- Greater DEX Dye (Dex + 2 Str - 2) -->
+				<item id="4592" min="1" max="1" chance="8.6199455642957" /> <!-- Greater CON Dye <Con + 2 DEX - 2> -->
+				<item id="4593" min="1" max="1" chance="8.4300535725589" /> <!-- Greater DEX Dye <Dex + 2 Str - 2> -->
 				<item id="951" min="1" max="1" chance="4.6103473872588" /> <!-- Scroll: Enchant Weapon (C-grade) -->
-				<item id="4591" min="1" max="3" chance="4.2875310013062" /> <!-- Greater CON Dye (Con + 2 Str - 2) -->
+				<item id="4591" min="1" max="3" chance="4.2875310013062" /> <!-- Greater CON Dye <Con + 2 Str - 2> -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="61.25" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="19" />
 			<height normal="55" />
@@ -2995,11 +2995,11 @@
 				<walk ground="37" />
 				<run ground="170" />
 			</speed>
-			<hit_time>280</hit_time>
+			<hitTime>280</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -3011,8 +3011,8 @@
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="4722" level="3" /> <!-- BOSS Strike -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" />
 		<collision>
 			<radius normal="11" />
@@ -3032,11 +3032,11 @@
 				<walk ground="40" />
 				<run ground="170" />
 			</speed>
-			<hit_time>560</hit_time>
+			<hitTime>560</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -3047,8 +3047,8 @@
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" />
 		<collision>
 			<radius normal="13" grown="22" />
@@ -3077,11 +3077,11 @@
 				<walk ground="70" />
 				<run ground="170" />
 			</speed>
-			<hit_time>650</hit_time>
+			<hitTime>650</hitTime>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -3096,10 +3096,10 @@
 			<skill id="4740" level="5" /> <!-- BOSS Strike -->
 			<skill id="4814" level="1" /> <!-- Raid Boss - Level 52 -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="142" min="1" max="1" chance="3.23300000000002" /> <!-- Keshanberk -->
 				<item id="148" min="1" max="1" chance="3.198" /> <!-- Sword of Valhalla -->
@@ -3109,14 +3109,14 @@
 				<item id="2397" min="1" max="1" chance="1.06000000000001" /> <!-- Tunic of Zubei -->
 				<item id="8176" min="1" max="3" chance="41.454821844924" /> <!-- Destruction Tombstone -->
 				<item id="9816" min="2" max="6" chance="40.633120718167" /> <!-- Earth Egg -->
-				<item id="4604" min="1" max="3" chance="8.2735032200413" /> <!-- Greater CON Dye (Con + 3 DEX - 3) -->
-				<item id="4605" min="1" max="3" chance="5.5053975492764" /> <!-- Greater DEX Dye (Dex + 3 Str - 3) -->
-				<item id="4606" min="2" max="6" chance="4.1331566675911" /> <!-- Greater DEX Dye (Dex + 3 CON - 3) -->
+				<item id="4604" min="1" max="3" chance="8.2735032200413" /> <!-- Greater CON Dye <Con + 3 DEX - 3> -->
+				<item id="4605" min="1" max="3" chance="5.5053975492764" /> <!-- Greater DEX Dye <Dex + 3 Str - 3> -->
+				<item id="4606" min="2" max="6" chance="4.1331566675911" /> <!-- Greater DEX Dye <Dex + 3 CON - 3> -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="69.87" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="30" />
 			<height normal="60" />
@@ -3138,11 +3138,11 @@
 				<walk ground="50" />
 				<run ground="170" />
 			</speed>
-			<hit_time>930</hit_time>
+			<hitTime>930</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -3154,8 +3154,8 @@
 			<skill id="4415" level="9" /> <!-- Bows -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="4755" level="4" /> <!-- BOSS Power Shot -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="ARCHER" clanHelpRange="300" dodge="15" />
 		<collision>
 			<radius normal="14" />
@@ -3175,11 +3175,11 @@
 				<walk ground="67" />
 				<run ground="170" />
 			</speed>
-			<hit_time>460</hit_time>
+			<hitTime>460</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -3190,8 +3190,8 @@
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
 		<collision>
 			<radius normal="23" />
@@ -3219,11 +3219,11 @@
 				<walk ground="37" />
 				<run ground="170" />
 			</speed>
-			<hit_time>450</hit_time>
+			<hitTime>450</hitTime>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4178" level="6" /> <!-- BOSS Flamestrike -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
@@ -3240,8 +3240,8 @@
 			<skill id="4333" level="5" /> <!-- Dark Attack Resistance -->
 			<skill id="4816" level="1" /> <!-- Raid Boss - Level 69 -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
 		<collision>
 			<radius normal="50" />
@@ -3264,11 +3264,11 @@
 				<walk ground="80" />
 				<run ground="170" />
 			</speed>
-			<hit_time>560</hit_time>
+			<hitTime>560</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4209" level="6" /> <!-- BOSS Heal -->
 			<skill id="4213" level="6" /> <!-- BOSS Haste -->
@@ -3283,8 +3283,8 @@
 			<skill id="4275" level="2" /> <!-- Holy Attack Vulnerability -->
 			<skill id="4278" level="1" /> <!-- Dark Attack -->
 			<skill id="4416" level="9" /> <!-- Demons -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
 		<collision>
 			<radius normal="9" />
@@ -3303,11 +3303,11 @@
 				<walk ground="80" />
 				<run ground="170" />
 			</speed>
-			<hit_time>350</hit_time>
+			<hitTime>350</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -3320,8 +3320,8 @@
 			<skill id="4278" level="1" /> <!-- Dark Attack -->
 			<skill id="4333" level="5" /> <!-- Dark Attack Resistance -->
 			<skill id="4416" level="9" /> <!-- Demons -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
 		<collision>
 			<radius normal="14" />
@@ -3351,11 +3351,11 @@
 				<walk ground="50" />
 				<run ground="170" />
 			</speed>
-			<hit_time>350</hit_time>
+			<hitTime>350</hitTime>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4182" level="2" /> <!-- Poison -->
 			<skill id="4187" level="2" /> <!-- Decrease Speed -->
@@ -3372,10 +3372,10 @@
 			<skill id="4494" level="1" /> <!-- Raid Boss -->
 			<skill id="4817" level="1" /> <!-- Raid Boss - Level 25 -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="293" min="1" max="1" chance="5.00899999999999" /> <!-- War Hammer -->
 				<item id="296" min="1" max="1" chance="5.00700000000001" /> <!-- Dwarven Pike -->
@@ -3388,10 +3388,10 @@
 				<item id="350" min="1" max="1" chance="3.78299999999996" /> <!-- Dwarven Scale Mail -->
 				<item id="6575" min="1" max="1" chance="2.483" /> <!-- Blessed Scroll: Enchant Weapon (D-grade) -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="39.42" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="40" />
 			<height normal="20" />
@@ -3412,11 +3412,11 @@
 				<walk ground="40" />
 				<run ground="170" />
 			</speed>
-			<hit_time>340</hit_time>
+			<hitTime>340</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -3428,8 +3428,8 @@
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4416" level="4" /> <!-- Animals -->
 			<skill id="4732" level="2" /> <!-- BOSS Mortal Blow -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" />
 		<collision>
 			<radius normal="21" />
@@ -3448,11 +3448,11 @@
 				<walk ground="40" />
 				<run ground="170" />
 			</speed>
-			<hit_time>340</hit_time>
+			<hitTime>340</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -3463,8 +3463,8 @@
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4416" level="4" /> <!-- Animals -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" />
 		<collision>
 			<radius normal="21" />
@@ -3495,7 +3495,7 @@
 			<abnormalResist physical="230" magical="230" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4178" level="3" /> <!-- BOSS Flamestrike -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
@@ -3510,20 +3510,20 @@
 			<skill id="4494" level="1" /> <!-- Raid Boss -->
 			<skill id="4818" level="1" /> <!-- Raid Boss - Level 30 -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="318" min="1" max="1" chance="11.87" /> <!-- Crucifix of Blood -->
 				<item id="437" min="1" max="1" chance="4.23799999999997" /> <!-- Mithril Tunic -->
 				<item id="470" min="1" max="1" chance="1.86700000000003" /> <!-- Mithril Stockings -->
 				<item id="955" min="1" max="3" chance="33.99" /> <!-- Scroll: Enchant Weapon (D-grade) -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="49.58" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="15" />
 			<height normal="25" />
@@ -3546,11 +3546,11 @@
 				<walk ground="45" />
 				<run ground="170" />
 			</speed>
-			<hit_time>260</hit_time>
+			<hitTime>260</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4211" level="2" /> <!-- BOSS Might -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
@@ -3563,8 +3563,8 @@
 			<skill id="4415" level="5" /> <!-- Blunt Weapons -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="4785" level="2" /> <!-- BOSS Chant of Life -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
 		<collision>
 			<radius normal="9" />
@@ -3584,11 +3584,11 @@
 				<walk ground="50" />
 				<run ground="170" />
 			</speed>
-			<hit_time>460</hit_time>
+			<hitTime>460</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -3599,8 +3599,8 @@
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" />
 		<collision>
 			<radius normal="13.5" />
@@ -3628,11 +3628,11 @@
 				<walk ground="80" />
 				<run ground="170" />
 			</speed>
-			<hit_time>610</hit_time>
+			<hitTime>610</hitTime>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4197" level="3" /> <!-- Hold -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
@@ -3647,23 +3647,23 @@
 			<skill id="4494" level="1" /> <!-- Raid Boss -->
 			<skill id="4819" level="1" /> <!-- Raid Boss - Level 39 -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="71" min="1" max="1" chance="7.24499999999996" /> <!-- Flamberge -->
 				<item id="72" min="1" max="1" chance="7.23900000000004" /> <!-- StormBringer -->
 				<item id="439" min="1" max="1" chance="2.953" /> <!-- Karmian Tunic -->
 				<item id="471" min="1" max="1" chance="1.526" /> <!-- Karmian Stockings -->
-				<item id="4590" min="1" max="1" chance="19.8100000000001" /> <!-- Greater STR Dye (STR + 2 DEX - 2) -->
-				<item id="4589" min="1" max="1" chance="18.9599999999998" /> <!-- Greater STR Dye (STR + 2 CON - 2) -->
+				<item id="4590" min="1" max="1" chance="19.8100000000001" /> <!-- Greater STR Dye <STR + 2 DEX - 2> -->
+				<item id="4589" min="1" max="1" chance="18.9599999999998" /> <!-- Greater STR Dye <STR + 2 CON - 2> -->
 				<item id="6574" min="1" max="1" chance="3.294" /> <!-- Blessed Scroll: Enchant Armor (C-grade) -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="50.35" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="13.5" />
 			<height normal="26" />
@@ -3685,11 +3685,11 @@
 				<walk ground="48" />
 				<run ground="170" />
 			</speed>
-			<hit_time>340</hit_time>
+			<hitTime>340</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4196" level="3" /> <!-- Decrease Speed -->
 			<skill id="4200" level="3" /> <!-- Decrease Atk. Spd. -->
@@ -3702,8 +3702,8 @@
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4416" level="7" /> <!-- Spirits -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" />
 		<collision>
 			<radius normal="8" />
@@ -3725,11 +3725,11 @@
 				<walk ground="80" />
 				<run ground="170" />
 			</speed>
-			<hit_time>610</hit_time>
+			<hitTime>610</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -3741,8 +3741,8 @@
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4416" level="7" /> <!-- Spirits -->
 			<skill id="4727" level="3" /> <!-- Stun -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" />
 		<collision>
 			<radius normal="9" />
@@ -3771,11 +3771,11 @@
 				<walk ground="36" />
 				<run ground="170" />
 			</speed>
-			<hit_time>540</hit_time>
+			<hitTime>540</hitTime>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -3790,25 +3790,25 @@
 			<skill id="4745" level="4" /> <!-- Stun -->
 			<skill id="4820" level="1" /> <!-- Raid Boss - Level 44 -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="854" min="1" max="1" chance="7.49200000000003" /> <!-- Earring of Seal -->
 				<item id="917" min="1" max="1" chance="3.66600000000004" /> <!-- Necklace of Mermaid -->
 				<item id="885" min="1" max="1" chance="2.59599999999993" /> <!-- Ring of Ages -->
 				<item id="9816" min="2" max="4" chance="38.612083488858" /> <!-- Earth Egg -->
 				<item id="8176" min="1" max="2" chance="38.102636012388" /> <!-- Destruction Tombstone -->
-				<item id="4603" min="1" max="1" chance="8.9380289931098" /> <!-- Greater CON Dye (Con + 3 Str - 3) -->
+				<item id="4603" min="1" max="1" chance="8.9380289931098" /> <!-- Greater CON Dye <Con + 3 Str - 3> -->
 				<item id="951" min="1" max="1" chance="7.0919123952102" /> <!-- Scroll: Enchant Weapon (C-grade) -->
-				<item id="4601" min="1" max="3" chance="4.3368607947381" /> <!-- Greater STR Dye (STR + 3 CON - 3) -->
-				<item id="4602" min="1" max="3" chance="2.918478315696" /> <!-- Greater STR Dye (STR + 3 DEX - 3) -->
+				<item id="4601" min="1" max="3" chance="4.3368607947381" /> <!-- Greater STR Dye <STR + 3 CON - 3> -->
+				<item id="4602" min="1" max="3" chance="2.918478315696" /> <!-- Greater STR Dye <STR + 3 DEX - 3> -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="59.91" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="24" />
 			<height normal="51" />
@@ -3830,11 +3830,11 @@
 				<walk ground="45" />
 				<run ground="170" />
 			</speed>
-			<hit_time>910</hit_time>
+			<hitTime>910</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -3846,8 +3846,8 @@
 			<skill id="4415" level="9" /> <!-- Bows -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="4760" level="4" /> <!-- Stun -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="ARCHER" clanHelpRange="300" dodge="15" />
 		<collision>
 			<radius normal="12" />
@@ -3867,11 +3867,11 @@
 				<walk ground="45" />
 				<run ground="170" />
 			</speed>
-			<hit_time>460</hit_time>
+			<hitTime>460</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -3882,8 +3882,8 @@
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" />
 		<collision>
 			<radius normal="12" />
@@ -3910,11 +3910,11 @@
 				<walk ground="30" />
 				<run ground="150" />
 			</speed>
-			<hit_time>720</hit_time>
+			<hitTime>720</hitTime>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4172" level="5" /> <!-- Stun -->
 			<skill id="4176" level="5" /> <!-- BOSS Reflect Damage -->
@@ -3932,10 +3932,10 @@
 			<skill id="4724" level="5" /> <!-- Stun -->
 			<skill id="4821" level="1" /> <!-- Raid Boss - Level 43 -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="227" min="1" max="1" chance="1.763" /> <!-- Stiletto -->
 				<item id="242" min="1" max="1" chance="1.496" /> <!-- Soulfire Dirk -->
@@ -3945,10 +3945,10 @@
 				<item id="8176" min="1" max="2" chance="48.714835053633" /> <!-- Destruction Tombstone -->
 				<item id="6573" min="1" max="1" chance="1.4032247183431" /> <!-- Blessed Scroll: Enchant Weapon (C-grade) -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="60.32" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="15" />
 			<height normal="63" />
@@ -3975,11 +3975,11 @@
 				<walk ground="35" />
 				<run ground="170" />
 			</speed>
-			<hit_time>540</hit_time>
+			<hitTime>540</hitTime>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4197" level="5" /> <!-- Hold -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
@@ -3994,10 +3994,10 @@
 			<skill id="4494" level="1" /> <!-- Raid Boss -->
 			<skill id="4822" level="1" /> <!-- Raid Boss - Level 59 -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="171" min="1" max="1" chance="1.49500000000001" /> <!-- Deadman's Glory -->
 				<item id="210" min="1" max="1" chance="1.44900000000002" /> <!-- Staff of Evil Spirits -->
@@ -4007,15 +4007,15 @@
 				<item id="926" min="1" max="1" chance="3.04999999999995" /> <!-- Black Ore Necklace -->
 				<item id="9816" min="1" max="4" chance="45.318002080067" /> <!-- Earth Egg -->
 				<item id="8176" min="1" max="2" chance="37.578464446169" /> <!-- Destruction Tombstone -->
-				<item id="4618" min="1" max="1" chance="5.4746934013315" /> <!-- Greater DEX Dye (Dex + 4 CON - 4) -->
-				<item id="4616" min="1" max="1" chance="5.3057539713964" /> <!-- Greater CON Dye (Con + 4 DEX - 4) -->
-				<item id="4617" min="1" max="1" chance="5.300474614211" /> <!-- Greater DEX Dye (Dex + 4 Str - 4) -->
+				<item id="4618" min="1" max="1" chance="5.4746934013315" /> <!-- Greater DEX Dye <Dex + 4 CON - 4> -->
+				<item id="4616" min="1" max="1" chance="5.3057539713964" /> <!-- Greater CON Dye <Con + 4 DEX - 4> -->
+				<item id="4617" min="1" max="1" chance="5.300474614211" /> <!-- Greater DEX Dye <Dex + 4 Str - 4> -->
 				<item id="6572" min="1" max="1" chance="1.0226114868254" /> <!-- Blessed Scroll: Enchant Armor (B-grade) -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="70.48" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="35" />
 			<height normal="27" />
@@ -4037,11 +4037,11 @@
 				<walk ground="24" />
 				<run ground="170" />
 			</speed>
-			<hit_time>390</hit_time>
+			<hitTime>390</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4193" level="5" /> <!-- BOSS Life Drain -->
 			<skill id="4205" level="5" /> <!-- Paralysis -->
@@ -4054,8 +4054,8 @@
 			<skill id="4414" level="3" /> <!-- Light Armor Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4416" level="4" /> <!-- Animals -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" />
 		<collision>
 			<radius normal="13" />
@@ -4077,11 +4077,11 @@
 				<walk ground="37" />
 				<run ground="170" />
 			</speed>
-			<hit_time>450</hit_time>
+			<hitTime>450</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -4093,8 +4093,8 @@
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4416" level="4" /> <!-- Animals -->
 			<skill id="4726" level="5" /> <!-- Stun -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
 		<collision>
 			<radius normal="19" />
@@ -4125,11 +4125,11 @@
 				<walk ground="29" />
 				<run ground="170" />
 			</speed>
-			<hit_time>220</hit_time>
+			<hitTime>220</hitTime>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4182" level="7" /> <!-- Poison -->
 			<skill id="4190" level="7" /> <!-- Decrease MP -->
@@ -4146,10 +4146,10 @@
 			<skill id="4494" level="1" /> <!-- Raid Boss -->
 			<skill id="4823" level="1" /> <!-- Raid Boss - Level 70 -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="5315" min="1" max="1" chance="3.00999999999999" /> <!-- Sealed Shield of Nightmare -->
 				<item id="305" min="1" max="1" chance="1.95800000000001" /> <!-- Tallum Glaive -->
@@ -4160,10 +4160,10 @@
 				<item id="8619" min="1" max="1" chance="23.665528396837" /> <!-- Ancient Book: Divine Inspiration (Original Language Version) -->
 				<item id="6578" min="1" max="1" chance="1.1008267433501" /> <!-- Blessed Scroll: Enchant Armor (S-grade) -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="80.02" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="19.5" />
 			<height normal="51" />
@@ -4185,11 +4185,11 @@
 				<walk ground="36" />
 				<run ground="170" />
 			</speed>
-			<hit_time>390</hit_time>
+			<hitTime>390</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -4201,8 +4201,8 @@
 			<skill id="4415" level="5" /> <!-- Blunt Weapons -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="4720" level="6" /> <!-- BOSS Strike -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
 		<collision>
 			<radius normal="13" />
@@ -4222,11 +4222,11 @@
 				<walk ground="34" />
 				<run ground="170" />
 			</speed>
-			<hit_time>460</hit_time>
+			<hitTime>460</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -4237,8 +4237,8 @@
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
 		<collision>
 			<radius normal="13" />
@@ -4266,11 +4266,11 @@
 				<walk ground="80" />
 				<run ground="170" />
 			</speed>
-			<hit_time>410</hit_time>
+			<hitTime>410</hitTime>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4197" level="2" /> <!-- Hold -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
@@ -4287,20 +4287,20 @@
 			<skill id="4278" level="1" /> <!-- Dark Attack -->
 			<skill id="4824" level="1" /> <!-- Raid Boss - Level 29 -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="279" min="1" max="1" chance="11.79" /> <!-- Reinforced Longbow -->
 				<item id="395" min="1" max="1" chance="4.93999999999997" /> <!-- Manticore Skin Shirt -->
 				<item id="417" min="1" max="1" chance="2.43600000000003" /> <!-- Manticore Skin Gaiters -->
 				<item id="6576" min="1" max="1" chance="24.71" /> <!-- Blessed Scroll: Enchant Armor (D-grade) -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="39.7" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="7" />
 			<height normal="21" />
@@ -4325,7 +4325,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4193" level="2" /> <!-- BOSS Life Drain -->
 			<skill id="4199" level="2" /> <!-- Decrease P. Atk. -->
@@ -4338,8 +4338,8 @@
 			<skill id="4414" level="3" /> <!-- Light Armor Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4416" level="4" /> <!-- Animals -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" />
 		<collision>
 			<radius normal="5" />
@@ -4361,11 +4361,11 @@
 				<walk ground="35" />
 				<run ground="170" />
 			</speed>
-			<hit_time>540</hit_time>
+			<hitTime>540</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -4377,8 +4377,8 @@
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4416" level="4" /> <!-- Animals -->
 			<skill id="4727" level="2" /> <!-- Stun -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" />
 		<collision>
 			<radius normal="35" />
@@ -4405,11 +4405,11 @@
 				<walk ground="25" />
 				<run ground="170" />
 			</speed>
-			<hit_time>200</hit_time>
+			<hitTime>200</hitTime>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4173" level="3" /> <!-- BOSS Might -->
 			<skill id="4177" level="3" /> <!-- BOSS Cancel Magic -->
@@ -4427,25 +4427,25 @@
 			<skill id="4737" level="3" /> <!-- BOSS Spinning Slash -->
 			<skill id="4825" level="1" /> <!-- Raid Boss - Level 35 -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="70" min="1" max="1" chance="5.53900000000014" /> <!-- Claymore -->
 				<item id="2499" min="1" max="1" chance="5.48800000000012" /> <!-- Elven Long Sword -->
 				<item id="2047" min="14" max="42" chance="11.7700000000001" /> <!-- Claymore Blade -->
 				<item id="2967" min="20" max="60" chance="8.27099999999999" /> <!-- Elven Long Sword Blade -->
 				<item id="396" min="1" max="1" chance="20.55" /> <!-- Salamander Skin Mail -->
-				<item id="4589" min="1" max="1" chance="17.4699999999998" /> <!-- Greater STR Dye (STR + 2 CON - 2) -->
-				<item id="4590" min="1" max="1" chance="16.68" /> <!-- Greater STR Dye (STR + 2 DEX - 2) -->
+				<item id="4589" min="1" max="1" chance="17.4699999999998" /> <!-- Greater STR Dye <STR + 2 CON - 2> -->
+				<item id="4590" min="1" max="1" chance="16.68" /> <!-- Greater STR Dye <STR + 2 DEX - 2> -->
 				<item id="952" min="3" max="9" chance="11.13" /> <!-- Scroll: Enchant Armor (C-grade) -->
 				<item id="1952" min="162" max="486" chance="3.789" /> <!-- Salamander Skin Mail Texture -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="50.67" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="30" />
 			<height normal="43" />
@@ -4472,11 +4472,11 @@
 				<walk ground="55" />
 				<run ground="55" />
 			</speed>
-			<hit_time>480</hit_time>
+			<hitTime>480</hitTime>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4178" level="4" /> <!-- BOSS Flamestrike -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
@@ -4493,10 +4493,10 @@
 			<skill id="4278" level="1" /> <!-- Dark Attack -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
 			<skill id="4275" level="2" /> <!-- Holy Attack Vulnerability -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="84" min="1" max="1" chance="3.72800000000003" /> <!-- Homunkulus' Sword -->
 				<item id="145" min="1" max="1" chance="3.71800000000007" /> <!-- Sword of Whispering Death -->
@@ -4508,14 +4508,14 @@
 				<item id="608" min="1" max="1" chance="0.750000000000004" /> <!-- Mithril Gauntlets -->
 				<item id="9816" min="1" max="3" chance="38.818877386999" /> <!-- Earth Egg -->
 				<item id="8176" min="1" max="1" chance="37.886581366939" /> <!-- Destruction Tombstone -->
-				<item id="4606" min="1" max="1" chance="12.328811161834" /> <!-- Greater DEX Dye (Dex + 3 CON - 3) -->
-				<item id="4604" min="1" max="3" chance="6.6225165562914" /> <!-- Greater CON Dye (Con + 3 DEX - 3) -->
-				<item id="4605" min="1" max="3" chance="4.3432135279367" /> <!-- Greater DEX Dye (Dex + 3 Str - 3) -->
+				<item id="4606" min="1" max="1" chance="12.328811161834" /> <!-- Greater DEX Dye <Dex + 3 CON - 3> -->
+				<item id="4604" min="1" max="3" chance="6.6225165562914" /> <!-- Greater CON Dye <Con + 3 DEX - 3> -->
+				<item id="4605" min="1" max="3" chance="4.3432135279367" /> <!-- Greater DEX Dye <Dex + 3 Str - 3> -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="69.13" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="35" grown="42" />
 			<height normal="80" grown="96" />

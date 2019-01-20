@@ -226,6 +226,7 @@
 	</item>
 	<item id="31814" name="Unidentified Elven Long Sword" type="EtcItem">
 		<!-- Elven Long Sword in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: one-handed weapon / sword) -->
+		<set name="icon" val="icon.weapon_elven_long_sword_i00" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
@@ -234,7 +235,6 @@
 		<set name="crystal_type" val="D" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.weapon_elven_long_sword_i00" />
 		<createItems>
 			<item id="2499" count="1" chance="2" /> <!-- Elven Long Sword -->
 			<item id="30842" count="1" chance="98" /> <!-- Bound Elven Long Sword -->
@@ -372,8 +372,8 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="price" val="155730" />
 		<createItems>
-			<item id="9222" count="1" chance="2" /> <!-- Épée -->
-			<item id="30863" count="1" chance="98" /> <!-- Bound Épée -->
+			<item id="9222" count="1" chance="2" /> <!-- ?p?e -->
+			<item id="30863" count="1" chance="98" /> <!-- Bound ?p?e -->
 		</createItems>
 		<skills>
 			<skill id="12431" level="1" /> <!-- Check Item -->

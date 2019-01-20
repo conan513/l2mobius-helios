@@ -380,6 +380,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_private_storeable" val="false" />
+		<set name="is_magic_weapon" val="true" />
 		<stats>
 			<stat type="pAtk">403</stat>
 			<stat type="mAtk">293</stat>
@@ -406,6 +407,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_private_storeable" val="false" />
+		<set name="is_magic_weapon" val="true" />
 		<stats>
 			<stat type="pAtk">415</stat>
 			<stat type="mAtk">293</stat>
@@ -433,6 +435,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_private_storeable" val="false" />
+		<set name="is_magic_weapon" val="true" />
 		<stats>
 			<stat type="pAtk">505</stat>
 			<stat type="mAtk">322</stat>
@@ -980,7 +983,7 @@
 		</stats>
 	</item>
 	<item id="47043" name="Beloa's Supply Items" type="EtcItem">
-		<!-- Supply Items given by the Dimensional Tracker Beloa to agents who have completed Exploring the Dimension - 30-day Search Operation. -->
+		<!-- Supply Items given by the Dimensional Tracker Beloa to agents who have completed "Exploring the Dimension - 30-day Search Operation". -->
 		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -999,7 +1002,7 @@
 		</capsuled_items>
 	</item>
 	<item id="47044" name="Commando Belt" type="Armor">
-		<!-- The Commando Belt is the symbol of the Dimensional Commandos, and is given to elite veterans who have completed Exploring the Dimension - Sealing the Dimension. Damage +2%, Damage Received -2%, Weight +12800, Inventory Slots +18. -->
+		<!-- The Commando Belt is the symbol of the Dimensional Commandos, and is given to elite veterans who have completed "Exploring the Dimension - Sealing the Dimension". Damage +2%, Damage Received -2%, Weight +12800, Inventory Slots +18. -->
 		<set name="icon" val="icon.event_energy_belt_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="LIGHT" />
@@ -1488,7 +1491,7 @@
 		<capsuled_items>
 			<item id="36152" min="1" max="1" chance="33" /> <!-- Kaliel's Energy Box -->
 			<item id="47085" min="1" max="1" chance="33" /> <!-- Superior Giant's Codex Box -->
-			<item id="47086" min="1" max="1" chance="33" /> <!-- Venir's Talisman Box) -->
+			<item id="47086" min="1" max="1" chance="33" /> <!-- Venir's Talisman Box -->
 		</capsuled_items>
 	</item>
 	<item id="47085" name="Superior Giant's Codex Box" type="EtcItem">
@@ -1520,9 +1523,9 @@
 		<set name="is_private_storeable" val="false" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
-			<item id="39634" min="1" max="1" chance="60" /> <!-- Venir's Talisman Level 1 -->
-			<item id="39635" min="1" max="1" chance="35" /> <!-- Venir's Talisman Level 2 -->
-			<item id="39636" min="1" max="1" chance="5" /> <!-- Venir's Talisman Level 3 -->
+			<item id="39634" min="1" max="1" chance="60" /> <!-- Venir's Talisman - Stage 1 -->
+			<item id="39635" min="1" max="1" chance="35" /> <!-- Venir's Talisman - Stage 2 -->
+			<item id="39636" min="1" max="1" chance="5" /> <!-- Venir's Talisman - Stage 3 -->
 		</capsuled_items>
 	</item>
 	<item id="47087" name="Jewelry Box" type="EtcItem">

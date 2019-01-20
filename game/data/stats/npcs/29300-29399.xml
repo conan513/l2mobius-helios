@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/npcs.xsd">
 	<npc id="29300" level="97" type="L2RaidBoss" name="Varkaron" title="Dimensional Invader">
 		<race>UNDEAD</race>
@@ -16,31 +16,31 @@
 				<run ground="300" />
 			</speed>
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="5467" level="1" /> <!-- Dark Attack -->
 			<skill id="4494" level="1" /> <!-- Raid Boss -->
 			<skill id="16510" level="1" /> <!-- 99Lv. Raid Boss -->
 			<skill id="4416" level="1" /> <!-- Undead -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="38" />
 			<height normal="100" />
 		</collision>
-		<drop_lists>
+		<dropLists>
 			<drop>
-				<item id="17401" min="1" max="1" chance="0.75" /> <!-- Seraph Shield -->
-				<item id="17407" min="1" max="1" chance="0.75" /> <!-- Seraph Circlet -->
-				<item id="17410" min="1" max="1" chance="0.75" /> <!-- Seraph Gloves -->
-				<item id="17411" min="1" max="1" chance="0.75" /> <!-- Seraph Shoes -->
-				<item id="17412" min="1" max="1" chance="0.75" /> <!-- Seraph Sigil -->
+				<item id="17401" min="1" max="1" chance="0.75" /> <!-- Seraph Shield - Heavy Armor -->
+				<item id="17407" min="1" max="1" chance="0.75" /> <!-- Seraph Circlet - Robe -->
+				<item id="17410" min="1" max="1" chance="0.75" /> <!-- Seraph Gloves - Robe -->
+				<item id="17411" min="1" max="1" chance="0.75" /> <!-- Seraph Shoes - Robe -->
+				<item id="17412" min="1" max="1" chance="0.75" /> <!-- Seraph Sigil - Robe -->
 				<item id="17526" min="1" max="1" chance="100" /> <!-- Scroll: Enchant Weapon (R-grade) -->
 				<item id="17527" min="2" max="2" chance="100" /> <!-- Scroll: Enchant Armor (R-grade) -->
-				<item id="17690" min="3" max="3" chance="17.41" /> <!-- Lv. 4 Ancient MEN Dye -->
-				<item id="17685" min="3" max="3" chance="16.14" /> <!-- Lv. 4 Ancient STR Dye -->
-				<item id="17689" min="3" max="3" chance="16.05" /> <!-- Lv. 4 Ancient WIT Dye -->
-				<item id="17686" min="3" max="3" chance="15.97" /> <!-- Lv. 4 Ancient DEX Dye -->
-				<item id="17688" min="3" max="3" chance="15.89" /> <!-- Lv. 4 Ancient INT Dye -->
-				<item id="17687" min="3" max="3" chance="15.84" /> <!-- Lv. 4 Ancient CON Dye -->
+				<item id="17690" min="3" max="3" chance="17.41" /> <!-- Lv. 4 Ancient MEN Dye - MEN + 5 / INT - 2 / Holy Resistance + 20 -->
+				<item id="17685" min="3" max="3" chance="16.14" /> <!-- Lv. 4 Ancient STR Dye - STR + 5 / DEX - 2 / Fire Resistance + 20 -->
+				<item id="17689" min="3" max="3" chance="16.05" /> <!-- Lv. 4 Ancient WIT Dye - WIT + 5 / MEN - 2 / Wind Resistance + 20 -->
+				<item id="17686" min="3" max="3" chance="15.97" /> <!-- Lv. 4 Ancient DEX Dye - DEX + 5 / CON - 2 / Earth Resistance + 20 -->
+				<item id="17688" min="3" max="3" chance="15.89" /> <!-- Lv. 4 Ancient INT Dye - INT + 5 / WIT - 2 / Water Resistance + 20 -->
+				<item id="17687" min="3" max="3" chance="15.84" /> <!-- Lv. 4 Ancient CON Dye - CON + 5 / STR - 2 / Dark Resistance + 20 -->
 				<item id="38574" min="1" max="1" chance="2.232" /> <!-- Apparition Stone (Lv. 98) -->
 				<item id="46504" min="1" max="1" chance="1.288" /> <!-- Lionel's Soul Crystal - Stage 1 -->
 				<item id="46474" min="1" max="1" chance="1.211" /> <!-- Leona's Soul Crystal - Stage 1 -->
@@ -58,7 +58,7 @@
 				<item id="46506" min="1" max="1" chance="0.75" /> <!-- Lionel's Soul Crystal - Stage 3 -->
 				<item id="46460" min="1" max="1" chance="0.75" /> <!-- Mermoden's Soul Crystal - Stage 2 -->
 				<item id="46462" min="1" max="1" chance="0.3" /> <!-- Mermoden's Soul Crystal - Stage 4 -->
-				<item id="38038" min="1" max="1" chance="0.3" /> <!-- Seraph Shoes Crafting Pack -->
+				<item id="38038" min="1" max="1" chance="0.3" /> <!-- Seraph Shoes Crafting Pack - Robe -->
 				<item id="38017" min="1" max="1" chance="0.3" /> <!-- Specter Stormer Crafting Pack -->
 				<item id="38016" min="1" max="1" chance="0.3" /> <!-- Specter Fighter Crafting Pack -->
 				<item id="46463" min="1" max="1" chance="0.3" /> <!-- Mermoden's Soul Crystal - Stage 5 -->
@@ -69,31 +69,31 @@
 				<item id="38012" min="1" max="1" chance="0.3" /> <!-- Specter Shaper Crafting Pack -->
 				<item id="38013" min="1" max="1" chance="0.3" /> <!-- Specter Cutter Crafting Pack -->
 				<item id="46493" min="1" max="1" chance="0.3" /> <!-- Pantheon's Soul Crystal - Stage 5 -->
-				<item id="38035" min="1" max="1" chance="0.3" /> <!-- Seraph Tunic Crafting Pack -->
+				<item id="38035" min="1" max="1" chance="0.3" /> <!-- Seraph Tunic Crafting Pack - Robe -->
 				<item id="38014" min="1" max="1" chance="0.3" /> <!-- Specter Slasher Crafting Pack -->
 				<item id="38015" min="1" max="1" chance="0.3" /> <!-- Specter Avenger Crafting Pack -->
 				<item id="46492" min="1" max="1" chance="0.3" /> <!-- Pantheon's Soul Crystal - Stage 4 -->
 				<item id="46448" min="1" max="1" chance="0.3" /> <!-- Kain's Soul Crystal - Stage 5 -->
 				<item id="46447" min="1" max="1" chance="0.3" /> <!-- Kain's Soul Crystal - Stage 4 -->
-				<item id="38030" min="1" max="1" chance="0.3" /> <!-- Seraph Leather Armor Crafting Pack -->
-				<item id="38029" min="1" max="1" chance="0.3" /> <!-- Seraph Leather Helmet Crafting Pack -->
-				<item id="38027" min="1" max="1" chance="0.3" /> <!-- Seraph Boots Crafting Pack -->
-				<item id="38026" min="1" max="1" chance="0.3" /> <!-- Seraph Gauntlets Crafting Pack -->
-				<item id="38024" min="1" max="1" chance="0.3" /> <!-- Seraph Breastplate Crafting Pack -->
-				<item id="38023" min="1" max="1" chance="0.3" /> <!-- Seraph Helmet Crafting Pack -->
+				<item id="38030" min="1" max="1" chance="0.3" /> <!-- Seraph Leather Armor Crafting Pack - Light Armor -->
+				<item id="38029" min="1" max="1" chance="0.3" /> <!-- Seraph Leather Helmet Crafting Pack - Light Armor -->
+				<item id="38027" min="1" max="1" chance="0.3" /> <!-- Seraph Boots Crafting Pack - Heavy Armor -->
+				<item id="38026" min="1" max="1" chance="0.3" /> <!-- Seraph Gauntlets Crafting Pack - Heavy Armor -->
+				<item id="38024" min="1" max="1" chance="0.3" /> <!-- Seraph Breastplate Crafting Pack - Heavy Armor -->
+				<item id="38023" min="1" max="1" chance="0.3" /> <!-- Seraph Helmet Crafting Pack - Heavy Armor -->
 				<item id="38022" min="1" max="1" chance="0.3" /> <!-- Specter Retributer Crafting Pack -->
 				<item id="38021" min="1" max="1" chance="0.3" /> <!-- Specter Caster Crafting Pack -->
-				<item id="38031" min="1" max="1" chance="0.3" /> <!-- Seraph Leather Leggings Crafting Pack -->
-				<item id="38032" min="1" max="1" chance="0.3" /> <!-- Seraph Leather Gloves Crafting Pack -->
-				<item id="38033" min="1" max="1" chance="0.3" /> <!-- Seraph Leather Boots Crafting Pack -->
-				<item id="38025" min="1" max="1" chance="0.3" /> <!-- Seraph Gaiters Crafting Pack -->
-				<item id="38028" min="1" max="1" chance="0.3" /> <!-- Seraph Shield Crafting Pack -->
+				<item id="38031" min="1" max="1" chance="0.3" /> <!-- Seraph Leather Leggings Crafting Pack - Light Armor -->
+				<item id="38032" min="1" max="1" chance="0.3" /> <!-- Seraph Leather Gloves Crafting Pack - Light Armor -->
+				<item id="38033" min="1" max="1" chance="0.3" /> <!-- Seraph Leather Boots Crafting Pack - Light Armor -->
+				<item id="38025" min="1" max="1" chance="0.3" /> <!-- Seraph Gaiters Crafting Pack - Heavy Armor -->
+				<item id="38028" min="1" max="1" chance="0.3" /> <!-- Seraph Shield Crafting Pack - Heavy Armor -->
 				<item id="38018" min="1" max="1" chance="0.3" /> <!-- Specter Thrower Crafting Pack -->
-				<item id="38039" min="1" max="1" chance="0.3" /> <!-- Seraph Sigil Crafting Pack -->
-				<item id="38037" min="1" max="1" chance="0.3" /> <!-- Seraph Gloves Crafting Pack -->
-				<item id="38036" min="1" max="1" chance="0.3" /> <!-- Seraph Stockings Crafting Pack -->
+				<item id="38039" min="1" max="1" chance="0.3" /> <!-- Seraph Sigil Crafting Pack - Robe -->
+				<item id="38037" min="1" max="1" chance="0.3" /> <!-- Seraph Gloves Crafting Pack - Robe -->
+				<item id="38036" min="1" max="1" chance="0.3" /> <!-- Seraph Stockings Crafting Pack - Robe -->
 				<item id="38019" min="1" max="1" chance="0.3" /> <!-- Specter Shooter Crafting Pack -->
-				<item id="38034" min="1" max="1" chance="0.3" /> <!-- Seraph Circlet Crafting Pack -->
+				<item id="38034" min="1" max="1" chance="0.3" /> <!-- Seraph Circlet Crafting Pack - Robe -->
 				<item id="38020" min="1" max="1" chance="0.3" /> <!-- Specter Buster Crafting Pack -->
 				<!-- FIXME: Also drops herbs. -->
 				<item id="8600" min="1" max="1" chance="10" /> <!-- Herb of Life -->
@@ -106,10 +106,10 @@
 				<item id="34850" min="1" max="1" chance="0.7" /> <!-- Mysterious Herb of Magic -->
 				<item id="13028" min="1" max="1" chance="0.1" /> <!-- Vitality Replenishing Herb -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="2" max="2" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 	</npc>
 	<npc id="29301" level="99" type="L2Monster" name="Minion Monisac">
 		<race>HUMANOID</race>
@@ -126,10 +126,10 @@
 				<run ground="230" />
 			</speed>
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="5467" level="1" /> <!-- Dark Attack -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="12" />
 			<height normal="27" />
@@ -150,10 +150,10 @@
 				<run ground="150" />
 			</speed>
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="5467" level="1" /> <!-- Dark Attack -->
 			<skill id="4416" level="1" /> <!-- Undead -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="18" />
 			<height normal="27.5" />
@@ -176,11 +176,11 @@
 			</attribute>
 		</stats>
 		<status canMove="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="11" /> <!-- Giants -->
 			<skill id="5465" level="1" /> <!-- Earth Attack -->
 			<skill id="16746" level="2" /> <!-- Helios -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="105" />
 			<height normal="124" />
@@ -203,11 +203,11 @@
 			<defence physical="3888.88888888889" magical="2258.06451612903" />
 		</stats>
 		<status canMove="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="11" /> <!-- Giants -->
 			<skill id="5465" level="1" /> <!-- Earth Attack -->
 			<skill id="16746" level="2" /> <!-- Helios -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="105" />
 			<height normal="152" />
@@ -231,50 +231,50 @@
 			<defence physical="3888.88888888889" magical="2258.06451612903" />
 		</stats>
 		<status canMove="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="11" /> <!-- Giants -->
 			<skill id="5465" level="1" /> <!-- Earth Attack -->
 			<skill id="16746" level="2" /> <!-- Helios -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="105" />
 			<height normal="180" />
 		</collision>
-		<drop_lists>
+		<dropLists>
 			<drop>
-				<item id="47245" min="1" max="1" chance="100" /> <!-- Helios' Majestic Earring -->
+				<item id="47245" min="1" max="1" chance="100" /> <!-- Helios' Majestic Earrings -->
 				<item id="47214" min="1" max="1" chance="40.05" /> <!-- Ring of Creation -->
-				<item id="17437" min="1" max="3" chance="20.82" /> <!-- Eternal Leather Armor -->
-				<item id="17439" min="1" max="3" chance="20.43" /> <!-- Eternal Leather Gloves -->
-				<item id="17440" min="1" max="3" chance="20.3" /> <!-- Eternal Leather Boots -->
-				<item id="17436" min="1" max="3" chance="19.52" /> <!-- Eternal Leather Helmet -->
-				<item id="17438" min="1" max="3" chance="19.42" /> <!-- Eternal Leather Leggings -->
-				<item id="17441" min="1" max="3" chance="17.43" /> <!-- Eternal Circlet -->
-				<item id="17433" min="1" max="3" chance="17.34" /> <!-- Eternal Gauntlets -->
-				<item id="17442" min="1" max="3" chance="17.33" /> <!-- Eternal Tunic -->
-				<item id="17445" min="1" max="3" chance="17.06" /> <!-- Eternal Shoes -->
-				<item id="17431" min="1" max="3" chance="16.77" /> <!-- Eternal Breastplate -->
-				<item id="17430" min="1" max="3" chance="16.73" /> <!-- Eternal Helmet -->
-				<item id="17446" min="1" max="3" chance="16.575" /> <!-- Eternal Sigil -->
-				<item id="17443" min="1" max="3" chance="16.44" /> <!-- Eternal Stockings -->
-				<item id="17435" min="1" max="3" chance="16.145" /> <!-- Eternal Shield -->
-				<item id="17434" min="1" max="3" chance="16.13" /> <!-- Eternal Boots -->
-				<item id="17444" min="1" max="3" chance="16" /> <!-- Eternal Gloves -->
-				<item id="17432" min="1" max="3" chance="15.84" /> <!-- Eternal Gaiters -->
-				<item id="17416" min="1" max="2" chance="9.155" /> <!-- Helios Shaper -->
-				<item id="17419" min="1" max="2" chance="9.151" /> <!-- Helios Avenger -->
-				<item id="17420" min="1" max="2" chance="9.125" /> <!-- Helios Fighter -->
-				<item id="17418" min="1" max="2" chance="9.119" /> <!-- Helios Slasher -->
-				<item id="17424" min="1" max="2" chance="9.117" /> <!-- Helios Buster -->
-				<item id="17425" min="1" max="2" chance="9.085" /> <!-- Helios Caster -->
-				<item id="17426" min="1" max="2" chance="9.076" /> <!-- Helios Retributer -->
-				<item id="17422" min="1" max="2" chance="9.053" /> <!-- Helios Thrower -->
-				<item id="17421" min="1" max="2" chance="9.05" /> <!-- Helios Stormer -->
-				<item id="17423" min="1" max="2" chance="9.031" /> <!-- Helios Shooter -->
-				<item id="17417" min="1" max="2" chance="9.022" /> <!-- Helios Cutter -->
+				<item id="17437" min="1" max="3" chance="20.82" /> <!-- Eternal Leather Armor - Light Armor -->
+				<item id="17439" min="1" max="3" chance="20.43" /> <!-- Eternal Leather Gloves - Light Armor -->
+				<item id="17440" min="1" max="3" chance="20.3" /> <!-- Eternal Leather Boots - Light Armor -->
+				<item id="17436" min="1" max="3" chance="19.52" /> <!-- Eternal Leather Helmet - Light Armor -->
+				<item id="17438" min="1" max="3" chance="19.42" /> <!-- Eternal Leather Leggings - Light Armor -->
+				<item id="17441" min="1" max="3" chance="17.43" /> <!-- Eternal Circlet - Robe -->
+				<item id="17433" min="1" max="3" chance="17.34" /> <!-- Eternal Gauntlets - Heavy Armor -->
+				<item id="17442" min="1" max="3" chance="17.33" /> <!-- Eternal Tunic - Robe -->
+				<item id="17445" min="1" max="3" chance="17.06" /> <!-- Eternal Shoes - Robe -->
+				<item id="17431" min="1" max="3" chance="16.77" /> <!-- Eternal Breastplate - Heavy Armor -->
+				<item id="17430" min="1" max="3" chance="16.73" /> <!-- Eternal Helmet - Heavy Armor -->
+				<item id="17446" min="1" max="3" chance="16.575" /> <!-- Eternal Sigil - Robe -->
+				<item id="17443" min="1" max="3" chance="16.44" /> <!-- Eternal Stockings - Robe -->
+				<item id="17435" min="1" max="3" chance="16.145" /> <!-- Eternal Shield - Heavy Armor -->
+				<item id="17434" min="1" max="3" chance="16.13" /> <!-- Eternal Boots - Heavy Armor -->
+				<item id="17444" min="1" max="3" chance="16" /> <!-- Eternal Gloves - Robe -->
+				<item id="17432" min="1" max="3" chance="15.84" /> <!-- Eternal Gaiters - Heavy Armor -->
+				<item id="17416" min="1" max="2" chance="9.155" /> <!-- Amaranthine Shaper -->
+				<item id="17419" min="1" max="2" chance="9.151" /> <!-- Amaranthine Avenger -->
+				<item id="17420" min="1" max="2" chance="9.125" /> <!-- Amaranthine Fighter -->
+				<item id="17418" min="1" max="2" chance="9.119" /> <!-- Amaranthine Slasher -->
+				<item id="17424" min="1" max="2" chance="9.117" /> <!-- Amaranthine Buster -->
+				<item id="17425" min="1" max="2" chance="9.085" /> <!-- Amaranthine Caster -->
+				<item id="17426" min="1" max="2" chance="9.076" /> <!-- Amaranthine Retributer -->
+				<item id="17422" min="1" max="2" chance="9.053" /> <!-- Amaranthine Thrower -->
+				<item id="17421" min="1" max="2" chance="9.05" /> <!-- Amaranthine Stormer -->
+				<item id="17423" min="1" max="2" chance="9.031" /> <!-- Amaranthine Shooter -->
+				<item id="17417" min="1" max="2" chance="9.022" /> <!-- Amaranthine Cutter -->
 				<item id="37781" min="1" max="1" chance="50.53" /> <!-- Scroll of Blessing: Armor (R99-grade) -->
 				<item id="37772" min="1" max="1" chance="48.98" /> <!-- Scroll of Blessing: Weapon (R99-grade) -->
-				<item id="35568" min="1" max="1" chance="37.96" /> <!-- Bloody Helios Enhancement Stone -->
+				<item id="35568" min="1" max="1" chance="37.96" /> <!-- Bloody Amaranthine Enhancement Stone -->
 				<item id="19448" min="8" max="8" chance="31.42" /> <!-- Blessed Scroll: Enchant Armor (R-grade) -->
 				<item id="36389" min="8" max="8" chance="30.04" /> <!-- Giant's Scroll: Enchant Armor (R-grade) -->
 				<item id="46477" min="1" max="2" chance="24.06" /> <!-- Leona's Soul Crystal - Stage 4 -->
@@ -288,26 +288,26 @@
 				<item id="36386" min="4" max="4" chance="19.09" /> <!-- Giant's Scroll: Enchant Weapon (R-grade) -->
 				<item id="46509" min="1" max="1" chance="18.67" /> <!-- Lionel's Soul Crystal - Stage 6 -->
 				<item id="46479" min="1" max="1" chance="18.65" /> <!-- Leona's Soul Crystal - Stage 6 -->
-				<item id="17699" min="1" max="1" chance="17.45" /> <!-- Lv. 5 Giant CON Dye -->
-				<item id="17706" min="1" max="1" chance="17.44" /> <!-- Lv. 5 Ancient INT Dye -->
-				<item id="17709" min="1" max="1" chance="17.39" /> <!-- Lv. 5 Legendary STR Dye -->
-				<item id="17713" min="1" max="1" chance="17.31" /> <!-- Lv. 5 Legendary WIT Dye -->
-				<item id="17708" min="1" max="1" chance="17.29" /> <!-- Lv. 5 Ancient MEN Dye -->
-				<item id="17704" min="1" max="1" chance="17.14" /> <!-- Lv. 5 Ancient DEX Dye -->
-				<item id="17714" min="1" max="1" chance="16.88" /> <!-- Lv. 5 Legendary MEN Dye -->
-				<item id="17707" min="1" max="1" chance="16.82" /> <!-- Lv. 5 Ancient WIT Dye -->
-				<item id="17711" min="1" max="1" chance="16.66" /> <!-- Lv. 5 Legendary CON Dye -->
-				<item id="17703" min="1" max="1" chance="16.6" /> <!-- Lv. 5 Ancient STR Dye -->
-				<item id="17698" min="1" max="1" chance="16.51" /> <!-- Lv. 5 Giant DEX Dye -->
+				<item id="17699" min="1" max="1" chance="17.45" /> <!-- Lv. 5 Giant CON Dye - CON + 5 -->
+				<item id="17706" min="1" max="1" chance="17.44" /> <!-- Lv. 5 Ancient INT Dye - INT + 5 / Water Resistance + 25 -->
+				<item id="17709" min="1" max="1" chance="17.39" /> <!-- Lv. 5 Legendary STR Dye - STR + 5 / DEX + 1 / Fire Resistance + 25 -->
+				<item id="17713" min="1" max="1" chance="17.31" /> <!-- Lv. 5 Legendary WIT Dye - WIT + 5 / MEN + 1 / Wind Resistance + 25 -->
+				<item id="17708" min="1" max="1" chance="17.29" /> <!-- Lv. 5 Ancient MEN Dye - MEN + 5 / Holy Resistance + 25 -->
+				<item id="17704" min="1" max="1" chance="17.14" /> <!-- Lv. 5 Ancient DEX Dye - DEX + 5 / Earth Resistance + 25 -->
+				<item id="17714" min="1" max="1" chance="16.88" /> <!-- Lv. 5 Legendary MEN Dye - MEN + 5 / INT + 1 / Holy Resistance + 25 -->
+				<item id="17707" min="1" max="1" chance="16.82" /> <!-- Lv. 5 Ancient WIT Dye - WIT + 5 / Wind Resistance + 25 -->
+				<item id="17711" min="1" max="1" chance="16.66" /> <!-- Lv. 5 Legendary CON Dye - CON + 5 / STR + 1 / Dark Resistance + 25 -->
+				<item id="17703" min="1" max="1" chance="16.6" /> <!-- Lv. 5 Ancient STR Dye - STR + 5 / Fire Resistance + 25 -->
+				<item id="17698" min="1" max="1" chance="16.51" /> <!-- Lv. 5 Giant DEX Dye - DEX + 5 -->
 				<item id="46463" min="1" max="1" chance="16.25" /> <!-- Mermoden's Soul Crystal - Stage 5 -->
-				<item id="17701" min="1" max="1" chance="16.3" /> <!-- Lv. 5 Giant WIT Dye -->
-				<item id="17697" min="1" max="1" chance="16.27" /> <!-- Lv. 5 Giant STR Dye -->
-				<item id="17710" min="1" max="1" chance="16.26" /> <!-- Lv. 5 Legendary DEX Dye -->
+				<item id="17701" min="1" max="1" chance="16.3" /> <!-- Lv. 5 Giant WIT Dye - Wit + 5 -->
+				<item id="17697" min="1" max="1" chance="16.27" /> <!-- Lv. 5 Giant STR Dye - STR + 5 -->
+				<item id="17710" min="1" max="1" chance="16.26" /> <!-- Lv. 5 Legendary DEX Dye - DEX + 5 / CON + 1 / Earth Resistance + 25 -->
 				<item id="46447" min="1" max="2" chance="16.13" /> <!-- Kain's Soul Crystal - Stage 4 -->
-				<item id="17712" min="1" max="1" chance="16.16" /> <!-- Lv. 5 Legendary INT Dye -->
-				<item id="17700" min="1" max="1" chance="15.88" /> <!-- Lv. 5 Giant INT Dye -->
-				<item id="17702" min="1" max="1" chance="15.87" /> <!-- Lv. 5 Giant MEN Dye -->
-				<item id="17705" min="1" max="1" chance="15.83" /> <!-- Lv. 5 Ancient CON Dye -->
+				<item id="17712" min="1" max="1" chance="16.16" /> <!-- Lv. 5 Legendary INT Dye - INT + 5 / WIT + 1 / Water Resistance + 25 -->
+				<item id="17700" min="1" max="1" chance="15.88" /> <!-- Lv. 5 Giant INT Dye - INT + 5 -->
+				<item id="17702" min="1" max="1" chance="15.87" /> <!-- Lv. 5 Giant MEN Dye - Men + 5 -->
+				<item id="17705" min="1" max="1" chance="15.83" /> <!-- Lv. 5 Ancient CON Dye - CON + 5 / Dark Resistance + 25 -->
 				<item id="46448" min="1" max="1" chance="15.48" /> <!-- Kain's Soul Crystal - Stage 5 -->
 				<item id="46462" min="1" max="2" chance="15.05" /> <!-- Mermoden's Soul Crystal - Stage 4 -->
 				<item id="46464" min="1" max="1" chance="12.69" /> <!-- Mermoden's Soul Crystal - Stage 6 -->
@@ -327,7 +327,7 @@
 				<item id="46466" min="1" max="1" chance="5.176" /> <!-- Mermoden's Soul Crystal - Stage 8 -->
 				<item id="46451" min="1" max="1" chance="5.132" /> <!-- Kain's Soul Crystal - Stage 8 -->
 			</drop>
-		</drop_lists>
+		</dropLists>
 	</npc>
 	<npc id="29306" level="99" type="L2Monster" name="">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -395,14 +395,14 @@
 				<run ground="230" />
 			</speed>
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4286" level="1" /> <!-- Greater Sleep Resistance -->
 			<skill id="4440" level="5" /> <!-- Greater Paralysis Resistance -->
 			<skill id="4441" level="5" /> <!-- Greater Mental Attack Resistance -->
 			<skill id="5465" level="1" /> <!-- Earth Attack -->
 			<skill id="4416" level="11" /> <!-- Giant -->
 			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
-		</skill_list>
+		</skillList>
 		<ai type="BALANCED" />
 		<collision>
 			<radius normal="30" />
@@ -425,14 +425,14 @@
 				<run ground="230" />
 			</speed>
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4286" level="1" /> <!-- Greater Sleep Resistance -->
 			<skill id="4440" level="5" /> <!-- Greater Paralysis Resistance -->
 			<skill id="4441" level="5" /> <!-- Greater Mental Attack Resistance -->
 			<skill id="5465" level="1" /> <!-- Earth Attack -->
 			<skill id="4416" level="11" /> <!-- Giant -->
 			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
-		</skill_list>
+		</skillList>
 		<ai type="BALANCED" />
 		<collision>
 			<radius normal="30" />
@@ -455,17 +455,17 @@
 				<run ground="180" />
 			</speed>
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4461" level="1" /> <!-- Dagger/Rapier Vulnerability -->
 			<skill id="4823" level="1" /> <!-- Lethal Strike Resistance -->
 			<skill id="4379" level="5" /> <!-- Spear Resistance -->
-			<skill id="4071" level="5" /> <!-- Bow/Crossbow Resistance -->			
+			<skill id="4071" level="5" /> <!-- Bow/Crossbow Resistance -->
 			<skill id="4435" level="5" /> <!-- Greater Stun Resistance -->
 			<skill id="5465" level="1" /> <!-- Earth Attack -->
 			<skill id="4416" level="11" /> <!-- Giant -->
 			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
 			<skill id="16608" level="10" /> <!-- Servitor Attack Weakness -->
-		</skill_list>
+		</skillList>
 		<ai type="BALANCED" />
 		<collision>
 			<radius normal="24" />
@@ -488,16 +488,16 @@
 				<run ground="190" />
 			</speed>
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4461" level="1" /> <!-- Dagger/Rapier Vulnerability -->
 			<skill id="4823" level="1" /> <!-- Lethal Strike Resistance -->
 			<skill id="4379" level="5" /> <!-- Spear Resistance -->
-			<skill id="4071" level="5" /> <!-- Bow/Crossbow Resistance -->			
+			<skill id="4071" level="5" /> <!-- Bow/Crossbow Resistance -->
 			<skill id="5465" level="1" /> <!-- Earth Attack -->
 			<skill id="4416" level="11" /> <!-- Giant -->
 			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
 			<skill id="16608" level="10" /> <!-- Servitor Attack Weakness -->
-		</skill_list>
+		</skillList>
 		<ai type="BALANCED" />
 		<collision>
 			<radius normal="24" />
@@ -520,17 +520,17 @@
 				<run ground="180" />
 			</speed>
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4461" level="1" /> <!-- Dagger/Rapier Vulnerability -->
 			<skill id="4823" level="1" /> <!-- Lethal Strike Resistance -->
 			<skill id="4379" level="5" /> <!-- Spear Resistance -->
-			<skill id="4071" level="5" /> <!-- Bow/Crossbow Resistance -->			
+			<skill id="4071" level="5" /> <!-- Bow/Crossbow Resistance -->
 			<skill id="4438" level="5" /> <!-- Greater Sleep Resistance -->
 			<skill id="5465" level="1" /> <!-- Earth Attack -->
 			<skill id="4416" level="11" /> <!-- Giant -->
 			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
 			<skill id="16608" level="10" /> <!-- Servitor Attack Weakness -->
-		</skill_list>
+		</skillList>
 		<ai type="BALANCED" />
 		<collision>
 			<radius normal="24" />
@@ -553,17 +553,17 @@
 				<run ground="180" />
 			</speed>
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4461" level="1" /> <!-- Dagger/Rapier Vulnerability -->
 			<skill id="4823" level="1" /> <!-- Lethal Strike Resistance -->
 			<skill id="4379" level="5" /> <!-- Spear Resistance -->
-			<skill id="4071" level="5" /> <!-- Bow/Crossbow Resistance -->			
+			<skill id="4071" level="5" /> <!-- Bow/Crossbow Resistance -->
 			<skill id="4435" level="5" /> <!-- Greater Stun Resistance -->
 			<skill id="5465" level="1" /> <!-- Earth Attack -->
 			<skill id="4416" level="11" /> <!-- Giant -->
 			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
 			<skill id="16608" level="10" /> <!-- Servitor Attack Weakness -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="24" />
 			<height normal="45.5" />
@@ -585,10 +585,10 @@
 				<run ground="180" />
 			</speed>
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="5465" level="1" /> <!-- Earth Attack -->
 			<skill id="4416" level="11" /> <!-- Giant -->
-		</skill_list>
+		</skillList>
 		<ai type="BALANCED" />
 		<collision>
 			<radius normal="32" />
@@ -611,10 +611,10 @@
 				<run ground="180" />
 			</speed>
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="5465" level="1" /> <!-- Earth Attack -->
 			<skill id="4416" level="11" /> <!-- Giant -->
-		</skill_list>
+		</skillList>
 		<ai type="BALANCED" />
 		<collision>
 			<radius normal="32" />

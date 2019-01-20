@@ -67,7 +67,7 @@ public final class GetAgro extends AbstractEffect
 				{
 					if (!nearby.isMovementDisabled() && nearby.getTemplate().isClan(clans))
 					{
-						nearby.addDamageHate(effector, 200, 200);
+						nearby.addDamageHate(effector, 1, 200);
 						nearby.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, effector);
 					}
 				}

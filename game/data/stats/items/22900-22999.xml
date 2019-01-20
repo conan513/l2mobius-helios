@@ -638,6 +638,7 @@
 	</item>
 	<item id="22932" name="Entrance Pass: Kartia's Labyrinth Lv. 85 Solo" type="EtcItem">
 		<!-- Kartia's Labyrinth Entrance Pass given to adventurers by Kartia Research Center. You can reset the instance timer of the level 85 solo dungeon. Can be used only once a day. -->
+		<set name="icon" val="icon.etc_ticket_red_i00" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
 		<set name="is_sellable" val="false" />
@@ -646,7 +647,6 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.etc_ticket_red_i00" />
 		<set name="reuse_delay" val="86400000" />
 		<skills>
 			<skill id="22607" level="1" /> <!-- Extra Pass -->
@@ -654,6 +654,7 @@
 	</item>
 	<item id="22933" name="Entrance Pass: Kartia's Labyrinth Lv. 90 Solo" type="EtcItem">
 		<!-- Kartia's Labyrinth Entrance Pass given to adventurers by Kartia Research Center. You can reset the instance timer of the level 90 solo dungeon. Can be used only once a day. -->
+		<set name="icon" val="icon.etc_ticket_red_i00" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
 		<set name="is_sellable" val="false" />
@@ -662,7 +663,6 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.etc_ticket_red_i00" />
 		<set name="reuse_delay" val="86400000" />
 		<skills>
 			<skill id="22608" level="1" /> <!-- Extra Pass -->
@@ -670,6 +670,7 @@
 	</item>
 	<item id="22934" name="Entrance Pass: Kartia's Labyrinth Lv. 95 Solo" type="EtcItem">
 		<!-- Kartia's Labyrinth Entrance Pass given to adventurers by Kartia Research Center. You can reset the instance timer of the level 95 solo dungeon. Can be used only once a day. -->
+		<set name="icon" val="icon.etc_ticket_red_i00" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
 		<set name="is_sellable" val="false" />
@@ -678,7 +679,6 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.etc_ticket_red_i00" />
 		<set name="reuse_delay" val="86400000" />
 		<skills>
 			<skill id="22609" level="1" /> <!-- Extra Pass -->
@@ -686,6 +686,7 @@
 	</item>
 	<item id="22935" name="Entrance Pass: Kartia's Labyrinth Lv. 85 Party" type="EtcItem">
 		<!-- Kartia's Labyrinth Entrance Pass given to adventurers by Kartia Research Center. You can reset the instance timer of the level 85 party dungeon. Can be used only once a day. -->
+		<set name="icon" val="icon.etc_ticket_red_i00" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
 		<set name="is_sellable" val="false" />
@@ -694,7 +695,6 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.etc_ticket_red_i00" />
 		<set name="reuse_delay" val="86400000" />
 		<skills>
 			<skill id="22610" level="1" /> <!-- Extra Pass -->
@@ -702,6 +702,7 @@
 	</item>
 	<item id="22936" name="Entrance Pass: Kartia's Labyrinth Lv. 90 Party" type="EtcItem">
 		<!-- Kartia's Labyrinth Entrance Pass given to adventurers by Kartia Research Center. You can reset the instance timer of the level 90 party dungeon. Can be used only once a day. -->
+		<set name="icon" val="icon.etc_ticket_red_i00" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
 		<set name="is_sellable" val="false" />
@@ -710,7 +711,6 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.etc_ticket_red_i00" />
 		<set name="reuse_delay" val="86400000" />
 		<skills>
 			<skill id="22611" level="1" /> <!-- Extra Pass -->
@@ -718,6 +718,7 @@
 	</item>
 	<item id="22937" name="Entrance Pass: Kartia's Labyrinth Lv. 95 Party" type="EtcItem">
 		<!-- Kartia's Labyrinth Entrance Pass given to adventurers by Kartia Research Center. You can reset the instance timer of the level 95 party dungeon. Can be used only once a day. -->
+		<set name="icon" val="icon.etc_ticket_red_i00" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
 		<set name="is_sellable" val="false" />
@@ -726,7 +727,6 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.etc_ticket_red_i00" />
 		<set name="reuse_delay" val="86400000" />
 		<skills>
 			<skill id="22612" level="1" /> <!-- Extra Pass -->
@@ -902,7 +902,7 @@
 		</skills>
 	</item>
 	<item id="22947" name="Agathion - Singer and Dancer" additionalName="30-day" type="Armor">
-		<!-- Can summon Singer and Dancer that gleefully sings and dances when equipped. -->
+		<!-- Can summon Singer & Dancer that gleefully sings and dances when equipped. -->
 		<set name="icon" val="BranchSys2.icon.br_aga_singer_dancer_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="is_clan_depositable" val="false" />
@@ -1265,7 +1265,7 @@
 		</skills>
 	</item>
 	<item id="22967" name="Agathion - Singer and Dancer Pack (30-day)" type="EtcItem">
-		<!-- Wrapped Pack containing Singer and Dancer (30-day). -->
+		<!-- Wrapped Pack containing Singer & Dancer (30-day). -->
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
@@ -1280,7 +1280,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
-			<item id="22947" min="1" max="1" chance="100" /> <!-- Agathion - Singer and Dancer - 30-day -->
+			<item id="22947" min="1" max="1" chance="100" /> <!-- Agathion - Singer & Dancer - 30-day -->
 		</capsuled_items>
 	</item>
 	<item id="22968" name="Mount - Black Bear Pack (30-day)" type="EtcItem">

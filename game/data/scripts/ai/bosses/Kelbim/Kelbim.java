@@ -291,7 +291,7 @@ public class Kelbim extends AbstractNpcAI
 			case TELEPORT_DEVICE:
 			{
 				player.teleToLocation(-55730, 55643, -1954);
-				break;
+				return null;
 			}
 			case ENTER_DEVICE:
 			{

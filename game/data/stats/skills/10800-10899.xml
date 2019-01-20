@@ -1,8 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
 	<skill id="10800" toLevel="10" name="Superior Elemental Resistance">
-		<!-- Glory Days confirmed -->
-		<!-- STR + 2 and Fire/Water/Wind/Earth Resistance + 20. -->
+		<!-- Fire/Water/Wind/Earth Resistance + $s1. STR + $s2. -->
 		<icon>icon.skill10044</icon>
 		<operateType>P</operateType>
 		<magicLvl>
@@ -86,9 +85,8 @@
 		</effects>
 	</skill>
 	<skill id="10801" toLevel="8" name="Bullseye">
-		<!-- Glory Days confirmed -->
-		<!-- Decreases target's Bow/Crossbow Resistance by 40% and M. Def. by 5%. -->
-		<!-- TODO : Should cancel upon strike, guess there is a trigger on damage to add -->
+		<!-- Decreases target's Bow/Crossbow Resistance by $s1 and M. Def. by $s2. -->
+		<icon>icon.skill10801</icon>
 		<abnormalLvl>4</abnormalLvl>
 		<abnormalTime>15</abnormalTime> <!-- Confirm duration, GDL = 20 -->
 		<abnormalType>REAL_TARGET</abnormalType>
@@ -97,7 +95,6 @@
 			<value fromLevel="1" toLevel="8">100</value>
 			<value fromLevel="4" toLevel="8" fromSubLevel="1001" toSubLevel="1030">{base + base / 100 * subIndex}</value>
 		</activateRate>
-		<icon>icon.skill10801</icon>
 		<operateType>A2</operateType>
 		<magicLvl>
 			<value level="1">85</value>
@@ -133,7 +130,6 @@
 			<value level="8">-723</value>
 		</effectPoint>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>
 			<value level="1">1100</value>
@@ -209,9 +205,8 @@
 		</effects>
 	</skill>
 	<skill id="10802" toLevel="4" name="Mass Bullseye">
-		<!-- Glory Days confirmed -->
-		<!-- Decreases target's and nearby enemies' Bow/Crossbow Resistance by 60% and M. Def. by 25%. After a certain time, target explodes, suffering heavy damage. -->
-		<!-- TODO : Should cancel upon strike, guess there is a trigger on damage to add -->
+		<!-- Decreases target's and nearby enemies' Bow/Crossbow Resistance by $s1 and M. Def. by $s2. After a certain time, target explodes, suffering heavy damage. -->
+		<icon>icon.skill10782</icon>
 		<abnormalLvl>4</abnormalLvl>
 		<abnormalTime>15</abnormalTime> <!-- Confirm duration, GDL = 20 -->
 		<abnormalType>REAL_TARGET</abnormalType>
@@ -222,7 +217,6 @@
 		</activateRate>
 		<affectLimit>5-12</affectLimit>
 		<affectRange>400</affectRange>
-		<icon>icon.skill10782</icon>
 		<operateType>A2</operateType>
 		<magicLvl>
 			<value level="1">99</value>
@@ -237,7 +231,6 @@
 		<reuseDelay>180000</reuseDelay>
 		<effectPoint>-714</effectPoint>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>1400</effectRange>
 		<isDebuff>true</isDebuff>
@@ -280,11 +273,9 @@
 		</endEffects>
 	</skill>
 	<skill id="10803" toLevel="4" name="Time Bomb">
-		<!-- Glory Days confirmed -->
 		<!-- Boom! -->
 		<icon>icon.skill0099</icon>
 		<operateType>A1</operateType>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<magicLvl>97</magicLvl>
@@ -304,11 +295,9 @@
 		</effects>
 	</skill>
 	<skill id="10804" toLevel="4" name="Time Bomb">
-		<!-- Glory Days confirmed -->
 		<!-- Boom! -->
 		<icon>icon.skill0099</icon>
 		<operateType>A1</operateType>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<magicLvl>97</magicLvl>
@@ -328,8 +317,7 @@
 		</effects>
 	</skill>
 	<skill id="10805" toLevel="4" name="Quick Charge">
-		<!-- Glory Days confirmed -->
-		<!-- Momentarily teleport 500 forward. -->
+		<!-- Teleports $s1 grids forward. -->
 		<icon>icon.skill10805</icon>
 		<operateType>DA1</operateType>
 		<magicLvl>
@@ -361,7 +349,6 @@
 		<coolTime>400</coolTime>
 		<reuseDelay>30000</reuseDelay>
 		<effectPoint>2</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<isDebuff>true</isDebuff>
@@ -380,14 +367,12 @@
 		</conditions>
 	</skill>
 	<skill id="10806" toLevel="4" name="Frost Trap">
-		<!-- Glory Days confirmed -->
 		<!-- Decreases Speed, Atk. Spd. and Casting Spd. -->
 		<icon>icon.skill0516</icon>
 		<operateType>A2</operateType>
 		<effectPoint>-2</effectPoint>
 		<abnormalType>ALL_SPEED_DOWN</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<lvlBonusRate>30</lvlBonusRate>
@@ -418,7 +403,6 @@
 		</effects>
 	</skill>
 	<skill id="10807" toLevel="4" name="Frost Trap">
-		<!-- Glory Days confirmed -->
 		<!-- Inflicted with Hold and unable to move. -->
 		<icon>icon.skill0518</icon>
 		<operateType>A2</operateType>
@@ -426,7 +410,6 @@
 		<abnormalType>ROOT_MAGICALLY</abnormalType>
 		<abnormalVisualEffect>ROOT</abnormalVisualEffect>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<lvlBonusRate>30</lvlBonusRate>
@@ -450,15 +433,12 @@
 		</effects>
 	</skill>
 	<skill id="10808" toLevel="4" name="Decoy Provocation">
-		<!-- Glory Days confirmed -->
 		<!-- Decoy's provocation. Cannot change target. -->
-		<icon>icon.skill0000</icon>
 		<operateType>A2</operateType>
 		<hitTime>1000</hitTime>
 		<effectPoint>-2</effectPoint>
 		<abnormalType>TARGET_LOCK</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<activateRate>0</activateRate>
@@ -481,19 +461,16 @@
 		</effects>
 	</skill>
 	<skill id="10809" toLevel="1" name="Survival Movement">
-		<!-- Glory Days confirmed -->
-		<!-- TODO Disappears after 4 strikes. -->
-		<!-- P. Evasion + 15. Disappears after 4 strikes. -->
+		<!-- P. Evasion + $s1. Disappears after $s2 strikes. -->
+		<icon>icon.skill1087</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>1200</abnormalTime>
 		<abnormalType>SPECIAL_MOVE_UP</abnormalType>
-		<icon>icon.skill1087</icon>
 		<isTriggeredSkill>true</isTriggeredSkill>
 		<operateType>A2</operateType>
 		<reuseDelay>30000</reuseDelay>
 		<staticReuse>true</staticReuse>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
 		<hitCancelTime>0</hitCancelTime>
@@ -508,7 +485,8 @@
 		</effects>
 	</skill>
 	<skill id="10810" toLevel="4" name="Sniping">
-		<!-- For 30 minutes when a bow or crossbow is equipped, P. Atk. + 5%, Atk. Spd. + 5%, and P. Def./M. Def. + 5%. -->
+		<!-- For $s1 when a bow or crossbow is equipped, P. Atk. + $s2, Atk. Spd. + $s3, and P. Def./M. Def. + $s4. -->
+		<icon>icon.skill11870</icon>
 		<abnormalLvl>
 			<value level="1">1</value>
 			<value level="2">2</value>
@@ -521,7 +499,6 @@
 		</abnormalTime>
 		<!-- TODO: abnormalType -->
 		<effectPoint>687</effectPoint>
-		<icon>icon.skill11870</icon>
 		<magicLvl>
 			<value level="1">85</value>
 			<value level="2">90</value>
@@ -602,7 +579,7 @@
 		</effects>
 	</skill>
 	<skill id="10811" toLevel="4" name="Superior Hawk Mastery">
-		<!-- P. Atk. + 5% when equipped with a bow or crossbow. -->
+		<!-- P. Atk. + $s1 when equipped with a bow or crossbow. -->
 		<icon>icon.skill10811</icon>
 		<magicLvl>
 			<value level="1">85</value>
@@ -629,10 +606,7 @@
 		</effects>
 	</skill>
 	<skill id="10812" toLevel="3" name="Sneak Shot">
-		<!-- AUTO GENERATED SKILL -->
-		<!-- NOT USED ANYMORE ? -->
-		<!-- Attacks distant target with 29176 Power added to P. Atk. Inflicts Stun when attacking from behind. Requires a bow/crossbow. Over-hit. Critical. -->
-		<icon>icon.skill0000</icon>
+		<!-- Attacks distant target with $s1 Power added to P. Atk. Inflicts Stun when attacking from behind. Requires a bow/crossbow. Over-hit. Critical. -->
 		<operateType>A1</operateType>
 		<mpConsume>
 			<value level="1">93</value>
@@ -650,9 +624,7 @@
 		<reuseDelay>30000</reuseDelay>
 	</skill>
 	<skill id="10813" toLevel="3" name="Sneak Shot: Stun">
-		<!-- AUTO GENERATED SKILL -->
-		<!-- Stuns the enemy for 5 sec. Has a chance of canceling enemy's targeting. Requires a bow/crossbow. Over-hit. -->
-		<icon>icon.skill0000</icon>
+		<!-- Stuns the enemy for $s1. Has a chance of canceling enemy's targeting. Requires a bow/crossbow. Over-hit. -->
 		<operateType>A2</operateType>
 		<castRange>1100</castRange>
 		<reuseDelay>5000</reuseDelay>
@@ -661,7 +633,8 @@
 		<isDebuff>true</isDebuff>
 	</skill>
 	<skill id="10856" toLevel="4" name="Rapid Fire Position">
-		<!-- For 30 minutes when a bow or crossbow is equipped, P. Atk. + 5%, chance of receiving an M. Critical Hit - 5%, and P. Skill Cooldown - 5%. -->
+		<!-- For $s1 when a bow or crossbow is equipped, P. Atk. + $s2, chance of receiving an M. Critical Hit - $s3, and P. Skill Cooldown - $s4. -->
+		<icon>icon.skill11871</icon>
 		<abnormalLvl>
 			<value level="1">1</value>
 			<value level="2">2</value>
@@ -673,7 +646,6 @@
 			<value fromLevel="3" toLevel="4" fromSubLevel="1001" toSubLevel="1030">{1800 + subIndex * 90}</value>
 		</abnormalTime>
 		<!-- TODO: abnormalType -->
-		<icon>icon.skill11871</icon>
 		<magicLvl>
 			<value level="1">85</value>
 			<value level="2">90</value>
@@ -752,7 +724,7 @@
 		</effects>
 	</skill>
 	<skill id="10857" toLevel="4" name="Superior Speed Mastery">
-		<!-- Speed + 10. -->
+		<!-- Speed + $s1. -->
 		<icon>icon.skill10857</icon>
 		<operateType>P</operateType>
 		<magicLvl>
@@ -774,9 +746,7 @@
 		</effects>
 	</skill>
 	<skill id="10858" toLevel="3" name="Retreating Shot">
-		<!-- Updated to IO -->
-		<!-- Attacks target with 29176 Power added to P. Atk., cancels their targeting, and retreats 400 grids backward. -->
-		<icon>icon.skill0000</icon>
+		<!-- Attacks target with $s1 Power added to P. Atk., cancels their targeting, and retreats $s2 grids backward. -->
 		<operateType>A1</operateType>
 		<mpConsume>
 			<value level="1">32</value>

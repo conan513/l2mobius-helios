@@ -519,7 +519,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="39533" name="Secret Ingredient" type="EtcItem">
-		<!-- Leaf  from Karaphon at the deepest reaches of the Whispering Woods. Looks like a fish scale. Take this to Maestro Dolkin. -->
+		<!-- Leaf from Karaphon at the deepest reaches of the Whispering Woods. Looks like a fish scale. Take this to Maestro Dolkin. -->
 		<set name="icon" val="icon.etc_rune_fish_scale_i00" />
 		<set name="is_depositable" val="false" />
 		<set name="is_clan_depositable" val="false" />
@@ -534,7 +534,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="39534" name="Dolkin's Report" type="EtcItem">
-		<!-- A report from Maestro Dolkin,  who is conducting research in the Whispering Woods. Take this to Karla at the administrative grounds. -->
+		<!-- A report from Maestro Dolkin, who is conducting research in the Whispering Woods. Take this to Karla at the administrative grounds. -->
 		<set name="icon" val="icon.etc_kamael_skill_book_i00" />
 		<set name="is_depositable" val="false" />
 		<set name="is_clan_depositable" val="false" />
@@ -580,6 +580,7 @@
 	</item>
 	<item id="39537" name="Prophecy Machine Fragment" type="EtcItem">
 		<!-- Part of a machine used by ancient Ertheia to record prophecies. Double-click to look closer. -->
+		<set name="icon" val="icon.etc_ertheia_prophecy_device_piece" />
 		<set name="is_depositable" val="false" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
@@ -590,7 +591,6 @@
 		<set name="is_commissionable" val="false" />
 		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
-		<set name="icon" val="icon.etc_ertheia_prophecy_device_piece" />
 	</item>
 	<item id="39538" name="Kain's Prophecy Machine Fragment" type="EtcItem">
 		<!-- Part of a machine used by ancient Ertheia to record prophecies, carried by Kain Van Halter. -->
@@ -609,6 +609,7 @@
 	</item>
 	<item id="39539" name="Ertheia Prophecy Machine" type="EtcItem">
 		<!-- Machine used by ancient Ertheia to record prophecies. Not all prophecies have been restoreds. Double-click to look closer. -->
+		<set name="icon" val="icon.etc_ertheia_prophecy_device" />
 		<set name="is_depositable" val="false" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
@@ -619,10 +620,10 @@
 		<set name="is_commissionable" val="false" />
 		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
-		<set name="icon" val="icon.etc_ertheia_prophecy_device" />
 	</item>
 	<item id="39540" name="Ertheia Prophecy Machine" type="EtcItem">
 		<!-- Machine used by ancient Ertheia to record prophecies, its contents have been partially restored by Ivory Tower's Arkenias. Double-click to look closer. -->
+		<set name="icon" val="icon.etc_ertheia_prophecy_device" />
 		<set name="is_depositable" val="false" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
@@ -631,13 +632,13 @@
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" /> 
-		<set name="icon" val="icon.etc_ertheia_prophecy_device" />
+		<set name="is_private_storeable" val="false" />
 		<set name="default_action" val="SHOW_HTML" />
 		<set name="handler" val="Book" />
 	</item>
 	<item id="39541" name="Ertheia Prophecy Machine" type="EtcItem">
 		<!-- Machine used by ancient Ertheia to record prophecies, its contents have been restored by Lich King Icarus, a necromancer in Hardin's Academy. Double-click to look closer. -->
+		<set name="icon" val="icon.etc_ertheia_prophecy_device" />
 		<set name="is_depositable" val="false" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
@@ -648,7 +649,6 @@
 		<set name="is_commissionable" val="false" />
 		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
-		<set name="icon" val="icon.etc_ertheia_prophecy_device" />
 	</item>
 	<item id="39542" name="Atelia" type="EtcItem">
 		<!-- A rare gem only found in the Wind Spirit Realm. It emits powerful energy. -->
@@ -869,6 +869,7 @@
 	</item>
 	<item id="39557" name="Minstrel's Scroll of Escape: Town of Aden" type="EtcItem">
 		<!-- A scroll given as a gift. Takes you to Town of Aden. -->
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
@@ -877,7 +878,6 @@
 		<set name="is_commissionable" val="false" />
 		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
-		<set name="icon" val="icon.etc_scroll_of_return_i03" />
 	</item>
 	<item id="39558" name="Low-grade Talisman Ingredient Box" type="EtcItem">
 		<!-- Not in Use -->
@@ -899,13 +899,13 @@
 		<set name="extractableCountMin" val="1" />
 		<set name="extractableCountMax" val="1" />
 		<capsuled_items>
-			<item id="39386" min="1" max="1" chance="30" />
-			<item id="39381" min="1" max="1" chance="30" />
-			<item id="39387" min="1" max="1" chance="15" />
-			<item id="39382" min="1" max="1" chance="15" />
-			<item id="39388" min="1" max="1" chance="5" />
-			<item id="39383" min="1" max="1" chance="5" />
-			<item id="39592" min="1" max="1" chance="50" />
+			<item id="39386" min="1" max="1" chance="30" /> <!-- Lv. 1 Windy LUC Dye - LUC + 1 -->
+			<item id="39381" min="1" max="1" chance="30" /> <!-- Lv. 1 Windy CHA Dye - CHA + 1 -->
+			<item id="39387" min="1" max="1" chance="15" /> <!-- Lv. 2 Windy LUC Dye - LUC + 2 -->
+			<item id="39382" min="1" max="1" chance="15" /> <!-- Lv. 2 Windy CHA Dye - CHA + 2 -->
+			<item id="39388" min="1" max="1" chance="5" /> <!-- Lv. 3 Windy LUC Dye - LUC + 3 -->
+			<item id="39383" min="1" max="1" chance="5" /> <!-- Lv. 3 Windy CHA Dye - CHA + 3 -->
+			<item id="39592" min="1" max="1" chance="50" /> <!-- Tempest Stone -->
 		</capsuled_items>
 	</item>
 	<item id="39561" name="Mid-grade Wind Dye Pack" type="EtcItem">
@@ -918,9 +918,9 @@
 		<set name="extractableCountMin" val="1" />
 		<set name="extractableCountMax" val="1" />
 		<capsuled_items>
-			<item id="39389" min="1" max="1" chance="50" />
-			<item id="39384" min="1" max="1" chance="50" />
-			<item id="39592" min="1" max="1" chance="30" />
+			<item id="39389" min="1" max="1" chance="50" /> <!-- Lv. 4 Windy LUC Dye - LUC + 4 -->
+			<item id="39384" min="1" max="1" chance="50" /> <!-- Lv. 4 Windy CHA Dye - CHA + 4 -->
+			<item id="39592" min="1" max="1" chance="30" /> <!-- Tempest Stone -->
 		</capsuled_items>
 	</item>
 	<item id="39562" name="High-grade Wind Dye Pack" type="EtcItem">
@@ -934,9 +934,9 @@
 		<set name="extractableCountMin" val="1" />
 		<set name="extractableCountMax" val="1" />
 		<capsuled_items>
-			<item id="39390" min="1" max="1" chance="50" />
-			<item id="39385" min="1" max="1" chance="50" />
-			<item id="39592" min="1" max="1" chance="10" />
+			<item id="39390" min="1" max="1" chance="50" /> <!-- Lv. 5 Windy LUC Dye - LUC + 5 -->
+			<item id="39385" min="1" max="1" chance="50" /> <!-- Lv. 5 Windy CHA Dye - CHA + 5 -->
+			<item id="39592" min="1" max="1" chance="10" /> <!-- Tempest Stone -->
 		</capsuled_items>
 	</item>
 	<item id="39563" name="Talisman - Wind Pack" type="EtcItem">
@@ -950,10 +950,10 @@
 		<set name="extractableCountMin" val="1" />
 		<set name="extractableCountMax" val="1" />
 		<capsuled_items>
-			<item id="39564" min="1" max="1" chance="25" />
-			<item id="39565" min="1" max="1" chance="25" />
-			<item id="39566" min="1" max="1" chance="25" />
-			<item id="39567" min="1" max="1" chance="25" />
+			<item id="39564" min="1" max="1" chance="25" /> <!-- Talisman - Wind Pack - P. Skill Critical Damage -->
+			<item id="39565" min="1" max="1" chance="25" /> <!-- Talisman - Wind Pack - M. Skill Critical Damage -->
+			<item id="39566" min="1" max="1" chance="25" /> <!-- Talisman - Wind Pack -->
+			<item id="39567" min="1" max="1" chance="25" /> <!-- Talisman - Wind Pack -->
 		</capsuled_items>
 	</item>
 	<item id="39564" name="Talisman - Wind Pack" additionalName="P. Skill Critical Damage" type="EtcItem">
@@ -967,7 +967,7 @@
 		<set name="extractableCountMin" val="1" />
 		<set name="extractableCountMax" val="1" />
 		<capsuled_items>
-			<item id="39568" min="1" max="1" chance="100" />
+			<item id="39568" min="1" max="1" chance="100" /> <!-- Talisman - Wind: P. Critical Damage - Passive -->
 		</capsuled_items>
 	</item>
 	<item id="39565" name="Talisman - Wind Pack" additionalName="M. Skill Critical Damage" type="EtcItem">
@@ -981,7 +981,7 @@
 		<set name="extractableCountMin" val="1" />
 		<set name="extractableCountMax" val="1" />
 		<capsuled_items>
-			<item id="39569" min="1" max="1" chance="100" />
+			<item id="39569" min="1" max="1" chance="100" /> <!-- Talisman - Wind: M. Critical Damage - Passive -->
 		</capsuled_items>
 	</item>
 	<item id="39566" name="Talisman - Wind Pack" type="EtcItem">
@@ -995,7 +995,7 @@
 		<set name="extractableCountMin" val="1" />
 		<set name="extractableCountMax" val="1" />
 		<capsuled_items>
-			<item id="39570" min="1" max="1" chance="100" />
+			<item id="39570" min="1" max="1" chance="100" /> <!-- Talisman - Wind: Defense -->
 		</capsuled_items>
 	</item>
 	<item id="39567" name="Talisman - Wind Pack" type="EtcItem">
@@ -1009,7 +1009,7 @@
 		<set name="extractableCountMin" val="1" />
 		<set name="extractableCountMax" val="1" />
 		<capsuled_items>
-			<item id="39571" min="1" max="1" chance="100" />
+			<item id="39571" min="1" max="1" chance="100" /> <!-- Talisman - Wind: Debuff Resistance -->
 		</capsuled_items>
 	</item>
 	<item id="39568" name="Talisman - Wind: P. Critical Damage" additionalName="Passive" type="Armor">
@@ -1444,6 +1444,7 @@
 	</item>
 	<item id="39590" name="Yum Yum Candy (30-day)" additionalName="Event" type="EtcItem">
 		<!-- XP/SP Gain + 15%. Stacks with Nom Nom Candy, but not with another Yum Yum Candy. -->
+		<set name="icon" val="icon.etc_whiteday_candy_i05" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
@@ -1452,11 +1453,11 @@
 		<set name="is_commissionable" val="false" />
 		<set name="is_private_storeable" val="false" />
 		<set name="etcitem_type" val="ENCHT_ATTR_RUNE" />
-		<set name="icon" val="icon.etc_whiteday_candy_i05" />
 		<set name="time" val="43200" />
 	</item>
 	<item id="39591" name="Nom Nom Candy (30-day)" additionalName="Event" type="EtcItem">
 		<!-- XP/SP Gain + 15%. Stacks with Yum Yum Candy, but not with another Nom Nom Candy. -->
+		<set name="icon" val="icon.etc_whiteday_candy_i06" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
@@ -1465,7 +1466,6 @@
 		<set name="is_commissionable" val="false" />
 		<set name="is_private_storeable" val="false" />
 		<set name="etcitem_type" val="ENCHT_ATTR_RUNE" />
-		<set name="icon" val="icon.etc_whiteday_candy_i06" />
 		<set name="time" val="43200" />
 	</item>
 	<item id="39592" name="Tempest Stone" type="EtcItem">

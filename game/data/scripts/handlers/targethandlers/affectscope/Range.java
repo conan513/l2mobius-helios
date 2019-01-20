@@ -62,7 +62,7 @@ public class Range implements IAffectScopeHandler
 			{
 				return false;
 			}
-			if ((affectObject != null) && !affectObject.checkAffectedObject(activeChar, c))
+			if ((c != target) && (affectObject != null) && !affectObject.checkAffectedObject(activeChar, c))
 			{
 				return false;
 			}

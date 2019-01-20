@@ -20,7 +20,7 @@
 		</stats>
 	</item>
 	<item id="47401" name="Returned Duo Bracelet" additionalName="Event" type="Armor">
-		<!-- MP +216, CON +2, MEN +2, activates 5 Talisman Slots when equipped. <Skills Used>. 1. Duo - Prophecy: When used, party members' P./M. Atk. +10% for 5 minutes. (Cooldown: 270 seconds). 2. Duo - Energy of Blessing - When used, EXP/SP gained from hunting +30% for 3 hours. Duo's Gift' item received when the buff ends. (Cooldown: 10 hours). Will be deleted when the event ends. -->
+		<!-- MP +216, CON +2, MEN +2, activates 5 Talisman Slots when equipped.. <Skills Used>. 1. Duo - Prophecy: When used, party members' P./M. Atk. +10% for 5 minutes. (Cooldown: 270 seconds). 2. Duo - Energy of Blessing - When used, EXP/SP gained from hunting +30% for 3 hours. ?uo's Gift' item received when the buff ends. (Cooldown: 10 hours). Will be deleted when the event ends. -->
 		<set name="icon" val="icon.dimension_bracelet_i05" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rbracelet" />
@@ -53,6 +53,22 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_private_storeable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="handler" val="ItemSkills" />
+		<set name="immediate_effect" val="true" />
+		<skills>
+			<skill id="9281" level="1" /> <!-- Drum Melody - Heavenly Cocktail -->
+			<skill id="9282" level="1" /> <!-- Lute Melody - Heavenly Cocktail -->
+			<skill id="9283" level="1" /> <!-- Pipe Organ Melody - Heavenly Cocktail -->
+			<skill id="9284" level="1" /> <!-- Guitar Melody - Heavenly Cocktail -->
+			<skill id="9285" level="1" /> <!-- Harp Melody - Heavenly Cocktail -->
+			<skill id="9280" level="1" /> <!-- Horn Melody - Heavenly Cocktail -->
+			<skill id="17297" level="1" /> <!-- Emperor's Cookie: Prevailing Sonata -->
+			<skill id="17298" level="1" /> <!-- Emperor's Cookie: Daring Sonata -->
+			<skill id="17299" level="1" /> <!-- Emperor's Cookie: Refreshing Sonata -->
+			<skill id="9569" level="1" /> <!-- Heavenly P. Atk. Cookie -->
+		</skills>
 	</item>
 	<item id="47403" name="Emperor's Dessert Set (Magic Type)" type="EtcItem">
 		<!-- Use to feel the effects of the Heavenly Cocktail, Heavenly Magic Attack, and Emperor's Cookie. Cannot be used in the Olympiad. -->
@@ -65,6 +81,22 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_private_storeable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="handler" val="ItemSkills" />
+		<set name="immediate_effect" val="true" />
+		<skills>
+			<skill id="9281" level="1" /> <!-- Drum Melody - Heavenly Cocktail -->
+			<skill id="9282" level="1" /> <!-- Lute Melody - Heavenly Cocktail -->
+			<skill id="9283" level="1" /> <!-- Pipe Organ Melody - Heavenly Cocktail -->
+			<skill id="9284" level="1" /> <!-- Guitar Melody - Heavenly Cocktail -->
+			<skill id="9285" level="1" /> <!-- Harp Melody - Heavenly Cocktail -->
+			<skill id="9280" level="1" /> <!-- Horn Melody - Heavenly Cocktail -->
+			<skill id="17297" level="1" /> <!-- Emperor's Cookie: Prevailing Sonata -->
+			<skill id="17298" level="1" /> <!-- Emperor's Cookie: Daring Sonata -->
+			<skill id="17299" level="1" /> <!-- Emperor's Cookie: Refreshing Sonata -->
+			<skill id="9571" level="1" /> <!-- Heavenly Magic Cookie -->
+		</skills>
 	</item>
 	<item id="47404" name="Emperor's Dessert Set (Defense Type)" type="EtcItem">
 		<!-- Use to feel the effects of the Heavenly Cocktail, Heavenly Defense Cookie, and Emperor's Cookie. Cannot be used in the Olympiad. -->
@@ -77,6 +109,22 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_private_storeable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="handler" val="ItemSkills" />
+		<set name="immediate_effect" val="true" />
+		<skills>
+			<skill id="9281" level="1" /> <!-- Drum Melody - Heavenly Cocktail -->
+			<skill id="9282" level="1" /> <!-- Lute Melody - Heavenly Cocktail -->
+			<skill id="9283" level="1" /> <!-- Pipe Organ Melody - Heavenly Cocktail -->
+			<skill id="9284" level="1" /> <!-- Guitar Melody - Heavenly Cocktail -->
+			<skill id="9285" level="1" /> <!-- Harp Melody - Heavenly Cocktail -->
+			<skill id="9280" level="1" /> <!-- Horn Melody - Heavenly Cocktail -->
+			<skill id="17297" level="1" /> <!-- Emperor's Cookie: Prevailing Sonata -->
+			<skill id="17298" level="1" /> <!-- Emperor's Cookie: Daring Sonata -->
+			<skill id="17299" level="1" /> <!-- Emperor's Cookie: Refreshing Sonata -->
+			<skill id="9570" level="1" /> <!-- Heavenly P. Def. Cookie -->
+		</skills>
 	</item>
 	<item id="47405" name="Scroll of Experience - Lv1 (Main Class)" type="EtcItem">
 		<!-- Use to gain 31 billion EXP and 40 million SP. Can be used by characters with Lv. 94 or above. -->
@@ -222,34 +270,34 @@
 			<item id="35567" min="1" max="1" chance="5.5" /> <!-- Dark Eternal Enhancement Stone -->
 			<item id="27598" min="1" max="1" chance="2.5" /> <!-- Scroll of Blessing: Weapon (R99-grade) -->
 			<item id="27597" min="1" max="1" chance="2.6" /> <!-- Scroll of Blessing: Weapon (R95-grade) -->
-			<item id="27599" min="1" max="1" chance="3.4" /> <!-- Scroll of Blessing: Weapon (R-grade) -->
+			<item id="27599" min="1" max="1" chance="3.4" /> <!-- Scroll of Blessing: Armor (R-grade) -->
 			<item id="27601" min="1" max="1" chance="2.5" /> <!-- Scroll of Blessing: Armor (R99-grade) -->
 			<item id="27600" min="1" max="1" chance="2.6" /> <!-- Scroll of Blessing: Armor (R95-grade) -->
 			<item id="27599" min="1" max="1" chance="3.4" /> <!-- Scroll of Blessing: Armor (R-grade) -->
 			<item id="39720" min="1" max="1" chance="6" /> <!-- Maphr's Luck Potion -->
-			<item id="34954" min="1" max="1" chance="2.5" /> <!-- Lv.5 Legendary Dye Pack -->
-			<item id="34955" min="1" max="1" chance="2.5" /> <!-- Lv.5 Ancient Dye Pack -->
-			<item id="34953" min="1" max="1" chance="2.5" /> <!-- Lv.5 Giant Dye Pack -->
-			<item id="34951" min="1" max="1" chance="2.6" /> <!-- Lv.4 Legendary Dye Pack -->
-			<item id="34952" min="1" max="1" chance="2.6" /> <!-- Lv.4 Ancient Dye Pack -->
-			<item id="34950" min="1" max="1" chance="2.6" /> <!-- Lv.4 Giant Dye Pack -->
-			<item id="34946" min="1" max="1" chance="3.4" /> <!-- Lv.3 Legendary Dye Pack -->
-			<item id="34947" min="1" max="1" chance="3.4" /> <!-- Lv.3 Ancient Dye Pack -->
-			<item id="34945" min="1" max="1" chance="3.4" /> <!-- Lv.3 Giant Dye Pack -->
+			<item id="34954" min="1" max="1" chance="2.5" /> <!-- Lv. 5 Legendary Dye Pack - Event -->
+			<item id="34955" min="1" max="1" chance="2.5" /> <!-- Lv. 5 Ancient Dye Pack - Event -->
+			<item id="34953" min="1" max="1" chance="2.5" /> <!-- Lv. 5 Giant Dye Pack - Event -->
+			<item id="34951" min="1" max="1" chance="2.6" /> <!-- Lv. 4 Legendary Dye Pack - Event -->
+			<item id="34952" min="1" max="1" chance="2.6" /> <!-- Lv. 4 Ancient Dye Pack - Event -->
+			<item id="34950" min="1" max="1" chance="2.6" /> <!-- Lv. 4 Giant Dye Pack - Event -->
+			<item id="34946" min="1" max="1" chance="3.4" /> <!-- Lv. 3 Legendary Dye Pack - Event -->
+			<item id="34947" min="1" max="1" chance="3.4" /> <!-- Lv. 3 Ancient Dye Pack - Event -->
+			<item id="34945" min="1" max="1" chance="3.4" /> <!-- Lv. 3 Giant Dye Pack - Event -->
 			<item id="27594" min="1" max="1" chance="5" /> <!-- Maphr's Wind Scroll -->
-			<item id="40227" min="1" max="1" chance="5" /> <!-- Freya's Scroll -->
+			<item id="40227" min="1" max="1" chance="5" /> <!-- Freya's Frozen Scroll -->
 			<item id="27673" min="1" max="1" chance="3.5" /> <!-- Freya's Scroll of Storm -->
 			<item id="40056" min="1" max="1" chance="6" /> <!-- Mysterious Wind Scroll -->
-			<item id="39634" min="1" max="1" chance="3.5" /> <!-- Venir's Talisman (Stage 1) -->
-			<item id="39635" min="1" max="1" chance="4.5" /> <!-- Venir's Talisman (Stage 2) -->
+			<item id="39634" min="1" max="1" chance="3.5" /> <!-- Venir's Talisman - Stage 1 -->
+			<item id="39635" min="1" max="1" chance="4.5" /> <!-- Venir's Talisman - Stage 2 -->
 			<item id="36152" min="1" max="1" chance="4.5" /> <!-- Kaliel's Energy Box -->
 			<item id="47385" min="1" max="1" chance="5" /> <!-- Balthus Knight Mark -->
-			<item id="19440" min="1" max="1" chance="5" /> <!-- Gemstone (R-Grade) -->
-			<item id="23762" min="1" max="1" chance="4" /> <!-- High-Grade Elixir Pack -->
+			<item id="19440" min="1" max="1" chance="5" /> <!-- Gemstone (R-grade) -->
+			<item id="23762" min="1" max="1" chance="4" /> <!-- High-grade Elixir Pack - Event -->
 	</capsuled_items>
 	</item>
 	<item id="47417" name="Dandy's Elemental Shirt" additionalName="2-hour" type="Armor">
-		<!-- A shiny magic shirt laden with Einhasad's Energy. <Item Skill>. M. Def. +17. Movement Speed +7.  Max HP +547. Max MP +547. Skill MP Consumption -3%. Damage Reflection Resistance +5. Vampiric Rage +5%. Skill Cooldown -3%. Damage Received -3%. Water/Fire/Wind/Earth/Divine/Dark Attribute Resistance +36. STR +4, DEX +4, CON +4, INT +4, WIT +4, MEN +4. <Active Skill>. Einhasad's Wrath/Einhasad's Protection/Einhasad's Silence/Einhasad's Salvation. Will be deleted when the event ends. Enchantment not possible. -->
+		<!-- A shiny magic shirt laden with Einhasad's Energy. <Item Skill>. M. Def. +17. Movement Speed +7. Max HP +547. Max MP +547. Skill MP Consumption -3%. Damage Reflection Resistance +5. Vampiric Rage +5%. Skill Cooldown -3%. Damage Received -3%. Water/Fire/Wind/Earth/Divine/Dark Attribute Resistance +36. STR +4, DEX +4, CON +4, INT +4, WIT +4, MEN +4.. <Active Skill>. Einhasad's Wrath/Einhasad's Protection/Einhasad's Silence/Einhasad's Salvation. Will be deleted when the event ends. Enchantment not possible. -->
 		<set name="icon" val="icon.ainhasard_shirt" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="underwear" />
@@ -275,7 +323,7 @@
 		</stats>
 	</item>
 	<item id="47418" name="Dandy's Shiny Elemental Shirt" additionalName="2-hour" type="Armor">
-		<!-- A shiny magic shirt laden with Einhasad's Energy. <Item Skill>. M. Def. +18. Movement Speed +7.  Max HP +552. Max MP +552. Skill MP Consumption -3%. Damage Reflection Resistance +5. Vampiric Rage +5%. Skill Cooldown -3%. Damage Received -3%. Water/Fire/Wind/Earth/Divine/Dark Attribute Resistance +36. STR +4, DEX +4, CON +4, INT +4, WIT +4, MEN +4. <Active Skill>. Einhasad's Wrath/Einhasad's Protection/Einhasad's Salvation/Einhasad's Silence. Will be deleted when the event ends. Enchantment not possible. -->
+		<!-- A shiny magic shirt laden with Einhasad's Energy. <Item Skill>. M. Def. +18. Movement Speed +7. Max HP +552. Max MP +552. Skill MP Consumption -3%. Damage Reflection Resistance +5. Vampiric Rage +5%. Skill Cooldown -3%. Damage Received -3%. Water/Fire/Wind/Earth/Divine/Dark Attribute Resistance +36. STR +4, DEX +4, CON +4, INT +4, WIT +4, MEN +4.. <Active Skill>. Einhasad's Wrath/Einhasad's Protection/Einhasad's Salvation/Einhasad's Silence. Will be deleted when the event ends. Enchantment not possible. -->
 		<set name="icon" val="icon.ainhasard_shirt" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="underwear" />
@@ -777,7 +825,7 @@
 		<set name="time" val="43200" />
 		<set name="handler" val="ExtractableItems" />
 			<capsuled_items>
-			<item id="37494" min="1" max="1" chance="100" /> 
+			<item id="37494" min="1" max="1" chance="100" /> <!-- Chaos Essence (Dual Class) -->
 		</capsuled_items>
 	</item>
 	<item id="47466" name="Baium's Soul Ring" additionalName="STR" type="Armor">

@@ -306,6 +306,7 @@
 	</item>
 	<item id="23319" name="Harp's Sealed Rune of Power (3-day)" type="EtcItem">
 		<!-- If stored in the inventory, STR + 7 permanently, and has a 5% chance of Stunning all enemies within 200 grids for 3 sec. during a standard attack. 3-day. -->
+		<set name="icon" val="BranchSys3.icon1.g_rune_of_half_power" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
@@ -317,13 +318,13 @@
 		<set name="time" val="4320" />
 		<set name="etcitem_type" val="ENCHT_ATTR_RUNE" />
 		<set name="immediate_effect" val="true" />
-		<set name="icon" val="BranchSys3.icon1.g_rune_of_half_power" />
 		<skills>
 			<skill id="22695" level="1" /> <!-- Harp's Sealed Rune of Power -->
 		</skills>
 	</item>
 	<item id="23320" name="Harp's Sealed Rune of Magic (3-day)" type="EtcItem">
 		<!-- If stored in the inventory, INT + 7 permanently, and has a 10% chance of decreasing all enemies' M. Def. by 20% for 10 sec. within 400 grids during a magic attack. 3-day. -->
+		<set name="icon" val="BranchSys3.icon1.g_rune_of_half_magic" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
@@ -335,13 +336,13 @@
 		<set name="time" val="4320" />
 		<set name="etcitem_type" val="ENCHT_ATTR_RUNE" />
 		<set name="immediate_effect" val="true" />
-		<set name="icon" val="BranchSys3.icon1.g_rune_of_half_magic" />
 		<skills>
 			<skill id="22696" level="1" /> <!-- Harp's Sealed Rune of Magic -->
 		</skills>
 	</item>
 	<item id="23321" name="Flynt's Sealed Rune of Will (3-day)" type="EtcItem">
 		<!-- If stored in the inventory, CON + 7 permanently, and has a 5% chance of becoming invincible for 5 sec when attacked. 3-day. -->
+		<set name="icon" val="BranchSys3.icon1.g_rune_of_flint_will" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
@@ -353,13 +354,13 @@
 		<set name="time" val="4320" />
 		<set name="etcitem_type" val="ENCHT_ATTR_RUNE" />
 		<set name="immediate_effect" val="true" />
-		<set name="icon" val="BranchSys3.icon1.g_rune_of_flint_will" />
 		<skills>
 			<skill id="22697" level="1" /> <!-- Flynt's Sealed Rune of Will -->
 		</skills>
 	</item>
 	<item id="23322" name="Flynt's Sealed Rune of Destruction (3-day)" type="EtcItem">
 		<!-- If stored in the inventory, STR + 7 permanently, and has a 5% chance of inflicting 20% additional damage when using a skill attack. 3-day. -->
+		<set name="icon" val="BranchSys3.icon1.g_rune_of_flint_destroy" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
@@ -371,13 +372,13 @@
 		<set name="time" val="4320" />
 		<set name="etcitem_type" val="ENCHT_ATTR_RUNE" />
 		<set name="immediate_effect" val="true" />
-		<set name="icon" val="BranchSys3.icon1.g_rune_of_flint_destroy" />
 		<skills>
 			<skill id="22698" level="1" /> <!-- Flynt's Sealed Rune of Destruction -->
 		</skills>
 	</item>
 	<item id="23323" name="Dr. Destroy's Sealed Rune of Skill (3-day)" type="EtcItem">
 		<!-- If stored in the inventory, DEX + 7 permanently, and has a 5% chance of increasing Critical Rate and Critical Damage by 20% for 10 sec. 3-day. -->
+		<set name="icon" val="BranchSys3.icon1.g_rune_of_destroy_tech" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
@@ -389,13 +390,13 @@
 		<set name="time" val="4320" />
 		<set name="etcitem_type" val="ENCHT_ATTR_RUNE" />
 		<set name="immediate_effect" val="true" />
-		<set name="icon" val="BranchSys3.icon1.g_rune_of_destroy_tech" />
 		<skills>
 			<skill id="22699" level="1" /> <!-- Dr. Destroy's Sealed Rune of Skill -->
 		</skills>
 	</item>
 	<item id="23324" name="Dr. Destroy's Sealed Rune of Wisdom (3-day)" type="EtcItem">
 		<!-- If stored in the inventory, INT + 7 permanently, and has a 10% chance of not consuming MP for healing skills. 3-day. -->
+		<set name="icon" val="BranchSys3.icon1.g_rune_of_destroy_wisdom" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
@@ -407,13 +408,13 @@
 		<set name="time" val="4320" />
 		<set name="etcitem_type" val="ENCHT_ATTR_RUNE" />
 		<set name="immediate_effect" val="true" />
-		<set name="icon" val="BranchSys3.icon1.g_rune_of_destroy_wisdom" />
 		<skills>
 			<skill id="22700" level="1" /> <!-- Dr. Destroy's Sealed Rune of Wisdom -->
 		</skills>
 	</item>
 	<item id="23325" name="Harp's Sealed Rune of Power" type="EtcItem">
 		<!-- If stored in the inventory, STR + 7 permanently, and has a 5% chance of Stunning all enemies within 200 grids for 3 sec. during a standard attack. -->
+		<set name="icon" val="BranchSys3.icon1.g_rune_of_half_power" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
@@ -424,13 +425,13 @@
 		<set name="is_private_storeable" val="false" />
 		<set name="etcitem_type" val="ENCHT_ATTR_RUNE" />
 		<set name="immediate_effect" val="true" />
-		<set name="icon" val="BranchSys3.icon1.g_rune_of_half_power" />
 		<skills>
 			<skill id="22695" level="1" /> <!-- Harp's Sealed Rune of Power -->
 		</skills>
 	</item>
 	<item id="23326" name="Harp's Sealed Rune of Magic" type="EtcItem">
 		<!-- If stored in the inventory, INT + 7 permanently, and has a 10% chance of decreasing all enemies' M. Def. by 20% for 10 sec. within 400 grids during a magic attack. -->
+		<set name="icon" val="BranchSys3.icon1.g_rune_of_half_magic" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
@@ -441,13 +442,13 @@
 		<set name="is_private_storeable" val="false" />
 		<set name="etcitem_type" val="ENCHT_ATTR_RUNE" />
 		<set name="immediate_effect" val="true" />
-		<set name="icon" val="BranchSys3.icon1.g_rune_of_half_magic" />
 		<skills>
 			<skill id="22696" level="1" /> <!-- Harp's Sealed Rune of Magic -->
 		</skills>
 	</item>
 	<item id="23327" name="Flynt's Sealed Rune of Will" type="EtcItem">
 		<!-- If stored in the inventory, CON + 7 permanently, and has a 5% chance of becoming invincible for 5 sec. when attacked. -->
+		<set name="icon" val="BranchSys3.icon1.g_rune_of_flint_will" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
@@ -458,13 +459,13 @@
 		<set name="is_private_storeable" val="false" />
 		<set name="etcitem_type" val="ENCHT_ATTR_RUNE" />
 		<set name="immediate_effect" val="true" />
-		<set name="icon" val="BranchSys3.icon1.g_rune_of_flint_will" />
 		<skills>
 			<skill id="22697" level="1" /> <!-- Flynt's Sealed Rune of Will -->
 		</skills>
 	</item>
 	<item id="23328" name="Flynt's Sealed Rune of Destruction" type="EtcItem">
 		<!-- If stored in the inventory, STR + 7 permanently, and has a 5% chance of inflicting 20% additional damage when using a skill attack. -->
+		<set name="icon" val="BranchSys3.icon1.g_rune_of_flint_destroy" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
@@ -475,13 +476,13 @@
 		<set name="is_private_storeable" val="false" />
 		<set name="etcitem_type" val="ENCHT_ATTR_RUNE" />
 		<set name="immediate_effect" val="true" />
-		<set name="icon" val="BranchSys3.icon1.g_rune_of_flint_destroy" />
 		<skills>
 			<skill id="22698" level="1" /> <!-- Flynt's Sealed Rune of Destruction -->
 		</skills>
 	</item>
 	<item id="23329" name="Dr. Destroy's Sealed Rune of Skill" type="EtcItem">
 		<!-- If stored in the inventory, DEX + 7 permanently, and has a 5% chance of increasing Critical Rate and Critical Damage by 20% for 10 sec. -->
+		<set name="icon" val="BranchSys3.icon1.g_rune_of_destroy_tech" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
@@ -492,13 +493,13 @@
 		<set name="is_private_storeable" val="false" />
 		<set name="etcitem_type" val="ENCHT_ATTR_RUNE" />
 		<set name="immediate_effect" val="true" />
-		<set name="icon" val="BranchSys3.icon1.g_rune_of_destroy_tech" />
 		<skills>
 			<skill id="22699" level="1" /> <!-- Dr. Destroy's Sealed Rune of Skill -->
 		</skills>
 	</item>
 	<item id="23330" name="Dr. Destroy's Sealed Rune of Wisdom" type="EtcItem">
 		<!-- If stored in the inventory, INT + 7 permanently, and has a 10% chance of not consuming MP for healing skills. -->
+		<set name="icon" val="BranchSys3.icon1.g_rune_of_destroy_wisdom" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
@@ -509,7 +510,6 @@
 		<set name="is_private_storeable" val="false" />
 		<set name="etcitem_type" val="ENCHT_ATTR_RUNE" />
 		<set name="immediate_effect" val="true" />
-		<set name="icon" val="BranchSys3.icon1.g_rune_of_destroy_wisdom" />
 		<skills>
 			<skill id="22700" level="1" /> <!-- Dr. Destroy's Sealed Rune of Wisdom -->
 		</skills>

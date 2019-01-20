@@ -398,11 +398,11 @@
 	</item>
 	<item id="33521" name="Wig Box" additionalName="Campaign" type="EtcItem">
 		<!-- Box containing various wigs. -->
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
-		<set name="icon" val="icon.event_hero_treasure_box_i00" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
 			<item id="17304" min="1" max="1" chance="100" /> <!-- Immortal Helmet - Heavy Armor -->
@@ -415,11 +415,11 @@
 	</item>
 	<item id="33522" name="Attribute Pack" additionalName="Campaign" type="EtcItem">
 		<!-- Box containing attribute stones, attribute crystals, and attribute changing crystals. -->
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
-		<set name="icon" val="icon.event_hero_treasure_box_i00" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
 			<item id="17310" min="1" max="1" chance="100" /> <!-- Immortal Leather Helmet - Light Armor -->
@@ -871,11 +871,11 @@
 	</item>
 	<item id="33544" name="Unidentified Samurai Long Sword*Samurai Long Sword" type="EtcItem">
 		<!-- Samurai Long Sword*Samurai Long Sword in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / dualsword) -->
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="commissionItemType" val="DUALSWORD" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.weapon_dual_sword_i00" />
 	</item>
 	<item id="33545" name="Bound Tallum Blade*Damascus" additionalName="Event" type="Weapon">
 		<!-- When enchanted, P. Atk. of a dualsword increases more significantly than that of a one-handed or fist weapon. When enchanted to 4 or more, Atk. Spd. Increases by 8%. Inflicts additional damage to target during PvP. No Soul Crystal option. -->
@@ -913,11 +913,11 @@
 	</item>
 	<item id="33546" name="Unidentified Tallum Blade*Damascus" type="EtcItem">
 		<!-- Tallum blade*Damascus in an Unidentified state. Double-click the item to identify it. The acquired item can be Standard or Bound. (Type: two-handed weapon / dualsword) -->
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="commissionItemType" val="DUALSWORD" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.weapon_dual_sword_i00" />
 	</item>
 	<item id="33547" name="Bound Dynasty Sword - Focus" additionalName="Event" type="Weapon">
 		<!-- <Special Option>. Increases Critical by 111. Increases damage inflicted during PvP. No Soul Crystal option. -->
@@ -2471,7 +2471,6 @@
 		</stats>
 	</item>
 	<item id="33591" name="Bound Dynasty Breastplate" additionalName="Event" type="Armor">
-		<!-- Cannot be unbound through Unbind Scrolls or otherwise. -->
 		<set name="icon" val="icon.armor_t91_u_i00" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="default_action" val="EQUIP" />
@@ -2494,7 +2493,6 @@
 		</stats>
 	</item>
 	<item id="33592" name="Bound Dynasty Gaiters" additionalName="Event" type="Armor">
-		<!-- Cannot be unbound through Unbind Scrolls or otherwise. -->
 		<set name="icon" val="icon.armor_t91_l_i00" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="default_action" val="EQUIP" />
@@ -2517,7 +2515,6 @@
 		</stats>
 	</item>
 	<item id="33593" name="Bound Dynasty Helmet" additionalName="Event" type="Armor">
-		<!-- Cannot be unbound through Unbind Scrolls or otherwise. -->
 		<set name="icon" val="icon.armor_helmet_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="head" />
@@ -2538,7 +2535,6 @@
 		</stats>
 	</item>
 	<item id="33594" name="Bound Dynasty Gauntlets" additionalName="Event" type="Armor">
-		<!-- Cannot be unbound through Unbind Scrolls or otherwise. -->
 		<set name="icon" val="icon.armor_t91_g_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="gloves" />
@@ -2560,7 +2556,6 @@
 		</stats>
 	</item>
 	<item id="33595" name="Bound Dynasty Boots" additionalName="Event" type="Armor">
-		<!-- Cannot be unbound through Unbind Scrolls or otherwise. -->
 		<set name="icon" val="icon.armor_t91_b_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="feet" />
@@ -2582,7 +2577,6 @@
 		</stats>
 	</item>
 	<item id="33596" name="Bound Dynasty Shield" additionalName="Event" type="Armor">
-		<!-- Cannot be unbound through Unbind Scrolls or otherwise. -->
 		<set name="icon" val="icon.shield_dynasty_shield_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lhand" />
@@ -2606,7 +2600,6 @@
 		</stats>
 	</item>
 	<item id="33597" name="Bound Dynasty Leather Armor" additionalName="Event" type="Armor">
-		<!-- Cannot be unbound through Unbind Scrolls or otherwise. -->
 		<set name="icon" val="icon.armor_t92_u_i00" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="default_action" val="EQUIP" />
@@ -2629,7 +2622,6 @@
 		</stats>
 	</item>
 	<item id="33598" name="Bound Dynasty Leather Leggings" additionalName="Event" type="Armor">
-		<!-- Cannot be unbound through Unbind Scrolls or otherwise. -->
 		<set name="icon" val="icon.armor_t92_l_i00" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="default_action" val="EQUIP" />
@@ -2652,7 +2644,6 @@
 		</stats>
 	</item>
 	<item id="33599" name="Bound Dynasty Leather Helmet" additionalName="Event" type="Armor">
-		<!-- Cannot be unbound through Unbind Scrolls or otherwise. -->
 		<set name="icon" val="icon.armor_leather_helmet_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="head" />

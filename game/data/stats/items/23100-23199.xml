@@ -870,6 +870,7 @@
 	</item>
 	<item id="23137" name="Extra Pass: Ancient Kartia's Labyrinth" type="EtcItem">
 		<!-- Given to adventurers from the Kartia Research Center. Resets Cooldown for Ancient Kartia's Labyrinth. -->
+		<set name="icon" val="icon.etc_ticket_red_i00" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
@@ -881,7 +882,6 @@
 		<set name="time" val="1440" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.etc_ticket_red_i00" />
 		<skills>
 			<skill id="22626" level="1" /> <!-- Extra Pass -->
 		</skills>
@@ -1097,7 +1097,7 @@
 		</skills>
 	</item>
 	<item id="23147" name="Ghost Potion" additionalName="Event" type="EtcItem">
-		<!-- Ghost Potion.  P. Atk. + 20%, M. Atk. + 85%, and Speed + 20. Cooldown is 60 min. -->
+		<!-- Ghost Potion. P. Atk. + 20%, M. Atk. + 85%, and Speed + 20. Cooldown is 60 min. -->
 		<set name="icon" val="icon.etc_water_potion_i00" />
 		<set name="weight" val="5" />
 		<set name="is_stackable" val="true" />

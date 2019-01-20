@@ -200,6 +200,7 @@
 	</item>
 	<item id="34912" name="Summoning Stone" type="EtcItem">
 		<!-- Summoning Stone that can be used during the Noblesse quest. Double-click on it to summon the Water Spirit Lanya. -->
+		<set name="icon" val="icon.etc_crystal_ball_white_i00" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
@@ -211,7 +212,6 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
 		<set name="default_action" val="SKILL_REDUCE" />
-		<set name="icon" val="icon.etc_crystal_ball_white_i00" />
 		<skills>
 			<skill id="9445" level="1" /> <!-- Summoning Stone -->
 		</skills>
@@ -498,8 +498,7 @@
 		</stats>
 	</item>
 	<item id="34925" name="Cloak of Light" type="Armor">
-		<!-- Cloak that symbolizes glory and light. STR/MEN/DEX/WIT/INT/CON + 2, and Damage Received - 5%. Can use Escape:�Castle skill. Cannot be used while in a chaotic state. Can only be equipped by marquis or higher. Cannot be transferred between servers. -->
-		<!-- Cloak that symbolizes glory and light. Can only be equipped by marquis or higher. P. Def. 50, M. Def. 40 and STR/MEN/DEX/WIT/INT/CON + 2. Damage received during PvP decreases by 5%. Can use Escape:ﾠCastle skill. Part of its effect does not apply when you are chaotic. Cannot be used while in a chaotic state. Cannot be transferred between servers. -->
+		<!-- Cloak that symbolizes glory and light. STR/MEN/DEX/WIT/INT/CON + 2, and Damage Received - 5%. Can use Escape:Castle skill. Cannot be used while in a chaotic state. Can only be equipped by marquis or higher. Cannot be transferred between servers. -->
 		<set name="icon" val="icon.amor_goodness_cloak" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="back" />
@@ -540,7 +539,7 @@
 		</stats>
 	</item>
 	<item id="34926" name="Cloak of Darkness" type="Armor">
-		<!-- Cloak that symbolizes avarice and darkness. STR/MEN/DEX/WIT/INT/CON + 2, and Damage Received - 5%. Can use Escape:�Castle skill. Can only be equipped by marquis or higher. Cannot be transferred between servers. -->
+		<!-- Cloak that symbolizes avarice and darkness. STR/MEN/DEX/WIT/INT/CON + 2, and Damage Received - 5%. Can use Escape:Castle skill. Can only be equipped by marquis or higher. Cannot be transferred between servers. -->
 		<set name="icon" val="icon.amor_evilness_cloak" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="back" />
@@ -564,7 +563,7 @@
 		</cond>
 		<cond>
 			<player level="80" />
-		</cond>		
+		</cond>
 		<skills>
 			<skill id="19041" level="1" /> <!-- King's Call -->
 			<skill id="19040" level="1" /> <!-- Cloak of Darkness -->
@@ -1267,7 +1266,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="34965" name="Daylily" type="EtcItem">
-		<!-- Yellow flower called a Daylily. It symbolizes the alleviation of sorrow and grief. -->
+		<!-- Yellow flower called a "Daylily." It symbolizes the alleviation of sorrow and grief. -->
 		<set name="icon" val="icon.etc_flower_i02" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
@@ -1281,7 +1280,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="34966" name="Peony" type="EtcItem">
-		<!-- Red flower called a Peony. It once represented wealth and honor. -->
+		<!-- Red flower called a "Peony." It once represented wealth and honor. -->
 		<set name="icon" val="icon.etc_flower_i01" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
@@ -1295,7 +1294,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="34967" name="Petunia" type="EtcItem">
-		<!-- Pink flower called a Petunia. It symbolizes a calm heart. -->
+		<!-- Pink flower called a "Petunia." It symbolizes a calm heart. -->
 		<set name="icon" val="icon.etc_flower_i03" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
@@ -1309,7 +1308,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="34968" name="Pansy" type="EtcItem">
-		<!-- Purple flower called a Pansy. It means, Think of me. -->
+		<!-- Purple flower called a "Pansy." It means, "Think of me." -->
 		<set name="icon" val="icon.etc_flower_i04" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
@@ -1323,7 +1322,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="34969" name="Iris" type="EtcItem">
-		<!-- Blue flower called an Iris. It symbolizes the bringing of good news. -->
+		<!-- Blue flower called an "Iris". It symbolizes the bringing of good news. -->
 		<set name="icon" val="icon.etc_flower_i05" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
@@ -1337,7 +1336,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="34970" name="Kuon" type="EtcItem">
-		<!-- Black flower called a Kuon. It is sometimes misunderstood as the flower of death because of its color. It actually symbolizes paying tribute to the dead. -->
+		<!-- Black flower called a "Kuon." It is sometimes misunderstood as the flower of death because of its color. It actually symbolizes paying tribute to the dead. -->
 		<set name="icon" val="icon.etc_flower_i06" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
@@ -1770,8 +1769,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="34996" name="Cloak of Radiant Light" type="Armor">
-		<!-- Cloak that symbolizes glory and light. STR/MEN/DEX/WIT/INT/CON/LUC/CHA + 3, and Damage Received - 15%. Can use Escape:�Castle skill. Cannot be used while in a chaotic state. Can only be equipped by a lord. Cannot be transferred between servers. -->
-		<!-- Cloak that symbolizes glory and light. Can only be equipped by a lord. STR/MEN/DEX/WIT/INT/CON + 3. Damage received during PvP decreases by 15%. Can use Escape:ﾠCastle skill. Part of its effect does not apply when you are chaotic. Cannot be used while in a chaotic state. Cannot be transferred between servers. -->
+		<!-- Cloak that symbolizes glory and light. STR/MEN/DEX/WIT/INT/CON/LUC/CHA + 3, and Damage Received - 15%. Can use Escape:Castle skill. Cannot be used while in a chaotic state. Can only be equipped by a lord. Cannot be transferred between servers. -->
 		<set name="icon" val="icon.amor_goodness_cloak" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="back" />
@@ -1812,8 +1810,7 @@
 		</stats>
 	</item>
 	<item id="34997" name="Cloak of Cold Darkness" type="Armor">
-		<!-- Cloak that symbolizes avarice and darkness. STR/MEN/DEX/WIT/INT/CON/LUC/CHA + 3, and Damage Received - 15%. Can use Escape:�Castle skill. Can only be equipped by a lord. Cannot be transferred between servers. -->
-		<!-- Cloak that symbolizes avarice and darkness. Can only be equipped by a lord. STR/MEN/DEX/WIT/INT/CON + 3. Damage received during PvP decreases by 15%. Can use Escape:ďľ Castle skill. Cannot be transferred between servers. -->
+		<!-- Cloak that symbolizes avarice and darkness. STR/MEN/DEX/WIT/INT/CON/LUC/CHA + 3, and Damage Received - 15%. Can use Escape:Castle skill. Can only be equipped by a lord. Cannot be transferred between servers. -->
 		<set name="icon" val="icon.amor_evilness_cloak" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="back" />
@@ -1837,7 +1834,7 @@
 		</cond>
 		<cond>
 			<player level="80" />
-		</cond>		
+		</cond>
 		<skills>
 			<skill id="19042" level="1" /> <!-- King's Summon -->
 			<skill id="19038" level="1" /> <!-- Cold Cloak of Darkness -->

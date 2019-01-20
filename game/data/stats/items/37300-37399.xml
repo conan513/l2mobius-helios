@@ -19,6 +19,7 @@
 		<set name="spiritshots" val="1" />
 		<set name="time" val="43200" />
 		<set name="weight" val="360" />
+		<set name="is_magic_weapon" val="true" />
 		<skills>
 			<skill id="3047" level="3" /> <!-- Special Ability: Acumen -->
 		</skills>
@@ -51,6 +52,7 @@
 		<set name="spiritshots" val="1" />
 		<set name="time" val="43200" />
 		<set name="weight" val="510" />
+		<set name="is_magic_weapon" val="true" />
 		<skills>
 			<skill id="3047" level="3" /> <!-- Special Ability: Acumen -->
 		</skills>
@@ -406,6 +408,7 @@
 		<set name="spiritshots" val="1" />
 		<set name="time" val="43200" />
 		<set name="weight" val="360" />
+		<set name="is_magic_weapon" val="true" />
 		<skills>
 			<skill id="3047" level="3" /> <!-- Special Ability: Acumen -->
 		</skills>
@@ -436,14 +439,15 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
-			<item id="36950" min="1" max="1" chance="100" />
-			<item id="36021" min="1" max="1" chance="100" />
-			<item id="36023" min="1" max="1" chance="100" />
-			<item id="37314" min="1" max="1" chance="100" />
+			<item id="36950" min="1" max="1" chance="100" /> <!-- Toma's Living Guide -->
+			<item id="36021" min="1" max="1" chance="100" /> <!-- Returning Hero's Potion Pack -->
+			<item id="36023" min="1" max="1" chance="100" /> <!-- Returning Hero's Support Box -->
+			<item id="37314" min="1" max="1" chance="100" /> <!-- Fated Support Box -->
 		</capsuled_items>
 	</item>
 	<item id="37314" name="Fated Support Box" type="EtcItem">
 		<!-- Double-click to receive equipment items for your grade and class. Can be used only by characters above Lv. 40 who have completed their 1st class transfer. -->
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
@@ -452,7 +456,6 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
 		<set name="is_private_storeable" val="false" />
-		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="FatedSupportBox" />
 	</item>
@@ -472,17 +475,17 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
-			<item id="37243" min="1" max="1" chance="100" />
-			<item id="37244" min="1" max="1" chance="100" />
-			<item id="37224" min="2" max="2" chance="100" />
-			<item id="37226" min="2" max="2" chance="100" />
-			<item id="37225" min="1" max="1" chance="100" />
-			<item id="37138" min="1" max="1" chance="100" />
-			<item id="37137" min="1" max="1" chance="100" />
-			<item id="37242" min="1" max="1" chance="100" />
-			<item id="37136" min="1" max="1" chance="100" />
-			<item id="37135" min="1" max="1" chance="100" />
-			<item id="37139" min="1" max="1" chance="100" />
+			<item id="37243" min="1" max="1" chance="100" /> <!-- Steel Yaksa Mace (60-day) -->
+			<item id="37244" min="1" max="1" chance="100" /> <!-- Steel Saber*Sword of Revolution (60-day) -->
+			<item id="37224" min="2" max="2" chance="100" /> <!-- Steel Moonstone Earring (60-day) -->
+			<item id="37226" min="2" max="2" chance="100" /> <!-- Steel Aquastone Ring (60-day) -->
+			<item id="37225" min="1" max="1" chance="100" /> <!-- Steel Aquastone Necklace (60-day) -->
+			<item id="37138" min="1" max="1" chance="100" /> <!-- Steel Plate Gauntlets (60-day) -->
+			<item id="37137" min="1" max="1" chance="100" /> <!-- Steel Plate Boots (60-day) -->
+			<item id="37242" min="1" max="1" chance="100" /> <!-- Steel StormBringer (60-day) -->
+			<item id="37136" min="1" max="1" chance="100" /> <!-- Steel Plate Armor (60-day) -->
+			<item id="37135" min="1" max="1" chance="100" /> <!-- Steel Plate Helmet (60-day) -->
+			<item id="37139" min="1" max="1" chance="100" /> <!-- Steel Plate Shield (60-day) -->
 			<item id="37322" min="1" max="1" chance="100" /> <!-- Fated Support Box: Fighter (B-grade) -->
 		</capsuled_items>
 	</item>
@@ -502,14 +505,14 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
-			<item id="37224" min="2" max="2" chance="100" />
-			<item id="37226" min="2" max="2" chance="100" />
-			<item id="37140" min="1" max="1" chance="100" />
-			<item id="37225" min="1" max="1" chance="100" />
-			<item id="37142" min="1" max="1" chance="100" />
-			<item id="37141" min="1" max="1" chance="100" />
-			<item id="37245" min="1" max="1" chance="100" />
-			<item id="37135" min="1" max="1" chance="100" />
+			<item id="37224" min="2" max="2" chance="100" /> <!-- Steel Moonstone Earring (60-day) -->
+			<item id="37226" min="2" max="2" chance="100" /> <!-- Steel Aquastone Ring (60-day) -->
+			<item id="37140" min="1" max="1" chance="100" /> <!-- Steel Karmian Tunic (60-day) -->
+			<item id="37225" min="1" max="1" chance="100" /> <!-- Steel Aquastone Necklace (60-day) -->
+			<item id="37142" min="1" max="1" chance="100" /> <!-- Steel Karmian Gloves (60-day) -->
+			<item id="37141" min="1" max="1" chance="100" /> <!-- Steel Karmian Stockings (60-day) -->
+			<item id="37245" min="1" max="1" chance="100" /> <!-- Steel Mysterious Sword (60-day) -->
+			<item id="37135" min="1" max="1" chance="100" /> <!-- Steel Plate Helmet (60-day) -->
 			<item id="37323" min="1" max="1" chance="100" /> <!-- Fated Support Box: Wizard (B-grade) -->
 		</capsuled_items>
 		<cond msgId="1902">
@@ -532,17 +535,17 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
-			<item id="37224" min="2" max="2" chance="100" />
-			<item id="37226" min="2" max="2" chance="100" />
-			<item id="37244" min="1" max="1" chance="100" />
-			<item id="37243" min="1" max="1" chance="100" />
-			<item id="37225" min="1" max="1" chance="100" />
-			<item id="37138" min="1" max="1" chance="100" />
-			<item id="37137" min="1" max="1" chance="100" />
-			<item id="37246" min="1" max="1" chance="100" />
-			<item id="37136" min="1" max="1" chance="100" />
-			<item id="37135" min="1" max="1" chance="100" />
-			<item id="37139" min="1" max="1" chance="100" />
+			<item id="37224" min="2" max="2" chance="100" /> <!-- Steel Moonstone Earring (60-day) -->
+			<item id="37226" min="2" max="2" chance="100" /> <!-- Steel Aquastone Ring (60-day) -->
+			<item id="37244" min="1" max="1" chance="100" /> <!-- Steel Saber*Sword of Revolution (60-day) -->
+			<item id="37243" min="1" max="1" chance="100" /> <!-- Steel Yaksa Mace (60-day) -->
+			<item id="37225" min="1" max="1" chance="100" /> <!-- Steel Aquastone Necklace (60-day) -->
+			<item id="37138" min="1" max="1" chance="100" /> <!-- Steel Plate Gauntlets (60-day) -->
+			<item id="37137" min="1" max="1" chance="100" /> <!-- Steel Plate Boots (60-day) -->
+			<item id="37246" min="1" max="1" chance="100" /> <!-- Steel Body Slasher (60-day) -->
+			<item id="37136" min="1" max="1" chance="100" /> <!-- Steel Plate Armor (60-day) -->
+			<item id="37135" min="1" max="1" chance="100" /> <!-- Steel Plate Helmet (60-day) -->
+			<item id="37139" min="1" max="1" chance="100" /> <!-- Steel Plate Shield (60-day) -->
 			<item id="37324" min="1" max="1" chance="100" /> <!-- Fated Support Box: Warrior (B-grade) -->
 		</capsuled_items>
 		<cond msgId="1902">
@@ -565,17 +568,17 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
-			<item id="37224" min="2" max="2" chance="100" />
-			<item id="37226" min="2" max="2" chance="100" />
-			<item id="37225" min="1" max="1" chance="100" />
-			<item id="37145" min="1" max="1" chance="100" />
-			<item id="37147" min="1" max="1" chance="100" />
-			<item id="37146" min="1" max="1" chance="100" />
-			<item id="37247" min="1" max="1" chance="100" />
-			<item id="37246" min="1" max="1" chance="100" />
-			<item id="37144" min="1" max="1" chance="100" />
-			<item id="37248" min="1" max="1" chance="100" />
-			<item id="37135" min="1" max="1" chance="100" />
+			<item id="37224" min="2" max="2" chance="100" /> <!-- Steel Moonstone Earring (60-day) -->
+			<item id="37226" min="2" max="2" chance="100" /> <!-- Steel Aquastone Ring (60-day) -->
+			<item id="37225" min="1" max="1" chance="100" /> <!-- Steel Aquastone Necklace (60-day) -->
+			<item id="37145" min="1" max="1" chance="100" /> <!-- Steel Plate Leather Gaiters (60-day) -->
+			<item id="37147" min="1" max="1" chance="100" /> <!-- Steel Plate Leather Gloves (60-day) -->
+			<item id="37146" min="1" max="1" chance="100" /> <!-- Steel Plate Leather Boots (60-day) -->
+			<item id="37247" min="1" max="1" chance="100" /> <!-- Steel Soulfire Dirk (60-day) -->
+			<item id="37246" min="1" max="1" chance="100" /> <!-- Steel Body Slasher (60-day) -->
+			<item id="37144" min="1" max="1" chance="100" /> <!-- Steel Plate Leather Armor (60-day) -->
+			<item id="37248" min="1" max="1" chance="100" /> <!-- Steel Crystallized Ice Bow (60-day) -->
+			<item id="37135" min="1" max="1" chance="100" /> <!-- Steel Plate Helmet (60-day) -->
 			<item id="37325" min="1" max="1" chance="100" /> <!-- Fated Support Box: Rogue (B-grade) -->
 		</capsuled_items>
 		<cond msgId="1902">
@@ -598,17 +601,17 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
-			<item id="37224" min="2" max="2" chance="100" />
-			<item id="37226" min="2" max="2" chance="100" />
-			<item id="37225" min="1" max="1" chance="100" />
-			<item id="37250" min="1" max="1" chance="100" />
-			<item id="37145" min="1" max="1" chance="100" />
-			<item id="37147" min="1" max="1" chance="100" />
-			<item id="37146" min="1" max="1" chance="100" />
-			<item id="37144" min="1" max="1" chance="100" />
-			<item id="37135" min="1" max="1" chance="100" />
-			<item id="37251" min="1" max="1" chance="100" />
-			<item id="37249" min="1" max="1" chance="100" />
+			<item id="37224" min="2" max="2" chance="100" /> <!-- Steel Moonstone Earring (60-day) -->
+			<item id="37226" min="2" max="2" chance="100" /> <!-- Steel Aquastone Ring (60-day) -->
+			<item id="37225" min="1" max="1" chance="100" /> <!-- Steel Aquastone Necklace (60-day) -->
+			<item id="37250" min="1" max="1" chance="100" /> <!-- Steel Soldat Estoc (60-day) -->
+			<item id="37145" min="1" max="1" chance="100" /> <!-- Steel Plate Leather Gaiters (60-day) -->
+			<item id="37147" min="1" max="1" chance="100" /> <!-- Steel Plate Leather Gloves (60-day) -->
+			<item id="37146" min="1" max="1" chance="100" /> <!-- Steel Plate Leather Boots (60-day) -->
+			<item id="37144" min="1" max="1" chance="100" /> <!-- Steel Plate Leather Armor (60-day) -->
+			<item id="37135" min="1" max="1" chance="100" /> <!-- Steel Plate Helmet (60-day) -->
+			<item id="37251" min="1" max="1" chance="100" /> <!-- Steel Arbalest (60-day) -->
+			<item id="37249" min="1" max="1" chance="100" /> <!-- Steel Schlager (60-day) -->
 			<item id="37326" min="1" max="1" chance="100" /> <!-- Fated Support Box: Kamael (B-grade) -->
 		</capsuled_items>
 		<cond msgId="1902">
@@ -631,21 +634,21 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
-			<item id="37224" min="2" max="2" chance="100" />
-			<item id="37226" min="2" max="2" chance="100" />
-			<item id="37225" min="1" max="1" chance="100" />
-			<item id="37253" min="1" max="1" chance="100" />
-			<item id="37145" min="1" max="1" chance="100" />
-			<item id="37147" min="1" max="1" chance="100" />
-			<item id="37146" min="1" max="1" chance="100" />
-			<item id="37138" min="1" max="1" chance="100" />
-			<item id="37137" min="1" max="1" chance="100" />
-			<item id="37246" min="1" max="1" chance="100" />
-			<item id="37144" min="1" max="1" chance="100" />
-			<item id="37136" min="1" max="1" chance="100" />
-			<item id="37135" min="1" max="1" chance="100" />
-			<item id="37139" min="1" max="1" chance="100" />
-			<item id="37252" min="1" max="1" chance="100" />
+			<item id="37224" min="2" max="2" chance="100" /> <!-- Steel Moonstone Earring (60-day) -->
+			<item id="37226" min="2" max="2" chance="100" /> <!-- Steel Aquastone Ring (60-day) -->
+			<item id="37225" min="1" max="1" chance="100" /> <!-- Steel Aquastone Necklace (60-day) -->
+			<item id="37253" min="1" max="1" chance="100" /> <!-- Steel Chakram (60-day) -->
+			<item id="37145" min="1" max="1" chance="100" /> <!-- Steel Plate Leather Gaiters (60-day) -->
+			<item id="37147" min="1" max="1" chance="100" /> <!-- Steel Plate Leather Gloves (60-day) -->
+			<item id="37146" min="1" max="1" chance="100" /> <!-- Steel Plate Leather Boots (60-day) -->
+			<item id="37138" min="1" max="1" chance="100" /> <!-- Steel Plate Gauntlets (60-day) -->
+			<item id="37137" min="1" max="1" chance="100" /> <!-- Steel Plate Boots (60-day) -->
+			<item id="37246" min="1" max="1" chance="100" /> <!-- Steel Body Slasher (60-day) -->
+			<item id="37144" min="1" max="1" chance="100" /> <!-- Steel Plate Leather Armor (60-day) -->
+			<item id="37136" min="1" max="1" chance="100" /> <!-- Steel Plate Armor (60-day) -->
+			<item id="37135" min="1" max="1" chance="100" /> <!-- Steel Plate Helmet (60-day) -->
+			<item id="37139" min="1" max="1" chance="100" /> <!-- Steel Plate Shield (60-day) -->
+			<item id="37252" min="1" max="1" chance="100" /> <!-- Steel Flamberge (60-day) -->
 			<item id="37327" min="1" max="1" chance="100" /> <!-- Fated Support Box: Orc Fighter (B-grade) -->
 		</capsuled_items>
 		<cond msgId="1902">
@@ -668,20 +671,20 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
-			<item id="37224" min="2" max="2" chance="100" />
-			<item id="37226" min="2" max="2" chance="100" />
-			<item id="37225" min="1" max="1" chance="100" />
-			<item id="37243" min="1" max="1" chance="100" />
-			<item id="37140" min="1" max="1" chance="100" />
-			<item id="37142" min="1" max="1" chance="100" />
-			<item id="37138" min="1" max="1" chance="100" />
-			<item id="37137" min="1" max="1" chance="100" />
-			<item id="37143" min="1" max="1" chance="100" />
-			<item id="37141" min="1" max="1" chance="100" />
-			<item id="37245" min="1" max="1" chance="100" />
-			<item id="37136" min="1" max="1" chance="100" />
-			<item id="37135" min="1" max="1" chance="100" />
-			<item id="37139" min="1" max="1" chance="100" />
+			<item id="37224" min="2" max="2" chance="100" /> <!-- Steel Moonstone Earring (60-day) -->
+			<item id="37226" min="2" max="2" chance="100" /> <!-- Steel Aquastone Ring (60-day) -->
+			<item id="37225" min="1" max="1" chance="100" /> <!-- Steel Aquastone Necklace (60-day) -->
+			<item id="37243" min="1" max="1" chance="100" /> <!-- Steel Yaksa Mace (60-day) -->
+			<item id="37140" min="1" max="1" chance="100" /> <!-- Steel Karmian Tunic (60-day) -->
+			<item id="37142" min="1" max="1" chance="100" /> <!-- Steel Karmian Gloves (60-day) -->
+			<item id="37138" min="1" max="1" chance="100" /> <!-- Steel Plate Gauntlets (60-day) -->
+			<item id="37137" min="1" max="1" chance="100" /> <!-- Steel Plate Boots (60-day) -->
+			<item id="37143" min="1" max="1" chance="100" /> <!-- Steel Karmian Boots (60-day) -->
+			<item id="37141" min="1" max="1" chance="100" /> <!-- Steel Karmian Stockings (60-day) -->
+			<item id="37245" min="1" max="1" chance="100" /> <!-- Steel Mysterious Sword (60-day) -->
+			<item id="37136" min="1" max="1" chance="100" /> <!-- Steel Plate Armor (60-day) -->
+			<item id="37135" min="1" max="1" chance="100" /> <!-- Steel Plate Helmet (60-day) -->
+			<item id="37139" min="1" max="1" chance="100" /> <!-- Steel Plate Shield (60-day) -->
 			<item id="37328" min="1" max="1" chance="100" /> <!-- Fated Support Box: Orc Wizard (B-grade) -->
 		</capsuled_items>
 		<cond msgId="1902">
@@ -704,17 +707,17 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
-			<item id="37227" min="2" max="2" chance="100" />
-			<item id="37229" min="2" max="2" chance="100" />
-			<item id="37228" min="1" max="1" chance="100" />
-			<item id="37149" min="1" max="1" chance="100" />
-			<item id="37150" min="1" max="1" chance="100" />
-			<item id="37256" min="1" max="1" chance="100" />
-			<item id="37151" min="1" max="1" chance="100" />
-			<item id="37254" min="1" max="1" chance="100" />
-			<item id="37255" min="1" max="1" chance="100" />
-			<item id="37148" min="1" max="1" chance="100" />
-			<item id="37152" min="1" max="1" chance="100" />
+			<item id="37227" min="2" max="2" chance="100" /> <!-- Steel Adamantite Earring (60-day) -->
+			<item id="37229" min="2" max="2" chance="100" /> <!-- Steel Adamantite Ring (60-day) -->
+			<item id="37228" min="1" max="1" chance="100" /> <!-- Steel Adamantite Necklace (60-day) -->
+			<item id="37149" min="1" max="1" chance="100" /> <!-- Steel Doom Gloves (Heavy) (60-day) -->
+			<item id="37150" min="1" max="1" chance="100" /> <!-- Steel Doom Boots (Heavy) (60-day) -->
+			<item id="37256" min="1" max="1" chance="100" /> <!-- Steel StormBringer*Ultimate Sword (60-day) -->
+			<item id="37151" min="1" max="1" chance="100" /> <!-- Steel Doom Plate Armor (60-day) -->
+			<item id="37254" min="1" max="1" chance="100" /> <!-- Steel Sword of Valhalla (60-day) -->
+			<item id="37255" min="1" max="1" chance="100" /> <!-- Steel Spell Breaker (60-day) -->
+			<item id="37148" min="1" max="1" chance="100" /> <!-- Steel Doom Helmet (60-day) -->
+			<item id="37152" min="1" max="1" chance="100" /> <!-- Steel Doom Shield (60-day) -->
 			<item id="37329" min="1" max="1" chance="100" /> <!-- Fated Support Box: Fighter (A-grade) -->
 		</capsuled_items>
 		<cond msgId="1902">
@@ -737,15 +740,15 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
-			<item id="37227" min="2" max="2" chance="100" />
-			<item id="37229" min="2" max="2" chance="100" />
-			<item id="37228" min="1" max="1" chance="100" />
-			<item id="37154" min="1" max="1" chance="100" />
-			<item id="37153" min="1" max="1" chance="100" />
-			<item id="37155" min="1" max="1" chance="100" />
-			<item id="37156" min="1" max="1" chance="100" />
-			<item id="37257" min="1" max="1" chance="100" />
-			<item id="37157" min="1" max="1" chance="100" />
+			<item id="37227" min="2" max="2" chance="100" /> <!-- Steel Adamantite Earring (60-day) -->
+			<item id="37229" min="2" max="2" chance="100" /> <!-- Steel Adamantite Ring (60-day) -->
+			<item id="37228" min="1" max="1" chance="100" /> <!-- Steel Adamantite Necklace (60-day) -->
+			<item id="37154" min="1" max="1" chance="100" /> <!-- Steel Avadon Circlet (60-day) -->
+			<item id="37153" min="1" max="1" chance="100" /> <!-- Steel Avadon Robe (60-day) -->
+			<item id="37155" min="1" max="1" chance="100" /> <!-- Steel Avadon Gloves (Robe) (60-day) -->
+			<item id="37156" min="1" max="1" chance="100" /> <!-- Steel Avadon Boots (Robe) (60-day) -->
+			<item id="37257" min="1" max="1" chance="100" /> <!-- Steel Wizard's Tear (60-day) -->
+			<item id="37157" min="1" max="1" chance="100" /> <!-- Steel Avadon Shield (60-day) -->
 			<item id="37330" min="1" max="1" chance="100" /> <!-- Fated Support Box: Wizard (A-grade) -->
 		</capsuled_items>
 		<cond msgId="1902">
@@ -768,17 +771,17 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
-			<item id="37227" min="2" max="2" chance="100" />
-			<item id="37229" min="2" max="2" chance="100" />
-			<item id="37228" min="1" max="1" chance="100" />
-			<item id="37149" min="1" max="1" chance="100" />
-			<item id="37150" min="1" max="1" chance="100" />
-			<item id="37256" min="1" max="1" chance="100" />
-			<item id="37258" min="1" max="1" chance="100" />
-			<item id="37151" min="1" max="1" chance="100" />
-			<item id="37255" min="1" max="1" chance="100" />
-			<item id="37148" min="1" max="1" chance="100" />
-			<item id="37152" min="1" max="1" chance="100" />
+			<item id="37227" min="2" max="2" chance="100" /> <!-- Steel Adamantite Earring (60-day) -->
+			<item id="37229" min="2" max="2" chance="100" /> <!-- Steel Adamantite Ring (60-day) -->
+			<item id="37228" min="1" max="1" chance="100" /> <!-- Steel Adamantite Necklace (60-day) -->
+			<item id="37149" min="1" max="1" chance="100" /> <!-- Steel Doom Gloves (Heavy) (60-day) -->
+			<item id="37150" min="1" max="1" chance="100" /> <!-- Steel Doom Boots (Heavy) (60-day) -->
+			<item id="37256" min="1" max="1" chance="100" /> <!-- Steel StormBringer*Ultimate Sword (60-day) -->
+			<item id="37258" min="1" max="1" chance="100" /> <!-- Steel Great Axe (60-day) -->
+			<item id="37151" min="1" max="1" chance="100" /> <!-- Steel Doom Plate Armor (60-day) -->
+			<item id="37255" min="1" max="1" chance="100" /> <!-- Steel Spell Breaker (60-day) -->
+			<item id="37148" min="1" max="1" chance="100" /> <!-- Steel Doom Helmet (60-day) -->
+			<item id="37152" min="1" max="1" chance="100" /> <!-- Steel Doom Shield (60-day) -->
 			<item id="37331" min="1" max="1" chance="100" /> <!-- Fated Support Box: Warrior (A-grade) -->
 		</capsuled_items>
 		<cond msgId="1902">
@@ -801,16 +804,16 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
-			<item id="37227" min="2" max="2" chance="100" />
-			<item id="37229" min="2" max="2" chance="100" />
-			<item id="37228" min="1" max="1" chance="100" />
-			<item id="37159" min="1" max="1" chance="100" />
-			<item id="37160" min="1" max="1" chance="100" />
-			<item id="37258" min="1" max="1" chance="100" />
-			<item id="37260" min="1" max="1" chance="100" />
-			<item id="37158" min="1" max="1" chance="100" />
-			<item id="37259" min="1" max="1" chance="100" />
-			<item id="37148" min="1" max="1" chance="100" />
+			<item id="37227" min="2" max="2" chance="100" /> <!-- Steel Adamantite Earring (60-day) -->
+			<item id="37229" min="2" max="2" chance="100" /> <!-- Steel Adamantite Ring (60-day) -->
+			<item id="37228" min="1" max="1" chance="100" /> <!-- Steel Adamantite Necklace (60-day) -->
+			<item id="37159" min="1" max="1" chance="100" /> <!-- Steel Doom Gloves (Light) (60-day) -->
+			<item id="37160" min="1" max="1" chance="100" /> <!-- Steel Doom Boots (Light) (60-day) -->
+			<item id="37258" min="1" max="1" chance="100" /> <!-- Steel Great Axe (60-day) -->
+			<item id="37260" min="1" max="1" chance="100" /> <!-- Steel Dark Elven Longbow (60-day) -->
+			<item id="37158" min="1" max="1" chance="100" /> <!-- Steel Leather Armor of Doom (60-day) -->
+			<item id="37259" min="1" max="1" chance="100" /> <!-- Steel Twilight Knife (60-day) -->
+			<item id="37148" min="1" max="1" chance="100" /> <!-- Steel Doom Helmet (60-day) -->
 			<item id="37332" min="1" max="1" chance="100" /> <!-- Fated Support Box: Rogue (A-grade) -->
 		</capsuled_items>
 		<cond msgId="1902">
@@ -833,16 +836,16 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
-			<item id="37227" min="2" max="2" chance="100" />
-			<item id="37229" min="2" max="2" chance="100" />
-			<item id="37228" min="1" max="1" chance="100" />
-			<item id="37159" min="1" max="1" chance="100" />
-			<item id="37160" min="1" max="1" chance="100" />
-			<item id="37258" min="1" max="1" chance="100" />
-			<item id="37260" min="1" max="1" chance="100" />
-			<item id="37158" min="1" max="1" chance="100" />
-			<item id="37259" min="1" max="1" chance="100" />
-			<item id="37148" min="1" max="1" chance="100" />
+			<item id="37227" min="2" max="2" chance="100" /> <!-- Steel Adamantite Earring (60-day) -->
+			<item id="37229" min="2" max="2" chance="100" /> <!-- Steel Adamantite Ring (60-day) -->
+			<item id="37228" min="1" max="1" chance="100" /> <!-- Steel Adamantite Necklace (60-day) -->
+			<item id="37159" min="1" max="1" chance="100" /> <!-- Steel Doom Gloves (Light) (60-day) -->
+			<item id="37160" min="1" max="1" chance="100" /> <!-- Steel Doom Boots (Light) (60-day) -->
+			<item id="37258" min="1" max="1" chance="100" /> <!-- Steel Great Axe (60-day) -->
+			<item id="37260" min="1" max="1" chance="100" /> <!-- Steel Dark Elven Longbow (60-day) -->
+			<item id="37158" min="1" max="1" chance="100" /> <!-- Steel Leather Armor of Doom (60-day) -->
+			<item id="37259" min="1" max="1" chance="100" /> <!-- Steel Twilight Knife (60-day) -->
+			<item id="37148" min="1" max="1" chance="100" /> <!-- Steel Doom Helmet (60-day) -->
 			<item id="37333" min="1" max="1" chance="100" /> <!-- Fated Support Box: Kamael (A-grade) -->
 		</capsuled_items>
 		<cond msgId="1902">
@@ -865,20 +868,20 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
-			<item id="37227" min="2" max="2" chance="100" />
-			<item id="37229" min="2" max="2" chance="100" />
-			<item id="37228" min="1" max="1" chance="100" />
-			<item id="37159" min="1" max="1" chance="100" />
-			<item id="37149" min="1" max="1" chance="100" />
-			<item id="37160" min="1" max="1" chance="100" />
-			<item id="37150" min="1" max="1" chance="100" />
-			<item id="37264" min="1" max="1" chance="100" />
-			<item id="37258" min="1" max="1" chance="100" />
-			<item id="37265" min="1" max="1" chance="100" />
-			<item id="37158" min="1" max="1" chance="100" />
-			<item id="37151" min="1" max="1" chance="100" />
-			<item id="37148" min="1" max="1" chance="100" />
-			<item id="37152" min="1" max="1" chance="100" />
+			<item id="37227" min="2" max="2" chance="100" /> <!-- Steel Adamantite Earring (60-day) -->
+			<item id="37229" min="2" max="2" chance="100" /> <!-- Steel Adamantite Ring (60-day) -->
+			<item id="37228" min="1" max="1" chance="100" /> <!-- Steel Adamantite Necklace (60-day) -->
+			<item id="37159" min="1" max="1" chance="100" /> <!-- Steel Doom Gloves (Light) (60-day) -->
+			<item id="37149" min="1" max="1" chance="100" /> <!-- Steel Doom Gloves (Heavy) (60-day) -->
+			<item id="37160" min="1" max="1" chance="100" /> <!-- Steel Doom Boots (Light) (60-day) -->
+			<item id="37150" min="1" max="1" chance="100" /> <!-- Steel Doom Boots (Heavy) (60-day) -->
+			<item id="37264" min="1" max="1" chance="100" /> <!-- Steel Great Sword (60-day) -->
+			<item id="37258" min="1" max="1" chance="100" /> <!-- Steel Great Axe (60-day) -->
+			<item id="37265" min="1" max="1" chance="100" /> <!-- Steel Arthro Nail (60-day) -->
+			<item id="37158" min="1" max="1" chance="100" /> <!-- Steel Leather Armor of Doom (60-day) -->
+			<item id="37151" min="1" max="1" chance="100" /> <!-- Steel Doom Plate Armor (60-day) -->
+			<item id="37148" min="1" max="1" chance="100" /> <!-- Steel Doom Helmet (60-day) -->
+			<item id="37152" min="1" max="1" chance="100" /> <!-- Steel Doom Shield (60-day) -->
 			<item id="37334" min="1" max="1" chance="100" /> <!-- Fated Support Box: Orc Fighter (A-grade) -->
 		</capsuled_items>
 		<cond msgId="1902">
@@ -901,22 +904,22 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
-			<item id="37227" min="2" max="2" chance="100" />
-			<item id="37229" min="2" max="2" chance="100" />
-			<item id="37228" min="1" max="1" chance="100" />
-			<item id="37154" min="1" max="1" chance="100" />
-			<item id="37153" min="1" max="1" chance="100" />
-			<item id="37155" min="1" max="1" chance="100" />
-			<item id="37149" min="1" max="1" chance="100" />
-			<item id="37156" min="1" max="1" chance="100" />
-			<item id="37150" min="1" max="1" chance="100" />
-			<item id="37257" min="1" max="1" chance="100" />
-			<item id="37151" min="1" max="1" chance="100" />
-			<item id="37255" min="1" max="1" chance="100" />
-			<item id="37148" min="1" max="1" chance="100" />
-			<item id="37157" min="1" max="1" chance="100" />
-			<item id="37152" min="1" max="1" chance="100" />
-			<item id="37335" min="1" max="1" chance="100" /> <!-- Fated Support Box: Orc Orc Wizard (A-grade) -->
+			<item id="37227" min="2" max="2" chance="100" /> <!-- Steel Adamantite Earring (60-day) -->
+			<item id="37229" min="2" max="2" chance="100" /> <!-- Steel Adamantite Ring (60-day) -->
+			<item id="37228" min="1" max="1" chance="100" /> <!-- Steel Adamantite Necklace (60-day) -->
+			<item id="37154" min="1" max="1" chance="100" /> <!-- Steel Avadon Circlet (60-day) -->
+			<item id="37153" min="1" max="1" chance="100" /> <!-- Steel Avadon Robe (60-day) -->
+			<item id="37155" min="1" max="1" chance="100" /> <!-- Steel Avadon Gloves (Robe) (60-day) -->
+			<item id="37149" min="1" max="1" chance="100" /> <!-- Steel Doom Gloves (Heavy) (60-day) -->
+			<item id="37156" min="1" max="1" chance="100" /> <!-- Steel Avadon Boots (Robe) (60-day) -->
+			<item id="37150" min="1" max="1" chance="100" /> <!-- Steel Doom Boots (Heavy) (60-day) -->
+			<item id="37257" min="1" max="1" chance="100" /> <!-- Steel Wizard's Tear (60-day) -->
+			<item id="37151" min="1" max="1" chance="100" /> <!-- Steel Doom Plate Armor (60-day) -->
+			<item id="37255" min="1" max="1" chance="100" /> <!-- Steel Spell Breaker (60-day) -->
+			<item id="37148" min="1" max="1" chance="100" /> <!-- Steel Doom Helmet (60-day) -->
+			<item id="37157" min="1" max="1" chance="100" /> <!-- Steel Avadon Shield (60-day) -->
+			<item id="37152" min="1" max="1" chance="100" /> <!-- Steel Doom Shield (60-day) -->
+			<item id="37335" min="1" max="1" chance="100" /> <!-- Fated Support Box: Orc Wizard (A-grade) -->
 		</capsuled_items>
 		<cond msgId="1902">
 			<player levelRange="52;84" />
@@ -938,17 +941,17 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
-			<item id="37230" min="2" max="2" chance="100" />
-			<item id="37232" min="2" max="2" chance="100" />
-			<item id="37231" min="1" max="1" chance="100" />
-			<item id="37163" min="1" max="1" chance="100" />
-			<item id="37164" min="1" max="1" chance="100" />
-			<item id="37267" min="1" max="1" chance="100" />
-			<item id="37161" min="1" max="1" chance="100" />
-			<item id="37268" min="1" max="1" chance="100" />
-			<item id="37266" min="1" max="1" chance="100" />
-			<item id="37162" min="1" max="1" chance="100" />
-			<item id="37165" min="1" max="1" chance="100" />
+			<item id="37230" min="2" max="2" chance="100" /> <!-- Steel Phoenix Earring (60-day) -->
+			<item id="37232" min="2" max="2" chance="100" /> <!-- Steel Phoenix Ring (60-day) -->
+			<item id="37231" min="1" max="1" chance="100" /> <!-- Steel Phoenix Necklace (60-day) -->
+			<item id="37163" min="1" max="1" chance="100" /> <!-- Steel Gauntlets of Nightmare (Heavy) (60-day) -->
+			<item id="37164" min="1" max="1" chance="100" /> <!-- Steel Boots of Nightmare (Heavy) (60-day) -->
+			<item id="37267" min="1" max="1" chance="100" /> <!-- Steel Spiritual Eye (60-day) -->
+			<item id="37161" min="1" max="1" chance="100" /> <!-- Steel Armor of Nightmare (60-day) -->
+			<item id="37268" min="1" max="1" chance="100" /> <!-- Steel Keshanberk*Keshanberk (60-day) -->
+			<item id="37266" min="1" max="1" chance="100" /> <!-- Steel Elemental Sword (60-day) -->
+			<item id="37162" min="1" max="1" chance="100" /> <!-- Steel Helm of Nightmare (60-day) -->
+			<item id="37165" min="1" max="1" chance="100" /> <!-- Steel Shield of Nightmare (60-day) -->
 			<item id="37336" min="1" max="1" chance="100" /> <!-- Fated Support Box: Fighter (S-grade) (Stage 1) -->
 		</capsuled_items>
 		<cond msgId="1902">
@@ -971,15 +974,15 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
-			<item id="37230" min="2" max="2" chance="100" />
-			<item id="37232" min="2" max="2" chance="100" />
-			<item id="37231" min="1" max="1" chance="100" />
-			<item id="37166" min="1" max="1" chance="100" />
-			<item id="37168" min="1" max="1" chance="100" />
-			<item id="37169" min="1" max="1" chance="100" />
-			<item id="37269" min="1" max="1" chance="100" />
-			<item id="37167" min="1" max="1" chance="100" />
-			<item id="37170" min="1" max="1" chance="100" />
+			<item id="37230" min="2" max="2" chance="100" /> <!-- Steel Phoenix Earring (60-day) -->
+			<item id="37232" min="2" max="2" chance="100" /> <!-- Steel Phoenix Ring (60-day) -->
+			<item id="37231" min="1" max="1" chance="100" /> <!-- Steel Phoenix Necklace (60-day) -->
+			<item id="37166" min="1" max="1" chance="100" /> <!-- Steel Dark Crystal Robe (60-day) -->
+			<item id="37168" min="1" max="1" chance="100" /> <!-- Steel Dark Crystal Gloves (Robe) (60-day) -->
+			<item id="37169" min="1" max="1" chance="100" /> <!-- Steel Dark Crystal Boots (Robe) (60-day) -->
+			<item id="37269" min="1" max="1" chance="100" /> <!-- Steel Sword of Miracles (60-day) -->
+			<item id="37167" min="1" max="1" chance="100" /> <!-- Steel Dark Crystal Helmet (60-day) -->
+			<item id="37170" min="1" max="1" chance="100" /> <!-- Steel Dark Crystal Shield (60-day) -->
 			<item id="37337" min="1" max="1" chance="100" /> <!-- Fated Support Box: Wizard (S-grade) (Stage 1) -->
 		</capsuled_items>
 		<cond msgId="1902">
@@ -1002,17 +1005,17 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
-			<item id="37230" min="2" max="2" chance="100" />
-			<item id="37232" min="2" max="2" chance="100" />
-			<item id="37231" min="1" max="1" chance="100" />
-			<item id="37270" min="1" max="1" chance="100" />
-			<item id="37163" min="1" max="1" chance="100" />
-			<item id="37164" min="1" max="1" chance="100" />
-			<item id="37267" min="1" max="1" chance="100" />
-			<item id="37161" min="1" max="1" chance="100" />
-			<item id="37268" min="1" max="1" chance="100" />
-			<item id="37162" min="1" max="1" chance="100" />
-			<item id="37165" min="1" max="1" chance="100" />
+			<item id="37230" min="2" max="2" chance="100" /> <!-- Steel Phoenix Earring (60-day) -->
+			<item id="37232" min="2" max="2" chance="100" /> <!-- Steel Phoenix Ring (60-day) -->
+			<item id="37231" min="1" max="1" chance="100" /> <!-- Steel Phoenix Necklace (60-day) -->
+			<item id="37270" min="1" max="1" chance="100" /> <!-- Steel Halberd (60-day) -->
+			<item id="37163" min="1" max="1" chance="100" /> <!-- Steel Gauntlets of Nightmare (Heavy) (60-day) -->
+			<item id="37164" min="1" max="1" chance="100" /> <!-- Steel Boots of Nightmare (Heavy) (60-day) -->
+			<item id="37267" min="1" max="1" chance="100" /> <!-- Steel Spiritual Eye (60-day) -->
+			<item id="37161" min="1" max="1" chance="100" /> <!-- Steel Armor of Nightmare (60-day) -->
+			<item id="37268" min="1" max="1" chance="100" /> <!-- Steel Keshanberk*Keshanberk (60-day) -->
+			<item id="37162" min="1" max="1" chance="100" /> <!-- Steel Helm of Nightmare (60-day) -->
+			<item id="37165" min="1" max="1" chance="100" /> <!-- Steel Shield of Nightmare (60-day) -->
 			<item id="37338" min="1" max="1" chance="100" /> <!-- Fated Support Box: Warrior (S-grade) (Stage 1) -->
 		</capsuled_items>
 		<cond msgId="1902">
@@ -1035,17 +1038,17 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
-			<item id="37230" min="2" max="2" chance="100" />
-			<item id="37232" min="2" max="2" chance="100" />
-			<item id="37231" min="1" max="1" chance="100" />
-			<item id="37270" min="1" max="1" chance="100" />
-			<item id="37271" min="1" max="1" chance="100" />
-			<item id="37173" min="1" max="1" chance="100" />
-			<item id="37172" min="1" max="1" chance="100" />
-			<item id="37174" min="1" max="1" chance="100" />
-			<item id="37171" min="1" max="1" chance="100" />
-			<item id="37272" min="1" max="1" chance="100" />
-			<item id="37167" min="1" max="1" chance="100" />
+			<item id="37230" min="2" max="2" chance="100" /> <!-- Steel Phoenix Earring (60-day) -->
+			<item id="37232" min="2" max="2" chance="100" /> <!-- Steel Phoenix Ring (60-day) -->
+			<item id="37231" min="1" max="1" chance="100" /> <!-- Steel Phoenix Necklace (60-day) -->
+			<item id="37270" min="1" max="1" chance="100" /> <!-- Steel Halberd (60-day) -->
+			<item id="37271" min="1" max="1" chance="100" /> <!-- Steel Bloody Orchid (60-day) -->
+			<item id="37173" min="1" max="1" chance="100" /> <!-- Steel Dark Crystal Gloves (Light) (60-day) -->
+			<item id="37172" min="1" max="1" chance="100" /> <!-- Steel Dark Crystal Leggings (60-day) -->
+			<item id="37174" min="1" max="1" chance="100" /> <!-- Steel Dark Crystal Boots (Light) (60-day) -->
+			<item id="37171" min="1" max="1" chance="100" /> <!-- Steel Dark Crystal Leather Armor (60-day) -->
+			<item id="37272" min="1" max="1" chance="100" /> <!-- Steel Carnage Bow (60-day) -->
+			<item id="37167" min="1" max="1" chance="100" /> <!-- Steel Dark Crystal Helmet (60-day) -->
 			<item id="37339" min="1" max="1" chance="100" /> <!-- Fated Support Box: Rogue (S-grade) (Stage 1) -->
 		</capsuled_items>
 		<cond msgId="1902">
@@ -1068,17 +1071,17 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
-			<item id="37230" min="2" max="2" chance="100" />
-			<item id="37232" min="2" max="2" chance="100" />
-			<item id="37231" min="1" max="1" chance="100" />
-			<item id="37273" min="1" max="1" chance="100" />
-			<item id="37275" min="1" max="1" chance="100" />
-			<item id="37173" min="1" max="1" chance="100" />
-			<item id="37172" min="1" max="1" chance="100" />
-			<item id="37174" min="1" max="1" chance="100" />
-			<item id="37171" min="1" max="1" chance="100" />
-			<item id="37274" min="1" max="1" chance="100" />
-			<item id="37167" min="1" max="1" chance="100" />
+			<item id="37230" min="2" max="2" chance="100" /> <!-- Steel Phoenix Earring (60-day) -->
+			<item id="37232" min="2" max="2" chance="100" /> <!-- Steel Phoenix Ring (60-day) -->
+			<item id="37231" min="1" max="1" chance="100" /> <!-- Steel Phoenix Necklace (60-day) -->
+			<item id="37273" min="1" max="1" chance="100" /> <!-- Steel White Lightning (60-day) -->
+			<item id="37275" min="1" max="1" chance="100" /> <!-- Steel Divine Pain (60-day) -->
+			<item id="37173" min="1" max="1" chance="100" /> <!-- Steel Dark Crystal Gloves (Light) (60-day) -->
+			<item id="37172" min="1" max="1" chance="100" /> <!-- Steel Dark Crystal Leggings (60-day) -->
+			<item id="37174" min="1" max="1" chance="100" /> <!-- Steel Dark Crystal Boots (Light) (60-day) -->
+			<item id="37171" min="1" max="1" chance="100" /> <!-- Steel Dark Crystal Leather Armor (60-day) -->
+			<item id="37274" min="1" max="1" chance="100" /> <!-- Steel Doomchanter (60-day) -->
+			<item id="37167" min="1" max="1" chance="100" /> <!-- Steel Dark Crystal Helmet (60-day) -->
 			<item id="37340" min="1" max="1" chance="100" /> <!-- Fated Support Box: Kamael (S-grade) (Stage 1) -->
 		</capsuled_items>
 		<cond msgId="1902">
@@ -1101,22 +1104,22 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
-			<item id="37230" min="2" max="2" chance="100" />
-			<item id="37232" min="2" max="2" chance="100" />
-			<item id="37231" min="1" max="1" chance="100" />
-			<item id="37270" min="1" max="1" chance="100" />
-			<item id="37173" min="1" max="1" chance="100" />
-			<item id="37172" min="1" max="1" chance="100" />
-			<item id="37163" min="1" max="1" chance="100" />
-			<item id="37164" min="1" max="1" chance="100" />
-			<item id="37174" min="1" max="1" chance="100" />
-			<item id="37161" min="1" max="1" chance="100" />
-			<item id="37171" min="1" max="1" chance="100" />
-			<item id="37277" min="1" max="1" chance="100" />
-			<item id="37276" min="1" max="1" chance="100" />
-			<item id="37162" min="1" max="1" chance="100" />
-			<item id="37167" min="1" max="1" chance="100" />
-			<item id="37165" min="1" max="1" chance="100" />
+			<item id="37230" min="2" max="2" chance="100" /> <!-- Steel Phoenix Earring (60-day) -->
+			<item id="37232" min="2" max="2" chance="100" /> <!-- Steel Phoenix Ring (60-day) -->
+			<item id="37231" min="1" max="1" chance="100" /> <!-- Steel Phoenix Necklace (60-day) -->
+			<item id="37270" min="1" max="1" chance="100" /> <!-- Steel Halberd (60-day) -->
+			<item id="37173" min="1" max="1" chance="100" /> <!-- Steel Dark Crystal Gloves (Light) (60-day) -->
+			<item id="37172" min="1" max="1" chance="100" /> <!-- Steel Dark Crystal Leggings (60-day) -->
+			<item id="37163" min="1" max="1" chance="100" /> <!-- Steel Gauntlets of Nightmare (Heavy) (60-day) -->
+			<item id="37164" min="1" max="1" chance="100" /> <!-- Steel Boots of Nightmare (Heavy) (60-day) -->
+			<item id="37174" min="1" max="1" chance="100" /> <!-- Steel Dark Crystal Boots (Light) (60-day) -->
+			<item id="37161" min="1" max="1" chance="100" /> <!-- Steel Armor of Nightmare (60-day) -->
+			<item id="37171" min="1" max="1" chance="100" /> <!-- Steel Dark Crystal Leather Armor (60-day) -->
+			<item id="37277" min="1" max="1" chance="100" /> <!-- Steel Blood Tornado (60-day) -->
+			<item id="37276" min="1" max="1" chance="100" /> <!-- Steel Infernal Master (60-day) -->
+			<item id="37162" min="1" max="1" chance="100" /> <!-- Steel Helm of Nightmare (60-day) -->
+			<item id="37167" min="1" max="1" chance="100" /> <!-- Steel Dark Crystal Helmet (60-day) -->
+			<item id="37165" min="1" max="1" chance="100" /> <!-- Steel Shield of Nightmare (60-day) -->
 			<item id="37341" min="1" max="1" chance="100" /> <!-- Fated Support Box: Orc Fighter (S-grade) (Stage 1) -->
 		</capsuled_items>
 		<cond msgId="1902">
@@ -1139,21 +1142,21 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
-			<item id="37230" min="2" max="2" chance="100" />
-			<item id="37232" min="2" max="2" chance="100" />
-			<item id="37231" min="1" max="1" chance="100" />
-			<item id="37166" min="1" max="1" chance="100" />
-			<item id="37168" min="1" max="1" chance="100" />
-			<item id="37163" min="1" max="1" chance="100" />
-			<item id="37164" min="1" max="1" chance="100" />
-			<item id="37169" min="1" max="1" chance="100" />
-			<item id="37267" min="1" max="1" chance="100" />
-			<item id="37161" min="1" max="1" chance="100" />
-			<item id="37269" min="1" max="1" chance="100" />
-			<item id="37162" min="1" max="1" chance="100" />
-			<item id="37167" min="1" max="1" chance="100" />
-			<item id="37165" min="1" max="1" chance="100" />
-			<item id="37170" min="1" max="1" chance="100" />
+			<item id="37230" min="2" max="2" chance="100" /> <!-- Steel Phoenix Earring (60-day) -->
+			<item id="37232" min="2" max="2" chance="100" /> <!-- Steel Phoenix Ring (60-day) -->
+			<item id="37231" min="1" max="1" chance="100" /> <!-- Steel Phoenix Necklace (60-day) -->
+			<item id="37166" min="1" max="1" chance="100" /> <!-- Steel Dark Crystal Robe (60-day) -->
+			<item id="37168" min="1" max="1" chance="100" /> <!-- Steel Dark Crystal Gloves (Robe) (60-day) -->
+			<item id="37163" min="1" max="1" chance="100" /> <!-- Steel Gauntlets of Nightmare (Heavy) (60-day) -->
+			<item id="37164" min="1" max="1" chance="100" /> <!-- Steel Boots of Nightmare (Heavy) (60-day) -->
+			<item id="37169" min="1" max="1" chance="100" /> <!-- Steel Dark Crystal Boots (Robe) (60-day) -->
+			<item id="37267" min="1" max="1" chance="100" /> <!-- Steel Spiritual Eye (60-day) -->
+			<item id="37161" min="1" max="1" chance="100" /> <!-- Steel Armor of Nightmare (60-day) -->
+			<item id="37269" min="1" max="1" chance="100" /> <!-- Steel Sword of Miracles (60-day) -->
+			<item id="37162" min="1" max="1" chance="100" /> <!-- Steel Helm of Nightmare (60-day) -->
+			<item id="37167" min="1" max="1" chance="100" /> <!-- Steel Dark Crystal Helmet (60-day) -->
+			<item id="37165" min="1" max="1" chance="100" /> <!-- Steel Shield of Nightmare (60-day) -->
+			<item id="37170" min="1" max="1" chance="100" /> <!-- Steel Dark Crystal Shield (60-day) -->
 			<item id="37342" min="1" max="1" chance="100" /> <!-- Fated Support Box: Orc Wizard (S-grade) (Stage 1) -->
 		</capsuled_items>
 		<cond msgId="1902">
@@ -1176,18 +1179,18 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
-			<item id="37233" min="2" max="2" chance="100" />
-			<item id="37235" min="2" max="2" chance="100" />
-			<item id="37234" min="1" max="1" chance="100" />
-			<item id="37175" min="1" max="1" chance="100" />
-			<item id="37176" min="1" max="1" chance="100" />
-			<item id="37177" min="1" max="1" chance="100" />
-			<item id="37178" min="1" max="1" chance="100" />
-			<item id="37279" min="1" max="1" chance="100" />
-			<item id="37278" min="1" max="1" chance="100" />
-			<item id="37280" min="1" max="1" chance="100" />
-			<item id="37179" min="1" max="1" chance="100" />
-			<item id="37180" min="1" max="1" chance="100" />
+			<item id="37233" min="2" max="2" chance="100" /> <!-- Steel Tateossian Earring (60-day) -->
+			<item id="37235" min="2" max="2" chance="100" /> <!-- Steel Tateossian Ring (60-day) -->
+			<item id="37234" min="1" max="1" chance="100" /> <!-- Steel Tateossian Necklace (60-day) -->
+			<item id="37175" min="1" max="1" chance="100" /> <!-- Steel Imperial Crusader Breastplate (60-day) -->
+			<item id="37176" min="1" max="1" chance="100" /> <!-- Steel Imperial Crusader Gaiters (60-day) -->
+			<item id="37177" min="1" max="1" chance="100" /> <!-- Steel Imperial Crusader Gauntlets (60-day) -->
+			<item id="37178" min="1" max="1" chance="100" /> <!-- Steel Imperial Crusader Boots (60-day) -->
+			<item id="37279" min="1" max="1" chance="100" /> <!-- Steel Basalt Battlehammer (60-day) -->
+			<item id="37278" min="1" max="1" chance="100" /> <!-- Steel Forgotten Blade (60-day) -->
+			<item id="37280" min="1" max="1" chance="100" /> <!-- Steel Tallum Blade*Dark Legion's Edge (60-day) -->
+			<item id="37179" min="1" max="1" chance="100" /> <!-- Steel Imperial Crusader Helmet (60-day) -->
+			<item id="37180" min="1" max="1" chance="100" /> <!-- Steel Imperial Crusader Shield (60-day) -->
 			<item id="37343" min="1" max="1" chance="100" /> <!-- Fated Support Box: Fighter (S-grade) (Stage 2) -->
 		</capsuled_items>
 		<cond msgId="1902">
@@ -1210,15 +1213,15 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
-			<item id="37233" min="2" max="2" chance="100" />
-			<item id="37235" min="2" max="2" chance="100" />
-			<item id="37234" min="1" max="1" chance="100" />
-			<item id="37184" min="1" max="1" chance="100" />
-			<item id="37181" min="1" max="1" chance="100" />
-			<item id="37182" min="1" max="1" chance="100" />
-			<item id="37183" min="1" max="1" chance="100" />
-			<item id="37281" min="1" max="1" chance="100" />
-			<item id="37185" min="1" max="1" chance="100" />
+			<item id="37233" min="2" max="2" chance="100" /> <!-- Steel Tateossian Earring (60-day) -->
+			<item id="37235" min="2" max="2" chance="100" /> <!-- Steel Tateossian Ring (60-day) -->
+			<item id="37234" min="1" max="1" chance="100" /> <!-- Steel Tateossian Necklace (60-day) -->
+			<item id="37184" min="1" max="1" chance="100" /> <!-- Steel Major Arcana Circlet (60-day) -->
+			<item id="37181" min="1" max="1" chance="100" /> <!-- Steel Major Arcana Robe (60-day) -->
+			<item id="37182" min="1" max="1" chance="100" /> <!-- Steel Major Arcana Gloves (60-day) -->
+			<item id="37183" min="1" max="1" chance="100" /> <!-- Steel Major Arcana Boots (60-day) -->
+			<item id="37281" min="1" max="1" chance="100" /> <!-- Steel Arcana Mace (60-day) -->
+			<item id="37185" min="1" max="1" chance="100" /> <!-- Steel Arcana Sigil (60-day) -->
 			<item id="37344" min="1" max="1" chance="100" /> <!-- Fated Support Box: Wizard (S-grade) (Stage 2) -->
 		</capsuled_items>
 		<cond msgId="1902">
@@ -1241,18 +1244,18 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
-			<item id="37233" min="2" max="2" chance="100" />
-			<item id="37235" min="2" max="2" chance="100" />
-			<item id="37234" min="1" max="1" chance="100" />
-			<item id="37175" min="1" max="1" chance="100" />
-			<item id="37282" min="1" max="1" chance="100" />
-			<item id="37176" min="1" max="1" chance="100" />
-			<item id="37177" min="1" max="1" chance="100" />
-			<item id="37178" min="1" max="1" chance="100" />
-			<item id="37279" min="1" max="1" chance="100" />
-			<item id="37280" min="1" max="1" chance="100" />
-			<item id="37179" min="1" max="1" chance="100" />
-			<item id="37180" min="1" max="1" chance="100" />
+			<item id="37233" min="2" max="2" chance="100" /> <!-- Steel Tateossian Earring (60-day) -->
+			<item id="37235" min="2" max="2" chance="100" /> <!-- Steel Tateossian Ring (60-day) -->
+			<item id="37234" min="1" max="1" chance="100" /> <!-- Steel Tateossian Necklace (60-day) -->
+			<item id="37175" min="1" max="1" chance="100" /> <!-- Steel Imperial Crusader Breastplate (60-day) -->
+			<item id="37282" min="1" max="1" chance="100" /> <!-- Steel Saint Spear (60-day) -->
+			<item id="37176" min="1" max="1" chance="100" /> <!-- Steel Imperial Crusader Gaiters (60-day) -->
+			<item id="37177" min="1" max="1" chance="100" /> <!-- Steel Imperial Crusader Gauntlets (60-day) -->
+			<item id="37178" min="1" max="1" chance="100" /> <!-- Steel Imperial Crusader Boots (60-day) -->
+			<item id="37279" min="1" max="1" chance="100" /> <!-- Steel Basalt Battlehammer (60-day) -->
+			<item id="37280" min="1" max="1" chance="100" /> <!-- Steel Tallum Blade*Dark Legion's Edge (60-day) -->
+			<item id="37179" min="1" max="1" chance="100" /> <!-- Steel Imperial Crusader Helmet (60-day) -->
+			<item id="37180" min="1" max="1" chance="100" /> <!-- Steel Imperial Crusader Shield (60-day) -->
 			<item id="37345" min="1" max="1" chance="100" /> <!-- Fated Support Box: Warrior (S-grade) (Stage 2) -->
 		</capsuled_items>
 		<cond msgId="1902">
@@ -1275,16 +1278,16 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
-			<item id="37233" min="2" max="2" chance="100" />
-			<item id="37235" min="2" max="2" chance="100" />
-			<item id="37234" min="1" max="1" chance="100" />
-			<item id="37282" min="1" max="1" chance="100" />
-			<item id="37187" min="1" max="1" chance="100" />
-			<item id="37188" min="1" max="1" chance="100" />
-			<item id="37186" min="1" max="1" chance="100" />
-			<item id="37376" min="1" max="1" chance="100" />
-			<item id="37283" min="1" max="1" chance="100" />
-			<item id="37189" min="1" max="1" chance="100" />
+			<item id="37233" min="2" max="2" chance="100" /> <!-- Steel Tateossian Earring (60-day) -->
+			<item id="37235" min="2" max="2" chance="100" /> <!-- Steel Tateossian Ring (60-day) -->
+			<item id="37234" min="1" max="1" chance="100" /> <!-- Steel Tateossian Necklace (60-day) -->
+			<item id="37282" min="1" max="1" chance="100" /> <!-- Steel Saint Spear (60-day) -->
+			<item id="37187" min="1" max="1" chance="100" /> <!-- Steel Draconic Leather Gloves (60-day) -->
+			<item id="37188" min="1" max="1" chance="100" /> <!-- Steel Draconic Leather Boots (60-day) -->
+			<item id="37186" min="1" max="1" chance="100" /> <!-- Steel Draconic Leather Armor (60-day) -->
+			<item id="37376" min="1" max="1" chance="100" /> <!-- Steel Draconic Bow (60-day) -->
+			<item id="37283" min="1" max="1" chance="100" /> <!-- Steel Angel Slayer (60-day) -->
+			<item id="37189" min="1" max="1" chance="100" /> <!-- Steel Draconic Leather Helmet (60-day) -->
 			<item id="37346" min="1" max="1" chance="100" /> <!-- Fated Support Box: Rogue (S-grade) (Stage 2) -->
 		</capsuled_items>
 		<cond msgId="1902">
@@ -1307,16 +1310,16 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
-			<item id="37233" min="2" max="2" chance="100" />
-			<item id="37235" min="2" max="2" chance="100" />
-			<item id="37234" min="1" max="1" chance="100" />
-			<item id="37286" min="1" max="1" chance="100" />
-			<item id="37187" min="1" max="1" chance="100" />
-			<item id="37188" min="1" max="1" chance="100" />
-			<item id="37284" min="1" max="1" chance="100" />
-			<item id="37186" min="1" max="1" chance="100" />
-			<item id="37285" min="1" max="1" chance="100" />
-			<item id="37189" min="1" max="1" chance="100" />
+			<item id="37233" min="2" max="2" chance="100" /> <!-- Steel Tateossian Earring (60-day) -->
+			<item id="37235" min="2" max="2" chance="100" /> <!-- Steel Tateossian Ring (60-day) -->
+			<item id="37234" min="1" max="1" chance="100" /> <!-- Steel Tateossian Necklace (60-day) -->
+			<item id="37286" min="1" max="1" chance="100" /> <!-- Steel Sarunga (60-day) -->
+			<item id="37187" min="1" max="1" chance="100" /> <!-- Steel Draconic Leather Gloves (60-day) -->
+			<item id="37188" min="1" max="1" chance="100" /> <!-- Steel Draconic Leather Boots (60-day) -->
+			<item id="37284" min="1" max="1" chance="100" /> <!-- Steel Gram (60-day) -->
+			<item id="37186" min="1" max="1" chance="100" /> <!-- Steel Draconic Leather Armor (60-day) -->
+			<item id="37285" min="1" max="1" chance="100" /> <!-- Steel Laevateinn (60-day) -->
+			<item id="37189" min="1" max="1" chance="100" /> <!-- Steel Draconic Leather Helmet (60-day) -->
 			<item id="37347" min="1" max="1" chance="100" /> <!-- Fated Support Box: Kamael (S-grade) (Stage 2) -->
 		</capsuled_items>
 		<cond msgId="1902">
@@ -1339,22 +1342,22 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
-			<item id="37233" min="2" max="2" chance="100" />
-			<item id="37235" min="2" max="2" chance="100" />
-			<item id="37234" min="1" max="1" chance="100" />
-			<item id="37175" min="1" max="1" chance="100" />
-			<item id="37282" min="1" max="1" chance="100" />
-			<item id="37176" min="1" max="1" chance="100" />
-			<item id="37187" min="1" max="1" chance="100" />
-			<item id="37177" min="1" max="1" chance="100" />
-			<item id="37188" min="1" max="1" chance="100" />
-			<item id="37279" min="1" max="1" chance="100" />
-			<item id="37288" min="1" max="1" chance="100" />
-			<item id="37186" min="1" max="1" chance="100" />
-			<item id="37287" min="1" max="1" chance="100" />
-			<item id="37189" min="1" max="1" chance="100" />
-			<item id="37179" min="1" max="1" chance="100" />
-			<item id="37180" min="1" max="1" chance="100" />
+			<item id="37233" min="2" max="2" chance="100" /> <!-- Steel Tateossian Earring (60-day) -->
+			<item id="37235" min="2" max="2" chance="100" /> <!-- Steel Tateossian Ring (60-day) -->
+			<item id="37234" min="1" max="1" chance="100" /> <!-- Steel Tateossian Necklace (60-day) -->
+			<item id="37175" min="1" max="1" chance="100" /> <!-- Steel Imperial Crusader Breastplate (60-day) -->
+			<item id="37282" min="1" max="1" chance="100" /> <!-- Steel Saint Spear (60-day) -->
+			<item id="37176" min="1" max="1" chance="100" /> <!-- Steel Imperial Crusader Gaiters (60-day) -->
+			<item id="37187" min="1" max="1" chance="100" /> <!-- Steel Draconic Leather Gloves (60-day) -->
+			<item id="37177" min="1" max="1" chance="100" /> <!-- Steel Imperial Crusader Gauntlets (60-day) -->
+			<item id="37188" min="1" max="1" chance="100" /> <!-- Steel Draconic Leather Boots (60-day) -->
+			<item id="37279" min="1" max="1" chance="100" /> <!-- Steel Basalt Battlehammer (60-day) -->
+			<item id="37288" min="1" max="1" chance="100" /> <!-- Steel Demon Splinter (60-day) -->
+			<item id="37186" min="1" max="1" chance="100" /> <!-- Steel Draconic Leather Armor (60-day) -->
+			<item id="37287" min="1" max="1" chance="100" /> <!-- Steel Heaven's Divider (60-day) -->
+			<item id="37189" min="1" max="1" chance="100" /> <!-- Steel Draconic Leather Helmet (60-day) -->
+			<item id="37179" min="1" max="1" chance="100" /> <!-- Steel Imperial Crusader Helmet (60-day) -->
+			<item id="37180" min="1" max="1" chance="100" /> <!-- Steel Imperial Crusader Shield (60-day) -->
 			<item id="37348" min="1" max="1" chance="100" /> <!-- Fated Support Box: Orc Fighter (S-grade) (Stage 2) -->
 		</capsuled_items>
 		<cond msgId="1902">
@@ -1377,22 +1380,22 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
-			<item id="37233" min="2" max="2" chance="100" />
-			<item id="37235" min="2" max="2" chance="100" />
-			<item id="37234" min="1" max="1" chance="100" />
-			<item id="37184" min="1" max="1" chance="100" />
-			<item id="37175" min="1" max="1" chance="100" />
-			<item id="37181" min="1" max="1" chance="100" />
-			<item id="37176" min="1" max="1" chance="100" />
-			<item id="37182" min="1" max="1" chance="100" />
-			<item id="37177" min="1" max="1" chance="100" />
-			<item id="37178" min="1" max="1" chance="100" />
-			<item id="37183" min="1" max="1" chance="100" />
-			<item id="37279" min="1" max="1" chance="100" />
-			<item id="37281" min="1" max="1" chance="100" />
-			<item id="37185" min="1" max="1" chance="100" />
-			<item id="37179" min="1" max="1" chance="100" />
-			<item id="37180" min="1" max="1" chance="100" />
+			<item id="37233" min="2" max="2" chance="100" /> <!-- Steel Tateossian Earring (60-day) -->
+			<item id="37235" min="2" max="2" chance="100" /> <!-- Steel Tateossian Ring (60-day) -->
+			<item id="37234" min="1" max="1" chance="100" /> <!-- Steel Tateossian Necklace (60-day) -->
+			<item id="37184" min="1" max="1" chance="100" /> <!-- Steel Major Arcana Circlet (60-day) -->
+			<item id="37175" min="1" max="1" chance="100" /> <!-- Steel Imperial Crusader Breastplate (60-day) -->
+			<item id="37181" min="1" max="1" chance="100" /> <!-- Steel Major Arcana Robe (60-day) -->
+			<item id="37176" min="1" max="1" chance="100" /> <!-- Steel Imperial Crusader Gaiters (60-day) -->
+			<item id="37182" min="1" max="1" chance="100" /> <!-- Steel Major Arcana Gloves (60-day) -->
+			<item id="37177" min="1" max="1" chance="100" /> <!-- Steel Imperial Crusader Gauntlets (60-day) -->
+			<item id="37178" min="1" max="1" chance="100" /> <!-- Steel Imperial Crusader Boots (60-day) -->
+			<item id="37183" min="1" max="1" chance="100" /> <!-- Steel Major Arcana Boots (60-day) -->
+			<item id="37279" min="1" max="1" chance="100" /> <!-- Steel Basalt Battlehammer (60-day) -->
+			<item id="37281" min="1" max="1" chance="100" /> <!-- Steel Arcana Mace (60-day) -->
+			<item id="37185" min="1" max="1" chance="100" /> <!-- Steel Arcana Sigil (60-day) -->
+			<item id="37179" min="1" max="1" chance="100" /> <!-- Steel Imperial Crusader Helmet (60-day) -->
+			<item id="37180" min="1" max="1" chance="100" /> <!-- Steel Imperial Crusader Shield (60-day) -->
 			<item id="37349" min="1" max="1" chance="100" /> <!-- Fated Support Box: Orc Wizard (S-grade) (Stage 2) -->
 		</capsuled_items>
 		<cond msgId="1902">
@@ -1415,18 +1418,18 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
-			<item id="37236" min="2" max="2" chance="100" />
-			<item id="37238" min="2" max="2" chance="100" />
-			<item id="37237" min="1" max="1" chance="100" />
-			<item id="37290" min="1" max="1" chance="100" />
-			<item id="37190" min="1" max="1" chance="100" />
-			<item id="37191" min="1" max="1" chance="100" />
-			<item id="37291" min="1" max="1" chance="100" />
-			<item id="37193" min="1" max="1" chance="100" />
-			<item id="37194" min="1" max="1" chance="100" />
-			<item id="37289" min="1" max="1" chance="100" />
-			<item id="37192" min="1" max="1" chance="100" />
-			<item id="37195" min="1" max="1" chance="100" />
+			<item id="37236" min="2" max="2" chance="100" /> <!-- Steel Dynasty Earring (60-day) -->
+			<item id="37238" min="2" max="2" chance="100" /> <!-- Steel Dynasty Ring (60-day) -->
+			<item id="37237" min="1" max="1" chance="100" /> <!-- Steel Dynasty Necklace (60-day) -->
+			<item id="37290" min="1" max="1" chance="100" /> <!-- Steel Dynasty Cudgel (60-day) -->
+			<item id="37190" min="1" max="1" chance="100" /> <!-- Steel Dynasty Breastplate (60-day) -->
+			<item id="37191" min="1" max="1" chance="100" /> <!-- Steel Dynasty Gaiters (60-day) -->
+			<item id="37291" min="1" max="1" chance="100" /> <!-- Steel Dynasty Dualsword (60-day) -->
+			<item id="37193" min="1" max="1" chance="100" /> <!-- Steel Dynasty Gauntlets (60-day) -->
+			<item id="37194" min="1" max="1" chance="100" /> <!-- Steel Dynasty Boots (60-day) -->
+			<item id="37289" min="1" max="1" chance="100" /> <!-- Steel Dynasty Phantom (60-day) -->
+			<item id="37192" min="1" max="1" chance="100" /> <!-- Steel Dynasty Helmet (60-day) -->
+			<item id="37195" min="1" max="1" chance="100" /> <!-- Steel Dynasty Shield (60-day) -->
 			<item id="37350" min="1" max="1" chance="100" /> <!-- Fated Support Box: Sigel Knight (R-grade) -->
 		</capsuled_items>
 		<cond msgId="1902">
@@ -1449,16 +1452,16 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
-			<item id="37236" min="2" max="2" chance="100" />
-			<item id="37238" min="2" max="2" chance="100" />
-			<item id="37237" min="1" max="1" chance="100" />
-			<item id="37198" min="1" max="1" chance="100" />
-			<item id="37196" min="1" max="1" chance="100" />
-			<item id="37200" min="1" max="1" chance="100" />
-			<item id="37199" min="1" max="1" chance="100" />
-			<item id="37197" min="1" max="1" chance="100" />
-			<item id="37201" min="1" max="1" chance="100" />
-			<item id="37289" min="1" max="1" chance="100" />
+			<item id="37236" min="2" max="2" chance="100" /> <!-- Steel Dynasty Earring (60-day) -->
+			<item id="37238" min="2" max="2" chance="100" /> <!-- Steel Dynasty Ring (60-day) -->
+			<item id="37237" min="1" max="1" chance="100" /> <!-- Steel Dynasty Necklace (60-day) -->
+			<item id="37198" min="1" max="1" chance="100" /> <!-- Steel Dynasty Circlet (60-day) -->
+			<item id="37196" min="1" max="1" chance="100" /> <!-- Steel Dynasty Tunic (60-day) -->
+			<item id="37200" min="1" max="1" chance="100" /> <!-- Steel Dynasty Shoes (60-day) -->
+			<item id="37199" min="1" max="1" chance="100" /> <!-- Steel Dynasty Gloves (60-day) -->
+			<item id="37197" min="1" max="1" chance="100" /> <!-- Steel Dynasty Stockings (60-day) -->
+			<item id="37201" min="1" max="1" chance="100" /> <!-- Steel Dynasty Sigil (60-day) -->
+			<item id="37289" min="1" max="1" chance="100" /> <!-- Steel Dynasty Phantom (60-day) -->
 			<item id="37351" min="1" max="1" chance="100" /> <!-- Fated Support Box: Tyrr Warrior (R-grade) -->
 		</capsuled_items>
 		<cond msgId="1902">
@@ -1481,18 +1484,18 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
-			<item id="37236" min="2" max="2" chance="100" />
-			<item id="37238" min="2" max="2" chance="100" />
-			<item id="37237" min="1" max="1" chance="100" />
-			<item id="37292" min="1" max="1" chance="100" />
-			<item id="37290" min="1" max="1" chance="100" />
-			<item id="37190" min="1" max="1" chance="100" />
-			<item id="37191" min="1" max="1" chance="100" />
-			<item id="37291" min="1" max="1" chance="100" />
-			<item id="37193" min="1" max="1" chance="100" />
-			<item id="37194" min="1" max="1" chance="100" />
-			<item id="37192" min="1" max="1" chance="100" />
-			<item id="37195" min="1" max="1" chance="100" />
+			<item id="37236" min="2" max="2" chance="100" /> <!-- Steel Dynasty Earring (60-day) -->
+			<item id="37238" min="2" max="2" chance="100" /> <!-- Steel Dynasty Ring (60-day) -->
+			<item id="37237" min="1" max="1" chance="100" /> <!-- Steel Dynasty Necklace (60-day) -->
+			<item id="37292" min="1" max="1" chance="100" /> <!-- Steel Dynasty Halberd (60-day) -->
+			<item id="37290" min="1" max="1" chance="100" /> <!-- Steel Dynasty Cudgel (60-day) -->
+			<item id="37190" min="1" max="1" chance="100" /> <!-- Steel Dynasty Breastplate (60-day) -->
+			<item id="37191" min="1" max="1" chance="100" /> <!-- Steel Dynasty Gaiters (60-day) -->
+			<item id="37291" min="1" max="1" chance="100" /> <!-- Steel Dynasty Dualsword (60-day) -->
+			<item id="37193" min="1" max="1" chance="100" /> <!-- Steel Dynasty Gauntlets (60-day) -->
+			<item id="37194" min="1" max="1" chance="100" /> <!-- Steel Dynasty Boots (60-day) -->
+			<item id="37192" min="1" max="1" chance="100" /> <!-- Steel Dynasty Helmet (60-day) -->
+			<item id="37195" min="1" max="1" chance="100" /> <!-- Steel Dynasty Shield (60-day) -->
 			<item id="37352" min="1" max="1" chance="100" /> <!-- Fated Support Box: Othell Rogue (R-grade) -->
 		</capsuled_items>
 		<cond msgId="1902">
@@ -1515,17 +1518,17 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
-			<item id="37236" min="2" max="2" chance="100" />
-			<item id="37238" min="2" max="2" chance="100" />
-			<item id="37237" min="1" max="1" chance="100" />
-			<item id="37292" min="1" max="1" chance="100" />
-			<item id="37205" min="1" max="1" chance="100" />
-			<item id="37203" min="1" max="1" chance="100" />
-			<item id="37206" min="1" max="1" chance="100" />
-			<item id="37202" min="1" max="1" chance="100" />
-			<item id="37204" min="1" max="1" chance="100" />
-			<item id="37377" min="1" max="1" chance="100" />
-			<item id="37293" min="1" max="1" chance="100" />
+			<item id="37236" min="2" max="2" chance="100" /> <!-- Steel Dynasty Earring (60-day) -->
+			<item id="37238" min="2" max="2" chance="100" /> <!-- Steel Dynasty Ring (60-day) -->
+			<item id="37237" min="1" max="1" chance="100" /> <!-- Steel Dynasty Necklace (60-day) -->
+			<item id="37292" min="1" max="1" chance="100" /> <!-- Steel Dynasty Halberd (60-day) -->
+			<item id="37205" min="1" max="1" chance="100" /> <!-- Steel Dynasty Leather Gloves (60-day) -->
+			<item id="37203" min="1" max="1" chance="100" /> <!-- Steel Dynasty Leather Leggings (60-day) -->
+			<item id="37206" min="1" max="1" chance="100" /> <!-- Steel Dynasty Leather Boots (60-day) -->
+			<item id="37202" min="1" max="1" chance="100" /> <!-- Steel Dynasty Leather Armor (60-day) -->
+			<item id="37204" min="1" max="1" chance="100" /> <!-- Steel Dynasty Leather Helmet (60-day) -->
+			<item id="37377" min="1" max="1" chance="100" /> <!-- Steel Dynasty Bow (60-day) -->
+			<item id="37293" min="1" max="1" chance="100" /> <!-- Steel Dynasty Knife (60-day) -->
 			<item id="37353" min="1" max="1" chance="100" /> <!-- Fated Support Box: Yul Archer (R-grade) -->
 		</capsuled_items>
 		<cond msgId="1902">
@@ -1548,17 +1551,17 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
-			<item id="37236" min="2" max="2" chance="100" />
-			<item id="37238" min="2" max="2" chance="100" />
-			<item id="37237" min="1" max="1" chance="100" />
-			<item id="37296" min="1" max="1" chance="100" />
-			<item id="37205" min="1" max="1" chance="100" />
-			<item id="37203" min="1" max="1" chance="100" />
-			<item id="37206" min="1" max="1" chance="100" />
-			<item id="37294" min="1" max="1" chance="100" />
-			<item id="37295" min="1" max="1" chance="100" />
-			<item id="37202" min="1" max="1" chance="100" />
-			<item id="37204" min="1" max="1" chance="100" />
+			<item id="37236" min="2" max="2" chance="100" /> <!-- Steel Dynasty Earring (60-day) -->
+			<item id="37238" min="2" max="2" chance="100" /> <!-- Steel Dynasty Ring (60-day) -->
+			<item id="37237" min="1" max="1" chance="100" /> <!-- Steel Dynasty Necklace (60-day) -->
+			<item id="37296" min="1" max="1" chance="100" /> <!-- Steel Dynasty Rapier (60-day) -->
+			<item id="37205" min="1" max="1" chance="100" /> <!-- Steel Dynasty Leather Gloves (60-day) -->
+			<item id="37203" min="1" max="1" chance="100" /> <!-- Steel Dynasty Leather Leggings (60-day) -->
+			<item id="37206" min="1" max="1" chance="100" /> <!-- Steel Dynasty Leather Boots (60-day) -->
+			<item id="37294" min="1" max="1" chance="100" /> <!-- Steel Dynasty Crossbow (60-day) -->
+			<item id="37295" min="1" max="1" chance="100" /> <!-- Steel Dynasty Ancient Sword (60-day) -->
+			<item id="37202" min="1" max="1" chance="100" /> <!-- Steel Dynasty Leather Armor (60-day) -->
+			<item id="37204" min="1" max="1" chance="100" /> <!-- Steel Dynasty Leather Helmet (60-day) -->
 			<item id="37354" min="1" max="1" chance="100" /> <!-- Fated Support Box: Feoh Wizard (R-grade) -->
 		</capsuled_items>
 		<cond msgId="1902">
@@ -1581,23 +1584,23 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
-			<item id="37236" min="2" max="2" chance="100" />
-			<item id="37238" min="2" max="2" chance="100" />
-			<item id="37237" min="1" max="1" chance="100" />
-			<item id="37292" min="1" max="1" chance="100" />
-			<item id="37190" min="1" max="1" chance="100" />
-			<item id="37205" min="1" max="1" chance="100" />
-			<item id="37203" min="1" max="1" chance="100" />
-			<item id="37206" min="1" max="1" chance="100" />
-			<item id="37191" min="1" max="1" chance="100" />
-			<item id="37193" min="1" max="1" chance="100" />
-			<item id="37194" min="1" max="1" chance="100" />
-			<item id="37297" min="1" max="1" chance="100" />
-			<item id="37298" min="1" max="1" chance="100" />
-			<item id="37202" min="1" max="1" chance="100" />
-			<item id="37204" min="1" max="1" chance="100" />
-			<item id="37192" min="1" max="1" chance="100" />
-			<item id="37195" min="1" max="1" chance="100" />
+			<item id="37236" min="2" max="2" chance="100" /> <!-- Steel Dynasty Earring (60-day) -->
+			<item id="37238" min="2" max="2" chance="100" /> <!-- Steel Dynasty Ring (60-day) -->
+			<item id="37237" min="1" max="1" chance="100" /> <!-- Steel Dynasty Necklace (60-day) -->
+			<item id="37292" min="1" max="1" chance="100" /> <!-- Steel Dynasty Halberd (60-day) -->
+			<item id="37190" min="1" max="1" chance="100" /> <!-- Steel Dynasty Breastplate (60-day) -->
+			<item id="37205" min="1" max="1" chance="100" /> <!-- Steel Dynasty Leather Gloves (60-day) -->
+			<item id="37203" min="1" max="1" chance="100" /> <!-- Steel Dynasty Leather Leggings (60-day) -->
+			<item id="37206" min="1" max="1" chance="100" /> <!-- Steel Dynasty Leather Boots (60-day) -->
+			<item id="37191" min="1" max="1" chance="100" /> <!-- Steel Dynasty Gaiters (60-day) -->
+			<item id="37193" min="1" max="1" chance="100" /> <!-- Steel Dynasty Gauntlets (60-day) -->
+			<item id="37194" min="1" max="1" chance="100" /> <!-- Steel Dynasty Boots (60-day) -->
+			<item id="37297" min="1" max="1" chance="100" /> <!-- Steel Dynasty Blade (60-day) -->
+			<item id="37298" min="1" max="1" chance="100" /> <!-- Steel Dynasty Bagh-Nakh (60-day) -->
+			<item id="37202" min="1" max="1" chance="100" /> <!-- Steel Dynasty Leather Armor (60-day) -->
+			<item id="37204" min="1" max="1" chance="100" /> <!-- Steel Dynasty Leather Helmet (60-day) -->
+			<item id="37192" min="1" max="1" chance="100" /> <!-- Steel Dynasty Helmet (60-day) -->
+			<item id="37195" min="1" max="1" chance="100" /> <!-- Steel Dynasty Shield (60-day) -->
 			<item id="37355" min="1" max="1" chance="100" /> <!-- Fated Support Box: Wynn Summoner (R-grade) -->
 		</capsuled_items>
 		<cond msgId="1902">
@@ -1620,23 +1623,23 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
-			<item id="37236" min="2" max="2" chance="100" />
-			<item id="37238" min="2" max="2" chance="100" />
-			<item id="37237" min="1" max="1" chance="100" />
-			<item id="37198" min="1" max="1" chance="100" />
-			<item id="37290" min="1" max="1" chance="100" />
-			<item id="37190" min="1" max="1" chance="100" />
-			<item id="37196" min="1" max="1" chance="100" />
-			<item id="37200" min="1" max="1" chance="100" />
-			<item id="37191" min="1" max="1" chance="100" />
-			<item id="37199" min="1" max="1" chance="100" />
-			<item id="37193" min="1" max="1" chance="100" />
-			<item id="37194" min="1" max="1" chance="100" />
-			<item id="37197" min="1" max="1" chance="100" />
-			<item id="37201" min="1" max="1" chance="100" />
-			<item id="37289" min="1" max="1" chance="100" />
-			<item id="37192" min="1" max="1" chance="100" />
-			<item id="37195" min="1" max="1" chance="100" />
+			<item id="37236" min="2" max="2" chance="100" /> <!-- Steel Dynasty Earring (60-day) -->
+			<item id="37238" min="2" max="2" chance="100" /> <!-- Steel Dynasty Ring (60-day) -->
+			<item id="37237" min="1" max="1" chance="100" /> <!-- Steel Dynasty Necklace (60-day) -->
+			<item id="37198" min="1" max="1" chance="100" /> <!-- Steel Dynasty Circlet (60-day) -->
+			<item id="37290" min="1" max="1" chance="100" /> <!-- Steel Dynasty Cudgel (60-day) -->
+			<item id="37190" min="1" max="1" chance="100" /> <!-- Steel Dynasty Breastplate (60-day) -->
+			<item id="37196" min="1" max="1" chance="100" /> <!-- Steel Dynasty Tunic (60-day) -->
+			<item id="37200" min="1" max="1" chance="100" /> <!-- Steel Dynasty Shoes (60-day) -->
+			<item id="37191" min="1" max="1" chance="100" /> <!-- Steel Dynasty Gaiters (60-day) -->
+			<item id="37199" min="1" max="1" chance="100" /> <!-- Steel Dynasty Gloves (60-day) -->
+			<item id="37193" min="1" max="1" chance="100" /> <!-- Steel Dynasty Gauntlets (60-day) -->
+			<item id="37194" min="1" max="1" chance="100" /> <!-- Steel Dynasty Boots (60-day) -->
+			<item id="37197" min="1" max="1" chance="100" /> <!-- Steel Dynasty Stockings (60-day) -->
+			<item id="37201" min="1" max="1" chance="100" /> <!-- Steel Dynasty Sigil (60-day) -->
+			<item id="37289" min="1" max="1" chance="100" /> <!-- Steel Dynasty Phantom (60-day) -->
+			<item id="37192" min="1" max="1" chance="100" /> <!-- Steel Dynasty Helmet (60-day) -->
+			<item id="37195" min="1" max="1" chance="100" /> <!-- Steel Dynasty Shield (60-day) -->
 			<item id="37356" min="1" max="1" chance="100" /> <!-- Fated Support Box: Aeore Healer (R-grade) -->
 		</capsuled_items>
 		<cond msgId="1902">
@@ -1659,19 +1662,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
-			<item id="37239" min="2" max="2" chance="100" />
-			<item id="37241" min="2" max="2" chance="100" />
-			<item id="37240" min="1" max="1" chance="100" />
-			<item id="37207" min="1" max="1" chance="100" />
-			<item id="37208" min="1" max="1" chance="100" />
-			<item id="37306" min="1" max="1" chance="100" />
-			<item id="37304" min="1" max="1" chance="100" />
-			<item id="37210" min="1" max="1" chance="100" />
-			<item id="37211" min="1" max="1" chance="100" />
-			<item id="37311" min="1" max="1" chance="100" />
-			<item id="37299" min="1" max="1" chance="100" />
-			<item id="37209" min="1" max="1" chance="100" />
-			<item id="37212" min="1" max="1" chance="100" />
+			<item id="37239" min="2" max="2" chance="100" /> <!-- Steel Immortal Earring (30-day) -->
+			<item id="37241" min="2" max="2" chance="100" /> <!-- Steel Immortal Ring (30-day) -->
+			<item id="37240" min="1" max="1" chance="100" /> <!-- Steel Immortal Necklace (30-day) -->
+			<item id="37207" min="1" max="1" chance="100" /> <!-- Steel Immortal Breastplate (30-day) -->
+			<item id="37208" min="1" max="1" chance="100" /> <!-- Steel Immortal Gaiters (30-day) -->
+			<item id="37306" min="1" max="1" chance="100" /> <!-- Steel Requiem Dual Blunt (30-day) -->
+			<item id="37304" min="1" max="1" chance="100" /> <!-- Steel Requiem Dualsword (30-day) -->
+			<item id="37210" min="1" max="1" chance="100" /> <!-- Steel Immortal Gauntlets (30-day) -->
+			<item id="37211" min="1" max="1" chance="100" /> <!-- Steel Immortal Boots (30-day) -->
+			<item id="37311" min="1" max="1" chance="100" /> <!-- Steel Requiem Avenger (30-day) -->
+			<item id="37299" min="1" max="1" chance="100" /> <!-- Steel Requiem Cutter (30-day) -->
+			<item id="37209" min="1" max="1" chance="100" /> <!-- Steel Immortal Helmet (30-day) -->
+			<item id="37212" min="1" max="1" chance="100" /> <!-- Steel Immortal Shield (30-day) -->
 		</capsuled_items>
 		<cond msgId="1902">
 			<player levelRange="85;99" />
@@ -1693,26 +1696,26 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
-			<item id="37239" min="2" max="2" chance="100" />
-			<item id="37241" min="2" max="2" chance="100" />
-			<item id="37240" min="1" max="1" chance="100" />
-			<item id="37207" min="1" max="1" chance="100" />
-			<item id="37214" min="1" max="1" chance="100" />
-			<item id="37216" min="1" max="1" chance="100" />
-			<item id="37217" min="1" max="1" chance="100" />
-			<item id="37208" min="1" max="1" chance="100" />
-			<item id="37306" min="1" max="1" chance="100" />
-			<item id="37304" min="1" max="1" chance="100" />
-			<item id="37210" min="1" max="1" chance="100" />
-			<item id="37211" min="1" max="1" chance="100" />
-			<item id="37302" min="1" max="1" chance="100" />
-			<item id="37305" min="1" max="1" chance="100" />
-			<item id="37213" min="1" max="1" chance="100" />
-			<item id="37215" min="1" max="1" chance="100" />
-			<item id="37311" min="1" max="1" chance="100" />
-			<item id="37209" min="1" max="1" chance="100" />
-			<item id="37212" min="1" max="1" chance="100" />
-			<item id="37303" min="1" max="1" chance="100" />
+			<item id="37239" min="2" max="2" chance="100" /> <!-- Steel Immortal Earring (30-day) -->
+			<item id="37241" min="2" max="2" chance="100" /> <!-- Steel Immortal Ring (30-day) -->
+			<item id="37240" min="1" max="1" chance="100" /> <!-- Steel Immortal Necklace (30-day) -->
+			<item id="37207" min="1" max="1" chance="100" /> <!-- Steel Immortal Breastplate (30-day) -->
+			<item id="37214" min="1" max="1" chance="100" /> <!-- Steel Immortal Leather Leggings (30-day) -->
+			<item id="37216" min="1" max="1" chance="100" /> <!-- Steel Immortal Leather Gloves (30-day) -->
+			<item id="37217" min="1" max="1" chance="100" /> <!-- Steel Immortal Leather Boots (30-day) -->
+			<item id="37208" min="1" max="1" chance="100" /> <!-- Steel Immortal Gaiters (30-day) -->
+			<item id="37306" min="1" max="1" chance="100" /> <!-- Steel Requiem Dual Blunt (30-day) -->
+			<item id="37304" min="1" max="1" chance="100" /> <!-- Steel Requiem Dualsword (30-day) -->
+			<item id="37210" min="1" max="1" chance="100" /> <!-- Steel Immortal Gauntlets (30-day) -->
+			<item id="37211" min="1" max="1" chance="100" /> <!-- Steel Immortal Boots (30-day) -->
+			<item id="37302" min="1" max="1" chance="100" /> <!-- Steel Requiem Stormer (30-day) -->
+			<item id="37305" min="1" max="1" chance="100" /> <!-- Steel Requiem Fighter (30-day) -->
+			<item id="37213" min="1" max="1" chance="100" /> <!-- Steel Immortal Leather Armor (30-day) -->
+			<item id="37215" min="1" max="1" chance="100" /> <!-- Steel Immortal Leather Helmet (30-day) -->
+			<item id="37311" min="1" max="1" chance="100" /> <!-- Steel Requiem Avenger (30-day) -->
+			<item id="37209" min="1" max="1" chance="100" /> <!-- Steel Immortal Helmet (30-day) -->
+			<item id="37212" min="1" max="1" chance="100" /> <!-- Steel Immortal Shield (30-day) -->
+			<item id="37303" min="1" max="1" chance="100" /> <!-- Steel Requiem Slasher (30-day) -->
 		</capsuled_items>
 		<cond msgId="1902">
 			<player levelRange="85;99" />
@@ -1734,16 +1737,16 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
-			<item id="37239" min="2" max="2" chance="100" />
-			<item id="37241" min="2" max="2" chance="100" />
-			<item id="37240" min="1" max="1" chance="100" />
-			<item id="37307" min="1" max="1" chance="100" />
-			<item id="37214" min="1" max="1" chance="100" />
-			<item id="37216" min="1" max="1" chance="100" />
-			<item id="37217" min="1" max="1" chance="100" />
-			<item id="37308" min="1" max="1" chance="100" />
-			<item id="37213" min="1" max="1" chance="100" />
-			<item id="37215" min="1" max="1" chance="100" />
+			<item id="37239" min="2" max="2" chance="100" /> <!-- Steel Immortal Earring (30-day) -->
+			<item id="37241" min="2" max="2" chance="100" /> <!-- Steel Immortal Ring (30-day) -->
+			<item id="37240" min="1" max="1" chance="100" /> <!-- Steel Immortal Necklace (30-day) -->
+			<item id="37307" min="1" max="1" chance="100" /> <!-- Steel Requiem Shaper (30-day) -->
+			<item id="37214" min="1" max="1" chance="100" /> <!-- Steel Immortal Leather Leggings (30-day) -->
+			<item id="37216" min="1" max="1" chance="100" /> <!-- Steel Immortal Leather Gloves (30-day) -->
+			<item id="37217" min="1" max="1" chance="100" /> <!-- Steel Immortal Leather Boots (30-day) -->
+			<item id="37308" min="1" max="1" chance="100" /> <!-- Steel Requiem Dual Dagger (30-day) -->
+			<item id="37213" min="1" max="1" chance="100" /> <!-- Steel Immortal Leather Armor (30-day) -->
+			<item id="37215" min="1" max="1" chance="100" /> <!-- Steel Immortal Leather Helmet (30-day) -->
 		</capsuled_items>
 		<cond msgId="1902">
 			<player levelRange="85;99" />
@@ -1765,16 +1768,16 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
-			<item id="37239" min="2" max="2" chance="100" />
-			<item id="37241" min="2" max="2" chance="100" />
-			<item id="37240" min="1" max="1" chance="100" />
-			<item id="37214" min="1" max="1" chance="100" />
-			<item id="37216" min="1" max="1" chance="100" />
-			<item id="37217" min="1" max="1" chance="100" />
-			<item id="37309" min="1" max="1" chance="100" />
-			<item id="37213" min="1" max="1" chance="100" />
-			<item id="37215" min="1" max="1" chance="100" />
-			<item id="37310" min="1" max="1" chance="100" />
+			<item id="37239" min="2" max="2" chance="100" /> <!-- Steel Immortal Earring (30-day) -->
+			<item id="37241" min="2" max="2" chance="100" /> <!-- Steel Immortal Ring (30-day) -->
+			<item id="37240" min="1" max="1" chance="100" /> <!-- Steel Immortal Necklace (30-day) -->
+			<item id="37214" min="1" max="1" chance="100" /> <!-- Steel Immortal Leather Leggings (30-day) -->
+			<item id="37216" min="1" max="1" chance="100" /> <!-- Steel Immortal Leather Gloves (30-day) -->
+			<item id="37217" min="1" max="1" chance="100" /> <!-- Steel Immortal Leather Boots (30-day) -->
+			<item id="37309" min="1" max="1" chance="100" /> <!-- Steel Requiem Thrower (30-day) -->
+			<item id="37213" min="1" max="1" chance="100" /> <!-- Steel Immortal Leather Armor (30-day) -->
+			<item id="37215" min="1" max="1" chance="100" /> <!-- Steel Immortal Leather Helmet (30-day) -->
+			<item id="37310" min="1" max="1" chance="100" /> <!-- Steel Requiem Shooter (30-day) -->
 		</capsuled_items>
 		<cond msgId="1902">
 			<player levelRange="85;99" />
@@ -1796,18 +1799,18 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
-			<item id="37239" min="2" max="2" chance="100" />
-			<item id="37241" min="2" max="2" chance="100" />
-			<item id="37240" min="1" max="1" chance="100" />
-			<item id="37220" min="1" max="1" chance="100" />
-			<item id="37218" min="1" max="1" chance="100" />
-			<item id="37312" min="1" max="1" chance="100" />
-			<item id="37222" min="1" max="1" chance="100" />
-			<item id="37221" min="1" max="1" chance="100" />
-			<item id="37219" min="1" max="1" chance="100" />
-			<item id="37300" min="1" max="1" chance="100" />
-			<item id="37301" min="1" max="1" chance="100" />
-			<item id="37223" min="1" max="1" chance="100" />
+			<item id="37239" min="2" max="2" chance="100" /> <!-- Steel Immortal Earring (30-day) -->
+			<item id="37241" min="2" max="2" chance="100" /> <!-- Steel Immortal Ring (30-day) -->
+			<item id="37240" min="1" max="1" chance="100" /> <!-- Steel Immortal Necklace (30-day) -->
+			<item id="37220" min="1" max="1" chance="100" /> <!-- Steel Immortal Circlet (30-day) -->
+			<item id="37218" min="1" max="1" chance="100" /> <!-- Steel Immortal Tunic (30-day) -->
+			<item id="37312" min="1" max="1" chance="100" /> <!-- Steel Requiem Retributer (30-day) -->
+			<item id="37222" min="1" max="1" chance="100" /> <!-- Steel Immortal Shoes (30-day) -->
+			<item id="37221" min="1" max="1" chance="100" /> <!-- Steel Immortal Gloves (30-day) -->
+			<item id="37219" min="1" max="1" chance="100" /> <!-- Steel Immortal Stockings (30-day) -->
+			<item id="37300" min="1" max="1" chance="100" /> <!-- Steel Requiem Caster (30-day) -->
+			<item id="37301" min="1" max="1" chance="100" /> <!-- Steel Requiem Buster (30-day) -->
+			<item id="37223" min="1" max="1" chance="100" /> <!-- Steel Immortal Sigil (30-day) -->
 		</capsuled_items>
 		<cond msgId="1902">
 			<player levelRange="85;99" />
@@ -1829,24 +1832,24 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
-			<item id="37239" min="2" max="2" chance="100" />
-			<item id="37241" min="2" max="2" chance="100" />
-			<item id="37240" min="1" max="1" chance="100" />
-			<item id="37220" min="1" max="1" chance="100" />
-			<item id="37218" min="1" max="1" chance="100" />
-			<item id="37312" min="1" max="1" chance="100" />
-			<item id="37222" min="1" max="1" chance="100" />
-			<item id="37214" min="1" max="1" chance="100" />
-			<item id="37216" min="1" max="1" chance="100" />
-			<item id="37217" min="1" max="1" chance="100" />
-			<item id="37304" min="1" max="1" chance="100" />
-			<item id="37221" min="1" max="1" chance="100" />
-			<item id="37219" min="1" max="1" chance="100" />
-			<item id="37300" min="1" max="1" chance="100" />
-			<item id="37213" min="1" max="1" chance="100" />
-			<item id="37215" min="1" max="1" chance="100" />
-			<item id="37301" min="1" max="1" chance="100" />
-			<item id="37223" min="1" max="1" chance="100" />
+			<item id="37239" min="2" max="2" chance="100" /> <!-- Steel Immortal Earring (30-day) -->
+			<item id="37241" min="2" max="2" chance="100" /> <!-- Steel Immortal Ring (30-day) -->
+			<item id="37240" min="1" max="1" chance="100" /> <!-- Steel Immortal Necklace (30-day) -->
+			<item id="37220" min="1" max="1" chance="100" /> <!-- Steel Immortal Circlet (30-day) -->
+			<item id="37218" min="1" max="1" chance="100" /> <!-- Steel Immortal Tunic (30-day) -->
+			<item id="37312" min="1" max="1" chance="100" /> <!-- Steel Requiem Retributer (30-day) -->
+			<item id="37222" min="1" max="1" chance="100" /> <!-- Steel Immortal Shoes (30-day) -->
+			<item id="37214" min="1" max="1" chance="100" /> <!-- Steel Immortal Leather Leggings (30-day) -->
+			<item id="37216" min="1" max="1" chance="100" /> <!-- Steel Immortal Leather Gloves (30-day) -->
+			<item id="37217" min="1" max="1" chance="100" /> <!-- Steel Immortal Leather Boots (30-day) -->
+			<item id="37304" min="1" max="1" chance="100" /> <!-- Steel Requiem Dualsword (30-day) -->
+			<item id="37221" min="1" max="1" chance="100" /> <!-- Steel Immortal Gloves (30-day) -->
+			<item id="37219" min="1" max="1" chance="100" /> <!-- Steel Immortal Stockings (30-day) -->
+			<item id="37300" min="1" max="1" chance="100" /> <!-- Steel Requiem Caster (30-day) -->
+			<item id="37213" min="1" max="1" chance="100" /> <!-- Steel Immortal Leather Armor (30-day) -->
+			<item id="37215" min="1" max="1" chance="100" /> <!-- Steel Immortal Leather Helmet (30-day) -->
+			<item id="37301" min="1" max="1" chance="100" /> <!-- Steel Requiem Buster (30-day) -->
+			<item id="37223" min="1" max="1" chance="100" /> <!-- Steel Immortal Sigil (30-day) -->
 		</capsuled_items>
 		<cond msgId="1902">
 			<player levelRange="85;99" />
@@ -1868,19 +1871,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
-			<item id="37239" min="2" max="2" chance="100" />
-			<item id="37241" min="2" max="2" chance="100" />
-			<item id="37240" min="1" max="1" chance="100" />
-			<item id="37220" min="1" max="1" chance="100" />
-			<item id="37218" min="1" max="1" chance="100" />
-			<item id="37312" min="1" max="1" chance="100" />
-			<item id="37222" min="1" max="1" chance="100" />
-			<item id="37304" min="1" max="1" chance="100" />
-			<item id="37221" min="1" max="1" chance="100" />
-			<item id="37219" min="1" max="1" chance="100" />
-			<item id="37300" min="1" max="1" chance="100" />
-			<item id="37301" min="1" max="1" chance="100" />
-			<item id="37223" min="1" max="1" chance="100" />
+			<item id="37239" min="2" max="2" chance="100" /> <!-- Steel Immortal Earring (30-day) -->
+			<item id="37241" min="2" max="2" chance="100" /> <!-- Steel Immortal Ring (30-day) -->
+			<item id="37240" min="1" max="1" chance="100" /> <!-- Steel Immortal Necklace (30-day) -->
+			<item id="37220" min="1" max="1" chance="100" /> <!-- Steel Immortal Circlet (30-day) -->
+			<item id="37218" min="1" max="1" chance="100" /> <!-- Steel Immortal Tunic (30-day) -->
+			<item id="37312" min="1" max="1" chance="100" /> <!-- Steel Requiem Retributer (30-day) -->
+			<item id="37222" min="1" max="1" chance="100" /> <!-- Steel Immortal Shoes (30-day) -->
+			<item id="37304" min="1" max="1" chance="100" /> <!-- Steel Requiem Dualsword (30-day) -->
+			<item id="37221" min="1" max="1" chance="100" /> <!-- Steel Immortal Gloves (30-day) -->
+			<item id="37219" min="1" max="1" chance="100" /> <!-- Steel Immortal Stockings (30-day) -->
+			<item id="37300" min="1" max="1" chance="100" /> <!-- Steel Requiem Caster (30-day) -->
+			<item id="37301" min="1" max="1" chance="100" /> <!-- Steel Requiem Buster (30-day) -->
+			<item id="37223" min="1" max="1" chance="100" /> <!-- Steel Immortal Sigil (30-day) -->
 		</capsuled_items>
 		<cond msgId="1902">
 			<player levelRange="85;99" />
@@ -1902,28 +1905,28 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
-			<item id="37239" min="2" max="2" chance="100" />
-			<item id="37241" min="2" max="2" chance="100" />
-			<item id="37240" min="1" max="1" chance="100" />
-			<item id="37220" min="1" max="1" chance="100" />
-			<item id="37207" min="1" max="1" chance="100" />
-			<item id="37218" min="1" max="1" chance="100" />
-			<item id="37312" min="1" max="1" chance="100" />
-			<item id="37222" min="1" max="1" chance="100" />
-			<item id="37208" min="1" max="1" chance="100" />
-			<item id="37306" min="1" max="1" chance="100" />
-			<item id="37304" min="1" max="1" chance="100" />
-			<item id="37221" min="1" max="1" chance="100" />
-			<item id="37210" min="1" max="1" chance="100" />
-			<item id="37211" min="1" max="1" chance="100" />
-			<item id="37219" min="1" max="1" chance="100" />
-			<item id="37300" min="1" max="1" chance="100" />
-			<item id="37311" min="1" max="1" chance="100" />
-			<item id="37301" min="1" max="1" chance="100" />
-			<item id="37299" min="1" max="1" chance="100" />
-			<item id="37223" min="1" max="1" chance="100" />
-			<item id="37209" min="1" max="1" chance="100" />
-			<item id="37212" min="1" max="1" chance="100" />
+			<item id="37239" min="2" max="2" chance="100" /> <!-- Steel Immortal Earring (30-day) -->
+			<item id="37241" min="2" max="2" chance="100" /> <!-- Steel Immortal Ring (30-day) -->
+			<item id="37240" min="1" max="1" chance="100" /> <!-- Steel Immortal Necklace (30-day) -->
+			<item id="37220" min="1" max="1" chance="100" /> <!-- Steel Immortal Circlet (30-day) -->
+			<item id="37207" min="1" max="1" chance="100" /> <!-- Steel Immortal Breastplate (30-day) -->
+			<item id="37218" min="1" max="1" chance="100" /> <!-- Steel Immortal Tunic (30-day) -->
+			<item id="37312" min="1" max="1" chance="100" /> <!-- Steel Requiem Retributer (30-day) -->
+			<item id="37222" min="1" max="1" chance="100" /> <!-- Steel Immortal Shoes (30-day) -->
+			<item id="37208" min="1" max="1" chance="100" /> <!-- Steel Immortal Gaiters (30-day) -->
+			<item id="37306" min="1" max="1" chance="100" /> <!-- Steel Requiem Dual Blunt (30-day) -->
+			<item id="37304" min="1" max="1" chance="100" /> <!-- Steel Requiem Dualsword (30-day) -->
+			<item id="37221" min="1" max="1" chance="100" /> <!-- Steel Immortal Gloves (30-day) -->
+			<item id="37210" min="1" max="1" chance="100" /> <!-- Steel Immortal Gauntlets (30-day) -->
+			<item id="37211" min="1" max="1" chance="100" /> <!-- Steel Immortal Boots (30-day) -->
+			<item id="37219" min="1" max="1" chance="100" /> <!-- Steel Immortal Stockings (30-day) -->
+			<item id="37300" min="1" max="1" chance="100" /> <!-- Steel Requiem Caster (30-day) -->
+			<item id="37311" min="1" max="1" chance="100" /> <!-- Steel Requiem Avenger (30-day) -->
+			<item id="37301" min="1" max="1" chance="100" /> <!-- Steel Requiem Buster (30-day) -->
+			<item id="37299" min="1" max="1" chance="100" /> <!-- Steel Requiem Cutter (30-day) -->
+			<item id="37223" min="1" max="1" chance="100" /> <!-- Steel Immortal Sigil (30-day) -->
+			<item id="37209" min="1" max="1" chance="100" /> <!-- Steel Immortal Helmet (30-day) -->
+			<item id="37212" min="1" max="1" chance="100" /> <!-- Steel Immortal Shield (30-day) -->
 		</capsuled_items>
 		<cond msgId="1902">
 			<player levelRange="85;99" />
@@ -2497,22 +2500,22 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
-			<item id="37422" min="1" max="1" chance="6.25" />
-			<item id="37418" min="1" max="1" chance="6.25" />
-			<item id="37419" min="1" max="1" chance="6.25" />
-			<item id="37417" min="1" max="1" chance="6.25" />
-			<item id="37420" min="1" max="1" chance="6.25" />
-			<item id="37421" min="1" max="1" chance="6.25" />
-			<item id="37416" min="1" max="1" chance="6.25" />
-			<item id="37431" min="1" max="1" chance="6.25" />
-			<item id="37430" min="1" max="1" chance="6.25" />
-			<item id="37424" min="1" max="1" chance="6.25" />
-			<item id="37426" min="1" max="1" chance="6.25" />
-			<item id="37423" min="1" max="1" chance="6.25" />
-			<item id="37425" min="1" max="1" chance="6.25" />
-			<item id="37429" min="1" max="1" chance="6.25" />
-			<item id="37428" min="1" max="1" chance="6.25" />
-			<item id="37427" min="1" max="1" chance="6.25" />
+			<item id="37422" min="1" max="1" chance="6.25" /> <!-- Emerald Weapon Appearance Stone: Crossbow -->
+			<item id="37418" min="1" max="1" chance="6.25" /> <!-- Emerald Weapon Appearance Stone: Two-handed Sword -->
+			<item id="37419" min="1" max="1" chance="6.25" /> <!-- Emerald Weapon Appearance Stone: Fist Weapon -->
+			<item id="37417" min="1" max="1" chance="6.25" /> <!-- Emerald Weapon Appearance Stone: Dagger -->
+			<item id="37420" min="1" max="1" chance="6.25" /> <!-- Emerald Weapon Appearance Stone: Spear -->
+			<item id="37421" min="1" max="1" chance="6.25" /> <!-- Emerald Weapon Appearance Stone: Bow -->
+			<item id="37416" min="1" max="1" chance="6.25" /> <!-- Emerald Weapon Appearance Stone: Sword -->
+			<item id="37431" min="1" max="1" chance="6.25" /> <!-- Emerald Weapon Appearance Stone: Sigil -->
+			<item id="37430" min="1" max="1" chance="6.25" /> <!-- Emerald Weapon Appearance Stone: Shield -->
+			<item id="37424" min="1" max="1" chance="6.25" /> <!-- Emerald Weapon Appearance Stone: Two-handed Blunt Weapon -->
+			<item id="37426" min="1" max="1" chance="6.25" /> <!-- Emerald Weapon Appearance Stone: Two-handed Magic Blunt Weapon -->
+			<item id="37423" min="1" max="1" chance="6.25" /> <!-- Emerald Weapon Appearance Stone: One-handed Blunt Weapon -->
+			<item id="37425" min="1" max="1" chance="6.25" /> <!-- Emerald Weapon Appearance Stone: One-handed Magic Blunt Weapon -->
+			<item id="37429" min="1" max="1" chance="6.25" /> <!-- Emerald Weapon Appearance Stone: Dual Blunt Weapon -->
+			<item id="37428" min="1" max="1" chance="6.25" /> <!-- Emerald Weapon Appearance Stone: Dual Dagger -->
+			<item id="37427" min="1" max="1" chance="6.25" /> <!-- Emerald Weapon Appearance Stone: Dualsword -->
 		</capsuled_items>
 	</item>
 	<item id="37397" name="Kaiser's Assistance" type="EtcItem">

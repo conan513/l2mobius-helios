@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/npcs.xsd">
 	<npc id="25700" level="88" type="L2RaidBoss" name="Glakias" title="Ice Knight Captain">
 		<!-- Confirmed CT2.5 -->
@@ -25,8 +25,7 @@
 			</speed>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
-		<status />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -46,12 +45,12 @@
 			<skill id="6298" level="1" /> <!-- Summon Follower Knight -->
 			<skill id="6661" level="1" /> <!-- Level 85 Raid Boss -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>FREYA</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="28" />
@@ -80,11 +79,11 @@
 				<walk ground="60" />
 				<run ground="120" />
 			</speed>
-			<hit_time>430</hit_time>
+			<hitTime>430</hitTime>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -102,10 +101,10 @@
 			<skill id="6325" level="1" /> <!-- Divine Nova -->
 			<skill id="6664" level="1" /> <!-- Level 84 Raid Boss -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" aggroRange="300" clanHelpRange="300" isAggressive="true" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="14111" min="1" max="1" chance="1.126" /> <!-- Sealed Vesper Shield -->
 				<item id="15484" min="1" max="1" chance="4.52699999999998" /> <!-- Archangel Circlet -->
@@ -123,10 +122,10 @@
 				<item id="959" min="1" max="1" chance="1.572" /> <!-- Scroll: Enchant Weapon (S-grade) -->
 				<item id="6577" min="1" max="1" chance="0.299999999999997" /> <!-- Blessed Scroll: Enchant Weapon (S-grade) -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="90.77" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="24" />
 			<height normal="55" />
@@ -150,11 +149,11 @@
 				<walk ground="25" />
 				<run ground="140" />
 			</speed>
-			<hit_time>100</hit_time>
+			<hitTime>100</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -167,8 +166,8 @@
 			<skill id="4416" level="2" /> <!-- Magic Creatures -->
 			<skill id="5466" level="1" /> <!-- Holy Attacks -->
 			<skill id="6326" level="1" /> <!-- Martyr's Happiness -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="300" />
 		<collision>
 			<radius normal="13" />
@@ -205,11 +204,11 @@
 				<walk ground="18" />
 				<run ground="190" />
 			</speed>
-			<hit_time>430</hit_time>
+			<hitTime>430</hitTime>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -226,10 +225,10 @@
 			<skill id="6608" level="10" /> <!-- NPC earth shot -->
 			<skill id="6663" level="1" /> <!-- Level 76 Raid Boss -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="6364" min="1" max="1" chance="0.300000000000006" /> <!-- Forgotten Blade -->
 				<item id="6365" min="1" max="1" chance="0.300000000000006" /> <!-- Basalt Battlehammer -->
@@ -240,10 +239,10 @@
 				<item id="960" min="1" max="1" chance="7.77000000000004" /> <!-- Scroll: Enchant Armor (S-grade) -->
 				<item id="959" min="1" max="1" chance="0.750000000000004" /> <!-- Scroll: Enchant Weapon (S-grade) -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="81.62" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="31" />
 			<height normal="51.8" />
@@ -273,7 +272,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -286,8 +285,8 @@
 			<skill id="4416" level="2" /> <!-- Magic Creatures -->
 			<skill id="5465" level="1" /> <!-- Earth Attacks -->
 			<skill id="6602" level="10" /> <!-- NPC earth attack -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="300" />
 		<collision>
 			<radius normal="30" />
@@ -313,7 +312,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -326,8 +325,8 @@
 			<skill id="4416" level="2" /> <!-- Magic Creatures -->
 			<skill id="6264" level="1" /> <!-- Golem Boom -->
 			<skill id="6265" level="1" /> <!-- Smoke -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="300" />
 		<collision>
 			<radius normal="6" />
@@ -361,11 +360,11 @@
 				<walk ground="92" />
 				<run ground="200" />
 			</speed>
-			<hit_time>480</hit_time>
+			<hitTime>480</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4047" level="9" /> <!-- Hold -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -379,12 +378,12 @@
 			<skill id="5467" level="1" /> <!-- Dark Attacks -->
 			<skill id="6693" level="9" /> <!-- NPC Strike -->
 			<skill id="4032" level="1" /> <!-- Power Strike -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai aggroRange="300" clanHelpRange="1000" isAggressive="true">
-			<clan_list>
+			<clanList>
 				<clan>ABYSS</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="27" />
@@ -415,11 +414,11 @@
 				<walk ground="92" />
 				<run ground="200" />
 			</speed>
-			<hit_time>480</hit_time>
+			<hitTime>480</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4047" level="9" /> <!-- Hold -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -433,12 +432,12 @@
 			<skill id="5467" level="1" /> <!-- Dark Attacks -->
 			<skill id="6693" level="9" /> <!-- NPC Strike -->
 			<skill id="4032" level="1" /> <!-- Power Strike -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai aggroRange="300" clanHelpRange="1000" isAggressive="true">
-			<clan_list>
+			<clanList>
 				<clan>ABYSS</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="27" />
@@ -475,7 +474,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4098" level="10" /> <!-- Silence -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -490,12 +489,12 @@
 			<skill id="5467" level="1" /> <!-- Dark Attacks -->
 			<skill id="6693" level="9" /> <!-- NPC Strike -->
 			<skill id="4032" level="1" /> <!-- Power Strike -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai aggroRange="300" clanHelpRange="1000" isAggressive="true">
-			<clan_list>
+			<clanList>
 				<clan>ABYSS</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="16" />
@@ -528,7 +527,7 @@
 			<abnormalResist physical="230" magical="230" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4173" level="8" /> <!-- BOSS Might -->
 			<skill id="4177" level="8" /> <!-- BOSS Cancel Magic -->
@@ -546,8 +545,8 @@
 			<skill id="6695" level="8" /> <!-- BOSS Spinning Slasher -->
 			<skill id="4723" level="1" /> <!-- Power Strike -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai aggroRange="300" clanHelpRange="300" isAggressive="true" />
 		<collision>
 			<radius normal="51.6" />
@@ -586,7 +585,7 @@
 			<abnormalResist physical="230" magical="230" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4178" level="8" /> <!-- BOSS Flamestrike -->
 			<skill id="4408" level="11" /> <!-- HP Increase (3x) -->
@@ -605,11 +604,11 @@
 			<skill id="14778" level="1" /> <!-- Raid Boss (Lv. 83) -->
 			<skill id="5701" level="7" /> <!-- Decrease P. Atk -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
-		<s_npc_prop_hp_rate>3</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>3</sNpcPropHpRate>
 		<ai clanHelpRange="300" aggroRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="10215" min="1" max="1" chance="0.749999999999993" /> <!-- Icarus Sawsword -->
 				<item id="10216" min="1" max="1" chance="0.749999999999993" /> <!-- Icarus Disperser -->
@@ -620,10 +619,10 @@
 				<item id="6578" min="1" max="1" chance="5.66599999999998" /> <!-- Blessed Scroll: Enchant Armor (S-grade) -->
 				<item id="6577" min="1" max="1" chance="0.750000000000022" /> <!-- Blessed Scroll: Enchant Weapon (S-grade) -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="91.585" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="34.32" />
 			<height normal="62.4" />
@@ -645,11 +644,11 @@
 				<walk ground="50" />
 				<run ground="200" />
 			</speed>
-			<hit_time>480</hit_time>
+			<hitTime>480</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="11" /> <!-- HP Increase (3x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -661,9 +660,9 @@
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4416" level="1" /> <!-- Undead -->
 			<skill id="5467" level="1" /> <!-- Dark Attacks -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
-		<s_npc_prop_hp_rate>3</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>3</sNpcPropHpRate>
 		<ai clanHelpRange="300" aggroRange="300" />
 		<collision>
 			<radius normal="34" />
@@ -690,11 +689,11 @@
 				<walk ground="73" />
 				<run ground="170" />
 			</speed>
-			<hit_time>480</hit_time>
+			<hitTime>480</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4214" level="8" /> <!-- BOSS Reflect Damage -->
 			<skill id="4408" level="11" /> <!-- HP Increase (3x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -711,9 +710,9 @@
 			<skill id="4441" level="4" /> <!-- Greater Resist Mental Derangement -->
 			<skill id="4780" level="8" /> <!-- BOSS Heal -->
 			<skill id="5467" level="1" /> <!-- Dark Attacks -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
-		<s_npc_prop_hp_rate>3</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>3</sNpcPropHpRate>
 		<ai clanHelpRange="300" aggroRange="300" />
 		<collision>
 			<radius normal="19" />
@@ -742,11 +741,11 @@
 				<walk ground="60" />
 				<run ground="180" />
 			</speed>
-			<hit_time>580</hit_time>
+			<hitTime>580</hitTime>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4182" level="9" /> <!-- Poison -->
 			<skill id="4189" level="9" /> <!-- Paralysis -->
@@ -764,8 +763,8 @@
 			<skill id="5479" level="1" /> <!-- Boss Petrification Resistance -->
 			<skill id="6658" level="1" /> <!-- Level 84 Raid Boss -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="300" />
 		<collision>
 			<radius normal="20" />
@@ -793,11 +792,11 @@
 				<walk ground="26" />
 				<run ground="180" />
 			</speed>
-			<hit_time>470</hit_time>
+			<hitTime>470</hitTime>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -814,12 +813,12 @@
 			<skill id="5479" level="1" /> <!-- Boss Petrification Resistance -->
 			<skill id="6659" level="1" /> <!-- Level 84 Raid Boss -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>GRANISKO</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="12" />
@@ -852,7 +851,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4084" level="2" /> <!-- Resist Physical Attack -->
 			<skill id="4099" level="2" /> <!-- NPC Berserk -->
@@ -867,12 +866,12 @@
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="5462" level="1" /> <!-- Fire Attacks -->
 			<skill id="5479" level="1" /> <!-- Boss Petrification Resistance -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>GRANISKO</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="15" />
@@ -903,11 +902,11 @@
 				<walk ground="60" />
 				<run ground="180" />
 			</speed>
-			<hit_time>450</hit_time>
+			<hitTime>450</hitTime>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="2369" level="1" /> <!-- Water Dragon Scale -->
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
@@ -926,8 +925,8 @@
 			<skill id="5479" level="1" /> <!-- Boss Petrification Resistance -->
 			<skill id="6660" level="1" /> <!-- Level 84 Raid Boss -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="300" />
 		<collision>
 			<radius normal="20" />
@@ -951,11 +950,11 @@
 				<walk ground="60" />
 				<run ground="180" />
 			</speed>
-			<hit_time>450</hit_time>
+			<hitTime>450</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -968,8 +967,8 @@
 			<skill id="4416" level="7" /> <!-- Spirits -->
 			<skill id="5463" level="1" /> <!-- Water Attacks -->
 			<skill id="5479" level="1" /> <!-- Boss Petrification Resistance -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="300" />
 		<collision>
 			<radius normal="20" />
@@ -1002,7 +1001,7 @@
 			<abnormalResist physical="230" magical="230" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -1024,10 +1023,10 @@
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
 			<skill id="6884" level="1" /> <!-- Morale Boost -->
 			<skill id="6885" level="1" /> <!-- Morale Boost -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="14112" min="1" max="1" chance="0.749999999999992" /> <!-- Sealed Vesper Leather Leggings -->
 				<item id="14105" min="1" max="1" chance="0.299999999999997" /> <!-- Sealed Vesper Breastplate -->
@@ -1037,10 +1036,10 @@
 				<item id="17267" min="1" max="1" chance="10.0269999999999" /> <!-- Sealed Blood Crystal -->
 				<item id="959" min="1" max="1" chance="1.60800000000006" /> <!-- Scroll: Enchant Weapon (S-grade) -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="91.28" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="60" />
 			<height normal="77" />
@@ -1070,11 +1069,11 @@
 				<walk ground="46" />
 				<run ground="200" />
 			</speed>
-			<hit_time>480</hit_time>
+			<hitTime>480</hitTime>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -1093,10 +1092,10 @@
 			<skill id="6828" level="1" /> <!-- Dust Storm -->
 			<skill id="6899" level="1" /> <!-- 84 level Raid Boss -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="14112" min="1" max="1" chance="0.749999999999992" /> <!-- Sealed Vesper Leather Leggings -->
 				<item id="14105" min="1" max="1" chance="0.299999999999997" /> <!-- Sealed Vesper Breastplate -->
@@ -1107,10 +1106,10 @@
 				<item id="6578" min="1" max="1" chance="1.019" /> <!-- Blessed Scroll: Enchant Armor (S-grade) -->
 				<item id="959" min="1" max="1" chance="0.750000000000001" /> <!-- Scroll: Enchant Weapon (S-grade) -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="92.34" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="48" />
 			<height normal="53.5" />
@@ -1144,7 +1143,7 @@
 			<abnormalResist physical="230" magical="230" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -1164,10 +1163,10 @@
 			<skill id="6900" level="1" /> <!-- 84 level Raid Boss -->
 			<skill id="6915" level="1" /> <!-- npc Acumen -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="14111" min="1" max="1" chance="0.75" /> <!-- Sealed Vesper Shield -->
 				<item id="14117" min="1" max="1" chance="0.75000000000003" /> <!-- Sealed Vesper Shoes -->
@@ -1184,10 +1183,10 @@
 				<item id="6578" min="1" max="1" chance="1.22700000000002" /> <!-- Blessed Scroll: Enchant Armor (S-grade) -->
 				<item id="959" min="1" max="1" chance="1.061" /> <!-- Scroll: Enchant Weapon (S-grade) -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="88.71" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="153" />
 			<height normal="140" />
@@ -1217,7 +1216,7 @@
 			<abnormalResist physical="230" magical="230" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -1235,10 +1234,10 @@
 			<skill id="6834" level="1" /> <!-- Range Magic Attack -->
 			<skill id="6901" level="1" /> <!-- 84 level Raid Boss -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="14111" min="1" max="1" chance="0.75" /> <!-- Sealed Vesper Shield -->
 				<item id="14117" min="1" max="1" chance="0.75000000000003" /> <!-- Sealed Vesper Shoes -->
@@ -1255,10 +1254,10 @@
 				<item id="6578" min="1" max="1" chance="1.29499999999996" /> <!-- Blessed Scroll: Enchant Armor (S-grade) -->
 				<item id="959" min="1" max="1" chance="1.172" /> <!-- Scroll: Enchant Weapon (S-grade) -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="90.645" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="112" />
 			<height normal="150" />
@@ -1287,11 +1286,11 @@
 				<walk ground="46" />
 				<run ground="160" />
 			</speed>
-			<hit_time>490</hit_time>
+			<hitTime>490</hitTime>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -1311,10 +1310,10 @@
 			<skill id="6838" level="1" /> <!-- Self-destruction -->
 			<skill id="6902" level="1" /> <!-- 84 level Raid Boss -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="14111" min="1" max="1" chance="0.75" /> <!-- Sealed Vesper Shield -->
 				<item id="14117" min="1" max="1" chance="0.75000000000003" /> <!-- Sealed Vesper Shoes -->
@@ -1331,10 +1330,10 @@
 				<item id="959" min="1" max="1" chance="1.307" /> <!-- Scroll: Enchant Weapon (S-grade) -->
 				<item id="6577" min="1" max="1" chance="0.300000000000003" /> <!-- Blessed Scroll: Enchant Weapon (S-grade) -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="91.665" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="60" />
 			<height normal="80" />
@@ -1366,7 +1365,7 @@
 			<abnormalResist physical="230" magical="230" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -1385,10 +1384,10 @@
 			<skill id="6841" level="1" /> <!-- Summon Subordinate -->
 			<skill id="6903" level="1" /> <!-- 84 level Raid Boss -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="14111" min="1" max="1" chance="0.75" /> <!-- Sealed Vesper Shield -->
 				<item id="14117" min="1" max="1" chance="0.75000000000003" /> <!-- Sealed Vesper Shoes -->
@@ -1405,10 +1404,10 @@
 				<item id="959" min="1" max="1" chance="1.40000000000003" /> <!-- Scroll: Enchant Weapon (S-grade) -->
 				<item id="6577" min="1" max="1" chance="0.3" /> <!-- Blessed Scroll: Enchant Weapon (S-grade) -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="91.33" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="55" />
 			<height normal="55" />
@@ -1435,11 +1434,11 @@
 				<walk ground="100" />
 				<run ground="200" />
 			</speed>
-			<hit_time>570</hit_time>
+			<hitTime>570</hitTime>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -1457,10 +1456,10 @@
 			<skill id="6844" level="1" /> <!-- Power Strike -->
 			<skill id="6904" level="1" /> <!-- 84 level Raid Boss -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="14107" min="1" max="1" chance="0.749999999999991" /> <!-- Sealed Vesper Tunic -->
 				<item id="14108" min="1" max="1" chance="0.749999999999991" /> <!-- Sealed Vesper Gaiters -->
@@ -1471,10 +1470,10 @@
 				<item id="959" min="1" max="1" chance="1.46800000000004" /> <!-- Scroll: Enchant Weapon (S-grade) -->
 				<item id="6577" min="1" max="1" chance="0.299999999999998" /> <!-- Blessed Scroll: Enchant Weapon (S-grade) -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="89" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="60" />
 			<height normal="80" />
@@ -1508,7 +1507,7 @@
 			<abnormalResist physical="230" magical="230" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -1530,15 +1529,15 @@
 			<skill id="6892" level="1" /> <!-- Power Shot -->
 			<skill id="6905" level="1" /> <!-- 85 level Raid Boss -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
-		<corpse_time>14</corpse_time>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<corpseTime>14</corpseTime>
+		<exCrtEffect>true</exCrtEffect>
 		<ai aggroRange="1000" clanHelpRange="300" isAggressive="true" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="17266" min="1" max="1" chance="20.5" /> <!-- Will of Antharas -->
 			</drop>
-		</drop_lists>
+		</dropLists>
 		<collision>
 			<radius normal="18" />
 			<height normal="51" />
@@ -1571,11 +1570,11 @@
 				<walk ground="180" />
 				<run ground="180" />
 			</speed>
-			<hit_time>900</hit_time>
+			<hitTime>900</hitTime>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -1596,15 +1595,15 @@
 			<skill id="6894" level="1" /> <!-- Power Shot -->
 			<skill id="6906" level="1" /> <!-- Raid Boss (Lv. 85) -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
-		<corpse_time>14</corpse_time>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<corpseTime>14</corpseTime>
+		<exCrtEffect>true</exCrtEffect>
 		<ai aggroRange="1000" clanHelpRange="300" isAggressive="true" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="17266" min="1" max="1" chance="20.08" /> <!-- Will of Antharas -->
 			</drop>
-		</drop_lists>
+		</dropLists>
 		<collision>
 			<radius normal="63" />
 			<height normal="54" />
@@ -1635,11 +1634,11 @@
 				<walk ground="60" />
 				<run ground="250" />
 			</speed>
-			<hit_time>450</hit_time>
+			<hitTime>450</hitTime>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -1662,9 +1661,9 @@
 			<skill id="6896" level="1" /> <!-- Power Shot -->
 			<skill id="6907" level="1" /> <!-- 85 level Raid Boss -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
-		<corpse_time>14</corpse_time>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<corpseTime>14</corpseTime>
+		<exCrtEffect>true</exCrtEffect>
 		<ai aggroRange="1000" clanHelpRange="300" isAggressive="true" />
 		<collision>
 			<radius normal="50" />
@@ -1691,11 +1690,11 @@
 				<walk ground="27" />
 				<run ground="110" />
 			</speed>
-			<hit_time>710</hit_time>
+			<hitTime>710</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -1708,8 +1707,8 @@
 			<skill id="4416" level="1" /> <!-- Undead -->
 			<skill id="5467" level="1" /> <!-- Dark Attacks -->
 			<skill id="6738" level="1" /> <!-- Hold -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="300" />
 		<collision>
 			<radius normal="12" grown="14.5" />
@@ -1737,11 +1736,11 @@
 				<walk ground="27" />
 				<run ground="110" />
 			</speed>
-			<hit_time>710</hit_time>
+			<hitTime>710</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -1755,8 +1754,8 @@
 			<skill id="5467" level="1" /> <!-- Dark Attacks -->
 			<skill id="6889" level="1" /> <!-- Range Attack -->
 			<skill id="6890" level="1" /> <!-- Bleed -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="300" />
 		<collision>
 			<radius normal="12" grown="14.5" />
@@ -1783,11 +1782,11 @@
 				<walk ground="60" />
 				<run ground="140" />
 			</speed>
-			<hit_time>300</hit_time>
+			<hitTime>300</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -1800,8 +1799,8 @@
 			<skill id="4416" level="1" /> <!-- Undead -->
 			<skill id="5467" level="1" /> <!-- Dark Attacks -->
 			<skill id="6884" level="1" /> <!-- Morale Boost -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="300" />
 		<collision>
 			<radius normal="11" grown="13" />
@@ -1828,11 +1827,11 @@
 				<walk ground="60" />
 				<run ground="140" />
 			</speed>
-			<hit_time>300</hit_time>
+			<hitTime>300</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -1845,8 +1844,8 @@
 			<skill id="4416" level="1" /> <!-- Undead -->
 			<skill id="5467" level="1" /> <!-- Dark Attacks -->
 			<skill id="6884" level="1" /> <!-- Morale Boost -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="300" />
 		<collision>
 			<radius normal="11" grown="13" />
@@ -1879,11 +1878,11 @@
 				<walk ground="60" />
 				<run ground="250" />
 			</speed>
-			<hit_time>450</hit_time>
+			<hitTime>450</hitTime>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -1900,8 +1899,8 @@
 			<skill id="6895" level="1" /> <!-- Power Attack -->
 			<skill id="6907" level="1" /> <!-- 85 level Raid Boss -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="1000" />
 		<collision>
 			<radius normal="50" />
@@ -1933,7 +1932,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4285" level="4" /> <!-- Resist Sleep Attacks -->
 			<skill id="4287" level="4" /> <!-- Resist Hold Attacks -->
 			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
@@ -1947,9 +1946,9 @@
 			<skill id="4416" level="10" /> <!-- Dragons -->
 			<skill id="4441" level="5" /> <!-- Greater Resist Mental Derangement -->
 			<skill id="5463" level="1" /> <!-- Water Attacks -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
-		<s_npc_prop_hp_rate>2</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>2</sNpcPropHpRate>
 		<ai clanHelpRange="300" aggroRange="250" />
 		<collision>
 			<radius normal="16" />
@@ -1978,11 +1977,11 @@
 				<walk ground="50" />
 				<run ground="50" />
 			</speed>
-			<hit_time>650</hit_time>
+			<hitTime>650</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4274" level="4" /> <!-- Blunt Weapon Weak Point -->
 			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -1994,9 +1993,9 @@
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4416" level="12" /> <!-- Bugs -->
 			<skill id="5463" level="1" /> <!-- Water Attacks -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
-		<s_npc_prop_hp_rate>2</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>2</sNpcPropHpRate>
 		<ai clanHelpRange="300" aggroRange="300" />
 		<collision>
 			<radius normal="30" />
@@ -2030,7 +2029,7 @@
 			</speed>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4197" level="2" /> <!-- Hold -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
@@ -2048,11 +2047,11 @@
 			<skill id="14040" level="1" /> <!-- Power Strike -->
 			<skill id="14765" level="2" /> <!-- Blood Siphon Resistance -->
 			<skill id="6914" level="3" /> <!-- Haste -->
-		</skill_list>
+		</skillList>
 		<ai type="BALANCED" clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>B_FAIRY</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<status undying="false" />
 		<collision>
@@ -2086,7 +2085,7 @@
 			</speed>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4191" level="2" /> <!-- BOSS Windstrike -->
 			<skill id="4198" level="2" /> <!-- Poison -->
@@ -2103,11 +2102,11 @@
 			<skill id="14043" level="1" /> <!-- Double Blow -->
 			<skill id="14765" level="2" /> <!-- Blood Siphon Resistance -->
 			<skill id="6914" level="3" /> <!-- Haste -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>B_FAIRY</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<status undying="false" />
 		<collision>
@@ -2140,7 +2139,7 @@
 			</speed>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -2155,11 +2154,11 @@
 			<skill id="4727" level="2" /> <!-- Stun -->
 			<skill id="14040" level="1" /> <!-- Power Strike -->
 			<skill id="14765" level="2" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>B_FAIRY</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<status undying="false" />
 		<collision>
@@ -2195,7 +2194,7 @@
 			</speed>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -2214,11 +2213,11 @@
 			<skill id="14046" level="1" /> <!-- Fairy Curse Gloom -->
 			<skill id="14048" level="1" /> <!-- Fairy Acumen -->
 			<skill id="14765" level="2" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai type="BALANCED" clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>B_FAIRY</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<status undying="false" />
 		<collision>
@@ -2253,7 +2252,7 @@
 			</speed>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -2269,11 +2268,11 @@
 			<skill id="14047" level="1" /> <!-- Fairy Curse Poison -->
 			<skill id="14048" level="1" /> <!-- Fairy Acumen -->
 			<skill id="14765" level="2" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>B_FAIRY</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<status undying="false" />
 		<collision>
@@ -2308,7 +2307,7 @@
 			</speed>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -2324,11 +2323,11 @@
 			<skill id="14049" level="1" /> <!-- Fairy Heal -->
 			<skill id="14046" level="1" /> <!-- Fairy Curse Gloom -->
 			<skill id="14765" level="2" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>B_FAIRY</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<status undying="false" />
 		<collision>
@@ -2364,7 +2363,7 @@
 			</speed>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4178" level="2" /> <!-- BOSS Flamestrike -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
@@ -2381,11 +2380,11 @@
 			<skill id="4927" level="1" /> <!-- Raid Boss - Level 21 -->
 			<skill id="14053" level="1" /> <!-- Mace Downward Strike -->
 			<skill id="14765" level="2" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai type="BALANCED" clanHelpRange="300" isAggressive="true" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>B_FAIRY</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<status undying="false" />
 		<collision>
@@ -2419,7 +2418,7 @@
 			</speed>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -2434,11 +2433,11 @@
 			<skill id="4733" level="2" /> <!-- BOSS Mortal Blow -->
 			<skill id="14055" level="1" /> <!-- Power Shot -->
 			<skill id="14765" level="2" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="300" isAggressive="true" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>B_FAIRY</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<status undying="false" />
 		<collision>
@@ -2473,7 +2472,7 @@
 			</speed>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4211" level="2" /> <!-- BOSS Might -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
@@ -2489,11 +2488,11 @@
 			<skill id="4783" level="2" /> <!-- BOSS Heal -->
 			<skill id="14050" level="1" /> <!-- Power Strike -->
 			<skill id="14765" level="2" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="300" isAggressive="true" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>B_FAIRY</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<status undying="false" />
 		<collision>
@@ -2529,7 +2528,7 @@
 			</speed>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4178" level="2" /> <!-- BOSS Flamestrike -->
 			<skill id="4275" level="2" /> <!-- Sacred Attack Weak Point -->
@@ -2550,11 +2549,11 @@
 			<skill id="14765" level="3" /> <!-- Blood Siphon Resistance -->
 			<skill id="14058" level="1" /> <!-- X Strike -->
 			<skill id="14060" level="1" /> <!-- Hold -->
-		</skill_list>
+		</skillList>
 		<ai type="BALANCED" clanHelpRange="300" isAggressive="true" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>B_FAIRY</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<status undying="false" />
 		<collision>
@@ -2589,7 +2588,7 @@
 			</speed>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4214" level="2" /> <!-- BOSS Reflect Damage -->
 			<skill id="4278" level="1" /> <!-- Dark Attack -->
@@ -2624,15 +2623,15 @@
 			<skill id="14621" level="1" /> <!-- Pulling Resistance -->
 			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
 			<skill id="14062" level="1" /> <!-- Sleep -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>B_FAIRY</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
-				<item id="17343" min="1" max="1" chance="0.300000000000001" /> <!-- Twilight Shield Heavy Armor -->
+				<item id="17343" min="1" max="1" chance="0.300000000000001" /> <!-- Twilight Shield - Heavy Armor -->
 				<item id="17326" min="1" max="1" chance="0.00549999999999998" /> <!-- Apocalypse Slasher -->
 				<item id="17325" min="1" max="1" chance="0.00549999999999998" /> <!-- Apocalypse Cutter -->
 				<item id="17327" min="1" max="1" chance="0.00549999999999998" /> <!-- Apocalypse Avenger -->
@@ -2644,32 +2643,32 @@
 				<item id="17332" min="1" max="1" chance="0.00549999999999998" /> <!-- Apocalypse Buster -->
 				<item id="17333" min="1" max="1" chance="0.00549999999999998" /> <!-- Apocalypse Caster -->
 				<item id="17324" min="1" max="1" chance="0.00549999999999998" /> <!-- Apocalypse Shaper -->
-				<item id="17350" min="1" max="1" chance="0.0300000000000006" /> <!-- Twilight Tunic Robe -->
-				<item id="17346" min="1" max="1" chance="0.0300000000000006" /> <!-- Twilight Leather Leggings Light Armor -->
-				<item id="17345" min="1" max="1" chance="0.0300000000000006" /> <!-- Twilight Leather Armor Light Armor -->
-				<item id="17351" min="1" max="1" chance="0.0300000000000006" /> <!-- Twilight Stockings Robe -->
-				<item id="17340" min="1" max="1" chance="0.0300000000000006" /> <!-- Twilight Gaiters Heavy Armor -->
-				<item id="17339" min="1" max="1" chance="0.0300000000000006" /> <!-- Twilight Breastplate Heavy Armor -->
-				<item id="17342" min="1" max="1" chance="0.300000000000009" /> <!-- Twilight Boots Heavy Armor -->
-				<item id="17347" min="1" max="1" chance="0.300000000000009" /> <!-- Twilight Leather Gloves Light Armor -->
-				<item id="17348" min="1" max="1" chance="0.300000000000009" /> <!-- Twilight Leather Boots Light Armor -->
-				<item id="17352" min="1" max="1" chance="0.300000000000009" /> <!-- Twilight Gloves Robe -->
-				<item id="17353" min="1" max="1" chance="0.300000000000009" /> <!-- Twilight Shoes Robe -->
-				<item id="17354" min="1" max="1" chance="0.300000000000009" /> <!-- Twilight Sigil Robe -->
-				<item id="17341" min="1" max="1" chance="0.300000000000009" /> <!-- Twilight Gauntlets Heavy Armor -->
-				<item id="17344" min="1" max="1" chance="0.0749999999999999" /> <!-- Twilight Leather Helmet Light Armor -->
-				<item id="17338" min="1" max="1" chance="0.0749999999999999" /> <!-- Twilight Helmet Heavy Armor -->
-				<item id="17349" min="1" max="1" chance="0.0749999999999999" /> <!-- Twilight Circlet Robe -->
+				<item id="17350" min="1" max="1" chance="0.0300000000000006" /> <!-- Twilight Tunic - Robe -->
+				<item id="17346" min="1" max="1" chance="0.0300000000000006" /> <!-- Twilight Leather Leggings - Light Armor -->
+				<item id="17345" min="1" max="1" chance="0.0300000000000006" /> <!-- Twilight Leather Armor - Light Armor -->
+				<item id="17351" min="1" max="1" chance="0.0300000000000006" /> <!-- Twilight Stockings - Robe -->
+				<item id="17340" min="1" max="1" chance="0.0300000000000006" /> <!-- Twilight Gaiters - Heavy Armor -->
+				<item id="17339" min="1" max="1" chance="0.0300000000000006" /> <!-- Twilight Breastplate - Heavy Armor -->
+				<item id="17342" min="1" max="1" chance="0.300000000000009" /> <!-- Twilight Boots - Heavy Armor -->
+				<item id="17347" min="1" max="1" chance="0.300000000000009" /> <!-- Twilight Leather Gloves - Light Armor -->
+				<item id="17348" min="1" max="1" chance="0.300000000000009" /> <!-- Twilight Leather Boots - Light Armor -->
+				<item id="17352" min="1" max="1" chance="0.300000000000009" /> <!-- Twilight Gloves - Robe -->
+				<item id="17353" min="1" max="1" chance="0.300000000000009" /> <!-- Twilight Shoes - Robe -->
+				<item id="17354" min="1" max="1" chance="0.300000000000009" /> <!-- Twilight Sigil - Robe -->
+				<item id="17341" min="1" max="1" chance="0.300000000000009" /> <!-- Twilight Gauntlets - Heavy Armor -->
+				<item id="17344" min="1" max="1" chance="0.0749999999999999" /> <!-- Twilight Leather Helmet - Light Armor -->
+				<item id="17338" min="1" max="1" chance="0.0749999999999999" /> <!-- Twilight Helmet - Heavy Armor -->
+				<item id="17349" min="1" max="1" chance="0.0749999999999999" /> <!-- Twilight Circlet - Robe -->
 				<item id="17357" min="1" max="1" chance="0.299999999999997" /> <!-- Twilight Ring -->
 				<item id="17356" min="1" max="1" chance="0.299999999999997" /> <!-- Twilight Earring -->
 				<item id="17355" min="1" max="1" chance="0.0749999999999993" /> <!-- Twilight Necklace -->
 				<item id="17527" min="1" max="2" chance="4.10599999999999" /> <!-- Scroll: Enchant Armor (R-grade) -->
 				<item id="17526" min="1" max="1" chance="0.3" /> <!-- Scroll: Enchant Weapon (R-grade) -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<status undying="false" />
 		<collision>
 			<radius normal="22" />
@@ -2699,7 +2698,7 @@
 			</speed>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4275" level="2" /> <!-- Sacred Attack Weak Point -->
 			<skill id="4278" level="1" /> <!-- Dark Attack -->
@@ -2714,7 +2713,7 @@
 			<skill id="5465" level="1" /> <!-- Earth Attack -->
 			<skill id="4416" level="13" /> <!-- Undead -->
 			<skill id="14765" level="2" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="300" aggroRange="300" />
 		<status undying="false" />
 		<collision>
@@ -2743,7 +2742,7 @@
 			</speed>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4275" level="2" /> <!-- Sacred Attack Weak Point -->
 			<skill id="4278" level="1" /> <!-- Dark Attack -->
@@ -2762,11 +2761,11 @@
 			<skill id="5465" level="1" /> <!-- Earth Attack -->
 			<skill id="4846" level="1" /> <!-- Raid Boss - Level 25 -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai type="BALANCED" clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>B_FAIRY</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<status undying="false" />
 		<collision>
@@ -2801,7 +2800,7 @@
 			</speed>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4275" level="2" /> <!-- Sacred Attack Weak Point -->
 			<skill id="4278" level="1" /> <!-- Dark Attack -->
@@ -2818,11 +2817,11 @@
 			<skill id="4756" level="2" /> <!-- BOSS Power Shot -->
 			<skill id="14765" level="3" /> <!-- Blood Siphon Resistance -->
 			<skill id="6914" level="1" /> <!-- Haste -->
-		</skill_list>
+		</skillList>
 		<ai type="ARCHER" clanHelpRange="300" dodge="15" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>B_FAIRY</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<status undying="false" />
 		<collision>
@@ -2856,7 +2855,7 @@
 			</speed>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4275" level="2" /> <!-- Sacred Attack Weak Point -->
 			<skill id="4278" level="1" /> <!-- Dark Attack -->
@@ -2872,11 +2871,11 @@
 			<skill id="4416" level="13" /> <!-- Undead -->
 			<skill id="14765" level="3" /> <!-- Blood Siphon Resistance -->
 			<skill id="6914" level="1" /> <!-- Haste -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>B_FAIRY</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<status undying="false" />
 		<collision>
@@ -2909,7 +2908,7 @@
 			</speed>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4178" level="2" /> <!-- BOSS Flamestrike -->
 			<skill id="4273" level="3" /> <!-- Resist Daggers/Rapier Weapon -->
@@ -2930,11 +2929,11 @@
 			<skill id="4899" level="1" /> <!-- Raid Boss - Level 20 -->
 			<skill id="14040" level="1" /> <!-- Power Strike -->
 			<skill id="14765" level="3" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai type="BALANCED" clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>B_FAIRY</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<status undying="false" />
 		<collision>
@@ -2968,7 +2967,7 @@
 			</speed>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4273" level="3" /> <!-- Resist Daggers/Rapier Weapon -->
 			<skill id="4274" level="1" /> <!-- Blunt Weapon Weak Point -->
@@ -2987,11 +2986,11 @@
 			<skill id="4743" level="1" /> <!-- BOSS Strike -->
 			<skill id="14045" level="1" /> <!-- Fairy Attack -->
 			<skill id="14765" level="3" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>B_FAIRY</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<status undying="false" />
 		<collision>
@@ -3025,7 +3024,7 @@
 			</speed>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4213" level="1" /> <!-- BOSS Haste -->
 			<skill id="4273" level="3" /> <!-- Resist Daggers/Rapier Weapon -->
@@ -3045,11 +3044,11 @@
 			<skill id="4783" level="1" /> <!-- BOSS Heal -->
 			<skill id="14045" level="1" /> <!-- Fairy Attack -->
 			<skill id="14765" level="3" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>B_FAIRY</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<status undying="false" />
 		<collision>
@@ -3085,7 +3084,7 @@
 			</speed>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4175" level="4" /> <!-- BOSS Haste -->
 			<skill id="4177" level="4" /> <!-- BOSS Cancel Magic -->
@@ -3107,11 +3106,11 @@
 			<skill id="4833" level="1" /> <!-- Raid Boss - Level 35 -->
 			<skill id="14045" level="1" /> <!-- Fairy Attack -->
 			<skill id="14765" level="3" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai type="BALANCED" clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>B_FAIRY</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<status undying="false" />
 		<collision>
@@ -3146,7 +3145,7 @@
 			</speed>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4182" level="3" /> <!-- Poison -->
 			<skill id="4186" level="3" /> <!-- Hold -->
@@ -3167,11 +3166,11 @@
 			<skill id="4847" level="1" /> <!-- Raid Boss - Level 35 -->
 			<skill id="14053" level="1" /> <!-- Mace Downward Strike -->
 			<skill id="14765" level="3" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai type="BALANCED" clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>B_FAIRY</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<status undying="false" />
 		<collision>
@@ -3205,7 +3204,7 @@
 			</speed>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -3220,11 +3219,11 @@
 			<skill id="4731" level="3" /> <!-- BOSS Mortal Blow -->
 			<skill id="14055" level="1" /> <!-- Power Shot -->
 			<skill id="14765" level="3" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>B_FAIRY</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<status undying="false" />
 		<collision>
@@ -3258,7 +3257,7 @@
 			</speed>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4278" level="1" /> <!-- Dark Attack -->
 			<skill id="4333" level="5" /> <!-- Resist Dark Attack -->
@@ -3274,11 +3273,11 @@
 			<skill id="4416" level="3" /> <!-- Demons -->
 			<skill id="14050" level="1" /> <!-- Power Strike -->
 			<skill id="14765" level="3" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>B_FAIRY</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<status undying="false" />
 		<collision>
@@ -3313,7 +3312,7 @@
 			</speed>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4197" level="3" /> <!-- Hold -->
 			<skill id="4275" level="2" /> <!-- Sacred Attack Weak Point -->
@@ -3332,11 +3331,11 @@
 			<skill id="4869" level="1" /> <!-- Raid Boss - Level 35 -->
 			<skill id="14765" level="3" /> <!-- Blood Siphon Resistance -->
 			<skill id="14058" level="1" /> <!-- X Strike -->
-		</skill_list>
+		</skillList>
 		<ai type="BALANCED" isAggressive="true" aggroRange="300" clanHelpRange="300">
-			<clan_list>
+			<clanList>
 				<clan>B_FAIRY</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<status undying="false" />
 		<collision>
@@ -3372,7 +3371,7 @@
 			</speed>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4196" level="3" /> <!-- Decrease Speed -->
 			<skill id="4203" level="3" /> <!-- Decrease Speed -->
@@ -3404,15 +3403,15 @@
 			<skill id="14618" level="1" /> <!-- Knock Back Resistance -->
 			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
 			<skill id="14621" level="1" /> <!-- Pulling Resistance -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>B_FAIRY</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
-				<item id="17401" min="1" max="1" chance="0.0300000000000002" /> <!-- Seraph Shield Heavy Armor -->
+				<item id="17401" min="1" max="1" chance="0.0300000000000002" /> <!-- Seraph Shield - Heavy Armor -->
 				<item id="17383" min="1" max="1" chance="0.00300000000000002" /> <!-- Specter Cutter -->
 				<item id="17384" min="1" max="1" chance="0.00300000000000002" /> <!-- Specter Slasher -->
 				<item id="17385" min="1" max="1" chance="0.00300000000000002" /> <!-- Specter Avenger -->
@@ -3424,32 +3423,32 @@
 				<item id="17391" min="1" max="1" chance="0.00300000000000002" /> <!-- Specter Caster -->
 				<item id="17392" min="1" max="1" chance="0.00300000000000002" /> <!-- Specter Retributer -->
 				<item id="17382" min="1" max="1" chance="0.00300000000000002" /> <!-- Specter Shaper -->
-				<item id="17404" min="1" max="1" chance="0.03" /> <!-- Seraph Leather Leggings Light Armor -->
-				<item id="17409" min="1" max="1" chance="0.03" /> <!-- Seraph Stockings Robe -->
-				<item id="17398" min="1" max="1" chance="0.03" /> <!-- Seraph Gaiters Heavy Armor -->
-				<item id="17408" min="1" max="1" chance="0.00550000000000001" /> <!-- Seraph Tunic Robe -->
-				<item id="17403" min="1" max="1" chance="0.00550000000000001" /> <!-- Seraph Leather Armor Light Armor -->
-				<item id="17397" min="1" max="1" chance="0.00550000000000001" /> <!-- Seraph Breastplate Heavy Armor -->
-				<item id="17402" min="1" max="1" chance="0.03" /> <!-- Seraph Leather Helmet Light Armor -->
-				<item id="17405" min="1" max="1" chance="0.03" /> <!-- Seraph Leather Gloves Light Armor -->
-				<item id="17406" min="1" max="1" chance="0.03" /> <!-- Seraph Leather Boots Light Armor -->
-				<item id="17407" min="1" max="1" chance="0.03" /> <!-- Seraph Circlet Robe -->
-				<item id="17410" min="1" max="1" chance="0.03" /> <!-- Seraph Gloves Robe -->
-				<item id="17411" min="1" max="1" chance="0.03" /> <!-- Seraph Shoes Robe -->
-				<item id="17412" min="1" max="1" chance="0.03" /> <!-- Seraph Sigil Robe -->
-				<item id="17400" min="1" max="1" chance="0.03" /> <!-- Seraph Boots Heavy Armor -->
-				<item id="17399" min="1" max="1" chance="0.03" /> <!-- Seraph Gauntlets Heavy Armor -->
-				<item id="17396" min="1" max="1" chance="0.03" /> <!-- Seraph Helmet Heavy Armor -->
+				<item id="17404" min="1" max="1" chance="0.03" /> <!-- Seraph Leather Leggings - Light Armor -->
+				<item id="17409" min="1" max="1" chance="0.03" /> <!-- Seraph Stockings - Robe -->
+				<item id="17398" min="1" max="1" chance="0.03" /> <!-- Seraph Gaiters - Heavy Armor -->
+				<item id="17408" min="1" max="1" chance="0.00550000000000001" /> <!-- Seraph Tunic - Robe -->
+				<item id="17403" min="1" max="1" chance="0.00550000000000001" /> <!-- Seraph Leather Armor - Light Armor -->
+				<item id="17397" min="1" max="1" chance="0.00550000000000001" /> <!-- Seraph Breastplate - Heavy Armor -->
+				<item id="17402" min="1" max="1" chance="0.03" /> <!-- Seraph Leather Helmet - Light Armor -->
+				<item id="17405" min="1" max="1" chance="0.03" /> <!-- Seraph Leather Gloves - Light Armor -->
+				<item id="17406" min="1" max="1" chance="0.03" /> <!-- Seraph Leather Boots - Light Armor -->
+				<item id="17407" min="1" max="1" chance="0.03" /> <!-- Seraph Circlet - Robe -->
+				<item id="17410" min="1" max="1" chance="0.03" /> <!-- Seraph Gloves - Robe -->
+				<item id="17411" min="1" max="1" chance="0.03" /> <!-- Seraph Shoes - Robe -->
+				<item id="17412" min="1" max="1" chance="0.03" /> <!-- Seraph Sigil - Robe -->
+				<item id="17400" min="1" max="1" chance="0.03" /> <!-- Seraph Boots - Heavy Armor -->
+				<item id="17399" min="1" max="1" chance="0.03" /> <!-- Seraph Gauntlets - Heavy Armor -->
+				<item id="17396" min="1" max="1" chance="0.03" /> <!-- Seraph Helmet - Heavy Armor -->
 				<item id="17415" min="1" max="1" chance="0.0299999999999997" /> <!-- Seraph Ring -->
 				<item id="17413" min="1" max="1" chance="0.0299999999999997" /> <!-- Seraph Necklace -->
 				<item id="17414" min="1" max="1" chance="0.0299999999999997" /> <!-- Seraph Earring -->
 				<item id="17527" min="1" max="2" chance="3.23500000000002" /> <!-- Scroll: Enchant Armor (R-grade) -->
 				<item id="17526" min="1" max="2" chance="0.3" /> <!-- Scroll: Enchant Weapon (R-grade) -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="2" max="2" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<status undying="false" />
 		<collision>
 			<radius normal="22" />
@@ -3478,7 +3477,7 @@
 			</speed>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4275" level="2" /> <!-- Sacred Attack Weak Point -->
 			<skill id="4278" level="1" /> <!-- Dark Attack -->
@@ -3494,7 +3493,7 @@
 			<skill id="5465" level="1" /> <!-- Earth Attack -->
 			<skill id="4727" level="3" /> <!-- Stun -->
 			<skill id="14765" level="3" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="300" aggroRange="300" />
 		<status undying="false" />
 		<collision>
@@ -3532,7 +3531,7 @@
 			</speed>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4197" level="6" /> <!-- Hold -->
 			<skill id="4273" level="3" /> <!-- Resist Daggers/Rapier Weapon -->
@@ -3564,22 +3563,22 @@
 			<skill id="14623" level="1" /> <!-- Mutation Resistance -->
 			<skill id="14619" level="1" /> <!-- Disarm Resistance -->
 			<skill id="14621" level="1" /> <!-- Pulling Resistance -->
-		</skill_list>
+		</skillList>
 		<ai type="BALANCED" clanHelpRange="300" aggroRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
-				<item id="17431" min="1" max="1" chance="0.299999999999997" /> <!-- Eternal Breastplate Heavy Armor -->
-				<item id="17438" min="1" max="1" chance="0.299999999999997" /> <!-- Eternal Leather Leggings Light Armor -->
-				<item id="17442" min="1" max="1" chance="0.299999999999997" /> <!-- Eternal Tunic Robe -->
-				<item id="17446" min="1" max="1" chance="0.75" /> <!-- Eternal Sigil Robe -->
+				<item id="17431" min="1" max="1" chance="0.299999999999997" /> <!-- Eternal Breastplate - Heavy Armor -->
+				<item id="17438" min="1" max="1" chance="0.299999999999997" /> <!-- Eternal Leather Leggings - Light Armor -->
+				<item id="17442" min="1" max="1" chance="0.299999999999997" /> <!-- Eternal Tunic - Robe -->
+				<item id="17446" min="1" max="1" chance="0.75" /> <!-- Eternal Sigil - Robe -->
 				<item id="9552" min="1" max="1" chance="7.20600000000006" /> <!-- Fire Crystal -->
 				<item id="30297" min="1" max="1" chance="6.419" /> <!-- Superior Giant's Codex -->
 				<item id="17526" min="1" max="1" chance="1.88199999999994" /> <!-- Scroll: Enchant Weapon (R-grade) -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="2" max="2" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<status undying="false" />
 		<collision>
 			<radius normal="65" />
@@ -3616,7 +3615,7 @@
 			</speed>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4273" level="3" /> <!-- Resist Daggers/Rapier Weapon -->
 			<skill id="4274" level="1" /> <!-- Blunt Weapon Weak Point -->
@@ -3647,7 +3646,7 @@
 			<skill id="14619" level="1" /> <!-- Disarm Resistance -->
 			<skill id="4494" level="1" /> <!-- Raid Boss -->
 			<skill id="14621" level="1" /> <!-- Pulling Resistance -->
-		</skill_list>
+		</skillList>
 		<ai type="BALANCED" clanHelpRange="300" aggroRange="300" />
 		<status undying="false" />
 		<collision>
@@ -3684,7 +3683,7 @@
 			</speed>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4273" level="3" /> <!-- Resist Daggers/Rapier Weapon -->
 			<skill id="4274" level="1" /> <!-- Blunt Weapon Weak Point -->
@@ -3715,7 +3714,7 @@
 			<skill id="14619" level="1" /> <!-- Disarm Resistance -->
 			<skill id="4494" level="1" /> <!-- Raid Boss -->
 			<skill id="14621" level="1" /> <!-- Pulling Resistance -->
-		</skill_list>
+		</skillList>
 		<ai type="BALANCED" clanHelpRange="300" aggroRange="300" />
 		<status undying="false" />
 		<collision>
@@ -3751,7 +3750,7 @@
 			</speed>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4178" level="5" /> <!-- BOSS Flamestrike -->
 			<skill id="4278" level="1" /> <!-- Dark Attack -->
@@ -3781,21 +3780,21 @@
 			<skill id="14623" level="1" /> <!-- Mutation Resistance -->
 			<skill id="14619" level="1" /> <!-- Disarm Resistance -->
 			<skill id="14621" level="1" /> <!-- Pulling Resistance -->
-		</skill_list>
+		</skillList>
 		<ai type="BALANCED" clanHelpRange="300" aggroRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
-				<item id="17401" min="1" max="1" chance="0.750000000000003" /> <!-- Seraph Shield Heavy Armor -->
+				<item id="17401" min="1" max="1" chance="0.750000000000003" /> <!-- Seraph Shield - Heavy Armor -->
 				<item id="17383" min="1" max="1" chance="0.03" /> <!-- Specter Cutter -->
 				<item id="17388" min="1" max="1" chance="0.03" /> <!-- Specter Thrower -->
-				<item id="17412" min="1" max="1" chance="0.75" /> <!-- Seraph Sigil Robe -->
+				<item id="17412" min="1" max="1" chance="0.75" /> <!-- Seraph Sigil - Robe -->
 				<item id="9554" min="1" max="1" chance="4.72299999999998" /> <!-- Earth Crystal -->
 				<item id="17526" min="1" max="1" chance="1.19600000000002" /> <!-- Scroll: Enchant Weapon (R-grade) -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="2" max="2" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<status undying="false" />
 		<collision>
 			<radius normal="40" />
@@ -3830,7 +3829,7 @@
 			</speed>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4213" level="5" /> <!-- BOSS Haste -->
 			<skill id="4278" level="1" /> <!-- Dark Attack -->
@@ -3860,7 +3859,7 @@
 			<skill id="14619" level="1" /> <!-- Disarm Resistance -->
 			<skill id="4494" level="1" /> <!-- Raid Boss -->
 			<skill id="14621" level="1" /> <!-- Pulling Resistance -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="300" aggroRange="300" />
 		<status undying="false" />
 		<collision>
@@ -3895,7 +3894,7 @@
 			</speed>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4275" level="2" /> <!-- Sacred Attack Weak Point -->
 			<skill id="4278" level="1" /> <!-- Dark Attack -->
@@ -3911,7 +3910,7 @@
 			<skill id="4416" level="3" /> <!-- Undead -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
 			<skill id="14036" level="1" /> <!-- Vulnerability Attack -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="300" aggroRange="300" />
 		<status undying="false" />
 		<collision>
@@ -3948,7 +3947,7 @@
 			</speed>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4172" level="6" /> <!-- Stun -->
 			<skill id="4175" level="6" /> <!-- BOSS Haste -->
@@ -3980,22 +3979,22 @@
 			<skill id="14623" level="1" /> <!-- Mutation Resistance -->
 			<skill id="14619" level="1" /> <!-- Disarm Resistance -->
 			<skill id="14621" level="1" /> <!-- Pulling Resistance -->
-		</skill_list>
+		</skillList>
 		<ai type="BALANCED" clanHelpRange="300" aggroRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
-				<item id="17435" min="1" max="1" chance="0.75" /> <!-- Eternal Shield Heavy Armor -->
-				<item id="17432" min="1" max="1" chance="0.299999999999997" /> <!-- Eternal Gaiters Heavy Armor -->
-				<item id="17437" min="1" max="1" chance="0.299999999999997" /> <!-- Eternal Leather Armor Light Armor -->
-				<item id="17443" min="1" max="1" chance="0.299999999999997" /> <!-- Eternal Stockings Robe -->
+				<item id="17435" min="1" max="1" chance="0.75" /> <!-- Eternal Shield - Heavy Armor -->
+				<item id="17432" min="1" max="1" chance="0.299999999999997" /> <!-- Eternal Gaiters - Heavy Armor -->
+				<item id="17437" min="1" max="1" chance="0.299999999999997" /> <!-- Eternal Leather Armor - Light Armor -->
+				<item id="17443" min="1" max="1" chance="0.299999999999997" /> <!-- Eternal Stockings - Robe -->
 				<item id="17527" min="1" max="1" chance="22.23" /> <!-- Scroll: Enchant Armor (R-grade) -->
 				<item id="9555" min="1" max="1" chance="7.2070000000001" /> <!-- Wind Crystal -->
 				<item id="30297" min="1" max="1" chance="6.46899999999994" /> <!-- Superior Giant's Codex -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="2" max="2" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<status undying="false" />
 		<collision>
 			<radius normal="40" />
@@ -4031,7 +4030,7 @@
 			</speed>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -4059,20 +4058,20 @@
 			<skill id="14619" level="1" /> <!-- Disarm Resistance -->
 			<skill id="14621" level="1" /> <!-- Pulling Resistance -->
 			<skill id="14009" level="1" /> <!-- Electric Shock -->
-		</skill_list>
+		</skillList>
 		<ai type="BALANCED" clanHelpRange="300" aggroRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
-				<item id="17404" min="1" max="1" chance="0.300000000000001" /> <!-- Seraph Leather Leggings Light Armor -->
-				<item id="17397" min="1" max="1" chance="0.0750000000000015" /> <!-- Seraph Breastplate Heavy Armor -->
-				<item id="17408" min="1" max="1" chance="0.0750000000000015" /> <!-- Seraph Tunic Robe -->
+				<item id="17404" min="1" max="1" chance="0.300000000000001" /> <!-- Seraph Leather Leggings - Light Armor -->
+				<item id="17397" min="1" max="1" chance="0.0750000000000015" /> <!-- Seraph Breastplate - Heavy Armor -->
+				<item id="17408" min="1" max="1" chance="0.0750000000000015" /> <!-- Seraph Tunic - Robe -->
 				<item id="9552" min="1" max="1" chance="2.32799999999999" /> <!-- Fire Crystal -->
 				<item id="17526" min="1" max="1" chance="0.750000000000007" /> <!-- Scroll: Enchant Weapon (R-grade) -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="2" max="2" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<status undying="false" />
 		<collision>
 			<radius normal="45" />
@@ -4108,7 +4107,7 @@
 			</speed>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -4135,7 +4134,7 @@
 			<skill id="14621" level="1" /> <!-- Pulling Resistance -->
 			<skill id="4494" level="1" /> <!-- Raid Boss -->
 			<skill id="14009" level="1" /> <!-- Electric Shock -->
-		</skill_list>
+		</skillList>
 		<ai type="ARCHER" clanHelpRange="300" dodge="15" aggroRange="300" />
 		<status undying="false" />
 		<collision>
@@ -4173,7 +4172,7 @@
 			</speed>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -4199,7 +4198,7 @@
 			<skill id="14621" level="1" /> <!-- Pulling Resistance -->
 			<skill id="4494" level="1" /> <!-- Raid Boss -->
 			<skill id="14009" level="1" /> <!-- Electric Shock -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="300" aggroRange="300" />
 		<status undying="false" />
 		<collision>
@@ -4237,7 +4236,7 @@
 			</speed>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -4265,23 +4264,23 @@
 			<skill id="14619" level="1" /> <!-- Disarm Resistance -->
 			<skill id="14621" level="1" /> <!-- Pulling Resistance -->
 			<skill id="14009" level="1" /> <!-- Electric Shock -->
-		</skill_list>
+		</skillList>
 		<ai type="BALANCED" clanHelpRange="300" aggroRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
-				<item id="17398" min="1" max="1" chance="0.299999999999997" /> <!-- Seraph Gaiters Heavy Armor -->
-				<item id="17409" min="1" max="1" chance="0.299999999999997" /> <!-- Seraph Stockings Robe -->
-				<item id="17403" min="1" max="1" chance="0.0749999999999993" /> <!-- Seraph Leather Armor Light Armor -->
-				<item id="17400" min="1" max="1" chance="0.299999999999997" /> <!-- Seraph Boots Heavy Armor -->
-				<item id="17402" min="1" max="1" chance="0.299999999999997" /> <!-- Seraph Leather Helmet Light Armor -->
-				<item id="17410" min="1" max="1" chance="0.299999999999997" /> <!-- Seraph Gloves Robe -->
+				<item id="17398" min="1" max="1" chance="0.299999999999997" /> <!-- Seraph Gaiters - Heavy Armor -->
+				<item id="17409" min="1" max="1" chance="0.299999999999997" /> <!-- Seraph Stockings - Robe -->
+				<item id="17403" min="1" max="1" chance="0.0749999999999993" /> <!-- Seraph Leather Armor - Light Armor -->
+				<item id="17400" min="1" max="1" chance="0.299999999999997" /> <!-- Seraph Boots - Heavy Armor -->
+				<item id="17402" min="1" max="1" chance="0.299999999999997" /> <!-- Seraph Leather Helmet - Light Armor -->
+				<item id="17410" min="1" max="1" chance="0.299999999999997" /> <!-- Seraph Gloves - Robe -->
 				<item id="17527" min="1" max="1" chance="14.51" /> <!-- Scroll: Enchant Armor (R-grade) -->
 				<item id="9553" min="1" max="1" chance="4.78199999999998" /> <!-- Water Crystal -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="2" max="2" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<status undying="false" />
 		<collision>
 			<radius normal="45" />
@@ -4307,14 +4306,14 @@
 			</attribute>
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5465" level="1" /> <!-- Earth Attack -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
 			<skill id="14449" level="1" /> <!-- Dedicated Blow -->
 			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="300" aggroRange="300" />
 		<collision>
 			<radius normal="50" />
@@ -4346,7 +4345,7 @@
 			</speed>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4275" level="2" /> <!-- Sacred Attack Weak Point -->
 			<skill id="4278" level="1" /> <!-- Dark Attack -->
@@ -4364,8 +4363,40 @@
 			<skill id="4416" level="5" /> <!-- Undead -->
 			<skill id="14462" level="1" /> <!-- Apherus Curse -->
 			<skill id="14465" level="1" /> <!-- Apherus' Binding -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="300" aggroRange="800" />
+		<dropLists>
+			<drop>
+				<item id="17347" min="1" max="1" chance="5.395" /> <!-- Twilight Leather Gloves - Light Armor -->
+				<item id="17352" min="1" max="1" chance="5.314" /> <!-- Twilight Gloves - Robe -->
+				<item id="17330" min="1" max="1" chance="0.3" /> <!-- Apocalypse Thrower -->
+				<item id="17334" min="1" max="1" chance="0.3" /> <!-- Apocalypse Retributer -->
+				<item id="17526" min="1" max="1" chance="4.975" /> <!-- Scroll: Enchant Weapon (R-grade) -->
+				<item id="46489" min="1" max="1" chance="1.063" /> <!-- Pantheon's Soul Crystal - Stage 1 -->
+				<item id="46474" min="1" max="1" chance="1.041" /> <!-- Leona's Soul Crystal - Stage 1 -->
+				<item id="46504" min="1" max="1" chance="0.989" /> <!-- Lionel's Soul Crystal - Stage 1 -->
+				<item id="46491" min="1" max="1" chance="0.500" /> <!-- Pantheon's Soul Crystal - Stage 3 -->
+				<item id="46505" min="1" max="1" chance="0.500" /> <!-- Lionel's Soul Crystal - Stage 2 -->
+				<item id="46506" min="1" max="1" chance="0.500" /> <!-- Lionel's Soul Crystal - Stage 3 -->
+				<item id="46476" min="1" max="1" chance="0.500" /> <!-- Leona's Soul Crystal - Stage 3 -->
+				<item id="46475" min="1" max="1" chance="0.500" /> <!-- Leona's Soul Crystal - Stage 2 -->
+				<item id="46490" min="1" max="1" chance="0.500" /> <!-- Pantheon's Soul Crystal - Stage 2 -->
+				<item id="46461" min="1" max="1" chance="0.500" /> <!-- Mermoden's Soul Crystal - Stage 3 -->
+				<item id="46444" min="1" max="1" chance="0.500" /> <!-- Kain's Soul Crystal - Stage 1 -->
+				<item id="46460" min="1" max="1" chance="0.500" /> <!-- Mermoden's Soul Crystal - Stage 2 -->
+				<item id="46459" min="1" max="1" chance="0.500" /> <!-- Mermoden's Soul Crystal - Stage 1 -->
+				<item id="46445" min="1" max="1" chance="0.500" /> <!-- Kain's Soul Crystal - Stage 2 -->
+				<item id="46446" min="1" max="1" chance="0.500" /> <!-- Kain's Soul Crystal - Stage 3 -->
+				<item id="46462" min="1" max="1" chance="0.100" /> <!-- Mermoden's Soul Crystal - Stage 4 -->
+				<item id="46492" min="1" max="1" chance="0.100" /> <!-- Pantheon's Soul Crystal - Stage 4 -->
+				<item id="46447" min="1" max="1" chance="0.100" /> <!-- Kain's Soul Crystal - Stage 4 -->
+				<item id="46477" min="1" max="1" chance="0.100" /> <!-- Leona's Soul Crystal - Stage 4 -->
+				<item id="46507" min="1" max="1" chance="0.100" /> <!-- Lionel's Soul Crystal - Stage 4 -->
+			</drop>
+			<lucky>
+				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
+			</lucky>
+		</dropLists>
 		<status undying="false" />
 		<collision>
 			<radius normal="35" />
@@ -4398,7 +4429,7 @@
 			</speed>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4183" level="4" /> <!-- Decrease P. Atk. -->
 			<skill id="4189" level="4" /> <!-- Paralysis -->
@@ -4417,7 +4448,7 @@
 			<skill id="4863" level="1" /> <!-- Raid Boss - Level 43 -->
 			<skill id="6599" level="1" /> <!-- Earth Attack -->
 			<skill id="14765" level="3" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai type="BALANCED" clanHelpRange="300" aggroRange="300" />
 		<status undying="false" />
 		<collision>
@@ -4450,7 +4481,7 @@
 			</speed>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -4465,7 +4496,7 @@
 			<skill id="4721" level="4" /> <!-- BOSS Strike -->
 			<skill id="14089" level="1" /> <!-- Reflect -->
 			<skill id="14765" level="3" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="300" aggroRange="300" />
 		<status undying="false" />
 		<collision>
@@ -4498,7 +4529,7 @@
 			</speed>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -4512,7 +4543,7 @@
 			<skill id="4416" level="5" /> <!-- Humanoids -->
 			<skill id="14090" level="1" /> <!-- Apherus Paralysis -->
 			<skill id="14765" level="3" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="300" aggroRange="300" />
 		<status undying="false" />
 		<collision>
@@ -4550,7 +4581,7 @@
 			</speed>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4197" level="2" /> <!-- Hold -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
@@ -4577,9 +4608,9 @@
 			<skill id="14622" level="1" /> <!-- Banishment Resistance -->
 			<skill id="14617" level="1" /> <!-- Knock Down Resistance -->
 			<skill id="14619" level="1" /> <!-- Disarm Resistance -->
-		</skill_list>
+		</skillList>
 		<ai type="BALANCED" clanHelpRange="300" isAggressive="true" aggroRange="2000" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="37982" min="1" max="1" chance="0.0750000000000001" /> <!-- Apocalypse Cutter Crafting Pack -->
 				<item id="37983" min="1" max="1" chance="0.0750000000000001" /> <!-- Apocalypse Slasher Crafting Pack -->
@@ -4592,32 +4623,32 @@
 				<item id="37990" min="1" max="1" chance="0.0750000000000001" /> <!-- Apocalypse Caster Crafting Pack -->
 				<item id="37991" min="1" max="1" chance="0.0750000000000001" /> <!-- Apocalypse Retributer Crafting Pack -->
 				<item id="37981" min="1" max="1" chance="0.0750000000000001" /> <!-- Apocalypse Shaper Crafting Pack -->
-				<item id="37993" min="1" max="1" chance="1.24499999999999" /> <!-- Twilight Breastplate Crafting Pack Heavy Armor -->
-				<item id="38000" min="1" max="1" chance="1.24100000000002" /> <!-- Twilight Leather Leggings Crafting Pack Light Armor -->
-				<item id="37999" min="1" max="1" chance="1.21999999999997" /> <!-- Twilight Leather Armor Crafting Pack Light Armor -->
-				<item id="38004" min="1" max="1" chance="1.197" /> <!-- Twilight Tunic Crafting Pack Robe -->
-				<item id="38005" min="1" max="1" chance="1.19199999999997" /> <!-- Twilight Stockings Crafting Pack Robe -->
-				<item id="37994" min="1" max="1" chance="1.18299999999997" /> <!-- Twilight Gaiters Crafting Pack Heavy Armor -->
-				<item id="37996" min="1" max="1" chance="1.219" /> <!-- Twilight Boots Crafting Pack Heavy Armor -->
-				<item id="38001" min="1" max="1" chance="1.20899999999999" /> <!-- Twilight Leather Gloves Crafting Pack Light Armor -->
-				<item id="37992" min="1" max="1" chance="1.18999999999999" /> <!-- Twilight Helmet Crafting Pack Heavy Armor -->
-				<item id="37997" min="1" max="1" chance="1.189" /> <!-- Twilight Shield Crafting Pack Heavy Armor -->
-				<item id="37995" min="1" max="1" chance="1.17299999999999" /> <!-- Twilight Gauntlets Crafting Pack Heavy Armor -->
-				<item id="38002" min="1" max="1" chance="1.15499999999999" /> <!-- Twilight Leather Boots Crafting Pack Light Armor -->
-				<item id="38006" min="1" max="1" chance="1.151" /> <!-- Twilight Gloves Crafting Pack Robe -->
-				<item id="38007" min="1" max="1" chance="1.14" /> <!-- Twilight Shoes Crafting Pack Robe -->
-				<item id="38008" min="1" max="1" chance="1.121" /> <!-- Twilight Sigil Crafting Pack Robe -->
-				<item id="37998" min="1" max="1" chance="1.11800000000001" /> <!-- Twilight Leather Helmet Crafting Pack Light Armor -->
-				<item id="38003" min="1" max="1" chance="1.11699999999999" /> <!-- Twilight Circlet Crafting Pack Robe -->
+				<item id="37993" min="1" max="1" chance="1.24499999999999" /> <!-- Twilight Breastplate Crafting Pack - Heavy Armor -->
+				<item id="38000" min="1" max="1" chance="1.24100000000002" /> <!-- Twilight Leather Leggings Crafting Pack - Light Armor -->
+				<item id="37999" min="1" max="1" chance="1.21999999999997" /> <!-- Twilight Leather Armor Crafting Pack - Light Armor -->
+				<item id="38004" min="1" max="1" chance="1.197" /> <!-- Twilight Tunic Crafting Pack - Robe -->
+				<item id="38005" min="1" max="1" chance="1.19199999999997" /> <!-- Twilight Stockings Crafting Pack - Robe -->
+				<item id="37994" min="1" max="1" chance="1.18299999999997" /> <!-- Twilight Gaiters Crafting Pack - Heavy Armor -->
+				<item id="37996" min="1" max="1" chance="1.219" /> <!-- Twilight Boots Crafting Pack - Heavy Armor -->
+				<item id="38001" min="1" max="1" chance="1.20899999999999" /> <!-- Twilight Leather Gloves Crafting Pack - Light Armor -->
+				<item id="37992" min="1" max="1" chance="1.18999999999999" /> <!-- Twilight Helmet Crafting Pack - Heavy Armor -->
+				<item id="37997" min="1" max="1" chance="1.189" /> <!-- Twilight Shield Crafting Pack - Heavy Armor -->
+				<item id="37995" min="1" max="1" chance="1.17299999999999" /> <!-- Twilight Gauntlets Crafting Pack - Heavy Armor -->
+				<item id="38002" min="1" max="1" chance="1.15499999999999" /> <!-- Twilight Leather Boots Crafting Pack - Light Armor -->
+				<item id="38006" min="1" max="1" chance="1.151" /> <!-- Twilight Gloves Crafting Pack - Robe -->
+				<item id="38007" min="1" max="1" chance="1.14" /> <!-- Twilight Shoes Crafting Pack - Robe -->
+				<item id="38008" min="1" max="1" chance="1.121" /> <!-- Twilight Sigil Crafting Pack - Robe -->
+				<item id="37998" min="1" max="1" chance="1.11800000000001" /> <!-- Twilight Leather Helmet Crafting Pack - Light Armor -->
+				<item id="38003" min="1" max="1" chance="1.11699999999999" /> <!-- Twilight Circlet Crafting Pack - Robe -->
 				<item id="36586" min="1" max="1" chance="38.297392741754" /> <!-- Scroll: Modify Armor (R-grade) -->
 				<item id="36574" min="1" max="1" chance="37.869111127808" /> <!-- Scroll: Modify Weapon (R-grade) -->
 				<item id="17526" min="1" max="1" chance="23.269967691036" /> <!-- Scroll: Enchant Weapon (R-grade) -->
 				<item id="17747" min="1" max="1" chance="0.56352843940191" /> <!-- Trace of Decaying Darkness -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<status undying="false" isDeathPenalty="true" />
 		<collision>
 			<radius normal="40" />
@@ -4648,7 +4679,7 @@
 			</speed>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -4662,7 +4693,7 @@
 			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
 			<skill id="4743" level="2" /> <!-- BOSS Strike -->
 			<skill id="14765" level="3" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="300" aggroRange="2000" />
 		<status undying="false" />
 		<collision>
@@ -4693,7 +4724,7 @@
 			</speed>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -4707,7 +4738,7 @@
 			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
 			<skill id="4728" level="2" /> <!-- Stun -->
 			<skill id="14765" level="3" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="300" aggroRange="2000" />
 		<status undying="false" />
 		<collision>
@@ -4740,7 +4771,7 @@
 			</speed>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4197" level="3" /> <!-- Hold -->
 			<skill id="4278" level="1" /> <!-- Dark Attack -->
@@ -4758,7 +4789,7 @@
 			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
 			<skill id="5026" level="1" /> <!-- Raid Boss - Level 39 -->
 			<skill id="14765" level="3" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai type="BALANCED" clanHelpRange="300" aggroRange="2000" />
 		<status undying="false" />
 		<collision>
@@ -4784,7 +4815,7 @@
 			</speed>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4278" level="1" /> <!-- Dark Attack -->
 			<skill id="4333" level="3" /> <!-- Resist Dark Attack -->
@@ -4800,7 +4831,7 @@
 			<skill id="4723" level="3" /> <!-- BOSS Strike -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
 			<skill id="14159" level="1" /> <!-- Fist Bump -->
-		</skill_list>
+		</skillList>
 		<ai type="BALANCED" clanHelpRange="300" aggroRange="300" />
 		<status undying="false" />
 		<collision>
@@ -4830,7 +4861,7 @@
 			</speed>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4197" level="3" /> <!-- Hold -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
@@ -4841,12 +4872,12 @@
 			<skill id="4413" level="11" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- Blunt Weapons -->
-			<skill id="4416" level="14" /> <!-- Humans --> <!--Humanoids -->
+			<skill id="4416" level="14" /> <!-- Humans --> <!-- Humanoids -->
 			<skill id="4494" level="1" /> <!-- Raid Boss -->
 			<skill id="5027" level="1" /> <!-- Raid Boss - Level 37 -->
 			<skill id="14172" level="1" /> <!-- Ray of Pain -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai type="BALANCED" clanHelpRange="300" aggroRange="300" />
 		<status undying="false" />
 		<collision>
@@ -4885,7 +4916,7 @@
 			</speed>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -4917,24 +4948,24 @@
 			<skill id="14621" level="1" /> <!-- Pulling Resistance -->
 			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
 			<skill id="14112" level="2" /> <!-- Teredor Poison -->
-		</skill_list>
+		</skillList>
 		<ai type="BALANCED" clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>TRAJAN</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
-				<item id="17311" min="1" max="1" chance="6.44400000000005" /> <!-- Immortal Leather Armor Light Armor -->
-				<item id="17305" min="1" max="1" chance="4.86499999999999" /> <!-- Immortal Breastplate Heavy Armor -->
-				<item id="17316" min="1" max="1" chance="2.01199999999996" /> <!-- Immortal Tunic Robe -->
+				<item id="17311" min="1" max="1" chance="6.44400000000005" /> <!-- Immortal Leather Armor - Light Armor -->
+				<item id="17305" min="1" max="1" chance="4.86499999999999" /> <!-- Immortal Breastplate - Heavy Armor -->
+				<item id="17316" min="1" max="1" chance="2.01199999999996" /> <!-- Immortal Tunic - Robe -->
 				<item id="17527" min="3" max="9" chance="17.3600000000001" /> <!-- Scroll: Enchant Armor (R-grade) -->
 				<item id="17526" min="1" max="2" chance="8.38099999999989" /> <!-- Scroll: Enchant Weapon (R-grade) -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<status undying="false" isDeathPenalty="true" />
 		<collision>
 			<radius normal="90" />
@@ -4966,7 +4997,7 @@
 			</speed>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4194" level="3" /> <!-- BOSS Aura Burn -->
 			<skill id="4202" level="3" /> <!-- Hold -->
@@ -4982,7 +5013,7 @@
 			<skill id="4416" level="3" /> <!-- Humanoids -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
 			<skill id="14099" level="1" /> <!-- Lachik Front Foot Attack -->
-		</skill_list>
+		</skillList>
 		<ai type="BALANCED" clanHelpRange="300" aggroRange="300" />
 		<status undying="false" />
 		<collision>
@@ -5016,7 +5047,7 @@
 			</speed>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -5033,7 +5064,7 @@
 			<skill id="4903" level="1" /> <!-- Raid Boss - Level 80 -->
 			<skill id="14100" level="1" /> <!-- Lachik Front Foot Strike -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai type="BALANCED" clanHelpRange="300" aggroRange="300" />
 		<status undying="false" />
 		<collision>
@@ -5067,7 +5098,7 @@
 			</speed>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -5081,7 +5112,7 @@
 			<skill id="4416" level="3" /> <!-- Humanoids -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
 			<skill id="14099" level="1" /> <!-- Lachik Front Foot Attack -->
-		</skill_list>
+		</skillList>
 		<ai type="ARCHER" clanHelpRange="300" dodge="15" aggroRange="300" />
 		<status undying="false" />
 		<collision>
@@ -5115,7 +5146,7 @@
 			</speed>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -5129,7 +5160,7 @@
 			<skill id="4416" level="3" /> <!-- Humanoids -->
 			<skill id="14100" level="1" /> <!-- Lachik Front Foot Strike -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai type="BALANCED" clanHelpRange="300" aggroRange="300" />
 		<status undying="false" />
 		<collision>
@@ -5165,7 +5196,7 @@
 			</speed>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4184" level="9" /> <!-- Decrease Atk. Spd. -->
 			<skill id="4188" level="9" /> <!-- Bleed -->
@@ -5184,7 +5215,7 @@
 			<skill id="4907" level="1" /> <!-- Raid Boss - Level 80 -->
 			<skill id="14765" level="2" /> <!-- Blood Siphon Resistance -->
 			<skill id="14099" level="1" /> <!-- Lachik Front Foot Attack -->
-		</skill_list>
+		</skillList>
 		<ai type="BALANCED" clanHelpRange="300" aggroRange="300" />
 		<status undying="false" />
 		<collision>
@@ -5219,7 +5250,7 @@
 			</speed>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -5234,7 +5265,7 @@
 			<skill id="4741" level="8" /> <!-- BOSS Strike -->
 			<skill id="14100" level="1" /> <!-- Lachik Front Foot Strike -->
 			<skill id="14765" level="2" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai type="BALANCED" clanHelpRange="300" aggroRange="300" />
 		<status undying="false" />
 		<collision>
@@ -5272,7 +5303,7 @@
 			</speed>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -5286,7 +5317,7 @@
 			<skill id="4416" level="3" /> <!-- Humanoids -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
 			<skill id="14099" level="1" /> <!-- Lachik Front Foot Attack -->
-		</skill_list>
+		</skillList>
 		<ai type="BALANCED" clanHelpRange="300" aggroRange="300" />
 		<status undying="false" />
 		<collision>
@@ -5325,7 +5356,7 @@
 			</speed>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4175" level="7" /> <!-- BOSS Haste -->
 			<skill id="4177" level="7" /> <!-- BOSS Cancel Magic -->
@@ -5349,7 +5380,7 @@
 			<skill id="4880" level="1" /> <!-- Raid Boss - Level 72 -->
 			<skill id="14100" level="1" /> <!-- Lachik Front Foot Strike -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai type="BALANCED" clanHelpRange="300" aggroRange="300" />
 		<status undying="false" />
 		<collision>
@@ -5386,7 +5417,7 @@
 			</speed>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4182" level="8" /> <!-- Poison -->
 			<skill id="4190" level="8" /> <!-- Decrease MP -->
@@ -5407,7 +5438,7 @@
 			<skill id="4809" level="1" /> <!-- Raid Boss - Level 75 -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
 			<skill id="14099" level="1" /> <!-- Lachik Front Foot Attack -->
-		</skill_list>
+		</skillList>
 		<ai type="BALANCED" clanHelpRange="300" aggroRange="300" />
 		<status undying="false" />
 		<collision>
@@ -5446,7 +5477,7 @@
 			</speed>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4168" level="7" /> <!-- BOSS Strike -->
 			<skill id="4275" level="2" /> <!-- Sacred Attack Weak Point -->
@@ -5463,7 +5494,7 @@
 			<skill id="4416" level="3" /> <!-- Undead -->
 			<skill id="14100" level="1" /> <!-- Lachik Front Foot Strike -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai type="BALANCED" clanHelpRange="300" aggroRange="300" />
 		<status undying="false" />
 		<collision>
@@ -5495,7 +5526,7 @@
 			</speed>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4275" level="2" /> <!-- Sacred Attack Weak Point -->
 			<skill id="4278" level="1" /> <!-- Dark Attack -->
@@ -5519,13 +5550,13 @@
 			<skill id="4439" level="3" /> <!-- Greater Hold Resistance -->
 			<skill id="4416" level="9" /> <!-- Undead -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai type="BALANCED" clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>EMAMVIPY</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="3750000" max="6500000" chance="100" /> <!-- Adena -->
 				<item id="35308" min="1" max="1" chance="0.299999999999995" /> <!-- Seraph Breastplate Ingredient -->
@@ -5534,45 +5565,45 @@
 				<item id="35315" min="1" max="1" chance="0.299999999999995" /> <!-- Seraph Leather Legging Ingredient -->
 				<item id="35320" min="1" max="1" chance="0.299999999999995" /> <!-- Seraph Stocking Ingredient -->
 				<item id="35319" min="1" max="1" chance="0.299999999999995" /> <!-- Seraph Tunic Ingredient -->
-				<item id="38035" min="1" max="1" chance="0.0749999999999998" /> <!-- Seraph Tunic Crafting Pack Robe -->
-				<item id="38036" min="1" max="1" chance="0.0749999999999998" /> <!-- Seraph Stockings Crafting Pack Robe -->
-				<item id="38031" min="1" max="1" chance="0.0749999999999998" /> <!-- Seraph Leather Leggings Crafting Pack Light Armor -->
-				<item id="38030" min="1" max="1" chance="0.0749999999999998" /> <!-- Seraph Leather Armor Crafting Pack Light Armor -->
-				<item id="38025" min="1" max="1" chance="0.0749999999999998" /> <!-- Seraph Gaiters Crafting Pack Heavy Armor -->
-				<item id="38024" min="1" max="1" chance="0.0749999999999998" /> <!-- Seraph Breastplate Crafting Pack Heavy Armor -->
-				<item id="38036" min="1" max="1" chance="1.46000000000003" /> <!-- Seraph Stockings Crafting Pack Robe -->
-				<item id="38035" min="1" max="1" chance="1.44999999999997" /> <!-- Seraph Tunic Crafting Pack Robe -->
-				<item id="38025" min="1" max="1" chance="1.44100000000003" /> <!-- Seraph Gaiters Crafting Pack Heavy Armor -->
-				<item id="38024" min="1" max="1" chance="1.41999999999999" /> <!-- Seraph Breastplate Crafting Pack Heavy Armor -->
-				<item id="38030" min="1" max="1" chance="1.22900000000001" /> <!-- Seraph Leather Armor Crafting Pack Light Armor -->
-				<item id="38031" min="1" max="1" chance="1.22300000000001" /> <!-- Seraph Leather Leggings Crafting Pack Light Armor -->
+				<item id="38035" min="1" max="1" chance="0.0749999999999998" /> <!-- Seraph Tunic Crafting Pack - Robe -->
+				<item id="38036" min="1" max="1" chance="0.0749999999999998" /> <!-- Seraph Stockings Crafting Pack - Robe -->
+				<item id="38031" min="1" max="1" chance="0.0749999999999998" /> <!-- Seraph Leather Leggings Crafting Pack - Light Armor -->
+				<item id="38030" min="1" max="1" chance="0.0749999999999998" /> <!-- Seraph Leather Armor Crafting Pack - Light Armor -->
+				<item id="38025" min="1" max="1" chance="0.0749999999999998" /> <!-- Seraph Gaiters Crafting Pack - Heavy Armor -->
+				<item id="38024" min="1" max="1" chance="0.0749999999999998" /> <!-- Seraph Breastplate Crafting Pack - Heavy Armor -->
+				<item id="38036" min="1" max="1" chance="1.46000000000003" /> <!-- Seraph Stockings Crafting Pack - Robe -->
+				<item id="38035" min="1" max="1" chance="1.44999999999997" /> <!-- Seraph Tunic Crafting Pack - Robe -->
+				<item id="38025" min="1" max="1" chance="1.44100000000003" /> <!-- Seraph Gaiters Crafting Pack - Heavy Armor -->
+				<item id="38024" min="1" max="1" chance="1.41999999999999" /> <!-- Seraph Breastplate Crafting Pack - Heavy Armor -->
+				<item id="38030" min="1" max="1" chance="1.22900000000001" /> <!-- Seraph Leather Armor Crafting Pack - Light Armor -->
+				<item id="38031" min="1" max="1" chance="1.22300000000001" /> <!-- Seraph Leather Leggings Crafting Pack - Light Armor -->
 				<item id="35307" min="1" max="1" chance="0.299999999999994" /> <!-- Seraph Helmet Ingredient -->
 				<item id="35312" min="1" max="1" chance="0.299999999999994" /> <!-- Seraph Shield Ingredient -->
 				<item id="35313" min="1" max="1" chance="0.299999999999994" /> <!-- Seraph Leather Helmet Ingredient -->
 				<item id="35323" min="1" max="1" chance="0.299999999999994" /> <!-- Seraph Sigil Ingredient -->
 				<item id="35318" min="1" max="1" chance="0.299999999999994" /> <!-- Seraph Circlet Ingredient -->
-				<item id="38032" min="1" max="1" chance="0.0749999999999993" /> <!-- Seraph Leather Gloves Crafting Pack Light Armor -->
-				<item id="38033" min="1" max="1" chance="0.0749999999999993" /> <!-- Seraph Leather Boots Crafting Pack Light Armor -->
-				<item id="38034" min="1" max="1" chance="0.0749999999999993" /> <!-- Seraph Circlet Crafting Pack Robe -->
-				<item id="38037" min="1" max="1" chance="0.0749999999999993" /> <!-- Seraph Gloves Crafting Pack Robe -->
-				<item id="38038" min="1" max="1" chance="0.0749999999999993" /> <!-- Seraph Shoes Crafting Pack Robe -->
-				<item id="38029" min="1" max="1" chance="0.0749999999999993" /> <!-- Seraph Leather Helmet Crafting Pack Light Armor -->
-				<item id="38028" min="1" max="1" chance="0.0749999999999993" /> <!-- Seraph Shield Crafting Pack Heavy Armor -->
-				<item id="38027" min="1" max="1" chance="0.0749999999999993" /> <!-- Seraph Boots Crafting Pack Heavy Armor -->
-				<item id="38026" min="1" max="1" chance="0.0749999999999993" /> <!-- Seraph Gauntlets Crafting Pack Heavy Armor -->
-				<item id="38023" min="1" max="1" chance="0.0749999999999993" /> <!-- Seraph Helmet Crafting Pack Heavy Armor -->
-				<item id="38039" min="1" max="1" chance="0.0749999999999993" /> <!-- Seraph Sigil Crafting Pack Robe -->
-				<item id="38039" min="1" max="1" chance="1.422" /> <!-- Seraph Sigil Crafting Pack Robe -->
-				<item id="38023" min="1" max="1" chance="1.39499999999999" /> <!-- Seraph Helmet Crafting Pack Heavy Armor -->
-				<item id="38037" min="1" max="1" chance="1.394" /> <!-- Seraph Gloves Crafting Pack Robe -->
-				<item id="38028" min="1" max="1" chance="1.386" /> <!-- Seraph Shield Crafting Pack Heavy Armor -->
-				<item id="38034" min="1" max="1" chance="1.38400000000001" /> <!-- Seraph Circlet Crafting Pack Robe -->
-				<item id="38038" min="1" max="1" chance="1.378" /> <!-- Seraph Shoes Crafting Pack Robe -->
-				<item id="38033" min="1" max="1" chance="1.341" /> <!-- Seraph Leather Boots Crafting Pack Light Armor -->
-				<item id="38027" min="1" max="1" chance="1.338" /> <!-- Seraph Boots Crafting Pack Heavy Armor -->
-				<item id="38026" min="1" max="1" chance="1.337" /> <!-- Seraph Gauntlets Crafting Pack Heavy Armor -->
-				<item id="38032" min="1" max="1" chance="1.263" /> <!-- Seraph Leather Gloves Crafting Pack Light Armor -->
-				<item id="38029" min="1" max="1" chance="1.139" /> <!-- Seraph Leather Helmet Crafting Pack Light Armor -->
+				<item id="38032" min="1" max="1" chance="0.0749999999999993" /> <!-- Seraph Leather Gloves Crafting Pack - Light Armor -->
+				<item id="38033" min="1" max="1" chance="0.0749999999999993" /> <!-- Seraph Leather Boots Crafting Pack - Light Armor -->
+				<item id="38034" min="1" max="1" chance="0.0749999999999993" /> <!-- Seraph Circlet Crafting Pack - Robe -->
+				<item id="38037" min="1" max="1" chance="0.0749999999999993" /> <!-- Seraph Gloves Crafting Pack - Robe -->
+				<item id="38038" min="1" max="1" chance="0.0749999999999993" /> <!-- Seraph Shoes Crafting Pack - Robe -->
+				<item id="38029" min="1" max="1" chance="0.0749999999999993" /> <!-- Seraph Leather Helmet Crafting Pack - Light Armor -->
+				<item id="38028" min="1" max="1" chance="0.0749999999999993" /> <!-- Seraph Shield Crafting Pack - Heavy Armor -->
+				<item id="38027" min="1" max="1" chance="0.0749999999999993" /> <!-- Seraph Boots Crafting Pack - Heavy Armor -->
+				<item id="38026" min="1" max="1" chance="0.0749999999999993" /> <!-- Seraph Gauntlets Crafting Pack - Heavy Armor -->
+				<item id="38023" min="1" max="1" chance="0.0749999999999993" /> <!-- Seraph Helmet Crafting Pack - Heavy Armor -->
+				<item id="38039" min="1" max="1" chance="0.0749999999999993" /> <!-- Seraph Sigil Crafting Pack - Robe -->
+				<item id="38039" min="1" max="1" chance="1.422" /> <!-- Seraph Sigil Crafting Pack - Robe -->
+				<item id="38023" min="1" max="1" chance="1.39499999999999" /> <!-- Seraph Helmet Crafting Pack - Heavy Armor -->
+				<item id="38037" min="1" max="1" chance="1.394" /> <!-- Seraph Gloves Crafting Pack - Robe -->
+				<item id="38028" min="1" max="1" chance="1.386" /> <!-- Seraph Shield Crafting Pack - Heavy Armor -->
+				<item id="38034" min="1" max="1" chance="1.38400000000001" /> <!-- Seraph Circlet Crafting Pack - Robe -->
+				<item id="38038" min="1" max="1" chance="1.378" /> <!-- Seraph Shoes Crafting Pack - Robe -->
+				<item id="38033" min="1" max="1" chance="1.341" /> <!-- Seraph Leather Boots Crafting Pack - Light Armor -->
+				<item id="38027" min="1" max="1" chance="1.338" /> <!-- Seraph Boots Crafting Pack - Heavy Armor -->
+				<item id="38026" min="1" max="1" chance="1.337" /> <!-- Seraph Gauntlets Crafting Pack - Heavy Armor -->
+				<item id="38032" min="1" max="1" chance="1.263" /> <!-- Seraph Leather Gloves Crafting Pack - Light Armor -->
+				<item id="38029" min="1" max="1" chance="1.139" /> <!-- Seraph Leather Helmet Crafting Pack - Light Armor -->
 				<item id="36586" min="1" max="1" chance="17.984532340325" /> <!-- Scroll: Modify Armor (R-grade) -->
 				<item id="17527" min="1" max="1" chance="8.1758284037897" /> <!-- Scroll: Enchant Armor (R-grade) -->
 				<item id="36574" min="1" max="1" chance="4.7451866814152" /> <!-- Scroll: Modify Weapon (R-grade) -->
@@ -5610,13 +5641,13 @@
 				<item id="19448" min="1" max="1" chance="1.0246122206878" /> <!-- Blessed Scroll: Enchant Armor (R-grade) -->
 				<item id="19447" min="1" max="1" chance="0.17176110091995" /> <!-- Blessed Scroll: Enchant Weapon (R-grade) -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="2" max="2" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
 				<item id="39629" min="2" max="2" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
 				<item id="39629" min="2" max="2" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
 				<item id="39629" min="2" max="2" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<status undying="false" isDeathPenalty="true" />
 		<collision>
 			<radius normal="13" />
@@ -5649,7 +5680,7 @@
 			</speed>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4184" level="7" /> <!-- Decrease Atk. Spd. -->
 			<skill id="4188" level="7" /> <!-- Bleed -->
@@ -5679,57 +5710,57 @@
 			<skill id="14619" level="1" /> <!-- Disarm Resistance -->
 			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
 			<skill id="14621" level="1" /> <!-- Pulling Resistance -->
-		</skill_list>
+		</skillList>
 		<ai type="BALANCED" clanHelpRange="300" aggroRange="300" />
 		<status undying="false" isDeathPenalty="true" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="7500000" max="13000000" chance="100" /> <!-- Adena -->
-				<item id="38025" min="1" max="1" chance="0.299999999999998" /> <!-- Seraph Gaiters Crafting Pack Heavy Armor -->
-				<item id="38024" min="1" max="1" chance="0.299999999999998" /> <!-- Seraph Breastplate Crafting Pack Heavy Armor -->
-				<item id="38036" min="1" max="1" chance="0.299999999999998" /> <!-- Seraph Stockings Crafting Pack Robe -->
-				<item id="38035" min="1" max="1" chance="0.299999999999998" /> <!-- Seraph Tunic Crafting Pack Robe -->
-				<item id="38031" min="1" max="1" chance="0.299999999999998" /> <!-- Seraph Leather Leggings Crafting Pack Light Armor -->
-				<item id="38030" min="1" max="1" chance="0.299999999999998" /> <!-- Seraph Leather Armor Crafting Pack Light Armor -->
+				<item id="38025" min="1" max="1" chance="0.299999999999998" /> <!-- Seraph Gaiters Crafting Pack - Heavy Armor -->
+				<item id="38024" min="1" max="1" chance="0.299999999999998" /> <!-- Seraph Breastplate Crafting Pack - Heavy Armor -->
+				<item id="38036" min="1" max="1" chance="0.299999999999998" /> <!-- Seraph Stockings Crafting Pack - Robe -->
+				<item id="38035" min="1" max="1" chance="0.299999999999998" /> <!-- Seraph Tunic Crafting Pack - Robe -->
+				<item id="38031" min="1" max="1" chance="0.299999999999998" /> <!-- Seraph Leather Leggings Crafting Pack - Light Armor -->
+				<item id="38030" min="1" max="1" chance="0.299999999999998" /> <!-- Seraph Leather Armor Crafting Pack - Light Armor -->
 				<item id="35315" min="1" max="1" chance="0.299999999999998" /> <!-- Seraph Leather Legging Ingredient -->
 				<item id="35314" min="1" max="1" chance="0.299999999999998" /> <!-- Seraph Leather Armor Ingredient -->
 				<item id="35309" min="1" max="1" chance="0.299999999999998" /> <!-- Seraph Gaiter Ingredient -->
 				<item id="35308" min="1" max="1" chance="0.299999999999998" /> <!-- Seraph Breastplate Ingredient -->
 				<item id="35319" min="1" max="1" chance="0.299999999999998" /> <!-- Seraph Tunic Ingredient -->
 				<item id="35320" min="1" max="1" chance="0.299999999999998" /> <!-- Seraph Stocking Ingredient -->
-				<item id="38025" min="1" max="1" chance="1.44899999999995" /> <!-- Seraph Gaiters Crafting Pack Heavy Armor -->
-				<item id="38036" min="1" max="1" chance="1.38700000000002" /> <!-- Seraph Stockings Crafting Pack Robe -->
-				<item id="38035" min="1" max="1" chance="1.35199999999999" /> <!-- Seraph Tunic Crafting Pack Robe -->
-				<item id="38024" min="1" max="1" chance="1.33299999999998" /> <!-- Seraph Breastplate Crafting Pack Heavy Armor -->
-				<item id="38031" min="1" max="1" chance="1.26600000000003" /> <!-- Seraph Leather Leggings Crafting Pack Light Armor -->
-				<item id="38030" min="1" max="1" chance="1.22200000000004" /> <!-- Seraph Leather Armor Crafting Pack Light Armor -->
-				<item id="38023" min="1" max="1" chance="0.300000000000001" /> <!-- Seraph Helmet Crafting Pack Heavy Armor -->
-				<item id="38026" min="1" max="1" chance="0.300000000000001" /> <!-- Seraph Gauntlets Crafting Pack Heavy Armor -->
-				<item id="38027" min="1" max="1" chance="0.300000000000001" /> <!-- Seraph Boots Crafting Pack Heavy Armor -->
-				<item id="38028" min="1" max="1" chance="0.300000000000001" /> <!-- Seraph Shield Crafting Pack Heavy Armor -->
-				<item id="38039" min="1" max="1" chance="0.300000000000001" /> <!-- Seraph Sigil Crafting Pack Robe -->
-				<item id="38038" min="1" max="1" chance="0.300000000000001" /> <!-- Seraph Shoes Crafting Pack Robe -->
-				<item id="38037" min="1" max="1" chance="0.300000000000001" /> <!-- Seraph Gloves Crafting Pack Robe -->
-				<item id="38034" min="1" max="1" chance="0.300000000000001" /> <!-- Seraph Circlet Crafting Pack Robe -->
-				<item id="38033" min="1" max="1" chance="0.300000000000001" /> <!-- Seraph Leather Boots Crafting Pack Light Armor -->
-				<item id="38032" min="1" max="1" chance="0.300000000000001" /> <!-- Seraph Leather Gloves Crafting Pack Light Armor -->
-				<item id="38029" min="1" max="1" chance="0.300000000000001" /> <!-- Seraph Leather Helmet Crafting Pack Light Armor -->
+				<item id="38025" min="1" max="1" chance="1.44899999999995" /> <!-- Seraph Gaiters Crafting Pack - Heavy Armor -->
+				<item id="38036" min="1" max="1" chance="1.38700000000002" /> <!-- Seraph Stockings Crafting Pack - Robe -->
+				<item id="38035" min="1" max="1" chance="1.35199999999999" /> <!-- Seraph Tunic Crafting Pack - Robe -->
+				<item id="38024" min="1" max="1" chance="1.33299999999998" /> <!-- Seraph Breastplate Crafting Pack - Heavy Armor -->
+				<item id="38031" min="1" max="1" chance="1.26600000000003" /> <!-- Seraph Leather Leggings Crafting Pack - Light Armor -->
+				<item id="38030" min="1" max="1" chance="1.22200000000004" /> <!-- Seraph Leather Armor Crafting Pack - Light Armor -->
+				<item id="38023" min="1" max="1" chance="0.300000000000001" /> <!-- Seraph Helmet Crafting Pack - Heavy Armor -->
+				<item id="38026" min="1" max="1" chance="0.300000000000001" /> <!-- Seraph Gauntlets Crafting Pack - Heavy Armor -->
+				<item id="38027" min="1" max="1" chance="0.300000000000001" /> <!-- Seraph Boots Crafting Pack - Heavy Armor -->
+				<item id="38028" min="1" max="1" chance="0.300000000000001" /> <!-- Seraph Shield Crafting Pack - Heavy Armor -->
+				<item id="38039" min="1" max="1" chance="0.300000000000001" /> <!-- Seraph Sigil Crafting Pack - Robe -->
+				<item id="38038" min="1" max="1" chance="0.300000000000001" /> <!-- Seraph Shoes Crafting Pack - Robe -->
+				<item id="38037" min="1" max="1" chance="0.300000000000001" /> <!-- Seraph Gloves Crafting Pack - Robe -->
+				<item id="38034" min="1" max="1" chance="0.300000000000001" /> <!-- Seraph Circlet Crafting Pack - Robe -->
+				<item id="38033" min="1" max="1" chance="0.300000000000001" /> <!-- Seraph Leather Boots Crafting Pack - Light Armor -->
+				<item id="38032" min="1" max="1" chance="0.300000000000001" /> <!-- Seraph Leather Gloves Crafting Pack - Light Armor -->
+				<item id="38029" min="1" max="1" chance="0.300000000000001" /> <!-- Seraph Leather Helmet Crafting Pack - Light Armor -->
 				<item id="35318" min="1" max="1" chance="0.300000000000001" /> <!-- Seraph Circlet Ingredient -->
 				<item id="35313" min="1" max="1" chance="0.300000000000001" /> <!-- Seraph Leather Helmet Ingredient -->
 				<item id="35312" min="1" max="1" chance="0.300000000000001" /> <!-- Seraph Shield Ingredient -->
 				<item id="35323" min="1" max="1" chance="0.300000000000001" /> <!-- Seraph Sigil Ingredient -->
 				<item id="35307" min="1" max="1" chance="0.300000000000001" /> <!-- Seraph Helmet Ingredient -->
-				<item id="38038" min="1" max="1" chance="1.46" /> <!-- Seraph Shoes Crafting Pack Robe -->
-				<item id="38027" min="1" max="1" chance="1.44300000000001" /> <!-- Seraph Boots Crafting Pack Heavy Armor -->
-				<item id="38037" min="1" max="1" chance="1.441" /> <!-- Seraph Gloves Crafting Pack Robe -->
-				<item id="38033" min="1" max="1" chance="1.425" /> <!-- Seraph Leather Boots Crafting Pack Light Armor -->
-				<item id="38028" min="1" max="1" chance="1.41" /> <!-- Seraph Shield Crafting Pack Heavy Armor -->
-				<item id="38039" min="1" max="1" chance="1.378" /> <!-- Seraph Sigil Crafting Pack Robe -->
-				<item id="38023" min="1" max="1" chance="1.35900000000001" /> <!-- Seraph Helmet Crafting Pack Heavy Armor -->
-				<item id="38026" min="1" max="1" chance="1.33700000000001" /> <!-- Seraph Gauntlets Crafting Pack Heavy Armor -->
-				<item id="38034" min="1" max="1" chance="1.332" /> <!-- Seraph Circlet Crafting Pack Robe -->
-				<item id="38032" min="1" max="1" chance="1.166" /> <!-- Seraph Leather Gloves Crafting Pack Light Armor -->
-				<item id="38029" min="1" max="1" chance="1.157" /> <!-- Seraph Leather Helmet Crafting Pack Light Armor -->
+				<item id="38038" min="1" max="1" chance="1.46" /> <!-- Seraph Shoes Crafting Pack - Robe -->
+				<item id="38027" min="1" max="1" chance="1.44300000000001" /> <!-- Seraph Boots Crafting Pack - Heavy Armor -->
+				<item id="38037" min="1" max="1" chance="1.441" /> <!-- Seraph Gloves Crafting Pack - Robe -->
+				<item id="38033" min="1" max="1" chance="1.425" /> <!-- Seraph Leather Boots Crafting Pack - Light Armor -->
+				<item id="38028" min="1" max="1" chance="1.41" /> <!-- Seraph Shield Crafting Pack - Heavy Armor -->
+				<item id="38039" min="1" max="1" chance="1.378" /> <!-- Seraph Sigil Crafting Pack - Robe -->
+				<item id="38023" min="1" max="1" chance="1.35900000000001" /> <!-- Seraph Helmet Crafting Pack - Heavy Armor -->
+				<item id="38026" min="1" max="1" chance="1.33700000000001" /> <!-- Seraph Gauntlets Crafting Pack - Heavy Armor -->
+				<item id="38034" min="1" max="1" chance="1.332" /> <!-- Seraph Circlet Crafting Pack - Robe -->
+				<item id="38032" min="1" max="1" chance="1.166" /> <!-- Seraph Leather Gloves Crafting Pack - Light Armor -->
+				<item id="38029" min="1" max="1" chance="1.157" /> <!-- Seraph Leather Helmet Crafting Pack - Light Armor -->
 				<item id="36586" min="2" max="2" chance="16.378258015838" /> <!-- Scroll: Modify Armor (R-grade) -->
 				<item id="17527" min="1" max="1" chance="14.411231272863" /> <!-- Scroll: Enchant Armor (R-grade) -->
 				<item id="36574" min="2" max="2" chance="3.9953952762732" /> <!-- Scroll: Modify Weapon (R-grade) -->
@@ -5767,13 +5798,13 @@
 				<item id="19448" min="1" max="1" chance="1.8375955653975" /> <!-- Blessed Scroll: Enchant Armor (R-grade) -->
 				<item id="19447" min="1" max="1" chance="0.15335447580373" /> <!-- Blessed Scroll: Enchant Weapon (R-grade) -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="2" max="2" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
 				<item id="39629" min="2" max="2" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
 				<item id="39629" min="2" max="2" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
 				<item id="39629" min="2" max="2" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="12" />
 			<height normal="29" />
@@ -5802,7 +5833,7 @@
 			</speed>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4196" level="6" /> <!-- Decrease Speed -->
 			<skill id="4204" level="6" /> <!-- Bleed -->
@@ -5818,7 +5849,7 @@
 			<skill id="4416" level="9" /> <!-- Dragons -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
 			<skill id="4084" level="1" /> <!-- Physical Attack Resistance -->
-		</skill_list>
+		</skillList>
 		<ai type="BALANCED" clanHelpRange="300" aggroRange="300" />
 		<status undying="false" />
 		<collision>
@@ -5850,7 +5881,7 @@
 			</speed>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
 			<skill id="4211" level="6" /> <!-- BOSS Might -->
 			<skill id="4278" level="1" /> <!-- Dark Attack -->
@@ -5881,57 +5912,57 @@
 			<skill id="14619" level="1" /> <!-- Disarm Resistance -->
 			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
 			<skill id="14621" level="1" /> <!-- Pulling Resistance -->
-		</skill_list>
+		</skillList>
 		<ai type="BALANCED" clanHelpRange="300" aggroRange="300" />
 		<status undying="false" isDeathPenalty="true" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="7500000" max="13000000" chance="100" /> <!-- Adena -->
-				<item id="38025" min="1" max="1" chance="0.300000000000004" /> <!-- Seraph Gaiters Crafting Pack Heavy Armor -->
-				<item id="38024" min="1" max="1" chance="0.300000000000004" /> <!-- Seraph Breastplate Crafting Pack Heavy Armor -->
-				<item id="38036" min="1" max="1" chance="0.300000000000004" /> <!-- Seraph Stockings Crafting Pack Robe -->
-				<item id="38035" min="1" max="1" chance="0.300000000000004" /> <!-- Seraph Tunic Crafting Pack Robe -->
-				<item id="38031" min="1" max="1" chance="0.300000000000004" /> <!-- Seraph Leather Leggings Crafting Pack Light Armor -->
-				<item id="38030" min="1" max="1" chance="0.300000000000004" /> <!-- Seraph Leather Armor Crafting Pack Light Armor -->
+				<item id="38025" min="1" max="1" chance="0.300000000000004" /> <!-- Seraph Gaiters Crafting Pack - Heavy Armor -->
+				<item id="38024" min="1" max="1" chance="0.300000000000004" /> <!-- Seraph Breastplate Crafting Pack - Heavy Armor -->
+				<item id="38036" min="1" max="1" chance="0.300000000000004" /> <!-- Seraph Stockings Crafting Pack - Robe -->
+				<item id="38035" min="1" max="1" chance="0.300000000000004" /> <!-- Seraph Tunic Crafting Pack - Robe -->
+				<item id="38031" min="1" max="1" chance="0.300000000000004" /> <!-- Seraph Leather Leggings Crafting Pack - Light Armor -->
+				<item id="38030" min="1" max="1" chance="0.300000000000004" /> <!-- Seraph Leather Armor Crafting Pack - Light Armor -->
 				<item id="35315" min="1" max="1" chance="0.300000000000004" /> <!-- Seraph Leather Legging Ingredient -->
 				<item id="35314" min="1" max="1" chance="0.300000000000004" /> <!-- Seraph Leather Armor Ingredient -->
 				<item id="35309" min="1" max="1" chance="0.300000000000004" /> <!-- Seraph Gaiter Ingredient -->
 				<item id="35308" min="1" max="1" chance="0.300000000000004" /> <!-- Seraph Breastplate Ingredient -->
 				<item id="35319" min="1" max="1" chance="0.300000000000004" /> <!-- Seraph Tunic Ingredient -->
 				<item id="35320" min="1" max="1" chance="0.300000000000004" /> <!-- Seraph Stocking Ingredient -->
-				<item id="38025" min="1" max="1" chance="1.436" /> <!-- Seraph Gaiters Crafting Pack Heavy Armor -->
-				<item id="38035" min="1" max="1" chance="1.38699999999998" /> <!-- Seraph Tunic Crafting Pack Robe -->
-				<item id="38036" min="1" max="1" chance="1.36400000000005" /> <!-- Seraph Stockings Crafting Pack Robe -->
-				<item id="38024" min="1" max="1" chance="1.35600000000001" /> <!-- Seraph Breastplate Crafting Pack Heavy Armor -->
-				<item id="38031" min="1" max="1" chance="1.24299999999997" /> <!-- Seraph Leather Leggings Crafting Pack Light Armor -->
-				<item id="38030" min="1" max="1" chance="1.152" /> <!-- Seraph Leather Armor Crafting Pack Light Armor -->
-				<item id="38023" min="1" max="1" chance="0.299999999999992" /> <!-- Seraph Helmet Crafting Pack Heavy Armor -->
-				<item id="38026" min="1" max="1" chance="0.299999999999992" /> <!-- Seraph Gauntlets Crafting Pack Heavy Armor -->
-				<item id="38027" min="1" max="1" chance="0.299999999999992" /> <!-- Seraph Boots Crafting Pack Heavy Armor -->
-				<item id="38028" min="1" max="1" chance="0.299999999999992" /> <!-- Seraph Shield Crafting Pack Heavy Armor -->
-				<item id="38039" min="1" max="1" chance="0.299999999999992" /> <!-- Seraph Sigil Crafting Pack Robe -->
-				<item id="38038" min="1" max="1" chance="0.299999999999992" /> <!-- Seraph Shoes Crafting Pack Robe -->
-				<item id="38037" min="1" max="1" chance="0.299999999999992" /> <!-- Seraph Gloves Crafting Pack Robe -->
-				<item id="38034" min="1" max="1" chance="0.299999999999992" /> <!-- Seraph Circlet Crafting Pack Robe -->
-				<item id="38033" min="1" max="1" chance="0.299999999999992" /> <!-- Seraph Leather Boots Crafting Pack Light Armor -->
-				<item id="38032" min="1" max="1" chance="0.299999999999992" /> <!-- Seraph Leather Gloves Crafting Pack Light Armor -->
-				<item id="38029" min="1" max="1" chance="0.299999999999992" /> <!-- Seraph Leather Helmet Crafting Pack Light Armor -->
+				<item id="38025" min="1" max="1" chance="1.436" /> <!-- Seraph Gaiters Crafting Pack - Heavy Armor -->
+				<item id="38035" min="1" max="1" chance="1.38699999999998" /> <!-- Seraph Tunic Crafting Pack - Robe -->
+				<item id="38036" min="1" max="1" chance="1.36400000000005" /> <!-- Seraph Stockings Crafting Pack - Robe -->
+				<item id="38024" min="1" max="1" chance="1.35600000000001" /> <!-- Seraph Breastplate Crafting Pack - Heavy Armor -->
+				<item id="38031" min="1" max="1" chance="1.24299999999997" /> <!-- Seraph Leather Leggings Crafting Pack - Light Armor -->
+				<item id="38030" min="1" max="1" chance="1.152" /> <!-- Seraph Leather Armor Crafting Pack - Light Armor -->
+				<item id="38023" min="1" max="1" chance="0.299999999999992" /> <!-- Seraph Helmet Crafting Pack - Heavy Armor -->
+				<item id="38026" min="1" max="1" chance="0.299999999999992" /> <!-- Seraph Gauntlets Crafting Pack - Heavy Armor -->
+				<item id="38027" min="1" max="1" chance="0.299999999999992" /> <!-- Seraph Boots Crafting Pack - Heavy Armor -->
+				<item id="38028" min="1" max="1" chance="0.299999999999992" /> <!-- Seraph Shield Crafting Pack - Heavy Armor -->
+				<item id="38039" min="1" max="1" chance="0.299999999999992" /> <!-- Seraph Sigil Crafting Pack - Robe -->
+				<item id="38038" min="1" max="1" chance="0.299999999999992" /> <!-- Seraph Shoes Crafting Pack - Robe -->
+				<item id="38037" min="1" max="1" chance="0.299999999999992" /> <!-- Seraph Gloves Crafting Pack - Robe -->
+				<item id="38034" min="1" max="1" chance="0.299999999999992" /> <!-- Seraph Circlet Crafting Pack - Robe -->
+				<item id="38033" min="1" max="1" chance="0.299999999999992" /> <!-- Seraph Leather Boots Crafting Pack - Light Armor -->
+				<item id="38032" min="1" max="1" chance="0.299999999999992" /> <!-- Seraph Leather Gloves Crafting Pack - Light Armor -->
+				<item id="38029" min="1" max="1" chance="0.299999999999992" /> <!-- Seraph Leather Helmet Crafting Pack - Light Armor -->
 				<item id="35318" min="1" max="1" chance="0.299999999999992" /> <!-- Seraph Circlet Ingredient -->
 				<item id="35313" min="1" max="1" chance="0.299999999999992" /> <!-- Seraph Leather Helmet Ingredient -->
 				<item id="35312" min="1" max="1" chance="0.299999999999992" /> <!-- Seraph Shield Ingredient -->
 				<item id="35323" min="1" max="1" chance="0.299999999999992" /> <!-- Seraph Sigil Ingredient -->
 				<item id="35307" min="1" max="1" chance="0.299999999999992" /> <!-- Seraph Helmet Ingredient -->
-				<item id="38028" min="1" max="1" chance="1.463" /> <!-- Seraph Shield Crafting Pack Heavy Armor -->
-				<item id="38026" min="1" max="1" chance="1.455" /> <!-- Seraph Gauntlets Crafting Pack Heavy Armor -->
-				<item id="38023" min="1" max="1" chance="1.426" /> <!-- Seraph Helmet Crafting Pack Heavy Armor -->
-				<item id="38037" min="1" max="1" chance="1.41400000000001" /> <!-- Seraph Gloves Crafting Pack Robe -->
-				<item id="38039" min="1" max="1" chance="1.404" /> <!-- Seraph Sigil Crafting Pack Robe -->
-				<item id="38027" min="1" max="1" chance="1.40199999999999" /> <!-- Seraph Boots Crafting Pack Heavy Armor -->
-				<item id="38034" min="1" max="1" chance="1.385" /> <!-- Seraph Circlet Crafting Pack Robe -->
-				<item id="38033" min="1" max="1" chance="1.352" /> <!-- Seraph Leather Boots Crafting Pack Light Armor -->
-				<item id="38038" min="1" max="1" chance="1.338" /> <!-- Seraph Shoes Crafting Pack Robe -->
-				<item id="38029" min="1" max="1" chance="1.18099999999999" /> <!-- Seraph Leather Helmet Crafting Pack Light Armor -->
-				<item id="38032" min="1" max="1" chance="1.164" /> <!-- Seraph Leather Gloves Crafting Pack Light Armor -->
+				<item id="38028" min="1" max="1" chance="1.463" /> <!-- Seraph Shield Crafting Pack - Heavy Armor -->
+				<item id="38026" min="1" max="1" chance="1.455" /> <!-- Seraph Gauntlets Crafting Pack - Heavy Armor -->
+				<item id="38023" min="1" max="1" chance="1.426" /> <!-- Seraph Helmet Crafting Pack - Heavy Armor -->
+				<item id="38037" min="1" max="1" chance="1.41400000000001" /> <!-- Seraph Gloves Crafting Pack - Robe -->
+				<item id="38039" min="1" max="1" chance="1.404" /> <!-- Seraph Sigil Crafting Pack - Robe -->
+				<item id="38027" min="1" max="1" chance="1.40199999999999" /> <!-- Seraph Boots Crafting Pack - Heavy Armor -->
+				<item id="38034" min="1" max="1" chance="1.385" /> <!-- Seraph Circlet Crafting Pack - Robe -->
+				<item id="38033" min="1" max="1" chance="1.352" /> <!-- Seraph Leather Boots Crafting Pack - Light Armor -->
+				<item id="38038" min="1" max="1" chance="1.338" /> <!-- Seraph Shoes Crafting Pack - Robe -->
+				<item id="38029" min="1" max="1" chance="1.18099999999999" /> <!-- Seraph Leather Helmet Crafting Pack - Light Armor -->
+				<item id="38032" min="1" max="1" chance="1.164" /> <!-- Seraph Leather Gloves Crafting Pack - Light Armor -->
 				<item id="36586" min="2" max="2" chance="16.408445967293" /> <!-- Scroll: Modify Armor (R-grade) -->
 				<item id="17527" min="1" max="1" chance="14.17037470368" /> <!-- Scroll: Enchant Armor (R-grade) -->
 				<item id="36574" min="2" max="2" chance="4.2213529935732" /> <!-- Scroll: Modify Weapon (R-grade) -->
@@ -5969,13 +6000,13 @@
 				<item id="19448" min="1" max="1" chance="1.8432494022638" /> <!-- Blessed Scroll: Enchant Armor (R-grade) -->
 				<item id="19447" min="1" max="1" chance="0.15287372019217" /> <!-- Blessed Scroll: Enchant Weapon (R-grade) -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="2" max="2" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
 				<item id="39629" min="2" max="2" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
 				<item id="39629" min="2" max="2" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
 				<item id="39629" min="2" max="2" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="15" />
 			<height normal="32" />

@@ -596,7 +596,7 @@
 		</capsuled_items>
 	</item>
 	<item id="34847" name="Pirate Elixir (2-hour)" type="EtcItem">
-		<!-- When used, you can temporarily feel the Vitality recovery herb's effect for 2 hours. No effect applies when used while the Birthday Vitality buff is in effect. Cooldown is 60 min. Vitality item with limited usage. Will not be deleted upon death. -->
+		<!-- When used, you can temporarily feel the Vitality recovery herb's effect for 2 hours. No effect applies when used while the "Birthday Vitality" buff is in effect. Cooldown is 60 min. Vitality item with limited usage. Will not be deleted upon death. -->
 		<set name="icon" val="icon.etc_hot_spring_nectar_i00" />
 		<set name="weight" val="1" />
 		<set name="is_clan_depositable" val="false" />
@@ -812,7 +812,7 @@
 		</skills>
 	</item>
 	<item id="34862" name="Lavish Decoration Paper" type="EtcItem">
-		<!-- It says You only get one lift in angma language. -->
+		<!-- It says "You only get one lift" in angma language. -->
 		<set name="icon" val="icon.etc_plan_i00" />
 		<set name="weight" val="10" />
 		<set name="is_clan_depositable" val="false" />
@@ -1227,6 +1227,7 @@
 	</item>
 	<item id="34886" name="Novella Prophecy" type="EtcItem">
 		<!-- Novella Prophecy. It contains a portion of the prophecy that was swallowed by the One Who Eats Prophecies. -->
+		<set name="icon" val="icon.etc_jewel_red_i00" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
@@ -1236,7 +1237,6 @@
 		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="immediate_effect" val="true" />
-		<set name="icon" val="icon.etc_jewel_red_i00" />
 	</item>
 	<item id="34887" name="Empty Hot Spring Water Bottle" type="EtcItem">
 		<!-- Empty bottle for holding hot spring water. Double-click on it while in the hot springs to fill it with hot spring water. -->
@@ -1259,6 +1259,7 @@
 	</item>
 	<item id="34888" name="Hot Springs Water Bottle" type="EtcItem">
 		<!-- Bottle for holding hot spring water. It contains hot spring water. -->
+		<set name="icon" val="icon.etc_fruit_juice_glass_bottle_i05" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
@@ -1268,7 +1269,6 @@
 		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="immediate_effect" val="true" />
-		<set name="icon" val="icon.etc_fruit_juice_glass_bottle_i05" />
 	</item>
 	<item id="34889" name="Durable Leather" type="EtcItem">
 		<!-- Durable Leather. Ingredient for making a weapon that purifies water. -->
@@ -1333,6 +1333,7 @@
 	</item>
 	<item id="34893" name="Seed of Helping Herb" type="EtcItem">
 		<!-- Seed of Helping Herb. Double-click on it in a siege battle area to plant a Helping Herb. -->
+		<set name="icon" val="icon.etc_coda_seed_i00" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
@@ -1343,13 +1344,13 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.etc_coda_seed_i00" />
 		<skills>
 			<skill id="9444" level="1" /> <!-- Helping Seed -->
 		</skills>
 	</item>
 	<item id="34894" name="Herb Remnants" type="EtcItem">
 		<!-- Herb Remnants. If you plant a Helping Herb in a siege battle area, you can obtain Herb Remnants. -->
+		<set name="icon" val="icon.etc_powder_orange_i00" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
@@ -1359,7 +1360,6 @@
 		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="immediate_effect" val="true" />
-		<set name="icon" val="icon.etc_powder_orange_i00" />
 	</item>
 	<item id="34895" name="Spellbook: Clan Flag" type="EtcItem">
 		<!-- Item needed to learn the Clan Flag Skill. When you use the Clan Flag Skill, 100 Clan Reputation are consumed. Can be used by Count or higher. -->
@@ -1420,7 +1420,8 @@
 		</skills>
 	</item>
 	<item id="34898" name="Proof of Survival" type="EtcItem">
-		<!-- Someone who possesses the Proof of Survival can be suddenly challenged by the rare monster Scaldisect of Hellfire. Always be prepared for the attack. -->
+		<!-- Someone who possesses the Proof of Survival can be suddenly challenged by the rare monster "Scaldisect of Hellfire." Always be prepared for the attack. -->
+		<set name="icon" val="icon.etc_fire_rune_i00" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
@@ -1430,7 +1431,6 @@
 		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="time" val="30" />
-		<set name="icon" val="icon.etc_fire_rune_i00" />
 	</item>
 	<item id="34899" name="Key of Darkness" type="EtcItem">
 		<!-- Key that activates a device that allows you to go and meet Tauti through the temple. Must be used by a group leader in order to activate the device. -->

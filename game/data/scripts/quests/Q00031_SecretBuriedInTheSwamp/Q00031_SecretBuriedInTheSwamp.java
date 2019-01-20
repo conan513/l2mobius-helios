@@ -137,7 +137,7 @@ public final class Q00031_SecretBuriedInTheSwamp extends Quest
 				{
 					case State.CREATED:
 					{
-						htmltext = "31555-03.htm";
+						htmltext = "31555-01.htm";
 						break;
 					}
 					case State.STARTED:

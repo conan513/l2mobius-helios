@@ -82,7 +82,7 @@ public final class Q10330_ToTheRuinsOfYeSagira extends Quest
 			case "32157-03.htm":
 			case "32146-02.htm":
 			case "32146-03.htm":
-			case "32169-05.htm":
+			case "32169-05.html":
 			{
 				htmltext = event;
 				break;

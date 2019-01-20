@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/npcs.xsd">
 	<npc id="19400" level="90" type="L2Monster" name="Cocoon Destroyer">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -26,7 +26,7 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
 			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="1" /> <!-- Heavy Armor Type -->
@@ -34,17 +34,17 @@
 			<skill id="4408" level="11" /> <!-- HP Increase (3x) -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14765" level="2" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="450" isAggressive="true" clanHelpRange="300">
-			<clan_list>
+			<clanList>
 				<clan>M_FAIRY</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="17375" min="1" max="1" chance="4.939" /> <!-- Kimerian's Trace -->
 			</drop>
-		</drop_lists>
+		</dropLists>
 		<collision>
 			<radius normal="15" />
 			<height normal="27" />
@@ -71,18 +71,18 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" talkable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4408" level="11" /> <!-- HP Increase (3x) -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14765" level="3" /> <!-- Blood Siphon Resistance -->
 			<skill id="4414" level="1" /> <!-- Heavy Armor Type -->
 			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="700" aggroRange="400">
-			<clan_list>
+			<clanList>
 				<clan>SF_GOOD</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="8" />
@@ -110,18 +110,18 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" talkable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4408" level="11" /> <!-- HP Increase (3x) -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14765" level="3" /> <!-- Blood Siphon Resistance -->
 			<skill id="4414" level="1" /> <!-- Heavy Armor Type -->
 			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="700" aggroRange="400">
-			<clan_list>
+			<clanList>
 				<clan>SF_GOOD</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="8" />
@@ -146,16 +146,16 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" canMove="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="2" /> <!-- Magic Creatures -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="14765" level="3" /> <!-- Blood Siphon Resistance -->
 			<skill id="4414" level="1" /> <!-- Heavy Armor Type -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>NORNIL_METUCELLAR</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="20" />
@@ -180,11 +180,11 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" targetable="false" showName="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="2" /> <!-- Magic Creatures -->
 			<skill id="4415" level="1" /> <!-- Bare Hands -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="300" aggroRange="450" />
 		<collision>
 			<radius normal="0.01" />
@@ -219,7 +219,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
 			<skill id="4410" level="7" /> <!-- Weak P. Atk. -->
 			<skill id="4411" level="7" /> <!-- Weak M. Atk. -->
@@ -232,11 +232,11 @@
 			<skill id="15455" level="1" /> <!-- Sensitive Skin -->
 			<skill id="15466" level="1" /> <!-- Triol's CON Increase -->
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="300" isAggressive="true" clanHelpRange="1000">
-			<clan_list>
+			<clanList>
 				<clan>TRIOLL</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="17" />
@@ -271,7 +271,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
 			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
 			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
@@ -285,11 +285,11 @@
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
 			<skill id="15455" level="1" /> <!-- Sensitive Skin -->
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="200" isAggressive="true" clanHelpRange="300">
-			<clan_list>
+			<clanList>
 				<clan>TRIOLL</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="40" />
@@ -321,7 +321,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
 			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
 			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
@@ -335,7 +335,7 @@
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
 			<skill id="15455" level="1" /> <!-- Sensitive Skin -->
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="200" isAggressive="true" clanHelpRange="300" />
 		<collision>
 			<radius normal="40" />
@@ -370,7 +370,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
 			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
 			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
@@ -384,11 +384,11 @@
 			<skill id="15455" level="1" /> <!-- Sensitive Skin -->
 			<skill id="15466" level="1" /> <!-- Triol's CON Increase -->
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="200" isAggressive="true" clanHelpRange="300">
-			<clan_list>
+			<clanList>
 				<clan>TRIOLL</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="40" />
@@ -417,7 +417,7 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="4408" level="18" /> <!-- HP Increase (10x) -->
@@ -425,11 +425,11 @@
 			<skill id="4415" level="1" /> <!-- Bare Hands -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
 			<skill id="15455" level="1" /> <!-- Sensitive Skin -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>TRIOLL</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="8" />
@@ -458,7 +458,7 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
 			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
 			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
@@ -469,11 +469,11 @@
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
 			<skill id="15455" level="1" /> <!-- Sensitive Skin -->
 			<skill id="15466" level="1" /> <!-- Triol's CON Increase -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>TRIOLL</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="8" />
@@ -499,10 +499,10 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="2" /> <!-- Magic Creatures -->
 			<skill id="4415" level="1" /> <!-- Bare Hands -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="35" />
 			<height normal="12" />
@@ -527,11 +527,11 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="2" /> <!-- Magic Creatures -->
 			<skill id="4415" level="1" /> <!-- Bare Hands -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="28" />
 			<height normal="40" />
@@ -556,11 +556,11 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="2" /> <!-- Magic Creatures -->
 			<skill id="4415" level="1" /> <!-- Bare Hands -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="28" />
 			<height normal="40" />
@@ -585,11 +585,11 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="2" /> <!-- Magic Creatures -->
 			<skill id="4415" level="1" /> <!-- Bare Hands -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="28" />
 			<height normal="40" />
@@ -614,10 +614,10 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="2" /> <!-- Magic Creatures -->
 			<skill id="4415" level="1" /> <!-- Bare Hands -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="8" />
 			<height normal="23.5" />
@@ -642,10 +642,10 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="2" /> <!-- Magic Creatures -->
 			<skill id="4415" level="1" /> <!-- Bare Hands -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="12" />
 			<height normal="43.5" />
@@ -670,10 +670,10 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="2" /> <!-- Magic Creatures -->
 			<skill id="4415" level="1" /> <!-- Bare Hands -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="20" />
 			<height normal="22" />
@@ -698,10 +698,10 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="2" /> <!-- Magic Creatures -->
 			<skill id="4415" level="1" /> <!-- Bare Hands -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="20" />
 			<height normal="22" />
@@ -726,11 +726,11 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="2" /> <!-- Magic Creatures -->
 			<skill id="4415" level="1" /> <!-- Bare Hands -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="18" />
 			<height normal="50" />
@@ -755,11 +755,11 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="2" /> <!-- Magic Creatures -->
 			<skill id="4415" level="1" /> <!-- Bare Hands -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="28" />
 			<height normal="40" />
@@ -784,11 +784,11 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="2" /> <!-- Magic Creatures -->
 			<skill id="4415" level="1" /> <!-- Bare Hands -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="28" />
 			<height normal="40" />
@@ -813,11 +813,11 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="2" /> <!-- Magic Creatures -->
 			<skill id="4415" level="1" /> <!-- Bare Hands -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="28" />
 			<height normal="40" />
@@ -841,18 +841,18 @@
 			</attribute>
 		</stats>
 		<status attackable="false" />
-		<skill_list>
-			<skill id="4416" level="10"/> <!-- Dragons -->			
-			<skill id="4408" level="1"/> <!-- HP 1x -->			
-			<skill id="4409" level="1"/> <!-- MP 1x -->			
-			<skill id="4410" level="11"/> <!-- P. Atk. Modifiers. -->			
-			<skill id="4411" level="11"/> <!-- M. Atk. Modifiers. -->			
-			<skill id="4412" level="11"/> <!-- P. Def. Modifiers. -->			
-			<skill id="4413" level="11"/> <!-- M. Def. Modifiers. -->			
-			<skill id="4414" level="2"/> <!-- Heavy Armor Type -->			
+		<skillList>
+			<skill id="4416" level="10"/> <!-- Dragons -->
+			<skill id="4408" level="1"/> <!-- HP 1x -->
+			<skill id="4409" level="1"/> <!-- MP 1x -->
+			<skill id="4410" level="11"/> <!-- P. Atk. Modifiers. -->
+			<skill id="4411" level="11"/> <!-- M. Atk. Modifiers. -->
+			<skill id="4412" level="11"/> <!-- P. Def. Modifiers. -->
+			<skill id="4413" level="11"/> <!-- M. Def. Modifiers. -->
+			<skill id="4414" level="2"/> <!-- Heavy Armor Type -->
 			<skill id="4415" level="1"/> <!-- Bare Hands -->
-		</skill_list>
-		<ai aggroRange="2000" isAggressive="true" />		
+		</skillList>
+		<ai aggroRange="2000" isAggressive="true" />
 		<collision>
 			<radius normal="190" />
 			<height normal="1500" />
@@ -876,22 +876,22 @@
 			</attribute>
 		</stats>
 		<status attackable="false" />
-		<skill_list>
-			<skill id="4416" level="10"/> <!-- Dragons -->				
+		<skillList>
+			<skill id="4416" level="10"/> <!-- Dragons -->
 			<skill id="5464" level="1"/> <!-- Wind Attack -->
-			<skill id="4408" level="1"/> <!-- HP 1x -->			
-			<skill id="4409" level="1"/> <!-- MP 1x -->			
-			<skill id="4410" level="11"/> <!-- P. Atk. Modifiers. -->			
-			<skill id="4411" level="11"/> <!-- M. Atk. Modifiers. -->			
+			<skill id="4408" level="1"/> <!-- HP 1x -->
+			<skill id="4409" level="1"/> <!-- MP 1x -->
+			<skill id="4410" level="11"/> <!-- P. Atk. Modifiers. -->
+			<skill id="4411" level="11"/> <!-- M. Atk. Modifiers. -->
 			<skill id="4412" level="11"/> <!-- P. Def. Modifiers. -->
-			<skill id="4413" level="11"/> <!-- M. Def. Modifiers. -->			
-			<skill id="4414" level="2"/> <!-- Heavy Armor Type -->			
-			<skill id="4415" level="1"/> <!-- Bare Hands -->	
-			<skill id="14765" level="4"/> <!-- Blood Siphon Resistance -->		
+			<skill id="4413" level="11"/> <!-- M. Def. Modifiers. -->
+			<skill id="4414" level="2"/> <!-- Heavy Armor Type -->
+			<skill id="4415" level="1"/> <!-- Bare Hands -->
+			<skill id="14765" level="4"/> <!-- Blood Siphon Resistance -->
 			<skill id="15638" level="1"/> <!-- Lindvior -->
 			<skill id="15274" level="1" /> <!-- Mighty Wind Strike -->
 			<skill id="15279" level="1" /> <!-- Soar -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="2000" isAggressive="true" />
 		<collision>
 			<radius normal="430" />
@@ -917,10 +917,10 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="10" /> <!-- Dragons -->
 			<skill id="4415" level="1" /> <!-- Bare Hands -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="190" />
 			<height normal="200" />
@@ -945,10 +945,10 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="2" /> <!-- Magic Creatures -->
 			<skill id="4415" level="1" /> <!-- Bare Hands -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="200" />
 			<height normal="160" />
@@ -973,10 +973,10 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="2" /> <!-- Magic Creatures -->
 			<skill id="4415" level="1" /> <!-- Bare Hands -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="200" />
 			<height normal="100" />
@@ -1001,10 +1001,10 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" undying="false" showName="false" targetable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="2" /> <!-- Magic Creatures -->
 			<skill id="4415" level="1" /> <!-- Bare Hands -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="10" />
 			<height normal="10" />
@@ -1029,11 +1029,11 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="2" /> <!-- Magic Creatures -->
 			<skill id="4415" level="1" /> <!-- Bare Hands -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="10" />
 			<height normal="22.5" />
@@ -1058,11 +1058,11 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="19" /> <!-- Others -->
 			<skill id="4415" level="1" /> <!-- Bare Hands -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="48" />
 			<height normal="49.5" />
@@ -1087,11 +1087,11 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="19" /> <!-- Others -->
 			<skill id="4415" level="1" /> <!-- Bare Hands -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="190" />
 			<height normal="1500" />
@@ -1116,11 +1116,11 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="19" /> <!-- Others -->
 			<skill id="4415" level="1" /> <!-- Bare Hands -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="13" />
 			<height normal="40" />
@@ -1145,11 +1145,11 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="19" /> <!-- Others -->
 			<skill id="4415" level="1" /> <!-- Bare Hands -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="13" />
 			<height normal="40" />
@@ -1174,11 +1174,11 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="19" /> <!-- Others -->
 			<skill id="4415" level="1" /> <!-- Bare Hands -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="13" />
 			<height normal="40" />
@@ -1203,11 +1203,11 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="19" /> <!-- Others -->
 			<skill id="4415" level="1" /> <!-- Bare Hands -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="13" />
 			<height normal="40" />
@@ -1232,11 +1232,11 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="19" /> <!-- Others -->
 			<skill id="4415" level="1" /> <!-- Bare Hands -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="13" />
 			<height normal="40" />
@@ -1261,11 +1261,11 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="19" /> <!-- Others -->
 			<skill id="4415" level="1" /> <!-- Bare Hands -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="13" />
 			<height normal="40" />
@@ -1290,11 +1290,11 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="19" /> <!-- Others -->
 			<skill id="4415" level="1" /> <!-- Bare Hands -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="15" />
 			<height normal="45" />
@@ -1319,11 +1319,11 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="19" /> <!-- Others -->
 			<skill id="4415" level="1" /> <!-- Bare Hands -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="15" />
 			<height normal="45" />
@@ -1348,11 +1348,11 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="19" /> <!-- Others -->
 			<skill id="4415" level="1" /> <!-- Bare Hands -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="15" />
 			<height normal="45" />
@@ -1377,11 +1377,11 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="19" /> <!-- Others -->
 			<skill id="4415" level="1" /> <!-- Bare Hands -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="13" />
 			<height normal="40" />
@@ -1406,11 +1406,11 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="19" /> <!-- Others -->
 			<skill id="4415" level="1" /> <!-- Bare Hands -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="13" />
 			<height normal="40" />
@@ -1435,11 +1435,11 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="19" /> <!-- Others -->
 			<skill id="4415" level="1" /> <!-- Bare Hands -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="13" />
 			<height normal="40" />
@@ -1464,11 +1464,11 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="19" /> <!-- Others -->
 			<skill id="4415" level="1" /> <!-- Bare Hands -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="13" />
 			<height normal="40" />
@@ -1493,11 +1493,11 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="19" /> <!-- Others -->
 			<skill id="4415" level="1" /> <!-- Bare Hands -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="13" />
 			<height normal="40" />
@@ -1522,11 +1522,11 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="19" /> <!-- Others -->
 			<skill id="4415" level="1" /> <!-- Bare Hands -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="13" />
 			<height normal="40" />
@@ -1551,11 +1551,11 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="19" /> <!-- Others -->
 			<skill id="4415" level="1" /> <!-- Bare Hands -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="13" />
 			<height normal="40" />
@@ -1580,11 +1580,11 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="19" /> <!-- Others -->
 			<skill id="4415" level="1" /> <!-- Bare Hands -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="13" />
 			<height normal="40" />
@@ -1606,11 +1606,11 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="7" /> <!-- Spirits -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="300" aggroRange="300" />
 		<collision>
 			<radius normal="8" />
@@ -1633,11 +1633,11 @@
 			<abnormalResist physical="0" magical="0" />
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="7" /> <!-- Spirits -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
-		</skill_list>
+		</skillList>
 		<ai clanHelpRange="300" aggroRange="300" />
 		<collision>
 			<radius normal="8" />
@@ -1661,9 +1661,9 @@
 			</attribute>
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="4" /> <!-- Animals -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="190" />
 			<height normal="390.6" />
@@ -1686,10 +1686,10 @@
 			</attribute>
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5464" level="1" /> <!-- Wind Attack -->
 			<skill id="4416" level="10" /> <!-- Dragons -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="23" />
 			<height normal="26" />
@@ -1712,10 +1712,10 @@
 			</attribute>
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5464" level="1" /> <!-- Wind Attack -->
 			<skill id="4416" level="10" /> <!-- Dragons -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="22" />
 			<height normal="40" />
@@ -1761,7 +1761,7 @@
 			</attribute>
 		</stats>
 		<status attackable="false" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="1262" max="2944" chance="70" /> <!-- Adena -->
 				<item id="35337" min="1" max="1" chance="0.00549999999999995" /> <!-- Amaranthine Retributer Fragment -->
@@ -1784,7 +1784,7 @@
 				<item id="36886" min="1" max="1" chance="0.003" /> <!-- Recipe: Durable Braid - Upgrade -->
 				<item id="36885" min="1" max="1" chance="0.0009" /> <!-- Recipe: Durable Braid - Downgrade -->
 			</spoil>
-		</drop_lists>
+		</dropLists>
 		<collision>
 			<radius normal="14" />
 			<height normal="34" />
@@ -1808,7 +1808,7 @@
 			</attribute>
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5466" level="1" /> <!-- Holy Attack -->
 			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
 			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
@@ -1816,8 +1816,8 @@
 			<skill id="4413" level="5" /> <!-- Very Weak M. Def. -->
 			<skill id="4414" level="1" /> <!-- Heavy Armor Type -->
 			<skill id="4416" level="8" /> <!-- Angels -->
-		</skill_list>
-		<drop_lists>
+		</skillList>
+		<dropLists>
 			<drop>
 				<item id="57" min="2737" max="6389" chance="70" /> <!-- Adena -->
 				<item id="35335" min="1" max="1" chance="0.0299999999999997" /> <!-- Amaranthine Buster Fragment -->
@@ -1836,7 +1836,7 @@
 				<item id="36885" min="1" max="1" chance="0.0009" /> <!-- Recipe: Durable Braid - Downgrade -->
 				<item id="36887" min="1" max="1" chance="0.0009" /> <!-- Recipe: Quality Braid - Upgrade -->
 			</spoil>
-		</drop_lists>
+		</dropLists>
 		<collision>
 			<radius normal="20" />
 			<height normal="50" />
@@ -1860,7 +1860,7 @@
 			</attribute>
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5466" level="1" /> <!-- Holy Attack -->
 			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
 			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
@@ -1868,8 +1868,8 @@
 			<skill id="4413" level="5" /> <!-- Very Weak M. Def. -->
 			<skill id="4414" level="1" /> <!-- Heavy Armor Type -->
 			<skill id="4416" level="8" /> <!-- Angels -->
-		</skill_list>
-		<drop_lists>
+		</skillList>
+		<dropLists>
 			<drop>
 				<item id="57" min="2737" max="6389" chance="70" /> <!-- Adena -->
 				<item id="35335" min="1" max="1" chance="0.0299999999999997" /> <!-- Amaranthine Buster Fragment -->
@@ -1888,7 +1888,7 @@
 				<item id="36885" min="1" max="1" chance="0.0009" /> <!-- Recipe: Durable Braid - Downgrade -->
 				<item id="36887" min="1" max="1" chance="0.0009" /> <!-- Recipe: Quality Braid - Upgrade -->
 			</spoil>
-		</drop_lists>
+		</dropLists>
 		<collision>
 			<radius normal="25" />
 			<height normal="40" />
@@ -1911,9 +1911,9 @@
 			</attribute>
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="14" /> <!-- Humans -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="8" />
 			<height normal="21" />
@@ -1959,9 +1959,9 @@
 			</attribute>
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="16" />
 			<height normal="27" />
@@ -1984,9 +1984,9 @@
 			</attribute>
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="16" />
 			<height normal="27" />
@@ -2009,9 +2009,9 @@
 			</attribute>
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="16" />
 			<height normal="27" />
@@ -2144,9 +2144,9 @@
 			</attribute>
 		</stats>
 		<status attackable="false" randomWalk="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="5" /> <!-- Plants -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="10" />
 			<height normal="15" />
@@ -2169,9 +2169,9 @@
 			</attribute>
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="9" /> <!-- Demons -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="24" />
 			<height normal="57" />
@@ -2194,9 +2194,9 @@
 			</attribute>
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="9" /> <!-- Demons -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="30" />
 			<height normal="43" />
@@ -2219,9 +2219,9 @@
 			</attribute>
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="9" /> <!-- Demons -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="18" />
 			<height normal="38" />
@@ -2244,9 +2244,9 @@
 			</attribute>
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="9" /> <!-- Demons -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="57" />
 			<height normal="74" />
@@ -2269,14 +2269,14 @@
 			</attribute>
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
 			<skill id="4410" level="9" /> <!-- Slightly Weak P. Atk. -->
 			<skill id="4411" level="9" /> <!-- Slightly Weak M. Atk. -->
 			<skill id="4412" level="8" /> <!-- Weak P. Def. -->
 			<skill id="4413" level="8" /> <!-- Weak M. Def. -->
 			<skill id="4416" level="1" /> <!-- Undead -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="300" isAggressive="true" />
 		<collision>
 			<radius normal="20" />
@@ -2322,9 +2322,9 @@
 			</attribute>
 		</stats>
 		<status attackable="false" showName="false" canMove="false" />
-		<skill_list>
+		<skillList>
 			<skill id="15605" level="1" /> <!-- Recharge -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="200" />
 			<height normal="160" />
@@ -2390,7 +2390,7 @@
 				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" />
 			</attribute>
 		</stats>
-		<status attackable="false" />
+		<status attackable="false" targetable="false" showName="false" canMove="false" talkable="false" />
 		<collision>
 			<radius normal="1" />
 			<height normal="1" />

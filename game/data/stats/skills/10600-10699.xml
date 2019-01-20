@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
 	<skill id="10606" toLevel="1" name="Shadow Dodge">
-		<!-- For 10 sec., has a 90% of evading melee and ranged P. Skill attacks. Requires a dagger or dual dagger. -->
+		<!-- For $s1, has a $s2 of evading melee and ranged P. Skill attacks. Requires a dagger or dual dagger. -->
+		<icon>icon.skill11862</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>10</abnormalTime>
 		<abnormalType>AVOID_UP_SPECIAL</abnormalType>
-		<icon>icon.skill11862</icon>
 		<operateType>A2</operateType>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -44,10 +44,10 @@
 	</skill>
 	<skill id="10607" toLevel="1" name="Maximum Mortality">
 		<!-- For 1 min., Vital Spot Attack Rate + 20%. Requires a dagger or dual dagger. -->
+		<icon>icon.skill10607</icon>
 		<abnormalLvl>4</abnormalLvl>
 		<abnormalTime>60</abnormalTime>
 		<abnormalType>MIGHT_MORTAL</abnormalType>
-		<icon>icon.skill10607</icon>
 		<operateType>A2</operateType>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -77,7 +77,7 @@
 		</effects>
 	</skill>
 	<skill id="10608" toLevel="4" name="Superior Haste">
-		<!-- Physical skill Cooldown - 5%. Spd. + 5. -->
+		<!-- Physical skill Cooldown - $s1. Spd. + $s2. -->
 		<icon>icon.skill10608</icon>
 		<magicLvl>
 			<value level="1">85</value>
@@ -109,11 +109,11 @@
 		</effects>
 	</skill>
 	<skill id="10609" toLevel="1" name="Critical Chances">
-		<!-- For 5 min., Critical Damage + 304 and vital spot attack success rate + 15%. Front Critical Damage - 30%, Side Critical Rate + 30% and Critical Damage + 30%. Rear Critical Rate + 50% and Critical Damage + 50%. Requires a dagger or dual dagger. -->
+		<!-- For $s1, Critical Damage + $s2 and vital spot attack success rate + $s3. Front Critical Damage - $s4, Side Critical Rate + $s5 and Critical Damage + $s6. Rear Critical Rate + $s7 and Critical Damage + $s8. Requires a dagger or dual dagger. -->
+		<icon>icon.skill10878</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>300</abnormalTime>
 		<abnormalType>FOCUS_DAGGER</abnormalType>
-		<icon>icon.skill10878</icon>
 		<operateType>A2</operateType>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -175,17 +175,16 @@
 		</effects>
 	</skill>
 	<skill id="10610" toLevel="1" name="Critical Expansions">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Max P. Critical increases. Applies when a dagger or dual dagger is equipped. -->
 		<icon>icon.skill0819</icon>
 		<operateType>P</operateType>
 	</skill>
 	<skill id="10653" toLevel="1" name="Melee Reflect">
-		<!-- For 10 sec, has a 90% chance of reflecting physical skill damage to the attacker. Requires a dagger or dual dagger. -->
+		<!-- For $s1, has a $s2 chance of reflecting physical skill damage to the attacker. Requires a dagger or dual dagger. -->
+		<icon>icon.skill11863</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>10</abnormalTime>
 		<abnormalType>COUNTER_SKILL</abnormalType>
-		<icon>icon.skill11863</icon>
 		<operateType>A2</operateType>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -223,10 +222,10 @@
 	</skill>
 	<skill id="10654" toLevel="1" name="Maximum Mortality">
 		<!-- For 1 min., Vital Spot Attack Rate + 20%. Requires a dagger or dual dagger. -->
+		<icon>icon.skill10607</icon>
 		<abnormalLvl>4</abnormalLvl>
 		<abnormalTime>60</abnormalTime>
 		<abnormalType>MIGHT_MORTAL</abnormalType>
-		<icon>icon.skill10607</icon>
 		<operateType>A2</operateType>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -256,7 +255,7 @@
 		</effects>
 	</skill>
 	<skill id="10655" toLevel="4" name="Superior Critical Damage">
-		<!-- Critical Damage + 5%, Speed + 2. -->
+		<!-- Critical Damage + $s1, Speed + $s2. -->
 		<icon>icon.skill10655</icon>
 		<magicLvl>
 			<value level="1">85</value>
@@ -287,11 +286,11 @@
 		</effects>
 	</skill>
 	<skill id="10656" toLevel="1" name="Critical Prowess">
-		<!-- For 5 min., Critical Damage + 608 and vital spot attack success rate + 5%. Front Critical Damage - 30%, Side Critical Rate + 30% and Critical Damage + 30%. Rear Critical Rate + 50% and Critical Damage + 50%. Requires a dagger or dual dagger. -->
+		<!-- For $s1, Critical Damage + $s2 and vital spot attack success rate + $s3. Front Critical Damage - $s4, Side Critical Rate + $s5 and Critical Damage + $s6. Rear Critical Rate + $s7 and Critical Damage + $s8. Requires a dagger or dual dagger. -->
+		<icon>icon.skill10656</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>300</abnormalTime>
 		<abnormalType>FOCUS_DAGGER</abnormalType>
-		<icon>icon.skill10656</icon>
 		<operateType>A2</operateType>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>

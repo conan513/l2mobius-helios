@@ -91,7 +91,7 @@
 		</stats>
 	</item>
 	<item id="28304" name="Shilen's Ring" type="Armor">
-		<!-- M. Def. + 30%, Dark Resistance + 100, SRT/INT + 5, Critical Damage + 18%. Effect does not stack with additional rings. -->
+		<!-- Ring containing Shilen's power. -->
 		<set name="icon" val="BranchIcon.Icon.ring_of_shilen_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rfinger;lfinger" />
@@ -131,7 +131,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="28308" name="Shilen's Necklace - Not Used" type="Armor">
-		<!-- M. Def. + 60%, Dark Resistance + 120, SRT/INT + 7, Physical/Mind attack success rate + 25. Effect does not stack with additional rings. -->
+		<!-- Necklace containing Shilen's power. -->
 		<set name="icon" val="BranchIcon.Icon.necklace_of_shilen_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="neck" />
@@ -171,7 +171,7 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="28312" name="Shilen's Earring" type="Armor">
-		<!-- M. Def. + 50%, Dark Resistance + 110, SRT/INT + 6, Physical/Mind Resistance + 30, Speed + 10. Effect does not stack with additional rings. -->
+		<!-- Earrings containing Shilen's power. -->
 		<set name="icon" val="BranchIcon.Icon.earring_of_shilen_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rear;lear" />
@@ -571,7 +571,7 @@
 		</stats>
 	</item>
 	<item id="28359" name="La Vie En Rose's Gemstone Powder" type="EtcItem">
-		<!-- La Vie En Rose's refined gemstone powder. Go find Shadai to use it when exchanging for gemstones. -->
+		<!-- La Vie En Rose's refined jewel powder. Go find Shadai to use it when exchanging for jewels. -->
 		<set name="icon" val="BranchIcon.icon.etc_g_bm_powder_jewel" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
@@ -609,7 +609,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="28364" name="Jewel Grinder" type="EtcItem">
-		<!-- A grinder used for refining La Vie En Rose's jewels. Ask Shadai to grind gemstones. -->
+		<!-- A grinder used for refining La Vie En Rose's jewels. Ask Shadai to grind jewels. -->
 		<set name="icon" val="BranchIcon.icon.etc_g_bm_jewel_grinder" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
@@ -703,7 +703,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="28376" name="Greater Cat's Eye" type="Armor">
-		<!-- Decreases damage received from Reflect Damage by 50 and there's a chance of reflecting debuffs to the enemy. Can use the invincibility skill. Effect does not stack with additional jewels of the same type. Equipping various Greater Jewels will grant additional effects. -->
+		<!-- Decreases damage received from Reflect Damage by 50% and there's a chance of reflecting debuffs to the enemy. Adds 10 second invincibility skill. 30 minute cool down. Effect does not stack with additional jewels of the same type. Equipping various Greater Jewels will grant additional effects. -->
 		<set name="icon" val="BranchIcon.Icon.etc_bm_jewel_catseye_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="brooch_jewel" />
@@ -772,7 +772,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="28382" name="Ultimate Jewelry Box" type="EtcItem">
-		<!-- Double-click to obtain a La Vie En Rose's Jewelry Box. -->
+		<!-- Double-click to obtain (1) of the following items:. Radiant Gemstone Fragment. Radiant Brooch Chest. Lv. 1 Vital Stone Chest. Lv. 1 Garnet Chest. Lv. 1 Tanzanite Chest. Lv. 1 Cat's Eye Chest. Lv. 1 Amethyst Chest. Lv. 1 Ruby Chest. Lv. 1 Sapphire Chest. Lv. 1 Topaz Chest. Lv. 1 Opal Chest. Lv. 1 Obsidian Chest. Lv. 1 Diamond Chest. Lv. 1 Emerald Chest. Lv. 1 Aquamarine Chest. Lv. 1 Pearl Chest. Lv. 1 Red Cat's Eye Chest. Lv. 1 Blue Cat's Eye Chest. Each time you open a box, you get a Jewel Grinder 100% of the time. -->
 		<set name="icon" val="icon.bm_sayha_blessed_box" />
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
@@ -780,7 +780,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="28383" name="Greater Garnet" type="Armor">
-		<!-- Increases Resistance to all Debuffs by 30%, and when receiving damage to a PC, Stun/Silence are canceled. When used, all debuffs are canceled and you become immune to debuffs for 7 seconds. Effect does not stack with additional jewels of the same type. Equipping various Greater Jewels will grant additional effects. -->
+		<!-- Resistance to Debuffs + 30%, and when receiving damage from a PC, Stun/Silence effects are canceled. Adds the Purge skill to remove debuffs and protect you from receiving debuffs for 7 seconds. Effect does not stack with additional jewels of the same type. Equipping various Greater Jewels will grant additional effects. -->
 		<set name="icon" val="icon.bm_jewel_garnet_high_lv1_lavianrose" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="brooch_jewel" />
@@ -822,7 +822,7 @@
 		<set name="is_freightable" val="true" />
 	</item>
 	<item id="28386" name="Race Change Ticket" type="EtcItem">
-		<!-- After purchasing a Race Change ticket, you can contact support at, support.lineage2.com, with the subject title of Character Race Change. \\Only characters that have reached at least level 85 and who have completed the 4th Class transfer can request a race change.  Note that the following race and class restrictions apply to the race change service. 1.) Ertheia and Kamael classes cannot change to a different race. 2.) Human/Elf/Dark Elf/Orc/Dwarf races cannot change to the Ertheia or Kamael race. 3.) Orc Overlord/Dominator/Iss Dominator as a Mainclass/Dualclass/Sublcass cannot change to a different race. 4.) Dwarven Warsmith/Maestro/Tyrr Maestro as a Mainclass/Dualclass/Sublcass cannot change to a different race. 5.) If switching from a Dwarven race to Human/Elf/Dark Elf/Orc, the character will lose the Dwarven inventory/warehouse/private shop bonus slots. -->
+		<!-- After purchasing a Race Change ticket, you can contact support at, support.lineage2.com, with the subject title of "Character Race Change". \Only characters that have reached at least level 85 and who have completed the 4th Class transfer can request a race change. Note that the following race and class restrictions apply to the race change service. 1.) Ertheia and Kamael classes cannot change to a different race. 2.) Human/Elf/Dark Elf/Orc/Dwarf races cannot change to the Ertheia or Kamael race. 3.) Orc Overlord/Dominator/Iss Dominator as a Mainclass/Dualclass/Sublcass cannot change to a different race. 4.) Dwarven Warsmith/Maestro/Tyrr Maestro as a Mainclass/Dualclass/Sublcass cannot change to a different race. 5.) If switching from a Dwarven race to Human/Elf/Dark Elf/Orc, the character will lose the Dwarven inventory/warehouse/private shop bonus slots. -->
 		<set name="icon" val="icon.etc_exchange_ticket_i00" />
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
@@ -963,11 +963,11 @@
 		<set name="is_sellable" val="false" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
-			<item id="33776" min="10000" max="10000" chance="100" /> <!-- Soulshot (C-grade) -->
-			<item id="33777" min="10000" max="10000" chance="100" /> <!-- Soulshot (B-grade) -->
-			<item id="33778" min="10000" max="10000" chance="100" /> <!-- Soulshot (A-grade) -->
-			<item id="33779" min="10000" max="10000" chance="100" /> <!-- Soulshot (S-grade) -->
-			<item id="33780" min="10000" max="10000" chance="100" /> <!-- Soulshot (R-grade) -->
+			<item id="33776" min="10000" max="10000" chance="100" /> <!-- Soulshot (C-grade) - Event -->
+			<item id="33777" min="10000" max="10000" chance="100" /> <!-- Soulshot (B-grade) - Event -->
+			<item id="33778" min="10000" max="10000" chance="100" /> <!-- Soulshot (A-grade) - Event -->
+			<item id="33779" min="10000" max="10000" chance="100" /> <!-- Soulshot (S-grade) - Event -->
+			<item id="33780" min="10000" max="10000" chance="100" /> <!-- Soulshot (R-grade) - Event -->
 		</capsuled_items>
 	</item>
 	<item id="28399" name="Today's To-do Blessed Spiritshot Box" type="EtcItem">
@@ -981,11 +981,11 @@
 		<set name="is_sellable" val="false" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
-			<item id="33790" min="10000" max="10000" chance="100" /> <!-- Blessed Spiritshot (C-grade) -->
-			<item id="33791" min="10000" max="10000" chance="100" /> <!-- Blessed Spiritshot (B-grade) -->
-			<item id="33792" min="10000" max="10000" chance="100" /> <!-- Blessed Spiritshot (A-grade) -->
-			<item id="33793" min="10000" max="10000" chance="100" /> <!-- Blessed Spiritshot (S-grade) -->
-			<item id="33794" min="10000" max="10000" chance="100" /> <!-- Blessed Spiritshot (R-grade) -->
+			<item id="33790" min="10000" max="10000" chance="100" /> <!-- Blessed Spiritshot (C-grade) - Event -->
+			<item id="33791" min="10000" max="10000" chance="100" /> <!-- Blessed Spiritshot (B-grade) - Event -->
+			<item id="33792" min="10000" max="10000" chance="100" /> <!-- Blessed Spiritshot (A-grade) - Event -->
+			<item id="33793" min="10000" max="10000" chance="100" /> <!-- Blessed Spiritshot (S-grade) - Event -->
+			<item id="33794" min="10000" max="10000" chance="100" /> <!-- Blessed Spiritshot (R-grade) - Event -->
 		</capsuled_items>
 	</item>
 </list>

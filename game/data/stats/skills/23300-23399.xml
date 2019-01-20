@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
 	<skill id="23300" toLevel="1" name="Ghost Piercing">
+		<!-- Envelops with a specter to inflict 300 dark damage every second for 10 seconds. -->
+		<icon>icon.skill0773</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>10</abnormalTime>
 		<abnormalType>DOT_ATTR</abnormalType>
@@ -10,13 +12,11 @@
 		<isTriggeredSkill>true</isTriggeredSkill>
 		<magicLvl>83</magicLvl>
 		<operateType>A2</operateType>
-		<rideState>NONE</rideState>
 		<effectPoint>-1000</effectPoint>
 		<basicProperty>MAGIC</basicProperty>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<lvlBonusRate>1</lvlBonusRate>
-		<icon>icon.skill0773</icon>
 		<isDebuff>true</isDebuff>
 		<targetType>ENEMY</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -29,11 +29,10 @@
 	</skill>
 	<skill id="23301" toLevel="1" name="Dimensional Door A">
 		<!-- Summons a dimensional door that moves the PC to the Dimensional Door B. -->
+		<icon>Icon.skill1050</icon>
 		<operateType>A1</operateType>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<magicLvl>85</magicLvl>
-		<icon>Icon.skill1050</icon>
 		<hitTime>4000</hitTime>
 		<reuseDelay>1000</reuseDelay>
 		<targetType>SELF</targetType>
@@ -41,21 +40,18 @@
 	</skill>
 	<skill id="23302" toLevel="1" name="Dimensional Door B">
 		<!-- Summons a dimensional door that moves the PC to the Dimensional Door A. -->
+		<icon>Icon.skill1050</icon>
 		<operateType>A1</operateType>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<magicLvl>85</magicLvl>
-		<icon>Icon.skill1050</icon>
 		<hitTime>4000</hitTime>
 		<reuseDelay>1000</reuseDelay>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="23303" toLevel="1" name="Teleport">
-		<!-- none -->
 		<operateType>A1</operateType>
 		<effectPoint>1</effectPoint>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<effectRange>2000</effectRange>
 		<magicLvl>85</magicLvl>
@@ -67,10 +63,8 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="23304" toLevel="1" name="Teleport">
-		<!-- none -->
 		<operateType>A1</operateType>
 		<effectPoint>1</effectPoint>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<effectRange>2000</effectRange>
 		<magicLvl>85</magicLvl>
@@ -83,10 +77,10 @@
 	</skill>
 	<skill id="23305" toLevel="1" name="Zinyanzi Agathion - Yunbokhwan">
 		<!-- Restores all HP/MP/CP and becomes invincible for 5 seconds. But can only be used when HP is below 30%. -->
+		<icon>icon.skill_agathion_special</icon>
 		<operateType>A2</operateType>
 		<abnormalType>INVINCIBILITY</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
 		<hitCancelTime>0</hitCancelTime>
@@ -94,7 +88,6 @@
 		<abnormalLvl>82</abnormalLvl>
 		<abnormalTime>5</abnormalTime>
 		<irreplacableBuff>true</irreplacableBuff>
-		<icon>icon.skill_agathion_special</icon>
 		<hitTime>200</hitTime>
 		<reuseDelay>43200000</reuseDelay>
 		<isMagic>2</isMagic>
@@ -110,13 +103,12 @@
 		</conditions>
 	</skill>
 	<skill id="23306" toLevel="1" name="Zinyanzi Agathion Cute Trick">
-		<!-- Able to see the summoned Zinenze perform cute tricks. -->
+		<!-- Able to see the summoned Zinyanzi perform cute tricks. -->
+		<icon>icon.skill_agathion_cute</icon>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<magicLvl>85</magicLvl>
-		<icon>icon.skill_agathion_cute</icon>
 		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic>
 		<targetType>SELF</targetType>
@@ -126,13 +118,12 @@
 		</conditions>
 	</skill>
 	<skill id="23307" toLevel="1" name="Yanzi Agathion Cute Trick">
-		<!-- Able to see the summoned Enze perform cute tricks. -->
+		<!-- Able to see the summoned Yanzi perform cute tricks. -->
+		<icon>icon.skill_agathion_cute</icon>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<magicLvl>85</magicLvl>
-		<icon>icon.skill_agathion_cute</icon>
 		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic>
 		<targetType>SELF</targetType>
@@ -143,12 +134,11 @@
 	</skill>
 	<skill id="23308" toLevel="1" name="Totem's Energy - Body">
 		<!-- Increases HP Recovery Bonus by 30% and decreases damage from the topography by 80% through the mysterious totem's energy. The energy disappears when the totem becomes out of range. -->
+		<icon>BranchSys2.icon.totem_of_body</icon>
 		<abnormalTime>300</abnormalTime>
 		<affectRange>400</affectRange>
 		<blockedInOlympiad>false</blockedInOlympiad>
-		<icon>BranchSys2.icon.totem_of_body</icon>
 		<operateType>A2</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<abnormalType>ENERGY_OF_TOTEM_1</abnormalType>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -172,12 +162,11 @@
 	</skill>
 	<skill id="23309" toLevel="1" name="Totem's Energy - Spirit">
 		<!-- Increases MP Recovery Bonus by 30% through the mysterious totem's energy. The energy disappears when the totem becomes out of range. -->
+		<icon>BranchSys2.icon.totem_of_mind</icon>
 		<abnormalTime>300</abnormalTime>
 		<affectRange>400</affectRange>
 		<blockedInOlympiad>false</blockedInOlympiad>
-		<icon>BranchSys2.icon.totem_of_mind</icon>
 		<operateType>A2</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<abnormalType>ENERGY_OF_TOTEM_2</abnormalType>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -197,12 +186,11 @@
 	</skill>
 	<skill id="23310" toLevel="1" name="Totem's Energy - Courage">
 		<!-- Increases P. Def. by 15% through the mysterious totem's energy. The energy disappears when the totem becomes out of range. -->
+		<icon>BranchSys2.icon.totem_of_bravery</icon>
 		<abnormalTime>300</abnormalTime>
 		<affectRange>400</affectRange>
 		<blockedInOlympiad>false</blockedInOlympiad>
-		<icon>BranchSys2.icon.totem_of_bravery</icon>
 		<operateType>A2</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<abnormalType>ENERGY_OF_TOTEM_3</abnormalType>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -222,12 +210,11 @@
 	</skill>
 	<skill id="23311" toLevel="1" name="Totem's Energy - Fortitude">
 		<!-- Increases M. Def. by 25% through the mysterious totem's energy. The energy disappears when the totem becomes out of range. -->
+		<icon>BranchSys2.icon.totem_of_fortitude</icon>
 		<abnormalTime>300</abnormalTime>
 		<affectRange>400</affectRange>
 		<blockedInOlympiad>false</blockedInOlympiad>
-		<icon>BranchSys2.icon.totem_of_fortitude</icon>
 		<operateType>A2</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<abnormalType>ENERGY_OF_TOTEM_4</abnormalType>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -253,7 +240,6 @@
 		<isMagic>4</isMagic>
 		<abnormalType>VOTE</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<specialLevel>-2</specialLevel>
 		<effectRange>1500</effectRange>
@@ -277,11 +263,11 @@
 		</effects>
 	</skill>
 	<skill id="23313" toLevel="5" name="Action Prohibit Immunity">
-		<!-- Increases resistance to action-inhibiting attacks by 100%. -->
+		<!-- Increases Resistance to action-inhibiting attacks by $s1. -->
+		<icon>icon.skill0386</icon>
 		<operateType>A4</operateType>
 		<abnormalType>RESIST_SHOCK</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<specialLevel>-3</specialLevel>
 		<hitCancelTime>0</hitCancelTime>
@@ -300,17 +286,16 @@
 			<value level="4">4</value>
 			<value level="5">4</value>
 		</abnormalTime>
-		<icon>icon.skill0386</icon>
 		<isMagic>1</isMagic>
 		<targetType>TARGET</targetType>
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="23314" toLevel="5" name="Control Prohibit Immunity">
-		<!-- Increases resistance to control-inhibiting attacks by 100%. -->
+		<!-- Increases Resistance to control-inhibiting attacks by $s1. -->
+		<icon>icon.skill0388</icon>
 		<operateType>A4</operateType>
 		<abnormalType>RESIST_SHOCK</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<specialLevel>-3</specialLevel>
 		<hitCancelTime>0</hitCancelTime>
@@ -323,17 +308,15 @@
 			<value level="4">4</value>
 			<value level="5">4</value>
 		</abnormalTime>
-		<icon>icon.skill0388</icon>
 		<isMagic>1</isMagic>
 		<targetType>TARGET</targetType>
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="23315" toLevel="5" name="Paralysis Immunity Enhance">
-		<!-- Increases resistance to paralysis attacks by 100%. -->
+		<!-- Increases Paralysis Resistance by $s1. -->
 		<operateType>A2</operateType>
 		<abnormalType>RESIST_SHOCK</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<specialLevel>-3</specialLevel>
 		<hitCancelTime>0</hitCancelTime>
@@ -345,11 +328,10 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="23316" toLevel="5" name="Enhance Petrification Immunity">
-		<!-- Increases resistance to petrification attacks by 100%. -->
+		<!-- Increases Petrification Resistance by $s1. -->
 		<operateType>A2</operateType>
 		<abnormalType>RESIST_SHOCK</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<specialLevel>-3</specialLevel>
 		<hitCancelTime>0</hitCancelTime>
@@ -361,11 +343,10 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="23317" toLevel="5" name="Fear Immunity Enhance">
-		<!-- Increases resistance to fear attacks by 100%. -->
+		<!-- Increases Fear Resistance by $s1. -->
 		<operateType>A2</operateType>
 		<abnormalType>RESIST_SHOCK</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<specialLevel>-3</specialLevel>
 		<hitCancelTime>0</hitCancelTime>
@@ -377,12 +358,12 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="23318" toLevel="1" name="Cat the Ranger Boost">
-		<!-- "Recovers the master's HP by 10%. For 1 minute(s), receives power from Cat the Ranger to increase the master's resistance to debuff attacks by 80%, resistance to buff canceling attacks by 40%, Speed by 10%, P. Def. by 20%, and M. Def. by 20%. Does not receive preemptive attacks from monsters. Reuse delay 10 minutes." -->
+		<!-- Recovers the master's HP by 10%. For 1 minute(s), receives power from Cat the Ranger to increase the master's Debuff Resistance by 80%, Buff-canceling Attack Resistance by 40%, Speed by 10%, P. Def. by 20%, and M. Def. by 20%. Does not receive preemptive attacks from monsters. Cooldown 10 minutes. -->
+		<icon>BranchSys2.icon.action5016</icon>
 		<operateType>A2</operateType>
 		<effectPoint>1</effectPoint>
 		<abnormalType>MULTI_BUFF</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
 		<hitCancelTime>0</hitCancelTime>
@@ -390,7 +371,6 @@
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>60</abnormalTime>
 		<irreplacableBuff>true</irreplacableBuff>
-		<icon>BranchSys2.icon.action5016</icon>
 		<reuseDelay>600000</reuseDelay>
 		<isMagic>1</isMagic>
 		<castRange>900</castRange>
@@ -398,7 +378,8 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="23319" toLevel="1" name="Blood Seeker">
-		<!-- High Five Skill -->
+		<!-- HP decreases from bleeding momentarily. -->
+		<icon>BranchSys2.icon.br_wp_Caladbulg_i00</icon>
 		<abnormalLvl>10</abnormalLvl>
 		<abnormalTime>20</abnormalTime>
 		<subordinationAbnormalType>BLEEDING</subordinationAbnormalType>
@@ -408,7 +389,6 @@
 		<blockedInOlympiad>false</blockedInOlympiad>
 		<castRange>80</castRange>
 		<effectRange>200</effectRange>
-		<icon>BranchSys2.icon.br_wp_Caladbulg_i00</icon>
 		<isDebuff>true</isDebuff>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<isTriggeredSkill>true</isTriggeredSkill>
@@ -416,7 +396,6 @@
 		<magicLvl>84</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>10000</reuseDelay>
-		<rideState>NONE</rideState>
 		<effectPoint>-100</effectPoint>
 		<basicProperty>PHYSICAL</basicProperty>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -438,7 +417,8 @@
 		</effects>
 	</skill>
 	<skill id="23320" toLevel="1" name="Greedy Throat">
-		<!-- High Five Skill -->
+		<!-- HP decreases from bleeding momentarily. -->
+		<icon>BranchSys2.icon.br_wp_habus_knife_i00</icon>
 		<abnormalLvl>10</abnormalLvl>
 		<abnormalTime>20</abnormalTime>
 		<subordinationAbnormalType>BLEEDING</subordinationAbnormalType>
@@ -448,7 +428,6 @@
 		<blockedInOlympiad>false</blockedInOlympiad>
 		<castRange>80</castRange>
 		<effectRange>200</effectRange>
-		<icon>BranchSys2.icon.br_wp_habus_knife_i00</icon>
 		<isDebuff>true</isDebuff>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<isTriggeredSkill>true</isTriggeredSkill>
@@ -456,7 +435,6 @@
 		<magicLvl>83</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>10000</reuseDelay>
-		<rideState>NONE</rideState>
 		<effectPoint>-100</effectPoint>
 		<basicProperty>PHYSICAL</basicProperty>
 		<magicCriticalRate>-5</magicCriticalRate>
@@ -475,7 +453,8 @@
 		</effects>
 	</skill>
 	<skill id="23321" toLevel="1" name="Draconic Evolver">
-		<!-- High Five Skill -->
+		<!-- Afflicted with Fear and moving against own will. -->
+		<icon>BranchSys2.icon.br_wp_tiatenon_i00</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>10</abnormalTime>
 		<abnormalType>TURN_FLEE</abnormalType>
@@ -486,7 +465,6 @@
 		<castRange>80</castRange>
 		<effectPoint>-100</effectPoint>
 		<effectRange>200</effectRange>
-		<icon>BranchSys2.icon.br_wp_tiatenon_i00</icon>
 		<isDebuff>true</isDebuff>
 		<isMagic>1</isMagic>
 		<isTriggeredSkill>true</isTriggeredSkill>
@@ -494,7 +472,6 @@
 		<magicLvl>82</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>10000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<trait>DERANGEMENT</trait>
@@ -507,8 +484,8 @@
 		</effects>
 	</skill>
 	<skill id="23322" toLevel="10" name="Demonic Desire">
-		<!-- High Five Skill -->
-		<!-- This skill only has one level, 10. -->
+		<!-- P. Def. decreases momentarily. -->
+		<icon>BranchSys2.icon.br_wp_astarot_i00</icon>
 		<abnormalLvl>13</abnormalLvl>
 		<abnormalTime>9</abnormalTime>
 		<abnormalType>PD_DOWN</abnormalType>
@@ -525,10 +502,8 @@
 		<magicLvl>82</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>10000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<trait>SHOCK</trait>
-		<icon>BranchSys2.icon.br_wp_astarot_i00</icon>
 		<targetType>ENEMY</targetType>
 		<affectScope>SINGLE</affectScope>
 		<affectObject>NOT_FRIEND</affectObject>
@@ -540,8 +515,8 @@
 		</effects>
 	</skill>
 	<skill id="23323" toLevel="10" name="Fury of Darkness">
-		<!-- High Five Skill -->
-		<!-- This skill only has one level, 10. -->
+		<!-- Momentarily P. Def. decreases. Stunned and unable to move. -->
+		<icon>BranchSys2.icon.br_wp_tirbing_i00</icon>
 		<abnormalLvl>13</abnormalLvl>
 		<abnormalTime>9</abnormalTime>
 		<abnormalType>STUN</abnormalType>
@@ -558,17 +533,14 @@
 		<magicLvl>82</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>10000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
-		<icon>BranchSys2.icon.br_wp_tirbing_i00</icon>
 		<abnormalVisualEffect>STUN</abnormalVisualEffect>
 		<trait>SHOCK</trait>
 		<targetType>ENEMY</targetType>
 		<affectScope>SINGLE</affectScope>
 		<affectObject>NOT_FRIEND</affectObject>
 		<effects>
-			<effect name="BlockActions">
-			</effect>
+			<effect name="BlockActions" />
 			<effect name="PhysicalDefence">
 				<amount>-23</amount>
 				<mode>PER</mode>
@@ -576,13 +548,12 @@
 		</effects>
 	</skill>
 	<skill id="23324" toLevel="1" name="Jet Black Typhoon">
-		<!-- High Five Skill -->
+		<!-- Casting Spd. and Wind P. Atk. increases momentarily. -->
+		<icon>BranchSys2.icon.br_wp_wind_of_mardil_i00</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>15</abnormalTime>
 		<blockedInOlympiad>false</blockedInOlympiad>
 		<effectPoint>800</effectPoint>
-		<icon>BranchSys2.icon.br_wp_wind_of_mardil_i00</icon>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<isMagic>1</isMagic>
 		<isTriggeredSkill>true</isTriggeredSkill>
 		<magicLvl>71</magicLvl>
@@ -607,7 +578,6 @@
 	</skill>
 	<skill id="23325" toLevel="1" name="Enlarge - Luckpy">
 		<operateType>A1</operateType>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<magicLvl>85</magicLvl>
@@ -617,7 +587,6 @@
 	</skill>
 	<skill id="23326" toLevel="1" name="Reduce - Luckpy">
 		<operateType>A1</operateType>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<magicLvl>85</magicLvl>
@@ -630,7 +599,6 @@
 		<operateType>A2</operateType>
 		<abnormalType>PUBLIC_SLOT</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
 		<hitCancelTime>0</hitCancelTime>
@@ -654,7 +622,6 @@
 		<operateType>A2</operateType>
 		<abnormalType>PUBLIC_SLOT</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
 		<hitCancelTime>0</hitCancelTime>
@@ -675,7 +642,6 @@
 	</skill>
 	<skill id="23329" toLevel="1" name="Lantern Agathion's Gift1">
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<magicLvl>55</magicLvl>
@@ -697,7 +663,6 @@
 	</skill>
 	<skill id="23330" toLevel="1" name="Lantern Agathion's Gift2">
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<magicLvl>55</magicLvl>
@@ -719,7 +684,6 @@
 	</skill>
 	<skill id="23331" toLevel="1" name="Lantern Agathion's Gift3">
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<magicLvl>55</magicLvl>
@@ -741,7 +705,6 @@
 	</skill>
 	<skill id="23332" toLevel="1" name="Lantern Agathion's Gift4">
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<magicLvl>55</magicLvl>
@@ -762,11 +725,11 @@
 		</effects>
 	</skill>
 	<skill id="23333" toLevel="1" name="Agathion's New Year's Wish">
-		<!-- Description: Through the power of the Lantern Agathion, Vitality is maintained and not consumed. -->
+		<!-- Through the power of the Lantern Agathion, Vitality is maintained and not consumed. -->
+		<icon>icon.etc_pi_gift_box_i03</icon>
 		<operateType>A2</operateType>
 		<abnormalType>VP_KEEP</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<specialLevel>-2</specialLevel>
 		<hitCancelTime>0</hitCancelTime>
@@ -774,7 +737,6 @@
 		<abnormalLvl>2</abnormalLvl>
 		<abnormalTime>3600</abnormalTime>
 		<irreplacableBuff>true</irreplacableBuff>
-		<icon>icon.etc_pi_gift_box_i03</icon>
 		<hitTime>2000</hitTime>
 		<coolTime>1000</coolTime>
 		<isMagic>4</isMagic>
@@ -788,13 +750,12 @@
 		</conditions>
 	</skill>
 	<skill id="23334" toLevel="1" name="Lantern Agathion Cute Trick">
-		<!-- Description: Able to see the summoned Lantern's perform cute tricks. -->
+		<!-- Able to see the summoned Lantern's perform cute tricks. -->
+		<icon>icon.skill_agathion_cute</icon>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<magicLvl>85</magicLvl>
-		<icon>icon.skill_agathion_cute</icon>
 		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic>
 		<targetType>SELF</targetType>
@@ -804,11 +765,11 @@
 		</conditions>
 	</skill>
 	<skill id="23335" toLevel="1" name="Agathion's New Year's Wish">
-		<!-- Description: Vitality is maintained with the power of Juju Agathion. -->
+		<!-- Energy is maintained and not consumed through the Juju Agathion's strength. -->
+		<icon>icon.etc_pi_gift_box_i03</icon>
 		<operateType>A2</operateType>
 		<abnormalType>VP_KEEP</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<specialLevel>-2</specialLevel>
 		<hitCancelTime>0</hitCancelTime>
@@ -816,7 +777,6 @@
 		<abnormalLvl>2</abnormalLvl>
 		<abnormalTime>3600</abnormalTime>
 		<irreplacableBuff>true</irreplacableBuff>
-		<icon>icon.etc_pi_gift_box_i03</icon>
 		<hitTime>2000</hitTime>
 		<coolTime>1000</coolTime>
 		<isMagic>4</isMagic>
@@ -830,13 +790,12 @@
 		</conditions>
 	</skill>
 	<skill id="23336" toLevel="1" name="Juju Agathion Cute Trick">
-		<!-- Description: Summoned Juju performs cute tricks. -->
+		<!-- You can see the summoned Juju's cute tricks. -->
+		<icon>icon.skill_agathion_cute</icon>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<magicLvl>85</magicLvl>
-		<icon>icon.skill_agathion_cute</icon>
 		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic>
 		<targetType>SELF</targetType>
@@ -847,7 +806,6 @@
 	</skill>
 	<skill id="23337" toLevel="1" name="Juju Agathion's Gift 1">
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<magicLvl>55</magicLvl>
@@ -869,7 +827,6 @@
 	</skill>
 	<skill id="23338" toLevel="1" name="Juju Agathion's Gift 2">
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<magicLvl>55</magicLvl>
@@ -891,7 +848,6 @@
 	</skill>
 	<skill id="23339" toLevel="1" name="Juju Agathion's Gift 3">
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<magicLvl>55</magicLvl>
@@ -913,7 +869,6 @@
 	</skill>
 	<skill id="23340" toLevel="1" name="Juju Agathion's Gift 4">
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<magicLvl>55</magicLvl>
@@ -934,7 +889,6 @@
 		</effects>
 	</skill>
 	<skill id="23341" toLevel="1" name="Norhand's Flint">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Temporarily petrified by Norhand's powerful cry. -->
 		<icon>icon.skill4111</icon>
 		<operateType>A2</operateType>
@@ -945,7 +899,6 @@
 		<abnormalType>TURN_STONE</abnormalType>
 		<abnormalResists>TURN_FLEE;KNOCKDOWN;DEPORT;SILENCE;PARALYZE;ABSORB;DISARM;SILENCE_PHYSICAL;SILENCE_ALL;CHANGEBODY;TURN_STONE;DERANGEMENT;AIRBIND;SLEEP;OBLIVION;MIRAGE;MIRAGE_TRAP;ROOT_MAGICALLY;ROOT_PHYSICALLY;STUN;PUBLIC_SLOT</abnormalResists>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>300</effectRange>
@@ -962,7 +915,6 @@
 		<affectObject>NOT_FRIEND</affectObject>
 	</skill>
 	<skill id="23342" toLevel="2" name="Norhand's High Trace">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Norhand is searching for Skooldie. A trace of its voice remains. -->
 		<icon>BranchSys.icon.br_rotten_jack_ghost_i00</icon>
 		<operateType>A2</operateType>
@@ -971,7 +923,6 @@
 		<coolTime>2000</coolTime>
 		<abnormalType>BR_EVENT_BUF7</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<specialLevel>-2</specialLevel>
 		<hitCancelTime>0</hitCancelTime>
@@ -991,15 +942,13 @@
 		<affectObject>NOT_FRIEND</affectObject>
 	</skill>
 	<skill id="23344" toLevel="5" name="Weakened Shilen's Breath">
-		<!-- AUTO GENERATED SKILL -->
-		<!-- Is killed and poisoned by Shilen's Breath. Increases Dark Attack Resistance by 5 and HP recovery by 5%. Poison stage increases when killed while poisoned. -->
+		<!-- Is killed and poisoned by Shilen's Breath. Increases Dark Attack Resistance by $s1 and HP recovery by $s2. Poison stage increases when killed while poisoned. -->
 		<icon>icon.skill5076_c</icon>
 		<operateType>A2</operateType>
 		<isMagic>1</isMagic>
 		<effectPoint>1</effectPoint>
 		<abnormalType>DEATH_PENALTY_GD</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<specialLevel>-2</specialLevel>
 		<hitCancelTime>0</hitCancelTime>
@@ -1018,10 +967,7 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="23345" toLevel="1" name="Region Banishment">
-		<!-- AUTO GENERATED SKILL -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<magicLvl>1</magicLvl>
@@ -1034,11 +980,9 @@
 		</conditions>
 	</skill>
 	<skill id="23346" toLevel="7" name="Valakas Agathion Cute Trick">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- You can see the summoned Valakas' cute tricks. -->
 		<icon>icon.skill_agathion_cute</icon>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<magicLvl>85</magicLvl>
@@ -1051,10 +995,8 @@
 		</conditions>
 	</skill>
 	<skill id="23347" toLevel="7" name="Valakas Agathion Special Skill: Valakas' Blessing">
-		<!-- AUTO GENERATED SKILL -->
 		<icon>icon.skill_agathion_special</icon>
 		<operateType>T</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
 		<abnormalVisualEffect>BR_SOUL_AVATAR</abnormalVisualEffect>
@@ -1065,7 +1007,6 @@
 		</conditions>
 	</skill>
 	<skill id="23348" toLevel="1" name="Transform Elpy">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Transforms into a game Master. -->
 		<icon>icon.skilltransform1</icon>
 		<operateType>A2</operateType>
@@ -1073,7 +1014,6 @@
 		<effectPoint>1</effectPoint>
 		<abnormalType>TRANSFORM</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<specialLevel>-2</specialLevel>
 		<hitCancelTime>0</hitCancelTime>
@@ -1092,14 +1032,12 @@
 		</conditions>
 	</skill>
 	<skill id="23349" toLevel="1" name="Tree's Blessing - Stage 1">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- For 10 minutes, increases P. Atk. by 1% and M. Atk. by 2% with the tree's blessing. -->
 		<icon>icon.etc_x_mas_tree_i00</icon>
 		<operateType>A2</operateType>
 		<effectPoint>1</effectPoint>
 		<abnormalType>BR_EVENT_BUF1</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<specialLevel>-2</specialLevel>
 		<magicLvl>-2</magicLvl>
@@ -1111,14 +1049,12 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="23350" toLevel="1" name="Tree's Blessing - Stage 2">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- For 15 minutes, increases P. Atk. by 2% and M. Atk. by 4% with the tree's blessing. -->
 		<icon>icon.etc_x_mas_tree_i00</icon>
 		<operateType>A2</operateType>
 		<effectPoint>1</effectPoint>
 		<abnormalType>BR_EVENT_BUF1</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<specialLevel>-2</specialLevel>
 		<magicLvl>-2</magicLvl>
@@ -1130,14 +1066,12 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="23351" toLevel="1" name="Tree's Blessing - Stage 3">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- For 20 minutes, increases P. Atk. by 3% and M. Atk. by 6% with the tree's blessing. -->
 		<icon>icon.etc_x_mas_tree_i00</icon>
 		<operateType>A2</operateType>
 		<effectPoint>1</effectPoint>
 		<abnormalType>BR_EVENT_BUF1</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<specialLevel>-2</specialLevel>
 		<magicLvl>-2</magicLvl>
@@ -1149,14 +1083,12 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="23352" toLevel="1" name="Tree's Blessing - Stage 4">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- For 25 minutes, increases P. Atk. by 4% and M. Atk. by 8% with the tree's blessing. -->
 		<icon>icon.etc_x_mas_tree_i00</icon>
 		<operateType>A2</operateType>
 		<effectPoint>1</effectPoint>
 		<abnormalType>BR_EVENT_BUF1</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<specialLevel>-2</specialLevel>
 		<magicLvl>-2</magicLvl>
@@ -1168,14 +1100,12 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="23353" toLevel="1" name="Tree's Blessing - Stage 5">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- For 60 minutes, increases P. Atk. by 6% and M. Atk. by 12% with the tree's blessing. -->
 		<icon>icon.etc_x_mas_tree_i00</icon>
 		<operateType>A2</operateType>
 		<effectPoint>1</effectPoint>
 		<abnormalType>BR_EVENT_BUF1</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<specialLevel>-2</specialLevel>
 		<magicLvl>-2</magicLvl>
@@ -1187,14 +1117,12 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="23354" toLevel="1" name="Lingering Tree's Blessing - Stage 1">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Enjoying Lingering Tree's Blessing. Need to wait for 2 hours to receive Tree's Blessing - Stage 1. -->
 		<icon>BranchSys.icon.br_xmas_reward_buff_i00</icon>
 		<operateType>A2</operateType>
 		<effectPoint>1</effectPoint>
 		<abnormalType>BR_EVENT_BUF1</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<specialLevel>-2</specialLevel>
 		<hitCancelTime>0</hitCancelTime>
@@ -1208,14 +1136,12 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="23355" toLevel="1" name="Lingering Tree's Blessing - Stage 2">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Enjoying Lingering Tree's Blessing. Need to wait for 2 hours to receive Tree's Blessing - Stage 2. -->
 		<icon>BranchSys.icon.br_xmas_reward_buff_i00</icon>
 		<operateType>A2</operateType>
 		<effectPoint>1</effectPoint>
 		<abnormalType>BR_EVENT_BUF1</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<specialLevel>-2</specialLevel>
 		<hitCancelTime>0</hitCancelTime>
@@ -1229,14 +1155,12 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="23356" toLevel="1" name="Lingering Tree's Blessing - Stage 3">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Enjoying Lingering Tree's Blessing. Need to wait for 2 hours to receive Tree's Blessing - Stage 3. -->
 		<icon>BranchSys.icon.br_xmas_reward_buff_i00</icon>
 		<operateType>A2</operateType>
 		<effectPoint>1</effectPoint>
 		<abnormalType>BR_EVENT_BUF1</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<specialLevel>-2</specialLevel>
 		<hitCancelTime>0</hitCancelTime>
@@ -1250,14 +1174,12 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="23357" toLevel="1" name="Lingering Tree's Blessing - Stage 4">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Enjoying Lingering Tree's Blessing. Need to wait for 2 hours to receive Tree's Blessing - Stage 4. -->
 		<icon>BranchSys.icon.br_xmas_reward_buff_i00</icon>
 		<operateType>A2</operateType>
 		<effectPoint>1</effectPoint>
 		<abnormalType>BR_EVENT_BUF1</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<specialLevel>-2</specialLevel>
 		<hitCancelTime>0</hitCancelTime>
@@ -1271,14 +1193,12 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="23358" toLevel="1" name="Lingering Tree's Blessing - Stage 5">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Enjoying Lingering Tree's Blessing. Need to wait for 2 hours to receive Tree's Blessing - Stage 5. -->
 		<icon>BranchSys.icon.br_xmas_reward_buff_i00</icon>
 		<operateType>A2</operateType>
 		<effectPoint>1</effectPoint>
 		<abnormalType>BR_EVENT_BUF1</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<specialLevel>-2</specialLevel>
 		<hitCancelTime>0</hitCancelTime>
@@ -1292,14 +1212,12 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="23359" toLevel="1" name="Tree's Blessing - Lute Melody">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- For 10 minutes, increases Atk. Spd. by 34% and Casting Spd. by 31%. Chance of applying Vampiric Rage effect by 9%. -->
 		<icon>icon.skill11518</icon>
 		<operateType>A2</operateType>
 		<effectPoint>1</effectPoint>
 		<abnormalType>BUFF_SPECIAL_MOVE</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<magicLvl>80</magicLvl>
 		<abnormalLvl>1</abnormalLvl>
@@ -1309,14 +1227,12 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="23360" toLevel="1" name="Tree's Blessing - Lute Melody">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- For 15 minutes, increases Atk. Spd. by 34% and Casting Spd. by 31%. Chance of applying Vampiric Rage effect by 9%. -->
 		<icon>icon.skill11518</icon>
 		<operateType>A2</operateType>
 		<effectPoint>1</effectPoint>
 		<abnormalType>BUFF_SPECIAL_MOVE</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<magicLvl>81</magicLvl>
 		<abnormalLvl>1</abnormalLvl>
@@ -1326,14 +1242,12 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="23361" toLevel="1" name="Tree's Blessing - Lute Melody">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- For 20 minutes, increases Atk. Spd. by 34% and Casting Spd. by 31%. Chance of applying Vampiric Rage effect by 9%. -->
 		<icon>icon.skill11518</icon>
 		<operateType>A2</operateType>
 		<effectPoint>1</effectPoint>
 		<abnormalType>BUFF_SPECIAL_MOVE</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<magicLvl>82</magicLvl>
 		<abnormalLvl>1</abnormalLvl>
@@ -1343,14 +1257,12 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="23362" toLevel="1" name="Tree's Blessing - Lute Melody">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- For 25 minutes, increases Atk. Spd. by 34% and Casting Spd. by 31%. Chance of applying Vampiric Rage effect by 9%. -->
 		<icon>icon.skill11518</icon>
 		<operateType>A2</operateType>
 		<effectPoint>1</effectPoint>
 		<abnormalType>BUFF_SPECIAL_MOVE</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<magicLvl>83</magicLvl>
 		<abnormalLvl>1</abnormalLvl>
@@ -1360,14 +1272,12 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="23363" toLevel="1" name="Tree's Blessing - Lute Melody">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- For 60 minutes, increases Atk. Spd. by 34% and Casting Spd. by 31%. Chance of applying Vampiric Rage effect by 9%. -->
 		<icon>icon.skill11518</icon>
 		<operateType>A2</operateType>
 		<effectPoint>1</effectPoint>
 		<abnormalType>BUFF_SPECIAL_MOVE</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<magicLvl>84</magicLvl>
 		<abnormalLvl>1</abnormalLvl>
@@ -1377,14 +1287,12 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="23364" toLevel="1" name="Tree's Blessing - Pipe Organ Melody">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- For 10 minutes, increases Max HP by 37%, Max MP by 37%, Max CP by 37%, and HP recovery bonus by 20%. -->
 		<icon>icon.skill11519</icon>
 		<operateType>A2</operateType>
 		<effectPoint>1</effectPoint>
 		<abnormalType>BUFF_SPECIAL_CONDITION</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<magicLvl>80</magicLvl>
 		<abnormalLvl>1</abnormalLvl>
@@ -1394,14 +1302,12 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="23365" toLevel="1" name="Tree's Blessing - Pipe Organ Melody">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- For 15 minutes, increases Max HP by 37%, Max MP by 37%, Max CP by 37%, and HP recovery bonus by 20%. -->
 		<icon>icon.skill11519</icon>
 		<operateType>A2</operateType>
 		<effectPoint>1</effectPoint>
 		<abnormalType>BUFF_SPECIAL_CONDITION</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<magicLvl>81</magicLvl>
 		<abnormalLvl>1</abnormalLvl>
@@ -1411,14 +1317,12 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="23366" toLevel="1" name="Tree's Blessing - Pipe Organ Melody">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- For 20 minutes, increases Max HP by 37%, Max MP by 37%, Max CP by 37%, and HP recovery bonus by 20%. -->
 		<icon>icon.skill11519</icon>
 		<operateType>A2</operateType>
 		<effectPoint>1</effectPoint>
 		<abnormalType>BUFF_SPECIAL_CONDITION</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<magicLvl>82</magicLvl>
 		<abnormalLvl>1</abnormalLvl>
@@ -1428,14 +1332,12 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="23367" toLevel="1" name="Tree's Blessing - Pipe Organ Melody">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- For 25 minutes, increases Max HP by 37%, Max MP by 37%, Max CP by 37%, and HP recovery bonus by 20%. -->
 		<icon>icon.skill11519</icon>
 		<operateType>A2</operateType>
 		<effectPoint>1</effectPoint>
 		<abnormalType>BUFF_SPECIAL_CONDITION</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<magicLvl>83</magicLvl>
 		<abnormalLvl>1</abnormalLvl>
@@ -1445,14 +1347,12 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="23368" toLevel="1" name="Tree's Blessing - Pipe Organ Melody">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- For 60 minutes, increases Max HP by 37%, Max MP by 37%, Max CP by 37%, and HP recovery bonus by 20%. -->
 		<icon>icon.skill11519</icon>
 		<operateType>A2</operateType>
 		<effectPoint>1</effectPoint>
 		<abnormalType>BUFF_SPECIAL_CONDITION</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<magicLvl>84</magicLvl>
 		<abnormalLvl>1</abnormalLvl>
@@ -1462,14 +1362,12 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="23369" toLevel="1" name="Tree's Blessing - Guitar Melody">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- For 10 minutes, increases P. Critical Rate by 32%, P. Critical Power by 35%, and M. Critical Rate by 20. Decreases P. Skill MP consumption by 20%, M. Skill MP consumption by 10%, and enchant skill MP consumption for Iss Enchanters by 20%. -->
 		<icon>icon.skill11520</icon>
 		<operateType>A2</operateType>
 		<effectPoint>1</effectPoint>
 		<abnormalType>BUFF_SPECIAL_CRITICAL</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<magicLvl>80</magicLvl>
 		<abnormalLvl>1</abnormalLvl>
@@ -1479,14 +1377,12 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="23370" toLevel="1" name="Tree's Blessing - Guitar Melody">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- For 15 minutes, increases P. Critical Rate by 32%, P. Critical Power by 35%, and M. Critical Rate by 20. Decreases P. Skill MP consumption by 20%, M. Skill MP consumption by 10%, and enchant skill MP consumption for Iss Enchanters by 20%. -->
 		<icon>icon.skill11520</icon>
 		<operateType>A2</operateType>
 		<effectPoint>1</effectPoint>
 		<abnormalType>BUFF_SPECIAL_CRITICAL</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<magicLvl>81</magicLvl>
 		<abnormalLvl>1</abnormalLvl>
@@ -1496,14 +1392,12 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="23371" toLevel="1" name="Tree's Blessing - Guitar Melody">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- For 20 minutes, increases P. Critical Rate by 32%, P. Critical Power by 35%, and M. Critical Rate by 20. Decreases P. Skill MP consumption by 20%, M. Skill MP consumption by 10%, and enchant skill MP consumption for Iss Enchanters by 20%. -->
 		<icon>icon.skill11520</icon>
 		<operateType>A2</operateType>
 		<effectPoint>1</effectPoint>
 		<abnormalType>BUFF_SPECIAL_CRITICAL</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<magicLvl>82</magicLvl>
 		<abnormalLvl>1</abnormalLvl>
@@ -1513,14 +1407,12 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="23372" toLevel="1" name="Tree's Blessing - Guitar Melody">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- For 25 minutes, increases P. Critical Rate by 32%, P. Critical Power by 35%, and M. Critical Rate by 20. Decreases P. Skill MP consumption by 20%, M. Skill MP consumption by 10%, and enchant skill MP consumption for Iss Enchanters by 20%. -->
 		<icon>icon.skill11520</icon>
 		<operateType>A2</operateType>
 		<effectPoint>1</effectPoint>
 		<abnormalType>BUFF_SPECIAL_CRITICAL</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<magicLvl>83</magicLvl>
 		<abnormalLvl>1</abnormalLvl>
@@ -1530,14 +1422,12 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="23373" toLevel="1" name="Tree's Blessing - Guitar Melody">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- For 60 minutes, increases P. Critical Rate by 32%, P. Critical Power by 35%, and M. Critical Rate by 20. Decreases P. Skill MP consumption by 20%, M. Skill MP consumption by 10%, and enchant skill MP consumption for Iss Enchanters by 20%. -->
 		<icon>icon.skill11520</icon>
 		<operateType>A2</operateType>
 		<effectPoint>1</effectPoint>
 		<abnormalType>BUFF_SPECIAL_CRITICAL</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<magicLvl>84</magicLvl>
 		<abnormalLvl>1</abnormalLvl>
@@ -1547,14 +1437,12 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="23374" toLevel="1" name="Tree's Blessing - Harp Melody">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- For 10 minutes, increases physical Accuracy by 5, physical and magic evasion by 5, and speed by 34. Decreases received critical damage by 30%. -->
 		<icon>icon.skill11521</icon>
 		<operateType>A2</operateType>
 		<effectPoint>1</effectPoint>
 		<abnormalType>BUFF_SPECIAL_HITAVOID</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<magicLvl>80</magicLvl>
 		<abnormalLvl>1</abnormalLvl>
@@ -1564,14 +1452,12 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="23375" toLevel="1" name="Tree's Blessing - Harp Melody">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- For 15 minutes, increases physical Accuracy by 5, physical and magic evasion by 5, and speed by 34. Decreases received critical damage by 30%. -->
 		<icon>icon.skill11521</icon>
 		<operateType>A2</operateType>
 		<effectPoint>1</effectPoint>
 		<abnormalType>BUFF_SPECIAL_HITAVOID</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<magicLvl>81</magicLvl>
 		<abnormalLvl>1</abnormalLvl>
@@ -1581,14 +1467,12 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="23376" toLevel="1" name="Tree's Blessing - Harp Melody">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- For 20 minutes, increases physical Accuracy by 5, physical and magic evasion by 5, and speed by 34. Decreases received critical damage by 30%. -->
 		<icon>icon.skill11521</icon>
 		<operateType>A2</operateType>
 		<effectPoint>1</effectPoint>
 		<abnormalType>BUFF_SPECIAL_HITAVOID</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<magicLvl>82</magicLvl>
 		<abnormalLvl>1</abnormalLvl>
@@ -1598,14 +1482,12 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="23377" toLevel="1" name="Tree's Blessing - Harp Melody">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- For 25 minutes, increases physical Accuracy by 5, physical and magic evasion by 5, and speed by 34. Decreases received critical damage by 30%. -->
 		<icon>icon.skill11521</icon>
 		<operateType>A2</operateType>
 		<effectPoint>1</effectPoint>
 		<abnormalType>BUFF_SPECIAL_HITAVOID</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<magicLvl>83</magicLvl>
 		<abnormalLvl>1</abnormalLvl>
@@ -1615,14 +1497,12 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="23378" toLevel="1" name="Tree's Blessing - Harp Melody">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- For 60 minutes, increases physical Accuracy by 5, physical and magic evasion by 5, and speed by 34. Decreases received critical damage by 30%. -->
 		<icon>icon.skill11521</icon>
 		<operateType>A2</operateType>
 		<effectPoint>1</effectPoint>
 		<abnormalType>BUFF_SPECIAL_HITAVOID</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<magicLvl>84</magicLvl>
 		<abnormalLvl>1</abnormalLvl>
@@ -1632,7 +1512,6 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="23379" toLevel="1" name="Elpy Master">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Transforms into a game Master. -->
 		<icon>icon.skilltransform1</icon>
 		<operateType>A2</operateType>
@@ -1640,7 +1519,6 @@
 		<effectPoint>1</effectPoint>
 		<abnormalType>TRANSFORM</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<specialLevel>-2</specialLevel>
 		<hitCancelTime>0</hitCancelTime>
@@ -1659,12 +1537,10 @@
 		</conditions>
 	</skill>
 	<skill id="23380" toLevel="1" name="Jermann - Soul Blackmail">
-		<!-- AUTO GENERATED SKILL -->
 		<icon>BranchSys3.Icon.g_skill23380</icon>
 		<operateType>A1</operateType>
 		<castRange>1000</castRange>
 		<effectPoint>1</effectPoint>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>1500</effectRange>
@@ -1676,7 +1552,6 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="23381" toLevel="3" name="Jermann - Flow of Destruction">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Magical damage on the enemy. -->
 		<icon>BranchSys3.Icon.g_skill23381</icon>
 		<operateType>A1</operateType>
@@ -1686,7 +1561,6 @@
 		<reuseDelay>5000</reuseDelay>
 		<isMagic>1</isMagic>
 		<effectPoint>-1000</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>1100</effectRange>
@@ -1702,7 +1576,6 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="23382" toLevel="1" name="Jermann - Swiftness">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Teleport 300 grids forward. -->
 		<icon>BranchSys3.Icon.g_skill23382</icon>
 		<operateType>DA1</operateType>
@@ -1711,7 +1584,6 @@
 		<hitTime>500</hitTime>
 		<reuseDelay>20000</reuseDelay>
 		<effectPoint>-1000</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>1200</effectRange>
@@ -1728,14 +1600,12 @@
 		</conditions>
 	</skill>
 	<skill id="23383" toLevel="1" name="Jermann - Shadow of Darkness">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Summon your mirror image and Hide. -->
 		<icon>BranchSys3.Icon.g_skill23383</icon>
 		<operateType>A1</operateType>
 		<mpConsume>500</mpConsume>
 		<hitTime>500</hitTime>
 		<effectPoint>-800</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>90</magicLvl>
 		<staticReuse>true</staticReuse>
@@ -1744,8 +1614,7 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="23384" toLevel="3" name="Jermann - Burning Darkness">
-		<!-- AUTO GENERATED SKILL -->
-		<!-- Quickly Recover 45000 HP. -->
+		<!-- Quickly Recover $s1 HP. -->
 		<icon>BranchSys3.Icon.g_skill23384</icon>
 		<operateType>A1</operateType>
 		<mpConsume>500</mpConsume>
@@ -1753,7 +1622,6 @@
 		<hitTime>1500</hitTime>
 		<reuseDelay>50000</reuseDelay>
 		<effectPoint>200</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>1100</effectRange>
 		<magicLvl>
@@ -1767,7 +1635,6 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="23385" toLevel="3" name="Jermann - Devourer of Nature">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Increases HP Recovery Bonus. -->
 		<icon>BranchSys3.Icon.g_skill23385</icon>
 		<operateType>A2</operateType>
@@ -1777,7 +1644,6 @@
 		<effectPoint>100</effectPoint>
 		<abnormalType>HP_REGEN_UP</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-2</specialLevel>
 		<hitCancelTime>0</hitCancelTime>
@@ -1795,14 +1661,12 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="23386" toLevel="3" name="Jermann - Destruction Instinct">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Powerful strike on nearby enemies. -->
 		<icon>BranchSys3.Icon.g_skill23386</icon>
 		<operateType>A1</operateType>
 		<mpConsume>500</mpConsume>
 		<hitTime>500</hitTime>
 		<effectPoint>-800</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>
 			<value level="1">88</value>
@@ -1818,14 +1682,12 @@
 		<affectObject>NOT_FRIEND</affectObject>
 	</skill>
 	<skill id="23387" toLevel="1" name="Jermann">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Transform into Jermann. -->
 		<icon>icon.skilltransform1</icon>
 		<operateType>A2</operateType>
 		<effectPoint>1</effectPoint>
 		<abnormalType>TRANSFORM</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-3</specialLevel>
 		<hitCancelTime>0</hitCancelTime>
@@ -1845,14 +1707,12 @@
 		</conditions>
 	</skill>
 	<skill id="23388" toLevel="1" name="Jermann">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Transform into Jermann. -->
 		<icon>icon.skilltransform1</icon>
 		<operateType>A2</operateType>
 		<effectPoint>1</effectPoint>
 		<abnormalType>TRANSFORM</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-3</specialLevel>
 		<hitCancelTime>0</hitCancelTime>
@@ -1872,14 +1732,12 @@
 		</conditions>
 	</skill>
 	<skill id="23389" toLevel="1" name="Jermann">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Transform into Jermann. -->
 		<icon>icon.skilltransform1</icon>
 		<operateType>A2</operateType>
 		<effectPoint>1</effectPoint>
 		<abnormalType>TRANSFORM</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-3</specialLevel>
 		<hitCancelTime>0</hitCancelTime>
@@ -1899,14 +1757,12 @@
 		</conditions>
 	</skill>
 	<skill id="23390" toLevel="1" name="Mysterious Power of Ancient Kartia's Labyrinth">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Accept this mysterious power to make it yours. Refuse, and you will suffer the consequences. -->
 		<icon>BranchSys3.Icon.g_skill23380</icon>
 		<operateType>A2</operateType>
 		<effectPoint>1</effectPoint>
 		<abnormalType>POISON</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-2</specialLevel>
 		<hitCancelTime>0</hitCancelTime>
@@ -1920,14 +1776,12 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="23391" toLevel="1" name="Great Mysterious Power of Ancient Kartia's Labyrinth">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Accept this great power to make it yours. Refuse, and you will suffer grave consequences. -->
 		<icon>BranchSys3.Icon.g_skill23380</icon>
 		<operateType>A2</operateType>
 		<effectPoint>1</effectPoint>
 		<abnormalType>POISON</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-2</specialLevel>
 		<hitCancelTime>0</hitCancelTime>
@@ -1941,14 +1795,12 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="23392" toLevel="1" name="Stabilized Power of Ancient Kartia's Labyrinth">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Stabilize the Ancient Kartia's Labyrinth to consistently increase your HP. -->
 		<icon>BranchSys3.Icon.g_skill23380</icon>
 		<operateType>A2</operateType>
 		<effectPoint>1</effectPoint>
 		<abnormalType>POISON</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-2</specialLevel>
 		<hitCancelTime>0</hitCancelTime>
@@ -1961,13 +1813,11 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="23393" toLevel="1" name="Self-destruction">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- DD + DOT -->
 		<icon>icon.skill23393</icon>
 		<operateType>A1</operateType>
 		<reuseDelay>2000</reuseDelay>
 		<effectPoint>-100</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<magicLvl>97</magicLvl>
 		<attributeType>DARK</attributeType>
@@ -1980,14 +1830,12 @@
 		<affectObject>NOT_FRIEND</affectObject>
 	</skill>
 	<skill id="23394" toLevel="1" name="Jermann - Grave of the Sword">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Summon the Grave of the Sword to the designated area. -->
 		<icon>BranchSys3.Icon.g_skill23387</icon>
 		<operateType>A1</operateType>
 		<mpConsume>2000</mpConsume>
 		<reuseDelay>30000</reuseDelay>
 		<effectPoint>-500</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<magicLvl>91</magicLvl>
@@ -1999,7 +1847,6 @@
 		<affectObject>NOT_FRIEND</affectObject>
 	</skill>
 	<skill id="23395" toLevel="1" name="Jermann - Death' Calling">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Can summon the Warriors of Death if the Grave of the Sword is nearby. -->
 		<icon>BranchSys3.Icon.g_skill23388</icon>
 		<operateType>A2</operateType>
@@ -2011,7 +1858,6 @@
 		<effectPoint>-800</effectPoint>
 		<abnormalType>DEATH_CLACK</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
 		<hitCancelTime>0</hitCancelTime>
@@ -2032,7 +1878,6 @@
 		</targetConditions>
 	</skill>
 	<skill id="23396" toLevel="1" name="Jermann - Freezing Cold">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Freeze the ground at the designated area. Enemies on the ice will have momentarily decreased Speed and consistently decreasing HP. -->
 		<icon>BranchSys3.Icon.g_skill23389</icon>
 		<operateType>A1</operateType>
@@ -2041,7 +1886,6 @@
 		<hitTime>500</hitTime>
 		<reuseDelay>25000</reuseDelay>
 		<effectPoint>-500</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>1100</effectRange>
@@ -2052,7 +1896,6 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="23397" toLevel="1" name="Jermann - Shard of Ice">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Drop an ice shard at the designated area. Additional damage if the enemy is inflicted with Freezing Cold. -->
 		<icon>BranchSys3.Icon.g_skill23390</icon>
 		<operateType>A1</operateType>
@@ -2061,7 +1904,6 @@
 		<hitTime>500</hitTime>
 		<reuseDelay>15000</reuseDelay>
 		<effectPoint>-800</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>1100</effectRange>
@@ -2072,13 +1914,11 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="23398" toLevel="3" name="Grave of the Sword">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Consistently decreases HP. -->
 		<icon>BranchSys3.Icon.g_skill23387</icon>
 		<operateType>A2</operateType>
 		<abnormalType>DOT_ATTR</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<magicLvl>
@@ -2099,13 +1939,11 @@
 		<affectObject>NOT_FRIEND</affectObject>
 	</skill>
 	<skill id="23399" toLevel="3" name="Freezing Cold">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Momentarily decreases Speed and consistently decreases HP. -->
 		<icon>BranchSys3.Icon.g_skill23389</icon>
 		<operateType>A2</operateType>
 		<abnormalType>ARMOR_WATER</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>-5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<magicLvl>

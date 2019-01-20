@@ -1,13 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
 	<skill id="27700" toLevel="6" name="Inherent Abilities - Gloves Attack">
-		<!-- Updated to GRAND CRUSADE -->
-		<!-- Level: 1 P. Atk. + 1%, M. Atk. + 2%. -->
-		<!-- Level: 2 P. Atk. + 1.1%, M. Atk. + 2.2%. -->
-		<!-- Level: 3 P. Atk. + 1.2%, M. Atk. + 2.4%. -->
-		<!-- Level: 4 P. Atk. + 1.3%, M. Atk. + 2.6%. -->
-		<!-- Level: 5 P. Atk. + 1.4%, M. Atk. + 2.8%. -->
-		<!-- Level: 6 P. Atk. + 1.5%, M. Atk. + 3%. -->
+		<!-- P. Atk. + 1%, M. Atk. + 2%. -->
 		<icon>icon.pk</icon>
 		<operateType>P</operateType>
 		<targetType>SELF</targetType>
@@ -37,13 +31,7 @@
 		</effects>
 	</skill>
 	<skill id="27701" toLevel="6" name="Inherent Abilities - Shoes Attack">
-		<!-- Updated to GRAND CRUSADE -->
-		<!-- Level: 1 P. Atk. + 1%, M. Atk. + 2%. -->
-		<!-- Level: 2 P. Atk. + 1.1%, M. Atk. + 2.2%. -->
-		<!-- Level: 3 P. Atk. + 1.2%, M. Atk. + 2.4%. -->
-		<!-- Level: 4 P. Atk. + 1.3%, M. Atk. + 2.6%. -->
-		<!-- Level: 5 P. Atk. + 1.4%, M. Atk. + 2.8%. -->
-		<!-- Level: 6 P. Atk. + 1.5%, M. Atk. + 3%. -->
+		<!-- P. Atk. + 1%, M. Atk. + 2%. -->
 		<icon>icon.pk</icon>
 		<operateType>P</operateType>
 		<targetType>SELF</targetType>
@@ -73,9 +61,8 @@
 		</effects>
 	</skill>
 	<skill id="27702" toLevel="6" name="Shilen's Ring">
-		<!-- Updated to GRAND CRUSADE -->
-		<!-- M. Def. + 50%, Dark Resistance + 130, STR/INT + 8, Skill Critical Damage + 30%, Atk. Spd./Casting Spd. + 20%. Effect does not stack with additional rings. -->
-		<icon>icon.ring_earthworm_heart</icon>
+		<!-- M. Def. + $s1, Dark Resistance + $s2, SRT/INT + $s3, Critical Damage + $s4. Effect does not stack with additional rings. -->
+		<icon>BranchIcon.Icon.ring_of_shilen_i00</icon>
 		<operateType>P</operateType>
 		<targetType>SELF</targetType>
 		<effects>
@@ -157,25 +144,22 @@
 		</effects>
 	</skill>
 	<skill id="27703" toLevel="1" name="Shilen's Harshness">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- When killing another character, there's a 70% chance that the PK count will not increase. -->
-		<icon>icon.ring_earthworm_heart</icon>
+		<icon>BranchIcon.Icon.ring_of_shilen_i00</icon>
 		<operateType>P</operateType>
 		<targetType>SELF</targetType>
 	</skill>
 	<skill id="27704" toLevel="1" name="Shilen's Will">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Increases P./M. Atk. by 100% for 60 seconds. -->
-		<icon>icon.ring_earthworm_heart</icon>
+		<icon>BranchIcon.Icon.ring_of_shilen_i00</icon>
 		<operateType>A2</operateType>
 		<targetType>SELF</targetType>
 		<hitTime>200</hitTime>
 		<reuseDelay>7200000</reuseDelay>
 	</skill>
 	<skill id="27705" toLevel="6" name="Shilen's Necklace">
-		<!-- Updated to GRAND CRUSADE -->
-		<!-- M. Def. + 60%, Dark Resistance + 120, STR/INT + 7, Physical/Mind attack success rate + 25. Effect does not stack with additional rings. -->
-		<icon>icon.accessory_necklace_of_valakas_i00</icon>
+		<!-- M. Def. + $s1, Dark Resistance + $s2, STR/INT + $s3, Physical/Mind attack success rate + $s4. Effect does not stack with additional rings. -->
+		<icon>BranchIcon.Icon.necklace_of_shilen_i00</icon>
 		<operateType>P</operateType>
 		<targetType>SELF</targetType>
 		<effects>
@@ -246,19 +230,18 @@
 		</effects>
 	</skill>
 	<skill id="27706" toLevel="1" name="Shilen's Strength">
-		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
-		<icon>icon.skill0000</icon>
+		<!-- When being attacked, there's a chance that the amount of PvP damage received will be reduced. -->
+		<icon>BranchIcon.Icon.necklace_of_shilen_i00</icon>
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="27707" toLevel="1" name="Shilen's Dignity">
-		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
-		<icon>icon.skill0000</icon>
+		<!-- Stuns target for 60 seconds. -->
+		<icon>BranchIcon.Icon.necklace_of_shilen_i00</icon>
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="27708" toLevel="6" name="Shilen's Earring">
-		<!-- AUTO GENERATED SKILL -->
-		<!-- M. Def. + 60%, Dark Resistance + 130, STR/INT + 8, Physical/Mind Resistance + 35, Speed 20, Max CP + 68%. Effect does not stack with additional rings. -->
-		<icon>icon.accessory_earring_of_lind_i00</icon>
+		<!-- M. Def. + $s1, Dark Resistance + $s2, STR/INT + $s3, Physical/Mind Resistance + $s4, Speed $s5. Effect does not stack with additional rings. -->
+		<icon>BranchIcon.Icon.earring_of_shilen_i00</icon>
 		<operateType>P</operateType>
 		<targetType>SELF</targetType>
 		<reuseDelay>
@@ -348,9 +331,8 @@
 		</effects>
 	</skill>
 	<skill id="27709" toLevel="1" name="Shilen's Energy">
-		<!-- Updated to GRAND CRUSADE -->
 		<!-- CHA + 10. -->
-		<icon>icon.accessory_earring_of_lind_i00</icon>
+		<icon>BranchIcon.Icon.earring_of_shilen_i00</icon>
 		<operateType>P</operateType>
 		<targetType>SELF</targetType>
 		<effects>
@@ -361,47 +343,39 @@
 		</effects>
 	</skill>
 	<skill id="27710" toLevel="1" name="Shilen's Protection">
-		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
-		<icon>icon.skill0000</icon>
+		<!-- Creates a space that cancels all ranged attacks and debuffs for 60 seconds. -->
+		<icon>BranchIcon.Icon.earring_of_shilen_i00</icon>
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="27711" toLevel="1" name="Scroll: Shilen's Ring">
-		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="27712" toLevel="1" name="Scroll: Shilen's Necklace">
-		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="27713" toLevel="1" name="Scroll: Shilen's Earring">
-		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="27714" toLevel="1" name="Shilen's Strength">
-		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
-		<icon>icon.skill0000</icon>
+		<!-- When being attacked, there's a chance that the amount of PvP damage received will be reduced. -->
+		<icon>icon.skill3080</icon>
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="27715" toLevel="1" name="Prestige Cube">
-		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="27716" toLevel="1" name="Zodiac Agathion Pack">
-		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
-		<icon>icon.skill0000</icon>
+		<icon>icon.etc_treasure_box_i02</icon>
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="27717" toLevel="6" name="Greater Gemstone's Blessing">
-		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
-		<icon>icon.skill0000</icon>
+		<!-- You can feel a new energy thanks to your possession of a Greater Jewel. Max CP + 5%. -->
+		<icon>icon.etc_bm_brooch_lavianrose_piece</icon>
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="27718" toLevel="1" name="La Vie En Rose's Elegant Brooch">
-		<icon>icon.skill0000</icon>
+		<!-- 6 Jewels can be equipped. -->
+		<icon>BranchIcon.icon.etc_g_bm_brooch_lavianrose</icon>
 		<operateType>P</operateType>
 		<effects>
 			<effect name="JewelSlot">
@@ -410,7 +384,8 @@
 		</effects>
 	</skill>
 	<skill id="27719" toLevel="1" name="La Vie En Rose's Elegant Brooch">
-		<icon>icon.skill0000</icon>
+		<!-- Increases the inventory's size. -->
+		<icon>BranchIcon.icon.etc_g_bm_brooch_lavianrose</icon>
 		<operateType>P</operateType>
 		<effects>
 			<effect name="EnlargeSlot">
@@ -420,8 +395,6 @@
 		</effects>
 	</skill>
 	<skill id="27720" toLevel="1" name="Ultimate Jewelry Box">
-		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="27721" toLevel="1" name="Lv.1 La Vie En Rose's Energy">
@@ -529,17 +502,12 @@
 		</effects>
 	</skill>
 	<skill id="27725" toLevel="1" name="Ultimate Jewelry Box">
-		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="27726" toLevel="1" name="Abundance Box - Infinite">
-		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="27745" toLevel="1" name="Chef Monkey's Belt">
-		<!-- Updated to GRAND CRUSADE -->
 		<!-- Max CP/HP/MP + 300, Weight + 12800, Damage + 7%, Received Damage - 5%, Inventory Slots + 18, Attribute Resistance + 5. -->
 		<icon>BranchIcon.icon.g_monkey_belt</icon>
 		<operateType>P</operateType>
@@ -578,17 +546,17 @@
 		</effects>
 	</skill>
 	<skill id="27746" toLevel="1" name="Item Skill: Unlimited Vitality Agathion">
-		<!-- AUTO GENERATED SKILL TODO: FIX IT -->
-		<icon>icon.skill0000</icon>
+		<!-- When equipped, XP + $s1. -->
+		<icon>BranchSys.icon.br_aga_bonus_i00</icon>
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="27786" toLevel="1" name="Ride Elk">
-		<icon>icon.skill0000</icon>
+		<!-- Mounts the Elk. -->
+		<icon>icon.skilltransform3</icon>
 		<operateType>A2</operateType>
 		<effectPoint>1</effectPoint>
 		<abnormalType>TRANSFORM</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
 		<hitCancelTime>0</hitCancelTime>
@@ -610,8 +578,7 @@
 		</effects>
 	</skill>
 	<skill id="27787" toLevel="10" name="Sayha's Talisman">
-		<!-- Updated to GRAND CRUSADE -->
-		<!-- P. Def. + 112, M. Def. + 74, XP/SP +1%. -->
+		<!-- P. Def. + $s1, M. Def. + $s2, XP/SP +$s3. -->
 		<icon>icon.bm_sayhas_talisman</icon>
 		<operateType>P</operateType>
 		<targetType>SELF</targetType>
@@ -693,7 +660,8 @@
 		</effects>
 	</skill>
 	<skill id="27798" toLevel="1" name="Elk's Blessing">
-		<icon>icon.skill0000</icon>
+		<!-- Maintain vitality for 1 hour through Elk's blessing. -->
+		<icon>BranchSys.icon.br_xmas_miracle_i00</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>3600</abnormalTime>
 		<abnormalType>VP_KEEP</abnormalType>
@@ -703,7 +671,6 @@
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>86400000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -720,7 +687,8 @@
 		</effects>
 	</skill>
 	<skill id="27799" toLevel="1" name="Elk's Summoning">
-		<icon>icon.skill0000</icon>
+		<!-- Summon a party member. -->
+		<icon>icon.skill1403</icon>
 		<castRange>-2</castRange>
 		<effectPoint>467</effectPoint>
 		<effectRange>-2</effectRange>
@@ -729,7 +697,6 @@
 		<magicLvl>-1</magicLvl>
 		<operateType>A1</operateType>
 		<reuseDelay>600000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>OTHERS</targetType>
 		<affectScope>SINGLE</affectScope>

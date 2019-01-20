@@ -1,18 +1,17 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
 	<skill id="21100" toLevel="1" name="Great Wizard's Soul Power">
-		<!-- For five minutes, the Great Spirit increases M.Atk. by 20%, M.Def. by 20% and casting speed by 20%. Decreases MP cost of skills by 5%. -->
+		<!-- For 5 minutes, receives the soul's help to increase Casting Spd. by 20%, M. Atk. by 20%, and M. Def. by 20%. Decreases MP Consumption for skill use by 5%. -->
+		<icon>BranchSys.icon.br_maid_hairband_i00</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>300</abnormalTime>
 		<abnormalType>MULTI_BUFF</abnormalType>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>4000</hitTime>
-		<icon>BranchSys.icon.br_maid_hairband_i00</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>3600000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -41,15 +40,14 @@
 		</effects>
 	</skill>
 	<skill id="21101" toLevel="1" name="Blessed Escape">
-		<!-- Can use the ability of Blessed Return. Reuse Delay 12 hours. -->
+		<!-- Allows the use of Blessed Escape. Cooldown is 12 hours. -->
+		<icon>BranchSys.icon.br_babypanda_cap_i00</icon>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>200</hitTime>
-		<icon>BranchSys.icon.br_babypanda_cap_i00</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
 		<reuseDelay>43200000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
@@ -64,18 +62,17 @@
 		</effects>
 	</skill>
 	<skill id="21102" toLevel="1" name="Blessed Resurrection">
-		<!-- Can use the ability of Blessed Resurrection. Reuse Delay 12 hours. -->
+		<!-- Allows the use of Blessed Resurrection. Cooldown is 12 hours. -->
+		<icon>BranchSys.icon.br_sexypanda_cap_i00</icon>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<castRange>400</castRange>
 		<effectPoint>1</effectPoint>
 		<effectRange>600</effectRange>
 		<hitTime>3000</hitTime>
-		<icon>BranchSys.icon.br_sexypanda_cap_i00</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
 		<reuseDelay>43200000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>PC_BODY</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -89,18 +86,17 @@
 		</effects>
 	</skill>
 	<skill id="21103" toLevel="1" name="Great Adventurer's Soul Power">
-		<!-- For five minutes, the Great Spirit increases maximum HP by 20%, maximum MP by 20%, moving speed by 20%, and resistance against debuff by 10%. -->
+		<!-- For 5 minutes, receives the soul's help to increase Max HP by 20%, Max MP by 20%, and Speed by 20%. Increases Debuff Resistance by 10%. -->
+		<icon>BranchSys.icon.br_kungfupanda_cap_i00</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>300</abnormalTime>
 		<abnormalType>MULTI_BUFF</abnormalType>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>4000</hitTime>
-		<icon>BranchSys.icon.br_kungfupanda_cap_i00</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>3600000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -128,18 +124,17 @@
 		</effects>
 	</skill>
 	<skill id="21104" toLevel="1" name="Appetite for Destruction">
-		<!-- For 30 seconds, awakens destruction instinct and increases P.Atk./Critical rate/Critical damage by 50%. -->
+		<!-- For 30 seconds, awakens your destructive instincts and increases P. Atk., P. Critical Rate and P. Critical Damage by 50%. -->
+		<icon>BranchSys.icon.br_gatekeeper_of_hat_i00</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>30</abnormalTime>
 		<abnormalType>INSTINCT</abnormalType>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>2500</hitTime>
-		<icon>BranchSys.icon.br_gatekeeper_of_hat_i00</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>3600000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -150,126 +145,119 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="21105" toLevel="1" name="Release Agathion's Seal - Lucky Girl">
-		<!-- Confirmed CT2.5 -->
-		<hitTime>3000</hitTime>
+		<!-- Removes the Agathion's seal. -->
 		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SummonAgathion">
-				<npcId>1529</npcId>
+				<npcId>1529</npcId> <!-- Lucky Girl Agathion -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="21106" toLevel="1" name="Release Agathion's Seal - Lucky Boy">
-		<!-- Confirmed CT2.5 -->
-		<hitTime>3000</hitTime>
+		<!-- Removes the Agathion's seal. -->
 		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SummonAgathion">
-				<npcId>1530</npcId>
+				<npcId>1530</npcId> <!-- Lucky Boy Agathion -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="21107" toLevel="1" name="Release Agathion's Seal - Dancing Lucky Kid">
-		<!-- Confirmed CT2.5 -->
-		<hitTime>3000</hitTime>
+		<!-- Removes the Agathion's seal. -->
 		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SummonAgathion">
-				<npcId>1531</npcId>
+				<npcId>1531</npcId> <!-- Dancing Lucky Kid Agathion -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="21108" toLevel="1" name="Release Agathion's Seal - Monkey King">
-		<!-- Confirmed CT2.5 -->
-		<hitTime>3000</hitTime>
+		<!-- Removes the Agathion's seal. -->
 		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SummonAgathion">
-				<npcId>1532</npcId>
+				<npcId>1532</npcId> <!-- Agathion - Monkey King -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="21109" toLevel="1" name="Release Agathion's Seal - Uthanka">
-		<!-- Confirmed CT2.5 -->
-		<hitTime>3000</hitTime>
+		<!-- Removes the Agathion's seal. -->
 		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SummonAgathion">
-				<npcId>1533</npcId>
+				<npcId>1533</npcId> <!-- Uthanka Agathion -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="21110" toLevel="1" name="Release Agathion's Seal - Bonus B">
-		<!-- Confirmed CT2.5 -->
-		<hitTime>3000</hitTime>
+		<!-- Removes the Agathion's seal. -->
 		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SummonAgathion">
-				<npcId>1534</npcId>
+				<npcId>1534</npcId> <!-- Bonus B Agathion -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="21111" toLevel="1" name="Great Adventurer's Soul Power">
-		<!-- Increase max HP 20%, max MP 20%, Spd. 20% with help of a spirit for 5 minutes. Increase resistance by 10% against debuff. Reuse Delay 1 hour. -->
+		<!-- For 5 minutes, receives the soul's help to increase Max HP by 20%, Max MP by 20%, and Speed by 20%. receives the soul's help to increase Debuff Resistance by 10%. Cooldown is 1 hour. -->
+		<icon>BranchSys.icon.br_headphone_i00</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>300</abnormalTime>
 		<abnormalType>MULTI_BUFF</abnormalType>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>4000</hitTime>
-		<icon>BranchSys.icon.br_headphone_i00</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>3600000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -297,18 +285,17 @@
 		</effects>
 	</skill>
 	<skill id="21112" toLevel="1" name="Brave Warrior's Soul Power">
-		<!-- Increase attack speed by 20%, P. Atk by 10%, P. Def. by 20% with help of a spirit for 5 minutes. Bestows the ability to recover as HP 5% of the standard short-range physical damage inflicted on the enemy. Reuse Delay 1 hour. -->
+		<!-- For 5 minutes, receives the soul's help to increase Atk. Spd. by 20%, P. Atk. by 10%, and P. Def. by 20%. Bestows the ability to recover as HP 5% of the physical damage inflicted on the enemy with a certain probability. Cooldown is 1 hour. -->
+		<icon>BranchSys.icon.br_headphone_i00</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>300</abnormalTime>
 		<abnormalType>MULTI_BUFF</abnormalType>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>4000</hitTime>
-		<icon>BranchSys.icon.br_headphone_i00</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>3600000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -336,18 +323,17 @@
 		</effects>
 	</skill>
 	<skill id="21113" toLevel="1" name="Great Wizard's Soul Power">
-		<!-- Increase Casting Speed by 20%, Magic Power by 20%, Magic Def. by 20% with help of a spirit for 5 minutes. Reduce consumed MP for skill usage by 5%. Reuse Delay 1 hour. -->
+		<!-- For 5 minutes, receives the soul's help to increase Casting Spd. by 20%, M. Atk. by 20%, and M. Def. by 20%. Decreases MP Consumption for skill use by 5%. Cooldown is 1 hour. -->
+		<icon>BranchSys.icon.br_headphone_i00</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>300</abnormalTime>
 		<abnormalType>MULTI_BUFF</abnormalType>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>4000</hitTime>
-		<icon>BranchSys.icon.br_headphone_i00</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>3600000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -376,18 +362,17 @@
 		</effects>
 	</skill>
 	<skill id="21114" toLevel="1" name="Great Adventurer's Soul Power">
-		<!-- Increase max HP 20%, max MP 20%, Spd. 20% with help of a spirit for 5 minutes. Increase resistance by 10% against debuff. Reuse Delay 1 hour. -->
+		<!-- For 5 minutes, receives the soul's help to increase Max HP by 20%, Max MP by 20%, and Speed by 20%. receives the soul's help to increase Debuff Resistance by 10%. Cooldown is 1 hour. -->
+		<icon>BranchSys.Icon.br_spirit_skill_i00</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>300</abnormalTime>
 		<abnormalType>MULTI_BUFF</abnormalType>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>4000</hitTime>
-		<icon>BranchSys.Icon.br_spirit_skill_i00</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>3600000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -415,18 +400,17 @@
 		</effects>
 	</skill>
 	<skill id="21115" toLevel="1" name="Brave Warrior's Soul Power">
-		<!-- Increase attack speed by 20%, P. Atk by 10%, P. Def. by 20% with help of a spirit for 5 minutes. Bestows the ability to recover as HP 5% of the standard short-range physical damage inflicted on the enemy. Reuse Delay 1 hour. -->
+		<!-- For 5 minutes, receives the soul's help to increase Atk. Spd. by 20%, P. Atk. by 10%, and P. Def. by 20%. Bestows the ability to recover as HP 5% of the physical damage inflicted on the enemy with a certain probability. Cooldown is 1 hour. -->
+		<icon>BranchSys.Icon.br_spirit_skill_i00</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>300</abnormalTime>
 		<abnormalType>MULTI_BUFF</abnormalType>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>4000</hitTime>
-		<icon>BranchSys.Icon.br_spirit_skill_i00</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>3600000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -454,18 +438,17 @@
 		</effects>
 	</skill>
 	<skill id="21116" toLevel="1" name="Great Wizard's Soul Power">
-		<!-- Increase Casting Speed by 20%, Magic Power by 20%, Magic Def. by 20% with help of a spirit for 5 minutes. Reduce consumed MP for skill usage by 5%. Reuse Delay 1 hour. -->
+		<!-- For 5 minutes, receives the soul's help to increase Casting Spd. by 20%, M. Atk. by 20%, and M. Def. by 20%. Decreases MP Consumption for skill use by 5%. Cooldown is 1 hour. -->
+		<icon>BranchSys.Icon.br_spirit_skill_i00</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>300</abnormalTime>
 		<abnormalType>MULTI_BUFF</abnormalType>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>4000</hitTime>
-		<icon>BranchSys.Icon.br_spirit_skill_i00</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>3600000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -494,18 +477,17 @@
 		</effects>
 	</skill>
 	<skill id="21117" toLevel="1" name="Great Adventurer's Soul Power">
-		<!-- Increase max HP 20%, max MP 20%, Spd. 20% with help of a spirit for 5 minutes. Increase HP recovery bonus by 20%, MP recovery bonus by 20%. Reuse Delay 1 hour. -->
+		<!-- For 5 minutes, receives the soul's help to increase Max HP by 20%, Max MP by 20%, and Speed by 20%. receives the soul's help to increase HP Recovery Bonus by 20% and MP Recovery Bonus by 20%. Cooldown is 1 hour. -->
+		<icon>BranchSys.Icon.br_spirit_skill_i00</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>300</abnormalTime>
 		<abnormalType>MULTI_BUFF</abnormalType>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>4000</hitTime>
-		<icon>BranchSys.Icon.br_spirit_skill_i00</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>3600000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -537,18 +519,17 @@
 		</effects>
 	</skill>
 	<skill id="21118" toLevel="1" name="Brave Warrior's Soul Power">
-		<!-- Increase attack speed by 20%, P. Atk by 10%, P. Def. by 20% with help of a spirit for 5 minutes. Increase power of Critical Attack by 20%, Chance of Critical Attack by 20%. Reuse Delay 1 hour. -->
+		<!-- For 5 minutes, receives the soul's help to increase Atk. Spd. by 20%, P. Atk. by 10%, and P. Def. by 20%. receives the soul's help to increase Critical Damage by 20% and Critical Rate by 20%. Cooldown is 1 hour. -->
+		<icon>BranchSys.Icon.br_spirit_skill_i00</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>300</abnormalTime>
 		<abnormalType>MULTI_BUFF</abnormalType>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>4000</hitTime>
-		<icon>BranchSys.Icon.br_spirit_skill_i00</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>3600000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -580,18 +561,17 @@
 		</effects>
 	</skill>
 	<skill id="21119" toLevel="1" name="Great Wizard's Soul Power">
-		<!-- Increase Casting Speed by 20%, Magic Power by 20%, Magic Def. by 20% with help of a spirit for 5 minutes. Increase power of Prominent Damage caused with damage magic by 20%, chance of Prominent Damage caused with damage magic by 2. Reuse Delay 1 hour. -->
+		<!-- For 5 minutes, receives the soul's help to increase Casting Spd. by 20%, M. Atk. by 20%, and M. Def. by 20%. receives the soul's help to increase the power of Prominent Damage through magic damage by 20% and the chance of prominent damage occurring through magic damage by 2. Cooldown is 1 hour. -->
+		<icon>BranchSys.Icon.br_spirit_skill_i00</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>300</abnormalTime>
 		<abnormalType>MULTI_BUFF</abnormalType>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>4000</hitTime>
-		<icon>BranchSys.Icon.br_spirit_skill_i00</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>3600000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -623,15 +603,14 @@
 		</effects>
 	</skill>
 	<skill id="21120" toLevel="1" name="Jack O'Lantern Card">
-		<!-- Confirmed CT2.5 -->
+		<!-- Jack's game Skill -->
+		<icon>BranchSys.icon.br_jack_ghost_i00</icon>
 		<castRange>400</castRange>
 		<effectPoint>-1</effectPoint>
 		<effectRange>500</effectRange>
-		<icon>BranchSys.icon.br_jack_ghost_i00</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>1</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<staticReuse>true</staticReuse>
@@ -639,15 +618,14 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="21121" toLevel="1" name="Rotten Jack O'Lantern Card">
-		<!-- Confirmed CT2.5 -->
+		<!-- Jack's game Skill -->
+		<icon>BranchSys.icon.br_rotten_jack_ghost_i00</icon>
 		<castRange>400</castRange>
 		<effectPoint>-1</effectPoint>
 		<effectRange>500</effectRange>
-		<icon>BranchSys.icon.br_rotten_jack_ghost_i00</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>1</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<staticReuse>true</staticReuse>
@@ -655,18 +633,17 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="21122" toLevel="1" name="Skooldie's Blessing: Protection of Darkness">
-		<!-- Increase max HP by 20%, max MP by 20%, physical Def. by 20%, magic Def. by 20% for 1 hour. Increase dark attack resistance by 20. Reuse Delay 1 hour. -->
+		<!-- For 1 hour, increases Max HP by 20%, Max MP by 20%, P. Def. by 20%, and M. Def. by 20%. Increases Dark Resistance by 20. Cooldown is 1 hour. -->
+		<icon>BranchSys.icon.br_scooldie_mask_i00</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>3600</abnormalTime>
 		<abnormalType>BR_EVENT_BUF1</abnormalType>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>4000</hitTime>
-		<icon>BranchSys.icon.br_scooldie_mask_i00</icon>
 		<isMagic>4</isMagic> <!-- Magic Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>3600000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -700,18 +677,17 @@
 		</effects>
 	</skill>
 	<skill id="21123" toLevel="1" name="Skooldie's Blessing: Protection of Darkness">
-		<!-- Increase max HP by 20%, max MP by 20%, physical Def. by 20%, magic Def. by 20% for 1 hour. Increase dark attack resistance by 20. Reuse Delay 1 hour. -->
+		<!-- For 1 hour, increases Max HP by 20%, Max MP by 20%, P. Def. by 20%, and M. Def. by 20%. Increases Dark Resistance by 20. Cooldown is 1 hour. -->
+		<icon>BranchSys.icon.br_scooldie_mask_i00</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>3600</abnormalTime>
 		<abnormalType>BR_EVENT_BUF1</abnormalType>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>4000</hitTime>
-		<icon>BranchSys.icon.br_scooldie_mask_i00</icon>
 		<isMagic>4</isMagic> <!-- Magic Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>3600000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -745,18 +721,17 @@
 		</effects>
 	</skill>
 	<skill id="21124" toLevel="1" name="Skooldie's Blessing: Protection of Darkness">
-		<!-- Increase max HP by 20%, max MP by 20%, physical Def. by 20%, magic Def. by 20% for 1 hour. Increase dark attack resistance by 20. Reuse Delay 1 hour. -->
+		<!-- For 1 hour, increases Max HP by 20%, Max MP by 20%, P. Def. by 20%, and M. Def. by 20%. Increases Dark Resistance by 20. Cooldown is 1 hour. -->
+		<icon>BranchSys.icon.br_scooldie_mask_i00</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>3600</abnormalTime>
 		<abnormalType>BR_EVENT_BUF1</abnormalType>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>4000</hitTime>
-		<icon>BranchSys.icon.br_scooldie_mask_i00</icon>
 		<isMagic>4</isMagic> <!-- Magic Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>3600000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -790,18 +765,17 @@
 		</effects>
 	</skill>
 	<skill id="21125" toLevel="1" name="Skooldie's Blessing: Protection of Darkness">
-		<!-- Increase max HP by 20%, max MP by 20%, physical Def. by 20%, magic Def. by 20% for 1 hour. Increase dark attack resistance by 20. Reuse Delay 1 hour. -->
+		<!-- For 1 hour, increases Max HP by 20%, Max MP by 20%, P. Def. by 20%, and M. Def. by 20%. Increases Dark Resistance by 20. Cooldown is 1 hour. -->
+		<icon>BranchSys.icon.br_scooldie_mask_i00</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>3600</abnormalTime>
 		<abnormalType>BR_EVENT_BUF1</abnormalType>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>4000</hitTime>
-		<icon>BranchSys.icon.br_scooldie_mask_i00</icon>
 		<isMagic>4</isMagic> <!-- Magic Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>3600000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -835,18 +809,17 @@
 		</effects>
 	</skill>
 	<skill id="21126" toLevel="1" name="Skooldie's Blessing: Protection of Darkness">
-		<!-- Increase max HP by 20%, max MP by 20%, physical Def. by 20%, magic Def. by 20% for 1 hour. Increase dark attack resistance by 20. Reuse Delay 1 hour. -->
+		<!-- For 1 hour, increases Max HP by 20%, Max MP by 20%, P. Def. by 20%, and M. Def. by 20%. Increases Dark Resistance by 20. Cooldown is 1 hour. -->
+		<icon>BranchSys.icon.br_scooldie_mask_i00</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>3600</abnormalTime>
 		<abnormalType>BR_EVENT_BUF1</abnormalType>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>4000</hitTime>
-		<icon>BranchSys.icon.br_scooldie_mask_i00</icon>
 		<isMagic>4</isMagic> <!-- Magic Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>3600000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -880,18 +853,17 @@
 		</effects>
 	</skill>
 	<skill id="21127" toLevel="1" name="Blessing of Halloween">
-		<!-- Increase max HP by 40%, max MP by 40%, attack speed by 20%, attack power by 10% for 1 hour.Increase dark attack resistance by 20. Reuse Delay 2 hours. -->
+		<!-- For 1 hour, increases Max HP by 40% and Max MP by 40%. Increases Atk. Spd. by 20% and P. Atk. by 10%. Increases Dark Resistance by 20. Cooldown is 2 hours. -->
+		<icon>icon.skill1528</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>3600</abnormalTime>
 		<abnormalType>BR_EVENT_BUF1</abnormalType>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>4000</hitTime>
-		<icon>icon.skill1528</icon>
 		<isMagic>4</isMagic> <!-- Magic Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>7200000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -925,18 +897,17 @@
 		</effects>
 	</skill>
 	<skill id="21128" toLevel="1" name="Blessing of Halloween">
-		<!-- Increase max HP by 40%, max MP by 40%, chance of critical by 10%, critical damage by 10% for 1 hour. Increase dark attack resistance by 20. Reuse Delay 2 hours. -->
+		<!-- For 1 hour, increases Max HP by 40%, Max MP by 40%, Critical Rate by 10%, and Critical Damage by 10%. Increases Dark Resistance by 20. Cooldown is 2 hours. -->
+		<icon>icon.skill1528</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>3600</abnormalTime>
 		<abnormalType>BR_EVENT_BUF1</abnormalType>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>4000</hitTime>
-		<icon>icon.skill1528</icon>
 		<isMagic>4</isMagic> <!-- Magic Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>7200000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -970,18 +941,17 @@
 		</effects>
 	</skill>
 	<skill id="21129" toLevel="1" name="Blessing of Halloween">
-		<!-- Increase max HP by 40%, max MP by 40%, speed by 10% for 1 hour. Bestows the ability to recover as HP 5% of the standard short-range physical damage inflicted on the enemy. Increase dark attack resistance by 20. Reuse Delay 2 hours. -->
+		<!-- For 1 hour, increases Max HP by 40%, Max MP by 40%, and Speed by 10%. Bestows the ability to recover as HP 5% of the physical damage inflicted on the enemy with a certain probability. Increases Dark Resistance by 20. Cooldown is 2 hours. -->
+		<icon>icon.skill1528</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>3600</abnormalTime>
 		<abnormalType>BR_EVENT_BUF1</abnormalType>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>4000</hitTime>
-		<icon>icon.skill1528</icon>
 		<isMagic>4</isMagic> <!-- Magic Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>7200000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -1015,18 +985,17 @@
 		</effects>
 	</skill>
 	<skill id="21130" toLevel="1" name="Blessing of Halloween">
-		<!-- Increase max HP by 40%, max MP by 40%, speed by 20% for 1 hour. Reduce consumed MP for skill usage by 5%. Increase dark attack resistance by 20. Reuse Delay 2 hours. -->
+		<!-- For 1 hour, increases Max HP by 40%, Max MP by 40%, and Casting Spd. by 20%. Decreases MP Consumption for skill use by 5%. Increases Dark Resistance by 20. Cooldown is 2 hours. -->
+		<icon>icon.skill1528</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>3600</abnormalTime>
 		<abnormalType>BR_EVENT_BUF1</abnormalType>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>4000</hitTime>
-		<icon>icon.skill1528</icon>
 		<isMagic>4</isMagic> <!-- Magic Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>7200000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -1071,18 +1040,17 @@
 		</effects>
 	</skill>
 	<skill id="21131" toLevel="1" name="Blessing of Halloween">
-		<!-- Increase max HP by 40%, max MP by 40%, casting speed by 20% for 1 hour. Increases chance of prominent damage by Damage Magic by 2. Increase dark attack resistance by 20. Reuse Delay 2 hours. -->
+		<!-- For 1 hour, increases Max HP by 40%, Max MP by 40%, and Casting Spd. by 20%. Increases the rate of causing exceptional magic damage by 2. Increases Dark Resistance by 20. Cooldown is 2 hours. -->
+		<icon>icon.skill1528</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>3600</abnormalTime>
 		<abnormalType>BR_EVENT_BUF1</abnormalType>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>4000</hitTime>
-		<icon>icon.skill1528</icon>
 		<isMagic>4</isMagic> <!-- Magic Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>7200000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -1116,19 +1084,18 @@
 		</effects>
 	</skill>
 	<skill id="21132" toLevel="1" name="Shadow Ability">
-		<!-- Decrease own speed by 30% and will not receive monster's preemptive attack for 2 minutes. Reuse Delay 1 hour. -->
+		<!-- For 2 minutes, decreases the user's Speed by 30%, and obtains the ability to prevent a monster's preemptive attack. Cooldown is 1 hour. -->
+		<icon>icon.skill5739</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>120</abnormalTime>
 		<abnormalType>STEALTH</abnormalType>
 		<abnormalVisualEffect>STEALTH</abnormalVisualEffect>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>2500</hitTime>
-		<icon>icon.skill5739</icon>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>3600000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -1146,73 +1113,69 @@
 		</effects>
 	</skill>
 	<skill id="21133" toLevel="1" name="Release Agathion's Seal - Zombie">
-		<!-- Confirmed CT2.5 -->
-		<hitTime>3000</hitTime>
+		<!-- Removes the Agathion's seal. -->
 		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SummonAgathion">
-				<npcId>1535</npcId>
+				<npcId>1535</npcId> <!-- Zombie Agathion -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="21134" toLevel="1" name="Release Agathion's Seal - Bluebird">
-		<!-- Confirmed CT2.5 -->
-		<hitTime>3000</hitTime>
+		<!-- Removes the Agathion's seal. -->
 		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SummonAgathion">
-				<npcId>1536</npcId>
+				<npcId>1536</npcId> <!-- Bluebird Agathion -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="21135" toLevel="1" name="Release Agathion's Seal - Hatbird">
-		<!-- Confirmed CT2.5 -->
-		<hitTime>3000</hitTime>
+		<!-- Removes the Agathion's seal. -->
 		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SummonAgathion">
-				<npcId>1537</npcId>
+				<npcId>1537</npcId> <!-- Hatbird Agathion -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="21136" toLevel="1" name="Golden Jack O'Lantern's Authority">
-		<!-- Increase max HP 40%, max MP 40%, max CP 40%, Physical Def. 30%, Magic Def. 30%, Spd. 30% of party members for 10 minutes. Reuse Delay 1 hour. -->
+		<!-- For 10 minutes, increases party members' Max HP by 40%, Max MP by 40%, Max CP by 40%, P. Def. by 30%, M. Def. by 30%, and Speed by 30. Cooldown is 1 hour. -->
+		<icon>BranchSys.icon.br_golden_jack0_mask_i00</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>600</abnormalTime>
 		<abnormalType>BR_EVENT_BUF1</abnormalType>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<effectPoint>486</effectPoint>
 		<hitTime>3000</hitTime>
-		<icon>BranchSys.icon.br_golden_jack0_mask_i00</icon>
 		<isMagic>4</isMagic> <!-- Item Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>3600000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -1252,18 +1215,17 @@
 		</effects>
 	</skill>
 	<skill id="21137" toLevel="1" name="Blessing of Halloween">
-		<!-- Increase max HP by 40%, max MP by 40%, attack speed by 20%, attack power by 10% for 10 minutes.Increase dark attack resistance by 20. Reuse Delay 1 hour. -->
+		<!-- For 10 minutes, increases Max HP by 40% and Max MP by 40%. Increases Atk. Spd. by 20% and P. Atk. by 10%. Increases Dark Resistance by 20. Cooldown is 1 hour. -->
+		<icon>icon.skill1528</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>600</abnormalTime>
 		<abnormalType>MULTI_BUFF</abnormalType>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>4000</hitTime>
-		<icon>icon.skill1528</icon>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>3600000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -1297,18 +1259,17 @@
 		</effects>
 	</skill>
 	<skill id="21138" toLevel="1" name="Blessing of Halloween">
-		<!-- Increase max HP by 40%, max MP by 40%, chance of critical by 10%, critical damage by 10% for 10 minutes. Increase dark attack resistance by 20. Reuse Delay 1 hour. -->
+		<!-- For 10 minutes, increases Max HP by 40%, Max MP by 40%, Critical Rate by 10%, and Critical Damage by 10%. Increases Dark Resistance by 20. Cooldown is 1 hour. -->
+		<icon>icon.skill1528</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>600</abnormalTime>
 		<abnormalType>MULTI_BUFF</abnormalType>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>4000</hitTime>
-		<icon>icon.skill1528</icon>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>3600000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -1342,18 +1303,17 @@
 		</effects>
 	</skill>
 	<skill id="21139" toLevel="1" name="Blessing of Halloween">
-		<!-- Increase max HP by 40%, max MP by 40%, speed by 10% for 10 minutes. Bestows the ability to recover as HP 5% of the standard short-range physical damage inflicted on the enemy. Increase dark attack resistance by 20. Reuse Delay 1 hour. -->
+		<!-- For 10 minutes, increases Max HP by 40%, Max MP by 40%, and Speed by 10%. Bestows the ability to recover as HP 5% of the physical damage inflicted on the enemy with a certain probability. Increases Dark Resistance by 20. Cooldown is 1 hour. -->
+		<icon>icon.skill1528</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>600</abnormalTime>
 		<abnormalType>MULTI_BUFF</abnormalType>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>4000</hitTime>
-		<icon>icon.skill1528</icon>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>3600000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -1387,18 +1347,17 @@
 		</effects>
 	</skill>
 	<skill id="21140" toLevel="1" name="Blessing of Halloween">
-		<!-- Increase max HP by 40%, max MP by 40%, speed by 20% for 10 minutes. Reduce consumed MP for skill usage by 5%. Increase dark attack resistance by 20. Reuse Delay 1 hour. -->
+		<!-- For 10 minutes, increases Max HP by 40%, Max MP by 40%, and Casting Spd. by 20%. Decreases MP Consumption for skill use by 5%. Increases Dark Resistance by 20. Cooldown is 1 hour. -->
+		<icon>icon.skill1528</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>600</abnormalTime>
 		<abnormalType>MULTI_BUFF</abnormalType>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>4000</hitTime>
-		<icon>icon.skill1528</icon>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>3600000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -1443,18 +1402,17 @@
 		</effects>
 	</skill>
 	<skill id="21141" toLevel="1" name="Blessing of Halloween">
-		<!-- For 10 minutes, increases Max HP by 40%, Max MP by 40%, and Casting Spd. by 20%. Increases the rate of causing exceptional magic damage by 2. Increases Resistance to Dark by 20. Reuse delay is 1 hour. -->
+		<!-- For 10 minutes, increases Max HP by 40%, Max MP by 40%, and Casting Spd. by 20%. Increases the rate of causing exceptional magic damage by 2. Increases Dark Resistance by 20. Cooldown is 1 hour. -->
+		<icon>icon.skill1528</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>600</abnormalTime>
 		<abnormalType>MULTI_BUFF</abnormalType>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>4000</hitTime>
-		<icon>icon.skill1528</icon>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>3600000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -1488,192 +1446,182 @@
 		</effects>
 	</skill>
 	<skill id="21142" toLevel="1" name="Release Agathion's Seal - Guangong">
-		<!-- Confirmed CT2.5 -->
-		<hitTime>3000</hitTime>
+		<!-- Removes the Agathion's seal. -->
 		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SummonAgathion">
-				<npcId>1551</npcId>
+				<npcId>1551</npcId> <!-- Guangong Agathion -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="21143" toLevel="1" name="Release Agathion's Seal - Gwanseum Nyang Nyang">
-		<!-- Confirmed CT2.5 -->
-		<hitTime>3000</hitTime>
+		<!-- Removes the Agathion's seal. -->
 		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SummonAgathion">
-				<npcId>1552</npcId>
+				<npcId>1552</npcId> <!-- Gwanseum Nyang Nyang Agathion -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="21144" toLevel="1" name="Release Agathion's Seal - Blue Opera">
-		<!-- Confirmed CT2.5 -->
-		<hitTime>3000</hitTime>
+		<!-- Removes the Agathion's seal. -->
 		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SummonAgathion">
-				<npcId>1553</npcId>
+				<npcId>1553</npcId> <!-- Blue Opera Agathion -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="21145" toLevel="1" name="Release Agathion's Seal - Blue Opera">
-		<!-- Confirmed CT2.5 -->
-		<hitTime>3000</hitTime>
+		<!-- Removes the Agathion's seal. -->
 		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SummonAgathion">
-				<npcId>1560</npcId>
+				<npcId>1560</npcId> <!-- Blue Opera Agathion -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="21146" toLevel="1" name="Release Agathion's Seal - Red Opera">
-		<!-- Confirmed CT2.5 -->
-		<hitTime>3000</hitTime>
+		<!-- Removes the Agathion's seal. -->
 		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SummonAgathion">
-				<npcId>1554</npcId>
+				<npcId>1554</npcId> <!-- Red Opera Agathion -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="21147" toLevel="1" name="Release Agathion's Seal - Opera">
-		<!-- Confirmed CT2.5 -->
-		<hitTime>3000</hitTime>
+		<!-- Removes the Agathion's seal. -->
 		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SummonAgathion">
-				<npcId>1555</npcId>
+				<npcId>1555</npcId> <!-- Opera Agathion -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="21148" toLevel="1" name="Release Agathion's Seal - Miss Chipao">
-		<!-- Confirmed CT2.5 -->
-		<hitTime>3000</hitTime>
+		<!-- Removes the Agathion's seal. -->
 		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SummonAgathion">
-				<npcId>1556</npcId>
+				<npcId>1556</npcId> <!-- Miss Chipao Agathion -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="21149" toLevel="1" name="Release Agathion's Seal - Nepal Snow">
-		<!-- Confirmed CT2.5 -->
-		<hitTime>3000</hitTime>
+		<!-- Removes the Agathion's seal. -->
 		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SummonAgathion">
-				<npcId>1557</npcId>
+				<npcId>1557</npcId> <!-- Nepal Snow Agathion -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="21150" toLevel="1" name="Release Agathion's Seal - Round Ball Snow">
-		<!-- Confirmed CT2.5 -->
-		<hitTime>3000</hitTime>
+		<!-- Removes the Agathion's seal. -->
 		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SummonAgathion">
-				<npcId>1558</npcId>
+				<npcId>1558</npcId> <!-- Round Ball Snow Agathion -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="21151" toLevel="1" name="Release Agathion's Seal - Ladder Snow">
-		<!-- Confirmed CT2.5 -->
-		<hitTime>3000</hitTime>
+		<!-- Removes the Agathion's seal. -->
 		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SummonAgathion">
-				<npcId>1559</npcId>
+				<npcId>1559</npcId> <!-- Ladder Snow Agathion -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="21152" toLevel="1" name="Chain Fireworks">
+		<!-- Sets off firecrackers. Cooldown is 5 minutes. -->
 		<icon>BranchSys.icon.br_rocket_cap_i00</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>1</magicLvl>
 		<operateType>A1</operateType>
 		<reuseDelay>300000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<staticReuse>true</staticReuse>
@@ -1681,7 +1629,8 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="21153" toLevel="1" name="Blessed Body">
-		<!-- Increases Max HP by 25% for 20 minutes. Reuse Delay 1 hours. -->
+		<!-- Increases Max HP by 25% for 20 minutes. Cooldown is 1 hour. -->
+		<icon>BranchSys.icon.br_party_hat_gold_i00</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>1200</abnormalTime>
 		<abnormalType>MAX_HP_UP</abnormalType>
@@ -1690,13 +1639,11 @@
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<operateType>A2</operateType>
 		<reuseDelay>3600000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
 		<irreplacableBuff>true</irreplacableBuff>
 		<blockActionUseSkill>true</blockActionUseSkill>
-		<icon>BranchSys.icon.br_party_hat_gold_i00</icon>
 		<staticReuse>true</staticReuse>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -1708,7 +1655,8 @@
 		</effects>
 	</skill>
 	<skill id="21154" toLevel="1" name="Blessed Soul">
-		<!-- Increases Max MP by 25% for 20 minutes. Reuse Delay 1 hours. -->
+		<!-- Increases Max MP by 25% for 20 minutes. Cooldown is 1 hour. -->
+		<icon>BranchSys.icon.br_party_hat_mask_i00</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>1200</abnormalTime>
 		<abnormalType>MAX_MP_UP</abnormalType>
@@ -1717,13 +1665,11 @@
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<operateType>A2</operateType>
 		<reuseDelay>3600000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
 		<irreplacableBuff>true</irreplacableBuff>
 		<blockActionUseSkill>true</blockActionUseSkill>
-		<icon>BranchSys.icon.br_party_hat_mask_i00</icon>
 		<staticReuse>true</staticReuse>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -1735,18 +1681,17 @@
 		</effects>
 	</skill>
 	<skill id="21155" toLevel="1" name="Scent of Flavorful Cheese">
-		<!-- For 5 minutes, receives the soul's help to raise Atk. Spd. by 20%, P. Atk. by 10%, and P. Def. by 20%. Increases Critical attack power by 20% and Critical attack rate by 20%. Reuse delay is 1 hour. -->
+		<!-- For 5 minutes, receives the soul's help to increase Atk. Spd. by 20%, P. Atk. by 10%, and P. Def. by 20%. Increases P. Critical Damage and P. Critical Rate by 20%. Cooldown is 1 hour. -->
+		<icon>BranchSys.icon.br_bigrat_cap_i00</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>300</abnormalTime>
 		<abnormalType>MULTI_BUFF</abnormalType>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>4000</hitTime>
-		<icon>BranchSys.icon.br_bigrat_cap_i00</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>3600000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -1778,18 +1723,17 @@
 		</effects>
 	</skill>
 	<skill id="21156" toLevel="1" name="Scent of Sweet Cheese">
-		<!-- For 5 minutes, receives the soul's help to raise Casting Spd. by 20%, M. Atk. by 20%, and M. Def. by 20%. Raises Prominent Damage power via damage magic by 20% and the chance of Prominent Damage occurring via damage magic by 2. Reuse delay is 1 hour. -->
+		<!-- For 5 minutes, receives the soul's help to increase Casting Spd. by 20%, M. Atk. by 20%, and M. Def. by 20%. Increases the power of Prominent Damage through magic damage by 20% and the chance of prominent damage occurring through magic damage by 2. Cooldown is 1 hour. -->
+		<icon>BranchSys.icon.br_goldrat_cap_i00</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>300</abnormalTime>
 		<abnormalType>MULTI_BUFF</abnormalType>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>4000</hitTime>
-		<icon>BranchSys.icon.br_goldrat_cap_i00</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>3600000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -1817,231 +1761,219 @@
 		</effects>
 	</skill>
 	<skill id="21157" toLevel="1" name="Release Agathion's Seal - Iken">
-		<!-- Confirmed CT2.5 -->
-		<hitTime>3000</hitTime>
+		<!-- Removes the Agathion's seal. -->
 		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SummonAgathion">
-				<npcId>1539</npcId>
+				<npcId>1539</npcId> <!-- Iken Agathion -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="21158" toLevel="1" name="Release Agathion's Seal - Lanya">
-		<!-- Confirmed CT2.5 -->
-		<hitTime>3000</hitTime>
+		<!-- Removes the Agathion's seal. -->
 		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SummonAgathion">
-				<npcId>1540</npcId>
+				<npcId>1540</npcId> <!-- Lanya Agathion -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="21159" toLevel="1" name="Release Agathion's Seal - Gnosian">
-		<!-- Confirmed CT2.5 -->
-		<hitTime>3000</hitTime>
+		<!-- Removes the Agathion's seal. -->
 		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SummonAgathion">
-				<npcId>1541</npcId>
+				<npcId>1541</npcId> <!-- Gnosian Agathion -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="21160" toLevel="1" name="Release Agathion's Seal - Orodriel">
-		<!-- Confirmed CT2.5 -->
-		<hitTime>3000</hitTime>
+		<!-- Removes the Agathion's seal. -->
 		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SummonAgathion">
-				<npcId>1542</npcId>
+				<npcId>1542</npcId> <!-- Orodriel Agathion -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="21161" toLevel="1" name="Release Agathion's Seal - Lakinos">
-		<!-- Confirmed CT2.5 -->
-		<hitTime>3000</hitTime>
+		<!-- Removes the Agathion's seal. -->
 		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SummonAgathion">
-				<npcId>1543</npcId>
+				<npcId>1543</npcId> <!-- Lakinos Agathion -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="21162" toLevel="1" name="Release Agathion's Seal - Mortia">
-		<!-- Confirmed CT2.5 -->
-		<hitTime>3000</hitTime>
+		<!-- Removes the Agathion's seal. -->
 		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SummonAgathion">
-				<npcId>1544</npcId>
+				<npcId>1544</npcId> <!-- Mortia Agathion -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="21163" toLevel="1" name="Release Agathion's Seal - Heintz">
-		<!-- Confirmed CT2.5 -->
-		<hitTime>3000</hitTime>
+		<!-- Removes the Agathion's seal. -->
 		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SummonAgathion">
-				<npcId>1545</npcId>
+				<npcId>1545</npcId> <!-- Heintz Agathion -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="21164" toLevel="1" name="Release Agathion's Seal - Meruril">
-		<!-- Confirmed CT2.5 -->
-		<hitTime>3000</hitTime>
+		<!-- Removes the Agathion's seal. -->
 		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SummonAgathion">
-				<npcId>1546</npcId>
+				<npcId>1546</npcId> <!-- Meruril Agathion -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="21165" toLevel="1" name="Release Agathion's Seal - Taman Zu Rapatui">
-		<!-- Confirmed CT2.5 -->
-		<hitTime>3000</hitTime>
+		<!-- Removes the Agathion's seal. -->
 		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SummonAgathion">
-				<npcId>1547</npcId>
+				<npcId>1547</npcId> <!-- Taman Zu Rapatui Agathion -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="21166" toLevel="1" name="Release Agathion's Seal - Kaurin">
-		<!-- Confirmed CT2.5 -->
-		<hitTime>3000</hitTime>
+		<!-- Removes the Agathion's seal. -->
 		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SummonAgathion">
-				<npcId>1548</npcId>
+				<npcId>1548</npcId> <!-- Kaurin Agathion -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="21167" toLevel="1" name="Release Agathion's Seal - Ahertbein">
-		<!-- Confirmed CT2.5 -->
-		<hitTime>3000</hitTime>
+		<!-- Removes the Agathion's seal. -->
 		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SummonAgathion">
-				<npcId>1549</npcId>
+				<npcId>1549</npcId> <!-- Ahertbein Agathion -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="21168" toLevel="1" name="Release Agathion's Seal - Naonin">
-		<!-- Confirmed CT2.5 -->
-		<hitTime>3000</hitTime>
+		<!-- Removes the Agathion's seal. -->
 		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SummonAgathion">
-				<npcId>1550</npcId>
+				<npcId>1550</npcId> <!-- Naonin Agathion -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="21169" toLevel="1" name="Transform Kadomas">
+		<!-- Transforms into a Kadomas. -->
+		<icon>icon.skilltransform3</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>3600</abnormalTime>
 		<abnormalType>TRANSFORM</abnormalType>
 		<effectPoint>1</effectPoint>
-		<icon>icon.skilltransform3</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -2062,7 +1994,8 @@
 		</effects>
 	</skill>
 	<skill id="21170" toLevel="1" name="Blessed Soul">
-		<!-- Increases Max MP by 25% for 20 minutes. Reuse delay is 1 hours. -->
+		<!-- Increases Max MP by 25% for 20 minutes. Cooldown is 1 hour. -->
+		<icon>BranchSys.icon.br_party_mask_purple_i00</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>1200</abnormalTime>
 		<abnormalType>MAX_MP_UP</abnormalType>
@@ -2071,13 +2004,11 @@
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<operateType>A2</operateType>
 		<reuseDelay>3600000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
 		<irreplacableBuff>true</irreplacableBuff>
 		<blockActionUseSkill>true</blockActionUseSkill>
-		<icon>BranchSys.icon.br_party_mask_purple_i00</icon>
 		<staticReuse>true</staticReuse>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -2089,17 +2020,16 @@
 		</effects>
 	</skill>
 	<skill id="21171" toLevel="1" name="Ride Jet Bike">
-		<!-- Confirmed CT2.5 -->
+		<!-- Ride a Jet Bike. -->
+		<icon>icon.skilltransform3</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>3600</abnormalTime>
 		<abnormalType>TRANSFORM</abnormalType>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<effectPoint>1</effectPoint>
-		<icon>icon.skilltransform3</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -2120,17 +2050,16 @@
 		</effects>
 	</skill>
 	<skill id="21172" toLevel="1" name="Reinforced Authority - CON + 1 / STR + 1">
-		<!-- Enhanced authority grants CON+1 / STR+1 for 2 minutes. Consumes 240 energy. Reuse delay 3 minutes. -->
+		<!-- By enhance authority, CON + 1 / STR + 1 for 2 minutes. Consumes 240 energy. Cooldown 3 minutes. -->
+		<icon>BranchSys2.icon.br_soulavatar_stat_i00</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>120</abnormalTime>
 		<abnormalType>BR_EVENT_BUF1</abnormalType>
 		<abnormalVisualEffect>BR_SOUL_AVATAR</abnormalVisualEffect>
 		<blockedInOlympiad>true</blockedInOlympiad>
-		<icon>BranchSys2.icon.br_soulavatar_stat_i00</icon>
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>180000</reuseDelay>
-		<rideState>NONE</rideState>
 		<staticReuse>true</staticReuse>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -2149,17 +2078,16 @@
 		</conditions>
 	</skill>
 	<skill id="21173" toLevel="1" name="Reinforced Authority - WIT + 1 / INT + 1">
-		<!-- Enhanced authority grants WIT+1 / INT+1 for 2 minutes. Consumes 240 energy. Reuse delay 3 minutes. -->
+		<!-- By enhance authority, WIT + 1 / INT + 1 for 2 minutes. Consumes 240 energy. Cooldown 3 minutes. -->
+		<icon>BranchSys2.icon.br_soulavatar_stat_i00</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>120</abnormalTime>
 		<abnormalType>BR_EVENT_BUF1</abnormalType>
 		<abnormalVisualEffect>BR_SOUL_AVATAR</abnormalVisualEffect>
 		<blockedInOlympiad>true</blockedInOlympiad>
-		<icon>BranchSys2.icon.br_soulavatar_stat_i00</icon>
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>180000</reuseDelay>
-		<rideState>NONE</rideState>
 		<staticReuse>true</staticReuse>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -2178,17 +2106,16 @@
 		</conditions>
 	</skill>
 	<skill id="21174" toLevel="1" name="Reinforced Authority - WIT + 1 / MEN + 1">
-		<!-- Enhanced authority grants WIT+1 / MEN+1 for 2 minutes. Consumes 240 energy. Reuse delay 3 minutes. -->
+		<!-- By enhance authority, WIT + 1 / MEN + 1 for 2 minutes. Consumes 240 energy. Cooldown 3 minutes. -->
+		<icon>BranchSys2.icon.br_soulavatar_stat_i00</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>120</abnormalTime>
 		<abnormalType>BR_EVENT_BUF1</abnormalType>
 		<abnormalVisualEffect>BR_SOUL_AVATAR</abnormalVisualEffect>
 		<blockedInOlympiad>true</blockedInOlympiad>
-		<icon>BranchSys2.icon.br_soulavatar_stat_i00</icon>
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>180000</reuseDelay>
-		<rideState>NONE</rideState>
 		<staticReuse>true</staticReuse>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -2207,17 +2134,16 @@
 		</conditions>
 	</skill>
 	<skill id="21175" toLevel="1" name="Reinforced Authority - CON + 1 / DEX + 1">
-		<!-- Enhanced authority grants CON+1 / DEX+1 for 2 minutes. Consumes 240 energy. Reuse delay 3 minutes. -->
+		<!-- By enhance authority, CON + 1 / DEX + 1 for 2 minutes. Consumes 240 energy. Cooldown 3 minutes. -->
+		<icon>BranchSys2.icon.br_soulavatar_stat_i00</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>120</abnormalTime>
 		<abnormalType>BR_EVENT_BUF1</abnormalType>
 		<abnormalVisualEffect>BR_SOUL_AVATAR</abnormalVisualEffect>
 		<blockedInOlympiad>true</blockedInOlympiad>
-		<icon>BranchSys2.icon.br_soulavatar_stat_i00</icon>
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>180000</reuseDelay>
-		<rideState>NONE</rideState>
 		<staticReuse>true</staticReuse>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -2236,13 +2162,12 @@
 		</conditions>
 	</skill>
 	<skill id="21176" toLevel="1" name="Divine Protection - Holy">
-		<!-- Increases divinity type P. Atk. and P. Def. by 10 each. Continuously consumes energy. -->
+		<!-- Increases Holy P. Atk. and P. Def. by 10 each. Continuously consumes energy. -->
+		<icon>BranchSys2.icon.br_soulavatar_attr_i00</icon>
 		<abnormalVisualEffect>BR_SOUL_AVATAR</abnormalVisualEffect>
 		<blockedInOlympiad>true</blockedInOlympiad>
-		<icon>BranchSys2.icon.br_soulavatar_attr_i00</icon>
 		<magicLvl>1</magicLvl>
 		<operateType>T</operateType>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>NONE</targetType>
 		<conditions>
@@ -2253,13 +2178,12 @@
 		</conditions>
 	</skill>
 	<skill id="21177" toLevel="1" name="Divine Protection - Water">
-		<!-- Increases water type P. Atk. and P. Def. by 10 each. Continuously consumes energy. -->
+		<!-- Increases Water P. Atk. and P. Def. by 10 each. Continuously consumes energy. -->
+		<icon>BranchSys2.icon.br_soulavatar_attr_i00</icon>
 		<abnormalVisualEffect>BR_SOUL_AVATAR</abnormalVisualEffect>
 		<blockedInOlympiad>true</blockedInOlympiad>
-		<icon>BranchSys2.icon.br_soulavatar_attr_i00</icon>
 		<magicLvl>1</magicLvl>
 		<operateType>T</operateType>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>NONE</targetType>
 		<conditions>
@@ -2270,13 +2194,12 @@
 		</conditions>
 	</skill>
 	<skill id="21178" toLevel="1" name="Divine Protection - Fire">
-		<!-- Increases fire type P. Atk. and P. Def. by 10 each. Continuously consumes energy. -->
+		<!-- Increases Fire P. Atk. and P. Def. by 10 each. Continuously consumes energy. -->
+		<icon>BranchSys2.icon.br_soulavatar_attr_i00</icon>
 		<abnormalVisualEffect>BR_SOUL_AVATAR</abnormalVisualEffect>
 		<blockedInOlympiad>true</blockedInOlympiad>
-		<icon>BranchSys2.icon.br_soulavatar_attr_i00</icon>
 		<magicLvl>1</magicLvl>
 		<operateType>T</operateType>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>NONE</targetType>
 		<conditions>
@@ -2287,13 +2210,12 @@
 		</conditions>
 	</skill>
 	<skill id="21179" toLevel="1" name="Divine Protection - Wind">
-		<!-- Increases wind type P. Atk. and P. Def. by 10 each. Continuously consumes energy. -->
+		<!-- Increases Water P. Atk. and P. Def. by 10 each. Continuously consumes energy. -->
+		<icon>BranchSys2.icon.br_soulavatar_attr_i00</icon>
 		<abnormalVisualEffect>BR_SOUL_AVATAR</abnormalVisualEffect>
 		<blockedInOlympiad>true</blockedInOlympiad>
-		<icon>BranchSys2.icon.br_soulavatar_attr_i00</icon>
 		<magicLvl>1</magicLvl>
 		<operateType>T</operateType>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>NONE</targetType>
 		<conditions>
@@ -2304,13 +2226,12 @@
 		</conditions>
 	</skill>
 	<skill id="21180" toLevel="1" name="Divine Protection - Earth">
-		<!-- Increases earth type P. Atk. and P. Def. by 10 each. Continuously consumes energy. -->
+		<!-- Increases Earth P. Atk. and P. Def. by 10 each. Continuously consumes energy. -->
+		<icon>BranchSys2.icon.br_soulavatar_attr_i00</icon>
 		<abnormalVisualEffect>BR_SOUL_AVATAR</abnormalVisualEffect>
 		<blockedInOlympiad>true</blockedInOlympiad>
-		<icon>BranchSys2.icon.br_soulavatar_attr_i00</icon>
 		<magicLvl>1</magicLvl>
 		<operateType>T</operateType>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>NONE</targetType>
 		<conditions>
@@ -2321,13 +2242,12 @@
 		</conditions>
 	</skill>
 	<skill id="21181" toLevel="1" name="Divine Protection - Dark">
-		<!-- Increases darkness type P. Atk. and P. Def. by 10 each. Continuously consumes energy. -->
+		<!-- Increases Dark P. Atk. and P. Def. by 10 each. Continuously consumes energy. -->
+		<icon>BranchSys2.icon.br_soulavatar_attr_i00</icon>
 		<abnormalVisualEffect>BR_SOUL_AVATAR</abnormalVisualEffect>
 		<blockedInOlympiad>true</blockedInOlympiad>
-		<icon>BranchSys2.icon.br_soulavatar_attr_i00</icon>
 		<magicLvl>1</magicLvl>
 		<operateType>T</operateType>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>NONE</targetType>
 		<conditions>
@@ -2338,14 +2258,12 @@
 		</conditions>
 	</skill>
 	<skill id="21182" toLevel="1" name="Blessing of Resistance - Hold">
-		<!-- TODO: Implement me! -->
-		<!-- Raises resistance to hold by 40%. Continuously consumes energy. -->
+		<!-- Increases Hold Resistance by 40%. Continuously consumes energy. -->
+		<icon>BranchSys2.icon.br_soulavatar_resist_i00</icon>
 		<abnormalVisualEffect>BR_SOUL_AVATAR</abnormalVisualEffect>
 		<blockedInOlympiad>true</blockedInOlympiad>
-		<icon>BranchSys2.icon.br_soulavatar_resist_i00</icon>
 		<magicLvl>1</magicLvl>
 		<operateType>T</operateType>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>NONE</targetType>
 		<conditions>
@@ -2361,14 +2279,12 @@
 		</effects>
 	</skill>
 	<skill id="21183" toLevel="1" name="Blessing of Resistance - Paralysis">
-		<!-- TODO: Implement me! -->
-		<!-- Raises resistance to paralysis by 40%. Continuously consumes energy. -->
+		<!-- Increases Paralysis Resistance by 40%. Continuously consumes energy. -->
+		<icon>BranchSys2.icon.br_soulavatar_resist_i00</icon>
 		<abnormalVisualEffect>BR_SOUL_AVATAR</abnormalVisualEffect>
 		<blockedInOlympiad>true</blockedInOlympiad>
-		<icon>BranchSys2.icon.br_soulavatar_resist_i00</icon>
 		<magicLvl>1</magicLvl>
 		<operateType>T</operateType>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>NONE</targetType>
 		<conditions>
@@ -2384,14 +2300,12 @@
 		</effects>
 	</skill>
 	<skill id="21184" toLevel="1" name="Blessing of Resistance - Sleep">
-		<!-- TODO: Implement me! -->
-		<!-- Raises resistance to sleep by 40%. Continuously consumes energy. -->
+		<!-- Increases Sleep Resistance by 40%. Continuously consumes energy. -->
+		<icon>BranchSys2.icon.br_soulavatar_resist_i00</icon>
 		<abnormalVisualEffect>BR_SOUL_AVATAR</abnormalVisualEffect>
 		<blockedInOlympiad>true</blockedInOlympiad>
-		<icon>BranchSys2.icon.br_soulavatar_resist_i00</icon>
 		<magicLvl>1</magicLvl>
 		<operateType>T</operateType>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>NONE</targetType>
 		<conditions>
@@ -2407,13 +2321,12 @@
 		</effects>
 	</skill>
 	<skill id="21185" toLevel="1" name="Blessing of Resistance - Decrease Speed">
-		<!-- Raises resistance to decreased moving speed by 40%. Continuously consumes energy. -->
+		<!-- Increases Slow Resistance by 40%. Continuously consumes energy. -->
+		<icon>BranchSys2.icon.br_soulavatar_resist_i00</icon>
 		<abnormalVisualEffect>BR_SOUL_AVATAR</abnormalVisualEffect>
 		<blockedInOlympiad>true</blockedInOlympiad>
-		<icon>BranchSys2.icon.br_soulavatar_resist_i00</icon>
 		<magicLvl>1</magicLvl>
 		<operateType>T</operateType>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>NONE</targetType>
 		<conditions>
@@ -2424,14 +2337,12 @@
 		</conditions>
 	</skill>
 	<skill id="21186" toLevel="1" name="Blessing of Resistance - Bleed">
-		<!-- TODO: Implement me! -->
-		<!-- Raises resistance to bleed by 40%. Continuously consumes energy. -->
+		<!-- Increases Bleed Resistance by 40%. Continuously consumes energy. -->
+		<icon>BranchSys2.icon.br_soulavatar_resist_i00</icon>
 		<abnormalVisualEffect>BR_SOUL_AVATAR</abnormalVisualEffect>
 		<blockedInOlympiad>true</blockedInOlympiad>
-		<icon>BranchSys2.icon.br_soulavatar_resist_i00</icon>
 		<magicLvl>1</magicLvl>
 		<operateType>T</operateType>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>NONE</targetType>
 		<conditions>
@@ -2447,14 +2358,12 @@
 		</effects>
 	</skill>
 	<skill id="21187" toLevel="1" name="Blessing of Resistance - Stun">
-		<!-- TODO: Implement me! -->
-		<!-- Raises resistance to stun by 40%. Continuously consumes energy. -->
+		<!-- Increases Stun Resistance by 40%. Continuously consumes energy. -->
+		<icon>BranchSys2.icon.br_soulavatar_resist_i00</icon>
 		<abnormalVisualEffect>BR_SOUL_AVATAR</abnormalVisualEffect>
 		<blockedInOlympiad>true</blockedInOlympiad>
-		<icon>BranchSys2.icon.br_soulavatar_resist_i00</icon>
 		<magicLvl>1</magicLvl>
 		<operateType>T</operateType>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>NONE</targetType>
 		<conditions>
@@ -2470,13 +2379,12 @@
 		</effects>
 	</skill>
 	<skill id="21188" toLevel="1" name="Recovery Ability: HP">
-		<!-- Increases HP recovery bonus by 20%. Continuously consumes energy. -->
+		<!-- Increases HP Recovery Bonus by 20%. Continuously consumes energy. -->
+		<icon>BranchSys2.icon.br_soulavatar_regen_i00</icon>
 		<abnormalVisualEffect>BR_SOUL_AVATAR</abnormalVisualEffect>
 		<blockedInOlympiad>true</blockedInOlympiad>
-		<icon>BranchSys2.icon.br_soulavatar_regen_i00</icon>
 		<magicLvl>1</magicLvl>
 		<operateType>T</operateType>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>NONE</targetType>
 		<conditions>
@@ -2487,13 +2395,12 @@
 		</conditions>
 	</skill>
 	<skill id="21189" toLevel="1" name="Recovery Ability: MP">
-		<!-- Increases MP recovery bonus by 20%. Continuously consumes energy. -->
+		<!-- Increases MP Recovery Bonus by 20%. Continuously consumes energy. -->
+		<icon>BranchSys2.icon.br_soulavatar_regen_i00</icon>
 		<abnormalVisualEffect>BR_SOUL_AVATAR</abnormalVisualEffect>
 		<blockedInOlympiad>true</blockedInOlympiad>
-		<icon>BranchSys2.icon.br_soulavatar_regen_i00</icon>
 		<magicLvl>1</magicLvl>
 		<operateType>T</operateType>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>NONE</targetType>
 		<conditions>
@@ -2504,17 +2411,16 @@
 		</conditions>
 	</skill>
 	<skill id="21190" toLevel="1" name="Soul's Shield">
-		<!-- Physical/Magic P. Def is increased by 60% for 10 seconds. Consumed 500 energy. Cooldown takes 20 minutes. -->
+		<!-- For 10 seconds, increases P. Def. and M. Def. by 60%. Consumes 500 energy. Cooldown 20 minutes. -->
+		<icon>BranchSys2.icon.br_soulavatar_active_i00</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>10</abnormalTime>
 		<abnormalType>PD_UP_SPECIAL</abnormalType>
 		<abnormalVisualEffect>ULTIMATE_DEFENCE</abnormalVisualEffect>
 		<blockedInOlympiad>true</blockedInOlympiad>
-		<icon>BranchSys2.icon.br_soulavatar_active_i00</icon>
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>1200000</reuseDelay>
-		<rideState>NONE</rideState>
 		<staticReuse>true</staticReuse>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -2532,36 +2438,35 @@
 		</conditions>
 	</skill>
 	<skill id="21191" toLevel="1" name="Release Agathion's Seal - Phoenix">
-		<!-- Confirmed CT2.5 -->
-		<hitTime>3000</hitTime>
+		<!-- Removes the Agathion's seal. -->
 		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SummonAgathion">
-				<npcId>1574</npcId>
+				<npcId>1574</npcId> <!-- Phoenix -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="21192" toLevel="1" name="Silent Move">
+		<!-- For 2 minutes, blocks receive preemptive attacks from monsters. Decreases Speed by 40%. Cooldown is 4 hours. -->
+		<icon>BranchSys2.icon.br_fox_japan_cap_i00</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>120</abnormalTime>
 		<abnormalType>STEALTH</abnormalType>
 		<abnormalVisualEffect>STEALTH</abnormalVisualEffect>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>2000</hitTime>
-		<icon>BranchSys2.icon.br_fox_japan_cap_i00</icon>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>14400000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<staticReuse>true</staticReuse>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -2580,17 +2485,16 @@
 		</effects>
 	</skill>
 	<skill id="21193" toLevel="1" name="Power of Guardian Deity">
-		<!-- Increases Critical attack power by 35% for 10 minutes. Cooldown takes 1 hour. -->
+		<!-- Increases Critical Damage by 35% for 10 minutes. Cooldown is 1 hour. -->
+		<icon>BranchSys2.icon.br_paiwan_cap_i00</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>600</abnormalTime>
 		<abnormalType>CRITICAL_DMG_UP</abnormalType>
 		<blockedInOlympiad>true</blockedInOlympiad>
-		<icon>BranchSys2.icon.br_paiwan_cap_i00</icon>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>3600000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<staticReuse>true</staticReuse>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -2602,37 +2506,35 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="21194" toLevel="1" name="Release Agathion's Seal - Three-headed Dragon">
-		<!-- Confirmed CT2.5 -->
-		<hitTime>3000</hitTime>
+		<!-- Removes the Agathion's seal. -->
 		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SummonAgathion">
-				<npcId>1575</npcId>
+				<npcId>1575</npcId> <!-- Three-headed Dragon -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="21195" toLevel="1" name="Blessed Child Transformation Skill: Trejuo">
-		<!-- Confirmed CT2.5 -->
+		<!-- Transforms into the Blessed Child Trejuo. When transformed into Trejuo, recovers Vitality upon acquiring XP. Cooldown is 4 hours. -->
+		<icon>icon.skilltransform3</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>3600</abnormalTime>
 		<abnormalType>TRANSFORM</abnormalType>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<effectPoint>1</effectPoint>
 		<hitTime>500</hitTime>
-		<icon>icon.skilltransform3</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>14400000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -2658,19 +2560,18 @@
 		</effects>
 	</skill>
 	<skill id="21196" toLevel="1" name="Blessed Child Transformation Skill: Sujin">
-		<!-- Confirmed CT2.5 -->
+		<!-- Transforms into the Blessed Child Sujin. When transformed into Sujin, recovers Vitality upon acquiring XP. Cooldown is 4 hours. -->
+		<icon>icon.skilltransform3</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>3600</abnormalTime>
 		<abnormalType>TRANSFORM</abnormalType>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<effectPoint>1</effectPoint>
 		<hitTime>500</hitTime>
-		<icon>icon.skilltransform3</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>14400000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -2696,16 +2597,15 @@
 		</effects>
 	</skill>
 	<skill id="21197" toLevel="1" name="Induk's Buff">
-		<!-- Recovers all HP, MP, and CP with the power of virtue. Reuse delay 30 minutes. It can only be used when HP, MP, and CP are all below 30%. When you use the skill, 1 Proof of a Warrior is consumed. -->
-		<blockedInOlympiad>true</blockedInOlympiad>
+		<!-- Restores all HP, MP, and CP using the strength of Induk. Cooldown 30 minutes. Can only be used when HP, MP, and CP are all below 30%. Consumes 1 Proof of a Warrior upon skill use. -->
 		<icon>BranchSys2.icon.br_pekingopera_mask_a_i00</icon>
+		<blockedInOlympiad>true</blockedInOlympiad>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>20976</itemConsumeId> <!-- Proof of a Warrior -->
 		<magicLvl>1</magicLvl>
 		<operateType>A1</operateType>
 		<reuseDelay>1800000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<hitTime>500</hitTime>
@@ -2725,21 +2625,20 @@
 		</conditions>
 	</skill>
 	<skill id="21198" toLevel="1" name="Silence of Loyalty">
-		<!-- Through the power of loyalty, raises party members' physical P. Def., M. Def. by 30%, physical P. Atk. by 20%, M. Atk. by 45%, and moving speed by 30 for 5 minutes. Reuse delay 30 minutes. Consumes 1 Proof of a Warrior upon skill use. -->
+		<!-- Through the power of loyalty, increases party members' P. Def., M. Def. by 30%, P. Atk. by 20%, M. Atk. by 45%, and Speed by 30 for 5 minutes. Cooldown 30 minutes. Consumes 1 Proof of a Warrior upon skill use. -->
+		<icon>BranchSys2.icon.br_pekingopera_mask_b_i00</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>300</abnormalTime>
 		<abnormalType>MULTI_BUFF</abnormalType>
 		<activateRate>0</activateRate>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<effectPoint>486</effectPoint>
-		<icon>BranchSys2.icon.br_pekingopera_mask_b_i00</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>20976</itemConsumeId> <!-- Proof of a Warrior -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>1800000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -2756,21 +2655,20 @@
 		<affectObject>FRIEND</affectObject>
 	</skill>
 	<skill id="21199" toLevel="1" name="Vitality of Courage">
-		<!-- Confirmed CT2.5 -->
+		<!-- Restores Vitality by certain amount using the power of Excellence, and for 5 minutes, maintains the Vitality stage. Cooldown 30 minutes. Consumes 1 Proof of a Warrior and 2 Vitality Effects upon skill use. -->
+		<icon>BranchSys2.icon.br_pekingopera_mask_c_i00</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>300</abnormalTime>
 		<abnormalType>VP_KEEP</abnormalType>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<effectPoint>1</effectPoint>
 		<hitTime>500</hitTime>
-		<icon>BranchSys2.icon.br_pekingopera_mask_c_i00</icon>
 		<isMagic>4</isMagic> <!-- Item Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>20976</itemConsumeId> <!-- Proof of a Warrior -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>1800000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>

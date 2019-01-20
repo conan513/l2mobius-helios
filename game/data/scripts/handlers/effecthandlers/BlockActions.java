@@ -73,7 +73,7 @@ public final class BlockActions extends AbstractEffect
 			{
 				if ((effector != null) && !effector.isDead())
 				{
-					((L2Summon) effected).doAttack(effector);
+					((L2Summon) effected).doAutoAttack(effector);
 				}
 				else
 				{

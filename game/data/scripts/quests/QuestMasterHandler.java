@@ -421,6 +421,7 @@ import quests.Q10797_CrossingFate.Q10797_CrossingFate;
 import quests.Q10798_LettersFromTheQueenDragonValley.Q10798_LettersFromTheQueenDragonValley;
 import quests.Q10799_StrangeThingsAfootInTheValley.Q10799_StrangeThingsAfootInTheValley;
 import quests.Q10800_ReconnaissanceAtDragonValley.Q10800_ReconnaissanceAtDragonValley;
+import quests.Q10801_TheDimensionalWarpPart1.Q10801_TheDimensionalWarpPart1;
 import quests.Q10811_ExaltedOneWhoFacesTheLimit.Q10811_ExaltedOneWhoFacesTheLimit;
 import quests.Q10812_FacingSadness.Q10812_FacingSadness;
 import quests.Q10813_ForGlory.Q10813_ForGlory;
@@ -860,6 +861,7 @@ public class QuestMasterHandler
 		Q10798_LettersFromTheQueenDragonValley.class,
 		Q10799_StrangeThingsAfootInTheValley.class,
 		Q10800_ReconnaissanceAtDragonValley.class,
+		Q10801_TheDimensionalWarpPart1.class,
 		Q10811_ExaltedOneWhoFacesTheLimit.class,
 		Q10812_FacingSadness.class,
 		Q10813_ForGlory.class,

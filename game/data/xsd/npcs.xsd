@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-	<xs:complexType name="drop_list_item">
+	<xs:complexType name="dropListItem">
 		<xs:attribute name="id" type="xs:positiveInteger" use="required" />
 		<xs:attribute name="min" type="xs:nonNegativeInteger" />
 		<xs:attribute name="max" type="xs:positiveInteger" />
 		<xs:attribute name="chance" type="xs:decimal" />
 	</xs:complexType>
-	<xs:complexType name="drop_list">
+	<xs:complexType name="dropList">
 		<xs:choice minOccurs="1" maxOccurs="unbounded">
-			<xs:element name="item" type="drop_list_item" />
+			<xs:element name="item" type="dropListItem" />
 		</xs:choice>
 	</xs:complexType>
 	<xs:element name="list">
@@ -174,7 +174,7 @@
 												</xs:all>
 											</xs:complexType>
 										</xs:element>
-										<xs:element name="hit_time" type="xs:nonNegativeInteger" minOccurs="0" maxOccurs="1" />
+										<xs:element name="hitTime" type="xs:nonNegativeInteger" minOccurs="0" maxOccurs="1" />
 									</xs:all>
 									<xs:attribute name="str" type="xs:nonNegativeInteger" />
 									<xs:attribute name="int" type="xs:nonNegativeInteger" />
@@ -205,7 +205,7 @@
 									<xs:attribute name="fakePlayerTalkable" type="xs:boolean" />
 								</xs:complexType>
 							</xs:element>
-							<xs:element name="skill_list" minOccurs="0" maxOccurs="1">
+							<xs:element name="skillList" minOccurs="0" maxOccurs="1">
 								<xs:complexType>
 									<xs:sequence>
 										<xs:element name="skill" minOccurs="1" maxOccurs="unbounded">
@@ -225,9 +225,9 @@
 									<xs:attribute name="spiritChance" type="xs:nonNegativeInteger" />
 								</xs:complexType>
 							</xs:element>
-							<xs:element name="corpse_time" type="xs:nonNegativeInteger" minOccurs="0" maxOccurs="1" />
-							<xs:element name="ex_crt_effect" type="xs:boolean" minOccurs="0" maxOccurs="1" />
-							<xs:element name="s_npc_prop_hp_rate" type="xs:decimal" minOccurs="0" maxOccurs="1" />
+							<xs:element name="corpseTime" type="xs:nonNegativeInteger" minOccurs="0" maxOccurs="1" />
+							<xs:element name="exCrtEffect" type="xs:boolean" minOccurs="0" maxOccurs="1" />
+							<xs:element name="sNpcPropHpRate" type="xs:decimal" minOccurs="0" maxOccurs="1" />
 							<xs:element name="ai" minOccurs="0" maxOccurs="1">
 								<xs:complexType>
 									<xs:all>
@@ -242,11 +242,11 @@
 												<xs:attribute name="longRangeChance" type="xs:nonNegativeInteger" />
 											</xs:complexType>
 										</xs:element>
-										<xs:element name="clan_list" minOccurs="0" maxOccurs="1">
+										<xs:element name="clanList" minOccurs="0" maxOccurs="1">
 											<xs:complexType>
 												<xs:choice minOccurs="1" maxOccurs="unbounded">
 													<xs:element name="clan" type="xs:token" />
-													<xs:element name="ignore_npc_id" type="xs:nonNegativeInteger" />
+													<xs:element name="ignoreNpcId" type="xs:nonNegativeInteger" />
 												</xs:choice>
 											</xs:complexType>
 										</xs:element>
@@ -259,12 +259,12 @@
 									<xs:attribute name="isAggressive" type="xs:boolean" />
 								</xs:complexType>
 							</xs:element>
-							<xs:element name="drop_lists" minOccurs="0" maxOccurs="1">
+							<xs:element name="dropLists" minOccurs="0" maxOccurs="1">
 								<xs:complexType>
 									<xs:all>
-										<xs:element name="drop" type="drop_list" minOccurs="0" maxOccurs="1" />
-										<xs:element name="spoil" type="drop_list" minOccurs="0" maxOccurs="1" />
-										<xs:element name="lucky_drop" type="drop_list" minOccurs="0" maxOccurs="1" />
+										<xs:element name="drop" type="dropList" minOccurs="0" maxOccurs="1" />
+										<xs:element name="spoil" type="dropList" minOccurs="0" maxOccurs="1" />
+										<xs:element name="lucky" type="dropList" minOccurs="0" maxOccurs="1" />
 									</xs:all>
 								</xs:complexType>
 							</xs:element>
@@ -286,7 +286,7 @@
 									</xs:all>
 								</xs:complexType>
 							</xs:element>
-							<xs:element name="extend_drop" minOccurs="0" maxOccurs="1">
+							<xs:element name="extendDrop" minOccurs="0" maxOccurs="1">
 								<xs:complexType>
 									<xs:sequence>
 										<xs:element type="xs:byte" name="id" maxOccurs="unbounded" minOccurs="1" />

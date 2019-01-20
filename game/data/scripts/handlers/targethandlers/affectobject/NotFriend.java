@@ -122,6 +122,12 @@ public class NotFriend implements IAffectObjectHandler
 					return true;
 				}
 				
+				// At this point summon should be prevented from attacking friendly targets.
+				if (activeChar.isSummon())
+				{
+					return true;
+				}
+				
 				// By default any flagged/PK player is considered enemy.
 				return (target.getActingPlayer().getPvpFlag() > 0) || (target.getActingPlayer().getReputation() < 0);
 			}

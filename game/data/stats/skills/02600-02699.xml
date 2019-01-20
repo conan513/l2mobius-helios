@@ -4,7 +4,6 @@
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>1</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
@@ -14,7 +13,6 @@
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>1</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
@@ -24,7 +22,6 @@
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>1</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
@@ -34,7 +31,6 @@
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>1</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
@@ -47,7 +43,6 @@
 		<magicLvl>1</magicLvl>
 		<operateType>A1</operateType>
 		<reuseDelay>1500</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
@@ -60,19 +55,15 @@
 		<magicLvl>1</magicLvl>
 		<operateType>A1</operateType>
 		<reuseDelay>3000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="2606" toLevel="1" name="Gran Kain's Gift Box">
-		<!-- Confirmed CT2.5 -->
-		<!-- set name="reuseDelay" val="86400000" / -->
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>1</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<reuseDelay>86400000</reuseDelay>
@@ -89,40 +80,40 @@
 			<effect name="RestorationRandom">
 				<items>
 					<item chance="0.8130">
-						<item id="13259" count="1" />
+						<item id="13259" count="1" /> <!-- Gran Kain's Blessed Scroll of Resurrection -->
 					</item>
 					<item chance="1.626">
-						<item id="13258" count="1" />
+						<item id="13258" count="1" /> <!-- Gran Kain's Blessed Scroll of Escape -->
 					</item>
 					<item chance="16.260">
-						<item id="13260" count="1" />
+						<item id="13260" count="1" /> <!-- Gran Kain's Squeaking Shoes - 10-hour -->
 					</item>
 					<item chance="4.645">
-						<item id="13261" count="10" />
+						<item id="13261" count="10" /> <!-- Gran Kain's Echo Crystal - Theme of Journey -->
 					</item>
 					<item chance="4.645">
-						<item id="13262" count="10" />
+						<item id="13262" count="10" /> <!-- Gran Kain's Echo Crystal - Theme of Battle -->
 					</item>
 					<item chance="4.645">
-						<item id="13263" count="10" />
+						<item id="13263" count="10" /> <!-- Gran Kain's Echo Crystal - Theme of Love -->
 					</item>
 					<item chance="4.645">
-						<item id="13264" count="10" />
+						<item id="13264" count="10" /> <!-- Gran Kain's Echo Crystal - Theme of Solitude -->
 					</item>
 					<item chance="4.645">
-						<item id="13265" count="10" />
+						<item id="13265" count="10" /> <!-- Gran Kain's Echo Crystal - Theme of Festival -->
 					</item>
 					<item chance="4.645">
-						<item id="13266" count="10" />
+						<item id="13266" count="10" /> <!-- Gran Kain's Echo Crystal - Theme of Celebration -->
 					</item>
 					<item chance="4.645">
-						<item id="13267" count="10" />
+						<item id="13267" count="10" /> <!-- Gran Kain's Echo Crystal - Theme of Comedy -->
 					</item>
 					<item chance="32.5260">
-						<item id="13268" count="10" />
+						<item id="13268" count="10" /> <!-- Gran Kain's Firecracker -->
 					</item>
 					<item chance="16.260">
-						<item id="13269" count="10" />
+						<item id="13269" count="10" /> <!-- Gran Kain's Large Firecracker -->
 					</item>
 				</items>
 			</effect>
@@ -137,7 +128,6 @@
 		<magicLvl>1</magicLvl>
 		<operateType>A1</operateType>
 		<reuseDelay>1000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>400</effectRange>
 		<castRange>400</castRange>
@@ -164,9 +154,6 @@
 		</effects>
 	</skill>
 	<skill id="2608" toLevel="3" name="Fantasy Red Crystal">
-		<!-- Lvl 1: Blue Crystal of Fantasy -->
-		<!-- Lvl 2: Green Crystal of Fantasy -->
-		<!-- Lvl 3: Red Crystal of Fantasy -->
 		<hitTime>200</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
@@ -178,7 +165,6 @@
 		<magicLvl>1</magicLvl>
 		<operateType>A1</operateType>
 		<reuseDelay>3000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
@@ -194,7 +180,6 @@
 		</effects>
 	</skill>
 	<skill id="2609" toLevel="20" name="Scroll of Escape: Kamael Village">
-		<!-- Confirmed CT2.5 -->
 		<hitTime>20000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<itemConsumeId>
@@ -222,7 +207,6 @@
 		<itemConsumeCount>1</itemConsumeCount>
 		<magicLvl>1</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -310,7 +294,6 @@
 		<itemConsumeId>13301</itemConsumeId> <!-- My Teleport Spellbook (Event) -->
 		<magicLvl>1</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
@@ -331,7 +314,6 @@
 		<magicLvl>1</magicLvl>
 		<operateType>A1</operateType>
 		<reuseDelay>3000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
@@ -342,7 +324,6 @@
 		<magicLvl>1</magicLvl>
 		<operateType>A1</operateType>
 		<reuseDelay>3000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
@@ -353,7 +334,6 @@
 		<magicLvl>1</magicLvl>
 		<operateType>A1</operateType>
 		<reuseDelay>3000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
@@ -364,21 +344,18 @@
 		<magicLvl>1</magicLvl>
 		<operateType>A1</operateType>
 		<reuseDelay>3000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="2615" toLevel="1" name="Shards of Broken Darkness">
-		<!-- Confirmed CT2.5 -->
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>13853</itemConsumeId> <!-- Destroyed Darkness Fragment Powder -->
 		<magicLvl>1</magicLvl>
 		<operateType>A1</operateType>
 		<reuseDelay>3000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
@@ -404,6 +381,7 @@
 		</effects>
 	</skill>
 	<skill id="2616" toLevel="1" name="Bond Sealant">
+		<!-- A block is adhered to the floor and cannot move. -->
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>10</abnormalTime>
 		<abnormalType>INVINCIBILITY</abnormalType>
@@ -412,7 +390,6 @@
 		<magicLvl>1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>2000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>1500</effectRange>
@@ -436,7 +413,6 @@
 		<magicLvl>1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>2000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>1500</effectRange>
@@ -460,7 +436,6 @@
 		<magicLvl>1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>2000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>1500</effectRange>
@@ -474,7 +449,6 @@
 		<itemConsumeId>13297</itemConsumeId> <!-- Extra Entrance Pass - Kamaloka (Hall of the Abyss) (Event) -->
 		<magicLvl>1</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
@@ -491,7 +465,6 @@
 		<itemConsumeId>13298</itemConsumeId> <!-- Extra Entrance Pass - Near Kamaloka (Event) -->
 		<magicLvl>1</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
@@ -508,7 +481,6 @@
 		<itemConsumeId>13299</itemConsumeId> <!-- Extra Entrance Pass - Kamaloka (Labyrinth of the Abyss) (Event) -->
 		<magicLvl>1</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
@@ -520,7 +492,6 @@
 		</effects>
 	</skill>
 	<skill id="2622" toLevel="1" name="Summon Life-size Decoy">
-		<!-- Confirmed CT2.5 -->
 		<hitTime>2000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<magicLvl>1</magicLvl>
@@ -528,7 +499,6 @@
 		<mpInitialConsume>15</mpInitialConsume>
 		<operateType>A1</operateType>
 		<reuseDelay>1800000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -544,21 +514,21 @@
 		</conditions>
 		<effects>
 			<effect name="SummonNpc">
-				<npcId>32544</npcId>
+				<npcId>32544</npcId> <!-- Seed of Generation -->
 				<npcCount>1</npcCount>
 			</effect>
 		</effects>
 	</skill>
 	<skill id="2623" toLevel="1" name="Alkaline Therapy">
+		<!-- Covers yourself in an ointment that reduces lethal de-buff effects within the Hall of Erosion. -->
+		<icon>icon.etc_potion_of_acumen2_i00</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>1800</abnormalTime>
 		<abnormalType>MULTI_BUFF_A</abnormalType>
 		<effectPoint>1</effectPoint>
-		<icon>icon.etc_potion_of_acumen2_i00</icon>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<magicLvl>1</magicLvl>
 		<operateType>A2</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
@@ -566,15 +536,15 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="2624" toLevel="1" name="Life Aid Banding">
+		<!-- Increases Resistance to bleed damage, poison and altered conditions caused by the Death Worm within the Seed of Infinity. -->
+		<icon>icon.etc_piece_of_cloth_white_i00</icon>
 		<abnormalLvl>4</abnormalLvl>
 		<abnormalTime>1800</abnormalTime>
 		<abnormalType>RESIST_BLEEDING</abnormalType>
 		<effectPoint>1</effectPoint>
-		<icon>icon.etc_piece_of_cloth_white_i00</icon>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<magicLvl>1</magicLvl>
 		<operateType>A2</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
@@ -585,7 +555,6 @@
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<magicLvl>1</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
@@ -595,7 +564,6 @@
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<magicLvl>1</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
@@ -605,24 +573,23 @@
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<magicLvl>1</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="2628" toLevel="1" name="Structure Scarab">
+		<!-- Allows user to retain buffs and debuffs following death and resurrection. Noblesse Blessing and Amulet of Luck disappear, however. Consumes 1 Structure Scarab. -->
+		<icon>icon.etc_beetle_i00</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>600</abnormalTime>
 		<abnormalType>RESURRECTION_SPECIAL</abnormalType>
-		<icon>icon.etc_beetle_i00</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>13776</itemConsumeId> <!-- Structure Scarab -->
 		<magicLvl>1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>1800000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
@@ -639,7 +606,6 @@
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>1</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
@@ -653,7 +619,6 @@
 		<magicLvl>1</magicLvl>
 		<operateType>A1</operateType>
 		<reuseDelay>6000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>TARGET</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -674,15 +639,15 @@
 		</conditions>
 	</skill>
 	<skill id="2631" toLevel="1" name="Transformation Scroll: Frog">
+		<!-- Transforms into a frog. -->
+		<icon>icon.skilltransform3</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>1800</abnormalTime>
 		<abnormalType>TRANSFORM</abnormalType>
 		<effectPoint>1</effectPoint>
-		<icon>icon.skilltransform3</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -702,15 +667,15 @@
 		</effects>
 	</skill>
 	<skill id="2632" toLevel="1" name="Transformation Scroll: Young Child">
+		<!-- Transforms into a young child. -->
+		<icon>icon.skilltransform3</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>1800</abnormalTime>
 		<abnormalType>TRANSFORM</abnormalType>
 		<effectPoint>1</effectPoint>
-		<icon>icon.skilltransform3</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -730,7 +695,6 @@
 		</effects>
 	</skill>
 	<skill id="2633" toLevel="1" name="Elmoreden's Holy Water">
-		<!-- Confirmed CT2.5 -->
 		<castRange>400</castRange>
 		<effectPoint>-100000</effectPoint>
 		<effectRange>400</effectRange>
@@ -739,7 +703,6 @@
 		<magicLvl>1</magicLvl>
 		<operateType>A1</operateType>
 		<reuseDelay>1000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>DOOR_TREASURE</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -761,7 +724,6 @@
 		</effects>
 	</skill>
 	<skill id="2634" toLevel="1" name="Court Wizard's Blessing">
-		<!-- Confirmed CT2.5 -->
 		<castRange>400</castRange>
 		<effectPoint>-100000</effectPoint>
 		<effectRange>400</effectRange>
@@ -770,7 +732,6 @@
 		<magicLvl>1</magicLvl>
 		<operateType>A1</operateType>
 		<reuseDelay>1000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>DOOR_TREASURE</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -791,6 +752,7 @@
 		</effects>
 	</skill>
 	<skill id="2635" toLevel="1" name="Blessing of Fire">
+		<!-- Blessing of fire. Fire attribute is bestowed on physical attacks. -->
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>600</abnormalTime>
 		<abnormalType>HOLY_ATTACK</abnormalType>
@@ -799,7 +761,6 @@
 		<magicLvl>25</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>10000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
@@ -813,6 +774,7 @@
 		</effects>
 	</skill>
 	<skill id="2636" toLevel="1" name="Blessing of Earth">
+		<!-- Blessing of earth. Earth attribute is bestowed on physical attacks. -->
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>600</abnormalTime>
 		<abnormalType>HOLY_ATTACK</abnormalType>
@@ -821,7 +783,6 @@
 		<magicLvl>25</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>10000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
@@ -838,20 +799,17 @@
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>1</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>ITEM</targetType>
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="2638" toLevel="1" name="5th Anniversary Event Box">
-		<!-- Confirmed CT2.5 -->
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>13426</itemConsumeId> <!-- Small Mineral Box -->
 		<magicLvl>1</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
@@ -866,35 +824,33 @@
 			<effect name="RestorationRandom">
 				<items>
 					<item chance="16.6">
-						<item id="9546" count="1" />
+						<item id="9546" count="1" /> <!-- Fire Stone -->
 					</item>
 					<item chance="16.6">
-						<item id="9547" count="1" />
+						<item id="9547" count="1" /> <!-- Water Stone -->
 					</item>
 					<item chance="16.6">
-						<item id="9548" count="1" />
+						<item id="9548" count="1" /> <!-- Earth Stone -->
 					</item>
 					<item chance="16.6">
-						<item id="9549" count="1" />
+						<item id="9549" count="1" /> <!-- Wind Stone -->
 					</item>
 					<item chance="16.6">
-						<item id="9550" count="1" />
+						<item id="9550" count="1" /> <!-- Dark Stone -->
 					</item>
 					<item chance="17.0">
-						<item id="9551" count="1" />
+						<item id="9551" count="1" /> <!-- Holy Stone -->
 					</item>
 				</items>
 			</effect>
 		</effects>
 	</skill>
 	<skill id="2639" toLevel="1" name="5th Anniversary Event Box">
-		<!-- Confirmed CT2.5 -->
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>13423</itemConsumeId> <!-- Medium Mineral Box -->
 		<magicLvl>1</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
@@ -909,35 +865,33 @@
 			<effect name="RestorationRandom">
 				<items>
 					<item chance="16.6">
-						<item id="9546" count="2" />
+						<item id="9546" count="2" /> <!-- Fire Stone -->
 					</item>
 					<item chance="16.6">
-						<item id="9547" count="2" />
+						<item id="9547" count="2" /> <!-- Water Stone -->
 					</item>
 					<item chance="16.6">
-						<item id="9548" count="2" />
+						<item id="9548" count="2" /> <!-- Earth Stone -->
 					</item>
 					<item chance="16.6">
-						<item id="9549" count="2" />
+						<item id="9549" count="2" /> <!-- Wind Stone -->
 					</item>
 					<item chance="16.6">
-						<item id="9550" count="2" />
+						<item id="9550" count="2" /> <!-- Dark Stone -->
 					</item>
 					<item chance="17.0">
-						<item id="9551" count="2" />
+						<item id="9551" count="2" /> <!-- Holy Stone -->
 					</item>
 				</items>
 			</effect>
 		</effects>
 	</skill>
 	<skill id="2640" toLevel="1" name="5th Anniversary Event Box">
-		<!-- Confirmed CT2.5 -->
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>13428</itemConsumeId> <!-- Small Libation Box -->
 		<magicLvl>1</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
@@ -952,50 +906,48 @@
 			<effect name="RestorationRandom">
 				<items>
 					<item chance="9.0">
-						<item id="10260" count="1" />
+						<item id="10260" count="1" /> <!-- Haste Potion -->
 					</item>
 					<item chance="9.0">
-						<item id="10261" count="1" />
+						<item id="10261" count="1" /> <!-- Accuracy Juice -->
 					</item>
 					<item chance="9.0">
-						<item id="10262" count="1" />
+						<item id="10262" count="1" /> <!-- Critical Damage Juice -->
 					</item>
 					<item chance="9.0">
-						<item id="10263" count="1" />
+						<item id="10263" count="1" /> <!-- Critical Rate Juice -->
 					</item>
 					<item chance="9.0">
-						<item id="10264" count="1" />
+						<item id="10264" count="1" /> <!-- Casting Spd. Juice -->
 					</item>
 					<item chance="9.0">
-						<item id="10265" count="1" />
+						<item id="10265" count="1" /> <!-- Evasion Juice -->
 					</item>
 					<item chance="9.0">
-						<item id="10266" count="1" />
+						<item id="10266" count="1" /> <!-- M. Atk. Juice -->
 					</item>
 					<item chance="9.0">
-						<item id="10267" count="1" />
+						<item id="10267" count="1" /> <!-- P. Atk. Potion -->
 					</item>
 					<item chance="9.0">
-						<item id="10268" count="1" />
+						<item id="10268" count="1" /> <!-- Wind Walk Juice -->
 					</item>
 					<item chance="9.0">
-						<item id="10269" count="1" />
+						<item id="10269" count="1" /> <!-- P. Def. Juice -->
 					</item>
 					<item chance="10.0">
-						<item id="10270" count="1" />
+						<item id="10270" count="1" /> <!-- MP Consumption Juice -->
 					</item>
 				</items>
 			</effect>
 		</effects>
 	</skill>
 	<skill id="2641" toLevel="1" name="5th Anniversary Event Box">
-		<!-- Confirmed CT2.5 -->
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>13427</itemConsumeId> <!-- Medium Libation Box -->
 		<magicLvl>1</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
@@ -1010,50 +962,48 @@
 			<effect name="RestorationRandom">
 				<items>
 					<item chance="9.0">
-						<item id="10260" count="2" />
+						<item id="10260" count="2" /> <!-- Haste Potion -->
 					</item>
 					<item chance="9.0">
-						<item id="10261" count="2" />
+						<item id="10261" count="2" /> <!-- Accuracy Juice -->
 					</item>
 					<item chance="9.0">
-						<item id="10262" count="2" />
+						<item id="10262" count="2" /> <!-- Critical Damage Juice -->
 					</item>
 					<item chance="9.0">
-						<item id="10263" count="2" />
+						<item id="10263" count="2" /> <!-- Critical Rate Juice -->
 					</item>
 					<item chance="9.0">
-						<item id="10264" count="2" />
+						<item id="10264" count="2" /> <!-- Casting Spd. Juice -->
 					</item>
 					<item chance="9.0">
-						<item id="10265" count="2" />
+						<item id="10265" count="2" /> <!-- Evasion Juice -->
 					</item>
 					<item chance="9.0">
-						<item id="10266" count="2" />
+						<item id="10266" count="2" /> <!-- M. Atk. Juice -->
 					</item>
 					<item chance="9.0">
-						<item id="10267" count="2" />
+						<item id="10267" count="2" /> <!-- P. Atk. Potion -->
 					</item>
 					<item chance="9.0">
-						<item id="10268" count="2" />
+						<item id="10268" count="2" /> <!-- Wind Walk Juice -->
 					</item>
 					<item chance="9.0">
-						<item id="10269" count="2" />
+						<item id="10269" count="2" /> <!-- P. Def. Juice -->
 					</item>
 					<item chance="10.0">
-						<item id="10270" count="2" />
+						<item id="10270" count="2" /> <!-- MP Consumption Juice -->
 					</item>
 				</items>
 			</effect>
 		</effects>
 	</skill>
 	<skill id="2642" toLevel="1" name="5th Anniversary Event Box">
-		<!-- Confirmed CT2.5 -->
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>13424</itemConsumeId> <!-- Large Libation Box -->
 		<magicLvl>1</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
@@ -1068,50 +1018,48 @@
 			<effect name="RestorationRandom">
 				<items>
 					<item chance="9.0">
-						<item id="10260" count="3" />
+						<item id="10260" count="3" /> <!-- Haste Potion -->
 					</item>
 					<item chance="9.0">
-						<item id="10261" count="3" />
+						<item id="10261" count="3" /> <!-- Accuracy Juice -->
 					</item>
 					<item chance="9.0">
-						<item id="10262" count="3" />
+						<item id="10262" count="3" /> <!-- Critical Damage Juice -->
 					</item>
 					<item chance="9.0">
-						<item id="10263" count="3" />
+						<item id="10263" count="3" /> <!-- Critical Rate Juice -->
 					</item>
 					<item chance="9.0">
-						<item id="10264" count="3" />
+						<item id="10264" count="3" /> <!-- Casting Spd. Juice -->
 					</item>
 					<item chance="9.0">
-						<item id="10265" count="3" />
+						<item id="10265" count="3" /> <!-- Evasion Juice -->
 					</item>
 					<item chance="9.0">
-						<item id="10266" count="3" />
+						<item id="10266" count="3" /> <!-- M. Atk. Juice -->
 					</item>
 					<item chance="9.0">
-						<item id="10267" count="3" />
+						<item id="10267" count="3" /> <!-- P. Atk. Potion -->
 					</item>
 					<item chance="9.0">
-						<item id="10268" count="3" />
+						<item id="10268" count="3" /> <!-- Wind Walk Juice -->
 					</item>
 					<item chance="9.0">
-						<item id="10269" count="3" />
+						<item id="10269" count="3" /> <!-- P. Def. Juice -->
 					</item>
 					<item chance="10.0">
-						<item id="10270" count="3" />
+						<item id="10270" count="3" /> <!-- MP Consumption Juice -->
 					</item>
 				</items>
 			</effect>
 		</effects>
 	</skill>
 	<skill id="2643" toLevel="1" name="5th Anniversary Event Box">
-		<!-- Confirmed CT2.5 -->
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>13425</itemConsumeId> <!-- Small Parchment Box -->
 		<magicLvl>1</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
@@ -1126,59 +1074,57 @@
 			<effect name="RestorationRandom">
 				<items>
 					<item chance="7.14">
-						<item id="7122" count="1" />
+						<item id="7122" count="1" /> <!-- Scroll of Escape: Gludin Village -->
 					</item>
 					<item chance="7.14">
-						<item id="7123" count="1" />
+						<item id="7123" count="1" /> <!-- Scroll of Escape: Town of Gludio -->
 					</item>
 					<item chance="7.14">
-						<item id="7124" count="1" />
+						<item id="7124" count="1" /> <!-- Scroll of Escape: Town of Dion -->
 					</item>
 					<item chance="7.14">
-						<item id="7125" count="1" />
+						<item id="7125" count="1" /> <!-- Scroll of Escape: Floran Village -->
 					</item>
 					<item chance="7.14">
-						<item id="7126" count="1" />
+						<item id="7126" count="1" /> <!-- Scroll of Escape: Town of Giran -->
 					</item>
 					<item chance="7.14">
-						<item id="7127" count="1" />
+						<item id="7127" count="1" /> <!-- Scroll of Escape: Hardin's Academy -->
 					</item>
 					<item chance="7.14">
-						<item id="7128" count="1" />
+						<item id="7128" count="1" /> <!-- Scroll of Escape: Heine -->
 					</item>
 					<item chance="7.14">
-						<item id="7129" count="1" />
+						<item id="7129" count="1" /> <!-- Scroll of Escape: Town of Oren -->
 					</item>
 					<item chance="7.18">
-						<item id="7130" count="1" />
+						<item id="7130" count="1" /> <!-- Scroll of Escape: Ivory Tower -->
 					</item>
 					<item chance="7.14">
-						<item id="7131" count="1" />
+						<item id="7131" count="1" /> <!-- Scroll of Escape: Hunter's Village -->
 					</item>
 					<item chance="7.14">
-						<item id="7132" count="1" />
+						<item id="7132" count="1" /> <!-- Scroll of Escape: Town of Aden -->
 					</item>
 					<item chance="7.14">
-						<item id="7133" count="1" />
+						<item id="7133" count="1" /> <!-- Scroll of Escape: Town of Goddard -->
 					</item>
 					<item chance="7.14">
-						<item id="7134" count="1" />
+						<item id="7134" count="1" /> <!-- Scroll of Escape: Town of Rune -->
 					</item>
 					<item chance="7.14">
-						<item id="7135" count="1" />
+						<item id="7135" count="1" /> <!-- Scroll of Escape: Town of Schuttgart -->
 					</item>
 				</items>
 			</effect>
 		</effects>
 	</skill>
 	<skill id="2644" toLevel="1" name="5th Anniversary Event Box">
-		<!-- Confirmed CT2.5 -->
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>13422</itemConsumeId> <!-- Medium Parchment Box -->
 		<magicLvl>1</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
@@ -1193,60 +1139,58 @@
 			<effect name="RestorationRandom">
 				<items>
 					<item chance="7.14">
-						<item id="7122" count="2" />
+						<item id="7122" count="2" /> <!-- Scroll of Escape: Gludin Village -->
 					</item>
 					<item chance="7.14">
-						<item id="7123" count="2" />
+						<item id="7123" count="2" /> <!-- Scroll of Escape: Town of Gludio -->
 					</item>
 					<item chance="7.14">
-						<item id="7124" count="2" />
+						<item id="7124" count="2" /> <!-- Scroll of Escape: Town of Dion -->
 					</item>
 					<item chance="7.14">
-						<item id="7125" count="2" />
+						<item id="7125" count="2" /> <!-- Scroll of Escape: Floran Village -->
 					</item>
 					<item chance="7.14">
-						<item id="7126" count="2" />
+						<item id="7126" count="2" /> <!-- Scroll of Escape: Town of Giran -->
 					</item>
 					<item chance="7.14">
-						<item id="7127" count="2" />
+						<item id="7127" count="2" /> <!-- Scroll of Escape: Hardin's Academy -->
 					</item>
 					<item chance="7.14">
-						<item id="7128" count="2" />
+						<item id="7128" count="2" /> <!-- Scroll of Escape: Heine -->
 					</item>
 					<item chance="7.14">
-						<item id="7129" count="2" />
+						<item id="7129" count="2" /> <!-- Scroll of Escape: Town of Oren -->
 					</item>
 					<item chance="7.18">
-						<item id="7130" count="2" />
+						<item id="7130" count="2" /> <!-- Scroll of Escape: Ivory Tower -->
 					</item>
 					<item chance="7.14">
-						<item id="7131" count="2" />
+						<item id="7131" count="2" /> <!-- Scroll of Escape: Hunter's Village -->
 					</item>
 					<item chance="7.14">
-						<item id="7132" count="2" />
+						<item id="7132" count="2" /> <!-- Scroll of Escape: Town of Aden -->
 					</item>
 					<item chance="7.14">
-						<item id="7133" count="2" />
+						<item id="7133" count="2" /> <!-- Scroll of Escape: Town of Goddard -->
 					</item>
 					<item chance="7.14">
-						<item id="7134" count="2" />
+						<item id="7134" count="2" /> <!-- Scroll of Escape: Town of Rune -->
 					</item>
 					<item chance="7.14">
-						<item id="7135" count="2" />
+						<item id="7135" count="2" /> <!-- Scroll of Escape: Town of Schuttgart -->
 					</item>
 				</items>
 			</effect>
 		</effects>
 	</skill>
 	<skill id="2645" toLevel="1" name="Multi-Colored Honey Rice Cake">
-		<!-- Confirmed CT2.5 -->
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>13420</itemConsumeId> <!-- Multi-colored Honey Rice Cake -->
 		<magicLvl>1</magicLvl>
 		<operateType>A1</operateType>
 		<reuseDelay>3600000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
 		<hitCancelTime>0</hitCancelTime>
@@ -1264,13 +1208,11 @@
 		</effects>
 	</skill>
 	<skill id="2646" toLevel="1" name="Honey Wheat Cake">
-		<!-- Confirmed CT2.5 -->
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>13421</itemConsumeId> <!-- Honey Wheat Cake -->
 		<magicLvl>1</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
 		<hitCancelTime>0</hitCancelTime>
@@ -1289,13 +1231,11 @@
 		</effects>
 	</skill>
 	<skill id="2647" toLevel="1" name="Energy Star Stone">
-		<!-- Confirmed CT2.5 -->
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>13277</itemConsumeId> <!-- Energy Star Stone -->
 		<magicLvl>1</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
@@ -1312,13 +1252,11 @@
 		</effects>
 	</skill>
 	<skill id="2648" toLevel="1" name="High-quality Energy Star Stone">
-		<!-- Confirmed CT2.5 -->
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>13278</itemConsumeId> <!-- Greater Quality Energy Star Stone -->
 		<magicLvl>1</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
@@ -1335,7 +1273,6 @@
 		</effects>
 	</skill>
 	<skill id="2649" toLevel="9" name="Scroll of Escape: Town of Schuttgart">
-		<!-- Confirmed CT2.5 -->
 		<hitTime>200</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
@@ -1352,7 +1289,6 @@
 		</itemConsumeId>
 		<magicLvl>1</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
@@ -1403,14 +1339,12 @@
 		</effects>
 	</skill>
 	<skill id="2650" toLevel="1" name="Summon Imperial Phoenix">
-		<!-- Confirmed CT2.5 -->
 		<hitTime>1500</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>14200</itemConsumeId> <!-- Forgotten Scroll - Summon Imperial Phoenix -->
 		<magicLvl>81</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -1421,27 +1355,25 @@
 				<affectType>CASTER</affectType>
 			</condition>
 			<condition name="OpSkill">
-				<skillId>912</skillId>
+				<skillId>912</skillId> <!-- Summon Imperial Phoenix -->
 				<skillLevel>1</skillLevel>
 				<hasLearned>false</hasLearned>
 			</condition>
 		</conditions>
 		<effects>
 			<effect name="SetSkill">
-				<skillId>912</skillId>
+				<skillId>912</skillId> <!-- Summon Imperial Phoenix -->
 				<skillLvl>1</skillLvl>
 			</effect>
 		</effects>
 	</skill>
 	<skill id="2651" toLevel="1" name="Deflect Magic">
-		<!-- Confirmed CT2.5 -->
 		<hitTime>1500</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>14207</itemConsumeId> <!-- Forgotten Scroll - Deflect Magic -->
 		<magicLvl>81</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -1464,27 +1396,25 @@
 				<isWithin>true</isWithin>
 			</condition>
 			<condition name="OpSkill">
-				<skillId>913</skillId>
+				<skillId>913</skillId> <!-- Deflect Magic -->
 				<skillLevel>1</skillLevel>
 				<hasLearned>false</hasLearned>
 			</condition>
 		</conditions>
 		<effects>
 			<effect name="SetSkill">
-				<skillId>913</skillId>
+				<skillId>913</skillId> <!-- Deflect Magic -->
 				<skillLvl>1</skillLvl>
 			</effect>
 		</effects>
 	</skill>
 	<skill id="2652" toLevel="1" name="Song of Purification">
-		<!-- Confirmed CT2.5 -->
 		<hitTime>1500</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>14198</itemConsumeId> <!-- Forgotten Scroll - Song of Purification -->
 		<magicLvl>81</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -1495,27 +1425,25 @@
 				<affectType>CASTER</affectType>
 			</condition>
 			<condition name="OpSkill">
-				<skillId>914</skillId>
+				<skillId>914</skillId> <!-- Song of Purification -->
 				<skillLevel>1</skillLevel>
 				<hasLearned>false</hasLearned>
 			</condition>
 		</conditions>
 		<effects>
 			<effect name="SetSkill">
-				<skillId>914</skillId>
+				<skillId>914</skillId> <!-- Song of Purification -->
 				<skillLvl>1</skillLvl>
 			</effect>
 		</effects>
 	</skill>
 	<skill id="2653" toLevel="1" name="Dance of Berserker">
-		<!-- Confirmed CT2.5 -->
 		<hitTime>1500</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>14199</itemConsumeId> <!-- Forgotten Scroll - Dance of Berserker -->
 		<magicLvl>81</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -1526,27 +1454,25 @@
 				<affectType>CASTER</affectType>
 			</condition>
 			<condition name="OpSkill">
-				<skillId>915</skillId>
+				<skillId>915</skillId> <!-- Dance of Berserker -->
 				<skillLevel>1</skillLevel>
 				<hasLearned>false</hasLearned>
 			</condition>
 		</conditions>
 		<effects>
 			<effect name="SetSkill">
-				<skillId>915</skillId>
+				<skillId>915</skillId> <!-- Dance of Berserker -->
 				<skillLvl>1</skillLvl>
 			</effect>
 		</effects>
 	</skill>
 	<skill id="2654" toLevel="1" name="Final Secret">
-		<!-- Confirmed CT2.5 -->
 		<hitTime>1500</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>14208</itemConsumeId> <!-- Forgotten Scroll - Final Secret -->
 		<magicLvl>81</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -1570,27 +1496,25 @@
 				<isWithin>true</isWithin>
 			</condition>
 			<condition name="OpSkill">
-				<skillId>917</skillId>
+				<skillId>917</skillId> <!-- Final Secret -->
 				<skillLevel>1</skillLevel>
 				<hasLearned>false</hasLearned>
 			</condition>
 		</conditions>
 		<effects>
 			<effect name="SetSkill">
-				<skillId>917</skillId>
+				<skillId>917</skillId> <!-- Final Secret -->
 				<skillLvl>1</skillLvl>
 			</effect>
 		</effects>
 	</skill>
 	<skill id="2655" toLevel="1" name="Maximum Force Focus">
-		<!-- Confirmed CT2.5 -->
 		<hitTime>1500</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>14201</itemConsumeId> <!-- Forgotten Scroll - Maximum Force Focus -->
 		<magicLvl>81</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -1601,27 +1525,25 @@
 				<affectType>CASTER</affectType>
 			</condition>
 			<condition name="OpSkill">
-				<skillId>918</skillId>
+				<skillId>918</skillId> <!-- Maximum Force Focus -->
 				<skillLevel>1</skillLevel>
 				<hasLearned>false</hasLearned>
 			</condition>
 		</conditions>
 		<effects>
 			<effect name="SetSkill">
-				<skillId>918</skillId>
+				<skillId>918</skillId> <!-- Maximum Force Focus -->
 				<skillLvl>1</skillLvl>
 			</effect>
 		</effects>
 	</skill>
 	<skill id="2656" toLevel="1" name="Maximum Sonic Focus">
-		<!-- Confirmed CT2.5 -->
 		<hitTime>1500</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>14202</itemConsumeId> <!-- Forgotten Scroll - Maximum Sonic Focus -->
 		<magicLvl>81</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -1632,27 +1554,25 @@
 				<affectType>CASTER</affectType>
 			</condition>
 			<condition name="OpSkill">
-				<skillId>919</skillId>
+				<skillId>919</skillId> <!-- Maximum Sonic Focus -->
 				<skillLevel>1</skillLevel>
 				<hasLearned>false</hasLearned>
 			</condition>
 		</conditions>
 		<effects>
 			<effect name="SetSkill">
-				<skillId>919</skillId>
+				<skillId>919</skillId> <!-- Maximum Sonic Focus -->
 				<skillLvl>1</skillLvl>
 			</effect>
 		</effects>
 	</skill>
 	<skill id="2657" toLevel="1" name="Hide">
-		<!-- Confirmed CT2.5 -->
 		<hitTime>1500</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>14209</itemConsumeId> <!-- Forgotten Scroll - Hide -->
 		<magicLvl>81</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -1672,27 +1592,25 @@
 				<isWithin>true</isWithin>
 			</condition>
 			<condition name="OpSkill">
-				<skillId>922</skillId>
+				<skillId>922</skillId> <!-- Hide -->
 				<skillLevel>1</skillLevel>
 				<hasLearned>false</hasLearned>
 			</condition>
 		</conditions>
 		<effects>
 			<effect name="SetSkill">
-				<skillId>922</skillId>
+				<skillId>922</skillId> <!-- Hide -->
 				<skillLvl>1</skillLvl>
 			</effect>
 		</effects>
 	</skill>
 	<skill id="2658" toLevel="1" name="Dual Dagger Mastery">
-		<!-- Confirmed CT2.5 -->
 		<hitTime>1500</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>14210</itemConsumeId> <!-- Forgotten Scroll - Dual Dagger Mastery -->
 		<magicLvl>81</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -1713,27 +1631,25 @@
 				<isWithin>true</isWithin>
 			</condition>
 			<condition name="OpSkill">
-				<skillId>923</skillId>
+				<skillId>923</skillId> <!-- Dual Dagger Mastery -->
 				<skillLevel>1</skillLevel>
 				<hasLearned>false</hasLearned>
 			</condition>
 		</conditions>
 		<effects>
 			<effect name="SetSkill">
-				<skillId>923</skillId>
+				<skillId>923</skillId> <!-- Dual Dagger Mastery -->
 				<skillLvl>1</skillLvl>
 			</effect>
 		</effects>
 	</skill>
 	<skill id="2659" toLevel="1" name="Seven Arrow">
-		<!-- Confirmed CT2.5 -->
 		<hitTime>1500</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>14211</itemConsumeId> <!-- Forgotten Scroll - Seven Arrow -->
 		<magicLvl>81</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -1753,27 +1669,25 @@
 				<isWithin>true</isWithin>
 			</condition>
 			<condition name="OpSkill">
-				<skillId>924</skillId>
+				<skillId>924</skillId> <!-- Seven Arrow -->
 				<skillLevel>1</skillLevel>
 				<hasLearned>false</hasLearned>
 			</condition>
 		</conditions>
 		<effects>
 			<effect name="SetSkill">
-				<skillId>924</skillId>
+				<skillId>924</skillId> <!-- Seven Arrow -->
 				<skillLvl>1</skillLvl>
 			</effect>
 		</effects>
 	</skill>
 	<skill id="2660" toLevel="1" name="Enlightenment">
-		<!-- Confirmed CT2.5 -->
 		<hitTime>1500</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>14212</itemConsumeId> <!-- Forgotten Scroll - Enlightenment - Wizard -->
 		<magicLvl>81</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -1796,27 +1710,25 @@
 				<isWithin>true</isWithin>
 			</condition>
 			<condition name="OpSkill">
-				<skillId>1532</skillId>
+				<skillId>1532</skillId> <!-- Enlightenment -->
 				<skillLevel>1</skillLevel>
 				<hasLearned>false</hasLearned>
 			</condition>
 		</conditions>
 		<effects>
 			<effect name="SetSkill">
-				<skillId>1532</skillId>
+				<skillId>1532</skillId> <!-- Enlightenment -->
 				<skillLvl>1</skillLvl>
 			</effect>
 		</effects>
 	</skill>
 	<skill id="2661" toLevel="1" name="Enlightenment">
-		<!-- Confirmed CT2.5 -->
 		<hitTime>1500</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>14213</itemConsumeId> <!-- Forgotten Scroll - Enlightenment - Healer -->
 		<magicLvl>81</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -1839,27 +1751,25 @@
 				<isWithin>true</isWithin>
 			</condition>
 			<condition name="OpSkill">
-				<skillId>1533</skillId>
+				<skillId>1533</skillId> <!-- Enlightenment -->
 				<skillLevel>1</skillLevel>
 				<hasLearned>false</hasLearned>
 			</condition>
 		</conditions>
 		<effects>
 			<effect name="SetSkill">
-				<skillId>1533</skillId>
+				<skillId>1533</skillId> <!-- Enlightenment -->
 				<skillLvl>1</skillLvl>
 			</effect>
 		</effects>
 	</skill>
 	<skill id="2662" toLevel="1" name="Chant of Movement">
-		<!-- Confirmed CT2.5 -->
 		<hitTime>1500</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>14214</itemConsumeId> <!-- Forgotten Scroll - Chant of Movement -->
 		<magicLvl>72</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -1870,27 +1780,25 @@
 				<affectType>CASTER</affectType>
 			</condition>
 			<condition name="OpSkill">
-				<skillId>1535</skillId>
+				<skillId>1535</skillId> <!-- Chant of Movement -->
 				<skillLevel>1</skillLevel>
 				<hasLearned>false</hasLearned>
 			</condition>
 		</conditions>
 		<effects>
 			<effect name="SetSkill">
-				<skillId>1535</skillId>
+				<skillId>1535</skillId> <!-- Chant of Movement -->
 				<skillLvl>1</skillLvl>
 			</effect>
 		</effects>
 	</skill>
 	<skill id="2663" toLevel="1" name="Combat of Pa'agrio">
-		<!-- Confirmed CT2.5 -->
 		<hitTime>1500</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>14215</itemConsumeId> <!-- Forgotten Scroll - Combat of Pa'agrio -->
 		<magicLvl>70</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -1901,27 +1809,25 @@
 				<affectType>CASTER</affectType>
 			</condition>
 			<condition name="OpSkill">
-				<skillId>1536</skillId>
+				<skillId>1536</skillId> <!-- Combat of Pa'agrio -->
 				<skillLevel>1</skillLevel>
 				<hasLearned>false</hasLearned>
 			</condition>
 		</conditions>
 		<effects>
 			<effect name="SetSkill">
-				<skillId>1536</skillId>
+				<skillId>1536</skillId> <!-- Combat of Pa'agrio -->
 				<skillLvl>1</skillLvl>
 			</effect>
 		</effects>
 	</skill>
 	<skill id="2664" toLevel="1" name="Critical of Pa'agrio">
-		<!-- Confirmed CT2.5 -->
 		<hitTime>1500</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>14216</itemConsumeId> <!-- Forgotten Scroll - Critical of Pa'agrio -->
 		<magicLvl>74</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -1932,27 +1838,25 @@
 				<affectType>CASTER</affectType>
 			</condition>
 			<condition name="OpSkill">
-				<skillId>1537</skillId>
+				<skillId>1537</skillId> <!-- Critical of Pa'agrio -->
 				<skillLevel>1</skillLevel>
 				<hasLearned>false</hasLearned>
 			</condition>
 		</conditions>
 		<effects>
 			<effect name="SetSkill">
-				<skillId>1537</skillId>
+				<skillId>1537</skillId> <!-- Critical of Pa'agrio -->
 				<skillLvl>1</skillLvl>
 			</effect>
 		</effects>
 	</skill>
 	<skill id="2665" toLevel="1" name="Condition of Pa'agrio">
-		<!-- Confirmed CT2.5 -->
 		<hitTime>1500</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>14217</itemConsumeId> <!-- Forgotten Scroll - Condition of Pa'agrio -->
 		<magicLvl>72</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -1963,27 +1867,25 @@
 				<affectType>CASTER</affectType>
 			</condition>
 			<condition name="OpSkill">
-				<skillId>1538</skillId>
+				<skillId>1538</skillId> <!-- Condition of Pa'agrio -->
 				<skillLevel>1</skillLevel>
 				<hasLearned>false</hasLearned>
 			</condition>
 		</conditions>
 		<effects>
 			<effect name="SetSkill">
-				<skillId>1538</skillId>
+				<skillId>1538</skillId> <!-- Condition of Pa'agrio -->
 				<skillLvl>1</skillLvl>
 			</effect>
 		</effects>
 	</skill>
 	<skill id="2666" toLevel="1" name="Dual Blow">
-		<!-- Confirmed CT2.5 -->
 		<hitTime>1500</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>14218</itemConsumeId> <!-- Forgotten Scroll - Dual Blow -->
 		<magicLvl>81</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -2003,27 +1905,25 @@
 				<isWithin>true</isWithin>
 			</condition>
 			<condition name="OpSkill">
-				<skillId>928</skillId>
+				<skillId>928</skillId> <!-- Dual Blow -->
 				<skillLevel>1</skillLevel>
 				<hasLearned>false</hasLearned>
 			</condition>
 		</conditions>
 		<effects>
 			<effect name="SetSkill">
-				<skillId>928</skillId>
+				<skillId>928</skillId> <!-- Dual Blow -->
 				<skillLvl>1</skillLvl>
 			</effect>
 		</effects>
 	</skill>
 	<skill id="2667" toLevel="1" name="Spirit of the Cat">
-		<!-- Confirmed CT2.5 -->
 		<hitTime>1500</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>14204</itemConsumeId> <!-- Forgotten Scroll - Spirit of the Cat -->
 		<magicLvl>81</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -2034,27 +1934,25 @@
 				<affectType>CASTER</affectType>
 			</condition>
 			<condition name="OpSkill">
-				<skillId>929</skillId>
+				<skillId>929</skillId> <!-- Spirit of the Cat -->
 				<skillLevel>1</skillLevel>
 				<hasLearned>false</hasLearned>
 			</condition>
 		</conditions>
 		<effects>
 			<effect name="SetSkill">
-				<skillId>929</skillId>
+				<skillId>929</skillId> <!-- Spirit of the Cat -->
 				<skillLvl>1</skillLvl>
 			</effect>
 		</effects>
 	</skill>
 	<skill id="2668" toLevel="1" name="Spirit of the Phantom">
-		<!-- Confirmed CT2.5 -->
 		<hitTime>1500</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>14206</itemConsumeId> <!-- Forgotten Scroll - Spirit of the Phantom -->
 		<magicLvl>81</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -2065,27 +1963,25 @@
 				<affectType>CASTER</affectType>
 			</condition>
 			<condition name="OpSkill">
-				<skillId>930</skillId>
+				<skillId>930</skillId> <!-- Spirit of the Phantom -->
 				<skillLevel>1</skillLevel>
 				<hasLearned>false</hasLearned>
 			</condition>
 		</conditions>
 		<effects>
 			<effect name="SetSkill">
-				<skillId>930</skillId>
+				<skillId>930</skillId> <!-- Spirit of the Phantom -->
 				<skillLvl>1</skillLvl>
 			</effect>
 		</effects>
 	</skill>
 	<skill id="2669" toLevel="1" name="Spirit of the Unicorn">
-		<!-- Confirmed CT2.5 -->
 		<hitTime>1500</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>14205</itemConsumeId> <!-- Forgotten Scroll - Spirit of the Unicorn -->
 		<magicLvl>81</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -2096,29 +1992,28 @@
 				<affectType>CASTER</affectType>
 			</condition>
 			<condition name="OpSkill">
-				<skillId>931</skillId>
+				<skillId>931</skillId> <!-- Spirit of the Unicorn -->
 				<skillLevel>1</skillLevel>
 				<hasLearned>false</hasLearned>
 			</condition>
 		</conditions>
 		<effects>
 			<effect name="SetSkill">
-				<skillId>931</skillId>
+				<skillId>931</skillId> <!-- Spirit of the Unicorn -->
 				<skillLvl>1</skillLvl>
 			</effect>
 		</effects>
 	</skill>
 	<skill id="2670" toLevel="1" name="Transformation Scroll: Red">
-		<!-- Confirmed CT2.5 -->
+		<!-- Transforms caster into a member of the red team. -->
+		<icon>icon.skilltransform3</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>3600</abnormalTime>
 		<abnormalType>TRANSFORM</abnormalType>
 		<effectPoint>1</effectPoint>
-		<icon>icon.skilltransform3</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -2138,16 +2033,15 @@
 		</effects>
 	</skill>
 	<skill id="2671" toLevel="1" name="Transformation Scroll: Blue">
-		<!-- Confirmed CT2.5 -->
+		<!-- Transforms caster into a member of the blue team. -->
+		<icon>icon.skilltransform3</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>3600</abnormalTime>
 		<abnormalType>TRANSFORM</abnormalType>
 		<effectPoint>1</effectPoint>
-		<icon>icon.skilltransform3</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -2167,19 +2061,19 @@
 		</effects>
 	</skill>
 	<skill id="2672" toLevel="1" name="Gludio Human Mercenary">
+		<!-- Transforms into a human mercenary. -->
+		<icon>icon.skilltransform1</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>1800</abnormalTime>
 		<abnormalType>TRANSFORM</abnormalType>
 		<effectPoint>1</effectPoint>
 		<hitTime>2500</hitTime>
-		<icon>icon.skilltransform1</icon>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>13569</itemConsumeId> <!-- Transformation Scroll: Gludio Human Mercenary -->
 		<magicLvl>-2</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>14400000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<staticReuse>true</staticReuse>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -2206,19 +2100,19 @@
 		</effects>
 	</skill>
 	<skill id="2673" toLevel="1" name="Gludio Elf Mercenary">
+		<!-- Transforms into an Elf mercenary. -->
+		<icon>icon.skilltransform1</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>1800</abnormalTime>
 		<abnormalType>TRANSFORM</abnormalType>
 		<effectPoint>1</effectPoint>
 		<hitTime>2500</hitTime>
-		<icon>icon.skilltransform1</icon>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>13570</itemConsumeId> <!-- Transformation Scroll: Gludio Elf Mercenary -->
 		<magicLvl>-2</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>14400000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<staticReuse>true</staticReuse>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -2245,19 +2139,19 @@
 		</effects>
 	</skill>
 	<skill id="2674" toLevel="1" name="Gludio Dark Elf Mercenary">
+		<!-- Transforms into a Dark Elf mercenary. -->
+		<icon>icon.skilltransform1</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>1800</abnormalTime>
 		<abnormalType>TRANSFORM</abnormalType>
 		<effectPoint>1</effectPoint>
 		<hitTime>2500</hitTime>
-		<icon>icon.skilltransform1</icon>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>13571</itemConsumeId> <!-- Transformation Scroll: Gludio Dark Elf Mercenary -->
 		<magicLvl>-2</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>14400000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<staticReuse>true</staticReuse>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -2284,19 +2178,19 @@
 		</effects>
 	</skill>
 	<skill id="2675" toLevel="1" name="Gludio Orc Mercenary">
+		<!-- Transforms into an Orc mercenary. -->
+		<icon>icon.skilltransform1</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>1800</abnormalTime>
 		<abnormalType>TRANSFORM</abnormalType>
 		<effectPoint>1</effectPoint>
 		<hitTime>2500</hitTime>
-		<icon>icon.skilltransform1</icon>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>13572</itemConsumeId> <!-- Transformation Scroll: Gludio Orc Mercenary -->
 		<magicLvl>-2</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>14400000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<staticReuse>true</staticReuse>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -2323,19 +2217,19 @@
 		</effects>
 	</skill>
 	<skill id="2676" toLevel="1" name="Gludio Dwarf Mercenary">
+		<!-- Transforms into a Dwarf mercenary. -->
+		<icon>icon.skilltransform1</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>1800</abnormalTime>
 		<abnormalType>TRANSFORM</abnormalType>
 		<effectPoint>1</effectPoint>
 		<hitTime>2500</hitTime>
-		<icon>icon.skilltransform1</icon>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>13573</itemConsumeId> <!-- Transformation Scroll: Gludio Dwarf Mercenary -->
 		<magicLvl>-2</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>14400000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<staticReuse>true</staticReuse>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -2362,19 +2256,19 @@
 		</effects>
 	</skill>
 	<skill id="2677" toLevel="1" name="Gludio Kamael Mercenary">
+		<!-- Transforms into a Kamael mercenary. -->
+		<icon>icon.skilltransform1</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>1800</abnormalTime>
 		<abnormalType>TRANSFORM</abnormalType>
 		<effectPoint>1</effectPoint>
 		<hitTime>2500</hitTime>
-		<icon>icon.skilltransform1</icon>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>13574</itemConsumeId> <!-- Transformation Scroll: Gludio Kamael Mercenary -->
 		<magicLvl>-2</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>14400000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<staticReuse>true</staticReuse>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -2401,19 +2295,19 @@
 		</effects>
 	</skill>
 	<skill id="2678" toLevel="1" name="Gludio Royal Guard Captain">
+		<!-- Transforms into a Royal Guard Captain. -->
+		<icon>icon.skilltransform1</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>1800</abnormalTime>
 		<abnormalType>TRANSFORM</abnormalType>
 		<effectPoint>1</effectPoint>
 		<hitTime>2500</hitTime>
-		<icon>icon.skilltransform1</icon>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>13575</itemConsumeId> <!-- Transformation Scroll: Gludio Knight Mercenary -->
 		<magicLvl>-2</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>14400000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<staticReuse>true</staticReuse>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -2440,19 +2334,19 @@
 		</effects>
 	</skill>
 	<skill id="2679" toLevel="1" name="Gludio Archer Captain">
+		<!-- Transforms into an Archer Captain. -->
+		<icon>icon.skilltransform1</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>1800</abnormalTime>
 		<abnormalType>TRANSFORM</abnormalType>
 		<effectPoint>1</effectPoint>
 		<hitTime>2500</hitTime>
-		<icon>icon.skilltransform1</icon>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>13576</itemConsumeId> <!-- Transformation Scroll: Gludio Archer Mercenary -->
 		<magicLvl>-2</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>14400000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<staticReuse>true</staticReuse>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -2479,19 +2373,19 @@
 		</effects>
 	</skill>
 	<skill id="2680" toLevel="1" name="Gludio Wizard Captain">
+		<!-- Transforms into a Wizard Captain. -->
+		<icon>icon.skilltransform1</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>1800</abnormalTime>
 		<abnormalType>TRANSFORM</abnormalType>
 		<effectPoint>1</effectPoint>
 		<hitTime>2500</hitTime>
-		<icon>icon.skilltransform1</icon>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>13577</itemConsumeId> <!-- Transformation Scroll: Gludio Wizard Mercenary -->
 		<magicLvl>-2</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>14400000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<staticReuse>true</staticReuse>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -2518,19 +2412,19 @@
 		</effects>
 	</skill>
 	<skill id="2681" toLevel="1" name="Gludio Kamael Guard Captain">
+		<!-- Transforms into a Kamael Guard Captain. -->
+		<icon>icon.skilltransform1</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>1800</abnormalTime>
 		<abnormalType>TRANSFORM</abnormalType>
 		<effectPoint>1</effectPoint>
 		<hitTime>2500</hitTime>
-		<icon>icon.skilltransform1</icon>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>13578</itemConsumeId> <!-- Transformation Scroll: Gludio Kamael Captain Mercenary -->
 		<magicLvl>-2</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>14400000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<staticReuse>true</staticReuse>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -2557,19 +2451,19 @@
 		</effects>
 	</skill>
 	<skill id="2682" toLevel="1" name="Gludio Knight of Dawn">
+		<!-- Transforms into a Knight of Dawn. -->
+		<icon>icon.skilltransform1</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>1800</abnormalTime>
 		<abnormalType>TRANSFORM</abnormalType>
 		<effectPoint>1</effectPoint>
 		<hitTime>2500</hitTime>
-		<icon>icon.skilltransform1</icon>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>13579</itemConsumeId> <!-- Transformation Scroll: Gludio Knight Captain Mercenary -->
 		<magicLvl>-2</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>14400000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<staticReuse>true</staticReuse>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -2596,19 +2490,19 @@
 		</effects>
 	</skill>
 	<skill id="2683" toLevel="1" name="Gludio Fortress Commander">
+		<!-- Transforms into a Fortress Commander. -->
+		<icon>icon.skilltransform1</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>1800</abnormalTime>
 		<abnormalType>TRANSFORM</abnormalType>
 		<effectPoint>1</effectPoint>
 		<hitTime>2500</hitTime>
-		<icon>icon.skilltransform1</icon>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>13580</itemConsumeId> <!-- Transformation Scroll: Gludio Commander Mercenary -->
 		<magicLvl>-2</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>14400000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<staticReuse>true</staticReuse>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -2635,19 +2529,19 @@
 		</effects>
 	</skill>
 	<skill id="2684" toLevel="1" name="Dion Human Mercenary">
+		<!-- Transforms into a human mercenary. -->
+		<icon>icon.skilltransform1</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>1800</abnormalTime>
 		<abnormalType>TRANSFORM</abnormalType>
 		<effectPoint>1</effectPoint>
 		<hitTime>2500</hitTime>
-		<icon>icon.skilltransform1</icon>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>13581</itemConsumeId> <!-- Transformation Scroll: Dion Human Mercenary -->
 		<magicLvl>-2</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>14400000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<staticReuse>true</staticReuse>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -2674,19 +2568,19 @@
 		</effects>
 	</skill>
 	<skill id="2685" toLevel="1" name="Dion Elf Mercenary">
+		<!-- Transforms into an Elf mercenary. -->
+		<icon>icon.skilltransform1</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>1800</abnormalTime>
 		<abnormalType>TRANSFORM</abnormalType>
 		<effectPoint>1</effectPoint>
 		<hitTime>2500</hitTime>
-		<icon>icon.skilltransform1</icon>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>13582</itemConsumeId> <!-- Transformation Scroll: Dion Elf Mercenary -->
 		<magicLvl>-2</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>14400000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<staticReuse>true</staticReuse>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -2713,19 +2607,19 @@
 		</effects>
 	</skill>
 	<skill id="2686" toLevel="1" name="Dion Dark Elf Mercenary">
+		<!-- Transforms into a Dark Elf mercenary. -->
+		<icon>icon.skilltransform1</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>1800</abnormalTime>
 		<abnormalType>TRANSFORM</abnormalType>
 		<effectPoint>1</effectPoint>
 		<hitTime>2500</hitTime>
-		<icon>icon.skilltransform1</icon>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>13583</itemConsumeId> <!-- Transformation Scroll: Dion Dark Elf Mercenary -->
 		<magicLvl>-2</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>14400000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<staticReuse>true</staticReuse>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -2752,19 +2646,19 @@
 		</effects>
 	</skill>
 	<skill id="2687" toLevel="1" name="Dion Orc Mercenary">
+		<!-- Transforms into an Orc mercenary. -->
+		<icon>icon.skilltransform1</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>1800</abnormalTime>
 		<abnormalType>TRANSFORM</abnormalType>
 		<effectPoint>1</effectPoint>
 		<hitTime>2500</hitTime>
-		<icon>icon.skilltransform1</icon>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>13584</itemConsumeId> <!-- Transformation Scroll: Dion Orc Mercenary -->
 		<magicLvl>-2</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>14400000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<staticReuse>true</staticReuse>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -2791,19 +2685,19 @@
 		</effects>
 	</skill>
 	<skill id="2688" toLevel="1" name="Dion Dwarf Mercenary">
+		<!-- Transforms into a Dwarf mercenary. -->
+		<icon>icon.skilltransform1</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>1800</abnormalTime>
 		<abnormalType>TRANSFORM</abnormalType>
 		<effectPoint>1</effectPoint>
 		<hitTime>2500</hitTime>
-		<icon>icon.skilltransform1</icon>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>13585</itemConsumeId> <!-- Transformation Scroll: Dion Dwarf Mercenary -->
 		<magicLvl>-2</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>14400000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<staticReuse>true</staticReuse>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -2830,19 +2724,19 @@
 		</effects>
 	</skill>
 	<skill id="2689" toLevel="1" name="Dion Kamael Mercenary">
+		<!-- Transforms into a Kamael mercenary. -->
+		<icon>icon.skilltransform1</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>1800</abnormalTime>
 		<abnormalType>TRANSFORM</abnormalType>
 		<effectPoint>1</effectPoint>
 		<hitTime>2500</hitTime>
-		<icon>icon.skilltransform1</icon>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>13586</itemConsumeId> <!-- Transformation Scroll: Dion Kamael Mercenary -->
 		<magicLvl>-2</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>14400000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<staticReuse>true</staticReuse>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -2869,19 +2763,19 @@
 		</effects>
 	</skill>
 	<skill id="2690" toLevel="1" name="Dion Royal Guard Captain">
+		<!-- Transforms into a Royal Guard Captain. -->
+		<icon>icon.skilltransform1</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>1800</abnormalTime>
 		<abnormalType>TRANSFORM</abnormalType>
 		<effectPoint>1</effectPoint>
 		<hitTime>2500</hitTime>
-		<icon>icon.skilltransform1</icon>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>13587</itemConsumeId> <!-- Transformation Scroll: Dion Knight Mercenary -->
 		<magicLvl>-2</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>14400000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<staticReuse>true</staticReuse>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -2908,19 +2802,19 @@
 		</effects>
 	</skill>
 	<skill id="2691" toLevel="1" name="Dion Archer Captain">
+		<!-- Transforms into an Archer Captain. -->
+		<icon>icon.skilltransform1</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>1800</abnormalTime>
 		<abnormalType>TRANSFORM</abnormalType>
 		<effectPoint>1</effectPoint>
 		<hitTime>2500</hitTime>
-		<icon>icon.skilltransform1</icon>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>13588</itemConsumeId> <!-- Transformation Scroll: Dion Archer Mercenary -->
 		<magicLvl>-2</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>14400000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<staticReuse>true</staticReuse>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -2947,19 +2841,19 @@
 		</effects>
 	</skill>
 	<skill id="2692" toLevel="1" name="Dion Wizard Captain">
+		<!-- Transforms into a Wizard Captain. -->
+		<icon>icon.skilltransform1</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>1800</abnormalTime>
 		<abnormalType>TRANSFORM</abnormalType>
 		<effectPoint>1</effectPoint>
 		<hitTime>2500</hitTime>
-		<icon>icon.skilltransform1</icon>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>13589</itemConsumeId> <!-- Transformation Scroll: Dion Wizard Mercenary -->
 		<magicLvl>-2</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>14400000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<staticReuse>true</staticReuse>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -2986,19 +2880,19 @@
 		</effects>
 	</skill>
 	<skill id="2693" toLevel="1" name="Dion Kamael Guard Captain">
+		<!-- Transforms into a Kamael Guard Captain. -->
+		<icon>icon.skilltransform1</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>1800</abnormalTime>
 		<abnormalType>TRANSFORM</abnormalType>
 		<effectPoint>1</effectPoint>
 		<hitTime>2500</hitTime>
-		<icon>icon.skilltransform1</icon>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>13590</itemConsumeId> <!-- Transformation Scroll: Dion Kamael Captain Mercenary -->
 		<magicLvl>-2</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>14400000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<staticReuse>true</staticReuse>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -3025,19 +2919,19 @@
 		</effects>
 	</skill>
 	<skill id="2694" toLevel="1" name="Dion Knight of Dawn">
+		<!-- Transforms into a Knight of Dawn. -->
+		<icon>icon.skilltransform1</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>1800</abnormalTime>
 		<abnormalType>TRANSFORM</abnormalType>
 		<effectPoint>1</effectPoint>
 		<hitTime>2500</hitTime>
-		<icon>icon.skilltransform1</icon>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>13591</itemConsumeId> <!-- Transformation Scroll: Dion Knight Captain Mercenary -->
 		<magicLvl>-2</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>14400000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<staticReuse>true</staticReuse>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -3064,19 +2958,19 @@
 		</effects>
 	</skill>
 	<skill id="2695" toLevel="1" name="Dion Fortress Commander">
+		<!-- Transforms into a Fortress Commander. -->
+		<icon>icon.skilltransform1</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>1800</abnormalTime>
 		<abnormalType>TRANSFORM</abnormalType>
 		<effectPoint>1</effectPoint>
 		<hitTime>2500</hitTime>
-		<icon>icon.skilltransform1</icon>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>13592</itemConsumeId> <!-- Transformation Scroll: Dion Commander Mercenary -->
 		<magicLvl>-2</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>14400000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<staticReuse>true</staticReuse>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -3103,19 +2997,19 @@
 		</effects>
 	</skill>
 	<skill id="2696" toLevel="1" name="Giran Human Mercenary">
+		<!-- Transforms into a human mercenary. -->
+		<icon>icon.skilltransform1</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>1800</abnormalTime>
 		<abnormalType>TRANSFORM</abnormalType>
 		<effectPoint>1</effectPoint>
 		<hitTime>2500</hitTime>
-		<icon>icon.skilltransform1</icon>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>13593</itemConsumeId> <!-- Transformation Scroll: Giran Human Mercenary -->
 		<magicLvl>-2</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>14400000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<staticReuse>true</staticReuse>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -3142,19 +3036,19 @@
 		</effects>
 	</skill>
 	<skill id="2697" toLevel="1" name="Giran Elf Mercenary">
+		<!-- Transforms into an Elf mercenary. -->
+		<icon>icon.skilltransform1</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>1800</abnormalTime>
 		<abnormalType>TRANSFORM</abnormalType>
 		<effectPoint>1</effectPoint>
 		<hitTime>2500</hitTime>
-		<icon>icon.skilltransform1</icon>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>13594</itemConsumeId> <!-- Transformation Scroll: Giran Elf Mercenary -->
 		<magicLvl>-2</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>14400000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<staticReuse>true</staticReuse>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -3181,19 +3075,19 @@
 		</effects>
 	</skill>
 	<skill id="2698" toLevel="1" name="Giran Dark Elf Mercenary">
+		<!-- Transforms into a Dark Elf mercenary. -->
+		<icon>icon.skilltransform1</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>1800</abnormalTime>
 		<abnormalType>TRANSFORM</abnormalType>
 		<effectPoint>1</effectPoint>
 		<hitTime>2500</hitTime>
-		<icon>icon.skilltransform1</icon>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>13595</itemConsumeId> <!-- Transformation Scroll: Giran Dark Elf Mercenary -->
 		<magicLvl>-2</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>14400000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<staticReuse>true</staticReuse>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -3220,19 +3114,19 @@
 		</effects>
 	</skill>
 	<skill id="2699" toLevel="1" name="Giran Orc Mercenary">
+		<!-- Transforms into an Orc mercenary. -->
+		<icon>icon.skilltransform1</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>1800</abnormalTime>
 		<abnormalType>TRANSFORM</abnormalType>
 		<effectPoint>1</effectPoint>
 		<hitTime>2500</hitTime>
-		<icon>icon.skilltransform1</icon>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>13596</itemConsumeId> <!-- Transformation Scroll: Giran Orc Mercenary -->
 		<magicLvl>-2</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>14400000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<staticReuse>true</staticReuse>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>

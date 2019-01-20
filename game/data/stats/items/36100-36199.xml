@@ -158,6 +158,7 @@
 	</item>
 	<item id="36108" name="Clan Request - 7 Members" type="EtcItem">
 		<!-- Contains details about clan requests. If you get disconnected after summoning the Clan Request Manager, you cannot start any clan request. (Can be used only once a-day) -->
+		<set name="icon" val="icon.item_normal20" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
@@ -169,7 +170,6 @@
 		<set name="time" val="1440" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.item_normal20" />
 		<skills>
 			<skill id="9615" level="1" /> <!-- Summon Association Request Manager -->
 		</skills>
@@ -506,6 +506,7 @@
 	</item>
 	<item id="36129" name="Clan Request - 14 Members" type="EtcItem">
 		<!-- Contains details about clan requests. If you get disconnected after summoning the Clan Request Manager, you cannot start any clan request. (Can be used only once a-day) -->
+		<set name="icon" val="icon.item_normal20" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
@@ -517,7 +518,6 @@
 		<set name="time" val="1440" />
 		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.item_normal20" />
 		<skills>
 			<skill id="9668" level="1" /> <!-- Summon Association Request Manager -->
 		</skills>
@@ -785,7 +785,7 @@
 		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
-			<item id="36170" min="1" max="1" chance="100" /> <!-- Scroll of Escape: Fog of Blood Region -->
+			<item id="36170" min="1" max="1" chance="100" /> <!-- Scroll of Escape: Bloody Swampland -->
 			<item id="36171" min="1" max="1" chance="100" /> <!-- Scroll of Escape: Isle of Souls Harbor -->
 			<item id="36172" min="1" max="1" chance="100" /> <!-- Scroll of Escape: Ruins of Ye Sagira -->
 			<item id="36173" min="1" max="1" chance="100" /> <!-- Scroll of Escape: Guillotine Fortress -->
@@ -941,35 +941,35 @@
 	</item>
 	<item id="36159" name="Scroll of Blessing: (R1-grade)" type="EtcItem">
 		<!-- The Blacksmith of Mammon can exchange standard Requiem or Immortal equipment for Blessed equipment for you. Small fee is charged. -->
+		<set name="icon" val="icon.bless_scroll_r1" />
 		<set name="is_sellable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="commissionItemType" val="SCROLL_OTHER" />
 		<set name="immediate_effect" val="true" />
-		<set name="icon" val="icon.bless_scroll_r1" />
 	</item>
 	<item id="36160" name="Scroll of Blessing: (R2-grade)" type="EtcItem">
 		<!-- The Blacksmith of Mammon can exchange standard Apocalypse or Twilight equipment for Blessed equipment for you. Small fee is charged. -->
+		<set name="icon" val="icon.bless_scroll_r2" />
 		<set name="is_sellable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="commissionItemType" val="SCROLL_OTHER" />
 		<set name="immediate_effect" val="true" />
-		<set name="icon" val="icon.bless_scroll_r2" />
 	</item>
 	<item id="36161" name="Scroll of Blessing: (R95-grade)" type="EtcItem">
 		<!-- The Blacksmith of Mammon can exchange standard Specter or Seraph equipment for Blessed equipment for you. Small fee is charged. -->
+		<set name="icon" val="icon.bless_scroll_r95" />
 		<set name="is_sellable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="commissionItemType" val="SCROLL_OTHER" />
 		<set name="immediate_effect" val="true" />
-		<set name="icon" val="icon.bless_scroll_r95" />
 	</item>
 	<item id="36162" name="Scroll of Blessing: (R99-grade)" type="EtcItem">
 		<!-- The Blacksmith of Mammon can exchange standard Amaranthine or Eternal equipment for Blessed equipment for you. Small fee is charged. -->
+		<set name="icon" val="icon.bless_scroll_r99" />
 		<set name="is_sellable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="commissionItemType" val="SCROLL_OTHER" />
 		<set name="immediate_effect" val="true" />
-		<set name="icon" val="icon.bless_scroll_r99" />
 	</item>
 	<item id="36163" name="Giant's Scroll: Enchant Weapon (R-grade)" type="EtcItem">
 		<!-- P. Atk. + 6 for R-grade one-handed swords, one-handed blunts, daggers, spears, and other weapons when enchanted. P. Atk. + 7 for two-handed swords, two-handed blunts, dualswords, two-handed fist weapons, and crossbows. P. Atk. + 12 for bow weapons. M. Atk. + 5 for all weapons. P. Atk./M. Atk. greatly increases at + 4. All amounts are increased for blessed weapons. Randomly adds between + 1 and + 3 enchant value. -->

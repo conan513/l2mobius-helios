@@ -1,93 +1,88 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
 	<skill id="21000" toLevel="1" name="Release Agathion's Seal - Majo">
-		<!-- Confirmed CT2.5 -->
+		<!-- Removes the Agathion's seal. -->
+		<icon>icon.etc_summon_aga_agit_i00</icon>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>3000</hitTime>
-		<icon>icon.etc_summon_aga_agit_i00</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SummonAgathion">
-				<npcId>1501</npcId>
+				<npcId>1501</npcId> <!-- Majo Agathion -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="21001" toLevel="1" name="Release Agathion's Seal - Gold Majo">
-		<!-- Confirmed CT2.5 -->
+		<!-- Removes the Agathion's seal. -->
+		<icon>icon.etc_summon_aga_agit_i00</icon>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>3000</hitTime>
-		<icon>icon.etc_summon_aga_agit_i00</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SummonAgathion">
-				<npcId>1502</npcId>
+				<npcId>1502</npcId> <!-- Gold Crown Agathion -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="21002" toLevel="1" name="Release Agathion's Seal - Black Majo">
-		<!-- Confirmed CT2.5 -->
+		<!-- Removes the Agathion's seal. -->
+		<icon>icon.etc_summon_aga_agit_i00</icon>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>3000</hitTime>
-		<icon>icon.etc_summon_aga_agit_i00</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SummonAgathion">
-				<npcId>1503</npcId>
+				<npcId>1503</npcId> <!-- Black Crown Agathion -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="21003" toLevel="1" name="Release Agathion's Seal - Plaipitak">
-		<!-- Confirmed CT2.5 -->
-		<hitTime>3000</hitTime>
+		<!-- Removes the Agathion's seal. -->
 		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SummonAgathion">
-				<npcId>1504</npcId>
+				<npcId>1504</npcId> <!-- Plaipitak Agathion -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="21004" toLevel="1" name="Wind Walk">
-		<!-- Confirmed CT2.5 -->
+		<!-- Increases Speed by 20 for 2 minutes. Cooldown 18 minutes. -->
+		<icon>BranchSys.icon.br_Afro_hair_i00</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>120</abnormalTime>
 		<abnormalType>SPEED_UP</abnormalType>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>4000</hitTime>
-		<icon>BranchSys.icon.br_Afro_hair_i00</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>1080000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -104,7 +99,8 @@
 		</effects>
 	</skill>
 	<skill id="21005" toLevel="1" name="Agility">
-		<!-- Confirmed CT2.5 -->
+		<!-- Increases Evasion rate by 4 for 1 hour. Cooldown is 24 hours. -->
+		<icon>BranchSys.icon.br_Eye_Glasses_i00</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>3600</abnormalTime>
 		<abnormalType>AVOID_UP</abnormalType>
@@ -114,14 +110,12 @@
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>86400000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
 		<hitCancelTime>0</hitCancelTime>
 		<irreplacableBuff>true</irreplacableBuff>
 		<blockActionUseSkill>true</blockActionUseSkill>
-		<icon>BranchSys.icon.br_Eye_Glasses_i00</icon>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
@@ -132,31 +126,29 @@
 		</effects>
 	</skill>
 	<skill id="21006" toLevel="1" name="Large Firecracker's Ability">
-		<!-- Confirmed CT2.5 -->
+		<!-- Sets off firecrackers. -->
 		<icon>BranchSys.icon.br_Afro_hair_i00</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>1</magicLvl>
 		<operateType>A1</operateType>
 		<reuseDelay>3600000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="21007" toLevel="1" name="Mysterious Ability">
-		<!-- Confirmed CT2.5 -->
+		<!-- Increases the size of your head. -->
+		<icon>BranchSys.icon.br_Afro_hair_i00</icon>
 		<abnormalLvl>0</abnormalLvl>
 		<abnormalTime>600</abnormalTime>
 		<abnormalType>BIG_HEAD</abnormalType>
 		<abnormalVisualEffect>BIG_HEAD</abnormalVisualEffect>
 		<activateRate>0</activateRate>
-		<icon>BranchSys.icon.br_Afro_hair_i00</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>3600000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -168,73 +160,69 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="21008" toLevel="1" name="Release Agathion's Seal - Baby Panda">
-		<!-- Confirmed CT2.5 -->
-		<hitTime>3000</hitTime>
+		<!-- Removes the Agathion's seal. -->
 		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SummonAgathion">
-				<npcId>1505</npcId>
+				<npcId>1505</npcId> <!-- Baby Panda Agathion -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="21009" toLevel="1" name="Release Agathion's Seal - Bamboo Panda">
-		<!-- Confirmed CT2.5 -->
-		<hitTime>3000</hitTime>
+		<!-- Removes the Agathion's seal. -->
 		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SummonAgathion">
-				<npcId>1506</npcId>
+				<npcId>1506</npcId> <!-- Bamboo Panda Agathion -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="21010" toLevel="1" name="Release Agathion's Seal - Sexy Panda">
-		<!-- Confirmed CT2.5 -->
-		<hitTime>3000</hitTime>
+		<!-- Removes the Agathion's seal. -->
 		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SummonAgathion">
-				<npcId>1507</npcId>
+				<npcId>1507</npcId> <!-- Sexy Panda Agathion -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="21011" toLevel="1" name="Maintain Vitality">
-		<!-- Recovers energy when acquiring Exp. for 20 minutes -->
+		<!-- Maintains Vitality when acquiring XP for 20 minutes. -->
+		<icon>BranchSys.icon.br_Afro_hair_i00</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>1200</abnormalTime>
 		<abnormalType>VP_UP</abnormalType>
 		<abnormalVisualEffect>VP_UP</abnormalVisualEffect>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>4000</hitTime>
-		<icon>BranchSys.icon.br_Afro_hair_i00</icon>
 		<isMagic>4</isMagic> <!-- Item Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>43200000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -251,19 +239,18 @@
 		</effects>
 	</skill>
 	<skill id="21012" toLevel="1" name="Maintain Vitality">
-		<!-- Recovers energy when acquiring Exp. for 20 minutes -->
+		<!-- Maintains Vitality when acquiring XP for 20 minutes. -->
+		<icon>BranchSys.icon.br_Eye_Glasses_i00</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>1200</abnormalTime>
 		<abnormalType>VP_UP</abnormalType>
 		<abnormalVisualEffect>VP_UP</abnormalVisualEffect>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>4000</hitTime>
-		<icon>BranchSys.icon.br_Eye_Glasses_i00</icon>
 		<isMagic>4</isMagic> <!-- Item Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>43200000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -280,19 +267,18 @@
 		</effects>
 	</skill>
 	<skill id="21013" toLevel="1" name="Maintain Vitality">
-		<!-- Recovers energy when acquiring Exp. for 20 minutes -->
+		<!-- Maintains Vitality when acquiring XP for 20 minutes. -->
+		<icon>BranchSys.icon.br_Bamboo_Hat_i00</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>1200</abnormalTime>
 		<abnormalType>VP_UP</abnormalType>
 		<abnormalVisualEffect>VP_UP</abnormalVisualEffect>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>4000</hitTime>
-		<icon>BranchSys.icon.br_Bamboo_Hat_i00</icon>
 		<isMagic>4</isMagic> <!-- Item Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>43200000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -309,16 +295,16 @@
 		</effects>
 	</skill>
 	<skill id="21014" toLevel="1" name="Scissors">
+		<!-- Attacks with scissors. Usable only on the crooked turkey. -->
+		<icon>BranchSys.icon.br_xmas_gawi_i00</icon>
 		<castRange>400</castRange>
 		<coolTime>500</coolTime>
 		<effectPoint>-1</effectPoint>
 		<effectRange>500</effectRange>
 		<hitTime>2000</hitTime>
-		<icon>BranchSys.icon.br_xmas_gawi_i00</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>1</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>1</hitCancelTime>
 		<staticReuse>true</staticReuse>
@@ -333,15 +319,15 @@
 		</conditions>
 	</skill>
 	<skill id="21015" toLevel="1" name="Rock">
+		<!-- Challenge him with the rock. Usable only on the crooked turkey. -->
+		<icon>BranchSys.icon.br_xmas_bawi_i00</icon>
 		<castRange>400</castRange>
 		<coolTime>500</coolTime>
 		<effectPoint>-1</effectPoint>
 		<hitTime>2000</hitTime>
-		<icon>BranchSys.icon.br_xmas_bawi_i00</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>1</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>1</hitCancelTime>
 		<effectRange>500</effectRange>
@@ -357,15 +343,15 @@
 		</conditions>
 	</skill>
 	<skill id="21016" toLevel="1" name="Paper">
+		<!-- Challenge him with the paper. Usable only on the crooked turkey. -->
+		<icon>BranchSys.icon.br_xmas_bo_i00</icon>
 		<castRange>400</castRange>
 		<coolTime>500</coolTime>
 		<effectPoint>-1</effectPoint>
 		<hitTime>2000</hitTime>
-		<icon>BranchSys.icon.br_xmas_bo_i00</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>1</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>1</hitCancelTime>
 		<effectRange>500</effectRange>
@@ -381,6 +367,7 @@
 		</conditions>
 	</skill>
 	<skill id="21017" toLevel="1" name="Holiday Dream Weapon">
+		<!-- Increases Max CP. Increases Critical Rate. Increases the ability to restore some damage inflicted on the enemy as HP with a certain probability. Excludes damage by skill or ranged attacks. -->
 		<icon>BranchSys.icon.br_xmas_weapon_i00</icon>
 		<magicLvl>1</magicLvl>
 		<operateType>P</operateType>
@@ -401,6 +388,7 @@
 		</effects>
 	</skill>
 	<skill id="21018" toLevel="1" name="Holiday Dream Weapon">
+		<!-- Increases Max CP. Increases Critical Damage/Rate. -->
 		<icon>BranchSys.icon.br_xmas_weapon_i00</icon>
 		<magicLvl>1</magicLvl>
 		<operateType>P</operateType>
@@ -421,6 +409,7 @@
 		</effects>
 	</skill>
 	<skill id="21019" toLevel="1" name="Holiday Dream Weapon">
+		<!-- Increases Max CP. Increases deadly attack rate. Decreases MP Consumption for skills. -->
 		<icon>BranchSys.icon.br_xmas_weapon_i00</icon>
 		<magicLvl>1</magicLvl>
 		<operateType>P</operateType>
@@ -442,6 +431,7 @@
 		</effects>
 	</skill>
 	<skill id="21020" toLevel="1" name="Holiday Dream Weapon">
+		<!-- Increases Max CP. Increases Critical Rate. Increases the ability to restore some damage inflicted on the enemy as HP. Excludes damage by skill or ranged attacks. -->
 		<icon>BranchSys.icon.br_xmas_weapon_i00</icon>
 		<magicLvl>1</magicLvl>
 		<operateType>P</operateType>
@@ -462,6 +452,7 @@
 		</effects>
 	</skill>
 	<skill id="21021" toLevel="1" name="Holiday Dream Weapon">
+		<!-- Increases Max CP. Increases Critical Damage/Rate. -->
 		<icon>BranchSys.icon.br_xmas_weapon_i00</icon>
 		<magicLvl>1</magicLvl>
 		<operateType>P</operateType>
@@ -482,6 +473,7 @@
 		</effects>
 	</skill>
 	<skill id="21022" toLevel="1" name="Holiday Dream Weapon">
+		<!-- Increases Max CP and Casting Spd. Decreases MP Consumption for skills. -->
 		<icon>BranchSys.icon.br_xmas_weapon_i00</icon>
 		<magicLvl>1</magicLvl>
 		<operateType>P</operateType>
@@ -503,6 +495,7 @@
 		</effects>
 	</skill>
 	<skill id="21023" toLevel="1" name="Holiday Dream Weapon">
+		<!-- Increases Max CP and M. Atk. Decreases MP Consumption for skills. -->
 		<icon>BranchSys.icon.br_xmas_weapon_i00</icon>
 		<magicLvl>1</magicLvl>
 		<operateType>P</operateType>
@@ -524,6 +517,7 @@
 		</effects>
 	</skill>
 	<skill id="21024" toLevel="1" name="Holiday Dream Weapon">
+		<!-- Increases Max CP. Decreases MP Consumption. Increases the ability to restore some damage inflicted on the enemy as HP. Excludes damage by skill or ranged attacks. -->
 		<icon>BranchSys.icon.br_xmas_weapon_i00</icon>
 		<magicLvl>1</magicLvl>
 		<operateType>P</operateType>
@@ -545,6 +539,7 @@
 		</effects>
 	</skill>
 	<skill id="21025" toLevel="1" name="Holiday Dream Weapon">
+		<!-- Increases Max CP. Increases Critical Rate/Range. -->
 		<icon>BranchSys.icon.br_xmas_weapon_i00</icon>
 		<magicLvl>1</magicLvl>
 		<operateType>P</operateType>
@@ -565,6 +560,7 @@
 		</effects>
 	</skill>
 	<skill id="21026" toLevel="1" name="Holiday Dream Weapon">
+		<!-- Increases Max CP. Increases the number of enemies that can be attacked simultaneously. Increases the ability to restore some damage inflicted on the enemy as HP. Excludes damage by skill or ranged attacks. -->
 		<icon>BranchSys.icon.br_xmas_weapon_i00</icon>
 		<magicLvl>1</magicLvl>
 		<operateType>P</operateType>
@@ -585,6 +581,7 @@
 		</effects>
 	</skill>
 	<skill id="21027" toLevel="1" name="Holiday Dream Weapon">
+		<!-- Increases Max CP. Increases Atk. Spd. Decreases MP Consumption. -->
 		<icon>BranchSys.icon.br_xmas_weapon_i00</icon>
 		<magicLvl>1</magicLvl>
 		<operateType>P</operateType>
@@ -611,6 +608,7 @@
 		</effects>
 	</skill>
 	<skill id="21028" toLevel="1" name="Holiday Dream Weapon">
+		<!-- Increases Max CP. Increases Critical Rate. Increases the ability to restore some damage inflicted on the enemy as HP. Excludes damage by skill or ranged attacks. -->
 		<icon>BranchSys.icon.br_xmas_weapon_i00</icon>
 		<magicLvl>1</magicLvl>
 		<operateType>P</operateType>
@@ -631,6 +629,7 @@
 		</effects>
 	</skill>
 	<skill id="21029" toLevel="1" name="Holiday Dream Weapon">
+		<!-- Increases Max CP. Increases Critical Damage/Rate. -->
 		<icon>BranchSys.icon.br_xmas_weapon_i00</icon>
 		<magicLvl>1</magicLvl>
 		<operateType>P</operateType>
@@ -651,6 +650,7 @@
 		</effects>
 	</skill>
 	<skill id="21030" toLevel="1" name="Holiday Dream Weapon">
+		<!-- Increases Max CP. Increases Evasion and Accuracy. -->
 		<icon>BranchSys.icon.br_xmas_weapon_i00</icon>
 		<magicLvl>1</magicLvl>
 		<operateType>P</operateType>
@@ -671,213 +671,201 @@
 		</effects>
 	</skill>
 	<skill id="21031" toLevel="1" name="Release Agathion's Seal - Charming Cupid">
-		<!-- Confirmed CT2.5 -->
-		<hitTime>3000</hitTime>
+		<!-- Removes the Agathion's seal. -->
 		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SummonAgathion">
-				<npcId>1508</npcId>
+				<npcId>1508</npcId> <!-- Charming Cupid Agathion -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="21032" toLevel="1" name="Release Agathion's Seal - Naughty Cupid">
-		<!-- Confirmed CT2.5 -->
-		<hitTime>3000</hitTime>
+		<!-- Removes the Agathion's seal. -->
 		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SummonAgathion">
-				<npcId>1509</npcId>
+				<npcId>1509</npcId> <!-- Naughty Cupid Agathion -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="21033" toLevel="1" name="Release Agathion's Seal - White Maneki Neko">
-		<!-- Confirmed CT2.5 -->
-		<hitTime>3000</hitTime>
+		<!-- Removes the Agathion's seal. -->
 		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SummonAgathion">
-				<npcId>1510</npcId>
+				<npcId>1510</npcId> <!-- White Maneki Neko Agathion -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="21034" toLevel="1" name="Release Agathion's Seal - Black Maneki Neko">
-		<!-- Confirmed CT2.5 -->
-		<hitTime>3000</hitTime>
+		<!-- Removes the Agathion's seal. -->
 		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SummonAgathion">
-				<npcId>1511</npcId>
+				<npcId>1511</npcId> <!-- Black Maneki Neko Agathion -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="21035" toLevel="1" name="Release Agathion's Seal - Brown Maneki Neko">
-		<!-- Confirmed CT2.5 -->
-		<hitTime>3000</hitTime>
+		<!-- Removes the Agathion's seal. -->
 		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SummonAgathion">
-				<npcId>1512</npcId>
+				<npcId>1512</npcId> <!-- Brown Maneki Neko Agathion -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="21036" toLevel="1" name="Release Agathion's Seal - One-eyed Bat Drove">
-		<!-- Confirmed CT2.5 -->
-		<hitTime>3000</hitTime>
+		<!-- Removes the Agathion's seal. -->
 		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SummonAgathion">
-				<npcId>1513</npcId>
+				<npcId>1513</npcId> <!-- One-eyed Bat Drove Agathion -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="21037" toLevel="1" name="Release Agathion's Seal - Pegasus">
-		<!-- Confirmed CT2.5 -->
-		<hitTime>3000</hitTime>
+		<!-- Removes the Agathion's seal. -->
 		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SummonAgathion">
-				<npcId>1514</npcId>
+				<npcId>1514</npcId> <!-- Pegasus Agathion -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="21038" toLevel="1" name="Release Agathion's Seal - Yellow-robed Tojigong">
-		<!-- Confirmed CT2.5 -->
-		<hitTime>3000</hitTime>
+		<!-- Removes the Agathion's seal. -->
 		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SummonAgathion">
-				<npcId>1515</npcId>
+				<npcId>1515</npcId> <!-- Yellow-robed Tojigong Agathion -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="21039" toLevel="1" name="Release Agathion's Seal - Blue-robed Tojigong">
-		<!-- Confirmed CT2.5 -->
-		<hitTime>3000</hitTime>
+		<!-- Removes the Agathion's seal. -->
 		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SummonAgathion">
-				<npcId>1516</npcId>
+				<npcId>1516</npcId> <!-- Blue-robed Tojigong Agathion -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="21040" toLevel="1" name="Release Agathion's Seal - Green-robed Tojigong">
-		<!-- Confirmed CT2.5 -->
-		<hitTime>3000</hitTime>
+		<!-- Removes the Agathion's seal. -->
 		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SummonAgathion">
-				<npcId>1517</npcId>
+				<npcId>1517</npcId> <!-- Green-robed Tojigong Agathion -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="21041" toLevel="1" name="Release Agathion's Seal - Bugbear">
-		<!-- Confirmed CT2.5 -->
-		<hitTime>3000</hitTime>
+		<!-- Removes the Agathion's seal. -->
 		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SummonAgathion">
-				<npcId>1518</npcId>
+				<npcId>1518</npcId> <!-- Bugbear Agathion -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="21042" toLevel="1" name="Blessing of Baguette">
-		<!-- Confirmed CT2.5 -->
+		<!-- Blessing of Baguette. It fills 100% of HP and recovers 50% of MP. -->
+		<icon>icon.skill3123</icon>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>3000</hitTime>
-		<icon>icon.skill3123</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>1</magicLvl>
 		<operateType>A1</operateType>
 		<reuseDelay>1800000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
@@ -892,158 +880,150 @@
 		</effects>
 	</skill>
 	<skill id="21043" toLevel="1" name="Release Agathion's Seal - Red Sumo Wrestler">
-		<!-- Confirmed CT2.5 -->
-		<hitTime>3000</hitTime>
+		<!-- Removes the Agathion's seal. -->
 		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SummonAgathion">
-				<npcId>1519</npcId>
+				<npcId>1519</npcId> <!-- Red Sumo Wrestler Agathion -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="21044" toLevel="1" name="Release Agathion's Seal - Blue Sumo Wrestler Agathion">
-		<!-- Confirmed CT2.5 -->
-		<hitTime>3000</hitTime>
+		<!-- Removes the Agathion's seal. -->
 		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SummonAgathion">
-				<npcId>1520</npcId>
+				<npcId>1520</npcId> <!-- Blue Sumo Wrestler Agathion -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="21045" toLevel="1" name="Release Agathion's Seal - Great Sumo Match">
-		<!-- Confirmed CT2.5 -->
-		<hitTime>3000</hitTime>
+		<!-- Removes the Agathion's seal. -->
 		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SummonAgathion">
-				<npcId>1521</npcId>
+				<npcId>1521</npcId> <!-- Great Sumo Match Agathion -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="21046" toLevel="1" name="Release Agathion's Seal - Button-eyed Bear Doll">
-		<!-- Confirmed CT2.5 -->
-		<hitTime>3000</hitTime>
+		<!-- Removes the Agathion's seal. -->
 		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SummonAgathion">
-				<npcId>1522</npcId>
+				<npcId>1522</npcId> <!-- Button-eyed Bear Doll -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="21047" toLevel="1" name="Release Agathion's Seal - God of Fortune">
-		<!-- Confirmed CT2.5 -->
-		<hitTime>3000</hitTime>
+		<!-- Removes the Agathion's seal. -->
 		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SummonAgathion">
-				<npcId>1523</npcId>
+				<npcId>1523</npcId> <!-- God of Fortune -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="21048" toLevel="1" name="Release Agathion's Seal - Dryad">
-		<!-- Confirmed CT2.5 -->
-		<hitTime>3000</hitTime>
+		<!-- Removes the Agathion's seal. -->
 		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SummonAgathion">
-				<npcId>1524</npcId>
+				<npcId>1524</npcId> <!-- Dryad Agathion -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="21049" toLevel="1" name="Release Agathion's Seal - Wonboso">
-		<!-- Confirmed CT2.5 -->
-		<hitTime>3000</hitTime>
+		<!-- Removes the Agathion's seal. -->
 		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SummonAgathion">
-				<npcId>1525</npcId>
+				<npcId>1525</npcId> <!-- Wonboso Agathion -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="21050" toLevel="1" name="Release Agathion's Seal - Daewoonso">
-		<!-- Confirmed CT2.5 -->
-		<hitTime>3000</hitTime>
+		<!-- Removes the Agathion's seal. -->
 		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SummonAgathion">
-				<npcId>1526</npcId>
+				<npcId>1526</npcId> <!-- Daewoonso Agathion -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="21051" toLevel="1" name="Ride Steam Beetle">
+		<!-- Ride a Steam Beetle. -->
+		<icon>icon.skilltransform3</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>3600</abnormalTime>
 		<abnormalType>TRANSFORM</abnormalType>
-		<icon>icon.skilltransform3</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -1064,7 +1044,8 @@
 		</effects>
 	</skill>
 	<skill id="21052" toLevel="1" name="Blessed Body">
-		<!-- Confirmed CT2.5 -->
+		<!-- Increases Max HP by 25% for 30 minutes. -->
+		<icon>BranchSys.icon.br_people_cap_i00</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>1800</abnormalTime>
 		<abnormalType>MAX_HP_UP</abnormalType>
@@ -1074,13 +1055,11 @@
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>14400000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
 		<irreplacableBuff>true</irreplacableBuff>
 		<blockActionUseSkill>true</blockActionUseSkill>
-		<icon>BranchSys.icon.br_people_cap_i00</icon>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
@@ -1091,7 +1070,8 @@
 		</effects>
 	</skill>
 	<skill id="21053" toLevel="1" name="Blessed Soul">
-		<!-- Confirmed CT2.5 -->
+		<!-- Increases Max MP by 25% for 30 minutes. -->
+		<icon>BranchSys.icon.br_people_cap_i00</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>1800</abnormalTime>
 		<abnormalType>MAX_MP_UP</abnormalType>
@@ -1101,13 +1081,11 @@
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>14400000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
 		<irreplacableBuff>true</irreplacableBuff>
 		<blockActionUseSkill>true</blockActionUseSkill>
-		<icon>BranchSys.icon.br_people_cap_i00</icon>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
@@ -1118,18 +1096,17 @@
 		</effects>
 	</skill>
 	<skill id="21054" toLevel="1" name="Blessed Resurrection">
-		<!-- Confirmed CT2.5 -->
+		<!-- Allows the use of Blessed Resurrection. Cooldown is 12 hours. -->
+		<icon>BranchSys.icon.br_Uniform_Hat_i00</icon>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<castRange>400</castRange>
 		<effectPoint>1</effectPoint>
 		<effectRange>600</effectRange>
 		<hitTime>3000</hitTime>
-		<icon>BranchSys.icon.br_Uniform_Hat_i00</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
 		<reuseDelay>43200000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>PC_BODY</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -1143,18 +1120,17 @@
 		</effects>
 	</skill>
 	<skill id="21055" toLevel="1" name="Wind Walk">
-		<!-- Confirmed CT2.5 -->
+		<!-- Increases Speed by 20 for 2 minutes. Cooldown is 18 minutes. -->
+		<icon>BranchSys.icon.br_Bamboo_Hat_i00</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>120</abnormalTime>
 		<abnormalType>SPEED_UP</abnormalType>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>4000</hitTime>
-		<icon>BranchSys.icon.br_Bamboo_Hat_i00</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>1080000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -1171,7 +1147,8 @@
 		</effects>
 	</skill>
 	<skill id="21056" toLevel="1" name="Agility">
-		<!-- Confirmed CT2.5 -->
+		<!-- Increases Evasion rate by 4 for 1 hour. Cooldown is 24 hours. -->
+		<icon>BranchSys.icon.br_mask_i00</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>3600</abnormalTime>
 		<abnormalType>AVOID_UP</abnormalType>
@@ -1181,14 +1158,12 @@
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>86400000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
 		<hitCancelTime>0</hitCancelTime>
 		<irreplacableBuff>true</irreplacableBuff>
 		<blockActionUseSkill>true</blockActionUseSkill>
-		<icon>BranchSys.icon.br_mask_i00</icon>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
@@ -1199,19 +1174,18 @@
 		</effects>
 	</skill>
 	<skill id="21057" toLevel="1" name="Reflect">
-		<!-- Confirmed CT2.5 -->
+		<!-- For 5 minutes, returns 20% of the damage back to the enemy. Cooldown is 1 hour. -->
+		<icon>BranchSys.icon.br_Ribbon_i00</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>300</abnormalTime>
 		<abnormalType>DMG_SHIELD</abnormalType>
 		<activateRate>0</activateRate>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>3000</hitTime>
-		<icon>BranchSys.icon.br_Ribbon_i00</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>3600000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -1229,19 +1203,18 @@
 		</effects>
 	</skill>
 	<skill id="21058" toLevel="1" name="Mana Regeneration">
-		<!-- Confirmed CT2.5 -->
+		<!-- Increases MP Recovery Rate 3% for 5 minutes. Cooldown is 1 hour. -->
+		<icon>BranchSys.icon.br_Eye_Visor_i00</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>300</abnormalTime>
 		<abnormalType>MP_REGEN_UP</abnormalType>
 		<activateRate>0</activateRate>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>3000</hitTime>
-		<icon>BranchSys.icon.br_Eye_Visor_i00</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>3600000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -1259,19 +1232,18 @@
 		</effects>
 	</skill>
 	<skill id="21059" toLevel="1" name="Greater Heal">
-		<!-- Confirmed CT2.5 -->
+		<!-- Recovers HP by 444 and increases HP Recovery Rate by 30 for 15 seconds. Cooldown is 4 hours. -->
+		<icon>icon.accessory_cat_the_cat_cap_i00</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>15</abnormalTime>
 		<abnormalType>LIFE_FORCE_OTHERS</abnormalType>
 		<activateRate>0</activateRate>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>3000</hitTime>
-		<icon>icon.accessory_cat_the_cat_cap_i00</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>14400000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -1292,18 +1264,17 @@
 		</effects>
 	</skill>
 	<skill id="21060" toLevel="1" name="Death Whisper">
-		<!-- Confirmed CT2.5 -->
+		<!-- Increases Critical Damage by 35% for 5 minutes. Cooldown is 1 hour. -->
+		<icon>icon.accessory_skeleton_cap_i00</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>300</abnormalTime>
 		<abnormalType>CRITICAL_DMG_UP</abnormalType>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>3000</hitTime>
-		<icon>icon.accessory_skeleton_cap_i00</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>3600000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -1319,7 +1290,8 @@
 		</effects>
 	</skill>
 	<skill id="21061" toLevel="1" name="Agility">
-		<!-- Confirmed CT2.5 -->
+		<!-- Increases Evasion rate by 4 for 1 hour. Cooldown is 24 hours. -->
+		<icon>BranchSys.icon.br_Afro_hair_i00</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>3600</abnormalTime>
 		<abnormalType>AVOID_UP</abnormalType>
@@ -1329,14 +1301,12 @@
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>86400000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
 		<hitCancelTime>0</hitCancelTime>
 		<irreplacableBuff>true</irreplacableBuff>
 		<blockActionUseSkill>true</blockActionUseSkill>
-		<icon>BranchSys.icon.br_Afro_hair_i00</icon>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
@@ -1347,18 +1317,17 @@
 		</effects>
 	</skill>
 	<skill id="21062" toLevel="1" name="Wild Magic">
-		<!-- Confirmed CT2.5 -->
+		<!-- For 5 minutes, increases by 2 the occurrence rate of damage that is caused by magic damage. Cooldown is 1 hour. -->
+		<icon>BranchSys.icon.br_Afro_hair_i00</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>300</abnormalTime>
 		<abnormalType>MAGIC_CRITICAL_UP</abnormalType>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>3000</hitTime>
-		<icon>BranchSys.icon.br_Afro_hair_i00</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>3600000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -1374,18 +1343,17 @@
 		</effects>
 	</skill>
 	<skill id="21063" toLevel="1" name="Wind Walk">
-		<!-- Confirmed CT2.5 -->
+		<!-- Increases Speed by 20 for 2 minutes. Cooldown 18 minutes. -->
+		<icon>BranchSys.icon.br_goggles_i00</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>120</abnormalTime>
 		<abnormalType>SPEED_UP</abnormalType>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>4000</hitTime>
-		<icon>BranchSys.icon.br_goggles_i00</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>1080000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -1402,19 +1370,18 @@
 		</effects>
 	</skill>
 	<skill id="21064" toLevel="1" name="Mana Regeneration">
-		<!-- Confirmed CT2.5 -->
+		<!-- Increases MP Recovery Rate 3 for 5 minutes. Cooldown is 1 hour. -->
+		<icon>BranchSys.icon.br_napoleonic_cap_i00</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>300</abnormalTime>
 		<abnormalType>MP_REGEN_UP</abnormalType>
 		<activateRate>0</activateRate>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>3000</hitTime>
-		<icon>BranchSys.icon.br_napoleonic_cap_i00</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>3600000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -1432,19 +1399,18 @@
 		</effects>
 	</skill>
 	<skill id="21065" toLevel="1" name="Reflect">
-		<!-- Confirmed CT2.5 -->
+		<!-- For 5 minutes, returns 20% of the damage back to the enemy. Cooldown is 1 hour. -->
+		<icon>BranchSys.icon.br_horn_hairband_i00</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>300</abnormalTime>
 		<abnormalType>DMG_SHIELD</abnormalType>
 		<activateRate>0</activateRate>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>3000</hitTime>
-		<icon>BranchSys.icon.br_horn_hairband_i00</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>3600000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -1462,19 +1428,18 @@
 		</effects>
 	</skill>
 	<skill id="21066" toLevel="1" name="Vitality Recovery">
-		<!-- Confirmed CT2.5 -->
+		<!-- Recovers Vitality when acquiring XP for 5 minutes. Cooldown is 1 hour. -->
+		<icon>BranchSys.icon.br_black_gem_mask_i00</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>300</abnormalTime>
 		<abnormalType>VP_UP</abnormalType>
 		<activateRate>0</activateRate>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>3000</hitTime>
-		<icon>BranchSys.icon.br_black_gem_mask_i00</icon>
 		<isMagic>4</isMagic> <!-- Item Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>3600000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -1492,15 +1457,14 @@
 		</effects>
 	</skill>
 	<skill id="21067" toLevel="1" name="Blessed Escape">
-		<!-- Confirmed CT2.5 -->
+		<!-- Allows the use of Blessed Escape. Cooldown is 12 hours. -->
+		<icon>BranchSys.icon.br_plastic_hair_f_i00</icon>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>200</hitTime>
-		<icon>BranchSys.icon.br_plastic_hair_f_i00</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
 		<reuseDelay>43200000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
@@ -1515,19 +1479,18 @@
 		</effects>
 	</skill>
 	<skill id="21068" toLevel="1" name="Dark Resistance">
-		<!-- Confirmed CT2.5 -->
+		<!-- Increases Dark Resistance by 30 for 5 minutes. Cooldown is 1 hour. -->
+		<icon>icon.accessory_daisy_hairpin_i00</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>300</abnormalTime>
 		<abnormalType>ARMOR_UNHOLY</abnormalType>
 		<activateRate>0</activateRate>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>3000</hitTime>
-		<icon>icon.accessory_daisy_hairpin_i00</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>3600000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -1545,18 +1508,17 @@
 		</effects>
 	</skill>
 	<skill id="21069" toLevel="1" name="Wind Walk">
-		<!-- Confirmed CT2.5 -->
+		<!-- Increases Speed by 20 for 2 minutes. Cooldown 18 minutes. -->
+		<icon>icon.accessory_forget_me_not_hairpin_i00</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>120</abnormalTime>
 		<abnormalType>SPEED_UP</abnormalType>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>4000</hitTime>
-		<icon>icon.accessory_forget_me_not_hairpin_i00</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>1080000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -1573,18 +1535,17 @@
 		</effects>
 	</skill>
 	<skill id="21070" toLevel="1" name="Death Whisper">
-		<!-- Confirmed CT2.5 -->
+		<!-- Increases Critical Damage by 35% for 5 minutes. Cooldown is 1 hour. -->
+		<icon>icon.accessory_outlaw_eyepatch_i00</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>300</abnormalTime>
 		<abnormalType>CRITICAL_DMG_UP</abnormalType>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>3000</hitTime>
-		<icon>icon.accessory_outlaw_eyepatch_i00</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>3600000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -1600,7 +1561,8 @@
 		</effects>
 	</skill>
 	<skill id="21071" toLevel="1" name="Agility">
-		<!-- Confirmed CT2.5 -->
+		<!-- Increases Evasion rate by 4 for 1 hour. Cooldown is 24 hours. -->
+		<icon>icon.accessory_eye_bandage_i00</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>3600</abnormalTime>
 		<abnormalType>AVOID_UP</abnormalType>
@@ -1610,14 +1572,12 @@
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>86400000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
 		<hitCancelTime>0</hitCancelTime>
 		<irreplacableBuff>true</irreplacableBuff>
 		<blockActionUseSkill>true</blockActionUseSkill>
-		<icon>icon.accessory_eye_bandage_i00</icon>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
@@ -1628,18 +1588,17 @@
 		</effects>
 	</skill>
 	<skill id="21072" toLevel="1" name="Wild Magic">
-		<!-- Confirmed CT2.5 -->
+		<!-- For 5 minutes, increases by 2 the occurrence rate of damage that is caused by magic damage. Cooldown is 1 hour. -->
+		<icon>icon.accessory_glasses_i00</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>300</abnormalTime>
 		<abnormalType>MAGIC_CRITICAL_UP</abnormalType>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>3000</hitTime>
-		<icon>icon.accessory_glasses_i00</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>3600000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -1655,19 +1614,18 @@
 		</effects>
 	</skill>
 	<skill id="21073" toLevel="1" name="Mana Regeneration">
-		<!-- Confirmed CT2.5 -->
+		<!-- Increases MP Recovery Rate 3 for 5 minutes. Cooldown is 1 hour. -->
+		<icon>icon.accessory_worldcup_mask_i00</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>300</abnormalTime>
 		<abnormalType>MP_REGEN_UP</abnormalType>
 		<activateRate>0</activateRate>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>3000</hitTime>
-		<icon>icon.accessory_worldcup_mask_i00</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>3600000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -1685,19 +1643,18 @@
 		</effects>
 	</skill>
 	<skill id="21074" toLevel="1" name="Reflect">
-		<!-- Confirmed CT2.5 -->
+		<!-- For 5 minutes, returns 20% of the damage back to the enemy. Cooldown is 1 hour. -->
+		<icon>icon.accessory_hair_cornu_i00</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>300</abnormalTime>
 		<abnormalType>DMG_SHIELD</abnormalType>
 		<activateRate>0</activateRate>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>3000</hitTime>
-		<icon>icon.accessory_hair_cornu_i00</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>3600000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -1715,19 +1672,18 @@
 		</effects>
 	</skill>
 	<skill id="21075" toLevel="1" name="Greater Heal">
-		<!-- Confirmed CT2.5 -->
+		<!-- Recovers HP by 444 and increases HP Recovery Rate by 30 for 15 seconds. Cooldown is 4 hours. -->
+		<icon>icon.etc_party_mask_i00</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>15</abnormalTime>
 		<abnormalType>LIFE_FORCE_OTHERS</abnormalType>
 		<activateRate>0</activateRate>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>3000</hitTime>
-		<icon>icon.etc_party_mask_i00</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>14400000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -1748,19 +1704,18 @@
 		</effects>
 	</skill>
 	<skill id="21076" toLevel="1" name="Dark Resistance">
-		<!-- Confirmed CT2.5 -->
+		<!-- Increases Dark Resistance by 30 for 5 minutes. Cooldown is 1 hour. -->
+		<icon>icon.etc_party_mask_i01</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>300</abnormalTime>
 		<abnormalType>ARMOR_UNHOLY</abnormalType>
 		<activateRate>0</activateRate>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>3000</hitTime>
-		<icon>icon.etc_party_mask_i01</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>3600000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -1778,18 +1733,17 @@
 		</effects>
 	</skill>
 	<skill id="21077" toLevel="1" name="Wind Walk">
-		<!-- Confirmed CT2.5 -->
+		<!-- Increases Speed by 20 for 2 minutes. Cooldown 18 minutes. -->
+		<icon>icon.accessory_cat_ear_i00</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>120</abnormalTime>
 		<abnormalType>SPEED_UP</abnormalType>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>4000</hitTime>
-		<icon>icon.accessory_cat_ear_i00</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>1080000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -1806,18 +1760,17 @@
 		</effects>
 	</skill>
 	<skill id="21078" toLevel="1" name="Death Whisper">
-		<!-- Confirmed CT2.5 -->
+		<!-- Increases Critical Damage by 35% for 5 minutes. Cooldown is 1 hour. -->
+		<icon>icon.accessory_hairpin_i00</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>300</abnormalTime>
 		<abnormalType>CRITICAL_DMG_UP</abnormalType>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>3000</hitTime>
-		<icon>icon.accessory_hairpin_i00</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>3600000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -1833,7 +1786,8 @@
 		</effects>
 	</skill>
 	<skill id="21079" toLevel="1" name="Agility">
-		<!-- Confirmed CT2.5 -->
+		<!-- Increases Evasion rate by 4 for 1 hour. Cooldown is 24 hours. -->
+		<icon>icon.accessory_racoon_ear_i00</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>3600</abnormalTime>
 		<abnormalType>AVOID_UP</abnormalType>
@@ -1843,14 +1797,12 @@
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>86400000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
 		<hitCancelTime>0</hitCancelTime>
 		<irreplacableBuff>true</irreplacableBuff>
 		<blockActionUseSkill>true</blockActionUseSkill>
-		<icon>icon.accessory_racoon_ear_i00</icon>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
@@ -1861,18 +1813,17 @@
 		</effects>
 	</skill>
 	<skill id="21080" toLevel="1" name="Wild Magic">
-		<!-- Confirmed CT2.5 -->
+		<!-- For 5 minutes, increases by 2 the occurrence rate of damage that is caused by magic damage. Cooldown is 1 hour. -->
+		<icon>icon.accessory_rabbit_ear_i00</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>300</abnormalTime>
 		<abnormalType>MAGIC_CRITICAL_UP</abnormalType>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>3000</hitTime>
-		<icon>icon.accessory_rabbit_ear_i00</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>3600000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -1888,19 +1839,18 @@
 		</effects>
 	</skill>
 	<skill id="21081" toLevel="1" name="Mana Regeneration">
-		<!-- Confirmed CT2.5 -->
+		<!-- Increases MP Recovery Rate 3 for 5 minutes. Cooldown is 1 hour. -->
+		<icon>icon.accessory_hair_ring_i00</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>300</abnormalTime>
 		<abnormalType>MP_REGEN_UP</abnormalType>
 		<activateRate>0</activateRate>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>3000</hitTime>
-		<icon>icon.accessory_hair_ring_i00</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>3600000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -1918,19 +1868,18 @@
 		</effects>
 	</skill>
 	<skill id="21082" toLevel="1" name="Reflect">
-		<!-- Confirmed CT2.5 -->
+		<!-- For 5 minutes, returns 20% of the damage back to the enemy. Cooldown is 1 hour. -->
+		<icon>icon.accessory_hair_feeler_i00</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>300</abnormalTime>
 		<abnormalType>DMG_SHIELD</abnormalType>
 		<activateRate>0</activateRate>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>3000</hitTime>
-		<icon>icon.accessory_hair_feeler_i00</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>3600000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -1948,19 +1897,18 @@
 		</effects>
 	</skill>
 	<skill id="21083" toLevel="1" name="Greater Heal">
-		<!-- Confirmed CT2.5 -->
+		<!-- Recovers HP by 444 and increases HP Recovery Rate by 30 for 15 seconds. Cooldown is 4 hours. -->
+		<icon>icon.accessory_archer_hat_i00</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>15</abnormalTime>
 		<abnormalType>LIFE_FORCE_OTHERS</abnormalType>
 		<activateRate>0</activateRate>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>3000</hitTime>
-		<icon>icon.accessory_archer_hat_i00</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>14400000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -1981,19 +1929,18 @@
 		</effects>
 	</skill>
 	<skill id="21084" toLevel="1" name="Vitality Recovery">
-		<!-- Confirmed CT2.5 -->
+		<!-- Recovers Vitality when acquiring XP for 5 minutes. Cooldown is 1 hour. -->
+		<icon>icon.accessory_dwarf_goggle_i00</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>300</abnormalTime>
 		<abnormalType>VP_UP</abnormalType>
 		<activateRate>0</activateRate>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>3000</hitTime>
-		<icon>icon.accessory_dwarf_goggle_i00</icon>
 		<isMagic>4</isMagic> <!-- Item Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>3600000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -2011,25 +1958,25 @@
 		</effects>
 	</skill>
 	<skill id="21085" toLevel="1" name="Release Agathion's Seal - Pomona">
-		<!-- Confirmed CT2.5 -->
-		<hitTime>3000</hitTime>
+		<!-- Removes the Agathion's seal. -->
 		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SummonAgathion">
-				<npcId>1527</npcId>
+				<npcId>1527</npcId> <!-- Pomona Agathion -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="21086" toLevel="1" name="Blessing of Love">
-		<!-- Confirmed CT2.5 -->
+		<!-- Can feel the warm love of family. Protects the target with holy power. Makes the target invincible for 10 seconds. Cooldown is 4 hours. -->
+		<icon>BranchSys.icon.br_garland_i00</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>10</abnormalTime>
 		<abnormalType>INVINCIBILITY</abnormalType>
@@ -2037,13 +1984,11 @@
 		<activateRate>0</activateRate>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>4000</hitTime>
-		<icon>BranchSys.icon.br_garland_i00</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<removedOnAnyActionExceptMove>true</removedOnAnyActionExceptMove>
 		<reuseDelay>14400000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -2066,18 +2011,17 @@
 		</effects>
 	</skill>
 	<skill id="21087" toLevel="1" name="Berserker Spirit">
-		<!-- Confirmed CT2.5 -->
+		<!-- Decreases P. Def. by 8%, M. Def. by 16% and Evasion by 4, and increases P. Atk. by 8%, M. Atk. by 16%, Atk. Spd. by 8%, Casting Spd. by 8%, and Speed by 8 for 20 minutes. -->
+		<icon>BranchSys.icon.br_circlet_of_eva_i00</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>1200</abnormalTime>
 		<abnormalType>BERSERKER</abnormalType>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>4000</hitTime>
-		<icon>BranchSys.icon.br_circlet_of_eva_i00</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>3600000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -2121,18 +2065,17 @@
 		</effects>
 	</skill>
 	<skill id="21088" toLevel="1" name="Summon Friend">
-		<!-- Confirmed CT2.5 -->
+		<!-- Summons your friend. -->
+		<icon>icon.skill_agathion_special</icon>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<castRange>-2</castRange>
 		<effectPoint>1000</effectPoint>
 		<effectRange>-2</effectRange>
 		<hitTime>10000</hitTime>
-		<icon>icon.skill_agathion_special</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>1</magicLvl>
 		<operateType>A1</operateType>
 		<reuseDelay>3600000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>OTHERS</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -2154,7 +2097,8 @@
 		</effects>
 	</skill>
 	<skill id="21089" toLevel="1" name="Dance of Shadows">
-		<!-- Confirmed CT2.5 -->
+		<!-- Receives the soul's help, and for 2 minutes, decreases one's own Speed by 50% and invokes the ability not to receive the preemptive attack of monsters. -->
+		<icon>BranchSys.icon.br_invokespirit_stick_a_i00</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>120</abnormalTime>
 		<abnormalType>DANCE_OF_SHADOW</abnormalType>
@@ -2162,12 +2106,10 @@
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<effectPoint>666</effectPoint>
 		<hitTime>2500</hitTime>
-		<icon>BranchSys.icon.br_invokespirit_stick_a_i00</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>3600000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -2186,19 +2128,18 @@
 		</effects>
 	</skill>
 	<skill id="21090" toLevel="1" name="Soul of the Phoenix">
-		<!-- Confirmed CT2.5 -->
+		<!-- Receives the soul's help, and revives from death with completely recovered status. Buff/de-buff doesn't disappear at death but is maintained. -->
+		<icon>BranchSys.icon.br_comfortspirit_hat_a_i00</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>1800</abnormalTime>
 		<abnormalType>RESURRECTION_SPECIAL</abnormalType>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<effectPoint>673</effectPoint>
 		<hitTime>4000</hitTime>
-		<icon>BranchSys.icon.br_comfortspirit_hat_a_i00</icon>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>86400000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<staticReuse>true</staticReuse>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -2214,54 +2155,55 @@
 		</effects>
 	</skill>
 	<skill id="21091" toLevel="1" name="Release Agathion's Seal - Weaver">
-		<!-- Confirmed CT2.5 -->
-		<hitTime>3000</hitTime>
+		<!-- Removes the Agathion's seal. -->
 		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effects>
 			<effect name="SummonAgathion">
-				<npcId>1528</npcId>
+				<npcId>1528</npcId> <!-- Weaver Agathion -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="21092" toLevel="1" name="Theme - Town">
+		<!-- The town's theme music plays on the headphones. -->
 		<icon>BranchSys.icon.br_headphone_i00</icon>
 		<magicLvl>1</magicLvl>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
 	</skill>
 	<skill id="21093" toLevel="1" name="Theme - Hero">
+		<!-- The hero's theme music plays on the headphones. -->
 		<icon>BranchSys.icon.br_headphone_i00</icon>
 		<magicLvl>1</magicLvl>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
 	</skill>
 	<skill id="21094" toLevel="1" name="Theme - Theme Park">
+		<!-- The theme park's theme music plays on the headphones. -->
 		<icon>BranchSys.icon.br_headphone_i00</icon>
 		<magicLvl>1</magicLvl>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
 	</skill>
 	<skill id="21095" toLevel="1" name="Blessed Resurrection">
-		<!-- Confirmed CT2.5 -->
+		<!-- Allows the use of Blessed Resurrection. Cooldown is 12 hours. -->
+		<icon>BranchSys.icon.br_comfortspirit_hat_a_i00</icon>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<castRange>400</castRange>
 		<coolTime>600</coolTime>
 		<effectPoint>1</effectPoint>
 		<hitTime>3000</hitTime>
-		<icon>BranchSys.icon.br_comfortspirit_hat_a_i00</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
 		<reuseDelay>43200000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>600</effectRange>
 		<targetType>PC_BODY</targetType>
@@ -2276,18 +2218,17 @@
 		</effects>
 	</skill>
 	<skill id="21096" toLevel="1" name="Refreshing Watermelon's Ability">
-		<!-- Confirmed CT2.5 -->
+		<!-- For 30 minutes, increases Critical Rate by 30% and Critical Damage by 35%. -->
+		<icon>BranchSys.icon.br_watermelon_cap_a_i00</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>1800</abnormalTime>
 		<abnormalType>IMPROVE_CRT_RATE_DMG_UP</abnormalType>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>3000</hitTime>
-		<icon>BranchSys.icon.br_watermelon_cap_a_i00</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>14400000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -2307,18 +2248,17 @@
 		</effects>
 	</skill>
 	<skill id="21097" toLevel="1" name="Summon Friend">
-		<!-- Confirmed CT2.5 -->
+		<!-- Summons your friend. -->
+		<icon>icon.skill_agathion_special</icon>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<castRange>-2</castRange>
 		<effectPoint>1000</effectPoint>
 		<effectRange>-2</effectRange>
 		<hitTime>10000</hitTime>
-		<icon>icon.skill_agathion_special</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>1</magicLvl>
 		<operateType>A1</operateType>
 		<reuseDelay>3600000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>OTHERS</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -2340,18 +2280,17 @@
 		</effects>
 	</skill>
 	<skill id="21098" toLevel="1" name="Great Adventurer's Soul Power">
-		<!-- Confirmed CT2.5 -->
+		<!-- For 5 minutes, receives the soul's help to increase Max HP by 20%, Max MP by 20%, and Speed by 20%. Increases Debuff Resistance by 10%. -->
+		<icon>BranchSys.icon.br_valkyrie_cap_i00</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>300</abnormalTime>
 		<abnormalType>MULTI_BUFF</abnormalType>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>4000</hitTime>
-		<icon>BranchSys.icon.br_valkyrie_cap_i00</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>3600000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
@@ -2379,18 +2318,17 @@
 		</effects>
 	</skill>
 	<skill id="21099" toLevel="1" name="Brave Warrior's Soul Power">
-		<!-- Confirmed CT2.5 -->
+		<!-- For 5 minutes, receives the soul's help to increases Atk. Spd. by 20%, P. Atk. by 10%, and P. Def. by 20%. Bestows the ability to recover as HP 5% of the physical damage inflicted on the enemy with a certain probability. -->
+		<icon>BranchSys.icon.br_tiger_cap_i00</icon>
 		<abnormalLvl>26</abnormalLvl>
 		<abnormalTime>300</abnormalTime>
 		<abnormalType>MULTI_BUFF</abnormalType>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<hitTime>4000</hitTime>
-		<icon>BranchSys.icon.br_tiger_cap_i00</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>-1</magicLvl>
 		<operateType>A2</operateType>
 		<reuseDelay>3600000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>

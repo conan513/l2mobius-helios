@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
 	<skill id="19001" toLevel="1" name="Test Bleed">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Race confirm -->
 		<icon>icon.skill0010509</icon>
 		<operateType>A2</operateType>
@@ -13,7 +12,6 @@
 		<subordinationAbnormalType>BLEEDING</subordinationAbnormalType>
 		<abnormalType>BLEEDING</abnormalType>
 		<basicProperty>PHYSICAL</basicProperty>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>400</effectRange>
 		<lvlBonusRate>30</lvlBonusRate>
@@ -28,7 +26,6 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="19002" toLevel="1" name="Anchor">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Action prevent item skill confirm -->
 		<icon>icon.skill10510</icon>
 		<operateType>A2</operateType>
@@ -39,7 +36,6 @@
 		<effectPoint>-1</effectPoint>
 		<abnormalType>PARALYZE</abnormalType>
 		<basicProperty>MAGIC</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>900</effectRange>
 		<lvlBonusRate>20</lvlBonusRate>
@@ -53,8 +49,7 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="19003" toLevel="5" name="Clan Resistance Hall">
-		<!-- Updated to Ertheia -->
-		<!-- Only 4 level are in use -->
+		<!-- Increases clan members' Holy/Dark Attack Resistance by $s1. Applies after the elder stage. -->
 		<icon>icon.skill19003</icon>
 		<magicLvl>1</magicLvl>
 		<operateType>P</operateType>
@@ -83,7 +78,7 @@
 		</effects>
 	</skill>
 	<skill id="19004" toLevel="5" name="Clan De-Buff Control">
-		<!-- Increases clan members' Debuff Resistance by 3%. Applies after the elder stage. -->
+		<!-- Increases clan members' Debuff Resistance by $s1. Applies after the elder stage. -->
 		<icon>icon.skill19004</icon>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -143,7 +138,7 @@
 		</effects>
 	</skill>
 	<skill id="19005" toLevel="5" name="Clan Muzzle Control">
-		<!-- Updated to Ertheia -->
+		<!-- Increases clan members' Paralysis Resistance by $s1. Applies after the elder stage. -->
 		<icon>icon.skill19005</icon>
 		<magicLvl>1</magicLvl>
 		<operateType>P</operateType>
@@ -161,7 +156,7 @@
 		</effects>
 	</skill>
 	<skill id="19006" toLevel="5" name="Clan Mental Control">
-		<!-- Updated to Ertheia -->
+		<!-- Increases clan members' Mental Attack Resistance by $s1. Applies after the elder stage. -->
 		<icon>icon.skill19006</icon>
 		<magicLvl>1</magicLvl>
 		<operateType>P</operateType>
@@ -185,7 +180,6 @@
 		<castRange>-2</castRange>
 		<hitTime>15000</hitTime>
 		<effectPoint>467</effectPoint>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>-2</effectRange>
 		<magicLvl>85</magicLvl>
@@ -214,7 +208,6 @@
 		<hitTime>1500</hitTime>
 		<coolTime>500</coolTime>
 		<effectPoint>100</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>85</magicLvl>
 		<isMagic>2</isMagic>
@@ -246,7 +239,6 @@
 		<effectPoint>100</effectPoint>
 		<abnormalType>CLAN_ADVENT</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-2</specialLevel>
 		<hitCancelTime>0</hitCancelTime>
@@ -291,7 +283,6 @@
 		<icon>icon.skill19010</icon>
 		<operateType>A1</operateType>
 		<hitTime>2000</hitTime>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>74</magicLvl>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
@@ -303,7 +294,7 @@
 		<itemConsumeId>3031</itemConsumeId> <!-- Spirit Ore -->
 		<effects>
 			<effect name="SummonNpc">
-				<npcId>13076</npcId>
+				<npcId>13076</npcId> <!-- Illusion -->
 				<npcCount>1</npcCount>
 			</effect>
 		</effects>
@@ -339,7 +330,6 @@
 		<effectPoint>100</effectPoint>
 		<abnormalType>HIDE</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>85</magicLvl>
 		<abnormalLvl>1</abnormalLvl>
@@ -372,7 +362,6 @@
 		<hitTime>1500</hitTime>
 		<coolTime>500</coolTime>
 		<effectPoint>100</effectPoint>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>85</magicLvl>
 		<canBeDispelled>false</canBeDispelled>
@@ -400,7 +389,6 @@
 		<coolTime>500</coolTime>
 		<abnormalType>INVINCIBILITY</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>85</magicLvl>
 		<abnormalLvl>1</abnormalLvl>
@@ -439,7 +427,6 @@
 		<effectPoint>100</effectPoint>
 		<abnormalType>CLAN_FRIEND</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>85</magicLvl>
 		<abnormalLvl>1</abnormalLvl>
@@ -474,7 +461,6 @@
 		<effectPoint>100</effectPoint>
 		<abnormalType>CLAN_BOUNDARY</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>85</magicLvl>
 		<abnormalLvl>1</abnormalLvl>
@@ -510,7 +496,6 @@
 		<effectPoint>-100</effectPoint>
 		<abnormalType>CLAN_PRISON</abnormalType>
 		<basicProperty>MAGIC</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<lvlBonusRate>30</lvlBonusRate>
 		<activateRate>90</activateRate>
@@ -543,7 +528,6 @@
 		<operateType>A1</operateType>
 		<hitTime>1500</hitTime>
 		<effectPoint>100</effectPoint>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>85</magicLvl>
 		<canBeDispelled>false</canBeDispelled>
@@ -566,7 +550,6 @@
         </effects>
 	</skill>
 	<skill id="19019" toLevel="1" name="Revolution Blade">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Inflicts physical damage on target. Can only be used in a castle siege area by characters between lv 40 - 84. Soulshots and Spiritshots are not consumed. -->
 		<icon>icon.skill10013</icon>
 		<operateType>A1</operateType>
@@ -574,7 +557,6 @@
 		<hitTime>1000</hitTime>
 		<coolTime>200</coolTime>
 		<effectPoint>-687</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>400</effectRange>
 		<magicLvl>85</magicLvl>
@@ -591,7 +573,6 @@
 		</conditions>
 	</skill>
 	<skill id="19020" toLevel="1" name="Revolution Eruption">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Attacks frontal targets to inflict physical damage. Can only be used in a castle siege area by characters between lv 40 - 84. Soulshots and Spiritshots are not consumed. -->
 		<icon>icon.skill10265</icon>
 		<operateType>A1</operateType>
@@ -599,7 +580,6 @@
 		<hitTime>1000</hitTime>
 		<coolTime>200</coolTime>
 		<effectPoint>-687</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>400</effectRange>
 		<magicLvl>85</magicLvl>
@@ -619,7 +599,6 @@
 		</conditions>
 	</skill>
 	<skill id="19021" toLevel="1" name="Revolution Strike">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Inflicts powerful physical damage on target. Can only be used in a castle siege area by characters between lv 40 - 84. Soulshots and Spiritshots are not consumed. -->
 		<icon>icon.skill10260</icon>
 		<operateType>A1</operateType>
@@ -627,7 +606,6 @@
 		<hitTime>1000</hitTime>
 		<coolTime>200</coolTime>
 		<effectPoint>-687</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>400</effectRange>
 		<magicLvl>85</magicLvl>
@@ -644,7 +622,6 @@
 		</conditions>
 	</skill>
 	<skill id="19022" toLevel="1" name="Revolution Shot">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Attacks distant enemies. Requires a bow or crossbow to be equipped. Over-hit. Critical. Can only be used in a castle siege area by characters between lv 40 - 84. Soulshots and Spiritshots are not consumed. -->
 		<icon>icon.skill10762</icon>
 		<operateType>A1</operateType>
@@ -652,7 +629,6 @@
 		<hitTime>1000</hitTime>
 		<coolTime>200</coolTime>
 		<effectPoint>-687</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>1200</effectRange>
 		<magicLvl>85</magicLvl>
@@ -669,7 +645,6 @@
 		</conditions>
 	</skill>
 	<skill id="19023" toLevel="1" name="Revolution Multi-Shot">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Does ranged attacks centered on frontal target. Requires a bow or crossbow to be equipped. Over-hit. Critical. Can only be used in a castle siege area by characters between lv 40 - 84. Soulshots and Spiritshots are not consumed. -->
 		<icon>icon.skill10771</icon>
 		<operateType>A1</operateType>
@@ -677,7 +652,6 @@
 		<hitTime>1000</hitTime>
 		<coolTime>200</coolTime>
 		<effectPoint>-687</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>1200</effectRange>
 		<magicLvl>85</magicLvl>
@@ -697,7 +671,6 @@
 		</conditions>
 	</skill>
 	<skill id="19024" toLevel="1" name="Revolution Tornado Shot">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Inflicts a penetrating attack on enemies at the front. Requires a bow or crossbow to be equipped. Over-hit. Critical. Can only be used in a castle siege area by characters between lv 40 - 84. Soulshots and Spiritshots are not consumed. -->
 		<icon>icon.skill10760</icon>
 		<operateType>A1</operateType>
@@ -705,7 +678,6 @@
 		<hitTime>1000</hitTime>
 		<coolTime>200</coolTime>
 		<effectPoint>-687</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>1200</effectRange>
 		<magicLvl>85</magicLvl>
@@ -722,7 +694,6 @@
 		</conditions>
 	</skill>
 	<skill id="19025" toLevel="1" name="Revolution Spike">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Inflicts a magic attack on target. Over-hit. Can only be used in a castle siege area by characters between lv 40 - 84. Soulshots and Spiritshots are not consumed. -->
 		<icon>icon.skill11011</icon>
 		<operateType>A1</operateType>
@@ -730,7 +701,6 @@
 		<hitTime>1000</hitTime>
 		<coolTime>200</coolTime>
 		<effectPoint>-687</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>6</magicCriticalRate>
 		<effectRange>1200</effectRange>
 		<magicLvl>85</magicLvl>
@@ -747,7 +717,6 @@
 		</conditions>
 	</skill>
 	<skill id="19026" toLevel="1" name="Revolution Blast">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Inflicts a magic attack on target and enemies near target. Over-hit. Can only be used in a castle siege area by characters between lv 40 - 84. Soulshots and Spiritshots are not consumed. -->
 		<icon>icon.skill11034</icon>
 		<operateType>A1</operateType>
@@ -755,7 +724,6 @@
 		<hitTime>1000</hitTime>
 		<coolTime>200</coolTime>
 		<effectPoint>-687</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>1200</effectRange>
 		<magicLvl>85</magicLvl>
@@ -775,7 +743,6 @@
 		</conditions>
 	</skill>
 	<skill id="19027" toLevel="1" name="Revolution Destruction">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Inflicts a powerful magic attack on target. Over-hit. Can only be used in a castle siege area by characters between lv 40 - 84. Soulshots and Spiritshots are not consumed. -->
 		<icon>icon.skill11023</icon>
 		<operateType>A1</operateType>
@@ -783,7 +750,6 @@
 		<hitTime>1000</hitTime>
 		<coolTime>200</coolTime>
 		<effectPoint>-687</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>11</magicCriticalRate>
 		<effectRange>1200</effectRange>
 		<magicLvl>85</magicLvl>
@@ -800,8 +766,7 @@
 		</conditions>
 	</skill>
 	<skill id="19028" toLevel="2" name="Revolution Spirit">
-		<!-- AUTO GENERATED SKILL -->
-		<!-- Increases Max CP by 10000, P. Def. by 1000, and M. Def. by 1000 for 5 minutes. Can only be used in a castle siege area by characters between lv 40 - 84. Soulshots and Spiritshots are not consumed. -->
+		<!-- Increases Max CP by $s2, P. Def. by $s3, and M. Def. by $s4 for $s1. Can only be used in a castle siege area by characters between Lv. $s5 - $s6. Soulshots and Spiritshots are not consumed. -->
 		<icon>BranchSys2.icon.skill20006</icon>
 		<operateType>A2</operateType>
 		<hitTime>1000</hitTime>
@@ -809,7 +774,6 @@
 		<effectPoint>635</effectPoint>
 		<abnormalType>MAX_HP_UP_K</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>
 			<value level="1">85</value>
@@ -833,14 +797,12 @@
 		</conditions>
 	</skill>
 	<skill id="19029" toLevel="1" name="Revolution Self CP Recovery">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Increases combat spirit to recover your own CP by 2000. Can only be used by characters between lv 40-84 within the castle siege area. Soulshots and Spiritshots are not consumed. -->
 		<icon>icon.skill0440</icon>
 		<operateType>A1</operateType>
 		<hitTime>1000</hitTime>
 		<coolTime>200</coolTime>
 		<effectPoint>669</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>85</magicLvl>
 		<isMagic>2</isMagic>
@@ -862,7 +824,6 @@
 		</effects>
 	</skill>
 	<skill id="19030" toLevel="1" name="Revolution CP Recovery">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Increases combat spirit to recover target's CP by 1000. Can only be used by characters between lv 40-84 within the castle siege area. Soulshots and Spiritshots are not consumed. -->
 		<icon>icon.skill11755</icon>
 		<operateType>A1</operateType>
@@ -870,7 +831,6 @@
 		<hitTime>1000</hitTime>
 		<coolTime>200</coolTime>
 		<effectPoint>669</effectPoint>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>1100</effectRange>
 		<magicLvl>85</magicLvl>
@@ -893,14 +853,12 @@
 		</effects>
 	</skill>
 	<skill id="19031" toLevel="1" name="Revolution Party CP Recovery">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Increases combat spirit to recover a party member's CP by 1000. Can only be used by characters between lv 40-84 within the castle siege area. Soulshots and Spiritshots are not consumed. -->
 		<icon>icon.skill11757</icon>
 		<operateType>A1</operateType>
 		<hitTime>1000</hitTime>
 		<coolTime>200</coolTime>
 		<effectPoint>669</effectPoint>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>85</magicLvl>
 		<affectRange>1000</affectRange>
@@ -975,15 +933,14 @@
 	</skill>
 	<skill id="19034" toLevel="1" name="Imprint of Light">
 		<!-- Engraves the Imprint of Light on the ancient relic that guards the castle. -->
+		<icon>icon.skill0246</icon>
 		<castRange>85</castRange>
 		<effectRange>400</effectRange>
 		<hitTime>120000</hitTime>
-		<icon>icon.skill0246</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
 		<reuseDelay>5000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>HOLYTHING</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -1001,15 +958,14 @@
 	</skill>
 	<skill id="19035" toLevel="1" name="Imprint of Darkness">
 		<!-- Engraves the Imprint of Darkness on the ancient relic that guards the castle. -->
+		<icon>icon.skill0246</icon>
 		<castRange>85</castRange>
 		<effectRange>400</effectRange>
 		<hitTime>120000</hitTime>
-		<icon>icon.skill0246</icon>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>85</magicLvl>
 		<operateType>A1</operateType>
 		<reuseDelay>5000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>HOLYTHING</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -1032,7 +988,6 @@
 		<isMagic>4</isMagic>
 		<abnormalType>BRIGHTNESS_BLESS</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>85</magicLvl>
 		<abnormalLvl>1</abnormalLvl>
@@ -1054,7 +1009,7 @@
 		</effects>
 	</skill>
 	<skill id="19037" toLevel="1" name="Cloak of Radiant Light">
-		<!-- STR/MEN/DEX/CON/INT/WIT/LUC/CHA + 3, decreased damage received during PvP by 15%. Ineffective in Chaotic state. -->
+		<!-- STR/DEX/CON/INT/WIT/MEN/LUC/CHA + 3, decreased damage received during PvP by 15%. Ineffective in Chaotic State. -->
 		<icon>icon.amor_goodness_cloak</icon>
 		<magicLvl>1</magicLvl>
 		<operateType>P</operateType>
@@ -1106,7 +1061,7 @@
 		</effects>
 	</skill>
 	<skill id="19038" toLevel="1" name="Cold Cloak of Darkness">
-		<!-- STR/MEN/DEX/CON/INT/WIT/LUC/CHA + 3, decreased damage received during PvP by 15%. -->
+		<!-- STR/DEX/CON/INT/WIT/MEN/LUC/CHA + 3, Received Damage - 15%. -->
 		<icon>icon.amor_evilness_cloak</icon>
 		<magicLvl>1</magicLvl>
 		<operateType>P</operateType>
@@ -1152,7 +1107,7 @@
 		</effects>
 	</skill>
 	<skill id="19039" toLevel="1" name="Cloak of Light">
-		<!-- STR/MEN/DEX/CON/INT/WIT + 2, decreased damage received during PvP by 5%. Ineffective in Chaotic state. -->
+		<!-- STR/DEX/CON/INT/WIT/MEN + 2, Received Damage - 5%. Ineffective in Chaotic state. -->
 		<icon>icon.amor_goodness_cloak</icon>
 		<magicLvl>1</magicLvl>
 		<operateType>P</operateType>
@@ -1196,7 +1151,7 @@
 		</effects>
 	</skill>
 	<skill id="19040" toLevel="1" name="Cloak of Darkness">
-		<!-- STR/MEN/DEX/CON/INT/WIT + 2, decreased damage received during PvP by 5%. -->
+		<!-- STR/DEX/CON/INT/WIT/MEN + 2, Received Damage - 5%. -->
 		<icon>icon.amor_evilness_cloak</icon>
 		<magicLvl>1</magicLvl>
 		<operateType>P</operateType>
@@ -1234,14 +1189,13 @@
 		</effects>
 	</skill>
 	<skill id="19041" toLevel="1" name="King's Call">
-		<!-- Return to Castle. -->
-		<hitTime>20000</hitTime>
+		<!-- Teleports to your castle. -->
 		<icon>icon.vesper_cloack_i00</icon>
+		<hitTime>20000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLvl>1</magicLvl>
 		<operateType>A1</operateType>
 		<reuseDelay>3600000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -1255,11 +1209,10 @@
 		</effects>
 	</skill>
 	<skill id="19042" toLevel="1" name="King's Summon">
-		<!-- Return to Castle. -->
+		<!-- Teleports to your castle immediately. -->
 		<icon>icon.vesper_cloack_i00</icon>
 		<operateType>A1</operateType>
 		<hitTime>200</hitTime>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<magicLvl>1</magicLvl>
@@ -1280,8 +1233,7 @@
 		</effects>
 	</skill>
 	<skill id="19074" toLevel="2" name="Academy Precept">
-		<!-- AUTO GENERATED SKILL -->
-		<!-- For 60 minutes, increases academy members' P. Atk. by 10%, M. Atk. by 10%, Critical Rate by 10%, and M. Critical Rate by 10%. -->
+		<!-- For $s1, increases academy members' P. Atk. by $s2, M. Atk. by $s3, Critical Rate by $s4, and M. Critical Rate by $s5. -->
 		<icon>icon.skill19008</icon>
 		<operateType>A2</operateType>
 		<mpConsume>100</mpConsume>
@@ -1290,7 +1242,6 @@
 		<effectPoint>100</effectPoint>
 		<abnormalType>ACADEMY_UP</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>900</effectRange>
 		<magicLvl>
@@ -1311,17 +1262,13 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="19075" toLevel="1" name="Clan Relation">
-		<!-- AUTO GENERATED SKILL -->
 		<icon>icon.skill19008</icon>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>85</magicLvl>
 	</skill>
 	<skill id="19076" toLevel="1" name="Clan Academy Reward">
-		<!-- AUTO GENERATED SKILL -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<magicLvl>1</magicLvl>
@@ -1332,10 +1279,10 @@
 			<effect name="RestorationRandom">
 				<items>
 					<item chance="49">
-						<item id="9910" count="1" />
+						<item id="9910" count="1" /> <!-- Blood Oath -->
 					</item>
 					<item chance="49">
-						<item id="9911" count="1" />
+						<item id="9911" count="1" /> <!-- Blood Alliance -->
 					</item>
 				</items>
 			</effect>
@@ -1348,7 +1295,6 @@
 		<effectPoint>1</effectPoint>
 		<abnormalType>TRANSFORM</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
 		<hitCancelTime>0</hitCancelTime>
@@ -1377,7 +1323,6 @@
 		<effectPoint>1</effectPoint>
 		<abnormalType>TRANSFORM</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
 		<hitCancelTime>0</hitCancelTime>
@@ -1406,7 +1351,6 @@
 		<effectPoint>1</effectPoint>
 		<abnormalType>TRANSFORM</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
 		<hitCancelTime>0</hitCancelTime>
@@ -1435,7 +1379,6 @@
 		<effectPoint>1</effectPoint>
 		<abnormalType>TRANSFORM</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
 		<hitCancelTime>0</hitCancelTime>
@@ -1464,7 +1407,6 @@
 		<effectPoint>1</effectPoint>
 		<abnormalType>TRANSFORM</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
 		<hitCancelTime>0</hitCancelTime>
@@ -1493,7 +1435,6 @@
 		<effectPoint>1</effectPoint>
 		<abnormalType>TRANSFORM</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
 		<hitCancelTime>0</hitCancelTime>
@@ -1522,7 +1463,6 @@
 		<effectPoint>1</effectPoint>
 		<abnormalType>TRANSFORM</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
 		<hitCancelTime>0</hitCancelTime>
@@ -1551,7 +1491,6 @@
 		<effectPoint>1</effectPoint>
 		<abnormalType>TRANSFORM</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<specialLevel>-1</specialLevel>
 		<hitCancelTime>0</hitCancelTime>
@@ -1574,12 +1513,11 @@
 		</effects>
 	</skill>
 	<skill id="19088" toLevel="4" name="Summon Siege Golem">
-		<!-- Summons a siege weapon. Requires 400 R-grade Crystals. Automatically acquired by dwarves at level 85. -->
+		<!-- Summons a siege weapon. Requires $s1 R-grade Crystals. Automatically acquired by dwarves at level $s2. -->
 		<icon>icon.skill0013</icon>
 		<operateType>A1</operateType>
 		<mpConsume>530</mpConsume>
 		<hitTime>180000</hitTime>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>
 			<value level="1">85</value>
@@ -1608,12 +1546,11 @@
 		</effects>
 	</skill>
 	<skill id="19089" toLevel="4" name="Summon Wild Hog Cannon">
-		<!-- Summons a siege weapon. Can only move in normal mode. During siege mode, it cannot move, and it can inflict ranged attacks. Switching modes takes 30 seconds. Requires 100 R-grade Crystals. Automatically acquired by Maestro class at level 85. -->
+		<!-- Summons a siege weapon. Can only move in normal mode. During siege mode, it cannot move, and it can inflict ranged attacks. Switching modes takes $s1. Requires $s2 R-grade Crystals. Automatically acquired by Maestro class at level $s3. -->
 		<icon>icon.skill0299</icon>
 		<operateType>A1</operateType>
 		<mpConsume>530</mpConsume>
 		<hitTime>30000</hitTime>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>
 			<value level="1">85</value>
@@ -1642,12 +1579,11 @@
 		</effects>
 	</skill>
 	<skill id="19090" toLevel="4" name="Summon Swoop Cannon">
-		<!-- Summons a Swoop Cannon. Requires 500 R-grade Crystals. Automatically acquired by dwarves at level 85. -->
+		<!-- Summons a Swoop Cannon. Requires $s1 R-grade Crystals. Automatically acquired by dwarves at level $s2. -->
 		<icon>icon.skill0448</icon>
 		<operateType>A1</operateType>
 		<mpConsume>530</mpConsume>
 		<hitTime>10000</hitTime>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>7.5</hitCancelTime>
 		<magicLvl>
@@ -1677,7 +1613,6 @@
 		</effects>
 	</skill>
 	<skill id="19091" toLevel="1" name="Increase Item Drop Rate">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Increases Item Drop Rate upon PK. -->
 		<icon>icon.skill1170</icon>
 		<operateType>A2</operateType>
@@ -1688,7 +1623,6 @@
 		<effectPoint>-700</effectPoint>
 		<abnormalType>PARALYZE</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>1400</effectRange>
@@ -1703,7 +1637,6 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="19092" toLevel="2" name="Mass Return">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Chatting is restricted. -->
 		<icon>
 			<value level="1">icon.skill1170</value>
@@ -1740,7 +1673,6 @@
 		</effectPoint>
 		<abnormalType>PARALYZE</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>1400</effectRange>
@@ -1761,50 +1693,42 @@
 		</conditions>
 	</skill>
 	<skill id="19093" toLevel="1" name="Added Blow Quiver">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Chance of inflicting damage again upon shooting. -->
 		<icon>icon.skill0256</icon>
 		<operateType>T</operateType>
 		<mpConsume>1</mpConsume>
 		<hitTime>500</hitTime>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>97</magicLvl>
 		<reuseDelay>30000</reuseDelay>
 		<targetType>NONE</targetType>
 	</skill>
 	<skill id="19094" toLevel="1" name="Increased Damage Quiver">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Great damage occurs if critical occurs while shooting. -->
 		<icon>icon.skill0256</icon>
 		<operateType>T</operateType>
 		<mpConsume>1</mpConsume>
 		<hitTime>500</hitTime>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>97</magicLvl>
 		<reuseDelay>30000</reuseDelay>
 		<targetType>NONE</targetType>
 	</skill>
 	<skill id="19095" toLevel="1" name="Added Bleed Quiver">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Chance of inflicting bleed if critical occurs while shooting. -->
 		<icon>icon.skill0256</icon>
 		<operateType>T</operateType>
 		<mpConsume>1</mpConsume>
 		<hitTime>500</hitTime>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>97</magicLvl>
 		<reuseDelay>30000</reuseDelay>
 		<targetType>NONE</targetType>
 	</skill>
 	<skill id="19096" toLevel="1" name="Added Blow">
-		<!-- AUTO GENERATED SKILL -->
 		<icon>icon.skill0056</icon>
 		<operateType>A1</operateType>
 		<effectPoint>-2</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>1500</effectRange>
@@ -1814,12 +1738,10 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="19097" toLevel="1" name="Critical Target">
-		<!-- AUTO GENERATED SKILL -->
 		<icon>icon.skill0056</icon>
 		<operateType>A1</operateType>
 		<castRange>900</castRange>
 		<effectPoint>-2</effectPoint>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>1500</effectRange>
@@ -1829,7 +1751,6 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="19098" toLevel="1" name="Bleed Target">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Consumes 100 HP per second for 15 seconds. -->
 		<icon>icon.skill0096</icon>
 		<operateType>A2</operateType>
@@ -1838,7 +1759,6 @@
 		<effectPoint>-2</effectPoint>
 		<abnormalType>BLEEDING</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>1500</effectRange>
@@ -1853,7 +1773,6 @@
 		<affectScope>SINGLE</affectScope>
 	</skill>
 	<skill id="19099" toLevel="1" name="GM's Authority">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Inflicts petrification on target for 60 minutes. -->
 		<icon>icon.skill0367</icon>
 		<operateType>A2</operateType>
@@ -1861,7 +1780,6 @@
 		<hitTime>500</hitTime>
 		<abnormalType>TURN_STONE</abnormalType>
 		<basicProperty>MAGIC</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effectRange>1100</effectRange>
 		<lvlBonusRate>30</lvlBonusRate>

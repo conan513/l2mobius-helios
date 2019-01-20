@@ -2,6 +2,7 @@
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="37000" name="9th Anniversary Cube (20-day) (Event)" type="EtcItem">
 		<!-- Lineage II's 9th Anniversary Cube. Double-click to obtain one of the following: Kaliel's Energy (Annihilation/Hellfire/Desire), Honey Wheat Cake, Honey Rice Cake, and Blessed Scroll of Resurrection. Can be used once a day. -->
+		<set name="icon" val="icon.special_cube_i00" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
@@ -11,11 +12,11 @@
 		<set name="is_commissionable" val="false" />
 		<set name="is_private_storeable" val="false" />
 		<set name="etcitem_type" val="ELIXIR" />
-		<set name="icon" val="icon.special_cube_i00" />
 		<set name="time" val="28800" />
 	</item>
 	<item id="37001" name="9th Anniversary Cube (10-day) (Event)" type="EtcItem">
 		<!-- Lineage II's 9th Anniversary Cube. Double-click to obtain one of the following: Kaliel's Energy (Annihilation/Hellfire/Desire), Honey Wheat Cake, Honey Rice Cake, and Blessed Scroll of Resurrection. Can be used once a day. -->
+		<set name="icon" val="icon.special_cube_i00" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
@@ -25,11 +26,11 @@
 		<set name="is_commissionable" val="false" />
 		<set name="is_private_storeable" val="false" />
 		<set name="etcitem_type" val="ELIXIR" />
-		<set name="icon" val="icon.special_cube_i00" />
 		<set name="time" val="14400" />
 	</item>
 	<item id="37002" name="9th Anniversary Cube (5-day) (Event)" type="EtcItem">
 		<!-- Lineage II's 9th Anniversary Cube. Double-click to obtain one of the following: Kaliel's Energy (Annihilation/Hellfire/Desire), Honey Wheat Cake, Honey Rice Cake, and Blessed Scroll of Resurrection. Can be used once a day. -->
+		<set name="icon" val="icon.special_cube_i00" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
@@ -39,7 +40,6 @@
 		<set name="is_commissionable" val="false" />
 		<set name="is_private_storeable" val="false" />
 		<set name="etcitem_type" val="ELIXIR" />
-		<set name="icon" val="icon.special_cube_i00" />
 		<set name="time" val="7200" />
 	</item>
 	<item id="37003" name="Letter Collector's Pouch: TOGETHER" type="EtcItem">
@@ -54,11 +54,11 @@
 		<set name="extractableCountMin" val="1" />
 		<set name="extractableCountMax" val="1" />
 		<capsuled_items>
-			<item id="3877" min="1" max="1" chance="28.571" />
-			<item id="3879" min="1" max="1" chance="14.286" />
-			<item id="3880" min="1" max="1" chance="14.286" />
-			<item id="3884" min="1" max="1" chance="14.286" />
-			<item id="3887" min="1" max="1" chance="28.571" />
+			<item id="3877" min="1" max="1" chance="28.571" /> <!-- Letter - E - Event -->
+			<item id="3879" min="1" max="1" chance="14.286" /> <!-- Letter - G - Event -->
+			<item id="3880" min="1" max="1" chance="14.286" /> <!-- Letter - H - Event -->
+			<item id="3884" min="1" max="1" chance="14.286" /> <!-- Letter - O - Event -->
+			<item id="3887" min="1" max="1" chance="28.571" /> <!-- Letter - T - Event -->
 		</capsuled_items>
 	</item>
 	<item id="37004" name="Letter Collector's Pouch: LINEAGE II" type="EtcItem">
@@ -73,12 +73,12 @@
 		<set name="extractableCountMin" val="1" />
 		<set name="extractableCountMax" val="1" />
 		<capsuled_items>
-			<item id="3875" min="1" max="1" chance="14.286" />
-			<item id="3877" min="1" max="1" chance="28.571" />
-			<item id="3879" min="1" max="1" chance="14.285" />
-			<item id="3881" min="1" max="1" chance="14.286" />
-			<item id="3882" min="1" max="1" chance="14.286" />
-			<item id="3883" min="1" max="1" chance="14.286" />
+			<item id="3875" min="1" max="1" chance="14.286" /> <!-- Letter - A - Event -->
+			<item id="3877" min="1" max="1" chance="28.571" /> <!-- Letter - E - Event -->
+			<item id="3879" min="1" max="1" chance="14.285" /> <!-- Letter - G - Event -->
+			<item id="3881" min="1" max="1" chance="14.286" /> <!-- Letter - I - Event -->
+			<item id="3882" min="1" max="1" chance="14.286" /> <!-- Letter - L - Event -->
+			<item id="3883" min="1" max="1" chance="14.286" /> <!-- Letter - N - Event -->
 		</capsuled_items>
 	</item>
 	<item id="37005" name="Letter Collector's Pouch: NCSOFT" type="EtcItem">
@@ -93,11 +93,11 @@
 		<set name="extractableCountMin" val="1" />
 		<set name="extractableCountMax" val="1" />
 		<capsuled_items>
-			<item id="3876" min="1" max="1" chance="20" />
-			<item id="3878" min="1" max="1" chance="20" />
-			<item id="3883" min="1" max="1" chance="20" />
-			<item id="3884" min="1" max="1" chance="20" />
-			<item id="3887" min="1" max="1" chance="20" />
+			<item id="3876" min="1" max="1" chance="20" /> <!-- Letter - C - Event -->
+			<item id="3878" min="1" max="1" chance="20" /> <!-- Letter - F - Event -->
+			<item id="3883" min="1" max="1" chance="20" /> <!-- Letter - N - Event -->
+			<item id="3884" min="1" max="1" chance="20" /> <!-- Letter - O - Event -->
+			<item id="3887" min="1" max="1" chance="20" /> <!-- Letter - T - Event -->
 		</capsuled_items>
 	</item>
 	<item id="37006" name="Letter Collector's Pouch: RIIS" type="EtcItem">
@@ -112,9 +112,9 @@
 		<set name="extractableCountMin" val="1" />
 		<set name="extractableCountMax" val="1" />
 		<capsuled_items>
-			<item id="3888" min="1" max="1" chance="33.333" />
-			<item id="3885" min="1" max="1" chance="33.333" />
-			<item id="3886" min="1" max="1" chance="33.334" />
+			<item id="3888" min="1" max="1" chance="33.333" /> <!-- Letter - II - Event -->
+			<item id="3885" min="1" max="1" chance="33.333" /> <!-- Letter - R - Event -->
+			<item id="3886" min="1" max="1" chance="33.334" /> <!-- Letter - S - Event -->
 		</capsuled_items>
 	</item>
 	<item id="37007" name="Letter Collector's Lucky Pouch" type="EtcItem">
@@ -127,7 +127,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
-			<item id="37006" min="1" max="1" chance="75" />
+			<item id="37006" min="1" max="1" chance="75" /> <!-- Letter Collector's Pouch: RIIS -->
 		</capsuled_items>
 	</item>
 	<item id="37008" name="Strawberry Cake (HP)" type="EtcItem">
@@ -709,6 +709,7 @@
 	</item>
 	<item id="37046" name="9th Anniversary Cube (1-time use)" type="EtcItem">
 		<!-- Lineage II's 9th Anniversary Cube. Double-click to obtain one of the following: Kaliel's Energy (Annihilation/Hellfire/Desire), Honey Wheat Cake, Honey Rice Cake, and Blessed Scroll of Resurrection. Can be used once a day. -->
+		<set name="icon" val="icon.special_cube_i00" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
@@ -718,7 +719,6 @@
 		<set name="is_commissionable" val="false" />
 		<set name="is_private_storeable" val="false" />
 		<set name="etcitem_type" val="ELIXIR" />
-		<set name="icon" val="icon.special_cube_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 	</item>
 	<item id="37047" name="Theor's Sword" type="Weapon">
@@ -1473,6 +1473,7 @@
 	</item>
 	<item id="37087" name="Dimensional Energy - Stage 1" type="EtcItem">
 		<!-- Energy with the power of dimension. Required to receive a reward or increase the stage level through Mermoden. If you use it to increase the stage level, you can later receive more rewards. To increase the level to Stage 2, you have to succeed in defense in the next cycle. 15-day. -->
+		<set name="icon" val="icon.etc_magic_energy_i00" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
@@ -1481,10 +1482,10 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
 		<set name="is_private_storeable" val="false" />
-		<set name="icon" val="icon.etc_magic_energy_i00" />
 	</item>
 	<item id="37088" name="Dimensional Energy - Stage 2" type="EtcItem">
 		<!-- Energy with the power of dimension. Required to receive a reward or increase the stage level through Mermoden. If you use it to increase the stage level, you can later receive more rewards. To increase the level to Stage 3, you have to succeed in defense in the next cycle. 15-day. -->
+		<set name="icon" val="icon.etc_magic_energy_i01" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
@@ -1493,10 +1494,10 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
 		<set name="is_private_storeable" val="false" />
-		<set name="icon" val="icon.etc_magic_energy_i01" />
 	</item>
 	<item id="37089" name="Dimensional Energy - Stage 3" type="EtcItem">
 		<!-- Energy with the power of dimension. Required to receive a reward or increase the stage level through Mermoden. If you use it to increase the stage level, you can later receive more rewards. To increase the level to Stage 4, you have to succeed in defense in the next cycle. 15-day. -->
+		<set name="icon" val="icon.etc_magic_energy_i01" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
@@ -1505,10 +1506,10 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
 		<set name="is_private_storeable" val="false" />
-		<set name="icon" val="icon.etc_magic_energy_i01" />
 	</item>
 	<item id="37090" name="Dimensional Energy - Stage 4" type="EtcItem">
 		<!-- Energy of dimensional strength. It is needed to receive rewards from Mermoden or to raise the stage. If you raise the stage without receiving the reward, you can receive even more rewards later. But, in order to raise to stage 5, the next period's defense must be successful. 15-day. -->
+		<set name="icon" val="icon.etc_magic_energy_i02" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
@@ -1517,7 +1518,6 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
 		<set name="is_private_storeable" val="false" />
-		<set name="icon" val="icon.etc_magic_energy_i02" />
 	</item>
 	<item id="37091" name="Dimensional Potion" type="EtcItem">
 		<!-- Potion that can be used only in dimensional space. Restores HP by 3,000. if HP is full, CP is restored. -->
@@ -1534,7 +1534,7 @@
 		<set name="default_action" val="SKILL_REDUCE" />
 	</item>
 	<item id="37092" name="Dimensional Cloak of Light" type="Armor">
-		<!-- Cloak that symbolizes glory and light. With the power of dimension, characters of all levels can wear it. Defense + 50, M. Def. + 40 and STR/MEN/DEX/WIT/INT/CON + 2. Damage received during PvP decreases by 5%. Can use Escape:�Castle skill. Part of its effect does not apply when you are chaotic. Cannot be used while in a chaotic state. Cannot be transferred between servers. -->
+		<!-- Cloak that symbolizes glory and light. With the power of dimension, characters of all levels can wear it. Defense + 50, M. Def. + 40 and STR/MEN/DEX/WIT/INT/CON + 2. Damage received during PvP decreases by 5%. Can use Escape:Castle skill. Part of its effect does not apply when you are chaotic. Cannot be used while in a chaotic state. Cannot be transferred between servers. -->
 		<set name="icon" val="icon.amor_goodness_cloak" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="back" />
@@ -1562,7 +1562,7 @@
 		</stats>
 	</item>
 	<item id="37093" name="Dimensional Cloak of Darkness" type="Armor">
-		<!-- Cloak that symbolizes avarice and darkness. With the power of dimension, characters of all levels can wear it. Defense + 50, M. Def. + 40 and STR/MEN/DEX/WIT/INT/CON + 2. Damage received during PvP decreases by 5%. Can use Escape:�Castle skill. Cannot be used while in a chaotic state. Cannot be transferred between servers. -->
+		<!-- Cloak that symbolizes avarice and darkness. With the power of dimension, characters of all levels can wear it. Defense + 50, M. Def. + 40 and STR/MEN/DEX/WIT/INT/CON + 2. Damage received during PvP decreases by 5%. Can use Escape:Castle skill. Cannot be used while in a chaotic state. Cannot be transferred between servers. -->
 		<set name="icon" val="icon.amor_evilness_cloak" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="back" />

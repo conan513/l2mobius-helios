@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/npcs.xsd">
 	<npc id="23400" level="99" type="L2Monster" name="Lavisys" title="Magical">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
@@ -19,13 +19,13 @@
 			</attribute>
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5462" level="1" /> <!-- Fire Attack -->
 			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
 			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
 			<skill id="4416" level="3" /> <!-- Beast -->
-		</skill_list>
-		<drop_lists>
+		</skillList>
+		<dropLists>
 			<drop>
 				<item id="57" min="8810" max="20521" chance="100" /> <!-- Adena -->
 				<item id="37776" min="1" max="1" chance="2.36190476190476" /> <!-- Scroll of Blessing Scraps: Weapon (R-grade) -->
@@ -37,10 +37,10 @@
 				<item id="40050" min="1" max="1" chance="5.117" /> <!-- Scroll: 10,000 SP -->
 				<item id="40051" min="1" max="1" chance="0.75" /> <!-- Scroll: 100,000 SP -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="12" />
 			<height normal="30" />
@@ -65,11 +65,11 @@
 			</attribute>
 		</stats>
 		<status attackable="false" randomWalk="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5462" level="1" /> <!-- Fire Attack -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-		</skill_list>
-		<drop_lists>
+		</skillList>
+		<dropLists>
 			<drop>
 				<item id="57" min="1932" max="4501" chance="50" /> <!-- Adena -->
 				<item id="37791" min="1" max="1" chance="0.075" /> <!-- Sealed Demonic Tome -->
@@ -79,10 +79,10 @@
 				<item id="40050" min="1" max="1" chance="1.092" /> <!-- Scroll: 10,000 SP -->
 				<item id="40051" min="1" max="1" chance="0.3" /> <!-- Scroll: 100,000 SP -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="35" />
 			<height normal="47.5" />
@@ -107,13 +107,13 @@
 			</attribute>
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5465" level="1" /> <!-- Earth Attack -->
 			<skill id="4412" level="9" /> <!-- Slightly Weak P. Def. -->
 			<skill id="4458" level="3" /> <!-- Spear Vulnerability -->
 			<skill id="4416" level="3" /> <!-- Beast -->
-		</skill_list>
-		<drop_lists>
+		</skillList>
+		<dropLists>
 			<drop>
 				<item id="57" min="749" max="1749" chance="50" /> <!-- Adena -->
 				<item id="37791" min="1" max="1" chance="0.075" /> <!-- Sealed Demonic Tome -->
@@ -123,10 +123,10 @@
 				<item id="40050" min="1" max="1" chance="0.3" /> <!-- Scroll: 10,000 SP -->
 				<item id="40051" min="1" max="1" chance="0.03" /> <!-- Scroll: 100,000 SP -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="25" />
 			<height normal="42" />
@@ -150,11 +150,11 @@
 			</attribute>
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
 			<skill id="4410" level="18" /> <!-- Extremely Strong P. Atk. -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="27" />
 			<height normal="48.5" />
@@ -178,12 +178,12 @@
 			</attribute>
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
 			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
 			<skill id="4411" level="18" /> <!-- Extremely Strong M. Atk. -->
 			<skill id="4416" level="1" /> <!-- Undead -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="14.4" />
 			<height normal="22" />
@@ -207,12 +207,12 @@
 			</attribute>
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
 			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
 			<skill id="4411" level="18" /> <!-- Extremely Strong M. Atk. -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="19" />
 			<height normal="44" />
@@ -236,11 +236,11 @@
 			</attribute>
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
 			<skill id="4410" level="18" /> <!-- Extremely Strong P. Atk. -->
 			<skill id="4416" level="1" /> <!-- Undead -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="43" />
 			<height normal="47.5" />
@@ -264,11 +264,11 @@
 			</attribute>
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5465" level="1" /> <!-- Earth Attack -->
 			<skill id="4410" level="18" /> <!-- Extremely Strong P. Atk. -->
 			<skill id="4416" level="1" /> <!-- Undead -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="34" />
 			<height normal="34" />
@@ -292,10 +292,10 @@
 			</attribute>
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="27" />
 			<height normal="48.5" />
@@ -319,10 +319,10 @@
 			</attribute>
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
 			<skill id="4416" level="1" /> <!-- Undead -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="14.4" />
 			<height normal="22" />
@@ -346,10 +346,10 @@
 			</attribute>
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="19" />
 			<height normal="44" />
@@ -373,10 +373,10 @@
 			</attribute>
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
 			<skill id="4416" level="1" /> <!-- Undead -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="43" />
 			<height normal="47.5" />
@@ -400,10 +400,10 @@
 			</attribute>
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5465" level="1" /> <!-- Earth Attack -->
 			<skill id="4416" level="1" /> <!-- Undead -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="34" />
 			<height normal="34" />
@@ -427,10 +427,10 @@
 			</attribute>
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
 			<skill id="4416" level="2" /> <!-- Magic Creatures -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="20" />
 			<height normal="15" />
@@ -451,11 +451,11 @@
 			<defence physical="90" magical="66.35700066357" />
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
 			<skill id="4416" level="7" /> <!-- Spirits -->
-		</skill_list>
-		<drop_lists>
+		</skillList>
+		<dropLists>
 			<drop>
 				<item id="57" min="6" max="14" chance="70" /> <!-- Adena -->
 				<item id="36526" min="1" max="1" chance="21.69" /> <!-- Fiber -->
@@ -463,10 +463,10 @@
 			<spoil>
 				<item id="36532" min="1" max="1" chance="0.3" /> <!-- Thin Braid -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="23" />
 			<height normal="90" />
@@ -487,13 +487,13 @@
 			<defence physical="95.779220779221" magical="70.438482847242" />
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
 			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
 			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4416" level="7" /> <!-- Spirits -->
-		</skill_list>
-		<drop_lists>
+		</skillList>
+		<dropLists>
 			<drop>
 				<item id="57" min="7" max="16" chance="70" /> <!-- Adena -->
 				<item id="36526" min="1" max="1" chance="24.03" /> <!-- Fiber -->
@@ -501,10 +501,10 @@
 			<spoil>
 				<item id="36532" min="1" max="1" chance="0.3" /> <!-- Thin Braid -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="23" />
 			<height normal="90" />
@@ -525,14 +525,14 @@
 			<defence physical="102.22925735391" magical="74.887350702705" />
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
 			<skill id="4411" level="15" /> <!-- Strong M. Atk. -->
 			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
 			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
 			<skill id="4416" level="7" /> <!-- Spirits -->
-		</skill_list>
-		<drop_lists>
+		</skillList>
+		<dropLists>
 			<drop>
 				<item id="57" min="8" max="18" chance="70" /> <!-- Adena -->
 				<item id="36551" min="1" max="1" chance="1.139" /> <!-- Armor Fragment (Low-grade) -->
@@ -540,10 +540,10 @@
 			<spoil>
 				<item id="36532" min="1" max="1" chance="0.3" /> <!-- Thin Braid -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="23" />
 			<height normal="90" />
@@ -564,9 +564,9 @@
 			<defence physical="105.21739130435" magical="76.87153989915" />
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="10" />
 			<height normal="20" />
@@ -587,9 +587,9 @@
 			<defence physical="137.09677419355" magical="100.07063809748" />
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="5" /> <!-- Plants -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="32" />
 			<height normal="32" />
@@ -610,13 +610,13 @@
 			<defence physical="103.10864881502" magical="74.700132325949" />
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4412" level="5" /> <!-- Very Weak P. Def. -->
 			<skill id="4416" level="5" /> <!-- Plants -->
 			<skill id="4066" level="2" /> <!-- Twister -->
 			<skill id="4001" level="2" /> <!-- Gust -->
-		</skill_list>
-		<drop_lists>
+		</skillList>
+		<dropLists>
 			<drop>
 				<item id="57" min="8" max="18" chance="70" /> <!-- Adena -->
 				<item id="36527" min="1" max="1" chance="0.75" /> <!-- Synthetic Fiber -->
@@ -624,10 +624,10 @@
 			<spoil>
 				<item id="36532" min="1" max="1" chance="0.3" /> <!-- Thin Braid -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="60" />
 			<height normal="47" />
@@ -648,13 +648,13 @@
 			<defence physical="102.63157894737" magical="74.887350702705" />
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4413" level="5" /> <!-- Very Weak M. Def. -->
 			<skill id="4416" level="5" /> <!-- Plants -->
 			<skill id="4066" level="2" /> <!-- Twister -->
 			<skill id="4001" level="2" /> <!-- Gust -->
-		</skill_list>
-		<drop_lists>
+		</skillList>
+		<dropLists>
 			<drop>
 				<item id="57" min="8" max="18" chance="70" /> <!-- Adena -->
 				<item id="36527" min="1" max="1" chance="0.75" /> <!-- Synthetic Fiber -->
@@ -662,10 +662,10 @@
 			<spoil>
 				<item id="36532" min="1" max="1" chance="0.3" /> <!-- Thin Braid -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="60" />
 			<height normal="47" />
@@ -676,6 +676,7 @@
 		<race>HUMANOID</race>
 		<sex>FEMALE</sex>
 		<acquire exp="7276" sp="1" />
+		<equipment rhand="78" />
 		<stats str="79" int="34" dex="42" wit="66" con="75" men="12">
 			<vitals hp="1183" hpRegen="4.5" mp="610" mpRegen="1.8" />
 			<speed>
@@ -685,14 +686,14 @@
 			<attack physical="129.70430107527" magical="89.081014598074" critical="4" attackSpeed="253" range="40" />
 			<defence physical="137.23825693265" magical="100.07063809748" />
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4412" level="5" /> <!-- Very Weak P. Def. -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="4737" level="3" /> <!-- Spinning Slasher -->
 			<skill id="4173" level="3" /> <!-- Might -->
 			<skill id="4722" level="3" /> <!-- Power Strike -->
 			<skill id="4177" level="3" /> <!-- Cancellation -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="24" />
 			<height normal="51" />
@@ -703,6 +704,7 @@
 		<race>HUMANOID</race>
 		<sex>FEMALE</sex>
 		<acquire exp="7276" sp="1" />
+		<equipment rhand="78" />
 		<stats str="79" int="34" dex="42" wit="66" con="75" men="12">
 			<vitals hp="1183" hpRegen="4.5" mp="610" mpRegen="1.8" />
 			<speed>
@@ -712,14 +714,14 @@
 			<attack physical="129.70430107527" magical="89.081014598074" critical="4" attackSpeed="253" range="40" />
 			<defence physical="137.09677419355" magical="100.97713739913" />
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4413" level="5" /> <!-- Very Weak M. Def. -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="4737" level="3" /> <!-- Spinning Slasher -->
 			<skill id="4173" level="3" /> <!-- Might -->
 			<skill id="4722" level="3" /> <!-- Power Strike -->
 			<skill id="4177" level="3" /> <!-- Cancellation -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="24" />
 			<height normal="51" />
@@ -743,11 +745,11 @@
 				<run ground="170" />
 			</speed>
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
 			<skill id="4416" level="10" /> <!-- Dragons -->
-		</skill_list>
-		<drop_lists>
+		</skillList>
+		<dropLists>
 			<drop>
 				<item id="57" min="18" max="42" chance="70" /> <!-- Adena -->
 				<item id="10483" min="1" max="1" chance="0.0299999999999999" /> <!-- Life Stone - Lv. 82 -->
@@ -760,10 +762,10 @@
 			<spoil>
 				<item id="36532" min="1" max="1" chance="0.3" /> <!-- Thin Braid -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="40" />
 			<height normal="44" />
@@ -787,14 +789,14 @@
 				<run ground="170" />
 			</speed>
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="5463" level="1" /> <!-- Water Attack -->
 			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
 			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
 			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4416" level="2" /> <!-- Magic Creatures -->
-		</skill_list>
-		<drop_lists>
+		</skillList>
+		<dropLists>
 			<drop>
 				<item id="57" min="23" max="54" chance="70" /> <!-- Adena -->
 				<item id="10483" min="1" max="1" chance="0.03" /> <!-- Life Stone - Lv. 82 -->
@@ -807,10 +809,10 @@
 			<spoil>
 				<item id="36532" min="1" max="1" chance="0.75" /> <!-- Thin Braid -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="25" />
 			<height normal="65" />
@@ -820,6 +822,7 @@
 		<race>DRAGON</race>
 		<sex>MALE</sex>
 		<acquire exp="331748" sp="79" />
+		<equipment rhand="13978" />
 		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
 			<!-- L2 Wiki Update date: 2017-09-12 -->
 			<vitals hp="10385" hpRegen="8.5" mp="1708" mpRegen="3" />
@@ -834,13 +837,13 @@
 				<run ground="170" />
 			</speed>
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="5462" level="1" /> <!-- Fire Attack -->
 			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
 			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4416" level="10" /> <!-- Dragons -->
-		</skill_list>
-		<drop_lists>
+		</skillList>
+		<dropLists>
 			<drop>
 				<item id="57" min="24" max="55" chance="70" /> <!-- Adena -->
 				<item id="10483" min="1" max="1" chance="0.03" /> <!-- Life Stone - Lv. 82 -->
@@ -853,10 +856,10 @@
 			<spoil>
 				<item id="36532" min="1" max="1" chance="0.75" /> <!-- Thin Braid -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="28" />
 			<height normal="51" />
@@ -880,14 +883,14 @@
 				<run ground="170" />
 			</speed>
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="5464" level="1" /> <!-- Wind Attack -->
 			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
 			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
 			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4416" level="10" /> <!-- Dragons -->
-		</skill_list>
-		<drop_lists>
+		</skillList>
+		<dropLists>
 			<drop>
 				<item id="57" min="30" max="70" chance="70" /> <!-- Adena -->
 				<item id="10483" min="1" max="1" chance="0.03" /> <!-- Life Stone - Lv. 82 -->
@@ -900,10 +903,10 @@
 			<spoil>
 				<item id="36532" min="1" max="1" chance="1.248" /> <!-- Thin Braid -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="30" />
 			<height normal="50" />
@@ -913,6 +916,7 @@
 		<race>DRAGON</race>
 		<sex>MALE</sex>
 		<acquire exp="440867" sp="105" />
+		<equipment rhand="35708" />
 		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
 			<!-- L2 Wiki Update date: 2017-09-12 -->
 			<vitals hp="11506" hpRegen="8.5" mp="1777" mpRegen="3" />
@@ -927,14 +931,14 @@
 				<run ground="170" />
 			</speed>
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="5465" level="1" /> <!-- Earth Attack -->
 			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
 			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
 			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4416" level="10" /> <!-- Dragons -->
-		</skill_list>
-		<drop_lists>
+		</skillList>
+		<dropLists>
 			<drop>
 				<item id="57" min="31" max="72" chance="70" /> <!-- Adena -->
 				<item id="10483" min="1" max="1" chance="0.03" /> <!-- Life Stone - Lv. 82 -->
@@ -947,10 +951,10 @@
 			<spoil>
 				<item id="36532" min="1" max="1" chance="1.374" /> <!-- Thin Braid -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="38" />
 			<height normal="63" />
@@ -960,6 +964,7 @@
 		<race>DRAGON</race>
 		<sex>MALE</sex>
 		<acquire exp="440867" sp="105" />
+		<equipment rhand="13979" lhand="13980" />
 		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
 			<!-- L2 Wiki Update date: 2017-09-12 -->
 			<vitals hp="11506" hpRegen="8.5" mp="1777" mpRegen="3" />
@@ -974,14 +979,14 @@
 				<run ground="170" />
 			</speed>
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="5465" level="1" /> <!-- Earth Attack -->
 			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
 			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
 			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
 			<skill id="4416" level="10" /> <!-- Dragons -->
-		</skill_list>
-		<drop_lists>
+		</skillList>
+		<dropLists>
 			<drop>
 				<item id="57" min="39" max="91" chance="70" /> <!-- Adena -->
 				<item id="10483" min="1" max="1" chance="0.03" /> <!-- Life Stone - Lv. 82 -->
@@ -994,10 +999,10 @@
 			<spoil>
 				<item id="36532" min="1" max="1" chance="1.669" /> <!-- Thin Braid -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="22" />
 			<height normal="42" />
@@ -1021,11 +1026,11 @@
 				<run ground="170" />
 			</speed>
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="5465" level="1" /> <!-- Earth Attack -->
 			<skill id="4416" level="9" /> <!-- Demons -->
-		</skill_list>
-		<drop_lists>
+		</skillList>
+		<dropLists>
 			<drop>
 				<item id="57" min="16" max="38" chance="70" /> <!-- Adena -->
 				<item id="10483" min="1" max="1" chance="0.0300000000000002" /> <!-- Life Stone - Lv. 82 -->
@@ -1038,10 +1043,10 @@
 			<spoil>
 				<item id="36532" min="1" max="1" chance="0.75" /> <!-- Thin Braid -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="14" />
 			<height normal="36" />
@@ -1065,11 +1070,11 @@
 				<run ground="170" />
 			</speed>
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="5462" level="1" /> <!-- Fire Attack -->
 			<skill id="4416" level="10" /> <!-- Dragons -->
-		</skill_list>
-		<drop_lists>
+		</skillList>
+		<dropLists>
 			<drop>
 				<item id="57" min="21" max="48" chance="70" /> <!-- Adena -->
 				<item id="10483" min="1" max="1" chance="0.0300000000000002" /> <!-- Life Stone - Lv. 82 -->
@@ -1082,10 +1087,10 @@
 			<spoil>
 				<item id="36532" min="1" max="1" chance="0.75" /> <!-- Thin Braid -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="27" />
 			<height normal="47" />
@@ -1109,14 +1114,14 @@
 				<run ground="170" />
 			</speed>
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
 			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
 			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
 			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
 			<skill id="4416" level="10" /> <!-- Dragons -->
-		</skill_list>
-		<drop_lists>
+		</skillList>
+		<dropLists>
 			<drop>
 				<item id="57" min="41" max="95" chance="70" /> <!-- Adena -->
 				<item id="10483" min="1" max="1" chance="0.0749999999999998" /> <!-- Life Stone - Lv. 82 -->
@@ -1129,10 +1134,10 @@
 			<spoil>
 				<item id="36532" min="1" max="1" chance="1.762" /> <!-- Thin Braid -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="24" />
 			<height normal="44" />
@@ -1156,14 +1161,14 @@
 				<run ground="170" />
 			</speed>
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="5465" level="1" /> <!-- Earth Attack -->
 			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
 			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
 			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4416" level="10" /> <!-- Dragons -->
-		</skill_list>
-		<drop_lists>
+		</skillList>
+		<dropLists>
 			<drop>
 				<item id="57" min="34" max="78" chance="70" /> <!-- Adena -->
 				<item id="10483" min="1" max="1" chance="0.03" /> <!-- Life Stone - Lv. 82 -->
@@ -1176,10 +1181,10 @@
 			<spoil>
 				<item id="36532" min="1" max="1" chance="1.445" /> <!-- Thin Braid -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="33" />
 			<height normal="41" />
@@ -1189,6 +1194,7 @@
 		<race>DRAGON</race>
 		<sex>MALE</sex>
 		<acquire exp="440867" sp="105" />
+		<equipment rhand="35708" />
 		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
 			<!-- L2 Wiki Update date: 2017-09-12 -->
 			<vitals hp="11506" hpRegen="8.5" mp="1777" mpRegen="3" />
@@ -1203,14 +1209,14 @@
 				<run ground="170" />
 			</speed>
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="5464" level="1" /> <!-- Wind Attack -->
 			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
 			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
 			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
 			<skill id="4416" level="10" /> <!-- Dragons -->
-		</skill_list>
-		<drop_lists>
+		</skillList>
+		<dropLists>
 			<drop>
 				<item id="57" min="43" max="100" chance="70" /> <!-- Adena -->
 				<item id="10483" min="1" max="1" chance="0.0749999999999998" /> <!-- Life Stone - Lv. 82 -->
@@ -1223,10 +1229,10 @@
 			<spoil>
 				<item id="36532" min="1" max="1" chance="1.836" /> <!-- Thin Braid -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="33" />
 			<height normal="70" />
@@ -1250,11 +1256,11 @@
 				<run ground="170" />
 			</speed>
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="5462" level="1" /> <!-- Fire Attack -->
 			<skill id="4416" level="10" /> <!-- Dragons -->
-		</skill_list>
-		<drop_lists>
+		</skillList>
+		<dropLists>
 			<drop>
 				<item id="57" min="21" max="48" chance="70" /> <!-- Adena -->
 				<item id="10483" min="1" max="1" chance="0.0300000000000002" /> <!-- Life Stone - Lv. 82 -->
@@ -1267,10 +1273,10 @@
 			<spoil>
 				<item id="36532" min="1" max="1" chance="0.75" /> <!-- Thin Braid -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="12" />
 			<height normal="18" />
@@ -1294,16 +1300,16 @@
 				<run ground="170" />
 			</speed>
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="5462" level="1" /> <!-- Fire Attack -->
 			<skill id="4416" level="10" /> <!-- Dragons -->
-		</skill_list>
+		</skillList>
 		<ai aggroRange="300" isAggressive="true" clanHelpRange="300">
-			<clan_list>
+			<clanList>
 				<clan>LEOPARD_DRAGON</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="18" max="42" chance="70" /> <!-- Adena -->
 				<item id="10483" min="1" max="1" chance="0.0300000000000002" /> <!-- Life Stone - Lv. 82 -->
@@ -1316,10 +1322,10 @@
 			<spoil>
 				<item id="36532" min="1" max="1" chance="0.75" /> <!-- Thin Braid -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="18" />
 			<height normal="20" />
@@ -1329,6 +1335,7 @@
 		<race>UNDEAD</race>
 		<sex>FEMALE</sex>
 		<acquire exp="269969" sp="64" />
+		<equipment rhand="15302" />
 		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
 			<!-- L2 Wiki Update date: 2017-09-12 -->
 			<vitals hp="9870" hpRegen="8.5" mp="1674" mpRegen="3" />
@@ -1344,11 +1351,11 @@
 			</speed>
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
 			<skill id="4416" level="1" /> <!-- Undead -->
-		</skill_list>
-		<drop_lists>
+		</skillList>
+		<dropLists>
 			<drop>
 				<item id="57" min="18" max="42" chance="70" /> <!-- Adena -->
 				<item id="10483" min="1" max="1" chance="0.0299999999999999" /> <!-- Life Stone - Lv. 82 -->
@@ -1361,10 +1368,10 @@
 			<spoil>
 				<item id="36532" min="1" max="1" chance="0.3" /> <!-- Thin Braid -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="12" />
 			<height normal="31" />
@@ -1388,13 +1395,13 @@
 				<run ground="170" />
 			</speed>
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
 			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
 			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4416" level="1" /> <!-- Undead -->
-		</skill_list>
-		<drop_lists>
+		</skillList>
+		<dropLists>
 			<drop>
 				<item id="57" min="28" max="66" chance="70" /> <!-- Adena -->
 				<item id="10483" min="1" max="1" chance="0.03" /> <!-- Life Stone - Lv. 82 -->
@@ -1407,10 +1414,10 @@
 			<spoil>
 				<item id="36532" min="1" max="1" chance="1.198" /> <!-- Thin Braid -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="15" />
 			<height normal="31" />
@@ -1420,6 +1427,7 @@
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
 		<acquire exp="331748" sp="79" />
+		<equipment rhand="221" />
 		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
 			<!-- L2 Wiki Update date: 2017-09-12 -->
 			<vitals hp="10385" hpRegen="8.5" mp="1708" mpRegen="3" />
@@ -1434,14 +1442,14 @@
 				<run ground="170" />
 			</speed>
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
 			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
 			<skill id="4412" level="15" /> <!-- Strong P. Def. -->
 			<skill id="4413" level="15" /> <!-- Strong M. Def. -->
 			<skill id="4416" level="1" /> <!-- Undead -->
-		</skill_list>
-		<drop_lists>
+		</skillList>
+		<dropLists>
 			<drop>
 				<item id="57" min="42" max="99" chance="70" /> <!-- Adena -->
 				<item id="10483" min="1" max="1" chance="0.0749999999999998" /> <!-- Life Stone - Lv. 82 -->
@@ -1454,10 +1462,10 @@
 			<spoil>
 				<item id="36532" min="1" max="1" chance="1.751" /> <!-- Thin Braid -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="12" />
 			<height normal="34.5" />
@@ -1481,14 +1489,14 @@
 				<run ground="170" />
 			</speed>
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
 			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
 			<skill id="4412" level="15" /> <!-- Strong P. Def. -->
 			<skill id="4413" level="15" /> <!-- Strong M. Def. -->
 			<skill id="4416" level="1" /> <!-- Undead -->
-		</skill_list>
-		<drop_lists>
+		</skillList>
+		<dropLists>
 			<drop>
 				<item id="57" min="44" max="102" chance="70" /> <!-- Adena -->
 				<item id="10483" min="1" max="1" chance="0.0749999999999998" /> <!-- Life Stone - Lv. 82 -->
@@ -1501,10 +1509,10 @@
 			<spoil>
 				<item id="36532" min="1" max="1" chance="1.785" /> <!-- Thin Braid -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="14" />
 			<height normal="39" />
@@ -1529,11 +1537,11 @@
 			</speed>
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
 			<skill id="4416" level="1" /> <!-- Undead -->
-		</skill_list>
-		<drop_lists>
+		</skillList>
+		<dropLists>
 			<drop>
 				<item id="57" min="20" max="47" chance="70" /> <!-- Adena -->
 				<item id="10483" min="1" max="1" chance="0.0300000000000002" /> <!-- Life Stone - Lv. 82 -->
@@ -1546,10 +1554,10 @@
 			<spoil>
 				<item id="36532" min="1" max="1" chance="0.75" /> <!-- Thin Braid -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="21" grown="24" />
 			<height normal="31" grown="38" />
@@ -1573,14 +1581,14 @@
 				<run ground="170" />
 			</speed>
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
 			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
 			<skill id="4412" level="15" /> <!-- Strong P. Def. -->
 			<skill id="4413" level="15" /> <!-- Strong M. Def. -->
 			<skill id="4416" level="1" /> <!-- Undead -->
-		</skill_list>
-		<drop_lists>
+		</skillList>
+		<dropLists>
 			<drop>
 				<item id="57" min="46" max="107" chance="70" /> <!-- Adena -->
 				<item id="10483" min="1" max="1" chance="0.0749999999999993" /> <!-- Life Stone - Lv. 82 -->
@@ -1593,10 +1601,10 @@
 			<spoil>
 				<item id="36532" min="1" max="1" chance="1.961" /> <!-- Thin Braid -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="20" />
 			<height normal="34" />
@@ -1606,6 +1614,7 @@
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
 		<acquire exp="449407" sp="107" />
+		<equipment rhand="78" />
 		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
 			<!-- L2 Wiki Update date: 2017-09-12 -->
 			<vitals hp="10930" hpRegen="8.5" mp="1743" mpRegen="3" />
@@ -1620,14 +1629,14 @@
 				<run ground="170" />
 			</speed>
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
 			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
 			<skill id="4412" level="15" /> <!-- Strong P. Def. -->
 			<skill id="4413" level="15" /> <!-- Strong M. Def. -->
 			<skill id="4416" level="1" /> <!-- Undead -->
-		</skill_list>
-		<drop_lists>
+		</skillList>
+		<dropLists>
 			<drop>
 				<item id="57" min="47" max="110" chance="70" /> <!-- Adena -->
 				<item id="10483" min="1" max="1" chance="0.0749999999999993" /> <!-- Life Stone - Lv. 82 -->
@@ -1640,10 +1649,10 @@
 			<spoil>
 				<item id="36532" min="1" max="1" chance="2.048" /> <!-- Thin Braid -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="22.88" />
 			<height normal="41.6" />
@@ -1667,14 +1676,14 @@
 				<run ground="170" />
 			</speed>
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
 			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
 			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
 			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
 			<skill id="4416" level="1" /> <!-- Undead -->
-		</skill_list>
-		<drop_lists>
+		</skillList>
+		<dropLists>
 			<drop>
 				<item id="57" min="42" max="98" chance="70" /> <!-- Adena -->
 				<item id="10483" min="1" max="1" chance="0.0749999999999998" /> <!-- Life Stone - Lv. 82 -->
@@ -1687,10 +1696,10 @@
 			<spoil>
 				<item id="36532" min="1" max="1" chance="1.824" /> <!-- Thin Braid -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="21.12" />
 			<height normal="40.48" />
@@ -1714,14 +1723,14 @@
 				<run ground="170" />
 			</speed>
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
 			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
 			<skill id="4412" level="15" /> <!-- Strong P. Def. -->
 			<skill id="4413" level="15" /> <!-- Strong M. Def. -->
 			<skill id="4416" level="1" /> <!-- Undead -->
-		</skill_list>
-		<drop_lists>
+		</skillList>
+		<dropLists>
 			<drop>
 				<item id="57" min="50" max="116" chance="70" /> <!-- Adena -->
 				<item id="10483" min="1" max="1" chance="0.0749999999999993" /> <!-- Life Stone - Lv. 82 -->
@@ -1734,10 +1743,10 @@
 			<spoil>
 				<item id="36532" min="1" max="1" chance="2.121" /> <!-- Thin Braid -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="25" />
 			<height normal="40" />
@@ -1761,11 +1770,11 @@
 				<run ground="170" />
 			</speed>
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="5463" level="1" /> <!-- Water Attack -->
 			<skill id="4416" level="10" /> <!-- Dragons -->
-		</skill_list>
-		<drop_lists>
+		</skillList>
+		<dropLists>
 			<drop>
 				<item id="57" min="18" max="42" chance="70" /> <!-- Adena -->
 				<item id="10483" min="1" max="1" chance="0.0299999999999999" /> <!-- Life Stone - Lv. 82 -->
@@ -1778,10 +1787,10 @@
 			<spoil>
 				<item id="36532" min="1" max="1" chance="0.3" /> <!-- Thin Braid -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="24" />
 			<height normal="20" />
@@ -1805,11 +1814,11 @@
 				<run ground="170" />
 			</speed>
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="5463" level="1" /> <!-- Water Attack -->
 			<skill id="4416" level="10" /> <!-- Dragons -->
-		</skill_list>
-		<drop_lists>
+		</skillList>
+		<dropLists>
 			<drop>
 				<item id="57" min="21" max="48" chance="70" /> <!-- Adena -->
 				<item id="10483" min="1" max="1" chance="0.0300000000000002" /> <!-- Life Stone - Lv. 82 -->
@@ -1822,10 +1831,10 @@
 			<spoil>
 				<item id="36532" min="1" max="1" chance="0.75" /> <!-- Thin Braid -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="32" />
 			<height normal="32" />
@@ -1844,10 +1853,10 @@
 				<walk ground="39" />
 				<run ground="170" />
 			</speed>
-			<hit_time>370</hit_time>
+			<hitTime>370</hitTime>
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
@@ -1856,10 +1865,10 @@
 			<skill id="4413" level="11" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4416" level="7" /> <!-- Animals -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
 		<ai clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="1" max="1" chance="70" /> <!-- Adena -->
 				<item id="8" min="1" max="1" chance="0.075" /> <!-- Willow Staff -->
@@ -1868,10 +1877,10 @@
 			<spoil>
 				<item id="36516" min="1" max="1" chance="1.313" /> <!-- Worn Leather -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="10" />
 			<height normal="14" />
@@ -1890,11 +1899,11 @@
 				<walk ground="39" />
 				<run ground="170" />
 			</speed>
-			<hit_time>320</hit_time>
+			<hitTime>320</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="14" /> <!-- Average P. Atk. -->
@@ -1903,10 +1912,10 @@
 			<skill id="4413" level="11" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4416" level="7" /> <!-- Animals -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
 		<ai clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="1" max="3" chance="70" /> <!-- Adena -->
 				<item id="8" min="1" max="1" chance="0.3" /> <!-- Willow Staff -->
@@ -1915,10 +1924,10 @@
 			<spoil>
 				<item id="36516" min="1" max="1" chance="4.109" /> <!-- Worn Leather -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="10" />
 			<height normal="14" />
@@ -1937,11 +1946,11 @@
 				<walk ground="39" />
 				<run ground="170" />
 			</speed>
-			<hit_time>340</hit_time>
+			<hitTime>340</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
@@ -1950,10 +1959,10 @@
 			<skill id="4413" level="11" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4416" level="4" /> <!-- Animals -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
 		<ai clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="2" max="5" chance="70" /> <!-- Adena -->
 				<item id="9" min="1" max="1" chance="0.075" /> <!-- Cedar Staff -->
@@ -1962,10 +1971,10 @@
 			<spoil>
 				<item id="36532" min="1" max="1" chance="0.075" /> <!-- Thin Braid -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="10" />
 			<height normal="15" />
@@ -1984,11 +1993,11 @@
 				<walk ground="39" />
 				<run ground="170" />
 			</speed>
-			<hit_time>410</hit_time>
+			<hitTime>410</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="14" /> <!-- Average P. Atk. -->
@@ -1997,10 +2006,10 @@
 			<skill id="4413" level="13" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4416" level="4" /> <!-- Animals -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
 		<ai clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="3" max="7" chance="70" /> <!-- Adena -->
 				<item id="9" min="1" max="1" chance="0.075" /> <!-- Cedar Staff -->
@@ -2009,10 +2018,10 @@
 			<spoil>
 				<item id="36516" min="1" max="1" chance="10.74" /> <!-- Worn Leather -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="10" />
 			<height normal="15" />
@@ -2031,11 +2040,11 @@
 				<walk ground="39" />
 				<run ground="170" />
 			</speed>
-			<hit_time>370</hit_time>
+			<hitTime>370</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="14" /> <!-- Average P. Atk. -->
@@ -2044,10 +2053,10 @@
 			<skill id="4413" level="11" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4416" level="4" /> <!-- Animals -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
 		<ai clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="4" max="9" chance="70" /> <!-- Adena -->
 				<item id="23" min="1" max="1" chance="0.75" /> <!-- Wooden Breastplate -->
@@ -2056,10 +2065,10 @@
 			<spoil>
 				<item id="36532" min="1" max="1" chance="0.075" /> <!-- Thin Braid -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="8" />
 			<height normal="20" />
@@ -2078,11 +2087,11 @@
 				<walk ground="39" />
 				<run ground="170" />
 			</speed>
-			<hit_time>370</hit_time>
+			<hitTime>370</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="14" /> <!-- Average P. Atk. -->
@@ -2091,10 +2100,10 @@
 			<skill id="4413" level="11" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4416" level="4" /> <!-- Animals -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
 		<ai clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="5" max="11" chance="70" /> <!-- Adena -->
 				<item id="29" min="1" max="1" chance="4.874" /> <!-- Leather Pants -->
@@ -2103,10 +2112,10 @@
 			<spoil>
 				<item id="36516" min="1" max="1" chance="15.42" /> <!-- Worn Leather -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="6" />
 			<height normal="10.5" />
@@ -2127,14 +2136,14 @@
 			</speed>
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
 			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
 			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4416" level="4" /> <!-- Animals -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
-		<drop_lists>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<dropLists>
 			<drop>
 				<item id="57" min="5" max="11" chance="70" /> <!-- Adena -->
 				<item id="29" min="1" max="1" chance="5.014" /> <!-- Leather Pants -->
@@ -2143,10 +2152,10 @@
 			<spoil>
 				<item id="36516" min="1" max="1" chance="15.16" /> <!-- Worn Leather -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="6" />
 			<height normal="10.5" />
@@ -2165,10 +2174,10 @@
 				<walk ground="39" />
 				<run ground="170" />
 			</speed>
-			<hit_time>370</hit_time>
+			<hitTime>370</hitTime>
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="13" /> <!-- Average P. Atk. -->
@@ -2177,10 +2186,10 @@
 			<skill id="4413" level="13" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4416" level="7" /> <!-- Animals -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
 		<ai clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="5" max="12" chance="70" /> <!-- Adena -->
 				<item id="23" min="1" max="1" chance="1.018" /> <!-- Wooden Breastplate -->
@@ -2189,10 +2198,10 @@
 			<spoil>
 				<item id="36516" min="1" max="1" chance="16.31" /> <!-- Worn Leather -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="6" />
 			<height normal="17" />
@@ -2211,10 +2220,10 @@
 				<walk ground="39" />
 				<run ground="170" />
 			</speed>
-			<hit_time>370</hit_time>
+			<hitTime>370</hitTime>
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="15" /> <!-- Average P. Atk. -->
@@ -2223,8 +2232,8 @@
 			<skill id="4413" level="14" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4416" level="7" /> <!-- Animals -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
 		<ai clanHelpRange="300" />
 		<collision>
 			<radius normal="14" />
@@ -2244,11 +2253,11 @@
 				<walk ground="39" />
 				<run ground="170" />
 			</speed>
-			<hit_time>370</hit_time>
+			<hitTime>370</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="14" /> <!-- Average P. Atk. -->
@@ -2257,10 +2266,10 @@
 			<skill id="4413" level="13" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4416" level="7" /> <!-- Animals -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
 		<ai clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="6" max="13" chance="70" /> <!-- Adena -->
 				<item id="29" min="1" max="1" chance="6.087" /> <!-- Leather Pants -->
@@ -2269,10 +2278,10 @@
 			<spoil>
 				<item id="36516" min="1" max="1" chance="18.44" /> <!-- Worn Leather -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="8" />
 			<height normal="27" />
@@ -2291,10 +2300,10 @@
 				<walk ground="45" />
 				<run ground="170" />
 			</speed>
-			<hit_time>370</hit_time>
+			<hitTime>370</hitTime>
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="14" /> <!-- Average P. Atk. -->
@@ -2303,10 +2312,10 @@
 			<skill id="4413" level="13" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4416" level="13" /> <!-- Animals -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
 		<ai clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="6" max="13" chance="70" /> <!-- Adena -->
 				<item id="37" min="1" max="1" chance="3.312" /> <!-- Leather Shoes -->
@@ -2315,10 +2324,10 @@
 			<spoil>
 				<item id="36516" min="1" max="1" chance="18.51" /> <!-- Worn Leather -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="12" />
 			<height normal="20" />
@@ -2337,10 +2346,10 @@
 				<walk ground="39" />
 				<run ground="170" />
 			</speed>
-			<hit_time>370</hit_time>
+			<hitTime>370</hitTime>
 		</stats>
 		<status undying="false" canBeSown="true" randomWalk="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="16" /> <!-- Average P. Atk. -->
@@ -2350,8 +2359,8 @@
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4416" level="7" /> <!-- Spirits -->
 			<skill id="4296" level="1" /> <!-- Spirits -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
 		<ai clanHelpRange="300" />
 		<collision>
 			<radius normal="12" />
@@ -2371,15 +2380,15 @@
 				<walk ground="39" />
 				<run ground="170" />
 			</speed>
-			<hit_time>370</hit_time>
+			<hitTime>370</hitTime>
 		</stats>
 		<status undying="false" canBeSown="true" randomWalk="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4410" level="13" /> <!-- Average P. Atk. -->
 			<skill id="4416" level="4" /> <!-- Animals -->
 			<skill id="4293" level="1" /> <!-- Animals -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
 		<ai clanHelpRange="300" />
 		<collision>
 			<radius normal="8" />
@@ -2399,15 +2408,15 @@
 				<walk ground="39" />
 				<run ground="170" />
 			</speed>
-			<hit_time>370</hit_time>
+			<hitTime>370</hitTime>
 		</stats>
 		<status undying="false" canBeSown="true" randomWalk="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4410" level="13" /> <!-- Average P. Atk. -->
 			<skill id="4416" level="7" /> <!-- Spirits -->
 			<skill id="4296" level="1" /> <!-- Spirits -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
 		<ai clanHelpRange="300" />
 		<collision>
 			<radius normal="14" />
@@ -2415,10 +2424,13 @@
 		</collision>
 	</npc>
 	<npc id="23462" level="99" type="L2Monster" name="Dimensional Orc Butcher">
-		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<param name="IsAggressive" value="1" />
+		</parameters>
 		<race>HUMANOID</race>
 		<sex>FEMALE</sex>
 		<acquire exp="83739744" sp="301463" />
+		<equipment rhand="38425" />
 		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
 			<vitals hp="376398" hpRegen="10.5" mp="23550" mpRegen="3.6" />
 			<speed>
@@ -2433,7 +2445,7 @@
 			</attribute>
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5462" level="1" /> <!-- Fire Attack -->
 			<skill id="16357" level="2" /> <!-- Dimensional Barrier -->
 			<skill id="16358" level="1" /> <!-- Dimensional Armor -->
@@ -2442,26 +2454,34 @@
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="16365" level="1" /> <!-- Dimensional Defense Decrease -->
 			<skill id="16368" level="1" /> <!-- Dimensional Strike -->
-		</skill_list>
-		<drop_lists>
+		</skillList>
+		<ai clanHelpRange="400" aggroRange="600">
+			<clanList>
+				<clan>WRAP_MOB</clan>
+			</clanList>
+		</ai>
+		<dropLists>
 			<drop>
 				<item id="39597" min="1" max="1" chance="34.1799999999999" /> <!-- Warp Crystal -->
 				<item id="40051" min="1" max="1" chance="0.749999999999986" /> <!-- Scroll: 100,000 SP -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="15" />
 			<height normal="33" />
 		</collision>
 	</npc>
 	<npc id="23463" level="99" type="L2Monster" name="Dimensional Orc Hunter" title="Scout">
-		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<param name="IsAggressive" value="1" />
+		</parameters>
 		<race>HUMANOID</race>
 		<sex>FEMALE</sex>
 		<acquire exp="125609616" sp="452194" />
+		<equipment rhand="38426" />
 		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
 			<vitals hp="752796" hpRegen="10.5" mp="23550" mpRegen="3.6" />
 			<speed>
@@ -2476,7 +2496,7 @@
 			</attribute>
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5462" level="1" /> <!-- Fire Attack -->
 			<skill id="16357" level="2" /> <!-- Dimensional Barrier -->
 			<skill id="16358" level="2" /> <!-- Dimensional Armor -->
@@ -2484,23 +2504,30 @@
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="16367" level="1" /> <!-- Dimensional Speed Decrease -->
 			<skill id="16380" level="1" /> <!-- Dimensional Recoil Shot -->
-		</skill_list>
-		<drop_lists>
+		</skillList>
+		<ai clanHelpRange="400" aggroRange="600">
+			<clanList>
+				<clan>WRAP_MOB</clan>
+			</clanList>
+		</ai>
+		<dropLists>
 			<drop>
 				<item id="39597" min="1" max="1" chance="98.00558631842" /> <!-- Warp Crystal -->
 				<item id="40051" min="1" max="1" chance="1.9944136815799" /> <!-- Scroll: 100,000 SP -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="15" />
 			<height normal="26.5" />
 		</collision>
 	</npc>
 	<npc id="23464" level="99" type="L2Monster" name="Dimensional Shaman" title="Watcher">
-		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<param name="IsAggressive" value="1" />
+		</parameters>
 		<race>DEMONIC</race>
 		<sex>FEMALE</sex>
 		<acquire exp="125609616" sp="452194" />
@@ -2518,7 +2545,7 @@
 			</attribute>
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
 			<skill id="16357" level="2" /> <!-- Dimensional Barrier -->
 			<skill id="16358" level="1" /> <!-- Dimensional Armor -->
@@ -2530,26 +2557,34 @@
 			<skill id="16366" level="1" /> <!-- Dimensional Resistance Decrease -->
 			<skill id="16372" level="1" /> <!-- Dimensional Spike -->
 			<skill id="16381" level="1" /> <!-- Dimensional Shield -->
-		</skill_list>
-		<drop_lists>
+		</skillList>
+		<ai clanHelpRange="400" aggroRange="600">
+			<clanList>
+				<clan>WRAP_MOB</clan>
+			</clanList>
+		</ai>
+		<dropLists>
 			<drop>
 				<item id="39597" min="1" max="1" chance="98.075753712167" /> <!-- Warp Crystal -->
 				<item id="40051" min="1" max="1" chance="1.9242462878327" /> <!-- Scroll: 100,000 SP -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="24" />
 			<height normal="45" />
 		</collision>
 	</npc>
 	<npc id="23465" level="99" type="L2Monster" name="Dimensional Bugbear">
-		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<param name="IsAggressive" value="1" />
+		</parameters>
 		<race>GIANT</race>
 		<sex>FEMALE</sex>
 		<acquire exp="125609616" sp="452194" />
+		<equipment rhand="160" />
 		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
 			<vitals hp="752796" hpRegen="10.5" mp="23550" mpRegen="3.6" />
 			<speed>
@@ -2564,7 +2599,7 @@
 			</attribute>
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5465" level="1" /> <!-- Earth Attack -->
 			<skill id="16357" level="1" /> <!-- Dimensional Barrier -->
 			<skill id="16358" level="2" /> <!-- Dimensional Armor -->
@@ -2574,23 +2609,30 @@
 			<skill id="16371" level="1" /> <!-- Dimensional Storm -->
 			<skill id="16375" level="1" /> <!-- Dimensional Hammer -->
 			<skill id="16368" level="1" /> <!-- Dimensional Strike -->
-		</skill_list>
-		<drop_lists>
+		</skillList>
+		<ai clanHelpRange="400" aggroRange="600">
+			<clanList>
+				<clan>WRAP_MOB</clan>
+			</clanList>
+		</ai>
+		<dropLists>
 			<drop>
 				<item id="39597" min="1" max="1" chance="98.049789683201" /> <!-- Warp Crystal -->
 				<item id="40051" min="1" max="1" chance="1.9502103167989" /> <!-- Scroll: 100,000 SP -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="15" />
 			<height normal="40" />
 		</collision>
 	</npc>
 	<npc id="23466" level="99" type="L2Monster" name="Dimensional Salamander" title="Hunter">
-		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<param name="IsAggressive" value="1" />
+		</parameters>
 		<race>ELEMENTAL</race>
 		<sex>FEMALE</sex>
 		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
@@ -2607,7 +2649,7 @@
 			</attribute>
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5462" level="1" /> <!-- Fire Attack -->
 			<skill id="16357" level="2" /> <!-- Dimensional Barrier -->
 			<skill id="16358" level="1" /> <!-- Dimensional Armor -->
@@ -2615,19 +2657,21 @@
 			<skill id="16361" level="1" /> <!-- Dimensional Warp Stun -->
 			<skill id="16363" level="1" /> <!-- Dimensioal Warp Aerial Yoke -->
 			<skill id="4416" level="7" /> <!-- Spirits -->
-		</skill_list>
-		<drop_lists>
-			<lucky_drop>
+		</skillList>
+		<dropLists>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="16" />
 			<height normal="6.8" />
 		</collision>
 	</npc>
 	<npc id="23467" level="99" type="L2Monster" name="Dimensional Binder">
-		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<param name="IsAggressive" value="1" />
+		</parameters>
 		<race>HUMANOID</race>
 		<sex>FEMALE</sex>
 		<acquire exp="125609616" sp="452194" />
@@ -2645,7 +2689,7 @@
 			</attribute>
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5463" level="1" /> <!-- Water Attack -->
 			<skill id="16357" level="1" /> <!-- Dimensional Barrier -->
 			<skill id="16358" level="2" /> <!-- Dimensional Armor -->
@@ -2656,23 +2700,30 @@
 			<skill id="16365" level="1" /> <!-- Dimensional Defense Decrease -->
 			<skill id="16367" level="1" /> <!-- Dimensional Speed Decrease -->
 			<skill id="16368" level="1" /> <!-- Dimensional Strike -->
-		</skill_list>
-		<drop_lists>
+		</skillList>
+		<ai clanHelpRange="400" aggroRange="600">
+			<clanList>
+				<clan>WRAP_MOB</clan>
+			</clanList>
+		</ai>
+		<dropLists>
 			<drop>
 				<item id="39597" min="1" max="1" chance="98.072868141029" /> <!-- Warp Crystal -->
 				<item id="40051" min="1" max="1" chance="1.9271318589712" /> <!-- Scroll: 100,000 SP -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="15" />
 			<height normal="31" />
 		</collision>
 	</npc>
 	<npc id="23468" level="99" type="L2Monster" name="Dimensional Demon">
-		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<param name="IsAggressive" value="1" />
+		</parameters>
 		<race>DEMONIC</race>
 		<sex>FEMALE</sex>
 		<acquire exp="83739744" sp="301463" />
@@ -2690,7 +2741,7 @@
 			</attribute>
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5462" level="1" /> <!-- Fire Attack -->
 			<skill id="16357" level="2" /> <!-- Dimensional Barrier -->
 			<skill id="16358" level="1" /> <!-- Dimensional Armor -->
@@ -2702,23 +2753,30 @@
 			<skill id="16365" level="1" /> <!-- Dimensional Defense Decrease -->
 			<skill id="16367" level="1" /> <!-- Dimensional Speed Decrease -->
 			<skill id="16368" level="1" /> <!-- Dimensional Strike -->
-		</skill_list>
-		<drop_lists>
+		</skillList>
+		<ai clanHelpRange="400" aggroRange="600">
+			<clanList>
+				<clan>WRAP_MOB</clan>
+			</clanList>
+		</ai>
+		<dropLists>
 			<drop>
 				<item id="39597" min="1" max="1" chance="33.3200000000001" /> <!-- Warp Crystal -->
 				<item id="40051" min="1" max="1" chance="0.749999999999985" /> <!-- Scroll: 100,000 SP -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="30" />
 			<height normal="31.5" />
 		</collision>
 	</npc>
 	<npc id="23469" level="99" type="L2Monster" name="Dimensional Archon" title="Slaughterer">
-		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<param name="IsAggressive" value="1" />
+		</parameters>
 		<race>UNDEAD</race>
 		<sex>FEMALE</sex>
 		<acquire exp="251219232" sp="904389" />
@@ -2736,7 +2794,7 @@
 			</attribute>
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
 			<skill id="16357" level="1" /> <!-- Dimensional Barrier -->
 			<skill id="16358" level="3" /> <!-- Dimensional Armor -->
@@ -2750,16 +2808,21 @@
 			<skill id="16365" level="1" /> <!-- Dimensional Defense Decrease -->
 			<skill id="16367" level="1" /> <!-- Dimensional Speed Decrease -->
 			<skill id="16368" level="1" /> <!-- Dimensional Strike -->
-		</skill_list>
-		<drop_lists>
+		</skillList>
+		<ai clanHelpRange="400" aggroRange="600">
+			<clanList>
+				<clan>WRAP_MOB</clan>
+			</clanList>
+		</ai>
+		<dropLists>
 			<drop>
 				<item id="39597" min="2" max="2" chance="96.195469193401" /> <!-- Warp Crystal -->
 				<item id="40051" min="1" max="1" chance="3.804530806599" /> <!-- Scroll: 100,000 SP -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="25" />
 			<height normal="72" />
@@ -2784,7 +2847,7 @@
 			</attribute>
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5462" level="1" /> <!-- Fire Attack -->
 			<skill id="16357" level="2" /> <!-- Dimensional Barrier -->
 			<skill id="16358" level="1" /> <!-- Dimensional Armor -->
@@ -2794,16 +2857,16 @@
 			<skill id="16371" level="1" /> <!-- Dimensional Storm -->
 			<skill id="16369" level="1" /> <!-- Dimensional Crush -->
 			<skill id="16365" level="1" /> <!-- Dimensional Defense Decrease -->
-		</skill_list>
-		<drop_lists>
+		</skillList>
+		<dropLists>
 			<drop>
 				<item id="39597" min="1" max="1" chance="34.1100000000002" /> <!-- Warp Crystal -->
 				<item id="40051" min="1" max="1" chance="0.750000000000004" /> <!-- Scroll: 100,000 SP -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="21" />
 			<height normal="40" />
@@ -2828,7 +2891,7 @@
 			</attribute>
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5465" level="1" /> <!-- Earth Attack -->
 			<skill id="16357" level="1" /> <!-- Dimensional Barrier -->
 			<skill id="16358" level="2" /> <!-- Dimensional Armor -->
@@ -2839,16 +2902,16 @@
 			<skill id="16369" level="1" /> <!-- Dimensional Crush -->
 			<skill id="16365" level="1" /> <!-- Dimensional Defense Decrease -->
 			<skill id="16375" level="1" /> <!-- Dimensional Hammer -->
-		</skill_list>
-		<drop_lists>
+		</skillList>
+		<dropLists>
 			<drop>
 				<item id="39597" min="1" max="1" chance="98.101731495561" /> <!-- Warp Crystal -->
 				<item id="40051" min="1" max="1" chance="1.8982685044391" /> <!-- Scroll: 100,000 SP -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="24" />
 			<height normal="40" />
@@ -2873,7 +2936,7 @@
 			</attribute>
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
 			<skill id="16357" level="2" /> <!-- Dimensional Barrier -->
 			<skill id="16358" level="1" /> <!-- Dimensional Armor -->
@@ -2885,16 +2948,16 @@
 			<skill id="16373" level="1" /> <!-- Dimensional Crash -->
 			<skill id="16366" level="1" /> <!-- Dimensional Resistance Decrease -->
 			<skill id="16381" level="1" /> <!-- Dimensional Shield -->
-		</skill_list>
-		<drop_lists>
+		</skillList>
+		<dropLists>
 			<drop>
 				<item id="39597" min="1" max="1" chance="98.076715606948" /> <!-- Warp Crystal -->
 				<item id="40051" min="1" max="1" chance="1.9232843930522" /> <!-- Scroll: 100,000 SP -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="18" />
 			<height normal="42" />
@@ -2918,7 +2981,7 @@
 			</attribute>
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5462" level="1" /> <!-- Fire Attack -->
 			<skill id="16357" level="2" /> <!-- Dimensional Barrier -->
 			<skill id="16358" level="1" /> <!-- Dimensional Armor -->
@@ -2926,12 +2989,12 @@
 			<skill id="16361" level="1" /> <!-- Dimensional Warp Stun -->
 			<skill id="16363" level="1" /> <!-- Dimensioal Warp Aerial Yoke -->
 			<skill id="4416" level="7" /> <!-- Spirits -->
-		</skill_list>
-		<drop_lists>
-			<lucky_drop>
+		</skillList>
+		<dropLists>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="20" />
 			<height normal="25" />
@@ -2956,7 +3019,7 @@
 			</attribute>
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5465" level="1" /> <!-- Earth Attack -->
 			<skill id="16357" level="1" /> <!-- Dimensional Barrier -->
 			<skill id="16358" level="2" /> <!-- Dimensional Armor -->
@@ -2968,16 +3031,16 @@
 			<skill id="16367" level="1" /> <!-- Dimensional Speed Decrease -->
 			<skill id="16375" level="1" /> <!-- Dimensional Hammer -->
 			<skill id="16386" level="1" /> <!-- Dimensional Stun -->
-		</skill_list>
-		<drop_lists>
+		</skillList>
+		<dropLists>
 			<drop>
 				<item id="39597" min="1" max="1" chance="97.995982164731" /> <!-- Warp Crystal -->
 				<item id="40051" min="1" max="1" chance="2.0040178352688" /> <!-- Scroll: 100,000 SP -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="10" />
 			<height normal="37" />
@@ -3002,7 +3065,7 @@
 			</attribute>
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
 			<skill id="16357" level="1" /> <!-- Dimensional Barrier -->
 			<skill id="16358" level="3" /> <!-- Dimensional Armor -->
@@ -3016,16 +3079,16 @@
 			<skill id="16365" level="1" /> <!-- Dimensional Defense Decrease -->
 			<skill id="16375" level="1" /> <!-- Dimensional Hammer -->
 			<skill id="16386" level="1" /> <!-- Dimensional Stun -->
-		</skill_list>
-		<drop_lists>
+		</skillList>
+		<dropLists>
 			<drop>
 				<item id="39597" min="2" max="2" chance="96.179740699419" /> <!-- Warp Crystal -->
 				<item id="40051" min="1" max="1" chance="3.8202593005809" /> <!-- Scroll: 100,000 SP -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="23" />
 			<height normal="64" />
@@ -3049,7 +3112,7 @@
 			</attribute>
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5466" level="1" /> <!-- Holy Attack -->
 			<skill id="16357" level="2" /> <!-- Dimensional Barrier -->
 			<skill id="16358" level="1" /> <!-- Dimensional Armor -->
@@ -3060,16 +3123,16 @@
 			<skill id="16384" level="1" /> <!-- Dimensional Bleed -->
 			<skill id="16369" level="1" /> <!-- Dimensional Crush -->
 			<skill id="16367" level="1" /> <!-- Dimensional Speed Decrease -->
-		</skill_list>
-		<drop_lists>
+		</skillList>
+		<dropLists>
 			<drop>
 				<item id="39597" min="1" max="1" chance="97.988300196956" /> <!-- Warp Crystal -->
 				<item id="40051" min="1" max="1" chance="2.0116998030435" /> <!-- Scroll: 100,000 SP -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="13" />
 			<height normal="43" />
@@ -3094,7 +3157,7 @@
 			</attribute>
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
 			<skill id="16357" level="2" /> <!-- Dimensional Barrier -->
 			<skill id="16358" level="1" /> <!-- Dimensional Armor -->
@@ -3108,16 +3171,16 @@
 			<skill id="16366" level="1" /> <!-- Dimensional Resistance Decrease -->
 			<skill id="16374" level="1" /> <!-- Dimensional Destruction -->
 			<skill id="16381" level="1" /> <!-- Dimensional Shield -->
-		</skill_list>
-		<drop_lists>
+		</skillList>
+		<dropLists>
 			<drop>
 				<item id="39597" min="1" max="1" chance="97.993101285669" /> <!-- Warp Crystal -->
 				<item id="40051" min="1" max="1" chance="2.0068987143305" /> <!-- Scroll: 100,000 SP -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="12" />
 			<height normal="26" />
@@ -3142,7 +3205,7 @@
 			</attribute>
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
 			<skill id="16357" level="1" /> <!-- Dimensional Barrier -->
 			<skill id="16358" level="2" /> <!-- Dimensional Armor -->
@@ -3152,16 +3215,16 @@
 			<skill id="16385" level="1" /> <!-- Dimesional Devil -->
 			<skill id="16370" level="1" /> <!-- Dimensional Slasher -->
 			<skill id="16386" level="1" /> <!-- Dimensional Stun -->
-		</skill_list>
-		<drop_lists>
+		</skillList>
+		<dropLists>
 			<drop>
 				<item id="39597" min="1" max="1" chance="98.011349714297" /> <!-- Warp Crystal -->
 				<item id="40051" min="1" max="1" chance="1.9886502857031" /> <!-- Scroll: 100,000 SP -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="12" />
 			<height normal="28.5" />
@@ -3185,7 +3248,7 @@
 			</attribute>
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5462" level="1" /> <!-- Fire Attack -->
 			<skill id="16357" level="2" /> <!-- Dimensional Barrier -->
 			<skill id="16358" level="1" /> <!-- Dimensional Armor -->
@@ -3193,12 +3256,12 @@
 			<skill id="16361" level="1" /> <!-- Dimensional Warp Stun -->
 			<skill id="16363" level="1" /> <!-- Dimensioal Warp Aerial Yoke -->
 			<skill id="4416" level="7" /> <!-- Spirits -->
-		</skill_list>
-		<drop_lists>
-			<lucky_drop>
+		</skillList>
+		<dropLists>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="20" />
 			<height normal="25" />
@@ -3222,7 +3285,7 @@
 			</attribute>
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5466" level="1" /> <!-- Holy Attack -->
 			<skill id="16357" level="2" /> <!-- Dimensional Barrier -->
 			<skill id="16358" level="1" /> <!-- Dimensional Armor -->
@@ -3235,16 +3298,16 @@
 			<skill id="16370" level="1" /> <!-- Dimensional Slasher -->
 			<skill id="16367" level="1" /> <!-- Dimensional Speed Decrease -->
 			<skill id="16386" level="1" /> <!-- Dimensional Stun -->
-		</skill_list>
-		<drop_lists>
+		</skillList>
+		<dropLists>
 			<drop>
 				<item id="39597" min="1" max="1" chance="98.058442831928" /> <!-- Warp Crystal -->
 				<item id="40051" min="1" max="1" chance="1.9415571680722" /> <!-- Scroll: 100,000 SP -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="16" />
 			<height normal="69" />
@@ -3269,7 +3332,7 @@
 			</attribute>
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5462" level="1" /> <!-- Fire Attack -->
 			<skill id="16357" level="1" /> <!-- Dimensional Barrier -->
 			<skill id="16358" level="2" /> <!-- Dimensional Armor -->
@@ -3280,16 +3343,16 @@
 			<skill id="16384" level="1" /> <!-- Dimensional Bleed -->
 			<skill id="16370" level="1" /> <!-- Dimensional Slasher -->
 			<skill id="16367" level="1" /> <!-- Dimensional Speed Decrease -->
-		</skill_list>
-		<drop_lists>
+		</skillList>
+		<dropLists>
 			<drop>
 				<item id="39597" min="1" max="1" chance="97.981579463061" /> <!-- Warp Crystal -->
 				<item id="40051" min="1" max="1" chance="2.0184205369391" /> <!-- Scroll: 100,000 SP -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="10" />
 			<height normal="34" />
@@ -3300,6 +3363,7 @@
 		<race>UNDEAD</race>
 		<sex>FEMALE</sex>
 		<acquire exp="251219232" sp="904389" />
+		<equipment rhand="39719" />
 		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
 			<vitals hp="1355033" hpRegen="10.5" mp="23550" mpRegen="3.6" />
 			<speed>
@@ -3314,7 +3378,7 @@
 			</attribute>
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5467" level="1" /> <!-- Strong against the dark elemental. -->
 			<skill id="16357" level="2" /> <!-- Dimensional Barrier -->
 			<skill id="16358" level="3" /> <!-- Dimensional Armor -->
@@ -3328,16 +3392,16 @@
 			<skill id="16370" level="1" /> <!-- Dimensional Slasher -->
 			<skill id="16365" level="1" /> <!-- Dimensional Defense Decrease -->
 			<skill id="16386" level="1" /> <!-- Dimensional Stun -->
-		</skill_list>
-		<drop_lists>
+		</skillList>
+		<dropLists>
 			<drop>
 				<item id="39597" min="2" max="2" chance="96.150148071228" /> <!-- Warp Crystal -->
 				<item id="40051" min="1" max="1" chance="3.849851928772" /> <!-- Scroll: 100,000 SP -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="24" />
 			<height normal="61" />
@@ -3362,7 +3426,7 @@
 			</attribute>
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5465" level="1" /> <!-- Earth Attack -->
 			<skill id="16357" level="1" /> <!-- Dimensional Barrier -->
 			<skill id="16358" level="2" /> <!-- Dimensional Armor -->
@@ -3373,16 +3437,16 @@
 			<skill id="16370" level="1" /> <!-- Dimensional Slasher -->
 			<skill id="16367" level="1" /> <!-- Dimensional Speed Decrease -->
 			<skill id="16386" level="1" /> <!-- Dimensional Stun -->
-		</skill_list>
-		<drop_lists>
+		</skillList>
+		<dropLists>
 			<drop>
 				<item id="39597" min="1" max="1" chance="98.05363533853" /> <!-- Warp Crystal -->
 				<item id="40051" min="1" max="1" chance="1.9463646614698" /> <!-- Scroll: 100,000 SP -->
 			</drop>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="10" />
 			<height normal="37" />
@@ -3401,10 +3465,10 @@
 				<walk ground="39" />
 				<run ground="170" />
 			</speed>
-			<hit_time>370</hit_time>
+			<hitTime>370</hitTime>
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="14" /> <!-- Average P. Atk. -->
@@ -3413,10 +3477,10 @@
 			<skill id="4413" level="13" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4416" level="4" /> <!-- Animals -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
 		<ai clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="4" max="10" chance="70" /> <!-- Adena -->
 				<item id="44" min="1" max="1" chance="0.75" /> <!-- Leather Helmet -->
@@ -3425,10 +3489,10 @@
 			<spoil>
 				<item id="36516" min="1" max="1" chance="14.01" /> <!-- Worn Leather -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="8" />
 			<height normal="20" />
@@ -3449,12 +3513,12 @@
 			<defence physical="71.538068472151" magical="52.099161043657" />
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
 			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
 			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
 			<skill id="4416" level="4" /> <!-- Animals -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="6" />
 			<height normal="10.5" />
@@ -3473,10 +3537,10 @@
 				<walk ground="39" />
 				<run ground="170" />
 			</speed>
-			<hit_time>370</hit_time>
+			<hitTime>370</hitTime>
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="13" /> <!-- Average P. Atk. -->
@@ -3485,10 +3549,10 @@
 			<skill id="4413" level="13" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4416" level="7" /> <!-- Animals -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
 		<ai clanHelpRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="5" max="13" chance="70" /> <!-- Adena -->
 				<item id="50" min="1" max="1" chance="1.356" /> <!-- Leather Gloves -->
@@ -3497,10 +3561,10 @@
 			<spoil>
 				<item id="36516" min="1" max="1" chance="18.41" /> <!-- Worn Leather -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="6" />
 			<height normal="17" />
@@ -3524,15 +3588,15 @@
 			</attribute>
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="5465" level="1" /> <!-- Earth Attack -->
 			<skill id="4410" level="17" /> <!-- Very Strong P. Atk. -->
 			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
 			<skill id="4379" level="5" /> <!-- Spear Resistance -->
 			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
-		</skill_list>
-		<drop_lists>
+		</skillList>
+		<dropLists>
 			<drop>
 				<item id="57" min="1203" max="2808" chance="20" /> <!-- Adena -->
 				<item id="36538" min="1" max="1" chance="0.3" /> <!-- Durable Leather Braid -->
@@ -3544,10 +3608,10 @@
 				<item id="36518" min="1" max="1" chance="7.256" /> <!-- Durable Leather -->
 				<item id="36519" min="1" max="1" chance="0.75" /> <!-- Quality Leather -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="34" />
 			<height normal="35" />
@@ -3570,7 +3634,7 @@
 				<attack type="EARTH" value="330" />
 			</attribute>
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="5465" level="1" /> <!-- Earth Attack -->
 			<skill id="4410" level="19" /> <!-- Extremely Strong P. Atk. -->
@@ -3578,24 +3642,24 @@
 			<skill id="4413" level="16" /> <!-- Very Strong M. Def. -->
 			<skill id="4379" level="5" /> <!-- Spear Resistance -->
 			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
-		</skill_list>
-		<drop_lists>
+		</skillList>
+		<dropLists>
 			<drop>
 				<item id="57" min="2405" max="5615" chance="20" /> <!-- Adena -->
 				<item id="36538" min="1" max="1" chance="0.3" /> <!-- Durable Leather Braid -->
 				<item id="35345" min="1" max="1" chance="0.03" /> <!-- Eternal Leather Armor Ingredient -->
 				<item id="36539" min="1" max="1" chance="0.03" /> <!-- Quality Leather Braid -->
 				<item id="17526" min="1" max="1" chance="0.003" /> <!-- Scroll: Enchant Weapon (R-grade) -->
-				<item id="35460" min="1" max="1" chance="0.0009" /> <!-- Recipe: Helios Caster (60%) -->
+				<item id="35460" min="1" max="1" chance="0.0009" /> <!-- Recipe: Amaranthine Caster (60%) -->
 			</drop>
 			<spoil>
 				<item id="36543" min="1" max="1" chance="2.506" /> <!-- Adamantite Wire -->
 				<item id="36544" min="1" max="1" chance="0.3" /> <!-- Orichalcum Wire -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="30" />
 			<height normal="31.5" />
@@ -3620,19 +3684,19 @@
 			</attribute>
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5462" level="1" /> <!-- Fire Attack -->
 			<skill id="4411" level="16" /> <!-- Very Strong M. Atk. -->
 			<skill id="4379" level="4" /> <!-- Spear Resistance -->
 			<skill id="23568" level="1" /> <!-- Monster Dueling -->
 			<skill id="16547" level="8" /> <!-- Danger Zone Attack Resistance -->
 			<skill id="4416" level="10" /> <!-- Dragons -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="29" />
 			<height normal="72" />
 		</collision>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="50" max="116" chance="70" /> <!-- Adena -->
 				<item id="5166" min="1" max="1" chance="0.03" /> <!-- Recipe: Blessed Spiritshot Compressed Package (A-grade) -->
@@ -3655,10 +3719,10 @@
 				<item id="36882" min="1" max="1" chance="0.003" /> <!-- Recipe: Thin Braid - Upgrade -->
 				<item id="36881" min="1" max="1" chance="9" /> <!-- Recipe: Thin Braid - Downgrade -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 	</npc>
 	<npc id="23490" level="98" type="L2Monster" name="Lava Drake">
 		<race>DRAGON</race>
@@ -3677,29 +3741,29 @@
 				<attack type="EARTH" value="330" />
 			</attribute>
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="10" /> <!-- Dragons -->
 			<skill id="5465" level="1" /> <!-- Earth Attack -->
 			<skill id="4410" level="16" /> <!-- Very Strong P. Atk. -->
 			<skill id="4379" level="4" /> <!-- Spear Resistance -->
 			<skill id="16547" level="8" /> <!-- Danger Zone Attack Resistance -->
-		</skill_list>
-		<drop_lists>
+		</skillList>
+		<dropLists>
 			<drop>
 				<item id="57" min="1203" max="2808" chance="20" /> <!-- Adena -->
 				<item id="36543" min="1" max="1" chance="0.75" /> <!-- Adamantite Wire -->
 				<item id="17527" min="1" max="1" chance="0.075" /> <!-- Scroll: Enchant Armor (R-grade) -->
 				<item id="36544" min="1" max="1" chance="0.075" /> <!-- Orichalcum Wire -->
-				<item id="35471" min="1" max="1" chance="0.003" /> <!-- Recipe: Eternal Leather Gloves (60%) -->
+				<item id="35471" min="1" max="1" chance="0.003" /> <!-- Recipe: Eternal Leather Gloves (60%) -->
 			</drop>
 			<spoil>
 				<item id="36518" min="1" max="1" chance="7.249" /> <!-- Durable Leather -->
 				<item id="36539" min="1" max="1" chance="0.3" /> <!-- Quality Leather Braid -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="38" />
 			<height normal="63" />
@@ -3722,29 +3786,29 @@
 				<attack type="EARTH" value="330" />
 			</attribute>
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="3" /> <!-- Beast -->
 			<skill id="5465" level="1" /> <!-- Earth Attack -->
 			<skill id="4410" level="16" /> <!-- Very Strong P. Atk. -->
 			<skill id="4379" level="4" /> <!-- Spear Resistance -->
 			<skill id="16547" level="8" /> <!-- Danger Zone Attack Resistance -->
-		</skill_list>
-		<drop_lists>
+		</skillList>
+		<dropLists>
 			<drop>
 				<item id="57" min="1203" max="2808" chance="20" /> <!-- Adena -->
 				<item id="36543" min="1" max="1" chance="0.75" /> <!-- Adamantite Wire -->
 				<item id="17527" min="1" max="1" chance="0.075" /> <!-- Scroll: Enchant Armor (R-grade) -->
 				<item id="36544" min="1" max="1" chance="0.075" /> <!-- Orichalcum Wire -->
-				<item id="35472" min="1" max="1" chance="0.003" /> <!-- Recipe: Eternal Leather Boots (60%) -->
+				<item id="35472" min="1" max="1" chance="0.003" /> <!-- Recipe: Eternal Leather Boots (60%) -->
 			</drop>
 			<spoil>
 				<item id="36518" min="1" max="1" chance="7.237" /> <!-- Durable Leather -->
 				<item id="36539" min="1" max="1" chance="0.3" /> <!-- Quality Leather Braid -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="26" />
 			<height normal="31" />
@@ -3769,7 +3833,7 @@
 			</attribute>
 		</stats>
 		<status attackable="false" />
-		<skill_list>
+		<skillList>
 			<skill id="5462" level="1" /> <!-- Fire Attack -->
 			<skill id="4411" level="16" /> <!-- Very Strong M. Atk. -->
 			<skill id="4412" level="16" /> <!-- Very Strong P. Def. -->
@@ -3778,12 +3842,12 @@
 			<skill id="23568" level="1" /> <!-- Monster Dueling -->
 			<skill id="16547" level="8" /> <!-- Danger Zone Attack Resistance -->
 			<skill id="4416" level="2" /> <!-- Magic Creatures -->
-		</skill_list>
+		</skillList>
 		<collision>
 			<radius normal="38" />
 			<height normal="45" />
 		</collision>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="137" max="320" chance="70" /> <!-- Adena -->
 				<item id="3036" min="1" max="1" chance="0.03" /> <!-- Recipe: Spiritshot (S-grade) -->
@@ -3797,10 +3861,10 @@
 				<item id="36882" min="1" max="1" chance="0.0075" /> <!-- Recipe: Thin Braid - Upgrade -->
 				<item id="36881" min="1" max="1" chance="0.003" /> <!-- Recipe: Thin Braid - Downgrade -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 	</npc>
 	<npc id="23493" level="98" type="L2Monster" name="Lava Leviah">
 		<race>DEMONIC</race>
@@ -3819,14 +3883,14 @@
 				<attack type="EARTH" value="330" />
 			</attribute>
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="5465" level="1" /> <!-- Earth Attack -->
 			<skill id="4410" level="16" /> <!-- Very Strong P. Atk. -->
 			<skill id="4379" level="4" /> <!-- Spear Resistance -->
 			<skill id="16547" level="8" /> <!-- Danger Zone Attack Resistance -->
-		</skill_list>
-		<drop_lists>
+		</skillList>
+		<dropLists>
 			<drop>
 				<item id="57" min="1203" max="2808" chance="20" /> <!-- Adena -->
 				<item id="36543" min="1" max="1" chance="1.053" /> <!-- Adamantite Wire -->
@@ -3837,10 +3901,10 @@
 				<item id="36538" min="1" max="1" chance="1.734" /> <!-- Durable Leather Braid -->
 				<item id="36519" min="1" max="1" chance="0.75" /> <!-- Quality Leather -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="12" />
 			<height normal="40" />
@@ -3863,15 +3927,15 @@
 				<attack type="FIRE" value="330" />
 			</attribute>
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="7" /> <!-- Spirits -->
 			<skill id="5462" level="1" /> <!-- Fire Attack -->
 			<skill id="4410" level="17" /> <!-- Very Strong P. Atk. -->
 			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
 			<skill id="4379" level="5" /> <!-- Spear Resistance -->
 			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
-		</skill_list>
-		<drop_lists>
+		</skillList>
+		<dropLists>
 			<drop>
 				<item id="57" min="1239" max="2893" chance="20" /> <!-- Adena -->
 				<item id="36538" min="1" max="1" chance="0.3" /> <!-- Durable Leather Braid -->
@@ -3883,10 +3947,10 @@
 				<item id="36538" min="1" max="1" chance="1.845" /> <!-- Durable Leather Braid -->
 				<item id="36539" min="1" max="1" chance="0.3" /> <!-- Quality Leather Braid -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="20" />
 			<height normal="25" />
@@ -3909,14 +3973,14 @@
 				<attack type="FIRE" value="330" />
 			</attribute>
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="5462" level="1" /> <!-- Fire Attack -->
 			<skill id="4411" level="17" /> <!-- Very Strong M. Atk. -->
 			<skill id="4379" level="5" /> <!-- Spear Resistance -->
 			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
-		</skill_list>
-		<drop_lists>
+		</skillList>
+		<dropLists>
 			<drop>
 				<item id="57" min="1239" max="2893" chance="20" /> <!-- Adena -->
 				<item id="36538" min="1" max="1" chance="0.3" /> <!-- Durable Leather Braid -->
@@ -3928,10 +3992,10 @@
 				<item id="36538" min="1" max="1" chance="1.871" /> <!-- Durable Leather Braid -->
 				<item id="36539" min="1" max="1" chance="0.3" /> <!-- Quality Leather Braid -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="20" />
 			<height normal="42" />
@@ -3954,7 +4018,7 @@
 				<attack type="FIRE" value="330" />
 			</attribute>
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="5462" level="1" /> <!-- Fire Attack -->
 			<skill id="4410" level="19" /> <!-- Extremely Strong P. Atk. -->
@@ -3962,25 +4026,25 @@
 			<skill id="4413" level="16" /> <!-- Very Strong M. Def. -->
 			<skill id="4379" level="5" /> <!-- Spear Resistance -->
 			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
-		</skill_list>
-		<drop_lists>
+		</skillList>
+		<dropLists>
 			<drop>
 				<item id="57" min="2479" max="5786" chance="20" /> <!-- Adena -->
 				<item id="36538" min="1" max="1" chance="0.3" /> <!-- Durable Leather Braid -->
-				<item id="35328" min="1" max="1" chance="0.03" /> <!-- Helios Cutter Fragment -->
+				<item id="35328" min="1" max="1" chance="0.03" /> <!-- Amaranthine Cutter Fragment -->
 				<item id="35345" min="1" max="1" chance="0.03" /> <!-- Eternal Leather Armor Ingredient -->
 				<item id="36539" min="1" max="1" chance="0.03" /> <!-- Quality Leather Braid -->
 				<item id="17526" min="1" max="1" chance="0.003" /> <!-- Scroll: Enchant Weapon (R-grade) -->
-				<item id="35452" min="1" max="1" chance="0.0009" /> <!-- Recipe: Helios Cutter (60%) -->
+				<item id="35452" min="1" max="1" chance="0.0009" /> <!-- Recipe: Amaranthine Cutter (60%) -->
 			</drop>
 			<spoil>
 				<item id="36543" min="1" max="1" chance="2.655" /> <!-- Adamantite Wire -->
 				<item id="36544" min="1" max="1" chance="0.3" /> <!-- Orichalcum Wire -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="19.6" />
 			<height normal="33.05" />
@@ -4003,7 +4067,7 @@
 				<attack type="FIRE" value="330" />
 			</attribute>
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="2" /> <!-- Magic Creatures -->
 			<skill id="5462" level="1" /> <!-- Fire Attack -->
 			<skill id="4411" level="19" /> <!-- Extremely Strong M. Atk. -->
@@ -4011,26 +4075,26 @@
 			<skill id="4413" level="16" /> <!-- Very Strong M. Def. -->
 			<skill id="4379" level="5" /> <!-- Spear Resistance -->
 			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
-		</skill_list>
-		<drop_lists>
+		</skillList>
+		<dropLists>
 			<drop>
 				<item id="57" min="3099" max="7232" chance="20" /> <!-- Adena -->
 				<item id="36538" min="1" max="1" chance="0.3" /> <!-- Durable Leather Braid -->
-				<item id="35332" min="1" max="1" chance="0.075" /> <!-- Helios Stormer Fragment -->
+				<item id="35332" min="1" max="1" chance="0.075" /> <!-- Amaranthine Stormer Fragment -->
 				<item id="36539" min="1" max="1" chance="0.03" /> <!-- Quality Leather Braid -->
 				<item id="36549" min="1" max="1" chance="0.0075" /> <!-- Weapon Fragment (High-grade) -->
 				<item id="17526" min="1" max="1" chance="0.003" /> <!-- Scroll: Enchant Weapon (R-grade) -->
-				<item id="35456" min="1" max="1" chance="0.0009" /> <!-- Recipe: Helios Stormer (60%) -->
-				<item id="35471" min="1" max="1" chance="0.0009" /> <!-- Recipe: Eternal Leather Gloves (60%) -->
+				<item id="35456" min="1" max="1" chance="0.0009" /> <!-- Recipe: Amaranthine Stormer (60%) -->
+				<item id="35471" min="1" max="1" chance="0.0009" /> <!-- Recipe: Eternal Leather Gloves (60%) -->
 			</drop>
 			<spoil>
 				<item id="36539" min="1" max="1" chance="0.3" /> <!-- Quality Leather Braid -->
 				<item id="36544" min="1" max="1" chance="0.3" /> <!-- Orichalcum Wire -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="15" />
 			<height normal="75" />
@@ -4053,7 +4117,7 @@
 				<attack type="FIRE" value="330" />
 			</attribute>
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
 			<skill id="5462" level="1" /> <!-- Fire Attack -->
 			<skill id="4411" level="19" /> <!-- Extremely Strong M. Atk. -->
@@ -4061,26 +4125,26 @@
 			<skill id="4413" level="16" /> <!-- Very Strong M. Def. -->
 			<skill id="4379" level="5" /> <!-- Spear Resistance -->
 			<skill id="16547" level="10" /> <!-- Danger Zone Attack Resistance -->
-		</skill_list>
-		<drop_lists>
+		</skillList>
+		<dropLists>
 			<drop>
 				<item id="57" min="3099" max="7232" chance="20" /> <!-- Adena -->
 				<item id="36543" min="1" max="1" chance="0.3" /> <!-- Adamantite Wire -->
-				<item id="35335" min="1" max="1" chance="0.075" /> <!-- Helios Buster Fragment -->
+				<item id="35335" min="1" max="1" chance="0.075" /> <!-- Amaranthine Buster Fragment -->
 				<item id="17527" min="1" max="1" chance="0.03" /> <!-- Scroll: Enchant Armor (R-grade) -->
 				<item id="36544" min="1" max="1" chance="0.03" /> <!-- Orichalcum Wire -->
 				<item id="36554" min="1" max="1" chance="0.0075" /> <!-- Armor Fragment (High-grade) -->
-				<item id="35459" min="1" max="1" chance="0.0009" /> <!-- Recipe: Helios Buster (60%) -->
-				<item id="35472" min="1" max="1" chance="0.0009" /> <!-- Recipe: Eternal Leather Boots (60%) -->
+				<item id="35459" min="1" max="1" chance="0.0009" /> <!-- Recipe: Amaranthine Buster (60%) -->
+				<item id="35472" min="1" max="1" chance="0.0009" /> <!-- Recipe: Eternal Leather Boots (60%) -->
 			</drop>
 			<spoil>
 				<item id="36539" min="1" max="1" chance="0.3" /> <!-- Quality Leather Braid -->
 				<item id="36544" min="1" max="1" chance="0.3" /> <!-- Orichalcum Wire -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="18" />
 			<height normal="27.5" />
@@ -4103,30 +4167,30 @@
 				<attack type="EARTH" value="330" />
 			</attribute>
 		</stats>
-		<skill_list>
+		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="5465" level="1" /> <!-- Earth Attack -->
 			<skill id="4410" level="16" /> <!-- Very Strong P. Atk. -->
 			<skill id="4379" level="4" /> <!-- Spear Resistance -->
 			<skill id="16547" level="8" /> <!-- Danger Zone Attack Resistance -->
-		</skill_list>
-		<drop_lists>
+		</skillList>
+		<dropLists>
 			<drop>
 				<item id="57" min="1239" max="2893" chance="20" /> <!-- Adena -->
 				<item id="36543" min="1" max="1" chance="0.3" /> <!-- Adamantite Wire -->
 				<item id="17527" min="1" max="1" chance="0.03" /> <!-- Scroll: Enchant Armor (R-grade) -->
-				<item id="35336" min="1" max="1" chance="0.03" /> <!-- Helios Caster Fragment -->
+				<item id="35336" min="1" max="1" chance="0.03" /> <!-- Amaranthine Caster Fragment -->
 				<item id="36544" min="1" max="1" chance="0.03" /> <!-- Orichalcum Wire -->
-				<item id="35477" min="1" max="1" chance="0.0009" /> <!-- Recipe: Eternal Shoes (60%) -->
+				<item id="35477" min="1" max="1" chance="0.0009" /> <!-- Recipe: Eternal Shoes (60%) -->
 			</drop>
 			<spoil>
 				<item id="36518" min="1" max="1" chance="7.477" /> <!-- Durable Leather -->
 				<item id="36539" min="1" max="1" chance="0.3" /> <!-- Quality Leather Braid -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="15" />
 			<height normal="37" />

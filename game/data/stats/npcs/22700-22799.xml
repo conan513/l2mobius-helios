@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/npcs.xsd">
 	<npc id="22701" level="81" type="L2Monster" name="Varangka's Dre Vanul">
 		<!-- Confirmed CT2.5 -->
@@ -22,11 +22,11 @@
 				<walk ground="70" />
 				<run ground="155" />
 			</speed>
-			<hit_time>760</hit_time>
+			<hitTime>760</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4032" level="9" /> <!-- NPC Strike -->
 			<skill id="4116" level="9" /> <!-- Resist M. Atk. -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
@@ -42,15 +42,15 @@
 			<skill id="5467" level="1" /> <!-- Dark Attacks -->
 			<skill id="5620" level="5" /> <!-- Short-Range Physical Attack Weakness -->
 			<skill id="6168" level="9" /> <!-- Shock -->
-		</skill_list>
+		</skillList>
 		<shots shotChance="10" spiritChance="10" />
-		<ex_crt_effect>false</ex_crt_effect>
+		<exCrtEffect>false</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>BARANKAD</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="156" max="365" chance="70" /> <!-- Adena -->
 				<item id="9445" min="1" max="1" chance="0.0009" /> <!-- Dynasty Bow -->
@@ -77,10 +77,10 @@
 				<item id="36881" min="1" max="1" chance="0.003" /> <!-- Recipe: Thin Braid - Downgrade -->
 				<item id="36882" min="1" max="1" chance="0.0055" /> <!-- Recipe: Thin Braid - Upgrade -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="14" />
 			<height normal="44" />
@@ -109,11 +109,11 @@
 				<walk ground="37" />
 				<run ground="160" />
 			</speed>
-			<hit_time>450</hit_time>
+			<hitTime>450</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4046" level="9" /> <!-- Sleep -->
 			<skill id="4116" level="9" /> <!-- Resist M. Atk. -->
 			<skill id="4158" level="9" /> <!-- NPC Prominence - Magic -->
@@ -130,15 +130,15 @@
 			<skill id="4444" level="3" /> <!-- Higher Resist Bow/Crossbow Weapons -->
 			<skill id="5467" level="1" /> <!-- Dark Attacks -->
 			<skill id="5620" level="5" /> <!-- Short-Range Physical Attack Weakness -->
-		</skill_list>
+		</skillList>
 		<shots shotChance="10" spiritChance="10" />
-		<ex_crt_effect>false</ex_crt_effect>
+		<exCrtEffect>false</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>BARANKAD</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="134" max="312" chance="70" /> <!-- Adena -->
 				<item id="9446" min="1" max="1" chance="0.0009" /> <!-- Dynasty Knife -->
@@ -166,10 +166,10 @@
 				<item id="36881" min="1" max="1" chance="0.003" /> <!-- Recipe: Thin Braid - Downgrade -->
 				<item id="36882" min="1" max="1" chance="0.0055" /> <!-- Recipe: Thin Braid - Upgrade -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="19" />
 			<height normal="32" />
@@ -197,11 +197,11 @@
 				<walk ground="80" />
 				<run ground="140" />
 			</speed>
-			<hit_time>280</hit_time>
+			<hitTime>280</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4116" level="9" /> <!-- Resist M. Atk. -->
 			<skill id="4160" level="10" /> <!-- NPC Aura Burn - Magic -->
 			<skill id="4408" level="12" /> <!-- HP Increase (4x) -->
@@ -218,11 +218,11 @@
 			<skill id="5465" level="1" /> <!-- Earth Attacks -->
 			<skill id="5620" level="9" /> <!-- Short-Range Physical Attack Weakness -->
 			<skill id="4077" level="1" /> <!-- Aura Burn -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
-		<s_npc_prop_hp_rate>4</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>4</sNpcPropHpRate>
 		<ai clanHelpRange="300" aggroRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="167" max="389" chance="70" /> <!-- Adena -->
 				<item id="9573" min="1" max="1" chance="0.750000000000005" /> <!-- Life Stone - Lv. 80 -->
@@ -235,10 +235,10 @@
 				<item id="36547" min="1" max="1" chance="0.75" /> <!-- Weapon Fragment -->
 				<item id="36548" min="1" max="1" chance="0.3" /> <!-- Weapon Fragment (Mid-grade) -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="14" grown="17" />
 			<height normal="28.8" grown="34.9" />
@@ -267,11 +267,11 @@
 				<walk ground="45" />
 				<run ground="170" />
 			</speed>
-			<hit_time>460</hit_time>
+			<hitTime>460</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4116" level="9" /> <!-- Resist M. Atk. -->
 			<skill id="4160" level="10" /> <!-- NPC Aura Burn - Magic -->
 			<skill id="4408" level="13" /> <!-- HP Increase (5x) -->
@@ -294,15 +294,15 @@
 			<skill id="5465" level="1" /> <!-- Earth Attacks -->
 			<skill id="5620" level="9" /> <!-- Short-Range Physical Attack Weakness -->
 			<skill id="4077" level="1" /> <!-- Aura Burn -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
-		<s_npc_prop_hp_rate>5</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>5</sNpcPropHpRate>
 		<ai aggroRange="300" clanHelpRange="300" isAggressive="true">
-			<clan_list>
+			<clanList>
 				<clan>LEGENDORC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="207" max="483" chance="70" /> <!-- Adena -->
 				<item id="9573" min="1" max="1" chance="0.75" /> <!-- Life Stone - Lv. 80 -->
@@ -317,10 +317,10 @@
 				<item id="36547" min="1" max="1" chance="0.75" /> <!-- Weapon Fragment -->
 				<item id="36548" min="1" max="1" chance="0.3" /> <!-- Weapon Fragment (Mid-grade) -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="14" />
 			<height normal="34.8" />
@@ -349,11 +349,11 @@
 				<walk ground="36" />
 				<run ground="170" />
 			</speed>
-			<hit_time>540</hit_time>
+			<hitTime>540</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4116" level="9" /> <!-- Resist M. Atk. -->
 			<skill id="4408" level="13" /> <!-- HP Increase (5x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -375,15 +375,15 @@
 			<skill id="4561" level="10" /> <!-- NPC Fire Burn - Magic -->
 			<skill id="5465" level="1" /> <!-- Earth Attacks -->
 			<skill id="5620" level="9" /> <!-- Short-Range Physical Attack Weakness -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
-		<s_npc_prop_hp_rate>5</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>5</sNpcPropHpRate>
 		<ai aggroRange="300" clanHelpRange="300" isAggressive="true">
-			<clan_list>
+			<clanList>
 				<clan>LEGENDORC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="213" max="498" chance="70" /> <!-- Adena -->
 				<item id="9573" min="1" max="1" chance="0.948000000000005" /> <!-- Life Stone - Lv. 80 -->
@@ -395,10 +395,10 @@
 				<item id="36547" min="1" max="1" chance="0.75" /> <!-- Weapon Fragment -->
 				<item id="36548" min="1" max="1" chance="0.3" /> <!-- Weapon Fragment (Mid-grade) -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="14" />
 			<height normal="28.8" />
@@ -427,11 +427,11 @@
 				<walk ground="33" />
 				<run ground="190" />
 			</speed>
-			<hit_time>480</hit_time>
+			<hitTime>480</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4116" level="9" /> <!-- Resist M. Atk. -->
 			<skill id="4408" level="14" /> <!-- HP Increase (6x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -453,15 +453,15 @@
 			<skill id="4560" level="10" /> <!-- NPC Fire Burn -->
 			<skill id="5467" level="1" /> <!-- Dark Attacks -->
 			<skill id="5620" level="9" /> <!-- Short-Range Physical Attack Weakness -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
-		<s_npc_prop_hp_rate>6</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>6</sNpcPropHpRate>
 		<ai aggroRange="300" clanHelpRange="500" isAggressive="true">
-			<clan_list>
+			<clanList>
 				<clan>LEGENDORC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="228" max="534" chance="70" /> <!-- Adena -->
 				<item id="9573" min="1" max="1" chance="0.749999999999996" /> <!-- Life Stone - Lv. 80 -->
@@ -474,10 +474,10 @@
 				<item id="36547" min="1" max="1" chance="0.75" /> <!-- Weapon Fragment -->
 				<item id="36548" min="1" max="1" chance="0.3" /> <!-- Weapon Fragment (Mid-grade) -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="14" />
 			<height normal="28.8" />
@@ -506,11 +506,11 @@
 				<walk ground="24" />
 				<run ground="185" />
 			</speed>
-			<hit_time>510</hit_time>
+			<hitTime>510</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4116" level="9" /> <!-- Resist M. Atk. -->
 			<skill id="4158" level="10" /> <!-- NPC Prominence - Magic -->
 			<skill id="4408" level="16" /> <!-- HP Increase (8x) -->
@@ -531,15 +531,15 @@
 			<skill id="4449" level="4" /> <!-- Greater Resist Two-handed Weapons -->
 			<skill id="5467" level="1" /> <!-- Dark Attacks -->
 			<skill id="5620" level="9" /> <!-- Short-Range Physical Attack Weakness -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
-		<s_npc_prop_hp_rate>8</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>8</sNpcPropHpRate>
 		<ai aggroRange="300" clanHelpRange="300" isAggressive="true">
-			<clan_list>
+			<clanList>
 				<clan>LEGENDORC</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="221" max="516" chance="70" /> <!-- Adena -->
 				<item id="9546" min="1" max="1" chance="0.3" /> <!-- Fire Stone -->
@@ -548,10 +548,10 @@
 			<spoil>
 				<item id="9551" min="1" max="1" chance="0.3" /> <!-- Holy Stone -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="17" />
 			<height normal="46.2" />
@@ -579,11 +579,11 @@
 				<walk ground="39" />
 				<run ground="150" />
 			</speed>
-			<hit_time>480</hit_time>
+			<hitTime>480</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4408" level="13" /> <!-- HP Increase (5x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
@@ -593,15 +593,15 @@
 			<skill id="4416" level="1" /> <!-- Undead -->
 			<skill id="5334" level="4" /> <!-- NPC(party) - Physical Single Close Range Attack -->
 			<skill id="5467" level="1" /> <!-- Dark Attacks -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
-		<s_npc_prop_hp_rate>5</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>5</sNpcPropHpRate>
 		<ai aggroRange="300" clanHelpRange="300" isAggressive="true">
-			<clan_list>
+			<clanList>
 				<clan>FANTASY</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="142" max="332" chance="70" /> <!-- Adena -->
 				<item id="9546" min="1" max="1" chance="0.3" /> <!-- Fire Stone -->
@@ -612,10 +612,10 @@
 				<item id="36881" min="1" max="1" chance="0.003" /> <!-- Recipe: Thin Braid - Downgrade -->
 				<item id="36882" min="1" max="1" chance="0.0055" /> <!-- Recipe: Thin Braid - Upgrade -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="7" grown="8" />
 			<height normal="30" grown="36" />
@@ -643,11 +643,11 @@
 				<walk ground="80" />
 				<run ground="160" />
 			</speed>
-			<hit_time>560</hit_time>
+			<hitTime>560</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4408" level="13" /> <!-- HP Increase (5x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
@@ -659,15 +659,15 @@
 			<skill id="4416" level="1" /> <!-- Undead -->
 			<skill id="4613" level="10" /> <!-- NPC Clan Heal -->
 			<skill id="5467" level="1" /> <!-- Dark Attacks -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
-		<s_npc_prop_hp_rate>5</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>5</sNpcPropHpRate>
 		<ai aggroRange="300" clanHelpRange="300" isAggressive="true">
-			<clan_list>
+			<clanList>
 				<clan>FANTASY</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="143" max="332" chance="70" /> <!-- Adena -->
 				<item id="9546" min="1" max="1" chance="0.3" /> <!-- Fire Stone -->
@@ -678,10 +678,10 @@
 				<item id="36881" min="1" max="1" chance="0.003" /> <!-- Recipe: Thin Braid - Downgrade -->
 				<item id="36882" min="1" max="1" chance="0.0055" /> <!-- Recipe: Thin Braid - Upgrade -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="20" />
 			<height normal="42" />
@@ -712,11 +712,11 @@
 				<walk ground="80" />
 				<run ground="160" />
 			</speed>
-			<hit_time>560</hit_time>
+			<hitTime>560</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4046" level="10" /> <!-- Sleep -->
 			<skill id="4408" level="11" /> <!-- HP Increase (3x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -730,15 +730,15 @@
 			<skill id="5374" level="4" /> <!-- NPC(party) -Magic Range Long Range DD - Fire -->
 			<skill id="5375" level="4" /> <!-- NPC(party) -Magic Range Close Range DD - Fire -->
 			<skill id="5467" level="1" /> <!-- Dark Attacks -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
-		<s_npc_prop_hp_rate>3</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>3</sNpcPropHpRate>
 		<ai aggroRange="300" clanHelpRange="300" isAggressive="true">
-			<clan_list>
+			<clanList>
 				<clan>FANTASY</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="92" max="215" chance="70" /> <!-- Adena -->
 				<item id="9546" min="1" max="1" chance="0.3" /> <!-- Fire Stone -->
@@ -749,10 +749,10 @@
 				<item id="36882" min="1" max="1" chance="0.003" /> <!-- Recipe: Thin Braid - Upgrade -->
 				<item id="36881" min="1" max="1" chance="0.0009" /> <!-- Recipe: Thin Braid - Downgrade -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="20" />
 			<height normal="42" />
@@ -780,11 +780,11 @@
 				<walk ground="100" />
 				<run ground="170" />
 			</speed>
-			<hit_time>450</hit_time>
+			<hitTime>450</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4408" level="12" /> <!-- HP Increase (4x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="18" /> <!-- Extremely Strong P. Atk. -->
@@ -796,15 +796,15 @@
 			<skill id="4416" level="1" /> <!-- Undead -->
 			<skill id="5334" level="4" /> <!-- NPC(party) - Physical Single Close Range Attack -->
 			<skill id="5467" level="1" /> <!-- Dark Attacks -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
-		<s_npc_prop_hp_rate>4</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>4</sNpcPropHpRate>
 		<ai aggroRange="300" clanHelpRange="300" isAggressive="true">
-			<clan_list>
+			<clanList>
 				<clan>FANTASY</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="126" max="295" chance="70" /> <!-- Adena -->
 				<item id="9546" min="1" max="1" chance="0.3" /> <!-- Fire Stone -->
@@ -815,10 +815,10 @@
 				<item id="36881" min="1" max="1" chance="0.003" /> <!-- Recipe: Thin Braid - Downgrade -->
 				<item id="36882" min="1" max="1" chance="0.0055" /> <!-- Recipe: Thin Braid - Upgrade -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="15" grown="25" />
 			<height normal="45" grown="52" />
@@ -848,7 +848,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4408" level="11" /> <!-- HP Increase (3x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
@@ -861,15 +861,15 @@
 			<skill id="4579" level="9" /> <!-- Bleed -->
 			<skill id="5467" level="1" /> <!-- Dark Attacks -->
 			<skill id="5364" level="1" /> <!-- Bleed -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
-		<s_npc_prop_hp_rate>3</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>3</sNpcPropHpRate>
 		<ai aggroRange="300" clanHelpRange="300" isAggressive="true">
-			<clan_list>
+			<clanList>
 				<clan>FANTASY</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="95" max="221" chance="70" /> <!-- Adena -->
 				<item id="9546" min="1" max="1" chance="0.3" /> <!-- Fire Stone -->
@@ -880,10 +880,10 @@
 				<item id="36882" min="1" max="1" chance="0.003" /> <!-- Recipe: Thin Braid - Upgrade -->
 				<item id="36881" min="1" max="1" chance="0.0009" /> <!-- Recipe: Thin Braid - Downgrade -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="15" />
 			<height normal="20" />
@@ -918,7 +918,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4408" level="12" /> <!-- HP Increase (4x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
@@ -932,15 +932,15 @@
 			<skill id="5374" level="4" /> <!-- NPC(party) -Magic Range Long Range DD - Fire -->
 			<skill id="5375" level="4" /> <!-- NPC(party) -Magic Range Close Range DD - Fire -->
 			<skill id="5467" level="1" /> <!-- Dark Attacks -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
-		<s_npc_prop_hp_rate>4</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>4</sNpcPropHpRate>
 		<ai aggroRange="300" clanHelpRange="300" isAggressive="true">
-			<clan_list>
+			<clanList>
 				<clan>FANTASY</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="118" max="275" chance="70" /> <!-- Adena -->
 				<item id="9546" min="1" max="1" chance="0.3" /> <!-- Fire Stone -->
@@ -951,10 +951,10 @@
 				<item id="36881" min="1" max="1" chance="0.003" /> <!-- Recipe: Thin Braid - Downgrade -->
 				<item id="36882" min="1" max="1" chance="0.0055" /> <!-- Recipe: Thin Braid - Upgrade -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="15" />
 			<height normal="26.5" />
@@ -985,7 +985,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4408" level="11" /> <!-- HP Increase (3x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
@@ -997,15 +997,15 @@
 			<skill id="4416" level="1" /> <!-- Undead -->
 			<skill id="5335" level="4" /> <!-- NPC(party) - Physical Single Long Range Attack -->
 			<skill id="5467" level="1" /> <!-- Dark Attacks -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
-		<s_npc_prop_hp_rate>3</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>3</sNpcPropHpRate>
 		<ai aggroRange="300" clanHelpRange="300" isAggressive="true">
-			<clan_list>
+			<clanList>
 				<clan>FANTASY</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="90" max="210" chance="70" /> <!-- Adena -->
 				<item id="9547" min="1" max="1" chance="0.075" /> <!-- Water Stone -->
@@ -1016,10 +1016,10 @@
 				<item id="36882" min="1" max="1" chance="0.003" /> <!-- Recipe: Thin Braid - Upgrade -->
 				<item id="36881" min="1" max="1" chance="0.0009" /> <!-- Recipe: Thin Braid - Downgrade -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="13" />
 			<height normal="26" />
@@ -1046,11 +1046,11 @@
 				<walk ground="20" />
 				<run ground="90" />
 			</speed>
-			<hit_time>480</hit_time>
+			<hitTime>480</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4408" level="13" /> <!-- HP Increase (5x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
@@ -1062,15 +1062,15 @@
 			<skill id="4416" level="1" /> <!-- Undead -->
 			<skill id="5334" level="4" /> <!-- NPC(party) - Physical Single Close Range Attack -->
 			<skill id="5467" level="1" /> <!-- Dark Attacks -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
-		<s_npc_prop_hp_rate>5</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>5</sNpcPropHpRate>
 		<ai aggroRange="300" clanHelpRange="300" isAggressive="true">
-			<clan_list>
+			<clanList>
 				<clan>FANTASY</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="142" max="332" chance="70" /> <!-- Adena -->
 				<item id="9547" min="1" max="1" chance="0.3" /> <!-- Water Stone -->
@@ -1081,10 +1081,10 @@
 				<item id="36881" min="1" max="1" chance="0.003" /> <!-- Recipe: Thin Braid - Downgrade -->
 				<item id="36882" min="1" max="1" chance="0.0055" /> <!-- Recipe: Thin Braid - Upgrade -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="13" />
 			<height normal="40" />
@@ -1111,11 +1111,11 @@
 				<walk ground="20" />
 				<run ground="90" />
 			</speed>
-			<hit_time>480</hit_time>
+			<hitTime>480</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
@@ -1127,12 +1127,12 @@
 			<skill id="4416" level="1" /> <!-- Undead -->
 			<skill id="5334" level="4" /> <!-- NPC(party) - Physical Single Close Range Attack -->
 			<skill id="5467" level="1" /> <!-- Dark Attacks -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
 		<ai aggroRange="300" clanHelpRange="300" isAggressive="true">
-			<clan_list>
+			<clanList>
 				<clan>FANTASY</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="13" />
@@ -1160,11 +1160,11 @@
 				<walk ground="50" />
 				<run ground="70" />
 			</speed>
-			<hit_time>370</hit_time>
+			<hitTime>370</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4408" level="16" /> <!-- HP Increase (8x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
@@ -1176,15 +1176,15 @@
 			<skill id="4416" level="1" /> <!-- Undead -->
 			<skill id="5334" level="4" /> <!-- NPC(party) - Physical Single Close Range Attack -->
 			<skill id="5467" level="1" /> <!-- Dark Attacks -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
-		<s_npc_prop_hp_rate>8</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>8</sNpcPropHpRate>
 		<ai aggroRange="300" clanHelpRange="300" isAggressive="true">
-			<clan_list>
+			<clanList>
 				<clan>FANTASY</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="151" max="353" chance="70" /> <!-- Adena -->
 				<item id="9547" min="1" max="1" chance="0.3" /> <!-- Water Stone -->
@@ -1195,10 +1195,10 @@
 				<item id="36881" min="1" max="1" chance="0.003" /> <!-- Recipe: Thin Braid - Downgrade -->
 				<item id="36882" min="1" max="1" chance="0.0055" /> <!-- Recipe: Thin Braid - Upgrade -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="14" />
 			<height normal="22" />
@@ -1226,11 +1226,11 @@
 				<walk ground="40" />
 				<run ground="140" />
 			</speed>
-			<hit_time>500</hit_time>
+			<hitTime>500</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4408" level="16" /> <!-- HP Increase (8x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="18" /> <!-- Extremely Strong P. Atk. -->
@@ -1242,15 +1242,15 @@
 			<skill id="4416" level="1" /> <!-- Undead -->
 			<skill id="5334" level="4" /> <!-- NPC(party) - Physical Single Close Range Attack -->
 			<skill id="5467" level="1" /> <!-- Dark Attacks -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
-		<s_npc_prop_hp_rate>8</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>8</sNpcPropHpRate>
 		<ai aggroRange="300" clanHelpRange="300" isAggressive="true">
-			<clan_list>
+			<clanList>
 				<clan>FANTASY</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="164" max="382" chance="70" /> <!-- Adena -->
 				<item id="9547" min="1" max="1" chance="0.3" /> <!-- Water Stone -->
@@ -1261,10 +1261,10 @@
 				<item id="36881" min="1" max="1" chance="0.003" /> <!-- Recipe: Thin Braid - Downgrade -->
 				<item id="36882" min="1" max="1" chance="0.0055" /> <!-- Recipe: Thin Braid - Upgrade -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="21" grown="25" />
 			<height normal="40" grown="48" />
@@ -1294,7 +1294,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
@@ -1306,14 +1306,14 @@
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="5334" level="4" /> <!-- NPC(party) - Physical Single Close Range Attack -->
 			<skill id="5467" level="1" /> <!-- Dark Attacks -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
 		<ai aggroRange="300" clanHelpRange="300" isAggressive="true">
-			<clan_list>
+			<clanList>
 				<clan>FANTASY</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="261" max="611" chance="70" /> <!-- Adena -->
 				<item id="9548" min="1" max="1" chance="0.3" /> <!-- Earth Stone -->
@@ -1324,10 +1324,10 @@
 				<item id="36882" min="1" max="1" chance="0.03" /> <!-- Recipe: Thin Braid - Upgrade -->
 				<item id="36881" min="1" max="1" chance="0.003" /> <!-- Recipe: Thin Braid - Downgrade -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="25" />
 			<height normal="40" />
@@ -1358,7 +1358,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
@@ -1370,14 +1370,14 @@
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="4613" level="10" /> <!-- NPC Clan Heal -->
 			<skill id="5467" level="1" /> <!-- Dark Attacks -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
 		<ai aggroRange="300" clanHelpRange="300" isAggressive="true">
-			<clan_list>
+			<clanList>
 				<clan>FANTASY</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="250" max="584" chance="70" /> <!-- Adena -->
 				<item id="9548" min="1" max="1" chance="0.3" /> <!-- Earth Stone -->
@@ -1388,10 +1388,10 @@
 				<item id="36882" min="1" max="1" chance="0.03" /> <!-- Recipe: Thin Braid - Upgrade -->
 				<item id="36881" min="1" max="1" chance="0.003" /> <!-- Recipe: Thin Braid - Downgrade -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="20" />
 			<height normal="32.5" />
@@ -1425,7 +1425,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4046" level="10" /> <!-- Sleep -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -1439,14 +1439,14 @@
 			<skill id="5374" level="4" /> <!-- NPC(party) -Magic Range Long Range DD - Fire -->
 			<skill id="5375" level="4" /> <!-- NPC(party) -Magic Range Close Range DD - Fire -->
 			<skill id="5467" level="1" /> <!-- Dark Attacks -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
 		<ai aggroRange="300" clanHelpRange="300" isAggressive="true">
-			<clan_list>
+			<clanList>
 				<clan>FANTASY</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="120" max="281" chance="70" /> <!-- Adena -->
 				<item id="9548" min="1" max="1" chance="0.3" /> <!-- Earth Stone -->
@@ -1457,10 +1457,10 @@
 				<item id="36881" min="1" max="1" chance="0.003" /> <!-- Recipe: Thin Braid - Downgrade -->
 				<item id="36882" min="1" max="1" chance="0.0055" /> <!-- Recipe: Thin Braid - Upgrade -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="20" />
 			<height normal="32.5" />
@@ -1490,7 +1490,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
@@ -1501,14 +1501,14 @@
 			<skill id="4416" level="1" /> <!-- Undead -->
 			<skill id="5334" level="4" /> <!-- NPC(party) - Physical Single Close Range Attack -->
 			<skill id="5467" level="1" /> <!-- Dark Attacks -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
 		<ai aggroRange="300" clanHelpRange="300" isAggressive="true">
-			<clan_list>
+			<clanList>
 				<clan>FANTASY</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="249" max="583" chance="70" /> <!-- Adena -->
 				<item id="9548" min="1" max="1" chance="0.3" /> <!-- Earth Stone -->
@@ -1519,10 +1519,10 @@
 				<item id="36882" min="1" max="1" chance="0.03" /> <!-- Recipe: Thin Braid - Upgrade -->
 				<item id="36881" min="1" max="1" chance="0.003" /> <!-- Recipe: Thin Braid - Downgrade -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="35" />
 			<height normal="32.5" />
@@ -1552,7 +1552,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
@@ -1565,14 +1565,14 @@
 			<skill id="4579" level="9" /> <!-- Bleed -->
 			<skill id="5467" level="1" /> <!-- Dark Attacks -->
 			<skill id="5364" level="1" /> <!-- Bleed -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
 		<ai aggroRange="300" clanHelpRange="300" isAggressive="true">
-			<clan_list>
+			<clanList>
 				<clan>FANTASY</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="122" max="286" chance="70" /> <!-- Adena -->
 				<item id="9549" min="1" max="1" chance="0.3" /> <!-- Wind Stone -->
@@ -1583,10 +1583,10 @@
 				<item id="36881" min="1" max="1" chance="0.003" /> <!-- Recipe: Thin Braid - Downgrade -->
 				<item id="36882" min="1" max="1" chance="0.0055" /> <!-- Recipe: Thin Braid - Upgrade -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="14" />
 			<height normal="32.5" />
@@ -1621,7 +1621,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
@@ -1635,14 +1635,14 @@
 			<skill id="5374" level="4" /> <!-- NPC(party) -Magic Range Long Range DD - Fire -->
 			<skill id="5375" level="4" /> <!-- NPC(party) -Magic Range Close Range DD - Fire -->
 			<skill id="5467" level="1" /> <!-- Dark Attacks -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
 		<ai aggroRange="300" clanHelpRange="300" isAggressive="true">
-			<clan_list>
+			<clanList>
 				<clan>FANTASY</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="251" max="586" chance="70" /> <!-- Adena -->
 				<item id="9573" min="1" max="1" chance="1.13" /> <!-- Life Stone - Lv. 80 -->
@@ -1656,10 +1656,10 @@
 				<item id="36882" min="1" max="1" chance="0.03" /> <!-- Recipe: Thin Braid - Upgrade -->
 				<item id="36881" min="1" max="1" chance="0.003" /> <!-- Recipe: Thin Braid - Downgrade -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="20" />
 			<height normal="32.5" />
@@ -1690,7 +1690,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
@@ -1702,14 +1702,14 @@
 			<skill id="4416" level="1" /> <!-- Undead -->
 			<skill id="5335" level="4" /> <!-- NPC(party) - Physical Single Long Range Attack -->
 			<skill id="5467" level="1" /> <!-- Dark Attacks -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
 		<ai aggroRange="300" clanHelpRange="300" isAggressive="true">
-			<clan_list>
+			<clanList>
 				<clan>FANTASY</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="245" max="573" chance="70" /> <!-- Adena -->
 				<item id="9573" min="1" max="1" chance="1.21" /> <!-- Life Stone - Lv. 80 -->
@@ -1723,10 +1723,10 @@
 				<item id="36882" min="1" max="1" chance="0.03" /> <!-- Recipe: Thin Braid - Upgrade -->
 				<item id="36881" min="1" max="1" chance="0.003" /> <!-- Recipe: Thin Braid - Downgrade -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="18" />
 			<height normal="27.5" />
@@ -1756,7 +1756,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
@@ -1768,14 +1768,14 @@
 			<skill id="4416" level="1" /> <!-- Undead -->
 			<skill id="5334" level="4" /> <!-- NPC(party) - Physical Single Close Range Attack -->
 			<skill id="5467" level="1" /> <!-- Dark Attacks -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
 		<ai aggroRange="300" clanHelpRange="300" isAggressive="true">
-			<clan_list>
+			<clanList>
 				<clan>FANTASY</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="249" max="583" chance="70" /> <!-- Adena -->
 				<item id="9573" min="1" max="1" chance="1.125" /> <!-- Life Stone - Lv. 80 -->
@@ -1789,10 +1789,10 @@
 				<item id="36882" min="1" max="1" chance="0.03" /> <!-- Recipe: Thin Braid - Upgrade -->
 				<item id="36881" min="1" max="1" chance="0.003" /> <!-- Recipe: Thin Braid - Downgrade -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="28" />
 			<height normal="41" />
@@ -1822,7 +1822,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4408" level="8" /> <!-- HP Increase (1/4x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
@@ -1834,13 +1834,13 @@
 			<skill id="4416" level="1" /> <!-- Undead -->
 			<skill id="5334" level="4" /> <!-- NPC(party) - Physical Single Close Range Attack -->
 			<skill id="5467" level="1" /> <!-- Dark Attacks -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
-		<s_npc_prop_hp_rate>0.25</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>0.25</sNpcPropHpRate>
 		<ai aggroRange="300" clanHelpRange="300" isAggressive="true">
-			<clan_list>
+			<clanList>
 				<clan>FANTASY</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="28" />
@@ -1871,7 +1871,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
@@ -1883,14 +1883,14 @@
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="5334" level="4" /> <!-- NPC(party) - Physical Single Close Range Attack -->
 			<skill id="5467" level="1" /> <!-- Dark Attacks -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
 		<ai aggroRange="300" clanHelpRange="300" isAggressive="true">
-			<clan_list>
+			<clanList>
 				<clan>FANTASY</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="249" max="583" chance="70" /> <!-- Adena -->
 				<item id="9573" min="1" max="1" chance="1.15500000000001" /> <!-- Life Stone - Lv. 80 -->
@@ -1904,10 +1904,10 @@
 				<item id="36882" min="1" max="1" chance="0.03" /> <!-- Recipe: Thin Braid - Upgrade -->
 				<item id="36881" min="1" max="1" chance="0.003" /> <!-- Recipe: Thin Braid - Downgrade -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="18" />
 			<height normal="33" />
@@ -1937,7 +1937,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
@@ -1948,15 +1948,15 @@
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="5334" level="4" /> <!-- NPC(party) - Physical Single Close Range Attack -->
 			<skill id="5467" level="1" /> <!-- Dark Attacks -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
-		<s_npc_prop_hp_rate>2</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>2</sNpcPropHpRate>
 		<ai aggroRange="300" clanHelpRange="300" isAggressive="true">
-			<clan_list>
+			<clanList>
 				<clan>FANTASY</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="460" max="1074" chance="70" /> <!-- Adena -->
 				<item id="9573" min="1" max="1" chance="2.17599999999999" /> <!-- Life Stone - Lv. 80 -->
@@ -1970,10 +1970,10 @@
 				<item id="36882" min="1" max="1" chance="0.03" /> <!-- Recipe: Thin Braid - Upgrade -->
 				<item id="36881" min="1" max="1" chance="0.003" /> <!-- Recipe: Thin Braid - Downgrade -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="25" />
 			<height normal="40" />
@@ -2003,7 +2003,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
@@ -2016,14 +2016,14 @@
 			<skill id="4441" level="5" /> <!-- Greater Resist Mental Derangement -->
 			<skill id="5334" level="5" /> <!-- NPC(party) - Physical Single Close Range Attack -->
 			<skill id="5467" level="1" /> <!-- Dark Attacks -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai aggroRange="300" clanHelpRange="300" isAggressive="true">
-			<clan_list>
+			<clanList>
 				<clan>FANTASY</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="915" max="2136" chance="70" /> <!-- Adena -->
 				<item id="9573" min="1" max="1" chance="4.388" /> <!-- Life Stone - Lv. 80 -->
@@ -2037,10 +2037,10 @@
 				<item id="36882" min="1" max="1" chance="0.03" /> <!-- Recipe: Thin Braid - Upgrade -->
 				<item id="36881" min="1" max="1" chance="0.0055" /> <!-- Recipe: Thin Braid - Downgrade -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="25" />
 			<height normal="40" />
@@ -2071,7 +2071,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
@@ -2083,14 +2083,14 @@
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="4613" level="10" /> <!-- NPC Clan Heal -->
 			<skill id="5467" level="1" /> <!-- Dark Attacks -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
 		<ai aggroRange="300" clanHelpRange="300" isAggressive="true">
-			<clan_list>
+			<clanList>
 				<clan>FANTASY</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="863" max="2016" chance="70" /> <!-- Adena -->
 				<item id="9573" min="1" max="1" chance="4.16599999999997" /> <!-- Life Stone - Lv. 80 -->
@@ -2104,10 +2104,10 @@
 				<item id="36882" min="1" max="1" chance="0.03" /> <!-- Recipe: Thin Braid - Upgrade -->
 				<item id="36881" min="1" max="1" chance="0.0055" /> <!-- Recipe: Thin Braid - Downgrade -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="28" />
 			<height normal="50" />
@@ -2141,7 +2141,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4046" level="10" /> <!-- Sleep -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -2155,14 +2155,14 @@
 			<skill id="5374" level="4" /> <!-- NPC(party) -Magic Range Long Range DD - Fire -->
 			<skill id="5375" level="4" /> <!-- NPC(party) -Magic Range Close Range DD - Fire -->
 			<skill id="5467" level="1" /> <!-- Dark Attacks -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
 		<ai aggroRange="300" clanHelpRange="300" isAggressive="true">
-			<clan_list>
+			<clanList>
 				<clan>FANTASY</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="866" max="2022" chance="70" /> <!-- Adena -->
 				<item id="9573" min="1" max="1" chance="4.07700000000002" /> <!-- Life Stone - Lv. 80 -->
@@ -2176,10 +2176,10 @@
 				<item id="36882" min="1" max="1" chance="0.03" /> <!-- Recipe: Thin Braid - Upgrade -->
 				<item id="36881" min="1" max="1" chance="0.0055" /> <!-- Recipe: Thin Braid - Downgrade -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="28" />
 			<height normal="50" />
@@ -2209,7 +2209,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="18" /> <!-- Extremely Strong P. Atk. -->
@@ -2221,14 +2221,14 @@
 			<skill id="4416" level="1" /> <!-- Undead -->
 			<skill id="5334" level="5" /> <!-- NPC(party) - Physical Single Close Range Attack -->
 			<skill id="5467" level="1" /> <!-- Dark Attacks -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
 		<ai aggroRange="300" clanHelpRange="300" isAggressive="true">
-			<clan_list>
+			<clanList>
 				<clan>FANTASY</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="912" max="2130" chance="70" /> <!-- Adena -->
 				<item id="9573" min="1" max="1" chance="4.32299999999999" /> <!-- Life Stone - Lv. 80 -->
@@ -2242,10 +2242,10 @@
 				<item id="36882" min="1" max="1" chance="0.03" /> <!-- Recipe: Thin Braid - Upgrade -->
 				<item id="36881" min="1" max="1" chance="0.0055" /> <!-- Recipe: Thin Braid - Downgrade -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="35" />
 			<height normal="32.5" />
@@ -2275,7 +2275,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
@@ -2288,14 +2288,14 @@
 			<skill id="4579" level="9" /> <!-- Bleed -->
 			<skill id="5467" level="1" /> <!-- Dark Attacks -->
 			<skill id="5364" level="1" /> <!-- Bleed -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
 		<ai aggroRange="300" clanHelpRange="300" isAggressive="true">
-			<clan_list>
+			<clanList>
 				<clan>FANTASY</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="419" max="978" chance="70" /> <!-- Adena -->
 				<item id="9573" min="1" max="1" chance="2.029" /> <!-- Life Stone - Lv. 80 -->
@@ -2309,10 +2309,10 @@
 				<item id="36882" min="1" max="1" chance="0.03" /> <!-- Recipe: Thin Braid - Upgrade -->
 				<item id="36881" min="1" max="1" chance="0.003" /> <!-- Recipe: Thin Braid - Downgrade -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="14" />
 			<height normal="32.5" />
@@ -2347,7 +2347,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
@@ -2361,14 +2361,14 @@
 			<skill id="5374" level="4" /> <!-- NPC(party) -Magic Range Long Range DD - Fire -->
 			<skill id="5375" level="4" /> <!-- NPC(party) -Magic Range Close Range DD - Fire -->
 			<skill id="5467" level="1" /> <!-- Dark Attacks -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
 		<ai aggroRange="300" clanHelpRange="300" isAggressive="true">
-			<clan_list>
+			<clanList>
 				<clan>FANTASY</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="866" max="2022" chance="70" /> <!-- Adena -->
 				<item id="9573" min="1" max="1" chance="4.09900000000001" /> <!-- Life Stone - Lv. 80 -->
@@ -2382,10 +2382,10 @@
 				<item id="36882" min="1" max="1" chance="0.03" /> <!-- Recipe: Thin Braid - Upgrade -->
 				<item id="36881" min="1" max="1" chance="0.0055" /> <!-- Recipe: Thin Braid - Downgrade -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="28" />
 			<height normal="50" />
@@ -2416,7 +2416,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
@@ -2428,14 +2428,14 @@
 			<skill id="4416" level="1" /> <!-- Undead -->
 			<skill id="5335" level="4" /> <!-- NPC(party) - Physical Single Long Range Attack -->
 			<skill id="5467" level="1" /> <!-- Dark Attacks -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
 		<ai aggroRange="300" clanHelpRange="300" isAggressive="true">
-			<clan_list>
+			<clanList>
 				<clan>FANTASY</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="400" max="935" chance="70" /> <!-- Adena -->
 				<item id="9573" min="1" max="1" chance="1.83799999999999" /> <!-- Life Stone - Lv. 80 -->
@@ -2449,10 +2449,10 @@
 				<item id="36882" min="1" max="1" chance="0.03" /> <!-- Recipe: Thin Braid - Upgrade -->
 				<item id="36881" min="1" max="1" chance="0.003" /> <!-- Recipe: Thin Braid - Downgrade -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="20" />
 			<height normal="34" />
@@ -2482,7 +2482,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
@@ -2494,14 +2494,14 @@
 			<skill id="4416" level="1" /> <!-- Undead -->
 			<skill id="5334" level="5" /> <!-- NPC(party) - Physical Single Close Range Attack -->
 			<skill id="5467" level="1" /> <!-- Dark Attacks -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
 		<ai aggroRange="300" clanHelpRange="300" isAggressive="true">
-			<clan_list>
+			<clanList>
 				<clan>FANTASY</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="861" max="2011" chance="70" /> <!-- Adena -->
 				<item id="9573" min="1" max="1" chance="4.15100000000001" /> <!-- Life Stone - Lv. 80 -->
@@ -2515,10 +2515,10 @@
 				<item id="36882" min="1" max="1" chance="0.03" /> <!-- Recipe: Thin Braid - Upgrade -->
 				<item id="36881" min="1" max="1" chance="0.0055" /> <!-- Recipe: Thin Braid - Downgrade -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="28" />
 			<height normal="41" />
@@ -2548,7 +2548,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4408" level="8" /> <!-- HP Increase (1/4x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
@@ -2560,13 +2560,13 @@
 			<skill id="4416" level="1" /> <!-- Undead -->
 			<skill id="5334" level="5" /> <!-- NPC(party) - Physical Single Close Range Attack -->
 			<skill id="5467" level="1" /> <!-- Dark Attacks -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
-		<s_npc_prop_hp_rate>0.25</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>0.25</sNpcPropHpRate>
 		<ai aggroRange="300" clanHelpRange="300" isAggressive="true">
-			<clan_list>
+			<clanList>
 				<clan>FANTASY</clan>
-			</clan_list>
+			</clanList>
 		</ai>
 		<collision>
 			<radius normal="28" />
@@ -2597,7 +2597,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
@@ -2609,15 +2609,15 @@
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="5334" level="5" /> <!-- NPC(party) - Physical Single Close Range Attack -->
 			<skill id="5467" level="1" /> <!-- Dark Attacks -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
-		<s_npc_prop_hp_rate>2</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>2</sNpcPropHpRate>
 		<ai aggroRange="300" clanHelpRange="300" isAggressive="true">
-			<clan_list>
+			<clanList>
 				<clan>FANTASY</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="1557" max="3637" chance="70" /> <!-- Adena -->
 				<item id="9573" min="1" max="1" chance="7.37800000000002" /> <!-- Life Stone - Lv. 80 -->
@@ -2631,10 +2631,10 @@
 				<item id="36882" min="1" max="1" chance="0.075" /> <!-- Recipe: Thin Braid - Upgrade -->
 				<item id="36881" min="1" max="1" chance="0.03" /> <!-- Recipe: Thin Braid - Downgrade -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="30" />
 			<height normal="45" />
@@ -2664,7 +2664,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="18" /> <!-- Extremely Strong P. Atk. -->
@@ -2676,15 +2676,15 @@
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="5334" level="5" /> <!-- NPC(party) - Physical Single Close Range Attack -->
 			<skill id="5467" level="1" /> <!-- Dark Attacks -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
-		<s_npc_prop_hp_rate>2</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>2</sNpcPropHpRate>
 		<ai aggroRange="300" clanHelpRange="300" isAggressive="true">
-			<clan_list>
+			<clanList>
 				<clan>FANTASY</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="1640" max="3830" chance="70" /> <!-- Adena -->
 				<item id="9573" min="1" max="1" chance="7.80899999999996" /> <!-- Life Stone - Lv. 80 -->
@@ -2698,10 +2698,10 @@
 				<item id="36882" min="1" max="1" chance="0.075" /> <!-- Recipe: Thin Braid - Upgrade -->
 				<item id="36881" min="1" max="1" chance="0.03" /> <!-- Recipe: Thin Braid - Downgrade -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="15" />
 			<height normal="35" />
@@ -2725,11 +2725,11 @@
 				<walk ground="80" />
 				<run ground="120" />
 			</speed>
-			<hit_time>610</hit_time>
+			<hitTime>610</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
@@ -2740,14 +2740,14 @@
 			<skill id="4415" level="7" /> <!-- Daggers -->
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="5465" level="1" /> <!-- Earth Attacks -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="300">
-			<clan_list>
+			<clanList>
 				<clan>ROBBER</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="8600" min="1" max="1" chance="10" /> <!-- Herb of Life -->
 				<item id="8601" min="1" max="1" chance="8" /> <!-- Major Herb of Life -->
@@ -2759,7 +2759,7 @@
 				<item id="34850" min="1" max="1" chance="0.7" /> <!-- Mysterious Herb of Magic -->
 				<item id="13028" min="1" max="1" chance="0.1" /> <!-- Vitality Replenishing Herb -->
 			</drop>
-		</drop_lists>
+		</dropLists>
 		<collision>
 			<radius normal="14" />
 			<height normal="27.5" />
@@ -2794,11 +2794,11 @@
 				<walk ground="36" />
 				<run ground="160" />
 			</speed>
-			<hit_time>430</hit_time>
+			<hitTime>430</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4071" level="5" /> <!-- Resist Bow/Crossbow Weapons -->
 			<skill id="4084" level="9" /> <!-- Resist Physical Attack -->
 			<skill id="4285" level="5" /> <!-- Resist Sleep Attacks -->
@@ -2817,11 +2817,11 @@
 			<skill id="5084" level="1" /> <!-- Blinding Blow -->
 			<skill id="5080" level="1" /> <!-- Haste Might -->
 			<skill id="5083" level="1" /> <!-- Stun -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
-		<s_npc_prop_hp_rate>0.25</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>0.25</sNpcPropHpRate>
 		<ai clanHelpRange="500" aggroRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="8600" min="1" max="1" chance="10" /> <!-- Herb of Life -->
 				<item id="8601" min="1" max="1" chance="8" /> <!-- Major Herb of Life -->
@@ -2833,7 +2833,7 @@
 				<item id="34850" min="1" max="1" chance="0.7" /> <!-- Mysterious Herb of Magic -->
 				<item id="13028" min="1" max="1" chance="0.1" /> <!-- Vitality Replenishing Herb -->
 			</drop>
-		</drop_lists>
+		</dropLists>
 		<collision>
 			<radius normal="15" />
 			<height normal="37.2" />
@@ -2868,11 +2868,11 @@
 				<walk ground="24" />
 				<run ground="160" />
 			</speed>
-			<hit_time>430</hit_time>
+			<hitTime>430</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4071" level="5" /> <!-- Resist Bow/Crossbow Weapons -->
 			<skill id="4084" level="9" /> <!-- Resist Physical Attack -->
 			<skill id="4285" level="5" /> <!-- Resist Sleep Attacks -->
@@ -2891,11 +2891,11 @@
 			<skill id="5082" level="1" /> <!-- Spinning Slasher -->
 			<skill id="5084" level="1" /> <!-- Blinding Blow -->
 			<skill id="5079" level="1" /> <!-- Haste Focus -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
-		<s_npc_prop_hp_rate>0.25</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>0.25</sNpcPropHpRate>
 		<ai clanHelpRange="500" aggroRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="8600" min="1" max="1" chance="10" /> <!-- Herb of Life -->
 				<item id="8601" min="1" max="1" chance="8" /> <!-- Major Herb of Life -->
@@ -2907,7 +2907,7 @@
 				<item id="34850" min="1" max="1" chance="0.7" /> <!-- Mysterious Herb of Magic -->
 				<item id="13028" min="1" max="1" chance="0.1" /> <!-- Vitality Replenishing Herb -->
 			</drop>
-		</drop_lists>
+		</dropLists>
 		<collision>
 			<radius normal="14" />
 			<height normal="14.3" />
@@ -2932,11 +2932,11 @@
 				<walk ground="36" />
 				<run ground="200" />
 			</speed>
-			<hit_time>430</hit_time>
+			<hitTime>430</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4071" level="5" /> <!-- Resist Bow/Crossbow Weapons -->
 			<skill id="4084" level="9" /> <!-- Resist Physical Attack -->
 			<skill id="4285" level="5" /> <!-- Resist Sleep Attacks -->
@@ -2953,11 +2953,11 @@
 			<skill id="4439" level="2" /> <!-- Greater Resist Hold -->
 			<skill id="4445" level="1" /> <!-- Greater Resist Spear Weapons -->
 			<skill id="5084" level="1" /> <!-- NPC Blinding Blow -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
-		<s_npc_prop_hp_rate>0.25</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>0.25</sNpcPropHpRate>
 		<ai clanHelpRange="500" aggroRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="8600" min="1" max="1" chance="10" /> <!-- Herb of Life -->
 				<item id="8601" min="1" max="1" chance="8" /> <!-- Major Herb of Life -->
@@ -2969,7 +2969,7 @@
 				<item id="34850" min="1" max="1" chance="0.7" /> <!-- Mysterious Herb of Magic -->
 				<item id="13028" min="1" max="1" chance="0.1" /> <!-- Vitality Replenishing Herb -->
 			</drop>
-		</drop_lists>
+		</dropLists>
 		<collision>
 			<radius normal="15" />
 			<height normal="37.2" />
@@ -2994,11 +2994,11 @@
 				<walk ground="24" />
 				<run ground="190" />
 			</speed>
-			<hit_time>430</hit_time>
+			<hitTime>430</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4032" level="10" /> <!-- NPC Strike -->
 			<skill id="4071" level="3" /> <!-- Resist Bow/Crossbow Weapons -->
 			<skill id="4084" level="9" /> <!-- Resist Physical Attack -->
@@ -3015,11 +3015,11 @@
 			<skill id="4416" level="24" /> <!-- Unknown Creature -->
 			<skill id="4417" level="4" /> <!-- Beasts -->
 			<skill id="4445" level="1" /> <!-- Greater Resist Spear Weapons -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
-		<s_npc_prop_hp_rate>0.25</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>0.25</sNpcPropHpRate>
 		<ai clanHelpRange="500" aggroRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="8600" min="1" max="1" chance="10" /> <!-- Herb of Life -->
 				<item id="8601" min="1" max="1" chance="8" /> <!-- Major Herb of Life -->
@@ -3031,7 +3031,7 @@
 				<item id="34850" min="1" max="1" chance="0.7" /> <!-- Mysterious Herb of Magic -->
 				<item id="13028" min="1" max="1" chance="0.1" /> <!-- Vitality Replenishing Herb -->
 			</drop>
-		</drop_lists>
+		</dropLists>
 		<collision>
 			<radius normal="14" />
 			<height normal="14.3" />
@@ -3063,7 +3063,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4388" level="4" /> <!-- Resist Paralysis Attacks -->
 			<skill id="4408" level="9" /> <!-- HP Increase (2x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -3084,14 +3084,14 @@
 			<skill id="6383" level="1" /> <!-- Bistakon Deadly Roar -->
 			<skill id="6384" level="1" /> <!-- Bistakon Deadly Blow -->
 			<skill id="14765" level="2" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
-		<s_npc_prop_hp_rate>2</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>2</sNpcPropHpRate>
 		<ai aggroRange="450" clanHelpRange="300" isAggressive="true" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="1767" max="4118" chance="70" /> <!-- Adena -->
-				<item id="17313" min="1" max="1" chance="0.075" /> <!-- Immortal Leather Gloves -->
+				<item id="17313" min="1" max="1" chance="0.075" /> <!-- Immortal Leather Gloves - Light Armor -->
 				<item id="36814" min="1" max="1" chance="16.6599999999998" /> <!-- Immortal Leather Glove Ingredient -->
 				<item id="36527" min="1" max="1" chance="13.1" /> <!-- Synthetic Fiber -->
 				<item id="36528" min="1" max="1" chance="2.56600000000001" /> <!-- Metallic Fiber -->
@@ -3102,21 +3102,21 @@
 				<item id="40205" min="1" max="1" chance="42.53" /> <!-- Requiem Fragment -->
 				<item id="40210" min="1" max="1" chance="0.0055" /> <!-- Recipe: R (100%) -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="23" />
 			<height normal="30.5" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22747" level="88" type="L2Monster" name="Brakian">
 		<!-- Confirmed CT2.5 -->
@@ -3144,7 +3144,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4388" level="4" /> <!-- Resist Paralysis Attacks -->
 			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -3165,14 +3165,14 @@
 			<skill id="6384" level="2" /> <!-- Bistakon Deadly Blow -->
 			<skill id="6385" level="1" /> <!-- Bistakon Critical Claw -->
 			<skill id="14765" level="2" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
-		<s_npc_prop_hp_rate>2</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>2</sNpcPropHpRate>
 		<ai aggroRange="450" clanHelpRange="300" isAggressive="true" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="2350" max="5478" chance="70" /> <!-- Adena -->
-				<item id="17314" min="1" max="1" chance="0.3" /> <!-- Immortal Leather Boots -->
+				<item id="17314" min="1" max="1" chance="0.3" /> <!-- Immortal Leather Boots - Light Armor -->
 				<item id="36815" min="1" max="3" chance="10.55" /> <!-- Immortal Leather Boot Ingredient -->
 				<item id="36753" min="1" max="1" chance="0.998999999999995" /> <!-- Recipe: Immortal Leather Boots (60%) -->
 			</drop>
@@ -3180,21 +3180,21 @@
 				<item id="40205" min="1" max="1" chance="56.2" /> <!-- Requiem Fragment -->
 				<item id="40210" min="1" max="1" chance="0.03" /> <!-- Recipe: R (100%) -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="28" />
 			<height normal="30" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22748" level="88" type="L2Monster" name="Groikan">
 		<!-- Confirmed CT2.5 -->
@@ -3222,7 +3222,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4388" level="4" /> <!-- Resist Paralysis Attacks -->
 			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -3244,11 +3244,11 @@
 			<skill id="4435" level="4" /> <!-- Greater Stun Resistance -->
 			<skill id="6387" level="1" /> <!-- Bistakon Earthquake -->
 			<skill id="14765" level="2" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
-		<s_npc_prop_hp_rate>2</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>2</sNpcPropHpRate>
 		<ai aggroRange="450" clanHelpRange="300" isAggressive="true" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="2350" max="5478" chance="70" /> <!-- Adena -->
 				<item id="36812" min="1" max="1" chance="11.23" /> <!-- Immortal Leather Armor Ingredient -->
@@ -3258,21 +3258,21 @@
 				<item id="40205" min="1" max="1" chance="56.86" /> <!-- Requiem Fragment -->
 				<item id="40210" min="1" max="1" chance="0.03" /> <!-- Recipe: R (100%) -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="32" />
 			<height normal="31" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22749" level="88" type="L2Monster" name="Treykan">
 		<!-- Confirmed CT2.5 -->
@@ -3300,7 +3300,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4388" level="4" /> <!-- Resist Paralysis Attacks -->
 			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -3323,11 +3323,11 @@
 			<skill id="4435" level="5" /> <!-- Greater Stun Resistance -->
 			<skill id="6388" level="1" /> <!-- Bistakon Jump Blow -->
 			<skill id="14765" level="2" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
-		<s_npc_prop_hp_rate>2</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>2</sNpcPropHpRate>
 		<ai aggroRange="450" clanHelpRange="300" isAggressive="true" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="2350" max="5478" chance="70" /> <!-- Adena -->
 				<item id="36813" min="1" max="1" chance="16.93" /> <!-- Immortal Leather Legging Ingredient -->
@@ -3338,21 +3338,21 @@
 				<item id="40205" min="1" max="1" chance="56.54" /> <!-- Requiem Fragment -->
 				<item id="40210" min="1" max="1" chance="0.03" /> <!-- Recipe: R (100%) -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="25" />
 			<height normal="27" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22750" level="89" type="L2Monster" name="Elite Bgurent" title="Bistakon">
 		<!-- Confirmed CT2.5 -->
@@ -3380,7 +3380,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4388" level="4" /> <!-- Resist Paralysis Attacks -->
 			<skill id="4408" level="9" /> <!-- HP Increase (2x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -3402,18 +3402,18 @@
 			<skill id="6383" level="1" /> <!-- Bistakon Deadly Roar -->
 			<skill id="6384" level="1" /> <!-- Bistakon Deadly Blow -->
 			<skill id="14765" level="2" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
-		<s_npc_prop_hp_rate>2</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>2</sNpcPropHpRate>
 		<ai aggroRange="450" clanHelpRange="300" isAggressive="true">
-			<clan_list>
+			<clanList>
 				<clan>BESTACON_ELITE</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="1846" max="4303" chance="70" /> <!-- Adena -->
-				<item id="17313" min="1" max="1" chance="0.3" /> <!-- Immortal Leather Gloves -->
+				<item id="17313" min="1" max="1" chance="0.3" /> <!-- Immortal Leather Gloves - Light Armor -->
 				<item id="36814" min="1" max="1" chance="16.6100000000001" /> <!-- Immortal Leather Glove Ingredient -->
 				<item id="36527" min="1" max="1" chance="10.4999999999999" /> <!-- Synthetic Fiber -->
 				<item id="36528" min="1" max="1" chance="2.07800000000001" /> <!-- Metallic Fiber -->
@@ -3426,21 +3426,21 @@
 				<item id="36528" min="1" max="1" chance="13.41" /> <!-- Metallic Fiber -->
 				<item id="36894" min="1" max="1" chance="0.03" /> <!-- Recipe: Durable Leather Braid - Upgrade -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="23" />
 			<height normal="40.5" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22751" level="89" type="L2Monster" name="Elite Brakian" title="Bistakon">
 		<!-- Confirmed CT2.5 -->
@@ -3468,7 +3468,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4388" level="4" /> <!-- Resist Paralysis Attacks -->
 			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -3490,18 +3490,18 @@
 			<skill id="6384" level="2" /> <!-- Bistakon Deadly Blow -->
 			<skill id="6385" level="1" /> <!-- Bistakon Critical Claw -->
 			<skill id="14765" level="2" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
-		<s_npc_prop_hp_rate>2</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>2</sNpcPropHpRate>
 		<ai aggroRange="450" clanHelpRange="300" isAggressive="true">
-			<clan_list>
+			<clanList>
 				<clan>BESTACON_ELITE</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="3265" max="7612" chance="70" /> <!-- Adena -->
-				<item id="17314" min="1" max="1" chance="0.3" /> <!-- Immortal Leather Boots -->
+				<item id="17314" min="1" max="1" chance="0.3" /> <!-- Immortal Leather Boots - Light Armor -->
 				<item id="36815" min="1" max="3" chance="14.98" /> <!-- Immortal Leather Boot Ingredient -->
 				<item id="9549" min="1" max="1" chance="0.299999999999996" /> <!-- Wind Stone -->
 				<item id="36753" min="1" max="1" chance="0.299999999999996" /> <!-- Recipe: Immortal Leather Boots (60%) -->
@@ -3511,21 +3511,21 @@
 				<item id="36532" min="1" max="1" chance="57.48" /> <!-- Thin Braid -->
 				<item id="36533" min="1" max="1" chance="10.96" /> <!-- Synthetic Braid -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="35" />
 			<height normal="41.5" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22752" level="89" type="L2Monster" name="Elite Groikan" title="Bistakon">
 		<!-- Confirmed CT2.5 -->
@@ -3553,7 +3553,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4388" level="4" /> <!-- Resist Paralysis Attacks -->
 			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -3576,15 +3576,15 @@
 			<skill id="4435" level="4" /> <!-- Greater Stun Resistance -->
 			<skill id="6387" level="1" /> <!-- Bistakon Earthquake -->
 			<skill id="14765" level="2" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
-		<s_npc_prop_hp_rate>2</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>2</sNpcPropHpRate>
 		<ai aggroRange="450" clanHelpRange="300" isAggressive="true">
-			<clan_list>
+			<clanList>
 				<clan>BESTACON_ELITE</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="3265" max="7612" chance="70" /> <!-- Adena -->
 				<item id="36812" min="1" max="1" chance="15.16" /> <!-- Immortal Leather Armor Ingredient -->
@@ -3595,21 +3595,21 @@
 				<item id="17527" min="1" max="1" chance="0.75" /> <!-- Scroll: Enchant Armor (R-grade) -->
 				<item id="17526" min="1" max="1" chance="0.03" /> <!-- Scroll: Enchant Weapon (R-grade) -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="40" />
 			<height normal="47" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22753" level="89" type="L2Monster" name="Elite Treykan" title="Bistakon">
 		<!-- Confirmed CT2.5 -->
@@ -3637,7 +3637,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4388" level="4" /> <!-- Resist Paralysis Attacks -->
 			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -3660,15 +3660,15 @@
 			<skill id="4435" level="5" /> <!-- Greater Stun Resistance -->
 			<skill id="6388" level="1" /> <!-- Bistakon Jump Blow -->
 			<skill id="14765" level="2" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
-		<s_npc_prop_hp_rate>2</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>2</sNpcPropHpRate>
 		<ai aggroRange="450" clanHelpRange="300" isAggressive="true">
-			<clan_list>
+			<clanList>
 				<clan>BESTACON_ELITE</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="3265" max="7612" chance="70" /> <!-- Adena -->
 				<item id="36813" min="1" max="3" chance="11.75" /> <!-- Immortal Leather Legging Ingredient -->
@@ -3679,21 +3679,21 @@
 				<item id="36532" min="1" max="1" chance="59.18" /> <!-- Thin Braid -->
 				<item id="36533" min="1" max="1" chance="11.71" /> <!-- Synthetic Braid -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="30" />
 			<height normal="42" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22754" level="88" type="L2Monster" name="Turtlelian">
 		<!-- Confirmed CT2.5 -->
@@ -3722,7 +3722,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4388" level="4" /> <!-- Resist Paralysis Attacks -->
 			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -3745,11 +3745,11 @@
 			<skill id="4435" level="4" /> <!-- Greater Stun Resistance -->
 			<skill id="6412" level="1" /> <!-- Reptilikon Critical Blow -->
 			<skill id="14765" level="2" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
-		<s_npc_prop_hp_rate>2</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>2</sNpcPropHpRate>
 		<ai aggroRange="450" clanHelpRange="300" isAggressive="true" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="2350" max="5478" chance="70" /> <!-- Adena -->
 				<item id="36807" min="1" max="1" chance="15.75" /> <!-- Immortal Gaiter Ingredient -->
@@ -3762,21 +3762,21 @@
 				<item id="40205" min="1" max="1" chance="58.49" /> <!-- Requiem Fragment -->
 				<item id="40210" min="1" max="1" chance="0.03" /> <!-- Recipe: R (100%) -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="28" />
 			<height normal="28.5" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22755" level="88" type="L2Monster" name="Krajian">
 		<!-- Confirmed CT2.5 -->
@@ -3804,7 +3804,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4388" level="4" /> <!-- Resist Paralysis Attacks -->
 			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -3826,11 +3826,11 @@
 			<skill id="4435" level="5" /> <!-- Greater Stun Resistance -->
 			<skill id="6415" level="1" /> <!-- Reptilikon Scratch -->
 			<skill id="14765" level="2" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
-		<s_npc_prop_hp_rate>2</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>2</sNpcPropHpRate>
 		<ai aggroRange="450" clanHelpRange="300" isAggressive="true" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="2350" max="5478" chance="70" /> <!-- Adena -->
 				<item id="17294" min="1" max="1" chance="0.0300000000000002" /> <!-- Requiem Fighter -->
@@ -3842,21 +3842,21 @@
 				<item id="40205" min="1" max="1" chance="55.94" /> <!-- Requiem Fragment -->
 				<item id="40210" min="1" max="1" chance="0.03" /> <!-- Recipe: R (100%) -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="26" />
 			<height normal="36" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22756" level="88" type="L2Monster" name="Tardyon">
 		<!-- Confirmed CT2.5 -->
@@ -3884,7 +3884,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4388" level="4" /> <!-- Resist Paralysis Attacks -->
 			<skill id="4408" level="9" /> <!-- HP Increase (2x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -3905,14 +3905,14 @@
 			<skill id="6417" level="1" /> <!-- Reptilikon Poison Shot -->
 			<skill id="6418" level="1" /> <!-- Reptilikon Fury Poison Bomb -->
 			<skill id="14765" level="2" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
-		<s_npc_prop_hp_rate>2</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>2</sNpcPropHpRate>
 		<ai aggroRange="450" clanHelpRange="300" isAggressive="true" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="1767" max="4118" chance="70" /> <!-- Adena -->
-				<item id="17320" min="1" max="1" chance="0.0749999999999993" /> <!-- Immortal Sigil -->
+				<item id="17320" min="1" max="1" chance="0.0749999999999993" /> <!-- Immortal Sigil - Robe -->
 				<item id="36821" min="1" max="1" chance="15.1" /> <!-- Immortal Sigil Ingredient -->
 				<item id="36759" min="1" max="1" chance="0.75" /> <!-- Recipe: Immortal Sigil (60%) -->
 			</drop>
@@ -3920,21 +3920,21 @@
 				<item id="40205" min="1" max="1" chance="43.88" /> <!-- Requiem Fragment -->
 				<item id="40210" min="1" max="1" chance="0.0055" /> <!-- Recipe: R (100%) -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="30" />
 			<height normal="35" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22757" level="89" type="L2Monster" name="Elite Turtlelian" title="Reptilikon">
 		<!-- Confirmed CT2.5 -->
@@ -3963,7 +3963,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4388" level="4" /> <!-- Resist Paralysis Attacks -->
 			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -3987,15 +3987,15 @@
 			<skill id="4435" level="4" /> <!-- Greater Stun Resistance -->
 			<skill id="6412" level="1" /> <!-- Reptilikon Critical Blow -->
 			<skill id="14765" level="2" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
-		<s_npc_prop_hp_rate>2</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>2</sNpcPropHpRate>
 		<ai aggroRange="450" clanHelpRange="300" isAggressive="true">
-			<clan_list>
+			<clanList>
 				<clan>RAPTILICON_ELITE</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="3265" max="7612" chance="70" /> <!-- Adena -->
 				<item id="36844" min="1" max="1" chance="8.701" /> <!-- Twilight Leather Legging Ingredient -->
@@ -4010,21 +4010,21 @@
 				<item id="36562" min="1" max="1" chance="6.506" /> <!-- Greater Cokes -->
 				<item id="36563" min="1" max="1" chance="1.223" /> <!-- Synthetic Cokes -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="38" />
 			<height normal="42" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22758" level="89" type="L2Monster" name="Elite Krajian" title="Reptilikon">
 		<!-- Confirmed CT2.5 -->
@@ -4052,7 +4052,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4388" level="4" /> <!-- Resist Paralysis Attacks -->
 			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -4074,15 +4074,15 @@
 			<skill id="6414" level="1" /> <!-- Reptilikon Charge -->
 			<skill id="6415" level="1" /> <!-- Reptilikon Scratch -->
 			<skill id="14765" level="2" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
-		<s_npc_prop_hp_rate>2</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>2</sNpcPropHpRate>
 		<ai aggroRange="450" clanHelpRange="300" isAggressive="true">
-			<clan_list>
+			<clanList>
 				<clan>RAPTILICON_ELITE</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="3265" max="7612" chance="70" /> <!-- Adena -->
 				<item id="17294" min="1" max="1" chance="0.0299999999999997" /> <!-- Requiem Fighter -->
@@ -4094,21 +4094,21 @@
 				<item id="36532" min="1" max="1" chance="57.93" /> <!-- Thin Braid -->
 				<item id="36533" min="1" max="1" chance="11.23" /> <!-- Synthetic Braid -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="26" />
 			<height normal="48" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22759" level="89" type="L2Monster" name="Elite Tardyon" title="Reptilikon">
 		<!-- Confirmed CT2.5 -->
@@ -4136,7 +4136,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4388" level="4" /> <!-- Resist Paralysis Attacks -->
 			<skill id="4408" level="9" /> <!-- HP Increase (2x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -4158,18 +4158,18 @@
 			<skill id="6417" level="1" /> <!-- Reptilikon Poison Shot -->
 			<skill id="6418" level="1" /> <!-- Reptilikon Fury Poison Bomb -->
 			<skill id="14765" level="2" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
-		<s_npc_prop_hp_rate>2</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>2</sNpcPropHpRate>
 		<ai aggroRange="450" clanHelpRange="300" isAggressive="true">
-			<clan_list>
+			<clanList>
 				<clan>RAPTILICON_ELITE</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="1846" max="4303" chance="70" /> <!-- Adena -->
-				<item id="17320" min="1" max="1" chance="0.300000000000005" /> <!-- Immortal Sigil -->
+				<item id="17320" min="1" max="1" chance="0.300000000000005" /> <!-- Immortal Sigil - Robe -->
 				<item id="36821" min="1" max="1" chance="16.9299999999999" /> <!-- Immortal Sigil Ingredient -->
 				<item id="9550" min="1" max="1" chance="0.3" /> <!-- Dark Stone -->
 				<item id="36759" min="1" max="1" chance="0.3" /> <!-- Recipe: Immortal Sigil (60%) -->
@@ -4180,21 +4180,21 @@
 				<item id="36532" min="1" max="1" chance="33.03" /> <!-- Thin Braid -->
 				<item id="9556" min="1" max="1" chance="0.3" /> <!-- Dark Crystal -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="30" />
 			<height normal="47" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22760" level="88" type="L2Monster" name="Kanibi">
 		<!-- Confirmed CT2.5 -->
@@ -4223,7 +4223,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4388" level="4" /> <!-- Resist Paralysis Attacks -->
 			<skill id="4408" level="9" /> <!-- HP Increase (2x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -4246,11 +4246,11 @@
 			<skill id="4435" level="5" /> <!-- Greater Stun Resistance -->
 			<skill id="6395" level="1" /> <!-- Cokrakon Dreadful Clow -->
 			<skill id="14765" level="2" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
-		<s_npc_prop_hp_rate>2</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>2</sNpcPropHpRate>
 		<ai aggroRange="450" clanHelpRange="300" isAggressive="true" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="1767" max="4118" chance="70" /> <!-- Adena -->
 				<item id="36849" min="1" max="1" chance="4.715" /> <!-- Twilight Stocking Ingredient -->
@@ -4263,21 +4263,21 @@
 				<item id="40205" min="1" max="1" chance="43.33" /> <!-- Requiem Fragment -->
 				<item id="40210" min="1" max="1" chance="0.0055" /> <!-- Recipe: R (100%) -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="22" />
 			<height normal="45.5" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22761" level="88" type="L2Monster" name="Kiriona">
 		<!-- Confirmed CT2.5 -->
@@ -4305,7 +4305,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4388" level="4" /> <!-- Resist Paralysis Attacks -->
 			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -4326,11 +4326,11 @@
 			<skill id="6397" level="1" /> <!-- Cokrakon Staggering Blow -->
 			<skill id="6398" level="1" /> <!-- Cokrakon Sonic Shout -->
 			<skill id="14765" level="2" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
-		<s_npc_prop_hp_rate>2</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>2</sNpcPropHpRate>
 		<ai aggroRange="450" clanHelpRange="300" isAggressive="true" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="2350" max="5478" chance="70" /> <!-- Adena -->
 				<item id="17322" min="1" max="1" chance="0.299999999999994" /> <!-- Immortal Earring -->
@@ -4341,21 +4341,21 @@
 				<item id="40205" min="1" max="1" chance="56.22" /> <!-- Requiem Fragment -->
 				<item id="40210" min="1" max="1" chance="0.03" /> <!-- Recipe: R (100%) -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="33" />
 			<height normal="33" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22762" level="88" type="L2Monster" name="Kaiona">
 		<!-- Confirmed CT2.5 -->
@@ -4383,7 +4383,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4388" level="4" /> <!-- Resist Paralysis Attacks -->
 			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -4405,11 +4405,11 @@
 			<skill id="4435" level="4" /> <!-- Greater Stun Resistance -->
 			<skill id="6401" level="1" /> <!-- Cokrakon Wheeling Clow -->
 			<skill id="14765" level="2" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
-		<s_npc_prop_hp_rate>2</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>2</sNpcPropHpRate>
 		<ai aggroRange="450" clanHelpRange="300" isAggressive="true" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="2350" max="5478" chance="70" /> <!-- Adena -->
 				<item id="36822" min="1" max="3" chance="16.78" /> <!-- Immortal Necklace Gem -->
@@ -4420,21 +4420,21 @@
 				<item id="40205" min="1" max="1" chance="55.99" /> <!-- Requiem Fragment -->
 				<item id="40210" min="1" max="1" chance="0.03" /> <!-- Recipe: R (100%) -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="32" />
 			<height normal="37.5" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22763" level="89" type="L2Monster" name="Elite Kanibi" title="Kokracon">
 		<!-- Confirmed CT2.5 -->
@@ -4463,7 +4463,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4388" level="4" /> <!-- Resist Paralysis Attacks -->
 			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -4487,15 +4487,15 @@
 			<skill id="4435" level="5" /> <!-- Greater Stun Resistance -->
 			<skill id="6395" level="1" /> <!-- Cokrakon Dreadful Clow -->
 			<skill id="14765" level="2" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
-		<s_npc_prop_hp_rate>2</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>2</sNpcPropHpRate>
 		<ai aggroRange="450" clanHelpRange="300" isAggressive="true">
-			<clan_list>
+			<clanList>
 				<clan>COCRACON_ELITE</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="2455" max="5723" chance="70" /> <!-- Adena -->
 				<item id="36848" min="1" max="1" chance="4.163" /> <!-- Twilight Tunic Ingredient -->
@@ -4510,21 +4510,21 @@
 				<item id="36527" min="1" max="3" chance="71.51" /> <!-- Synthetic Fiber -->
 				<item id="36528" min="1" max="1" chance="26.3" /> <!-- Metallic Fiber -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="32" />
 			<height normal="69.5" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22764" level="89" type="L2Monster" name="Elite Kiriona" title="Kokracon">
 		<!-- Confirmed CT2.5 -->
@@ -4552,7 +4552,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4388" level="4" /> <!-- Resist Paralysis Attacks -->
 			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -4574,15 +4574,15 @@
 			<skill id="6397" level="1" /> <!-- Cokrakon Staggering Blow -->
 			<skill id="6398" level="1" /> <!-- Cokrakon Sonic Shout -->
 			<skill id="14765" level="2" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
-		<s_npc_prop_hp_rate>2</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>2</sNpcPropHpRate>
 		<ai aggroRange="450" clanHelpRange="300" isAggressive="true">
-			<clan_list>
+			<clanList>
 				<clan>COCRACON_ELITE</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="3265" max="7612" chance="70" /> <!-- Adena -->
 				<item id="17322" min="1" max="1" chance="0.300000000000005" /> <!-- Immortal Earring -->
@@ -4595,21 +4595,21 @@
 				<item id="36533" min="1" max="1" chance="11.66" /> <!-- Synthetic Braid -->
 				<item id="9554" min="1" max="1" chance="0.3" /> <!-- Earth Crystal -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="48" />
 			<height normal="46" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22765" level="89" type="L2Monster" name="Elite Kaiona" title="Kokracon">
 		<!-- Confirmed CT2.5 -->
@@ -4637,7 +4637,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4388" level="4" /> <!-- Resist Paralysis Attacks -->
 			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -4660,15 +4660,15 @@
 			<skill id="4435" level="4" /> <!-- Greater Stun Resistance -->
 			<skill id="6401" level="1" /> <!-- Cokrakon Wheeling Clow -->
 			<skill id="14765" level="2" /> <!-- Blood Siphon Resistance -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
-		<s_npc_prop_hp_rate>2</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>2</sNpcPropHpRate>
 		<ai aggroRange="450" clanHelpRange="300" isAggressive="true">
-			<clan_list>
+			<clanList>
 				<clan>COCRACON_ELITE</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="3265" max="7612" chance="70" /> <!-- Adena -->
 				<item id="36822" min="3" max="9" chance="7.53" /> <!-- Immortal Necklace Gem -->
@@ -4679,21 +4679,21 @@
 				<item id="36532" min="1" max="1" chance="56.38" /> <!-- Thin Braid -->
 				<item id="36533" min="1" max="1" chance="11.61" /> <!-- Synthetic Braid -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="35" />
 			<height normal="49.5" />
 		</collision>
-		<extend_drop>
+		<extendDrop>
 			<id>1</id>
 			<id>2</id>
 			<id>3</id>
 			<id>4</id>
 			<id>5</id>
-		</extend_drop>
+		</extendDrop>
 	</npc>
 	<npc id="22766" level="85" type="L2Monster" name="Mithril Millipede">
 		<!-- Confirmed CT2.5 -->
@@ -4711,7 +4711,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" randomWalk="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="7" /> <!-- Weak P. Atk. -->
@@ -4721,8 +4721,8 @@
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4416" level="12" /> <!-- Bugs -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
 		<ai aggroRange="300" clanHelpRange="300" isAggressive="true" />
 		<collision>
 			<radius normal="45" />
@@ -4749,7 +4749,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" randomWalk="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4408" level="11" /> <!-- HP Increase (3x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
@@ -4761,9 +4761,9 @@
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="6290" level="1" /> <!-- Power Strike -->
 			<skill id="6292" level="1" /> <!-- Rush -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
-		<s_npc_prop_hp_rate>3</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>3</sNpcPropHpRate>
 		<ai aggroRange="300" clanHelpRange="300" isAggressive="true" />
 		<collision>
 			<radius normal="15" />
@@ -4792,11 +4792,11 @@
 				<walk ground="40" />
 				<run ground="140" />
 			</speed>
-			<hit_time>560</hit_time>
+			<hitTime>560</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4116" level="9" /> <!-- Resist M. Atk. -->
 			<skill id="4273" level="4" /> <!-- Resist Daggers/Rapier Weapon -->
 			<skill id="4276" level="4" /> <!-- Weak Point against Bow/Crossbow Weapons -->
@@ -4815,10 +4815,10 @@
 			<skill id="5465" level="1" /> <!-- Earth Attacks -->
 			<skill id="5601" level="9" /> <!-- Short-Range Physical Attack Resistance -->
 			<skill id="6419" level="1" /> <!-- Light of Scout -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
 		<ai aggroRange="300" clanHelpRange="300" isAggressive="true" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="38" max="89" chance="70" /> <!-- Adena -->
 				<item id="10216" min="1" max="1" chance="0.0009" /> <!-- Icarus Disperser -->
@@ -4841,10 +4841,10 @@
 				<item id="36882" min="1" max="1" chance="0.003" /> <!-- Recipe: Thin Braid - Upgrade -->
 				<item id="36881" min="1" max="1" chance="0.0009" /> <!-- Recipe: Thin Braid - Downgrade -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="13" grown="22" />
 			<height normal="35" grown="42.2" />
@@ -4871,11 +4871,11 @@
 				<walk ground="53" />
 				<run ground="140" />
 			</speed>
-			<hit_time>460</hit_time>
+			<hitTime>460</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4116" level="9" /> <!-- Resist M. Atk. -->
 			<skill id="4273" level="4" /> <!-- Resist Daggers/Rapier Weapon -->
 			<skill id="4276" level="4" /> <!-- Weak Point against Bow/Crossbow Weapons -->
@@ -4894,10 +4894,10 @@
 			<skill id="5465" level="1" /> <!-- Earth Attacks -->
 			<skill id="5601" level="9" /> <!-- Short-Range Physical Attack Resistance -->
 			<skill id="6420" level="1" /> <!-- Lizard Strike -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
 		<ai clanHelpRange="300" aggroRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="51" max="119" chance="70" /> <!-- Adena -->
 				<item id="10215" min="1" max="1" chance="0.000899999999999991" /> <!-- Icarus Sawsword -->
@@ -4921,10 +4921,10 @@
 				<item id="36882" min="1" max="1" chance="0.003" /> <!-- Recipe: Thin Braid - Upgrade -->
 				<item id="36881" min="1" max="1" chance="0.0009" /> <!-- Recipe: Thin Braid - Downgrade -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="20" grown="24" />
 			<height normal="40" grown="48" />
@@ -4953,7 +4953,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4116" level="9" /> <!-- Resist M. Atk. -->
 			<skill id="4273" level="4" /> <!-- Resist Daggers/Rapier Weapon -->
 			<skill id="4276" level="4" /> <!-- Weak Point against Bow/Crossbow Weapons -->
@@ -4972,11 +4972,11 @@
 			<skill id="5465" level="1" /> <!-- Earth Attacks -->
 			<skill id="5601" level="9" /> <!-- Short-Range Physical Attack Resistance -->
 			<skill id="6421" level="1" /> <!-- Rage of Soldier -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
-		<s_npc_prop_hp_rate>2</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>2</sNpcPropHpRate>
 		<ai clanHelpRange="300" aggroRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="167" max="390" chance="70" /> <!-- Adena -->
 				<item id="15710" min="1" max="1" chance="0.0009" /> <!-- Sealed Moirai Shield -->
@@ -5012,10 +5012,10 @@
 				<item id="36881" min="1" max="1" chance="0.003" /> <!-- Recipe: Thin Braid - Downgrade -->
 				<item id="36882" min="1" max="1" chance="0.0055" /> <!-- Recipe: Thin Braid - Upgrade -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="20" />
 			<height normal="40.25" />
@@ -5044,7 +5044,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4116" level="9" /> <!-- Resist M. Atk. -->
 			<skill id="4273" level="4" /> <!-- Resist Daggers/Rapier Weapon -->
 			<skill id="4276" level="4" /> <!-- Weak Point against Bow/Crossbow Weapons -->
@@ -5063,11 +5063,11 @@
 			<skill id="5465" level="1" /> <!-- Earth Attacks -->
 			<skill id="5601" level="9" /> <!-- Short-Range Physical Attack Resistance -->
 			<skill id="6422" level="1" /> <!-- Resistance Explosion -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
-		<s_npc_prop_hp_rate>2</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>2</sNpcPropHpRate>
 		<ai clanHelpRange="300" aggroRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="172" max="402" chance="70" /> <!-- Adena -->
 				<item id="10220" min="1" max="1" chance="0.0009" /> <!-- Icarus Hammer -->
@@ -5097,10 +5097,10 @@
 				<item id="36881" min="1" max="1" chance="0.003" /> <!-- Recipe: Thin Braid - Downgrade -->
 				<item id="36882" min="1" max="1" chance="0.0055" /> <!-- Recipe: Thin Braid - Upgrade -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="28" />
 			<height normal="37.5" />
@@ -5130,7 +5130,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4116" level="9" /> <!-- Resist M. Atk. -->
 			<skill id="4273" level="4" /> <!-- Resist Daggers/Rapier Weapon -->
 			<skill id="4276" level="4" /> <!-- Weak Point against Bow/Crossbow Weapons -->
@@ -5150,10 +5150,10 @@
 			<skill id="5601" level="9" /> <!-- Short-Range Physical Attack Resistance -->
 			<skill id="6423" level="1" /> <!-- Shock -->
 			<skill id="6424" level="1" /> <!-- Double Shot -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
 		<ai type="ARCHER" clanHelpRange="300" aggroRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="54" max="127" chance="70" /> <!-- Adena -->
 				<item id="10223" min="1" max="1" chance="0.0009" /> <!-- Icarus Spitter -->
@@ -5184,10 +5184,10 @@
 				<item id="36882" min="1" max="1" chance="0.003" /> <!-- Recipe: Thin Braid - Upgrade -->
 				<item id="36881" min="1" max="1" chance="0.0009" /> <!-- Recipe: Thin Braid - Downgrade -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="20" />
 			<height normal="40.25" />
@@ -5215,11 +5215,11 @@
 				<walk ground="43" />
 				<run ground="120" />
 			</speed>
-			<hit_time>630</hit_time>
+			<hitTime>630</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4116" level="9" /> <!-- Resist M. Atk. -->
 			<skill id="4273" level="4" /> <!-- Resist Daggers/Rapier Weapon -->
 			<skill id="4276" level="4" /> <!-- Weak Point against Bow/Crossbow Weapons -->
@@ -5239,10 +5239,10 @@
 			<skill id="5601" level="9" /> <!-- Short-Range Physical Attack Resistance -->
 			<skill id="6676" level="1" /> <!-- Magician's Perversity -->
 			<skill id="6611" level="1" /> <!-- Earth Magic -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
 		<ai type="MAGE" aggroRange="300" clanHelpRange="300" isAggressive="true" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="54" max="126" chance="70" /> <!-- Adena -->
 				<item id="15703" min="1" max="1" chance="0.000900000000000006" /> <!-- Sealed Moirai Gauntlets -->
@@ -5279,10 +5279,10 @@
 				<item id="36882" min="1" max="1" chance="0.003" /> <!-- Recipe: Thin Braid - Upgrade -->
 				<item id="36881" min="1" max="1" chance="0.0009" /> <!-- Recipe: Thin Braid - Downgrade -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="13" />
 			<height normal="35" />
@@ -5312,7 +5312,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4116" level="9" /> <!-- Resist M. Atk. -->
 			<skill id="4273" level="4" /> <!-- Resist Daggers/Rapier Weapon -->
 			<skill id="4276" level="4" /> <!-- Weak Point against Bow/Crossbow Weapons -->
@@ -5333,11 +5333,11 @@
 			<skill id="6679" level="1" /> <!-- Summoner's Strike -->
 			<skill id="6425" level="1" /> <!-- Demotivation Hex -->
 			<skill id="6611" level="1" /> <!-- Earth Magic -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
-		<s_npc_prop_hp_rate>2</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>2</sNpcPropHpRate>
 		<ai type="MAGE" clanHelpRange="300" aggroRange="300" />
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="188" max="440" chance="70" /> <!-- Adena -->
 				<item id="15698" min="1" max="1" chance="0.000900000000000025" /> <!-- Sealed Moirai Leather Breastplate -->
@@ -5369,10 +5369,10 @@
 				<item id="36881" min="1" max="1" chance="0.003" /> <!-- Recipe: Thin Braid - Downgrade -->
 				<item id="36882" min="1" max="1" chance="0.0055" /> <!-- Recipe: Thin Braid - Upgrade -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="29" />
 			<height normal="44" />
@@ -5404,7 +5404,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4071" level="5" /> <!-- Resist Bow/Crossbow Weapons -->
 			<skill id="4116" level="9" /> <!-- Resist M. Atk. -->
 			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
@@ -5422,15 +5422,15 @@
 			<skill id="5663" level="5" /> <!-- Resistance to Ancient Sword -->
 			<skill id="6335" level="1" /> <!-- Electric Rain 1 -->
 			<skill id="6337" level="1" /> <!-- Red Slash 1 -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
-		<s_npc_prop_hp_rate>2</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>2</sNpcPropHpRate>
 		<ai aggroRange="300" clanHelpRange="800" isAggressive="false">
-			<clan_list>
+			<clanList>
 				<clan>XEL_PRIVATE</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="353" max="824" chance="70" /> <!-- Adena -->
 				<item id="15697" min="1" max="1" chance="0.00300000000000003" /> <!-- Sealed Moirai Breastplate -->
@@ -5463,10 +5463,10 @@
 				<item id="36882" min="1" max="1" chance="0.03" /> <!-- Recipe: Thin Braid - Upgrade -->
 				<item id="36881" min="1" max="1" chance="0.003" /> <!-- Recipe: Thin Braid - Downgrade -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="27" />
 			<height normal="31.5" />
@@ -5496,7 +5496,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4071" level="5" /> <!-- Resist Bow/Crossbow Weapons -->
 			<skill id="4116" level="9" /> <!-- Resist M. Atk. -->
 			<skill id="4408" level="11" /> <!-- HP Increase (3x) -->
@@ -5514,15 +5514,15 @@
 			<skill id="5663" level="5" /> <!-- Resistance to Ancient Sword -->
 			<skill id="6336" level="1" /> <!-- Electric Rain 2 -->
 			<skill id="6338" level="1" /> <!-- Red Slash 2 -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
-		<s_npc_prop_hp_rate>3</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>3</sNpcPropHpRate>
 		<ai aggroRange="300" clanHelpRange="800" isAggressive="false">
-			<clan_list>
+			<clanList>
 				<clan>XEL_PRIVATE</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="548" max="1280" chance="70" /> <!-- Adena -->
 				<item id="15698" min="1" max="1" chance="0.00300000000000001" /> <!-- Sealed Moirai Leather Breastplate -->
@@ -5557,10 +5557,10 @@
 				<item id="36882" min="1" max="1" chance="0.03" /> <!-- Recipe: Thin Braid - Upgrade -->
 				<item id="36881" min="1" max="1" chance="0.003" /> <!-- Recipe: Thin Braid - Downgrade -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="29" />
 			<height normal="33.5" />
@@ -5592,7 +5592,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4071" level="5" /> <!-- Resist Bow/Crossbow Weapons -->
 			<skill id="4116" level="9" /> <!-- Resist M. Atk. -->
 			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
@@ -5610,15 +5610,15 @@
 			<skill id="5663" level="5" /> <!-- Resistance to Ancient Sword -->
 			<skill id="6339" level="1" /> <!-- Sacred Hammer Attack -->
 			<skill id="6340" level="1" /> <!-- Shock -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
-		<s_npc_prop_hp_rate>2</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>2</sNpcPropHpRate>
 		<ai aggroRange="300" clanHelpRange="800" isAggressive="false">
-			<clan_list>
+			<clanList>
 				<clan>XEL_PRIVATE</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="64" max="149" chance="70" /> <!-- Adena -->
 				<item id="15699" min="1" max="1" chance="0.000899999999999998" /> <!-- Sealed Moirai Tunic -->
@@ -5646,7 +5646,7 @@
 				<item id="15780" min="1" max="1" chance="0.03" /> <!-- Recipe: Sealed Moirai Tunic (60%) -->
 				<item id="15783" min="1" max="1" chance="0.03" /> <!-- Recipe: Sealed Moirai Stockings (60%) -->
 			</spoil>
-		</drop_lists>
+		</dropLists>
 		<collision>
 			<radius normal="29" />
 			<height normal="37" />
@@ -5675,7 +5675,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4071" level="5" /> <!-- Resist Bow/Crossbow Weapons -->
 			<skill id="4116" level="9" /> <!-- Resist M. Atk. -->
 			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
@@ -5692,15 +5692,15 @@
 			<skill id="5620" level="9" /> <!-- Short-Range Physical Attack Weakness -->
 			<skill id="5663" level="5" /> <!-- Resistance to Ancient Sword -->
 			<skill id="6334" level="1" /> <!-- Shock -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
-		<s_npc_prop_hp_rate>2</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>2</sNpcPropHpRate>
 		<ai aggroRange="300" clanHelpRange="800" isAggressive="false">
-			<clan_list>
+			<clanList>
 				<clan>XEL_PRIVATE</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="353" max="824" chance="70" /> <!-- Adena -->
 				<item id="15766" min="1" max="1" chance="0.00549999999999998" /> <!-- Sealed Moirai Ring -->
@@ -5736,10 +5736,10 @@
 				<item id="36882" min="1" max="1" chance="0.03" /> <!-- Recipe: Thin Braid - Upgrade -->
 				<item id="36881" min="1" max="1" chance="0.003" /> <!-- Recipe: Thin Braid - Downgrade -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="27" />
 			<height normal="31" />
@@ -5769,7 +5769,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4071" level="5" /> <!-- Resist Bow/Crossbow Weapons -->
 			<skill id="4116" level="9" /> <!-- Resist M. Atk. -->
 			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
@@ -5787,15 +5787,15 @@
 			<skill id="5663" level="5" /> <!-- Resistance to Ancient Sword -->
 			<skill id="6339" level="1" /> <!-- Sacred Hammer Attack -->
 			<skill id="6340" level="1" /> <!-- Shock -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
-		<s_npc_prop_hp_rate>2</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>2</sNpcPropHpRate>
 		<ai aggroRange="300" clanHelpRange="300" isAggressive="false">
-			<clan_list>
+			<clanList>
 				<clan>XEL_PRIVATE</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="349" max="814" chance="70" /> <!-- Adena -->
 				<item id="15703" min="1" max="1" chance="0.00299999999999996" /> <!-- Sealed Moirai Gauntlets -->
@@ -5840,10 +5840,10 @@
 				<item id="36882" min="1" max="1" chance="0.03" /> <!-- Recipe: Thin Braid - Upgrade -->
 				<item id="36881" min="1" max="1" chance="0.003" /> <!-- Recipe: Thin Braid - Downgrade -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="29" />
 			<height normal="37" />
@@ -5875,7 +5875,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4071" level="5" /> <!-- Resist Bow/Crossbow Weapons -->
 			<skill id="4116" level="9" /> <!-- Resist M. Atk. -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
@@ -5893,14 +5893,14 @@
 			<skill id="5663" level="5" /> <!-- Resistance to Ancient Sword -->
 			<skill id="6335" level="1" /> <!-- Electric Rain 1 -->
 			<skill id="6337" level="1" /> <!-- Red Slash 1 -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
 		<ai aggroRange="300" clanHelpRange="800" isAggressive="false">
-			<clan_list>
+			<clanList>
 				<clan>XEL_PRIVATE</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="48" max="111" chance="70" /> <!-- Adena -->
 				<item id="15710" min="1" max="1" chance="0.0009" /> <!-- Sealed Moirai Shield -->
@@ -5941,10 +5941,10 @@
 				<item id="36882" min="1" max="1" chance="0.003" /> <!-- Recipe: Thin Braid - Upgrade -->
 				<item id="36881" min="1" max="1" chance="0.0009" /> <!-- Recipe: Thin Braid - Downgrade -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="27" />
 			<height normal="31.5" />
@@ -5976,7 +5976,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4071" level="5" /> <!-- Resist Bow/Crossbow Weapons -->
 			<skill id="4116" level="9" /> <!-- Resist M. Atk. -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
@@ -5994,14 +5994,14 @@
 			<skill id="5663" level="5" /> <!-- Resistance to Ancient Sword -->
 			<skill id="6336" level="1" /> <!-- Electric Rain 2 -->
 			<skill id="6338" level="1" /> <!-- Red Slash 2 -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
 		<ai aggroRange="300" clanHelpRange="800" isAggressive="false">
-			<clan_list>
+			<clanList>
 				<clan>XEL_PRIVATE</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="26" max="62" chance="70" /> <!-- Adena -->
 				<item id="10215" min="1" max="1" chance="0.000899999999999991" /> <!-- Icarus Sawsword -->
@@ -6027,7 +6027,7 @@
 				<item id="10399" min="1" max="1" chance="0.03" /> <!-- Icarus Spirit Piece -->
 				<item id="10400" min="1" max="1" chance="0.03" /> <!-- Icarus Heavy Arms Piece -->
 			</spoil>
-		</drop_lists>
+		</dropLists>
 		<collision>
 			<radius normal="29" />
 			<height normal="33.5" />
@@ -6059,7 +6059,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4071" level="5" /> <!-- Resist Bow/Crossbow Weapons -->
 			<skill id="4116" level="9" /> <!-- Resist M. Atk. -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
@@ -6077,14 +6077,14 @@
 			<skill id="5663" level="5" /> <!-- Resistance to Ancient Sword -->
 			<skill id="6339" level="1" /> <!-- Sacred Hammer Attack -->
 			<skill id="6340" level="1" /> <!-- Shock -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
 		<ai aggroRange="300" clanHelpRange="800" isAggressive="false">
-			<clan_list>
+			<clanList>
 				<clan>XEL_PRIVATE</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="48" max="111" chance="70" /> <!-- Adena -->
 				<item id="10220" min="1" max="1" chance="0.0009" /> <!-- Icarus Hammer -->
@@ -6113,10 +6113,10 @@
 				<item id="36882" min="1" max="1" chance="0.003" /> <!-- Recipe: Thin Braid - Upgrade -->
 				<item id="36881" min="1" max="1" chance="0.0009" /> <!-- Recipe: Thin Braid - Downgrade -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="29" />
 			<height normal="37" />
@@ -6148,7 +6148,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4071" level="5" /> <!-- Resist Bow/Crossbow Weapons -->
 			<skill id="4116" level="9" /> <!-- Resist M. Atk. -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
@@ -6166,14 +6166,14 @@
 			<skill id="5663" level="5" /> <!-- Resistance to Ancient Sword -->
 			<skill id="6339" level="1" /> <!-- Sacred Hammer Attack -->
 			<skill id="6340" level="1" /> <!-- Shock -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
 		<ai aggroRange="300" clanHelpRange="800" isAggressive="false">
-			<clan_list>
+			<clanList>
 				<clan>XEL_PRIVATE</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="70" max="163" chance="70" /> <!-- Adena -->
 				<item id="10221" min="1" max="1" chance="0.0009" /> <!-- Icarus Hand -->
@@ -6201,10 +6201,10 @@
 				<item id="36882" min="1" max="1" chance="0.003" /> <!-- Recipe: Thin Braid - Upgrade -->
 				<item id="36881" min="1" max="1" chance="0.0009" /> <!-- Recipe: Thin Braid - Downgrade -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="29" />
 			<height normal="37" />
@@ -6235,7 +6235,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4071" level="5" /> <!-- Resist Bow/Crossbow Weapons -->
 			<skill id="4116" level="9" /> <!-- Resist M. Atk. -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
@@ -6252,14 +6252,14 @@
 			<skill id="5620" level="9" /> <!-- Short-Range Physical Attack Weakness -->
 			<skill id="5663" level="5" /> <!-- Resistance to Ancient Sword -->
 			<skill id="6333" level="1" /> <!-- Electric Bolt 1 -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
 		<ai aggroRange="300" clanHelpRange="800" isAggressive="false">
-			<clan_list>
+			<clanList>
 				<clan>XEL_PRIVATE</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="48" max="111" chance="70" /> <!-- Adena -->
 				<item id="10223" min="1" max="1" chance="0.0009" /> <!-- Icarus Spitter -->
@@ -6286,10 +6286,10 @@
 				<item id="36882" min="1" max="1" chance="0.003" /> <!-- Recipe: Thin Braid - Upgrade -->
 				<item id="36881" min="1" max="1" chance="0.0009" /> <!-- Recipe: Thin Braid - Downgrade -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="27" />
 			<height normal="31" />
@@ -6320,7 +6320,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4071" level="5" /> <!-- Resist Bow/Crossbow Weapons -->
 			<skill id="4116" level="9" /> <!-- Resist M. Atk. -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
@@ -6337,14 +6337,14 @@
 			<skill id="5620" level="9" /> <!-- Short-Range Physical Attack Weakness -->
 			<skill id="5663" level="5" /> <!-- Resistance to Ancient Sword -->
 			<skill id="6334" level="1" /> <!-- Shock -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
 		<ai aggroRange="300" clanHelpRange="800" isAggressive="false">
-			<clan_list>
+			<clanList>
 				<clan>XEL_PRIVATE</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="37" max="86" chance="70" /> <!-- Adena -->
 				<item id="10216" min="1" max="1" chance="0.0009" /> <!-- Icarus Disperser -->
@@ -6369,10 +6369,10 @@
 				<item id="36882" min="1" max="1" chance="0.003" /> <!-- Recipe: Thin Braid - Upgrade -->
 				<item id="36881" min="1" max="1" chance="0.0009" /> <!-- Recipe: Thin Braid - Downgrade -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="27" />
 			<height normal="31" />
@@ -6402,7 +6402,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4071" level="5" /> <!-- Resist Bow/Crossbow Weapons -->
 			<skill id="4116" level="9" /> <!-- Resist M. Atk. -->
 			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
@@ -6420,15 +6420,15 @@
 			<skill id="5663" level="5" /> <!-- Resistance to Ancient Sword -->
 			<skill id="6335" level="1" /> <!-- Electric Rain 1 -->
 			<skill id="6337" level="1" /> <!-- Red Slash 1 -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
-		<s_npc_prop_hp_rate>2</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>2</sNpcPropHpRate>
 		<ai aggroRange="300" clanHelpRange="400" isAggressive="false">
-			<clan_list>
+			<clanList>
 				<clan>XEL_PRIVATE</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="262" max="612" chance="70" /> <!-- Adena -->
 				<item id="10219" min="1" max="1" chance="0.003" /> <!-- Icarus Trident -->
@@ -6455,10 +6455,10 @@
 				<item id="36882" min="1" max="1" chance="0.03" /> <!-- Recipe: Thin Braid - Upgrade -->
 				<item id="36881" min="1" max="1" chance="0.003" /> <!-- Recipe: Thin Braid - Downgrade -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="27" />
 			<height normal="31.5" />
@@ -6488,7 +6488,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4071" level="5" /> <!-- Resist Bow/Crossbow Weapons -->
 			<skill id="4116" level="9" /> <!-- Resist M. Atk. -->
 			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
@@ -6506,15 +6506,15 @@
 			<skill id="5663" level="5" /> <!-- Resistance to Ancient Sword -->
 			<skill id="6339" level="1" /> <!-- Sacred Hammer Attack -->
 			<skill id="6340" level="1" /> <!-- Shock -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
-		<s_npc_prop_hp_rate>2</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>2</sNpcPropHpRate>
 		<ai aggroRange="300" clanHelpRange="400" isAggressive="false">
-			<clan_list>
+			<clanList>
 				<clan>XEL_PRIVATE</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="262" max="612" chance="70" /> <!-- Adena -->
 				<item id="15703" min="1" max="1" chance="0.00300000000000009" /> <!-- Sealed Moirai Gauntlets -->
@@ -6558,10 +6558,10 @@
 				<item id="36882" min="1" max="1" chance="0.03" /> <!-- Recipe: Thin Braid - Upgrade -->
 				<item id="36881" min="1" max="1" chance="0.003" /> <!-- Recipe: Thin Braid - Downgrade -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="29" />
 			<height normal="37" />
@@ -6590,7 +6590,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4071" level="5" /> <!-- Resist Bow/Crossbow Weapons -->
 			<skill id="4116" level="9" /> <!-- Resist M. Atk. -->
 			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
@@ -6607,15 +6607,15 @@
 			<skill id="5620" level="9" /> <!-- Short-Range Physical Attack Weakness -->
 			<skill id="5663" level="5" /> <!-- Resistance to Ancient Sword -->
 			<skill id="6333" level="1" /> <!-- Electric Bolt 1 -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
-		<s_npc_prop_hp_rate>2</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>2</sNpcPropHpRate>
 		<ai aggroRange="300" clanHelpRange="400" isAggressive="false">
-			<clan_list>
+			<clanList>
 				<clan>XEL_PRIVATE</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="262" max="612" chance="70" /> <!-- Adena -->
 				<item id="15710" min="1" max="1" chance="0.003" /> <!-- Sealed Moirai Shield -->
@@ -6655,10 +6655,10 @@
 				<item id="36882" min="1" max="1" chance="0.03" /> <!-- Recipe: Thin Braid - Upgrade -->
 				<item id="36881" min="1" max="1" chance="0.003" /> <!-- Recipe: Thin Braid - Downgrade -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="27" />
 			<height normal="31" />
@@ -6685,11 +6685,11 @@
 				<walk ground="61" />
 				<run ground="180" />
 			</speed>
-			<hit_time>430</hit_time>
+			<hitTime>430</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4276" level="5" /> <!-- Weak Point against Bow/Crossbow Weapons -->
 			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -6705,15 +6705,15 @@
 			<skill id="5620" level="4" /> <!-- Short-Range Physical Attack Weakness -->
 			<skill id="6303" level="1" /> <!-- Trial of the Coup -->
 			<skill id="6304" level="1" /> <!-- Shock -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
-		<s_npc_prop_hp_rate>2</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>2</sNpcPropHpRate>
 		<ai type="BALANCED" aggroRange="300" clanHelpRange="300" isAggressive="true">
-			<clan_list>
+			<clanList>
 				<clan>SOLINA_N</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="72" max="168" chance="70" /> <!-- Adena -->
 				<item id="14166" min="1" max="1" chance="0.0749999999999998" /> <!-- Life Stone - Lv. 84 -->
@@ -6734,10 +6734,10 @@
 			<spoil>
 				<item id="9551" min="1" max="1" chance="0.075" /> <!-- Holy Stone -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="9" />
 			<height normal="23.4" />
@@ -6764,11 +6764,11 @@
 				<walk ground="70" />
 				<run ground="170" />
 			</speed>
-			<hit_time>430</hit_time>
+			<hitTime>430</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4276" level="5" /> <!-- Weak Point against Bow/Crossbow Weapons -->
 			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -6784,15 +6784,15 @@
 			<skill id="5620" level="4" /> <!-- Short-Range Physical Attack Weakness -->
 			<skill id="6305" level="1" /> <!-- Sacred Gnosis -->
 			<skill id="6306" level="1" /> <!-- Solina Strike -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
-		<s_npc_prop_hp_rate>2</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>2</sNpcPropHpRate>
 		<ai type="BALANCED" aggroRange="300" clanHelpRange="300" isAggressive="true">
-			<clan_list>
+			<clanList>
 				<clan>SOLINA_N</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="77" max="179" chance="70" /> <!-- Adena -->
 				<item id="14166" min="1" max="1" chance="0.0749999999999998" /> <!-- Life Stone - Lv. 84 -->
@@ -6813,10 +6813,10 @@
 			<spoil>
 				<item id="9551" min="1" max="1" chance="0.075" /> <!-- Holy Stone -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="11" />
 			<height normal="25.4" />
@@ -6842,11 +6842,11 @@
 				<walk ground="65" />
 				<run ground="180" />
 			</speed>
-			<hit_time>430</hit_time>
+			<hitTime>430</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4276" level="5" /> <!-- Weak Point against Bow/Crossbow Weapons -->
 			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -6862,15 +6862,15 @@
 			<skill id="5620" level="4" /> <!-- Short-Range Physical Attack Weakness -->
 			<skill id="6307" level="1" /> <!-- Opus of the Hand -->
 			<skill id="6308" level="1" /> <!-- Opus of the Wave -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
-		<s_npc_prop_hp_rate>2</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>2</sNpcPropHpRate>
 		<ai type="BALANCED" aggroRange="300" clanHelpRange="300" isAggressive="true">
-			<clan_list>
+			<clanList>
 				<clan>SOLINA_N</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="77" max="179" chance="70" /> <!-- Adena -->
 				<item id="14166" min="1" max="1" chance="0.075" /> <!-- Life Stone - Lv. 84 -->
@@ -6892,10 +6892,10 @@
 			<spoil>
 				<item id="9551" min="1" max="1" chance="0.075" /> <!-- Holy Stone -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="9" />
 			<height normal="15.6" />
@@ -6925,7 +6925,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4276" level="5" /> <!-- Weak Point against Bow/Crossbow Weapons -->
 			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -6942,15 +6942,15 @@
 			<skill id="6309" level="1" /> <!-- Pain of the Ascetic -->
 			<skill id="6677" level="1" /> <!-- Hold -->
 			<skill id="6678" level="1" /> <!-- Hold Cancel -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
-		<s_npc_prop_hp_rate>2</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>2</sNpcPropHpRate>
 		<ai type="BALANCED" aggroRange="300" clanHelpRange="300" isAggressive="true">
-			<clan_list>
+			<clanList>
 				<clan>SOLINA_N</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="28" max="66" chance="70" /> <!-- Adena -->
 				<item id="13467" min="1" max="1" chance="0.0009" /> <!-- Vesper Thrower -->
@@ -6974,7 +6974,7 @@
 				<item id="15644" min="1" max="1" chance="0.03" /> <!-- Vesper Thrower Piece -->
 				<item id="15825" min="1" max="1" chance="0.0009" /> <!-- Recipe: Vesper Thrower (60%) -->
 			</spoil>
-		</drop_lists>
+		</dropLists>
 		<collision>
 			<radius normal="15" />
 			<height normal="30" />
@@ -7000,11 +7000,11 @@
 				<walk ground="61" />
 				<run ground="180" />
 			</speed>
-			<hit_time>430</hit_time>
+			<hitTime>430</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4276" level="5" /> <!-- Weak Point against Bow/Crossbow Weapons -->
 			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -7019,15 +7019,15 @@
 			<skill id="5466" level="1" /> <!-- Holy Attacks -->
 			<skill id="5620" level="4" /> <!-- Short-Range Physical Attack Weakness -->
 			<skill id="6310" level="1" /> <!-- Loss of Quest -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
-		<s_npc_prop_hp_rate>2</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>2</sNpcPropHpRate>
 		<ai type="BALANCED" aggroRange="300" clanHelpRange="300" isAggressive="true">
-			<clan_list>
+			<clanList>
 				<clan>SOLINA_N</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="79" max="184" chance="70" /> <!-- Adena -->
 				<item id="14166" min="1" max="1" chance="0.075" /> <!-- Life Stone - Lv. 84 -->
@@ -7049,10 +7049,10 @@
 			<spoil>
 				<item id="9551" min="1" max="1" chance="0.075" /> <!-- Holy Stone -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="9" />
 			<height normal="23.4" />
@@ -7080,11 +7080,11 @@
 				<walk ground="30" />
 				<run ground="170" />
 			</speed>
-			<hit_time>520</hit_time>
+			<hitTime>520</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4276" level="5" /> <!-- Weak Point against Bow/Crossbow Weapons -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -7101,14 +7101,14 @@
 			<skill id="5620" level="9" /> <!-- Short-Range Physical Attack Weakness -->
 			<skill id="6314" level="1" /> <!-- Sacred Judgement -->
 			<skill id="6315" level="1" /> <!-- Sacred Strike -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" aggroRange="300" clanHelpRange="300" isAggressive="true">
-			<clan_list>
+			<clanList>
 				<clan>DIVINE_N</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="420" max="980" chance="70" /> <!-- Adena -->
 				<item id="15540" min="1" max="1" chance="0.300000000000001" /> <!-- Unlit Torchlight -->
@@ -7124,10 +7124,10 @@
 			<spoil>
 				<item id="9551" min="1" max="1" chance="0.3" /> <!-- Holy Stone -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="13.5" grown="16" />
 			<height normal="36.5" grown="42.5" />
@@ -7155,11 +7155,11 @@
 				<walk ground="50" />
 				<run ground="170" />
 			</speed>
-			<hit_time>760</hit_time>
+			<hitTime>760</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4276" level="5" /> <!-- Weak Point against Bow/Crossbow Weapons -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -7175,14 +7175,14 @@
 			<skill id="5466" level="1" /> <!-- Holy Attacks -->
 			<skill id="6309" level="1" /> <!-- Pain of the Ascetic -->
 			<skill id="6316" level="1" /> <!-- Accomplish of Authority -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" aggroRange="300" clanHelpRange="300" isAggressive="true">
-			<clan_list>
+			<clanList>
 				<clan>DIVINE_N</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="437" max="1019" chance="70" /> <!-- Adena -->
 				<item id="14166" min="1" max="1" chance="0.750000000000002" /> <!-- Life Stone - Lv. 84 -->
@@ -7196,10 +7196,10 @@
 			<spoil>
 				<item id="9551" min="1" max="1" chance="0.75" /> <!-- Holy Stone -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="15" />
 			<height normal="80" />
@@ -7226,11 +7226,11 @@
 				<walk ground="30" />
 				<run ground="220" />
 			</speed>
-			<hit_time>430</hit_time>
+			<hitTime>430</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4276" level="5" /> <!-- Weak Point against Bow/Crossbow Weapons -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -7245,14 +7245,14 @@
 			<skill id="4458" level="2" /> <!-- Spear Weapon Weak Point -->
 			<skill id="5466" level="1" /> <!-- Holy Attacks -->
 			<skill id="6317" level="1" /> <!-- Sacred Tacit -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" aggroRange="300" clanHelpRange="300" isAggressive="true">
-			<clan_list>
+			<clanList>
 				<clan>DIVINE_N</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="486" max="1135" chance="70" /> <!-- Adena -->
 				<item id="14166" min="1" max="1" chance="0.750000000000002" /> <!-- Life Stone - Lv. 84 -->
@@ -7266,10 +7266,10 @@
 			<spoil>
 				<item id="9551" min="1" max="1" chance="0.75" /> <!-- Holy Stone -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="13" />
 			<height normal="47" />
@@ -7298,7 +7298,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4276" level="5" /> <!-- Weak Point against Bow/Crossbow Weapons -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -7314,14 +7314,14 @@
 			<skill id="5466" level="1" /> <!-- Holy Attacks -->
 			<skill id="5620" level="9" /> <!-- Short-Range Physical Attack Weakness -->
 			<skill id="6327" level="1" /> <!-- Sacred Worship -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" aggroRange="300" clanHelpRange="300" isAggressive="true">
-			<clan_list>
+			<clanList>
 				<clan>DIVINE_N</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="449" max="1049" chance="70" /> <!-- Adena -->
 				<item id="14166" min="1" max="1" chance="0.750000000000002" /> <!-- Life Stone - Lv. 84 -->
@@ -7335,10 +7335,10 @@
 			<spoil>
 				<item id="9551" min="1" max="1" chance="0.75" /> <!-- Holy Stone -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="24" />
 			<height normal="49" />
@@ -7371,7 +7371,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4276" level="4" /> <!-- Weak Point against Bow/Crossbow Weapons -->
 			<skill id="4285" level="4" /> <!-- Resist Sleep Attacks -->
 			<skill id="4287" level="4" /> <!-- Resist Hold Attacks -->
@@ -7391,15 +7391,15 @@
 			<skill id="6319" level="1" /> <!-- Sacred Magic Protection -->
 			<skill id="6502" level="17" /> <!-- NPC holy shot -->
 			<skill id="6686" level="1" /> <!-- Sacred Protector Cancel -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
-		<s_npc_prop_hp_rate>2</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>2</sNpcPropHpRate>
 		<ai type="BALANCED" aggroRange="300" clanHelpRange="500" isAggressive="true">
-			<clan_list>
+			<clanList>
 				<clan>N_DIVINE</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="843" max="1970" chance="70" /> <!-- Adena -->
 				<item id="14166" min="1" max="1" chance="1.17600000000001" /> <!-- Life Stone - Lv. 84 -->
@@ -7413,10 +7413,10 @@
 			<spoil>
 				<item id="9551" min="1" max="1" chance="0.75" /> <!-- Holy Stone -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="18" />
 			<height normal="44" />
@@ -7446,7 +7446,7 @@
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4276" level="4" /> <!-- Weak Point against Bow/Crossbow Weapons -->
 			<skill id="4285" level="4" /> <!-- Resist Sleep Attacks -->
 			<skill id="4287" level="4" /> <!-- Resist Hold Attacks -->
@@ -7463,15 +7463,15 @@
 			<skill id="5466" level="1" /> <!-- Holy Attacks -->
 			<skill id="6328" level="1" /> <!-- Fighter Judgement -->
 			<skill id="6329" level="1" /> <!-- Fighter Strike -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
-		<s_npc_prop_hp_rate>2</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>2</sNpcPropHpRate>
 		<ai type="BALANCED" aggroRange="300" clanHelpRange="500" isAggressive="true">
-			<clan_list>
+			<clanList>
 				<clan>N_DIVINE</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<drop>
 				<item id="57" min="844" max="1972" chance="70" /> <!-- Adena -->
 				<item id="14166" min="1" max="1" chance="1.09600000000001" /> <!-- Life Stone - Lv. 84 -->
@@ -7485,10 +7485,10 @@
 			<spoil>
 				<item id="9551" min="1" max="1" chance="0.75" /> <!-- Holy Stone -->
 			</spoil>
-			<lucky_drop>
+			<lucky>
 				<item id="39629" min="1" max="1" chance="100" /> <!-- Fortune Pocket - Stage 1 -->
-			</lucky_drop>
-		</drop_lists>
+			</lucky>
+		</dropLists>
 		<collision>
 			<radius normal="24" />
 			<height normal="49" />

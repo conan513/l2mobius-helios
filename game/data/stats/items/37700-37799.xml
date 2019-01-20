@@ -86,6 +86,7 @@
 	</item>
 	<item id="37704" name="Love Potion" type="EtcItem">
 		<!-- Herb that modifies the appearance of weapons for Valentine's Day. -->
+		<set name="icon" val="icon.etc_whiteday_herb" />
 		<set name="immediate_effect" val="true" />
 		<set name="ex_immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -94,7 +95,6 @@
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<set name="icon" val="icon.etc_whiteday_herb" />
 		<set name="for_npc" val="true" />
 		<skills>
 			<skill id="17154" level="1" /> <!-- Love Potion -->
@@ -358,21 +358,21 @@
 			<skill id="13563" level="5" type="ON_ENCHANT" type_value="10" />
 			<skill id="13564" level="1" type="ON_ENCHANT" type_value="7" />
 			<skill id="13564" level="2" type="ON_ENCHANT" type_value="8" />
-			<skill id="13564" level="3" type="ON_ENCHANT" type_value="9" /> 
-			<skill id="13564" level="4" type="ON_ENCHANT" type_value="10" /> 
-			<skill id="13565" level="1" type="ON_ENCHANT" type_value="8" /> 
-			<skill id="13565" level="2" type="ON_ENCHANT" type_value="9" /> 
-			<skill id="13565" level="3" type="ON_ENCHANT" type_value="10" /> 
-			<skill id="13566" level="1" type="ON_ENCHANT" type_value="9" /> 
+			<skill id="13564" level="3" type="ON_ENCHANT" type_value="9" />
+			<skill id="13564" level="4" type="ON_ENCHANT" type_value="10" />
+			<skill id="13565" level="1" type="ON_ENCHANT" type_value="8" />
+			<skill id="13565" level="2" type="ON_ENCHANT" type_value="9" />
+			<skill id="13565" level="3" type="ON_ENCHANT" type_value="10" />
+			<skill id="13566" level="1" type="ON_ENCHANT" type_value="9" />
 			<skill id="13566" level="2" type="ON_ENCHANT" type_value="10" />
-			<skill id="13567" level="1" type="ON_ENCHANT" type_value="10" />  
+			<skill id="13567" level="1" type="ON_ENCHANT" type_value="10" />
 		</skills>
 		<stats>
 			<stat type="pDef">28</stat>
 		</stats>
 	</item>
 	<item id="37719" name="Pa'agrio's Special Pack" type="EtcItem">
-		<!-- Wrapped Pack containing Pa'agrio's Shirt. There is also a low chance or acquiring a Shiny Elemental Shirt. Warning: The shirt acquired after opening the box is restored to the character and cannot be moved. -->
+		<!-- Wrapped Pack containing Pa'agrio's Shirt. There is also a low chance or acquiring a Shiny Elemental Shirt.. Warning: The shirt acquired after opening the box is restored to the character and cannot be moved. -->
 		<set name="icon" val="icon.shirt_special_box_i02" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
@@ -382,12 +382,12 @@
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
 		<capsuled_items>
-			<item id="23240" min="1" max="1" chance="100" />
-			<item id="37710" min="1" max="1" chance="5" />
+			<item id="23240" min="1" max="1" chance="100" /> <!-- Pa'agrio's Shirt -->
+			<item id="37710" min="1" max="1" chance="5" /> <!-- Coco's Transformation Cookie -->
 		</capsuled_items>
 	</item>
 	<item id="37720" name="Maphr's Special Pack" type="EtcItem">
-		<!-- Wrapped Pack containing Maphr's Shirt. There is also a low chance or acquiring a Shiny Elemental Shirt. Warning: The shirt acquired after opening the box is restored to the character and cannot be moved. -->
+		<!-- Wrapped Pack containing Maphr's Shirt. There is also a low chance or acquiring a Shiny Elemental Shirt.. Warning: The shirt acquired after opening the box is restored to the character and cannot be moved. -->
 		<set name="icon" val="icon.shirt_special_box_i01" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
@@ -397,12 +397,12 @@
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
 		<capsuled_items>
-			<item id="23307" min="1" max="1" chance="100" />
-			<item id="37710" min="1" max="1" chance="5" />
+			<item id="23307" min="1" max="1" chance="100" /> <!-- Maphr's Shirt -->
+			<item id="37710" min="1" max="1" chance="5" /> <!-- Coco's Transformation Cookie -->
 		</capsuled_items>
 	</item>
 	<item id="37721" name="Sayha's Special Pack" type="EtcItem">
-		<!-- Wrapped Pack containing Sayha's Shirt. There is also a low chance or acquiring a Shiny Elemental Shirt. Warning: The shirt acquired after opening the box is restored to the character and cannot be moved. -->
+		<!-- Wrapped Pack containing Sayha's Shirt. There is also a low chance or acquiring a Shiny Elemental Shirt.. Warning: The shirt acquired after opening the box is restored to the character and cannot be moved. -->
 		<set name="icon" val="icon.shirt_special_box_i03" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
@@ -412,12 +412,12 @@
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
 		<capsuled_items>
-			<item id="23301" min="1" max="1" chance="100" />
-			<item id="37710" min="1" max="1" chance="5" />
+			<item id="23301" min="1" max="1" chance="100" /> <!-- Sayha's Shirt -->
+			<item id="37710" min="1" max="1" chance="5" /> <!-- Coco's Transformation Cookie -->
 		</capsuled_items>
 	</item>
 	<item id="37722" name="Eva's Special Pack" type="EtcItem">
-		<!-- Wrapped Pack containing Eva's Shirt. There is also a low chance or acquiring a Shiny Elemental Shirt. Warning: The shirt acquired after opening the box is restored to the character and cannot be moved. -->
+		<!-- Wrapped Pack containing Eva's Shirt. There is also a low chance or acquiring a Shiny Elemental Shirt.. Warning: The shirt acquired after opening the box is restored to the character and cannot be moved. -->
 		<set name="icon" val="icon.shirt_special_box_i00" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
@@ -427,8 +427,8 @@
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
 		<capsuled_items>
-			<item id="23304" min="1" max="1" chance="100" />
-			<item id="37710" min="1" max="1" chance="5" />
+			<item id="23304" min="1" max="1" chance="100" /> <!-- Eva's Shirt -->
+			<item id="37710" min="1" max="1" chance="5" /> <!-- Coco's Transformation Cookie -->
 		</capsuled_items>
 	</item>
 	<item id="37723" name="Shiny Elemental Shirt Exchange Stone" type="EtcItem">
@@ -472,12 +472,12 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
-			<item id="37732" min="1" max="1" chance="100" /> <!-- Blessed Antharas's Earring -->
-			<item id="37733" min="1" max="1" chance="100" /> <!-- Blessed Valakas's Necklace -->
-			<item id="37734" min="1" max="1" chance="100" /> <!-- Tauti's Ring -->
-			<item id="37735" min="1" max="1" chance="100" /> <!-- Earth Wyrm Heart Ring -->
-			<item id="37736" min="1" max="1" chance="100" /> <!-- Blessed Zaken's Earring -->
-			<item id="37737" min="1" max="1" chance="100" /> <!-- Ruler's Authority Belt -->
+			<item id="37732" min="1" max="1" chance="100" /> <!-- Blessed Antharas' Earring - 7-day -->
+			<item id="37733" min="1" max="1" chance="100" /> <!-- Blessed Valakas' Necklace - 7-day -->
+			<item id="37734" min="1" max="1" chance="100" /> <!-- Tauti's Ring - 7-day -->
+			<item id="37735" min="1" max="1" chance="100" /> <!-- Earth Wyrm Heart Ring - 7-day -->
+			<item id="37736" min="1" max="1" chance="100" /> <!-- Blessed Zaken's Earring - 7-day -->
+			<item id="37737" min="1" max="1" chance="100" /> <!-- Ruler's Authority - 7-day -->
 		</capsuled_items>
 	</item>
 	<item id="37728" name="Dandy's Challenge Box" type="EtcItem">
@@ -495,7 +495,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
-			<item id="37731" min="1" max="1" chance="100" /> <!-- Dandy's Challenge Scroll -->
+			<item id="37731" min="1" max="1" chance="100" /> <!-- Dandy's Scroll: Challenge -->
 			<item id="37725" min="1" max="1" chance="100" /> <!-- NC Dinos Uniform -->
 		</capsuled_items>
 	</item>
@@ -869,6 +869,7 @@
 	</item>
 	<item id="37757" name="Certificate: 50 Olympiad Matches" type="EtcItem">
 		<!-- Document that proves participation in the Olympiad Match 50. Take this document to the Olympiad Manager to receive a whole reward. -->
+		<set name="icon" val="icon.mercenary_certification_i02" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
@@ -877,7 +878,6 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
 		<set name="is_private_storeable" val="false" />
-		<set name="icon" val="icon.mercenary_certification_i02" />
 	</item>
 	<item id="37758" name="Indomitable Hero's Olympiad Treasure Chest" type="EtcItem">
 		<!-- Treasure box given to a warrior participating in the Olympiad Match 50 with an indomitable will. -->
@@ -893,6 +893,7 @@
 	</item>
 	<item id="37759" name="Faint Dimensional Energy - Stage 1" type="EtcItem">
 		<!-- Faint energy of dimensional strength. It is needed to receive rewards from Mermoden or to raise the stage for even greater rewards. But, in order to raise to stage 2, the next period's defense must be successful. 15-day. -->
+		<set name="icon" val="icon.etc_magic_energy_i00" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
@@ -901,11 +902,11 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
 		<set name="is_private_storeable" val="false" />
-		<set name="icon" val="icon.etc_magic_energy_i00" />
 		<set name="time" val="21600" />
 	</item>
 	<item id="37760" name="Faint Dimensional Energy - Stage 2" type="EtcItem">
 		<!-- Faint energy of dimensional strength. It is needed to receive rewards from Mermoden or to raise the stage. If you raise the stage, you can receive even more rewards. But, in order to raise to stage 3, the next period's defense must be successful. 15-day. -->
+		<set name="icon" val="icon.etc_magic_energy_i01" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
@@ -914,11 +915,11 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
 		<set name="is_private_storeable" val="false" />
-		<set name="icon" val="icon.etc_magic_energy_i01" />
 		<set name="time" val="21600" />
 	</item>
 	<item id="37761" name="Faint Dimensional Energy - Stage 3" type="EtcItem">
 		<!-- Faint energy of dimensional strength. It is needed to receive rewards from Mermoden or to raise the stage. If you raise the stage, you can receive even more rewards. But, in order to raise to stage 4, the next period's defense must be successful. 15-day. -->
+		<set name="icon" val="icon.etc_magic_energy_i01" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
@@ -927,11 +928,11 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
 		<set name="is_private_storeable" val="false" />
-		<set name="icon" val="icon.etc_magic_energy_i01" />
 		<set name="time" val="21600" />
 	</item>
 	<item id="37762" name="Faint Dimensional Energy - Stage 4" type="EtcItem">
 		<!-- Faint energy of dimensional strength. It is the highest stage for receiving rewards from Mermoden. -->
+		<set name="icon" val="icon.etc_magic_energy_i02" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
@@ -940,7 +941,6 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
 		<set name="is_private_storeable" val="false" />
-		<set name="icon" val="icon.etc_magic_energy_i02" />
 	</item>
 	<item id="37763" name="Exalted Cloak" type="Armor">
 		<!-- A cloak that symbolizes the Exalted status. STR/DEX/CON/INT/WIT/MEN/LUC/CHA +1. -->
@@ -960,7 +960,7 @@
 		</cond>
 		<cond>
 			<player level="80" />
-		</cond>		
+		</cond>
 		<skills>
 			<skill id="13771" level="1" />
 		</skills>
@@ -984,6 +984,7 @@
 	</item>
 	<item id="37765" name="Elikia's Letter" type="EtcItem">
 		<!-- Message sent from Elikia to Leona Blackbird. -->
+		<set name="icon" val="icon.etc_letter_envelope_i00" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
@@ -992,7 +993,6 @@
 		<set name="is_commissionable" val="false" />
 		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
-		<set name="icon" val="icon.etc_letter_envelope_i00" />
 	</item>
 	<item id="37766" name="Chaos Fragment" type="EtcItem">
 		<!-- An item obtained by defeating monsters in the Beleth's Magic Circle area in Hellbound. -->
@@ -1034,6 +1034,7 @@
 	</item>
 	<item id="37769" name="Dimensional Energy - Stage 5" type="EtcItem">
 		<!-- Energy of the dimensions. It is the highest stage for receiving rewards from Mermoden. -->
+		<set name="icon" val="icon.etc_magic_energy_i02" />
 		<set name="is_clan_depositable" val="false" />
 		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
@@ -1042,7 +1043,6 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
 		<set name="is_private_storeable" val="false" />
-		<set name="icon" val="icon.etc_magic_energy_i02" />
 	</item>
 	<item id="37770" name="Scroll of Blessing: Weapon (R-grade)" type="EtcItem">
 		<!-- There is a small chance that the Blacksmith of Mammon will exchange for you standard Requiem or Apocalypse equipment for Blessed equipment. -->

@@ -1,77 +1,48 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
 	<skill id="13500" toLevel="1" name="Monster Weapon Appearance Stone: Glakias' Hammer">
-		<!-- AUTO GENERATED SKILL -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="13501" toLevel="1" name="Monster Weapon Appearance Stone: Tebot's Dual Blunt Weapon">
-		<!-- AUTO GENERATED SKILL -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="13502" toLevel="1" name="Monster Weapon Appearance Stone: Drakos' Dagger">
-		<!-- AUTO GENERATED SKILL -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="13503" toLevel="1" name="Monster Weapon Appearance Stone: Drakos' Dual Dagger">
-		<!-- AUTO GENERATED SKILL -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="13504" toLevel="1" name="Monster Weapon Appearance Stone: Guillotine's Greatsword">
-		<!-- AUTO GENERATED SKILL -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="13505" toLevel="1" name="Monster Weapon Appearance Stone: Thesakar's Axe">
-		<!-- AUTO GENERATED SKILL -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="13506" toLevel="1" name="Monster Weapon Appearance Stone: Mimilead's Staff">
-		<!-- AUTO GENERATED SKILL -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="13507" toLevel="1" name="Monster Weapon Appearance Stone: Satyr's Staff">
-		<!-- AUTO GENERATED SKILL -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="13508" toLevel="1" name="Monster Weapon Appearance Stone: Kanadis' Hand">
-		<!-- AUTO GENERATED SKILL -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="13509" toLevel="1" name="Monster Weapon Appearance Stone: Kanadis' Bow">
-		<!-- AUTO GENERATED SKILL -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="13510" toLevel="1" name="Monster Weapon Appearance Stone: Centaur's Bow">
-		<!-- AUTO GENERATED SKILL -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="13511" toLevel="1" name="Monster Weapon Appearance Stone: Spicula's Crossbow">
-		<!-- AUTO GENERATED SKILL -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="13512" toLevel="1" name="Monster Weapon Appearance Stone: Theor's Shield">
-		<!-- AUTO GENERATED SKILL -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="13513" toLevel="1" name="Monster Weapon Appearance Stone: Shield of Corruption">
-		<!-- AUTO GENERATED SKILL -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="13514" toLevel="1" name="Giant's Damage Reflect">
-		<!-- Updated to Helios -->
 		<!-- Reflects 20% of damage to attacker. -->
 		<icon>icon.skill0086</icon>
 		<operateType>P</operateType>
@@ -82,18 +53,16 @@
 		</effects>
 	</skill>
 	<skill id="13515" toLevel="1" name="Giant's Critical Damage">
-		<!-- Updated to Helios -->
 		<!-- For 5 min., P. Critical Damage + 15%. -->
+		<icon>icon.skill0482</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>300</abnormalTime>
 		<abnormalType>ABNORMAL_ITEM</abnormalType>
-		<icon>icon.skill0482</icon>
 		<operateType>A2</operateType>
 		<hitTime>1000</hitTime>
 		<coolTime>500</coolTime>
 		<effectPoint>235</effectPoint>
 		<reuseDelay>5000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -105,7 +74,6 @@
 		</effects>
 	</skill>
 	<skill id="13516" toLevel="1" name="Giant's Damage Reflect Shield">
-		<!-- Updated to Helios -->
 		<!-- Damage Reflect Resistance + 50%. -->
 		<icon>icon.active_damage_shield1</icon>
 		<operateType>P</operateType>
@@ -116,18 +84,16 @@
 		</effects>
 	</skill>
 	<skill id="13517" toLevel="1" name="Giant's Battle Roar">
-		<!-- Updated to Helios -->
 		<!-- Max HP/CP + 10% for 5 min. -->
+		<icon>icon.skill3123</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>300</abnormalTime>
 		<abnormalType>ABNORMAL_ITEM</abnormalType>
-		<icon>icon.skill3123</icon>
 		<operateType>A2</operateType>
 		<hitTime>500</hitTime>
 		<coolTime>500</coolTime>
 		<effectPoint>235</effectPoint>
 		<reuseDelay>5000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -143,13 +109,12 @@
 		</effects>
 	</skill>
 	<skill id="13518" toLevel="1" name="Giant's Celestial Shield">
-		<!-- Updated to Helios -->
 		<!-- Invincible for 30 sec. Invincibility is removed when you attack. -->
+		<icon>icon.skill11758</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>30</abnormalTime>
 		<abnormalType>INVINCIBILITY</abnormalType>
 		<abnormalVisualEffect>INVINCIBILITY</abnormalVisualEffect>
-		<icon>icon.skill11758</icon>
 		<operateType>A2</operateType>
 		<removedOnAnyActionExceptMove>true</removedOnAnyActionExceptMove>
 		<hitTime>500</hitTime>
@@ -158,7 +123,6 @@
 		<staticReuse>true</staticReuse>
 		<effectPoint>867</effectPoint>
 		<isMagic>1</isMagic>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<basicProperty>NONE</basicProperty>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -177,20 +141,18 @@
 		</effects>
 	</skill>
 	<skill id="13519" toLevel="1" name="Giant's Undying Will">
-		<!-- Updated to Helios -->
 		<!-- Does not die for 10 sec. Can be used when HP is 20% or below. -->
+		<icon>icon.race_orc_immortality</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>10</abnormalTime>
 		<abnormalType>INVINCIBILITY</abnormalType>
 		<abnormalVisualEffect>INVINCIBILITY</abnormalVisualEffect>
-		<icon>icon.race_orc_immortality</icon>
 		<operateType>A2</operateType>
 		<hitTime>500</hitTime>
 		<coolTime>500</coolTime>
 		<effectPoint>1</effectPoint>
 		<reuseDelay>600000</reuseDelay>
 		<staticReuse>true</staticReuse>
-		<rideState>NONE</rideState>
 		<basicProperty>NONE</basicProperty>
 		<isMagic>2</isMagic>
 		<targetType>SELF</targetType>
@@ -222,13 +184,12 @@
 		</effects>
 	</skill>
 	<skill id="13520" toLevel="1" name="Giant's Silence">
-		<!-- Updated to Helios -->
 		<!-- For 5 sec., locks target's P. Skill/ M. Skill. PvP Only. -->
+		<icon>icon.skill1064</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>5</abnormalTime>
 		<abnormalType>SILENCE</abnormalType>
 		<abnormalVisualEffect>SILENCE</abnormalVisualEffect>
-		<icon>icon.skill1064</icon>
 		<operateType>A2</operateType>
 		<castRange>1000</castRange>
 		<effectRange>1500</effectRange>
@@ -236,7 +197,6 @@
 		<coolTime>500</coolTime>
 		<reuseDelay>300000</reuseDelay>
 		<staticReuse>true</staticReuse>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<basicProperty>MAGIC</basicProperty>
 		<effectPoint>-379</effectPoint>
@@ -254,13 +214,12 @@
 		</effects>
 	</skill>
 	<skill id="13521" toLevel="1" name="Giant's Sleep">
-		<!-- Updated to Helios -->
 		<!-- Sleeps target for 5 sec. PvP Only. -->
+		<icon>icon.skill1069</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>5</abnormalTime>
 		<abnormalType>SLEEP</abnormalType>
 		<abnormalVisualEffect>SLEEP</abnormalVisualEffect>
-		<icon>icon.skill1069</icon>
 		<operateType>A2</operateType>
 		<castRange>1000</castRange>
 		<effectRange>1500</effectRange>
@@ -268,7 +227,6 @@
 		<coolTime>500</coolTime>
 		<reuseDelay>300000</reuseDelay>
 		<staticReuse>true</staticReuse>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>85</magicLvl>
 		<isMagic>1</isMagic>
@@ -288,12 +246,11 @@
 		</effects>
 	</skill>
 	<skill id="13522" toLevel="1" name="Giant's Winter">
-		<!-- Updated to Helios -->
 		<!-- For 10 sec., decreases target's Atk. Spd./ Casting Spd. by 50%. -->
+		<icon>icon.skill1454</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>10</abnormalTime>
 		<abnormalType>ATTACK_TIME_UP</abnormalType>
-		<icon>icon.skill1454</icon>
 		<operateType>A2</operateType>
 		<castRange>1000</castRange>
 		<effectRange>1500</effectRange>
@@ -301,7 +258,6 @@
 		<coolTime>500</coolTime>
 		<reuseDelay>300000</reuseDelay>
 		<staticReuse>true</staticReuse>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<isMagic>1</isMagic>
 		<magicLvl>85</magicLvl>
@@ -323,13 +279,12 @@
 		</effects>
 	</skill>
 	<skill id="13523" toLevel="1" name="Giant's Critical Weakness">
-		<!-- Updated to Helios -->
 		<!-- For 10 sec., increases target's Received Critical Damage and Critical Rate by 90%. -->
+		<icon>icon.skill1222</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>10</abnormalTime>
 		<abnormalType>T_CRT_RATE_UP</abnormalType>
 		<nextAction>ATTACK</nextAction>
-		<icon>icon.skill1222</icon>
 		<operateType>A2</operateType>
 		<castRange>1000</castRange>
 		<effectRange>1500</effectRange>
@@ -337,7 +292,6 @@
 		<coolTime>500</coolTime>
 		<reuseDelay>300000</reuseDelay>
 		<staticReuse>true</staticReuse>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<isMagic>4</isMagic>
 		<magicLvl>85</magicLvl>
@@ -359,8 +313,7 @@
 		</effects>
 	</skill>
 	<skill id="13524" toLevel="1" name="Lindvior's Earring">
-		<!-- Updated to IO -->
-		<!-- Petrification Attack/Resistance + 50%, Knock Back/Knock Down Attack/Resistance + 40%, Pull Attack/Resistance + 40%, P. Critical Damage + 10%, M. Critical Damage + 10%, and P./M. Abnormal State Reflect + 10%. Has a 10% chance of returning damage magic back to the attacking target. Speed + 5, DEX + 3, and WIT + 3. Increases Wind/Dark Resistance. Equipping two will only give the effect of one. -->
+		<!-- P./M. Critical Damage +10%, Movement Speed +5, DEX/WIT +3, Wind/Dark Attribute Def. +30, Petrify Atk./Def. Success Rate +50%, Knock Back/Knock Down/Pull Atk./Def. Success Rate +40%, Danger Zone Def. Success Rate +40%, Abnormal Status Reflection +10%, Reflect Damage Magic +10% -->
 		<icon>icon.accessory_earring_of_lind_i00</icon>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -419,8 +372,7 @@
 		</effects>
 	</skill>
 	<skill id="13525" toLevel="1" name="Blessed Lindvior's Earring">
-		<!-- Updated to IO -->
-		<!-- Petrification Attack/Resistance + 50%, Knock Back/Knock Down Attack/Resistance + 40%, Pull Attack/Resistance + 40%, P. Critical Damage + 10%, M. Critical Damage + 10%, and P./M. Abnormal State Reflect + 10%. Has a 10% chance of returning damage magic back to the attacking target. Speed + 5, DEX + 3, and WIT + 3. Increases Wind/Dark Resistance. Equipping two will only give the effect of one. -->
+		<!-- P./M. Critical Damage +10%, Movement Speed +5, DEX/WIT +3, Wind/Dark Attribute Def. +30, Petrify Atk./Def. Success Rate +50%, Knock Back/Knock Down/Pull Atk./Def. Success Rate +40%, Danger Zone Def. Success Rate +40%, Abnormal Status Reflection +10%, Reflect Damage Magic +10% -->
 		<icon>icon.accessory_earring_of_lind_i00</icon>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -481,13 +433,11 @@
 		</effects>
 	</skill>
 	<skill id="13526" toLevel="1" name="Blessed Lindvior's Earring">
-		<!-- Updated to IO -->
-		<!-- Removes Knock Back/ Knock Down effect. For 5 sec., has Knock Back/ Knock Down Resistance. -->
+		<!-- Immediately cancels out Knock Down/Knock Back effect when used -->
 		<icon>icon.accessory_earring_of_lind_i00</icon>
 		<operateType>A2</operateType>
 		<hitTime>200</hitTime>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<magicLvl>85</magicLvl>
@@ -527,7 +477,7 @@
 			<effect name="CriticalDamage">
 				<amount>15</amount>
 				<mode>PER</mode>
-			</effect>			
+			</effect>
 		</effects>
 	</skill>
 	<skill id="13528" toLevel="1" name="Enhanced Octavis' Earring (Warrior)">
@@ -551,7 +501,7 @@
 			<effect name="VampiricAttack">
 				<amount>9</amount>
 				<chance>80</chance>
-			</effect>			
+			</effect>
 		</effects>
 	</skill>
 	<skill id="13529" toLevel="1" name="Enhanced Octavis' Necklace (Warrior)">
@@ -598,7 +548,7 @@
 			<effect name="CriticalDamage">
 				<amount>10</amount>
 				<mode>PER</mode>
-			</effect>			
+			</effect>
 		</effects>
 	</skill>
 	<skill id="13531" toLevel="1" name="Enhanced Istina' Earring (Warrior)">
@@ -622,7 +572,7 @@
 			<effect name="VampiricAttack">
 				<amount>5</amount>
 				<chance>80</chance>
-			</effect>			
+			</effect>
 		</effects>
 	</skill>
 	<skill id="13532" toLevel="1" name="Enhanced Istina' Necklace (Warrior)">
@@ -669,7 +619,7 @@
 			<effect name="MagicCriticalDamage">
 				<amount>10</amount>
 				<mode>PER</mode>
-			</effect>			
+			</effect>
 		</effects>
 	</skill>
 	<skill id="13534" toLevel="1" name="Enhanced Octavis' Earring (Wizard)">
@@ -693,7 +643,7 @@
 			<effect name="VampiricAttack">
 				<amount>5</amount>
 				<chance>80</chance>
-			</effect>			
+			</effect>
 		</effects>
 	</skill>
 	<skill id="13535" toLevel="1" name="Enhanced Octavis' Necklace (Wizard)">
@@ -740,7 +690,7 @@
 			<effect name="MagicCriticalDamage">
 				<amount>15</amount>
 				<mode>PER</mode>
-			</effect>			
+			</effect>
 		</effects>
 	</skill>
 	<skill id="13537" toLevel="1" name="Enhanced Istina' Earring (Wizard)">
@@ -764,7 +714,7 @@
 			<effect name="VampiricAttack">
 				<amount>5</amount>
 				<chance>80</chance>
-			</effect>			
+			</effect>
 		</effects>
 	</skill>
 	<skill id="13538" toLevel="1" name="Enhanced Istina' Necklace (Wizard)">
@@ -792,7 +742,7 @@
 		</effects>
 	</skill>
 	<skill id="13539" toLevel="1" name="Baium's Soul Ring">
-		<!-- Stun/Hold/Mental Attack Rate + 25%, P./ M. Critical Damage + 15%, Atk./Casting Spd. + 5%, P. Accuracy/M. Accuracy + 4. Wearing two of the items will only give the effect of one. -->
+		<!-- P./M. Accuracy +4, P./M. Critical Damage +15%, Atk. Spd./Casting Spd. +5%, Stun/Hold/Mental Atk./Def. Success Rate +25% -->
 		<icon>icon.accessory_ring_of_baium_i00</icon>
 		<operateType>P</operateType>
 		<effects>
@@ -808,15 +758,15 @@
 			<effect name="MagicCriticalDamage">
 				<amount>15</amount>
 				<mode>PER</mode>
-			</effect>			
+			</effect>
 			<effect name="PhysicalAttackSpeed">
 				<amount>5</amount>
 				<mode>PER</mode>
-			</effect>			
+			</effect>
 			<effect name="MagicalAttackSpeed">
 				<amount>5</amount>
 				<mode>PER</mode>
-			</effect>			
+			</effect>
 			<effect name="Accuracy">
 				<amount>4</amount>
 				<mode>DIFF</mode>
@@ -832,7 +782,7 @@
 		</effects>
 	</skill>
 	<skill id="13540" toLevel="1" name="Frintezza's Soul Necklace">
-		<!-- Poison/Bleed/Stun/Hold/Paralyze Resistance + 20%, Poison/Bleed/Stun/Hold/Paralyze Attack Rate + 20%, Damage Reflect + 5%, Speed + 5. Cooldown - 10%. -->
+		<!-- Movement Speed +5, Poison/Bleed/Stun/Hold/Paralysis Atk./Def. Success Rate +20%, Skill Cooldown -10%, Damage Reflection +5% -->
 		<icon>icon.accessory_necklace_of_frintessa_i00</icon>
 		<operateType>P</operateType>
 		<effects>
@@ -926,7 +876,7 @@
 			<effect name="StatUp">
 				<stat>WIT</stat>
 				<amount>1</amount>
-			</effect>			
+			</effect>
 			<effect name="StatUp">
 				<stat>MEN</stat>
 				<amount>2</amount>
@@ -934,11 +884,10 @@
 		</effects>
 	</skill>
 	<skill id="13542" toLevel="1" name="Lindvior's Earring">
-		<!-- Removes Knock Back/ Knock Down effect. For 5 sec., has Knock Back/ Knock Down Resistance. -->
+		<!-- Immediately cancels out Knock Down/Knock Back effect when used -->
 		<icon>icon.accessory_earring_of_lind_i00</icon>
 		<operateType>A2</operateType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>		
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>5</abnormalTime>
 		<abnormalResists>KNOCKDOWN</abnormalResists>
@@ -950,7 +899,7 @@
 		<canBeDispelled>false</canBeDispelled>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
-		<effects>			
+		<effects>
 			<effect name="DefenceTrait">
 				<KNOCKBACK>100</KNOCKBACK>
 				<KNOCKDOWN>100</KNOCKDOWN>
@@ -1047,7 +996,7 @@
 		</effects>
 	</skill>
 	<skill id="13547" toLevel="1" name="Mysterious Shaper">
-		<!-- Max HP + 25%, Max MP + 30%, Max CP + 50%, P. Atk. + 440, Atk. Spd. + 15%, and PVP Damage + 15%. -->
+		<!-- Max HP + 25%, Max MP + 30%, Max CP + 50%, P. Atk. + 440, Atk. Spd. + 15%, and PvP Damage + 15%. -->
 		<icon>icon.bm_the_dagger_of_hero</icon>
 		<operateType>P</operateType>
 		<effects>
@@ -1082,7 +1031,7 @@
 		</effects>
 	</skill>
 	<skill id="13548" toLevel="1" name="Mysterious Cutter">
-		<!-- Max HP + 25%, Max MP + 30%, Max CP + 50%, P. Atk. + 503, Atk. Spd. + 15%, and PVP Damage + 15%. -->
+		<!-- Max HP + 25%, Max MP + 30%, Max CP + 50%, P. Atk. + 503, Atk. Spd. + 15%, and PvP Damage + 15%. -->
 		<icon>icon.bm_the_sword_of_hero</icon>
 		<operateType>P</operateType>
 		<effects>
@@ -1117,7 +1066,7 @@
 		</effects>
 	</skill>
 	<skill id="13549" toLevel="1" name="Mysterious Slasher">
-		<!-- Max HP + 25%, Max MP + 30%, Max CP + 50%, P. Atk. + 612, Atk. Spd. + 15%, and PVP Damage + 15%. -->
+		<!-- Max HP + 25%, Max MP + 30%, Max CP + 50%, P. Atk. + 612, Atk. Spd. + 15%, and PvP Damage + 15%. -->
 		<icon>icon.bm_the_two_handed_sword_of_hero</icon>
 		<operateType>P</operateType>
 		<effects>
@@ -1152,7 +1101,7 @@
 		</effects>
 	</skill>
 	<skill id="13550" toLevel="1" name="Mysterious Avenger">
-		<!-- Max HP + 25%, Max MP + 30%, Max CP + 50%, P. Atk. + 503, Atk. Spd. + 15%, and PVP Damage + 15%. -->
+		<!-- Max HP + 25%, Max MP + 30%, Max CP + 50%, P. Atk. + 503, Atk. Spd. + 15%, and PvP Damage + 15%. -->
 		<icon>icon.bm_the_axe_of_hero</icon>
 		<operateType>P</operateType>
 		<effects>
@@ -1187,7 +1136,7 @@
 		</effects>
 	</skill>
 	<skill id="13551" toLevel="1" name="Mysterious Fighter">
-		<!-- Max HP + 25%, Max MP + 30%, Max CP + 50%, P. Atk. + 612, Atk. Spd. + 15%, and PVP Damage + 15%. -->
+		<!-- Max HP + 25%, Max MP + 30%, Max CP + 50%, P. Atk. + 612, Atk. Spd. + 15%, and PvP Damage + 15%. -->
 		<icon>icon.bm_the_fist_of_hero</icon>
 		<operateType>P</operateType>
 		<effects>
@@ -1222,7 +1171,7 @@
 		</effects>
 	</skill>
 	<skill id="13552" toLevel="1" name="Mysterious Stormer">
-		<!-- Max HP + 25%, Max MP + 30%, Max CP + 50%, P. Atk. + 503, Atk. Spd. + 15%, and PVP Damage + 15%. Can attack multiple enemies. -->
+		<!-- Max HP + 25%, Max MP + 30%, Max CP + 50%, P. Atk. + 503, Atk. Spd. + 15%, and PvP Damage + 15%. Can attack multiple enemies. -->
 		<icon>icon.bm_the_pole_of_hero</icon>
 		<operateType>P</operateType>
 		<effects>
@@ -1264,7 +1213,7 @@
 		</effects>
 	</skill>
 	<skill id="13553" toLevel="1" name="Mysterious Thrower">
-		<!-- Max HP + 25%, Max MP + 30%, Max CP + 50%, P. Atk. + 991, Atk. Spd. + 15%, and PVP Damage + 15%. -->
+		<!-- Max HP + 25%, Max MP + 30%, Max CP + 50%, P. Atk. + 991, Atk. Spd. + 15%, and PvP Damage + 15%. -->
 		<icon>icon.bm_the_bow_of_hero</icon>
 		<operateType>P</operateType>
 		<effects>
@@ -1299,7 +1248,7 @@
 		</effects>
 	</skill>
 	<skill id="13554" toLevel="1" name="Mysterious Shooter">
-		<!-- Max HP + 25%, Max MP + 30%, Max CP + 50%, P. Atk. + 893, Atk. Spd. + 15%, and PVP Damage + 15%. -->
+		<!-- Max HP + 25%, Max MP + 30%, Max CP + 50%, P. Atk. + 893, Atk. Spd. + 15%, and PvP Damage + 15%. -->
 		<icon>icon.bm_infinity_shooter</icon>
 		<operateType>P</operateType>
 		<effects>
@@ -1358,7 +1307,7 @@
 				<amount>15</amount>
 				<mode>PER</mode>
 			</effect>
-			<effect name="PvpMagicalSkillDamageBonus"> 
+			<effect name="PvpMagicalSkillDamageBonus">
 				<amount>15</amount>
 				<mode>PER</mode>
 			</effect>
@@ -1389,7 +1338,7 @@
 				<amount>15</amount>
 				<mode>PER</mode>
 			</effect>
-			<effect name="PvpMagicalSkillDamageBonus"> 
+			<effect name="PvpMagicalSkillDamageBonus">
 				<amount>15</amount>
 				<mode>PER</mode>
 			</effect>
@@ -1420,14 +1369,14 @@
 				<amount>15</amount>
 				<mode>PER</mode>
 			</effect>
-			<effect name="PvpMagicalSkillDamageBonus"> 
+			<effect name="PvpMagicalSkillDamageBonus">
 				<amount>15</amount>
 				<mode>PER</mode>
 			</effect>
 		</effects>
 	</skill>
 	<skill id="13558" toLevel="1" name="Mysterious Dualsword">
-		<!-- Max HP + 25%, Max MP + 30%, Max CP + 50%, P. Atk. + 612, Atk. Spd. + 15%, and PVP Damage + 15%. -->
+		<!-- Max HP + 25%, Max MP + 30%, Max CP + 50%, P. Atk. + 612, Atk. Spd. + 15%, and PvP Damage + 15%. -->
 		<icon>icon.bm_r_dualsword</icon>
 		<operateType>P</operateType>
 		<effects>
@@ -1462,7 +1411,7 @@
 		</effects>
 	</skill>
 	<skill id="13559" toLevel="1" name="Mysterious Dual Dagger">
-		<!-- Max HP + 25%, Max MP + 30%, Max CP + 50%, P. Atk. + 503, Atk. Spd. + 15%, and PVP Damage + 15%. -->
+		<!-- Max HP + 25%, Max MP + 30%, Max CP + 50%, P. Atk. + 503, Atk. Spd. + 15%, and PvP Damage + 15%. -->
 		<icon>icon.bm_r_dualdagger</icon>
 		<operateType>P</operateType>
 		<effects>
@@ -1497,7 +1446,7 @@
 		</effects>
 	</skill>
 	<skill id="13560" toLevel="1" name="Mysterious Dual Blunt">
-		<!-- Max HP + 25%, Max MP + 30%, Max CP + 50%, P. Atk. + 612, Atk. Spd. + 15%, and PVP Damage + 15%. -->
+		<!-- Max HP + 25%, Max MP + 30%, Max CP + 50%, P. Atk. + 612, Atk. Spd. + 15%, and PvP Damage + 15%. -->
 		<icon>icon.bm_r_dualblunt</icon>
 		<operateType>P</operateType>
 		<effects>
@@ -1543,7 +1492,7 @@
 		</effects>
 	</skill>
 	<skill id="13562" toLevel="10" name="Enchant Effect: Shiny Elemental Shirt">
-		<!-- M. Def. + 9. -->
+		<!-- M. Def. + $s1. -->
 		<icon>BranchSys2.icon.etc_scroll_of_enchant_shirt_i00</icon>
 		<operateType>P</operateType>
 		<effects>
@@ -1882,7 +1831,7 @@
 		</effects>
 	</skill>
 	<skill id="13563" toLevel="5" name="Einhasad's Wrath">
-		<!-- Increases P. Atk + 10%, M. Atk. + 20%, Atk. Spd. + 10%, Casting Spd. + 10%. Decreases P. Def. and M. Def. by 10%. Cooldown is 30 minutes. -->
+		<!-- For $s1, increases P. Atk + $s2, M. Atk. + $s3, Atk. Spd. + $s4, Casting Spd. + $s5. Decreases P. Def. and M. Def. by $s6. Cooldown is $s7 minutes. -->
 		<icon>icon.ainhasard_shirt</icon>
 		<operateType>A2</operateType>
 		<targetType>SELF</targetType>
@@ -1922,7 +1871,7 @@
 		</effects>
 	</skill>
 	<skill id="13564" toLevel="4" name="Einhasad's Protection">
-		<!-- Invincible for 5 sec. Cooldown is 30 min. -->
+		<!-- Invincible for $s1. Cooldown is $s2. -->
 		<icon>icon.ainhasard_shirt_2</icon>
 		<operateType>A2</operateType>
 		<abnormalTime>5</abnormalTime>
@@ -1945,7 +1894,7 @@
 		</effects>
 	</skill>
 	<skill id="13565" toLevel="3" name="Einhasad's Silence">
-		<!-- For 5 seconds, cancels all your debuffs and cannot be targeted by the enemy. Cooldown is 30 minutes. -->
+		<!-- For $s1, cancels all your debuffs and cannot be targeted by the enemy. Cooldown is $s2. -->
 		<icon>icon.ainhasard_shirt_3</icon>
 		<operateType>A2</operateType>
 		<targetType>SELF</targetType>
@@ -1969,7 +1918,7 @@
 		</effects>
 	</skill>
 	<skill id="13566" toLevel="2" name="Einhasad's Salvation">
-		<!-- Resurrects when dead and retains all buffs and debuffs. The Noblesse Blessing and Lucky Charm, however, will disappear. Cooldown is 30 minutes. -->
+		<!-- Resurrects when dead and retains all buffs and debuffs. The Noblesse Blessing and Lucky Charm, however, will disappear. Cooldown is $s1. -->
 		<icon>icon.ainhasard_shirt_4</icon>
 		<operateType>A2</operateType>
 		<targetType>SELF</targetType>
@@ -2059,7 +2008,7 @@
 			</effects>
 	</skill>
 	<skill id="13569" toLevel="3" name="Talisman - Seven Signs">
-		<!-- Increase M. Def. + 552, MP recovery + 3, dark resistance + 10, and damage reflect resistance + 6. -->
+		<!-- Increase M. Def. + $s1, MP recovery + $s2, dark resistance + $s3, and damage reflect resistance + $s4. -->
 		<icon>
 			<value level="1">icon.lilith_talisman_i00</value>
 			<value level="2">icon.anakim_talisman_i00</value>
@@ -2161,8 +2110,7 @@
 		</effects>
 	</skill>
 	<skill id="13570" toLevel="1" name="Hero's Weapon: Dagger">
-		<!-- Updated to Helios -->
-		<!-- Max HP + 25%, Max MP + 30%, Max CP + 50%, P. Atk. + 440, Atk. Spd. + 15%, and PVP Damage + 15%. -->
+		<!-- Max HP + 25%, Max MP + 30%, Max CP + 50%, P. Atk. + 440, Atk. Spd. + 15%, and PvP Damage + 15%. -->
 		<icon>icon.bm_the_dagger_of_hero</icon>
 		<operateType>P</operateType>
 		<effects>
@@ -2201,8 +2149,7 @@
 		</effects>
 	</skill>
 	<skill id="13571" toLevel="1" name="Hero's Weapon: One-handed Sword">
-		<!-- Updated to Helios -->
-		<!-- Max HP + 25%, Max MP + 30%, Max CP + 50%, P. Atk. + 503, Atk. Spd. + 15%, and PVP Damage + 15%. -->
+		<!-- Max HP + 25%, Max MP + 30%, Max CP + 50%, P. Atk. + 503, Atk. Spd. + 15%, and PvP Damage + 15%. -->
 		<icon>icon.bm_the_sword_of_hero</icon>
 		<operateType>P</operateType>
 		<effects>
@@ -2241,8 +2188,7 @@
 		</effects>
 	</skill>
 	<skill id="13572" toLevel="1" name="Hero's Weapon: Two-handed Sword">
-		<!-- Updated to Helios -->
-		<!-- Max HP + 25%, Max MP + 30%, Max CP + 50%, P. Atk. + 612, Atk. Spd. + 15%, and PVP Damage + 15%. -->
+		<!-- Max HP + 25%, Max MP + 30%, Max CP + 50%, P. Atk. + 612, Atk. Spd. + 15%, and PvP Damage + 15%. -->
 		<icon>icon.bm_the_two_handed_sword_of_hero</icon>
 		<operateType>P</operateType>
 		<effects>
@@ -2281,8 +2227,7 @@
 		</effects>
 	</skill>
 	<skill id="13573" toLevel="1" name="Hero's Weapon: One-handed Blunt Weapon">
-		<!-- Updated to Helios -->
-		<!-- Max HP + 25%, Max MP + 30%, Max CP + 50%, P. Atk. + 503, Atk. Spd. + 15%, and PVP Damage + 15%. -->
+		<!-- Max HP + 25%, Max MP + 30%, Max CP + 50%, P. Atk. + 503, Atk. Spd. + 15%, and PvP Damage + 15%. -->
 		<icon>icon.bm_the_axe_of_hero</icon>
 		<operateType>P</operateType>
 		<effects>
@@ -2321,8 +2266,7 @@
 		</effects>
 	</skill>
 	<skill id="13574" toLevel="1" name="Hero's Weapon: Fist Weapon">
-		<!-- Updated to Helios -->
-		<!-- Max HP + 25%, Max MP + 30%, Max CP + 50%, P. Atk. + 612, Atk. Spd. + 15%, and PVP Damage + 15%. -->
+		<!-- Max HP + 25%, Max MP + 30%, Max CP + 50%, P. Atk. + 612, Atk. Spd. + 15%, and PvP Damage + 15%. -->
 		<icon>icon.bm_the_fist_of_hero</icon>
 		<operateType>P</operateType>
 		<effects>
@@ -2361,8 +2305,7 @@
 		</effects>
 	</skill>
 	<skill id="13575" toLevel="1" name="Hero's Weapon: Spear">
-		<!-- Updated to Helios -->
-		<!-- Max HP + 25%, Max MP + 30%, Max CP + 50%, P. Atk. + 503, Atk. Spd. + 15%, and PVP Damage + 15%. Can attack multiple enemies. -->
+		<!-- Max HP + 25%, Max MP + 30%, Max CP + 50%, P. Atk. + 503, Atk. Spd. + 15%, and PvP Damage + 15%. Can attack multiple enemies. -->
 		<icon>icon.bm_the_pole_of_hero</icon>
 		<operateType>P</operateType>
 		<effects>
@@ -2408,8 +2351,7 @@
 		</effects>
 	</skill>
 	<skill id="13576" toLevel="1" name="Hero's Weapon: Bow">
-		<!-- Updated to Helios -->
-		<!-- Max HP + 25%, Max MP + 30%, Max CP + 50%, P. Atk. + 991, Atk. Spd. + 15%, and PVP Damage + 15%. -->
+		<!-- Max HP + 25%, Max MP + 30%, Max CP + 50%, P. Atk. + 991, Atk. Spd. + 15%, and PvP Damage + 15%. -->
 		<icon>icon.bm_the_bow_of_hero</icon>
 		<operateType>P</operateType>
 		<effects>
@@ -2448,8 +2390,7 @@
 		</effects>
 	</skill>
 	<skill id="13577" toLevel="1" name="Hero's Weapon: Crossbow">
-		<!-- Updated to Helios -->
-		<!-- Max HP + 25%, Max MP + 30%, Max CP + 50%, P. Atk. + 893, Atk. Spd. + 15%, and PVP Damage + 15%. -->
+		<!-- Max HP + 25%, Max MP + 30%, Max CP + 50%, P. Atk. + 893, Atk. Spd. + 15%, and PvP Damage + 15%. -->
 		<icon>icon.bm_infinity_shooter</icon>
 		<operateType>P</operateType>
 		<effects>
@@ -2488,7 +2429,6 @@
 		</effects>
 	</skill>
 	<skill id="13578" toLevel="1" name="Hero's Weapon: One-handed Magic Sword">
-		<!-- Updated to Helios -->
 		<!-- Max HP + 25%, Max MP + 30%, Max CP + 50%, M. Atk. + 598, Casting Spd. + 15%, and PvP Damage + 15%. -->
 		<icon>icon.bm_infinity_sword</icon>
 		<operateType>P</operateType>
@@ -2528,7 +2468,6 @@
 		</effects>
 	</skill>
 	<skill id="13579" toLevel="1" name="Hero's Weapon: One-handed Magic Blunt Weapon">
-		<!-- Updated to Helios -->
 		<!-- Max HP + 25%, Max MP + 30%, Max CP + 50%, M. Atk. + 598, Casting Spd. + 15%, and PvP Damage + 15%. -->
 		<icon>icon.bm_the_mace_of_hero</icon>
 		<operateType>P</operateType>
@@ -2568,7 +2507,6 @@
 		</effects>
 	</skill>
 	<skill id="13580" toLevel="1" name="Hero's Weapon: Two-handed Magic Blunt Weapon">
-		<!-- Updated to Helios -->
 		<!-- Max HP + 25%, Max MP + 30%, Max CP + 50%, M. Atk. + 657, Casting Spd. + 15%, and PvP Damage + 15%. -->
 		<icon>icon.bm_the_staff_of_hero</icon>
 		<operateType>P</operateType>
@@ -2608,8 +2546,7 @@
 		</effects>
 	</skill>
 	<skill id="13581" toLevel="1" name="Hero's Weapon: Dualsword">
-		<!-- Updated to Helios -->
-		<!-- Max HP + 25%, Max MP + 30%, Max CP + 50%, P. Atk. + 612, Atk. Spd. + 15%, and PVP Damage + 15%. -->
+		<!-- Max HP + 25%, Max MP + 30%, Max CP + 50%, P. Atk. + 612, Atk. Spd. + 15%, and PvP Damage + 15%. -->
 		<icon>icon.bm_r_dualsword</icon>
 		<operateType>P</operateType>
 		<effects>
@@ -2648,8 +2585,7 @@
 		</effects>
 	</skill>
 	<skill id="13582" toLevel="1" name="Hero's Weapon: Dual Dagger">
-		<!-- Updated to Helios -->
-		<!-- Max HP + 25%, Max MP + 30%, Max CP + 50%, P. Atk. + 503, Atk. Spd. + 15%, and PVP Damage + 15%. -->
+		<!-- Max HP + 25%, Max MP + 30%, Max CP + 50%, P. Atk. + 503, Atk. Spd. + 15%, and PvP Damage + 15%. -->
 		<icon>icon.bm_r_dualdagger</icon>
 		<operateType>P</operateType>
 		<effects>
@@ -2688,8 +2624,7 @@
 		</effects>
 	</skill>
 	<skill id="13583" toLevel="1" name="Hero's Weapon: Dual Blunt Weapon">
-		<!-- Updated to Helios -->
-		<!-- Max HP + 25%, Max MP + 30%, Max CP + 50%, P. Atk. + 612, Atk. Spd. + 15%, and PVP Damage + 15%. -->
+		<!-- Max HP + 25%, Max MP + 30%, Max CP + 50%, P. Atk. + 612, Atk. Spd. + 15%, and PvP Damage + 15%. -->
 		<icon>icon.bm_r_dualblunt</icon>
 		<operateType>P</operateType>
 		<effects>
@@ -2728,7 +2663,7 @@
 		</effects>
 	</skill>
 	<skill id="13584" toLevel="1" name="Aria's Bracelet: CON">
-		<!-- You can equip 5 Talismans. CON + 3. Max HP + 531. -->
+		<!-- You can equip 5 Talismans. CON + 3. Max HP + 531. Max HP + 531. -->
 		<icon>icon.istina_bangel</icon>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -2836,7 +2771,6 @@
 		</effects>
 	</skill>
 	<skill id="13590" toLevel="1" name="Augment Option - P. Def.">
-		<!-- Updated to Helios -->
 		<!-- Passive: P. Def. + 5%. -->
 		<icon>icon.skill4416_dwarf</icon>
 		<operateType>P</operateType>
@@ -2848,7 +2782,6 @@
 		</effects>
 	</skill>
 	<skill id="13591" toLevel="1" name="Augment Option - Elemental Resistance">
-		<!-- Updated to Helios -->
 		<!-- Passive: Elemental Resistance + 30. -->
 		<icon>icon.skill4416_dwarf</icon>
 		<operateType>P</operateType>
@@ -2872,7 +2805,6 @@
 		</effects>
 	</skill>
 	<skill id="13592" toLevel="1" name="Augment Option - Attribute Resistance">
-		<!-- Updated to Helios -->
 		<!-- Passive: Alignment Resistance + 30. -->
 		<icon>icon.skill4416_dwarf</icon>
 		<operateType>P</operateType>
@@ -2888,7 +2820,6 @@
 		</effects>
 	</skill>
 	<skill id="13593" toLevel="1" name="Augment Option - Decrease P. Skill MP Consumption">
-		<!-- Updated to Helios -->
 		<!-- Passive: P. Skill MP Consumption - 1%. -->
 		<icon>icon.skill4416_dwarf</icon>
 		<operateType>P</operateType>
@@ -2901,7 +2832,6 @@
 		</effects>
 	</skill>
 	<skill id="13594" toLevel="1" name="Augment Option - Decrease M. Skill MP Consumption">
-		<!-- Updated to Helios -->
 		<!-- Passive: M. Skill MP Consumption - 1%. -->
 		<icon>icon.skill4416_dwarf</icon>
 		<operateType>P</operateType>
@@ -2914,7 +2844,6 @@
 		</effects>
 	</skill>
 	<skill id="13595" toLevel="1" name="Augment Option - Decrease Skill Cooldown">
-		<!-- Updated to Helios -->
 		<!-- Passive: Skill Cooldown - 1%. -->
 		<icon>icon.skill4416_dwarf</icon>
 		<operateType>P</operateType>
@@ -2932,7 +2861,6 @@
 		</effects>
 	</skill>
 	<skill id="13596" toLevel="1" name="Augment Option - P. Critical Damage">
-		<!-- Updated to Helios -->
 		<!-- Passive: P. Skill Critical Damage + 1%. -->
 		<icon>icon.skill4416_dwarf</icon>
 		<operateType>P</operateType>
@@ -2944,7 +2872,6 @@
 		</effects>
 	</skill>
 	<skill id="13597" toLevel="1" name="Augment Option - M. Critical Damage">
-		<!-- Updated to Helios -->
 		<!-- Passive: M. Skill Critical Damage + 1%. -->
 		<icon>icon.skill4416_dwarf</icon>
 		<operateType>P</operateType>
@@ -2956,7 +2883,6 @@
 		</effects>
 	</skill>
 	<skill id="13598" toLevel="1" name="Augment Option - Heal Amount">
-		<!-- Updated to Helios -->
 		<!-- Passive: Received Heal Amount + 1%. -->
 		<icon>icon.skill4416_dwarf</icon>
 		<operateType>P</operateType>
@@ -2968,7 +2894,6 @@
 		</effects>
 	</skill>
 	<skill id="13599" toLevel="1" name="Augment Option - Fire Resistance">
-		<!-- Updated to Helios -->
 		<!-- Passive: Fire Resistance + 20. -->
 		<icon>icon.skill4416_dwarf</icon>
 		<operateType>P</operateType>

@@ -1,13 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
 	<skill id="10000" toLevel="1" name="Steel Door Guild Reward Box  (Top-grade)">
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>37394</itemConsumeId>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<conditions>
 			<condition name="OpEncumbered">
 				<weightPercent>20</weightPercent>
@@ -18,24 +16,23 @@
 			<effect name="RestorationRandom">
 				<items>
 					<item chance="25">
-						<item id="36558" count="1" />
+						<item id="36558" count="1" /> <!-- Accessory Gem (Mid-grade) -->
 					</item>
 					<item chance="25">
-						<item id="36563" count="1" />
+						<item id="36563" count="1" /> <!-- Synthetic Cokes -->
 					</item>
 					<item chance="25">
-						<item id="36553" count="1" />
+						<item id="36553" count="1" /> <!-- Armor Fragment (Mid-grade) -->
 					</item>
 					<item chance="25">
-						<item id="36548" count="1" />
+						<item id="36548" count="1" /> <!-- Weapon Fragment (Mid-grade) -->
 					</item>
 				</items>
 			</effect>
 		</effects>
 	</skill>
 	<skill id="10001" toLevel="10" name="Superior Sword/Blunt Weapon Mastery">
-		<!-- Glory Days confirmed -->
-		<!-- P. Atk. + 844 when a Sword or Blunt weapon is equipped. Increases enmity toward you by 60% of the damage. STR + 2. There is a chance the Cooldown of skills will reset or the duration double depending on your STR. -->
+		<!-- P. Atk. + $s1 when a Sword or Blunt weapon is equipped. Increases enmity toward you by $s2 of the damage. STR + $s3. There is a chance the Cooldown of skills will reset or the duration double depending on your STR. -->
 		<icon>icon.skill10001</icon>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -92,8 +89,7 @@
 		</effects>
 	</skill>
 	<skill id="10002" toLevel="10" name="Superior Heavy Armor Mastery">
-		<!-- Glory Days confirmed -->
-		<!-- Max HP + 6883 and P. Def. + 1904 when equipped with Heavy Armor. MP Recovery Bonus + 8.4 and Critical Damage received - 35%. STR + 2. Reflects 10% of incurred damage back to the opponent. -->
+		<!-- When heavy armor is equipped, Max HP +$s1, P. Def. +$s2, MP Recovery Bonus +$s3, and P. Critical Damage Received -$s4. Additionally, STR +$s5, and $s6 of damage received is returned to the opponent. -->
 		<icon>icon.skill10002</icon>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -159,8 +155,7 @@
 		</effects>
 	</skill>
 	<skill id="10003" toLevel="10" name="Superior Shield Mastery">
-		<!-- Glory Days confirmed -->
-		<!-- Shield Defense becomes possible in all directions. Shield Defense Success Rate + 100%, Shield Def. +100%, Bow Res. +20% STR + 2. -->
+		<!-- Enables shield defense in all directions -->
 		<icon>icon.skill10003</icon>
 		<operateType>P</operateType>
 		<magicLvl>
@@ -207,8 +202,7 @@
 		</effects>
 	</skill>
 	<skill id="10004" toLevel="10" name="Superior M. Def.">
-		<!-- Glory Days confirmed -->
-		<!-- M. Def. + 949, Magic Attack Resistance + 25%, STR + 2. -->
+		<!-- M. Def. + $s1, Magic Attack Resistance + $s2, STR + $s3. -->
 		<icon>icon.skill10004</icon>
 		<operateType>P</operateType>
 		<magicLvl>
@@ -251,8 +245,7 @@
 		</effects>
 	</skill>
 	<skill id="10005" toLevel="10" name="Superior Mental Attack Resistance">
-		<!-- Glory Days confirmed -->
-		<!-- Resistance + 20% to Hold/Sleep/Paralysis/Mental Attacks/Poison/Bleed/Stun. STR + 2. In addition, has a 10% chance of reflecting P./M. abnormal states back to the attacker. -->
+		<!-- Resistance + $s1 to Hold/Sleep/Paralysis/Mental Attacks/Poison/Bleed/Stun. STR + $s2. In addition, has a $s3 chance of reflecting P./M. abnormal states back to the attacker. -->
 		<icon>icon.skill10005</icon>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -369,8 +362,7 @@
 		</effects>
 	</skill>
 	<skill id="10006" toLevel="1" name="Last Patience">
-		<!-- Glory Days confirmed -->
-		<!-- STR + 2. When receiving damage, has a chance of increasing P. Skill Power and Shield Defense -->
+		<!-- When receiving damage, has a chance of increasing P. Skill Power and Shield Defense. STR + 2. -->
 		<icon>icon.skill10006</icon>
 		<magicLevel>85</magicLevel>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -384,7 +376,7 @@
 				<chance>30</chance>
 				<targetType>SELF</targetType>
 				<minDamage>1</minDamage>
-				<skillId>10007</skillId>
+				<skillId>10007</skillId> <!-- Last Patience -->
 				<skillLevel>1</skillLevel>
 			</effect>
 			<effect name="StatUp">
@@ -394,16 +386,15 @@
 		</effects>
 	</skill>
 	<skill id="10007" toLevel="3" name="Last Patience">
-		<!-- Glory Days confirmed -->
-		<!-- For 9 seconds, Shield Defense 50%/Skill Power + 25%. -->
-		<abnormalLvl>2</abnormalLvl>
-		<abnormalTime>9</abnormalTime>
-		<abnormalType>WEAPON_MASTERY</abnormalType>
+		<!-- $s1 Shield Defense $s2, Skill Damage $s3 up. -->
 		<icon>
 			<value level="1">icon.skill10006</value>
 			<value level="2">icon.skill10007</value>
 			<value level="3">icon.skill10007</value>
 		</icon>
+		<abnormalLvl>2</abnormalLvl>
+		<abnormalTime>9</abnormalTime>
+		<abnormalType>WEAPON_MASTERY</abnormalType>
 		<operateType>A2</operateType>
 		<magicLvl>
 			<value level="1">89</value>
@@ -413,7 +404,6 @@
 		<magicCriticalRate>5</magicCriticalRate>
 		<reuseDelay>8000</reuseDelay>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<hitCancelTime>0</hitCancelTime>
 		<isMagic>4</isMagic>
 		<targetType>SELF</targetType>
@@ -434,8 +424,8 @@
 		</effects>
 	</skill>
 	<skill id="10008" toLevel="11" name="Shield Charge">
-		<!-- Glory Days confirmed -->
-		<!-- Uses a shield to attack target with 13634 Power added to P. Atk. and also P. Def. - 10%, P. Evasion - 2, and P. Critical Damage + 10%. Can be used while a shield is equipped. -->
+		<!-- Uses a shield to attack target with $s1 Power added to P. Atk. and also P. Def. - $s2, P. Evasion - $s3, and P. Critical Damage + $s4. Can be used while a shield is equipped. -->
+		<icon>icon.skill10008</icon>
 		<activateRate>
 			<value fromLevel="1" toLevel="11">80</value>
 			<value fromLevel="7" toLevel="11" fromSubLevel="2001" toSubLevel="2030">{base + base / 100 * subIndex}</value>
@@ -456,7 +446,6 @@
 		<abnormalTime>10</abnormalTime>
 		<abnormalType>SHIELD_ATTACK</abnormalType>
 		<affectHeight>-100;200</affectHeight>
-		<icon>icon.skill10008</icon>
 		<operateType>A2</operateType>
 		<mpConsume>
 			<value level="1">53</value>
@@ -492,7 +481,6 @@
 		<reuseDelay>5000</reuseDelay>
 		<isDebuff>true</isDebuff>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>400</effectRange>
 		<irreplacableBuff>true</irreplacableBuff>
@@ -553,8 +541,8 @@
 		</effects>
 	</skill>
 	<skill id="10009" toLevel="11" name="Last Judgment">
-		<!-- Glory Days confirmed -->
-		<!-- Attacks target with 16556 Power added to P. Atk, and Speed - 70. Can be used while a sword or blunt weapon is equipped. Over-hit. Critical. -->
+		<!-- Attacks target with $s1 Power added to P. Atk, and Speed - $s2. Can be used while a sword or blunt weapon is equipped. Over-hit. Critical. -->
+		<icon>icon.skill10009</icon>
 		<abnormalLvl>4</abnormalLvl>
 		<abnormalTime>5</abnormalTime>
 		<abnormalType>SPEED_DOWN</abnormalType>
@@ -563,7 +551,6 @@
 			<value fromLevel="7" toLevel="11" fromSubLevel="2001" toSubLevel="2030">{base + base / 100 * subIndex}</value>
 		</activateRate>
 		<effectRange>400</effectRange>
-		<icon>icon.skill10009</icon>
 		<operateType>A2</operateType>
 		<magicLvl>
 			<value level="1">85</value>
@@ -611,7 +598,6 @@
 			<value level="11">-722</value>
 		</effectPoint>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<hitCancelTime>0</hitCancelTime>
 		<isDebuff>true</isDebuff>
 		<targetType>ENEMY</targetType>
@@ -656,8 +642,8 @@
 		</effects>
 	</skill>
 	<skill id="10010" toLevel="11" name="Justice Punishment">
-		<!-- Glory Days confirmed -->
-		<!-- Attacks target with 20451 Power added to P. Atk, and P. Atk./M. Atk. - 20%. Blocks the use of magic skills. Requires a sword or blunt weapon to be equipped. Over-hit. Critical. -->
+		<!-- Attacks target with $s1 Power added to P. Atk, and P. Atk./M. Atk. - $s2. Blocks the use of magic skills. Requires a sword or blunt weapon to be equipped. Over-hit. Critical. -->
+		<icon>icon.skill10010</icon>
 		<abnormalLvl>4</abnormalLvl>
 		<abnormalTime>5</abnormalTime>
 		<abnormalType>CRITICAL_DMG_DOWN</abnormalType>
@@ -682,7 +668,6 @@
 		</magicLvl>
 		<trait>DERANGEMENT</trait>
 		<basicProperty>MAGIC</basicProperty>
-		<icon>icon.skill10010</icon>
 		<operateType>A2</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
 		<mpConsume>
@@ -717,7 +702,6 @@
 			<value level="10">-720</value>
 			<value level="11">-723</value>
 		</effectPoint>
-		<rideState>NONE</rideState>
 		<hitCancelTime>0</hitCancelTime>
 		<isDebuff>true</isDebuff>
 		<targetType>ENEMY</targetType>
@@ -769,8 +753,8 @@
 		</effects>
 	</skill>
 	<skill id="10011" toLevel="8" name="Shield Impact">
-		<!-- Glory Days confirmed -->
-		<!-- Attacks target with 11253 Power added to P. Atk. and Stuns for 5 seconds. Can be used while a shield is equipped. -->
+		<!-- Attacks target with $s1 Power added to P. Atk. and Stuns for $s2. Can be used while a shield is equipped. -->
+		<icon>icon.skill10011</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>5</abnormalTime>
 		<abnormalType>STUN</abnormalType>
@@ -794,7 +778,6 @@
 			<value level="8">105</value>
 		</magicLvl>
 		<trait>SHOCK</trait>
-		<icon>icon.skill10011</icon>
 		<operateType>A2</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
 		<mpConsume>
@@ -822,7 +805,6 @@
 			<value level="7">-1438</value>
 			<value level="8">-1446</value>
 		</effectPoint>
-		<rideState>NONE</rideState>
 		<hitCancelTime>0</hitCancelTime>
 		<isDebuff>true</isDebuff>
 		<targetType>ENEMY</targetType>
@@ -858,8 +840,8 @@
 		</effects>
 	</skill>
 	<skill id="10012" toLevel="10" name="Shield Wave">
-		<!-- Glory Days confirmed -->
-		<!-- Attacks nearby targets with 10174 Power added to P. Atk. Power added to P. Atk. and Stuns for 9 seconds Power added to P. Atk. Can be used while a shield is equipped. -->
+		<!-- Attacks nearby targets with $s1 Power added to P. Atk. Power added to P. Atk. and Stuns for $s2 Power added to P. Atk. Can be used while a shield is equipped. -->
+		<icon>icon.skill10012</icon>
 		<affectLimit>5-12</affectLimit>
 		<affectRange>200</affectRange>
 		<abnormalLvl>1</abnormalLvl>
@@ -886,7 +868,6 @@
 			<value level="10">105</value>
 		</magicLvl>
 		<trait>SHOCK</trait>
-		<icon>icon.skill10012</icon>
 		<magicCriticalRate>5</magicCriticalRate>
 		<operateType>A2</operateType>
 		<mpConsume>
@@ -919,7 +900,6 @@
 			<value level="9">-1437</value>
 			<value level="10">-1442</value>
 		</effectPoint>
-		<rideState>NONE</rideState>
 		<hitCancelTime>0</hitCancelTime>
 		<isDebuff>true</isDebuff>
 		<targetType>SELF</targetType>
@@ -957,8 +937,8 @@
 		</effects>
 	</skill>
 	<skill id="10013" toLevel="11" name="Gust Blade">
-		<!-- Glory Days confirmed -->
-		<!-- Attacks nearby targets with 10314 Power added to P. Atk. Can be used while a sword or blunt weapon is equipped. Over-hit. Critical. -->
+		<!-- Attacks nearby targets with $s1 Power added to P. Atk. Can be used while a sword or blunt weapon is equipped. Over-hit. Critical. -->
+		<icon>icon.skill10013</icon>
 		<affectLimit>5-12</affectLimit>
 		<affectRange>200</affectRange>
 		<affectHeight>-100;200</affectHeight>
@@ -978,7 +958,6 @@
 			<value level="11">105</value>
 		</magicLvl>
 		<fanRange>0;0;150;120</fanRange>
-		<icon>icon.skill10013</icon>
 		<magicCriticalRate>5</magicCriticalRate>
 		<operateType>A1</operateType>
 		<mpConsume>
@@ -1011,7 +990,6 @@
 			<value level="10">-1437</value>
 			<value level="11">-1442</value>
 		</effectPoint>
-		<rideState>NONE</rideState>
 		<hitCancelTime>0</hitCancelTime>
 		<reuseDelay>10000</reuseDelay>
 		<targetType>SELF</targetType>
@@ -1055,8 +1033,8 @@
 		</effects>
 	</skill>
 	<skill id="10014" toLevel="11" name="Chain Galaxy">
-		<!-- Glory Days confirmed -->
-		<!-- Attacks nearby targets with 14300 Power added to P. Atk. Healing Power received - 90%. -->
+		<!-- Attacks nearby targets with $s1 Power added to P. Atk. Healing Power received - $s2. -->
+		<icon>icon.skill10014</icon>
 		<abnormalLvl>3</abnormalLvl>
 		<abnormalTime>5</abnormalTime>
 		<abnormalType>HEAL_EFFECT_DOWN</abnormalType>
@@ -1082,7 +1060,6 @@
 			<value level="10">103</value>
 			<value level="11">105</value>
 		</magicLvl>
-		<icon>icon.skill10014</icon>
 		<operateType>A2</operateType>
 		<mpConsume>
 			<value level="1">159</value>
@@ -1113,7 +1090,6 @@
 			<value level="10">-1435</value>
 			<value level="11">-1440</value>
 		</effectPoint>
-		<rideState>NONE</rideState>
 		<hitCancelTime>0</hitCancelTime>
 		<affectHeight>-100;200</affectHeight>
 		<isDebuff>true</isDebuff>
@@ -1151,8 +1127,8 @@
 		</effects>
 	</skill>
 	<skill id="10015" toLevel="9" name="Chain Strike">
-		<!-- Glory Days confirmed -->
 		<!-- Pulls selected target to make them attack you. Requires a shield. -->
+		<icon>icon.skill10015</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>1</abnormalTime>
 		<abnormalType>STUN</abnormalType>
@@ -1173,7 +1149,6 @@
 			<value level="8">103</value>
 			<value level="9">105</value>
 		</magicLvl>
-		<icon>icon.skill10015</icon>
 		<operateType>A2</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
 		<mpConsume>
@@ -1205,7 +1180,6 @@
 			<value level="8">-2162</value>
 			<value level="9">-2173</value>
 		</effectPoint>
-		<rideState>NONE</rideState>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>1100</effectRange>
 		<trait>PULL</trait>
@@ -1227,8 +1201,8 @@
 		</effects>
 	</skill>
 	<skill id="10016" toLevel="9" name="Chain Hydra">
-		<!-- Glory Days confirmed -->
-		<!-- Pulls target and nearby enemies to make them attack you. Requires a shield. -->
+		<!-- Pulls target and nearby enemies to make them attack you.Requires a shield. -->
+		<icon>icon.skill10016</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>1</abnormalTime>
 		<abnormalType>STUN</abnormalType>
@@ -1250,7 +1224,6 @@
 			<value level="8">103</value>
 			<value level="9">105</value>
 		</magicLvl>
-		<icon>icon.skill10016</icon>
 		<operateType>A2</operateType>
 		<mpConsume>
 			<value level="1">123</value>
@@ -1283,7 +1256,6 @@
 			<value level="9">-2161</value>
 		</effectPoint>
 		<basicProperty>PHYSICAL</basicProperty>
-		<rideState>NONE</rideState>
 		<hitCancelTime>0</hitCancelTime>
 		<trait>PULL</trait>
 		<isDebuff>true</isDebuff>
@@ -1305,8 +1277,8 @@
 		</effects>
 	</skill>
 	<skill id="10017" toLevel="7" name="Final Ultimate Defense">
-		<!-- Glory Days confirmed -->
-		<!-- For 30 sec., P. Def. + 4000 and M. Def. + 4000. Damage received is capped at 300 and 40% of it is reflected back to the attacker. Additionally, + 80% Buff-canceling Attack Resistance. -->
+		<!-- For $s1, P. Def. + $s2 and M. Def. + $s3. Damage received is capped at $s5 and $s6 of it is reflected back to the attacker. Additionally, + $s7 Buff-canceling Attack Resistance. -->
+		<icon>icon.skill10017</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>
 			<value fromLevel="1" toLevel="7">30</value>
@@ -1325,7 +1297,6 @@
 			<value level="6">102</value>
 			<value level="7">104</value>
 		</magicLvl>
-		<icon>icon.skill10017</icon>
 		<operateType>A2</operateType>
 		<mpConsume>
 			<value level="1">58</value>
@@ -1349,7 +1320,6 @@
 		</effectPoint>
 		<reuseDelay>900000</reuseDelay>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<hitCancelTime>0</hitCancelTime>
 		<staticReuse>true</staticReuse>
 		<targetType>SELF</targetType>
@@ -1420,8 +1390,8 @@
 		</effects>
 	</skill>
 	<skill id="10018" toLevel="2" name="Noble Sacrifice">
-		<!-- Glory Days confirmed -->
-		<!-- For 10 seconds, receives 60% of the damage inflicted to the party member. -->
+		<!-- For $s1, receives $s2 of the damage inflicted to the party member. -->
+		<icon>icon.skill10018</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>
 			<value fromLevel="1" toLevel="2">10</value>
@@ -1434,7 +1404,6 @@
 			<value level="1">91</value>
 			<value level="2">96</value>
 		</magicLvl>
-		<icon>icon.skill10018</icon>
 		<operateType>A2</operateType>
 		<mpConsume>
 			<value level="1">60</value>
@@ -1449,7 +1418,6 @@
 			<value level="2">704</value>
 		</effectPoint>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<hitCancelTime>0</hitCancelTime>
 		<reuseDelay>60000</reuseDelay>
 		<targetType>TARGET</targetType>
@@ -1475,8 +1443,8 @@
 		</effects>
 	</skill>
 	<skill id="10019" toLevel="5" name="Protection of Faith">
-		<!-- Glory Days confirmed -->
-		<!-- For 15 seconds, all party members' P. Def. + 5000, M. Def. + 5000, and Debuff Resistance + 50%. Receives 90% of the damage inflicted to each party member. -->
+		<!-- For $s1, all party members' P. Def. + $s2, M. Def. + $s3, and Debuff Resistance + $s4. Receives $s5 of the damage inflicted to each party member. -->
+		<icon>icon.skill10019</icon>
 		<affectRange>1000</affectRange>
 		<abnormalLvl>2</abnormalLvl>
 		<abnormalTime>
@@ -1492,7 +1460,6 @@
 			<value level="4">102</value>
 			<value level="5">104</value>
 		</magicLvl>
-		<icon>icon.skill10019</icon>
 		<operateType>A2</operateType>
 		<mpConsume>
 			<value level="1">127</value>
@@ -1512,7 +1479,6 @@
 		</effectPoint>
 		<reuseDelay>900000</reuseDelay>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<hitCancelTime>0</hitCancelTime>
 		<staticReuse>true</staticReuse>
 		<targetType>SELF</targetType>
@@ -1561,8 +1527,8 @@
 		</effects>
 	</skill>
 	<skill id="10020" toLevel="7" name="Focus Shield">
-		<!-- Glory Days confirmed -->
-		<!-- P. Def + 1160, Shield Def +2320, Shield Def +50% -->
+		<!-- P. Def. + $s1, Shield Defense + $s2, and shield defense + $s3. MP is continuously consumed. -->
+		<icon>icon.skill10020</icon>
 		<mpConsume>50</mpConsume>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>
@@ -1574,9 +1540,7 @@
 			<value level="6">102</value>
 			<value level="7">104</value>
 		</magicLvl>
-		<icon>icon.skill10020</icon>
 		<operateType>T</operateType>
-		<rideState>NONE</rideState>
 		<mpConsume>50</mpConsume>
 		<targetType>NONE</targetType>
 		<effects>
@@ -1623,15 +1587,14 @@
 		</effects>
 	</skill>
 	<skill id="10021" toLevel="7" name="Spike Shield">
-		<!-- Glory Days confirmed -->
-		<!-- For 10 seconds, reflects 10% of received damage back to the attacker. Also has a 50% chance of reflecting magic damage back to the attacker. Requires a shield. -->
+		<!-- For $s1, reflects $s2 of received damage back to the attacker. Also has a $s3 chance of reflecting magic damage back to the attacker. Requires a shield. -->
+		<icon>icon.skill10021</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>
 			<value fromLevel="1" toLevel="7">10</value>
 			<value fromLevel="3" toLevel="7" fromSubLevel="1001" toSubLevel="1030">{base + 0.5 * subIndex}</value>
 		</abnormalTime>
 		<abnormalType>REFLECT_MAGIC_DD</abnormalType>
-		<icon>icon.skill10021</icon>
 		<operateType>A2</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
 		<mpConsume>
@@ -1646,7 +1609,6 @@
 		<hitTime>500</hitTime>
 		<effectPoint>2</effectPoint>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<hitCancelTime>0</hitCancelTime>
 		<magicLvl>
 			<value level="1">85</value>
@@ -1691,8 +1653,8 @@
 		</effects>
 	</skill>
 	<skill id="10022" toLevel="1" name="Ignore Death">
-		<!-- Glory Days confirmed -->
-		<!-- For 10 seconds, HP does not decrease below 1. -->
+		<!-- For $s1, HP does not decrease below $s2. -->
+		<icon>icon.skill10022</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>
 			<value fromLevel="1" toLevel="1">10</value>
@@ -1700,7 +1662,6 @@
 		</abnormalTime>
 		<abnormalType>RESIST_DEATH</abnormalType>
 		<magicLvl>97</magicLvl>
-		<icon>icon.skill10022</icon>
 		<operateType>A2</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
 		<mpConsume>38</mpConsume>
@@ -1709,7 +1670,6 @@
 		<effectPoint>2</effectPoint>
 		<reuseDelay>1800000</reuseDelay>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<hitCancelTime>0</hitCancelTime>
 		<staticReuse>true</staticReuse>
 		<targetType>SELF</targetType>
@@ -1731,8 +1691,8 @@
 		</effects>
 	</skill>
 	<skill id="10023" toLevel="5" name="King of Beasts">
-		<!-- Glory Days confirmed -->
-		<!-- Summons the King of Beasts to attack nearby and frontal targets with 35222 Power added to P. Atk. Requires a shield. Over-hit. -->
+		<!-- Summons the King of Beasts to attack nearby and frontal targets with $s1 Power added to P. Atk. Requires a shield. Over-hit. -->
+		<icon>icon.skill10023</icon>
 		<affectLimit>5-12</affectLimit>
 		<nextAction>ATTACK</nextAction>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -1743,7 +1703,6 @@
 			<value level="4">103</value>
 			<value level="5">105</value>
 		</magicLvl>
-		<icon>icon.skill10023</icon>
 		<operateType>A1</operateType>
 		<mpConsume>
 			<value level="1">1103</value>
@@ -1764,7 +1723,6 @@
 			<value level="5">-3621</value>
 		</effectPoint>
 		<reuseDelay>30000</reuseDelay>
-		<rideState>NONE</rideState>
 		<hitCancelTime>0</hitCancelTime>
 		<fanRange>0;0;300;100</fanRange>
 		<isMagic>4</isMagic>
@@ -1798,8 +1756,8 @@
 		</effects>
 	</skill>
 	<skill id="10024" toLevel="1" name="Party Rescue">
-		<!-- Glory Days confirmed -->
-		<!-- Drags all party members to oneself, and for 15 seconds receives 90% of the damage inflicted to all party members. Additionally, all damage received is capped at 10. Requires a shield. -->
+		<!-- Pulls party member to you and receive $s2 of their damage for $s1. Receive only $s3 damage when damage to yourself and party member exceeds $s4. Requires a shield. -->
+		<icon>icon.skill10024</icon>
 		<abnormalLvl>2</abnormalLvl>
 		<abnormalTime>
 			<value fromLevel="1" toLevel="1">15</value>
@@ -1808,7 +1766,6 @@
 		<abnormalType>TRANSFER_DAMAGE</abnormalType>
 		<magicLevel>99</magicLevel>
 		<affectRange>1000</affectRange>
-		<icon>icon.skill10024</icon>
 		<operateType>A2</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
 		<mpConsume>96</mpConsume>
@@ -1817,7 +1774,6 @@
 		<effectPoint>2</effectPoint>
 		<reuseDelay>600000</reuseDelay>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<hitCancelTime>0</hitCancelTime>
 		<magicLvl>99</magicLvl>
 		<staticReuse>true</staticReuse>
@@ -1847,8 +1803,8 @@
 		</effects>
 	</skill>
 	<skill id="10025" toLevel="4" name="Knight Frenzy">
-		<!-- Glory Days confirmed -->
-		<!-- For 1 minute, P. Def. and M. Def. + 50%, Speed + 10, Accuracy + 4 and Atk. Spd. + 10% when equipped with a sword or blunt weapon. Additionally, Critical Rate + 30 when equipped with a sword, and Critical Damage + 30% when equipped with a blunt weapon. -->
+		<!-- For $s1, P. Def. and M. Def. + $s2, Speed + $s3, Accuracy + $s4 and Atk. Spd. + $s5 when equipped with a sword or blunt weapon. Additionally, Critical Rate + $s6 when equipped with a sword, and Critical Damage + $s7 when equipped with a blunt weapon. -->
+		<icon>icon.skill10025</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>60</abnormalTime>
 		<abnormalType>POSSESSION</abnormalType>
@@ -1859,7 +1815,6 @@
 			<value level="4">99</value>
 		</magicLvl>
 		<staticReuse>true</staticReuse>
-		<icon>icon.skill10025</icon>
 		<magicCriticalRate>5</magicCriticalRate>
 		<operateType>A2</operateType>
 		<mpConsume>
@@ -1873,7 +1828,6 @@
 		<effectPoint>2</effectPoint>
 		<reuseDelay>600000</reuseDelay>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<hitCancelTime>0</hitCancelTime>
 		<staticReuse>true</staticReuse>
 		<targetType>SELF</targetType>
@@ -1959,8 +1913,8 @@
 		</effects>
 	</skill>
 	<skill id="10026" toLevel="9" name="Superior Aggression">
-		<!-- Glory Days confirmed -->
 		<!-- Provokes target into attacking you. -->
+		<icon>icon.skill10026</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>5</abnormalTime>
 		<abnormalType>TARGET_LOCK</abnormalType>
@@ -1980,7 +1934,6 @@
 			<value level="8">103</value>
 			<value level="9">105</value>
 		</magicLvl>
-		<icon>icon.skill10026</icon>
 		<magicCriticalRate>5</magicCriticalRate>
 		<operateType>A2</operateType>
 		<castRange>400</castRange>
@@ -2002,7 +1955,6 @@
 		<isDebuff>true</isDebuff>
 		<isHate>true</isHate>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<hitCancelTime>0</hitCancelTime>
 		<staticReuse>true</staticReuse>
 		<targetType>ENEMY_ONLY</targetType>
@@ -2017,7 +1969,7 @@
 				<dispel>ABSORB,9</dispel>
 			</effect>
 			<effect name="CallSkill">
-				<skillId>10060</skillId>
+				<skillId>10060</skillId> <!-- Aggression Attack -->
 				<skillLevel>1</skillLevel>
 			</effect>
 			<effect name="PhysicalDefence" fromLevel="5" toLevel="9" fromSubLevel="2001" toSubLevel="3030">
@@ -2035,8 +1987,8 @@
 		</selfEffects>
 	</skill>
 	<skill id="10027" toLevel="8" name="Superior Aggression Aura">
-		<!-- Glory Days confirmed -->
 		<!-- Provokes nearby enemies into attacking you. -->
+		<icon>icon.skill10027</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>5</abnormalTime>
 		<abnormalType>TARGET_LOCK</abnormalType>
@@ -2066,7 +2018,6 @@
 			<value level="8">105</value>
 		</magicLvl>
 		<staticReuse>true</staticReuse>
-		<icon>icon.skill10027</icon>
 		<magicCriticalRate>5</magicCriticalRate>
 		<operateType>A2</operateType>
 		<hitTime>1000</hitTime>
@@ -2084,7 +2035,6 @@
 		</effectPoint>
 		<isDebuff>true</isDebuff>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<hitCancelTime>0</hitCancelTime>
 		<staticReuse>true</staticReuse>
 		<targetType>SELF</targetType>
@@ -2100,7 +2050,7 @@
 				<dispel>ABSORB,9</dispel>
 			</effect>
 			<effect name="CallSkill">
-				<skillId>10060</skillId>
+				<skillId>10060</skillId> <!-- Aggression Attack -->
 				<skillLevel>1</skillLevel>
 			</effect>
 			<effect name="PhysicalDefence" fromLevel="5" toLevel="9" fromSubLevel="2001" toSubLevel="3030">
@@ -2118,10 +2068,9 @@
 		</selfEffects>
 	</skill>
 	<skill id="10028" toLevel="1" name="Rage Aura">
-		<!-- Glory Days confirmed -->
 		<!-- P. Atk./Atk. Spd + 15%, P. Critical Rate + 50, P. Critical Damage + 15%, Speed + 10, and enemies within range get P./M. Atk. - 20% and Atk. Spd./Casting Spd. - 20%. Only one Knight's Aura can be active at any time. -->
-		<abnormalVisualEffect>AURA_DEBUFF_SELF</abnormalVisualEffect>
 		<icon>icon.skill10028</icon>
+		<abnormalVisualEffect>AURA_DEBUFF_SELF</abnormalVisualEffect>
 		<magicLvl>85</magicLvl>
 		<magicCriticalRate>5</magicCriticalRate>
 		<operateType>AU</operateType>
@@ -2130,7 +2079,7 @@
 		<effects>
 			<effect name="CallSkillOnActionTime">
 				<!-- Rage Aura -->
-				<skillId>10029</skillId>
+				<skillId>10029</skillId> <!-- Rage Aura -->
 				<skillLevel>1</skillLevel>
 				<ticks>7</ticks>
 			</effect>
@@ -2157,15 +2106,14 @@
 		</effects>
 	</skill>
 	<skill id="10029" toLevel="1" name="Rage Aura">
-		<!-- Glory Days confirmed -->
 		<!-- P. Atk./M. Atk. - 20%, and Atk. Spd./Casting Spd. - 20%. -->
+		<icon>icon.skill10028</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>11</abnormalTime>
 		<abnormalType>AURA</abnormalType>
 		<abnormalVisualEffect>AURA_DEBUFF</abnormalVisualEffect>
 		<affectRange>1000</affectRange>
 		<activateRate>100</activateRate>
-		<icon>icon.skill10028</icon>
 		<operateType>A5</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>85</magicLvl>
@@ -2174,7 +2122,6 @@
 		<effectPoint>-2</effectPoint>
 		<isDebuff>true</isDebuff>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<staticReuse>true</staticReuse>
 		<targetType>ENEMY</targetType>
 		<affectScope>RANGE</affectScope>
@@ -2199,10 +2146,9 @@
 		</effects>
 	</skill>
 	<skill id="10030" toLevel="1" name="Challenge Aura">
-		<!-- Glory Days confirmed -->
 		<!-- Skill MP Consumption - 25%, Skill Cooldown - 10%. Additionally, party members' Skill MP Consumption - 15%, and Skill Cooldown - 5%. Only one Knight's Aura can be active at any time. -->
-		<abnormalVisualEffect>AURA_BUFF_SELF</abnormalVisualEffect>
 		<icon>icon.skill10030</icon>
+		<abnormalVisualEffect>AURA_BUFF_SELF</abnormalVisualEffect>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>85</magicLvl>
 		<operateType>AU</operateType>
@@ -2219,7 +2165,7 @@
 			</effect>
 			<effect name="CallSkillOnActionTime">
 				<!-- Challenge Aura -->
-				<skillId>10031</skillId>
+				<skillId>10031</skillId> <!-- Challenge Aura -->
 				<skillLevel>1</skillLevel>
 				<ticks>7</ticks>
 			</effect>
@@ -2256,8 +2202,8 @@
 		</effects>
 	</skill>
 	<skill id="10031" toLevel="1" name="Challenge Aura">
-		<!-- Glory Days confirmed -->
 		<!-- Skill MP Consumption - 15%, Skill Cooldown - 5%. -->
+		<icon>icon.skill10030</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>11</abnormalTime>
 		<abnormalType>AURA</abnormalType>
@@ -2266,12 +2212,10 @@
 		<canBeDispelled>false</canBeDispelled>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>85</magicLvl>
-		<icon>icon.skill10030</icon>
 		<operateType>A5</operateType>
 		<hitTime>500</hitTime>
 		<effectPoint>2</effectPoint>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<reuseDelay>1000</reuseDelay>
 		<targetType>MY_PARTY</targetType>
 		<affectScope>PARTY</affectScope>
@@ -2310,10 +2254,9 @@
 		</effects>
 	</skill>
 	<skill id="10032" toLevel="1" name="Iron Aura">
-		<!-- Glory Days confirmed -->
 		<!-- P. Def. + 15%, and Received Critical Damage - 15%. Additionally, party members' P. Def. + 10%, and Received Critical Damage - 10%. Only one Knight's Aura can be active at any time. -->
-		<abnormalVisualEffect>AURA_BUFF_SELF</abnormalVisualEffect>
 		<icon>icon.skill10032</icon>
+		<abnormalVisualEffect>AURA_BUFF_SELF</abnormalVisualEffect>
 		<magicLvl>85</magicLvl>
 		<magicCriticalRate>5</magicCriticalRate>
 		<operateType>AU</operateType>
@@ -2322,7 +2265,7 @@
 		<effects>
 			<effect name="CallSkillOnActionTime">
 				<!-- Iron Aura -->
-				<skillId>10033</skillId>
+				<skillId>10033</skillId> <!-- Iron Aura -->
 				<skillLevel>1</skillLevel>
 				<ticks>7</ticks>
 			</effect>
@@ -2337,8 +2280,8 @@
 		</effects>
 	</skill>
 	<skill id="10033" toLevel="1" name="Iron Aura">
-		<!-- Glory Days confirmed -->
-		<!-- P. P. Def. + 10%, and Received Critical Damage - 10%. -->
+		<!-- P. Def. + 10%, and Received Critical Damage - 10%. -->
+		<icon>icon.skill10032</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>11</abnormalTime>
 		<abnormalType>AURA</abnormalType>
@@ -2347,12 +2290,10 @@
 		<canBeDispelled>false</canBeDispelled>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>85</magicLvl>
-		<icon>icon.skill10032</icon>
 		<operateType>A5</operateType>
 		<hitTime>500</hitTime>
 		<effectPoint>2</effectPoint>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<reuseDelay>1000</reuseDelay>
 		<targetType>MY_PARTY</targetType>
 		<affectScope>PARTY</affectScope>
@@ -2369,19 +2310,18 @@
 		</effects>
 	</skill>
 	<skill id="10034" toLevel="1" name="Aura Resistance">
-		<!-- Glory Days confirmed -->
 		<!-- M. Def. + 15%, and Attribute Resistance + 30. Additionally, party members' M. Def + 10%, and Attribute Resistance + 20. Only one Knight's Aura can be active at any time. -->
+		<icon>icon.skill10034</icon>
 		<abnormalVisualEffect>AURA_BUFF_SELF</abnormalVisualEffect>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>85</magicLvl>
-		<icon>icon.skill10034</icon>
 		<operateType>AU</operateType>
 		<reuseDelay>1000</reuseDelay>
 		<toggleGroupId>4</toggleGroupId>
 		<effects>
 			<effect name="CallSkillOnActionTime">
 				<!-- Aura Resistance -->
-				<skillId>10035</skillId>
+				<skillId>10035</skillId> <!-- Aura Resistance -->
 				<skillLevel>1</skillLevel>
 				<ticks>7</ticks>
 			</effect>
@@ -2408,8 +2348,8 @@
 		</effects>
 	</skill>
 	<skill id="10035" toLevel="1" name="Aura Resistance">
-		<!-- Glory Days confirmed -->
 		<!-- M. Def. + 10%, Attribute Resistance + 20. -->
+		<icon>icon.skill10034</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>11</abnormalTime>
 		<abnormalType>AURA</abnormalType>
@@ -2418,12 +2358,10 @@
 		<canBeDispelled>false</canBeDispelled>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>85</magicLvl>
-		<icon>icon.skill10034</icon>
 		<operateType>A5</operateType>
 		<hitTime>500</hitTime>
 		<effectPoint>2</effectPoint>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<reuseDelay>1000</reuseDelay>
 		<targetType>MY_PARTY</targetType>
 		<affectScope>PARTY</affectScope>
@@ -2452,19 +2390,18 @@
 		</effects>
 	</skill>
 	<skill id="10036" toLevel="1" name="Recovery Aura">
-		<!-- Glory Days confirmed -->
 		<!-- Heal amount + 15%, Stun/Knock Back/Knock Down/Hold Resistance + 25%. Additionally, party members' heal amount + 10%, Stun/Knock Back/Knock Down/Hold Resistance + 20%. Only one Knight's Aura can be active at any time. -->
+		<icon>icon.skill10036</icon>
 		<abnormalVisualEffect>AURA_BUFF_SELF</abnormalVisualEffect>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>85</magicLvl>
-		<icon>icon.skill10036</icon>
 		<operateType>AU</operateType>
 		<reuseDelay>1000</reuseDelay>
 		<toggleGroupId>4</toggleGroupId>
 		<effects>
 			<effect name="CallSkillOnActionTime">
 				<!-- Recovery Aura -->
-				<skillId>10037</skillId>
+				<skillId>10037</skillId> <!-- Recovery Aura -->
 				<skillLevel>1</skillLevel>
 				<ticks>7</ticks>
 			</effect>
@@ -2481,8 +2418,8 @@
 		</effects>
 	</skill>
 	<skill id="10037" toLevel="1" name="Recovery Aura">
-		<!-- Glory Days confirmed -->
 		<!-- Heal amount + 10%, Stun/Knock Back/Knock Down/Hold Resistance + 20%. -->
+		<icon>icon.skill10036</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>11</abnormalTime>
 		<abnormalType>AURA</abnormalType>
@@ -2491,12 +2428,10 @@
 		<canBeDispelled>false</canBeDispelled>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>85</magicLvl>
-		<icon>icon.skill10036</icon>
 		<operateType>A5</operateType>
 		<hitTime>500</hitTime>
 		<effectPoint>2</effectPoint>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<reuseDelay>1000</reuseDelay>
 		<targetType>MY_PARTY</targetType>
 		<affectScope>PARTY</affectScope>
@@ -2515,19 +2450,18 @@
 		</effects>
 	</skill>
 	<skill id="10038" toLevel="1" name="Spirit Aura">
-		<!-- Glory Days confirmed -->
 		<!-- Heal amount + 15%, Mental/Paralysis/Aerial Yoke Resistance + 25%. Additionally, party members' heal amount + 10%, Mental/Paralysis/Aerial Yoke + 20%. Only one Knight's Aura can be active at any time. -->
+		<icon>icon.skill10038</icon>
 		<abnormalVisualEffect>AURA_BUFF_SELF</abnormalVisualEffect>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>85</magicLvl>
-		<icon>icon.skill10038</icon>
 		<operateType>AU</operateType>
 		<reuseDelay>1000</reuseDelay>
 		<toggleGroupId>4</toggleGroupId>
 		<effects>
 			<effect name="CallSkillOnActionTime">
 				<!-- Spirit Aura -->
-				<skillId>10039</skillId>
+				<skillId>10039</skillId> <!-- Spirit Aura -->
 				<skillLevel>1</skillLevel>
 				<ticks>7</ticks>
 			</effect>
@@ -2543,8 +2477,8 @@
 		</effects>
 	</skill>
 	<skill id="10039" toLevel="1" name="Spirit Aura">
-		<!-- Glory Days confirmed -->
 		<!-- Heal amount + 10%, Mental/Paralysis/Aerial Yoke Resistance + 20%. -->
+		<icon>icon.skill10038</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>11</abnormalTime>
 		<abnormalType>AURA</abnormalType>
@@ -2553,12 +2487,10 @@
 		<canBeDispelled>false</canBeDispelled>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>85</magicLvl>
-		<icon>icon.skill10038</icon>
 		<operateType>A5</operateType>
 		<hitTime>500</hitTime>
 		<effectPoint>2</effectPoint>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<reuseDelay>1000</reuseDelay>
 		<targetType>MY_PARTY</targetType>
 		<affectScope>PARTY</affectScope>
@@ -2576,7 +2508,6 @@
 		</effects>
 	</skill>
 	<skill id="10040" toLevel="6" name="Summon Golden Lion">
-		<!-- Glory Days confirmed -->
 		<!-- Summons a golden lion to fight alongside you. -->
 		<icon>icon.skill10040</icon>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -2599,7 +2530,6 @@
 		</mpConsume>
 		<hitTime>3500</hitTime>
 		<coolTime>500</coolTime>
-		<rideState>NONE</rideState>
 		<hitCancelTime>0</hitCancelTime>
 		<reuseDelay>30000</reuseDelay>
 		<targetType>SELF</targetType>
@@ -2623,19 +2553,17 @@
 		<endEffects>
 			<effect name="CallSkill">
 				<!-- Price of Summoning -->
-				<skillId>10061</skillId>
+				<skillId>10061</skillId> <!-- Price of Summoning -->
 				<skillLevel>1</skillLevel>
 			</effect>
 		</endEffects>
 	</skill>
 	<skill id="10041" toLevel="4" name="Summon Cubic of Despair">
-		<!-- Glory Days confirmed -->
 		<icon>icon.skill0010</icon>
 		<operateType>A1</operateType>
 		<mpConsume>1</mpConsume>
 		<hitTime>2200</hitTime>
 		<coolTime>300</coolTime>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<magicLvl>
@@ -2658,13 +2586,11 @@
 		</effects>
 	</skill>
 	<skill id="10042" toLevel="3" name="Summon Cubic of Life">
-		<!-- Glory Days confirmed -->
 		<icon>icon.skill0010</icon>
 		<operateType>A1</operateType>
 		<mpConsume>1</mpConsume>
 		<hitTime>2200</hitTime>
 		<coolTime>300</coolTime>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<magicLvl>
@@ -2686,7 +2612,6 @@
 		</effects>
 	</skill>
 	<skill id="10043" toLevel="8" name="Summon Knight Cubic">
-		<!-- Glory Days confimed -->
 		<!-- Summons a Knight Cubic. The summoned cubic removes debuffs from you. -->
 		<icon>icon.skill0010</icon>
 		<operateType>A1</operateType>
@@ -2702,7 +2627,6 @@
 		</mpConsume>
 		<hitTime>2200</hitTime>
 		<coolTime>300</coolTime>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<magicLvl>
@@ -2738,8 +2662,7 @@
 		</effects>
 	</skill>
 	<skill id="10044" toLevel="10" name="Superior Elemental Mastery">
-		<!-- Glory Days confirmed -->
-		<!-- STR + 2 and Attribute Resistance + 20. -->
+		<!-- Attribute Resistance + $s1. STR + $s2. -->
 		<icon>icon.skill10044</icon>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>
@@ -2853,7 +2776,7 @@
 		</effects>
 	</skill>
 	<skill id="10045" toLevel="3" name="Shield Charge II">
-		<!-- Strikes with the shield. Attacks target with 14179 Power added to P. Atk. Decreases P. Def. by 10% and Evasion by 2. Increases Critical damage by 10%. -->
+		<!-- Strikes with the shield. Attacks target with $s1 Power added to P. Atk. Decreases P. Def. by $s2 and Evasion by $s3. Increases Critical damage by $s4. -->
 		<icon>icon.skill10045</icon>
 		<operateType>A4</operateType>
 		<mpConsume>
@@ -2872,7 +2795,6 @@
 		</effectPoint>
 		<abnormalType>SHIELD_ATTACK</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>400</effectRange>
@@ -2922,7 +2844,7 @@
 		</effects>
 	</skill>
 	<skill id="10046" toLevel="3" name="Shield Charge III">
-		<!-- Strikes with the shield. Attacks target with 15269 Power added to P. Atk. Decreases P. Def. by 10% and Evasion by 2. Increases Critical damage by 10%. -->
+		<!-- Strikes with the shield. Attacks target with $s1 Power added to P. Atk. Decreases P. Def. by $s2 and Evasion by $s3. Increases Critical damage by $s4. -->
 		<icon>icon.skill10046</icon>
 		<operateType>A4</operateType>
 		<mpConsume>
@@ -2941,7 +2863,6 @@
 		</effectPoint>
 		<abnormalType>SHIELD_ATTACK</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>400</effectRange>
@@ -2991,7 +2912,7 @@
 		</effects>
 	</skill>
 	<skill id="10047" toLevel="3" name="Shield Charge IV">
-		<!-- Strikes with the shield. Attacks target with 16359 Power added to P. Atk. Decreases P. Def. by 10% and Evasion by 2. Increases Critical damage by 10%. -->
+		<!-- Strikes with the shield. Attacks target with $s1 Power added to P. Atk. Decreases P. Def. by $s2 and Evasion by $s3. Increases Critical damage by $s4. -->
 		<icon>icon.skill10047</icon>
 		<operateType>A4</operateType>
 		<mpConsume>
@@ -3010,7 +2931,6 @@
 		</effectPoint>
 		<abnormalType>SHIELD_ATTACK</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>400</effectRange>
@@ -3060,7 +2980,7 @@
 		</effects>
 	</skill>
 	<skill id="10048" toLevel="3" name="Shield Charge V">
-		<!-- Strikes with the shield. Attacks target with 17449 Power added to P. Atk. Decreases P. Def. by 10% and Evasion by 2. Increases Critical damage by 10%. -->
+		<!-- Strikes with the shield. Attacks target with $s1 Power added to P. Atk. Decreases P. Def. by $s2 and Evasion by $s3. Increases Critical damage by $s4. -->
 		<icon>icon.skill10048</icon>
 		<operateType>A4</operateType>
 		<mpConsume>
@@ -3079,7 +2999,6 @@
 		</effectPoint>
 		<abnormalType>SHIELD_ATTACK</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>400</effectRange>
@@ -3129,7 +3048,7 @@
 		</effects>
 	</skill>
 	<skill id="10049" toLevel="3" name="Shield Charge VI">
-		<!-- Strikes with the shield. Attacks target with 18539 Power added to P. Atk. Decreases P. Def. by 10% and Evasion by 2. Increases Critical damage by 10%. -->
+		<!-- Strikes with the shield. Attacks target with $s1 Power added to P. Atk. Decreases P. Def. by $s2 and Evasion by $s3. Increases Critical damage by $s4. -->
 		<icon>icon.skill10049</icon>
 		<operateType>A4</operateType>
 		<mpConsume>
@@ -3148,7 +3067,6 @@
 		</effectPoint>
 		<abnormalType>SHIELD_ATTACK</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>400</effectRange>
@@ -3198,7 +3116,7 @@
 		</effects>
 	</skill>
 	<skill id="10050" toLevel="3" name="Shield Charge VII">
-		<!-- Strikes with the shield. Attacks target with 19629 Power added to P. Atk. Decreases P. Def. by 10% and Evasion by 2. Increases Critical damage by 10%. -->
+		<!-- Strikes with the shield. Attacks target with $s1 Power added to P. Atk. Decreases P. Def. by $s2 and Evasion by $s3. Increases Critical damage by $s4. -->
 		<icon>icon.skill10050</icon>
 		<operateType>A4</operateType>
 		<mpConsume>
@@ -3217,7 +3135,6 @@
 		</effectPoint>
 		<abnormalType>SHIELD_ATTACK</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>400</effectRange>
@@ -3267,8 +3184,6 @@
 		</effects>
 	</skill>
 	<skill id="10051" toLevel="6" name="Lion Roar">
-		<!-- Glory Days confirmed -->
-		<!-- Updated to IO -->
 		<!-- Attack the nearby enemies and block the physical skills. -->
 		<icon>icon.skill0217</icon>
 		<abnormalLvl>1</abnormalLvl>
@@ -3304,7 +3219,6 @@
 		<reuseDelay>60000</reuseDelay>
 		<effectPoint>-2</effectPoint>
 		<isDebuff>true</isDebuff>
-		<rideState>NONE</rideState>
 		<trait>DERANGEMENT</trait>
 		<targetType>ENEMY_ONLY</targetType>
 		<affectScope>RANGE</affectScope>
@@ -3324,8 +3238,6 @@
 		</effects>
 	</skill>
 	<skill id="10052" toLevel="6" name="Lion Claw">
-		<!-- Glory Days confirmed -->
-		<!-- Updated to IO -->
 		<!-- Flourishes claws to attack enemies at the front. -->
 		<icon>icon.skill0217</icon>
 		<affectLimit>5-12</affectLimit>
@@ -3353,7 +3265,6 @@
 		<hitTime>1080</hitTime>
 		<coolTime>790</coolTime>
 		<effectPoint>-2</effectPoint>
-		<rideState>NONE</rideState>
 		<reuseDelay>15000</reuseDelay>
 		<targetType>ENEMY</targetType>
 		<affectScope>FAN</affectScope>
@@ -3372,8 +3283,6 @@
 		</effects>
 	</skill>
 	<skill id="10053" toLevel="6" name="Lion Dash">
-		<!-- Glory Days confirmed -->
-		<!-- Updated to IO -->
 		<!-- Dashes to the enemy to inflict damage and shock. -->
 		<icon>icon.skill0217</icon>
 		<abnormalLvl>1</abnormalLvl>
@@ -3408,7 +3317,6 @@
 		<coolTime>270</coolTime>
 		<reuseDelay>30000</reuseDelay>
 		<effectPoint>-2</effectPoint>
-		<rideState>NONE</rideState>
 		<hitCancelTime>0</hitCancelTime>
 		<isDebuff>true</isDebuff>
 		<targetType>ENEMY</targetType>
@@ -3430,8 +3338,6 @@
 		</effects>
 	</skill>
 	<skill id="10054" toLevel="6" name="Lion Flame">
-		<!-- Glory Days confirmed -->
-		<!-- Updated to IO -->
 		<!-- Spews flames at the enemy to inflict damage. -->
 		<icon>icon.skill0217</icon>
 		<attributeType>FIRE</attributeType>
@@ -3460,7 +3366,6 @@
 		<coolTime>70</coolTime>
 		<reuseDelay>10000</reuseDelay>
 		<effectPoint>-2</effectPoint>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<isMagic>1</isMagic>
 		<targetType>ENEMY</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -3479,21 +3384,19 @@
 		</effects>
 	</skill>
 	<skill id="10055" toLevel="1" name="Cubic Attack">
-		<!-- Glory Days confirmed -->
 		<!-- Momentarily decreases P. Atk. Effect 3. -->
+		<icon>icon.skill1164</icon>
 		<abnormalLvl>3</abnormalLvl>
 		<abnormalTime>120</abnormalTime>
 		<abnormalType>PA_DOWN</abnormalType>
 		<activateRate>80</activateRate>
 		<lvlBonusRate>30</lvlBonusRate>
 		<basicProperty>MAGIC</basicProperty>
-		<icon>icon.skill1164</icon>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>85</magicLvl>
 		<operateType>A2</operateType>
 		<isMagic>1</isMagic>
 		<effectPoint>-379</effectPoint>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<hitCancelTime>0</hitCancelTime>
 		<isDebuff>true</isDebuff>
 		<targetType>ENEMY</targetType>
@@ -3506,8 +3409,6 @@
 		</effects>
 	</skill>
 	<skill id="10056" toLevel="8" name="Cubic Protection">
-		<!-- Glory Days confirmed -->
-		<icon>icon.skill0000</icon>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>85</magicLvl>
 		<operateType>
@@ -3518,7 +3419,6 @@
 		<effectRange>1100</effectRange>
 		<effectPoint>2</effectPoint>
 		<abnormalType>ABNORMAL_INVINCIBILITY</abnormalType>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<hitCancelTime>0</hitCancelTime>
 		<basicProperty>NONE</basicProperty>
 		<abnormalLvl>3</abnormalLvl>
@@ -3565,8 +3465,8 @@
 		</effects>
 	</skill>
 	<skill id="10057" toLevel="1" name="Cubic Curse">
-		<!-- Glory Days confirmed -->
 		<!-- Inflicted with poison and HP is momentarily decreased. Effect 5. -->
+		<icon>icon.skill1168</icon>
 		<abnormalLvl>5</abnormalLvl>
 		<abnormalTime>30</abnormalTime>
 		<abnormalType>POISON</abnormalType>
@@ -3574,13 +3474,11 @@
 		<activateRate>70</activateRate>
 		<lvlBonusRate>20</lvlBonusRate>
 		<basicProperty>PHYSICAL</basicProperty>
-		<icon>icon.skill1168</icon>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>85</magicLvl>
 		<operateType>A2</operateType>
 		<isMagic>1</isMagic>
 		<effectPoint>-467</effectPoint>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<hitCancelTime>0</hitCancelTime>
 		<isDebuff>true</isDebuff>
 		<targetType>ENEMY</targetType>
@@ -3593,12 +3491,11 @@
 		</effects>
 	</skill>
 	<skill id="10058" toLevel="1" name="Blessing of Protection">
-		<!-- Glory Days confirmed -->
 		<!-- M. Def. and Attribute Resistance are momentarily increased. -->
+		<icon>icon.skill0755</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>10</abnormalTime>
 		<abnormalType>PROTECTION</abnormalType>
-		<icon>icon.skill0755</icon>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLvl>85</magicLvl>
 		<operateType>A2</operateType>
@@ -3606,7 +3503,6 @@
 		<effectRange>900</effectRange>
 		<reuseDelay>30000</reuseDelay>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<isMagic>4</isMagic>
 		<targetType>TARGET</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -3642,8 +3538,7 @@
 		</effects>
 	</skill>
 	<skill id="10059" toLevel="3" name="Shield Charge VII">
-		<!-- Glory Days confirmed -->
-		<!-- Strikes with the shield. Attacks target with 20719 Power added to P. Atk. Decreases P. Def. by 10% and Evasion by 2. Increases Critical damage by 10%. -->
+		<!-- Strikes with the shield. Attacks target with $s1 Power added to P. Atk. Decreases P. Def. by $s2 and Evasion by $s3. Increases Critical damage by $s4. -->
 		<icon>icon.skill10059</icon>
 		<operateType>A4</operateType>
 		<mpConsume>
@@ -3662,7 +3557,6 @@
 		</effectPoint>
 		<abnormalType>SHIELD_ATTACK</abnormalType>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<hitCancelTime>0</hitCancelTime>
 		<effectRange>400</effectRange>
@@ -3712,8 +3606,8 @@
 		</effects>
 	</skill>
 	<skill id="10060" toLevel="1" name="Aggression Attack">
-		<!-- Glory Days confirmed -->
 		<!-- Provokes. -->
+		<icon>icon.skill0086</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>6</abnormalTime>
 		<abnormalType>PUBLIC_SLOT</abnormalType>
@@ -3722,7 +3616,6 @@
 		<effectPoint>2</effectPoint>
 		<effectRange>1100</effectRange>
 		<hitTime>700</hitTime>
-		<icon>icon.skill0086</icon>
 		<isDebuff>true</isDebuff>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLevel>99</magicLevel>
@@ -3732,7 +3625,6 @@
 		<staticReuse>true</staticReuse>
 		<isMagic>4</isMagic>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE</rideState>
 		<hitCancelTime>0</hitCancelTime>
 		<magicLvl>99</magicLvl>
 		<targetType>SELF</targetType>
@@ -3749,13 +3641,12 @@
 		</effects>
 	</skill>
 	<skill id="10061" toLevel="1" name="Price of Summoning">
-		<!-- Glory Days confirmed -->
 		<!-- P. Def. is intentionally decreased as price for summoning a lion. -->
+		<icon>icon.skill1100</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>180</abnormalTime>
 		<abnormalType>DOT_MP</abnormalType>
 		<activateRate>100</activateRate>
-		<icon>icon.skill1100</icon>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLevel>99</magicLevel>
 		<operateType>A2</operateType>
@@ -3764,7 +3655,6 @@
 		<reuseDelay>8000</reuseDelay>
 		<effectPoint>1</effectPoint>
 		<basicProperty>NONE</basicProperty>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<specialLevel>-1</specialLevel>
 		<magicLvl>99</magicLvl>
 		<isMagic>2</isMagic>
@@ -3791,7 +3681,7 @@
 		</effects>
 	</skill>
 	<skill id="10062" toLevel="4" name="Phoenix Spirit">
-		<!-- P. Def./ M. Def. + 6%. Has a 30% chance of doing the same to all party members for 10 sec. when attacked. -->
+		<!-- P. Def./ M. Def. + $s1. Has a $s2 chance of doing the same to all party members for $s3 when attacked. -->
 		<icon>icon.skill11829</icon>
 		<magicLvl>
 			<value level="1">85</value>
@@ -3809,7 +3699,7 @@
 				<targetType>MY_PARTY</targetType>
 				<minDamage>1</minDamage>
 				<allowWeapons>ALL</allowWeapons>
-				<skillId>10063</skillId>
+				<skillId>10063</skillId> <!-- Phoenix Spirit -->
 				<skillLevel>
 					<value level="1">1</value>
 					<value level="2">2</value>
@@ -3838,8 +3728,8 @@
 		</effects>
 	</skill>
 	<skill id="10063" toLevel="4" name="Phoenix Spirit">
-		<!-- TODO abnormalType -->
-		<!-- For 10 sec., all party members' P. Def./ M. Def. + 6%. -->
+		<!-- For $s1, all party members' P. Def./ M. Def. + $s2. -->
+		<icon>icon.skill11829</icon>
 		<abnormalLvl>
 			<value level="1">1</value>
 			<value level="2">2</value>
@@ -3848,7 +3738,6 @@
 		</abnormalLvl>
 		<abnormalTime>10</abnormalTime>
 		<affectRange>1000</affectRange>
-		<icon>icon.skill11829</icon>
 		<isTriggeredSkill>true</isTriggeredSkill>
 		<operateType>A2</operateType>
 		<magicLvl>
@@ -3886,7 +3775,7 @@
 		</effects>
 	</skill>
 	<skill id="10064" toLevel="4" name="Holy Sacrifice">
-		<!-- Consumes your HP to restore target's HP by 1000. Requires a shield. -->
+		<!-- Consumes your HP to restore target's HP by $s1. Requires a shield. -->
 		<icon>icon.skill10064</icon>
 		<operateType>A1</operateType>
 		<targetType>TARGET</targetType>
@@ -3917,7 +3806,7 @@
 		</effects>
 	</skill>
 	<skill id="10065" toLevel="4" name="Fortress Shield">
-		<!-- Shield P. Def. + 5%, Shield Defense + 2%. -->
+		<!-- Shield P. Def. + $s1, Shield Defense + $s2. -->
 		<icon>icon.skill0322</icon>
 		<magicLvl>
 			<value level="1">85</value>
@@ -3948,7 +3837,7 @@
 		</effects>
 	</skill>
 	<skill id="10066" toLevel="4" name="Spirit of Revenge">
-		<!-- P. Atk./ M. Atk. + 2%. Has a 30% chance of doing the same to all party members for 10 sec. when attacked. -->
+		<!-- P. Atk./ M. Atk. + $s1. Has a $s2 chance of doing the same to all party members for $s3 when attacked. -->
 		<icon>icon.skill11830</icon>
 		<magicLvl>
 			<value level="1">85</value>
@@ -3966,7 +3855,7 @@
 				<targetType>MY_PARTY</targetType>
 				<minDamage>1</minDamage>
 				<allowWeapons>ALL</allowWeapons>
-				<skillId>10067</skillId>
+				<skillId>10067</skillId> <!-- Spirit of Revenge -->
 				<skillLevel>
 					<value level="1">1</value>
 					<value level="2">2</value>
@@ -3995,8 +3884,8 @@
 		</effects>
 	</skill>
 	<skill id="10067" toLevel="4" name="Spirit of Revenge">
-		<!-- TODO abnormalType -->
-		<!-- For 10 sec., all party members' P. Atk./ M. Atk. + 2%. -->
+		<!-- For $s1, all party members' P. Atk./ M. Atk. + $s2. -->
+		<icon>icon.skill11830</icon>
 		<abnormalLvl>
 			<value level="1">1</value>
 			<value level="2">2</value>
@@ -4006,7 +3895,6 @@
 		<abnormalTime>10</abnormalTime>
 		<affectRange>1000</affectRange>
 		<isTriggeredSkill>true</isTriggeredSkill>
-		<icon>icon.skill11830</icon>
 		<operateType>A2</operateType>
 		<magicLvl>
 			<value level="1">85</value>
@@ -4041,7 +3929,6 @@
 		</effects>
 	</skill>
 	<skill id="10068" toLevel="7" name="Summon Blood Panther">
-		<!-- Updated to IO -->
 		<!-- Summons a Blood Panther to fight with you. -->
 		<icon>icon.skill11853</icon>
 		<operateType>A1</operateType>
@@ -4087,7 +3974,7 @@
 		</effects>
 	</skill>
 	<skill id="10069" toLevel="4" name="Vampirism">
-		<!-- Has a 30% chance of recovering HP after a successful standard/ skill attack. -->
+		<!-- Has a $s1 chance of recovering HP after a successful standard/ skill attack. -->
 		<icon>icon.skill10069</icon>
 		<operateType>P</operateType>
 		<magicLvl>
@@ -4103,7 +3990,7 @@
 				<minAttackerLevel>1</minAttackerLevel>
 				<maxAttackerLevel>127</maxAttackerLevel>
 				<allowSkillAttack>true</allowSkillAttack>
-				<skillId>10070</skillId>
+				<skillId>10070</skillId> <!-- Vampirism -->
 				<skillLevel>
 					<value level="1">1</value>
 					<value level="2">2</value>
@@ -4144,7 +4031,7 @@
 		</effects>
 	</skill>
 	<skill id="10071" toLevel="4" name="Eva's Presence">
-		<!-- P. Def./ M. Def. + 6%. Has a 30% chance of increasing all party members' P. Def./ M. Def. and heal amount by 1% for 10 sec. when attacked. -->
+		<!-- Own P./M. Def. +$s1 -->
 		<icon>icon.skill10071</icon>
 		<magicLvl>
 			<value level="1">85</value>
@@ -4162,7 +4049,7 @@
 				<targetType>MY_PARTY</targetType>
 				<minDamage>1</minDamage>
 				<allowWeapons>ALL</allowWeapons>
-				<skillId>10072</skillId>
+				<skillId>10072</skillId> <!-- Eva's Presence -->
 				<skillLevel>
 					<value level="1">1</value>
 					<value level="2">2</value>
@@ -4191,8 +4078,8 @@
 		</effects>
 	</skill>
 	<skill id="10072" toLevel="4" name="Eva's Presence">
-		<!-- TODO abnormalType -->
-		<!-- For 10 sec., all party members' P. Def./ M. Def. 6% -->
+		<!-- For $s1, all party members' P./M. Def. +$s2. -->
+		<icon>icon.skill10071</icon>
 		<abnormalLvl>
 			<value level="1">1</value>
 			<value level="2">2</value>
@@ -4208,7 +4095,6 @@
 			<value level="3">95</value>
 			<value level="4">99</value>
 		</magicLvl>
-		<icon>icon.skill10071</icon>
 		<operateType>A2</operateType>
 		<targetType>SELF</targetType>
 		<affectScope>PARTY</affectScope>
@@ -4238,7 +4124,6 @@
 		</effects>
 	</skill>
 	<skill id="10073" toLevel="7" name="Summon Buff Cubic">
-		<!-- Updated to IO -->
 		<!-- Summons a Melody Cubic. The Melody Cubic uses magic to restore its owner's HP and MP. -->
 		<icon>icon.skill10073</icon>
 		<operateType>A1</operateType>
@@ -4258,7 +4143,6 @@
 		<coolTime>300</coolTime>
 		<reuseDelay>30000</reuseDelay>
 		<isMagic>1</isMagic>
-		<rideState>NONE</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<conditions>
 			<condition name="CanSummonCubic" />
@@ -4279,7 +4163,6 @@
 		</effects>
 	</skill>
 	<skill id="10074" toLevel="4" name="Summon Mind Cubic">
-		<!-- Not in use anymore -->
 		<!-- Summons the Mind Cubic. The Sigel Mind Cubic uses magic to restore the owner's MP. -->
 		<icon>icon.skill10074</icon>
 		<operateType>A1</operateType>
@@ -4303,7 +4186,7 @@
 		</effects>
 	</skill>
 	<skill id="10076" toLevel="4" name="Superior Guard Stance">
-		<!-- Shield Defense + 5%, Shield P. Def. + 2%. -->
+		<!-- Shield Defense + $s1, Shield P. Def. + $s2. -->
 		<icon>icon.skill0288</icon>
 		<operateType>P</operateType>
 		<magicLvl>
@@ -4335,6 +4218,7 @@
 		</effects>
 	</skill>
 	<skill id="10077" toLevel="4" name="Shilen's Presence">
+		<!-- P. Atk./ M. Atk. + $s1. Has a $s2 chance of doing the same to all party members for $s3 when attacked. -->
 		<icon>icon.skill11832</icon>
 		<magicLvl>
 			<value level="1">85</value>
@@ -4352,7 +4236,7 @@
 				<targetType>MY_PARTY</targetType>
 				<minDamage>1</minDamage>
 				<allowWeapons>ALL</allowWeapons>
-				<skillId>10078</skillId>
+				<skillId>10078</skillId> <!-- Shilen's Presence -->
 				<skillLevel>
 					<value level="1">1</value>
 					<value level="2">2</value>
@@ -4381,8 +4265,8 @@
 		</effects>
 	</skill>
 	<skill id="10078" toLevel="4" name="Shilen's Presence">
-		<!-- TODO abnormalType -->
-		<!-- For 10 sec., all party members' P. Atk./ M. Atk. + 2%. -->
+		<!-- For $s1, all party members' P. Atk./ M. Atk. + $s2. -->
+		<icon>icon.skill11832</icon>
 		<abnormalLvl>
 			<value level="1">1</value>
 			<value level="2">2</value>
@@ -4398,7 +4282,6 @@
 			<value level="3">95</value>
 			<value level="4">99</value>
 		</magicLvl>
-		<icon>icon.skill11832</icon>
 		<operateType>A2</operateType>
 		<targetType>SELF</targetType>
 		<affectScope>PARTY</affectScope>
@@ -4428,7 +4311,6 @@
 		</effects>
 	</skill>
 	<skill id="10079" toLevel="7" name="Summon Phantom Cubic">
-		<!-- Updated to IO -->
 		<!-- Summons a Phantom Cubic. It uses magic to decrease the enemy's physical and magic Spd. -->
 		<icon>icon.skill10079</icon>
 		<operateType>A1</operateType>
@@ -4439,7 +4321,6 @@
 		<coolTime>500</coolTime>
 		<reuseDelay>30000</reuseDelay>
 		<isMagic>1</isMagic>
-		<rideState>NONE</rideState>
 		<magicLvl>
 			<value level="1">85</value>
 			<value level="2">90</value>
@@ -4468,7 +4349,6 @@
 		</effects>
 	</skill>
 	<skill id="10080" toLevel="7" name="Summon Hex Cubic">
-		<!-- Updated to IO -->
 		<!-- Summons the Hex Cubic, which uses magic to decrease the enemy's P. Def. and M. Def. -->
 		<icon>icon.skill10080</icon>
 		<operateType>A1</operateType>
@@ -4479,7 +4359,6 @@
 		<coolTime>500</coolTime>
 		<reuseDelay>30000</reuseDelay>
 		<isMagic>1</isMagic>
-		<rideState>NONE</rideState>
 		<magicLvl>
 			<value level="1">85</value>
 			<value level="2">90</value>
@@ -4508,12 +4387,12 @@
 		</effects>
 	</skill>
 	<skill id="10081" toLevel="4" name="Lightning Root">
-		<!-- With lightning, inflicts non-attribute damage on target with 15574 Power added to M. Atk. Instantly becomes stunned for 5 sec. Requires a shield. -->
+		<!-- With lightning, inflicts non-attribute damage on target with $s1 Power added to M. Atk. Instantly becomes stunned for $s2. Requires a shield. -->
+		<icon>icon.skill0279</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>5</abnormalTime>
 		<abnormalType>PARALYZE</abnormalType>
 		<activateRate>40</activateRate>
-		<icon>icon.skill0279</icon>
 		<operateType>A2</operateType>
 		<targetType>ENEMY</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -4559,8 +4438,6 @@
 		</effects>
 	</skill>
 	<skill id="10082" toLevel="7" name="Strong Cubic Heal">
-		<!-- Update to IO -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -4601,8 +4478,6 @@
 		</effects>
 	</skill>
 	<skill id="10083" toLevel="7" name="Basic Cubic Heal">
-		<!-- Updated to IO -->
-		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -4643,7 +4518,6 @@
 		</effects>
 	</skill>
 	<skill id="10084" toLevel="4" name="Basic Cubic Mind">
-		<!-- Updated to IO -->
 		<icon>icon.skill0191</icon>
 		<operateType>A1</operateType>
 		<targetType>SELF</targetType>
@@ -4668,8 +4542,7 @@
 		</effects>
 	</skill>
 	<skill id="10085" toLevel="7" name="Cubic Falter">
-		<!-- Updated to IO -->
-		<!-- For 5 sec., Atk. Spd./ Casting Spd. - 5%. -->
+		<!-- For $s1, Atk. Spd./ Casting Spd. - $s2. -->
 		<icon>icon.skill1206</icon>
 		<operateType>A2</operateType>
 		<targetType>ENEMY</targetType>
@@ -4715,8 +4588,8 @@
 		</effects>
 	</skill>
 	<skill id="10086" toLevel="7" name="Cubic Hex">
-		<!-- Updated to IO -->
-		<!-- For 5 sec., P. Def./ M. Def. - 5%. -->
+		<!-- For $s1, P. Def./ M. Def. - $s2. -->
+		<icon>icon.skill0122</icon>
 		<abnormalLvl>4</abnormalLvl>
 		<abnormalTime>5</abnormalTime>
 		<abnormalType>PD_DOWN</abnormalType>
@@ -4729,7 +4602,6 @@
 			<value level="6">103</value>
 			<value level="7">105</value>
 		</magicLvl>
-		<icon>icon.skill0122</icon>
 		<operateType>A2</operateType>
 		<targetType>ENEMY</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -4762,8 +4634,7 @@
 		</effects>
 	</skill>
 	<skill id="10087" toLevel="7" name="Blood Panther Roar">
-		<!-- Updated to IO -->
-		<!-- Inflicts 7750 damage on to nearby enemies, and has a chance of restraining their P. Atk. For 5 sec. -->
+		<!-- Inflicts $s1 damage onto nearby enemies, and has a chance of restraining their P. Atk. for $s2. -->
 		<icon>icon.skill1336</icon>
 		<abnormalLvl>
 			<value level="1">1</value>
@@ -4823,8 +4694,7 @@
 		</effects>
 	</skill>
 	<skill id="10088" toLevel="7" name="Blood Panther Rush">
-		<!-- Updated to IO -->
-		<!-- Rush toward the enemy to inflict 3875 damage and inflict Shock for 5 sec. -->
+		<!-- Rush toward the enemy to inflict $s1 damage and inflict Shock for $s2. -->
 		<icon>icon.skill0100</icon>
 		<abnormalLvl>
 			<value level="1">1</value>
@@ -4884,7 +4754,6 @@
 		</effects>
 	</skill>
 	<skill id="10089" toLevel="4" name="Strong Cubic Mind">
-		<!-- Updated to IO -->
 		<icon>icon.skill0191</icon>
 		<operateType>A1</operateType>
 		<targetType>SELF</targetType>
@@ -4909,7 +4778,8 @@
 		</effects>
 	</skill>
 	<skill id="10090" toLevel="4" name="Provoking Shackle">
-		<!-- Provokes nearby enemies and inflicts Hold for 9 sec. -->
+		<!-- Provokes nearby enemies and inflicts Hold for $s1. -->
+		<icon>icon.skill10090new</icon>
 		<abnormalLvl>
 			<value level="1">1</value>
 			<value level="2">2</value>
@@ -4941,7 +4811,6 @@
 		<targetType>SELF</targetType>
 		<affectScope>POINT_BLANK</affectScope>
 		<affectObject>NOT_FRIEND</affectObject>
-		<icon>icon.skill10090new</icon>
 		<effectPoint>
 			<value level="1">-1098</value>
 			<value level="2">-1163</value>
@@ -4958,7 +4827,6 @@
 		</effects>
 	</skill>
 	<skill id="10091" toLevel="1" name="Templar's Will">
-		<!-- Updated to IO -->
 		<!-- Removes your debuff. -->
 		<icon>icon.skll10092</icon>
 		<operateType>A1</operateType>
@@ -4968,7 +4836,6 @@
 		<hitTime>200</hitTime>
 		<effectPoint>867</effectPoint>
 		<reuseDelay>60000</reuseDelay>
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effects>
 			<effect name="DispelByCategory">
@@ -5081,7 +4948,6 @@
 		</effects>
 	</skill>
 	<skill id="10092" toLevel="7" name="Summon Guardian Cubic">
-		<!-- Updated to IO -->
 		<!-- Summons a Guardian Cubic. The Guardian Cubic uses magic to increase its owner's Shield Defense and Spd. -->
 		<icon>icon.skll10093</icon>
 		<operateType>A1</operateType>
@@ -5121,8 +4987,7 @@
 		</effects>
 	</skill>
 	<skill id="10093" toLevel="7" name="Guardian Cubic">
-		<!-- AUTO GENERATED SKILL -->
-		<!-- Increases Shield P. Def. and Shield Defense. Spd. + 13. -->
+		<!-- Increases Shield P. Def. and Shield Defense. Spd. + $s1. -->
 		<icon>icon.skll10093</icon>
 		<operateType>A2</operateType>
 		<targetType>TARGET</targetType>
@@ -5141,7 +5006,6 @@
 		<abnormalLvl>3</abnormalLvl> <!-- Guessed -->
 		<abnormalTime>6</abnormalTime> <!-- Guessed -->
 		<!-- TODO abnormalType -->
-		<rideState>NONE;STRIDER;WYVERN;WOLF</rideState>
 		<effects>
 			<effect name="ShieldDefence"> <!-- Totally Guessed -->
 				<amount>
@@ -5162,7 +5026,8 @@
 		</effects>
 	</skill>
 	<skill id="10094" toLevel="7" name="Mass Lightning Strike">
-		<!-- Strikes target and nearby enemies with a lightning bolt that inflicts non-attribute damage with 11997 Power. Paralyzes for 5 seconds. Consumes 1 Soulstone. -->
+		<!-- Strikes target and nearby enemies with a lightning bolt that inflicts non-attribute damage with $s1 Power. Paralyzes for $s2. Consumes $s3 Soulstone. -->
+		<icon>icon.skll10094</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>5</abnormalTime>
 		<abnormalType>PARALYZE</abnormalType>
@@ -5174,7 +5039,6 @@
 		<affectLimit>10-10</affectLimit>
 		<affectRange>100</affectRange>
 		<basicProperty>MAGIC</basicProperty> <!-- Guessed -->
-		<icon>icon.skll10094</icon>
 		<itemConsumeId>1785</itemConsumeId>
 		<itemConsumeCount>
 			<value level="1">1</value>
@@ -5241,7 +5105,6 @@
 		</effects>
 	</skill>
 	<skill id="10095" toLevel="1" name="Blood Panther's Death Touch">
-		<!-- Updated to IO -->
 		<!-- When a normal attack or skill attack is successful, casts a de-buff that increases the critical damage received from target with a certain probability. -->
 		<icon>icon.skll10091</icon>
 		<operateType>P</operateType>
@@ -5254,13 +5117,13 @@
 				<chance>30</chance>
 				<targetType>ENEMY</targetType>
 				<affectScope>SINGLE</affectScope>
-				<skillId>10096</skillId>
+				<skillId>10096</skillId> <!-- Death Touch -->
 				<skillLevel>1</skillLevel>
 			</effect>
 			<effect name="TriggerSkillByAttack">
 				<!-- Guessed -->
 				<!-- Death Touch -->
-				<skillId>10096</skillId>
+				<skillId>10096</skillId> <!-- Death Touch -->
 				<skillLevel>1</skillLevel>
 				<targetType>ENEMY</targetType>
 				<affectScope>SINGLE</affectScope>
@@ -5270,7 +5133,6 @@
 		</effects>
 	</skill>
 	<skill id="10096" toLevel="1" name="Death Touch">
-		<!-- Updated to IO -->
 		<!-- Increases target's Received Critical Damage by 35%. -->
 		<icon>icon.skll10091</icon>
 		<abnormalLvl>1</abnormalLvl>
@@ -5298,14 +5160,13 @@
 		</effects>
 	</skill>
 	<skill id="10097" toLevel="6" name="Riot Shield">
-		<!-- Updated to IO -->
-		<!-- Attacks nearby targets with 17927 Power added to P. Atk., and forces them to target you. Requires a shield. Consumes 6 Soulstones. Over-hit. Critical. -->
+		<!-- Attacks nearby targets with $s1 Power added to P. Atk., and forces them to target you. Requires a shield. Consumes $s2 Soulstones. Over-hit. Critical. -->
+		<icon>icon.skill10097</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>5</abnormalTime>
 		<abnormalType>TARGET_LOCK</abnormalType>
 		<affectLimit>10-10</affectLimit>
 		<affectRange>200</affectRange>
-		<icon>icon.skill10097</icon>
 		<itemConsumeId>1785</itemConsumeId> <!-- Soulstone -->
 		<itemConsumeCount>6</itemConsumeCount>
 		<operateType>A2</operateType>
@@ -5369,7 +5230,8 @@
 		</effects>
 	</skill>
 	<skill id="10098" toLevel="4" name="Paladin's Frenzy">
-		<!-- For 1 min., P./M. Def. +50%, Debuff Resistance + 10%, Speed + 10. When equipped with a sword or blunt weapon, Accuracy + 4, Atk. Spd. + 10%, Critical Rate + 30, Critical Damage + 30%. -->
+		<!-- For $s1, P./M. Def. + $s2, Debuff Resistance + $s3, Speed + $s4. When equipped with a sword or blunt weapon, Accuracy + $s5, Atk. Spd. + $s6, Critical Rate + $s7, Critical Damage + $s8. -->
+		<icon>icon.skill10098</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>
 			<value fromLevel="1" toLevel="4">60</value>
@@ -5377,7 +5239,6 @@
 			<value fromLevel="3" toLevel="4" fromSubLevel="1011" toSubLevel="1030">{base + 10 + 0.5 * subIndex}</value>
 		</abnormalTime>
 		<abnormalType>POSSESSION</abnormalType>
-		<icon>icon.skill10098</icon>
 		<operateType>A2</operateType>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -5495,7 +5356,8 @@
 		</effects>
 	</skill>
 	<skill id="10099" toLevel="4" name="Avenger's Frenzy">
-		<!-- For 1 min., P. Atk. + 5%, P./M. Def. + 50%, Speed + 10. When equipped with a sword or blunt weapon, Accuracy + 4, Atk. Spd. + 10%, Critical Rate + 30, Critical Damage + 30%. -->
+		<!-- For $s1, P. Atk. + $s2, P./M. Def. + $s3, Speed + $s4. When equipped with a sword or blunt weapon, Accuracy + $s5, Atk. Spd. + $s6, Critical Rate + $s7, Critical Damage + $s8. -->
+		<icon>icon.skill10099</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>
 			<value fromLevel="1" toLevel="4">60</value>
@@ -5503,7 +5365,6 @@
 			<value fromLevel="3" toLevel="4" fromSubLevel="1011" toSubLevel="1030">{base + 10 + 0.5 * subIndex}</value>
 		</abnormalTime>
 		<abnormalType>POSSESSION</abnormalType>
-		<icon>icon.skill10099</icon>
 		<operateType>A2</operateType>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>

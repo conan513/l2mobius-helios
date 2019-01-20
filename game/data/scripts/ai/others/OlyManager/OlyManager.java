@@ -36,7 +36,6 @@ import com.l2jmobius.gameserver.model.actor.L2Character;
 import com.l2jmobius.gameserver.model.actor.L2Npc;
 import com.l2jmobius.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jmobius.gameserver.model.base.ClassId;
-import com.l2jmobius.gameserver.model.entity.Hero;
 import com.l2jmobius.gameserver.model.olympiad.CompetitionType;
 import com.l2jmobius.gameserver.model.olympiad.Olympiad;
 import com.l2jmobius.gameserver.model.olympiad.OlympiadGameManager;
@@ -172,25 +171,13 @@ public final class OlyManager extends AbstractNpcAI implements IBypassHandler
 			}
 			case "calculatePoints":
 			{
-				final int points = Olympiad.getInstance().getOlympiadTradePoint(player, false);
-				if (points == 0)
+				if (Olympiad.getInstance().getOlympiadTradePoint(player, false) > 0)
 				{
-					htmltext = "OlyManager-calculateNoEnough.html";
-				}
-				else if (points < 20)
-				{
-					if (Hero.getInstance().isUnclaimedHero(player.getObjectId()) || Hero.getInstance().isHero(player.getObjectId()))
-					{
-						htmltext = "OlyManager-calculateEnough.html";
-					}
-					else
-					{
-						htmltext = "OlyManager-calculateNoEnough.html";
-					}
+					htmltext = "OlyManager-calculateEnough.html";
 				}
 				else
 				{
-					htmltext = "OlyManager-calculateEnough.html";
+					htmltext = "OlyManager-calculateNoEnough.html";
 				}
 				break;
 			}

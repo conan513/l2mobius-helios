@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
 	<skill id="30000" toLevel="1" name="Hydro Attack: Debuff">
-		<!-- Updated to IO -->
 		<!-- Stacks Storm Marks when using Hydro Attack. -->
 		<icon>icon.skill11011</icon>
 		<operateType>P</operateType>
@@ -17,8 +16,7 @@
 		</effects>
 	</skill>
 	<skill id="30001" toLevel="28" name="Hydro Attack">
-		<!-- Updated to IO -->
-		<!-- Attacks target with 6 Power added to M. Atk. 10% more damage if target is debuffed. Requires a sword or blunt weapon. -->
+		<!-- Attacks target with $s1 Power added to M. Atk. $s2 more damage if target is debuffed. Requires a sword or blunt weapon. -->
 		<icon>icon.skill30001</icon>
 		<operateType>A1</operateType>
 		<targetType>ENEMY</targetType>
@@ -193,8 +191,8 @@
 		</effects>
 	</skill>
 	<skill id="30002" toLevel="3" name="Storm Sign">
-		<!-- Updated to Ertheia -->
-		<!-- M. Def. - 30%, Speed - 70. -->
+		<!-- M. Def. - $s1, Speed - $s2. -->
+		<icon>icon.skill30027</icon>
 		<abnormalLvl>
 			<value level="1">1</value>
 			<value level="2">2</value>
@@ -207,7 +205,6 @@
 			<value level="2"></value>
 			<value level="3">STORM_SIGN1</value>
 		</abnormalVisualEffect>
-		<icon>icon.skill30027</icon>
 		<operateType>A2</operateType>
 		<targetType>ENEMY</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -226,8 +223,7 @@
 		</effects>
 	</skill>
 	<skill id="30003" toLevel="20" name="Hydro Flare">
-		<!-- Updated to IO -->
-		<!-- Eliminates Storm Sign and attacks target with 110 Power added to M. Atk. 10% more damage if target is debuffed. Storm Sign Stage 3 only. Requires a sword or blunt weapon. -->
+		<!-- Eliminates Storm Sign and attacks target with $s1 Power added to M. Atk. $s2 more damage if target is debuffed. Storm Sign Stage $s3 only. Requires a sword or blunt weapon. -->
 		<icon>icon.skill30003</icon>
 		<operateType>A1</operateType>
 		<targetType>ENEMY</targetType>
@@ -355,8 +351,8 @@
 		</effects>
 	</skill>
 	<skill id="30004" toLevel="25" name="Hydro Strike">
-		<!-- Updated to IO -->
-		<!-- Attacks target with 57 Power added to M. Atk., and knocks out target in a windy trap for 5 sec. Must be blended into wind. Requires a sword or blunt weapon. -->
+		<!-- Attacks target with $s1 Power added to M. Atk., and knocks out target in a windy trap for $s2. Must be blended into wind. Requires a sword or blunt weapon. -->
+		<icon>icon.skill30004</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalType>STUN</abnormalType>
 		<abnormalTime>5</abnormalTime>
@@ -365,7 +361,6 @@
 			<value fromLevel="1" toLevel="25">120</value>
 			<value fromLevel="21" toLevel="25" fromSubLevel="1001" toSubLevel="1030">{base + base / 100 * subIndex}</value>
 		</activateRate>
-		<icon>icon.skill30004</icon>
 		<operateType>A2</operateType>
 		<targetType>ENEMY</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -433,7 +428,7 @@
 		<trait>KNOCKBACK</trait>
 		<conditions>
 			<condition name="OpAffectedBySkill">
-				<skillId>19227</skillId>
+				<skillId>19227</skillId> <!-- Wind Hiding -->
 			</condition>
 			<condition name="EquipWeapon">
 				<weaponType>
@@ -508,13 +503,12 @@
 		</effects>
 	</skill>
 	<skill id="30005" fromLevel="4" toLevel="4" name="Hydro Strike">
-		<!-- Updated to Ertheia -->
 		<!-- M. Def. - 50%, Speed - 100. -->
+		<icon>icon.skill30027</icon>
 		<abnormalLvl>4</abnormalLvl>
 		<abnormalTime>5</abnormalTime>
 		<abnormalType>STORM_SIGN</abnormalType>
 		<abnormalVisualEffect>STORM_SIGN2</abnormalVisualEffect>
-		<icon>icon.skill30027</icon>
 		<operateType>A2</operateType>
 		<targetType>ENEMY</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -533,8 +527,7 @@
 		</effects>
 	</skill>
 	<skill id="30006" toLevel="11" name="Storm Rage">
-		<!-- Updated to IO -->
-		<!-- Attacks target with 255 Power added to M. Atk. and blows them away. 10% more damage if target is debuffed. Requires a sword or blunt weapon. -->
+		<!-- Attacks target with $s1 Power added to M. Atk. and blows them away. $s2 more damage if target is debuffed. Requires a sword or blunt weapon. -->
 		<icon>icon.skill30006</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalType>STUN</abnormalType>
@@ -644,8 +637,7 @@
 		</effects>
 	</skill>
 	<skill id="30007" toLevel="15" name="Hydro Drain">
-		<!-- Updated to IO -->
-		<!-- Eliminates Storm Sign and attacks target with 123 Power added to M. atk. and recovers 10% HP and 5% MP. Over-hit. Storm Sign Stage 3 only. Requires a sword or blunt weapon. -->
+		<!-- Eliminates Storm Sign and attacks target with $s1 Power added to M. atk. and recovers $s2 HP and $s3 MP. Over-hit. Storm Sign Stage $s4 only. Requires a sword or blunt weapon. -->
 		<icon>icon.skill30007</icon>
 		<operateType>A1</operateType>
 		<targetType>ENEMY</targetType>
@@ -765,10 +757,9 @@
 		</selfEffects>
 	</skill>
 	<skill id="30008" toLevel="5" name="Wind Blend">
-		<!-- Updated to IO -->
-		<!-- For 3 sec., blends into the wind. Becomes one with the wind and disappears later on. Requires a sword or blunt weapon. -->
-		<operateType>A2</operateType>
+		<!-- For $s1, blends into the wind. Becomes one with the wind and disappears later on. Requires a sword or blunt weapon. -->
 		<icon>icon.skill30008</icon>
+		<operateType>A2</operateType>
 		<abnormalLvl>
 			<value level="1">1</value>
 			<value level="2">2</value>
@@ -848,8 +839,7 @@
 		</endEffects>
 	</skill>
 	<skill id="30009" toLevel="10" name="Deceptive Blink">
-		<!-- Updated to Ertheia -->
-		<!-- For 5 sec., blends into the wind and teleports backward, and Speed + 100. Requires a sword or blunt weapon. -->
+		<!-- The caster is assimilated into the wind, and teleports to the rear. Assimiliation lasts for $s1, and speed increases by $s2 while assimilated. Can be used when Sword/Blunt Weapons are equipped. -->
 		<icon>icon.skill30009</icon>
 		<abnormalLvl>
 			<value level="1">1</value>
@@ -921,8 +911,7 @@
 		</effects>
 	</skill>
 	<skill id="30010" toLevel="2" name="Windy Refuge">
-		<!-- Updated to IO -->
-		<!-- Cancels all debuffs and recovers HP/MP for 10 sec. inside a refuge of wind. Cannot move. -->
+		<!-- Cancels all debuffs and recovers HP/MP for $s1. inside a refuge of wind. Cannot move. -->
 		<icon>icon.skill30010</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>
@@ -999,8 +988,7 @@
 		</effects>
 	</skill>
 	<skill id="30011" toLevel="15" name="Threatening Wind">
-		<!-- Updated to IO -->
-		<!-- Sends a slashing wind to brand target with Storm Sign Stage 3. Requires a sword or blunt Weapon. -->
+		<!-- Sends a slashing wind to brand target with Storm Sign Stage $s1. Requires a sword or blunt Weapon. -->
 		<icon>icon.skill30011</icon>
 		<effectRange>1200</effectRange>
 		<operateType>A1</operateType>
@@ -1062,8 +1050,7 @@
 		</effects>
 	</skill>
 	<skill id="30012" toLevel="25" name="Air Rush">
-		<!-- Updated to IO -->
-		<!-- Knocks down target and attacks with 57 Power added to M. Atk. 10% more damage if target is debuffed. If target has Storm Sign, eliminates it and inflicts additional damage. Requires a sword or blunt weapon. -->
+		<!-- Knocks down target and attacks with $s1 Power added to M. Atk. $s2 more damage if target is debuffed. If target has Storm Sign, eliminates it and inflicts additional damage. Requires a sword or blunt weapon. -->
 		<icon>icon.skill30012</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>5</abnormalTime>
@@ -1194,7 +1181,6 @@
 		</effects>
 	</skill>
 	<skill id="30013" toLevel="1" name="Switch Places">
-		<!-- Updated to Ertheia -->
 		<!-- Trades places with target. Requires a sword or blunt weapon. PC targets only. -->
 		<icon>icon.skill30005</icon>
 		<effectRange>1400</effectRange>
@@ -1222,8 +1208,8 @@
 		</effects>
 	</skill>
 	<skill id="30014" toLevel="15" name="Compelling Wind">
-		<!-- Updated to Underground -->
-		<!-- Sends a breeze that pushes target toward you. Requires a sword / blunt weapon. -->
+		<!-- Sends a breeze that pushes target toward you for $s1. Requires a sword / blunt weapon. -->
+		<icon>icon.skill30014</icon>
 		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>5</abnormalTime>
 		<abnormalVisualEffect>PSY_POWER</abnormalVisualEffect>
@@ -1233,7 +1219,6 @@
 		</activateRate>
 		<basicProperty>MAGIC</basicProperty>
 		<trait>PSYCHIC</trait> <!-- retail confirmed {trait_psychic} -->
-		<icon>icon.skill30014</icon>
 		<effectPoint>-1371</effectPoint>
 		<operateType>A2</operateType>
 		<mpConsume>
@@ -1284,12 +1269,11 @@
 		</effects>
 	</skill>
 	<skill id="30015" toLevel="1" name="Mass Compelling Wind">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Sends a breeze that pushes target and nearby enemies toward you. -->
+		<icon>icon.skill0028</icon>
 		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>5</abnormalTime>
 		<abnormalVisualEffect>PSY_POWER</abnormalVisualEffect>
-		<icon>icon.skill0028</icon>
 		<operateType>A2</operateType>
 		<castRange>1100</castRange>
 		<hitTime>1200</hitTime>
@@ -1310,8 +1294,7 @@
 		</conditions>
 	</skill>
 	<skill id="30016" toLevel="4" name="Eye of the Storm">
-		<!-- Updated to IO -->
-		<!-- For 30 sec., M. Critical Rate + 100%, P./M. Def. + 30%. -->
+		<!-- For $s1, M. Critical Rate + $s2, P./M. Def + $s3. -->
 		<icon>icon.skill30016</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>
@@ -1369,8 +1352,7 @@
 		</effects>
 	</skill>
 	<skill id="30017" toLevel="4" name="Squall">
-		<!-- Updated to IO -->
-		<!-- For 10 min., Received P./M. Critical Damage - 15%, and Has a chance of striking target with lightning. -->
+		<!-- For $s1, Received P./M. Critical Damage - $s2, and Has a chance of striking target with lightning. -->
 		<icon>icon.skill30017</icon>
 		<abnormalLvl>
 			<value level="1">1</value>
@@ -1455,7 +1437,6 @@
 		</effects>
 	</skill>
 	<skill id="30018" toLevel="1" name="Windy Illusion">
-		<!-- Updated to Ertheia -->
 		<!-- Removes all debuffs and becomes invincible against targeting for 10 sec. -->
 		<icon>icon.skill30018</icon>
 		<abnormalLvl>1</abnormalLvl>
@@ -1481,8 +1462,7 @@
 		</effects>
 	</skill>
 	<skill id="30019" toLevel="11" name="Sayha's Word">
-		<!-- Updated to IO -->
-		<!-- Attacks target with 533 Power added to M. Atk., and decreases their Atk./Casting Spd. by 30% and Speed by 180 for 10 sec. Instantly brands target with Storm Sign Stage 3. 10% more damage if target is debuffed. Requires a sword or blunt weapon. -->
+		<!-- Attacks target with $s1 Power added to M. Atk., and decreases their Atk./Casting Spd. by $s3 and Speed by $s4 for $s2. Instantly brands target with Storm Sign Stage $s5. $s6 more damage if target is debuffed. Requires a sword or blunt weapon. -->
 		<icon>icon.skill30019</icon>
 		<abnormalLvl>
 			<value level="1">1</value>
@@ -1606,8 +1586,7 @@
 		</effects>
 	</skill>
 	<skill id="30020" toLevel="1" name="Sayha's Fury">
-		<!-- Updated to Ertheia -->
-		<!-- For 30 sec., Received P./M. Critical Damage - 50%, and Speed + 70. Has a chance of striking an attacker with lightning and branding them with Storm Sign Stage 4. Requires a sword or blunt weapon. -->
+		<!-- For $s1, Received P./M. Critical Damage - $s2, and Speed + $s3. Has a chance of striking an attacker with lightning and branding them with Storm Sign Stage $s4. Requires a sword or blunt weapon. -->
 		<icon>icon.skill30020</icon>
 		<abnormalLvl>1</abnormalLvl>
 		<abnormalTime>
@@ -1668,8 +1647,7 @@
 		</effects>
 	</skill>
 	<skill id="30022" toLevel="2" name="Sayha's Blessing">
-		<!-- Updated to IO -->
-		<!-- For 30 sec., nearby party members' Speed + 50, and Knock Back / Knock Down / Pull / Aerial Yoke / Aggression Resistance + 30. Requires a sword or blunt weapon. -->
+		<!-- For $s1, nearby party members' Speed + $s2, and Knock Back / Knock Down / Pull / Danger Zone / Aerial Yoke / Aggression Resistance + $s3. Requires a sword or blunt weapon. -->
 		<icon>icon.skill30022</icon>
 		<operateType>A2</operateType>
 		<abnormalLvl>1</abnormalLvl>
@@ -1753,17 +1731,14 @@
 		</effects>
 	</skill>
 	<skill id="30023" toLevel="1" name="Decoy Lock">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Cannot change target. -->
-		<icon>icon.skill0000</icon>
 		<operateType>A2</operateType>
 		<hitTime>1000</hitTime>
 		<effectPoint>-102</effectPoint>
 		<isDebuff>true</isDebuff>
 	</skill>
 	<skill id="30026" toLevel="4" name="Lightning Squall">
-		<!-- Updated to IO -->
-		<!-- Attacks target with 50 Power added to M. Atk., and decreases Speed by 20. -->
+		<!-- Attacks target with $s1 Power added to M. Atk., and decreases Speed by $s2. -->
 		<icon>icon.skill30026</icon>
 		<abnormalLvl>3</abnormalLvl>
 		<abnormalTime>5</abnormalTime>
@@ -1792,7 +1767,6 @@
 		</effects>
 	</skill>
 	<skill id="30027" toLevel="1" name="Destructive Bolt">
-		<!-- Updated to Ertheia -->
 		<!-- Attacks target with 300 Power added to M. Atk. and has a 10% chance of branding target with Storm Sign Stage 4. -->
 		<icon>icon.skill30026</icon>
 		<effectRange>1400</effectRange>
@@ -1808,15 +1782,14 @@
 				<power>300</power>
 			</effect>
 			<effect name="CallSkill">
-				<skillId>30005</skillId> <!-- Storm Sign Lv. 4 -->
+				<skillId>30005</skillId> <!-- Storm Sign -->
 				<skillLevel>4</skillLevel>
 				<chance>10</chance>
 			</effect>
 		</effects>
 	</skill>
 	<skill id="30029" toLevel="4" name="Divine Storm">
-		<!-- Updated to IO -->
-		<!-- Attacks nearby target with 448 Power added to M. Atk. and locks them inside a storm for 5 sec. 10% more damage if target is debuffed. Requires a sword or blunt weapon. -->
+		<!-- Attacks nearby target with $s1 Power added to M. Atk. and locks them inside a storm for $s2. $s3 more damage if target is debuffed. Requires a sword or blunt weapon. -->
 		<icon>icon.iconskill30007</icon>
 		<abnormalTime>5</abnormalTime>
 		<activateRate>
@@ -1892,7 +1865,6 @@
 		</effects>
 	</skill>
 	<skill id="30030" toLevel="1" name="Storm Captivity">
-		<!-- AUTO GENERATED SKILL -->
 		<!-- Trapped by a storm that gives continuous damage. -->
 		<icon>icon.skill1042</icon>
 		<operateType>A2</operateType>
@@ -1908,8 +1880,7 @@
 		</effects>
 	</skill>
 	<skill id="30040" toLevel="17" name="Eminent Blunt Weapon Mastery">
-		<!-- Updated to IO -->
-		<!-- When equipped with a blunt weapon, M. Atk. +17% and + 10, Casting Spd. + 5%. -->
+		<!-- When equipped with a blunt weapon, M. Atk. + $s1 and + $s2, Casting Spd. + $s3. -->
 		<icon>icon.skill30023</icon>
 		<operateType>P</operateType>
 		<effects>
@@ -1930,7 +1901,7 @@
 				<chance>33</chance> <!-- 33% Chance to trigger Storm Sign Lv. 4 -->
 				<castSkillId>30003</castSkillId> <!-- Hydro Flare -->
 				<allowWeapons>BLUNT</allowWeapons>
-				<skillId>30005</skillId> <!-- Storm Sign Lv. 4 -->
+				<skillId>30005</skillId> <!-- Storm Sign -->
 				<skillLevel>4</skillLevel>
 			</effect>
 			<effect name="MAtk">
@@ -2061,9 +2032,7 @@
 		</effects>
 	</skill>
 	<skill id="30041" toLevel="17" name="Eminent Robe Mastery">
-		<!-- Updated to IO -->
-		<!-- TODO: Block Shield and Sigil equip. -->
-		<!-- When equipped with a robe, P. Def. +7. Shields and Sigils are not worn, as you move with the wind. -->
+		<!-- When equipped with a robe, P. Def. + $s1. Shields and Sigils are not worn, as you move with the wind. -->
 		<icon>icon.skill30024</icon>
 		<operateType>P</operateType>
 		<effects>
@@ -2180,9 +2149,22 @@
 		</effects>
 	</skill>
 	<skill id="30042" toLevel="13" name="Eminent Quick Recovery">
-		<!-- Updated to IO -->
-		<!-- Max. MP + 33, MP Recovery Bonus + 1, and M. Skill Cooldown - 10%. -->
-		<icon>icon.skill10504</icon>
+		<!-- Max. MP + $s1, MP Recovery Bonus + $s2, and M. Skill Cooldown - $s3. -->
+		<icon>
+			<value level="1">icon.skill11004</value>
+			<value level="2">icon.skill10504</value>
+			<value level="3">icon.skill10504</value>
+			<value level="4">icon.skill10504</value>
+			<value level="5">icon.skill10504</value>
+			<value level="6">icon.skill10504</value>
+			<value level="7">icon.skill10504</value>
+			<value level="8">icon.skill10504</value>
+			<value level="9">icon.skill10504</value>
+			<value level="10">icon.skill10504</value>
+			<value level="11">icon.skill10504</value>
+			<value level="12">icon.skill10504</value>
+			<value level="13">icon.skill10504</value>
+		</icon>
 		<operateType>P</operateType>
 		<effects>
 			<effect name="MaxHp" fromLevel="4" toLevel="13">
@@ -2219,8 +2201,7 @@
 		</effects>
 	</skill>
 	<skill id="30043" toLevel="11" name="Eminent Attribute Resistance">
-		<!-- Updated to IO -->
-		<!-- Attack Attribute Bonus + 10, Fire / Water / Wind / Earth / Holy Resistance + 10. -->
+		<!-- Attack Attribute Bonus + $s1, Fire/Water/Wind/Earth/Holy Resistance + $s2. -->
 		<icon>icon.skill11006</icon>
 		<operateType>P</operateType>
 		<magicLvl>
@@ -2335,8 +2316,7 @@
 		</effects>
 	</skill>
 	<skill id="30044" toLevel="2" name="Eminent Trait Resistance">
-		<!-- Updated to Ertheia -->
-		<!-- Hold/Mental Resistance + 30. -->
+		<!-- Hold/Mental Resistance + $s1. -->
 		<icon>icon.skill10005</icon>
 		<operateType>P</operateType>
 		<effects>

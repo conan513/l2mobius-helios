@@ -690,12 +690,12 @@
 	</item>
 	<item id="23236" name="Scroll of Escape: Uthanka's Tomb" type="EtcItem">
 		<!-- Scroll of Escape dropped by Pirate Captain Uthanka's spirit. Use it to return to his tomb. -->
+		<set name="icon" val="icon.etc_scroll_of_return_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="handler" val="ItemSkills" />
-		<set name="icon" val="icon.etc_scroll_of_return_i00" />
 		<skills>
 			<skill id="21285" level="1" /> <!-- Scroll of Escape: Uthanka's Tomb -->
 		</skills>

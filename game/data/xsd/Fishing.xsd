@@ -11,14 +11,14 @@
 				</xs:element>
 				<xs:element name="experienceRate">
 					<xs:complexType>
-						<xs:attribute type="xs:positiveInteger" name="min" use="required" />
-						<xs:attribute type="xs:positiveInteger" name="max" use="required" />
+						<xs:attribute type="xs:double" name="min" use="required" />
+						<xs:attribute type="xs:double" name="max" use="required" />
 					</xs:complexType>
 				</xs:element>
 				<xs:element name="skillPointsRate">
 					<xs:complexType>
-						<xs:attribute type="xs:positiveInteger" name="min" use="required" />
-						<xs:attribute type="xs:positiveInteger" name="max" use="required" />
+						<xs:attribute type="xs:double" name="min" use="required" />
+						<xs:attribute type="xs:double" name="max" use="required" />
 					</xs:complexType>
 				</xs:element>
 				<xs:element name="baits">
